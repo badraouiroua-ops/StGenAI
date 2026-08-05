@@ -1,0 +1,210 @@
+{
+  "table_id": "table_13",
+  "document": "DS14720 Rev 3 - Table 13. Port A alternate function mapping (AF0 to AF7)",
+  "rev": "Rev 3",
+  "table_number": "13",
+  "title": "Table 13. Port A alternate function mapping (AF0 to AF7)",
+  "page": 38,
+  "section": "4 Pinouts, pin description and alternate functions",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=38",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 13. Port A alternate function mapping (AF0 to AF7) — section 4 Pinouts, pin description and alternate functions. Port, AF0, AF1, AF2, AF3, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Port",
+      "AF0",
+      "AF1",
+      "AF2",
+      "AF3",
+      "AF4",
+      "AF5",
+      "AF6",
+      "AF7"
+    ],
+    "rows": [
+      [
+        "PA0",
+        "SPI2_SCK",
+        "USART2_CTS/ USART2_NSS",
+        "TIM16_CH1",
+        "TIM2_ETR/ TIM2_CH1",
+        "USART1_TX",
+        "TIM1_CH1",
+        "-",
+        "-"
+      ],
+      [
+        "PA1",
+        "SPI1_SCK/ I2S1_CK",
+        "USART2_RTS/ USART2_DE/ USART2_CK",
+        "TIM17_CH1",
+        "TIM2_CH2",
+        "USART1_RX",
+        "TIM1_CH2",
+        "I2C1_SMBA",
+        "EVENTOUT"
+      ],
+      [
+        "PA2",
+        "SPI1_MOSI/ I2S1_SD",
+        "USART2_TX",
+        "TIM16_CH1N",
+        "TIM3_ETR",
+        "-",
+        "TIM1_CH3",
+        "TIM2_CH3",
+        "-"
+      ],
+      [
+        "PA3",
+        "SPI2_MISO",
+        "USART2_RX",
+        "TIM1_CH1N",
+        "TIM2_CH4",
+        "-",
+        "TIM1_CH4",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA4",
+        "SPI1_NSS/ I2S1_WS",
+        "USART2_TX",
+        "TIM1_CH2N",
+        "SPI2_MOSI",
+        "TIM14_CH1",
+        "TIM17_CH1N",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA5",
+        "SPI1_SCK/ I2S1_CK",
+        "USART2_RX",
+        "TIM1_CH3N",
+        "TIM2_ETR/ TIM2_CH1",
+        "USART3_TX",
+        "TIM1_CH1",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA6",
+        "SPI1_MISO/ I2S1_MCK",
+        "TIM3_CH1",
+        "TIM1_BKIN",
+        "-",
+        "USART3_CTS/U SART3_NSS",
+        "TIM16_CH1",
+        "I2C2_SDA",
+        "-"
+      ],
+      [
+        "PA7",
+        "SPI1_MOSI/ I2S1_SD",
+        "TIM3_CH2",
+        "TIM1_CH1N",
+        "-",
+        "TIM14_CH1",
+        "TIM17_CH1",
+        "I2C2_SCL",
+        "-"
+      ],
+      [
+        "PA8",
+        "MCO",
+        "USART2_TX",
+        "TIM1_CH1",
+        "SPI2_NSS",
+        "-",
+        "-",
+        "SPI2_MISO",
+        "EVENTOUT"
+      ],
+      [
+        "PA9",
+        "MCO",
+        "USART1_TX",
+        "TIM1_CH2",
+        "TIM3_ETR",
+        "SPI2_MISO",
+        "TIM15_BKIN",
+        "I2C1_SCL",
+        "EVENTOUT"
+      ],
+      [
+        "PA10",
+        "SPI2_MOSI",
+        "USART1_RX",
+        "TIM1_CH3",
+        "MCO2",
+        "-",
+        "TIM17_BKIN",
+        "I2C1_SDA",
+        "EVENTOUT"
+      ],
+      [
+        "PA11",
+        "SPI1_MISO/ I2S1_MCK",
+        "USART1_CTS/ USART1_NSS",
+        "TIM1_CH4",
+        "-",
+        "FDCAN1_RX",
+        "TIM1_BKIN2",
+        "I2C2_SCL",
+        "-"
+      ],
+      [
+        "PA12",
+        "SPI1_MOSI/ I2S1_SD",
+        "USART1_RTS/ USART1_DE/ USART1_CK",
+        "TIM1_ETR",
+        "-",
+        "FDCAN1_TX",
+        "I2S_CKIN",
+        "I2C2_SDA",
+        "-"
+      ],
+      [
+        "PA13",
+        "SWDIO",
+        "IR_OUT",
+        "-",
+        "TIM3_ETR",
+        "USART2_RX",
+        "-",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA14",
+        "SWCLK",
+        "USART2_TX",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA15",
+        "SPI1_NSS/ I2S1_WS",
+        "USART2_RX",
+        "TIM1_CH1",
+        "MCO2",
+        "USART1_RTS/ USART1_DE/ USART1_CK",
+        "TIM2_ETR/ TIM2_CH1",
+        "USART4_RTS/U SART4_DE/USA RT4_CK",
+        "EVENTOUT"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

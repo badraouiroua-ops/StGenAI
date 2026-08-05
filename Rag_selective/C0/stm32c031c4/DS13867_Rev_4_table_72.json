@@ -1,0 +1,48 @@
+{
+  "table_id": "table_72",
+  "document": "DS13867 Rev 4 - Table 72. Document revision history",
+  "rev": "Rev 4",
+  "table_number": "72",
+  "title": "Table 72. Document revision history",
+  "page": 102,
+  "section": "9 Revision history",
+  "section_title": "Revision history",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=102",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 72. Document revision history — section 9 Revision history. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "30-Mar-2022",
+        "1",
+        "Initial release."
+      ],
+      [
+        "25-Jul-2022",
+        "2",
+        "Updated Table 49: I/O current injection susceptibility, Table 56: ADC accuracy Fixed typing errors."
+      ],
+      [
+        "09-Dec-2022",
+        "3",
+        "Updated: – Table 21, Table 28, Table 29, Table 30, Table 31, Table 37, Table 41, Table 56 – Figure 1, Figure 11, Figure 22, Figure 23"
+      ],
+      [
+        "11-Jan-2024",
+        "4",
+        "Updated: – Cover page – Section 1: Introduction, Section 3.4: Embedded SRAM, Section 3.7.1: Power supply schemes, Section 3.9: Clocks and startup, Section 3.15.1: Advanced-control timer (TIM1), Section 5.2: Absolute maximum ratings, Section : I/O system current consumption, Section : Electromagnetic interference (EMI), Section : General input/output characteristics, Section 5.3.17: Timer characteristics, Section 5.3.18: Characteristics of communication interfaces, and Section 6: Package information – Table 2, Table 7, Table 9, Table 12, Table 21, Table 28, Table 51, and Table 57 – Figure 1, Figure 2, Figure 20, Figure 21, and Figure 23 – Added Figure 29, Figure 30, and Section 6.8: Thermal characteristics"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

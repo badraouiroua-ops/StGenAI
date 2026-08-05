@@ -1,0 +1,89 @@
+{
+  "table_id": "table_7",
+  "document": "DS14693 Rev 2 - Table 7. Timer feature comparison",
+  "rev": "Rev 2",
+  "table_number": "7",
+  "title": "Table 7. Timer feature comparison",
+  "page": 23,
+  "section": "3.15 Timers and watchdogs",
+  "section_title": "Timers and watchdogs",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=23",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 7. Timer feature comparison — section 3.15 Timers and watchdogs. Timer, Timer type, Counter resolution, Counter type, Maximum operating frequency, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Timer",
+      "Timer type",
+      "Counter resolution",
+      "Counter type",
+      "Maximum operating frequency",
+      "Prescaler factor",
+      "DMA request generation",
+      "Capture/ compare channels",
+      "Comple- mentary outputs"
+    ],
+    "rows": [
+      [
+        "TIM1",
+        "Advanced-control",
+        "16-bit",
+        "Up, down, up/down",
+        "48 MHz",
+        "Integer from 1 to 2¹⁶",
+        "Yes",
+        "4 +2 internal",
+        "3"
+      ],
+      [
+        "TIM2",
+        "General-purpose",
+        "32-bit",
+        "Up, down, up/down",
+        "48 MHz",
+        "Integer from 1 to 2¹⁶",
+        "Yes",
+        "4",
+        "-"
+      ],
+      [
+        "TIM3",
+        "General-purpose",
+        "16-bit",
+        "Up, down, up/down",
+        "48 MHz",
+        "Integer from 1 to 2¹⁶",
+        "Yes",
+        "4",
+        "-"
+      ],
+      [
+        "TIM14",
+        "General-purpose",
+        "16-bit",
+        "Up",
+        "48 MHz",
+        "Integer from 1 to 2¹⁶",
+        "No",
+        "1",
+        "-"
+      ],
+      [
+        "TIM16 TIM17",
+        "General-purpose",
+        "16-bit",
+        "Up",
+        "48 MHz",
+        "Integer from 1 to 2¹⁶",
+        "Yes",
+        "1",
+        "1"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

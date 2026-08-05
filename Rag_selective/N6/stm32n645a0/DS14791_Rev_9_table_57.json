@@ -1,0 +1,71 @@
+{
+  "table_id": "table_57",
+  "document": "DS14791 Rev 9 - Table 57. 32 kHz low-speed internal (LSI) oscillator characteristics",
+  "rev": "Rev 9",
+  "table_number": "57",
+  "title": "Table 57. 32 kHz low-speed internal (LSI) oscillator characteristics",
+  "page": 164,
+  "section": "5.3.10 Internal clock source characteristics",
+  "section_title": "Internal clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=164",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 57. 32 kHz low-speed internal (LSI) oscillator characteristics — section 5.3.10 Internal clock source characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f LSI",
+        "Frequency",
+        "T = 30°C J",
+        "30.5",
+        "32",
+        "33.5",
+        "kHz"
+      ],
+      [
+        "f LSI",
+        "Frequency",
+        "T = -40 to 125°C J",
+        "28.8",
+        "32",
+        "33.6",
+        "kHz"
+      ],
+      [
+        "t su(LSI)",
+        "Start-up time (from enable rise to first output clock edge)",
+        "-",
+        "-",
+        "-",
+        "180",
+        "μs"
+      ],
+      [
+        "I VSW(LSI)",
+        "Supply current on V SW",
+        "-",
+        "-",
+        "250",
+        "500",
+        "nA"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization, not tested in production unless otherwise specified.",
+      "2. Guaranteed by test in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

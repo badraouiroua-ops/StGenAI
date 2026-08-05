@@ -1,0 +1,125 @@
+{
+  "table_id": "table_24",
+  "document": "DS14693 Rev 2 - Table 24. General operating conditions",
+  "rev": "Rev 2",
+  "table_number": "24",
+  "title": "Table 24. General operating conditions",
+  "page": 53,
+  "section": "5.3.1 General operating conditions",
+  "section_title": "General operating conditions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=53",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 24. General operating conditions — section 5.3.1 General operating conditions. Symbol, Parameter, Conditions, Min, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DD",
+        "Standard operating voltage",
+        "-",
+        "2.0(1)",
+        "3.6",
+        "V"
+      ],
+      [
+        "V DDIO2",
+        "External supply voltage for selected I/Os",
+        "-",
+        "1.65",
+        "3.6",
+        "V"
+      ],
+      [
+        "V IN",
+        "I/O input voltage",
+        "-",
+        "-0.3",
+        "Min (V + 3.6, 5.5)(2)(3) DDIOx",
+        "V"
+      ],
+      [
+        "f HCLK",
+        "AHB clock frequency",
+        "-",
+        "-",
+        "48",
+        "MHz"
+      ],
+      [
+        "f PCLK",
+        "APB clock frequency",
+        "-",
+        "-",
+        "48",
+        "MHz"
+      ],
+      [
+        "T A",
+        "Ambient temperature(4)",
+        "Suffix 6(5)",
+        "-40",
+        "85",
+        "°C"
+      ],
+      [
+        "T A",
+        "Ambient temperature(4)",
+        "Suffix 7(5)",
+        "-40",
+        "105",
+        "°C"
+      ],
+      [
+        "T A",
+        "Ambient temperature(4)",
+        "Suffix 3(5)",
+        "-40",
+        "125",
+        "°C"
+      ],
+      [
+        "T J",
+        "Junction temperature",
+        "Suffix 6(5)",
+        "-40",
+        "105",
+        "°C"
+      ],
+      [
+        "T J",
+        "Junction temperature",
+        "Suffix 7(5)",
+        "-40",
+        "125",
+        "°C"
+      ],
+      [
+        "T J",
+        "Junction temperature",
+        "Suffix 3(5)",
+        "-40",
+        "130",
+        "°C"
+      ]
+    ],
+    "notes": [
+      "1. When RESET is released, functionality is guaranteed down to V . PDR",
+      "2. For operation with voltage higher than VDD +0.3 V, the internal pull-up and pull-down resistors must be disabled.",
+      "3. When V >V and an FT_sa pin is used by an analog peripheral such as ADC, the maximum V is V +0.3V. DDIO2 DD IN DD",
+      "4. The T (max) applies to P (max). At P < P (max) the ambient temperature is allowed to go higher than T (max) provided A D D D A",
+      "5. Temperature range digit in the order code. See Section 7: Ordering information."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

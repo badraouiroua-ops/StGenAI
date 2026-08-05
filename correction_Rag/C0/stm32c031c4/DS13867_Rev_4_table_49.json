@@ -1,0 +1,44 @@
+{
+  "table_id": "table_49",
+  "document": "DS13867 Rev 4 - Table 49. I/O current injection susceptibility",
+  "rev": "Rev 4",
+  "table_number": "49",
+  "title": "Table 49. I/O current injection susceptibility",
+  "page": 65,
+  "section": "5.3.12 I/O current injection characteristics",
+  "section_title": "I/O current injection characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=65",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 49. I/O current injection susceptibility — section 5.3.12 I/O current injection characteristics. Symbol, Description, Description, Functional susceptibility / Negative injection, Functional susceptibility / Positive injection, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Description",
+      "Description",
+      "Functional susceptibility / Negative injection",
+      "Functional susceptibility / Positive injection",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I INJ",
+        "Injected current on pin",
+        "Any IO",
+        "5",
+        "NA",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Refer to Figure 19: I/O input characteristics.",
+      "2. Specified by design – Not tested in production.",
+      "3. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: ITotal_Ileak_max = 10 μA + [number of I/Os where VIN is applied on the pad] ₓ Ilkg(Max).",
+      "4. Pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10% order)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

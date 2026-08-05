@@ -1,0 +1,117 @@
+{
+  "table_id": "table_34",
+  "document": "DS14927 Rev 2 - Table 34. Low-speed external user clock characteristics.",
+  "rev": "Rev 2",
+  "table_number": "34",
+  "title": "Table 34. Low-speed external user clock characteristics.",
+  "page": 66,
+  "section": "5.3.8.2 Low-speed external user clock generated from an external source",
+  "section_title": "Low-speed external user clock generated from an external source",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=66",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "text_helper": "Table 34. Low-speed external user clock characteristics. — section 5.3.8.2 Low-speed external user clock generated from an external source. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fLSE_ext",
+        "User external clock source frequency",
+        "External digital/analog clock",
+        "-",
+        "32.768",
+        "1000",
+        "kHz"
+      ],
+      [
+        "VLSEH",
+        "Digital OSC_IN input high level",
+        "External digital clock",
+        "0.7 VDD",
+        "-",
+        "VDD",
+        "V"
+      ],
+      [
+        "VLSEL",
+        "OSC32_IN input pin low level voltage",
+        "External digital clock",
+        "VSS",
+        "-",
+        "0.3 VDD",
+        "V"
+      ],
+      [
+        "tw(LSEH)/tw(LSEL)",
+        "OSC32_IN high or low time",
+        "External digital clock",
+        "250",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "Vlsw_H",
+        "Analog low swing OSC_IN high level",
+        "External analog low swing clock",
+        "0.6",
+        "-",
+        "1.225",
+        "V"
+      ],
+      [
+        "Vlsw_L",
+        "Analog low swing OSC_IN low level",
+        "External analog low swing clock",
+        "0.35",
+        "-",
+        "0.8",
+        "V"
+      ],
+      [
+        "VlswLSE (VLSEH - VLSEL)",
+        "Analog low swing OSC_IN peak-to- peak amplitude",
+        "External analog low swing clock",
+        "0.2",
+        "-",
+        "0.875",
+        "V"
+      ],
+      [
+        "DuCyLSE",
+        "Analog low swing OSC_IN duty cycle",
+        "External analog Low Swing Clock",
+        "45",
+        "50",
+        "55",
+        "%"
+      ],
+      [
+        "trLSE/tfLSE",
+        "Analog low swing OSC_IN rise and fall time",
+        "Externala analog low swing clock 10 % to 90 %",
+        "-",
+        "100",
+        "200",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "3. tSU(HSE) is the startup time measured from the moment it is enabled (by software) to a stabilized 8 MHz oscillation is reached. This value is measured for a standard crystal resonator and it can vary significantly with the crystal manufacturer."
+    ],
+    "legend": [
+      "Specified by design and not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "table_id": "table_6",
+  "document": "DS13867 Rev 4 - Table 6. Internal voltage reference calibration values",
+  "rev": "Rev 4",
+  "table_number": "6",
+  "title": "Table 6. Internal voltage reference calibration values",
+  "page": 21,
+  "section": "3.14.2 Internal voltage reference (V )",
+  "section_title": "Internal voltage reference (V )",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=21",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 6. Internal voltage reference calibration values — section 3.14.2 Internal voltage reference (V ). Calibration value name, Description, Memory address.",
+  "table_content": {
+    "headers": [
+      "Calibration value name",
+      "Description",
+      "Memory address"
+    ],
+    "rows": [
+      [
+        "V REFINT",
+        "Raw data acquired at a temperature of 30 °C (± 5 °C), V = V = 3.0 V (± 10 mV) DDA REF+",
+        "0x1FFF756A-0x1FFF756B"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

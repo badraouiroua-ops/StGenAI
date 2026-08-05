@@ -1,0 +1,126 @@
+{
+  "table_id": "table_53",
+  "document": "DS14927 Rev 2 - Table 53. EXTI input characteristics.",
+  "rev": "Rev 2",
+  "table_number": "53",
+  "title": "Table 53. EXTI input characteristics.",
+  "page": 82,
+  "section": "5.3.16 Extended interrupt and event controller input (EXTI) characteristics",
+  "section_title": "Extended interrupt and event controller input (EXTI) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=82",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "text_helper": "Table 53. EXTI input characteristics. — section 5.3.16 Extended interrupt and event controller input (EXTI) characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "PLEC",
+        "Pulse length to event controller",
+        "-",
+        "20",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CADC",
+        "Internal sample and hold capacitor",
+        "-",
+        "-",
+        "3",
+        "-",
+        "pF"
+      ],
+      [
+        "tADCVREG_ STUP",
+        "ADC LDO startup time",
+        "-",
+        "-",
+        "-",
+        "10",
+        "µs"
+      ],
+      [
+        "tSTAB",
+        "ADC power-up time",
+        "LDO already started",
+        "1",
+        "-",
+        "-",
+        "conversion cycle"
+      ],
+      [
+        "tOFF_CAL",
+        "Offset calibration time",
+        "-",
+        "85",
+        "85",
+        "85",
+        "1/fADC"
+      ],
+      [
+        "tLATR",
+        "Trigger conversion latency for regular and injected channels",
+        "Trigger from an asynchronous clock",
+        "3",
+        "-",
+        "4",
+        "1/fADC"
+      ],
+      [
+        "tLATR",
+        "Trigger conversion latency for regular and injected channels",
+        "Trigger from a synchronous clock",
+        "3",
+        "-",
+        "4",
+        "1/fADC"
+      ],
+      [
+        "tS",
+        "Sampling time",
+        "-",
+        "2.5",
+        "-",
+        "288.5",
+        "1/fADC"
+      ],
+      [
+        "tCONV",
+        "Total conversion time (including sampling time)",
+        "N-bits resolution",
+        "tS + 1.5 + N",
+        "tS + 1.5 + N",
+        "tS + 1.5 + N",
+        "1/fADC"
+      ],
+      [
+        "IDDA(ADC)",
+        "ADC consumption on VDD, VDDA and VREF",
+        "fS = 2.25 MSPS",
+        "-",
+        "200",
+        "-",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. High temperature generate leakage current on ADC inputs. This current create voltage drop through Rain directly affecting ADC accuracy (worst case when VAIN = VDDA). To limit this effect to a tolerance of 2LSBs, you must respect Rain max tables."
+    ],
+    "legend": [
+      "Specified by design and not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

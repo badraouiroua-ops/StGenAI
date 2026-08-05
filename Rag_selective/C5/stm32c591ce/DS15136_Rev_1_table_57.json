@@ -1,0 +1,108 @@
+{
+  "table_id": "table_57",
+  "document": "DS15136 Rev 1 - Table 57. 12-bit ADC accuracy",
+  "rev": "Rev 1",
+  "table_number": "57",
+  "title": "Table 57. 12-bit ADC accuracy",
+  "page": 93,
+  "section": "5.3.18 Delay block (DLYB) characteristics",
+  "section_title": "Delay block (DLYB) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=93",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "text_helper": "Table 57. 12-bit ADC accuracy — section 5.3.18 Delay block (DLYB) characteristics. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "ET",
+        "Total unadjusted error",
+        "-",
+        "4",
+        "5.7",
+        "LSB"
+      ],
+      [
+        "EO",
+        "Offset error",
+        "-",
+        "±2.5",
+        "±5",
+        "LSB"
+      ],
+      [
+        "EG",
+        "Gain error",
+        "-",
+        "2.6",
+        "6",
+        "LSB"
+      ],
+      [
+        "ED",
+        "Differential linearity error",
+        "-1",
+        "-",
+        "1.3",
+        "LSB"
+      ],
+      [
+        "EL",
+        "Integral linearity error",
+        "-3",
+        "±2.5",
+        "3",
+        "LSB"
+      ],
+      [
+        "ENOB",
+        "Effective number of bits",
+        "-",
+        "10.7",
+        "-",
+        "bits"
+      ],
+      [
+        "SINAD",
+        "Signal-to-noise and distortion ratio",
+        "-",
+        "66",
+        "-",
+        "bits"
+      ],
+      [
+        "SNR",
+        "Signal-to-noise ratio",
+        "-",
+        "68",
+        "-",
+        "dB"
+      ],
+      [
+        "THD",
+        "Total harmonic distortion",
+        "-",
+        "-70",
+        "-",
+        "dB"
+      ]
+    ],
+    "notes": [
+      "1. High temperature generate leakage current on ADC inputs. This current create voltage drop through Rain directly affecting ADC accuracy (worst case when VAIN = VDDA). To limit this effect to a tolerance of 2LSBs, you must respect Rain max tables."
+    ],
+    "legend": [
+      "ADC accuracy values are measured after internal calibration. Resolution = 12 bits, no oversampling.",
+      "Evaluated by characterization on LQFP100. Packages without a VREF- pad can have degraded specifications. Not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

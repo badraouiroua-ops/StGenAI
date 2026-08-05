@@ -1,0 +1,80 @@
+{
+  "table_id": "table_45",
+  "document": "DS13866 Rev 5 - Table 45. EMI characteristics",
+  "rev": "Rev 5",
+  "table_number": "45",
+  "title": "Table 45. EMI characteristics",
+  "page": 58,
+  "section": "5.3.10 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=58",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "Table 45. EMI characteristics — section 5.3.10 EMC characteristics. Symbol, Parameter, Conditions, Monitored frequency band, Max vs. [f /f ] HSE CPU / 48 MHz / 48 MHz, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Monitored frequency band",
+      "Max vs. [f /f ] HSE CPU / 48 MHz / 48 MHz",
+      "Max vs. [f /f ] HSI CPU / 48 MHz / 48 MHz",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "SEMI",
+        "Peak(1)",
+        "VDD = 3.6 V, TA = 25 °C, TSSOP20 package compliant with IEC 61967-2",
+        "0.1 MHz to 30 MHz",
+        "3",
+        "3",
+        "dBµV"
+      ],
+      [
+        "SEMI",
+        "Peak(1)",
+        "VDD = 3.6 V, TA = 25 °C, TSSOP20 package compliant with IEC 61967-2",
+        "30 MHz to 130 MHz",
+        "5",
+        "-2",
+        "dBµV"
+      ],
+      [
+        "SEMI",
+        "Peak(1)",
+        "VDD = 3.6 V, TA = 25 °C, TSSOP20 package compliant with IEC 61967-2",
+        "130 MHz to 1 GHz",
+        "1",
+        "-1",
+        "dBµV"
+      ],
+      [
+        "SEMI",
+        "Peak(1)",
+        "VDD = 3.6 V, TA = 25 °C, TSSOP20 package compliant with IEC 61967-2",
+        "1 GHz to 2 GHz",
+        "7",
+        "8",
+        "dBµV"
+      ],
+      [
+        "SEMI",
+        "Level(2)",
+        "VDD = 3.6 V, TA = 25 °C, TSSOP20 package compliant with IEC 61967-2",
+        "0.1 MHz to 2 GHz",
+        "2",
+        "2",
+        "dBµV"
+      ]
+    ],
+    "notes": [
+      "1. Refer to AN1709, section EMI radiated test",
+      "2. Refer to AN1709, section EMI level classification"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

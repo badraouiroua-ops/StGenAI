@@ -1,0 +1,81 @@
+{
+  "table_id": "table_22",
+  "document": "DS14721 Rev 2 - Table 22. Current characteristics",
+  "rev": "Rev 2",
+  "table_number": "22",
+  "title": "Table 22. Current characteristics",
+  "page": 41,
+  "section": "5.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=41",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "text_helper": "Table 22. Current characteristics — section 5.2 Absolute maximum ratings. Symbol, Ratings, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I VDD/VDDA",
+        "Current into VDD/VDDA power pin (source)",
+        "100",
+        "mA"
+      ],
+      [
+        "I VSS/VSSA",
+        "Current out of VSS/VSSA ground pin (sink)",
+        "100",
+        "mA"
+      ],
+      [
+        "I IO(PIN)",
+        "Output current sunk by any I/O and control pin",
+        "20",
+        "mA"
+      ],
+      [
+        "I IO(PIN)",
+        "Output current sourced by any I/O and control pin",
+        "20",
+        "mA"
+      ],
+      [
+        "∑I (PIN)",
+        "Total output current sunk by sum of all I/Os and control pins(1)",
+        "80",
+        "mA"
+      ],
+      [
+        "∑I (PIN)",
+        "Total output current sourced by sum of all I/Os and control pins(1)",
+        "80",
+        "mA"
+      ],
+      [
+        "I (1)(2) INJ(PIN)",
+        "Injected current on a FT_xx pin",
+        "-5 / NA",
+        "mA"
+      ],
+      [
+        "∑I INJ(PIN)",
+        "Total injected current (sum of all I/Os and control pins)(3)",
+        "-25",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. V maximum must always be respected. Refer to Table 22 for the maximum allowed injected current values. IN",
+      "2. To sustain a voltage higher than 4 V the internal pull-up/pull-down resistors must be disabled.",
+      "3. When an FT_a pin is used by an analog peripheral such as ADC, the maximum V is 4 V. IN"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

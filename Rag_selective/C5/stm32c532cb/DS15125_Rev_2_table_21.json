@@ -1,0 +1,33 @@
+{
+  "table_id": "table_21",
+  "document": "DS15125 Rev 2 - Table 21. Internal reference voltage calibration values",
+  "rev": "Rev 2",
+  "table_number": "21",
+  "title": "Table 21. Internal reference voltage calibration values",
+  "page": 53,
+  "section": "5.3.5 Embedded voltage reference",
+  "section_title": "Embedded voltage reference",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=53",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 21. Internal reference voltage calibration values — section 5.3.5 Embedded voltage reference. Symbol, Parameter, Memory address.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Memory address"
+    ],
+    "rows": [
+      [
+        "VREFINT_CAL",
+        "Raw data acquired at temperature of 30 °C, VDDA = 3.3 V",
+        "0x08FFF810 - 0x08FFF812"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

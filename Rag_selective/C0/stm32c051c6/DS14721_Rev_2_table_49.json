@@ -1,0 +1,41 @@
+{
+  "table_id": "table_49",
+  "document": "DS14721 Rev 2 - Table 49. I/O current injection susceptibility",
+  "rev": "Rev 2",
+  "table_number": "49",
+  "title": "Table 49. I/O current injection susceptibility",
+  "page": 65,
+  "section": "5.3.12 I/O current injection characteristics",
+  "section_title": "I/O current injection characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=65",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "text_helper": "Table 49. I/O current injection susceptibility — section 5.3.12 I/O current injection characteristics. Symbol, Description, Description, Functional susceptibility / Negative injection, Functional susceptibility / Positive injection, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Description",
+      "Description",
+      "Functional susceptibility / Negative injection",
+      "Functional susceptibility / Positive injection",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I INJ",
+        "Injected current on pin",
+        "Any IO",
+        "5(1)",
+        "NA",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

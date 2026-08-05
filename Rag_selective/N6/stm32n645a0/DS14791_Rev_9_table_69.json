@@ -1,0 +1,95 @@
+{
+  "table_id": "table_69",
+  "document": "DS14791 Rev 9 - Table 69. Asynchronous non multiplexed SRAM/PSRAM/NOR read timings",
+  "rev": "Rev 9",
+  "table_number": "69",
+  "title": "Table 69. Asynchronous non multiplexed SRAM/PSRAM/NOR read timings",
+  "page": 173,
+  "section": "5.3.19 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=173",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 69. Asynchronous non multiplexed SRAM/PSRAM/NOR read timings — section 5.3.19 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t v(NOE_NE)",
+        "FMC_NEx low to FMC_NOE low",
+        "0",
+        "0.5",
+        "ns"
+      ],
+      [
+        "t w(NOE)",
+        "FMC_NOE low time",
+        "2 × T - 0.5 fmc_ker_ck",
+        "2 × T + 1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t h(NE_NOE)",
+        "FMC_NOE high to FMC_NE high hold time",
+        "T - 0.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(A_NOE)",
+        "Address hold time after FMC_NOE high",
+        "Address held until next read operation",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(Data_NE)",
+        "Data to FMC_NEx high setup time",
+        "T + 17 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(Data_NOE)",
+        "Data to FMC_NOEx high setup time",
+        "16",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(Data_NOE)",
+        "Data hold time after FMC_NOE high",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(Data_NE)",
+        "Data hold time after FMC_NEx high",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(NADV_NE)",
+        "FMC_NEx low to FMC_NADV low",
+        "-",
+        "0.5",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Mode 2/B, C, and D only. In mode 1, FMC_NADV is not used. 174/258 DS14791 Rev 9"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

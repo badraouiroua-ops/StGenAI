@@ -1,0 +1,62 @@
+{
+  "table_id": "table_51",
+  "document": "DS14791 Rev 9 - Table 51. LSE clock characteristics (analog bypass)",
+  "rev": "Rev 9",
+  "table_number": "51",
+  "title": "Table 51. LSE clock characteristics (analog bypass)",
+  "page": 162,
+  "section": "5.3.8 External clock sources characteristics",
+  "section_title": "External clock sources characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=162",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 51. LSE clock characteristics (analog bypass) — section 5.3.8 External clock sources characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f LSE_ext",
+        "User external clock source",
+        "-",
+        "-",
+        "32.768",
+        "-",
+        "kHz"
+      ],
+      [
+        "V LSE",
+        "Absolute input range",
+        "-",
+        "0",
+        "-",
+        "V (2) SW",
+        "V"
+      ],
+      [
+        "V PP",
+        "OSC_IN peak to peak amplitude",
+        "-",
+        "0.2(3)",
+        "1",
+        "-",
+        "V"
+      ]
+    ],
+    "notes": [
+      "2. V is equal to V when present, to V otherwise. SW DD BAT",
+      "3. Minimum peak-to-peak amplitude, 25°C, 0.1 < V < V - 0.1 V (V is the DC component of the input signal). DC DDA18AON DC"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

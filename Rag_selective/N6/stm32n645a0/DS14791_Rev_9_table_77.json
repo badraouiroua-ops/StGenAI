@@ -1,0 +1,67 @@
+{
+  "table_id": "table_77",
+  "document": "DS14791 Rev 9 - Table 77. Synchronous multiplexed NOR/PSRAM read timings",
+  "rev": "Rev 9",
+  "table_number": "77",
+  "title": "Table 77. Synchronous multiplexed NOR/PSRAM read timings",
+  "page": 181,
+  "section": "5.3.19 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=181",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 77. Synchronous multiplexed NOR/PSRAM read timings — section 5.3.19 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t d(CLKH-AIV)",
+        "FMC_CLK high to FMC_Ax invalid (x = 16…25)",
+        "Address held until next read operation",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(CLKL-ADIV)",
+        "FMC_CLK low to FMC_AD[15:0] invalid",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(ADV-CLKH)",
+        "FMC_A/D[15:0] valid data before FMC_CLK high",
+        "4.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(CLKH-ADV)",
+        "FMC_A/D[15:0] valid data after FMC_CLK high",
+        "2",
+        "-",
+        "ns"
+      ],
+      [
+        "T cew(NExL-NWAIT)",
+        "FMC_NWAIT valid after FMC_NEx low (x = 0…2)",
+        "-",
+        "(DATLAT + 2.5) × T × R - 10.5 fmc_ker_ck",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. Clock ratio R = FMC_CLK period / FMC_ker_CLK period. DS14791 Rev 9 181/258"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

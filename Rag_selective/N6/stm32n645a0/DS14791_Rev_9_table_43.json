@@ -1,0 +1,113 @@
+{
+  "table_id": "table_43",
+  "document": "DS14791 Rev 9 - Table 43. Current consumption in Stop mode",
+  "rev": "Rev 9",
+  "table_number": "43",
+  "title": "Table 43. Current consumption in Stop mode",
+  "page": 156,
+  "section": "5.3.6 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=156",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 43. Current consumption in Stop mode — section 5.3.6 Supply current characteristics. Symbol, Conditions, Conditions, SMPS internal / Typ, SMPS internal / Max(1) / T = 125°C J, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Conditions",
+      "Conditions",
+      "SMPS internal / Typ",
+      "SMPS internal / Max(1) / T = 125°C J",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "V = 1.8 V DD",
+        "SVOS high",
+        "273.4",
+        "362.1",
+        "μA"
+      ],
+      [
+        "I DD",
+        "V = 1.8 V DD",
+        "SVOS low",
+        "273.4",
+        "362.1",
+        "μA"
+      ],
+      [
+        "I DDCORE",
+        "V = 1.8 V DD",
+        "SVOS high",
+        "8.62",
+        "521.2",
+        "mA"
+      ],
+      [
+        "I DDCORE",
+        "V = 1.8 V DD",
+        "SVOS low",
+        "8.70",
+        "561.4",
+        "mA"
+      ],
+      [
+        "I DDA1V8",
+        "V = 1.8 V DD",
+        "SVOS high",
+        "358.5",
+        "1022.1",
+        "μA"
+      ],
+      [
+        "I DDA1V8",
+        "V = 1.8 V DD",
+        "SVOS low",
+        "362.7",
+        "1050.6",
+        "μA"
+      ],
+      [
+        "I DDSMPS",
+        "V = 1.8 V DD",
+        "SVOS high",
+        "4.16",
+        "288.4",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "V = 1.8 V DD",
+        "SVOS low",
+        "3.60",
+        "267.8",
+        "mA"
+      ],
+      [
+        "I DDA1V8AON",
+        "V = 1.8 V DD",
+        "SVOS high",
+        "56.05",
+        "87.97",
+        "μA"
+      ],
+      [
+        "I DDA1V8AON",
+        "V = 1.8 V DD",
+        "SVOS low",
+        "41.97",
+        "86.39",
+        "μA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results unless otherwise specified."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

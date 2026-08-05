@@ -1,0 +1,50 @@
+{
+  "table_id": "table_15",
+  "document": "DS14791 Rev 9 - Table 15. SAI features",
+  "rev": "Rev 9",
+  "table_number": "15",
+  "title": "Table 15. SAI features",
+  "page": 76,
+  "section": "3.47 Serial audio interface (SAI)",
+  "section_title": "Serial audio interface (SAI)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=76",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 15. SAI features — section 3.47 Serial audio interface (SAI). Feature, SAI1, SAI2.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "SAI1",
+      "SAI2"
+    ],
+    "rows": [
+      [
+        "I2S, LSB- or MSB-justified, PCM/DSP, TDM, AC'97",
+        "X",
+        "X"
+      ],
+      [
+        "FIFO size",
+        "8 words",
+        "8 words"
+      ],
+      [
+        "SPDIF",
+        "X",
+        "X"
+      ],
+      [
+        "PDM",
+        "X(2)",
+        "-"
+      ]
+    ],
+    "notes": [
+      "2. Only signals D[3:1] and CK[2:1] are available."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

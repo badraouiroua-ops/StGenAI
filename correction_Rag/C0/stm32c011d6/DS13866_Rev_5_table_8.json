@@ -1,0 +1,57 @@
+{
+  "table_id": "table_8",
+  "document": "DS13866 Rev 5 - Table 8. I2C implementation",
+  "rev": "Rev 5",
+  "table_number": "8",
+  "title": "Table 8. I2C implementation",
+  "page": 24,
+  "section": "3.16 Real-time clock (RTC)",
+  "section_title": "Real-time clock (RTC)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=24",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "Table 8. I2C implementation — section 3.16 Real-time clock (RTC). I2C features(1), I2C1.",
+  "table_content": {
+    "headers": [
+      "I2C features(1)",
+      "I2C1"
+    ],
+    "rows": [
+      [
+        "Standard-mode (up to 100 kbit/s)",
+        "X"
+      ],
+      [
+        "Fast-mode (up to 400 kbit/s)",
+        "X"
+      ],
+      [
+        "Fast-mode Plus (up to 1 Mbit/s) with extra output drive I/Os",
+        "X"
+      ],
+      [
+        "Programmable analog and digital noise filters",
+        "X"
+      ],
+      [
+        "SMBus/PMBus hardware support",
+        "X"
+      ],
+      [
+        "Independent clock",
+        "X"
+      ],
+      [
+        "Wake-up from Stop mode on address match",
+        "X"
+      ]
+    ],
+    "notes": [
+      "1. X: supported"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

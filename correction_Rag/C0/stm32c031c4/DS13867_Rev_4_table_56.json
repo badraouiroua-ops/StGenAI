@@ -1,0 +1,197 @@
+{
+  "table_id": "table_56",
+  "document": "DS13867 Rev 4 - Table 56. ADC accuracy",
+  "rev": "Rev 4",
+  "table_number": "56",
+  "title": "Table 56. ADC accuracy",
+  "page": 73,
+  "section": "5.3.15 Analog-to-digital converter characteristics",
+  "section_title": "Analog-to-digital converter characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=73",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 56. ADC accuracy — section 5.3.15 Analog-to-digital converter characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "ET",
+        "Total unadjusted error",
+        "VDDA = VREF+ = 3 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = 25 °C",
+        "-",
+        "±3",
+        "±4",
+        "LSB"
+      ],
+      [
+        "ET",
+        "Total unadjusted error",
+        "2 V < VDDA = VREF+ < 3.6 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = entire range",
+        "-",
+        "±3",
+        "±6.5",
+        "LSB"
+      ],
+      [
+        "EO",
+        "Offset error",
+        "VDDA = VREF+ = 3 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = 25 °C",
+        "-",
+        "±1.5",
+        "±2",
+        "LSB"
+      ],
+      [
+        "EO",
+        "Offset error",
+        "2 V < VDDA = VREF+ < 3.6 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = entire range",
+        "-",
+        "±1.5",
+        "±4.5",
+        "LSB"
+      ],
+      [
+        "EG",
+        "Gain error",
+        "VDDA = VREF+ = 3 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = 25 °C",
+        "-",
+        "±3",
+        "±3.5",
+        "LSB"
+      ],
+      [
+        "EG",
+        "Gain error",
+        "2 V < VDDA = VREF+ < 3.6 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = entire range",
+        "-",
+        "±3",
+        "±5",
+        "LSB"
+      ],
+      [
+        "ED",
+        "Differential linearity error",
+        "VDDA = VREF+ = 3 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = 25 °C",
+        "-",
+        "±1.2",
+        "±1.5",
+        "LSB"
+      ],
+      [
+        "ED",
+        "Differential linearity error",
+        "2 V < VDDA = VREF+ < 3.6 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = entire range",
+        "-",
+        "±1.2",
+        "±1.5",
+        "LSB"
+      ],
+      [
+        "EL",
+        "Integral linearity error",
+        "VDDA = VREF+ = 3 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = 25 °C",
+        "-",
+        "±2.5",
+        "±3",
+        "LSB"
+      ],
+      [
+        "EL",
+        "Integral linearity error",
+        "2 V < VDDA = VREF+ < 3.6 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = entire range",
+        "-",
+        "±2.5",
+        "±3",
+        "LSB"
+      ],
+      [
+        "ENOB",
+        "Effective number of bits",
+        "VDDA = VREF+ = 3 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = 25 °C",
+        "10.1",
+        "10.2",
+        "-",
+        "bit"
+      ],
+      [
+        "ENOB",
+        "Effective number of bits",
+        "2 V < VDDA = VREF+ < 3.6 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = entire range",
+        "9.6",
+        "10.2",
+        "-",
+        "bit"
+      ],
+      [
+        "SINAD",
+        "Signal-to-noise and distortion ratio",
+        "VDDA = VREF+ = 3 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = 25 °C",
+        "62.5",
+        "63",
+        "-",
+        "dB"
+      ],
+      [
+        "SINAD",
+        "Signal-to-noise and distortion ratio",
+        "2 V < VDDA = VREF+ < 3.6 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = entire range",
+        "59.5",
+        "63",
+        "-",
+        "dB"
+      ],
+      [
+        "SNR",
+        "Signal-to-noise ratio",
+        "VDDA = VREF+ = 3 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = 25 °C",
+        "63",
+        "64",
+        "-",
+        "dB"
+      ],
+      [
+        "SNR",
+        "Signal-to-noise ratio",
+        "2 V < VDDA = VREF+ < 3.6 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = entire range",
+        "60",
+        "64",
+        "-",
+        "dB"
+      ],
+      [
+        "THD",
+        "Total harmonic distortion",
+        "VDDA = VREF+ = 3 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = 25 °C",
+        "-",
+        "-74",
+        "-73",
+        "dB"
+      ],
+      [
+        "THD",
+        "Total harmonic distortion",
+        "2 V < VDDA = VREF+ < 3.6 V, fADC = 35 MHz, fs ≤ 2.5 Msps, TA = entire range",
+        "-",
+        "-74",
+        "-70",
+        "dB"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization – Not tested in production.",
+      "2. ADC DC accuracy values are measured after internal calibration. DS13867 Rev 4 73/103"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

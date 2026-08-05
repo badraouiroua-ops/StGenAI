@@ -1,0 +1,71 @@
+{
+  "table_id": "table_98",
+  "document": "DS14791 Rev 9 - Table 98. DTS characteristics",
+  "rev": "Rev 9",
+  "table_number": "98",
+  "title": "Table 98. DTS characteristics",
+  "page": 205,
+  "section": "5.3.25 Digital temperature sensor (DTS) characteristics",
+  "section_title": "Digital temperature sensor (DTS) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=205",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 98. DTS characteristics — section 5.3.25 Digital temperature sensor (DTS) characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f DTS",
+        "Operating frequency",
+        "-",
+        "4",
+        "-",
+        "8",
+        "MHz"
+      ],
+      [
+        "Res",
+        "Resolution",
+        "-",
+        "8",
+        "10",
+        "12",
+        "Bits"
+      ],
+      [
+        "Step",
+        "Step size",
+        "-",
+        "0.86",
+        "0.22",
+        "0.06",
+        "°C"
+      ],
+      [
+        "t conv",
+        "Conversion time",
+        "-",
+        "512",
+        "2048",
+        "8192",
+        "1 / f DTS"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization and not tested in production, unless otherwise specified.",
+      "2. V is an internal regulator supplied by V . V is equal to V when present, equal to V otherwise. 08CAP SW SW DD BAT"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

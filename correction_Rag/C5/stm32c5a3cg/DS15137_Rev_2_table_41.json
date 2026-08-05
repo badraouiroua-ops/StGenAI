@@ -1,0 +1,97 @@
+{
+  "table_id": "table_41",
+  "document": "DS15137 Rev 2 - Table 41. Flash memory programming",
+  "rev": "Rev 2",
+  "table_number": "41",
+  "title": "Table 41. Flash memory programming",
+  "page": 81,
+  "section": "5.3.10 Flash memory characteristics",
+  "section_title": "Flash memory characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=81",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 41. Flash memory programming — section 5.3.10 Flash memory characteristics. Symbol, Parameter, Conditions, Min(1), Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min(1)",
+      "Typ",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tprog",
+        "Word programming time",
+        "128 bits (user area)",
+        "-",
+        "20.0",
+        "160.0",
+        "µs"
+      ],
+      [
+        "tprog",
+        "Word programming time",
+        "16 bits (OTP / EDATA area)",
+        "-",
+        "20.0",
+        "160.0",
+        "µs"
+      ],
+      [
+        "tERASE 8KB",
+        "Page (8 KB) erase time",
+        "-",
+        "-",
+        "2.0",
+        "2.1",
+        "ms"
+      ],
+      [
+        "tERASE 2KB",
+        "Page (2 KB) erase time",
+        "-",
+        "-",
+        "2.0",
+        "2.1",
+        "ms"
+      ],
+      [
+        "tME",
+        "Bank Mass erase time",
+        "-",
+        "-",
+        "160.0",
+        "168.0",
+        "ms"
+      ],
+      [
+        "tME",
+        "Mass erase time",
+        "-",
+        "-",
+        "320.0",
+        "336.0",
+        "ms"
+      ],
+      [
+        "Vprog",
+        "Programming voltage",
+        "-",
+        "2.65",
+        "-",
+        "3.6",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by test production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

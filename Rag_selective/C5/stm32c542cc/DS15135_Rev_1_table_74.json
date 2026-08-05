@@ -1,0 +1,163 @@
+{
+  "table_id": "table_74",
+  "document": "DS15135 Rev 1 - Table 74. UFQFPN24 - Mechanical data.",
+  "rev": "Rev 1",
+  "table_number": "74",
+  "title": "Table 74. UFQFPN24 - Mechanical data.",
+  "page": 104,
+  "section": "6.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=104",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "text_helper": "Table 74. UFQFPN24 - Mechanical data. — section 6.1 Device marking. Symbol, Millimeters / Min, Millimeters / Typ, Millimeters / Max, Inches(1) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Millimeters / Min",
+      "Millimeters / Typ",
+      "Millimeters / Max",
+      "Inches(1) / Min",
+      "Inches(1) / Typ",
+      "Inches(1) / Max"
+    ],
+    "rows": [
+      [
+        "A",
+        "0.45",
+        "-",
+        "0.60",
+        "0.0177",
+        "-",
+        "0.0236"
+      ],
+      [
+        "A1",
+        "0",
+        "-",
+        "0.05",
+        "0",
+        "-",
+        "0.0020"
+      ],
+      [
+        "A3(2)",
+        "0.152 REF",
+        "0.152 REF",
+        "0.152 REF",
+        "0.0060 REF",
+        "0.0060 REF",
+        "0.0060 REF"
+      ],
+      [
+        "L",
+        "0.30",
+        "0.40",
+        "0.50",
+        "0.0118",
+        "0.0157",
+        "0.0197"
+      ],
+      [
+        "b",
+        "0.18",
+        "0.25",
+        "0.30",
+        "0.0071",
+        "0.0098",
+        "0.0118"
+      ],
+      [
+        "D(3)",
+        "4.00 BSC",
+        "4.00 BSC",
+        "4.00 BSC",
+        "0.1575 BSC",
+        "0.1575 BSC",
+        "0.1575 BSC"
+      ],
+      [
+        "E(3)",
+        "4.00 BSC",
+        "4.00 BSC",
+        "4.00 BSC",
+        "0.1575 BSC",
+        "0.1575 BSC",
+        "0.1575 BSC"
+      ],
+      [
+        "e(3)",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC"
+      ],
+      [
+        "D2",
+        "2.60",
+        "-",
+        "2.85",
+        "0.1024",
+        "-",
+        "0.1122"
+      ],
+      [
+        "E2",
+        "2.60",
+        "-",
+        "2.85",
+        "0.1024",
+        "-",
+        "0.1122"
+      ],
+      [
+        "bbb",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.0039",
+        "-"
+      ],
+      [
+        "ccc",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.0039",
+        "-"
+      ],
+      [
+        "eee",
+        "-",
+        "0.08",
+        "-",
+        "-",
+        "0.0031",
+        "-"
+      ],
+      [
+        "N(4)",
+        "24",
+        "24",
+        "24",
+        "24",
+        "24",
+        "24"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to three decimal digits.",
+      "2. REF stands for reference.",
+      "3. BSC stands for basic dimensions. It corresponds to the nominal value and has no tolerance. For tolerances refer to the form and position table",
+      "4. Total number of terminals"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

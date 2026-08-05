@@ -1,0 +1,45 @@
+{
+  "table_id": "table_113",
+  "document": "DS14791 Rev 9 - Table 113. I3C open-drain measured timing",
+  "rev": "Rev 9",
+  "table_number": "113",
+  "title": "Table 113. I3C open-drain measured timing",
+  "page": 220,
+  "section": "5.3.36 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=220",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 113. I3C open-drain measured timing — section 5.3.36 Communications interfaces. Symbol, Parameter, Conditions, I3C open drain mode / Min, I3C open drain mode / Max, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "I3C open drain mode / Min",
+      "I3C open drain mode / Max",
+      "Timing measurements / Min",
+      "Timing measurements / Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t SU_OD",
+        "SDA data setup time during open drain mode",
+        "Controller",
+        "3",
+        "-",
+        "20(2)",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. Spikes with widths below t are filtered. AF(min)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "table_id": "table_90",
+  "document": "DS14791 Rev 9 - Table 90. Output speed settings versus voltage and clock frequency",
+  "rev": "Rev 9",
+  "table_number": "90",
+  "title": "Table 90. Output speed settings versus voltage and clock frequency",
+  "page": 197,
+  "section": "5.3.21 SDMMC interface characteristics",
+  "section_title": "SDMMC interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=197",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 90. Output speed settings versus voltage and clock frequency — section 5.3.21 SDMMC interface characteristics. Voltage range (V), Max clock frequency (MHz), OSPEEDRy[1:0] / Clock, OSPEEDRy[1:0] / Data.",
+  "table_content": {
+    "headers": [
+      "Voltage range (V)",
+      "Max clock frequency (MHz)",
+      "OSPEEDRy[1:0] / Clock",
+      "OSPEEDRy[1:0] / Data"
+    ],
+    "rows": [
+      [
+        "1.71 to 1.9 and 3.0 to 3.6",
+        "26/25",
+        "00",
+        "00"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

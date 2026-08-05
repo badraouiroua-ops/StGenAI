@@ -1,0 +1,37 @@
+{
+  "table_id": "table_44",
+  "document": "DS15125 Rev 2 - Table 44. Electrical sensitivities.",
+  "rev": "Rev 2",
+  "table_number": "44",
+  "title": "Table 44. Electrical sensitivities.",
+  "page": 69,
+  "section": "5.3.12 Electrical sensitivity characteristics",
+  "section_title": "Electrical sensitivity characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=69",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 44. Electrical sensitivities. — section 5.3.12 Electrical sensitivity characteristics. Symbol, Parameter, Conditions, Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Class"
+    ],
+    "rows": [
+      [
+        "LU",
+        "Static latch-up class",
+        "TA = 130°C conforming to JESD78",
+        "Level II A"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization - Not tested in production. Static latch-up"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

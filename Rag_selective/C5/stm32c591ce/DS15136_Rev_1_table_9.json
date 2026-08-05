@@ -1,0 +1,47 @@
+{
+  "table_id": "table_9",
+  "document": "DS15136 Rev 1 - Table 9. SPI features",
+  "rev": "Rev 1",
+  "table_number": "9",
+  "title": "Table 9. SPI features",
+  "page": 31,
+  "section": "3.27.2 Low-power universal asynchronous receiver transmitter (LPUART)",
+  "section_title": "Low-power universal asynchronous receiver transmitter (LPUART)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=31",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "text_helper": "Table 9. SPI features — section 3.27.2 Low-power universal asynchronous receiver transmitter (LPUART). SPI feature, SPI2S1, SPI2S2, SPI2S3 (full feature set instances).",
+  "table_content": {
+    "headers": [
+      "SPI feature",
+      "SPI2S1, SPI2S2, SPI2S3 (full feature set instances)"
+    ],
+    "rows": [
+      [
+        "Data size",
+        "Configurable from 4 to 32-bit"
+      ],
+      [
+        "CRC computation",
+        "CRC polynomial length configurable from 5 to 32‑bit"
+      ],
+      [
+        "Size of FIFOs",
+        "16 × 8-bit"
+      ],
+      [
+        "Number of transferred data",
+        "Unlimited, expandable"
+      ],
+      [
+        "I2S feature",
+        "Yes"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

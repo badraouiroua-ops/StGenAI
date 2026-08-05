@@ -1,0 +1,103 @@
+{
+  "table_id": "table_60",
+  "document": "DS13867 Rev 4 - Table 60. Minimum I2CCLK frequency",
+  "rev": "Rev 4",
+  "table_number": "60",
+  "title": "Table 60. Minimum I2CCLK frequency",
+  "page": 76,
+  "section": "5.3.18 Characteristics of communication interfaces",
+  "section_title": "Characteristics of communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=76",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 60. Minimum I2CCLK frequency — section 5.3.18 Characteristics of communication interfaces. Symbol, Parameter, Condition, Condition, Typ, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Condition",
+      "Typ",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f I2CCLK(min)",
+        "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+        "Standard-mode",
+        "Standard-mode",
+        "2",
+        "MHz"
+      ],
+      [
+        "f I2CCLK(min)",
+        "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+        "Fast-mode",
+        "Analog filter enabled",
+        "9",
+        "MHz"
+      ],
+      [
+        "f I2CCLK(min)",
+        "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+        "Fast-mode",
+        "DNF = 0",
+        "9",
+        "MHz"
+      ],
+      [
+        "f I2CCLK(min)",
+        "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+        "Fast-mode",
+        "Analog filter disabled",
+        "9",
+        "MHz"
+      ],
+      [
+        "f I2CCLK(min)",
+        "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+        "Fast-mode",
+        "DNF = 1",
+        "9",
+        "MHz"
+      ],
+      [
+        "f I2CCLK(min)",
+        "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+        "Fast-mode Plus",
+        "Analog filter enabled",
+        "19",
+        "MHz"
+      ],
+      [
+        "f I2CCLK(min)",
+        "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+        "Fast-mode Plus",
+        "DNF = 0",
+        "19",
+        "MHz"
+      ],
+      [
+        "f I2CCLK(min)",
+        "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+        "Fast-mode Plus",
+        "Analog filter disabled",
+        "16",
+        "MHz"
+      ],
+      [
+        "f I2CCLK(min)",
+        "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+        "Fast-mode Plus",
+        "DNF = 1",
+        "16",
+        "MHz"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

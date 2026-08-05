@@ -1,0 +1,133 @@
+{
+  "table_id": "table_92",
+  "document": "DS14791 Rev 9 - Table 92. Dynamic characteristics: eMMC, VDD = 1.71 V to 3.6 V",
+  "rev": "Rev 9",
+  "table_number": "92",
+  "title": "Table 92. Dynamic characteristics: eMMC, VDD = 1.71 V to 3.6 V",
+  "page": 198,
+  "section": "5.3.21 SDMMC interface characteristics",
+  "section_title": "SDMMC interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=198",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 92. Dynamic characteristics: eMMC, VDD = 1.71 V to 3.6 V — section 5.3.21 SDMMC interface characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f PP",
+        "Clock frequency in data transfer mode",
+        "3.00 < V < 3.6 V DD",
+        "-",
+        "-",
+        "145",
+        "MHz"
+      ],
+      [
+        "f PP",
+        "Clock frequency in data transfer mode",
+        "1.71 < V < 1.9 V DD",
+        "-",
+        "-",
+        "200",
+        "MHz"
+      ],
+      [
+        "t W(CKL)",
+        "Clock low time",
+        "f = 52 MHz PP",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t W(CKH)",
+        "Clock high time",
+        "f = 52 MHz PP",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode"
+      ],
+      [
+        "t ISU",
+        "Input setup time HS",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t IH",
+        "Input hold time HS",
+        "-",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "T (3) idw",
+        "Input valid window (variable window)",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t OV",
+        "Output valid time HS",
+        "-",
+        "-",
+        "6",
+        "6",
+        "ns"
+      ],
+      [
+        "t OH",
+        "Output hold time HS",
+        "-",
+        "4.5",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "3. For SD 1.8 V support, an external voltage converter is needed."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "table_id": "table_117",
+  "document": "DS14791 Rev 9 - Table 117. Dynamic characteristics: Ethernet MAC signals for MDIO/SMA",
+  "rev": "Rev 9",
+  "table_number": "117",
+  "title": "Table 117. Dynamic characteristics: Ethernet MAC signals for MDIO/SMA",
+  "page": 225,
+  "section": "5.3.36 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=225",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 117. Dynamic characteristics: Ethernet MAC signals for MDIO/SMA — section 5.3.36 Communications interfaces. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t MDC",
+        "MDC cycle time (2.5 MHz)",
+        "399",
+        "400",
+        "401",
+        "ns"
+      ],
+      [
+        "T d(MDIO)",
+        "Write data valid time",
+        "3.5",
+        "4.5",
+        "5",
+        "ns"
+      ],
+      [
+        "t su(MDIO)",
+        "Read data setup time",
+        "16",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(MDIO)",
+        "Read data hold time",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production. DS14791 Rev 9 225/258"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

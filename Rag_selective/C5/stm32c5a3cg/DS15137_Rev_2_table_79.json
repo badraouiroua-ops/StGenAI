@@ -1,0 +1,62 @@
+{
+  "table_id": "table_79",
+  "document": "DS15137 Rev 2 - Table 79. Tolerance of form and position.",
+  "rev": "Rev 2",
+  "table_number": "79",
+  "title": "Table 79. Tolerance of form and position.",
+  "page": 118,
+  "section": "1.2 REF",
+  "section_title": "REF",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=118",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 79. Tolerance of form and position. — section 1.2 REF. Symbol(1), Tolerance of form and position(2) In millimeters, Tolerance of form and position(3) In inches.",
+  "table_content": {
+    "headers": [
+      "Symbol(1)",
+      "Tolerance of form and position(2) In millimeters",
+      "Tolerance of form and position(3) In inches"
+    ],
+    "rows": [
+      [
+        "aaa",
+        "0.15",
+        "0.006"
+      ],
+      [
+        "bbb",
+        "0.10",
+        "0.004"
+      ],
+      [
+        "ccc",
+        "0.10",
+        "0.004"
+      ],
+      [
+        "ddd",
+        "0.05",
+        "0.002"
+      ],
+      [
+        "eee",
+        "0.10",
+        "0.004"
+      ],
+      [
+        "fff",
+        "0.10",
+        "0.004"
+      ]
+    ],
+    "notes": [
+      "1. All dimensions are in millimeters. Dimensioning and tolerancing schemes are conform to ASME Y14.5M-2018 except European .",
+      "2. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "3. UFQFPN stands for Ultra thin Fine pitch Quad Flat Package No lead: A ≤ 0.60mm / Fine pitch e ≤ 1.00mm."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

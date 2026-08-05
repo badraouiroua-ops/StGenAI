@@ -1,0 +1,48 @@
+{
+  "table_id": "table_71",
+  "document": "DS13866 Rev 5 - Table 71. Document revision history",
+  "rev": "Rev 5",
+  "table_number": "71",
+  "title": "Table 71. Document revision history",
+  "page": 95,
+  "section": "9 Revision history",
+  "section_title": "Revision history",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=95",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "Table 71. Document revision history — section 9 Revision history. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "30-Mar-2022",
+        "1",
+        "Initial release"
+      ],
+      [
+        "14-Sep-2022",
+        "2",
+        "Fixed typo errors."
+      ],
+      [
+        "9-Dec-2022",
+        "3",
+        "Updated: – Table 2, Table 20, Table 27, Table 28, Table 29, Table 30, Table 36, Table 40, Table 56 – Figure 4, Figure 9, Figure 20, Figure 21 – title of Figure 3 and Figure 4"
+      ],
+      [
+        "18-Jan-2024",
+        "4",
+        "Updated: – Cover page – Section Features, Section 1: Introduction (added reference to reference manual and errata sheet), Section 3.5: Boot modes, Section 3.7.1: Power supply schemes, Section 3.9: Clocks and startup, Section 3.15.1: Advanced-control timer (TIM1) Section 3.18: Universal synchronous/asynchronous receiver transmitter (USART), Section 5.2: Absolute maximum ratings, Section : USART (SPI mode) characteristics, Section 5.3.6: Wake-up time from low- power modes, section I/O system current consumption, section General input/output characteristics, section USART (SPI mode) characteristics, Section 5.3.18: Timer characteristics, and Section 6: Package information – Table 7, Table 12, Table 20, Table 27, Table 44, Table 45, Table 50, Table 57, Table 62, – Figure 1, Figure 2, Figure 18, Figure 21, Figure 24, Figure 25 Added: – Section 6.6: Thermal characteristics – Figure 22 and Figure 23"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

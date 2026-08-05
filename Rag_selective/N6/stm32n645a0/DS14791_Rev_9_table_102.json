@@ -1,0 +1,79 @@
+{
+  "table_id": "table_102",
+  "document": "DS14791 Rev 9 - Table 102. MDF characteristics",
+  "rev": "Rev 9",
+  "table_number": "102",
+  "title": "Table 102. MDF characteristics",
+  "page": 207,
+  "section": "5.3.29 Multifunction digital filter (MDF) characteristics",
+  "section_title": "Multifunction digital filter (MDF) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=207",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 102. MDF characteristics — section 5.3.29 Multifunction digital filter (MDF) characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f CKI",
+        "Input clock frequency via MDF_CKIx pin, in target SPI mode",
+        "1.65 < V < 3.6 V DD",
+        "-",
+        "-",
+        "25",
+        "MHz"
+      ],
+      [
+        "f CCKI",
+        "Input clock frequency via MDF_CCK[1:0] pin, in target SPI mode",
+        "1.65 < V < 3.6 V DD",
+        "-",
+        "-",
+        "25",
+        "MHz"
+      ],
+      [
+        "f CCKO",
+        "Output clock frequency, in controller SPI mode",
+        "1.65 < V < 3.6 V DD",
+        "-",
+        "-",
+        "25",
+        "MHz"
+      ],
+      [
+        "f CCKOLF",
+        "Output clock frequency, in LF_MASTER SPI mode",
+        "1.65 < V < 3.6 V DD",
+        "-",
+        "-",
+        "5",
+        "MHz"
+      ],
+      [
+        "f SYMB",
+        "Input symbol rate,in Manchester mode",
+        "1.65 < V < 3.6 V DD",
+        "-",
+        "-",
+        "20",
+        "MHz"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production. Figure 48. ADF timing diagram"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

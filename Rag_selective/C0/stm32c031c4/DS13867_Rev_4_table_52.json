@@ -1,0 +1,327 @@
+{
+  "table_id": "table_52",
+  "document": "DS13867 Rev 4 - Table 52. I/O AC characteristics",
+  "rev": "Rev 4",
+  "table_number": "52",
+  "title": "Table 52. I/O AC characteristics",
+  "page": 67,
+  "section": "5.3.13 I/O port characteristics",
+  "section_title": "I/O port characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=67",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 52. I/O AC characteristics — section 5.3.13 I/O port characteristics. Speed, Symbol, Parameter, Conditions, Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Speed",
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "00",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "2",
+        "MHz"
+      ],
+      [
+        "00",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "0.35",
+        "MHz"
+      ],
+      [
+        "00",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "3.00",
+        "MHz"
+      ],
+      [
+        "00",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "0.45",
+        "MHz"
+      ],
+      [
+        "00",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF,2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "100.00",
+        "ns"
+      ],
+      [
+        "00",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "225.00",
+        "ns"
+      ],
+      [
+        "00",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "75.00",
+        "ns"
+      ],
+      [
+        "00",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "150.00",
+        "ns"
+      ],
+      [
+        "01",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "10.00",
+        "MHz"
+      ],
+      [
+        "01",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "2.00",
+        "MHz"
+      ],
+      [
+        "01",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "15.00",
+        "MHz"
+      ],
+      [
+        "01",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "2.50",
+        "MHz"
+      ],
+      [
+        "01",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "30.00",
+        "ns"
+      ],
+      [
+        "01",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "60.00",
+        "ns"
+      ],
+      [
+        "01",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "15.00",
+        "ns"
+      ],
+      [
+        "01",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "30.00",
+        "ns"
+      ],
+      [
+        "10",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "30.00",
+        "MHz"
+      ],
+      [
+        "10",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "15.00",
+        "MHz"
+      ],
+      [
+        "10",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "60.00(4)",
+        "MHz"
+      ],
+      [
+        "10",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "30.00",
+        "MHz"
+      ],
+      [
+        "10",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "11.00",
+        "ns"
+      ],
+      [
+        "10",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "22.00",
+        "ns"
+      ],
+      [
+        "10",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "4.00",
+        "ns"
+      ],
+      [
+        "10",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "8.00",
+        "ns"
+      ],
+      [
+        "11",
+        "Fmax",
+        "Maximum frequency",
+        "C=30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "60.00(4)",
+        "MHz"
+      ],
+      [
+        "11",
+        "Fmax",
+        "Maximum frequency",
+        "C=30 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "30.00",
+        "MHz"
+      ],
+      [
+        "11",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "80.00(4)",
+        "MHz"
+      ],
+      [
+        "11",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "40.00",
+        "MHz"
+      ],
+      [
+        "11",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "5.50",
+        "ns"
+      ],
+      [
+        "11",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=30 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "11.00",
+        "ns"
+      ],
+      [
+        "11",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "2.50",
+        "ns"
+      ],
+      [
+        "11",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "5.00",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "3. Specified by design – Not tested in production. Input/output AC characteristics",
+      "4. This value represents the I/O capability but the maximum system frequency is limited to 48 MHz. 68/103 DS13867 Rev 4"
+    ],
+    "legend": [
+      "Unless otherwise specified, the parameters given are derived from tests performed under",
+      "the ambient temperature and supply voltage conditions summarized in Table 24: General",
+      "operating conditions."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

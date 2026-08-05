@@ -1,0 +1,79 @@
+{
+  "table_id": "table_100",
+  "document": "DS14791 Rev 9 - Table 100. Temperature and VBAT monitoring characteristics",
+  "rev": "Rev 9",
+  "table_number": "100",
+  "title": "Table 100. Temperature and VBAT monitoring characteristics",
+  "page": 206,
+  "section": "5.3.26 V , V , V , V , ADC",
+  "section_title": "V , V , V , V , ADC",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=206",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 100. Temperature and VBAT monitoring characteristics — section 5.3.26 V , V , V , V , ADC. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "T EMPH",
+        "High T temperature monitoring J",
+        "-",
+        "110",
+        "-",
+        "125",
+        "°C"
+      ],
+      [
+        "T EMPL",
+        "Low T temperature monitoring j",
+        "-",
+        "-40",
+        "-",
+        "-30",
+        "°C"
+      ],
+      [
+        "V 08CAPH",
+        "High V (2) supply monitoring 08CAP",
+        "-",
+        "0.88",
+        "-",
+        "1",
+        "V"
+      ],
+      [
+        "V 08CAPL",
+        "Low V (2) supply monitoring 08CAP",
+        "-",
+        "0.6",
+        "-",
+        "0.72",
+        "V"
+      ],
+      [
+        "retlif_PAC80 V",
+        "V (2) supply monitoring glitch filter 08CAP",
+        "-",
+        "-",
+        "-",
+        "1",
+        "μs"
+      ]
+    ],
+    "notes": [
+      "2. Specified by design, not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "table_id": "table_124",
+  "document": "DS14791 Rev 9 - Table 124. UCPDPHY characteristics",
+  "rev": "Rev 9",
+  "table_number": "124",
+  "title": "Table 124. UCPDPHY characteristics",
+  "page": 232,
+  "section": "5.3.37 Embedded PHY characteristics",
+  "section_title": "Embedded PHY characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=232",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 124. UCPDPHY characteristics — section 5.3.37 Embedded PHY characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f BITRATE",
+        "Bit rate (ensured by adequate RCC and UCPD settings)",
+        "Bit rate (ensured by adequate RCC and UCPD settings)",
+        "270",
+        "300",
+        "330",
+        "Kbps"
+      ],
+      [
+        "C RECEIVER",
+        "Local capacitance added on PCB on each CC line",
+        "Local capacitance added on PCB on each CC line",
+        "200",
+        "470",
+        "600",
+        "pF"
+      ],
+      [
+        "Transmitter",
+        "Transmitter",
+        "Transmitter",
+        "Transmitter",
+        "Transmitter",
+        "Transmitter",
+        "Transmitter"
+      ],
+      [
+        "V SWING",
+        "Voltage swing applies on CC pin to both no load condition and under the load condition.",
+        "Voltage swing applies on CC pin to both no load condition and under the load condition.",
+        "1.05",
+        "1.125",
+        "1.2",
+        "V"
+      ],
+      [
+        "Z DRIVER",
+        "TX output impedance. Source output impedance at the Nyquist frequency of USB2.0 low speed (750 kHz) while the source is driving the CC line.",
+        "TX output impedance. Source output impedance at the Nyquist frequency of USB2.0 low speed (750 kHz) while the source is driving the CC line.",
+        "33",
+        "-",
+        "75",
+        "Ω"
+      ],
+      [
+        "T / T r f",
+        "Rise/fall time. 10% to 90% / 90% to 10% amplitude points, minimum is under an unloaded condition. Maximum set by TX mask.",
+        "Rise/fall time. 10% to 90% / 90% to 10% amplitude points, minimum is under an unloaded condition. Maximum set by TX mask.",
+        "300",
+        "-",
+        "735",
+        "ns"
+      ],
+      [
+        "DCYCLE",
+        "TX duty cycle at 0.5625 V (see Y5Tx, BMC Tx 'ONE' Mask and BMC Tx 'ZERO' Mask in the PD Specification)",
+        "TX duty cycle at 0.5625 V (see Y5Tx, BMC Tx 'ONE' Mask and BMC Tx 'ZERO' Mask in the PD Specification)",
+        "47",
+        "-",
+        "53",
+        "%"
+      ],
+      [
+        "Receiver",
+        "Receiver",
+        "Receiver",
+        "Receiver",
+        "Receiver",
+        "Receiver",
+        "Receiver"
+      ],
+      [
+        "V IL",
+        "Rx receive input thresholds. The position of the center line of the inner mask is dependent on whether the receiver is sourcing or sinking power or is power neutral.",
+        "Sourcing power",
+        "-",
+        "-",
+        "0.4825",
+        "V"
+      ],
+      [
+        "V IH",
+        "Rx receive input thresholds. The position of the center line of the inner mask is dependent on whether the receiver is sourcing or sinking power or is power neutral.",
+        "Sourcing power",
+        "0.8925",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "V IL",
+        "Rx receive input thresholds. The position of the center line of the inner mask is dependent on whether the receiver is sourcing or sinking power or is power neutral.",
+        "Sinking power",
+        "-",
+        "-",
+        "0.2325",
+        "V"
+      ],
+      [
+        "V IH",
+        "Rx receive input thresholds. The position of the center line of the inner mask is dependent on whether the receiver is sourcing or sinking power or is power neutral.",
+        "Sinking power",
+        "0.6425",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "Hysteresis",
+        "Rx receive input hysteresis",
+        "Rx receive input hysteresis",
+        "0.15",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "N COUNT",
+        "Number of transitions for signal detection (number to count to detect non-idle bus).",
+        "Number of transitions for signal detection (number to count to detect non-idle bus).",
+        "3",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "t TRANWIN",
+        "Time window for detecting non-idle bus",
+        "Time window for detecting non-idle bus",
+        "12",
+        "-",
+        "20",
+        "µs"
+      ],
+      [
+        "Z BMCRX",
+        "Receiver input impedance",
+        "Receiver input impedance",
+        "1",
+        "-",
+        "-",
+        "MΩ"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization and not tested in production, unless otherwise specified."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

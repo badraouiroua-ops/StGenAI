@@ -1,0 +1,111 @@
+{
+  "table_id": "table_4",
+  "document": "DS14720 Rev 3 - Table 4. Interconnect of peripherals",
+  "rev": "Rev 3",
+  "table_number": "4",
+  "title": "Table 4. Interconnect of peripherals",
+  "page": 18,
+  "section": "3.8 Interconnect of peripherals",
+  "section_title": "Interconnect of peripherals",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=18",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 4. Interconnect of peripherals — section 3.8 Interconnect of peripherals. Interconnect source, Interconnect destination, Interconnect action, Run, Sleep, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Interconnect source",
+      "Interconnect destination",
+      "Interconnect action",
+      "Run",
+      "Sleep",
+      "Stop"
+    ],
+    "rows": [
+      [
+        "TIMx",
+        "TIMx",
+        "Timer synchronization or chaining",
+        "Y",
+        "Y",
+        "-"
+      ],
+      [
+        "TIMx",
+        "ADCx",
+        "Conversion triggers",
+        "Y",
+        "Y",
+        "-"
+      ],
+      [
+        "TIMx",
+        "DMA",
+        "Memory-to-memory transfer trigger",
+        "Y",
+        "Y",
+        "-"
+      ],
+      [
+        "ADCx",
+        "TIM1",
+        "Timer triggered by analog watchdog",
+        "Y",
+        "Y",
+        "-"
+      ],
+      [
+        "RTC",
+        "TIM16",
+        "Timer input channel from RTC events",
+        "Y",
+        "Y",
+        "-"
+      ],
+      [
+        "All clock sources (internal and external)",
+        "TIM14,16,17",
+        "Clock source used as input channel for RC measurement and trimming",
+        "Y",
+        "Y",
+        "-"
+      ],
+      [
+        "CSS RAM (parity error)",
+        "TIM1,15,16,17",
+        "Timer break",
+        "Y",
+        "Y",
+        "-"
+      ],
+      [
+        "CPU (hard fault)",
+        "TIM1,15,16,17",
+        "Timer break",
+        "Y",
+        "-",
+        "-"
+      ],
+      [
+        "GPIO",
+        "TIM1,2,3",
+        "External trigger",
+        "Y",
+        "Y",
+        "-"
+      ],
+      [
+        "GPIO",
+        "ADC",
+        "Conversion external trigger",
+        "Y",
+        "Y",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

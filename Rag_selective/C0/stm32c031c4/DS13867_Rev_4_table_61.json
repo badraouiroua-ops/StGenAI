@@ -1,0 +1,39 @@
+{
+  "table_id": "table_61",
+  "document": "DS13867 Rev 4 - Table 61. I2C analog filter characteristics",
+  "rev": "Rev 4",
+  "table_number": "61",
+  "title": "Table 61. I2C analog filter characteristics",
+  "page": 77,
+  "section": "5.3.18 Characteristics of communication interfaces",
+  "section_title": "Characteristics of communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=77",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 61. I2C analog filter characteristics — section 5.3.18 Characteristics of communication interfaces. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t AF",
+        "Limiting duration of spikes suppressed by the filter(2)",
+        "50",
+        "260",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. Spikes shorter than the limiting duration are suppressed. SPI/I2S characteristics"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

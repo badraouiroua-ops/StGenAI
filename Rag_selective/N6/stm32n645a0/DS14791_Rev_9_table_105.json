@@ -1,0 +1,75 @@
+{
+  "table_id": "table_105",
+  "document": "DS14791 Rev 9 - Table 105. DCMIPP characteristics",
+  "rev": "Rev 9",
+  "table_number": "105",
+  "title": "Table 105. DCMIPP characteristics",
+  "page": 211,
+  "section": "5.3.32 Camera interface pixel pipeline (DCMIPP) characteristics",
+  "section_title": "Camera interface pixel pipeline (DCMIPP) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=211",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 105. DCMIPP characteristics — section 5.3.32 Camera interface pixel pipeline (DCMIPP) characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "DCMIPP_PIXCLK",
+        "Pixel clock input",
+        "-",
+        "120",
+        "MHz"
+      ],
+      [
+        "D pixel",
+        "Pixel clock input duty cycle",
+        "30",
+        "70",
+        "%"
+      ],
+      [
+        "t su(DATA)",
+        "Data input setup time",
+        "2",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(DATA)",
+        "Data hold time",
+        "3",
+        "-",
+        "ns"
+      ],
+      [
+        "t , t su(HSYNC) su(VSYNC)",
+        "DCMI_HSYNC/ DCMI_VSYNC input setup time",
+        "2",
+        "-",
+        "ns"
+      ],
+      [
+        "t , t h(HSYNC) h(VSYNC)",
+        "DCMI_HSYNC/ DCMI_VSYNC input hold time",
+        "3",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production. Figure 50. DCMIPP timing diagram",
+      "2. This maximal frequency does not consider receiver setup and hold timings. 212/258 DS14791 Rev 9"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

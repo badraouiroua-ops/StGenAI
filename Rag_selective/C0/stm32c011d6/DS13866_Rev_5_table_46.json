@@ -1,0 +1,49 @@
+{
+  "table_id": "table_46",
+  "document": "DS13866 Rev 5 - Table 46. ESD absolute maximum ratings",
+  "rev": "Rev 5",
+  "table_number": "46",
+  "title": "Table 46. ESD absolute maximum ratings",
+  "page": 59,
+  "section": "5.3.11 Electrical sensitivity characteristics",
+  "section_title": "Electrical sensitivity characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=59",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "Table 46. ESD absolute maximum ratings — section 5.3.11 Electrical sensitivity characteristics. Symbol, Ratings, Conditions, Class, Maximum value(1), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Conditions",
+      "Class",
+      "Maximum value(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V ESD(HBM)",
+        "Electrostatic discharge voltage (human body model)",
+        "T = +25 °C, conforming to A ANSI/ESDA/JEDEC JS-001",
+        "1C",
+        "-2000/+1500",
+        "V"
+      ],
+      [
+        "V ESD(CDM)",
+        "Electrostatic discharge voltage (charge device model)",
+        "T = +25 °C, conforming to A ANSI/ESDA/JEDEC JS-002",
+        "C2a",
+        "500",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production. Static latch-up"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

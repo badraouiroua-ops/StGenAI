@@ -1,0 +1,101 @@
+{
+  "table_id": "table_119",
+  "document": "DS14791 Rev 9 - Table 119. Dynamic characteristics: Ethernet MAC signals for MII",
+  "rev": "Rev 9",
+  "table_number": "119",
+  "title": "Table 119. Dynamic characteristics: Ethernet MAC signals for MII",
+  "page": 226,
+  "section": "5.3.36 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=226",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 119. Dynamic characteristics: Ethernet MAC signals for MII — section 5.3.36 Communications interfaces. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t su(RXD)",
+        "Receive data setup time",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(RXD)",
+        "Receive data hold time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(DV)",
+        "Data valid setup time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(DV)",
+        "Data valid hold time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(ER)",
+        "Error setup time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(ER)",
+        "Error hold time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(TXEN)",
+        "Transmit enable valid delay time",
+        "5",
+        "6",
+        "7.5",
+        "ns"
+      ],
+      [
+        "t d(TXD)",
+        "Transmit data valid delay time",
+        "5",
+        "6",
+        "7.5",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production. 226/258 DS14791 Rev 9",
+      "2. RGMII TX/RX data bits are retimed.",
+      "3. Test done at 100 MHz.",
+      "4. With delay on RGMII_RX_CLK (GPIOx_DELAYR) = 0b1110.",
+      "5. With delay on RGMII_TX_CLK (GPIOx_DELAYR) = 0b1010. USART (SPI mode) interface"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,35 @@
+# ── Environnement Python ──────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Données générées (reproductibles via le pipeline) ─────────────────────────
+global_extraction_stats.json
+
+# ── Logs et images de debug ───────────────────────────────────────────────────
+table_extractor_raw/logs/
+*.log
+mon_log.txt
+
+# ── Données volumineuses / générées ───────────────────────────────────────────
+outJason/
+DataSHEET/
+Correction/
+capt/
+ApiLog/
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+.venv/
+classify_pdfs.py
+
+# ── Secrets ────────────────────────────────────────────────────────────────────
+github_token.txt
+.env
+*.pem
+*.key

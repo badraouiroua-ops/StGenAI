@@ -1,0 +1,95 @@
+{
+  "table_id": "table_9",
+  "document": "DS14720 Rev 3 - Table 9. USART implementation",
+  "rev": "Rev 3",
+  "table_number": "9",
+  "title": "Table 9. USART implementation",
+  "page": 27,
+  "section": "3.18 Universal synchronous/asynchronous receiver transmitter",
+  "section_title": "Universal synchronous/asynchronous receiver transmitter",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=27",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 9. USART implementation — section 3.18 Universal synchronous/asynchronous receiver transmitter. USART modes/features(1), USART1, USART2/USART3 /USART4.",
+  "table_content": {
+    "headers": [
+      "USART modes/features(1)",
+      "USART1",
+      "USART2/USART3 /USART4"
+    ],
+    "rows": [
+      [
+        "Hardware flow control for modem",
+        "X",
+        "X"
+      ],
+      [
+        "Continuous communication using DMA",
+        "X",
+        "X"
+      ],
+      [
+        "Multiprocessor communication",
+        "X",
+        "X"
+      ],
+      [
+        "SPI emulation master/slave (synchronous mode)",
+        "X",
+        "X"
+      ],
+      [
+        "Smartcard mode",
+        "X",
+        "-"
+      ],
+      [
+        "Single-wire half-duplex communication",
+        "X",
+        "X"
+      ],
+      [
+        "IrDA SIR ENDEC block",
+        "X",
+        "-"
+      ],
+      [
+        "LIN mode",
+        "X",
+        "-"
+      ],
+      [
+        "Dual clock domain and wake-up from Stop mode",
+        "X",
+        "-"
+      ],
+      [
+        "Receiver timeout interrupt",
+        "X",
+        "-"
+      ],
+      [
+        "Modbus communication",
+        "X",
+        "-"
+      ],
+      [
+        "Auto baud rate detection",
+        "X",
+        "-"
+      ],
+      [
+        "Driver Enable",
+        "X",
+        "X"
+      ]
+    ],
+    "notes": [
+      "1. X: supported"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

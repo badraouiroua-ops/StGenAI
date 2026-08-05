@@ -1,0 +1,210 @@
+{
+  "table_id": "table_17",
+  "document": "DS14720 Rev 3 - Table 17. Port C alternate function mapping (AF0 to AF7)",
+  "rev": "Rev 3",
+  "table_number": "17",
+  "title": "Table 17. Port C alternate function mapping (AF0 to AF7)",
+  "page": 42,
+  "section": "4 Pinouts, pin description and alternate functions",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=42",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 17. Port C alternate function mapping (AF0 to AF7) — section 4 Pinouts, pin description and alternate functions. Port, AF0, AF1, AF2, AF3, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Port",
+      "AF0",
+      "AF1",
+      "AF2",
+      "AF3",
+      "AF4",
+      "AF5",
+      "AF6",
+      "AF7"
+    ],
+    "rows": [
+      [
+        "PC0",
+        "-",
+        "USART4_RX",
+        "-",
+        "-",
+        "USART3_TX",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC1",
+        "-",
+        "USART4_TX",
+        "TIM15_CH1",
+        "-",
+        "USART3_RX",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC2",
+        "SPI2_MISO",
+        "-",
+        "TIM15_CH2",
+        "-",
+        "FDCAN1_RX",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC3",
+        "SPI2_MOSI",
+        "-",
+        "-",
+        "-",
+        "FDCAN1_TX",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC4",
+        "USART3_TX",
+        "USART1_TX",
+        "-",
+        "TIM2_ETR/ TIM2_CH1",
+        "FDCAN1_RX",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC5",
+        "USART3_RX",
+        "USART1_RX",
+        "-",
+        "TIM2_CH2",
+        "FDCAN1_TX",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC6",
+        "-",
+        "TIM3_CH1",
+        "-",
+        "TIM2_CH3",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC7",
+        "-",
+        "TIM3_CH2",
+        "-",
+        "TIM2_CH4",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC8",
+        "-",
+        "TIM3_CH3",
+        "TIM1_CH1",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC9",
+        "-",
+        "TIM3_CH4",
+        "TIM1_CH2",
+        "-",
+        "-",
+        "I2S_CKIN",
+        "-",
+        "-"
+      ],
+      [
+        "PC10",
+        "USART3_TX",
+        "USART4_TX",
+        "TIM1_CH3",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC11",
+        "USART3_RX",
+        "USART4_RX",
+        "TIM1_CH4",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC12",
+        "TIM14_CH1",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC13",
+        "-",
+        "TIM1_ETR",
+        "TIM1_BKIN",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC14",
+        "USART1_TX",
+        "TIM1_ETR",
+        "TIM1_BKIN2",
+        "-",
+        "-",
+        "-",
+        "-",
+        "USART3_TX"
+      ],
+      [
+        "PC15",
+        "OSC32_EN",
+        "OSC_EN",
+        "TIM1_ETR",
+        "TIM3_CH3",
+        "TIM15_BKIN",
+        "-",
+        "-",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

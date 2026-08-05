@@ -1,0 +1,144 @@
+{
+  "table_id": "table_57",
+  "document": "DS15137 Rev 2 - Table 57. DLYB characteristics",
+  "rev": "Rev 2",
+  "table_number": "57",
+  "title": "Table 57. DLYB characteristics",
+  "page": 94,
+  "section": "5.3.18 Delay block (DLYB) characteristics",
+  "section_title": "Delay block (DLYB) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=94",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 57. DLYB characteristics — section 5.3.18 Delay block (DLYB) characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tinit",
+        "Initial delay",
+        "-",
+        "950",
+        "1400",
+        "1750",
+        "ps"
+      ],
+      [
+        "t∆",
+        "Unit delay",
+        "-",
+        "40",
+        "52",
+        "64",
+        "ps"
+      ],
+      [
+        "RAIN(1)",
+        "External input impedance",
+        "Resolution = 6 bits, TJ = 125°C",
+        "-",
+        "-",
+        "79000",
+        "Ω"
+      ],
+      [
+        "CADC",
+        "Internal sample and hold capacitor",
+        "-",
+        "-",
+        "3",
+        "-",
+        "pF"
+      ],
+      [
+        "tADCVREG_ STUP",
+        "ADC LDO startup time",
+        "-",
+        "-",
+        "-",
+        "10",
+        "µs"
+      ],
+      [
+        "tSTAB",
+        "ADC power-up time",
+        "LDO already started",
+        "1",
+        "-",
+        "-",
+        "conversion cycle"
+      ],
+      [
+        "tOFF_CAL",
+        "Offset calibration time",
+        "-",
+        "85",
+        "85",
+        "85",
+        "1/fADC"
+      ],
+      [
+        "tLATR",
+        "Trigger conversion latency for regular and injected channels",
+        "Trigger from an asynchronous clock",
+        "3",
+        "-",
+        "4",
+        "1/fADC"
+      ],
+      [
+        "tLATR",
+        "Trigger conversion latency for regular and injected channels",
+        "Trigger from a synchronous clock",
+        "3",
+        "-",
+        "4",
+        "1/fADC"
+      ],
+      [
+        "tS",
+        "Sampling time",
+        "-",
+        "2.5",
+        "-",
+        "288.5",
+        "1/fADC"
+      ],
+      [
+        "tCONV",
+        "Total conversion time (including sampling time)",
+        "N-bits resolution",
+        "tS + 1.5 + N",
+        "tS + 1.5 + N",
+        "tS + 1.5 + N",
+        "1/fADC"
+      ],
+      [
+        "IDDA(ADC)",
+        "ADC consumption on VDD, VDDA and VREF",
+        "fS = 2.25 MSPS",
+        "-",
+        "200",
+        "-",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. High temperature generate leakage current on ADC inputs. This current create voltage drop through Rain directly affecting ADC accuracy (worst case when VAIN = VDDA). To limit this effect to a tolerance of 2LSBs, you must respect Rain max tables."
+    ],
+    "legend": [
+      "Evaluated by characterization, not tested in production unless otherwise specified."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

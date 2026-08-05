@@ -1,0 +1,210 @@
+{
+  "table_id": "table_13",
+  "document": "DS13867 Rev 4 - Table 13. Port A alternate function mapping (AF0 to AF7)",
+  "rev": "Rev 4",
+  "table_number": "13",
+  "title": "Table 13. Port A alternate function mapping (AF0 to AF7)",
+  "page": 35,
+  "section": "4 Pinouts, pin description and alternate functions",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=35",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 13. Port A alternate function mapping (AF0 to AF7) — section 4 Pinouts, pin description and alternate functions. Port, AF0, AF1, AF2, AF3, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Port",
+      "AF0",
+      "AF1",
+      "AF2",
+      "AF3",
+      "AF4",
+      "AF5",
+      "AF6",
+      "AF7"
+    ],
+    "rows": [
+      [
+        "PA0",
+        "-",
+        "USART2_CTS",
+        "TIM16_CH1",
+        "-",
+        "USART1_TX",
+        "TIM1_CH1",
+        "-",
+        "-"
+      ],
+      [
+        "PA1",
+        "SPI1_SCK/I2S1_ CK",
+        "USART2_RTS_ DE_CK",
+        "TIM17_CH1",
+        "-",
+        "USART1_RX",
+        "TIM1_CH2",
+        "I2C1_SMBA",
+        "EVENTOUT"
+      ],
+      [
+        "PA2",
+        "SPI1_MOSI/I2S1 _SD",
+        "USART2_TX",
+        "TIM16_CH1N",
+        "TIM3_ETR",
+        "-",
+        "TIM1_CH3",
+        "-",
+        "-"
+      ],
+      [
+        "PA3",
+        "-",
+        "USART2_RX",
+        "TIM1_CH1N",
+        "-",
+        "-",
+        "TIM1_CH4",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA4",
+        "SPI1_NSS/I2S1_ WS",
+        "USART2_TX",
+        "TIM1_CH2N",
+        "-",
+        "TIM14_CH1",
+        "TIM17_CH1N",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA5",
+        "SPI1_SCK/I2S1_ CK",
+        "USART2_RX",
+        "TIM1_CH3N",
+        "-",
+        "-",
+        "TIM1_CH1",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA6",
+        "SPI1_MISO/I2S1 _MCK",
+        "TIM3_CH1",
+        "TIM1_BKIN",
+        "-",
+        "-",
+        "TIM16_CH1",
+        "-",
+        "-"
+      ],
+      [
+        "PA7",
+        "SPI1_MOSI/I2S1 _SD",
+        "TIM3_CH2",
+        "TIM1_CH1N",
+        "-",
+        "TIM14_CH1",
+        "TIM17_CH1",
+        "-",
+        "-"
+      ],
+      [
+        "PA8",
+        "MCO",
+        "USART2_TX",
+        "TIM1_CH1",
+        "-",
+        "-",
+        "-",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA9",
+        "MCO",
+        "USART1_TX",
+        "TIM1_CH2",
+        "TIM3_ETR",
+        "-",
+        "-",
+        "I2C1_SCL",
+        "EVENTOUT"
+      ],
+      [
+        "PA10",
+        "-",
+        "USART1_RX",
+        "TIM1_CH3",
+        "MCO2",
+        "-",
+        "TIM17_BKIN",
+        "I2C1_SDA",
+        "EVENTOUT"
+      ],
+      [
+        "PA11",
+        "SPI1_MISO/I2S1 _MCK",
+        "USART1_CTS",
+        "TIM1_CH4",
+        "-",
+        "-",
+        "TIM1_BKIN2",
+        "-",
+        "-"
+      ],
+      [
+        "PA12",
+        "SPI1_MOSI/I2S1 _SD",
+        "USART1_RTS_ DE_CK",
+        "TIM1_ETR",
+        "-",
+        "-",
+        "I2S_CKIN",
+        "-",
+        "-"
+      ],
+      [
+        "PA13",
+        "SWDIO",
+        "IR_OUT",
+        "-",
+        "TIM3_ETR",
+        "USART2_RX",
+        "-",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA14",
+        "SWCLK",
+        "USART2_TX",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PA15",
+        "SPI1_NSS/I2S1_ WS",
+        "USART2_RX",
+        "TIM1_CH1",
+        "MCO2",
+        "USART1_RTS_ DE_CK",
+        "-",
+        "-",
+        "EVENTOUT"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

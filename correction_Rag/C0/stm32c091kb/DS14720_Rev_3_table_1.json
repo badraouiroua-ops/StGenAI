@@ -1,0 +1,117 @@
+{
+  "table_id": "table_1",
+  "document": "DS14720 Rev 3 - Table 1. Device summary",
+  "rev": "Rev 3",
+  "table_number": "1",
+  "title": "Table 1. Device summary",
+  "page": 1,
+  "section": "General purpose / Overview",
+  "section_title": "General purpose / Overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 1. Device summary — section General purpose / Overview. Reference, Part number.",
+  "table_content": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32C091xx",
+        "STM32C091FB"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091GB"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091KB"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091CB"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091RB"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091FC"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091EC"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091GC"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091KC"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091CC"
+      ],
+      [
+        "STM32C091xx",
+        "STM32C091RC"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092FB"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092GB"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092KB"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092CB"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092RB"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092FC"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092EC"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092GC"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092KC"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092CC"
+      ],
+      [
+        "STM32C092xx",
+        "STM32C092RC"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "• 7-channel DMA controller with flexible mapping"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

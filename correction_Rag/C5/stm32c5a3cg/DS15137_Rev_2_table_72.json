@@ -1,0 +1,65 @@
+{
+  "table_id": "table_72",
+  "document": "DS15137 Rev 2 - Table 72. Dynamic characteristics: Ethernet MAC signals for SMI",
+  "rev": "Rev 2",
+  "table_number": "72",
+  "title": "Table 72. Dynamic characteristics: Ethernet MAC signals for SMI",
+  "page": 109,
+  "section": "5.3.29 Ethernet interface characteristics",
+  "section_title": "Ethernet interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=109",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 72. Dynamic characteristics: Ethernet MAC signals for SMI — section 5.3.29 Ethernet interface characteristics. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tMDC",
+        "MDC cycle time( 2.5 MHz)",
+        "399",
+        "400",
+        "401",
+        "ns"
+      ],
+      [
+        "Td(MDIO)",
+        "Write data valid time",
+        "0.5",
+        "1",
+        "1.5",
+        "ns"
+      ],
+      [
+        "tsu(MDIO)",
+        "Read data setup time",
+        "14.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "th(MDIO)",
+        "Read data hold time",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "Evaluated by characterization - Not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "table_id": "table_68",
+  "document": "DS15137 Rev 2 - Table 68. I²C analog filter characteristics.",
+  "rev": "Rev 2",
+  "table_number": "68",
+  "title": "Table 68. I²C analog filter characteristics.",
+  "page": 105,
+  "section": "5.3.23 Timer characteristics",
+  "section_title": "Timer characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=105",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 68. I²C analog filter characteristics. — section 5.3.23 Timer characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tAF",
+        "Maximum pulse width of spikes that are suppressed by analog filter",
+        "50(1)",
+        "160(2)",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Spikes with widths below tAF(min) are filtered.",
+      "2. Spikes with widths above tAF(max) are not filtered."
+    ],
+    "legend": [
+      "Evaluated by characterization - Not tested in production.",
+      "Measurement points are taken at 50% VDD."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

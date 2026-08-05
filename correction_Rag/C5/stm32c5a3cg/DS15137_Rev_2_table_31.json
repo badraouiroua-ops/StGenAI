@@ -1,0 +1,125 @@
+{
+  "table_id": "table_31",
+  "document": "DS15137 Rev 2 - Table 31. Wake-up time from low-power modes.",
+  "rev": "Rev 2",
+  "table_number": "31",
+  "title": "Table 31. Wake-up time from low-power modes.",
+  "page": 72,
+  "section": "5.3.7 Wake-up time from low-power modes and voltage scaling transition times",
+  "section_title": "Wake-up time from low-power modes and voltage scaling transition times",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=72",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 31. Wake-up time from low-power modes. — section 5.3.7 Wake-up time from low-power modes and voltage scaling transition times. Symbol, Parameter, Conditions, Wakeup clock, fHCLK (MHz), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Wakeup clock",
+      "fHCLK (MHz)",
+      "Typ",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "twu(Sleep)",
+        "Wakeup from Sleep",
+        "Instruction cache enabled or disabled",
+        "-",
+        "-",
+        "16",
+        "CPU clock cycles"
+      ],
+      [
+        "twu(Stop)",
+        "Wakeup from Stop 0",
+        "Flash memory in normal mode",
+        "HSI",
+        "144",
+        "3.6",
+        "µs"
+      ],
+      [
+        "twu(Stop)",
+        "Wakeup from Stop 0",
+        "Flash memory in low-power mode",
+        "HSI",
+        "144",
+        "7.3",
+        "µs"
+      ],
+      [
+        "twu(Stop)",
+        "Wakeup from Stop 0",
+        "Flash memory in normal mode",
+        "HSIDIV3",
+        "48",
+        "5.4",
+        "µs"
+      ],
+      [
+        "twu(Stop)",
+        "Wakeup from Stop 0",
+        "Flash memory in low-power mode",
+        "HSIDIV3",
+        "48",
+        "9.0",
+        "µs"
+      ],
+      [
+        "twu(Stop)",
+        "Wakeup from Stop 1(1)",
+        "Flash memory in normal mode",
+        "HSI",
+        "144",
+        "36.0",
+        "µs"
+      ],
+      [
+        "twu(Stop)",
+        "Wakeup from Stop 1(1)",
+        "Flash memory in low-power mode",
+        "HSI",
+        "144",
+        "39.8",
+        "µs"
+      ],
+      [
+        "twu(Stop)",
+        "Wakeup from Stop 1(1)",
+        "Flash memory in normal mode",
+        "HSIDIV3",
+        "48",
+        "39.0",
+        "µs"
+      ],
+      [
+        "twu(Stop)",
+        "Wakeup from Stop 1(1)",
+        "Flash memory in low-power mode",
+        "HSIDIV3",
+        "48",
+        "37.9",
+        "µs"
+      ],
+      [
+        "twu(Standby)(2)",
+        "Wakeup from Standby mode(1)",
+        "-",
+        "HSIDIV3",
+        "48",
+        "445",
+        "µs"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization - Not tested in production.",
+      "2. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. Symbol Parameter Conditions"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

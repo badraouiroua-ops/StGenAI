@@ -1,0 +1,63 @@
+{
+  "table_id": "table_40",
+  "document": "DS15137 Rev 2 - Table 40. Flash memory characteristics",
+  "rev": "Rev 2",
+  "table_number": "40",
+  "title": "Table 40. Flash memory characteristics",
+  "page": 81,
+  "section": "5.3.10 Flash memory characteristics",
+  "section_title": "Flash memory characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=81",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 40. Flash memory characteristics — section 5.3.10 Flash memory characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD",
+        "Supply current",
+        "Word program",
+        "-",
+        "1",
+        "-",
+        "mA"
+      ],
+      [
+        "IDD",
+        "Supply current",
+        "Page erase",
+        "-",
+        "0.8",
+        "-",
+        "mA"
+      ],
+      [
+        "IDD",
+        "Supply current",
+        "Mass erase",
+        "-",
+        "0.8",
+        "-",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization - Not tested in production."
+    ],
+    "legend": [
+      "Specified by design and not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

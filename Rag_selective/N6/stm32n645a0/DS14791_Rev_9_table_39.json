@@ -1,0 +1,198 @@
+{
+  "table_id": "table_39",
+  "document": "DS14791 Rev 9 - Table 39. Current consumption (SMPS) in Run mode",
+  "rev": "Rev 9",
+  "table_number": "39",
+  "title": "Table 39. Current consumption (SMPS) in Run mode",
+  "page": 153,
+  "section": "5.3.6 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=153",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 39. Current consumption (SMPS) in Run mode — section 5.3.6 Supply current characteristics. Symbol, Conditions, Conditions, Conditions, frcc_c_ck (MHz), +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Conditions",
+      "Conditions",
+      "Conditions",
+      "frcc_c_ck (MHz)",
+      "SMPS internal / Typ",
+      "SMPS internal / Max(2) / T = 125°C J",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DDSMPS",
+        "Code with data processing running from ITCM(3) HSI, V = 1.8 V DD",
+        "All peripherals disabled",
+        "VOS high",
+        "800(4)",
+        "54.10",
+        "687.5",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from ITCM(3) HSI, V = 1.8 V DD",
+        "All peripherals disabled",
+        "VOS low",
+        "600(5)",
+        "36.18",
+        "584.5",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from ITCM(3) HSI, V = 1.8 V DD",
+        "All peripherals enabled",
+        "VOS high",
+        "800(3)",
+        "99.93",
+        "757.3",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from ITCM(3) HSI, V = 1.8 V DD",
+        "All peripherals enabled",
+        "VOS low",
+        "600(4)",
+        "78.54",
+        "643.8",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from ITCM (2) HSE, V = 1.8 V DD",
+        "All peripherals disabled",
+        "VOS high",
+        "800(3)",
+        "53.35",
+        "489.9",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from ITCM (2) HSE, V = 1.8 V DD",
+        "All peripherals disabled",
+        "VOS low",
+        "600(4)",
+        "34.29",
+        "460.7",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from ITCM (2) HSE, V = 1.8 V DD",
+        "All peripherals enabled",
+        "VOS high",
+        "800(3)",
+        "99.58",
+        "558.5",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from ITCM (2) HSE, V = 1.8 V DD",
+        "All peripherals enabled",
+        "VOS low",
+        "600(4)",
+        "77.70",
+        "473.4",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from AXI-SRAM2, Cache ON (2) HSI, V = 1.8 V DD",
+        "All peripherals disabled",
+        "VOS high",
+        "800(3)",
+        "55.50",
+        "687.8",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from AXI-SRAM2, Cache ON (2) HSI, V = 1.8 V DD",
+        "All peripherals disabled",
+        "VOS low",
+        "600(4)",
+        "37.12",
+        "585.4",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from AXI-SRAM2, Cache ON (2) HSI, V = 1.8 V DD",
+        "All peripherals enabled",
+        "VOS high",
+        "800(3)",
+        "100.6",
+        "757.5",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from AXI-SRAM2, Cache ON (2) HSI, V = 1.8 V DD",
+        "All peripherals enabled",
+        "VOS low",
+        "600(4)",
+        "79.03",
+        "643.2",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from AXI-SRAM2, Cache OFF (2) HSE, V = 1.8 V DD",
+        "All peripherals disabled",
+        "VOS high",
+        "800(3)",
+        "42.48",
+        "477.0",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from AXI-SRAM2, Cache OFF (2) HSE, V = 1.8 V DD",
+        "All peripherals disabled",
+        "VOS low",
+        "600(4)",
+        "30.53",
+        "405.0",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from AXI-SRAM2, Cache OFF (2) HSE, V = 1.8 V DD",
+        "All peripherals enabled",
+        "VOS high",
+        "800(3)",
+        "92.21",
+        "530.0",
+        "mA"
+      ],
+      [
+        "I DDSMPS",
+        "Code with data processing running from AXI-SRAM2, Cache OFF (2) HSE, V = 1.8 V DD",
+        "All peripherals enabled",
+        "VOS low",
+        "600(4)",
+        "73.50",
+        "364.3",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "2. Guaranteed by characterization results unless otherwise specified.",
+      "3. Data are in DTCM for best computation performance, cache has no influence on consumption in this case.",
+      "4. cpu_overdrive range frequency.",
+      "5. cpu_nominal range frequency. DS14791 Rev 9 153/258"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

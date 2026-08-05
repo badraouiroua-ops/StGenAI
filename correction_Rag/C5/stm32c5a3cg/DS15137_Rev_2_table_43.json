@@ -1,0 +1,43 @@
+{
+  "table_id": "table_43",
+  "document": "DS15137 Rev 2 - Table 43. EMS characteristics.",
+  "rev": "Rev 2",
+  "table_number": "43",
+  "title": "Table 43. EMS characteristics.",
+  "page": 82,
+  "section": "5.3.11 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=82",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 43. EMS characteristics. — section 5.3.11 EMC characteristics. Symbol, Parameter, Conditions, Level/ Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Level/ Class"
+    ],
+    "rows": [
+      [
+        "VFESD",
+        "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+        "VDD = 3.3 V, TA = 25°C, fHCLK = 160 MHz, LQFP144 package conforming to IEC 61000-4-2",
+        "2B"
+      ],
+      [
+        "VEFTB",
+        "Fast transient voltage burst limits to be applied through 100 pF on VDD and VSS pins to induce a functional disturbance",
+        "VDD = 3.3 V, TA = 25°C, fHCLK = 160 MHz, LQFP144 package conforming to IEC 61000-4-4",
+        "5A"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization - Not tested in production. Static latch-up"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

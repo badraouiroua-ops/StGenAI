@@ -1,0 +1,329 @@
+{
+  "table_id": "table_52",
+  "document": "DS14720 Rev 3 - Table 52. I/O AC characteristics",
+  "rev": "Rev 3",
+  "table_number": "52",
+  "title": "Table 52. I/O AC characteristics",
+  "page": 74,
+  "section": "5.3.13 I/O port characteristics",
+  "section_title": "I/O port characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=74",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 52. I/O AC characteristics — section 5.3.13 I/O port characteristics. Speed, Symbol, Parameter(1)(2), Conditions, Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Speed",
+      "Symbol",
+      "Parameter(1)(2)",
+      "Conditions",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "00",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "2",
+        "MHz"
+      ],
+      [
+        "00",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "0.35",
+        "MHz"
+      ],
+      [
+        "00",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "3.00",
+        "MHz"
+      ],
+      [
+        "00",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "0.45",
+        "MHz"
+      ],
+      [
+        "00",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "100.00",
+        "ns"
+      ],
+      [
+        "00",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "225.00",
+        "ns"
+      ],
+      [
+        "00",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "75.00",
+        "ns"
+      ],
+      [
+        "00",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "150.00",
+        "ns"
+      ],
+      [
+        "01",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "10.00",
+        "MHz"
+      ],
+      [
+        "01",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "2.00",
+        "MHz"
+      ],
+      [
+        "01",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "15.00",
+        "MHz"
+      ],
+      [
+        "01",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "2.50",
+        "MHz"
+      ],
+      [
+        "01",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "30.00",
+        "ns"
+      ],
+      [
+        "01",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "60.00",
+        "ns"
+      ],
+      [
+        "01",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "15.00",
+        "ns"
+      ],
+      [
+        "01",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "30.00",
+        "ns"
+      ],
+      [
+        "10",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "30.00",
+        "MHz"
+      ],
+      [
+        "10",
+        "Fmax",
+        "Maximum frequency",
+        "C=50 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "15.00",
+        "MHz"
+      ],
+      [
+        "10",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "60.00(4)",
+        "MHz"
+      ],
+      [
+        "10",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "30.00",
+        "MHz"
+      ],
+      [
+        "10",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "11.00",
+        "ns"
+      ],
+      [
+        "10",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=50 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "22.00",
+        "ns"
+      ],
+      [
+        "10",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "4.00",
+        "ns"
+      ],
+      [
+        "10",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "8.00",
+        "ns"
+      ],
+      [
+        "11",
+        "Fmax",
+        "Maximum frequency",
+        "C=30 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "60.00(4)",
+        "MHz"
+      ],
+      [
+        "11",
+        "Fmax",
+        "Maximum frequency",
+        "C=30 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "30.00",
+        "MHz"
+      ],
+      [
+        "11",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "80.00(4)",
+        "MHz"
+      ],
+      [
+        "11",
+        "Fmax",
+        "Maximum frequency",
+        "C=10 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "40.00",
+        "MHz"
+      ],
+      [
+        "11",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=30 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "5.50",
+        "ns"
+      ],
+      [
+        "11",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=30 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "11.00",
+        "ns"
+      ],
+      [
+        "11",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.7 V ≤ VDDIO1 ≤ 3.6 V",
+        "-",
+        "2.50",
+        "ns"
+      ],
+      [
+        "11",
+        "Tr/Tf",
+        "Output rise and fall time(3)",
+        "C=10 pF, 2.0 V ≤ VDDIO1 ≤ 2.7 V",
+        "-",
+        "5.00",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. The I current sourced or sunk by the device must always respect the absolute maximum rating specified in Table 21: IO",
+      "2. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+      "3. Specified by design. Not tested in production. Input/output AC characteristics",
+      "4. This value represents the I/O capability but the maximum system frequency is limited to 48 MHz. DS14720 Rev 3 75/124"
+    ],
+    "legend": [
+      "Unless otherwise specified, the parameters given are derived from tests performed under",
+      "the ambient temperature and supply voltage conditions summarized in Table 24: General",
+      "operating conditions."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "table_id": "table_55",
+  "document": "DS14693 Rev 2 - Table 55. EXTI input characteristics",
+  "rev": "Rev 2",
+  "table_number": "55",
+  "title": "Table 55. EXTI input characteristics",
+  "page": 84,
+  "section": "5.3.15 Extended interrupt and event controller input (EXTI) characteristics",
+  "section_title": "Extended interrupt and event controller input (EXTI) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=84",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 55. EXTI input characteristics — section 5.3.15 Extended interrupt and event controller input (EXTI) characteristics. Symbol, Parameter(1), Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter(1)",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t_EXTI",
+        "Pulse length to event controller",
+        "-",
+        "20",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. The reset network protects the device against parasitic resets."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

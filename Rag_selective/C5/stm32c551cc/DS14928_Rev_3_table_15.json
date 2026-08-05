@@ -1,0 +1,95 @@
+{
+  "table_id": "table_15",
+  "document": "DS14928 Rev 3 - Table 15. Current characteristics",
+  "rev": "Rev 3",
+  "table_number": "15",
+  "title": "Table 15. Current characteristics",
+  "page": 55,
+  "section": "5.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=55",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "text_helper": "Table 15. Current characteristics — section 5.2 Absolute maximum ratings. Symbol, Ratings, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "∑IVDD",
+        "Total current into sum of all VDD power lines (source)(1)",
+        "200",
+        "mA"
+      ],
+      [
+        "∑IVSS",
+        "Total current out of sum of all VSS ground lines (sink)(1)",
+        "200",
+        "mA"
+      ],
+      [
+        "IVDD",
+        "Maximum current into each VDD power pin (source)(1)",
+        "100",
+        "mA"
+      ],
+      [
+        "IVSS",
+        "Maximum current out of each VSS ground pin (sink)(1)",
+        "100",
+        "mA"
+      ],
+      [
+        "IIO",
+        "Output current sunk by any I/O and control pin",
+        "20",
+        "mA"
+      ],
+      [
+        "IIO",
+        "Output current sourced by any I/O and control pin",
+        "20",
+        "mA"
+      ],
+      [
+        "∑I(PIN)",
+        "Total output current sunk by sum of all I/Os and control pins(2)",
+        "140",
+        "mA"
+      ],
+      [
+        "∑I(PIN)",
+        "Total output current sourced by sum of all I/Os and control pins(2)",
+        "140",
+        "mA"
+      ],
+      [
+        "IINJ(PIN)(3)(4)",
+        "Injected current on FT_xx, TT_xx, RST pins",
+        "-5/0",
+        "mA"
+      ],
+      [
+        "∑IINJ(PIN)",
+        "Total injected current (sum of all I/Os and control pins)(5)",
+        "±25",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. When RESET is released, the functionality is guaranteed down to PDR minimum voltage.",
+      "2. For operation with voltage higher than VDD + 0.3 V, the internal pull‑up and pull‑down resistors must be disabled. The minimum and maximum input voltage (Vin) must comply with the selected peripheral enabled on the given GPIOs. Refer to the respective peripheral",
+      "3. If TA is lower, higher PD values are allowed as long as TJ does not exceed TJmax (see Section 6.9: Package thermal characteristics). DS14928 - Rev 3 page 56/132",
+      "4. Positive injection (when VIN > VDDIOx) is not possible on these I/Os and does not occur for input voltages lower than the specified maximum value.",
+      "5. When several inputs are submitted to a current injection, the maximum ∑IINJ(PIN) is the absolute sum of the negative injected currents (instantaneous values)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

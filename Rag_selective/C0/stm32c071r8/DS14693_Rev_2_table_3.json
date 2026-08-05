@@ -1,0 +1,93 @@
+{
+  "table_id": "table_3",
+  "document": "DS14693 Rev 2 - Table 3. Access status versus readout protection level and execution modes",
+  "rev": "Rev 2",
+  "table_number": "3",
+  "title": "Table 3. Access status versus readout protection level and execution modes",
+  "page": 14,
+  "section": "3.3 Embedded flash memory",
+  "section_title": "Embedded flash memory",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=14",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 3. Access status versus readout protection level and execution modes — section 3.3 Embedded flash memory. Area, Protection level, User execution / Read, User execution / Write, User execution / Erase, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Area",
+      "Protection level",
+      "User execution / Read",
+      "User execution / Write",
+      "User execution / Erase",
+      "Debug, boot from RAM or boot from system memory (loader) / Read",
+      "Debug, boot from RAM or boot from system memory (loader) / Write",
+      "Debug, boot from RAM or boot from system memory (loader) / Erase"
+    ],
+    "rows": [
+      [
+        "Main memory",
+        "1",
+        "Yes",
+        "Yes",
+        "Yes",
+        "No",
+        "No",
+        "No"
+      ],
+      [
+        "Main memory",
+        "2",
+        "Yes",
+        "Yes",
+        "Yes",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      [
+        "System memory",
+        "1",
+        "Yes",
+        "No",
+        "No",
+        "Yes",
+        "No",
+        "No"
+      ],
+      [
+        "System memory",
+        "2",
+        "Yes",
+        "No",
+        "No",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      [
+        "Option bytes",
+        "1",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Option bytes",
+        "2",
+        "Yes",
+        "No",
+        "No",
+        "N/A",
+        "N/A",
+        "N/A"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

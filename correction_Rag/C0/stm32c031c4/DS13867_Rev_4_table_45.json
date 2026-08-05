@@ -1,0 +1,44 @@
+{
+  "table_id": "table_45",
+  "document": "DS13867 Rev 4 - Table 45. EMS characteristics",
+  "rev": "Rev 4",
+  "table_number": "45",
+  "title": "Table 45. EMS characteristics",
+  "page": 62,
+  "section": "5.3.10 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=62",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 45. EMS characteristics — section 5.3.10 EMC characteristics. Symbol, Parameter, Conditions, Level/ Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Level/ Class"
+    ],
+    "rows": [
+      [
+        "VFESD",
+        "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+        "VDD = 3.3 V, TA = +25 °C, fHSE = fHCLK = 48 MHz, LQFP48, conforming to IEC 61000-4-2",
+        "2B"
+      ],
+      [
+        "VEFTB",
+        "Fast transient voltage burst limits to be applied through 100 pF on VDD and VSS pins to induce a functional disturbance",
+        "VDD = 3.3 V, TA = +25 °C, fHSE = fHCLK = 48 MHz, LQFP48, conforming to IEC 61000-4-2",
+        "4B"
+      ]
+    ],
+    "notes": [
+      "1. Refer to AN1709, section EMI radiated test",
+      "2. Refer to AN1709, section EMI level classification"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

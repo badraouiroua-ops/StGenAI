@@ -1,0 +1,61 @@
+{
+  "table_id": "table_72",
+  "document": "DS14721 Rev 2 - Table 72. Tolerance of form and position",
+  "rev": "Rev 2",
+  "table_number": "72",
+  "title": "Table 72. Tolerance of form and position",
+  "page": 98,
+  "section": "1.2 REF",
+  "section_title": "REF",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=98",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "text_helper": "Table 72. Tolerance of form and position — section 1.2 REF. Symbol, Millimeters(1), Inches(2).",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Millimeters(1)",
+      "Inches(2)"
+    ],
+    "rows": [
+      [
+        "aaa",
+        "0.15",
+        "0.0059"
+      ],
+      [
+        "bbb",
+        "0.10",
+        "0.0039"
+      ],
+      [
+        "ccc",
+        "0.10",
+        "0.0039"
+      ],
+      [
+        "ddd",
+        "0.05",
+        "0.0020"
+      ],
+      [
+        "eee",
+        "0.08",
+        "0.0315"
+      ],
+      [
+        "fff",
+        "0.10",
+        "0.0039"
+      ]
+    ],
+    "notes": [
+      "1. All dimensions are in millimeters. Dimensioning and tolerancing schemes conform to ASME Y14.5M-2018 except European.",
+      "2. Values in inches are converted from mm and rounded to four decimal digits."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

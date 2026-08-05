@@ -1,0 +1,139 @@
+{
+  "table_id": "table_24",
+  "document": "DS15137 Rev 2 - Table 24. Typical and maximum current consumption in Run mode",
+  "rev": "Rev 2",
+  "table_number": "24",
+  "title": "Table 24. Typical and maximum current consumption in Run mode",
+  "page": 68,
+  "section": "5.3.6.1 Current consumption in Run mode",
+  "section_title": "Current consumption in Run mode",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=68",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 24. Typical and maximum current consumption in Run mode — section 5.3.6.1 Current consumption in Run mode. Symbol, Parameter, Conditions, fHCLK / (MHz), Typ, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "fHCLK / (MHz)",
+      "Typ",
+      "Max LDO / TJ = 30°C",
+      "Max LDO / TJ = 140°C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks disabled",
+        "Code in Flash, ICACHE 2-way",
+        "144",
+        "11.4",
+        "12.00",
+        "24.00",
+        "mA"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks disabled",
+        "Code in Flash, ICACHE 2-way",
+        "48",
+        "4.1",
+        "4.20",
+        "17.50",
+        "mA"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks disabled",
+        "Code in Flash, ICACHE 1-way",
+        "144",
+        "10.5",
+        "11.00",
+        "23.00",
+        "mA"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks disabled",
+        "Code in Flash, ICACHE 1-way",
+        "48",
+        "3.8",
+        "4.00",
+        "17.50",
+        "mA"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks disabled",
+        "Code in Flash, ICACHE OFF",
+        "144",
+        "11.3",
+        "12.00",
+        "23.50",
+        "mA"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks disabled",
+        "Code in Flash, ICACHE OFF",
+        "48",
+        "4.6",
+        "5.00",
+        "18.00",
+        "mA"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks disabled",
+        "Code in SRAM2, ICACHE OFF, FLASH ON",
+        "144",
+        "10.5",
+        "11.00",
+        "23.50",
+        "mA"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks disabled",
+        "Code in SRAM2, ICACHE OFF, FLASH ON",
+        "48",
+        "3.8",
+        "4.00",
+        "17.50",
+        "mA"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks enabled",
+        "Code in flash, ICACHE 2-way",
+        "144(2)",
+        "35.00",
+        "37.00",
+        "47.00",
+        "mA"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode with all peripheral clocks enabled",
+        "Code in flash, ICACHE OFF",
+        "144(2)",
+        "35.00",
+        "37.00",
+        "47.00",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Measurements done with prefetch enabled.",
+      "2. Clocked by PSI at 144 MHz with HSE at 16 MHz in bypass mode."
+    ],
+    "legend": [
+      "Specified by design - not tested in production, unless otherwise stated.",
+      "Clocked by HSI at 144 MHz of HSIDIV3 at 48MHz if not otherwise specified."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

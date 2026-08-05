@@ -1,0 +1,97 @@
+{
+  "table_id": "table_99",
+  "document": "DS14791 Rev 9 - Table 99. VBAT, VDDx, VDDCORE, VDDA18AON, ADC measurement characteristics",
+  "rev": "Rev 9",
+  "table_number": "99",
+  "title": "Table 99. VBAT, VDDx, VDDCORE, VDDA18AON, ADC measurement characteristics",
+  "page": 206,
+  "section": "5.3.28 Compensation cell characteristics",
+  "section_title": "Compensation cell characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=206",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 99. VBAT, VDDx, VDDCORE, VDDA18AON, ADC measurement characteristics — section 5.3.28 Compensation cell characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "R",
+        "Resistor bridge for V BAT",
+        "-",
+        "-",
+        "130",
+        "-",
+        "kΩ"
+      ],
+      [
+        "Q",
+        "Ratio on V measurement BAT",
+        "-",
+        "-",
+        "4",
+        "-",
+        "kΩ"
+      ],
+      [
+        "E r",
+        "Error on Q",
+        "-",
+        "-1",
+        "-",
+        "1",
+        "%"
+      ],
+      [
+        "t S_VBAT",
+        "ADC sampling time when reading V BAT",
+        "-",
+        "34(2)",
+        "-",
+        "-",
+        "μs"
+      ],
+      [
+        "t S_VDD",
+        "ADC sampling time when reading V DD",
+        "-",
+        "34(2)",
+        "-",
+        "-",
+        "μs"
+      ],
+      [
+        "t S_VDDA18AON",
+        "ADC sampling time when reading V DDA18AON",
+        "-",
+        "34(2)",
+        "-",
+        "-",
+        "μs"
+      ],
+      [
+        "t S_VDDCORE",
+        "ADC sampling time when reading V DDCORE",
+        "-",
+        "34(2)",
+        "-",
+        "-",
+        "μs"
+      ]
+    ],
+    "notes": [
+      "2. Specified by design, not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

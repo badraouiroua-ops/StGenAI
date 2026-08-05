@@ -1,0 +1,140 @@
+{
+  "table_id": "table_71",
+  "document": "DS14720 Rev 3 - Table 71. UFQFPN32 - Mechanical data",
+  "rev": "Rev 3",
+  "table_number": "71",
+  "title": "Table 71. UFQFPN32 - Mechanical data",
+  "page": 105,
+  "section": "1.2 REF",
+  "section_title": "REF",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=105",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 71. UFQFPN32 - Mechanical data — section 1.2 REF. Symbol, Millimeters / Min, Millimeters / Typ, Millimeters / Max, Inches(8) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Millimeters / Min",
+      "Millimeters / Typ",
+      "Millimeters / Max",
+      "Inches(8) / Min",
+      "Inches(8) / Typ",
+      "Inches(8) / Max"
+    ],
+    "rows": [
+      [
+        "A(2)(3)",
+        "0.50",
+        "0.55",
+        "0.60",
+        "0.0197",
+        "0.0217",
+        "0.0236"
+      ],
+      [
+        "A1(4)",
+        "0.00",
+        "-",
+        "0.05",
+        "0.000",
+        "-",
+        "0.0020"
+      ],
+      [
+        "b(6)(15)",
+        "0.18",
+        "0.25",
+        "0.30",
+        "0.0071",
+        "0.0098",
+        "0.0118"
+      ],
+      [
+        "D(7)",
+        "5.00 BSC",
+        "5.00 BSC",
+        "5.00 BSC",
+        "0.1969 BSC",
+        "0.1969 BSC",
+        "0.1969 BSC"
+      ],
+      [
+        "D2",
+        "3.40",
+        "3.50",
+        "3.60",
+        "0.1339",
+        "0.1378",
+        "0.1417"
+      ],
+      [
+        "E(7)",
+        "5.00 BSC",
+        "5.00 BSC",
+        "5.00 BSC",
+        "0.1969 BSC",
+        "0.1969 BSC",
+        "0.1969 BSC"
+      ],
+      [
+        "E2",
+        "3.40",
+        "3.50",
+        "3.60",
+        "0.1339",
+        "0.1378",
+        "0.1417"
+      ],
+      [
+        "e",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC"
+      ],
+      [
+        "N(12)",
+        "32",
+        "32",
+        "32",
+        "32",
+        "32",
+        "32"
+      ],
+      [
+        "L(15)",
+        "0.30",
+        "-",
+        "0.50",
+        "0.0118",
+        "-",
+        "0.0197"
+      ],
+      [
+        "R",
+        "0.09",
+        "-",
+        "-",
+        "0.0035",
+        "-",
+        "-"
+      ]
+    ],
+    "notes": [
+      "2. UFQFPN stands for ultra-thin fine pitch quad flat package no lead: A ≤ 0.60 mm / Fine pitch e ≤ 1.00 mm.",
+      "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "4. A1 is the vertical distance from the bottom surface of the plastic body to the nearest metallized package feature.",
+      "6. Dimension b applies to metallized terminal. If the terminal has the optional radius on the other end of the terminal, the dimension b should not be measured in that radius",
+      "7. BSC stands for BASIC dimensions. It corresponds to the nominal value and has no tolerance.",
+      "8. Values in inches are converted from millimeters and rounded to four decimal digits.",
+      "12. N represents the total number of terminals.",
+      "15. Dimension b and L are measured at the terminal planting surface. 106/124 DS14720 Rev 3"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

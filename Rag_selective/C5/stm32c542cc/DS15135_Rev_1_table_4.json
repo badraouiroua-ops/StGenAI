@@ -1,0 +1,71 @@
+{
+  "table_id": "table_4",
+  "document": "DS15135 Rev 1 - Table 4. ADC features",
+  "rev": "Rev 1",
+  "table_number": "4",
+  "title": "Table 4. ADC features",
+  "page": 17,
+  "section": "3.15 Analog-to-digital converter (ADC)",
+  "section_title": "Analog-to-digital converter (ADC)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "text_helper": "Table 4. ADC features — section 3.15 Analog-to-digital converter (ADC). ADC modes/features, ADC1.",
+  "table_content": {
+    "headers": [
+      "ADC modes/features",
+      "ADC1"
+    ],
+    "rows": [
+      [
+        "Resolution",
+        "12 bits"
+      ],
+      [
+        "Maximum sampling-speed",
+        "2.25 Msps"
+      ],
+      [
+        "Hardware-offset calibration",
+        "X"
+      ],
+      [
+        "Single-ended inputs",
+        "X"
+      ],
+      [
+        "Injected channel conversion",
+        "X"
+      ],
+      [
+        "Oversampling",
+        "up to x1024"
+      ],
+      [
+        "Data register",
+        "32 bits"
+      ],
+      [
+        "DMA support",
+        "X"
+      ],
+      [
+        "Offset compensation",
+        "X"
+      ],
+      [
+        "Gain compensation",
+        "X"
+      ],
+      [
+        "Number of analog watchdogs",
+        "3"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "table_id": "table_81",
+  "document": "DS14791 Rev 9 - Table 81. NAND flash memory read cycles",
+  "rev": "Rev 9",
+  "table_number": "81",
+  "title": "Table 81. NAND flash memory read cycles",
+  "page": 189,
+  "section": "5.3.19 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=189",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 81. NAND flash memory read cycles — section 5.3.19 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(NOE)",
+        "FMC_NOE low width",
+        "4 × T - 1 fmc_ker_ck",
+        "4 × T + 1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t su(D-NOE)",
+        "FMC_D[15-0] valid data before FMC_NOE high",
+        "15",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(NOE-D)",
+        "FMC_D[15-0] valid data after FMC_NOE high",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(ALE-NOE)",
+        "FMC_ALE valid before FMC_NOE low",
+        "-",
+        "2 × T + 1.5 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t h(NOE-ALE)",
+        "FMC_NWE high to FMC_ALE invalid",
+        "3 × T - 1 fmc_ker_ck",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production.",
+      "2. Primary interfaces used. 190/258 DS14791 Rev 9"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

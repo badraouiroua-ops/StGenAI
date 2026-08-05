@@ -1,0 +1,82 @@
+{
+  "table_id": "table_58",
+  "document": "DS13867 Rev 4 - Table 58. TIMx characteristics",
+  "rev": "Rev 4",
+  "table_number": "58",
+  "title": "Table 58. TIMx characteristics",
+  "page": 75,
+  "section": "5.3.17 Timer characteristics",
+  "section_title": "Timer characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=75",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 58. TIMx characteristics — section 5.3.17 Timer characteristics. Symbol, Parameter, Conditions, Min, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tres(TIM)",
+        "Timer resolution time",
+        "-",
+        "1",
+        "-",
+        "tTIMxCLK"
+      ],
+      [
+        "tres(TIM)",
+        "Timer resolution time",
+        "fTIMxCLK = 48 MHz",
+        "20.833",
+        "-",
+        "ns"
+      ],
+      [
+        "fEXT",
+        "Timer external clock frequency on CH1 to CH4",
+        "-",
+        "0",
+        "fTIMxCLK/4",
+        "MHz"
+      ],
+      [
+        "ResTIM",
+        "Timer resolution",
+        "TIMx",
+        "-",
+        "16",
+        "bit"
+      ],
+      [
+        "tCOUNTER",
+        "16-bit counter clock period",
+        "-",
+        "1",
+        "65536",
+        "tTIMxCLK"
+      ],
+      [
+        "tMAX_COUNT",
+        "Maximum possible count with 16-bit counter",
+        "-",
+        "-",
+        "65536",
+        "tTIMxCLK"
+      ]
+    ],
+    "notes": [
+      "1. TIMx is used as a general term to refer to a timer (for example, TIM1). ,",
+      "2. Specified by design – Not tested in production. DS13867 Rev 4 75/103"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

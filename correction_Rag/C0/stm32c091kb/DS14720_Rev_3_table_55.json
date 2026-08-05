@@ -1,0 +1,350 @@
+{
+  "table_id": "table_55",
+  "document": "DS14720 Rev 3 - Table 55. ADC characteristics",
+  "rev": "Rev 3",
+  "table_number": "55",
+  "title": "Table 55. ADC characteristics",
+  "page": 77,
+  "section": "5.3.16 Analog-to-digital converter characteristics",
+  "section_title": "Analog-to-digital converter characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=77",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 55. ADC characteristics — section 5.3.16 Analog-to-digital converter characteristics. Symbol, Parameter(1), Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter(1)",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DDA",
+        "Analog supply voltage",
+        "-",
+        "2.0",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V REF+",
+        "Positive reference voltage",
+        "-",
+        "2",
+        "-",
+        "V DD",
+        "V"
+      ],
+      [
+        "f ADC",
+        "ADC clock frequency",
+        "-",
+        "0.14",
+        "-",
+        "35",
+        "MHz"
+      ],
+      [
+        "f s",
+        "Sampling rate",
+        "12 bits",
+        "-",
+        "-",
+        "2.50",
+        "MSps"
+      ],
+      [
+        "f s",
+        "Sampling rate",
+        "10 bits",
+        "-",
+        "-",
+        "2.92",
+        "MSps"
+      ],
+      [
+        "f s",
+        "Sampling rate",
+        "8 bits",
+        "-",
+        "-",
+        "3.50",
+        "MSps"
+      ],
+      [
+        "f s",
+        "Sampling rate",
+        "6 bits",
+        "-",
+        "-",
+        "4.38",
+        "MSps"
+      ],
+      [
+        "f TRIG",
+        "External trigger frequency",
+        "fADC = 35 MHz; 12 bits",
+        "-",
+        "-",
+        "2.33",
+        "MHz"
+      ],
+      [
+        "f TRIG",
+        "External trigger frequency",
+        "12 bits",
+        "-",
+        "-",
+        "fADC/15",
+        "MHz"
+      ],
+      [
+        "V AIN",
+        "Conversion voltage range",
+        "-",
+        "0",
+        "-",
+        "VREF+(2)",
+        "V"
+      ],
+      [
+        "R AIN",
+        "External input impedance",
+        "-",
+        "-",
+        "-",
+        "50",
+        "kΩ"
+      ],
+      [
+        "C ADC",
+        "Internal sample and hold capacitor",
+        "-",
+        "-",
+        "5",
+        "-",
+        "pF"
+      ],
+      [
+        "t STAB",
+        "ADC power-up time",
+        "LDO already started",
+        "-",
+        "2",
+        "-",
+        "Conversion cycle"
+      ],
+      [
+        "t CAL",
+        "Calibration time",
+        "fADC = 35 MHz",
+        "2.35",
+        "2.35",
+        "2.35",
+        "µs"
+      ],
+      [
+        "t CAL",
+        "Calibration time",
+        "-",
+        "82",
+        "82",
+        "82",
+        "1/f ADC"
+      ],
+      [
+        "WLATENCY",
+        "ADC_DR register write latency",
+        "CKMODE = 00",
+        "1.5/f ADC + 2/f PCLK",
+        "-",
+        "1.5/f ADC + 3/f PCLK",
+        "1/f ADC"
+      ],
+      [
+        "WLATENCY",
+        "ADC_DR register write latency",
+        "CKMODE = 01",
+        "4.5",
+        "4.5",
+        "1.5/f ADC + 3/f PCLK",
+        "1/f PCLK"
+      ],
+      [
+        "WLATENCY",
+        "ADC_DR register write latency",
+        "CKMODE = 10",
+        "8.5",
+        "8.5",
+        "1.5/f ADC + 3/f PCLK",
+        "1/f PCLK"
+      ],
+      [
+        "WLATENCY",
+        "ADC_DR register write latency",
+        "CKMODE = 11",
+        "2.5",
+        "2.5",
+        "1.5/f ADC + 3/f PCLK",
+        "1/f PCLK"
+      ],
+      [
+        "t LATR",
+        "Trigger conversion latency for regular and injected channels without aborting the conversion",
+        "CKMODE = 00",
+        "2",
+        "-",
+        "3",
+        "1/f ADC"
+      ],
+      [
+        "t LATR",
+        "Trigger conversion latency for regular and injected channels without aborting the conversion",
+        "CKMODE = 01",
+        "6.5",
+        "6.5",
+        "-",
+        "1/f PCLK"
+      ],
+      [
+        "t LATR",
+        "Trigger conversion latency for regular and injected channels without aborting the conversion",
+        "CKMODE = 10",
+        "12.5",
+        "12.5",
+        "-",
+        "1/f PCLK"
+      ],
+      [
+        "t LATR",
+        "Trigger conversion latency for regular and injected channels without aborting the conversion",
+        "CKMODE = 11",
+        "3.5",
+        "3.5",
+        "-",
+        "1/f PCLK"
+      ],
+      [
+        "t s",
+        "Sampling time",
+        "fADC = 35 MHz",
+        "0.043",
+        "-",
+        "4.59",
+        "µs"
+      ],
+      [
+        "t s",
+        "Sampling time",
+        "fADC = 35 MHz",
+        "1.5",
+        "-",
+        "160.5",
+        "1/f ADC"
+      ],
+      [
+        "t ADCVREG _STUP",
+        "ADC voltage regulator start-up time",
+        "-",
+        "-",
+        "-",
+        "20",
+        "µs"
+      ],
+      [
+        "t CONV",
+        "Total conversion time (including sampling time)",
+        "f = 35 MHz ADC Resolution = 12 bits",
+        "0.40",
+        "-",
+        "4.95",
+        "µs"
+      ],
+      [
+        "t CONV",
+        "Total conversion time (including sampling time)",
+        "Resolution = 12 bits",
+        "t + 12.5 cycles for successive s approximation = 14 to 173",
+        "-",
+        "4.95",
+        "1/f ADC"
+      ],
+      [
+        "t IDLE",
+        "Laps of time allowed between two conversions without rearm",
+        "-",
+        "-",
+        "-",
+        "100",
+        "µs"
+      ],
+      [
+        "I DDA(ADC)",
+        "ADC consumption from V DDA",
+        "fs = 2.5 MSps",
+        "-",
+        "410",
+        "-",
+        "µA"
+      ],
+      [
+        "I DDA(ADC)",
+        "ADC consumption from V DDA",
+        "fs = 1 MSps",
+        "-",
+        "164",
+        "-",
+        "µA"
+      ],
+      [
+        "I DDA(ADC)",
+        "ADC consumption from V DDA",
+        "fs = 10 kSps",
+        "-",
+        "17",
+        "-",
+        "µA"
+      ],
+      [
+        "I DDV(ADC)",
+        "ADC consumption from V REF+",
+        "fs = 2.5 MSps",
+        "-",
+        "65",
+        "-",
+        "µA"
+      ],
+      [
+        "I DDV(ADC)",
+        "ADC consumption from V REF+",
+        "fs = 1 MSps",
+        "-",
+        "26",
+        "-",
+        "µA"
+      ],
+      [
+        "I DDV(ADC)",
+        "ADC consumption from V REF+",
+        "fs = 10 kSps",
+        "-",
+        "0.26",
+        "-",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Specified by design. Not tested in production.",
+      "2. The user must ensure that, upon power-on, the level on the NRST pin can exceed the minimum V IH(NRST)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

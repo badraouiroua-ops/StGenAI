@@ -1,0 +1,89 @@
+{
+  "table_id": "table_54",
+  "document": "DS14693 Rev 2 - Table 54. NRST pin characteristics",
+  "rev": "Rev 2",
+  "table_number": "54",
+  "title": "Table 54. NRST pin characteristics",
+  "page": 83,
+  "section": "5.3.14 NRST input characteristics",
+  "section_title": "NRST input characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=83",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 54. NRST pin characteristics — section 5.3.14 NRST input characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "VIL(NRST)",
+        "NRST input low level voltage",
+        "-",
+        "-",
+        "-",
+        "0.3 × V DD",
+        "V"
+      ],
+      [
+        "VIH(NRST)",
+        "NRST input high level voltage",
+        "-",
+        "0.7 × V DD",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "Vhys(NRST)",
+        "NRST Schmitt trigger voltage hysteresis",
+        "-",
+        "-",
+        "200",
+        "-",
+        "mV"
+      ],
+      [
+        "RPU(1)",
+        "Weak pull-up equivalent resistor(2)",
+        "VIN = VSS",
+        "25",
+        "40",
+        "55",
+        "kΩ"
+      ],
+      [
+        "VF(NRST)(1)",
+        "NRST input filtered pulse",
+        "2.0 V < VDD < 3.6 V",
+        "-",
+        "-",
+        "70",
+        "ns"
+      ],
+      [
+        "VNF(NRST)(1)",
+        "NRST input not filtered pulse",
+        "2.0 V < VDD < 3.6 V",
+        "350",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Refer to Table 53: I/O AC characteristics.",
+      "2. The pull-up is designed with a true resistance in series with a switchable PMOS. This PMOS contribution to the series resistance is minimal (~10% order)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

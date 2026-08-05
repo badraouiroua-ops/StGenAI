@@ -1,0 +1,206 @@
+{
+  "table_id": "table_2",
+  "document": "DS13866 Rev 5 - Table 2. STM32C011x4/x6 family device features and peripheral counts",
+  "rev": "Rev 5",
+  "table_number": "2",
+  "title": "Table 2. STM32C011x4/x6 family device features and peripheral counts",
+  "page": 9,
+  "section": "2 Description",
+  "section_title": "Description",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "Table 2. STM32C011x4/x6 family device features and peripheral counts — section 2 Description. Peripheral, Peripheral, STM32C011_ / _J4, STM32C011_ / _J6, STM32C011_ / _D6, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Peripheral",
+      "Peripheral",
+      "STM32C011_ / _J4",
+      "STM32C011_ / _J6",
+      "STM32C011_ / _D6",
+      "STM32C011_ / _F4",
+      "STM32C011_ / _F6"
+    ],
+    "rows": [
+      [
+        "Flash memory (Kbyte)",
+        "Flash memory (Kbyte)",
+        "16",
+        "32",
+        "32",
+        "16",
+        "32"
+      ],
+      [
+        "SRAM (Kbyte)",
+        "SRAM (Kbyte)",
+        "6 with parity",
+        "6 with parity",
+        "6 with parity",
+        "6 with parity",
+        "6 with parity"
+      ],
+      [
+        "Timers",
+        "Advanced control",
+        "1 (16-bit)",
+        "1 (16-bit)",
+        "1 (16-bit)",
+        "1 (16-bit)",
+        "1 (16-bit)"
+      ],
+      [
+        "Timers",
+        "General-purpose",
+        "4 (16-bit)",
+        "4 (16-bit)",
+        "4 (16-bit)",
+        "4 (16-bit)",
+        "4 (16-bit)"
+      ],
+      [
+        "Timers",
+        "SysTick",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "Timers",
+        "Watchdog",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "Comm. interfaces",
+        "SPI [I2S](1)",
+        "1 [1] + 2 extra through USARTs",
+        "1 [1] + 2 extra through USARTs",
+        "1 [1] + 2 extra through USARTs",
+        "1 [1] + 2 extra through USARTs",
+        "1 [1] + 2 extra through USARTs"
+      ],
+      [
+        "Comm. interfaces",
+        "I2C",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "Comm. interfaces",
+        "USART",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "RTC / RNG / AES / VREFBUF",
+        "RTC / RNG / AES / VREFBUF",
+        "Yes / No / No / No",
+        "Yes / No / No / No",
+        "Yes / No / No / No",
+        "Yes / No / No / No",
+        "Yes / No / No / No"
+      ],
+      [
+        "GPIOs (all 5V-tolerant)",
+        "GPIOs (all 5V-tolerant)",
+        "6",
+        "6",
+        "10",
+        "18",
+        "18"
+      ],
+      [
+        "DMA channels",
+        "DMA channels",
+        "3",
+        "3",
+        "3",
+        "3",
+        "3"
+      ],
+      [
+        "Wakeup pins",
+        "Wakeup pins",
+        "2",
+        "2",
+        "4",
+        "4",
+        "4"
+      ],
+      [
+        "12-bit ADC channels (external + internal)",
+        "12-bit ADC channels (external + internal)",
+        "5 + 2",
+        "5 + 2",
+        "7 + 2",
+        "13 + 2",
+        "13 + 2"
+      ],
+      [
+        "Max. CPU frequency",
+        "Max. CPU frequency",
+        "48 MHz",
+        "48 MHz",
+        "48 MHz",
+        "48 MHz",
+        "48 MHz"
+      ],
+      [
+        "Operating voltage",
+        "Operating voltage",
+        "2.0 to 3.6 V",
+        "2.0 to 3.6 V",
+        "2.0 to 3.6 V",
+        "2.0 to 3.6 V",
+        "2.0 to 3.6 V"
+      ],
+      [
+        "Operating temperature(2)",
+        "Operating temperature(2)",
+        "Ambient: -40 to 85 °C / -40 to 105 °C / -40 to 125 °C",
+        "Ambient: -40 to 85 °C / -40 to 105 °C / -40 to 125 °C",
+        "Ambient: -40 to 85 °C / -40 to 105 °C / -40 to 125 °C",
+        "Ambient: -40 to 85 °C / -40 to 105 °C / -40 to 125 °C",
+        "Ambient: -40 to 85 °C / -40 to 105 °C / -40 to 125 °C"
+      ],
+      [
+        "Package",
+        "Package",
+        "SO8N",
+        "SO8N",
+        "WLCSP12",
+        "UFQFPN20",
+        "UFQFPN20"
+      ],
+      [
+        "Bootloader",
+        "Bootloader",
+        "USART1, I2C1",
+        "USART1, I2C1",
+        "USART1, I2C1",
+        "USART1, I2C1",
+        "USART1, I2C1"
+      ]
+    ],
+    "notes": [
+      "1. The number in brackets denotes the count of SPI interfaces configurable as I2S interface.",
+      "2. Depends on order code. Refer to Section 7: Ordering information for details."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

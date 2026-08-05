@@ -1,0 +1,97 @@
+{
+  "table_id": "table_36",
+  "document": "DS13867 Rev 4 - Table 36. Low-power mode wake-up times",
+  "rev": "Rev 4",
+  "table_number": "36",
+  "title": "Table 36. Low-power mode wake-up times",
+  "page": 54,
+  "section": "5.3.6 Wake-up time from low-power modes",
+  "section_title": "Wake-up time from low-power modes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=54",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 36. Low-power mode wake-up times — section 5.3.6 Wake-up time from low-power modes. Symbol, Parameter, Conditions, Conditions, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tWUSLEEP",
+        "Wake-up time from Sleep to Run mode",
+        "HCLK = HSI48/4 = 12 MHz",
+        "Transiting to Run-mode execution in flash memory powered during Sleep mode",
+        "10",
+        "12",
+        "CPU clock cycles"
+      ],
+      [
+        "tWUSLEEP",
+        "Wake-up time from Sleep to Run mode",
+        "HCLK = HSI48/4 = 12 MHz",
+        "Transiting to Run-mode execution in flash memory not powered during Sleep mode",
+        "4.75",
+        "5.02",
+        "µs"
+      ],
+      [
+        "tWULPSTOP",
+        "Wake-up time from Stop mode",
+        "Clock after wake-up is HCLK = HSI48/4 = 12 MHz",
+        "Transiting to Run-mode execution in flash memory powered during Stop mode",
+        "2.7",
+        "3.1",
+        "µs"
+      ],
+      [
+        "tWULPSTOP",
+        "Wake-up time from Stop mode",
+        "Clock after wake-up is HCLK = HSI48/4 = 12 MHz",
+        "Transiting to Run-mode execution in flash memory not powered during Stop mode",
+        "5.9",
+        "6.4",
+        "µs"
+      ],
+      [
+        "tWULPSTOP",
+        "Wake-up time from Stop mode",
+        "Clock after wake-up is HCLK = HSI48/4 = 12 MHz",
+        "Transiting to Run-mode execution in SRAM",
+        "2.5",
+        "2.9",
+        "µs"
+      ],
+      [
+        "tWUSTBY",
+        "Wake-up time from Standby mode",
+        "Clock after wake-up is HCLK = HSI48/4 = 12 MHz",
+        "Transiting to Run mode",
+        "23",
+        "35",
+        "µs"
+      ],
+      [
+        "tWUSHDN",
+        "Wake-up time from Shutdown mode",
+        "Clock after wake-up is HCLK = HSI48/4 = 12 MHz",
+        "Transiting to Run mode",
+        "385",
+        "466",
+        "µs"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization – Not tested in production. 54/103 DS13867 Rev 4"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

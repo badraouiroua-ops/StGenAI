@@ -1,0 +1,78 @@
+{
+  "table_id": "table_20",
+  "document": "DS14720 Rev 3 - Table 20. Port F alternate function mapping (AF0 to AF7)",
+  "rev": "Rev 3",
+  "table_number": "20",
+  "title": "Table 20. Port F alternate function mapping (AF0 to AF7)",
+  "page": 44,
+  "section": "4 Pinouts, pin description and alternate functions",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=44",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 20. Port F alternate function mapping (AF0 to AF7) — section 4 Pinouts, pin description and alternate functions. Port, AF0, AF1, AF2, AF3, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Port",
+      "AF0",
+      "AF1",
+      "AF2",
+      "AF3",
+      "AF4",
+      "AF5",
+      "AF6",
+      "AF7"
+    ],
+    "rows": [
+      [
+        "PF0",
+        "-",
+        "-",
+        "TIM14_CH1",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PF1",
+        "OSC_EN",
+        "-",
+        "TIM15_CH1N",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PF2",
+        "MCO",
+        "TIM1_CH4",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PF3",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}
