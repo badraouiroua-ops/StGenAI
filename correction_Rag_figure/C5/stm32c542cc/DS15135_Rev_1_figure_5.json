@@ -1,0 +1,148 @@
+{
+  "figure_id": "figure_5",
+  "document": "DS15135 Rev 1 - Figure 5. UFQFPN24 pinout",
+  "rev": "Rev 1",
+  "figure_number": "5",
+  "title": "Figure 5. UFQFPN24 pinout",
+  "page": 36,
+  "section": "Pinouts/ballouts, pin description, and alternate functions",
+  "section_title": "Pinouts/ballouts, pin description, and alternate functions",
+  "semantic_type": "pinout",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=36",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "text_helper": "Pinout diagram for UFQFPN24 package (24 pins plus exposed pad 25). Top view.",
+  "figure_content": {
+    "package_type": "UFQFPN24",
+    "pin_count": 25,
+    "view": "Package top view",
+    "pins": [
+      {
+        "pin_number": "1",
+        "pin_name": "PH0-OSC_IN",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "2",
+        "pin_name": "PH1-OSC_OUT",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "3",
+        "pin_name": "NRST",
+        "type": "Reset"
+      },
+      {
+        "pin_number": "4",
+        "pin_name": "VREF+",
+        "type": "Power"
+      },
+      {
+        "pin_number": "5",
+        "pin_name": "PA0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "6",
+        "pin_name": "PA1",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "7",
+        "pin_name": "PA2/PA3",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "8",
+        "pin_name": "PA4/PA5",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "9",
+        "pin_name": "PA6/PA7/PC4",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "10",
+        "pin_name": "PB0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "11",
+        "pin_name": "PB1/PB2",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "12",
+        "pin_name": "VCAP",
+        "type": "Power"
+      },
+      {
+        "pin_number": "13",
+        "pin_name": "VDD",
+        "type": "Power"
+      },
+      {
+        "pin_number": "14",
+        "pin_name": "PB15",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "15",
+        "pin_name": "PA11",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "16",
+        "pin_name": "PA12",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "17",
+        "pin_name": "PA13",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "18",
+        "pin_name": "PA14",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "19",
+        "pin_name": "PA15",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "20",
+        "pin_name": "PB3",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "21",
+        "pin_name": "PB4",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "22",
+        "pin_name": "PB5",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "23",
+        "pin_name": "PB7",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "24",
+        "pin_name": "PB8-BOOT0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "25",
+        "pin_name": "Exposed pad",
+        "type": "Ground"
+      }
+    ],
+    "notes": []
+  }
+}
