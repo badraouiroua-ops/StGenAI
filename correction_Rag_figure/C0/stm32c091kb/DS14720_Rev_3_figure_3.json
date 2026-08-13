@@ -11,7 +11,7 @@
   "tags": [],
   "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=29",
   "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
-  "text_helper": "Pinout for TSSOP20 package (20 pins). Top view.",
+  "text_helper": "Pinout for TSSOP20 package (20 pins). Power supply VDD/VDDA on pin 4, ground VSS/VSSA on pin 5.",
   "figure_content": {
     "package_type": "TSSOP20",
     "pin_count": 20,
