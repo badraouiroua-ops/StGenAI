@@ -1,0 +1,10 @@
+{
+  "table_id": "table_56",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Le tableau s'étend sur deux pages (page 92 et page 93). Les lignes 17, 18 et 19 du JSON sont totalement décalées et corrompues. De plus, plusieurs lignes issues de la page 93 (tSTAB, tOFF_CAL, tLATR, tS, tCONV, IDDA(ADC)) sont complètement manquantes dans le JSON extrait. Une intervention manuelle est nécessaire."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "table_1",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "RTC",
+      "row_index": 21,
+      "analyse_visuelle": "Sur l'image du tableau (page 5), dans la ligne RTC, la cellule fusionnée couvrant les colonnes STM32C55xRxT (colonne_index 6) et STM32C55xRxTxJ (colonne_index 7) contient la valeur 'Yes (without LSE)'. Dans le JSON, la colonne 6 contenait 'Yes' au lieu de 'Yes (without LSE)'.",
+      "corrections": [
+        {
+          "colonne_index": 6,
+          "valeur_originale_json": "Yes",
+          "nouvelle_valeur": "Yes (without LSE)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

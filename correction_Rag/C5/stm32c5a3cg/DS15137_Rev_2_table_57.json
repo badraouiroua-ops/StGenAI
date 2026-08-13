@@ -60,7 +60,7 @@
         "pF"
       ],
       [
-        "tADCVREG_ STUP",
+        "tADCVREG_STUP",
         "ADC LDO startup time",
         "-",
         "-",
@@ -100,7 +100,7 @@
         "Trigger conversion latency for regular and injected channels",
         "Trigger from a synchronous clock",
         "3",
-        "-",
+        "3",
         "4",
         "1/fADC"
       ],

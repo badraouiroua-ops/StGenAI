@@ -1,5 +1,8 @@
 import os
 import sys
+# Force UTF-8 pour éviter les crashs sur Windows (ex: caractère μ)
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
 import json
 import re
 import time
@@ -67,11 +70,17 @@ Ton rôle est d'utiliser ton INTELLIGENCE VISUELLE pour corriger ces erreurs afi
 - Si tu vois des cases vides, ajoute simplement un message dans le champ `logs` (ex: "Cases vides ignorées pour traitement manuel").
 - Tu dois tout de même corriger le reste du texte (inversions, fautes) dans le tableau, en ignorant simplement les cases vides.
 
+## RÈGLE SUR LES EN-TÊTES DUPLIQUÉS (ex: "Conditions" / "Conditions") :
+- Si le JSON contient **deux colonnes avec le même nom d'en-tête** (ex: deux colonnes "Conditions"), **ce n'est PAS une erreur**. C'est le comportement normal de l'outil d'extraction (pdfplumber) face à une cellule d'en-tête fusionnée horizontalement dans le PDF qui couvre deux sous-colonnes.
+- **NE PAS signaler `ERRORS_FOUND` uniquement à cause d'un en-tête dupliqué.** Ne mets rien dans `logs` pour ce cas.
+- Regarde plutôt si les **valeurs** dans ces colonnes sont correctes par rapport à l'image. Si oui, retourne `"status": "OK"`.
+
 ## NIVEAU D'EXIGENCE : PERFECTIONNISME ABSOLU
 - SOIS EXTRÊMEMENT PRÉCIS ET PERFECTIONNISTE dans ton analyse visuelle de l'image.
 - Scanne chaque ligne et chaque colonne. Assure-toi que chaque donnée correspond EXACTEMENT à la bonne colonne (Header).
 
 ## CONSIGNES DE SÉCURITÉ ABSOLUES :
+- **RÈGLE ANTI-HALLUCINATION TECHNIQUE** : NE JAMAIS utiliser vos connaissances préalables en électronique ou sur les microcontrôleurs pour "corriger" des valeurs techniques (ex: mémoire, nombre de broches, fréquences). Vous êtes un simple correcteur OCR visuel. Ne faites aucune déduction logique sur le regroupement des boîtiers. Si l'image affiche distinctement une valeur dans une colonne, gardez-la, même si cela vous semble techniquement illogique. Ne décalez jamais les valeurs pour forcer une cohérence technique inventée.
 - NE JAMAIS vider une case contenant du texte (ne remplace pas un texte par un tiret ou un vide).
 - NE JAMAIS modifier les noms des périphériques, des broches ou des signaux (ex: COMP12, PA5), même s'ils semblent être des fautes de frappe.
 - NE JAMAIS regrouper plusieurs références de composants (Part numbers) séparées par des virgules sur une seule ligne. Si le JSON a mis chaque référence sur une ligne distincte, c'est intentionnel, ne les fusionne pas !
@@ -91,7 +100,7 @@ Agis avec le bon sens d'un ingénieur humain. Si le JSON est totalement décalé
   "erreurs_corrigees": [
     {
       "ligne": "<Texte représentatif de la ligne, ex: FMC SDRAM32>",
-      "row_index": <int (index de la ligne) ou null pour les en-têtes>,
+      "row_index": <int (index de la ligne dans rows[]) ou null pour les en-têtes>,
       "analyse_visuelle": "<Ton raisonnement intelligent décrivant ce que tu vois sur l'image>",
       "corrections": [
         {
@@ -103,9 +112,19 @@ Agis avec le bon sens d'un ingénieur humain. Si le JSON est totalement décalé
       ]
     }
   ],
-  "lignes_manquantes_ajoutees": [],
-  "lignes_en_trop_supprimees": []
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": <int, position où insérer la ligne>,
+      "contenu": ["<val_col0>", "<val_col1>", "..."]
+    }
+  ],
+  "lignes_en_trop_supprimees": [<int>, <int>, ...]
 }
+
+IMPORTANT FORMAT — lignes_en_trop_supprimees :
+- C'est une **liste d'entiers** représentant les index (0-basés) des lignes à supprimer dans rows[].
+- Exemple correct : [14, 27, 38, 54]
+- Les lignes d'en-tête répétées (à cause d'un saut de page) ont leur contenu identique aux headers du tableau. Donne leur row_index exact.
 """
 
 def table_number(path: Path) -> int:
@@ -130,7 +149,7 @@ def process_table(src: Path, family: str, pdf: str, stats: dict):
             stats["ignored"] += 1
         return
 
-    # ── Images
+    # ── Images PNG
     img_dir = CAPT_DIR / family / pdf / f"tableau_{num}"
     images = sorted(img_dir.glob("page_*.png"), key=page_number) if img_dir.is_dir() else []
     if not images:
@@ -138,6 +157,9 @@ def process_table(src: Path, family: str, pdf: str, stats: dict):
         with stats_lock:
             stats["no_image"] += 1
         return
+
+    # ── Pages PDF individuelles (extraites par le pipeline, même dossier)
+    pdf_pages = sorted(img_dir.glob("page_*.pdf"), key=page_number) if img_dir.is_dir() else []
 
     # ── Texte PDF
     pdf_path = ROOT / "DataSHEET" / family / f"{pdf}.pdf"
@@ -172,24 +194,41 @@ def process_table(src: Path, family: str, pdf: str, stats: dict):
     # Injecter table_id ET warnings pour que le LLM les voit
     payload_with_meta = {"table_id": table_id, "warnings": warnings_list, **payload}
 
-    # ── Payload Gemini
+    # ── Payload Gemini : Prompt + Images PNG + Pages PDF + Texte PDF + JSON
     contents = [PROMPT]
     for k, img in enumerate(images):
         contents.append("Image page :" if k == 0 else "Suite tableau :")
         contents.append(Image.open(img))
+    # Ajouter les pages PDF source (pour que Gemini lise le PDF natif en plus des images)
+    for pdf_page_path in pdf_pages:
+        try:
+            pdf_bytes = pdf_page_path.read_bytes()
+            contents.append(
+                types.Part.from_bytes(
+                    data=pdf_bytes,
+                    mime_type="application/pdf"
+                )
+            )
+        except Exception as e:
+            safe_print(f"  -> [WARN] Impossible de lire {pdf_page_path.name}: {e}")
     if pdf_text:
         contents.append(f"Texte de référence positionné:\n{pdf_text}")
     contents.append(f"JSON à vérifier:\n{json.dumps(payload_with_meta, ensure_ascii=False, indent=2)}")
 
     # ── Requête (ApiManager) avec Retry
-    max_retries = 15
+    max_retries = 1
     for attempt in range(max_retries):
         api_key, k_idx, pool_name = API_MANAGER.get_key()
+        
+        # Anti-DDoS : Petite pause pour lisser la vitesse des requêtes par IP
+        time.sleep(1.5)
+        
         client = genai.Client(api_key=api_key)
         real_key_num = k_idx + 1
         n_images = len(images)
+        n_pdfs  = len(pdf_pages)
         n_rows = len(payload.get('rows', []))
-        safe_print(f"  -> [ENVOI {src.name}] Clé N°{real_key_num} (Pool:{pool_name}) | Modèle: {MODEL} | {n_images} image(s) | {n_rows} lignes JSON (Tentative {attempt+1}/{max_retries})...")
+        safe_print(f"  -> [ENVOI {src.name}] Clé N°{real_key_num} (Pool:{pool_name}) | Modèle: {MODEL} | {n_images} img + {n_pdfs} pdf | {n_rows} lignes JSON (Tentative {attempt+1}/{max_retries})...")
         
         try:
             t0 = time.time()
@@ -209,6 +248,8 @@ def process_table(src: Path, family: str, pdf: str, stats: dict):
             size_kb = len(raw.encode('utf-8')) / 1024
             safe_print(f"  -> [RECU {src.name}] Réponse reçue de Clé N°{real_key_num} en {t_el:.1f}s | Taille: {size_kb:.1f} Ko | Parsing JSON...")
             parsed = json.loads(raw)
+            if isinstance(parsed, list):
+                parsed = {"status": "ERRORS_FOUND", "erreurs_corrigees": parsed}
             safe_print(f"  -> [PARSING {src.name}] Succès.")
             # Récupérer les tokens consommés depuis les métadonnées de la réponse
             try:
@@ -414,13 +455,23 @@ def main():
         safe_print(f"\n--- Traitement du Datasheet: {target_ds} ({len(all_tables)} tables) ---")
         stats["total"] += len(all_tables)
         
+        # Filtrer les tables déjà traitées avant exécution
+        tables_to_process = []
+        out_dir = OUT_DIR / target_family / target_ds
+        for t in all_tables:
+            if (out_dir / t.name).exists():
+                safe_print(f"  -> {t.name} Déjà traité (ignoré)")
+                stats["ignored"] += 1
+            else:
+                tables_to_process.append(t)
+        
         # Parallel execution: process X tables concurrently
         with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as executor:
             futures = []
-            for i, t in enumerate(all_tables):
+            for i, t in enumerate(tables_to_process):
                 futures.append(executor.submit(process_table, t, target_family, target_ds, stats))
                 # Add 60s delay after every 6 tables to avoid API rate limits
-                if (i + 1) % 6 == 0 and (i + 1) < len(all_tables):
+                if (i + 1) % 6 == 0 and (i + 1) < len(tables_to_process):
                     safe_print(f"[WAIT] Pause 60s pour l'API après {i + 1} tables...")
                     time.sleep(60)
             
@@ -432,15 +483,20 @@ def main():
                     safe_print(f"Erreur fatale inattendue sur un thread : {exc}")
                     
         # Génération du review_summary.json pour ce datasheet
-        out_dir = BASE_DIR / "Correction" / target_family / target_ds
+        out_dir = OUT_DIR / target_family / target_ds
         summary = []
         if out_dir.is_dir():
             for json_file in sorted(out_dir.glob("*.json"), key=table_number):
                 if "review_summary" in json_file.name: continue
                 try:
                     data = json.loads(json_file.read_text(encoding="utf-8"))
-                    status = data.get("status", "OK")
-                    if status in ["MANUAL_REVIEW_NEEDED", "ERRORS_FOUND"]:
+                    
+                    # --- Anti-crash si le LLM a renvoyé une liste au lieu d'un dict ---
+                    if isinstance(data, list):
+                        data = {"status": "ERRORS_FOUND", "erreurs_corrigees": data}
+                    
+                    status = data.get("status", "ERRORS_FOUND")
+                    if status == "MANUAL_REVIEW_NEEDED":
                         summary.append({
                             "table_file": json_file.name,
                             "table_id": data.get("table_id", ""),

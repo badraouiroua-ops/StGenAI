@@ -97,7 +97,7 @@
       ],
       [
         "PD",
-        "Power dissipation at TA = 125 °C for suffix 3Section 5.3.1: General operating conditions",
+        "Power dissipation at TA = 125 °C for suffix 3 Section 5.3.1: General operating conditions",
         "-",
         "See Section 6.10: Package thermal characteristics for application appropriate thermal resistance and package. Power dissipation is then calculated according ambient temperature (TA) and maximum junction temperature (TJ) and selected thermal resistance.",
         "See Section 6.10: Package thermal characteristics for application appropriate thermal resistance and package. Power dissipation is then calculated according ambient temperature (TA) and maximum junction temperature (TJ) and selected thermal resistance.",

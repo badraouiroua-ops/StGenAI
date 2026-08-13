@@ -1,0 +1,22 @@
+{
+  "table_id": "table_23",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête des colonnes",
+      "row_index": null,
+      "analyse_visuelle": "L'en-tête de la 4ème colonne (index 3) affiche la fréquence 'fHCLK (MHz)' avec HCLK en indice. L'outil d'extraction a erronément inséré un slash et des espaces ('f / HCLK (MHz)').",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "f / HCLK (MHz)",
+          "nouvelle_valeur": "fHCLK (MHz)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

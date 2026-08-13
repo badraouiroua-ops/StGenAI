@@ -35,7 +35,7 @@
       [
         "fHSE_ext",
         "User external clock source frequency",
-        "Analolog mode (HSEYBYP = 1, HSEEXT = 0)",
+        "Analog mode (HSEYBYP = 1, HSEEXT = 0)",
         "4",
         "-",
         "50",

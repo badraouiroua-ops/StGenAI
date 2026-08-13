@@ -1,0 +1,73 @@
+{
+  "table_id": "table_48",
+  "document": "DS15125 Rev 2 - Table 48. Output voltage characteristics for PC14 and PC15.",
+  "rev": "Rev 2",
+  "table_number": "48",
+  "title": "Table 48. Output voltage characteristics for PC14 and PC15.",
+  "page": 73,
+  "section": "5.3.14 I/O port characteristics",
+  "section_title": "I/O port characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=73",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 48. Output voltage characteristics for PC14 and PC15. — section 5.3.14 I/O port characteristics. Symbol, Parameter, Conditions(3), Min, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions(3)",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "VOL",
+        "Output low level voltage",
+        "CMOS port(1) IIO=0.5 mA 2.7 V≤ VDD ≤3.6 V",
+        "-",
+        "0.4",
+        "V"
+      ],
+      [
+        "VOH",
+        "Output high level voltage",
+        "CMOS port(1) IIO=-0.5 mA 2.7 V≤ VDD ≤3.6 V",
+        "VDD - 0.4",
+        "-",
+        "V"
+      ],
+      [
+        "VOL(2)",
+        "Output low level voltage",
+        "TTL port(1) IIO = 0.5 mA 2.7 V ≤ VDD ≤3.6 V",
+        "-",
+        "0.4",
+        "V"
+      ],
+      [
+        "VOH(2)",
+        "Output high level voltage",
+        "TTL port(1) IIO = -0.5 mA 2.7 V ≤ VDD ≤ 3.6 V",
+        "2.4",
+        "-",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+      "2. Specified by design - Not tested in production.",
+      "3. Compensation system enabled. DS15125 - Rev 2 page 74/129"
+    ],
+    "legend": [
+      "Specified by design and not tested in production.",
+      "The minimum and maximum values are specified for a junction temperature TJ = 125°C.",
+      "The IIO current sourced or sunk by the device must always comply with the absolute maximum rating specified in Table 14. Current",
+      "characteristics. Additionally, the sum of the currents sourced or sunk by all the I/Os (I/O ports and control pins) must always comply with the",
+      "absolute maximum ratings ΣIIO."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

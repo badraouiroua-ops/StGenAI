@@ -1,0 +1,10 @@
+{
+  "table_id": "table_36",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Ligne 9, colonne 4 : valeur '45' en trop sous Typ corrigée en case vide."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

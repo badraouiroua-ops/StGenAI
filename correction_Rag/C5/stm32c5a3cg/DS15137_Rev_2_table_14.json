@@ -355,7 +355,7 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
+        "Port B",
         "PB0",
         "-",
         "TIM1_CH2N",
@@ -375,7 +375,7 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
+        "Port B",
         "PB1",
         "-",
         "TIM1_CH3N",
@@ -395,7 +395,7 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
+        "Port B",
         "PB2",
         "RTC_OUT2",
         "-",
@@ -415,7 +415,7 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
+        "Port B",
         "PB3",
         "JTDO/ TRACESWO",
         "TIM2_CH2",
@@ -435,7 +435,7 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
+        "Port B",
         "PB4",
         "NJTRST",
         "TIM2_CH2",
@@ -455,7 +455,7 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
+        "Port B",
         "PB5",
         "-",
         "TIM17_BKIN",
@@ -475,7 +475,7 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
+        "Port B",
         "PB6",
         "-",
         "TIM17_BKIN",
@@ -495,7 +495,7 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
+        "Port B",
         "PB7",
         "-",
         "TIM17_CH1N",
@@ -515,7 +515,7 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
+        "Port B",
         "PB7",
         "AF0",
         "AF1",
@@ -533,26 +533,6 @@
         "AF13",
         "AF14",
         "AF15"
-      ],
-      [
-        "Port",
-        "Port",
-        "SYS",
-        "LPTIM1/ TIM1/2/17",
-        "I3C1/ TIM1/3/4/5/8/12/15",
-        "I3C1/LPTIM1/ LPUART1/ TIM1/5/8",
-        "I2C1/2/I3C1/ LPTIM1/ SPI1/I2S1/ SPI3/I2S3/ TIM15/ USART1/2",
-        "I3C1/ LPTIM1/ SPI1/I2S1/ SPI2/I2S2/ SPI3/ I2S3/SYS",
-        "SPI1/I2S1/ SPI2/I2S2/ SPI3/I2S3/ UART4",
-        "SPI2/I2S2/ SPI3/I2S3/ UART7/ USART1/2/3/6/ XSPI1",
-        "I2C2/ LPUART1/ TIM5/UART4/5",
-        "FDCAN1/2/ I2C1/2/SPI2/ I2S2/XSPI1",
-        "CRS/ETH1_/TIM16/ UART7",
-        "USART1/3/ XSPI1",
-        "ETH1_",
-        "ETH1_/TIM8/ USB_",
-        "COMP/TIM2/ UART5",
-        "SYS"
       ],
       [
         "Port B",
@@ -1153,26 +1133,6 @@
         "AF13",
         "AF14",
         "AF15"
-      ],
-      [
-        "Port",
-        "Port",
-        "SYS",
-        "LPTIM1/ TIM1/2/17",
-        "I3C1/ TIM1/3/4/5/8/12/15",
-        "I3C1/LPTIM1/ LPUART1/ TIM1/5/8",
-        "I2C1/2/I3C1/ LPTIM1/ SPI1/I2S1/ SPI3/I2S3/ TIM15/ USART1/2",
-        "I3C1/ LPTIM1/ SPI1/I2S1/ SPI2/I2S2/ SPI3/ I2S3/SYS",
-        "SPI1/I2S1/ SPI2/I2S2/ SPI3/I2S3/ UART4",
-        "SPI2/I2S2/ SPI3/I2S3/ UART7/ USART1/2/3/6/ XSPI1",
-        "I2C2/ LPUART1/ TIM5/UART4/5",
-        "FDCAN1/2/ I2C1/2/SPI2/ I2S2/XSPI1",
-        "CRS/ETH1_/TIM16/ UART7",
-        "USART1/3/ XSPI1",
-        "ETH1_",
-        "ETH1_/TIM8/ USB_",
-        "COMP/TIM2/ UART5",
-        "SYS"
       ],
       [
         "Port D",
@@ -1875,26 +1835,6 @@
         "AF15"
       ],
       [
-        "Port",
-        "Port",
-        "SYS",
-        "LPTIM1/ TIM1/2/17",
-        "I3C1/ TIM1/3/4/5/8/12/15",
-        "I3C1/LPTIM1/ LPUART1/ TIM1/5/8",
-        "I2C1/2/I3C1/ LPTIM1/ SPI1/I2S1/ SPI3/I2S3/ TIM15/ USART1/2",
-        "I3C1/ LPTIM1/ SPI1/I2S1/ SPI2/I2S2/ SPI3/ I2S3/SYS",
-        "SPI1/I2S1/ SPI2/I2S2/ SPI3/I2S3/ UART4",
-        "SPI2/I2S2/ SPI3/I2S3/ UART7/ USART1/2/3/6/ XSPI1",
-        "I2C2/ LPUART1/ TIM5/UART4/5",
-        "FDCAN1/2/ I2C1/2/SPI2/ I2S2/XSPI1",
-        "CRS/ETH1_/TIM16/ UART7",
-        "USART1/3/ XSPI1",
-        "ETH1_",
-        "ETH1_/TIM8/ USB_",
-        "COMP/TIM2/ UART5",
-        "SYS"
-      ],
-      [
         "Port F",
         "PF8",
         "-",
@@ -2255,8 +2195,8 @@
         "EVENTOUT"
       ],
       [
-        "PG1 0",
-        "PG1 0",
+        "Port G",
+        "PG10",
         "-",
         "-",
         "-",
@@ -2295,8 +2235,8 @@
         "EVENTOUT"
       ],
       [
-        "PG1 2",
-        "PG1 2",
+        "Port G",
+        "PG12",
         "-",
         "LPTIM1_IN1",
         "-",
@@ -2315,8 +2255,8 @@
         "EVENTOUT"
       ],
       [
-        "PG1 3",
-        "PG1 3",
+        "Port G",
+        "PG10",
         "TRACED0",
         "LPTIM1_CH1",
         "-",
@@ -2336,7 +2276,7 @@
       ],
       [
         "PG1 4",
-        "PG1 4",
+        "PG14",
         "TRACED1",
         "LPTIM1_ETR",
         "-",
@@ -2355,8 +2295,8 @@
         "EVENTOUT"
       ],
       [
-        "PG1 5",
-        "PG1 5",
+        "Port G",
+        "PG12",
         "-",
         "-",
         "-",
@@ -2376,7 +2316,7 @@
       ],
       [
         "Port H",
-        "PH0",
+        "PG13",
         "-",
         "-",
         "-",
@@ -2396,7 +2336,7 @@
       ],
       [
         "PH1",
-        "PH1",
+        "PG14",
         "-",
         "-",
         "-",
@@ -2415,8 +2355,8 @@
         "EVENTOUT"
       ],
       [
-        "PH2",
-        "PH2",
+        "Port G",
+        "PG15",
         "MCO1",
         "TIM17_CH1N",
         "-",

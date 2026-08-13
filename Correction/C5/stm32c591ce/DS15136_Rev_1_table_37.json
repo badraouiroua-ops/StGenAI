@@ -1,0 +1,10 @@
+{
+  "table_id": "table_37",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "La valeur '32' dans la colonne Typ à la ligne 1 (TJ = -40 to 130°C) était une duplication erronée de la ligne supérieure ; la case est vide sur l'image."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

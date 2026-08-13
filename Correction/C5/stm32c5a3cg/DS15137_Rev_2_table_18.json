@@ -1,0 +1,22 @@
+{
+  "table_id": "table_18",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "PD (row index 8)",
+      "row_index": 8,
+      "analyse_visuelle": "Dans la colonne 'Parameter', le chiffre '3' et le mot 'Section' sont collés ('3Section'). Un espace séparateur doit être ajouté d'après l'analyse visuelle.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Power dissipation at TA = 125 °C for suffix 3Section 5.3.1: General operating conditions",
+          "nouvelle_valeur": "Power dissipation at TA = 125 °C for suffix 3 Section 5.3.1: General operating conditions",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

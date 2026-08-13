@@ -37,8 +37,8 @@
       [
         "fSCK",
         "SPI clock frequency",
-        "Slave receiver mode, 2.7 V ≤ DD ≤ 3.6 V",
-        "Slave receiver mode, 2.7 V ≤ DD ≤ 3.6 V",
+        "Slave receiver mode, 2.7 V ≤ VDD ≤ 3.6 V",
+        "Slave receiver mode, 2.7 V ≤ VDD ≤ 3.6 V",
         "-",
         "-",
         "100",
@@ -47,8 +47,8 @@
       [
         "fSCK",
         "SPI clock frequency",
-        "Slave transmitter mode, 2.7 V ≤ DD ≤ 3.6 V",
-        "Slave transmitter mode, 2.7 V ≤ DD ≤ 3.6 V",
+        "Slave transmitter mode, 2.7 V ≤ VDD ≤ 3.6 V",
+        "Slave transmitter mode, 2.7 V ≤ VDD ≤ 3.6 V",
         "-",
         "-",
         "30",

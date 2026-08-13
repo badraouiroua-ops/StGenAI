@@ -1,0 +1,65 @@
+{
+  "table_id": "table_8",
+  "document": "DS14927 Rev 2 - Table 8. I2C implementation",
+  "rev": "Rev 2",
+  "table_number": "8",
+  "title": "Table 8. I2C implementation",
+  "page": 27,
+  "section": "3.22.2 Tamper and backup registers (TAMP)",
+  "section_title": "Tamper and backup registers (TAMP)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=27",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "text_helper": "Table 8. I2C implementation — section 3.22.2 Tamper and backup registers (TAMP). Features(1), I2C1, I2C2.",
+  "table_content": {
+    "headers": [
+      "Features(1)",
+      "I2C1",
+      "I2C2"
+    ],
+    "rows": [
+      [
+        "Standard-mode (up to 100 Kbit/s)",
+        "X",
+        "X"
+      ],
+      [
+        "Fast mode (up to 400 Kbit/s)",
+        "X",
+        "X"
+      ],
+      [
+        "Fast mode plus (Fm+) with 20 mA output drive I/Os (up to 1 Mbit/s)",
+        "X",
+        "X"
+      ],
+      [
+        "Programmable analog and digital noise filters",
+        "X",
+        "X"
+      ],
+      [
+        "SMBus/PMBus hardware support",
+        "X",
+        "X"
+      ],
+      [
+        "Independent clock",
+        "X",
+        "X"
+      ],
+      [
+        "Wake-up capability",
+        "X",
+        "X"
+      ]
+    ],
+    "notes": [
+      "1. X = supported."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

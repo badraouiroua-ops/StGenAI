@@ -1,0 +1,208 @@
+{
+  "table_id": "table_14",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Cases vides ignorées pour traitement manuel",
+    "Suppression des lignes d'en-têtes répétées sur les sauts de page (lignes 24, 25, 55, 56, 91, 92)",
+    "Correction de la sous-chaîne 'Port BPort A' extraite à tort dans la colonne 0 du Port B",
+    "Correction des espaces parasites dans les noms de broches PG10 à PG15"
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "PB0",
+      "row_index": 16,
+      "analyse_visuelle": "La colonne 0 affiche 'Port B' et non 'Port BPort A'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB1",
+      "row_index": 17,
+      "analyse_visuelle": "La colonne 0 affiche 'Port B' et non 'Port BPort A'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB2",
+      "row_index": 18,
+      "analyse_visuelle": "La colonne 0 affiche 'Port B' et non 'Port BPort A'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB3",
+      "row_index": 19,
+      "analyse_visuelle": "La colonne 0 affiche 'Port B' et non 'Port BPort A'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB4",
+      "row_index": 20,
+      "analyse_visuelle": "La colonne 0 affiche 'Port B' et non 'Port BPort A'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB5",
+      "row_index": 21,
+      "analyse_visuelle": "La colonne 0 affiche 'Port B' et non 'Port BPort A'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB6",
+      "row_index": 22,
+      "analyse_visuelle": "La colonne 0 affiche 'Port B' et non 'Port BPort A'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB7",
+      "row_index": 23,
+      "analyse_visuelle": "La colonne 0 affiche 'Port B' et non 'Port BPort A'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PG10",
+      "row_index": 111,
+      "analyse_visuelle": "Correction de l'espace parasite dans le nom du signal 'PG1 0' qui doit être 'PG10' et du nom de port.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PG1 0",
+          "nouvelle_valeur": "Port G",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "PG1 0",
+          "nouvelle_valeur": "PG10",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PG12",
+      "row_index": 113,
+      "analyse_visuelle": "Correction de l'espace parasite dans 'PG1 2' -> 'PG12'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PG1 2",
+          "nouvelle_valeur": "Port G",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "PG1 2",
+          "nouvelle_valeur": "PG12",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PG13",
+      "row_index": 114,
+      "analyse_visuelle": "Correction du nom de la broche 'PG1 3' en 'PG13'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "PG1 3",
+          "nouvelle_valeur": "PG13",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PG14",
+      "row_index": 115,
+      "analyse_visuelle": "Correction du nom de la broche 'PG1 4' en 'PG14'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "PG1 4",
+          "nouvelle_valeur": "PG14",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PG15",
+      "row_index": 116,
+      "analyse_visuelle": "Correction du nom de la broche 'PG1 5' en 'PG15'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PG1 5",
+          "nouvelle_valeur": "Port G",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "PG1 5",
+          "nouvelle_valeur": "PG15",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    24,
+    25,
+    55,
+    56,
+    91,
+    92
+  ]
+}

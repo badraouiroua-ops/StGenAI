@@ -1,0 +1,12 @@
+{
+  "table_id": "table_58",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Le JSON fusionne à tort la Table 58 (page 97) et la Table 60 (page 98) avec un nombre de colonnes incompatible (6 vs 7 colonnes).",
+    "La première partie de la Table 60 (page 97) est complètement manquante.",
+    "Décalage systématique et grave des colonnes sur toute la partie DAC (page 98) où le texte des Conditions déborde dans la colonne Min et décale toutes les valeurs numériques."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

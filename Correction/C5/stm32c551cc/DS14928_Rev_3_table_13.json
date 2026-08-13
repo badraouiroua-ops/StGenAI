@@ -1,0 +1,118 @@
+{
+  "table_id": "table_13",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "PB0",
+      "row_index": 16,
+      "analyse_visuelle": "Correction du nom du Port qui a été extrait en 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB1",
+      "row_index": 17,
+      "analyse_visuelle": "Correction du nom du Port qui a été extrait en 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB2",
+      "row_index": 18,
+      "analyse_visuelle": "Correction du nom du Port qui a été extrait en 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB3",
+      "row_index": 19,
+      "analyse_visuelle": "Correction du nom du Port qui a été extrait en 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB4",
+      "row_index": 20,
+      "analyse_visuelle": "Correction du nom du Port qui a été extrait en 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB5",
+      "row_index": 21,
+      "analyse_visuelle": "Correction du nom du Port qui a été extrait en 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB6",
+      "row_index": 22,
+      "analyse_visuelle": "Correction du nom du Port qui a été extrait en 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB7",
+      "row_index": 23,
+      "analyse_visuelle": "Correction du nom du Port qui a été extrait en 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    24,
+    25,
+    56,
+    57
+  ]
+}

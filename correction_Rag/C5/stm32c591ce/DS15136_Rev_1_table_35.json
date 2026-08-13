@@ -1,0 +1,203 @@
+{
+  "table_id": "table_35",
+  "document": "DS15136 Rev 1 - Table 35. HSI144 oscillator characteristics",
+  "rev": "Rev 1",
+  "table_number": "35",
+  "title": "Table 35. HSI144 oscillator characteristics",
+  "page": 75,
+  "section": "5.3.9 Internal clock timing characteristics",
+  "section_title": "Internal clock timing characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=75",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "text_helper": "Table 35. HSI144 oscillator characteristics — section 5.3.9 Internal clock timing characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fHSI(1)",
+        "HSI frequency",
+        "VDD = 3.3 V, TJ = 30 °C",
+        "144.07",
+        "-",
+        "145.08",
+        "MHz"
+      ],
+      [
+        "TRIM(2)",
+        "USER trimming step",
+        "-",
+        "-",
+        "0.1",
+        "0.15",
+        "%"
+      ],
+      [
+        "USER TRIM COVERAGE(2)",
+        "USER TRIMMING Coverage positive",
+        "80 steps",
+        "5.2%",
+        "8%",
+        "-",
+        "%"
+      ],
+      [
+        "USER TRIM COVERAGE(2)",
+        "USER TRIMMING Coverage negative",
+        "48 steps",
+        "-3.1%",
+        "-4.8%",
+        "-",
+        "%"
+      ],
+      [
+        "DuCy(HSI)(2)",
+        "Duty Cycle",
+        "-",
+        "45",
+        "-",
+        "55",
+        "%"
+      ],
+      [
+        "ΔTEMP (HSI)(3)",
+        "HSI oscillator frequency drift over temperature (the reference is 144 MHz.)",
+        "TJ = -20 to 130 °C",
+        "-1",
+        "-",
+        "1",
+        "%"
+      ],
+      [
+        "ΔTEMP (HSI)(3)",
+        "HSI oscillator frequency drift over temperature (the reference is 144 MHz.)",
+        "TJ = -40 to TJmax °C",
+        "-1.5",
+        "-",
+        "1.5",
+        "%"
+      ],
+      [
+        "ΔVDD(HSI)(2)(4)",
+        "HSI oscillator frequency drift with VDD Section 5.3.9.1: High-speed internal HSI144 oscillator (5)(the reference is 3.3V)",
+        "VDD from 2.7 V to 3.6 V",
+        "-",
+        "-",
+        "- 0.1",
+        "%"
+      ],
+      [
+        "tsu(HSI)(3)",
+        "HSI oscillator start-up time (PSI Off)",
+        "-",
+        "-",
+        "3",
+        "4.5",
+        "µs"
+      ],
+      [
+        "tsu(HSI)(3)",
+        "HSI oscillator start-up time (PSI On)",
+        "-",
+        "-",
+        "0.5",
+        "-",
+        "µs"
+      ],
+      [
+        "tstab(2)",
+        "stabilization time (PSI OFF from Enable)",
+        "+/-1% of target freq",
+        "-",
+        "-",
+        "8",
+        "µs"
+      ],
+      [
+        "tstab(2)",
+        "stabilization time (PSI ON from Enable)",
+        "+/-1% of target freq",
+        "-",
+        "-",
+        "0.7",
+        "µs"
+      ],
+      [
+        "IDD(HSI)(2)(6)",
+        "HSI supply regulation block oscillator power consumption",
+        "-",
+        "-",
+        "91",
+        "-",
+        "µA"
+      ],
+      [
+        "IDD(HSI)(2)(6)",
+        "HSI oscillator power consumption",
+        "-",
+        "-",
+        "28",
+        "-",
+        "µA"
+      ],
+      [
+        "NT jitter(2)",
+        "Next transition jitter(7)",
+        "On HSIDIV3",
+        "-",
+        "52",
+        "322",
+        "ps"
+      ],
+      [
+        "PT jitter(2)",
+        "Paired transition jitter(8)",
+        "On HSIDIV3",
+        "-",
+        "62",
+        "394",
+        "ps"
+      ],
+      [
+        "Per jitter(2)",
+        "Period Jitter standard deviation",
+        "On HSIS",
+        "-",
+        "15",
+        "-",
+        "ps"
+      ],
+      [
+        "Per jitter(2)",
+        "Period Jitter standard deviation",
+        "On HSIDIV3",
+        "-",
+        "26",
+        "-",
+        "ps"
+      ]
+    ],
+    "notes": [
+      "1. Tested in production.",
+      "2. Specified by design - Not tested in production.",
+      "3. Evaluated by characterization - Not tested in production.",
+      "4. ΔfHSI = ΔTEMP + ΔVDD",
+      "5. These values are obtained by using formula: (Freq(3.6 V) - Freq(3.3 V)) / Freq(3.3 V) or (Freq(3.6 V) - Freq(2.7 V)) / Freq(2.7 V).",
+      "6. The supply regulation consumption is common to HSI and PSI. (To be counted once if both oscillators are ON).",
+      "7. Jitter measurements are performed without clock source activated in parallel. Typical value is standard deviation, Maximum is peak measure on TIE-8 over 36 cycles.",
+      "8. Jitter measurements are performed without clock source activated in parallel. Typical value is standard deviation, Maximum is peak measure on TIE-16 over 36 cycles."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

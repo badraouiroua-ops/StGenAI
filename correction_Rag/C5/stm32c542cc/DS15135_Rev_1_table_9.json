@@ -1,0 +1,128 @@
+{
+  "table_id": "table_9",
+  "document": "DS15135 Rev 1 - Table 9. USART, UART, and LPUART features",
+  "rev": "Rev 1",
+  "table_number": "9",
+  "title": "Table 9. USART, UART, and LPUART features",
+  "page": 29,
+  "section": "3.26 Universal synchronous/asynchronous receiver transmitter (USART/UART) and",
+  "section_title": "Universal synchronous/asynchronous receiver transmitter (USART/UART) and",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=29",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "text_helper": "Table 9. USART, UART, and LPUART features — section 3.26 Universal synchronous/asynchronous receiver transmitter (USART/UART) and. Features(1), USART1/2, UART4/5, LPUART1.",
+  "table_content": {
+    "headers": [
+      "Features(1)",
+      "USART1/2",
+      "UART4/5",
+      "LPUART1"
+    ],
+    "rows": [
+      [
+        "Hardware flow control for modem",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Continuous communication using DMA",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Multiprocessor communication",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Synchronous mode (controller/target)",
+        "X",
+        "-",
+        "-"
+      ],
+      [
+        "Smartcard mode",
+        "X",
+        "-",
+        "-"
+      ],
+      [
+        "Single-wire half-duplex communication",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "IrDA SIR ENDEC block",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "LIN mode",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Dual-clock domain and wake-up from Stop mode",
+        "X(2)",
+        "X(2)",
+        "X(2)"
+      ],
+      [
+        "Receiver timeout interrupt",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Modbus communication",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Autobaud rate detection",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Driver enable",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "USART data length",
+        "7, 8, and 9 bits",
+        "7, 8, and 9 bits",
+        "7, 8, and 9 bits"
+      ],
+      [
+        "Tx/Rx FIFO",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Tx/Rx FIFO size",
+        "8 bytes",
+        "8 bytes",
+        "8 bytes"
+      ]
+    ],
+    "notes": [
+      "1. X = supported.",
+      "2. Wake‑up supported from Stop mode."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

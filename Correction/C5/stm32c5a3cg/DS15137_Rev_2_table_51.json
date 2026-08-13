@@ -1,0 +1,113 @@
+{
+  "table_id": "table_51",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "00 | Fmax(1) | Maximum frequency | C = 10 pF...",
+      "row_index": 2,
+      "analyse_visuelle": "Correction de l'espace manquant avant le symbole '≤' dans la condition.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "C = 10 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "nouvelle_valeur": "C = 10 pF, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "00 | tr/tf (2) | Output high to low...",
+      "row_index": 3,
+      "analyse_visuelle": "Correction de l'espace manquant avant le symbole '≤' dans la condition.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "C = 50 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "nouvelle_valeur": "C = 50 pF, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "01 | Fmax(1) | Maximum frequency | C = 50 pF...",
+      "row_index": 6,
+      "analyse_visuelle": "Correction de l'espace manquant avant le symbole '≤' dans la condition.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "C = 50 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "nouvelle_valeur": "C = 50 pF, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "01 | Fmax(1) | Maximum frequency | C = 30 pF...",
+      "row_index": 7,
+      "analyse_visuelle": "Correction de l'espace manquant avant le symbole '≤' dans la condition.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "C = 30 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "nouvelle_valeur": "C = 30 pF, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "01 | tr/tf(2) | Output high to low...",
+      "row_index": 10,
+      "analyse_visuelle": "Correction de l'espace manquant avant le symbole '≤' dans la condition.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "C = 30 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "nouvelle_valeur": "C = 30 pF, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "01 | tr/tf(2) | Output high to low...",
+      "row_index": 11,
+      "analyse_visuelle": "Correction de l'espace manquant après le symbole '≤' dans la condition.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "C = 10 pF, 2.7 V ≤ VDD ≤3.6 V",
+          "nouvelle_valeur": "C = 10 pF, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "10 | Fmax(1)(3) | Maximum frequency | C = 50 pF...",
+      "row_index": 12,
+      "analyse_visuelle": "Correction de l'espace manquant avant le symbole '≤' dans la condition.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "C = 50 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "nouvelle_valeur": "C = 50 pF, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "10 | tr/tf(2)(3) | Output high to low...",
+      "row_index": 16,
+      "analyse_visuelle": "Correction de l'espace manquant avant le symbole '≤' dans la condition.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "C = 30 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "nouvelle_valeur": "C = 30 pF, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

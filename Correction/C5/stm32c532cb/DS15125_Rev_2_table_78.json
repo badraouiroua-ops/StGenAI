@@ -1,0 +1,10 @@
+{
+  "table_id": "table_78",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Nombreux éléments et lignes manquants dans l'extraction initiale (lignes A, A1, A2, b, c, c1, L, L1, R1, R2, S absentes du JSON). Une vérification et extraction manuelle est nécessaire pour garantir l'exhaustivité des données."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

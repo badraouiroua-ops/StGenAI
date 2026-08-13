@@ -1,0 +1,66 @@
+{
+  "table_id": "table_27",
+  "document": "DS15135 Rev 1 - Table 27. Typical and maximum HSIKERON current consumption in Stop mode",
+  "rev": "Rev 1",
+  "table_number": "27",
+  "title": "Table 27. Typical and maximum HSIKERON current consumption in Stop mode",
+  "page": 56,
+  "section": "5.3.6.3 Current consumption in Stop mode",
+  "section_title": "Current consumption in Stop mode",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=56",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "text_helper": "Table 27. Typical and maximum HSIKERON current consumption in Stop mode — section 5.3.6.3 Current consumption in Stop mode. Symbol, Parameter, Conditions, Conditions, Typ, +6 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Typ",
+      "Max / TJ = 30°C",
+      "Max / TJ = 90°C",
+      "Max / TJ = 110°C",
+      "Max / TJ = 130°C",
+      "Max / TJ = 140°C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD(Stop)",
+        "FLASH IN LOW POWER",
+        "HSIKERON, STOP0",
+        "HSI144",
+        "0.42",
+        "0.55",
+        "1.65",
+        "2.95",
+        "4.25",
+        "5.50",
+        "mA"
+      ],
+      [
+        "IDD(Stop)",
+        "FLASH IN LOW POWER",
+        "HSIKERON, STOP0",
+        "HSI48",
+        "0.35",
+        "0.48",
+        "1.60",
+        "2.90",
+        "4.20",
+        "5.50",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. LSE is in bypass mode at 32.768 kHz. DS15135 - Rev 1 page 56/130"
+    ],
+    "legend": [
+      "Evaluated by characterization - not tested in production, unless otherwise stated."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

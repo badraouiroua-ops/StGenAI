@@ -64,7 +64,7 @@
         "Analog low swing OSC_IN high level",
         "External analog low swing clock",
         "0.6",
-        "-",
+        "",
         "1.225",
         "V"
       ],
@@ -73,16 +73,16 @@
         "Analog low swing OSC_IN low level",
         "External analog low swing clock",
         "0.35",
-        "-",
+        "",
         "0.8",
         "V"
       ],
       [
         "VlswLSE (VLSEH - VLSEL)",
-        "Analog low swing OSC_IN peak-to- peak amplitude",
+        "Analog low swing OSC_IN peak-to-peak amplitude",
         "External analog low swing clock",
         "0.2",
-        "-",
+        "",
         "0.875",
         "V"
       ],

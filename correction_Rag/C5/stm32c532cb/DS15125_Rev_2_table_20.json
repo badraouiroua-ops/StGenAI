@@ -1,0 +1,100 @@
+{
+  "table_id": "table_20",
+  "document": "DS15125 Rev 2 - Table 20. Embedded internal voltage reference.",
+  "rev": "Rev 2",
+  "table_number": "20",
+  "title": "Table 20. Embedded internal voltage reference.",
+  "page": 53,
+  "section": "5.3.5 Embedded voltage reference",
+  "section_title": "Embedded voltage reference",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=53",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 20. Embedded internal voltage reference. — section 5.3.5 Embedded voltage reference. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "VREFINT",
+        "Internal reference voltages",
+        "-40°C < TJ < 140 °C",
+        "1.180",
+        "1.217",
+        "1.250",
+        "V"
+      ],
+      [
+        "tS_vrefint(1)(2)",
+        "ADC sampling time when reading the internal reference voltage",
+        "-",
+        "4.3",
+        "-",
+        "-",
+        "µs"
+      ],
+      [
+        "tstart_vrefint (2)",
+        "Start time of reference voltage buffer when ADC is enable",
+        "-",
+        "-",
+        "-",
+        "4.4",
+        "µs"
+      ],
+      [
+        "Irefbuf (2)",
+        "Reference Buffer consumption for ADC",
+        "VDDA = 3.3 V",
+        "9",
+        "13.5",
+        "23",
+        "µA"
+      ],
+      [
+        "ΔVREFINT (2)",
+        "Internal reference voltage spread over the temperature range",
+        "-40 °C < TJ < 140 °C",
+        "-",
+        "5",
+        "15",
+        "mV"
+      ],
+      [
+        "Tcoeff",
+        "Average temperature coefficient",
+        "Average temperature coefficient",
+        "-",
+        "19",
+        "67",
+        "ppm/°C"
+      ],
+      [
+        "VDDcoeff",
+        "Average Voltage coefficient",
+        "3.0 V < VDD < 3.6 V",
+        "-",
+        "10",
+        "1370",
+        "ppm/V"
+      ]
+    ],
+    "notes": [
+      "1. The shortest sampling time for the application can be determined by multiple iterations.",
+      "2. Specified by design - Not tested in production."
+    ],
+    "legend": [
+      "The values in this table are specified by design and not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

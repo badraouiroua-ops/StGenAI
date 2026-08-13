@@ -89,6 +89,15 @@
       [
         "tvr(OUT) tvf(OUT)",
         "Data output valid time",
+        "DHQC = 0",
+        "-",
+        "3.5",
+        "4.5",
+        "ns"
+      ],
+      [
+        "tvr(OUT) tvf(OUT)",
+        "Data output valid time",
         "DHQC=1 All prescaler values (except 0)",
         "-",
         "t(CLK)/4 + 0.5",
@@ -100,6 +109,15 @@
         "Data output hold time",
         "DHQC=1, All prescaler values (except 0)",
         "t(CLK)/4 - 0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "thr(OUT) thf(OUT)",
+        "Data output hold time",
+        "DHQC = 0",
+        "1.5",
         "-",
         "-",
         "ns"

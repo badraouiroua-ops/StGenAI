@@ -1,0 +1,73 @@
+{
+  "table_id": "table_6",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Advanced control",
+      "row_index": 0,
+      "analyse_visuelle": "Correction de l'espace parasite dans 'Up/ down' pour rétablir 'Up/down'.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Up, down, Up/ down",
+          "nouvelle_valeur": "Up, down, Up/down",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "General- purpose TIM2",
+      "row_index": 1,
+      "analyse_visuelle": "Correction du mot coupé 'General- purpose' en 'General-purpose' et suppression de l'espace parasite dans 'Up/ down'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "General- purpose",
+          "nouvelle_valeur": "General-purpose",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Up, down, Up/ down",
+          "nouvelle_valeur": "Up, down, Up/down",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "General- purpose TIM12,",
+      "row_index": 2,
+      "analyse_visuelle": "Correction du mot coupé 'General- purpose' en 'General-purpose'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "General- purpose",
+          "nouvelle_valeur": "General-purpose",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "General- purpose TIM15",
+      "row_index": 3,
+      "analyse_visuelle": "Correction du mot coupé 'General- purpose' en 'General-purpose' et suppression de l'espace parasite dans 'Up/ down'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "General- purpose",
+          "nouvelle_valeur": "General-purpose",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Up, down, Up/ down",
+          "nouvelle_valeur": "Up, down, Up/down",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

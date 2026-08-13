@@ -1,0 +1,24 @@
+{
+  "table_id": "table_36",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Ligne index 4 (DuCy(HSI)(2)) : Décalage de colonnes, la valeur 45 est située sous 'Typ' et non sous 'Min'."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "DuCy(HSI)(2)",
+      "row_index": 4,
+      "analyse_visuelle": "Visuellement, dans la ligne Duty Cycle (DuCy(HSI)(2)), la case Conditions contient '-', la case Min est vide/avec tiret, la valeur '45' se trouve dans la colonne 'Typ' et '55' dans la colonne 'Max'. Le JSON avait mis '45' en Min et '-' en Typ.",
+      "corrections": [
+        {
+          "colonne_index": 4,
+          "valeur_originale_json": "-",
+          "nouvelle_valeur": "45",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

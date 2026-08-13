@@ -1,0 +1,10 @@
+{
+  "table_id": "table_80",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Le tableau de l'image possède 7 colonnes distinctes (Symbol, Millimeters Min, Typ, Max, Inches Min, Typ, Max), alors que le JSON extrait n'en contient que 6 en ayant fusionné les colonnes Typ et Max de Millimeters (ex: '0.55 0.60'). En raison de ce décalage de structure et de l'interdiction d'ajouter des colonnes, une révision manuelle est requise."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

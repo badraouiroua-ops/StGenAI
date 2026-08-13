@@ -1,0 +1,47 @@
+{
+  "table_id": "table_17",
+  "document": "DS15125 Rev 2 - Table 17. Operating conditions at power-up/power-down.",
+  "rev": "Rev 2",
+  "table_number": "17",
+  "title": "Table 17. Operating conditions at power-up/power-down.",
+  "page": 52,
+  "section": "5.3.2 Operating conditions at power-up/power-down",
+  "section_title": "Operating conditions at power-up/power-down",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=52",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 17. Operating conditions at power-up/power-down. — section 5.3.2 Operating conditions at power-up/power-down. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tVDD",
+        "VDD rise‑time rate",
+        "0",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "tVDD",
+        "VDD fall‑time rate",
+        "0",
+        "∞",
+        "ms/V"
+      ]
+    ],
+    "notes": [
+      "1. Specified by design - Not tested in production.",
+      "2. From POR threshold crossing to NRST pull-up resistor activation."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

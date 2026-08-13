@@ -1,0 +1,10 @@
+{
+  "table_id": "table_84",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "La majorité des lignes du tableau (A, A1, A2, b, c, c1, e, L, Θ, Θ1, Θ2, Θ3, R1, R2, S, aaa, bbb, ccc, ddd) sont manquantes dans l'extraction JSON de pdfplumber. Une révision manuelle ou une ré-extraction complète est requise."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

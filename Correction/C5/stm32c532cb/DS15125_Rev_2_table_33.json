@@ -1,0 +1,10 @@
+{
+  "table_id": "table_33",
+  "status": "OK",
+  "logs": [
+    "Une vérification visuelle complète confirme que l'ensemble du tableau (en-têtes, valeurs, unités, symboles) est parfaitement conforme à l'image."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

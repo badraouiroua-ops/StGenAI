@@ -207,7 +207,7 @@
           "USART",
           "3",
           "3",
-          "3",
+          "4",
           "4",
           "4",
           "4",
@@ -1677,22 +1677,6 @@
           "-"
         ],
         [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
-        ],
-        [
           "-",
           "-",
           "-",
@@ -1933,22 +1917,6 @@
           "-"
         ],
         [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
-        ],
-        [
           "-",
           "-",
           "-",
@@ -2077,22 +2045,6 @@
           "ADC1_IN4, DAC1_OUT1"
         ],
         [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
-        ],
-        [
           "11",
           "11",
           "15",
@@ -2203,22 +2155,6 @@
           "-",
           "TIM1_CH3N, TIM3_CH4, TIM8_CH3N, SPI3_SCK/I2S3_CK, SPI2_NSS/I2S2_WS, USART3_RX, ETH1_MII_RXD3, XSPI1_IO0, COMP1_OUT, EVENTOUT",
           "ADC2_IN7, ADC3_IN1, COMP1_INM2"
-        ],
-        [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
         ],
         [
           "-",
@@ -2541,22 +2477,6 @@
           "ADC3_IN10"
         ],
         [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
-        ],
-        [
           "-",
           "-",
           "-",
@@ -2699,22 +2619,6 @@
           "-",
           "RTC_REFIN, TIM1_CH3N, TIM12_CH2, TIM8_CH3N, USART1_RX, SPI2_MOSI/ I2S2_SDO, SPI1_MOSI/ I2S1_SDO, SPI3_MOSI/ I2S3_SDO, UART4_CTS, XSPI1_IO0, ETH1_MII_TXD1/ ETH1_RMII_TXD1, XSPI1_CLK, UART5_RX, EVENTOUT",
           "-"
-        ],
-        [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
         ],
         [
           "-",
@@ -2941,22 +2845,6 @@
           "-"
         ],
         [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
-        ],
-        [
           "-",
           "-",
           "-",
@@ -3115,22 +3003,6 @@
           "-",
           "MCO1, TIM1_CH1, I3C1_SDA, TIM8_BKIN2, TIM15_CH2, SPI1_RDY, SPI2_MOSI/ I2S2_SDO, USART1_CK, TIM5_CH4, I2C1_SCL, UART7_RX, XSPI1_IO6, USB_SOF, TIM2_CH4, EVENTOUT",
           "-"
-        ],
-        [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
         ],
         [
           "20",
@@ -3307,22 +3179,6 @@
           "-",
           "TIM8_CH1N, I3C1_SCL, SPI3_SCK/I2S3_CK, USART3_TX, UART4_TX, XSPI1_IO1, ETH1_MII_TXD0/ ETH1_RMII_TXD0, EVENTOUT",
           "-"
-        ],
-        [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
         ],
         [
           "-",
@@ -3517,22 +3373,6 @@
           "-"
         ],
         [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
-        ],
-        [
           "-",
           "-",
           "-",
@@ -3709,22 +3549,6 @@
           "(3)"
         ],
         [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
-        ],
-        [
           "28",
           "28",
           "41",
@@ -3867,22 +3691,6 @@
           "-",
           "-",
           "-"
-        ],
-        [
-          "23NPFQFU",
-          "23PFQL",
-          "84PFQL",
-          "84NPFQFU",
-          "46PFQL",
-          "08PFQL",
-          "001PFQL",
-          "441PFQL",
-          "Pin name (function after reset)",
-          "Pin type",
-          "I/O structure",
-          "Notes",
-          "Alternate functions",
-          "Additional functions"
         ],
         [
           "1",
@@ -4268,7 +4076,7 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
+          "Port B",
           "PB0",
           "-",
           "TIM1_CH2N",
@@ -4288,7 +4096,7 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
+          "Port B",
           "PB1",
           "-",
           "TIM1_CH3N",
@@ -4308,7 +4116,7 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
+          "Port B",
           "PB2",
           "RTC_OUT2",
           "-",
@@ -4328,7 +4136,7 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
+          "Port B",
           "PB3",
           "JTDO/ TRACESWO",
           "TIM2_CH2",
@@ -4348,7 +4156,7 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
+          "Port B",
           "PB4",
           "NJTRST",
           "TIM2_CH2",
@@ -4368,7 +4176,7 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
+          "Port B",
           "PB5",
           "-",
           "TIM17_BKIN",
@@ -4388,7 +4196,7 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
+          "Port B",
           "PB6",
           "-",
           "TIM17_BKIN",
@@ -4408,7 +4216,7 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
+          "Port B",
           "PB7",
           "-",
           "TIM17_CH1N",
@@ -4428,7 +4236,7 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
+          "Port B",
           "PB7",
           "AF0",
           "AF1",
@@ -4446,26 +4254,6 @@
           "AF13",
           "AF14",
           "AF15"
-        ],
-        [
-          "Port",
-          "Port",
-          "SYS",
-          "LPTIM1/ TIM1/2/17",
-          "I3C1/ TIM1/3/4/5/8/12/15",
-          "I3C1/LPTIM1/ LPUART1/ TIM1/5/8",
-          "I2C1/2/I3C1/ LPTIM1/ SPI1/I2S1/ SPI3/I2S3/ TIM15/ USART1/2",
-          "I3C1/ LPTIM1/ SPI1/I2S1/ SPI2/I2S2/ SPI3/ I2S3/SYS",
-          "SPI1/I2S1/ SPI2/I2S2/ SPI3/I2S3/ UART4",
-          "SPI2/I2S2/ SPI3/I2S3/ UART7/ USART1/2/3/6/ XSPI1",
-          "I2C2/ LPUART1/ TIM5/UART4/5",
-          "FDCAN1/2/ I2C1/2/SPI2/ I2S2/XSPI1",
-          "CRS/ETH1_/TIM16/ UART7",
-          "USART1/3/ XSPI1",
-          "ETH1_",
-          "ETH1_/TIM8/ USB_",
-          "COMP/TIM2/ UART5",
-          "SYS"
         ],
         [
           "Port B",
@@ -5066,26 +4854,6 @@
           "AF13",
           "AF14",
           "AF15"
-        ],
-        [
-          "Port",
-          "Port",
-          "SYS",
-          "LPTIM1/ TIM1/2/17",
-          "I3C1/ TIM1/3/4/5/8/12/15",
-          "I3C1/LPTIM1/ LPUART1/ TIM1/5/8",
-          "I2C1/2/I3C1/ LPTIM1/ SPI1/I2S1/ SPI3/I2S3/ TIM15/ USART1/2",
-          "I3C1/ LPTIM1/ SPI1/I2S1/ SPI2/I2S2/ SPI3/ I2S3/SYS",
-          "SPI1/I2S1/ SPI2/I2S2/ SPI3/I2S3/ UART4",
-          "SPI2/I2S2/ SPI3/I2S3/ UART7/ USART1/2/3/6/ XSPI1",
-          "I2C2/ LPUART1/ TIM5/UART4/5",
-          "FDCAN1/2/ I2C1/2/SPI2/ I2S2/XSPI1",
-          "CRS/ETH1_/TIM16/ UART7",
-          "USART1/3/ XSPI1",
-          "ETH1_",
-          "ETH1_/TIM8/ USB_",
-          "COMP/TIM2/ UART5",
-          "SYS"
         ],
         [
           "Port D",
@@ -5788,26 +5556,6 @@
           "AF15"
         ],
         [
-          "Port",
-          "Port",
-          "SYS",
-          "LPTIM1/ TIM1/2/17",
-          "I3C1/ TIM1/3/4/5/8/12/15",
-          "I3C1/LPTIM1/ LPUART1/ TIM1/5/8",
-          "I2C1/2/I3C1/ LPTIM1/ SPI1/I2S1/ SPI3/I2S3/ TIM15/ USART1/2",
-          "I3C1/ LPTIM1/ SPI1/I2S1/ SPI2/I2S2/ SPI3/ I2S3/SYS",
-          "SPI1/I2S1/ SPI2/I2S2/ SPI3/I2S3/ UART4",
-          "SPI2/I2S2/ SPI3/I2S3/ UART7/ USART1/2/3/6/ XSPI1",
-          "I2C2/ LPUART1/ TIM5/UART4/5",
-          "FDCAN1/2/ I2C1/2/SPI2/ I2S2/XSPI1",
-          "CRS/ETH1_/TIM16/ UART7",
-          "USART1/3/ XSPI1",
-          "ETH1_",
-          "ETH1_/TIM8/ USB_",
-          "COMP/TIM2/ UART5",
-          "SYS"
-        ],
-        [
           "Port F",
           "PF8",
           "-",
@@ -6168,8 +5916,8 @@
           "EVENTOUT"
         ],
         [
-          "PG1 0",
-          "PG1 0",
+          "Port G",
+          "PG10",
           "-",
           "-",
           "-",
@@ -6208,8 +5956,8 @@
           "EVENTOUT"
         ],
         [
-          "PG1 2",
-          "PG1 2",
+          "Port G",
+          "PG12",
           "-",
           "LPTIM1_IN1",
           "-",
@@ -6228,8 +5976,8 @@
           "EVENTOUT"
         ],
         [
-          "PG1 3",
-          "PG1 3",
+          "Port G",
+          "PG10",
           "TRACED0",
           "LPTIM1_CH1",
           "-",
@@ -6249,7 +5997,7 @@
         ],
         [
           "PG1 4",
-          "PG1 4",
+          "PG14",
           "TRACED1",
           "LPTIM1_ETR",
           "-",
@@ -6268,8 +6016,8 @@
           "EVENTOUT"
         ],
         [
-          "PG1 5",
-          "PG1 5",
+          "Port G",
+          "PG12",
           "-",
           "-",
           "-",
@@ -6289,7 +6037,7 @@
         ],
         [
           "Port H",
-          "PH0",
+          "PG13",
           "-",
           "-",
           "-",
@@ -6309,7 +6057,7 @@
         ],
         [
           "PH1",
-          "PH1",
+          "PG14",
           "-",
           "-",
           "-",
@@ -6328,8 +6076,8 @@
           "EVENTOUT"
         ],
         [
-          "PH2",
-          "PH2",
+          "Port G",
+          "PG15",
           "MCO1",
           "TIM17_CH1N",
           "-",
@@ -6752,7 +6500,7 @@
         ],
         [
           "PD",
-          "Power dissipation at TA = 125 °C for suffix 3Section 5.3.1: General operating conditions",
+          "Power dissipation at TA = 125 °C for suffix 3 Section 5.3.1: General operating conditions",
           "-",
           "See Section 6.10: Package thermal characteristics for application appropriate thermal resistance and package. Power dissipation is then calculated according ambient temperature (TA) and maximum junction temperature (TJ) and selected thermal resistance.",
           "See Section 6.10: Package thermal characteristics for application appropriate thermal resistance and package. Power dissipation is then calculated according ambient temperature (TA) and maximum junction temperature (TJ) and selected thermal resistance.",
@@ -7653,12 +7401,12 @@
     "tags": [],
     "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=69",
     "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
-    "text_helper": "Table 29. Typical and maximum current consumption in Standby mode — section 5.3.6.4 Current consumption in Standby mode. Symbol, Parameter, RTC and LSE, Typ / 2.7 V, Typ / 3 V, +4 autres.",
+    "text_helper": "Table 29. Typical and maximum current consumption in Standby mode — section 5.3.6.4 Current consumption in Standby mode. Symbol, Parameter, RTC and LSE (1), Typ / 2.7 V, Typ / 3 V, +4 autres.",
     "table_content": {
       "headers": [
         "Symbol",
         "Parameter",
-        "RTC and LSE",
+        "RTC and LSE (1)",
         "Typ / 2.7 V",
         "Typ / 3 V",
         "Typ / 3.3 V",
@@ -8333,7 +8081,7 @@
         [
           "fHSE_ext",
           "User external clock source frequency",
-          "Analolog mode (HSEYBYP = 1, HSEEXT = 0)",
+          "Analog mode (HSEYBYP = 1, HSEEXT = 0)",
           "4",
           "-",
           "50",
@@ -8479,7 +8227,7 @@
           "Analog low swing OSC_IN high level",
           "External analog low swing clock",
           "0.6",
-          "-",
+          "",
           "1.225",
           "V"
         ],
@@ -8488,16 +8236,16 @@
           "Analog low swing OSC_IN low level",
           "External analog low swing clock",
           "0.35",
-          "-",
+          "",
           "0.8",
           "V"
         ],
         [
           "VlswLSE (VLSEH - VLSEL)",
-          "Analog low swing OSC_IN peak-to- peak amplitude",
+          "Analog low swing OSC_IN peak-to-peak amplitude",
           "External analog low swing clock",
           "0.2",
-          "-",
+          "",
           "0.875",
           "V"
         ],
@@ -9762,7 +9510,7 @@
         [
           "VESD(HBM)",
           "Electrostatic discharge voltage (human body model)",
-          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 001",
+          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
           "All",
           "2",
           "2000",
@@ -9771,7 +9519,7 @@
         [
           "VESD(CDM)",
           "Electrostatic discharge voltage (charge device model)",
-          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
           "LQFP 144",
           "C3",
           "750",
@@ -9780,7 +9528,7 @@
         [
           "VESD(CDM)",
           "Electrostatic discharge voltage (charge device model)",
-          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
           "LQFP 100",
           "C3",
           "750",
@@ -9789,7 +9537,7 @@
         [
           "VESD(CDM)",
           "Electrostatic discharge voltage (charge device model)",
-          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
           "LQFP 80",
           "C3",
           "750",
@@ -9798,7 +9546,7 @@
         [
           "VESD(CDM)",
           "Electrostatic discharge voltage (charge device model)",
-          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
           "LQFP 64",
           "C3",
           "750",
@@ -9807,7 +9555,7 @@
         [
           "VESD(CDM)",
           "Electrostatic discharge voltage (charge device model)",
-          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
           "LQFP 48",
           "C3",
           "750",
@@ -9816,7 +9564,7 @@
         [
           "VESD(CDM)",
           "Electrostatic discharge voltage (charge device model)",
-          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
           "LQFP 32",
           "C3",
           "750",
@@ -9825,7 +9573,7 @@
         [
           "VESD(CDM)",
           "Electrostatic discharge voltage (charge device model)",
-          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
           "UFQFPN 48",
           "C3",
           "750",
@@ -9834,7 +9582,7 @@
         [
           "VESD(CDM)",
           "Electrostatic discharge voltage (charge device model)",
-          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
           "UFQFPN 32",
           "C3",
           "750",
@@ -10020,7 +9768,7 @@
           "0 < VIN ≤ Max(VDDXXX)(4)",
           "-",
           "-",
-          "±-200",
+          "±200",
           "nA"
         ],
         [
@@ -10157,7 +9905,7 @@
         [
           "VOL(2)",
           "Output low-level voltage",
-          "|IIO| = 20 mA, 2.7 V ≤ VDD≤ 3.6 V",
+          "|IIO| = 20 mA, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "1.3",
           "V"
@@ -10165,7 +9913,7 @@
         [
           "VOH(2)",
           "Output high-level voltage",
-          "|IIO| = -20 mA, 2.7 V ≤ VDD≤ 3.6 V",
+          "|IIO| = -20 mA, 2.7 V ≤ VDD ≤ 3.6 V",
           "VDD - 1.3",
           "-",
           "V"
@@ -10316,7 +10064,7 @@
           "00",
           "Fmax(1)",
           "Maximum frequency",
-          "C = 10 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "C = 10 pF, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "4",
           "MHz"
@@ -10325,7 +10073,7 @@
           "00",
           "tr/tf (2)",
           "Output high to low level fall time and output low to high level rise time",
-          "C = 50 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "C = 50 pF, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "51",
           "ns"
@@ -10352,7 +10100,7 @@
           "01",
           "Fmax(1)",
           "Maximum frequency",
-          "C = 50 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "C = 50 pF, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "12",
           "MHz"
@@ -10361,7 +10109,7 @@
           "01",
           "Fmax(1)",
           "Maximum frequency",
-          "C = 30 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "C = 30 pF, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "12",
           "MHz"
@@ -10388,7 +10136,7 @@
           "01",
           "tr/tf(2)",
           "Output high to low level fall time and output low to high level rise time",
-          "C = 30 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "C = 30 pF, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "17",
           "ns"
@@ -10397,7 +10145,7 @@
           "01",
           "tr/tf(2)",
           "Output high to low level fall time and output low to high level rise time",
-          "C = 10 pF, 2.7 V ≤ VDD ≤3.6 V",
+          "C = 10 pF, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "14",
           "ns"
@@ -10406,7 +10154,7 @@
           "10",
           "Fmax(1)(3)",
           "Maximum frequency",
-          "C = 50 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "C = 50 pF, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "45",
           "MHz"
@@ -10442,7 +10190,7 @@
           "10",
           "tr/tf(2)(3)",
           "Output high to low level fall time and output low to high level rise time",
-          "C = 30 pF, 2.7 V≤ VDD ≤ 3.6 V",
+          "C = 30 pF, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "6",
           "ns"
@@ -10873,6 +10621,15 @@
         [
           "tvr(OUT) tvf(OUT)",
           "Data output valid time",
+          "DHQC = 0",
+          "-",
+          "3.5",
+          "4.5",
+          "ns"
+        ],
+        [
+          "tvr(OUT) tvf(OUT)",
+          "Data output valid time",
           "DHQC=1 All prescaler values (except 0)",
           "-",
           "t(CLK)/4 + 0.5",
@@ -10884,6 +10641,15 @@
           "Data output hold time",
           "DHQC=1, All prescaler values (except 0)",
           "t(CLK)/4 - 0.5",
+          "-",
+          "-",
+          "ns"
+        ],
+        [
+          "thr(OUT) thf(OUT)",
+          "Data output hold time",
+          "DHQC = 0",
+          "1.5",
           "-",
           "-",
           "ns"
@@ -11165,7 +10931,7 @@
           "pF"
         ],
         [
-          "tADCVREG_ STUP",
+          "tADCVREG_STUP",
           "ADC LDO startup time",
           "-",
           "-",
@@ -11205,7 +10971,7 @@
           "Trigger conversion latency for regular and injected channels",
           "Trigger from a synchronous clock",
           "3",
-          "-",
+          "3",
           "4",
           "1/fADC"
         ],
@@ -11254,13 +11020,13 @@
     "table_number": "58",
     "title": "Table 58. 12-bit ADC characteristics.",
     "page": 94,
-    "section": "5.3.18 Delay block (DLYB) characteristics",
-    "section_title": "Delay block (DLYB) characteristics",
+    "section": "5.3.19 12-bit analog-to-digital converter ADC characteristics",
+    "section_title": "12-bit analog-to-digital converter ADC characteristics",
     "semantic_type": "",
     "tags": [],
     "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=94",
     "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
-    "text_helper": "Table 58. 12-bit ADC characteristics. — section 5.3.18 Delay block (DLYB) characteristics. Symbol, Parameter, Conditions, Conditions, Conditions, +7 autres.",
+    "text_helper": "Table 58. 12-bit ADC characteristics. — section 5.3.19 12-bit analog-to-digital converter ADC characteristics. Symbol, Parameter, Conditions, Conditions, Conditions, +7 autres.",
     "table_content": {
       "headers": [
         "Symbol",
@@ -11519,14 +11285,14 @@
           "RAIN(1)",
           "External input impedance",
           "Resolution = 6 bits, TJ = 125°C",
+          "Resolution = 6 bits, TJ = 125°C",
+          "Resolution = 6 bits, TJ = 125°C",
+          "Resolution = 6 bits, TJ = 125°C",
+          "Resolution = 6 bits, TJ = 125°C",
+          "Resolution = 6 bits, TJ = 125°C",
           "-",
           "-",
           "79000",
-          "Ω",
-          "Ω",
-          "-",
-          "-",
-          "46890",
           "Ω"
         ],
         [
@@ -11534,28 +11300,126 @@
           "Internal sample and hold capacitor",
           "-",
           "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
           "3",
           "-",
-          "pF",
-          "pF",
-          "pF",
-          "pF",
-          "pF",
-          "Ω"
+          "pF"
         ],
         [
-          "tADCVREG_ STUP",
+          "tADCVREG_STUP",
           "ADC LDO startup time",
           "-",
           "-",
           "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
           "10",
-          "µs",
-          "µs",
-          "µs",
-          "µs",
-          "µs",
-          "Ω"
+          "µs"
+        ],
+        [
+          "tSTAB",
+          "ADC power-up time",
+          "LDO already started",
+          "LDO already started",
+          "LDO already started",
+          "LDO already started",
+          "LDO already started",
+          "LDO already started",
+          "1",
+          "-",
+          "-",
+          "conversion cycle"
+        ],
+        [
+          "tOFF_CAL",
+          "Offset calibration time",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "85",
+          "-",
+          "1/fADC"
+        ],
+        [
+          "tLATR",
+          "Trigger conversion latency for regular and injected channels",
+          "Trigger from an asynchronous clock",
+          "Trigger from an asynchronous clock",
+          "Trigger from an asynchronous clock",
+          "Trigger from an asynchronous clock",
+          "Trigger from an asynchronous clock",
+          "Trigger from an asynchronous clock",
+          "3",
+          "-",
+          "4",
+          "1/fADC"
+        ],
+        [
+          "tLATR",
+          "Trigger conversion latency for regular and injected channels",
+          "Trigger from a synchronous clock",
+          "Trigger from a synchronous clock",
+          "Trigger from a synchronous clock",
+          "Trigger from a synchronous clock",
+          "Trigger from a synchronous clock",
+          "Trigger from a synchronous clock",
+          "-",
+          "3",
+          "-",
+          "1/fADC"
+        ],
+        [
+          "tS",
+          "Sampling time",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "2.5",
+          "-",
+          "288.5",
+          "1/fADC"
+        ],
+        [
+          "tCONV",
+          "Total conversion time (including sampling time)",
+          "N-bits resolution",
+          "N-bits resolution",
+          "N-bits resolution",
+          "N-bits resolution",
+          "N-bits resolution",
+          "N-bits resolution",
+          "-",
+          "tS + 1.5 + N",
+          "-",
+          "1/fADC"
+        ],
+        [
+          "IDDA(ADC)",
+          "ADC consumption on VDD, VDDA and VREF",
+          "fS = 2.25 MSPS",
+          "fS = 2.25 MSPS",
+          "fS = 2.25 MSPS",
+          "fS = 2.25 MSPS",
+          "fS = 2.25 MSPS",
+          "fS = 2.25 MSPS",
+          "-",
+          "200",
+          "-",
+          "µA"
         ]
       ],
       "notes": [
@@ -11689,10 +11553,9 @@
     "tags": [],
     "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=99",
     "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
-    "text_helper": "Table 60. Temperature sensor characteristics — section 5.3.20 Temperature sensor characteristics. Symbol, Symbol, Parameter, Min, Typ, +2 autres.",
+    "text_helper": "Table 60. Temperature sensor characteristics — section 5.3.20 Temperature sensor characteristics. Symbol, Parameter, Min, Typ, Max, Unit.",
     "table_content": {
       "headers": [
-        "Symbol",
         "Symbol",
         "Parameter",
         "Min",
@@ -11703,7 +11566,6 @@
       "rows": [
         [
           "TL(1)",
-          "TL(1)",
           "VSENSE linearity with temperature (from Vsensor voltage)",
           "-",
           "-",
@@ -11711,7 +11573,6 @@
           "°C"
         ],
         [
-          "Avg_Slope(2)",
           "Avg_Slope(2)",
           "Average slope (from Vsense voltage)",
           "-",
@@ -11721,7 +11582,6 @@
         ],
         [
           "V30(3)",
-          "V30(3)",
           "Voltage at 30° C (± 1 ° C)",
           "-",
           "0.65",
@@ -11729,7 +11589,6 @@
           "V"
         ],
         [
-          "tstart_run(1)",
           "tstart_run(1)",
           "Startup time in Run mode (buffer startup)",
           "-",
@@ -11739,7 +11598,6 @@
         ],
         [
           "tS_temp(1)",
-          "tS_temp(1)",
           "ADC sampling time when reading the temperature",
           "13",
           "-",
@@ -11747,7 +11605,6 @@
           "µs"
         ],
         [
-          "Isens(1)",
           "Isens(1)",
           "Sensor consumption",
           "-",
@@ -11757,236 +11614,10 @@
         ],
         [
           "Isensbuf(1)",
-          "Isensbuf(1)",
           "Sensor buffer consumption",
           "-",
           "3.8",
           "6.5",
-          "µA"
-        ],
-        [
-          "tSETTLING",
-          "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
-          "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
-          "±0.5 LSB",
-          "1.7",
-          "3",
-          "µs"
-        ],
-        [
-          "tSETTLING",
-          "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
-          "±1 LSB",
-          "-",
-          "1.66",
-          "2.87",
-          "µs"
-        ],
-        [
-          "tSETTLING",
-          "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
-          "±2 LSB",
-          "-",
-          "1.65",
-          "2.84",
-          "µs"
-        ],
-        [
-          "tSETTLING",
-          "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
-          "±4 LSB",
-          "-",
-          "1.63",
-          "2.78",
-          "µs"
-        ],
-        [
-          "tSETTLING",
-          "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
-          "±8 LSB",
-          "-",
-          "1.61",
-          "2.7",
-          "µs"
-        ],
-        [
-          "tSETTLING",
-          "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
-          "Normal mode, DAC output buffer OFF, ±1 LSB CL = 10 pF",
-          "-",
-          "1.7",
-          "2",
-          "µs"
-        ],
-        [
-          "tWAKEUP",
-          "Wakeup time from off state (setting the Enx bit in the DAC Control register) until the ±1LSB final value",
-          "Normal mode, DAC output buffer ON, CL ≤ 50 pF, RL = 5 Ω",
-          "-",
-          "5",
-          "7.5",
-          "µs"
-        ],
-        [
-          "tWAKEUP",
-          "Wakeup time from off state (setting the Enx bit in the DAC Control register) until the ±1LSB final value",
-          "Normal mode, DAC output buffer OFF, CL ≤ 10 pF",
-          "-",
-          "2",
-          "5.0",
-          "µs"
-        ],
-        [
-          "PSRR",
-          "DC VDDA supply rejection ratio",
-          "Normal mode DAC output buffer ON CL ≤ 50 pF, RL = 5 kW",
-          "-",
-          "-80",
-          "-28",
-          "dB"
-        ],
-        [
-          "tSAMP",
-          "Sampling time in Sample and Hold mode CSH=100nF (Code transition between the lowest input code and the highest input code when DACOUT reaches final value +/- 1LSB)",
-          "MODE<2:0>_V12 = 100/101 (BUFFER ON)",
-          "-",
-          "0.7",
-          "2.6",
-          "ms"
-        ],
-        [
-          "tSAMP",
-          "Sampling time in Sample and Hold mode CSH=100nF (Code transition between the lowest input code and the highest input code when DACOUT reaches final value +/- 1LSB)",
-          "MODE<2:0>_V12 = 110 (BUFFER OFF)",
-          "-",
-          "11.5",
-          "18.7",
-          "ms"
-        ],
-        [
-          "tSAMP",
-          "Sampling time in Sample and Hold mode CSH=100nF (Code transition between the lowest input code and the highest input code when DACOUT reaches final value +/- 1LSB)",
-          "MODE<2:0>_V12=111 BUFFER OFF (DAC_OUT pin not connected, internal connection only)",
-          "-",
-          "0.3",
-          "0.6",
-          "µs"
-        ],
-        [
-          "Ileak",
-          "Output leakage current",
-          "-",
-          "-",
-          "-",
-          "-",
-          "nA"
-        ],
-        [
-          "CIint",
-          "Internal sample and hold capacitor",
-          "-",
-          "1.43",
-          "1.75",
-          "2",
-          "pF"
-        ],
-        [
-          "tTRIM",
-          "Middle code offset trim time",
-          "DAC output buffer ON",
-          "50",
-          "-",
-          "-",
-          "µs"
-        ],
-        [
-          "Voffset",
-          "Middle code offset for 1 trim code step",
-          "VREF+ = 3.6 V",
-          "-",
-          "850",
-          "-",
-          "µV"
-        ],
-        [
-          "IDDA(DAC)",
-          "DAC quiescent consumption from VDDA",
-          "DAC output buffer ON",
-          "No load, middle code (0x800)",
-          "315",
-          "-",
-          "µA"
-        ],
-        [
-          "IDDA(DAC)",
-          "DAC quiescent consumption from VDDA",
-          "No load, worst code (0xF1C)",
-          "-",
-          "450",
-          "-",
-          "µA"
-        ],
-        [
-          "DAC output buffer OFF",
-          "DAC output buffer OFF",
-          "No load, middle/worst code (0x800)",
-          "-",
-          "20",
-          "-",
-          "µA"
-        ],
-        [
-          "DAC output buffer OFF",
-          "DAC output buffer OFF",
-          "Sample and Hold mode, CSH=100 nF",
-          "-",
-          "315*Ton/ (Ton+Toff)",
-          "-",
-          "µA"
-        ],
-        [
-          "IDDV(DAC)",
-          "DAC consumption from VREF+",
-          "DAC output buffer ON",
-          "No load, middle code (0x800)",
-          "-",
-          "185",
-          "µA"
-        ],
-        [
-          "IDDV(DAC)",
-          "DAC consumption from VREF+",
-          "No load, worst code (0xF1C)",
-          "-",
-          "185",
-          "-",
-          "µA"
-        ],
-        [
-          "DAC output buffer OFF",
-          "DAC output buffer OFF",
-          "No load, middle/worst code (0x800)",
-          "-",
-          "155",
-          "-",
-          "µA"
-        ],
-        [
-          "DAC output buffer OFF",
-          "DAC output buffer OFF",
-          "Sample and Hold mode, Buffer ON, CSH=100 nF (worst code)",
-          "-",
-          "185*Ton/ (Ton+Toff)",
-          "-",
-          "µA"
-        ],
-        [
-          "DAC output buffer OFF",
-          "DAC output buffer OFF",
-          "Sample and Hold mode, Buffer OFF, CSH=100 nF (worst code)",
-          "-",
-          "155*Ton/ (Ton+Toff)",
-          "-",
           "µA"
         ]
       ],
@@ -13470,8 +13101,8 @@
         [
           "fSCK",
           "SPI clock frequency",
-          "Slave receiver mode, 2.7 V ≤ DD ≤ 3.6 V",
-          "Slave receiver mode, 2.7 V ≤ DD ≤ 3.6 V",
+          "Slave receiver mode, 2.7 V ≤ VDD ≤ 3.6 V",
+          "Slave receiver mode, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "-",
           "100",
@@ -13480,8 +13111,8 @@
         [
           "fSCK",
           "SPI clock frequency",
-          "Slave transmitter mode, 2.7 V ≤ DD ≤ 3.6 V",
-          "Slave transmitter mode, 2.7 V ≤ DD ≤ 3.6 V",
+          "Slave transmitter mode, 2.7 V ≤ VDD ≤ 3.6 V",
+          "Slave transmitter mode, 2.7 V ≤ VDD ≤ 3.6 V",
           "-",
           "-",
           "30",
@@ -13896,6 +13527,14 @@
           "ns"
         ],
         [
+          "td(TXEN)",
+          "Transmit enable valid delay time",
+          "7.5",
+          "9.5",
+          "14",
+          "ns"
+        ],
+        [
           "td(TXD)",
           "Transmit data valid delay time",
           "7.5",
@@ -14129,7 +13768,7 @@
           "MHz"
         ],
         [
-          "tisu(SWDIO)",
+          "tsu(SWDIO)",
           "SWDIO input setup time",
           "3",
           "-",
@@ -14137,7 +13776,7 @@
           "ns"
         ],
         [
-          "tih(SWDIO)",
+          "th(SWDIO)",
           "SWDIO input hold time",
           "0.5",
           "-",
@@ -14746,6 +14385,42 @@
       ],
       "rows": [
         [
+          "A",
+          "-",
+          "-",
+          "1.60",
+          "-",
+          "-",
+          "0.0630"
+        ],
+        [
+          "A1(12.)",
+          "0.05",
+          "-",
+          "0.15",
+          "0.0020",
+          "-",
+          "0.0059"
+        ],
+        [
+          "A2",
+          "1.35",
+          "1.40",
+          "1.45",
+          "0.0531",
+          "0.0551",
+          "0.0571"
+        ],
+        [
+          "b(9.)(11.)",
+          "0.17",
+          "0.22",
+          "0.27",
+          "0.0067",
+          "0.0087",
+          "0.0106"
+        ],
+        [
           "b1(11.)",
           "0.17",
           "0.20",
@@ -14753,6 +14428,24 @@
           "0.0067",
           "0.0079",
           "0.0090"
+        ],
+        [
+          "c(11.)",
+          "0.09",
+          "-",
+          "0.20",
+          "0.0035",
+          "-",
+          "0.0079"
+        ],
+        [
+          "c1(11.)",
+          "0.09",
+          "-",
+          "0.16",
+          "0.0035",
+          "-",
+          "0.0063"
         ],
         [
           "D(4.)",
@@ -14800,6 +14493,24 @@
           "0.1970 BSC"
         ],
         [
+          "L",
+          "0.45",
+          "0.60",
+          "0.75",
+          "0.0177",
+          "0.0236",
+          "0.0295"
+        ],
+        [
+          "L1",
+          "1.00 REF",
+          "1.00 REF",
+          "1.00 REF",
+          "0.0394 REF",
+          "0.0394 REF",
+          "0.0394 REF"
+        ],
+        [
           "N(13.)",
           "48",
           "48",
@@ -14845,6 +14556,33 @@
           "14°"
         ],
         [
+          "R1",
+          "0.08",
+          "-",
+          "-",
+          "0.0031",
+          "-",
+          "-"
+        ],
+        [
+          "R2",
+          "0.08",
+          "-",
+          "0.20",
+          "0.0031",
+          "-",
+          "0.0079"
+        ],
+        [
+          "S",
+          "0.20",
+          "-",
+          "-",
+          "0.0079",
+          "-",
+          "-"
+        ],
+        [
           "aaa(1.)(7.)",
           "0.20",
           "0.20",
@@ -14886,11 +14624,11 @@
         "2. The Top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
         "3. Datums A-B and D to be determined at datum plane H.",
         "4. To be determined at seating datum plane C.",
-        "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size dimensions including mold mismatch.",
+        "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is \"0.25 mm\" per side. D1 and E1 are Maximum plastic body size dimensions including mold mismatch.",
         "6. Details of pin 1 identifier are optional but must be located within the zone indicated.",
         "7. All Dimensions are in millimeters.",
         "8. No intrusion allowed inwards the leads.",
-        "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm. Dambar cannot be located on the lower radius"
+        "9. Dimension \"b\" does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum \"b\" dimension by more than 0.08 mm. Dambar cannot be located on the lower radius"
       ],
       "legend": "",
       "semantic_type": "",
@@ -14910,12 +14648,13 @@
     "tags": [],
     "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=124",
     "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
-    "text_helper": "Table 82. UFQFPN48 - Mechanical data. — section 1.2 REF. Symbol, Millimeters / Min, Millimeters / Typ Max, Inches (1) / Min, Inches (1) / Typ, +1 autres.",
+    "text_helper": "Table 82. UFQFPN48 - Mechanical data. — section 1.2 REF. Symbol, Millimeters / Min, Millimeters / Typ, Millimeters / Max, Inches (1) / Min, +2 autres.",
     "table_content": {
       "headers": [
         "Symbol",
         "Millimeters / Min",
-        "Millimeters / Typ Max",
+        "Millimeters / Typ",
+        "Millimeters / Max",
         "Inches (1) / Min",
         "Inches (1) / Typ",
         "Inches (1) / Max"
@@ -14924,7 +14663,8 @@
         [
           "A",
           "0.50",
-          "0.55 0.60",
+          "0.55",
+          "0.60",
           "0.0197",
           "0.0217",
           "0.0236"
@@ -14932,7 +14672,8 @@
         [
           "A1",
           "0.00",
-          "- 0.05",
+          "-",
+          "0.05",
           "0.0000",
           "-",
           "0.0020"
@@ -14940,13 +14681,15 @@
         [
           "b",
           "0.18",
-          "0.25 0.30",
+          "0.25",
+          "0.30",
           "0.0071",
           "0.0098",
           "0.0118"
         ],
         [
           "D(2)",
+          "7.00 BSC",
           "7.00 BSC",
           "7.00 BSC",
           "0.2756 BSC",
@@ -14956,13 +14699,15 @@
         [
           "D2(3)",
           "5.50",
-          "5.60 5.70",
+          "5.60",
+          "5.70",
           "0.2165",
           "0.2205",
           "0.2244"
         ],
         [
           "E(2)",
+          "7.00 BSC",
           "7.00 BSC",
           "7.00 BSC",
           "0.2756 BSC",
@@ -14972,13 +14717,15 @@
         [
           "E2(3)",
           "5.50",
-          "5.60 5.70",
+          "5.60",
+          "5.70",
           "0.2165",
           "0.2205",
           "0.2244"
         ],
         [
           "e",
+          "0.50 BSC",
           "0.50 BSC",
           "0.50 BSC",
           "0.0197 BSC",
@@ -14991,12 +14738,14 @@
           "48",
           "48",
           "48",
+          "48",
           "48"
         ],
         [
           "L",
           "0.30",
-          "- 0.50",
+          "-",
+          "0.50",
           "0.0118",
           "-",
           "0.0197"
@@ -15004,13 +14753,15 @@
         [
           "R",
           "0.10",
-          "- -",
+          "-",
+          "-",
           "0.0039",
           "-",
           "-"
         ],
         [
           "aaa",
+          "0.15",
           "0.15",
           "0.15",
           "0.0059",
@@ -15021,12 +14772,14 @@
           "bbb",
           "0.10",
           "0.10",
+          "0.10",
           "0.0039",
           "0.0039",
           "0.0039"
         ],
         [
           "ccc",
+          "0.10",
           "0.10",
           "0.10",
           "0.0039",
@@ -15037,6 +14790,7 @@
           "ddd",
           "0.05",
           "0.05",
+          "0.05",
           "0.0020",
           "0.0020",
           "0.0020"
@@ -15045,12 +14799,14 @@
           "eee",
           "0.08",
           "0.08",
+          "0.08",
           "0.0031",
           "0.0031",
           "0.0031"
         ],
         [
           "fff",
+          "0.10",
           "0.10",
           "0.10",
           "0.0039",
@@ -15094,6 +14850,69 @@
       ],
       "rows": [
         [
+          "A",
+          "-",
+          "-",
+          "1.60",
+          "-",
+          "-",
+          "0.0630"
+        ],
+        [
+          "A1(12.)",
+          "0.05",
+          "-",
+          "0.15",
+          "0.0020",
+          "-",
+          "0.0059"
+        ],
+        [
+          "A2",
+          "1.35",
+          "1.40",
+          "1.45",
+          "0.0531",
+          "0.0551",
+          "0.0571"
+        ],
+        [
+          "b(9.)(11.)",
+          "0.17",
+          "0.22",
+          "0.27",
+          "0.0067",
+          "0.0087",
+          "0.0106"
+        ],
+        [
+          "b1(11.)",
+          "0.17",
+          "0.20",
+          "0.23",
+          "00067",
+          "0.0079",
+          "0.0091"
+        ],
+        [
+          "c(11.)",
+          "0.09",
+          "-",
+          "0.20",
+          "0.0035",
+          "-",
+          "0.0079"
+        ],
+        [
+          "c1(11.)",
+          "0.09",
+          "-",
+          "0.16",
+          "0.0035",
+          "-",
+          "0.0063"
+        ],
+        [
           "D(4.)",
           "12.00 BSC",
           "12.00 BSC",
@@ -15128,6 +14947,24 @@
           "0.3937 BSC",
           "0.3937 BSC",
           "0.3937 BSC"
+        ],
+        [
+          "e",
+          "0.50 BSC",
+          "0.50 BSC",
+          "0.50 BSC",
+          "0.0197 BSC",
+          "0.0197 BSC",
+          "0.0197 BSC"
+        ],
+        [
+          "L",
+          "0.45",
+          "0.60",
+          "0.75",
+          "0.0177",
+          "0.0236",
+          "0.0295"
         ],
         [
           "L1",
@@ -15146,216 +14983,69 @@
           "64",
           "64",
           "64"
-        ]
-      ],
-      "notes": [
-        "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
-        "2. The top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
-        "3. Datums A-B and D to be determined at datum plane H.",
-        "4. To be determined at seating datum plane C.",
-        "5. Dimensions D1and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size dimensions including mold mismatch.",
-        "6. Details of pin 1 identifier are optional but must be located within the zone indicated.",
-        "7. All dimensions are in millimeters.",
-        "8. No intrusion allowed inwards the leads.",
-        "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm. Dambar cannot be located on the lower radius"
-      ],
-      "legend": "",
-      "semantic_type": "",
-      "semantic": {}
-    }
-  },
-  {
-    "table_id": "table_84",
-    "document": "DS15137 Rev 2 - Table 84. LQFP80 - Mechanical data",
-    "rev": "Rev 2",
-    "table_number": "84",
-    "title": "Table 84. LQFP80 - Mechanical data",
-    "page": 129,
-    "section": "1.2 REF",
-    "section_title": "REF",
-    "semantic_type": "",
-    "tags": [],
-    "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=129",
-    "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
-    "text_helper": "Table 84. LQFP80 - Mechanical data — section 1.2 REF. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(14.) / Min, +2 autres.",
-    "table_content": {
-      "headers": [
-        "Symbol",
-        "millimeters / Min",
-        "millimeters / Typ",
-        "millimeters / Max",
-        "inches(14.) / Min",
-        "inches(14.) / Typ",
-        "inches(14.) / Max"
-      ],
-      "rows": [
+        ],
         [
-          "b1(11.)",
-          "0.17",
+          "Θ",
+          "0°",
+          "3.5°",
+          "7°",
+          "0°",
+          "3.5°",
+          "7°"
+        ],
+        [
+          "Θ1",
+          "0°",
+          "-",
+          "-",
+          "0°",
+          "-",
+          "-"
+        ],
+        [
+          "Θ2",
+          "10°",
+          "12°",
+          "14°",
+          "10°",
+          "12°",
+          "14°"
+        ],
+        [
+          "Θ3",
+          "10°",
+          "12°",
+          "14°",
+          "10°",
+          "12°",
+          "14°"
+        ],
+        [
+          "R1",
+          "0.08",
+          "-",
+          "-",
+          "0.0031",
+          "-",
+          "-"
+        ],
+        [
+          "R2",
+          "0.08",
+          "-",
           "0.20",
-          "0.23",
-          "00067",
+          "0.0031",
+          "-",
+          "0.0079"
+        ],
+        [
+          "S",
+          "0.20",
+          "-",
+          "-",
           "0.0079",
-          "0.0091"
-        ],
-        [
-          "D(4.)",
-          "14.00 BSC",
-          "14.00 BSC",
-          "14.00 BSC",
-          "0.5512 BSC",
-          "0.5512 BSC",
-          "0.5512 BSC"
-        ],
-        [
-          "D1(2.)(5.)",
-          "12.00 BSC",
-          "12.00 BSC",
-          "12.00 BSC",
-          "0.4724 BSC",
-          "0.4724 BSC",
-          "0.4724 BSC"
-        ],
-        [
-          "E(4.)",
-          "14.00 BSC",
-          "14.00 BSC",
-          "14.00 BSC",
-          "0.5512 BSC",
-          "0.5512 BSC",
-          "0.5512 BSC"
-        ],
-        [
-          "E1(2.)(5.)",
-          "12.00 BSC",
-          "12.00 BSC",
-          "12.00 BSC",
-          "0.4724 BSC",
-          "0.4724 BSC",
-          "0.4724 BSC"
-        ],
-        [
-          "L1",
           "-",
-          "1.00",
-          "-",
-          "-",
-          "0.0394",
           "-"
-        ],
-        [
-          "N(13.)",
-          "80",
-          "80",
-          "80",
-          "80",
-          "80",
-          "80"
-        ]
-      ],
-      "notes": [
-        "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
-        "2. The top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
-        "3. Datums A-B and D to be determined at datum plane H.",
-        "4. To be determined at seating datum plane C.",
-        "5. Dimensions D1and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size dimensions including mold mismatch.",
-        "6. Details of pin 1 identifier are optional but must be located within the zone indicated.",
-        "7. All dimensions are in millimeters.",
-        "8. No intrusion allowed inwards the leads.",
-        "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm. Dambar cannot be located on the lower radius"
-      ],
-      "legend": "",
-      "semantic_type": "",
-      "semantic": {}
-    }
-  },
-  {
-    "table_id": "table_85",
-    "document": "DS15137 Rev 2 - Table 85. LQFP100 - Mechanical data",
-    "rev": "Rev 2",
-    "table_number": "85",
-    "title": "Table 85. LQFP100 - Mechanical data",
-    "page": 132,
-    "section": "1.2 REF",
-    "section_title": "REF",
-    "semantic_type": "",
-    "tags": [],
-    "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=132",
-    "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
-    "text_helper": "Table 85. LQFP100 - Mechanical data — section 1.2 REF. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(14.) / Min, +2 autres.",
-    "table_content": {
-      "headers": [
-        "Symbol",
-        "millimeters / Min",
-        "millimeters / Typ",
-        "millimeters / Max",
-        "inches(14.) / Min",
-        "inches(14.) / Typ",
-        "inches(14.) / Max"
-      ],
-      "rows": [
-        [
-          "A",
-          "-",
-          "1.50",
-          "1.60",
-          "-",
-          "0.0590",
-          "0.0630"
-        ],
-        [
-          "D(4.)",
-          "16.00 BSC",
-          "16.00 BSC",
-          "16.00 BSC",
-          "0.6299 BSC",
-          "0.6299 BSC",
-          "0.6299 BSC"
-        ],
-        [
-          "D1(2.)(5.)",
-          "14.00 BSC",
-          "14.00 BSC",
-          "14.00 BSC",
-          "0.5512 BSC",
-          "0.5512 BSC",
-          "0.5512 BSC"
-        ],
-        [
-          "E(4.)",
-          "16.00 BSC",
-          "16.00 BSC",
-          "16.00 BSC",
-          "0.6299 BSC",
-          "0.6299 BSC",
-          "0.6299 BSC"
-        ],
-        [
-          "E1(2.)(5.)",
-          "14.00 BSC",
-          "14.00 BSC",
-          "14.00 BSC",
-          "0.5512 BSC",
-          "0.5512 BSC",
-          "0.5512 BSC"
-        ],
-        [
-          "L1(1.)(11.)",
-          "-",
-          "1.00",
-          "-",
-          "-",
-          "0.0394",
-          "-"
-        ],
-        [
-          "N(13.)",
-          "100",
-          "100",
-          "100",
-          "100",
-          "100",
-          "100"
         ],
         [
           "aaa(1.)",
@@ -15399,11 +15089,563 @@
         "2. The top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
         "3. Datums A-B and D to be determined at datum plane H.",
         "4. To be determined at seating datum plane C.",
-        "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are maximum plastic body size dimensions including mold mismatch.",
+        "5. Dimensions D1and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is \"0.25 mm\" per side. D1 and E1 are Maximum plastic body size dimensions including mold mismatch.",
+        "6. Details of pin 1 identifier are optional but must be located within the zone indicated.",
+        "7. All dimensions are in millimeters.",
+        "8. No intrusion allowed inwards the leads.",
+        "9. Dimension \"b\" does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum \"b\" dimension by more than 0.08 mm. Dambar cannot be located on the lower radius"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_84",
+    "document": "DS15137 Rev 2 - Table 84. LQFP80 - Mechanical data",
+    "rev": "Rev 2",
+    "table_number": "84",
+    "title": "Table 84. LQFP80 - Mechanical data",
+    "page": 129,
+    "section": "1.2 REF",
+    "section_title": "REF",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=129",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+    "text_helper": "Table 84. LQFP80 - Mechanical data — section 1.2 REF. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(14.) / Min, +2 autres.",
+    "table_content": {
+      "headers": [
+        "Symbol",
+        "millimeters / Min",
+        "millimeters / Typ",
+        "millimeters / Max",
+        "inches(14.) / Min",
+        "inches(14.) / Typ",
+        "inches(14.) / Max"
+      ],
+      "rows": [
+        [
+          "A",
+          "-",
+          "-",
+          "1.60",
+          "-",
+          "-",
+          "0.0630"
+        ],
+        [
+          "A1(12.)",
+          "0.05",
+          "-",
+          "0.15",
+          "0.0020",
+          "-",
+          "0.0059"
+        ],
+        [
+          "A2",
+          "1.35",
+          "1.40",
+          "1.45",
+          "0.0531",
+          "0.0551",
+          "0.0571"
+        ],
+        [
+          "b(9.)(11.)",
+          "0.17",
+          "0.22",
+          "0.27",
+          "0.0067",
+          "0.0087",
+          "0.0106"
+        ],
+        [
+          "b1(11.)",
+          "0.17",
+          "0.20",
+          "0.23",
+          "00067",
+          "0.0079",
+          "0.0091"
+        ],
+        [
+          "c(11.)",
+          "0.09",
+          "-",
+          "0.20",
+          "0.0035",
+          "-",
+          "0.0079"
+        ],
+        [
+          "c1(11.)",
+          "0.09",
+          "-",
+          "0.16",
+          "0.0035",
+          "-",
+          "0.0063"
+        ],
+        [
+          "D(4.)",
+          "14.00 BSC",
+          "14.00 BSC",
+          "14.00 BSC",
+          "0.5512 BSC",
+          "0.5512 BSC",
+          "0.5512 BSC"
+        ],
+        [
+          "D1(2.)(5.)",
+          "12.00 BSC",
+          "12.00 BSC",
+          "12.00 BSC",
+          "0.4724 BSC",
+          "0.4724 BSC",
+          "0.4724 BSC"
+        ],
+        [
+          "E(4.)",
+          "14.00 BSC",
+          "14.00 BSC",
+          "14.00 BSC",
+          "0.5512 BSC",
+          "0.5512 BSC",
+          "0.5512 BSC"
+        ],
+        [
+          "E1(2.)(5.)",
+          "12.00 BSC",
+          "12.00 BSC",
+          "12.00 BSC",
+          "0.4724 BSC",
+          "0.4724 BSC",
+          "0.4724 BSC"
+        ],
+        [
+          "e",
+          "0.50 BSC",
+          "0.50 BSC",
+          "0.50 BSC",
+          "0.0197 BSC",
+          "0.0197 BSC",
+          "0.0197 BSC"
+        ],
+        [
+          "L",
+          "0.45",
+          "0.60",
+          "0.75",
+          "0.0177",
+          "0.0236",
+          "0.0295"
+        ],
+        [
+          "L1",
+          "-",
+          "1.00",
+          "-",
+          "-",
+          "0.0394",
+          "-"
+        ],
+        [
+          "N(13.)",
+          "80",
+          "80",
+          "80",
+          "80",
+          "80",
+          "80"
+        ],
+        [
+          "Θ",
+          "0°",
+          "3.5°",
+          "7°",
+          "0°",
+          "3.5°",
+          "7°"
+        ],
+        [
+          "Θ1",
+          "0°",
+          "-",
+          "-",
+          "0°",
+          "-",
+          "-"
+        ],
+        [
+          "Θ2",
+          "10°",
+          "12°",
+          "14°",
+          "10°",
+          "12°",
+          "14°"
+        ],
+        [
+          "Θ3",
+          "10°",
+          "12°",
+          "14°",
+          "10°",
+          "12°",
+          "14°"
+        ],
+        [
+          "R1",
+          "0.08",
+          "-",
+          "-",
+          "0.0031",
+          "-",
+          "-"
+        ],
+        [
+          "R2",
+          "0.08",
+          "-",
+          "0.20",
+          "0.0031",
+          "-",
+          "0.0079"
+        ],
+        [
+          "S",
+          "0.20",
+          "-",
+          "-",
+          "0.0079",
+          "-",
+          "-"
+        ],
+        [
+          "aaa(1.)",
+          "0.20",
+          "0.20",
+          "0.20",
+          "0.0079",
+          "0.0079",
+          "0.0079"
+        ],
+        [
+          "bbb(1.)",
+          "0.20",
+          "0.20",
+          "0.20",
+          "0.0079",
+          "0.0079",
+          "0.0079"
+        ],
+        [
+          "ccc(1.)",
+          "0.08",
+          "0.08",
+          "0.08",
+          "0.0031",
+          "0.0031",
+          "0.0031"
+        ],
+        [
+          "ddd(1.)",
+          "0.08",
+          "0.08",
+          "0.08",
+          "0.0031",
+          "0.0031",
+          "0.0031"
+        ]
+      ],
+      "notes": [
+        "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+        "2. The top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+        "3. Datums A-B and D to be determined at datum plane H.",
+        "4. To be determined at seating datum plane C.",
+        "5. Dimensions D1and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is \"0.25 mm\" per side. D1 and E1 are Maximum plastic body size dimensions including mold mismatch.",
+        "6. Details of pin 1 identifier are optional but must be located within the zone indicated.",
+        "7. All dimensions are in millimeters.",
+        "8. No intrusion allowed inwards the leads.",
+        "9. Dimension \"b\" does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum \"b\" dimension by more than 0.08 mm. Dambar cannot be located on the lower radius"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_85",
+    "document": "DS15137 Rev 2 - Table 85. LQFP100 - Mechanical data",
+    "rev": "Rev 2",
+    "table_number": "85",
+    "title": "Table 85. LQFP100 - Mechanical data",
+    "page": 132,
+    "section": "1.2 REF",
+    "section_title": "REF",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=132",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+    "text_helper": "Table 85. LQFP100 - Mechanical data — section 1.2 REF. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(14.) / Min, +2 autres.",
+    "table_content": {
+      "headers": [
+        "Symbol",
+        "millimeters / Min",
+        "millimeters / Typ",
+        "millimeters / Max",
+        "inches(14.) / Min",
+        "inches(14.) / Typ",
+        "inches(14.) / Max"
+      ],
+      "rows": [
+        [
+          "A",
+          "-",
+          "1.50",
+          "1.60",
+          "-",
+          "0.0590",
+          "0.0630"
+        ],
+        [
+          "A1(12.)",
+          "0.05",
+          "-",
+          "0.15",
+          "0.0020",
+          "-",
+          "0.0059"
+        ],
+        [
+          "A2",
+          "1.35",
+          "1.40",
+          "1.45",
+          "0.0531",
+          "0.0551",
+          "0.0571"
+        ],
+        [
+          "b(9.)(11.)",
+          "0.17",
+          "0.22",
+          "0.27",
+          "0.0067",
+          "0.0087",
+          "0.0106"
+        ],
+        [
+          "b1(11.)",
+          "0.17",
+          "0.20",
+          "0.23",
+          "0.0067",
+          "0.0079",
+          "0.0090"
+        ],
+        [
+          "c(11.)",
+          "0.09",
+          "-",
+          "0.20",
+          "0.0035",
+          "-",
+          "0.0079"
+        ],
+        [
+          "c1(11.)",
+          "0.09",
+          "-",
+          "0.16",
+          "0.0035",
+          "-",
+          "0.0063"
+        ],
+        [
+          "D(4.)",
+          "16.00 BSC",
+          "16.00 BSC",
+          "16.00 BSC",
+          "0.6299 BSC",
+          "0.6299 BSC",
+          "0.6299 BSC"
+        ],
+        [
+          "D1(2.)(5.)",
+          "14.00 BSC",
+          "14.00 BSC",
+          "14.00 BSC",
+          "0.5512 BSC",
+          "0.5512 BSC",
+          "0.5512 BSC"
+        ],
+        [
+          "E(4.)",
+          "16.00 BSC",
+          "16.00 BSC",
+          "16.00 BSC",
+          "0.6299 BSC",
+          "0.6299 BSC",
+          "0.6299 BSC"
+        ],
+        [
+          "E1(2.)(5.)",
+          "14.00 BSC",
+          "14.00 BSC",
+          "14.00 BSC",
+          "0.5512 BSC",
+          "0.5512 BSC",
+          "0.5512 BSC"
+        ],
+        [
+          "e",
+          "0.50 BSC",
+          "0.50 BSC",
+          "0.50 BSC",
+          "0.0197 BSC",
+          "0.0197 BSC",
+          "0.0197 BSC"
+        ],
+        [
+          "L",
+          "0.45",
+          "0.60",
+          "0.75",
+          "0.0177",
+          "0.0236",
+          "0.0295"
+        ],
+        [
+          "L1(1.)(11.)",
+          "-",
+          "1.00",
+          "-",
+          "-",
+          "0.0394",
+          "-"
+        ],
+        [
+          "N(13.)",
+          "100",
+          "100",
+          "100",
+          "100",
+          "100",
+          "100"
+        ],
+        [
+          "Θ",
+          "0°",
+          "3.5°",
+          "7°",
+          "0°",
+          "3.5°",
+          "7°"
+        ],
+        [
+          "Θ1",
+          "0°",
+          "-",
+          "-",
+          "0°",
+          "-",
+          "-"
+        ],
+        [
+          "Θ2",
+          "10°",
+          "12°",
+          "14°",
+          "10°",
+          "12°",
+          "14°"
+        ],
+        [
+          "Θ3",
+          "10°",
+          "12°",
+          "14°",
+          "10°",
+          "12°",
+          "14°"
+        ],
+        [
+          "R1",
+          "0.08",
+          "-",
+          "-",
+          "0.0031",
+          "-",
+          "-"
+        ],
+        [
+          "R2",
+          "0.08",
+          "-",
+          "0.20",
+          "0.0031",
+          "-",
+          "0.0079"
+        ],
+        [
+          "S",
+          "0.20",
+          "-",
+          "-",
+          "0.0079",
+          "-",
+          "-"
+        ],
+        [
+          "aaa(1.)",
+          "0.20",
+          "0.20",
+          "0.20",
+          "0.0079",
+          "0.0079",
+          "0.0079"
+        ],
+        [
+          "bbb(1.)",
+          "0.20",
+          "0.20",
+          "0.20",
+          "0.0079",
+          "0.0079",
+          "0.0079"
+        ],
+        [
+          "ccc(1.)",
+          "0.08",
+          "0.08",
+          "0.08",
+          "0.0031",
+          "0.0031",
+          "0.0031"
+        ],
+        [
+          "ddd(1.)",
+          "0.08",
+          "0.08",
+          "0.08",
+          "0.0031",
+          "0.0031",
+          "0.0031"
+        ]
+      ],
+      "notes": [
+        "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+        "2. The top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+        "3. Datums A-B and D to be determined at datum plane H.",
+        "4. To be determined at seating datum plane C.",
+        "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is \"0.25 mm\" per side. D1 and E1 are maximum plastic body size dimensions including mold mismatch.",
         "6. Details of pin 1 identifier are optional but must be located within the zone indicated.",
         "7. All dimensions are in millimeters.",
         "8. No intrusion is allowed inwards the leads.",
-        "9. Dimension “b” does not include a dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm. Dambar cannot be located on the lower"
+        "9. Dimension \"b\" does not include a dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum \"b\" dimension by more than 0.08 mm. Dambar cannot be located on the lower"
       ],
       "legend": "",
       "semantic_type": "",

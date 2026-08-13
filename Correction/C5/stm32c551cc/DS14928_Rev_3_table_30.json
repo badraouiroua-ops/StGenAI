@@ -1,0 +1,14 @@
+{
+  "table_id": "table_30",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Lignes 10 à 12 supprimées car elles appartiennent au Tableau 32 situé sur la page 64."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    10,
+    11,
+    12
+  ]
+}

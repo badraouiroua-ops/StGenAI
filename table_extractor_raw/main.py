@@ -362,9 +362,22 @@ def process_pdf(pdf_path: Path, family: str, table_ids: list[int] | None = None)
                 table_capt_dir = capt_dir / f"tableau_{table_num}"
                 table_capt_dir.mkdir(parents=True, exist_ok=True)
                 for pg in merged_pages:
+                    # ── Screenshot PNG (150 dpi) ──
                     fz_page = doc_fitz[pg - 1]
                     pix = fz_page.get_pixmap(dpi=150)
                     pix.save(str(table_capt_dir / f"page_{pg}.png"))
+                    # ── Page extraite en PDF (page individuelle) ──
+                    try:
+                        import pypdf as _pypdf
+                        _reader = _pypdf.PdfReader(str(pdf_path))
+                        _writer = _pypdf.PdfWriter()
+                        if 1 <= pg <= len(_reader.pages):
+                            _writer.add_page(_reader.pages[pg - 1])
+                            _pdf_out = table_capt_dir / f"page_{pg}.pdf"
+                            with open(str(_pdf_out), "wb") as _f:
+                                _writer.write(_f)
+                    except Exception as _pdf_err:
+                        logger.warning(f"  Impossible d'extraire la page PDF {pg}: {_pdf_err}")
 
             all_tables_json.append(table_json)
 

@@ -1,0 +1,68 @@
+[
+  {
+    "table_file": "DS14927_Rev_2_table_53.json",
+    "table_id": "table_53",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Incohérence majeure de structure : le JSON extrait mélange la Table 53 (EXTI input characteristics) avec la seconde partie de la Table 54 (située page 83), tout en omettant complètement la première partie de la Table 54 (située page 82). Une révision manuelle ou une ré-extraction du document est nécessaire."
+    ]
+  },
+  {
+    "table_file": "DS14927_Rev_2_table_54.json",
+    "table_id": "table_54",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Table 54 spans across page 82 and page 83. The JSON extraction is incomplete (missing rows tSTAB, tOFF_CAL, tLATR, tS, tCONV, IDDA(ADC)) and rows 18-19 on page 83 have severely shifted columns due to subcolumn merging structure mismatches between pages."
+    ]
+  },
+  {
+    "table_file": "DS14927_Rev_2_table_55.json",
+    "table_id": "table_55",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "BOUCLIER-4: Annulation car au moins une correction avait une confiance < 80%."
+    ]
+  },
+  {
+    "table_file": "DS14927_Rev_2_table_56.json",
+    "table_id": "table_56",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Le JSON fusionne deux tableaux différents (Table 56 de la page 87 et Table 58 de la page 88) avec des nombres de colonnes incompatibles (6 colonnes vs 7 colonnes).",
+      "Décalage généralisé des colonnes à partir de la ligne 7 (Table 58) : les sous-conditions se retrouvent alignées dans la colonne 'Min', décalant l'ensemble des valeurs numériques.",
+      "Découpage erroné de la structure des blocs fusionnés (notamment pour IDDA(DAC) et IDDV(DAC)) entraînant la perte des symboles et la corruption des en-têtes/valeurs."
+    ]
+  },
+  {
+    "table_file": "DS14927_Rev_2_table_76.json",
+    "table_id": "table_76",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Plus de la moitié des lignes du tableau sont manquantes (A, A1, A2, b, c, c1, L, L1, R1, R2, S). De plus, les fusions de colonnes (valeurs centrées BSC, REF, et valeurs Typ uniques) ont été incorrectement dupliquées sur toutes les sous-colonnes."
+    ]
+  },
+  {
+    "table_file": "DS14927_Rev_2_table_77.json",
+    "table_id": "table_77",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Structure de colonnes incorrecte : le tableau physique comporte 7 colonnes (Symbol, Min, Typ, Max pour Millimeters, et Min, Typ, Max pour Inches), alors que l'extraction PDF n'a généré que 6 colonnes en fusionnant 'Typ' et 'Max' sous 'Millimeters'. Un examen/retraitement manuel est requis."
+    ]
+  },
+  {
+    "table_file": "DS14927_Rev_2_table_78.json",
+    "table_id": "table_78",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "La grande majorité des lignes du tableau (A, A1, A2, b, b1, c, c1, e, L, angles, R1, R2, S, aaa, bbb, ccc, ddd) sont manquantes dans le JSON extrait. De plus, les valeurs fusionnées horizontalement (BSC, REF, N) ont été dupliquées de manière incorrecte dans toutes les colonnes Min/Typ/Max. Une re-extraction complète ou une révision manuelle est nécessaire."
+    ]
+  },
+  {
+    "table_file": "DS14927_Rev_2_table_79.json",
+    "table_id": "table_79",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Extraction JSON très incomplète et décalée : au moins 18 lignes du tableau original sont manquantes (A1, A2, b, c, c1, e, L, Θ, Θ1, Θ2, Θ3, R1, R2, S, aaa, bbb, ccc, ddd) et les valeurs des cellules fusionnées (D, D1, E, E1, N) ont été dupliquées horizontalement sur plusieurs colonnes. Une révision manuelle est requise."
+    ]
+  }
+]

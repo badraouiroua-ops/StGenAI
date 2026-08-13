@@ -1,0 +1,95 @@
+{
+  "table_id": "table_80",
+  "document": "DS14928 Rev 3 - Table 80. Package thermal characteristics.",
+  "rev": "Rev 3",
+  "table_number": "80",
+  "title": "Table 80. Package thermal characteristics.",
+  "page": 121,
+  "section": "6.9 Package thermal characteristics",
+  "section_title": "Package thermal characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=121",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "text_helper": "Table 80. Package thermal characteristics. — section 6.9 Package thermal characteristics. Symbol, Definition, Parameter, Value / Junction-ambient ΘJA, Value / Junction-board ΘJB, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Definition",
+      "Parameter",
+      "Value / Junction-ambient ΘJA",
+      "Value / Junction-board ΘJB",
+      "Value / Junction-case ΘJC",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Θ",
+        "Thermal Resistance",
+        "LQFP100",
+        "39.2",
+        "25.1",
+        "11.4",
+        "°C/W"
+      ],
+      [
+        "Θ",
+        "Thermal Resistance",
+        "LQFP80",
+        "42.8",
+        "27.1",
+        "13.1",
+        "°C/W"
+      ],
+      [
+        "Θ",
+        "Thermal Resistance",
+        "LQFP64",
+        "44.3",
+        "26.6",
+        "13.5",
+        "°C/W"
+      ],
+      [
+        "Θ",
+        "Thermal Resistance",
+        "LQFP48",
+        "51.4",
+        "28.7",
+        "16.1",
+        "°C/W"
+      ],
+      [
+        "Θ",
+        "Thermal Resistance",
+        "LQFP32",
+        "51.4",
+        "28.7",
+        "16.1",
+        "°C/W"
+      ],
+      [
+        "Θ",
+        "Thermal Resistance",
+        "UFQFPN48",
+        "29.9",
+        "14.2",
+        "12",
+        "°C/W"
+      ],
+      [
+        "Θ",
+        "Thermal Resistance",
+        "UFQFPN32",
+        "40.4",
+        "22.3",
+        "20.5",
+        "°C/W"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "table_71",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Ligne 'td(TXEN)' manquante dans le JSON extrait, ajoutée à la position d'index 4."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 4,
+      "contenu": [
+        "td(TXEN)",
+        "Transmit enable valid delay time",
+        "7.5",
+        "9.5",
+        "14",
+        ""
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

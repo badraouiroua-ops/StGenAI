@@ -11,12 +11,12 @@
   "tags": [],
   "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=69",
   "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
-  "text_helper": "Table 29. Typical and maximum current consumption in Standby mode — section 5.3.6.4 Current consumption in Standby mode. Symbol, Parameter, RTC and LSE, Typ / 2.7 V, Typ / 3 V, +4 autres.",
+  "text_helper": "Table 29. Typical and maximum current consumption in Standby mode — section 5.3.6.4 Current consumption in Standby mode. Symbol, Parameter, RTC and LSE (1), Typ / 2.7 V, Typ / 3 V, +4 autres.",
   "table_content": {
     "headers": [
       "Symbol",
       "Parameter",
-      "RTC and LSE",
+      "RTC and LSE (1)",
       "Typ / 2.7 V",
       "Typ / 3 V",
       "Typ / 3.3 V",

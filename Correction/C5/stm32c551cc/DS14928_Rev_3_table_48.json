@@ -1,0 +1,35 @@
+{
+  "table_id": "table_48",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "VOL(2) | Output low-level voltage",
+      "row_index": 4,
+      "analyse_visuelle": "Correction de l'espace manquant entre 'VDD' et '≤' dans la formule de condition.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "|IIO| = 20 mA, 2.7 V ≤ VDD≤ 3.6 V",
+          "nouvelle_valeur": "|IIO| = 20 mA, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VOH(2) | Output high-level voltage",
+      "row_index": 5,
+      "analyse_visuelle": "Correction de l'espace manquant entre 'VDD' et '≤' dans la formule de condition.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "|IIO| = -20 mA, 2.7 V ≤ VDD≤ 3.6 V",
+          "nouvelle_valeur": "|IIO| = -20 mA, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

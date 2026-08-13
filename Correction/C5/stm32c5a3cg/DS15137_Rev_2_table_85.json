@@ -1,0 +1,10 @@
+{
+  "table_id": "table_85",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Plus de la moitié des lignes du tableau sont manquantes dans le JSON (A1, A2, b, b1, c, c1, e, L, Θ, Θ1, Θ2, Θ3, R1, R2, S). De plus, les valeurs des cellules fusionnées ont été dupliquées à travers toutes les colonnes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

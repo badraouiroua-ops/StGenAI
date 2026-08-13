@@ -1,0 +1,93 @@
+{
+  "table_id": "table_24",
+  "document": "DS15125 Rev 2 - Table 24. Typical and maximum current consumption in Sleep mode",
+  "rev": "Rev 2",
+  "table_number": "24",
+  "title": "Table 24. Typical and maximum current consumption in Sleep mode",
+  "page": 54,
+  "section": "5.3.6.2 Current consumption in Sleep mode",
+  "section_title": "Current consumption in Sleep mode",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=54",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 24. Typical and maximum current consumption in Sleep mode — section 5.3.6.2 Current consumption in Sleep mode. Symbol, Parameter, Conditions, (MHz), Typ, +6 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "(MHz)",
+      "Typ",
+      "Max / TJ = 30°C",
+      "Max / TJ = 90°C",
+      "Max / TJ = 110°C",
+      "Max / TJ = 130°C",
+      "Max / TJ = 140°C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD(SLEEP)",
+        "Supply current in Sleep mode",
+        "All peripheral clocks disabled",
+        "144",
+        "2.00",
+        "2.15",
+        "3.40",
+        "4.95",
+        "6.45",
+        "8.15",
+        "mA"
+      ],
+      [
+        "IDD(SLEEP)",
+        "Supply current in Sleep mode",
+        "All peripheral clocks disabled",
+        "48",
+        "0.90",
+        "1.05",
+        "2.35",
+        "3.85",
+        "5.35",
+        "7.10",
+        "mA"
+      ],
+      [
+        "IDD(SLEEP)",
+        "Supply current in Sleep mode",
+        "All peripheral clocks enabled",
+        "144",
+        "12.50",
+        "11.00",
+        "12.00",
+        "13.50",
+        "15.00",
+        "16.50",
+        "mA"
+      ],
+      [
+        "IDD(SLEEP)",
+        "Supply current in Sleep mode",
+        "All peripheral clocks enabled",
+        "48",
+        "4.50",
+        "4.00",
+        "5.25",
+        "6.80",
+        "8.30",
+        "10.00",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. LSE is in bypass mode at 32.768 kHz. DS15125 - Rev 2 page 55/129"
+    ],
+    "legend": [
+      "Evaluated by characterization - Not tested in production.",
+      "Clocked by HSI at 144MHz of HSIDIV3 at 48MHz."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

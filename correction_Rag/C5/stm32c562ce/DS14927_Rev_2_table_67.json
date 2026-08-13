@@ -1,0 +1,215 @@
+{
+  "table_id": "table_67",
+  "document": "DS14927 Rev 2 - Table 67. SPI characteristics.",
+  "rev": "Rev 2",
+  "table_number": "67",
+  "title": "Table 67. SPI characteristics.",
+  "page": 95,
+  "section": "5.3.25 SPI characteristics",
+  "section_title": "SPI characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=95",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "text_helper": "Table 67. SPI characteristics. — section 5.3.25 SPI characteristics. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fSCK",
+        "SPI clock frequency",
+        "Master mode",
+        "Master mode",
+        "-",
+        "-",
+        "72",
+        "MHz"
+      ],
+      [
+        "fSCK",
+        "SPI clock frequency",
+        "Slave receiver mode",
+        "Slave receiver mode",
+        "-",
+        "-",
+        "100",
+        "MHz"
+      ],
+      [
+        "fSCK",
+        "SPI clock frequency",
+        "Slave mode transmitter/full duplex",
+        "Slave mode transmitter/full duplex",
+        "-",
+        "-",
+        "32",
+        "MHz"
+      ],
+      [
+        "tsu(NSS)",
+        "NSS setup time",
+        "Slave mode",
+        "Slave mode",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "th(NSS)",
+        "NSS hold time",
+        "Slave mode",
+        "Slave mode",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tw(SCKH), tw(SCKL)",
+        "SCK high and low time",
+        "Master mode",
+        "Master mode",
+        "TPLCK - 1",
+        "TPLCK",
+        "TPLCK + 1",
+        "ns"
+      ],
+      [
+        "tsu(MI)",
+        "Data input setup time",
+        "Master mode",
+        "DDRS = 0",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tsu(MI)",
+        "Data input setup time",
+        "Master mode",
+        "DDRS = 1",
+        "10-TSCK/2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tsu(SI)",
+        "Data input setup time",
+        "Slave mode",
+        "Slave mode",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "th(MI)",
+        "Data input hold time",
+        "Master mode",
+        "DDRS = 0",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "th(MI)",
+        "Data input hold time",
+        "Master mode",
+        "DDRS = 1",
+        "(TSCK/2)-7",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "th(SI)",
+        "Data input hold time",
+        "Slave mode",
+        "Slave mode",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "ta(SO)",
+        "Data output access time",
+        "Slave mode",
+        "Slave mode",
+        "12",
+        "13.5",
+        "15.5",
+        "ns"
+      ],
+      [
+        "tdis(SO)",
+        "Data output disable time",
+        "Slave mode",
+        "Slave mode",
+        "6.5",
+        "8.5",
+        "10.5",
+        "ns"
+      ],
+      [
+        "tv(SO)",
+        "Data output valid time",
+        "Slave mode",
+        "Slave mode",
+        "-",
+        "12",
+        "15.5",
+        "ns"
+      ],
+      [
+        "tv(SO)",
+        "Data output valid time",
+        "Master mode",
+        "Master mode",
+        "-",
+        "2",
+        "2.5",
+        "ns"
+      ],
+      [
+        "th(SO)",
+        "Data output hold time",
+        "Slave mode,",
+        "Slave mode,",
+        "8",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "th(MO)",
+        "Data output hold time",
+        "Master mode",
+        "Master mode",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "Evaluated by characterization - Not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

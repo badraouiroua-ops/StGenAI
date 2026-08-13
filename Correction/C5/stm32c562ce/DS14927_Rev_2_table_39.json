@@ -1,0 +1,10 @@
+{
+  "table_id": "table_39",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Ligne 1, colonne Typ (index 4) corrigée : la valeur '32' extraite par erreur a été supprimée car la case est vide sur l'image."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

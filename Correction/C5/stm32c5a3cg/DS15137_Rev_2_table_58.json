@@ -1,0 +1,10 @@
+{
+  "table_id": "table_58",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Grave problème de structure et d'extraction à la transition de page (page 95) : à partir de la ligne 17, les colonnes Min, Typ, Max et Unit sont complètement décalées et mélangées dans les sous-colonnes Conditions (ex: '3' et '10' placés dans Conditions, 'pF' et 'µs' répétés dans les bornes, Unit valant 'Ω'). De plus, de nombreuses lignes de la seconde partie de la Table 58 sont totalement manquantes (tSTAB, tOFF_CAL, tLATR, tS, tCONV, IDDA(ADC)). Une révision manuelle est indispensable."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

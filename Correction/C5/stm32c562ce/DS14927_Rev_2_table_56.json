@@ -1,0 +1,12 @@
+{
+  "table_id": "table_56",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Le JSON fusionne deux tableaux différents (Table 56 de la page 87 et Table 58 de la page 88) avec des nombres de colonnes incompatibles (6 colonnes vs 7 colonnes).",
+    "Décalage généralisé des colonnes à partir de la ligne 7 (Table 58) : les sous-conditions se retrouvent alignées dans la colonne 'Min', décalant l'ensemble des valeurs numériques.",
+    "Découpage erroné de la structure des blocs fusionnés (notamment pour IDDA(DAC) et IDDV(DAC)) entraînant la perte des symboles et la corruption des en-têtes/valeurs."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

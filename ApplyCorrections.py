@@ -21,7 +21,8 @@ Format attendu des fichiers de correction :
     }
   ],
   "lignes_en_trop_supprimees": [
-    { "row_index": 6 }
+    6,            ← entier direct (format LLM réel)
+    { "row_index": 6 }  ← OU objet (les deux formats sont acceptés)
   ],
   "lignes_manquantes_ajoutees": [
     { "row_index": 5, "contenu": ["a","b","c"] }
@@ -119,25 +120,35 @@ def apply_correction(original: dict, correction: dict) -> dict:
     # ── 1. Supprimer les lignes en trop (du plus grand index au plus petit) ──
     lignes_sup = correction.get('lignes_en_trop_supprimees', [])
     headers = result.get("table_content", {}).get("headers", [])
-    
+
     if lignes_sup:
-        indices_to_remove = sorted(
-            [entry['row_index'] for entry in lignes_sup if 'row_index' in entry],
-            reverse=True
-        )
+        # Accepter les deux formats :
+        #   - liste d'entiers :  [14, 27, 38]           (format réel LLM)
+        #   - liste d'objets  :  [{"row_index": 14}, …]  (format docstring)
+        raw_indices = []
+        for entry in lignes_sup:
+            if isinstance(entry, int):
+                raw_indices.append(entry)
+            elif isinstance(entry, dict) and 'row_index' in entry:
+                raw_indices.append(entry['row_index'])
+            # Ignorer les entrées invalides silencieusement
+
+        indices_to_remove = sorted(set(raw_indices), reverse=True)
+
         for idx in indices_to_remove:
             if 0 <= idx < len(rows):
                 row_to_delete = rows[idx]
-                
+
                 # SÉCURITÉ : Vérifier que c'est bien un en-tête répété
-                # On compte combien de cellules de la ligne correspondent exactement à un en-tête
+                # On accepte dès qu'au moins 1 cellule correspond à un en-tête connu
+                # (les headers de saut de page peuvent avoir peu de cellules visibles)
                 matches = sum(1 for cell in row_to_delete if cell and cell in headers)
-                
-                if matches >= 2:
+
+                if matches >= 1:
                     safe_print(f"  [DEL] Row {idx} removed (Header match: {matches})")
                     rows.pop(idx)
                 else:
-                    safe_print(f"  [DEL-REJECT] Row {idx} not removed: does not look like a header (matches={matches}). LLM hallucinated index!")
+                    safe_print(f"  [DEL-REJECT] Row {idx} not removed: does not look like a header (matches={matches}). Possible LLM hallucination.")
             else:
                 safe_print(f"  [WARN] Row index {idx} out of range (len={len(rows)})")
 
@@ -166,9 +177,8 @@ def apply_correction(original: dict, correction: dict) -> dict:
     erreurs = correction.get('erreurs_corrigees', [])
     for err_block in erreurs:
         row_idx = err_block.get('row_index')
-        if row_idx is None:
-            continue
         corrections_list = err_block.get('corrections', [])
+        
         for corr in corrections_list:
             col_idx = corr.get('colonne_index')
             new_val = corr.get('nouvelle_valeur')
@@ -177,8 +187,39 @@ def apply_correction(original: dict, correction: dict) -> dict:
             if col_idx is None or new_val is None:
                 continue
                 
-            # 1. Appliquer à la ligne ciblée
-            if row_idx is not None and 0 <= row_idx < len(rows):
+            # 1. Traitement des En-têtes (HEADER) si row_index est null/None
+            if row_idx is None:
+                # Récupérer la liste des headers (soit dans table_content, soit à la racine)
+                headers_list = result.get("table_content", {}).get("headers", [])
+                if not headers_list and "headers" in result:
+                    headers_list = result["headers"]
+                    
+                if headers_list and 0 <= col_idx < len(headers_list):
+                    old_val = headers_list[col_idx]
+                    
+                    # Log mismatch
+                    if original_val is not None and str(old_val).strip() != str(original_val).strip():
+                        safe_print(f"  [WARN-MISMATCH] HEADER Col {col_idx}: attendu '{original_val}', trouvé '{old_val}' (Force appliquée)")
+                        
+                    if old_val == "" and new_val != "":
+                        safe_print(f"  [SKIP] HEADER Col {col_idx}: case vide, on ne touche pas")
+                    else:
+                        headers_list[col_idx] = new_val
+                        safe_print(f"  [FIX-HEADER] Col {col_idx}: '{old_val}' -> '{new_val}'")
+                        
+                        # Mettre à jour aussi le text_helper si la chaîne s'y trouve
+                        if "text_helper" in result and isinstance(result["text_helper"], str):
+                            if old_val in result["text_helper"]:
+                                result["text_helper"] = result["text_helper"].replace(old_val, new_val)
+                                safe_print(f"  [FIX-HELPER] Remplacement de l'en-tête dans text_helper")
+                                
+                else:
+                    safe_print(f"  [WARN] HEADER Col {col_idx} out of range ou pas de headers")
+                    
+                continue # On passe à la correction suivante, on ne propage pas globalement un header
+                
+            # 2. Appliquer à la ligne ciblée (données)
+            if 0 <= row_idx < len(rows):
                 row = rows[row_idx]
                 if 0 <= col_idx < len(row):
                     old_val = row[col_idx]
@@ -255,10 +296,21 @@ def process_datasheet(family: str, ds: str, src_root: Path, corr_root: Path, out
 
             if corr_path and corr_path.is_file():
                 correction = load_json(corr_path)
-                if correction and correction.get('status') == 'ERRORS_FOUND':
-                    safe_print(f"\n[FIXING] {table_name}")
-                    merged = apply_correction(original, correction)
-                    stats['fixed'] += 1
+                if correction:
+                    status = correction.get('status')
+                    conf = correction.get('confirmation')
+                    
+                    if status == 'ERRORS_FOUND' or (status == 'MANUAL_REVIEW_NEEDED' and conf == 'OK'):
+                        safe_print(f"\n[FIXING] {table_name}")
+                        merged = apply_correction(original, correction)
+                        stats['fixed'] += 1
+                    elif status == 'MANUAL_REVIEW_NEEDED':
+                        safe_print(f"  [SKIP] {table_name}: MANUAL_REVIEW_NEEDED (Attente de 'confirmation': 'OK')")
+                        merged = original
+                        stats['ok'] += 1
+                    else:
+                        merged = original
+                        stats['ok'] += 1
                 else:
                     merged = original
                     stats['ok'] += 1

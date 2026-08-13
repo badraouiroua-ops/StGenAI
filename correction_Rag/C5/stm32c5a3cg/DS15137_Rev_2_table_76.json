@@ -31,7 +31,7 @@
         "MHz"
       ],
       [
-        "tisu(SWDIO)",
+        "tsu(SWDIO)",
         "SWDIO input setup time",
         "3",
         "-",
@@ -39,7 +39,7 @@
         "ns"
       ],
       [
-        "tih(SWDIO)",
+        "th(SWDIO)",
         "SWDIO input hold time",
         "0.5",
         "-",

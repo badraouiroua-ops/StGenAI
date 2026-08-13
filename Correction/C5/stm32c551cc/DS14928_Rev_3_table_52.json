@@ -1,0 +1,10 @@
+{
+  "table_id": "table_52",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "La structure de la table extraite est fortement corrompue : l'intégralité de la Table 53 située sur la page 81 (16 lignes) a été omise par l'outil d'extraction. Le JSON concatène la seule ligne de la Table 52 directement avec la seconde moitié de la Table 53 (page 82). Une révision manuelle est nécessaire pour traiter correctement cette table fragmentée."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

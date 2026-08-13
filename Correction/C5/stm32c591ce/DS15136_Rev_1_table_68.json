@@ -1,0 +1,47 @@
+{
+  "table_id": "table_68",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "fSCK | SPI clock frequency | Slave receiver mode",
+      "row_index": 1,
+      "analyse_visuelle": "Dans les colonnes Conditions pour la ligne 'Slave receiver mode', la formule de tension contient '2.7 V ≤ DD ≤ 3.6 V'. Visuellement sur la page 105, il s'agit de 'VDD' et la lettre 'V' a été omise par l'extraction OCR.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Slave receiver mode, 2.7 V ≤ DD ≤ 3.6 V",
+          "nouvelle_valeur": "Slave receiver mode, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Slave receiver mode, 2.7 V ≤ DD ≤ 3.6 V",
+          "nouvelle_valeur": "Slave receiver mode, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "fSCK | SPI clock frequency | Slave transmitter mode",
+      "row_index": 2,
+      "analyse_visuelle": "Même erreur sur la ligne 'Slave transmitter mode' : le 'V' de VDD est manquant dans la formule de condition de tension.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Slave transmitter mode, 2.7 V ≤ DD ≤ 3.6 V",
+          "nouvelle_valeur": "Slave transmitter mode, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Slave transmitter mode, 2.7 V ≤ DD ≤ 3.6 V",
+          "nouvelle_valeur": "Slave transmitter mode, 2.7 V ≤ VDD ≤ 3.6 V",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

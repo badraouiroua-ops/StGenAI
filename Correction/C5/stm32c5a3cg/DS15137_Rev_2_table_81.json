@@ -1,0 +1,10 @@
+{
+  "table_id": "table_81",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Tableau fortement incomplet et décalé : 11 lignes complètes sont manquantes (A, A1, A2, b, c, c1, L, L1, R1, R2, S). De plus, les valeurs des cellules fusionnées horizontalement (D, D1, E, E1, e, N, aaa, bbb, ccc, ddd) ont été dupliquées à travers toutes les colonnes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -26,7 +26,7 @@
       [
         "VESD(HBM)",
         "Electrostatic discharge voltage (human body model)",
-        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 001",
+        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
         "All",
         "2",
         "2000",
@@ -35,7 +35,7 @@
       [
         "VESD(CDM)",
         "Electrostatic discharge voltage (charge device model)",
-        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
         "LQFP 144",
         "C3",
         "750",
@@ -44,7 +44,7 @@
       [
         "VESD(CDM)",
         "Electrostatic discharge voltage (charge device model)",
-        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
         "LQFP 100",
         "C3",
         "750",
@@ -53,7 +53,7 @@
       [
         "VESD(CDM)",
         "Electrostatic discharge voltage (charge device model)",
-        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
         "LQFP 80",
         "C3",
         "750",
@@ -62,7 +62,7 @@
       [
         "VESD(CDM)",
         "Electrostatic discharge voltage (charge device model)",
-        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
         "LQFP 64",
         "C3",
         "750",
@@ -71,7 +71,7 @@
       [
         "VESD(CDM)",
         "Electrostatic discharge voltage (charge device model)",
-        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
         "LQFP 48",
         "C3",
         "750",
@@ -80,7 +80,7 @@
       [
         "VESD(CDM)",
         "Electrostatic discharge voltage (charge device model)",
-        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
         "LQFP 32",
         "C3",
         "750",
@@ -89,7 +89,7 @@
       [
         "VESD(CDM)",
         "Electrostatic discharge voltage (charge device model)",
-        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
         "UFQFPN 48",
         "C3",
         "750",
@@ -98,7 +98,7 @@
       [
         "VESD(CDM)",
         "Electrostatic discharge voltage (charge device model)",
-        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+        "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
         "UFQFPN 32",
         "C3",
         "750",

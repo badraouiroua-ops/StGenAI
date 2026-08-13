@@ -1,0 +1,11 @@
+{
+  "table_id": "table_77",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "L'extraction JSON est très incomplète : la grande majorité des lignes du tableau (21 lignes sur 27, incluant A, A1, A2, b, b1, c, c1, e, L, Θ, Θ1, Θ2, Θ3, R1, R2, S, aaa, bbb, ccc, ddd) sont manquantes.",
+    "De plus, les lignes extraites présentent une duplication horizontale erronée des valeurs dans les colonnes fusionnées (ex: '12.00 BSC' répété dans Min, Typ, Max)."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

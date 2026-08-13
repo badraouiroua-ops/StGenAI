@@ -1,0 +1,41 @@
+{
+  "table_id": "table_63",
+  "document": "DS14928 Rev 3 - Table 63. Open drain timing measurements.",
+  "rev": "Rev 3",
+  "table_number": "63",
+  "title": "Table 63. Open drain timing measurements.",
+  "page": 91,
+  "section": "5.3.21 Timer characteristics",
+  "section_title": "Timer characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=91",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "text_helper": "Table 63. Open drain timing measurements. — section 5.3.21 Timer characteristics. Symbol, Parameter, Conditions, Min, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tSU_OD",
+        "SDA data setup time in open drain mode",
+        "Controller 2.7 V ≤ VDDIOX ≤ 3.6 V",
+        "22(1)",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. The minimum SDA data setup time during open-drain-mode is 3 ns, as specified in the MIPI Alliance specification for I3C. DS14928 - Rev 3 page 91/132"
+    ],
+    "legend": [
+      "Evaluated by characterization - Not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

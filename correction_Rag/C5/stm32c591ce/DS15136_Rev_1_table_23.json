@@ -1,0 +1,116 @@
+{
+  "table_id": "table_23",
+  "document": "DS15136 Rev 1 - Table 23. Typical current consumption in Run mode with CoreMark running from flash memory and SRAM.",
+  "rev": "Rev 1",
+  "table_number": "23",
+  "title": "Table 23. Typical current consumption in Run mode with CoreMark running from flash memory and SRAM.",
+  "page": 66,
+  "section": "5.3.6.1 Current consumption in Run mode",
+  "section_title": "Current consumption in Run mode",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=66",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "text_helper": "Table 23. Typical current consumption in Run mode with CoreMark running from flash memory and SRAM. — section 5.3.6.1 Current consumption in Run mode. Symbol, Parameter, Conditions / Peripheral, SYSCLK / source, (MHz), +4 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions / Peripheral",
+      "SYSCLK / source",
+      "(MHz)",
+      "Typ",
+      "Unit",
+      "Typ / -",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode",
+        "All peripherals disabled, Instruction cache 2-WAY, Prefetch ON",
+        "PSI (2)",
+        "144",
+        "11.00",
+        "mA",
+        "78.00",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode",
+        "All peripherals disabled, Instruction cache 1-WAY, Prefetch ON",
+        "PSI (2)",
+        "144",
+        "9.95",
+        "mA",
+        "69.50",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode",
+        "All peripherals disabled, Instruction cache OFF, Prefetch ON",
+        "PSI (2)",
+        "144",
+        "11.50",
+        "mA",
+        "80.00",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode",
+        "All peripherals disabled, Instruction cache OFF, Prefetch OFF",
+        "PSI (2)",
+        "144",
+        "10.00",
+        "mA",
+        "69.50",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode",
+        "All peripherals disabled, SRAM2, Instruction cache 2-WAY, FLASH ON",
+        "PSI (2)",
+        "144",
+        "11.00",
+        "mA",
+        "75.00",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode",
+        "All peripherals disabled, SRAM2, Instruction cache 1-WAY, FLASH ON",
+        "PSI (2)",
+        "144",
+        "9.60",
+        "mA",
+        "66.50",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)(1)",
+        "Supply current in Run mode",
+        "All peripherals disabled, SRAM2, Instruction cache OFF, FLASH ON",
+        "PSI (2)",
+        "144",
+        "10.50",
+        "mA",
+        "71.50",
+        "µA/ MHz"
+      ]
+    ],
+    "notes": [
+      "1. Measurements done with prefetch enabled.",
+      "2. Clocked by PSI at 144 MHz with HSE at 16 MHz in bypass mode."
+    ],
+    "legend": [
+      "Specified by design - not tested in production, unless otherwise stated."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

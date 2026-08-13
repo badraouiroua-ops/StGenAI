@@ -1,0 +1,87 @@
+{
+  "table_id": "table_60",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "tSETTLING (±0.5 LSB)",
+      "row_index": 12,
+      "analyse_visuelle": "L'unité de la résistance de charge dans la colonne Conditions a été extraite comme 'kW' au lieu du symbole de l'ohm 'kΩ'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+          "nouvelle_valeur": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kΩ",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tSETTLING (±1 LSB)",
+      "row_index": 13,
+      "analyse_visuelle": "L'unité de la résistance de charge dans la colonne Conditions a été extraite comme 'kW' au lieu du symbole de l'ohm 'kΩ'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+          "nouvelle_valeur": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kΩ",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tSETTLING (±2 LSB)",
+      "row_index": 14,
+      "analyse_visuelle": "L'unité de la résistance de charge dans la colonne Conditions a été extraite comme 'kW' au lieu du symbole de l'ohm 'kΩ'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+          "nouvelle_valeur": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kΩ",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tSETTLING (±4 LSB)",
+      "row_index": 15,
+      "analyse_visuelle": "L'unité de la résistance de charge dans la colonne Conditions a été extraite comme 'kW' au lieu du symbole de l'ohm 'kΩ'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+          "nouvelle_valeur": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kΩ",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tSETTLING (±8 LSB)",
+      "row_index": 16,
+      "analyse_visuelle": "L'unité de la résistance de charge dans la colonne Conditions a été extraite comme 'kW' au lieu du symbole de l'ohm 'kΩ'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+          "nouvelle_valeur": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kΩ",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PSRR",
+      "row_index": 20,
+      "analyse_visuelle": "L'unité de la résistance de charge dans la colonne Conditions a été extraite comme 'kW' au lieu du symbole de l'ohm 'kΩ'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL = 5 kW",
+          "nouvelle_valeur": "Normal mode DAC output buffer ON CL ≤ 50 pF, RL = 5 kΩ",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

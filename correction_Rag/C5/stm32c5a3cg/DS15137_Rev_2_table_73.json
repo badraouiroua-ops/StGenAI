@@ -55,6 +55,14 @@
         "ns"
       ],
       [
+        "td(TXEN)",
+        "Transmit enable valid delay time",
+        "7.5",
+        "9.5",
+        "14",
+        "ns"
+      ],
+      [
         "td(TXD)",
         "Transmit data valid delay time",
         "7.5",

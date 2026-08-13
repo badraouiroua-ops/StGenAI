@@ -1,0 +1,22 @@
+{
+  "table_id": "table_46",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Ileak (3) FT_xx Input leakage current(2)",
+      "row_index": 5,
+      "analyse_visuelle": "Dans la colonne Max de cette ligne, l'image indique clairement '±200'. Le JSON extrait comportait un tiret parasite '±-200'.",
+      "corrections": [
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "±-200",
+          "nouvelle_valeur": "±200",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

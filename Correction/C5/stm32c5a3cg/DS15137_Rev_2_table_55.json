@@ -1,0 +1,35 @@
+{
+  "table_id": "table_55",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Les sous-lignes correspondant aux conditions 'DHQC = 0' pour Data output valid time et Data output hold time étaient manquantes suite à la coupure de page."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 7,
+      "contenu": [
+        "tvr(OUT) tvf(OUT)",
+        "Data output valid time",
+        "DHQC = 0",
+        "-",
+        "3.5",
+        "4.5",
+        "ns"
+      ]
+    },
+    {
+      "row_index": 9,
+      "contenu": [
+        "thr(OUT) thf(OUT)",
+        "Data output hold time",
+        "DHQC = 0",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

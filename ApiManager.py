@@ -13,6 +13,7 @@ Gestionnaire intelligent de clés API avec :
 import json
 import time
 import threading
+import random
 import os
 from pathlib import Path
 
@@ -23,7 +24,9 @@ API_LOG_DIR    = ROOT / "ApiLog"
 STATE_PATH     = API_LOG_DIR / "api_state.json"
 
 # ─── Durées de blocage ────────────────────────────────────────────────────────
-BLOCK_1MIN  = 60          # Rate-limit temporaire (429 RPM/TPM)
+BLOCK_1MIN  = 75          # Rate-limit temporaire 1er blocage (429 RPM/TPM)
+BLOCK_2MIN  = 150         # Backoff x2 après 2e blocage consécutif
+BLOCK_3MIN  = 240         # Backoff x3 après 3e+ blocages consécutifs
 BLOCK_24H   = 86400       # Quota journalier épuisé (429 RPD / Exhausted)
 
 # ─── Status ───────────────────────────────────────────────────────────────────
@@ -56,7 +59,7 @@ class ApiManager:
         self._pool_cursors = {name: 0 for name in self._pools}
         # ── Curseur Round-Robin pour les pools eux-mêmes
         self._pool_names   = list(self._pools.keys())
-        self._pool_cursor  = 0
+        self._pool_cursor  = self._state.get("pool_cursor", 0)
 
         self._save_state()
 
@@ -99,7 +102,7 @@ class ApiManager:
                 "tokens_in"    : 0,
                 "tokens_out"   : 0
             }
-        return {"keys_state": keys_state}
+        return {"keys_state": keys_state, "pool_cursor": 0}
 
     def _save_state(self):
         """Persist l'état sur disque (appelé sous lock)."""
@@ -144,39 +147,94 @@ class ApiManager:
     def get_key(self) -> tuple[str, int, str]:
         """
         Retourne (api_key, key_idx_0based, pool_name).
-        Fait une rotation inter-pools pour distribuer équitablement.
-        Si toutes les clés sont bloquées, attend jusqu'au prochain déblocage.
+        Stratégie "pool fixe" :
+          - On reste sur le même pool pendant tout le datasheet.
+          - On ne switch vers un autre pool que si le pool courant est totalement
+            saturé (toutes ses clés sont en BLOCKED_1M ou BLOCKED_24H).
+          - Limiteur de débit : max 4 requêtes par pool par tranche de 60s.
+          - Si toutes les clés de tous les pools sont bloquées, on attend.
         """
         with self._lock:
             nb_pools = len(self._pool_names)
-            attempts = 0
 
             while True:
-                # Essayer tous les pools en Round-Robin
-                for _ in range(nb_pools):
-                    pool_name = self._pool_names[self._pool_cursor % nb_pools]
-                    self._pool_cursor += 1
-                    idx = self._get_next_in_pool(pool_name)
+                # --- Essayer le pool courant en priorité ---
+                current_pool = self._pool_names[self._pool_cursor % nb_pools]
+                idx = self._get_next_in_pool_with_rate_limit(current_pool)
+
+                if idx is not None:
+                    self._state["keys_state"][str(idx)]["last_used"] = time.time()
+                    self._save_state()
+                    # Jitter léger pour étaler la charge (0 à 3s aléatoire)
+                    jitter = random.uniform(0, 3)
+                    self._lock.release()
+                    time.sleep(jitter)
+                    self._lock.acquire()
+                    return self._all_keys[idx], idx, current_pool
+
+                # Pool courant saturé → chercher un autre pool disponible
+                found = False
+                for attempt_pool in range(nb_pools):
+                    candidate = self._pool_names[(self._pool_cursor + attempt_pool + 1) % nb_pools]
+                    idx = self._get_next_in_pool_with_rate_limit(candidate)
                     if idx is not None:
-                        # Mettre à jour last_used
+                        # Switcher vers ce nouveau pool
+                        self._pool_cursor = self._pool_names.index(candidate)
+                        self._state["pool_cursor"] = self._pool_cursor
+                        print(f"  [ApiManager] Switch vers pool {candidate} (pool précédent saturé).")
                         self._state["keys_state"][str(idx)]["last_used"] = time.time()
                         self._save_state()
-                        return self._all_keys[idx], idx, pool_name
+                        # Jitter léger pour étaler la charge
+                        jitter = random.uniform(0, 3)
+                        self._lock.release()
+                        time.sleep(jitter)
+                        self._lock.acquire()
+                        return self._all_keys[idx], idx, candidate
 
-                # Toutes les clés bloquées → calculer le prochain déblocage
-                attempts += 1
-                next_unblock = min(
-                    self._state["keys_state"][str(i)]["unblock_time"]
+                # Tous les pools saturés → attendre le prochain déblocage
+                blocked = [
+                    self._state["keys_state"][str(i)]
                     for pool in self._pools.values() for i in pool
                     if self._state["keys_state"][str(i)]["status"] != STATUS_AVAILABLE
-                )
+                ]
+                if not blocked:
+                    # Bloqués uniquement par le rate-limiter → attendre 1s et réessayer
+                    self._lock.release()
+                    time.sleep(1)
+                    self._lock.acquire()
+                    continue
+
+                next_unblock = min(e["unblock_time"] for e in blocked)
                 wait = max(1, next_unblock - time.time())
-                print(f"  [ApiManager] Toutes les clés bloquées. Attente de {wait:.0f}s avant déblocage...")
+                print(f"  [ApiManager] Tous les pools saturés. Attente de {wait:.0f}s avant déblocage...")
                 self._save_state()
-                # Libérer le lock pendant l'attente pour ne pas bloquer les autres threads
                 self._lock.release()
                 time.sleep(wait)
                 self._lock.acquire()
+
+    def _get_next_in_pool_with_rate_limit(self, pool_name: str) -> int | None:
+        """
+        Retourne le prochain index de clé disponible dans le pool donné,
+        en respectant la limite de 4 requêtes par 60 secondes pour le pool entier.
+        Retourne None si le pool est saturé (clés bloquées ou quota RPM atteint).
+        """
+        pool_indices = self._pools[pool_name]
+        now = time.time()
+
+        # Compter les requêtes du pool dans les 60 dernières secondes
+        recent_requests = sum(
+            1 for i in pool_indices
+            if now - self._state["keys_state"][str(i)].get("last_used", 0) < 60
+            and self._state["keys_state"][str(i)].get("last_used", 0) > 0
+        )
+        if recent_requests >= 3:
+            return None  # Rate-limit interne : max 3 req/60s par pool
+
+        # Chercher une clé disponible dans le pool
+        available = [i for i in pool_indices if self._is_available(i)]
+        if not available:
+            return None
+        return min(available, key=lambda i: self._state["keys_state"][str(i)]["last_used"])
 
     def report_success(self, idx: int, tokens_in: int = 0, tokens_out: int = 0):
         """Enregistrer un appel réussi avec les tokens consommés."""
@@ -185,19 +243,34 @@ class ApiManager:
             entry["nb_used"]    += 1
             entry["tokens_in"]  += tokens_in
             entry["tokens_out"] += tokens_out
+            # Réinitialiser le compteur de rate-limits consécutifs après succès
+            entry["consecutive_rl"] = 0
             self._save_state()
 
-    def report_rate_limit(self, idx: int):
-        """429 RPM/TPM : bloquer 60 secondes."""
+    def report_rate_limit(self, idx: int, error_detail: str = ""):
+        """429 RPM/TPM : blocage avec backoff exponentiel selon le nombre d'erreurs consécutives."""
         with self._lock:
             entry = self._state["keys_state"][str(idx)]
-            entry["status"]       = STATUS_BLOCKED_1M
-            entry["unblock_time"] = time.time() + BLOCK_1MIN
-            entry["nb_errors"]   += 1
-            self._save_state()
-            print(f"  [ApiManager] Clé N°{idx+1} bloquée 60s (rate-limit).")
+            entry["nb_errors"] += 1
 
-    def report_exhausted(self, idx: int):
+            # Backoff exponentiel : plus la clé a d'erreurs, plus on attend longtemps
+            consec = entry.get("consecutive_rl", 0) + 1
+            entry["consecutive_rl"] = consec
+
+            if consec == 1:
+                block_duration = BLOCK_1MIN   # 75s
+            elif consec == 2:
+                block_duration = BLOCK_2MIN   # 150s
+            else:
+                block_duration = BLOCK_3MIN   # 240s
+
+            entry["status"]       = STATUS_BLOCKED_1M
+            entry["unblock_time"] = time.time() + block_duration
+            self._save_state()
+            detail_str = f" - {error_detail}" if error_detail else ""
+            print(f"  [ApiManager] Clé N°{idx+1} bloquée {block_duration}s (backoff x{consec}){detail_str}.")
+
+    def report_exhausted(self, idx: int, error_detail: str = ""):
         """Quota journalier épuisé : bloquer 24 heures."""
         with self._lock:
             entry = self._state["keys_state"][str(idx)]
@@ -205,11 +278,12 @@ class ApiManager:
             entry["unblock_time"] = time.time() + BLOCK_24H
             entry["nb_errors"]   += 1
             self._save_state()
-            print(f"  [ApiManager] Clé N°{idx+1} bloquée 24h (quota épuisé).")
+            detail_str = f" - {error_detail}" if error_detail else ""
+            print(f"  [ApiManager] Clé N°{idx+1} bloquée 24h (quota épuisé){detail_str}.")
 
-    def report_permanent_error(self, idx: int):
+    def report_permanent_error(self, idx: int, error_detail: str = ""):
         """Erreur permanente : bloquer 24h par sécurité."""
-        self.report_exhausted(idx)
+        self.report_exhausted(idx, error_detail)
 
     def print_summary(self):
         """Affiche un résumé de l'état de toutes les clés."""

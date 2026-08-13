@@ -1,0 +1,102 @@
+{
+  "table_id": "table_44",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Correction des espaces superflus après 'JS-' dans le code de norme (JS-001 et JS-002) sur l'ensemble des lignes."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "VESD(HBM)",
+      "row_index": 0,
+      "analyse_visuelle": "L'espace entre 'JS-' et '001' a été inséré à cause d'un retour à la ligne dans le PDF. Il faut réassocier 'JS-001'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 001",
+          "nouvelle_valeur": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VESD(CDM) - LQFP 64",
+      "row_index": 1,
+      "analyse_visuelle": "L'espace entre 'JS-' et '002' a été inséré à cause d'un retour à la ligne. Il faut réassocier 'JS-002'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "nouvelle_valeur": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VESD(CDM) - LQFP 48",
+      "row_index": 2,
+      "analyse_visuelle": "Correction de 'JS- 002' en 'JS-002'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "nouvelle_valeur": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VESD(CDM) - LQFP 32",
+      "row_index": 3,
+      "analyse_visuelle": "Correction de 'JS- 002' en 'JS-002'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "nouvelle_valeur": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VESD(CDM) - UFQFPN 48",
+      "row_index": 4,
+      "analyse_visuelle": "Correction de 'JS- 002' en 'JS-002'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "nouvelle_valeur": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VESD(CDM) - UFQFPN 32",
+      "row_index": 5,
+      "analyse_visuelle": "Correction de 'JS- 002' en 'JS-002'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "nouvelle_valeur": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VESD(CDM) - UFQFPN 24",
+      "row_index": 6,
+      "analyse_visuelle": "Correction de 'JS- 002' en 'JS-002'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+          "nouvelle_valeur": "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

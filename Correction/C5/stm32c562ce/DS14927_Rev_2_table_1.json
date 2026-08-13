@@ -1,0 +1,24 @@
+{
+  "table_id": "table_1",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Correction de la valeur RTC sous la colonne STM32C562RET (index 6) pour s'aligner avec la cellule fusionnée visuellement."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "RTC",
+      "row_index": 21,
+      "analyse_visuelle": "Sur l'image, pour la ligne RTC, la valeur sous les colonnes STM32C562RET (colonne 6) et STM32C562RETxJ (colonne 7) correspond à une seule cellule fusionnée contenant 'Yes (without LSE)'. Le JSON original affichait à tort 'Yes' dans la colonne 6.",
+      "corrections": [
+        {
+          "colonne_index": 6,
+          "valeur_originale_json": "Yes",
+          "nouvelle_valeur": "Yes (without LSE)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}
