@@ -1,0 +1,69 @@
+{
+  "table_id": "table_5",
+  "caption": "Table 5. DFP CC termination (Rp) requirements",
+  "page": 10,
+  "section": "4.2 Power capability detection and usage",
+  "pdf_type": 2,
+  "extraction_method": "pdfplumber",
+  "bbox": [
+    99.21260999999998,
+    215.05250999999998,
+    552.75591,
+    294.30493
+  ],
+  "page_width": 595.27563,
+  "page_height": 841.88977,
+  "settings": {
+    "vertical_strategy": "lines",
+    "horizontal_strategy": "lines",
+    "snap_tolerance": 5,
+    "join_tolerance": 5,
+    "edge_min_length": 5,
+    "min_words_vertical": 3,
+    "min_words_horizontal": 1,
+    "intersection_tolerance": 5,
+    "text_tolerance": 5
+  },
+  "caption_y": 208.47499000000005,
+  "caption_y_ratio": 0.248,
+  "caption_near_bottom": false,
+  "n_non_empty_raw": 4,
+  "should_try_next": false,
+  "raw_table": [
+    [
+      "VBUS power",
+      "Current source to\n1.7 V - 5.5 V",
+      "Rp pull up to\n4.75 V - 5.5 V",
+      "Rp pull up to\n3.3 V +/-5%"
+    ],
+    [
+      "Default USB power",
+      "80 mA ± 20%",
+      "56 kΩ ± 20% (1)",
+      "36 kΩ ± 20%"
+    ],
+    [
+      "1.5 A @5 V",
+      "180 mA ± 8%",
+      "22 kΩ ± 5%",
+      "12 kΩ ± 5%"
+    ],
+    [
+      "3.0 A @5 V",
+      "330 mA ± 8%",
+      "10 kΩ ± 5%",
+      "4.7 kΩ ± 5%"
+    ]
+  ],
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "nxt_attempt": null,
+  "page_text_first_1000": "AN5225\nPower capability detection and usage\n4.2 Power capability detection and usage\nType-C offers increased current capabilities of 1.5 A and 3 A in addition to the default USB standard.\nThe current supply capability of the port to the device depends on the Rp pull up resistor value on the DFP.\nHigh current (5 A) capability is negotiated using the USB Power Delivery protocol.\nTable 5 shows the possible values, as per [22].\nTable 5. DFP CC termination (Rp) requirements\nCurrent source to Rp pull up to Rp pull up to\nVBUS power\n1.7 V - 5.5 V 4.75 V - 5.5 V 3.3 V +/-5%\nDefault USB power 80 mA ± 20% 56 kΩ ± 20% (1) 36 kΩ ± 20%\n1.5 A @5 V 180 mA ± 8% 22 kΩ ± 5% 12 kΩ ± 5%\n3.0 A @5 V 330 mA ± 8% 10 kΩ ± 5% 4.7 kΩ ± 5%\n1. For Rp when implemented in the USB Type-C plug on a USB Type-C to USB 3.1 Standard-A Cable Assembly, a USB Type-\nC to USB 2.0 Standard-A Cable Assembly, a USB Type-C to USB 2.0 Micro-B Receptacle Adapter Assembly or a USB\nType-C captive cable connected to a USB host, a value ",
+  "pdf_path": "C:\\Users\\user\\Desktop\\rag1\\Input\\test_41\\AN5225.pdf",
+  "pdf_name": "AN5225",
+  "family": "test_41"
+}
