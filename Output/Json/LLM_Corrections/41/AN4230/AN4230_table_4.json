@@ -1,0 +1,22 @@
+{
+  "table_id": "table_4",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Headers",
+      "row_index": null,
+      "analyse_visuelle": "L'en-tête de la deuxième colonne a été extrait en miroir/inversé (RTL) : 'B09-008PS yportne ecruos etacifitrec' au lieu de 'SP800-90B entropy source certificate'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "B09-008PS yportne ecruos etacifitrec",
+          "nouvelle_valeur": "SP800-90B entropy source certificate",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

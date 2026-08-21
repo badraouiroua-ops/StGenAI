@@ -1,0 +1,43 @@
+{
+  "table_id": "table_8",
+  "document": "Table 8. Differences between mixed Tx buffer + Tx FIFO and mixed Tx buffer + Tx queue configurations",
+  "rev": null,
+  "table_number": "8",
+  "title": "Table 8. Differences between mixed Tx buffer + Tx FIFO and mixed Tx buffer + Tx queue configurations",
+  "page": 23,
+  "section": "4.3.3.2 Tx buffer section",
+  "section_title": "Tx buffer section",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=23",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+  "text_helper": "Table 8. Differences between mixed Tx buffer + Tx FIFO and mixed Tx buffer + Tx queue configurations — section 4.3.3.2 Tx buffer section. Feature, Mixed configuration: Tx buffer + Tx queue, Mixed configuration: Tx buffer + Tx FIFO.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "Mixed configuration: Tx buffer + Tx queue",
+      "Mixed configuration: Tx buffer + Tx FIFO"
+    ],
+    "rows": [
+      [
+        "Description",
+        "A combination of dedicated Tx buffers and Tx queue",
+        "A combination of dedicated Tx buffers and Tx FIFO"
+      ],
+      [
+        "Element to be sent first",
+        "Element with the lowest ID between all dedicated Tx buffers and Tx queue",
+        "Element with the lowest ID between all dedicated Tx buffers and oldest element in Tx"
+      ],
+      [
+        "Management of multiple elements with same ID",
+        "First request is sent first.",
+        "Order request FIFO"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

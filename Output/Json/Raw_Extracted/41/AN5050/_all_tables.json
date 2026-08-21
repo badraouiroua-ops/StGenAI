@@ -1,0 +1,927 @@
+[
+  {
+    "features": {
+      "pdf_name": "AN5050",
+      "family": "41",
+      "pdf_type": 1,
+      "doc_ref": null,
+      "revision": null,
+      "date": null,
+      "title": "on STM32 MCUs Introduction The growing demand for richer graphics, wider range of multimedia and other data-intensive",
+      "url_pdf": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+      "page": 1,
+      "core": null,
+      "fpu": false,
+      "max_frequency_mhz": null,
+      "flash_kb": null,
+      "ram_kb": null,
+      "voltage_min_v": null,
+      "voltage_max_v": null,
+      "operating_temp_c": [],
+      "packages": [
+        "LQFP48"
+      ],
+      "device_summary": null,
+      "extraction_meta": {
+        "source_pages": [
+          1,
+          2
+        ],
+        "extraction_method": "regex_type1",
+        "text_extraction_reliable": true,
+        "packages_source": "text",
+        "confidence": "medium",
+        "missing_fields": [
+          "core",
+          "max_frequency_mhz",
+          "flash_kb",
+          "ram_kb",
+          "voltage_min_v",
+          "voltage_max_v",
+          "operating_temp_c"
+        ],
+        "low_confidence_fields": []
+      }
+    }
+  },
+  {
+    "table_id": "table_1",
+    "caption": "Table 1. Applicable products",
+    "pdf_name": "AN5050",
+    "family": "41",
+    "page": 1,
+    "merged_pages": [
+      1
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=1",
+    "section": "General purpose / Overview",
+    "headers": [
+      "Type",
+      "Series or lines"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "STM32L4+ series, STM32L5 series, STM32U5 series, STM32H7A3/7B3, STM32H7B0 value line STM32H723/733, STM32H725/735, STM32H730 value line STM32H5 series, STM32H7R7/7S7, STM32H7R3/7S3 lines, STM32N6 series, STM32U3 series, STM32C5 series"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5050",
+      "table_id": "table_1",
+      "is_continued": false,
+      "pages": [
+        1
+      ],
+      "rows_count": 1,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_2",
+    "caption": "Table 2. OCTOSPI main features",
+    "pdf_name": "AN5050",
+    "family": "41",
+    "page": 8,
+    "merged_pages": [
+      8,
+      9
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=8",
+    "section": "2.1 OCTOSPI, HSPI, and XSPI main features",
+    "headers": [
+      "Feature",
+      "Feature",
+      "STM32L4R/Sxxx",
+      "STM32L4P5/Q5xx",
+      "STM32L5 series",
+      "STM32H5 series / /xx335/325/xx375/365 /xx265H23MTS xx355/345",
+      "STM32H5 series / STM32H5Ex/5Fx",
+      "xx3B7/3A7H23MTS xx0B7H23MTS",
+      "/xxx27H23MTS )1(xxx37",
+      "STM32U5 series / STM32U535/545xx",
+      "STM32U5 series / STM32U575/585xx",
+      "STM32U5 series / /xxx95U23MTS xxxA5",
+      "STM32U5 series / /xxxF5U23MTS xxxG5",
+      "STM32U3 series"
+    ],
+    "rows": [
+      [
+        "Number of instances",
+        "Number of instances",
+        "2",
+        "2",
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1",
+        "2",
+        "2",
+        "2",
+        "1"
+      ],
+      [
+        "Max OCTOSPI speed (MHz)(2)",
+        "Regular- command SDR mode",
+        "86",
+        "92",
+        "90",
+        "150",
+        "150",
+        "140",
+        "140",
+        "100",
+        "100",
+        "100",
+        "100",
+        "96"
+      ],
+      [
+        "Max OCTOSPI speed (MHz)(2)",
+        "Regular- command DTR mode with DQS HyperBus protocol with single- ended clock (3.3 V)",
+        "64 (3)",
+        "90",
+        "76",
+        "125",
+        "125",
+        "120 (4)",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "48"
+      ],
+      [
+        "Max OCTOSPI speed (MHz)(2)",
+        "HyperBus protocol with differential clock (1.8 V)",
+        "N/A",
+        "66",
+        "58",
+        "125",
+        "125",
+        "120 (4)",
+        "100(4)",
+        "93",
+        "93",
+        "93",
+        "93",
+        "48"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 14,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 14,
+      "continuation": {
+        "base_cols": 14,
+        "cont_cols_raw": 14,
+        "target_cols": 14,
+        "base_has_dup_headers": true,
+        "dup_positions": [
+          1
+        ],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      },
+      "_notes": [
+        "2. For the maximum frequency reached, refer to each product datasheet.",
+        "3. PSRAM memories are not supported.",
+        "4. Using PC2, PI11, PF0 or PF1 I/O in the data bus adds 3.5 ns to this timing value. For more details, refer to the specific product datasheet."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2",
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5050",
+      "table_id": "table_2",
+      "is_continued": true,
+      "pages": [
+        8,
+        9
+      ],
+      "rows_count": 4,
+      "cols_count": 14,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_3",
+    "caption": "Table 3. HSPI main features",
+    "pdf_name": "AN5050",
+    "family": "41",
+    "page": 9,
+    "merged_pages": [
+      9
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=9",
+    "section": "2.1 OCTOSPI, HSPI, and XSPI main features",
+    "headers": [
+      "Feature",
+      "Feature",
+      "STM32U59xxx/5Axxx STM32U5Fxxx/5Gxxx"
+    ],
+    "rows": [
+      [
+        "Number of instances",
+        "Number of instances",
+        "1"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "_notes": [
+        "1. XSPI is supported only on STM32C59xx/5Axx devices. Refer to the respective product datasheet to verify the supported SPI interface width: 8-bit or 16-bit."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5050",
+      "table_id": "table_3",
+      "is_continued": false,
+      "pages": [
+        9
+      ],
+      "rows_count": 1,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_4",
+    "caption": "Table 4. XSPI main features",
+    "pdf_name": "AN5050",
+    "family": "41",
+    "page": 10,
+    "merged_pages": [
+      10
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=10",
+    "section": "2.1 OCTOSPI, HSPI, and XSPI main features",
+    "headers": [
+      "Feature",
+      "Feature",
+      "STM32H7Rx/7Sx",
+      "STM32N6",
+      "STM32C5(1)"
+    ],
+    "rows": [
+      [
+        "Number of instances",
+        "Number of instances",
+        "2",
+        "3",
+        "1"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 5,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 5,
+      "_notes": [
+        "1. XSPI is supported only on STM32C59xx/5Axx devices. Refer to the respective product datasheet to verify the supported SPI interface width: 8-bit or 16-bit."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5050",
+      "table_id": "table_4",
+      "is_continued": false,
+      "pages": [
+        10
+      ],
+      "rows_count": 1,
+      "cols_count": 5,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_5",
+    "caption": "Table 5. Instances on STM32U5 series devices",
+    "pdf_name": "AN5050",
+    "family": "41",
+    "page": 13,
+    "merged_pages": [
+      13
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=13",
+    "section": "2.2 OCTOSPI, HSPI, and XSPI in a smart architecture",
+    "headers": [
+      "Devices",
+      "OCTOSPI1",
+      "OCTOSPI2",
+      "OCTOSPIM",
+      "HSPI1"
+    ],
+    "rows": [
+      [
+        "STM32U535/545",
+        "X",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32U575/585",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "STM32U59x/5Ax",
+        "X",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "STM32U5Fx/5Gx",
+        "X",
+        "X",
+        "X",
+        "X"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 5,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 5
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5050",
+      "table_id": "table_5",
+      "is_continued": false,
+      "pages": [
+        13
+      ],
+      "rows_count": 4,
+      "cols_count": 5,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_6",
+    "caption": "Table 6. STM32CubeMX - Memory connection port",
+    "pdf_name": "AN5050",
+    "family": "41",
+    "page": 48,
+    "merged_pages": [
+      48
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=48",
+    "section": "7.2.3 OCTOSPI GPIOs and clocks configuration",
+    "headers": [
+      "Memory",
+      "IPSOTCO O/I reganam trop"
+    ],
+    "rows": [
+      [
+        "Octo-SPI PSRAM AP Memory(1) APS6408L-30B-BA",
+        "Port 1"
+      ],
+      [
+        "Octo-SPI Macronix Flash(1) MX25LM51245GXDI00",
+        "Port 2"
+      ],
+      [
+        "HyperBus MCP Infineon memory(2) S71KL256SC0 Including both HyperRAM and HyperFlash",
+        "Multiplexed over Port 1: – OCTOSPIM_P1_NCS connected to HyperRAM – OCTOSPIM_P2_NCS connected to HyperFlash"
+      ],
+      [
+        "Quad-SPI PSRAM AP Memory(3) APS1604M-3SQR",
+        "Port 1"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2,
+      "_notes": [
+        "1. Already Available on STM32L4P5G-DK Discovery kit.",
+        "2. Soldered in U11 (see Figure 25).",
+        "3. Soldered in U14 (see Figure 25). Based on this hardware implementation, the user must configure all the GPIOs shown in"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5050",
+      "table_id": "table_6",
+      "is_continued": false,
+      "pages": [
+        48
+      ],
+      "rows_count": 4,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_7",
+    "caption": "Table 7. STM32CubeMX - Configuration of OCTOSPI signals and mode",
+    "pdf_name": "AN5050",
+    "family": "41",
+    "page": 49,
+    "merged_pages": [
+      49,
+      50
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=49",
+    "section": "7.2.3 OCTOSPI GPIOs and clocks configuration",
+    "headers": [
+      "Parameter",
+      "Memory / HyperBus MCP Infineon memory S71KL256SC0(1)",
+      "Memory / HyperBus MCP Infineon memory S71KL256SC0(1)",
+      "Memory / Octo-SPI PSRAM AP Memory APS6408L-30B -BA",
+      "Memory / Octo-SPI Flash Macronix MX25LM51245 GXDI00",
+      "Memory / Quad-SPI PSRAM AP Memory APS1604M -3SQR"
+    ],
+    "rows": [
+      [
+        "Mode",
+        "HyperBus --Multiplexed-",
+        "HyperBus --Multiplexed-",
+        "Octo-SPI",
+        "Octo-SPI",
+        "Quad-SPI"
+      ],
+      [
+        "Clock",
+        "Port 1 CLK --Multiplexed-",
+        "Port 1 CLK --Multiplexed-",
+        "Port 1 CLK",
+        "Port 2 CLK",
+        "Port 1 CLK"
+      ],
+      [
+        "HyperBus 1.8 inverted clock",
+        "Disable",
+        "Disable",
+        "Disable",
+        "Disable",
+        "Disable"
+      ],
+      [
+        "Chip select",
+        "Port 1 NCS",
+        "Port 2 NCS",
+        "Port 1 NCS",
+        "Port 2 NCS",
+        "Port 1 NCS"
+      ],
+      [
+        "Data strobe",
+        "Port 1 DQS (RWDS) --MULTIPLEXED-",
+        "Port 1 DQS (RWDS) --MULTIPLEXED-",
+        "Port 1 DQS (RWDS)",
+        "Port 2 DQS (RWDS)",
+        "Disable"
+      ],
+      [
+        "Data[3:0]",
+        "Port 1 IO[3:0] --MULTIPLEXED-",
+        "Port 1 IO[3:0] --MULTIPLEXED-",
+        "Port 1 IO[3:0]",
+        "Port 2 IO[3:0]",
+        "Port 1 IO[3:0]"
+      ],
+      [
+        "Data[7:4]",
+        "Port 1 IO[7:4] --MULTIPLEXED-",
+        "Port 1 IO[7:4] --MULTIPLEXED-",
+        "Port 1 IO[7:4]",
+        "Port 2 IO[7:4]",
+        "Disable"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 6,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 6,
+      "continuation": {
+        "base_cols": 6,
+        "cont_cols_raw": 6,
+        "target_cols": 6,
+        "base_has_dup_headers": true,
+        "dup_positions": [
+          2
+        ],
+        "b7_detected": true,
+        "b7_expanded": false,
+        "cont_pages": 2
+      },
+      "spanning_check": {
+        "header_has_dup": false,
+        "category_repeats": 0,
+        "likely_missing_span": false
+      },
+      "_notes": [
+        "1. Select the Pinout and Configuration tab and, under Connectivity, uncollapse the OCTOSPI1 or OCTOSPI2 as shown in the figure below, then configure it by referencing"
+      ],
+      "_dedup_rows_removed": 1,
+      "_dedup_removed_indices": [
+        0
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2",
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5050",
+      "table_id": "table_7",
+      "is_continued": true,
+      "pages": [
+        49,
+        50
+      ],
+      "rows_count": 7,
+      "cols_count": 6,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_8",
+    "caption": "Table 8. STM32CubeMX - Configuration of OCTOSPI parameters",
+    "pdf_name": "AN5050",
+    "family": "41",
+    "page": 54,
+    "merged_pages": [
+      54,
+      55
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=54",
+    "section": "7.2.4 OCTOSPI configuration and parameter settings",
+    "headers": [
+      "OCTOSPI parameter",
+      "Memory / HyperBus MCP Infineon memory S71KL256SC0",
+      "Memory / HyperBus MCP Infineon memory S71KL256SC0",
+      "Memory / Octal-SPI PSRAM AP Memory APS6408L-30B -BA",
+      "Memory / Octal-SPI Flash Macronix MX25LM51245 GXDI00",
+      "Memory / Quad-SPI PSRAM AP Memory APS1604M -3SQR"
+    ],
+    "rows": [
+      [
+        "Instance",
+        "OCTOSPI1",
+        "OCTOSPI2",
+        "OCTOSPI1",
+        "OCTOSPI2",
+        "OCTOSPI1"
+      ],
+      [
+        "Multiplexed",
+        "Multiplexed",
+        "Multiplexed",
+        "Multiplexed",
+        "Multiplexed",
+        "Multiplexed"
+      ],
+      [
+        "Switching duration clock number(1)",
+        "1",
+        "1",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      [
+        "Generic",
+        "Generic",
+        "Generic",
+        "Generic",
+        "Generic",
+        "Generic"
+      ],
+      [
+        "FIFO threshold",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "Dual mode",
+        "Disable",
+        "Disable",
+        "Disable",
+        "Disable",
+        "Disable"
+      ],
+      [
+        "Memory type",
+        "HyperBus",
+        "HyperBus",
+        "AP Memory",
+        "Macronix",
+        "Micron(2)"
+      ],
+      [
+        "Device Size(3)",
+        "23 (8 Mbytes)",
+        "25 (32 Mbytes)",
+        "23 (8 Mbytes)",
+        "26 (64 Mbytes)",
+        "21 (2 Mbytes)"
+      ],
+      [
+        "Chip select high time(4)",
+        "1",
+        "1",
+        "1",
+        "3",
+        "2"
+      ],
+      [
+        "Free running clock",
+        "Disable",
+        "Disable",
+        "Disable",
+        "Disable",
+        "Disable"
+      ],
+      [
+        "Clock mode",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low"
+      ],
+      [
+        "Clock prescaler(5)",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "Sample shifting(6)",
+        "No sample shifting",
+        "No sample shifting",
+        "No sample shifting",
+        "No sample shifting",
+        "Sample shifting half-cycle"
+      ],
+      [
+        "Delay hold quarter cycle(7)",
+        "Enable",
+        "Enable",
+        "Enable",
+        "Enable",
+        "Disable"
+      ],
+      [
+        "Chip select boundary(8)",
+        "0",
+        "0",
+        "10 (1 Kbyte)",
+        "0",
+        "0"
+      ],
+      [
+        "Delay block",
+        "Enable",
+        "Enable",
+        "Enable",
+        "Enable",
+        "Enable"
+      ],
+      [
+        "Maximum transfer",
+        "0",
+        "0",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      [
+        "Refresh rate(9)",
+        "241 (4 μs)",
+        "0",
+        "241 (4 μs)",
+        "0",
+        "482 (8 μs)"
+      ],
+      [
+        "HyperBus",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "RW recovery time(10)",
+        "3",
+        "3",
+        "N/A",
+        "N/A",
+        "N/A"
+      ],
+      [
+        "Access time(11)",
+        "6",
+        "6",
+        "6",
+        "6",
+        "6"
+      ],
+      [
+        "Write zero latency(12)",
+        "Enable",
+        "Enable",
+        "Enable",
+        "Enable",
+        "Enable"
+      ],
+      [
+        "Latency mode(13)",
+        "Fixed",
+        "Fixed",
+        "Fixed",
+        "Fixed",
+        "Fixed"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0362,
+    "col_count": 6,
+    "status": null,
+    "has_empty_cells": true,
+    "heuristics": {
+      "cols_extracted": 6,
+      "continuation": {
+        "base_cols": 6,
+        "cont_cols_raw": 6,
+        "target_cols": 6,
+        "base_has_dup_headers": true,
+        "dup_positions": [
+          2
+        ],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      },
+      "_notes": [
+        "1. In the OCTOSPI Configuration window, select the Parameter Settings tab as shown in the figure below and configure it by referencing to Table 8.",
+        "2. Configure the OCTOSPI parameters depending on the memory used.",
+        "3. Build and run the project: At this stage, the user can build, debug and run the project.",
+        "4. Chip select high time (CSHT) defines the chip-select minimum high time in number of clock cycles, configured depending on the memory datasheet.",
+        "5. The system clock prescaler (120MHz) / clock prescaler (2 MHz) = OCTOSPI clock frequency (60MHz).",
+        "6. Sample shifting (SSHT) recommended to be enabled in STR mode and disabled in DTR mode.",
+        "7. Delay hold quarter cycle (DHQC) enabled in DTR mode and disabled in STR mode.",
+        "8. Chip select boundary (CSBOUND) configured depending on the memory datasheet. The chip select must go high when crossing the page boundary (2CSBOUND bytes defines the page size).",
+        "9. Refresh rate (REFRESH) required for PSRAMs memories. The chip select must go high each (REFRESH x OCTOSPI clock cycles), configured depending on the memory datasheet.",
+        "10. Read/write recovery time (TRWR) define the device read/write recovery time, expressed in number of OCTOSPI clock cycle, configured depending on the memory datasheet.",
+        "11. Access time (TACC) is expressed in number of OCTOSPI clock cycles, configured depending on the memory datasheet.",
+        "12. Write zero latency enabled (WZL) defines the latency on write accesses.",
+        "13. The latency mode (LM) is configured to fixed latency, depending on the memory datasheet. AN5050 Rev 14 55/103"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2",
+      "multi_page_merged:2",
+      "has_empty_cells"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5050",
+      "table_id": "table_8",
+      "is_continued": true,
+      "pages": [
+        54,
+        55
+      ],
+      "rows_count": 23,
+      "cols_count": 6,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0362
+    }
+  },
+  {
+    "table_id": "table_9",
+    "caption": "Table 9. Document revision history",
+    "pdf_name": "AN5050",
+    "family": "41",
+    "page": 98,
+    "merged_pages": [
+      98
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=98",
+    "section": "12 Revision history",
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "20-Oct-2017",
+        "1",
+        "Initial release."
+      ],
+      [
+        "27-Apr-2018",
+        "2",
+        "Updated – Section 1: Overview of the OCTOSPI interface in the STM32 MCUs system architecture – Section 4.2.2: Use case description – Section 4.2.3: OCTOSPI GPIOs and clocks configuration – Section 5.2: Decreasing power consumption and all its subsections – Section : STM32CubeMX: project generation on page 35 – Section : STM32CubeMX: OCTOSPI2 peripheral configuration in HyperBus™ mode on page 46 – Section : STM32CubeMX: project generation on page 47 – Figure 10: Examples configuration: OCTOSPI1 set to regular-command mode and OCTOSPI2 set to HyperBus™ – Figure 25: OCTOSPI2 peripheral configuration in HyperBus™ mode – Table 2: OCTOSPI availability and features across STM32 families – Added: – Section 5: Performance and power – Section 5.1: How to get the best read performance – Section 5.1.1: Read performance – Section 6: Supported devices"
+      ],
+      [
+        "11-Oct-2019",
+        "3",
+        "Updated: – Doc title and Introduction – Section 1.1: OCTOSPI main features – Figure 1: STM32L4+ Series system architecture – Section 2.3.3: Memory-mapped mode Added STM32L5 series: – Section 1.2.2: STM32L5 Series system architecture – Section 3.1.1: Connecting two octal memories to one Octo-SPI interface – Section 5.2.1: STM32 low-power modes – Conclusion Removed Section 5.1.1: Read performance"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5050",
+      "table_id": "table_9",
+      "is_continued": false,
+      "pages": [
+        98
+      ],
+      "rows_count": 3,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  }
+]

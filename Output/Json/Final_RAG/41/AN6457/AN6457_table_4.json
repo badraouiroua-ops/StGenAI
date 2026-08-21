@@ -1,0 +1,37 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. ADC peripheral information",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. ADC peripheral information",
+  "page": 8,
+  "section": "3.2.1 Analog-to-digital converter ADC",
+  "section_title": "Analog-to-digital converter ADC",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=8",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 4. ADC peripheral information — section 3.2.1 Analog-to-digital converter ADC. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments / The ADC1/2/3 data register (ADC_DR) mu...",
+  "table_content": {
+    "headers": [
+      "Peripheral request to LPDMA",
+      "Peripheral bus",
+      "Peripheral FIFO (unit, size)",
+      "Peripheral register access",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "adcx_dma (x = 1, 2, 3)",
+        "AHB2",
+        "8-word FIFO",
+        "Read ADC_DR",
+        "The ADC1/2/3 data register (ADC_DR) must be read with a 32-bit aligned address, whatever the data width."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

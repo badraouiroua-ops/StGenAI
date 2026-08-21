@@ -1,0 +1,47 @@
+{
+  "table_id": "table_32",
+  "document": "Table 32. LPDMA read-plus-write transfer to SRAM latency",
+  "rev": null,
+  "table_number": "32",
+  "title": "Table 32. LPDMA read-plus-write transfer to SRAM latency",
+  "page": 24,
+  "section": "4.4.1 Transfer latency and execution time",
+  "section_title": "Transfer latency and execution time",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=24",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 32. LPDMA read-plus-write transfer to SRAM latency — section 4.4.1 Transfer latency and execution time. LPDMA1/2 transfers from and to SRAM1/2, Direct read-plus-write latency (cycles) (if no other manager accesses the same subordinate).",
+  "table_content": {
+    "headers": [
+      "LPDMA1/2 transfers from and to SRAM1/2",
+      "Direct read-plus-write latency (cycles) (if no other manager accesses the same subordinate)"
+    ],
+    "rows": [
+      [
+        "LPDMA1 <-> SRAM1",
+        "3"
+      ],
+      [
+        "LPDMA1 -> SRAM2",
+        "3"
+      ],
+      [
+        "LPDMA2 -> SRAM2",
+        "3"
+      ],
+      [
+        "SRAM1 -> LPDMA1 -> SRAM2",
+        "4"
+      ],
+      [
+        "SRAM1 -> LPDMA2 -> SRAM2",
+        "4"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

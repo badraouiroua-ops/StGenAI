@@ -1,0 +1,139 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. USART hardware automatic baud rate detection on STM32 series devices",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. USART hardware automatic baud rate detection on STM32 series devices",
+  "page": 3,
+  "section": "2.1 Feature overview",
+  "section_title": "Feature overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4908.pdf#page=3",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4908.pdf",
+  "text_helper": "Table 2. USART hardware automatic baud rate detection on STM32 series devices — section 2.1 Feature overview. Product ABR support, ABR support.",
+  "table_content": {
+    "headers": [
+      "Product ABR support",
+      "ABR support"
+    ],
+    "rows": [
+      [
+        "Mainstream",
+        "Mainstream"
+      ],
+      [
+        "STM32C0",
+        "Yes"
+      ],
+      [
+        "STM32C5",
+        "Yes"
+      ],
+      [
+        "STM32F0",
+        "Yes"
+      ],
+      [
+        "STM32F1",
+        "No"
+      ],
+      [
+        "STM32F3",
+        "Yes"
+      ],
+      [
+        "STM32G0",
+        "Yes"
+      ],
+      [
+        "STM32G4",
+        "Yes"
+      ],
+      [
+        "High performance",
+        "High performance"
+      ],
+      [
+        "STM32F2",
+        "No"
+      ],
+      [
+        "STM32F4",
+        "No"
+      ],
+      [
+        "STM32F7",
+        "Yes"
+      ],
+      [
+        "STM32H7",
+        "Yes"
+      ],
+      [
+        "STM32H5",
+        "Yes"
+      ],
+      [
+        "STM32N6",
+        "Yes"
+      ],
+      [
+        "Ultra-low power",
+        "Ultra-low power"
+      ],
+      [
+        "STM32L0",
+        "Yes"
+      ],
+      [
+        "STM32L1",
+        "No"
+      ],
+      [
+        "STM32L4",
+        "Yes"
+      ],
+      [
+        "STM32L5",
+        "Yes"
+      ],
+      [
+        "STM32U0",
+        "Yes"
+      ],
+      [
+        "STM32U3",
+        "Yes"
+      ],
+      [
+        "STM32U5",
+        "Yes"
+      ],
+      [
+        "Wireless",
+        "Wireless"
+      ],
+      [
+        "STM32WB0",
+        "Yes"
+      ],
+      [
+        "STM32WB",
+        "Yes"
+      ],
+      [
+        "STM32WBA",
+        "Yes"
+      ],
+      [
+        "STM32WL",
+        "Yes"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

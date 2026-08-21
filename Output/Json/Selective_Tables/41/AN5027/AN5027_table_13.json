@@ -1,0 +1,47 @@
+{
+  "table_id": "table_13",
+  "document": "Table 13. SAI clock configuration and accuracy",
+  "rev": null,
+  "table_number": "13",
+  "title": "Table 13. SAI clock configuration and accuracy",
+  "page": 49,
+  "section": "4.1.2 Adding PDM software decoding library middleware files",
+  "section_title": "Adding PDM software decoding library middleware files",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=49",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 13. SAI clock configuration and accuracy — section 4.1.2 Adding PDM software decoding library middleware files. Target Audio Freq (kHz), DivM, PLLN, DivR, SAI clock (MHz), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Target Audio Freq (kHz)",
+      "DivM",
+      "PLLN",
+      "DivR",
+      "SAI clock (MHz)",
+      "Accuracy (ppm)"
+    ],
+    "rows": [
+      [
+        "16",
+        "5",
+        "128",
+        "5",
+        "40.96",
+        "0"
+      ],
+      [
+        "48",
+        "5",
+        "192",
+        "25",
+        "12.29",
+        "0"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

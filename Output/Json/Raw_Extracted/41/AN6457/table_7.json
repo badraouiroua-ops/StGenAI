@@ -1,0 +1,49 @@
+{
+  "table_id": "table_7",
+  "caption": "Table 7. LPDMA programming for DAC",
+  "pdf_name": "AN6457",
+  "family": "41",
+  "page": 9,
+  "merged_pages": [
+    9
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=9",
+  "section": "3.2.2 Digital-to-analog converter DAC",
+  "headers": [
+    "LPDMA destination data width",
+    "Comments"
+  ],
+  "rows": [
+    [
+      "8-bit, 16-bit, or 32-bit",
+      "Depends on DAC settings."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Not applicable for STM32C5 AN6457 - Rev 1 page 9/32"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6457",
+    "table_id": "table_7",
+    "is_continued": false,
+    "pages": [
+      9
+    ],
+    "rows_count": 1,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

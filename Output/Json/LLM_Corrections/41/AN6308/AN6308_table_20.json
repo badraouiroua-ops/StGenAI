@@ -1,0 +1,44 @@
+{
+  "table_id": "table_20",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Programmable data order with MSB- first or LSB-first shifting",
+      "row_index": 12,
+      "analyse_visuelle": "Suppression de l'espace parasite après le tiret dans 'MSB-first'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Programmable data order with MSB- first or LSB-first shifting",
+          "nouvelle_valeur": "Programmable data order with MSB-first or LSB-first shifting",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Configurable behavior at slave- underrun condition",
+      "row_index": 18,
+      "analyse_visuelle": "Suppression de l'espace parasite après le tiret dans 'slave-underrun'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Configurable behavior at slave- underrun condition",
+          "nouvelle_valeur": "Configurable behavior at slave-underrun condition",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 11,
+      "contenu": [
+        "Configurable SS signal polarity and timing",
+        "Configurable SS signal polarity and timing, MISO x MOSI swap capability",
+        "Configurable SS signal polarity and timing, MISO x MOSI swap capability"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

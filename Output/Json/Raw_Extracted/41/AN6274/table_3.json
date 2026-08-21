@@ -1,0 +1,97 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. STM32C5 boot modes",
+  "pdf_name": "AN6274",
+  "family": "41",
+  "page": 13,
+  "merged_pages": [
+    13
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=13",
+  "section": "5.1 Boot mode selection",
+  "headers": [
+    "RPD_STATE",
+    "BOOT_SEL option bit",
+    "BOOT0 option bit",
+    "BOOT0 pin",
+    "EMPTY flag value(1)",
+    "Boot area"
+  ],
+  "rows": [
+    [
+      "Level 0",
+      "1",
+      "X",
+      "0",
+      "X",
+      "Boot address defined by user option byte BOOTADD[31:8]"
+    ],
+    [
+      "Level 0",
+      "1",
+      "X",
+      "1",
+      "X",
+      "Bootloader"
+    ],
+    [
+      "Level 0",
+      "0",
+      "0",
+      "X",
+      "0",
+      "Boot address defined by user option byte BOOTADD[31:8]"
+    ],
+    [
+      "Level 0",
+      "0",
+      "0",
+      "X",
+      "1",
+      "Bootloader"
+    ],
+    [
+      "Level 0",
+      "0",
+      "1",
+      "X",
+      "X",
+      "Bootloader"
+    ],
+    [
+      "Level 2 with boundary scan and level 2",
+      "X",
+      "X",
+      "X",
+      "X",
+      "Boot address defined by user option byte BOOTADD[31:8]"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. The boot address, defined by BOOTADD option byte, is considered empty only if the FLASH word is equal to 0xFFFF FFFF. In this case, at option byte loading, the EMPTY bit is set in FLASH_CR."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6274",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      13
+    ],
+    "rows_count": 6,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

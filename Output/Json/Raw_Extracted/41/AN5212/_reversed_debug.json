@@ -1,0 +1,288 @@
+{
+  "pdf_name": "AN5212",
+  "family": "41",
+  "tables_checked": 11,
+  "cells_checked": 31,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Microcontrollers",
+      "reversed": false,
+      "drift": -8.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32H5, STM32L5, STM32U3, STM32U5, STM32C5",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Internal",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FLASH",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "STM32H503",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 3,
+      "row": 0,
+      "original": "128 KB",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 4,
+      "row": 0,
+      "original": "ICACHE fast bus",
+      "reversed": false,
+      "drift": -7.93,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 5,
+      "row": 0,
+      "original": "0x0800 0000",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Cache size (Kbytes)",
+      "reversed": false,
+      "drift": -2.85,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "8(1)/32(2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "8(1)/32(2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Flash memory",
+      "reversed": false,
+      "drift": -6.1,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Yes or No",
+      "reversed": false,
+      "drift": -0.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Not required",
+      "reversed": false,
+      "drift": -6.3,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "ICACHE_SR",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 1,
+      "row": 0,
+      "original": "BUSYF",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Cache executing a full invalidate operation",
+      "reversed": false,
+      "drift": -21.92,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Read-only",
+      "reversed": false,
+      "drift": -4.57,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Read and write: noncacheable",
+      "reversed": false,
+      "drift": -14.65,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 0,
+      "row": 0,
+      "original": "GFXMMU",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 0,
+      "row": 0,
+      "original": "DCACHE_SR",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 1,
+      "row": 0,
+      "original": "BSYENDF",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Cache full invalidate operation ended",
+      "reversed": false,
+      "drift": -18.72,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Read-only",
+      "reversed": false,
+      "drift": -4.57,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Internal flash memory",
+      "reversed": false,
+      "drift": -10.44,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Internal SRAM",
+      "reversed": false,
+      "drift": 4.4,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Enabled (2-ways)",
+      "reversed": false,
+      "drift": -7.1,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Disabled",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Enabled (2-ways)",
+      "reversed": false,
+      "drift": -7.1,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 0,
+      "row": 0,
+      "original": "10-Oct-2019",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

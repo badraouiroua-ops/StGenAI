@@ -1,0 +1,185 @@
+{
+  "figure_id": "figure_6",
+  "document": "DS13867 Rev 4 - Figure 6. STM32C031KxU UFQFPN32 pinout",
+  "rev": "Rev 4",
+  "figure_number": "6",
+  "title": "Figure 6. STM32C031KxU UFQFPN32 pinout",
+  "page": 29,
+  "section": "Pinouts, pin description and alternate functions",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "pinout",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=29",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "UFQFPN32 pinout top view with exposed pad connected to VSS.",
+  "figure_content": {
+    "package_type": "UFQFPN32",
+    "pin_count": 32,
+    "view": "Top view",
+    "pins": [
+      {
+        "pin_number": "1",
+        "pin_name": "PB9",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "2",
+        "pin_name": "PC14-OSCX_IN",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "3",
+        "pin_name": "PC15-OSCX_OUT",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "4",
+        "pin_name": "VDD/VDDA",
+        "type": "Power"
+      },
+      {
+        "pin_number": "5",
+        "pin_name": "VSS/VSSA",
+        "type": "Ground"
+      },
+      {
+        "pin_number": "6",
+        "pin_name": "PF2-NRST",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "7",
+        "pin_name": "PA0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "8",
+        "pin_name": "PA1",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "9",
+        "pin_name": "PA2",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "10",
+        "pin_name": "PA3",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "11",
+        "pin_name": "PA4",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "12",
+        "pin_name": "PA5",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "13",
+        "pin_name": "PA6",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "14",
+        "pin_name": "PA7",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "15",
+        "pin_name": "PB0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "16",
+        "pin_name": "PB1",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "17",
+        "pin_name": "PB2",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "18",
+        "pin_name": "PA8",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "19",
+        "pin_name": "PA9",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "20",
+        "pin_name": "PC6",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "21",
+        "pin_name": "PA10",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "22",
+        "pin_name": "PA11 [PA9]",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "23",
+        "pin_name": "PA12 [PA10]",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "24",
+        "pin_name": "PA13",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "25",
+        "pin_name": "PA14-BOOT0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "26",
+        "pin_name": "PA15",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "27",
+        "pin_name": "PB3",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "28",
+        "pin_name": "PB4",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "29",
+        "pin_name": "PB5",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "30",
+        "pin_name": "PB6",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "31",
+        "pin_name": "PB7",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "32",
+        "pin_name": "PB8",
+        "type": "I/O"
+      }
+    ],
+    "notes": [
+      "Exposed pad connected to VSS"
+    ]
+  }
+}

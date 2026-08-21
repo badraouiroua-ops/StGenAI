@@ -1,0 +1,74 @@
+{
+  "table_id": "table_5",
+  "caption": "Table 5. STM32H533 boot modes when TrustZone® is disabled (TZEN=0xC3)",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 17,
+  "merged_pages": [
+    17
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=17",
+  "section": "5.1 Boot mode selection",
+  "headers": [
+    "PRODUCT_STATE",
+    "BOOT0 pin",
+    "BOOT_UBE FLASH_OPTSR[29:22]",
+    "Boot address option-byte selection",
+    "Boot area",
+    "STMicroelectronics default programmed value"
+  ],
+  "rows": [
+    [
+      "Open",
+      "0",
+      "NA",
+      "NSBOOTADD[31:8]",
+      "Boot address defined by user option byte NSBOOTADD[31:8]",
+      "Flash: 0x0800 0000"
+    ],
+    [
+      "Open",
+      "1",
+      "NA",
+      "NA",
+      "Bootloader",
+      "Bootloader"
+    ],
+    [
+      "Provisioned, closed, locked",
+      "x",
+      "NA",
+      "NSBOOTADD[31:8]",
+      "Boot address defined by user option byte NSBOOTADD[31:8]",
+      "Flash: 0x0800 0000"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_dedup_rows_removed": 1,
+    "_dedup_removed_indices": [
+      2
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_5",
+    "is_continued": false,
+    "pages": [
+      17
+    ],
+    "rows_count": 3,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

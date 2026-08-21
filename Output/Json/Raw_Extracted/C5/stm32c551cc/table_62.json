@@ -1,0 +1,106 @@
+{
+  "table_id": "table_62",
+  "caption": "Table 62. WWDG min/max timeout value at 144 MHz (PCLK)",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 91,
+  "merged_pages": [
+    91
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=91",
+  "section": "5.3.21 Timer characteristics",
+  "headers": [
+    "Prescaler",
+    "WDGTB",
+    "Min timeout values",
+    "Max timeout value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "1",
+      "0",
+      "0.0284",
+      "1.820",
+      "ms"
+    ],
+    [
+      "2",
+      "1",
+      "0.0569",
+      "3.641",
+      "ms"
+    ],
+    [
+      "4",
+      "2",
+      "0.1138",
+      "7.282",
+      "ms"
+    ],
+    [
+      "8",
+      "3",
+      "0.2276",
+      "14.564",
+      "ms"
+    ],
+    [
+      "16",
+      "4",
+      "0.4551",
+      "29.127",
+      "ms"
+    ],
+    [
+      "32",
+      "5",
+      "0.9102",
+      "58.254",
+      "ms"
+    ],
+    [
+      "64",
+      "6",
+      "1.820",
+      "116.508",
+      "ms"
+    ],
+    [
+      "128",
+      "7",
+      "3.641",
+      "233.017",
+      "ms"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. The minimum SDA data setup time during open-drain-mode is 3 ns, as specified in the MIPI Alliance specification for I3C. DS14928 - Rev 3 page 91/132"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_62",
+    "is_continued": false,
+    "pages": [
+      91
+    ],
+    "rows_count": 8,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

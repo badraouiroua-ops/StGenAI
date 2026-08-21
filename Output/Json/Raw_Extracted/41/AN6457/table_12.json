@@ -1,0 +1,62 @@
+{
+  "table_id": "table_12",
+  "caption": "Table 12. U(S)ART and LPUART peripheral information",
+  "pdf_name": "AN6457",
+  "family": "41",
+  "page": 11,
+  "merged_pages": [
+    11
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=11",
+  "section": "3.3.3 Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART)",
+  "headers": [
+    "Peripheral request to LPDMA",
+    "Peripheral bus",
+    "Peripheral FIFO (unit, size)",
+    "Peripheral register access",
+    "Comments"
+  ],
+  "rows": [
+    [
+      "(lp)u(s)art_rx_dma",
+      "APB1 for USART2/3/6 and UART4/5/7 APB2 for USART1 APB3 for LPUART1",
+      "8x 12-bit width RXFIFO (9 bits for Rx data + 3 bits for errors) 8x 9-bit width TXFIFO(1)",
+      "Read USART_RDR or LPUART_RDR",
+      "Request for a new received data to be read by the LPDMA. Must be read with a 32-bit aligned address, whatever is the data width."
+    ],
+    [
+      "(lp)u(s)art_tx_dma",
+      "APB1 for USART2/3/6 and UART4/5/7 APB2 for USART1 APB3 for LPUART1",
+      "8x 12-bit width RXFIFO (9 bits for Rx data + 3 bits for errors) 8x 9-bit width TXFIFO(1)",
+      "Write USART_TDR or LPUART_TDRR",
+      "Request for a new data to be written by the LPDMA for transmission. Must be written with a 32-bit aligned address, whatever is the data width."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6457",
+    "table_id": "table_12",
+    "is_continued": false,
+    "pages": [
+      11
+    ],
+    "rows_count": 2,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

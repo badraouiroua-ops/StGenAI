@@ -1,0 +1,86 @@
+{
+  "table_id": "table_8",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Cases vides de la ligne d'en-tête de section HyperBus (ligne 18) laissées vides pour traitement manuel."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Access time(11)",
+      "row_index": 20,
+      "analyse_visuelle": "Sur l'image, la cellule N/A est fusionnée verticalement pour toutes les lignes sous HyperBus (lignes 19 à 22) pour les colonnes 3, 4 et 5. Le JSON a répété la valeur '6' au lieu de 'N/A'.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "6",
+          "nouvelle_valeur": "N/A",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 4,
+          "valeur_originale_json": "6",
+          "nouvelle_valeur": "N/A",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "6",
+          "nouvelle_valeur": "N/A",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Write zero latency(12)",
+      "row_index": 21,
+      "analyse_visuelle": "Sur l'image, les colonnes 3, 4 et 5 sont couvertes par la cellule fusionnée 'N/A'. Le JSON a répété 'Enable' dans ces colonnes.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Enable",
+          "nouvelle_valeur": "N/A",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 4,
+          "valeur_originale_json": "Enable",
+          "nouvelle_valeur": "N/A",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "Enable",
+          "nouvelle_valeur": "N/A",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Latency mode(13)",
+      "row_index": 22,
+      "analyse_visuelle": "Sur l'image, les colonnes 3, 4 et 5 sont couvertes par la cellule fusionnée 'N/A'. Le JSON a répété 'Fixed' dans ces colonnes.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Fixed",
+          "nouvelle_valeur": "N/A",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 4,
+          "valeur_originale_json": "Fixed",
+          "nouvelle_valeur": "N/A",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "Fixed",
+          "nouvelle_valeur": "N/A",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

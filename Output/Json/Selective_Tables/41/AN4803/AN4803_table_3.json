@@ -1,0 +1,43 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Document revision history",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Document revision history",
+  "page": 30,
+  "section": "6 References",
+  "section_title": "References",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4803.pdf#page=30",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4803.pdf",
+  "text_helper": "Table 3. Document revision history — section 6 References. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "1-Avr-2016",
+        "1",
+        "Initial release."
+      ],
+      [
+        "4-Sep-2019",
+        "2",
+        "Updated all the document to include MPUs on its scope."
+      ],
+      [
+        "10-Aug-2022",
+        "3",
+        "Updated: • Section Introduction • Figure 15 Added: • Section 5.3.1 • Section 5.3.2"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

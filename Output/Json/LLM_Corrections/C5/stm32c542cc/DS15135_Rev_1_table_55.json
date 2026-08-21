@@ -1,0 +1,10 @@
+{
+  "table_id": "table_55",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Le JSON fusionne la Table 55 (page 82) et la suite de la Table 57 (page 83) tout en omettant complètement la première partie de la Table 57 présente en bas de la page 82. De plus, la structure des colonnes sur la page 83 est totalement décalée (valeurs de Conditions se retrouvant dans Min/Typ, et Symboles déplacés)."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

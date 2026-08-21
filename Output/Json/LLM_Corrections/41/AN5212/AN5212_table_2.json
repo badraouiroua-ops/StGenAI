@@ -1,0 +1,10 @@
+{
+  "table_id": "table_2",
+  "status": "OK",
+  "logs": [
+    "Cases vides ignorées pour traitement manuel dans les lignes 29, 30, 31"
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,24 @@
+{
+  "table_id": "table_14",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Cases vides ignorées pour traitement manuel à la ligne 7 (CC1 and CC2)."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "VBUS level, vSafe0V, measurement",
+      "row_index": 2,
+      "analyse_visuelle": "Suppression de l'espace parasite dans 'op- amp' qui doit être 'op-amp'.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Resistor bridge with or without op- amp for safety purpose",
+          "nouvelle_valeur": "Resistor bridge with or without op-amp for safety purpose",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

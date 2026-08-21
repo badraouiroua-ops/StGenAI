@@ -1,0 +1,22 @@
+{
+  "table_id": "table_1",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Microcontrollers",
+      "row_index": 0,
+      "analyse_visuelle": "Dans la cellule 'Sub class', les trois sous-familles de microcontrôleurs apparaissent sur trois lignes distinctes et non concaténées en une seule ligne continue sans saut de ligne.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "STM32 High Performance MCUs STM32 Mainstream MCUs STM32 Ultra Low Power MCUs",
+          "nouvelle_valeur": "STM32 High Performance MCUs\nSTM32 Mainstream MCUs\nSTM32 Ultra Low Power MCUs",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

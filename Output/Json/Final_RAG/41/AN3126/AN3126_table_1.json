@@ -1,0 +1,35 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Applicable products",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Applicable products",
+  "page": 1,
+  "section": "Introduction",
+  "section_title": "Introduction",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN3126.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN3126.pdf",
+  "text_helper": "Table 1. Applicable products — section Introduction. Type, Product categories.",
+  "table_content": {
+    "headers": [
+      "Type",
+      "Product categories"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "STM32 high performance MCUs STM32 mainstream MCUs STM32 ultra low power MCUs STM32WL series"
+      ],
+      [
+        "Microprocessors",
+        "STM32 Arm Cortex MPUs"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

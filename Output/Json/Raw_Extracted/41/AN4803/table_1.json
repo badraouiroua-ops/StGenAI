@@ -1,0 +1,94 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Acronyms used in this document",
+  "pdf_name": "AN4803",
+  "family": "41",
+  "page": 3,
+  "merged_pages": [
+    3
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4803.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4803.pdf#page=3",
+  "section": "2 Terms and acronyms",
+  "headers": [
+    "Term",
+    "Definition"
+  ],
+  "rows": [
+    [
+      "DDR",
+      "Double data rate. Define an interface where data are sampled on both clock edges."
+    ],
+    [
+      "DDR3L",
+      "DDR memory 3rd generation using low voltage."
+    ],
+    [
+      "EMC",
+      "Electromagnetic compatibility, refers to the ability of an electrical device to work satisfactorily in its electromagnetic environment without adversely influencing the surrounding devices, or being influenced by them."
+    ],
+    [
+      "FR4",
+      "It is an abbreviation for flame resistant 4, is a type of material used for making a printed circuit board (PCB). It describes the board itself with no copper covering."
+    ],
+    [
+      "IBIS",
+      "Input/output buffer information specification is a behavioral-modeling specification. It is a standard for describing the analog behavior of the buffers of a digital device using plain ASCII text formatted data."
+    ],
+    [
+      "IO",
+      "Input and output words."
+    ],
+    [
+      "LPDDR2",
+      "Low-power DDR memory 2nd generation."
+    ],
+    [
+      "LPDDR3",
+      "Low-power DDR memory 3rd generation."
+    ],
+    [
+      "ODT",
+      "On-die termination."
+    ],
+    [
+      "PCB",
+      "Printed circuit board."
+    ],
+    [
+      "QUADSPI",
+      "It is is a specialized communication interface targeting single, dual or quad SPI flash memories."
+    ],
+    [
+      "SI",
+      "Signal integrity, denotes the correct timing and quality of the signal."
+    ],
+    [
+      "SDRAM",
+      "Synchronous dynamic random access memory."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4803",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      3
+    ],
+    "rows_count": 13,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

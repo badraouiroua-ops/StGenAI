@@ -1,0 +1,39 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Added value of digital microphone",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Added value of digital microphone",
+  "page": 14,
+  "section": "1.6 Added value of digital microphones",
+  "section_title": "Added value of digital microphones",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=14",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 3. Added value of digital microphone — section 1.6 Added value of digital microphones. Feature, Added value.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "Added value"
+    ],
+    "rows": [
+      [
+        "Immunity to RF noise and electromagnetic interference (EMI)",
+        "– Less integration effort"
+      ],
+      [
+        "Analog signal conditioning not required",
+        "– Easier application design – Direct interface to codecs with digital microphones interface – Stereo mode needs only one data line – Significant saving on PCB area with more microphones in system – Flexibility to add additional microphones into the application"
+      ],
+      [
+        "Robust digital transmission",
+        "– Easy MEMS positioning on application system – Standard digital conditioning – Allows audio enhancement integration for stereo capture, noise cancellation and beam forming"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

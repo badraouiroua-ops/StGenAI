@@ -1,0 +1,68 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Region attributes and size in MPU_RASR register",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Region attributes and size in MPU_RASR register",
+  "page": 7,
+  "section": "3.3 Memory attributes",
+  "section_title": "Memory attributes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "text_helper": "Table 3. Region attributes and size in MPU_RASR register — section 3.3 Memory attributes. Bits, Name, Description.",
+  "table_content": {
+    "headers": [
+      "Bits",
+      "Name",
+      "Description"
+    ],
+    "rows": [
+      [
+        "28",
+        "XN",
+        "Execute never"
+      ],
+      [
+        "26:24",
+        "AP",
+        "Data access permission field (RO, RW, or No access)"
+      ],
+      [
+        "21:19",
+        "TEX",
+        "Type extension field"
+      ],
+      [
+        "18",
+        "S",
+        "Shareable"
+      ],
+      [
+        "17",
+        "C",
+        "Cacheable"
+      ],
+      [
+        "16",
+        "B",
+        "Bufferable"
+      ],
+      [
+        "15:8",
+        "SRD",
+        "Subregion disabled. For each subregion 1 = disabled, 0 = enabled."
+      ],
+      [
+        "5:1",
+        "SIZE",
+        "Specifies the size of the MPU protection region."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

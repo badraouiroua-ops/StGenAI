@@ -1,0 +1,97 @@
+{
+  "table_id": "table_8",
+  "document": "Table 8. DCACHE Interrupt and events management bits",
+  "rev": null,
+  "table_number": "8",
+  "title": "Table 8. DCACHE Interrupt and events management bits",
+  "page": 18,
+  "section": "3.2.8 Event and interrupt management",
+  "section_title": "Event and interrupt management",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=18",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "text_helper": "Table 8. DCACHE Interrupt and events management bits — section 3.2.8 Event and interrupt management. Register / DCACHE_SR, Register / BUSYF, Bit description / Cache executing a full invalidate operation, Bit access type / Read-only.",
+  "table_content": {
+    "headers": [
+      "Register / DCACHE_SR",
+      "Register / BUSYF",
+      "Bit description / Cache executing a full invalidate operation",
+      "Bit access type / Read-only"
+    ],
+    "rows": [
+      [
+        "DCACHE_SR",
+        "BUSYF",
+        "Cache executing a full invalidate operation",
+        "Read-only"
+      ],
+      [
+        "DCACHE_SR",
+        "BSYENDF",
+        "Cache full invalidate operation ended",
+        "Read-only"
+      ],
+      [
+        "DCACHE_SR",
+        "BUSYCMDF",
+        "Cache executing a range command",
+        "Read-only"
+      ],
+      [
+        "DCACHE_SR",
+        "CMDENDF",
+        "A range command end",
+        "Read-only"
+      ],
+      [
+        "DCACHE_SR",
+        "ERRF",
+        "An error occurred during caching operation",
+        "Read-only"
+      ],
+      [
+        "DCACHE_IER",
+        "ERRIE",
+        "Enable interrupt for cache error",
+        "Read/write"
+      ],
+      [
+        "DCACHE_IER",
+        "CMDENDIE",
+        "Enable interrupt on range command end",
+        "Read/write"
+      ],
+      [
+        "DCACHE_IER",
+        "BSYENDIE",
+        "Enable interrupt on full invalidate operation end",
+        "Read/write"
+      ],
+      [
+        "DCACHE_FCR",
+        "CERRF",
+        "Clears ERRF in DCACHE_SR",
+        "Write-only"
+      ],
+      [
+        "DCACHE_FCR",
+        "CCMDENDF",
+        "Clears CMDENDF in DCACHE_SR",
+        "Write-only"
+      ],
+      [
+        "DCACHE_FCR",
+        "CBSYENDF",
+        "Clears BSYENDF in DCACHE_SR",
+        "Write-only"
+      ]
+    ],
+    "notes": [
+      "1. Test conditions: • Applicable product: STM32U575/585"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

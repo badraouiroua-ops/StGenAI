@@ -1,0 +1,49 @@
+{
+  "table_id": "table_5",
+  "document": "AN5225",
+  "rev": "7",
+  "table_number": "5",
+  "title": "DFP CC termination (Rp) requirements",
+  "page": 10,
+  "section": "4.2",
+  "section_title": "Power capability detection and usage",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=10",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 5. DFP CC termination (Rp) requirements — section 4.2 Power capability detection and usage",
+  "table_content": {
+    "headers": [
+      "VBUS power",
+      "Current source to 1.7 V - 5.5 V",
+      "Rp pull up to 4.75 V - 5.5 V",
+      "Rp pull up to 3.3 V +/-5%"
+    ],
+    "rows": [
+      [
+        "Default USB power",
+        "80 mA ± 20%",
+        "56 kΩ ± 20% (1)",
+        "36 kΩ ± 20%"
+      ],
+      [
+        "1.5 A @5 V",
+        "180 mA ± 8%",
+        "22 kΩ ± 5%",
+        "12 kΩ ± 5%"
+      ],
+      [
+        "3.0 A @5 V",
+        "330 mA ± 8%",
+        "10 kΩ ± 5%",
+        "4.7 kΩ ± 5%"
+      ]
+    ],
+    "notes": [
+      "1. For Rp when implemented in the USB Type-C plug on a USB Type-C to USB 3.1 Standard-A Cable Assembly, a USB Type-C to USB 2.0 Standard-A Cable Assembly, a USB Type-C to USB 2.0 Micro-B Receptacle Adapter Assembly or a USB Type-C captive cable connected to a USB host, a value of 56 kΩ ± 5% shall be used, in order to provide tolerance to IR drop on VBUS and GND in the cable assembly."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

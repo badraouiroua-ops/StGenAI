@@ -1,0 +1,53 @@
+{
+  "table_id": "table_11",
+  "document": "Table 11. Spectrum analyzer resolution bandwidth versus frequency range (broadband EMI)",
+  "rev": null,
+  "table_number": "11",
+  "title": "Table 11. Spectrum analyzer resolution bandwidth versus frequency range (broadband EMI)",
+  "page": 12,
+  "section": "3.2.1 EMI radiated test",
+  "section_title": "EMI radiated test",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=12",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 11. Spectrum analyzer resolution bandwidth versus frequency range (broadband EMI) — section 3.2.1 EMI radiated test. Frequency range (MHz), Resolution bandwidth (RBW), Detector.",
+  "table_content": {
+    "headers": [
+      "Frequency range (MHz)",
+      "Resolution bandwidth (RBW)",
+      "Detector"
+    ],
+    "rows": [
+      [
+        "0.1 - 1",
+        "10 kHz",
+        "Peak"
+      ],
+      [
+        "1 - 10",
+        "10 kHz",
+        "Peak"
+      ],
+      [
+        "10 - 100",
+        "10 kHz",
+        "Peak"
+      ],
+      [
+        "100 - 1000",
+        "100 kHz",
+        "Peak"
+      ],
+      [
+        "1000 - 2000",
+        "1 MHz",
+        "Peak"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

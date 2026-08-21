@@ -1,0 +1,89 @@
+{
+  "table_id": "table_60",
+  "document": "DS14693 Rev 2 - Table 60. TIMx characteristics",
+  "rev": "Rev 2",
+  "table_number": "60",
+  "title": "Table 60. TIMx characteristics",
+  "page": 90,
+  "section": "5.3.18 Timer characteristics",
+  "section_title": "Timer characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=90",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 60. TIMx characteristics — section 5.3.18 Timer characteristics. Symbol, Parameter, Conditions, Min(1), Max(1), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t res(TIM)",
+        "Timer resolution time",
+        "-",
+        "1",
+        "-",
+        "t TIMxCLK"
+      ],
+      [
+        "t res(TIM)",
+        "Timer resolution time",
+        "f = 48 MHz TIMxCLK",
+        "20.833",
+        "-",
+        "ns"
+      ],
+      [
+        "f EXT",
+        "Timer external clock frequency on CH1 to CH4",
+        "-",
+        "0",
+        "f /4 TIMxCLK",
+        "MHz"
+      ],
+      [
+        "Res TIM",
+        "Timer resolution",
+        "TIMx other than TIM2",
+        "-",
+        "16",
+        "bit"
+      ],
+      [
+        "Res TIM",
+        "Timer resolution",
+        "TIM2",
+        "-",
+        "32",
+        "bit"
+      ],
+      [
+        "t COUNTER",
+        "Counter clock period",
+        "TIMx other than TIM2",
+        "1",
+        "216",
+        "t TIMxCLK"
+      ],
+      [
+        "t COUNTER",
+        "Counter clock period",
+        "TIM2",
+        "1",
+        "232",
+        "t TIMxCLK"
+      ]
+    ],
+    "notes": [
+      "1. Specified by design. Not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

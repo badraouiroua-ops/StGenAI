@@ -1,0 +1,24 @@
+{
+  "table_id": "table_13",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Suppression des lignes d'en-tête répétées suite aux sauts de page.",
+    "Correction des valeurs hallucineés/décalées sur les lignes VSS, VDD, PH15, VREF- et VREF+."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    17,
+    33,
+    42,
+    50,
+    71,
+    81,
+    96,
+    107,
+    119,
+    132,
+    144,
+    154
+  ]
+}

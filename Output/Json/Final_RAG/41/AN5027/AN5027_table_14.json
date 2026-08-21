@@ -1,0 +1,35 @@
+{
+  "table_id": "table_14",
+  "document": "Table 14. DFSDFM filter order values",
+  "rev": null,
+  "table_number": "14",
+  "title": "Table 14. DFSDFM filter order values",
+  "page": 60,
+  "section": "4.3.2 Adding PDM software decoding library middleware files",
+  "section_title": "Adding PDM software decoding library middleware files",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=60",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 14. DFSDFM filter order values — section 4.3.2 Adding PDM software decoding library middleware files. Audio Sampling Frequency (kHz), Filter order.",
+  "table_content": {
+    "headers": [
+      "Audio Sampling Frequency (kHz)",
+      "Filter order"
+    ],
+    "rows": [
+      [
+        "16",
+        "Sinc 4 or Sinc 5 filter type"
+      ],
+      [
+        "48",
+        "Sinc 4 or Sinc 5 filter type"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

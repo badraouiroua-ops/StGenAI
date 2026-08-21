@@ -1,0 +1,45 @@
+{
+  "table_id": "table_114",
+  "document": "DS14791 Rev 9 - Table 114. I3C push-pull measured timing",
+  "rev": "Rev 9",
+  "table_number": "114",
+  "title": "Table 114. I3C push-pull measured timing",
+  "page": 220,
+  "section": "5.3.36 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=220",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 114. I3C push-pull measured timing — section 5.3.36 Communications interfaces. Symbol, Parameter, Conditions, I3C push-pull mode / Min, I3C push-pull mode / Max, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "I3C push-pull mode / Min",
+      "I3C push-pull mode / Max",
+      "Timing measurements / Min",
+      "Timing measurements / Max",
+      "Unit / -"
+    ],
+    "rows": [
+      [
+        "t SU_PP",
+        "SDA signal data setup in push-pull mode",
+        "Controller",
+        "3",
+        "-",
+        "18(2)",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. Spikes with widths below t are filtered. AF(min)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

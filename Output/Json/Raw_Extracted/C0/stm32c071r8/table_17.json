@@ -1,0 +1,223 @@
+{
+  "table_id": "table_17",
+  "caption": "Table 17. Port C alternate function mapping (AF0 to AF7)",
+  "pdf_name": "stm32c071r8",
+  "family": "C0",
+  "page": 45,
+  "merged_pages": [
+    45,
+    46
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=45",
+  "section": "4 Pinouts, pin description and alternate functions",
+  "headers": [
+    "Port",
+    "AF0",
+    "AF1",
+    "AF2",
+    "AF3",
+    "AF4",
+    "AF5",
+    "AF6",
+    "AF7"
+  ],
+  "rows": [
+    [
+      "PC2",
+      "SPI2_MISO",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC3",
+      "SPI2_MOSI",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC4",
+      "-",
+      "USART1_TX",
+      "-",
+      "TIM2_ETR/ TIM2_CH1",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC5",
+      "-",
+      "USART1_RX",
+      "-",
+      "TIM2_CH2",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC6",
+      "-",
+      "TIM3_CH1",
+      "-",
+      "TIM2_CH3",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC7",
+      "-",
+      "TIM3_CH2",
+      "-",
+      "TIM2_CH4",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC8",
+      "-",
+      "TIM3_CH3",
+      "TIM1_CH1",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC9",
+      "-",
+      "TIM3_CH4",
+      "TIM1_CH2",
+      "-",
+      "-",
+      "I2S_CKIN",
+      "USB_NOE",
+      "-"
+    ],
+    [
+      "PC10",
+      "-",
+      "-",
+      "TIM1_CH3",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC11",
+      "-",
+      "-",
+      "TIM1_CH4",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC12",
+      "TIM14_CH1",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC13",
+      "-",
+      "TIM1_ETR",
+      "TIM1_BKIN",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC14",
+      "USART1_TX",
+      "TIM1_ETR",
+      "TIM1_BKIN2",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC15",
+      "OSC32_EN",
+      "OSC_EN",
+      "TIM1_ETR",
+      "TIM3_CH3",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 9,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 9,
+    "continuation": {
+      "base_cols": 9,
+      "cont_cols_raw": 9,
+      "target_cols": 9,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_dedup_rows_removed": 2,
+    "_dedup_removed_indices": [
+      0,
+      1
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c071r8",
+    "table_id": "table_17",
+    "is_continued": true,
+    "pages": [
+      45,
+      46
+    ],
+    "rows_count": 14,
+    "cols_count": 9,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

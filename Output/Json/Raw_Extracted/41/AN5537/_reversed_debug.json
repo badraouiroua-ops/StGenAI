@@ -1,0 +1,162 @@
+{
+  "pdf_name": "AN5537",
+  "family": "41",
+  "tables_checked": 6,
+  "cells_checked": 17,
+  "cells_reversed": 2,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Microcontrollers",
+      "reversed": false,
+      "drift": -8.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32C0 series, STM32C5 series, STM32F0 series, STM32F1 series, STM32F2 series, STM32F3 series, STM32F4 series, STM32F7 series, STM32G0 series, STM32G4 series, STM32H5 series, STM32H7 series, STM32L0 series, STM32L1 series, STM32L4 series, STM32L4+ series, STM32L5 series, STM32U0 series, STM32U3 series, STM32U5 series, STM32WB series",
+      "reversed": false,
+      "drift": -6.61,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Oversampling factor to add p bits to the ADC on-chip resolution",
+      "reversed": false,
+      "drift": 0.92,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Hardware",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "6.06 ms",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "896 pAh",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 3,
+      "row": 0,
+      "original": "3.23 μC",
+      "reversed": true,
+      "drift": 1.0,
+      "corrected": "Cμ 32.3"
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 4,
+      "row": 0,
+      "original": "37 μA",
+      "reversed": true,
+      "drift": 1.0,
+      "corrected": "Aμ 73"
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Hardware oversampling",
+      "reversed": false,
+      "drift": -10.63,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Resolution = X + (ln (OSR) / ln(2)) – M M is the division coefficient of the hardware oversampling engine",
+      "reversed": false,
+      "drift": -38.78,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 3,
+      "row": 0,
+      "original": "10.4126",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 4,
+      "row": 0,
+      "original": "10.3622",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 5,
+      "row": 0,
+      "original": "10.3543",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 6,
+      "row": 0,
+      "original": "10.2774",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 7,
+      "row": 0,
+      "original": "10.3084",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "25-Sep-2023",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial version.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

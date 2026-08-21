@@ -1,0 +1,22 @@
+{
+  "table_id": "table_26",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête du tableau",
+      "row_index": null,
+      "analyse_visuelle": "Dans l'image du tableau 26, le nom de la colonne de fréquence est 'fHCLK (MHz)' avec 'HCLK' en indice sous 'f', sans aucun signe slash '/'.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "f / HCLK (MHz)",
+          "nouvelle_valeur": "fHCLK (MHz)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

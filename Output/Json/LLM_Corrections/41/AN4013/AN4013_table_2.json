@@ -1,0 +1,64 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes de colonnes",
+      "row_index": null,
+      "analyse_visuelle": "Les textes verticaux des en-têtes ont été lus à l'envers (RTL) ou désordonnés lors de l'OCR.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "x30F/6x070F/x40F23MTS 8x030F )x030F gnidulcxe( dna",
+          "nouvelle_valeur": "STM32F04x/F070x6/F03x (excluding F030x8 and F030x)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "/8x030F/Bx030F23MTS )6x070F x70F/x90F/x50F gnidulcxe(",
+          "nouvelle_valeur": "STM32F030xB/F030x8/F05x/F09x/F07x (excluding F070x6)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 4,
+          "valeur_originale_json": "/201F/101F23MTS )Gx enil ,Fx( ytisned 301F LX",
+          "nouvelle_valeur": "STM32F101/F102/F103 line XL density (xF, xG)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "/301F/201F/101F23MTS ot )Ex-4x(ytisned pu senil 701F/501F hgih",
+          "nouvelle_valeur": "STM32F101/F102/F103/F105/F107 lines up to high density(x4-xE)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 6,
+          "valeur_originale_json": "001F23MTS enil eulav",
+          "nouvelle_valeur": "STM32F100 value line",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 7,
+          "valeur_originale_json": ",104F 4F/2F23MTS )014F gnidulcxe( ,114F",
+          "nouvelle_valeur": "STM32F2/F4 (excluding F401, F411, F410)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 8,
+          "valeur_originale_json": "/104F23MTS 014F/114F",
+          "nouvelle_valeur": "STM32F401/F411/F410",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 9,
+          "valeur_originale_json": "STM32F30X/F3x8 /F378) (excluding",
+          "nouvelle_valeur": "STM32F30X/F3x8 (excluding /F378)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

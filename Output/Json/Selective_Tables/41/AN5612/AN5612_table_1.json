@@ -1,0 +1,127 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Glossary of terms",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Glossary of terms",
+  "page": 2,
+  "section": "1 General information",
+  "section_title": "General information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5612.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5612.pdf",
+  "text_helper": "Table 1. Glossary of terms — section 1 General information. Term, Developed form.",
+  "table_content": {
+    "headers": [
+      "Term",
+      "Developed form"
+    ],
+    "rows": [
+      [
+        "ANSI",
+        "American national standards institute"
+      ],
+      [
+        "BLE",
+        "Bluetooth® Low Energy"
+      ],
+      [
+        "CDM",
+        "Charged-device model"
+      ],
+      [
+        "CSI",
+        "Camera serial interface"
+      ],
+      [
+        "DSI",
+        "Display serial interface"
+      ],
+      [
+        "D-PHY",
+        "Physical layer option set by MIPI alliance"
+      ],
+      [
+        "ECMF",
+        "EMI/RFI common mode filter"
+      ],
+      [
+        "EMIF",
+        "Electromagnetic interference filter"
+      ],
+      [
+        "ESDA",
+        "ESD association"
+      ],
+      [
+        "ESD",
+        "Electrostatic discharge"
+      ],
+      [
+        "GPIO",
+        "General purpose input/output"
+      ],
+      [
+        "JEDEC",
+        "Joint electron device engineering council"
+      ],
+      [
+        "JTAG",
+        "Joint test action group"
+      ],
+      [
+        "HBM",
+        "Human body model"
+      ],
+      [
+        "IEC",
+        "International electrotechnical commission"
+      ],
+      [
+        "MM",
+        "Machine model"
+      ],
+      [
+        "MIPI",
+        "Mobile industry processor interface"
+      ],
+      [
+        "MOV",
+        "Metal oxide varistor"
+      ],
+      [
+        "NFC",
+        "Near-field communication"
+      ],
+      [
+        "PCB",
+        "Printed circuit board"
+      ],
+      [
+        "SMC",
+        "Surface mounted component"
+      ],
+      [
+        "SMPS",
+        "Switch mode power supply"
+      ],
+      [
+        "SWD",
+        "Serial wire debug"
+      ],
+      [
+        "TVS",
+        "Transient voltage suppressor"
+      ],
+      [
+        "VBR",
+        "Voltage breakdown"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

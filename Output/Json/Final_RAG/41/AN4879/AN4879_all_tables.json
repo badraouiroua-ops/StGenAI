@@ -1,0 +1,1671 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Applicable products",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 2,
+    "section": "Introduction",
+    "section_title": "Introduction",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=2",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 1. Applicable products — section Introduction. Type, Series, lines, part numbers(1).",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Series, lines, part numbers(1)"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "STM32C5 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F2 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F4 series (2)"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F7 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32H5 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32H7 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F0 series (3)"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F1 series (4)"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F302 line"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F303xD/xE/xB/xC products"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F373 line"
+        ],
+        [
+          "Microcontrollers",
+          "STM32G0B0xx products"
+        ],
+        [
+          "Microcontrollers",
+          "STM32G0C1xx products"
+        ],
+        [
+          "Microcontrollers",
+          "STM32G4 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32C071 line"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L0 series (5)"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L1 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L4 series (6)"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L4+ series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L5 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32U073 line"
+        ],
+        [
+          "Microcontrollers",
+          "STM32U083 line"
+        ],
+        [
+          "Microcontrollers",
+          "STM32U5 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32U3 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32WBA2x line"
+        ],
+        [
+          "Microcontrollers",
+          "STM32WBA6x line"
+        ],
+        [
+          "Microcontrollers",
+          "STM32WB35xx products"
+        ],
+        [
+          "Microcontrollers",
+          "STM32WB55xx products"
+        ],
+        [
+          "Microcontrollers",
+          "STM32N6 series"
+        ]
+      ],
+      "notes": [
+        "1. Check the product datasheet for supported part numbers.",
+        "2. STM32F410 is not supported.",
+        "3. STM32F030, STM32F0x1, STM32F038, STM32F098, and STM32F058 are not supported.",
+        "4. STM32F100 and STM32F101 are not supported.",
+        "5. STM32L0x0 is not supported.",
+        "6. STM32L4x1 is not supported. AN4879 - Rev 12 page 2/29"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. Abbreviations and acronyms",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. Abbreviations and acronyms",
+    "page": 3,
+    "section": "1 General information",
+    "section_title": "General information",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=3",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 2. Abbreviations and acronyms — section 1 General information. Acronym, Description.",
+    "table_content": {
+      "headers": [
+        "Acronym",
+        "Description"
+      ],
+      "rows": [
+        [
+          "ADP",
+          "Attach detection protocol"
+        ],
+        [
+          "BCD",
+          "Battery charging detection"
+        ],
+        [
+          "EMI",
+          "Electromagnetic interference"
+        ],
+        [
+          "ESD",
+          "Electrostatic discharge"
+        ],
+        [
+          "FS",
+          "Full-speed"
+        ],
+        [
+          "HBM",
+          "Human body model"
+        ],
+        [
+          "HS",
+          "High-speed"
+        ],
+        [
+          "IEC",
+          "International electrotechnical commission"
+        ],
+        [
+          "LPM",
+          "Link power management"
+        ],
+        [
+          "LS",
+          "Low-speed"
+        ],
+        [
+          "MCU",
+          "Microcontroller unit or microcontroller"
+        ],
+        [
+          "OTG",
+          "On-the-go"
+        ],
+        [
+          "PCB",
+          "Printed circuit board"
+        ],
+        [
+          "PHY",
+          "Physical layer"
+        ],
+        [
+          "SOF",
+          "Start of frame"
+        ],
+        [
+          "ULPI",
+          "UTMI + low-pin interface"
+        ],
+        [
+          "USB",
+          "Universal Serial Bus"
+        ],
+        [
+          "UTMI",
+          "USB 2.0 transceiver macrocell interface"
+        ]
+      ],
+      "notes": [
+        "1. X: supported.",
+        "2. When the CAN peripheral is used, only the first 768 bytes are available to the USB. The last 256 bytes are used by the CAN.",
+        "3. The USB and CAN share a dedicated 512 bytes SRAM. They can then be used in the same application but not at the same time.",
+        "4. The dedicated SRAM is used exclusively by the USB endpoints (not shared with any other peripheral).",
+        "5. Internal FS OTG PHY support. AN4879"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. USB implementation on STM32 mainstream products",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. USB implementation on STM32 mainstream products",
+    "page": 4,
+    "section": "1 General information",
+    "section_title": "General information",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=4",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 3. USB implementation on STM32 mainstream products — section 1 General information. Feature(1), STM32F070x6/B / USB 2.0 FS device interface, STM32F072 STM32F078 STM32F04x / USB 2.0 FS device interface, STM32F102 STM32F103 / USB 2.0 FS device interface, STM32F105/107 / USB OTG_FS, +5 autres.",
+    "table_content": {
+      "headers": [
+        "Feature(1)",
+        "STM32F070x6/B / USB 2.0 FS device interface",
+        "STM32F072 STM32F078 STM32F04x / USB 2.0 FS device interface",
+        "STM32F102 STM32F103 / USB 2.0 FS device interface",
+        "STM32F105/107 / USB OTG_FS",
+        "STM32F302xB/C STM32F303xB/C STM32F373 / USB 2.0 FS device interface",
+        "STM32F302x6/8 STM32F302xD/E STM32F303xD/E / USB 2.0 FS device interface",
+        "STM32C071 / USB 2.0 FS host/device interface",
+        "STM32G0B0xx STM32G0C1xx / USB 2.0 FS host/device interface",
+        "STM32G4 / USB 2.0 FS device interface"
+      ],
+      "rows": [
+        [
+          "Crystal-less USB",
+          "-",
+          "X",
+          "-",
+          "-",
+          "-",
+          "-",
+          "Supported in device mode",
+          "-",
+          "X"
+        ],
+        [
+          "Bidirectional endpoints (including EP0)",
+          "8",
+          "8",
+          "8",
+          "4",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ],
+        [
+          "Host mode channels",
+          "-",
+          "-",
+          "-",
+          "8",
+          "-",
+          "-",
+          "8",
+          "8",
+          "-"
+        ],
+        [
+          "Size of dedicated packet buffer SRAM",
+          "1 Kbyte(2)",
+          "1 Kbyte(2)",
+          "512 bytes(3)",
+          "1.25 Kbytes(4)",
+          "512 bytes(4)",
+          "1 Kbyte(2)",
+          "2 Kbytes",
+          "2 Kbytes",
+          "1 Kbyte"
+        ],
+        [
+          "Integrated PHY",
+          "FS(5)",
+          "FS(5)",
+          "FS(5)",
+          "FS(5)",
+          "FS(5)",
+          "FS(5)",
+          "FS(5)",
+          "FS(5)",
+          "FS(5)"
+        ],
+        [
+          "Pull-up resistor on USB_DP line",
+          "Embedded",
+          "Embedded",
+          "1.5 kΩ resistor must be added",
+          "Embedded",
+          "1.5 kΩ resistor must be added",
+          "1.5 kΩ resistor must be added",
+          "Embedded",
+          "Embedded",
+          "Embedded"
+        ],
+        [
+          "LPM",
+          "X",
+          "X",
+          "-",
+          "-",
+          "-",
+          "X",
+          "Supported in device mode",
+          "Supported in device mode",
+          "X"
+        ],
+        [
+          "BCD",
+          "X",
+          "X",
+          "-",
+          "-",
+          "-",
+          "-",
+          "Supported in device mode",
+          "Supported in device mode",
+          "X"
+        ],
+        [
+          "ADP",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "X"
+        ]
+      ],
+      "notes": [
+        "1. X: supported.",
+        "2. When the CAN peripheral is used, only the first 768 bytes are available to the USB. The last 256 bytes are used by the CAN.",
+        "3. The USB and CAN share a dedicated 512 bytes SRAM. They can then be used in the same application but not at the same time.",
+        "4. The dedicated SRAM is used exclusively by the USB endpoints (not shared with any other peripheral).",
+        "5. Internal FS OTG PHY support. AN4879"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. USB implementation on STM32 high-performance products",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. USB implementation on STM32 high-performance products",
+    "page": 5,
+    "section": "1 General information",
+    "section_title": "General information",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=5",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 4. USB implementation on STM32 high-performance products — section 1 General information. Feature(1), STM32F401 / STM32F411, STM32F401, STM32F2x5 STM32F2x7 STM32F405 STM32F415 STM32F407 STM32F417 STM32F427 STM32F437 STM32F429 STM32F439, STM32F2x5 STM32F2x7 STM32F405 STM32F415 STM32F407 STM3...",
+    "table_content": {
+      "headers": [
+        "Feature(1)",
+        "STM32F401 / STM32F411",
+        "STM32F401",
+        "STM32F2x5 STM32F2x7 STM32F405 STM32F415 STM32F407 STM32F417 STM32F427 STM32F437 STM32F429 STM32F439",
+        "STM32F2x5 STM32F2x7 STM32F405 STM32F415 STM32F407 STM32F417 STM32F427 STM32F437 STM32F429 STM32F439",
+        "STM32F412 STM32F413 STM32F423",
+        "STM32F412 STM32F413 STM32F423",
+        "STM32F446 STM32F469 STM32F479 STM32F74x STM32F756 STM32F76x STM32F77x STM32F7x2 STM32F730R/V STM32F750",
+        "STM32F446 STM32F469 STM32F479 STM32F74x STM32F756 STM32F76x STM32F77x STM32F7x2 STM32F730R/V STM32F750",
+        "STM32F7x3 STM32F730Z/I",
+        "STM32F7x3 STM32F730Z/I",
+        "STM32H742 STM32H743 STM32H753 STM32H750 STM32H745 STM32H755 STM32H747 STM32H757",
+        "STM32H742 STM32H743 STM32H753 STM32H750 STM32H745 STM32H755 STM32H747 STM32H757",
+        "STM32H7A3 STM32H7B3 STM32H7B0 STM32H723 STM32H733 STM32H735 STM32H730",
+        "STM32H5F/E STM32H7R3x8 /R7x8 STM32H7S3x8/ S7x8 STM32H7S3x8/ S7x8 STM32H7R3x8 /R7x8",
+        "STM32H5F/E STM32H7R3x8 /R7x8 STM32H7S3x8/ S7x8 STM32H7S3x8/ S7x8 STM32H7R3x8 /R7x8",
+        "STM32C562 STM32H503 STM32H543 /553 STM32H563 STM32H573 STM32H562",
+        "STM32N6"
+      ],
+      "rows": [
+        [
+          "Feature(1)",
+          "OTG_FS",
+          "OTG_HS",
+          "OTG_FS",
+          "OTG_HS",
+          "OTG_FS",
+          "OTG_HS",
+          "OTG_FS",
+          "OTG_HS",
+          "OTG_FS",
+          "OTG_HS",
+          "OTG_HS1",
+          "OTG_HS2",
+          "OTG_HS",
+          "OTG_FS",
+          "OTG_HS",
+          "USB 2.0 FS host/device interface",
+          "OTG_HS"
+        ],
+        [
+          "Crystal-less USB",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "-",
+          "-"
+        ],
+        [
+          "Bidirectional endpoints (including EP0)",
+          "4",
+          "6",
+          "4",
+          "6",
+          "6",
+          "9",
+          "6",
+          "9",
+          "6",
+          "9",
+          "9",
+          "9",
+          "9",
+          "6",
+          "9",
+          "8",
+          "9"
+        ],
+        [
+          "Host mode channels",
+          "8",
+          "12",
+          "8",
+          "12",
+          "12",
+          "16",
+          "12",
+          "16",
+          "12",
+          "16",
+          "16",
+          "16",
+          "16",
+          "12",
+          "16",
+          "8(2)",
+          "16"
+        ],
+        [
+          "Size of dedicated packet buffer SRAM (Kbytes) (3)",
+          "1.25",
+          "-",
+          "1.25",
+          "4",
+          "1.25",
+          "-",
+          "1.25",
+          "4",
+          "1.25",
+          "4",
+          "4",
+          "4",
+          "4",
+          "1.25",
+          "4",
+          "2",
+          "4"
+        ],
+        [
+          "Integrated PHY",
+          "FS(4)",
+          "FS(4)",
+          "FS(4)",
+          "FS(4)",
+          "FS(4)",
+          "FS(4)",
+          "FS(4)",
+          "FS(4)",
+          "FS(4)",
+          "HS(5)",
+          "FS(4)",
+          "FS(4)",
+          "FS(4)",
+          "FS(4)",
+          "HS(5)",
+          "FS(4)",
+          "HS(5)"
+        ],
+        [
+          "ULPI available to primary I/Os via multiplexing",
+          "-",
+          "-",
+          "-",
+          "X",
+          "-",
+          "-",
+          "-",
+          "X",
+          "-",
+          "-",
+          "-",
+          "X",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Dedicated VDDUSB",
+          "NO",
+          "NO",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        [
+          "LPM",
+          "-",
+          "-",
+          "-",
+          "-",
+          "X",
+          "-",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "BCD",
+          "-",
+          "-",
+          "-",
+          "-",
+          "X",
+          "-",
+          "-",
+          "-",
+          "X",
+          "-",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "ADP",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      "notes": [
+        "1. X: supported.",
+        "2. Bi-directional (including EP0) AN4879",
+        "3. The dedicated SRAM is used exclusively by the USB endpoints (not shared with any other peripheral).",
+        "4. Internal FS OTG PHY support.",
+        "5. Internal HS OTG PHY support."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_5",
+    "document": "Table 5. USB implementation on STM32 ultra-low-power products",
+    "rev": null,
+    "table_number": "5",
+    "title": "Table 5. USB implementation on STM32 ultra-low-power products",
+    "page": 6,
+    "section": "1 General information",
+    "section_title": "General information",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=6",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 5. USB implementation on STM32 ultra-low-power products — section 1 General information. Feature(1), STM32L0x2 STM32L0x3 / USB 2.0 FS device interface, STM32L1xx / USB 2.0 FS device interface, STM32L4x2 STM32L4x3 / USB 2.0 FS device interface, STM32L4x5 STM32L4x6 STM32L4Rx STM32L4Sx / USB O...",
+    "table_content": {
+      "headers": [
+        "Feature(1)",
+        "STM32L0x2 STM32L0x3 / USB 2.0 FS device interface",
+        "STM32L1xx / USB 2.0 FS device interface",
+        "STM32L4x2 STM32L4x3 / USB 2.0 FS device interface",
+        "STM32L4x5 STM32L4x6 STM32L4Rx STM32L4Sx / USB OTG_FS",
+        "STM32L5 / USB 2.0 FS device interface",
+        "STM32U3 / USB 2.0 FS host/device interface",
+        "STM32U575 STM32U585 / USB OTG_FS",
+        "STM32U535 STM32U545 / USB 2.0 FS host/device interface",
+        "STM32U59x STM32U5Ax STM32U5Gx STM32U5Fx / USB 2.0 OTG_HS",
+        "STM32U073x8/B/ C STM32U083xC / USB 2.0 FS device interface"
+      ],
+      "rows": [
+        [
+          "Crystal-less USB",
+          "X",
+          "-",
+          "X",
+          "X(2)",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "Bidirectional endpoints (including EP0)",
+          "8",
+          "8",
+          "8",
+          "6",
+          "8",
+          "8",
+          "6",
+          "8",
+          "9",
+          "8"
+        ],
+        [
+          "Host mode channels",
+          "-",
+          "-",
+          "-",
+          "12",
+          "-",
+          "8(3)",
+          "12",
+          "8(3)",
+          "16",
+          "-"
+        ],
+        [
+          "Size of dedicated packet buffer SRAM(4)",
+          "1 Kbyte",
+          "1 Kbyte",
+          "1 Kbyte",
+          "1.25 Kbytes (with advanced FIFO control)",
+          "1 Kbyte",
+          "2 Kbytes",
+          "1.25 Kbytes",
+          "2 Kbytes",
+          "4 Kbytes",
+          "1 Kbyte"
+        ],
+        [
+          "Integrated PHY",
+          "FS(5)",
+          "FS(5)",
+          "FS(5)",
+          "FS(5)",
+          "FS",
+          "FS",
+          "FS(5)",
+          "FS(5)",
+          "HS(5)",
+          "FS(5)"
+        ],
+        [
+          "Pull up resistor on USB_DP line",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "Dedicated VDDUSB",
+          "YES",
+          "NO",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES",
+          "YES"
+        ],
+        [
+          "LPM",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "BCD",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "ADP",
+          "-",
+          "-",
+          "-",
+          "X",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      "notes": [
+        "1. X: supported.",
+        "2. Except for STM32L47x/L48x devices.",
+        "3. The dedicated SRAM is used exclusively by the USB endpoints (not shared with any other peripheral).",
+        "4. Internal FS OTG PHY support.",
+        "5. Internal HS OTG PHY support."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_6",
+    "document": "Table 6. USB implementation on STM32 wireless products",
+    "rev": null,
+    "table_number": "6",
+    "title": "Table 6. USB implementation on STM32 wireless products",
+    "page": 7,
+    "section": "1 General information",
+    "section_title": "General information",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=7",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 6. USB implementation on STM32 wireless products — section 1 General information. Feature, STM32WB35xx/ STM32WB55xx / USB 2.0 FS device interface, STM32WBA2x / USB 2.0 FS host/device interface, STM32WBA6x / USB 2.0 HS host/device interface.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "STM32WB35xx/ STM32WB55xx / USB 2.0 FS device interface",
+        "STM32WBA2x / USB 2.0 FS host/device interface",
+        "STM32WBA6x / USB 2.0 HS host/device interface"
+      ],
+      "rows": [
+        [
+          "Crystal-less USB",
+          "X",
+          "-",
+          "-"
+        ],
+        [
+          "Number of endpoints",
+          "8",
+          "8",
+          "9"
+        ],
+        [
+          "Host mode channels",
+          "12",
+          "16",
+          "16"
+        ],
+        [
+          "Size of dedicated packet buffer SRAM",
+          "1.25 Kbytes",
+          "2 Kbytes",
+          "4 Kbytes"
+        ],
+        [
+          "Integrated PHY",
+          "FS",
+          "FS",
+          "HS"
+        ],
+        [
+          "Pull up resistor on USB_DP line",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "LPM",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "BCD",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "ADP",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_7",
+    "document": "Table 7. Supported OTG_FS speeds",
+    "rev": null,
+    "table_number": "7",
+    "title": "Table 7. Supported OTG_FS speeds",
+    "page": 8,
+    "section": "2.2 Supported USB speeds",
+    "section_title": "Supported USB speeds",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=8",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 7. Supported OTG_FS speeds — section 2.2 Supported USB speeds. Mode(1), FS (12 Mbit/s), LS (1.5 Mbit/s).",
+    "table_content": {
+      "headers": [
+        "Mode(1)",
+        "FS (12 Mbit/s)",
+        "LS (1.5 Mbit/s)"
+      ],
+      "rows": [
+        [
+          "Host",
+          "X",
+          "X"
+        ],
+        [
+          "Device",
+          "X",
+          "-"
+        ]
+      ],
+      "notes": [
+        "1. X: supported. In Host mode, the USB OTG_HS supports high-, full-, and low-speed transfers, while in device mode, it only"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_8",
+    "document": "Table 8. Supported OTG_FS speeds",
+    "rev": null,
+    "table_number": "8",
+    "title": "Table 8. Supported OTG_FS speeds",
+    "page": 8,
+    "section": "2.2 Supported USB speeds",
+    "section_title": "Supported USB speeds",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=8",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 8. Supported OTG_FS speeds — section 2.2 Supported USB speeds. Mode(1), HS (480 Mbit/s), FS (12 Mbit/s), LS (1.5 Mbit/s).",
+    "table_content": {
+      "headers": [
+        "Mode(1)",
+        "HS (480 Mbit/s)",
+        "FS (12 Mbit/s)",
+        "LS (1.5 Mbit/s)"
+      ],
+      "rows": [
+        [
+          "Host",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "Device",
+          "X",
+          "X",
+          "-"
+        ]
+      ],
+      "notes": [
+        "1. X: supported. In Host mode, the USB OTG_HS supports high-, full-, and low-speed transfers, while in device mode, it only"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_9",
+    "document": "Table 9. JESD22-A114D standard class levels",
+    "rev": null,
+    "table_number": "9",
+    "title": "Table 9. JESD22-A114D standard class levels",
+    "page": 9,
+    "section": "2.3 Protection against ESD and EMI",
+    "section_title": "Protection against ESD and EMI",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=9",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 9. JESD22-A114D standard class levels — section 2.3 Protection against ESD and EMI. Class, Voltage range, Current range.",
+    "table_content": {
+      "headers": [
+        "Class",
+        "Voltage range",
+        "Current range"
+      ],
+      "rows": [
+        [
+          "Class 0",
+          "V < 250 V",
+          "I < 0.17 A"
+        ],
+        [
+          "Class 1A",
+          "250 V < V < 500 V",
+          "0.17 A < I < 0.33 A"
+        ],
+        [
+          "Class 1B",
+          "500 V < V < 1000 V",
+          "0.33 A < I < 0.67 A"
+        ],
+        [
+          "Class 1C",
+          "1 kV < V < 2 kV",
+          "0.67 A < I < 1.33 A"
+        ],
+        [
+          "Class 2",
+          "2 kV < V < 4 kV",
+          "1.33 A < I < 2.67 A"
+        ],
+        [
+          "Class 3A",
+          "4 kV < V < 8 kV",
+          "2.67 A < I < 5.33 A"
+        ],
+        [
+          "Class 3B",
+          "V > 8 kV",
+          "I > 5.33 A"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_10",
+    "document": "Table 10. IEC 61000-4-2 standard class levels",
+    "rev": null,
+    "table_number": "10",
+    "title": "Table 10. IEC 61000-4-2 standard class levels",
+    "page": 9,
+    "section": "2.3 Protection against ESD and EMI",
+    "section_title": "Protection against ESD and EMI",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=9",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 10. IEC 61000-4-2 standard class levels — section 2.3 Protection against ESD and EMI. Level, Contact / Indicated voltage (kV), Air / Indicated voltage (kV), Peak current (A).",
+    "table_content": {
+      "headers": [
+        "Level",
+        "Contact / Indicated voltage (kV)",
+        "Air / Indicated voltage (kV)",
+        "Peak current (A)"
+      ],
+      "rows": [
+        [
+          "1",
+          "2",
+          "3",
+          "7.5"
+        ],
+        [
+          "2",
+          "4",
+          "4",
+          "15"
+        ],
+        [
+          "3",
+          "6",
+          "8",
+          "22.5"
+        ],
+        [
+          "4",
+          "8",
+          "15",
+          "30"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_11",
+    "document": "Table 11. ESD protection",
+    "rev": null,
+    "table_number": "11",
+    "title": "Table 11. ESD protection",
+    "page": 10,
+    "section": "2.3 Protection against ESD and EMI",
+    "section_title": "Protection against ESD and EMI",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=10",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 11. ESD protection — section 2.3 Protection against ESD and EMI. Interface, Protection / Low price, Protection / Low area on PCB.",
+    "table_content": {
+      "headers": [
+        "Interface",
+        "Protection / Low price",
+        "Protection / Low area on PCB"
+      ],
+      "rows": [
+        [
+          "USB FS",
+          "USBLC6-2SC6 (+ ESDA7P60-1U1M for VBUS)",
+          "USBLC6-2P6 (+ ESDA7P60-1U1M for VBUS)"
+        ],
+        [
+          "USB FS OTG",
+          "USBLC6-4SC6",
+          "DSILC6-4P6"
+        ],
+        [
+          "USB HS",
+          "ECMF02-2AMX6 (+ ESDA7P60-1U1M for 5 V VBUS)",
+          "ECMF02-2AMX6 (+ ESDA7P60-1U1M for 5 V VBUS)"
+        ],
+        [
+          "USB HS OTG ECMF02",
+          "ECMF02-2AMX6 (+ ESDA7P60-1U1M for 5 V VBUS + ESDALC6V1-1U2 for ID)",
+          "ECMF02-2AMX6 (+ ESDA7P60-1U1M for 5 V VBUS + ESDALC6V1-1U2 for ID)"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_12",
+    "document": "Table 12. Compatible USB HS PHY",
+    "rev": null,
+    "table_number": "12",
+    "title": "Table 12. Compatible USB HS PHY",
+    "page": 18,
+    "section": "3.4.1 External USB HS PHYs compatible via ULPI interface",
+    "section_title": "External USB HS PHYs compatible via ULPI interface",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=18",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 12. Compatible USB HS PHY — section 3.4.1 External USB HS PHYs compatible via ULPI interface. USB HS PHY, Tested on / Board, Tested on / MCU.",
+    "table_content": {
+      "headers": [
+        "USB HS PHY",
+        "Tested on / Board",
+        "Tested on / MCU"
+      ],
+      "rows": [
+        [
+          "ISP1705AET",
+          "STM3240G-EVAL",
+          "STM32F407"
+        ],
+        [
+          "ISP1705AET",
+          "STM3241G-Eval",
+          "STM32F417"
+        ],
+        [
+          "ISP1705AET",
+          "STM3221G-Eval",
+          "STM32F207"
+        ],
+        [
+          "ISP1705AET",
+          "STM3220G-EVAL",
+          "STM32F217"
+        ],
+        [
+          "USB3300-EZK",
+          "STM32779I-Eval",
+          "STM32F777"
+        ],
+        [
+          "USB3300-EZK",
+          "STM32769I-Eval",
+          "STM32F769"
+        ],
+        [
+          "USB3300-EZK",
+          "STM32756G-EVAL",
+          "STM32F756"
+        ],
+        [
+          "USB3300-EZK",
+          "STM32746G-Eval",
+          "STM32F746"
+        ],
+        [
+          "USB3300-EZK",
+          "STM32479I-Eval",
+          "STM32F479"
+        ],
+        [
+          "USB3300-EZK",
+          "STM32F446E-Eval",
+          "STM32F446"
+        ],
+        [
+          "USB3300-EZK",
+          "STM32F439I-Eval",
+          "STM32F439"
+        ],
+        [
+          "USB3300-EZK",
+          "STM32F429I-Eval",
+          "STM32F429"
+        ],
+        [
+          "USB3320C-EZK",
+          "STM32H753I-EVAL",
+          "STM32H753"
+        ],
+        [
+          "USB3320C-EZK",
+          "STM32H743I-EVAL",
+          "STM32H743"
+        ],
+        [
+          "USB3320C-EZK",
+          "STM32F769I-DISCO",
+          "STM32F769"
+        ],
+        [
+          "USB3320C-EZK",
+          "STM32F746G-DISCO",
+          "STM32F746"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_13",
+    "document": "Table 13. Certified USB peripherals",
+    "rev": null,
+    "table_number": "13",
+    "title": "Table 13. Certified USB peripherals",
+    "page": 19,
+    "section": "3.4.1 External USB HS PHYs compatible via ULPI interface",
+    "section_title": "External USB HS PHYs compatible via ULPI interface",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=19",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 13. Certified USB peripherals — section 3.4.1 External USB HS PHYs compatible via ULPI interface. STM32 device, Certified category, Speed(s), TID.",
+    "table_content": {
+      "headers": [
+        "STM32 device",
+        "Certified category",
+        "Speed(s)",
+        "TID"
+      ],
+      "rows": [
+        [
+          "STM32F072",
+          "Peripheral",
+          "LS/FS",
+          "40001561"
+        ],
+        [
+          "STM32F103",
+          "Peripheral",
+          "LS/FS",
+          "40000455"
+        ],
+        [
+          "STM32F105",
+          "Peripheral",
+          "LS/FS",
+          "40001571"
+        ],
+        [
+          "STM32F205/7",
+          "Peripheral",
+          "LS/FS",
+          "40001366"
+        ],
+        [
+          "STM32F205/7",
+          "Peripheral",
+          "HS",
+          "40001365"
+        ],
+        [
+          "STM32F207",
+          "Embedded host",
+          "FS",
+          "120000252"
+        ],
+        [
+          "STM32F207",
+          "Embedded host",
+          "HS",
+          "120000251"
+        ],
+        [
+          "STM32F303",
+          "Peripheral",
+          "LS/FS",
+          "40001494"
+        ],
+        [
+          "STM32F373",
+          "Peripheral",
+          "LS/FS",
+          "40001496"
+        ],
+        [
+          "STM32F405/7",
+          "Peripheral",
+          "HS",
+          "40001393"
+        ],
+        [
+          "STM32F405/7",
+          "Peripheral",
+          "LS/FS",
+          "40001394"
+        ],
+        [
+          "STM32F407",
+          "Embedded host",
+          "HS",
+          "120000253"
+        ],
+        [
+          "STM32F407",
+          "Embedded host",
+          "FS",
+          "120000256"
+        ],
+        [
+          "STM32F723",
+          "Peripheral",
+          "HS",
+          "40001777"
+        ],
+        [
+          "STM32F723",
+          "Embedded host",
+          "FS",
+          "120000703"
+        ],
+        [
+          "STM32F723",
+          "Embedded host",
+          "HS",
+          "120000702"
+        ],
+        [
+          "STM32F723",
+          "Peripheral",
+          "LS/FS",
+          "40001776"
+        ],
+        [
+          "STM32L053",
+          "Peripheral",
+          "LS/FS",
+          "40001612"
+        ],
+        [
+          "STM32L152",
+          "Peripheral",
+          "LS/FS",
+          "10730015"
+        ],
+        [
+          "STM32L476, STM32L476ZGT6U",
+          "Peripheral",
+          "LS/FS",
+          "40001658"
+        ],
+        [
+          "STM32L476, STM32L476ZGT6U",
+          "Embedded host",
+          "FS",
+          "120000348"
+        ],
+        [
+          "STM32F723IE",
+          "Embedded host",
+          "HS",
+          "120000702"
+        ],
+        [
+          "STM32F723IE",
+          "Embedded host",
+          "FS",
+          "120000703"
+        ],
+        [
+          "STM32F723IE",
+          "Embedded host",
+          "HS",
+          "40001777"
+        ],
+        [
+          "STM32F769",
+          "Peripheral Silicon > Other",
+          "FS",
+          "8725"
+        ],
+        [
+          "STM32F769",
+          "Embedded Host Silicon",
+          "HS",
+          "10646"
+        ],
+        [
+          "STM32L496",
+          "Embedded host",
+          "FS",
+          "120000831"
+        ],
+        [
+          "STM32L496AG",
+          "Peripheral",
+          "LS/FS",
+          "40001802"
+        ],
+        [
+          "STM32L4P5",
+          "Embedded Host Silicon",
+          "FS",
+          "7861"
+        ],
+        [
+          "STM32L4R9",
+          "Embedded Host",
+          "FS",
+          "7862"
+        ],
+        [
+          "STM32L4R9",
+          "Peripheral Silicon > Other",
+          "FS",
+          "7840"
+        ],
+        [
+          "STM32L562",
+          "Peripheral",
+          "FS",
+          "6562"
+        ],
+        [
+          "STM32H7B3",
+          "Peripheral Silicon > Other",
+          "HS",
+          "8741"
+        ],
+        [
+          "STM32H7B3",
+          "Embedded Host Silicon",
+          "HS",
+          "8724"
+        ],
+        [
+          "STM32H7A3",
+          "Embedded Host Silicon",
+          "FS",
+          "8709"
+        ],
+        [
+          "STM32H7S",
+          "Embedded Host Silicon",
+          "HS",
+          "10643"
+        ],
+        [
+          "STM32H7S",
+          "Peripheral Silicon > Other",
+          "FS",
+          "10644"
+        ],
+        [
+          "STM32H503",
+          "Peripheral Silicon > Other",
+          "HS",
+          "9721"
+        ],
+        [
+          "STM32H563",
+          "Peripheral Silicon > Other",
+          "HS",
+          "9717"
+        ],
+        [
+          "STM32U585",
+          "Peripheral",
+          "FS",
+          "7189"
+        ],
+        [
+          "STM32U545",
+          "Peripheral Silicon > Other",
+          "HS",
+          "9722"
+        ],
+        [
+          "STM32U599",
+          "Peripheral Silicon > Other",
+          "FS",
+          "10645"
+        ],
+        [
+          "STM32G0C",
+          "Peripheral",
+          "FS",
+          "7046"
+        ],
+        [
+          "STM32G491",
+          "Peripheral",
+          "FS",
+          "6563"
+        ],
+        [
+          "STM32G474",
+          "Peripheral",
+          "FS",
+          "6561"
+        ],
+        [
+          "STM32WB55",
+          "Peripheral",
+          "FS",
+          "2196"
+        ],
+        [
+          "STM32MP13 STM32G0",
+          "Dual Role Device Silicon Embedded Host Silicon",
+          "HS",
+          "8088"
+        ],
+        [
+          "STM32MP15",
+          "Peripheral",
+          "HS",
+          "1735"
+        ],
+        [
+          "STM32MP15",
+          "Embedded host",
+          "HS",
+          "2111"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_14",
+    "document": "Table 14. Document revision history",
+    "rev": null,
+    "table_number": "14",
+    "title": "Table 14. Document revision history",
+    "page": 24,
+    "section": "4 FAQs (frequently asked questions)",
+    "section_title": "FAQs (frequently asked questions)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=24",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+    "text_helper": "Table 14. Document revision history — section 4 FAQs (frequently asked questions). Date, Version, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Version",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "10-Aug-2016",
+          "1",
+          "Initial release."
+        ],
+        [
+          "24-Nov-2016",
+          "2",
+          "Document classification updated from public to ST Restricted."
+        ],
+        [
+          "27-Apr-2018",
+          "3",
+          "• Document classification changed from ST Restricted to Public. • Scope extended to all STM32 microcontrollers. • Updated Introduction and Section 3: Hardware guidelines for USB implementation and its subsections. • Added Section 1: List of abbreviations and acronyms, Section 2: USB on STM32 products and its subsections, Section 4: FAQs and Section 6: Conclusion. • Updated all figures in Section 3: Hardware guidelines for USB implementation. • Removed former Table 1: Applicable products, Section 1: Layout guidelines for USB FS devices, Section 1.1: PCB track impedance and routing on FS data lines, Section 4: Hardware guideline for OTG product implementation and Section 5: OTG USB high speed PHY connected to STM32 through the ULPI link."
+        ],
+        [
+          "18-Dec-2018",
+          "4",
+          "Added Table 1. Applicable products Updated: • Section 1 General information • Table 3. USB implementation in STM32 devices • Section 2.1 USB implementation on STM32 products and all its tables • Section 2.4 Clock • Section 3.1.1 USB FS upstream port in self-powered applications • Section 3.1.2 USB FS upstream port in bus-powered applications • Section 3.2 USB FS downstream port • Section 4 FAQs (frequently asked questions) • Section 6 Conclusion • All figures in the document"
+        ],
+        [
+          "30-May-2022",
+          "5",
+          "Updated: • Section 2.6: VBUS sensing detection • STM32F105/107 in Table 3. USB implementation on STM32 mainstream products • Figure 7. USB FS upstream port with embedded pull-up resistor in self-powered applications • Figure 12. OTG schematic implementation (dual-mode) • References integrated in Section 1: General information"
+        ],
+        [
+          "17-Apr-2023",
+          "6",
+          "Updated: • Section 2: USB on STM32 products • Section 2.6: VBUS sensing detection • Figure 8. USB FS upstream port without embedded pull-up resistor in self-powered applications • Table 1. Applicable products • Section 2: USB on STM32 products • Table 4. USB implementation on STM32 high-performance products • Table 5. USB implementation on STM32 ultra-low-power products"
+        ],
+        [
+          "06-May-2024",
+          "7",
+          "Updated:"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

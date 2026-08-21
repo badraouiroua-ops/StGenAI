@@ -1,0 +1,53 @@
+{
+  "table_id": "table_19",
+  "document": "Table 19. Document revision history.",
+  "rev": null,
+  "table_number": "19",
+  "title": "Table 19. Document revision history.",
+  "page": 54,
+  "section": "8 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=54",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 19. Document revision history. — section 8 Conclusion. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "17-Oct-2018",
+        "1",
+        "Initial release."
+      ],
+      [
+        "25-Feb-2019",
+        "2",
+        "Updated: • Table 1. Applicable products • Section 1 General information • Table 11. Security features for STM32H7, STM32G0, STM32G4 and STM32WB Series • Figure 9. Example of RDP protections (STM32L4 Series) • Section 6.6 Firewall Added: • Section 6.8 Cryptographic key storage (CKS)"
+      ],
+      [
+        "7-Oct-2019",
+        "3",
+        "Updated: • Table 1. Applicable products • Section \"Introduction\" renamed \"Overview\" • Table 2. Glossary • Section \"Hardware protections\" renamed \"Device protections\" • Figure 4. Memory types • Table 5. Memory types and associated protection • Section 4.2.4 External Flash memories • Table 6. Scope of STM32 embedded memories protection features • Table 7. Software isolation mechanism • Section 4.5 Boot protection • Section 5 Secure applications: Table 9, Table 10 and Table 11 • Section 6.2 Readout protection (RDP) • Section 6.7 Secure hide protection (HDP) • Section 6.17 Cryptography • Section 7 Guidelines • Some colors removed on all figures Added: • Section 4.1 TrustZone® for Armv8-M architecture • Section 6.4 TrustZone • Section 6.18 On-the-fly decryption engine (OTFDEC)"
+      ],
+      [
+        "21-Feb-2020",
+        "4",
+        "• Updated Section Introduction • Added acronyms in Table 2. Glossary • Updated Section 2 Overview and Section 3 Attack types • Restructured Section 3.4 IoT system attack examples (added Section 3.5 List of attack targets) • Updated Section 4 Device protections • Updated and restructured Section 5 Secure applications • Added Section 5.3 Arm TF-M solution • Updated Section 6 STM32 security features, Section 7 Guidelines and Section 8 Conclusion"
+      ],
+      [
+        "06-Nov-2020",
+        "5",
+        "Updated: • Document's scope to add STM32WL Series • Table 1. Applicable products • Section 1 General information • Section 3.1 Introduction to attack types • Section 3.2 Software attacks • Section 3.3.1 Non-invasive attacks"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

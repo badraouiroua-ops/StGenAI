@@ -1,0 +1,77 @@
+{
+  "table_id": "table_24",
+  "document": "DS15136 Rev 1 - Table 24. Typical and maximum current consumption in Sleep mode",
+  "rev": "Rev 1",
+  "table_number": "24",
+  "title": "Table 24. Typical and maximum current consumption in Sleep mode",
+  "page": 67,
+  "section": "5.3.6.2 Current consumption in Sleep mode",
+  "section_title": "Current consumption in Sleep mode",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=67",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "text_helper": "Table 24. Typical and maximum current consumption in Sleep mode — section 5.3.6.2 Current consumption in Sleep mode. Symbol, Parameter, Conditions, (MHz), Typ, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "(MHz)",
+      "Typ",
+      "Max / TJ = 30°C",
+      "Max / TJ = 140°C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD(SLEEP)",
+        "Supply current in Sleep mode",
+        "All peripherals disabled, HSI",
+        "HSI 144",
+        "2.40",
+        "2.55",
+        "20.00",
+        "mA"
+      ],
+      [
+        "IDD(SLEEP)",
+        "Supply current in Sleep mode",
+        "All peripherals disabled, HSI",
+        "HSI 48",
+        "1.05",
+        "1.25",
+        "16.50",
+        "mA"
+      ],
+      [
+        "IDD(SLEEP)",
+        "Supply current in Sleep mode",
+        "All peripherals enabled, HSI",
+        "HSI 144",
+        "19.50",
+        "21.00",
+        "34.00",
+        "mA"
+      ],
+      [
+        "IDD(SLEEP)",
+        "Supply current in Sleep mode",
+        "All peripherals enabled, HSI",
+        "HSI 48",
+        "6.90",
+        "7.10",
+        "22.00",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. LSE is in low drive mode. DS15136 - Rev 1 page 67/144"
+    ],
+    "legend": [
+      "Specified by design - not tested in production, unless otherwise stated."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

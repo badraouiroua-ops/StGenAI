@@ -1,0 +1,45 @@
+{
+  "table_id": "table_16",
+  "document": "DS15135 Rev 1 - Table 16. Thermal characteristics.",
+  "rev": "Rev 1",
+  "table_number": "16",
+  "title": "Table 16. Thermal characteristics.",
+  "page": 52,
+  "section": "5.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=52",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "text_helper": "Table 16. Thermal characteristics. — section 5.2 Absolute maximum ratings. Symbol, Ratings, Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "TSTG",
+        "Storage temperature range",
+        "-65 to +150",
+        "°C"
+      ],
+      [
+        "TJ",
+        "Maximum junction temperature",
+        "150",
+        "°C"
+      ]
+    ],
+    "notes": [
+      "1. When RESET is released, the functionality is guaranteed down to PDR minimum voltage.",
+      "2. For operation with voltage higher than VDD + 0.3 V, the internal pull‑up and pull‑down resistors must be disabled. The minimum and maximum input voltage (Vin) must comply with the selected peripheral enabled on the given GPIOs. Refer to the respective peripheral",
+      "3. If TA is lower, higher PD values are allowed as long as TJ does not exceed TJmax (see Section 6.10: Package thermal characteristics). DS15135 - Rev 1 page 52/130"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

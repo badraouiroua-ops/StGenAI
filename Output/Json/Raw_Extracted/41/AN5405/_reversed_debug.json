@@ -1,0 +1,90 @@
+{
+  "pdf_name": "AN5405",
+  "family": "41",
+  "tables_checked": 4,
+  "cells_checked": 9,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Microcontrollers",
+      "reversed": false,
+      "drift": -8.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32C0 series STM32C5 series STM32G0 series STM32G4 series STM32H5 series STM32H7 series STM32L5 series STM32U3 series STM32U5 series",
+      "reversed": false,
+      "drift": -8.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Get Version(1)",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Section 4.2",
+      "reversed": false,
+      "drift": -3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Gets the protocol version and the readout protection status of the flash memory.",
+      "reversed": false,
+      "drift": -39.59,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "16-Aug-2018",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial version",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "14-Nov-2019",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

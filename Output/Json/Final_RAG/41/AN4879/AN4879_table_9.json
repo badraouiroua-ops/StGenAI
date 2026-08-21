@@ -1,0 +1,63 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. JESD22-A114D standard class levels",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. JESD22-A114D standard class levels",
+  "page": 9,
+  "section": "2.3 Protection against ESD and EMI",
+  "section_title": "Protection against ESD and EMI",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "text_helper": "Table 9. JESD22-A114D standard class levels — section 2.3 Protection against ESD and EMI. Class, Voltage range, Current range.",
+  "table_content": {
+    "headers": [
+      "Class",
+      "Voltage range",
+      "Current range"
+    ],
+    "rows": [
+      [
+        "Class 0",
+        "V < 250 V",
+        "I < 0.17 A"
+      ],
+      [
+        "Class 1A",
+        "250 V < V < 500 V",
+        "0.17 A < I < 0.33 A"
+      ],
+      [
+        "Class 1B",
+        "500 V < V < 1000 V",
+        "0.33 A < I < 0.67 A"
+      ],
+      [
+        "Class 1C",
+        "1 kV < V < 2 kV",
+        "0.67 A < I < 1.33 A"
+      ],
+      [
+        "Class 2",
+        "2 kV < V < 4 kV",
+        "1.33 A < I < 2.67 A"
+      ],
+      [
+        "Class 3A",
+        "4 kV < V < 8 kV",
+        "2.67 A < I < 5.33 A"
+      ],
+      [
+        "Class 3B",
+        "V > 8 kV",
+        "I > 5.33 A"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

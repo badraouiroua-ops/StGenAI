@@ -1,0 +1,87 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. Nonvolatile memory ECC coverage in STM32 devices",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. Nonvolatile memory ECC coverage in STM32 devices",
+  "page": 6,
+  "section": "2.3 Nonvolatile memory ECC",
+  "section_title": "Nonvolatile memory ECC",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=6",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+  "text_helper": "Table 5. Nonvolatile memory ECC coverage in STM32 devices — section 2.3 Nonvolatile memory ECC. Memory, H72x/ H73x, Other H74x/ H75x, H7Ax/ H7Bx, G0, +6 autres.",
+  "table_content": {
+    "headers": [
+      "Memory",
+      "H72x/ H73x",
+      "Other H74x/ H75x",
+      "H7Ax/ H7Bx",
+      "G0",
+      "G4/L4/L5/ WB/WL/U3",
+      "H503",
+      "H563/573 C5",
+      "L0/ L1(1)",
+      "U5",
+      "U0"
+    ],
+    "rows": [
+      [
+        "Bank1",
+        "256b",
+        "256b",
+        "128b",
+        "64b",
+        "64b(2)",
+        "128b",
+        "128b",
+        "16b",
+        "128b",
+        "64b"
+      ],
+      [
+        "Bank2",
+        "-",
+        "256b",
+        "128b",
+        "64b(3)",
+        "64b(4)",
+        "-",
+        "128b",
+        "16b(4)",
+        "128b",
+        "-"
+      ],
+      [
+        "Special region",
+        "-",
+        "-",
+        "16b",
+        "-",
+        "-",
+        "-",
+        "16b(5)",
+        "-",
+        "-",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. ECC in STM32L0 has no user interface, so it is not described in detail in this table.",
+      "2. If DBANK = 0, the access width is 128 bits, but ECC remains 2 × 8 bytes.",
+      "3. Only G0Bx/G0Cx.",
+      "4. Only on dual bank devices.",
+      "5. Area of 16 bits words is configurable. The ECC functionality is integrated into the nonvolatile memory controller and cannot be disabled. If the"
+    ],
+    "legend": [
+      "memory protected by the bits required to achieve error detection and correction on the nonvolatile memory word.",
+      "Write access to any smaller unit of memory is only possible on read-modify-write basis, this action results in",
+      "higher stress to the memory hardware. The STM32H5 series, STM32C5 series, STM32U5 series, and",
+      "STM32H7Ax/Bx line also feature added robustness on the small 0.5-2 Kbyte OTP area, where every 16 bits are",
+      "protected with 6 bits of ECC redundancy. There is no OTP memory area on STM32H72x/3x/4x/5x lines."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

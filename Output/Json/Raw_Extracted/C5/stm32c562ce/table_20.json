@@ -1,0 +1,126 @@
+{
+  "table_id": "table_20",
+  "caption": "Table 20. Embedded reset and power control block characteristics.",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 58,
+  "merged_pages": [
+    58
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=58",
+  "section": "5.3.3 Embedded reset and power control block characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tRSTTEMPO(1)(2)",
+      "Reset temporization after POR released",
+      "VDD rising",
+      "-",
+      "-",
+      "463",
+      "µs"
+    ],
+    [
+      "VPOR/PDR",
+      "Power-on/power-down reset threshold (BORH_EN =0)",
+      "Rising edge",
+      "2.56",
+      "2.61",
+      "2.64",
+      "V"
+    ],
+    [
+      "VPOR/PDR",
+      "Power-on/power-down reset threshold (BORH_EN =0)",
+      "Falling edge",
+      "2.53",
+      "2.58",
+      "2.61",
+      "V"
+    ],
+    [
+      "VPVD",
+      "Programmable Voltage Detector threshold",
+      "Rising edge",
+      "3.00",
+      "3.04",
+      "3.08",
+      "V"
+    ],
+    [
+      "VPVD",
+      "Programmable Voltage Detector threshold",
+      "Falling edge",
+      "2.89",
+      "2.93",
+      "2.96",
+      "V"
+    ],
+    [
+      "Vhyst_POR_PDR",
+      "Hysteresis for power-on/power-down reset",
+      "-",
+      "-",
+      "30",
+      "-",
+      "mV"
+    ],
+    [
+      "Vhyst_PVD",
+      "Hysteresis voltage of PVD",
+      "-",
+      "-",
+      "110",
+      "-",
+      "mV"
+    ],
+    [
+      "IDD_PVD(2)",
+      "PVD consumption from VDD",
+      "-",
+      "-",
+      "-",
+      "0.63",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Specified by design - Not tested in production.",
+      "2. From POR threshold crossing to NRST pull-up resistor activation."
+    ],
+    "_legend": [
+      "The values in this table are evaluated by characterization - Not tested in production, unless otherwise specified."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_20",
+    "is_continued": false,
+    "pages": [
+      58
+    ],
+    "rows_count": 8,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

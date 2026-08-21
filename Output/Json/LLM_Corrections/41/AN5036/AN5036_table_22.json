@@ -1,0 +1,10 @@
+{
+  "table_id": "table_22",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "La première ligne de données (tensions V (V)) a été fusionnée et intégrée directement dans les en-têtes (headers), déstructurant le tableau."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

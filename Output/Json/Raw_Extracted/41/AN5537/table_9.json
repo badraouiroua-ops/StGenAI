@@ -1,0 +1,53 @@
+{
+  "table_id": "table_9",
+  "caption": "Table 9. Document revision history",
+  "pdf_name": "AN5537",
+  "family": "41",
+  "page": 25,
+  "merged_pages": [
+    25
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=25",
+  "section": "7 Conclusion",
+  "headers": [
+    "Date",
+    "Version",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "25-Sep-2023",
+      "1",
+      "Initial version."
+    ],
+    [
+      "06-Mar-2026",
+      "2",
+      "Added STM32C0 series, STM32C5 series, STM32U3 series. Updated Table 1. Applicable products"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5537",
+    "table_id": "table_9",
+    "is_continued": false,
+    "pages": [
+      25
+    ],
+    "rows_count": 2,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

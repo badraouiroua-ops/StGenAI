@@ -1,0 +1,89 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. STM32CubeMX - Configuration of OCTOSPI signals and mode",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. STM32CubeMX - Configuration of OCTOSPI signals and mode",
+  "page": 49,
+  "section": "7.2.3 OCTOSPI GPIOs and clocks configuration",
+  "section_title": "OCTOSPI GPIOs and clocks configuration",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=49",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+  "text_helper": "Table 7. STM32CubeMX - Configuration of OCTOSPI signals and mode — section 7.2.3 OCTOSPI GPIOs and clocks configuration. Parameter, Memory / HyperBus MCP Infineon memory S71KL256SC0(1), Memory / HyperBus MCP Infineon memory S71KL256SC0(1), Memory / Octo-SPI PSRAM AP Memory APS6408L-30B -BA, Memor...",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "Memory / HyperBus MCP Infineon memory S71KL256SC0(1)",
+      "Memory / HyperBus MCP Infineon memory S71KL256SC0(1)",
+      "Memory / Octo-SPI PSRAM AP Memory APS6408L-30B -BA",
+      "Memory / Octo-SPI Flash Macronix MX25LM51245 GXDI00",
+      "Memory / Quad-SPI PSRAM AP Memory APS1604M -3SQR"
+    ],
+    "rows": [
+      [
+        "Mode",
+        "HyperBus --Multiplexed-",
+        "HyperBus --Multiplexed-",
+        "Octo-SPI",
+        "Octo-SPI",
+        "Quad-SPI"
+      ],
+      [
+        "Clock",
+        "Port 1 CLK --Multiplexed-",
+        "Port 1 CLK --Multiplexed-",
+        "Port 1 CLK",
+        "Port 2 CLK",
+        "Port 1 CLK"
+      ],
+      [
+        "HyperBus 1.8 inverted clock",
+        "Disable",
+        "Disable",
+        "Disable",
+        "Disable",
+        "Disable"
+      ],
+      [
+        "Chip select",
+        "Port 1 NCS",
+        "Port 2 NCS",
+        "Port 1 NCS",
+        "Port 2 NCS",
+        "Port 1 NCS"
+      ],
+      [
+        "Data strobe",
+        "Port 1 DQS (RWDS) --MULTIPLEXED-",
+        "Port 1 DQS (RWDS) --MULTIPLEXED-",
+        "Port 1 DQS (RWDS)",
+        "Port 2 DQS (RWDS)",
+        "Disable"
+      ],
+      [
+        "Data[3:0]",
+        "Port 1 IO[3:0] --MULTIPLEXED-",
+        "Port 1 IO[3:0] --MULTIPLEXED-",
+        "Port 1 IO[3:0]",
+        "Port 2 IO[3:0]",
+        "Port 1 IO[3:0]"
+      ],
+      [
+        "Data[7:4]",
+        "Port 1 IO[7:4] --MULTIPLEXED-",
+        "Port 1 IO[7:4] --MULTIPLEXED-",
+        "Port 1 IO[7:4]",
+        "Port 2 IO[7:4]",
+        "Disable"
+      ]
+    ],
+    "notes": [
+      "1. Select the Pinout and Configuration tab and, under Connectivity, uncollapse the OCTOSPI1 or OCTOSPI2 as shown in the figure below, then configure it by referencing"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

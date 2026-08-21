@@ -1,0 +1,183 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Texte inversé (RTL) corrigé dans les en-têtes colonnes 5, 7, 8, 11, 12",
+    "Ajout des lignes manquantes du tableau (page 8 et page 9 suite)"
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau",
+      "row_index": null,
+      "analyse_visuelle": "Correction du texte vertical extrait à l'envers dans plusieurs colonnes d'en-tête.",
+      "corrections": [
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "STM32H5 series / /xx335/325/xx375/365 /xx265H23MTS xx355/345",
+          "nouvelle_valeur": "STM32H5 series / STM32H562xx/563/573xx/523/533xx/543/553xx",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 7,
+          "valeur_originale_json": "xx3B7/3A7H23MTS xx0B7H23MTS",
+          "nouvelle_valeur": "STM32H7A3/7B3xx STM32H7B0xx",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 8,
+          "valeur_originale_json": "/xxx27H23MTS )1(xxx37",
+          "nouvelle_valeur": "STM32H72xxx/73xxx(1)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 11,
+          "valeur_originale_json": "STM32U5 series / /xxx95U23MTS xxxA5",
+          "nouvelle_valeur": "STM32U5 series / STM32U59xxx/5Axxx",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 12,
+          "valeur_originale_json": "STM32U5 series / /xxxF5U23MTS xxxG5",
+          "nouvelle_valeur": "STM32U5 series / STM32U5Fxxx/5Gxxx",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 4,
+      "contenu": [
+        "OCTOSPI I/O manager arbiter",
+        "OCTOSPI I/O manager arbiter",
+        "Available",
+        "Available",
+        "N/A",
+        "Available",
+        "Available",
+        "Available",
+        "Available",
+        "N/A",
+        "Available",
+        "Available",
+        "Available",
+        "N/A"
+      ]
+    },
+    {
+      "row_index": 5,
+      "contenu": [
+        "Multiplexed mode",
+        "Multiplexed mode",
+        "N/A",
+        "Available",
+        "N/A",
+        "Available",
+        "Available",
+        "Available",
+        "Available",
+        "N/A",
+        "Available",
+        "Available",
+        "Available",
+        "N/A"
+      ]
+    },
+    {
+      "row_index": 6,
+      "contenu": [
+        "Dedicated OTFDEC support (on-the-fly decryption engine)",
+        "Dedicated OTFDEC support (on-the-fly decryption engine)",
+        "N/A",
+        "N/A",
+        "Available(5)",
+        "Available(5)",
+        "Available(5)",
+        "Available(5)",
+        "Available(5)",
+        "Available(5)",
+        "Available(5)",
+        "Available(5)",
+        "Available(5)",
+        "N/A"
+      ]
+    },
+    {
+      "row_index": 7,
+      "contenu": [
+        "Memory-mapped mode",
+        "Max bus frequency access (MHz)",
+        "120 (32-bit AHB bus)",
+        "120 (32-bit AHB bus)",
+        "110 (32-bit AHB bus)",
+        "250 (32-bit AHB bus)",
+        "250 (32-bit AHB bus)",
+        "280 (64-bit AXI bus)",
+        "275 (64-bit AXI bus)",
+        "160 (32-bit AHB bus)",
+        "160 (32-bit AHB bus)",
+        "160 (32-bit AHB bus)",
+        "160 (32-bit AHB bus)",
+        "96 (32-bit AHB bus)"
+      ]
+    },
+    {
+      "row_index": 8,
+      "contenu": [
+        "Memory-mapped mode",
+        "Max addressable space (Mbytes)",
+        "256",
+        "256",
+        "256",
+        "256",
+        "256",
+        "256",
+        "256",
+        "256",
+        "256",
+        "256",
+        "256",
+        "256"
+      ]
+    },
+    {
+      "row_index": 9,
+      "contenu": [
+        "Indirect mode",
+        "Max bus frequency access (MHz)",
+        "120 (32-bit AHB bus)",
+        "120 (32-bit AHB bus)",
+        "110 (32-bit AHB bus)",
+        "250 (32-bit AHB bus)",
+        "250 (32-bit AHB bus)",
+        "280 (32-bit AHB bus)",
+        "275 (32-bit AHB bus)",
+        "160 (32-bit AHB bus)",
+        "160 (32-bit AHB bus)",
+        "160 (32-bit AHB bus)",
+        "160 (32-bit AHB bus)",
+        "96 (32-bit AHB bus)"
+      ]
+    },
+    {
+      "row_index": 10,
+      "contenu": [
+        "Indirect mode",
+        "Max addressable space (Gbytes)",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4",
+        "4"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,65 @@
+{
+  "table_id": "table_127",
+  "document": "DS14791 Rev 9 - Table 127. MDIO target timing parameters",
+  "rev": "Rev 9",
+  "table_number": "127",
+  "title": "Table 127. MDIO target timing parameters",
+  "page": 233,
+  "section": "5.3.38 JTAG/SWD interface characteristics",
+  "section_title": "JTAG/SWD interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=233",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 127. MDIO target timing parameters — section 5.3.38 JTAG/SWD interface characteristics. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F MDC",
+        "Clock",
+        "-",
+        "-",
+        "30",
+        "MHz"
+      ],
+      [
+        "t d(MDIO)",
+        "Input/output valid time",
+        "7",
+        "8",
+        "14",
+        "ns"
+      ],
+      [
+        "t su(MDIO)",
+        "Input/output setup time",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(MDIO)",
+        "Input/output hold time",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production. DS14791 Rev 9 233/258"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,1412 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Applicable products",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "Introduction",
+    "section_title": "Introduction",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=1",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 1. Applicable products — section Introduction. Type, Products.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Products"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "STM32C5 series"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. LPDMA instances",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. LPDMA instances",
+    "page": 3,
+    "section": "2.1 LPDMA overview and instances",
+    "section_title": "LPDMA overview and instances",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=3",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 2. LPDMA instances — section 2.1 LPDMA overview and instances. Product, LPDMA instances.",
+    "table_content": {
+      "headers": [
+        "Product",
+        "LPDMA instances"
+      ],
+      "rows": [
+        [
+          "STM32C5",
+          "STM32C53xxx/542xx: LPDMA1 4 channels + LPDMA2 4 channels STM32C55xxx/562xx: LPDMA1 8 channels + LPDMA2 4 channels STM32C59xxx/5A3xx: LPDMA1 8 channels + LPDMA2 8 channels"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. LPDMA channel number with peripheral early termination",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. LPDMA channel number with peripheral early termination",
+    "page": 3,
+    "section": "2.2 LPDMA channel allocation",
+    "section_title": "LPDMA channel allocation",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=3",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 3. LPDMA channel number with peripheral early termination — section 2.2 LPDMA channel allocation. Product, Channel number, FIFO size, Addressing mode.",
+    "table_content": {
+      "headers": [
+        "Product",
+        "Channel number",
+        "FIFO size",
+        "Addressing mode"
+      ],
+      "rows": [
+        [
+          "STM32C5",
+          "LPDMA1",
+          "x = 0 and x = 7",
+          "i3c1_rx_dma"
+        ],
+        [
+          "STM32C5",
+          "LPDMA2",
+          "x = 0 and x = 7",
+          "i3c1_rx_dma"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. ADC peripheral information",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. ADC peripheral information",
+    "page": 8,
+    "section": "3.2.1 Analog-to-digital converter ADC",
+    "section_title": "Analog-to-digital converter ADC",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=8",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 4. ADC peripheral information — section 3.2.1 Analog-to-digital converter ADC. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments / The ADC1/2/3 data register (ADC_DR) mu...",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "adcx_dma (x = 1, 2, 3)",
+          "AHB2",
+          "8-word FIFO",
+          "Read ADC_DR",
+          "The ADC1/2/3 data register (ADC_DR) must be read with a 32-bit aligned address, whatever the data width."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_5",
+    "document": "Table 5. LPDMA programming for ADC",
+    "rev": null,
+    "table_number": "5",
+    "title": "Table 5. LPDMA programming for ADC",
+    "page": 8,
+    "section": "3.2.1 Analog-to-digital converter ADC",
+    "section_title": "Analog-to-digital converter ADC",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=8",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 5. LPDMA programming for ADC — section 3.2.1 Analog-to-digital converter ADC. LPDMA source data width, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA source data width",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "8-bit, 16-bit, or 32-bit",
+          "Depends on ADC settings."
+        ]
+      ],
+      "notes": [
+        "1. Not applicable for STM32C5 AN6457 - Rev 1 page 9/32"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_6",
+    "document": "Table 6. DAC peripheral information",
+    "rev": null,
+    "table_number": "6",
+    "title": "Table 6. DAC peripheral information",
+    "page": 9,
+    "section": "3.2.2 Digital-to-analog converter DAC",
+    "section_title": "Digital-to-analog converter DAC",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=9",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 6. DAC peripheral information — section 3.2.2 Digital-to-analog converter DAC. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "dac_ch1_dma/ dac_ch2_dma",
+          "AHB2",
+          "None",
+          "Write (any) DAC_DHRyRx with y = 12, 8 and x = 1, 2",
+          "The DAC data hold register must be written at the specific 32-bit aligned address, depending on the used DAC format (8- or 12‑bit, left-aligned or right-aligned) and depending on the considered channel (1 or 2)."
+        ]
+      ],
+      "notes": [
+        "1. Not applicable for STM32C5 AN6457 - Rev 1 page 9/32"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_7",
+    "document": "Table 7. LPDMA programming for DAC",
+    "rev": null,
+    "table_number": "7",
+    "title": "Table 7. LPDMA programming for DAC",
+    "page": 9,
+    "section": "3.2.2 Digital-to-analog converter DAC",
+    "section_title": "Digital-to-analog converter DAC",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=9",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 7. LPDMA programming for DAC — section 3.2.2 Digital-to-analog converter DAC. LPDMA destination data width, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA destination data width",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "8-bit, 16-bit, or 32-bit",
+          "Depends on DAC settings."
+        ]
+      ],
+      "notes": [
+        "1. Not applicable for STM32C5 AN6457 - Rev 1 page 9/32"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_8",
+    "document": "Table 8. I2C peripheral information",
+    "rev": null,
+    "table_number": "8",
+    "title": "Table 8. I2C peripheral information",
+    "page": 9,
+    "section": "3.3 LPDMA configuration for communication peripherals",
+    "section_title": "LPDMA configuration for communication peripherals",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=9",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 8. I2C peripheral information — section 3.3 LPDMA configuration for communication peripherals. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "i2cx_rx_dma (x=1, 2)",
+          "I2C on APB1",
+          "None",
+          "Read 8-bit I2C_RXDR",
+          "Request for a new received data byte to be read by the LPDMA. Must be read with a 32‑bit aligned address."
+        ],
+        [
+          "i2cx_tx_dma (x=1, 2)",
+          "I2C on APB1",
+          "None",
+          "Write 8-bit I2C_TXDR",
+          "Request for a new data byte to be written by the LPDMA for transmission. Must be read with a 32‑bit aligned address."
+        ],
+        [
+          "i2c_evc_dma(1)",
+          "I2C on APB1",
+          "None",
+          "Write 32-bit I2C_CR2",
+          "Request for a new command word to be written by the LPDMA."
+        ]
+      ],
+      "notes": [
+        "1. Not applicable for STM32C5 AN6457 - Rev 1 page 9/32"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_9",
+    "document": "Table 9. LPDMA programming for I2C",
+    "rev": null,
+    "table_number": "9",
+    "title": "Table 9. LPDMA programming for I2C",
+    "page": 10,
+    "section": "3.3 LPDMA configuration for communication peripherals",
+    "section_title": "LPDMA configuration for communication peripherals",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=10",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 9. LPDMA programming for I2C — section 3.3 LPDMA configuration for communication peripherals. LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "i2c_tx, i2c_rx: 8‑bit i2c_evc: 32-bit(1)",
+          "Depends on I2C settings."
+        ]
+      ],
+      "notes": [
+        "1. Not applicable for STM32C5"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_10",
+    "document": "Table 10. I3C peripheral information",
+    "rev": null,
+    "table_number": "10",
+    "title": "Table 10. I3C peripheral information",
+    "page": 10,
+    "section": "3.3 LPDMA configuration for communication peripherals",
+    "section_title": "LPDMA configuration for communication peripherals",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=10",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 10. I3C peripheral information — section 3.3 LPDMA configuration for communication peripherals. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "1I3c_rx_dma",
+          "APB1 for I3C1",
+          "8‑byte RX-FIFO",
+          "Read 8‑bit I3C_RDR or 32‑bit I3C_RDWR",
+          "Received data must be read with a 32‑bit aligned address."
+        ],
+        [
+          "i3c1_tx_dma",
+          "None",
+          "8‑byte TX-FIFO",
+          "Write 8‑bit I3C_TDR or 32‑bit I3C_TDWR",
+          "To be transmitted data must be written with a 32‑bit aligned address."
+        ],
+        [
+          "i3c1_tc_dma",
+          "None",
+          "2‑word C-FIFO",
+          "Write 32‑bit I3C_CR",
+          "To be transmitted control word."
+        ],
+        [
+          "i3c1_rs_dma",
+          "None",
+          "2‑word S-FIFO",
+          "Read 32‑bit I3C_SR",
+          "Received status word"
+        ]
+      ],
+      "notes": [
+        "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_11",
+    "document": "Table 11. LPDMA programming for I3C",
+    "rev": null,
+    "table_number": "11",
+    "title": "Table 11. LPDMA programming for I3C",
+    "page": 11,
+    "section": "3.3 LPDMA configuration for communication peripherals",
+    "section_title": "LPDMA configuration for communication peripherals",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=11",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 11. LPDMA programming for I3C — section 3.3 LPDMA configuration for communication peripherals. LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "i3c_tx_dma/ i3c_rx_dma: 8-bit or 32-bit i3c_tc_dma/ i3c_rs_dma: 32-bit",
+          "Depends on I3C settings."
+        ]
+      ],
+      "notes": [
+        "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_12",
+    "document": "Table 12. U(S)ART and LPUART peripheral information",
+    "rev": null,
+    "table_number": "12",
+    "title": "Table 12. U(S)ART and LPUART peripheral information",
+    "page": 11,
+    "section": "3.3.3 Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART)",
+    "section_title": "Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=11",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 12. U(S)ART and LPUART peripheral information — section 3.3.3 Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "(lp)u(s)art_rx_dma",
+          "APB1 for USART2/3/6 and UART4/5/7 APB2 for USART1 APB3 for LPUART1",
+          "8x 12-bit width RXFIFO (9 bits for Rx data + 3 bits for errors) 8x 9-bit width TXFIFO(1)",
+          "Read USART_RDR or LPUART_RDR",
+          "Request for a new received data to be read by the LPDMA. Must be read with a 32-bit aligned address, whatever is the data width."
+        ],
+        [
+          "(lp)u(s)art_tx_dma",
+          "APB1 for USART2/3/6 and UART4/5/7 APB2 for USART1 APB3 for LPUART1",
+          "8x 12-bit width RXFIFO (9 bits for Rx data + 3 bits for errors) 8x 9-bit width TXFIFO(1)",
+          "Write USART_TDR or LPUART_TDRR",
+          "Request for a new data to be written by the LPDMA for transmission. Must be written with a 32-bit aligned address, whatever is the data width."
+        ]
+      ],
+      "notes": [
+        "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_13",
+    "document": "Table 13. LPDMA programming for U(S)ART and LPUART",
+    "rev": null,
+    "table_number": "13",
+    "title": "Table 13. LPDMA programming for U(S)ART and LPUART",
+    "page": 11,
+    "section": "3.3.3 Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART)",
+    "section_title": "Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=11",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 13. LPDMA programming for U(S)ART and LPUART — section 3.3.3 Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART). LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "16-bit or 32-bit read/write in 9-bit mode and 8-bit, 16-bit or 32-bit read/write in 8-bit and 7-bit modes",
+          "Depends on U(S)ART/LPUART settings."
+        ]
+      ],
+      "notes": [
+        "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_14",
+    "document": "Table 14. SPI peripheral information",
+    "rev": null,
+    "table_number": "14",
+    "title": "Table 14. SPI peripheral information",
+    "page": 12,
+    "section": "3.4.1 CORDIC coprocessor",
+    "section_title": "CORDIC coprocessor",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=12",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 14. SPI peripheral information — section 3.4.1 CORDIC coprocessor. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "spi_rx_dma (x = 1,2,3)",
+          "STM32C5 (APB2 for SPI1 APB1 for SPI2/3)",
+          "16-byte RXFIFO and TXFIFO for SPI1, SPI2 and SPI3(1)",
+          "Read SPI_RXDR",
+          "Request for a new received data to be read by the LPDMA. Must be read with a 32-bit aligned address, whatever is the data width."
+        ],
+        [
+          "spi_tx_dma (x = 1,2,3)",
+          "STM32C5 (APB2 for SPI1 APB1 for SPI2/3)",
+          "16-byte RXFIFO and TXFIFO for SPI1, SPI2 and SPI3(1)",
+          "Write SPI_TXDR",
+          "Request for a new data to be written by the LPDMA for transmission. Must be written with a 32-bit aligned address, whatever is the data width."
+        ]
+      ],
+      "notes": [
+        "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_15",
+    "document": "Table 15. LPDMA programming for SPI",
+    "rev": null,
+    "table_number": "15",
+    "title": "Table 15. LPDMA programming for SPI",
+    "page": 12,
+    "section": "3.4.1 CORDIC coprocessor",
+    "section_title": "CORDIC coprocessor",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=12",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 15. LPDMA programming for SPI — section 3.4.1 CORDIC coprocessor. LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "32-bit recommended. If not applicable, 8-bit or 16-bit.",
+          "Depends on SPI settings."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_16",
+    "document": "Table 16. CORDIC peripheral information",
+    "rev": null,
+    "table_number": "16",
+    "title": "Table 16. CORDIC peripheral information",
+    "page": 13,
+    "section": "3.5.1 Low-power timers (LPTIM)",
+    "section_title": "Low-power timers (LPTIM)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=13",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 16. CORDIC peripheral information — section 3.5.1 Low-power timers (LPTIM). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "cordic_rd_dma",
+          "AHB1",
+          "None",
+          "Read CORDIC_RDATA",
+          "Request for a new computed output data to be read by the LPDMA. Must be read with a 32-bit aligned address."
+        ],
+        [
+          "cordic_wr_dma",
+          "AHB1",
+          "None",
+          "Write CORDIC_WDATA",
+          "Request for a new input data to be written by the LPDMA for computation. Must be written with a 32-bit aligned address."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_17",
+    "document": "Table 17. LPDMA programming for CORDIC",
+    "rev": null,
+    "table_number": "17",
+    "title": "Table 17. LPDMA programming for CORDIC",
+    "page": 13,
+    "section": "3.5.1 Low-power timers (LPTIM)",
+    "section_title": "Low-power timers (LPTIM)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=13",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 17. LPDMA programming for CORDIC — section 3.5.1 Low-power timers (LPTIM). LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "16-bit or 32-bit",
+          "Depends on CORDIC settings."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_18",
+    "document": "Table 18. LPTIM peripheral information",
+    "rev": null,
+    "table_number": "18",
+    "title": "Table 18. LPTIM peripheral information",
+    "page": 14,
+    "section": "3.5.1 Low-power timers (LPTIM)",
+    "section_title": "Low-power timers (LPTIM)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=14",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 18. LPTIM peripheral information — section 3.5.1 Low-power timers (LPTIM). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "lptimx_icy_dma (x = 1 and y = 1, 2)",
+          "LPTIM1 on APB3",
+          "None",
+          "Read 16-bit/32-bit LPTIMx_CCRy",
+          "Request to read the capture compare register on an input capture event (connected input signal). Must be a 32-bit aligned address access."
+        ],
+        [
+          "lptim_ue_dma",
+          "LPTIM1 on APB3",
+          "None",
+          "Write up to 3x 16-bit or 3x 32-bit registers among LPTIMx_CCR1, LPTIMx_CCR2, LPTIMx_RCR and mandated LPTIMx_ARR",
+          "Request to up to three writes of the LPTIMx registers on an update event. Must be a 32-bit aligned address access."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_19",
+    "document": "Table 19. LPDMA programming for LPTIM",
+    "rev": null,
+    "table_number": "19",
+    "title": "Table 19. LPDMA programming for LPTIM",
+    "page": 14,
+    "section": "3.5.1 Low-power timers (LPTIM)",
+    "section_title": "Low-power timers (LPTIM)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=14",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 19. LPDMA programming for LPTIM — section 3.5.1 Low-power timers (LPTIM). LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "16-bit or 32-bit",
+          "Depends on LPTIM settings. A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_20",
+    "document": "Table 20. TIM6/7 peripheral information",
+    "rev": null,
+    "table_number": "20",
+    "title": "Table 20. TIM6/7 peripheral information",
+    "page": 15,
+    "section": "3.5.1 Low-power timers (LPTIM)",
+    "section_title": "Low-power timers (LPTIM)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=15",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 20. TIM6/7 peripheral information — section 3.5.1 Low-power timers (LPTIM). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "timx_upd_dma/ timx_up_dma (x = 6, 7)",
+          "APB1",
+          "None",
+          "Write 32-bit TIMx_ARR",
+          "Request on an update event (on a counter overflow)"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_21",
+    "document": "Table 21. LPDMA programming for TIM6/7",
+    "rev": null,
+    "table_number": "21",
+    "title": "Table 21. LPDMA programming for TIM6/7",
+    "page": 15,
+    "section": "3.5.1 Low-power timers (LPTIM)",
+    "section_title": "Low-power timers (LPTIM)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=15",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 21. LPDMA programming for TIM6/7 — section 3.5.1 Low-power timers (LPTIM). LPDMA destination data width, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA destination data width",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "32-bit",
+          "A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_22",
+    "document": "Table 22. TIM2/3/4/5/15/16/17 peripheral information",
+    "rev": null,
+    "table_number": "22",
+    "title": "Table 22. TIM2/3/4/5/15/16/17 peripheral information",
+    "page": 16,
+    "section": "3.5.3 General-purpose timers",
+    "section_title": "General-purpose timers",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=16",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 22. TIM2/3/4/5/15/16/17 peripheral information — section 3.5.3 General-purpose timers. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "timx_chy_dma/ timx_ccy_dma (x = 2 to 5 and y = 1 to 4) or (x = 15 and y = 1, 2) or (x = 16, 17 and y = 1)",
+          "APB1 for TIM2/3/4/5 APB2 for TIM15/16/17",
+          "None",
+          "32-bit write TIMx_ARR in basic mode or 32-bit write TIMx_CCRy in output compare/PWM mode or 32-bit read TIMx_CCRy in input capture mode or a series of 32-bit writes to TIMx_DMAR or a series of 32-bit writes to TIMx_DMAR",
+          "Request on an input capture event or an output compare event"
+        ],
+        [
+          "timx_upd_dma/timx_up (x = 2 to 5, 15 to 17)",
+          "APB1 for TIM2/3/4/5 APB2 for TIM15/16/17",
+          "None",
+          "32-bit write TIMx_ARR in basic mode or 32-bit write TIMx_CCRy in output compare/PWM mode or 32-bit read TIMx_CCRy in input capture mode or a series of 32-bit writes to TIMx_DMAR or a series of 32-bit writes to TIMx_DMAR",
+          "Request on an update event"
+        ],
+        [
+          "timx_trg_dma/ timx_trig_dma (x = 2 to 5, 15)",
+          "APB1 for TIM2/3/4/5 APB2 for TIM15/16/17",
+          "None",
+          "32-bit write TIMx_ARR in basic mode or 32-bit write TIMx_CCRy in output compare/PWM mode or 32-bit read TIMx_CCRy in input capture mode or a series of 32-bit writes to TIMx_DMAR or a series of 32-bit writes to TIMx_DMAR",
+          "Request on a trigger event"
+        ],
+        [
+          "tim15_com_dma",
+          "APB1 for TIM2/3/4/5 APB2 for TIM15/16/17",
+          "None",
+          "32-bit write TIMx_ARR in basic mode or 32-bit write TIMx_CCRy in output compare/PWM mode or 32-bit read TIMx_CCRy in input capture mode or a series of 32-bit writes to TIMx_DMAR or a series of 32-bit writes to TIMx_DMAR",
+          "Request on a commutation event"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_23",
+    "document": "Table 23. LPDMA programming for TIM2/3/4/5/15/16/17",
+    "rev": null,
+    "table_number": "23",
+    "title": "Table 23. LPDMA programming for TIM2/3/4/5/15/16/17",
+    "page": 16,
+    "section": "3.5.3 General-purpose timers",
+    "section_title": "General-purpose timers",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=16",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 23. LPDMA programming for TIM2/3/4/5/15/16/17 — section 3.5.3 General-purpose timers. LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "32-bit",
+          "Depends on TIM settings. A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_24",
+    "document": "Table 24. TIM1/8 peripheral information",
+    "rev": null,
+    "table_number": "24",
+    "title": "Table 24. TIM1/8 peripheral information",
+    "page": 17,
+    "section": "3.5.3 General-purpose timers",
+    "section_title": "General-purpose timers",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=17",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 24. TIM1/8 peripheral information — section 3.5.3 General-purpose timers. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "timx_chy_dma/ timx_ccy_dma (x = 1, 8 and y = 1 to 4)",
+          "APB2",
+          "None",
+          "No tightly coupled timer register read/write Typically a 32-bit read/write to TIMx_CCRy or a 16-/32-bit read/write to TIMx_RCR or a series of 32-bit read/ writes to TIMx_DMAR (x = 1, 8 and y = 1 to 4)",
+          "Request on an input capture event or an output compare event"
+        ],
+        [
+          "timx_upd_dma/ timx_up_dma (x = 1, 8)",
+          "APB2",
+          "None",
+          "No tightly coupled timer register read/write Typically a 32-bit read/write to TIMx_CCRy or a 16-/32-bit read/write to TIMx_RCR or a series of 32-bit read/ writes to TIMx_DMAR (x = 1, 8 and y = 1 to 4)",
+          "Request on an update event"
+        ],
+        [
+          "timx_trg_dma/ timx_trig_dma (x = 1, 8)",
+          "APB2",
+          "None",
+          "No tightly coupled timer register read/write Typically a 32-bit read/write to TIMx_CCRy or a 16-/32-bit read/write to TIMx_RCR or a series of 32-bit read/ writes to TIMx_DMAR (x = 1, 8 and y = 1 to 4)",
+          "Request on a trigger event"
+        ],
+        [
+          "timx_com_dma (x = 1, 8)",
+          "APB2",
+          "None",
+          "No tightly coupled timer register read/write Typically a 32-bit read/write to TIMx_CCRy or a 16-/32-bit read/write to TIMx_RCR or a series of 32-bit read/ writes to TIMx_DMAR (x = 1, 8 and y = 1 to 4)",
+          "Request on a commutation event"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_25",
+    "document": "Table 25. LPDMA programming for TIM1/8",
+    "rev": null,
+    "table_number": "25",
+    "title": "Table 25. LPDMA programming for TIM1/8",
+    "page": 18,
+    "section": "3.5.3 General-purpose timers",
+    "section_title": "General-purpose timers",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=18",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 25. LPDMA programming for TIM1/8 — section 3.5.3 General-purpose timers. LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "32-bit (or 16-bit for TIMx_RCR)",
+          "Depends on TIM settings. A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_26",
+    "document": "Table 26. HASH peripheral information",
+    "rev": null,
+    "table_number": "26",
+    "title": "Table 26. HASH peripheral information",
+    "page": 18,
+    "section": "3.6.1 Hash processor (HASH)",
+    "section_title": "Hash processor (HASH)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=18",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 26. HASH peripheral information — section 3.6.1 Hash processor (HASH). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "hash_in_dma",
+          "AHB2",
+          "16-word FIFO",
+          "Write 32-bit HASH_IN",
+          "HASH input data register (HASH_IN) is written by a single word."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_27",
+    "document": "Table 27. LPDMA programming for HASH",
+    "rev": null,
+    "table_number": "27",
+    "title": "Table 27. LPDMA programming for HASH",
+    "page": 18,
+    "section": "3.6.1 Hash processor (HASH)",
+    "section_title": "Hash processor (HASH)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=18",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 27. LPDMA programming for HASH — section 3.6.1 Hash processor (HASH). LPDMA destination data width, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA destination data width",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "32-bit",
+          "-"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_28",
+    "document": "Table 28. AES peripheral information",
+    "rev": null,
+    "table_number": "28",
+    "title": "Table 28. AES peripheral information",
+    "page": 19,
+    "section": "3.6.2 AES hardware accelerator (AES)",
+    "section_title": "AES hardware accelerator (AES)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=19",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 28. AES peripheral information — section 3.6.2 AES hardware accelerator (AES). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "aes_in_dma",
+          "AHB2",
+          "128-bit/4-word input buffer",
+          "Write 32-bit AES_DINR",
+          "Request for a new 32-bit input data to be written by the LPDMA"
+        ],
+        [
+          "aes_out_dma",
+          "AHB2",
+          "128-bit/4-word output buffer",
+          "Read 32-bit AES_DOUTR",
+          "Request for a new 32-bit output data to be read by the LPDMA"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_29",
+    "document": "Table 29. LPDMA programming for AES",
+    "rev": null,
+    "table_number": "29",
+    "title": "Table 29. LPDMA programming for AES",
+    "page": 19,
+    "section": "3.6.2 AES hardware accelerator (AES)",
+    "section_title": "AES hardware accelerator (AES)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=19",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 29. LPDMA programming for AES — section 3.6.2 AES hardware accelerator (AES). LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "32-bit",
+          "-"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_30",
+    "document": "Table 30. XSPI peripheral information",
+    "rev": null,
+    "table_number": "30",
+    "title": "Table 30. XSPI peripheral information",
+    "page": 20,
+    "section": "3.7.1 Extended-SPI interface (XSPI)",
+    "section_title": "Extended-SPI interface (XSPI)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=20",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 30. XSPI peripheral information — section 3.7.1 Extended-SPI interface (XSPI). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+    "table_content": {
+      "headers": [
+        "Peripheral request to LPDMA",
+        "Peripheral bus",
+        "Peripheral FIFO (unit, size)",
+        "Peripheral register access",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "xspi1_rx_dma",
+          "AHB_XSPI (dedicated target of bus matrix)",
+          "32-byte FIFO",
+          "Read/Write 8-bit, 16-bit or 32-bit XSPI_DR",
+          "It is recommended to access XSPI_DR with a 32-bit data width when it is allowed by the application to use efficiently the system bus bandwidth. FTHRES[4:0] is the XSPI_CR register must be set accordingly. Must be a 32-bit aligned address access."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_31",
+    "document": "Table 31. LPDMA programming for XSPI",
+    "rev": null,
+    "table_number": "31",
+    "title": "Table 31. LPDMA programming for XSPI",
+    "page": 20,
+    "section": "3.7.1 Extended-SPI interface (XSPI)",
+    "section_title": "Extended-SPI interface (XSPI)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=20",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 31. LPDMA programming for XSPI — section 3.7.1 Extended-SPI interface (XSPI). LPDMA data width for source and destination, Comments.",
+    "table_content": {
+      "headers": [
+        "LPDMA data width for source and destination",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "8-bit, 16-bit or 32-bit",
+          "Depends on XSPI settings."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_32",
+    "document": "Table 32. LPDMA read-plus-write transfer to SRAM latency",
+    "rev": null,
+    "table_number": "32",
+    "title": "Table 32. LPDMA read-plus-write transfer to SRAM latency",
+    "page": 24,
+    "section": "4.4.1 Transfer latency and execution time",
+    "section_title": "Transfer latency and execution time",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=24",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 32. LPDMA read-plus-write transfer to SRAM latency — section 4.4.1 Transfer latency and execution time. LPDMA1/2 transfers from and to SRAM1/2, Direct read-plus-write latency (cycles) (if no other manager accesses the same subordinate).",
+    "table_content": {
+      "headers": [
+        "LPDMA1/2 transfers from and to SRAM1/2",
+        "Direct read-plus-write latency (cycles) (if no other manager accesses the same subordinate)"
+      ],
+      "rows": [
+        [
+          "LPDMA1 <-> SRAM1",
+          "3"
+        ],
+        [
+          "LPDMA1 -> SRAM2",
+          "3"
+        ],
+        [
+          "LPDMA2 -> SRAM2",
+          "3"
+        ],
+        [
+          "SRAM1 -> LPDMA1 -> SRAM2",
+          "4"
+        ],
+        [
+          "SRAM1 -> LPDMA2 -> SRAM2",
+          "4"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_33",
+    "document": "Table 33. LPDMA in memory-to-memory mode, SRAM (read+write) transfer rate and throughput",
+    "rev": null,
+    "table_number": "33",
+    "title": "Table 33. LPDMA in memory-to-memory mode, SRAM (read+write) transfer rate and throughput",
+    "page": 25,
+    "section": "4.4.2 Transfer rate/throughput and bandwidth",
+    "section_title": "Transfer rate/throughput and bandwidth",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=25",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 33. LPDMA in memory-to-memory mode, SRAM (read+write) transfer rate and throughput — section 4.4.2 Transfer rate/throughput and bandwidth. Programmed LPDMA source & destination data width, Number of cycles (per direct transfer), Transfer rate with a 100 MHz AHB clock (Mtransfer/s), Throughp...",
+    "table_content": {
+      "headers": [
+        "Programmed LPDMA source & destination data width",
+        "Number of cycles (per direct transfer)",
+        "Transfer rate with a 100 MHz AHB clock (Mtransfer/s)",
+        "Throughput with a 100 MHz AHB clock (MByte/s)"
+      ],
+      "rows": [
+        [
+          "8-bit",
+          "3 to 4",
+          "25 to 33",
+          "25 to 33"
+        ],
+        [
+          "16-bit",
+          "3 to 4",
+          "25 to 33",
+          "50 to 66"
+        ],
+        [
+          "32-bit",
+          "3 to 4",
+          "25 to 33",
+          "100 to 133"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_34",
+    "document": "Table 34. AHB-to-APB bridge: read or write AHB transaction latency to APB register",
+    "rev": null,
+    "table_number": "34",
+    "title": "Table 34. AHB-to-APB bridge: read or write AHB transaction latency to APB register",
+    "page": 25,
+    "section": "4.5.2 AHB-to-APB bridge transfer latency",
+    "section_title": "AHB-to-APB bridge transfer latency",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=25",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 34. AHB-to-APB bridge: read or write AHB transaction latency to APB register — section 4.5.2 AHB-to-APB bridge transfer latency. AHB/APB clock ratio, Read latency (AHB clock cycles), Write latency (AHB clock cycles).",
+    "table_content": {
+      "headers": [
+        "AHB/APB clock ratio",
+        "Read latency (AHB clock cycles)",
+        "Write latency (AHB clock cycles)"
+      ],
+      "rows": [
+        [
+          "1:1",
+          "4",
+          "4 to 5"
+        ],
+        [
+          "1:2",
+          "5 to 6",
+          "5 to 6"
+        ],
+        [
+          "1:4",
+          "9 to 12",
+          "9 to 12"
+        ],
+        [
+          "1:8",
+          "17 to 24",
+          "17 to 24"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_35",
+    "document": "Table 35. LPDMA read or write transfer latency to APB register",
+    "rev": null,
+    "table_number": "35",
+    "title": "Table 35. LPDMA read or write transfer latency to APB register",
+    "page": 26,
+    "section": "4.5.2 AHB-to-APB bridge transfer latency",
+    "section_title": "AHB-to-APB bridge transfer latency",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=26",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 35. LPDMA read or write transfer latency to APB register — section 4.5.2 AHB-to-APB bridge transfer latency. AHB/APB clock ratio, Read latency (AHB clock cycles), Write latency (AHB clock cycles).",
+    "table_content": {
+      "headers": [
+        "AHB/APB clock ratio",
+        "Read latency (AHB clock cycles)",
+        "Write latency (AHB clock cycles)"
+      ],
+      "rows": [
+        [
+          "1:1",
+          "4 to 6",
+          "4 to 6"
+        ],
+        [
+          "1:2",
+          "5 to 7",
+          "5 to 7"
+        ],
+        [
+          "1:4",
+          "9 to 13",
+          "9 to 13"
+        ],
+        [
+          "1:8",
+          "17 to 25",
+          "17 to 25"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_36",
+    "document": "Table 36. Document revision history",
+    "rev": null,
+    "table_number": "36",
+    "title": "Table 36. Document revision history",
+    "page": 27,
+    "section": "4.5.2 AHB-to-APB bridge transfer latency",
+    "section_title": "AHB-to-APB bridge transfer latency",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=27",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+    "text_helper": "Table 36. Document revision history — section 4.5.2 AHB-to-APB bridge transfer latency. Date, Version, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Version",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "03-Mar-2026",
+          "1",
+          "Initial release."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

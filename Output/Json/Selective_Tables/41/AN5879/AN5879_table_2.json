@@ -1,0 +1,80 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. I3C versus I2C capabilities",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. I3C versus I2C capabilities",
+  "page": 6,
+  "section": "2.4 Block diagram",
+  "section_title": "Block diagram",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=6",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 2. I3C versus I2C capabilities — section 2.4 Block diagram. Parameters, I3C, I2C.",
+  "table_content": {
+    "headers": [
+      "Parameters",
+      "I3C",
+      "I2C"
+    ],
+    "rows": [
+      [
+        "Protocol",
+        "Serial, half-duplex",
+        "Serial, half-duplex"
+      ],
+      [
+        "Frequency",
+        "Up to 12.5 MHz (SDR)",
+        "Up to 1 MHz"
+      ],
+      [
+        "Signaling",
+        "Open-drain Push-pull",
+        "Only open-drain"
+      ],
+      [
+        "Pull-up resistors at bus level",
+        "Not required",
+        "Required"
+      ],
+      [
+        "I3C reserved address 7'h7E",
+        "To begin I3C SDR transfer",
+        "Not allowed"
+      ],
+      [
+        "Address",
+        "7-bit (Static address for I2C devices and dynamic address for I3C devices)",
+        "7-bit static address 10-bit static address"
+      ],
+      [
+        "Dynamic addressing",
+        "Supported",
+        "Not supported"
+      ],
+      [
+        "In-band interrupt",
+        "Supported",
+        "Not supported"
+      ],
+      [
+        "Hot-join",
+        "Supported",
+        "Not supported"
+      ],
+      [
+        "Multicontrollers",
+        "Supported",
+        "Supported"
+      ]
+    ],
+    "notes": [
+      "1. Available only on STM32H543/553xx. AN5879 - Rev 6 page 7/52"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

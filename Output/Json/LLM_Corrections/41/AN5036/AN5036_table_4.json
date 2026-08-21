@@ -1,0 +1,22 @@
+{
+  "table_id": "table_4",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Header",
+      "row_index": null,
+      "analyse_visuelle": "L'en-tête de la première colonne affiche TJ (°C) avec 'J' en indice, mal extrait sous la forme 'T (°C) / J'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "T (°C) / J",
+          "nouvelle_valeur": "TJ (°C)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

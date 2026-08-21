@@ -1,0 +1,162 @@
+{
+  "table_id": "table_67",
+  "caption": "Table 67. LQFP32 – Mechanical data",
+  "pdf_name": "stm32c031c4",
+  "family": "C0",
+  "page": 90,
+  "merged_pages": [
+    90
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=90",
+  "section": "6.1 Device marking",
+  "headers": [
+    "Symbol",
+    "millimeters / Min",
+    "millimeters / Typ",
+    "millimeters / Max",
+    "inches(14) / Min",
+    "inches(14) / Typ",
+    "inches(14) / Max"
+  ],
+  "rows": [
+    [
+      "A1(12)",
+      "0.05",
+      "-",
+      "0.15",
+      "0.002",
+      "-",
+      "0.0059"
+    ],
+    [
+      "b(9)(11)",
+      "0.30",
+      "0.37",
+      "0.45",
+      "0.0118",
+      "0.0146",
+      "0.0177"
+    ],
+    [
+      "b1(11)",
+      "0.30",
+      "0.35",
+      "0.40",
+      "0.0118",
+      "0.0128",
+      "0.0157"
+    ],
+    [
+      "e",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.0315 BSC",
+      "0.0315 BSC",
+      "0.0315 BSC"
+    ],
+    [
+      "N(13)",
+      "32",
+      "32",
+      "32",
+      "32",
+      "32",
+      "32"
+    ],
+    [
+      "θ2",
+      "11°",
+      "12°",
+      "13°",
+      "11°",
+      "12°",
+      "13°"
+    ],
+    [
+      "θ3",
+      "11°",
+      "12°",
+      "13°",
+      "11°",
+      "12°",
+      "13°"
+    ],
+    [
+      "ccc(1)(7)",
+      "0.10",
+      "0.10",
+      "0.10",
+      "0.0039",
+      "0.0039",
+      "0.0039"
+    ],
+    [
+      "ddd(1)(7)",
+      "0.20",
+      "0.20",
+      "0.20",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+      "2. The Top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+      "4. To be determined at seating datum plane C.",
+      "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size",
+      "7. All Dimensions are in millimeters.",
+      "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm.",
+      "11. These dimensions apply to the flat section of the lead between 0.10 mm and 0.25 mm from the lead tip.",
+      "12. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "13. “N” is the number of terminal positions for the specified body size.",
+      "14. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ],
+    "_dedup_rows_removed": 17,
+    "_dedup_removed_indices": [
+      0,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      15,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c031c4",
+    "table_id": "table_67",
+    "is_continued": false,
+    "pages": [
+      90
+    ],
+    "rows_count": 9,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

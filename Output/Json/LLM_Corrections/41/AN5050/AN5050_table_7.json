@@ -1,0 +1,20 @@
+{
+  "table_id": "table_7",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "Instance",
+        "OCTOSPI1",
+        "OCTOSPI2",
+        "OCTOSPI1",
+        "OCTOSPI2",
+        "OCTOSPI1"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

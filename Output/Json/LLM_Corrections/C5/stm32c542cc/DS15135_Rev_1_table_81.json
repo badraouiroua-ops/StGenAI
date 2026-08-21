@@ -1,0 +1,24 @@
+{
+  "table_id": "table_81",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Correction de l'erreur OCR sur la valeur '00067' à la ligne b1(11.) (manque le point décimal)."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "b1(11.)",
+      "row_index": 4,
+      "analyse_visuelle": "Sur l'image, la valeur dans la colonne 'inches Min' pour b1(11.) est clairement '0.0067'. Le JSON contenait '00067' à cause d'une omission du point par l'OCR.",
+      "corrections": [
+        {
+          "colonne_index": 4,
+          "valeur_originale_json": "00067",
+          "nouvelle_valeur": "0.0067",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

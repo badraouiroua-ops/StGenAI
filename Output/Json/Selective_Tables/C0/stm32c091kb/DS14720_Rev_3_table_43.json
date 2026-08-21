@@ -1,0 +1,161 @@
+{
+  "table_id": "table_43",
+  "document": "DS14720 Rev 3 - Table 43. Flash memory characteristics",
+  "rev": "Rev 3",
+  "table_number": "43",
+  "title": "Table 43. Flash memory characteristics",
+  "page": 67,
+  "section": "5.3.9 Flash memory characteristics",
+  "section_title": "Flash memory characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=67",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 43. Flash memory characteristics — section 5.3.9 Flash memory characteristics. Symbol, Parameter(1), Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter(1)",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t prog",
+        "Word programming time",
+        "64 bits",
+        "-",
+        "85.0",
+        "125.0",
+        "µs"
+      ],
+      [
+        "t prog_row",
+        "Row (32 double word) programming time",
+        "Normal programming",
+        "-",
+        "2.7",
+        "4.6",
+        "ms"
+      ],
+      [
+        "t prog_row",
+        "Row (32 double word) programming time",
+        "Fast programming",
+        "-",
+        "1.7",
+        "2.8",
+        "ms"
+      ],
+      [
+        "t prog_page",
+        "Page (2 Kbyte) programming time",
+        "Normal programming",
+        "-",
+        "21.8",
+        "36.6",
+        "ms"
+      ],
+      [
+        "t prog_page",
+        "Page (2 Kbyte) programming time",
+        "Fast programming",
+        "-",
+        "13.7",
+        "22.4",
+        "ms"
+      ],
+      [
+        "t ERASE",
+        "Page (2 Kbyte) erase time",
+        "-",
+        "-",
+        "22.0",
+        "40.0",
+        "ms"
+      ],
+      [
+        "t prog_bank",
+        "Bank (256 Kbyte(2)) programming time",
+        "Normal programming",
+        "-",
+        "0.7",
+        "1.2",
+        "s"
+      ],
+      [
+        "t prog_bank",
+        "Bank (256 Kbyte(2)) programming time",
+        "Fast programming",
+        "-",
+        "0.5",
+        "0.7",
+        "s"
+      ],
+      [
+        "t ME",
+        "Mass erase time",
+        "-",
+        "-",
+        "22.1",
+        "40.1",
+        "ms"
+      ],
+      [
+        "I DD(FlashA)",
+        "Average consumption from V DD",
+        "Programming",
+        "-",
+        "3.0",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD(FlashA)",
+        "Average consumption from V DD",
+        "Page erase",
+        "-",
+        "3.0",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD(FlashA)",
+        "Average consumption from V DD",
+        "Mass erase",
+        "-",
+        "5.0",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD(FlashP)",
+        "Maximum current (peak)",
+        "Programming, 2 µs peak duration",
+        "-",
+        "7.0",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD(FlashP)",
+        "Maximum current (peak)",
+        "Erase, 41 µs peak duration",
+        "-",
+        "7.0",
+        "-",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Based on characterization results, not tested in production",
+      "2. Specified by design. Not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

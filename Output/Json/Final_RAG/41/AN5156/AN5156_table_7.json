@@ -1,0 +1,56 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. Software isolation mechanism.",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. Software isolation mechanism.",
+  "page": 22,
+  "section": "4.5 Software isolation",
+  "section_title": "Software isolation",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=22",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 7. Software isolation mechanism. — section 4.5 Software isolation. Protection, Type, Isolation.",
+  "table_content": {
+    "headers": [
+      "Protection",
+      "Type",
+      "Isolation"
+    ],
+    "rows": [
+      [
+        "MPU",
+        "Dynamic",
+        "By privilege attribute (1)"
+      ],
+      [
+        "Firewall",
+        "Static",
+        "By bus address hardware control"
+      ],
+      [
+        "Secure hide protection (HDP)",
+        "Static",
+        "Process preemption at reset"
+      ],
+      [
+        "Dual core",
+        "Static",
+        "By core ID(2)"
+      ],
+      [
+        "TrustZone®/Security attribute",
+        "Static and dynamic",
+        "By secure attribute propagated from the core to all resources"
+      ]
+    ],
+    "notes": [
+      "1. Support of this feature in Armv6-M products is limited as constant data cannot be stored in NVM.",
+      "2. Write protection can be unset when RDP level ≠ 2."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

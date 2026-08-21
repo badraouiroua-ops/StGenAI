@@ -1,0 +1,22 @@
+{
+  "table_id": "table_8",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "ENTAS 0...3 0x02 to0x05 Broadcast",
+      "row_index": 7,
+      "analyse_visuelle": "Correction de l'espace manquant entre 'to' et '0x05'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "0x02 to0x05",
+          "nouvelle_valeur": "0x02 to 0x05",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

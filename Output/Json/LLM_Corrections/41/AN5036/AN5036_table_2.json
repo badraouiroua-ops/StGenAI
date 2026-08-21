@@ -1,0 +1,48 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Theta‑JA",
+      "row_index": 0,
+      "analyse_visuelle": "La formule dans la colonne Value est une fraction (TJ - TA) / PTOT. Le dénominateur PTOT avait glissé dans la ligne suivante lors de l'extraction.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "TJ-TA",
+          "nouvelle_valeur": "(TJ − TA) / PTOT",
+          "confiance": 95
+        }
+      ]
+    },
+    {
+      "ligne": "Theta‑JC",
+      "row_index": 1,
+      "analyse_visuelle": "La formule dans la colonne Value est (TJ - TC) / PC. Le texte contenait PTOT de la ligne précédente et avait perdu son dénominateur PC au profit de la ligne suivante.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "PTOT TJ-TC",
+          "nouvelle_valeur": "(TJ − TC) / PC",
+          "confiance": 95
+        }
+      ]
+    },
+    {
+      "ligne": "Theta‑JB",
+      "row_index": 2,
+      "analyse_visuelle": "La formule dans la colonne Value est (TJ - TB) / PB. Le texte contenait PC de la ligne précédente et manquait PB.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "PC TJ-TB",
+          "nouvelle_valeur": "(TJ − TB) / PB",
+          "confiance": 95
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

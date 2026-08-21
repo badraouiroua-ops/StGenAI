@@ -1,0 +1,40 @@
+{
+  "table_id": "table_17",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau",
+      "row_index": null,
+      "analyse_visuelle": "Les noms de colonnes dans l'en-tête contiennent des résidus de texte de l'en-tête précédent qui ont été fusionnés lors de l'extraction OCR ('hse_ckhsik_ck' -> 'hse_ck', 'hsi_ker_ckhse_ck' -> 'hsi_ker_ck', 'csi_ker_cklse_ck' -> 'csi_ker_ck', 'lsi_ckAUDIOCLK' -> 'lsi_ck').",
+      "corrections": [
+        {
+          "colonne_index": 11,
+          "valeur_originale_json": "hse_ckhsik_ck",
+          "nouvelle_valeur": "hse_ck",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 12,
+          "valeur_originale_json": "hsi_ker_ckhse_ck",
+          "nouvelle_valeur": "hsi_ker_ck",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 13,
+          "valeur_originale_json": "csi_ker_cklse_ck",
+          "nouvelle_valeur": "csi_ker_ck",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 16,
+          "valeur_originale_json": "lsi_ckAUDIOCLK",
+          "nouvelle_valeur": "lsi_ck",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

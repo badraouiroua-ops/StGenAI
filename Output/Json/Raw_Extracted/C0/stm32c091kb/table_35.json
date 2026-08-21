@@ -1,0 +1,269 @@
+{
+  "table_id": "table_35",
+  "caption": "Table 35. Current consumption of peripherals",
+  "pdf_name": "stm32c091kb",
+  "family": "C0",
+  "page": 60,
+  "merged_pages": [
+    60,
+    61
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=60",
+  "section": "5.3.5 Supply current characteristics",
+  "headers": [
+    "Peripheral",
+    "Bus",
+    "Consumption in µA/MHz"
+  ],
+  "rows": [
+    [
+      "IOPORT bus",
+      "IOPORT",
+      "0.1"
+    ],
+    [
+      "GPIOA",
+      "IOPORT",
+      "1.5"
+    ],
+    [
+      "GPIOB",
+      "IOPORT",
+      "1.5"
+    ],
+    [
+      "GPIOC",
+      "IOPORT",
+      "1.5"
+    ],
+    [
+      "GPIOD",
+      "IOPORT",
+      "1.5"
+    ],
+    [
+      "GPIOF",
+      "IOPORT",
+      "0.7"
+    ],
+    [
+      "Bus matrix",
+      "AHB",
+      "0.3"
+    ],
+    [
+      "All AHB peripherals",
+      "AHB",
+      "10.1"
+    ],
+    [
+      "DMA1",
+      "AHB",
+      "3.7"
+    ],
+    [
+      "FLASH",
+      "AHB",
+      "5.3"
+    ],
+    [
+      "SRAM1",
+      "AHB",
+      "0.7"
+    ],
+    [
+      "CRC1",
+      "AHB",
+      "0.4"
+    ],
+    [
+      "All APB peripherals",
+      "APB",
+      "47.2"
+    ],
+    [
+      "AHB to APB bridge (2)",
+      "",
+      "0.3"
+    ],
+    [
+      "TIM3",
+      "",
+      "3.5"
+    ],
+    [
+      "RTCAPB",
+      "",
+      "1.4"
+    ],
+    [
+      "WWDG1",
+      "",
+      "0.3"
+    ],
+    [
+      "USART2",
+      "",
+      "1.8"
+    ],
+    [
+      "USART3",
+      "",
+      "1.9"
+    ],
+    [
+      "USART4",
+      "",
+      "1.9"
+    ],
+    [
+      "I2C1",
+      "",
+      "0.8"
+    ],
+    [
+      "I2C1 independent clock domain",
+      "",
+      "2.4"
+    ],
+    [
+      "I2C2",
+      "",
+      "0.8"
+    ],
+    [
+      "DBGMCU1",
+      "",
+      "0.1"
+    ],
+    [
+      "PWR",
+      "",
+      "0.4"
+    ],
+    [
+      "SYSCFG",
+      "",
+      "0.5"
+    ],
+    [
+      "TIM1",
+      "",
+      "6.2"
+    ],
+    [
+      "TIM2",
+      "",
+      "4.3"
+    ],
+    [
+      "SPI1",
+      "",
+      "2.1"
+    ],
+    [
+      "SPI1 independent clock domain",
+      "",
+      "0.6"
+    ],
+    [
+      "SPI2",
+      "",
+      "1.9"
+    ],
+    [
+      "USART1",
+      "",
+      "2.2"
+    ],
+    [
+      "USART1 independent clock domain",
+      "",
+      "5.2"
+    ],
+    [
+      "TIM14",
+      "",
+      "1.5"
+    ],
+    [
+      "TIM15",
+      "",
+      "1.1"
+    ],
+    [
+      "TIM16",
+      "",
+      "2.7"
+    ],
+    [
+      "TIM17",
+      "",
+      "2.7"
+    ],
+    [
+      "ADC1",
+      "",
+      "1.2"
+    ],
+    [
+      "ADC1 independent clock domain",
+      "",
+      "0.1"
+    ],
+    [
+      "FDCAN",
+      "",
+      "8.4"
+    ],
+    [
+      "FDCAN independent clock domain",
+      "",
+      "2.8"
+    ],
+    [
+      "All peripherals",
+      "",
+      "67.5"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.2302,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 3,
+      "cont_cols_raw": 3,
+      "target_cols": 3,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c091kb",
+    "table_id": "table_35",
+    "is_continued": true,
+    "pages": [
+      60,
+      61
+    ],
+    "rows_count": 42,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.2302
+  }
+}

@@ -1,0 +1,1143 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Applicable products",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "Introduction",
+    "section_title": "Introduction",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=1",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 1. Applicable products — section Introduction. Type, Products.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Products"
+      ],
+      "rows": [
+        [
+          "Microcontroller",
+          "STM32H5 series, STM32H7R3/7S3 line, STM32H7R7/7S7 line, STM32U3 series, STM32N6 series, STM32C5 series"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. I3C versus I2C capabilities",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. I3C versus I2C capabilities",
+    "page": 6,
+    "section": "2.4 Block diagram",
+    "section_title": "Block diagram",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=6",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 2. I3C versus I2C capabilities — section 2.4 Block diagram. Parameters, I3C, I2C.",
+    "table_content": {
+      "headers": [
+        "Parameters",
+        "I3C",
+        "I2C"
+      ],
+      "rows": [
+        [
+          "Protocol",
+          "Serial, half-duplex",
+          "Serial, half-duplex"
+        ],
+        [
+          "Frequency",
+          "Up to 12.5 MHz (SDR)",
+          "Up to 1 MHz"
+        ],
+        [
+          "Signaling",
+          "Open-drain Push-pull",
+          "Only open-drain"
+        ],
+        [
+          "Pull-up resistors at bus level",
+          "Not required",
+          "Required"
+        ],
+        [
+          "I3C reserved address 7'h7E",
+          "To begin I3C SDR transfer",
+          "Not allowed"
+        ],
+        [
+          "Address",
+          "7-bit (Static address for I2C devices and dynamic address for I3C devices)",
+          "7-bit static address 10-bit static address"
+        ],
+        [
+          "Dynamic addressing",
+          "Supported",
+          "Not supported"
+        ],
+        [
+          "In-band interrupt",
+          "Supported",
+          "Not supported"
+        ],
+        [
+          "Hot-join",
+          "Supported",
+          "Not supported"
+        ],
+        [
+          "Multicontrollers",
+          "Supported",
+          "Supported"
+        ]
+      ],
+      "notes": [
+        "1. Available only on STM32H543/553xx. AN5879 - Rev 6 page 7/52"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. I3C peripheral versus MIPI v1.1",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. I3C peripheral versus MIPI v1.1",
+    "page": 7,
+    "section": "2.4 Block diagram",
+    "section_title": "Block diagram",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=7",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 3. I3C peripheral versus MIPI v1.1 — section 2.4 Block diagram. Feature, MIPI I3C v1.1, I3C peripheral / Controller, I3C peripheral / Target, Comments.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "MIPI I3C v1.1",
+        "I3C peripheral / Controller",
+        "I3C peripheral / Target",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "I3C SDR message",
+          "X",
+          "X",
+          "X",
+          "-"
+        ],
+        [
+          "Legacy I2C message",
+          "X",
+          "X",
+          "-",
+          "Mandatory as controller when there is an I2C target. Optional in MIPI v1.1 when target."
+        ],
+        [
+          "HDR message",
+          "X",
+          "-",
+          "-",
+          "Optional in MIPI v1.1."
+        ],
+        [
+          "Dynamic address",
+          "X",
+          "X",
+          "X",
+          "-"
+        ],
+        [
+          "Static address",
+          "X",
+          "X",
+          "X(1)",
+          "I3C peripheral cannot be a target on an I2C bus."
+        ],
+        [
+          "Grouped addressing",
+          "X",
+          "X",
+          "-",
+          "Optional in MIPI v1.1."
+        ],
+        [
+          "CCCs",
+          "X",
+          "X",
+          "X",
+          "All mandatory CCCs + some optional CCCs are supported."
+        ],
+        [
+          "Error detection & recovery",
+          "X",
+          "X",
+          "X",
+          "-"
+        ],
+        [
+          "IBI",
+          "X",
+          "X",
+          "X",
+          "-"
+        ],
+        [
+          "Secondary controller",
+          "X",
+          "X",
+          "X",
+          "-"
+        ],
+        [
+          "Hot join",
+          "X",
+          "X",
+          "X",
+          "-"
+        ],
+        [
+          "Target reset",
+          "X",
+          "X",
+          "X",
+          "-"
+        ],
+        [
+          "Asynchronous timing control 0",
+          "X",
+          "X",
+          "-",
+          "Mandatory in MIPI v1.1 when controller. Optional in MIPI v1.1 when target."
+        ],
+        [
+          "Synchronous & asynchronous timing control 1, 2, 3",
+          "X",
+          "-",
+          "-",
+          "Optional in MIPI v1.1."
+        ],
+        [
+          "Device to device tunneling",
+          "X",
+          "X",
+          "-",
+          "Optional in MIPI v1.1."
+        ],
+        [
+          "Multi-lane data transfer",
+          "X",
+          "-",
+          "-",
+          "Optional in MIPI v1.1."
+        ],
+        [
+          "Monitoring device early termination",
+          "X",
+          "-",
+          "-",
+          "Optional in MIPI v1.1."
+        ]
+      ],
+      "notes": [
+        "1. Available only on STM32H543/553xx. AN5879 - Rev 6 page 7/52"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. Electrical characteristics",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. Electrical characteristics",
+    "page": 10,
+    "section": "5.1 Electrical characteristics",
+    "section_title": "Electrical characteristics",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=10",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 4. Electrical characteristics — section 5.1 Electrical characteristics. Parameters, Min, Typical, Max, Unit.",
+    "table_content": {
+      "headers": [
+        "Parameters",
+        "Min",
+        "Typical",
+        "Max",
+        "Unit"
+      ],
+      "rows": [
+        [
+          "Operating voltage",
+          "1.10",
+          "1.20",
+          "1.30",
+          "V"
+        ],
+        [
+          "Operating voltage",
+          "1.65",
+          "1.80",
+          "1.95",
+          "V"
+        ],
+        [
+          "Operating voltage",
+          "2.97",
+          "3.30",
+          "3.63",
+          "V"
+        ],
+        [
+          "SCL clock frequency",
+          "0.01",
+          "12.5",
+          "12.9",
+          "MHz"
+        ],
+        [
+          "Total bus capacitance",
+          "-",
+          "50",
+          "-",
+          "pF"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_5",
+    "document": "Table 5. PID, DCR, and BCR",
+    "rev": null,
+    "table_number": "5",
+    "title": "Table 5. PID, DCR, and BCR",
+    "page": 14,
+    "section": "8.3 Bus format",
+    "section_title": "Bus format",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=14",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 5. PID, DCR, and BCR — section 8.3 Bus format. 48-bit provisioned ID, BCR, DCR, -.",
+    "table_content": {
+      "headers": [
+        "48-bit provisioned ID",
+        "BCR",
+        "DCR",
+        "-"
+      ],
+      "rows": [
+        [
+          "48 bits",
+          "8 bits",
+          "8bits",
+          "Lowest value concatenated provisioned ID, BCR, and DCR wins the arbitration round"
+        ]
+      ],
+      "notes": [
+        "1. I3C_EVR.DAUPDF: dynamic address update flag.",
+        "2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_6",
+    "document": "Table 6. Target address available for use",
+    "rev": null,
+    "table_number": "6",
+    "title": "Table 6. Target address available for use",
+    "page": 14,
+    "section": "8.3 Bus format",
+    "section_title": "Bus format",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=14",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 6. Target address available for use — section 8.3 Bus format. Target dynamic address / Binary, Target dynamic address / Hex, Restriction, Description.",
+    "table_content": {
+      "headers": [
+        "Target dynamic address / Binary",
+        "Target dynamic address / Hex",
+        "Restriction",
+        "Description"
+      ],
+      "rows": [
+        [
+          "0x0000000",
+          "7'h00",
+          "Shall not use",
+          "I3C reserved"
+        ],
+        [
+          "0x0001000 - 0x0111101",
+          "7'h08 – 7'h3D",
+          "Available for use",
+          "54 addresses"
+        ],
+        [
+          "0x0111111 -0x1011101",
+          "7'h3F – 7'h5D",
+          "Available for use",
+          "31 addresses"
+        ],
+        [
+          "0x101 1111-0x110 1101",
+          "7'h5F – 7'h6D",
+          "Available for use",
+          "15 addresses"
+        ],
+        [
+          "0x110 1111-0x111 0101",
+          "7'h6F – 7'h75",
+          "Available for use",
+          "7 addresses"
+        ],
+        [
+          "0x111 0111",
+          "7'h77",
+          "Available for use",
+          "1 address"
+        ],
+        [
+          "0x111 1111",
+          "7'h7F",
+          "Shall not use",
+          "I3C reserved: Broadcast address single bit error detect"
+        ]
+      ],
+      "notes": [
+        "1. I3C_EVR.DAUPDF: dynamic address update flag.",
+        "2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_7",
+    "document": "Table 7. Conditional target address",
+    "rev": null,
+    "table_number": "7",
+    "title": "Table 7. Conditional target address",
+    "page": 14,
+    "section": "8.3 Bus format",
+    "section_title": "Bus format",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=14",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 7. Conditional target address — section 8.3 Bus format. Target dynamic address / Binary, Target dynamic address / Hex, Restriction, Description.",
+    "table_content": {
+      "headers": [
+        "Target dynamic address / Binary",
+        "Target dynamic address / Hex",
+        "Restriction",
+        "Description"
+      ],
+      "rows": [
+        [
+          "0x0000011-0x0000011",
+          "7'h03-7'h04",
+          "Conditional",
+          "Available for use only if no legacy I2C devices supporting I2C \"High-speed mode\" are present on the bus"
+        ],
+        [
+          "0x1111000-0x1111001",
+          "7'h78-7'h79",
+          "Conditional",
+          "Available for use only if no legacy I2C devices are present on the bus that both 1. Support I2C \"extended address mode\" 2. Either have an extended address, or would be impacted by the extended address mechanism"
+        ],
+        [
+          "0x111 1011",
+          "7'h7B",
+          "Conditional",
+          "Available for use only if no legacy I2C devices are present on the bus that both: 1. Support I2C \"extended address mode\" 2. Either have an extended address, or would be impacted by the extended address mechanism"
+        ],
+        [
+          "0x111 1101",
+          "7'h7D",
+          "Conditional",
+          "Available for use only if no legacy I2C devices supporting I2C \"device ID mode\" are on the bus."
+        ]
+      ],
+      "notes": [
+        "1. I3C_EVR.DAUPDF: dynamic address update flag.",
+        "2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_8",
+    "document": "Table 8. List of supported CCCs supported by LSM6DSO",
+    "rev": null,
+    "table_number": "8",
+    "title": "Table 8. List of supported CCCs supported by LSM6DSO",
+    "page": 16,
+    "section": "8.8 Supported common command codes",
+    "section_title": "Supported common command codes",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=16",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 8. List of supported CCCs supported by LSM6DSO — section 8.8 Supported common command codes. Command name, Command code, CCC type.",
+    "table_content": {
+      "headers": [
+        "Command name",
+        "Command code",
+        "CCC type"
+      ],
+      "rows": [
+        [
+          "ENTDAA",
+          "0x07",
+          "Broadcast"
+        ],
+        [
+          "SETDASA",
+          "0x87",
+          "Direct"
+        ],
+        [
+          "ENEC",
+          "0x00",
+          "Broadcast"
+        ],
+        [
+          "ENEC",
+          "0x80",
+          "Direct"
+        ],
+        [
+          "DISEC",
+          "0x01",
+          "Broadcast"
+        ],
+        [
+          "DISEC",
+          "0x81",
+          "Direct"
+        ],
+        [
+          "ENTAS 0...3",
+          "0x82 to 0x85",
+          "Direct"
+        ],
+        [
+          "ENTAS 0...3",
+          "0x02 to 0x05",
+          "Broadcast"
+        ],
+        [
+          "SETXTIME",
+          "0x28",
+          "Broadcast"
+        ],
+        [
+          "SETXTIME",
+          "0x98",
+          "Direct"
+        ],
+        [
+          "GETXTIME",
+          "0x99",
+          "Direct"
+        ],
+        [
+          "RSTDAA",
+          "0x06",
+          "Broadcast"
+        ],
+        [
+          "RSTDAA",
+          "0x86",
+          "Direct"
+        ],
+        [
+          "SETMWL",
+          "0x08",
+          "Broadcast"
+        ],
+        [
+          "SETMWL",
+          "0x89",
+          "Direct"
+        ],
+        [
+          "SETMRL",
+          "0x09",
+          "Broadcast"
+        ],
+        [
+          "SETMRL",
+          "0x8A",
+          "Direct"
+        ],
+        [
+          "SETNEWDA",
+          "0x88",
+          "Direct Set"
+        ],
+        [
+          "GETMWL",
+          "0x8B",
+          "Direct Get"
+        ],
+        [
+          "GETMRL",
+          "0x8C",
+          "Direct Get"
+        ],
+        [
+          "GETPID",
+          "0x8D",
+          "Direct Get"
+        ],
+        [
+          "GETBCR",
+          "0x8E",
+          "Direct Get"
+        ],
+        [
+          "GETDCR",
+          "0x8F",
+          "Direct Get"
+        ],
+        [
+          "GETSTATUS",
+          "0x90",
+          "Direct Get"
+        ],
+        [
+          "GETMXDS",
+          "0x94",
+          "Direct Get"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_9",
+    "document": "Table 9. Firmware available examples",
+    "rev": null,
+    "table_number": "9",
+    "title": "Table 9. Firmware available examples",
+    "page": 20,
+    "section": "8.11.1 Frame format",
+    "section_title": "Frame format",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=20",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 9. Firmware available examples — section 8.11.1 Frame format. Firmware package, Example name, Board.",
+    "table_content": {
+      "headers": [
+        "Firmware package",
+        "Example name",
+        "Board"
+      ],
+      "rows": [
+        [
+          "STM32CubeH5",
+          "I3C_controller_ENTDA_IT I3C_Target_ENTDAA_IT I3C_Controller_Private_Command_IT I3C_Target_Private_Command_IT I3C_Controller_InBandInterrupt_IT I3C_Target_InBandInterrupt_IT I3C_Target_WakeUpFromStop I3C_Controller_I2C_Com I3C_Target_I2C_Com I3C_Controller_Switch_To_Target I3C_Target_Switch_To_Controller I3C_Controller_HotJoin_IT I3C_Target_HotJoin_IT",
+          "NUCLEO-H503RB"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_10",
+    "document": "Table 10. Software and hardware environment",
+    "rev": null,
+    "table_number": "10",
+    "title": "Table 10. Software and hardware environment",
+    "page": 20,
+    "section": "9.3 Hardware and software settings",
+    "section_title": "Hardware and software settings",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=20",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 10. Software and hardware environment — section 9.3 Hardware and software settings. Use case, Hardware, Software.",
+    "table_content": {
+      "headers": [
+        "Use case",
+        "Hardware",
+        "Software"
+      ],
+      "rows": [
+        [
+          "Dynamic addressing",
+          "STM32H503 board (controller I3C) Accelerometer and gyroscope LSM6DSO (target I3C) • Keep the JP2",
+          "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+        ],
+        [
+          "Direct transfer",
+          "STM32H503 board (controller I3C) Accelerometer and gyroscope LSM6DSO (target I3C) • Keep the JP2",
+          "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+        ],
+        [
+          "Private transfer",
+          "STM32H503 board (controller I3C) Accelerometer and gyroscope LSM6DSO (target I3C) • Keep the JP2",
+          "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+        ],
+        [
+          "IBI",
+          "STM32H503 board (controller I3C) STM32H503 board (target I3C)",
+          "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+        ],
+        [
+          "Mixed Bus",
+          "STM32H503 board (controller I3C) STM32H503 board (target I3C)",
+          "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+        ],
+        [
+          "",
+          "Accelerometer LIS2DW12 (legacy I2C) • Keep the JP1",
+          "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_11",
+    "document": "Table 11. Software settings for dynamic addressing",
+    "rev": null,
+    "table_number": "11",
+    "title": "Table 11. Software settings for dynamic addressing",
+    "page": 31,
+    "section": "9.6.1 Software settings",
+    "section_title": "Software settings",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=31",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 11. Software settings for dynamic addressing — section 9.6.1 Software settings. , Target descriptor + dynamic address to assign.",
+    "table_content": {
+      "headers": [
+        "",
+        "Target descriptor + dynamic address to assign"
+      ],
+      "rows": [
+        [
+          "",
+          "The array contains the target descriptor"
+        ],
+        [
+          "",
+          "Assigning a dynamic address in the interrupt mode"
+        ],
+        [
+          "",
+          "• GET target characteristics • Controller set the DA"
+        ]
+      ],
+      "notes": [
+        "1. Address header: START + (7’h7E + W = 0 + ACK = 0) (OD phase)",
+        "2. I3C broadcast CCC (ENTDAA = 0x07): ENTDAA (0x07 + T = 0) Figure 29. ENTDAA CCC"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_12",
+    "document": "Table 12. Communication frequency",
+    "rev": null,
+    "table_number": "12",
+    "title": "Table 12. Communication frequency",
+    "page": 32,
+    "section": "9.6.2 Waveform results",
+    "section_title": "Waveform results",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=32",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 12. Communication frequency — section 9.6.2 Waveform results. Mode, Open Drain, Push-Pull.",
+    "table_content": {
+      "headers": [
+        "Mode",
+        "Open Drain",
+        "Push-Pull"
+      ],
+      "rows": [
+        [
+          "Frequency",
+          "1.904 MHz",
+          "3.040 MHz"
+        ]
+      ],
+      "notes": [
+        "1. Address header: START + (7’h7E + W = 0 + ACK = 0) (OD phase)",
+        "2. I3C broadcast CCC (ENTDAA = 0x07): ENTDAA (0x07 + T = 0) Figure 29. ENTDAA CCC",
+        "4. Dynamic address: Dynamic address (0x32 + PAR = 0 + ACK = 0): (OD phase)",
+        "5. I3C broadcast address + R = 1 + STOP: (0x7E + R = 1 + ACK = 1) + STOP (OD phase) Figure 31. Dynamic addressing"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_13",
+    "document": "Table 13. 48-bit provisioned ID",
+    "rev": null,
+    "table_number": "13",
+    "title": "Table 13. 48-bit provisioned ID",
+    "page": 33,
+    "section": "9.6.2 Waveform results",
+    "section_title": "Waveform results",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=33",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 13. 48-bit provisioned ID — section 9.6.2 Waveform results. Value, Signification.",
+    "table_content": {
+      "headers": [
+        "Value",
+        "Signification"
+      ],
+      "rows": [
+        [
+          "Bits [47:33] = 000000100000100",
+          "MIPI manufacturer ID"
+        ],
+        [
+          "Bits: 32 = 0",
+          "Provisioned ID type selector: 0b0 = vendor fixed value"
+        ],
+        [
+          "Bits [31:16] = 0000000001101100",
+          "Part ID"
+        ],
+        [
+          "Bits [15:12] = 0001",
+          "Instance ID"
+        ],
+        [
+          "Bits [11:0] = 0001000000001011",
+          "Reserved, must be kept at reset value"
+        ]
+      ],
+      "notes": [
+        "4. Dynamic address: Dynamic address (0x32 + PAR = 0 + ACK = 0): (OD phase)",
+        "5. I3C broadcast address + R = 1 + STOP: (0x7E + R = 1 + ACK = 1) + STOP (OD phase) Figure 31. Dynamic addressing"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_14",
+    "document": "Table 14. Software settings without defining byte",
+    "rev": null,
+    "table_number": "14",
+    "title": "Table 14. Software settings without defining byte",
+    "page": 34,
+    "section": "9.7.1.1 Software settings",
+    "section_title": "Software settings",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=34",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 14. Software settings without defining byte — section 9.7.1.1 Software settings. DT72305V1, • I3C CCCTypeDef structure definition • GETDCR CCCode: 0x8F.",
+    "table_content": {
+      "headers": [
+        "DT72305V1",
+        "• I3C CCCTypeDef structure definition • GETDCR CCCode: 0x8F"
+      ],
+      "rows": [
+        [
+          "DT72368V1",
+          "• Prepare context buffers process * uint32_t ControlBuffer[0xFF] : Buffer used by HAL to compute control data for the direct communication"
+        ],
+        [
+          "DT72382V1",
+          "• Add CCC descriptor to the user data transfer descriptor. • For some direct CCCs, a defining byte is optional; for others, it is always required. • The controller transmits the direct read CCC command in interrupt mode."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_15",
+    "document": "Table 15. Software settings with defining byte",
+    "rev": null,
+    "table_number": "15",
+    "title": "Table 15. Software settings with defining byte",
+    "page": 36,
+    "section": "9.8.1 Software settings",
+    "section_title": "Software settings",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=36",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 15. Software settings with defining byte — section 9.8.1 Software settings. , • aTxBuffer: buffer used for transmission (value = reg address = 0x0F). aRxBuffer: buffer used for reception. aPrivateDescriptor: two directions (read and write)..",
+    "table_content": {
+      "headers": [
+        "",
+        "• aTxBuffer: buffer used for transmission (value = reg address = 0x0F). aRxBuffer: buffer used for reception. aPrivateDescriptor: two directions (read and write)."
+      ],
+      "rows": [
+        [
+          "",
+          "• Prepare context buffers process"
+        ],
+        [
+          "",
+          "• Add context buffer transmit in Frame context • Transmit private data process"
+        ],
+        [
+          "",
+          "• Check the current state of the peripheral • Add context buffer receive in Frame context • Receive private data process"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_16",
+    "document": "Table 16. Controller software settings for in-band interrupt",
+    "rev": null,
+    "table_number": "16",
+    "title": "Table 16. Controller software settings for in-band interrupt",
+    "page": 40,
+    "section": "9.9.2.1 Controller",
+    "section_title": "Controller",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=40",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 16. Controller software settings for in-band interrupt — section 9.9.2.1 Controller. DT71941V2, • Assign a dynamic address. • Activate notifications for specially for this example. • In-band interrupt requested by a target..",
+    "table_content": {
+      "headers": [
+        "DT71941V2",
+        "• Assign a dynamic address. • Activate notifications for specially for this example. • In-band interrupt requested by a target."
+      ],
+      "rows": [
+        [
+          "DT71942V2",
+          "Start the listen mode process."
+        ],
+        [
+          "DT71943V2",
+          "• I3C target requests a dynamic address callback. • I3C notifies callback after receiving a notification."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_17",
+    "document": "Table 17. Target software settings for in-band interrupt",
+    "rev": null,
+    "table_number": "17",
+    "title": "Table 17. Target software settings for in-band interrupt",
+    "page": 41,
+    "section": "9.9.2.2 Target",
+    "section_title": "Target",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=41",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 17. Target software settings for in-band interrupt — section 9.9.2.2 Target. DT73667V2, Variable declaration: PayloadBuffer[] = {0xAB} = 0b10101011 (in this case the user can set a free payload value).",
+    "table_content": {
+      "headers": [
+        "DT73667V2",
+        "Variable declaration: PayloadBuffer[] = {0xAB} = 0b10101011 (in this case the user can set a free payload value)"
+      ],
+      "rows": [
+        [
+          "DT71946V2",
+          "Activate notifications specially for this example: • Dynamic address association • In-band interrupt ended process"
+        ],
+        [
+          "DT71947V2",
+          "Send IBI request"
+        ],
+        [
+          "DT71948V2",
+          "I3C notify callback after receiving a notification"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_18",
+    "document": "Table 18. Software settings I3C/I2C",
+    "rev": null,
+    "table_number": "18",
+    "title": "Table 18. Software settings I3C/I2C",
+    "page": 44,
+    "section": "9.10.2.1 Software settings",
+    "section_title": "Software settings",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=44",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 18. Software settings I3C/I2C — section 9.10.2.1 Software settings. , • aTxBuffer: buffer used for transmission (register WHO_AM_I: 0x0F) • aRxBuffer: buffer used for reception. • aPrivateDescriptor: 2 directions Read and Write. (0x19 static address) • Prepare context buffers process.",
+    "table_content": {
+      "headers": [
+        "",
+        "• aTxBuffer: buffer used for transmission (register WHO_AM_I: 0x0F) • aRxBuffer: buffer used for reception. • aPrivateDescriptor: 2 directions Read and Write. (0x19 static address) • Prepare context buffers process"
+      ],
+      "rows": [
+        [
+          "",
+          "• Prepare context buffers process • Add context buffer transmit in frame context"
+        ],
+        [
+          "",
+          "Frame context with: • I2C_PRIVATE_WITHOUT_ARB_RESTART as direction • Transmit data process • Check the current state of the peripheral • Add context buffer receive in Frame context with I2C_PRIVATE_WITHOUT_ARB_STOP as direction. • Receive data process"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_19",
+    "document": "Table 19. Software settings mixed bus: I3C - I3C and I2C",
+    "rev": null,
+    "table_number": "19",
+    "title": "Table 19. Software settings mixed bus: I3C - I3C and I2C",
+    "page": 45,
+    "section": "9.10.3.1 Software settings",
+    "section_title": "Software settings",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=45",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 19. Software settings mixed bus: I3C - I3C and I2C — section 9.10.3.1 Software settings. , • TxBuffer: buffer used for transmission (value: reg address = 0x0F) (WHO_AM_I) • RxBuffer: buffer used for reception. • aTargetDesc: target descriptor. – (0x32 as DA) • aPrivateDescriptor: two direct...",
+    "table_content": {
+      "headers": [
+        "",
+        "• TxBuffer: buffer used for transmission (value: reg address = 0x0F) (WHO_AM_I) • RxBuffer: buffer used for reception. • aTargetDesc: target descriptor. – (0x32 as DA) • aPrivateDescriptor: two directions, read and write. (0x19 static address)"
+      ],
+      "rows": [
+        [
+          "",
+          "• Assigning DA in interrupt mode (initiate a RSTDAA follow by a ENTDAA) • check the current state of the peripheral. • Prepare context buffers process"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_20",
+    "document": "Table 20. Document revision history",
+    "rev": null,
+    "table_number": "20",
+    "title": "Table 20. Document revision history",
+    "page": 47,
+    "section": "9.10.3.2 Waveforms results",
+    "section_title": "Waveforms results",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=47",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "text_helper": "Table 20. Document revision history — section 9.10.3.2 Waveforms results. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "13-Mar-2023",
+          "1",
+          "Initial release"
+        ],
+        [
+          "18-Mar-2024",
+          "2",
+          "Updated: • Document title • Section Introduction • Section 1: General information • Section 4: STM32H5 implementation • Table 3. I3C peripheral versus MIPI v1.1 • Section 4.2: I3C peripheral integration (Integration with RCC) • Section 5: I3C hardware requirements • Section 6: Bus timing • Section 8.10: In-band interrupt (IBI) • Section 9: Examples of I3C communications with an STM32H503RB Nucleo board • Table 9. Firmware available examples • Section 9.3: Hardware and software settings • Section 9.5.3: Communication at 12.5 MHz push pull • Section 9.6.1: Software settings • Section 9.6.2: Waveform results • Section 9.7.1: Direct read without defining byte • Section 9.7.1.1: Software settings • Section 9.7.1.2: Waveform results • Section 9.8.2: Waveform results • Section 9.9.2: Software settings • Section 9.9.3: Waveform results • Section 9.10.2.2: Waveforms results • Section 9.10.3.2: Waveforms results General document cleanup"
+        ],
+        [
+          "04-Jun-2024",
+          "3",
+          "Updated: • Figure 1. I3C communication interface • Table 3. I3C peripheral versus MIPI v1.1 • Figure 5. Example of I3C mode GPDMA architecture • Figure 6. STM32H503xx communication interfaces operating with VDDIO2 at 1.2 V (USART/ LPUART, SPI, and I2C/I3C) • Figure 14. Legacy I2C transfer on I3C bus"
+        ],
+        [
+          "12-Feb-2025",
+          "4",
+          "Added STM32U3 series Added STM32N6 series Updated: • Table 1. Applicable products • Block diagram • Section 6: Bus timing"
+        ],
+        [
+          "11-Feb-2026",
+          "5",
+          "Added STM32C5 series inside Table 1. Applicable products."
+        ],
+        [
+          "25-Jun-2026",
+          "6",
+          "Updated Section 4.1: I3C MIPI support and Section 9: Examples of I3C communications with an STM32H503RB Nucleo board."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

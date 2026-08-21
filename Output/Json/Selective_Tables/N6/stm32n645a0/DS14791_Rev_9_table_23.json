@@ -1,0 +1,43 @@
+{
+  "table_id": "table_23",
+  "document": "DS14791 Rev 9 - Table 23. Thermal characteristics",
+  "rev": "Rev 9",
+  "table_number": "23",
+  "title": "Table 23. Thermal characteristics",
+  "page": 138,
+  "section": "1.8 V supply voltage V",
+  "section_title": "V supply voltage V",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=138",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 23. Thermal characteristics — section 1.8 V supply voltage V. Symbol, Ratings, Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "T STG",
+        "Storage temperature range",
+        "-65 to +150",
+        "°C"
+      ],
+      [
+        "T JMAX",
+        "Maximum junction temperature",
+        "125",
+        "°C"
+      ]
+    ],
+    "notes": [
+      "1. When several inputs are submitted to a current injection, the maximum ∑|I | is the absolute sum of the negative INJ(PIN)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

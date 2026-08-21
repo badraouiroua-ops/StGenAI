@@ -1,0 +1,66 @@
+{
+  "table_id": "table_13",
+  "caption": "Table 13. 48-bit provisioned ID",
+  "pdf_name": "AN5879",
+  "family": "41",
+  "page": 33,
+  "merged_pages": [
+    33
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=33",
+  "section": "9.6.2 Waveform results",
+  "headers": [
+    "Value",
+    "Signification"
+  ],
+  "rows": [
+    [
+      "Bits [47:33] = 000000100000100",
+      "MIPI manufacturer ID"
+    ],
+    [
+      "Bits: 32 = 0",
+      "Provisioned ID type selector: 0b0 = vendor fixed value"
+    ],
+    [
+      "Bits [31:16] = 0000000001101100",
+      "Part ID"
+    ],
+    [
+      "Bits [15:12] = 0001",
+      "Instance ID"
+    ],
+    [
+      "Bits [11:0] = 0001000000001011",
+      "Reserved, must be kept at reset value"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "4. Dynamic address: Dynamic address (0x32 + PAR = 0 + ACK = 0): (OD phase)",
+      "5. I3C broadcast address + R = 1 + STOP: (0x7E + R = 1 + ACK = 1) + STOP (OD phase) Figure 31. Dynamic addressing"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5879",
+    "table_id": "table_13",
+    "is_continued": false,
+    "pages": [
+      33
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "table_46",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "FT_xx Input leakage current(2)",
+      "row_index": 4,
+      "analyse_visuelle": "Dans la colonne 'Max' de la ligne correspondant à '0 < VIN ≤ Max(VDDXXX)(4)', la valeur extraite contient un signe moins superflus '±-200' au lieu de '±200' visible sur l'image.",
+      "corrections": [
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "±-200",
+          "nouvelle_valeur": "±200",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,58 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. Software and hardware environment",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. Software and hardware environment",
+  "page": 20,
+  "section": "9.3 Hardware and software settings",
+  "section_title": "Hardware and software settings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=20",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 10. Software and hardware environment — section 9.3 Hardware and software settings. Use case, Hardware, Software.",
+  "table_content": {
+    "headers": [
+      "Use case",
+      "Hardware",
+      "Software"
+    ],
+    "rows": [
+      [
+        "Dynamic addressing",
+        "STM32H503 board (controller I3C) Accelerometer and gyroscope LSM6DSO (target I3C) • Keep the JP2",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ],
+      [
+        "Direct transfer",
+        "STM32H503 board (controller I3C) Accelerometer and gyroscope LSM6DSO (target I3C) • Keep the JP2",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ],
+      [
+        "Private transfer",
+        "STM32H503 board (controller I3C) Accelerometer and gyroscope LSM6DSO (target I3C) • Keep the JP2",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ],
+      [
+        "IBI",
+        "STM32H503 board (controller I3C) STM32H503 board (target I3C)",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ],
+      [
+        "Mixed Bus",
+        "STM32H503 board (controller I3C) STM32H503 board (target I3C)",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ],
+      [
+        "",
+        "Accelerometer LIS2DW12 (legacy I2C) • Keep the JP1",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

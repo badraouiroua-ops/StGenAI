@@ -1,0 +1,106 @@
+{
+  "table_id": "table_132",
+  "document": "DS14791 Rev 9 - Table 132. VFBGA198 - Mechanical data",
+  "rev": "Rev 9",
+  "table_number": "132",
+  "title": "Table 132. VFBGA198 - Mechanical data",
+  "page": 245,
+  "section": "5.3.38 JTAG/SWD interface characteristics",
+  "section_title": "JTAG/SWD interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=245",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 132. VFBGA198 - Mechanical data — section 5.3.38 JTAG/SWD interface characteristics. Symbol, millimeters(1) / Min, millimeters(1) / Typ, millimeters(1) / Max, inches(12) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters(1) / Min",
+      "millimeters(1) / Typ",
+      "millimeters(1) / Max",
+      "inches(12) / Min",
+      "inches(12) / Typ",
+      "inches(12) / Max"
+    ],
+    "rows": [
+      [
+        "b(5)",
+        "0.35",
+        "0.40",
+        "0.45",
+        "0.0138",
+        "0.0157",
+        "0.0177"
+      ],
+      [
+        "D1",
+        "9.10 BSC",
+        "9.10 BSC",
+        "9.10 BSC",
+        "0.3583 BSC",
+        "0.3583 BSC",
+        "0.3583 BSC"
+      ],
+      [
+        "E1",
+        "9.10 BSC",
+        "9.10 BSC",
+        "9.10 BSC",
+        "0.3583 BSC",
+        "0.3583 BSC",
+        "0.3583 BSC"
+      ],
+      [
+        "e(9)",
+        "0.65 BSC",
+        "0.65 BSC",
+        "0.65 BSC",
+        "0.0256 BSC",
+        "0.0256 BSC",
+        "0.0256 BSC"
+      ],
+      [
+        "N(10)",
+        "198",
+        "198",
+        "198",
+        "198",
+        "198",
+        "198"
+      ],
+      [
+        "SD(11)",
+        "0.65 BSC",
+        "0.65 BSC",
+        "0.65 BSC",
+        "0.0256 BSC",
+        "0.0256 BSC",
+        "0.0256 BSC"
+      ],
+      [
+        "SE(11)",
+        "0.65 BSC",
+        "0.65 BSC",
+        "0.65 BSC",
+        "0.0256 BSC",
+        "0.0256 BSC",
+        "0.0256 BSC"
+      ]
+    ],
+    "notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-2009 apart European projection.",
+      "2. VFBGA stands for very thin profile fine pitch ball grid array: 0.8 mm < A ≤ 1.00 mm / fine pitch e < 1.00 mm.",
+      "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "4. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "5. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+      "6. BSC stands for BASIC dimensions. It corresponds to the nominal value and has no tolerance. For tolerances refer to form and position table. On the drawing these",
+      "9. e represents the solder ball grid pitch.",
+      "10. N represents the total number of balls on the BGA.",
+      "11. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Values in inches are converted from mm and rounded to four decimal digits."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

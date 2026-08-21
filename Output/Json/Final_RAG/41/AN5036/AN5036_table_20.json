@@ -1,0 +1,35 @@
+{
+  "table_id": "table_20",
+  "document": "Table 20. STM32N657 thermal measurements at T = 25 °C 33 A",
+  "rev": null,
+  "table_number": "20",
+  "title": "Table 20. STM32N657 thermal measurements at T = 25 °C 33 A",
+  "page": 33,
+  "section": "6.3.4 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=33",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 20. STM32N657 thermal measurements at T = 25 °C 33 A — section 6.3.4 Conclusion. TJ (°C), Thermal camera module measurement (°C) Max, STM32N657 power consumption (mW).",
+  "table_content": {
+    "headers": [
+      "TJ (°C)",
+      "Thermal camera module measurement (°C) Max",
+      "STM32N657 power consumption (mW)"
+    ],
+    "rows": [
+      [
+        "47(1)",
+        "48.7",
+        "1318"
+      ]
+    ],
+    "notes": [
+      "1. Thermocouple measurement Once the heat dissipation capability (HDC) of the design has been defined (by measurement at 25 °C), and"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

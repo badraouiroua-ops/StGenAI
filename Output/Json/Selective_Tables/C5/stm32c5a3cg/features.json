@@ -1,0 +1,112 @@
+{
+  "features": [
+    [
+      "pdf_name",
+      "stm32c5a3cg"
+    ],
+    [
+      "family",
+      "C5"
+    ],
+    [
+      "page",
+      1
+    ],
+    [
+      "merged_pages",
+      [
+        1
+      ]
+    ],
+    [
+      "url",
+      "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf"
+    ],
+    [
+      "url_table",
+      "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=1"
+    ],
+    [
+      "text_helper",
+      "pdf_name: stm32c5a3cg. DS15137 Rev 2 (April 2026). Arm® Cortex®-M33 32-bit MCU with FPU, at 144 MHz, 593 CoreMark®, 1 Mbyte flash memory, 256-Kbyte RAM, I3C, cryptography. family: C5. core: Cortex-M33. freq: 144 MHz. flash: 1024 KB. ram: 256 KB. voltage: 2.7-3.6 V. packages: LQFP100, LQFP144, LQF..."
+    ]
+  ],
+  "features_content": [
+    [
+      "doc_ref",
+      "DS15137"
+    ],
+    [
+      "revision",
+      "Rev 2"
+    ],
+    [
+      "date",
+      "April 2026"
+    ],
+    [
+      "title",
+      "Arm® Cortex®-M33 32-bit MCU with FPU, at 144 MHz, 593 CoreMark®, 1 Mbyte flash memory, 256-Kbyte RAM, I3C, cryptography"
+    ],
+    [
+      "core",
+      "Cortex-M33"
+    ],
+    [
+      "fpu",
+      true
+    ],
+    [
+      "max_frequency_mhz",
+      144
+    ],
+    [
+      "flash_kb",
+      1024
+    ],
+    [
+      "ram_kb",
+      256
+    ],
+    [
+      "voltage_min_v",
+      2.7
+    ],
+    [
+      "voltage_max_v",
+      3.6
+    ],
+    [
+      "operating_temp_c",
+      []
+    ],
+    [
+      "packages",
+      [
+        "LQFP100 (14 x 14 mm)",
+        "LQFP144 (20 x 20 mm)",
+        "LQFP32 (7 x 7 mm)",
+        "LQFP48 (7 x 7 mm)",
+        "LQFP64 (10 x 10 mm)",
+        "LQFP80 (12 x 12 mm)",
+        "UFQFPN32 (5 x 5 mm)",
+        "UFQFPN48 (7 x 7 mm)"
+      ]
+    ],
+    [
+      "device_summary",
+      {
+        "headers": [
+          "Reference",
+          "Part number"
+        ],
+        "rows": [
+          [
+            "STM32C5A3xxx",
+            "STM32C5A3CG STM32C5A3KG STM32C5A3MG STM32C5A3RG STM32C5A3VG STM32C5A3ZG"
+          ]
+        ]
+      }
+    ]
+  ]
+}

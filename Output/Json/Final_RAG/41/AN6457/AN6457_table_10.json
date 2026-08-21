@@ -1,0 +1,60 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. I3C peripheral information",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. I3C peripheral information",
+  "page": 10,
+  "section": "3.3 LPDMA configuration for communication peripherals",
+  "section_title": "LPDMA configuration for communication peripherals",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=10",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 10. I3C peripheral information — section 3.3 LPDMA configuration for communication peripherals. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+  "table_content": {
+    "headers": [
+      "Peripheral request to LPDMA",
+      "Peripheral bus",
+      "Peripheral FIFO (unit, size)",
+      "Peripheral register access",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "1I3c_rx_dma",
+        "APB1 for I3C1",
+        "8‑byte RX-FIFO",
+        "Read 8‑bit I3C_RDR or 32‑bit I3C_RDWR",
+        "Received data must be read with a 32‑bit aligned address."
+      ],
+      [
+        "i3c1_tx_dma",
+        "None",
+        "8‑byte TX-FIFO",
+        "Write 8‑bit I3C_TDR or 32‑bit I3C_TDWR",
+        "To be transmitted data must be written with a 32‑bit aligned address."
+      ],
+      [
+        "i3c1_tc_dma",
+        "None",
+        "2‑word C-FIFO",
+        "Write 32‑bit I3C_CR",
+        "To be transmitted control word."
+      ],
+      [
+        "i3c1_rs_dma",
+        "None",
+        "2‑word S-FIFO",
+        "Read 32‑bit I3C_SR",
+        "Received status word"
+      ]
+    ],
+    "notes": [
+      "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Number of extra check bits used for SEC-DED",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Number of extra check bits used for SEC-DED",
+  "page": 3,
+  "section": "2 ECC overview",
+  "section_title": "ECC overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=3",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+  "text_helper": "Table 3. Number of extra check bits used for SEC-DED — section 2 ECC overview. Data word width, Number of redundancy bits.",
+  "table_content": {
+    "headers": [
+      "Data word width",
+      "Number of redundancy bits"
+    ],
+    "rows": [
+      [
+        "16",
+        "6"
+      ],
+      [
+        "32",
+        "7"
+      ],
+      [
+        "64",
+        "8"
+      ],
+      [
+        "128",
+        "9"
+      ],
+      [
+        "256",
+        "10"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

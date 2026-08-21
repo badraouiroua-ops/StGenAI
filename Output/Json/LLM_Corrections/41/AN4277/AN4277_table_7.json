@@ -1,0 +1,32 @@
+{
+  "table_id": "table_7",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "TIM1/8/20 BRK enable",
+      "row_index": 2,
+      "analyse_visuelle": "Correction de la casse du registre TIMx_BDTR (au lieu de TIMX_BDTR).",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "TIMX_BDTR",
+          "nouvelle_valeur": "TIMx_BDTR",
+          "confiance": 95
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 1,
+      "contenu": [
+        "Comparator output polarity",
+        "COMPx_CSR",
+        "COMPxPOL",
+        "0 (not inverted), comparators input connected as shown in previous sections"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

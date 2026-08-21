@@ -1,0 +1,22 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "DFU_GETSTATE",
+      "row_index": 5,
+      "analyse_visuelle": "Dans la colonne bmRequest pour la ligne DFU_GETSTATE, la valeur visible sur l'image comporte 8 bits binaires '00100001b', alors que le JSON a omis un '0' ('0010001b').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "0010001b",
+          "nouvelle_valeur": "00100001b",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

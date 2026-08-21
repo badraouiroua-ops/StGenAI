@@ -1,0 +1,227 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Applicable products",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "AN5325",
+    "section_title": "AN5325",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5325.pdf#page=1",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5325.pdf",
+    "text_helper": "Table 1. Applicable products — section AN5325. Type, Products.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Products"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "STM32G4 series STM32U5 series STM32H7R3/7S3 product line STM32H7R7/7S7 product line STM32H563/573 product line STM32H723/733 product line STM32H725/735 product line STM32H730 value line STM32H5E4/F4 and STM32H5E5/F5 product lines STM32C5 series"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. Execution time versus software for polar to rectangular conversion",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. Execution time versus software for polar to rectangular conversion",
+    "page": 10,
+    "section": "3.1.2 Performance comparison",
+    "section_title": "Performance comparison",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5325.pdf#page=10",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5325.pdf",
+    "text_helper": "Table 2. Execution time versus software for polar to rectangular conversion — section 3.1.2 Performance comparison. Function used to calculate sine and cosine, CPU cycles (optimized for speed), CPU cycles (optimized for size).",
+    "table_content": {
+      "headers": [
+        "Function used to calculate sine and cosine",
+        "CPU cycles (optimized for speed)",
+        "CPU cycles (optimized for size)"
+      ],
+      "rows": [
+        [
+          "CORDIC in zero overhead mode (32-bit integer)",
+          "29",
+          "29"
+        ],
+        [
+          "CORDIC in zero overhead mode with conversion from single precision floating-point to 32-bit integer and back",
+          "79",
+          "82"
+        ],
+        [
+          "math.h single precision floating-point functions: float sinf(float), float cosf(float)",
+          "416",
+          "416"
+        ],
+        [
+          "arm_math.h DSP library 32-bit fixed point function: arm_sin_cos_q31(q31_t, q31_t*, q31_t*)",
+          "742",
+          "733"
+        ],
+        [
+          "arm_math.h DSP library 32-bit floating-point function: arm_sin_cos_f32(float32_t, float32_t*, float32_t*)",
+          "405",
+          "413"
+        ],
+        [
+          "math.h double precision floating-point functions: double sin(double), double cos(double)",
+          "4036",
+          "4053"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. Execution time versus software for other functions",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. Execution time versus software for other functions",
+    "page": 10,
+    "section": "3.1.2 Performance comparison",
+    "section_title": "Performance comparison",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5325.pdf#page=10",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5325.pdf",
+    "text_helper": "Table 3. Execution time versus software for other functions — section 3.1.2 Performance comparison. Function / Rectangular to polar conversion, atan2(y,x), CPU cycles (optimized for speed) / Rectangular to polar conversion, atan2(y,x), CPU cycles (optimized for size) / Rectangular to polar conver...",
+    "table_content": {
+      "headers": [
+        "Function / Rectangular to polar conversion, atan2(y,x)",
+        "CPU cycles (optimized for speed) / Rectangular to polar conversion, atan2(y,x)",
+        "CPU cycles (optimized for size) / Rectangular to polar conversion, atan2(y,x)"
+      ],
+      "rows": [
+        [
+          "CORDIC in zero overhead mode",
+          "33",
+          "25"
+        ],
+        [
+          "CORDIC in zero overhead mode with conversion from single precision floating-point to 32- bit integer and back",
+          "107",
+          "111"
+        ],
+        [
+          "math.h single precision floating-point function: float atan2f(float, float)",
+          "332",
+          "325"
+        ],
+        [
+          "math.h double precision floating-point function: double atan2(double, double)",
+          "4194",
+          "4209"
+        ],
+        [
+          "Exponent, exp(x)",
+          "Exponent, exp(x)",
+          "Exponent, exp(x)"
+        ],
+        [
+          "CORDIC in zero overhead mode (sinh + cosh)",
+          "39",
+          "39"
+        ],
+        [
+          "CORDIC in zero overhead mode with conversion from single precision floating-point to 32- bit integer and back",
+          "81",
+          "81"
+        ],
+        [
+          "math.h single precision floating-point function: float expf(float)",
+          "319",
+          "322"
+        ],
+        [
+          "math.h double precision floating-point function: double exp(double)",
+          "3604",
+          "3608"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. Document revision history",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. Document revision history",
+    "page": 16,
+    "section": "4 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5325.pdf#page=16",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5325.pdf",
+    "text_helper": "Table 4. Document revision history — section 4 Conclusion. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "23-May-2019",
+          "1",
+          "Initial release."
+        ],
+        [
+          "11-Mar-2021",
+          "2",
+          "Updated: • Section 2: CORDIC introduction. • Table 3. Execution time versus software for other functions. • Section 3.2: Acceleration example: multiple data using DMA."
+        ],
+        [
+          "6-Jul-2022",
+          "3",
+          "Updated Section Introduction"
+        ],
+        [
+          "28-Sep-2022",
+          "4",
+          "Updated /* Write first angle to cordic */ CORDIC->WDATA = aAngles[0]; /* Write remaining angles and read sine results */ for(uint32_t i = 0; i < ARRAY_SIZE; i++) { CORDIC->WDATA = aAngles[i]; *pCalculatedSin++ = CORDIC->RDATA; } /* Read last result */ *pCalculatedSin = CORDIC- >RDATA; Replaced \"BLOCKSIZE\" with \"ARRAY_SIZE\""
+        ],
+        [
+          "27-Feb-2023",
+          "5",
+          "Changed title of the document Added STM32H563/573 product line in Table 1. Applicable products"
+        ],
+        [
+          "07-Mar-2024",
+          "6",
+          "Added STM32H7Rx/Sx products in Table 1. Applicable products"
+        ],
+        [
+          "27-Jan-2026",
+          "7",
+          "Added STM32H5E4/F4 and STM32H5E5/F5 product lines and STM32C5 series in Table 1. Applicable products"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

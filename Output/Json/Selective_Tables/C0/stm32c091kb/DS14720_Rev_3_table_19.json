@@ -1,0 +1,133 @@
+{
+  "table_id": "table_19",
+  "document": "DS14720 Rev 3 - Table 19. Port D alternate function mapping (AF0 to AF7)",
+  "rev": "Rev 3",
+  "table_number": "19",
+  "title": "Table 19. Port D alternate function mapping (AF0 to AF7)",
+  "page": 43,
+  "section": "4 Pinouts, pin description and alternate functions",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=43",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 19. Port D alternate function mapping (AF0 to AF7) — section 4 Pinouts, pin description and alternate functions. Port, AF0, AF1, AF2, AF3, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Port",
+      "AF0",
+      "AF1",
+      "AF2",
+      "AF3",
+      "AF4",
+      "AF5",
+      "AF6",
+      "AF7"
+    ],
+    "rows": [
+      [
+        "PD0",
+        "EVENTOUT",
+        "-",
+        "TIM16_CH1",
+        "SPI2_NSS",
+        "FDCAN1_RX",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PD1",
+        "EVENTOUT",
+        "-",
+        "TIM17_CH1",
+        "SPI2_SCK",
+        "FDCAN1_TX",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PD2",
+        "USART3_RTS/U SART3_DE/USA RT3_CK",
+        "TIM3_ETR",
+        "TIM1_CH1N",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PD3",
+        "USART2_CTS/ USART2_NSS",
+        "-",
+        "TIM1_CH2N",
+        "SPI2_MISO",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PD4",
+        "SPI2_MOSI",
+        "USART2_RTS/ USART2_DE/ USART2_CK",
+        "TIM1_CH3N",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PD5",
+        "SPI1_MISO/ I2S1_MCK",
+        "USART2_TX",
+        "TIM1_BKIN",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PD6",
+        "SPI1_MOSI/ I2S1_SD",
+        "USART2_RX",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PD8",
+        "SPI1_SCK/ I2S1_CK",
+        "-",
+        "-",
+        "-",
+        "USART3_TX",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PD9",
+        "SPI1_NSS/ I2S1_WS",
+        "-",
+        "TIM1_BKIN2",
+        "-",
+        "USART3_RX",
+        "-",
+        "-",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "table_4",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête de colonne 7",
+      "row_index": null,
+      "analyse_visuelle": "L'en-tête vertical a été lu à l'envers (RTL) : '/x37/x27H23MTS xB7/xA7/x57/x47H' correspond à 'STM32H72x/73x/H74x/75x/7Ax/7Bx'.",
+      "corrections": [
+        {
+          "colonne_index": 7,
+          "valeur_originale_json": "/x37/x27H23MTS xB7/xA7/x57/x47H",
+          "nouvelle_valeur": "STM32H72x/73x/H74x/75x/7Ax/7Bx",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

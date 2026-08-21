@@ -1,0 +1,43 @@
+{
+  "table_id": "table_31",
+  "document": "Table 31. Basic timers",
+  "rev": null,
+  "table_number": "31",
+  "title": "Table 31. Basic timers",
+  "page": 44,
+  "section": "6.6.3 GP timers with autoreload up-counter",
+  "section_title": "GP timers with autoreload up-counter",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=44",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 31. Basic timers — section 6.6.3 GP timers with autoreload up-counter. Feature, STM32C5 and STM32H5.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "STM32C5 and STM32H5"
+    ],
+    "rows": [
+      [
+        "Counter resolution and type",
+        "16-bit autoreload up-counter"
+      ],
+      [
+        "Prescaler factor",
+        "16-bit programmable prescaler, used to divide (also \"on the fly\") the counter clock frequency by any factor between 1 and 65535"
+      ],
+      [
+        "Synchronization signals",
+        "Synchronization circuit to trigger the DAC"
+      ],
+      [
+        "Interrupt/DMA generation",
+        "Interrupt/DMA generation on the update event: counter overflow"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

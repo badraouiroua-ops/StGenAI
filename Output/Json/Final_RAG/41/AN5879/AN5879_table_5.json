@@ -1,0 +1,38 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. PID, DCR, and BCR",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. PID, DCR, and BCR",
+  "page": 14,
+  "section": "8.3 Bus format",
+  "section_title": "Bus format",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=14",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 5. PID, DCR, and BCR — section 8.3 Bus format. 48-bit provisioned ID, BCR, DCR, -.",
+  "table_content": {
+    "headers": [
+      "48-bit provisioned ID",
+      "BCR",
+      "DCR",
+      "-"
+    ],
+    "rows": [
+      [
+        "48 bits",
+        "8 bits",
+        "8bits",
+        "Lowest value concatenated provisioned ID, BCR, and DCR wins the arbitration round"
+      ]
+    ],
+    "notes": [
+      "1. I3C_EVR.DAUPDF: dynamic address update flag.",
+      "2. Either have an extended address, or would be impacted by the extended address mechanism"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

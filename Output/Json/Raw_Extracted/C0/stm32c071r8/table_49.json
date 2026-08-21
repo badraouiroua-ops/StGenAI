@@ -1,0 +1,55 @@
+{
+  "table_id": "table_49",
+  "caption": "Table 49. Electrical sensitivity",
+  "pdf_name": "stm32c071r8",
+  "family": "C0",
+  "page": 78,
+  "merged_pages": [
+    78
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=78",
+  "section": "5.3.11 Electrical sensitivity characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Class"
+  ],
+  "rows": [
+    [
+      "LU",
+      "Static latch-up class",
+      "T = +125 °C conforming to JESD78 A",
+      "II Level A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Refer to Figure 23: I/O input characteristics.",
+      "2. Specified by design. Not tested in production.",
+      "3. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: I = 10 μA + [number of I/Os where V is applied on the pad] × I (Max)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c071r8",
+    "table_id": "table_49",
+    "is_continued": false,
+    "pages": [
+      78
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

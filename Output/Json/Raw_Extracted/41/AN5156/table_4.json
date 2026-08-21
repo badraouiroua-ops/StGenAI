@@ -1,0 +1,76 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. Attacks types and costs",
+  "pdf_name": "AN5156",
+  "family": "41",
+  "page": 9,
+  "merged_pages": [
+    9
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=9",
+  "section": "3.1 Introduction to attack types",
+  "headers": [
+    "Attacks types",
+    "Non-invasive",
+    "Semi–invasive",
+    "Invasive"
+  ],
+  "rows": [
+    [
+      "-",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Scope",
+      "Remote or local",
+      "Local board and device level",
+      "Local device level"
+    ],
+    [
+      "Techniques",
+      "Software bugs Protocol weaknesses Trojan horse Eavesdropping",
+      "Debug port Power glitches Fault injection Side-channels analysis",
+      "Probing Laser FIB Reverse engineering"
+    ],
+    [
+      "Cost/ expertise",
+      "From very low to high, depending on the security failure targeted",
+      "Quite low cost. Need only moderately sophisticated equipment and knowledge to implement.",
+      "Very expensive. Need dedicated equipment and very specific skills."
+    ],
+    [
+      "Objectives",
+      "Access to confidential assets (code and data). Usurpation Denial of service",
+      "Access to secret data or device internal behavior (algorithm).",
+      "Reverse engineering of the device (silicon intellectual property) Access to hidden hardware and software secrets (flash memory access)"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.15,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5156",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      9
+    ],
+    "rows_count": 5,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.15
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "table_id": "table_44",
+  "document": "DS14791 Rev 9 - Table 44. Current consumption in Standby mode",
+  "rev": "Rev 9",
+  "table_number": "44",
+  "title": "Table 44. Current consumption in Standby mode",
+  "page": 157,
+  "section": "5.3.6 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=157",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 44. Current consumption in Standby mode — section 5.3.6 Supply current characteristics. Symbol, Conditions, Conditions, Typ, Max(1) / T = 25°C J, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Conditions",
+      "Conditions",
+      "Typ",
+      "Max(1) / T = 25°C J",
+      "Max(1) / T = 85°C J",
+      "Max(1) / T = 105°C J",
+      "Max(1) / T = 125°C J",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "IWDG off, V = 1.8 V DD",
+        "Backup RAM OFF RTC and LSE OFF",
+        "47.0",
+        "65.9",
+        "306",
+        "504",
+        "801",
+        "μA"
+      ],
+      [
+        "I DD",
+        "IWDG off, V = 1.8 V DD",
+        "Backup RAM ON RTC and LSE OFF",
+        "48.4",
+        "68.7",
+        "339",
+        "571",
+        "927",
+        "μA"
+      ],
+      [
+        "I DD",
+        "IWDG off, V = 1.8 V DD",
+        "Backup RAM OFF RTC and LSE ON",
+        "47.8",
+        "66.3",
+        "306",
+        "503",
+        "800",
+        "μA"
+      ],
+      [
+        "I DD",
+        "IWDG off, V = 1.8 V DD",
+        "Backup RAM ON RTC and LSE ON",
+        "48.4",
+        "69.0",
+        "339",
+        "570",
+        "927",
+        "μA"
+      ],
+      [
+        "I DDA18ON",
+        "IWDG off",
+        "Backup RAM OFF RTC and LSE OFF",
+        "42",
+        "80",
+        "122",
+        "133",
+        "143",
+        "μA"
+      ],
+      [
+        "I DDA18ON",
+        "IWDG off",
+        "Backup RAM ON RTC and LSE OFF",
+        "42",
+        "80",
+        "122",
+        "133",
+        "143",
+        "μA"
+      ],
+      [
+        "I DDA18ON",
+        "IWDG off",
+        "Backup RAM OFF RTC and LSE ON",
+        "42",
+        "80",
+        "122",
+        "133",
+        "143",
+        "μA"
+      ],
+      [
+        "I DDA18ON",
+        "IWDG off",
+        "Backup RAM ON RTC and LSE ON",
+        "42",
+        "80",
+        "122",
+        "133",
+        "143",
+        "μA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization, unless otherwise specified."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

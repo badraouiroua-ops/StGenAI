@@ -1,0 +1,112 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. Comparison of MPU features between Cortex cores",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. Comparison of MPU features between Cortex cores",
+  "page": 13,
+  "section": "4.3 MPU registers",
+  "section_title": "MPU registers",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=13",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "text_helper": "Table 7. Comparison of MPU features between Cortex cores — section 4.3 MPU registers. Features, Cortex-M0+, Cortex-M3/M4, Cortex-M7, Cortex-M33, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Features",
+      "Cortex-M0+",
+      "Cortex-M3/M4",
+      "Cortex-M7",
+      "Cortex-M33",
+      "Cortex-M55"
+    ],
+    "rows": [
+      [
+        "Number of regions",
+        "8",
+        "8",
+        "8/16 (1)(2)",
+        "8 MPU_S / 8 MPU_NS(3)",
+        "16 MPU_S / 16 MPU_NS"
+      ],
+      [
+        "Region address",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Region size",
+        "256 bytes to 4 Gbytes",
+        "32 bytes to 4 Gbytes",
+        "32 bytes to 4 Gbytes",
+        "32 bytes to 4 Gbytes",
+        "32 bytes to 4 Gbytes"
+      ],
+      [
+        "Region memory attributes",
+        "S, C, B, XN(4)",
+        "TEX, S, C, B, XN",
+        "TEX, S, C, B, XN",
+        "S,C, E (5),G (6), R (7), XN",
+        "S,C, E(5) ,G (6), R (7), XN, PXN(8)"
+      ],
+      [
+        "Region access permission (AP)",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes (privileged or not)",
+        "Yes (privileged or not)"
+      ],
+      [
+        "Subregion disable",
+        "8 bits",
+        "8 bits",
+        "8 bits",
+        "NA",
+        "NA"
+      ],
+      [
+        "MPU bypass for NMI/HardFault",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Alias of MPU registers",
+        "No",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Fault exception",
+        "HardFault only",
+        "HardFault/ MemManage",
+        "HardFault/ MemManage",
+        "HardFault/ MemManage",
+        "HardFault/ MemManage"
+      ]
+    ],
+    "notes": [
+      "1. For STM32H7 series devices.",
+      "2. For STM32F7 series devices.",
+      "3. For STM32H5/STM32U3: 12 MPU_S / 8 MPU_NS .",
+      "4. Cortex-M0+ supports one level of cache policy. That is why the TEX field is not available in Cortex-M0+ processor.",
+      "5. Early write acknowledge (similar to bufferable)",
+      "6. Gathering",
+      "7. Reordering",
+      "8. Privileged eXecute Never attribute in Armv8.1-M architecture. AN4838 - Rev 11 page 13/24"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

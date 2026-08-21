@@ -1,0 +1,73 @@
+{
+  "table_id": "table_24",
+  "caption": "Table 24. TIM1/8 peripheral information",
+  "pdf_name": "AN6457",
+  "family": "41",
+  "page": 17,
+  "merged_pages": [
+    17
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=17",
+  "section": "3.5.3 General-purpose timers",
+  "headers": [
+    "Peripheral request to LPDMA",
+    "Peripheral bus",
+    "Peripheral FIFO (unit, size)",
+    "Peripheral register access",
+    "Comments"
+  ],
+  "rows": [
+    [
+      "timx_chy_dma/ timx_ccy_dma (x = 1, 8 and y = 1 to 4)",
+      "APB2",
+      "None",
+      "No tightly coupled timer register read/write Typically a 32-bit read/write to TIMx_CCRy or a 16-/32-bit read/write to TIMx_RCR or a series of 32-bit read/ writes to TIMx_DMAR (x = 1, 8 and y = 1 to 4)",
+      "Request on an input capture event or an output compare event"
+    ],
+    [
+      "timx_upd_dma/ timx_up_dma (x = 1, 8)",
+      "APB2",
+      "None",
+      "No tightly coupled timer register read/write Typically a 32-bit read/write to TIMx_CCRy or a 16-/32-bit read/write to TIMx_RCR or a series of 32-bit read/ writes to TIMx_DMAR (x = 1, 8 and y = 1 to 4)",
+      "Request on an update event"
+    ],
+    [
+      "timx_trg_dma/ timx_trig_dma (x = 1, 8)",
+      "APB2",
+      "None",
+      "No tightly coupled timer register read/write Typically a 32-bit read/write to TIMx_CCRy or a 16-/32-bit read/write to TIMx_RCR or a series of 32-bit read/ writes to TIMx_DMAR (x = 1, 8 and y = 1 to 4)",
+      "Request on a trigger event"
+    ],
+    [
+      "timx_com_dma (x = 1, 8)",
+      "APB2",
+      "None",
+      "No tightly coupled timer register read/write Typically a 32-bit read/write to TIMx_CCRy or a 16-/32-bit read/write to TIMx_RCR or a series of 32-bit read/ writes to TIMx_DMAR (x = 1, 8 and y = 1 to 4)",
+      "Request on a commutation event"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6457",
+    "table_id": "table_24",
+    "is_continued": false,
+    "pages": [
+      17
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

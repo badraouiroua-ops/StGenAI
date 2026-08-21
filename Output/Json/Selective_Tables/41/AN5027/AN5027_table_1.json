@@ -1,0 +1,38 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. DOUT signal pattern selection",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. DOUT signal pattern selection",
+  "page": 9,
+  "section": "1.2 PDM digital microphone block diagram",
+  "section_title": "PDM digital microphone block diagram",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 1. DOUT signal pattern selection — section 1.2 PDM digital microphone block diagram. LR, DOUT / CLK low, DOUT / CLK high.",
+  "table_content": {
+    "headers": [
+      "LR",
+      "DOUT / CLK low",
+      "DOUT / CLK high"
+    ],
+    "rows": [
+      [
+        "GND",
+        "Valid data",
+        "High impedance"
+      ],
+      [
+        "Vdd",
+        "High impedance",
+        "Valid data"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

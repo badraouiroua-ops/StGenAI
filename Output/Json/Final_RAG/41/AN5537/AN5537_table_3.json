@@ -1,0 +1,49 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Comparison of SW and HW implementation of ADC oversampling technique",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Comparison of SW and HW implementation of ADC oversampling technique",
+  "page": 19,
+  "section": "5.3 Results",
+  "section_title": "Results",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=19",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "text_helper": "Table 3. Comparison of SW and HW implementation of ADC oversampling technique — section 5.3 Results. Implementation, Data acquisition and processing time, Acquisition task charge, Acquisition task charge, Average current (during 100 ms).",
+  "table_content": {
+    "headers": [
+      "Implementation",
+      "Data acquisition and processing time",
+      "Acquisition task charge",
+      "Acquisition task charge",
+      "Average current (during 100 ms)"
+    ],
+    "rows": [
+      [
+        "Hardware",
+        "6.06 ms",
+        "896 pAh",
+        "3.23 μC",
+        "37 μA"
+      ],
+      [
+        "Software",
+        "6.80 ms",
+        "1099 pAh",
+        "3.96 μC",
+        "44 μA"
+      ]
+    ],
+    "notes": [
+      "1. Configuring the system/data acquisition.",
+      "2. Capturing of 64 samples and processing them by the ADC oversampling engine while the core is in Sleep low- power mode.",
+      "3. Putting the system in Stop mode for the rest of the 100 ms interval.",
+      "4. Putting the system in Stop mode for the rest of the 100 ms interval."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

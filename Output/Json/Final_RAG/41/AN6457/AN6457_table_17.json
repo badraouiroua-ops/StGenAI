@@ -1,0 +1,31 @@
+{
+  "table_id": "table_17",
+  "document": "Table 17. LPDMA programming for CORDIC",
+  "rev": null,
+  "table_number": "17",
+  "title": "Table 17. LPDMA programming for CORDIC",
+  "page": 13,
+  "section": "3.5.1 Low-power timers (LPTIM)",
+  "section_title": "Low-power timers (LPTIM)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=13",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 17. LPDMA programming for CORDIC — section 3.5.1 Low-power timers (LPTIM). LPDMA data width for source and destination, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA data width for source and destination",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "16-bit or 32-bit",
+        "Depends on CORDIC settings."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

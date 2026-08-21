@@ -1,0 +1,38 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Document revision history",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Document revision history",
+  "page": 25,
+  "section": "7 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=25",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "text_helper": "Table 9. Document revision history — section 7 Conclusion. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "25-Sep-2023",
+        "1",
+        "Initial version."
+      ],
+      [
+        "06-Mar-2024",
+        "2",
+        "Added STM32C0 series, STM32C5 series, STM32U3 series. Updated Table 1. Applicable products"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

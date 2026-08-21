@@ -1,0 +1,28 @@
+{
+  "table_id": "table_5",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau",
+      "row_index": null,
+      "analyse_visuelle": "Les en-têtes verticaux pour les colonnes STM32L4x6 et STM32U59xxx ont été extraits à l'envers (inversion RTL).",
+      "corrections": [
+        {
+          "colonne_index": 6,
+          "valeur_originale_json": "STM32L4 / 6x4L23MTS",
+          "nouvelle_valeur": "STM32L4 / STM32L4x6",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 15,
+          "valeur_originale_json": "STM32U5 / xxx95U23MTS",
+          "nouvelle_valeur": "STM32U5 / STM32U59xxx",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

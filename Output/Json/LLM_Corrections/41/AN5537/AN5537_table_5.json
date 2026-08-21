@@ -1,0 +1,71 @@
+{
+  "table_id": "table_5",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Les 4 premières lignes du tableau (OSR = 2, 4, 8, 16) étaient manquantes dans le JSON extrait."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "2",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8",
+        "7",
+        "6",
+        "5"
+      ]
+    },
+    {
+      "row_index": 1,
+      "contenu": [
+        "4",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8",
+        "7",
+        "6"
+      ]
+    },
+    {
+      "row_index": 2,
+      "contenu": [
+        "8",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8",
+        "7"
+      ]
+    },
+    {
+      "row_index": 3,
+      "contenu": [
+        "16",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9",
+        "8"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

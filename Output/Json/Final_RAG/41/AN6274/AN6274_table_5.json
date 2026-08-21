@@ -1,0 +1,73 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. JTAG/Serial-wire debug port pins",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. JTAG/Serial-wire debug port pins",
+  "page": 16,
+  "section": "6.2.1 SWJ-DP pins",
+  "section_title": "SWJ-DP pins",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+  "text_helper": "Table 5. JTAG/Serial-wire debug port pins — section 6.2.1 SWJ-DP pins. Pin name, JTAG debug port / Type, JTAG debug port / Description, Serial-wire debug port / Type, Serial-wire debug port / Description, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Pin name",
+      "JTAG debug port / Type",
+      "JTAG debug port / Description",
+      "Serial-wire debug port / Type",
+      "Serial-wire debug port / Description",
+      "Pin assignment"
+    ],
+    "rows": [
+      [
+        "JTMS/SWDIO",
+        "Input",
+        "JTAG test mode select",
+        "Input/Output",
+        "Serial-wire data in/out",
+        "PA13"
+      ],
+      [
+        "JTCK/SWCLK",
+        "Input",
+        "JTAG test clock",
+        "Input",
+        "Serial-wire clock",
+        "PA14"
+      ],
+      [
+        "JTDI (1)",
+        "Input",
+        "JTAG test data input",
+        "-",
+        "-",
+        "PA15"
+      ],
+      [
+        "JTDO",
+        "Output",
+        "JTAG test data output",
+        "-",
+        "-",
+        "PB3"
+      ],
+      [
+        "nJTRST",
+        "Input",
+        "JTAG test reset",
+        "-",
+        "-",
+        "PB4"
+      ]
+    ],
+    "notes": [
+      "1. TDI is hosted on the same IO as a USBPD-CC line. To avoid pull-up/down conflict, a user option can help to decide whether the pad is used as TDI or as CC."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

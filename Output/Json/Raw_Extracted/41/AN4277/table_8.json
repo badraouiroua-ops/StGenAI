@@ -1,0 +1,90 @@
+{
+  "table_id": "table_8",
+  "caption": "Table 8. Comparator output connected externally to break inputs, with high break polarity",
+  "pdf_name": "AN4277",
+  "family": "41",
+  "page": 17,
+  "merged_pages": [
+    17,
+    18
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=17",
+  "section": "6.3 Using an external emergency signal together with the internal comparator",
+  "headers": [
+    "Description",
+    "Register",
+    "Bit",
+    "Configuration"
+  ],
+  "rows": [
+    [
+      "TIM1/8/20 BRK/BRK2 polarity",
+      "TIMx_BDTR",
+      "BKP or BK2P",
+      "1 (active high), it means that the external signal goes high during the fault"
+    ],
+    [
+      "Comparator output polarity",
+      "COMPx_CSR",
+      "COMPxPOL",
+      "0 (not inverted), comparators input connected as shown in previous sections"
+    ],
+    [
+      "TIM1/8/20 BKIN/BKIN2 AF",
+      "GPIOxAFRL or GPIOxAFRH",
+      "-",
+      "AF enabled on BKIN/BKIN2 pin selected among available"
+    ],
+    [
+      "TIM1/8/20 BRK/BRK2 enable",
+      "TIMX_BDTR",
+      "BKEor BK2E",
+      "1"
+    ],
+    [
+      "COMPx out selection",
+      "COMPx_CSR",
+      "COMPxOUTSEL",
+      "0001: TIM1 BRK 0010: TIM1 BRK2 0011: TIM8 BRK 0100: TIM8 BRK2 0101: TIM1 BRK2 + TIM8 BRK2 1100: TIM20 BRK 1101: TIM20 BRK2 1110: TIM1 BRK2 + TIM8 BRK2 + TIM20 BRK2"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.821,
+    "cols_extracted": 4,
+    "continuation": {
+      "base_cols": 4,
+      "cont_cols_raw": 4,
+      "target_cols": 4,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN4277",
+    "table_id": "table_8",
+    "is_continued": true,
+    "pages": [
+      17,
+      18
+    ],
+    "rows_count": 5,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

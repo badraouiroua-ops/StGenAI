@@ -1,0 +1,136 @@
+{
+  "table_id": "table_55",
+  "caption": "Table 55. 64 MHz high-speed internal (HSI) oscillator characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 163,
+  "merged_pages": [
+    163,
+    164
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=163",
+  "section": "5.3.10 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f (2) HSI",
+      "Frequency",
+      "V = 1.8 V, T = 30°C DDA18AON J",
+      "63.68",
+      "64",
+      "64.32",
+      "MHz"
+    ],
+    [
+      "TRIM",
+      "User trimming step",
+      "-",
+      "-",
+      "0.25",
+      "0.5",
+      "%"
+    ],
+    [
+      "DuCy HSI",
+      "Duty cycle",
+      "-",
+      "40",
+      "-",
+      "60",
+      "%"
+    ],
+    [
+      "∆ VDDA18AON(HSI) + ∆ TJ(HSI)",
+      "Oscillator frequency drift over voltage and temperature variation (after factory calibration)",
+      "T = -40 to 125°C J",
+      "-5",
+      "-",
+      "5",
+      "%"
+    ],
+    [
+      "t su(HSI)",
+      "Startup time (from enable rise to first output clock edge)",
+      "-",
+      "-",
+      "-",
+      "3",
+      "μs"
+    ],
+    [
+      "t stab(HSI)",
+      "Stabilization time",
+      "1% of target frequency",
+      "-",
+      "-",
+      "5",
+      "μs"
+    ],
+    [
+      "I VDDCORE(HSI)",
+      "Supply current on V DDCORE",
+      "-",
+      "-",
+      "-",
+      "10",
+      "μA"
+    ],
+    [
+      "I VDD18AON(HSI)",
+      "Supply current on V DDA18AON",
+      "-",
+      "-",
+      "300",
+      "400",
+      "μA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. Startup time measured from the moment it is enabled (by software) to a stabilized 32.768 kHz oscillation is reached. This value is measured for a standard crystal resonator, it can vary significantly with the crystal manufacturer."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_55",
+    "is_continued": true,
+    "pages": [
+      163,
+      164
+    ],
+    "rows_count": 8,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

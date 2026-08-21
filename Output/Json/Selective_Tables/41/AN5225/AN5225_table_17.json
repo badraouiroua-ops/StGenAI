@@ -1,0 +1,63 @@
+{
+  "table_id": "table_17",
+  "document": "Table 17. Document revision history",
+  "rev": null,
+  "table_number": "17",
+  "title": "Table 17. Document revision history",
+  "page": 69,
+  "section": "15 Additional information",
+  "section_title": "Additional information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=69",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 17. Document revision history — section 15 Additional information. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "24-Apr-2019",
+        "1",
+        "Initial release."
+      ],
+      [
+        "26-Sep-2019",
+        "2",
+        "Updated: • Section Introduction • Section 1.2 Reference documents • Table 8. Fixed and programmable power supply current and cabling requirements • Figure 25. Source architecture • Figure 29. DRP with FRS VBUS = 5 V / 9 V / 15 V connections • Figure 38. Applying VCONN on CC lines • Figure 46. Entirely VBUS-powered sink • Figure 47. Sink application with battery (PD3.0) • Section 14.4.1 SNK or sink power applications • Figure 48. 15 W sink application with battery Added: • Figure 8. USB Type-C Power Delivery block diagram and Figure 9. STM32G0 Discovery kit USB Type-C analyser • New Figure 27. DRP connections • New Figure 1 Removed Source and Source/Sink mode description subsections from Section 14.4 TCPP01, TCPP02 and TCPP03 Type-C port protection devices."
+      ],
+      [
+        "01-Sep-2020",
+        "3",
+        "Updated: • Section Introduction • Section 1.2 Reference documents • Section 5 Power profiles • Section 9 Product offer • Section 11 Type-C with Power Delivery using integrated UCPD peripheral, Section 11.3 Hardware overview • Section 12 Type-C with Power Delivery using a general-purpose peripheral, Section 12.2 Hardware overview • Section 13 Dedicated architecture proposals and solutions • Section 14 Recommendations"
+      ],
+      [
+        "14-Sep-2021",
+        "4",
+        "Updated: • Section 1.2 Reference documents • Table 14. Source features • Section 13.5 Monitoring VBUS voltage and current and Figure 41 • Section 14.4 TCPP01, TCPP02 and TCPP03 Type-C port protection devices (and rearranged subsequent subsections). Added: • Section 13.6 Dual-role power port • Section 14.4.2 DRP or dual-role power applications • Section 14.6 VBUS inrush current considerations in Sink cases • Section 14.7 VBUS overshoot considerations in Sink cases • Section 14.8 VBUS discharge"
+      ],
+      [
+        "12-Oct-2021",
+        "5",
+        "Updated: • Section Introduction"
+      ],
+      [
+        "16-Mar-2022",
+        "6",
+        "Updated: • Figure 48. 15 W sink application with battery"
+      ],
+      [
+        "23-Jun-2023",
+        "7",
+        "Added: • Section 11.2 STM32 MPU software overview • Section 14.3 Capacitors on VBUS line • VBUS sensing detection Updated: • Section Introduction • Section 1.2 Reference documents • Section 11.1 STM32 MCU software overview"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

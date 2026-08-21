@@ -1,0 +1,48 @@
+{
+  "table_id": "table_35",
+  "document": "Table 35. LPDMA read or write transfer latency to APB register",
+  "rev": null,
+  "table_number": "35",
+  "title": "Table 35. LPDMA read or write transfer latency to APB register",
+  "page": 26,
+  "section": "4.5.2 AHB-to-APB bridge transfer latency",
+  "section_title": "AHB-to-APB bridge transfer latency",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=26",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 35. LPDMA read or write transfer latency to APB register — section 4.5.2 AHB-to-APB bridge transfer latency. BPA/BHA kcolc oitar, Read latency (AHB clock cycles), Write latency (AHB clock cycles).",
+  "table_content": {
+    "headers": [
+      "BPA/BHA kcolc oitar",
+      "Read latency (AHB clock cycles)",
+      "Write latency (AHB clock cycles)"
+    ],
+    "rows": [
+      [
+        "1:1",
+        "4 to 6",
+        "4 to 6"
+      ],
+      [
+        "1:2",
+        "5 to 7",
+        "5 to 7"
+      ],
+      [
+        "1:4",
+        "9 to 13",
+        "9 to 13"
+      ],
+      [
+        "1:8",
+        "17 to 25",
+        "17 to 25"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

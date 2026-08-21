@@ -1,0 +1,73 @@
+{
+  "table_id": "table_11",
+  "document": "Table 11. SPI clock configuration and accuracy",
+  "rev": null,
+  "table_number": "11",
+  "title": "Table 11. SPI clock configuration and accuracy",
+  "page": 39,
+  "section": "3.2 DFSDM filters for digital signal processing",
+  "section_title": "DFSDM filters for digital signal processing",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=39",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 11. SPI clock configuration and accuracy — section 3.2 DFSDM filters for digital signal processing. Target Audio Frequency (kHz), Microphone mode, DivM, PLLN, DivR, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Target Audio Frequency (kHz)",
+      "Microphone mode",
+      "DivM",
+      "PLLN",
+      "DivR",
+      "DivP",
+      "SPI clock (MHz)",
+      "Accuracy (ppm)"
+    ],
+    "rows": [
+      [
+        "16",
+        "Mono",
+        "7",
+        "344",
+        "-",
+        "6",
+        "65.52",
+        "-186"
+      ],
+      [
+        "16",
+        "Stereo (with timer)",
+        "7",
+        "344",
+        "-",
+        "6",
+        "65.52",
+        "-186"
+      ],
+      [
+        "48",
+        "Mono",
+        "7",
+        "344",
+        "-",
+        "4",
+        "98.29",
+        "-186"
+      ],
+      [
+        "48",
+        "Stereo (with timer)",
+        "7",
+        "344",
+        "-",
+        "4",
+        "98.29",
+        "-186"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Electrical characteristics",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Electrical characteristics",
+  "page": 10,
+  "section": "5.1 Electrical characteristics",
+  "section_title": "Electrical characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=10",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 4. Electrical characteristics — section 5.1 Electrical characteristics. Parameters, Min, Typical, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Parameters",
+      "Min",
+      "Typical",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Operating voltage",
+        "1.10",
+        "1.20",
+        "1.30",
+        "V"
+      ],
+      [
+        "Operating voltage",
+        "1.65",
+        "1.80",
+        "1.95",
+        "V"
+      ],
+      [
+        "Operating voltage",
+        "2.97",
+        "3.30",
+        "3.63",
+        "V"
+      ],
+      [
+        "SCL clock frequency",
+        "0.01",
+        "12.5",
+        "12.9",
+        "MHz"
+      ],
+      [
+        "Total bus capacitance",
+        "-",
+        "50",
+        "-",
+        "pF"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

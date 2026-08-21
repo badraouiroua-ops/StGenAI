@@ -1,0 +1,345 @@
+{
+  "figure_id": "figure_8",
+  "document": "DS14928 Rev 3 - Figure 8. LQFP64 alternative pinout",
+  "rev": "Rev 3",
+  "figure_number": "8",
+  "title": "Figure 8. LQFP64 alternative pinout",
+  "page": 37,
+  "section": "Pinouts/ballouts, pin description, and alternate functions",
+  "section_title": "Pinouts/ballouts, pin description, and alternate functions",
+  "semantic_type": "pinout",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=37",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "text_helper": "Alternative pinout for LQFP64 package (64 pins). Package top view. Pinout for STM32C55xRxTxJ part number.",
+  "figure_content": {
+    "package_type": "LQFP64",
+    "pin_count": 64,
+    "view": "Top view",
+    "pins": [
+      {
+        "pin_number": 1,
+        "pin_name": "PE2",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 2,
+        "pin_name": "PE3",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 3,
+        "pin_name": "PE4",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 4,
+        "pin_name": "PE5",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 5,
+        "pin_name": "PH0-OSC_IN",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 6,
+        "pin_name": "PH1-OSC_OUT",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 7,
+        "pin_name": "NRST",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 8,
+        "pin_name": "PC0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 9,
+        "pin_name": "PC1",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 10,
+        "pin_name": "PC2",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 11,
+        "pin_name": "PC3",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 12,
+        "pin_name": "VREF-",
+        "type": "Power"
+      },
+      {
+        "pin_number": 13,
+        "pin_name": "VREF+",
+        "type": "Power"
+      },
+      {
+        "pin_number": 14,
+        "pin_name": "PA0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 15,
+        "pin_name": "PA1",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 16,
+        "pin_name": "PA2",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 17,
+        "pin_name": "PA3",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 18,
+        "pin_name": "VSS",
+        "type": "Ground"
+      },
+      {
+        "pin_number": 19,
+        "pin_name": "VDD",
+        "type": "Power"
+      },
+      {
+        "pin_number": 20,
+        "pin_name": "PA4",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 21,
+        "pin_name": "PA5",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 22,
+        "pin_name": "PA6",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 23,
+        "pin_name": "PA7",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 24,
+        "pin_name": "PC4",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 25,
+        "pin_name": "PC5",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 26,
+        "pin_name": "PB0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 27,
+        "pin_name": "PB1",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 28,
+        "pin_name": "PB2",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 29,
+        "pin_name": "PB10",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 30,
+        "pin_name": "VCAP",
+        "type": "Power"
+      },
+      {
+        "pin_number": 31,
+        "pin_name": "VSS",
+        "type": "Ground"
+      },
+      {
+        "pin_number": 32,
+        "pin_name": "VDD",
+        "type": "Power"
+      },
+      {
+        "pin_number": 33,
+        "pin_name": "PB12",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 34,
+        "pin_name": "PB13",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 35,
+        "pin_name": "PB14",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 36,
+        "pin_name": "PB15",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 37,
+        "pin_name": "PC6",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 38,
+        "pin_name": "PC7",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 39,
+        "pin_name": "PC8",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 40,
+        "pin_name": "PC9",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 41,
+        "pin_name": "PA8",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 42,
+        "pin_name": "PA9",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 43,
+        "pin_name": "PA10",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 44,
+        "pin_name": "PA11",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 45,
+        "pin_name": "PA12",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 46,
+        "pin_name": "PA13",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 47,
+        "pin_name": "VSS",
+        "type": "Ground"
+      },
+      {
+        "pin_number": 48,
+        "pin_name": "VDD",
+        "type": "Power"
+      },
+      {
+        "pin_number": 49,
+        "pin_name": "PA14",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 50,
+        "pin_name": "PA15",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 51,
+        "pin_name": "PC10",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 52,
+        "pin_name": "PC11",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 53,
+        "pin_name": "PC12",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 54,
+        "pin_name": "PD2",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 55,
+        "pin_name": "PB3",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 56,
+        "pin_name": "PB4",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 57,
+        "pin_name": "PB5",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 58,
+        "pin_name": "PB6",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 59,
+        "pin_name": "PB7",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 60,
+        "pin_name": "PH2-BOOT0",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 61,
+        "pin_name": "PB8",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 62,
+        "pin_name": "PB9",
+        "type": "I/O"
+      },
+      {
+        "pin_number": 63,
+        "pin_name": "VSS",
+        "type": "Ground"
+      },
+      {
+        "pin_number": 64,
+        "pin_name": "VDD",
+        "type": "Power"
+      }
+    ],
+    "notes": [
+      "Pinout for STM32C55xRxTxJ part number."
+    ]
+  }
+}

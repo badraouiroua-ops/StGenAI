@@ -1,0 +1,873 @@
+{
+  "pdf_name": "AN6457",
+  "family": "41",
+  "tables_checked": 35,
+  "cells_checked": 96,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Microcontrollers",
+      "reversed": false,
+      "drift": -8.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32C5 series",
+      "reversed": false,
+      "drift": -8.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "STM32C5",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32C53xxx/542xx: LPDMA1 4 channels + LPDMA2 4 channels STM32C55xxx/562xx: LPDMA1 8 channels + LPDMA2 4 channels STM32C59xxx/5A3xx: LPDMA1 8 channels + LPDMA2 8 channels",
+      "reversed": false,
+      "drift": -10.57,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "STM32C5",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "LPDMA1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "x = 0 and x = 7",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 3,
+      "row": 0,
+      "original": "i3c1_rx_dma",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "8-bit, 16-bit, or 32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on ADC settings.",
+      "reversed": false,
+      "drift": -2.62,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 0,
+      "row": 0,
+      "original": "dac_ch1_dma/ dac_ch2_dma",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Write (any) DAC_DHRyRx with y = 12, 8 and x = 1, 2",
+      "reversed": false,
+      "drift": -6.19,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 4,
+      "row": 0,
+      "original": "The DAC data hold register must be written at the specific 32-bit aligned address, depending on the used DAC format (8- or 12‑bit, left-aligned or right-aligned) and depending on the considered channel (1 or 2).",
+      "reversed": false,
+      "drift": -56.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 0,
+      "row": 0,
+      "original": "8-bit, 16-bit, or 32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on DAC settings.",
+      "reversed": false,
+      "drift": -2.62,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 0,
+      "row": 0,
+      "original": "i2cx_rx_dma (x=1, 2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 1,
+      "row": 0,
+      "original": "I2C on APB1",
+      "reversed": false,
+      "drift": 0.7,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Read 8-bit I2C_RXDR",
+      "reversed": false,
+      "drift": 7.86,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Request for a new received data byte to be read by the LPDMA. Must be read with a 32‑bit aligned address.",
+      "reversed": false,
+      "drift": -1.29,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "i2c_tx, i2c_rx: 8‑bit i2c_evc: 32-bit(1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on I2C settings.",
+      "reversed": false,
+      "drift": -3.62,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 0,
+      "row": 0,
+      "original": "1I3c_rx_dma",
+      "reversed": false,
+      "drift": -5.83,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 1,
+      "row": 0,
+      "original": "APB1 for I3C1",
+      "reversed": false,
+      "drift": -1.4,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 2,
+      "row": 0,
+      "original": "8‑byte RX-FIFO",
+      "reversed": false,
+      "drift": 6.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Read 8‑bit I3C_RDR or 32‑bit I3C_RDWR",
+      "reversed": false,
+      "drift": 9.14,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Received data must be read with a 32‑bit aligned address.",
+      "reversed": false,
+      "drift": -27.84,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 0,
+      "row": 0,
+      "original": "i3c_tx_dma/ i3c_rx_dma: 8-bit or 32-bit i3c_tc_dma/ i3c_rs_dma: 32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on I3C settings.",
+      "reversed": false,
+      "drift": -3.62,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 0,
+      "row": 0,
+      "original": "(lp)u(s)art_rx_dma",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 1,
+      "row": 0,
+      "original": "APB1 for USART2/3/6 and UART4/5/7 APB2 for USART1 APB3 for LPUART1",
+      "reversed": false,
+      "drift": 4.15,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 2,
+      "row": 0,
+      "original": "8x 12-bit width RXFIFO (9 bits for Rx data + 3 bits for errors) 8x 9-bit width TXFIFO(1)",
+      "reversed": false,
+      "drift": 6.15,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Read USART_RDR or LPUART_RDR",
+      "reversed": false,
+      "drift": 7.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Request for a new received data to be read by the LPDMA. Must be read with a 32-bit aligned address, whatever is the data width.",
+      "reversed": false,
+      "drift": -19.02,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 0,
+      "row": 0,
+      "original": "16-bit or 32-bit read/write in 9-bit mode and 8-bit, 16-bit or 32-bit read/write in 8-bit and 7-bit modes",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on U(S)ART/LPUART settings.",
+      "reversed": false,
+      "drift": -0.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 0,
+      "row": 0,
+      "original": "spi_rx_dma (x = 1,2,3)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32C5 (APB2 for SPI1 APB1 for SPI2/3)",
+      "reversed": false,
+      "drift": -5.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 2,
+      "row": 0,
+      "original": "16-byte RXFIFO and TXFIFO for SPI1, SPI2 and SPI3(1)",
+      "reversed": false,
+      "drift": 4.43,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Read SPI_RXDR",
+      "reversed": false,
+      "drift": 5.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Request for a new received data to be read by the LPDMA. Must be read with a 32-bit aligned address, whatever is the data width.",
+      "reversed": false,
+      "drift": -19.02,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 0,
+      "row": 0,
+      "original": "32-bit recommended. If not applicable, 8-bit or 16-bit.",
+      "reversed": false,
+      "drift": -5.69,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on SPI settings.",
+      "reversed": false,
+      "drift": -2.62,
+      "corrected": null
+    },
+    {
+      "table_id": "table_16_row0",
+      "col": 0,
+      "row": 0,
+      "original": "cordic_rd_dma",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_16_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Read CORDIC_RDATA",
+      "reversed": false,
+      "drift": 7.58,
+      "corrected": null
+    },
+    {
+      "table_id": "table_16_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Request for a new computed output data to be read by the LPDMA. Must be read with a 32-bit aligned address.",
+      "reversed": false,
+      "drift": -0.34,
+      "corrected": null
+    },
+    {
+      "table_id": "table_17_row0",
+      "col": 0,
+      "row": 0,
+      "original": "16-bit or 32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_17_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on CORDIC settings.",
+      "reversed": false,
+      "drift": -1.55,
+      "corrected": null
+    },
+    {
+      "table_id": "table_18_row0",
+      "col": 0,
+      "row": 0,
+      "original": "lptimx_icy_dma (x = 1 and y = 1, 2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_18_row0",
+      "col": 1,
+      "row": 0,
+      "original": "LPTIM1 on APB3",
+      "reversed": false,
+      "drift": -2.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_18_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Read 16-bit/32-bit LPTIMx_CCRy",
+      "reversed": false,
+      "drift": 8.48,
+      "corrected": null
+    },
+    {
+      "table_id": "table_18_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Request to read the capture compare register on an input capture event (connected input signal). Must be a 32-bit aligned address access.",
+      "reversed": false,
+      "drift": -18.01,
+      "corrected": null
+    },
+    {
+      "table_id": "table_19_row0",
+      "col": 0,
+      "row": 0,
+      "original": "16-bit or 32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_19_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on LPTIM settings. A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic.",
+      "reversed": false,
+      "drift": -67.42,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 0,
+      "row": 0,
+      "original": "timx_upd_dma/ timx_up_dma (x = 6, 7)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Write 32-bit TIMx_ARR",
+      "reversed": false,
+      "drift": 7.14,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Request on an update event (on a counter overflow)",
+      "reversed": false,
+      "drift": -24.9,
+      "corrected": null
+    },
+    {
+      "table_id": "table_21_row0",
+      "col": 0,
+      "row": 0,
+      "original": "32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_21_row0",
+      "col": 1,
+      "row": 0,
+      "original": "A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic.",
+      "reversed": false,
+      "drift": -63.91,
+      "corrected": null
+    },
+    {
+      "table_id": "table_22_row0",
+      "col": 0,
+      "row": 0,
+      "original": "timx_chy_dma/ timx_ccy_dma (x = 2 to 5 and y = 1 to 4) or (x = 15 and y = 1, 2) or (x = 16, 17 and y = 1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_22_row0",
+      "col": 1,
+      "row": 0,
+      "original": "APB1 for TIM2/3/4/5 APB2 for TIM15/16/17",
+      "reversed": false,
+      "drift": -0.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_22_row0",
+      "col": 3,
+      "row": 0,
+      "original": "32-bit write TIMx_ARR in basic mode or 32-bit write TIMx_CCRy in output compare/PWM mode or 32-bit read TIMx_CCRy in input capture mode or a series of 32-bit writes to TIMx_DMAR or a series of 32-bit writes to TIMx_DMAR",
+      "reversed": false,
+      "drift": 6.82,
+      "corrected": null
+    },
+    {
+      "table_id": "table_22_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Request on an input capture event or an output compare event",
+      "reversed": false,
+      "drift": -30.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_23_row0",
+      "col": 0,
+      "row": 0,
+      "original": "32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_23_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on TIM settings. A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic.",
+      "reversed": false,
+      "drift": -66.49,
+      "corrected": null
+    },
+    {
+      "table_id": "table_24_row0",
+      "col": 0,
+      "row": 0,
+      "original": "timx_chy_dma/ timx_ccy_dma (x = 1, 8 and y = 1 to 4)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_24_row0",
+      "col": 3,
+      "row": 0,
+      "original": "No tightly coupled timer register read/write Typically a 32-bit read/write to TIMx_CCRy or a 16-/32-bit read/write to TIMx_RCR or a series of 32-bit read/ writes to TIMx_DMAR (x = 1, 8 and y = 1 to 4)",
+      "reversed": false,
+      "drift": 32.73,
+      "corrected": null
+    },
+    {
+      "table_id": "table_24_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Request on an input capture event or an output compare event",
+      "reversed": false,
+      "drift": -30.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_25_row0",
+      "col": 0,
+      "row": 0,
+      "original": "32-bit (or 16-bit for TIMx_RCR)",
+      "reversed": false,
+      "drift": 12.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_25_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on TIM settings. A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic.",
+      "reversed": false,
+      "drift": -66.49,
+      "corrected": null
+    },
+    {
+      "table_id": "table_26_row0",
+      "col": 0,
+      "row": 0,
+      "original": "hash_in_dma",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_26_row0",
+      "col": 2,
+      "row": 0,
+      "original": "16-word FIFO",
+      "reversed": false,
+      "drift": 5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_26_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Write 32-bit HASH_IN",
+      "reversed": false,
+      "drift": 7.86,
+      "corrected": null
+    },
+    {
+      "table_id": "table_26_row0",
+      "col": 4,
+      "row": 0,
+      "original": "HASH input data register (HASH_IN) is written by a single word.",
+      "reversed": false,
+      "drift": -15.43,
+      "corrected": null
+    },
+    {
+      "table_id": "table_27_row0",
+      "col": 0,
+      "row": 0,
+      "original": "32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_28_row0",
+      "col": 0,
+      "row": 0,
+      "original": "aes_in_dma",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_28_row0",
+      "col": 2,
+      "row": 0,
+      "original": "128-bit/4-word input buffer",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_28_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Write 32-bit AES_DINR",
+      "reversed": false,
+      "drift": 8.79,
+      "corrected": null
+    },
+    {
+      "table_id": "table_28_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Request for a new 32-bit input data to be written by the LPDMA",
+      "reversed": false,
+      "drift": 20.73,
+      "corrected": null
+    },
+    {
+      "table_id": "table_29_row0",
+      "col": 0,
+      "row": 0,
+      "original": "32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_30_row0",
+      "col": 0,
+      "row": 0,
+      "original": "xspi1_rx_dma",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_30_row0",
+      "col": 1,
+      "row": 0,
+      "original": "AHB_XSPI (dedicated target of bus matrix)",
+      "reversed": false,
+      "drift": -20.58,
+      "corrected": null
+    },
+    {
+      "table_id": "table_30_row0",
+      "col": 2,
+      "row": 0,
+      "original": "32-byte FIFO",
+      "reversed": false,
+      "drift": 5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_30_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Read/Write 8-bit, 16-bit or 32-bit XSPI_DR",
+      "reversed": false,
+      "drift": 12.83,
+      "corrected": null
+    },
+    {
+      "table_id": "table_30_row0",
+      "col": 4,
+      "row": 0,
+      "original": "It is recommended to access XSPI_DR with a 32-bit data width when it is allowed by the application to use efficiently the system bus bandwidth. FTHRES[4:0] is the XSPI_CR register must be set accordingly. Must be a 32-bit aligned address access.",
+      "reversed": false,
+      "drift": -8.92,
+      "corrected": null
+    },
+    {
+      "table_id": "table_31_row0",
+      "col": 0,
+      "row": 0,
+      "original": "8-bit, 16-bit or 32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_31_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Depends on XSPI settings.",
+      "reversed": false,
+      "drift": -2.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_32_row0",
+      "col": 0,
+      "row": 0,
+      "original": "LPDMA1 <-> SRAM1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_33_row0",
+      "col": 0,
+      "row": 0,
+      "original": "8-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_33_row0",
+      "col": 1,
+      "row": 0,
+      "original": "3 to 4",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_33_row0",
+      "col": 2,
+      "row": 0,
+      "original": "25 to 33",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_33_row0",
+      "col": 3,
+      "row": 0,
+      "original": "25 to 33",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_34_row0",
+      "col": 2,
+      "row": 0,
+      "original": "4 to 5",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_35_row0",
+      "col": 1,
+      "row": 0,
+      "original": "4 to 6",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_35_row0",
+      "col": 2,
+      "row": 0,
+      "original": "4 to 6",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_36_row0",
+      "col": 0,
+      "row": 0,
+      "original": "03-Mar-2026",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_36_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

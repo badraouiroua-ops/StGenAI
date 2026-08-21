@@ -1,0 +1,48 @@
+{
+  "table_id": "table_34",
+  "document": "Table 34. AHB-to-APB bridge: read or write AHB transaction latency to APB register",
+  "rev": null,
+  "table_number": "34",
+  "title": "Table 34. AHB-to-APB bridge: read or write AHB transaction latency to APB register",
+  "page": 25,
+  "section": "4.5.2 AHB-to-APB bridge transfer latency",
+  "section_title": "AHB-to-APB bridge transfer latency",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=25",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 34. AHB-to-APB bridge: read or write AHB transaction latency to APB register — section 4.5.2 AHB-to-APB bridge transfer latency. BPA/BHA kcolc oitar, Read latency (AHB clock cycles), Write latency (AHB clock cycles).",
+  "table_content": {
+    "headers": [
+      "BPA/BHA kcolc oitar",
+      "Read latency (AHB clock cycles)",
+      "Write latency (AHB clock cycles)"
+    ],
+    "rows": [
+      [
+        "1:1",
+        "4",
+        "4 to 5"
+      ],
+      [
+        "1:2",
+        "5 to 6",
+        "5 to 6"
+      ],
+      [
+        "1:4",
+        "9 to 12",
+        "9 to 12"
+      ],
+      [
+        "1:8",
+        "17 to 24",
+        "17 to 24"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

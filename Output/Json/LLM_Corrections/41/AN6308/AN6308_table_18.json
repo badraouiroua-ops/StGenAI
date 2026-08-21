@@ -1,0 +1,10 @@
+{
+  "table_id": "table_18",
+  "status": "OK",
+  "logs": [
+    "Ligne 7, Col 2 laissée vide (cellule fusionnée horizontalement 'POR, PDR, PVD' dans le document source)"
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

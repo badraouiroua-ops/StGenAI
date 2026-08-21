@@ -1,0 +1,95 @@
+{
+  "table_id": "table_71",
+  "caption": "Table 71. UFQFPN32 - Mechanical data",
+  "pdf_name": "stm32c051c6",
+  "family": "C0",
+  "page": 98,
+  "merged_pages": [
+    98
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=98",
+  "section": "6.1 Device marking",
+  "headers": [
+    "Symbol",
+    "millimeters(1) / Min",
+    "millimeters(1) / Typ",
+    "millimeters(1) / Max",
+    "inches(2) / Min",
+    "inches(2) / Typ",
+    "inches(2) / Max"
+  ],
+  "rows": [
+    [
+      "A(3)(4)",
+      "0.50",
+      "0.55",
+      "0.60",
+      "0.0197",
+      "0.0217",
+      "0.0236"
+    ],
+    [
+      "A1(5)",
+      "0.00",
+      "-",
+      "0.05",
+      "0.000",
+      "-",
+      "0.0020"
+    ],
+    [
+      "b(6)",
+      "0.18",
+      "0.25",
+      "0.30",
+      "0.0071",
+      "0.0098",
+      "0.0118"
+    ],
+    [
+      "D(7)",
+      "5.00 BSC",
+      "5.00 BSC",
+      "5.00 BSC",
+      "0.1969 BSC",
+      "0.1969 BSC",
+      "0.1969 BSC"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "truncated_rows": 7,
+    "_notes": [
+      "1. All dimensions are in millimeters. Dimensioning and tolerancing schemes conform to ASME Y14.5M-2018 except European.",
+      "2. Values in inches are converted from mm and rounded to four decimal digits.",
+      "3. UFQFPN stands for ultra thin fine pitch quad flat package no lead: A ≤ 0.60 mm / Fine pitch e ≤ 1.00 mm.",
+      "4. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "5. A1 is the vertical distance from the bottom surface of the plastic body to the nearest metalized package feature.",
+      "6. Dimension b applies to metalized terminal. If the terminal has the optional radius on the other end of the terminal, the dimension b must not be measured in that radius area.",
+      "7. BSC stands for BASIC dimensions. It corresponds to the nominal value and has no tolerance. For tolerances, refer to Table 72."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c051c6",
+    "table_id": "table_71",
+    "is_continued": false,
+    "pages": [
+      98
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

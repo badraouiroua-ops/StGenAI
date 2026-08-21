@@ -1,0 +1,63 @@
+{
+  "table_id": "table_14",
+  "caption": "Table 14. Spectrum analyzer resolution bandwidth versus frequency range (narrowband EMI)",
+  "pdf_name": "AN1709",
+  "family": "41",
+  "page": 30,
+  "merged_pages": [
+    30
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=30",
+  "section": "6 Conclusion",
+  "headers": [
+    "Frequency range (MHz)",
+    "Resolution bandwidth",
+    "Detector"
+  ],
+  "rows": [
+    [
+      "0.1 - 1",
+      "1 kHz",
+      "Peak"
+    ],
+    [
+      "1 - 10",
+      "1 kHz",
+      "Peak"
+    ],
+    [
+      "10 - 100",
+      "1 kHz",
+      "Peak"
+    ],
+    [
+      "100 - 1000",
+      "9 kHz",
+      "Peak"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN1709",
+    "table_id": "table_14",
+    "is_continued": false,
+    "pages": [
+      30
+    ],
+    "rows_count": 4,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

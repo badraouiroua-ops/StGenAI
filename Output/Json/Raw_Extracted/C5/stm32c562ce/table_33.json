@@ -1,0 +1,137 @@
+{
+  "table_id": "table_33",
+  "caption": "Table 33. High-speed external user clock characteristics.",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 65,
+  "merged_pages": [
+    65
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=65",
+  "section": "5.3.8.1 High-speed external user clock generated from an external source",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fHSE_ext",
+      "User external clock source frequency",
+      "Digital mode (HSEYBYP = 1, HSEEXT = 1)",
+      "-",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "fHSE_ext",
+      "User external clock source frequency",
+      "Analolog mode (HSEYBYP = 1, HSEEXT = 0)",
+      "4",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "VHSEH",
+      "OSC_IN input pin high-level voltage",
+      "Digital mode (HSEYBYP = 1, HSEEXT = 1)",
+      "0.7 × VDD",
+      "-",
+      "VDD",
+      "V"
+    ],
+    [
+      "VHSEL",
+      "OSC_IN input pin low-level voltage",
+      "Digital mode (HSEYBYP = 1, HSEEXT = 1)",
+      "VSS",
+      "-",
+      "0.3 × VDD",
+      "V"
+    ],
+    [
+      "tw(HSEH)(1) tw(HSEL)(1)",
+      "OSC_IN high or low time",
+      "Digital mode (HSEYBYP = 1, HSEEXT = 1)",
+      "7",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "DuCyHSE",
+      "OSC_IN duty cycle",
+      "Digital mode (HSEYBYP = 1, HSEEXT = 1)",
+      "45",
+      "-",
+      "55",
+      "%"
+    ],
+    [
+      "VHSE_ext_PP(2)",
+      "OSC_IN peak-to-peak amplitude",
+      "Analog mode (HSEBYP = 1, HSEEXT = 0)",
+      "0.2",
+      "-",
+      "2/3 VDD",
+      "V"
+    ],
+    [
+      "VHSE_ext",
+      "OSC_IN input range",
+      "Analog mode (HSEBYP = 1, HSEEXT = 0)",
+      "0",
+      "-",
+      "VDD",
+      "V"
+    ],
+    [
+      "tr(HSE), tf(HSE)",
+      "OSC_IN rise and fall time",
+      "Analog mode (HSEBYP = 1, HSEEXT = 0)",
+      "0.05 / fext_ext",
+      "-",
+      "0.3 / fext_ext",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. There is no specified rise and fall time for a digital input signal, but the VHSEH and VHSEL conditions must be fulfilled .",
+      "2. The DC component of the signal must ensure that the signal peaks are located between VDD and VSS."
+    ],
+    "_legend": [
+      "Specified by design and not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_33",
+    "is_continued": false,
+    "pages": [
+      65
+    ],
+    "rows_count": 9,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

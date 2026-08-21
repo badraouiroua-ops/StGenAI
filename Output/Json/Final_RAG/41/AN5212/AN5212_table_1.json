@@ -1,0 +1,31 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Applicable products",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Applicable products",
+  "page": 1,
+  "section": "Introduction",
+  "section_title": "Introduction",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "text_helper": "Table 1. Applicable products — section Introduction. Type, Product series.",
+  "table_content": {
+    "headers": [
+      "Type",
+      "Product series"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "STM32H5, STM32L5, STM32U3, STM32U5, STM32C5"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,798 @@
+[
+  {
+    "document": "AN1709 - Table 1. Reference documents",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_1",
+    "table_number": "1",
+    "title": "Table 1. Reference documents",
+    "page": 2,
+    "section": "1.1 Reference documents",
+    "section_title": "Reference documents",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=2",
+    "text_helper": "Table 1. Reference documents — section 1.1 Reference documents. Document reference, Document title.",
+    "table_content": {
+      "headers": [
+        "Document reference",
+        "Document title"
+      ],
+      "rows": [
+        [
+          "AN901",
+          "EMC guidelines for microcontroller-based applications"
+        ],
+        [
+          "AN1015",
+          "Software techniques for improving microcontrollers EMC performance"
+        ],
+        [
+          "AN3353",
+          "IEC 61000-4-2 standard testing"
+        ],
+        [
+          "AN3960",
+          "Guidelines for ESD for touch sensing applications on STM32 MCUs"
+        ],
+        [
+          "AN4850",
+          "STM32 MCUs spread-spectrum clock generation principles, properties and implementation"
+        ],
+        [
+          "AN5612",
+          "ESD protection of STM32 MCUs and MPUs"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 2. ESD standards",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_2",
+    "table_number": "2",
+    "title": "Table 2. ESD standards",
+    "page": 4,
+    "section": "3.1.1 Functional EMS test",
+    "section_title": "Functional EMS test",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=4",
+    "text_helper": "Table 2. ESD standards — section 3.1.1 Functional EMS test. European standard, International standard, Description.",
+    "table_content": {
+      "headers": [
+        "European standard",
+        "International standard",
+        "Description"
+      ],
+      "rows": [
+        [
+          "EN 61000-4-2",
+          "EC 61000-4-2",
+          "Conducted ESD test"
+        ]
+      ],
+      "notes": [
+        "1. R = 50 MΩ, Rd = 330 Ω ch"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 3. FTB standards",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_3",
+    "table_number": "3",
+    "title": "Table 3. FTB standards",
+    "page": 5,
+    "section": "3.1.1 Functional EMS test",
+    "section_title": "Functional EMS test",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=5",
+    "text_helper": "Table 3. FTB standards — section 3.1.1 Functional EMS test. European standard, International standard, Description.",
+    "table_content": {
+      "headers": [
+        "European standard",
+        "International standard",
+        "Description"
+      ],
+      "rows": [
+        [
+          "N61000-4-4",
+          "EC 61000-4-4",
+          "Fast transient burst"
+        ]
+      ],
+      "notes": [
+        "1. R = 50 MΩ, Rd = 330 Ω ch"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 4. ST ESD severity levels",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_4",
+    "table_number": "4",
+    "title": "Table 4. ST ESD severity levels",
+    "page": 7,
+    "section": "3.1.1 Functional EMS test",
+    "section_title": "Functional EMS test",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=7",
+    "text_helper": "Table 4. ST ESD severity levels — section 3.1.1 Functional EMS test. Severity level, ESD (IEC 61000-4-2) equipment standard (kV), FTB (IEC 61000-4-4) equipment standard (kV), ESD ST internal EMC test (kV), FTB ST internal EMC test (kV).",
+    "table_content": {
+      "headers": [
+        "Severity level",
+        "ESD (IEC 61000-4-2) equipment standard (kV)",
+        "FTB (IEC 61000-4-4) equipment standard (kV)",
+        "ESD ST internal EMC test (kV)",
+        "FTB ST internal EMC test (kV)"
+      ],
+      "rows": [
+        [
+          "1",
+          "2",
+          "0.5",
+          "≤ 0.5",
+          "≤ 0.5"
+        ],
+        [
+          "2",
+          "4",
+          "1",
+          "≤ 1",
+          "≤ 1"
+        ],
+        [
+          "3",
+          "6",
+          "2",
+          "≤ 1.5",
+          "≤ 1.5"
+        ],
+        [
+          "4",
+          "8",
+          "4",
+          "≤ 2",
+          "≤ 2.5"
+        ],
+        [
+          "5(1)",
+          ">8",
+          ">4",
+          "NA",
+          "> 2.5"
+        ]
+      ],
+      "notes": [
+        "1. Class description: “A” class is an internal specification. All its limits are higher than the JEDEC specifications, that means when a device belongs to class A it exceeds the JEDEC standard. “B”class strictly covers all the JEDEC criteria"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 5. ST behavior classes",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_5",
+    "table_number": "5",
+    "title": "Table 5. ST behavior classes",
+    "page": 7,
+    "section": "3.1.1 Functional EMS test",
+    "section_title": "Functional EMS test",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=7",
+    "text_helper": "Table 5. ST behavior classes — section 3.1.1 Functional EMS test. Class A, Class B, Class C, Class D.",
+    "table_content": {
+      "headers": [
+        "Class A",
+        "Class B",
+        "Class C",
+        "Class D"
+      ],
+      "rows": [
+        [
+          "No failure detected",
+          "Failure detected but self-recovery after disturbance",
+          "Needs an external user action to recover normal functionality",
+          "Normal functionality cannot be recovered"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 6. F_ESD/FTB target level and acceptance limit",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_6",
+    "table_number": "6",
+    "title": "Table 6. F_ESD/FTB target level and acceptance limit",
+    "page": 7,
+    "section": "3.1.1 Functional EMS test",
+    "section_title": "Functional EMS test",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=7",
+    "text_helper": "Table 6. F_ESD/FTB target level and acceptance limit — section 3.1.1 Functional EMS test. -, Acceptance limit, Target level.",
+    "table_content": {
+      "headers": [
+        "-",
+        "Acceptance limit",
+        "Target level"
+      ],
+      "rows": [
+        [
+          "F_ESD",
+          "0.5kV",
+          ">1kV"
+        ],
+        [
+          "FTB",
+          "0.5kV",
+          ">1.5kV"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 7. Example of F_ESD / FTB test results",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_7",
+    "table_number": "7",
+    "title": "Table 7. Example of F_ESD / FTB test results",
+    "page": 7,
+    "section": "3.1.1 Functional EMS test",
+    "section_title": "Functional EMS test",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=7",
+    "text_helper": "Table 7. Example of F_ESD / FTB test results — section 3.1.1 Functional EMS test. Symbol, Ratings, Conditions, Severity/Criteria.",
+    "table_content": {
+      "headers": [
+        "Symbol",
+        "Ratings",
+        "Conditions",
+        "Severity/Criteria"
+      ],
+      "rows": [
+        [
+          "VF_ESD",
+          "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+          "TA=+25 °C",
+          "2/A, 3/B"
+        ],
+        [
+          "VFTB",
+          "Fast transient voltage burst limits to be applied through 100 pF on VSS and VDD pins to induce a functional disturbance",
+          "TA=+25 °C",
+          "3/B"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 8. Example of the LU test result on STM32L062K8",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_8",
+    "table_number": "8",
+    "title": "Table 8. Example of the LU test result on STM32L062K8",
+    "page": 8,
+    "section": "3.1.2 Latch-up (LU)",
+    "section_title": "Latch-up (LU)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=8",
+    "text_helper": "Table 8. Example of the LU test result on STM32L062K8 — section 3.1.2 Latch-up (LU). Symbol, Parameter, Conditions, Class(1).",
+    "table_content": {
+      "headers": [
+        "Symbol",
+        "Parameter",
+        "Conditions",
+        "Class(1)"
+      ],
+      "rows": [
+        [
+          "LU",
+          "Static latch-up class",
+          "TA=+125°C conforming to JESD78A",
+          "II level A"
+        ]
+      ],
+      "notes": [
+        "1. Class description: “A” class is an internal specification. All its limits are higher than the JEDEC specifications, that means when a device belongs to class A it exceeds the JEDEC standard. “B”class strictly covers all the JEDEC criteria"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 9. CDM ESDS component classification levels",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_9",
+    "table_number": "9",
+    "title": "Table 9. CDM ESDS component classification levels",
+    "page": 9,
+    "section": "3.1.3 Absolute electrical sensitivity",
+    "section_title": "Absolute electrical sensitivity",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=9",
+    "text_helper": "Table 9. CDM ESDS component classification levels — section 3.1.3 Absolute electrical sensitivity. Class, Voltage range (V).",
+    "table_content": {
+      "headers": [
+        "Class",
+        "Voltage range (V)"
+      ],
+      "rows": [
+        [
+          "C1",
+          "< 125"
+        ],
+        [
+          "C2",
+          "125 to < 250"
+        ],
+        [
+          "C3",
+          "250 to < 500"
+        ],
+        [
+          "C4",
+          "500 to < 1000"
+        ],
+        [
+          "C5",
+          "1000 to < 1500"
+        ],
+        [
+          "C6",
+          "1500 to < 2000"
+        ],
+        [
+          "C7",
+          "≥ 2000"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 10. Classification according to ANSI/EDSA/JEDEC JS-002",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_10",
+    "table_number": "10",
+    "title": "Table 10. Classification according to ANSI/EDSA/JEDEC JS-002",
+    "page": 10,
+    "section": "3.1.3 Absolute electrical sensitivity",
+    "section_title": "Absolute electrical sensitivity",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=10",
+    "text_helper": "Table 10. Classification according to ANSI/EDSA/JEDEC JS-002 — section 3.1.3 Absolute electrical sensitivity. Classification level, Classification test condition (V).",
+    "table_content": {
+      "headers": [
+        "Classification level",
+        "Classification test condition (V)"
+      ],
+      "rows": [
+        [
+          "C0a",
+          "< 125"
+        ],
+        [
+          "C0b",
+          "125 to < 250"
+        ],
+        [
+          "C1",
+          "250 to < 500"
+        ],
+        [
+          "C2a",
+          "500 to < 750"
+        ],
+        [
+          "C2b",
+          "750 to < 1000"
+        ],
+        [
+          "C3",
+          "≥ 1000"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 11. Spectrum analyzer resolution bandwidth versus frequency range (broadband EMI)",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_11",
+    "table_number": "11",
+    "title": "Table 11. Spectrum analyzer resolution bandwidth versus frequency range (broadband EMI)",
+    "page": 12,
+    "section": "3.2.1 EMI radiated test",
+    "section_title": "EMI radiated test",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=12",
+    "text_helper": "Table 11. Spectrum analyzer resolution bandwidth versus frequency range (broadband EMI) — section 3.2.1 EMI radiated test. Frequency range (MHz), Resolution bandwidth (RBW), Detector.",
+    "table_content": {
+      "headers": [
+        "Frequency range (MHz)",
+        "Resolution bandwidth (RBW)",
+        "Detector"
+      ],
+      "rows": [
+        [
+          "0.1 - 1",
+          "10 kHz",
+          "Peak"
+        ],
+        [
+          "1 - 10",
+          "10 kHz",
+          "Peak"
+        ],
+        [
+          "10 - 100",
+          "10 kHz",
+          "Peak"
+        ],
+        [
+          "100 - 1000",
+          "100 kHz",
+          "Peak"
+        ],
+        [
+          "1000 - 2000",
+          "1 MHz",
+          "Peak"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 12. Example of EMI results on STM32",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_12",
+    "table_number": "12",
+    "title": "Table 12. Example of EMI results on STM32",
+    "page": 15,
+    "section": "3.2.2 EMI level classification",
+    "section_title": "EMI level classification",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=15",
+    "text_helper": "Table 12. Example of EMI results on STM32 — section 3.2.2 EMI level classification. Symbol, Parameter, Conditions, Monitored frequency band, Value, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Symbol",
+        "Parameter",
+        "Conditions",
+        "Monitored frequency band",
+        "Value",
+        "Unit"
+      ],
+      "rows": [
+        [
+          "SEMI",
+          "Peak",
+          "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+          "0.1 MHz to 30 MHz",
+          "7",
+          "dBμV"
+        ],
+        [
+          "SEMI",
+          "Peak",
+          "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+          "30 MHz to 130 MHz",
+          "-1",
+          "dBμV"
+        ],
+        [
+          "SEMI",
+          "Peak",
+          "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+          "130 MHz to 1 GHz",
+          "8",
+          "dBμV"
+        ],
+        [
+          "SEMI",
+          "Peak",
+          "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+          "1 GHz to 2 GHz",
+          "7",
+          "dBμV"
+        ],
+        [
+          "SEMI",
+          "Level",
+          "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+          "0.1 MHz to 2 GHz",
+          "2.5",
+          "dBμV"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 13. EMC reference sources",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_13",
+    "table_number": "13",
+    "title": "Table 13. EMC reference sources",
+    "page": 28,
+    "section": "5.4 EMC organizations resources",
+    "section_title": "EMC organizations resources",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=28",
+    "text_helper": "Table 13. EMC reference sources — section 5.4 EMC organizations resources. Name, Web link.",
+    "table_content": {
+      "headers": [
+        "Name",
+        "Web link"
+      ],
+      "rows": [
+        [
+          "FCC: Federal communication commission",
+          "www.fcc.gov"
+        ],
+        [
+          "EIA: Electronic industries alliance",
+          "www.eoa.org"
+        ],
+        [
+          "SAE: Society of automotive engineers",
+          "www.sae.org"
+        ],
+        [
+          "IEC: The international electrotechnical commission",
+          "www.iec.ch"
+        ],
+        [
+          "IEC: The international electrotechnical commission",
+          "www.cenelec.eu"
+        ],
+        [
+          "JEDEC: Joint electron device engineering council",
+          "www.jedec.org"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 14. Spectrum analyzer resolution bandwidth versus frequency range (narrowband EMI)",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_14",
+    "table_number": "14",
+    "title": "Table 14. Spectrum analyzer resolution bandwidth versus frequency range (narrowband EMI)",
+    "page": 30,
+    "section": "6 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=30",
+    "text_helper": "Table 14. Spectrum analyzer resolution bandwidth versus frequency range (narrowband EMI) — section 6 Conclusion. Frequency range (MHz), Resolution bandwidth, Detector.",
+    "table_content": {
+      "headers": [
+        "Frequency range (MHz)",
+        "Resolution bandwidth",
+        "Detector"
+      ],
+      "rows": [
+        [
+          "0.1 - 1",
+          "1 kHz",
+          "Peak"
+        ],
+        [
+          "1 - 10",
+          "1 kHz",
+          "Peak"
+        ],
+        [
+          "10 - 100",
+          "1 kHz",
+          "Peak"
+        ],
+        [
+          "100 - 1000",
+          "9 kHz",
+          "Peak"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN1709 - Table 15. Document revision history",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+    "references": null,
+    "package": "LQFP64, UFQFPN48",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_15",
+    "table_number": "15",
+    "title": "Table 15. Document revision history",
+    "page": 31,
+    "section": "6 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=31",
+    "text_helper": "Table 15. Document revision history — section 6 Conclusion. Date, Version, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Version",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "Sep-2023",
+          "1",
+          "Initial release."
+        ],
+        [
+          "03-Feb-2016",
+          "2",
+          "Changed IEC 1000 standard into IEC 61000. Changed NSG 435 provider in Section 3.1.1: Functional EMS test. Updated Table 3: ST ESD severity levels. Changed static latch-up example to STM32L062K8 in Modified Table 7. Removed Table Example of DLU test result on ST72F521 from Section 3.1.2: Latch-up (LU). Section 3.1.3: Absolute electrical sensitivity: • Added the fact that parts are not powered during the ESD stress. • Removed machine model. • Added Section : Charge device model (CDM). Updated Section 3.2: Electromagnetic interference (EMI). Section 4.1: Susceptibility: • Replaced low-voltage detector (LVD) by brownout reset (BOR). • Replaced RESET by NRST. • Removed Figure Maximum operating frequency vs supply voltage. • Replaced Auxiliary voltage detector (AVD) by Programmable voltage detector (PVD). • Removed Section Multiple VDD and VSS Updated Section 4.2.1: Internal PLL. Updated Section : Internal RC oscillator and Section Internal voltage regulators (for MCUs with low-power core). Added trays in Section 5.2: Handling precautions for ESD protection. Added Appendix A: EMI classification before December 14 2015."
+        ],
+        [
+          "23-Apr-2018",
+          "3",
+          "Updated Charge device model (CDM), replace title of Section 3.2.2: Global low-power approach by Section 4.2.2: Clock sources, External Clock source, Internal RC oscillator Added Table 8: CDM ESDS component classification levels, Table 9: CDM ESDS device classification levels,Section 5.1.3: Ground connections"
+        ],
+        [
+          "1-Jul-2022",
+          "4",
+          "Added: • Section 5.1.6 • Section 5.1.4 • Section 5.1.7 • Updated Section 3.2.2"
+        ],
+        [
+          "26-May-2026",
+          "5",
+          "Added: Section 1.1: Reference documents"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

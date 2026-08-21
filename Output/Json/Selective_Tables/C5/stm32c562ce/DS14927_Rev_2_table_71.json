@@ -1,0 +1,73 @@
+{
+  "table_id": "table_71",
+  "document": "DS14927 Rev 2 - Table 71. SWD characteristics.",
+  "rev": "Rev 2",
+  "table_number": "71",
+  "title": "Table 71. SWD characteristics.",
+  "page": 99,
+  "section": "5.3.28 JTAG/SWD interface characteristics",
+  "section_title": "JTAG/SWD interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=99",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "text_helper": "Table 71. SWD characteristics. — section 5.3.28 JTAG/SWD interface characteristics. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "FSWCLK",
+        "SWCLK clock frequency",
+        "-",
+        "-",
+        "71",
+        "MHz"
+      ],
+      [
+        "tisu(SWDIO)",
+        "SWDIO input setup time",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tih(SWDIO)",
+        "SWDIO input hold time",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tov(SWDIO)",
+        "SWDIO output valid time",
+        "-",
+        "11.5",
+        "14",
+        "ns"
+      ],
+      [
+        "toh(SWDIO)",
+        "SWDIO output hold time",
+        "9.5",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "Evaluated by characterization - Not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

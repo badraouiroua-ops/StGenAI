@@ -1,0 +1,129 @@
+{
+  "features": [
+    [
+      "pdf_name",
+      "stm32c011d6"
+    ],
+    [
+      "family",
+      "C0"
+    ],
+    [
+      "page",
+      1
+    ],
+    [
+      "merged_pages",
+      [
+        1
+      ]
+    ],
+    [
+      "url",
+      "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf"
+    ],
+    [
+      "url_table",
+      "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=1"
+    ],
+    [
+      "text_helper",
+      "pdf_name: stm32c011d6. DS13866 Rev 5 (February 2026). Arm Cortex -M0+ 32-bit MCU, 32 KB flash, 6 KB RAM , 2 x USART, timers, ADC, comm. I/Fs, 2-3.6 V. family: C0. core: Cortex-M0+. freq: 48 MHz. flash: 32 KB. ram: 6 KB. voltage: 2.0-3.6 V. packages: SO8N, TSSOP20, UFQFPN20, WLCSP12, UFQFPN2013. t..."
+    ]
+  ],
+  "features_content": [
+    [
+      "doc_ref",
+      "DS13866"
+    ],
+    [
+      "revision",
+      "Rev 5"
+    ],
+    [
+      "date",
+      "February 2026"
+    ],
+    [
+      "title",
+      "Arm Cortex -M0+ 32-bit MCU, 32 KB flash, 6 KB RAM , 2 x USART, timers, ADC, comm. I/Fs, 2-3.6 V"
+    ],
+    [
+      "core",
+      "Cortex-M0+"
+    ],
+    [
+      "fpu",
+      false
+    ],
+    [
+      "max_frequency_mhz",
+      48
+    ],
+    [
+      "flash_kb",
+      32
+    ],
+    [
+      "ram_kb",
+      6
+    ],
+    [
+      "voltage_min_v",
+      2.0
+    ],
+    [
+      "voltage_max_v",
+      3.6
+    ],
+    [
+      "operating_temp_c",
+      [
+        "-40°C to 85°C",
+        "-40°C to 105°C",
+        "-40°C to 125°C"
+      ]
+    ],
+    [
+      "packages",
+      [
+        "SO8N",
+        "TSSOP20",
+        "UFQFPN20 (4.9 x 6 mm)",
+        "WLCSP12",
+        "UFQFPN2013"
+      ]
+    ],
+    [
+      "device_summary",
+      {
+        "headers": [
+          "Reference",
+          "Part number"
+        ],
+        "rows": [
+          [
+            "STM32C011x4",
+            "STM32C011F4"
+          ],
+          [
+            "STM32C011x4",
+            "STM32C011J4"
+          ],
+          [
+            "STM32C011x6",
+            "STM32C011F6"
+          ],
+          [
+            "STM32C011x6",
+            "STM32C011J6"
+          ],
+          [
+            "STM32C011x6",
+            "STM32C011D6"
+          ]
+        ]
+      }
+    ]
+  ]
+}

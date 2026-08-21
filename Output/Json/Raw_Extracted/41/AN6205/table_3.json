@@ -1,0 +1,60 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. ECDSA signature key blob usage",
+  "pdf_name": "AN6205",
+  "family": "41",
+  "page": 7,
+  "merged_pages": [
+    7
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6205.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6205.pdf#page=7",
+  "section": "3.1.2 Blob creation, blob usage",
+  "headers": [
+    "Attestation",
+    "Key import",
+    "Key agreement",
+    "Key generation",
+    "Usage in PKA"
+  ],
+  "rows": [
+    [
+      "X",
+      "-",
+      "-",
+      "X",
+      "ECDSA signature Scalar multiplication"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Generate keys.",
+      "2. Protected ECDSA signature blob creation, with a selected ECC curve and the generated private key as input.",
+      "3. Protected scalar multiplication, with ECC curve base point G and previously computed blob as input. Result is the computed ECDSA signature public key.",
+      "4. ECDSA signature using the generated private key as input. Any hash information can be used. Call the result of this signature (r, s).",
+      "5. ECDSA signature verification, using the reference hash information, the signature (r, s) and the computed ECDSA signature public key. If the API returns that the signature is correct, save the ECDSA signature blob",
+      "6. ECDSA key blob can be used at any time to compute ECDSA signature using a wrapped key. Step 1 code:"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6205",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      7
+    ],
+    "rows_count": 1,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

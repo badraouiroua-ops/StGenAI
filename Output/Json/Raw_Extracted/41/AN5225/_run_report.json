@@ -1,0 +1,243 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN5225.pdf",
+  "family": "41",
+  "pdf_name": "AN5225",
+  "tables_found": 17,
+  "tables_extracted": 17,
+  "high": 17,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_14",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0357,
+      "has_empty_cells": true,
+      "warnings": [
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 14. Source features",
+      "page": 36,
+      "merged_pages": [
+        36
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Feature\", \"STM32 Peripherals involved\", \"Number of STM32 pins\", \"External components or devices\", \"Comments\", \"Signal name\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. For certification purposes, vsafe0V must be checked."
+        ],
+        "_dedup_rows_removed": 3,
+        "_dedup_removed_indices": [
+          0,
+          9,
+          11
+        ]
+      }
+    },
+    {
+      "table_id": "table_2",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 2. USB Type-C receptacle pin descriptions",
+      "page": 6,
+      "merged_pages": [
+        6,
+        7
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"Pin\", \"Name\", \"Description\", \"Comment\"]",
+      "rows_count": 24,
+      "heuristics": {
+        "cols_extracted": 4,
+        "continuation": {
+          "base_cols": 4,
+          "cont_cols_raw": 4,
+          "target_cols": 4,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        }
+      }
+    },
+    {
+      "table_id": "table_5",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 5. DFP CC termination (Rp) requirements",
+      "page": 10,
+      "merged_pages": [
+        10
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"VBUS power / Default USB power\", \"Current source to 1.7 V - 5.5 V / 80 mA ± 20%\", \"Rp pull up to 4.75 V - 5.5 V / 56 kΩ ± 20% (1)\", \"Rp pull up to 3.3 V +/-5% / 36 kΩ ± 20%\"]",
+      "rows_count": 0,
+      "heuristics": {
+        "cols_extracted": 4,
+        "_notes": [
+          "1. For Rp when implemented in the USB Type-C plug on a USB Type-C to USB 3.1 Standard-A Cable Assembly, a USB Type- C to USB 2.0 Standard-A Cable Assembly, a USB Type-C to USB 2.0 Micro-B Receptacle Adapter Assembly or a USB"
+        ]
+      }
+    },
+    {
+      "table_id": "table_8",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 8. Fixed and programmable power supply current and cabling requirements",
+      "page": 11,
+      "merged_pages": [
+        11
+      ],
+      "col_count": 9,
+      "headers_preview": "[\"Power range\", \"Fixed voltage source / 5 V\", \"Fixed voltage source / 9 V\", \"Fixed voltage source / 15 V\", \"Fixed voltage source / 20 V\", \"Programmable power supply (PPS) / 5 V (3.3 to 5.9 V)\", \"Progr",
+      "rows_count": 7,
+      "heuristics": {
+        "cols_extracted": 9,
+        "_legend": [
+          "the cable current rating."
+        ]
+      }
+    },
+    {
+      "table_id": "table_9",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 9. USB Type-C sink behavior on CC lines",
+      "page": 25,
+      "merged_pages": [
+        25
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"State\", \"Pull-down function on CC lines / Sink without Dead battery support\", \"Pull-down function on CC lines / Sink with Dead battery support\"]",
+      "rows_count": 2,
+      "heuristics": {
+        "cols_extracted": 3,
+        "_legend": [
+          "voltage clamp, as shown in the following table. Thanks to this, the USB Type-C source attached to the sink can",
+          "detect that the sink is unpowered (which corresponds to dead battery for battery-powered application). The USB",
+          "Type-C source (for example a battery charger) can then supply power through the VBUS line."
+        ]
+      }
+    },
+    {
+      "table_id": "table_12",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 12. Summary of principal Type-C application topologies",
+      "page": 30,
+      "merged_pages": [
+        30
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Application / Protected(1)\", \"Application / Dead battery compliant\", \"Application / Sink/source\", \"DBCCx / Shorted with CCx\", \"DBCCx / Reusable\", \"Note\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Pertains to CCx line"
+        ]
+      }
+    },
+    {
+      "table_id": "table_16",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 16. STM32G0 resources",
+      "page": 57,
+      "merged_pages": [
+        57
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Item\", \"X-NUCLEO G0-1 Address: 0x68\", \"X-NUCLEO G0-2 Address: 0x6A\", \"STM32G0 IOs / UCPD1 left -\", \"STM32G0 IOs / UCPD2 right\", \"Comment\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Mandatory",
+          "2. Optional",
+          "3. For debug purposes AN5225 - Rev 7 page 57/76"
+        ]
+      }
+    },
+    {
+      "table_id": "table_17",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 17. Document revision history",
+      "page": 69,
+      "merged_pages": [
+        69,
+        70
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"Date\", \"Version\", \"Changes\"]",
+      "rows_count": 7,
+      "heuristics": {
+        "cols_extracted": 3,
+        "continuation": {
+          "base_cols": 3,
+          "cont_cols_raw": 3,
+          "target_cols": 3,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        }
+      }
+    }
+  ],
+  "dedup_rows_removed": 7,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

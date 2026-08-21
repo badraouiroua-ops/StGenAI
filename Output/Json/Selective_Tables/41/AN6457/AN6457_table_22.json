@@ -1,0 +1,58 @@
+{
+  "table_id": "table_22",
+  "document": "Table 22. TIM2/3/4/5/15/16/17 peripheral information",
+  "rev": null,
+  "table_number": "22",
+  "title": "Table 22. TIM2/3/4/5/15/16/17 peripheral information",
+  "page": 16,
+  "section": "3.5.3 General-purpose timers",
+  "section_title": "General-purpose timers",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 22. TIM2/3/4/5/15/16/17 peripheral information — section 3.5.3 General-purpose timers. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+  "table_content": {
+    "headers": [
+      "Peripheral request to LPDMA",
+      "Peripheral bus",
+      "Peripheral FIFO (unit, size)",
+      "Peripheral register access",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "timx_chy_dma/ timx_ccy_dma (x = 2 to 5 and y = 1 to 4) or (x = 15 and y = 1, 2) or (x = 16, 17 and y = 1)",
+        "APB1 for TIM2/3/4/5 APB2 for TIM15/16/17",
+        "None",
+        "32-bit write TIMx_ARR in basic mode or 32-bit write TIMx_CCRy in output compare/PWM mode or 32-bit read TIMx_CCRy in input capture mode or a series of 32-bit writes to TIMx_DMAR or a series of 32-bit writes to TIMx_DMAR",
+        "Request on an input capture event or an output compare event"
+      ],
+      [
+        "timx_upd_dma/timx_up (x = 2 to 5, 15 to 17)",
+        "APB1 for TIM2/3/4/5 APB2 for TIM15/16/17",
+        "None",
+        "32-bit write TIMx_ARR in basic mode or 32-bit write TIMx_CCRy in output compare/PWM mode or 32-bit read TIMx_CCRy in input capture mode or a series of 32-bit writes to TIMx_DMAR or a series of 32-bit writes to TIMx_DMAR",
+        "Request on an update event"
+      ],
+      [
+        "timx_trg_dma/ timx_trig_dma (x = 2 to 5, 15)",
+        "APB1 for TIM2/3/4/5 APB2 for TIM15/16/17",
+        "None",
+        "32-bit write TIMx_ARR in basic mode or 32-bit write TIMx_CCRy in output compare/PWM mode or 32-bit read TIMx_CCRy in input capture mode or a series of 32-bit writes to TIMx_DMAR or a series of 32-bit writes to TIMx_DMAR",
+        "Request on a trigger event"
+      ],
+      [
+        "tim15_com_dma",
+        "APB1 for TIM2/3/4/5 APB2 for TIM15/16/17",
+        "None",
+        "32-bit write TIMx_ARR in basic mode or 32-bit write TIMx_CCRy in output compare/PWM mode or 32-bit read TIMx_CCRy in input capture mode or a series of 32-bit writes to TIMx_DMAR or a series of 32-bit writes to TIMx_DMAR",
+        "Request on a commutation event"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

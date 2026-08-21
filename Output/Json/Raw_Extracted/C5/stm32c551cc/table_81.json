@@ -1,0 +1,58 @@
+{
+  "table_id": "table_81",
+  "caption": "Table 81. Document revision history.",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 124,
+  "merged_pages": [
+    124
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=124",
+  "section": "7 Ordering information",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "19-Feb-2026",
+      "1",
+      "Initial release."
+    ],
+    [
+      "12-May-2026",
+      "2",
+      "Updated: • Features • Section 2: Description • Table 12. STM32C55xxx pin/ball definition • Table 44. ESD absolute maximum ratings • Section 5.3.14: I/O port characteristics • Table 48. Output voltage characteristics (all I/Os except PC14 and PC15) • Table 49. Output voltage characteristics for PC14 and PC15 • Section 7: Ordering information"
+    ],
+    [
+      "13-May-2026",
+      "3",
+      "Updated: • Section 7: Ordering information"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_81",
+    "is_continued": false,
+    "pages": [
+      124
+    ],
+    "rows_count": 3,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

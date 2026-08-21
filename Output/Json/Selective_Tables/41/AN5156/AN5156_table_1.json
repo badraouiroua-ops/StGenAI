@@ -1,0 +1,31 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Applicable products",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Applicable products",
+  "page": 1,
+  "section": "AN5156",
+  "section_title": "AN5156",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 1. Applicable products — section AN5156. Type, Product series.",
+  "table_content": {
+    "headers": [
+      "Type",
+      "Product series"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "STM32C0, STM32C5, STM32F0, STM32F1, STM32F2, STM32F3, STM32F4, STM32F7, STM32G0, STM32G4, STM32H5, STM32H7, STM32L0, STM32L1, STM32L4, STM32L4+, STM32L5, STM32N6, STM32U0, STM32U3, STM32U5, STM32WB, STM32WBA, STM32WB0, STM32WL."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

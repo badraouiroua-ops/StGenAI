@@ -1,0 +1,95 @@
+{
+  "table_id": "table_4",
+  "document": "DS15137 Rev 2 - Table 4. ADC features",
+  "rev": "Rev 2",
+  "table_number": "4",
+  "title": "Table 4. ADC features",
+  "page": 18,
+  "section": "3.17 Analog-to-digital converter (ADC)",
+  "section_title": "Analog-to-digital converter (ADC)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=18",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 4. ADC features — section 3.17 Analog-to-digital converter (ADC). ADC modes/features, ADC1, ADC2, ADC3.",
+  "table_content": {
+    "headers": [
+      "ADC modes/features",
+      "ADC1",
+      "ADC2",
+      "ADC3"
+    ],
+    "rows": [
+      [
+        "Resolution",
+        "12 bits",
+        "12 bits",
+        "12 bits"
+      ],
+      [
+        "Maximum sampling-speed",
+        "2 Msps",
+        "2 Msps",
+        "2 Msps"
+      ],
+      [
+        "Hardware-offset calibration",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Single-ended inputs",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Injected channel conversion",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Oversampling",
+        "up to x1024",
+        "up to x1024",
+        "up to x1024"
+      ],
+      [
+        "Data register",
+        "32 bits",
+        "32 bits",
+        "32 bits"
+      ],
+      [
+        "DMA support",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Offset compensation",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Gain compensation",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Number of analog watchdogs",
+        "3",
+        "3",
+        "3"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

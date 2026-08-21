@@ -1,0 +1,55 @@
+{
+  "table_id": "table_29",
+  "document": "Table 29. GP timer (TIM2/3/4/5) features",
+  "rev": null,
+  "table_number": "29",
+  "title": "Table 29. GP timer (TIM2/3/4/5) features",
+  "page": 42,
+  "section": "6.6 Migration of timer peripherals",
+  "section_title": "Migration of timer peripherals",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=42",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 29. GP timer (TIM2/3/4/5) features — section 6.6 Migration of timer peripherals. Feature, STM32H5 and STM32C5x.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "STM32H5 and STM32C5x"
+    ],
+    "rows": [
+      [
+        "Counter resolution and type",
+        "16-bit or 32-bit up, down, up/down autoreload counter"
+      ],
+      [
+        "Channels",
+        "Up to four independent channels for: • Input capture • Output compare • PWM generation (edge- and center-aligned modes) • One-pulse mode output"
+      ],
+      [
+        "Synchronization with external signals and other timers",
+        "Synchronization circuit to control the timer with external signals and to interconnect several timers"
+      ],
+      [
+        "noitareneg AMD/tpurretnI",
+        "Interrupt/DMA generation on the following events: • Update: counter overflow/underflow or counter initialization (by software or internal/ external trigger) • Trigger event (counter start, stop, initialization, or count by internal/external trigger) • Input capture • Output compare"
+      ],
+      [
+        "Encoders and sensors",
+        "Supports incremental (quadrature) encoder and hall-sensor circuitry for positioning purposes"
+      ],
+      [
+        "Trigger input",
+        "Trigger input for external clock or cycle-by-cycle current management"
+      ],
+      [
+        "Application examples",
+        "• Measuring the pulse lengths of input signals (input capture) • Generating output waveforms (output compare and PWM)"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

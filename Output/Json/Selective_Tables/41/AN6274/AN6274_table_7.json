@@ -1,0 +1,41 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. SWD port pins",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. SWD port pins",
+  "page": 17,
+  "section": "6.3 Serial wire debug (SWD) pin assignment",
+  "section_title": "Serial wire debug (SWD) pin assignment",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+  "text_helper": "Table 7. SWD port pins — section 6.3 Serial wire debug (SWD) pin assignment. SWD pin, SWD port / Type, SWD port / Debug assignment, Pin assignment.",
+  "table_content": {
+    "headers": [
+      "SWD pin",
+      "SWD port / Type",
+      "SWD port / Debug assignment",
+      "Pin assignment"
+    ],
+    "rows": [
+      [
+        "SWDIO",
+        "Input/Output",
+        "Serial-wire data input/output",
+        "PA13"
+      ],
+      [
+        "SWCLK",
+        "Input",
+        "Serial-wire clock",
+        "PA14"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

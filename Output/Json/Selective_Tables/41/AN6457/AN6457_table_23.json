@@ -1,0 +1,31 @@
+{
+  "table_id": "table_23",
+  "document": "Table 23. LPDMA programming for TIM2/3/4/5/15/16/17",
+  "rev": null,
+  "table_number": "23",
+  "title": "Table 23. LPDMA programming for TIM2/3/4/5/15/16/17",
+  "page": 16,
+  "section": "3.5.3 General-purpose timers",
+  "section_title": "General-purpose timers",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 23. LPDMA programming for TIM2/3/4/5/15/16/17 — section 3.5.3 General-purpose timers. LPDMA data width for source and destination, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA data width for source and destination",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "32-bit",
+        "Depends on TIM settings. A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

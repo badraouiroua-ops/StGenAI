@@ -1,0 +1,16 @@
+{
+  "table_id": "table_21",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "TJ",
+        "125 °C"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

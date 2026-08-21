@@ -1,0 +1,54 @@
+{
+  "pdf_name": "AN4899",
+  "family": "41",
+  "tables_checked": 2,
+  "cells_checked": 5,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Pin Type",
+      "reversed": false,
+      "drift": -2.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Pin Type",
+      "reversed": false,
+      "drift": -2.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Supply pin",
+      "reversed": false,
+      "drift": -4.88,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "21-Sep-2017",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

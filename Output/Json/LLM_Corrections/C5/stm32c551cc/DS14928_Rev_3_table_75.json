@@ -1,0 +1,144 @@
+{
+  "table_id": "table_75",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Plusieurs lignes du tableau étaient manquantes (A, A1, A2, b, c, c1, L, L1, R1, R2, S) et ont été réintégrées.",
+    "Correction des valeurs dupliquées par l'outil d'extraction dans les cellules fusionnées (N, aaa, bbb, ccc, ddd)."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "A",
+        "-",
+        "-",
+        "1.60",
+        "-",
+        "-",
+        "0.0630"
+      ]
+    },
+    {
+      "row_index": 0,
+      "contenu": [
+        "A1(12.)",
+        "0.05",
+        "-",
+        "0.15",
+        "0.0020",
+        "-",
+        "0.0059"
+      ]
+    },
+    {
+      "row_index": 0,
+      "contenu": [
+        "A2",
+        "1.35",
+        "1.40",
+        "1.45",
+        "0.0531",
+        "0.0551",
+        "0.0571"
+      ]
+    },
+    {
+      "row_index": 0,
+      "contenu": [
+        "b(9.)(11.)",
+        "0.17",
+        "0.22",
+        "0.27",
+        "0.0067",
+        "0.0087",
+        "0.0106"
+      ]
+    },
+    {
+      "row_index": 1,
+      "contenu": [
+        "c(11.)",
+        "0.09",
+        "-",
+        "0.20",
+        "0.0035",
+        "-",
+        "0.0079"
+      ]
+    },
+    {
+      "row_index": 1,
+      "contenu": [
+        "c1(11.)",
+        "0.09",
+        "-",
+        "0.16",
+        "0.0035",
+        "-",
+        "0.0063"
+      ]
+    },
+    {
+      "row_index": 6,
+      "contenu": [
+        "L",
+        "0.45",
+        "0.60",
+        "0.75",
+        "0.0177",
+        "0.0236",
+        "0.0295"
+      ]
+    },
+    {
+      "row_index": 6,
+      "contenu": [
+        "L1",
+        "",
+        "1.00 REF",
+        "",
+        "",
+        "0.0394 REF",
+        ""
+      ]
+    },
+    {
+      "row_index": 11,
+      "contenu": [
+        "R1",
+        "0.08",
+        "-",
+        "-",
+        "0.0031",
+        "-",
+        "-"
+      ]
+    },
+    {
+      "row_index": 11,
+      "contenu": [
+        "R2",
+        "0.08",
+        "-",
+        "0.20",
+        "0.0031",
+        "-",
+        "0.0079"
+      ]
+    },
+    {
+      "row_index": 11,
+      "contenu": [
+        "S",
+        "0.20",
+        "-",
+        "-",
+        "0.0079",
+        "-",
+        "-"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

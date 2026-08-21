@@ -1,0 +1,39 @@
+{
+  "table_id": "table_8",
+  "document": "Table 8. STM32MP157 thermal measurements at T = 25 °C 20 A",
+  "rev": null,
+  "table_number": "8",
+  "title": "Table 8. STM32MP157 thermal measurements at T = 25 °C 20 A",
+  "page": 20,
+  "section": "6 Thermal analysis examples",
+  "section_title": "Thermal analysis examples",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=20",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 8. STM32MP157 thermal measurements at T = 25 °C 20 A — section 6 Thermal analysis examples. TJ (°C), Thermal camera measurement (°C) / Avg, Thermal camera measurement (°C) / Min, Thermal camera measurement (°C) / Max, STM32MP157 power consumption (mW), +1 autres.",
+  "table_content": {
+    "headers": [
+      "TJ (°C)",
+      "Thermal camera measurement (°C) / Avg",
+      "Thermal camera measurement (°C) / Min",
+      "Thermal camera measurement (°C) / Max",
+      "STM32MP157 power consumption (mW)",
+      "Total power consumption (mW)"
+    ],
+    "rows": [
+      [
+        "46",
+        "46.2",
+        "40.52",
+        "51.4",
+        "974",
+        "2000"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "table_id": "table_24",
+  "document": "DS13866 Rev 5 - Table 24. Operating conditions at power-up / power-down",
+  "rev": "Rev 5",
+  "table_number": "24",
+  "title": "Table 24. Operating conditions at power-up / power-down",
+  "page": 37,
+  "section": "5.3.2 Operating conditions at power-up / power-down",
+  "section_title": "Operating conditions at power-up / power-down",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=37",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "Table 24. Operating conditions at power-up / power-down — section 5.3.2 Operating conditions at power-up / power-down. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t VDD",
+        "V rise time rate DD",
+        "0",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDD",
+        "V fall time rate DD",
+        "10",
+        "∞",
+        "µs/V"
+      ]
+    ],
+    "notes": [
+      "1. The shortest sampling time can be determined in the application by multiple iterations.",
+      "2. Specified by design. Not tested in production. 38/97 DS13866 Rev 5"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

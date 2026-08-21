@@ -1,0 +1,65 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Power supply options",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Power supply options",
+  "page": 7,
+  "section": "3.1 VBUS power options",
+  "section_title": "VBUS power options",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 3. Power supply options — section 3.1 VBUS power options. Mode of operation, Nominal voltage, Maximum current, Note.",
+  "table_content": {
+    "headers": [
+      "Mode of operation",
+      "Nominal voltage",
+      "Maximum current",
+      "Note"
+    ],
+    "rows": [
+      [
+        "USB2.0",
+        "5 V",
+        "Am 005",
+        "Default current based on specification"
+      ],
+      [
+        "USB3.1",
+        "5 V",
+        "900 mA",
+        "Default current based on specification"
+      ],
+      [
+        "USB BC1.2",
+        "5 V",
+        "1.5 A",
+        "Legacy charging"
+      ],
+      [
+        "Current @1.5 A",
+        "5 V",
+        "1.5 A",
+        "Support high-power devices"
+      ],
+      [
+        "Current @3 A",
+        "5 V",
+        "3 A",
+        "Support high-power devices"
+      ],
+      [
+        "USB PD",
+        "5 V to 20 V",
+        "5 A",
+        "Directional control and power level management"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "table_id": "table_75",
+  "caption": "Table 75. JTAG characteristics",
+  "pdf_name": "stm32c5a3cg",
+  "family": "C5",
+  "page": 111,
+  "merged_pages": [
+    111
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=111",
+  "section": "5.3.30 JTAG/SWD interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "FTCK",
+      "TCK clock frequency",
+      "-",
+      "-",
+      "34",
+      "MHz"
+    ],
+    [
+      "tisu(TMS)",
+      "TMS input setup time",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tih(TMS)",
+      "TMS input hold time",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tisu(TDI)",
+      "TDI input setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tih(TDI)",
+      "TDI input hold time",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tov(TDO)",
+      "TDO output valid time",
+      "-",
+      "11",
+      "14.5",
+      "ns"
+    ],
+    [
+      "toh(TDO)",
+      "TDO output hold time",
+      "7.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_legend": [
+      "Evaluated by characterization - Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c5a3cg",
+    "table_id": "table_75",
+    "is_continued": false,
+    "pages": [
+      111
+    ],
+    "rows_count": 7,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

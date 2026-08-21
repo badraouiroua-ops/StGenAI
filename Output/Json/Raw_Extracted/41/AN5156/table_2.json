@@ -1,0 +1,268 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. Glossary.",
+  "pdf_name": "AN5156",
+  "family": "41",
+  "page": 2,
+  "merged_pages": [
+    2,
+    3
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=2",
+  "section": "1 General information",
+  "headers": [
+    "Term",
+    "Definition"
+  ],
+  "rows": [
+    [
+      "AES",
+      "Advanced encryption standard"
+    ],
+    [
+      "CCM",
+      "Core-coupled memory (SRAM)"
+    ],
+    [
+      "CPU",
+      "Central processing unit–core of the microcontroller"
+    ],
+    [
+      "CSS",
+      "Clock security system"
+    ],
+    [
+      "DoS",
+      "Denial of service (attack)"
+    ],
+    [
+      "DRNG",
+      "Deterministic random number generator: generates pseudo-random number from input value"
+    ],
+    [
+      "DPA",
+      "Differential power analysis"
+    ],
+    [
+      "ECC",
+      "Error code correction"
+    ],
+    [
+      "FIA",
+      "Fault injection attack"
+    ],
+    [
+      "FIB",
+      "Focused ion beam"
+    ],
+    [
+      "GTZC",
+      "Global TrustZone® controller"
+    ],
+    [
+      "HDP",
+      "Secure hide protection"
+    ],
+    [
+      "HUK",
+      "Hardware unique key"
+    ],
+    [
+      "IAP",
+      "In-application programming"
+    ],
+    [
+      "IAT",
+      "Initial attestation token"
+    ],
+    [
+      "IoT",
+      "Internet of things"
+    ],
+    [
+      "IV",
+      "Initialization vector (cryptographic algorithms)"
+    ],
+    [
+      "IWDG",
+      "Independent watchdog"
+    ],
+    [
+      "MAC",
+      "Message authentication code"
+    ],
+    [
+      "MCU",
+      "Microcontroller unit (STM32 Arm® Cortex®-M based devices)"
+    ],
+    [
+      "MPCBB",
+      "Memory protection block-based controller"
+    ],
+    [
+      "MPCWM",
+      "Memory protection watermark-based controller"
+    ],
+    [
+      "MPU",
+      "Memory protection unit"
+    ],
+    [
+      "NSC",
+      "Nonsecure callable"
+    ],
+    [
+      "NVM",
+      "Nonvolatile memory"
+    ],
+    [
+      "OTFDEC",
+      "On-the-fly decryption"
+    ],
+    [
+      "OTP",
+      "One-time programmable"
+    ],
+    [
+      "PCROP",
+      "Proprietary code readout protection"
+    ],
+    [
+      "PKA",
+      "Public key algorithm (also named aka asymmetric algorithm)"
+    ],
+    [
+      "PSA",
+      "Platform security architecture"
+    ],
+    [
+      "PVD",
+      "Programmable voltage detector"
+    ],
+    [
+      "PWR",
+      "Power control"
+    ],
+    [
+      "ROM",
+      "Read only memory–system flash memory in STM32"
+    ],
+    [
+      "RoT",
+      "Root of trust"
+    ],
+    [
+      "RDP",
+      "Read protection"
+    ],
+    [
+      "RIF",
+      "Resource isolation framework"
+    ],
+    [
+      "RSS",
+      "Root secure services"
+    ],
+    [
+      "RTC",
+      "Real-time clock"
+    ],
+    [
+      "SAU",
+      "Security attribution unit"
+    ],
+    [
+      "SB",
+      "Secure boot"
+    ],
+    [
+      "SCA",
+      "Side channel attack"
+    ],
+    [
+      "SDRAM",
+      "Synchronous dynamic random access memory"
+    ],
+    [
+      "SECDED",
+      "ECC mode of operation: single error correct, double error detect"
+    ],
+    [
+      "SFI",
+      "Secure firmware installation"
+    ],
+    [
+      "SFU",
+      "Secure firmware update"
+    ],
+    [
+      "SPA",
+      "Simple power analysis"
+    ],
+    [
+      "SPE",
+      "Secure processing environment"
+    ],
+    [
+      "SRAM",
+      "Static random access memory (volatile)"
+    ],
+    [
+      "SST",
+      "Secure storage"
+    ],
+    [
+      "STSAFE",
+      "Secure element product from STMicroelectronics portfolio"
+    ],
+    [
+      "SWD",
+      "Serial-wire debug"
+    ],
+    [
+      "TF-M",
+      "Trusted firmware-M"
+    ],
+    [
+      "WRP",
+      "Write protection"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "continuation": {
+      "base_cols": 2,
+      "cont_cols_raw": 2,
+      "target_cols": 2,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5156",
+    "table_id": "table_2",
+    "is_continued": true,
+    "pages": [
+      2,
+      3
+    ],
+    "rows_count": 53,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

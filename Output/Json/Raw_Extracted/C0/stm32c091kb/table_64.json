@@ -1,0 +1,216 @@
+{
+  "table_id": "table_64",
+  "caption": "Table 64. SPI characteristics",
+  "pdf_name": "stm32c091kb",
+  "family": "C0",
+  "page": 87,
+  "merged_pages": [
+    87
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=87",
+  "section": "5.3.19 Characteristics of communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter(1)",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f SCK 1/t c(SCK)",
+      "SPI clock frequency",
+      "Master mode 2 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "24",
+      "MHz"
+    ],
+    [
+      "f SCK 1/t c(SCK)",
+      "SPI clock frequency",
+      "Slave receiver mode",
+      "-",
+      "-",
+      "24",
+      "MHz"
+    ],
+    [
+      "f SCK 1/t c(SCK)",
+      "SPI clock frequency",
+      "Slave transmitter mode/full duplex(2) 2.7 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "24",
+      "MHz"
+    ],
+    [
+      "f SCK 1/t c(SCK)",
+      "SPI clock frequency",
+      "Slave transmitter mode/full duplex(2) 2 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "22",
+      "MHz"
+    ],
+    [
+      "t su(NSS)",
+      "NSS setup time",
+      "Slave mode",
+      "4 * T PCLK",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NSS)",
+      "NSS hold time",
+      "Slave mode",
+      "2 * T PCLK",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t w(SCKH) t w(SCKL)",
+      "SCK high and low times",
+      "Master mode",
+      "T (3) SCK2 -1",
+      "T PCLK",
+      "T (3) SCK2 +1",
+      "ns"
+    ],
+    [
+      "t su(MI)",
+      "Data input setup time in master mode",
+      "-",
+      "4.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SI)",
+      "Data input setup time in slave mode",
+      "-",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MI)",
+      "Data input hold time in master mode",
+      "-",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SI)",
+      "Data input hold time in slave mode",
+      "-",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t a(SO)",
+      "Data output access time in slave mode",
+      "-",
+      "10",
+      "-",
+      "34",
+      "ns"
+    ],
+    [
+      "t dis(SO)",
+      "Data output disable time in slave mode",
+      "-",
+      "9",
+      "-",
+      "16",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time in slave mode",
+      "2.7 V < V < 3.6 V DD",
+      "-",
+      "12",
+      "16",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time in slave mode",
+      "2 V < V < 3.6 V DD",
+      "-",
+      "12",
+      "22",
+      "ns"
+    ],
+    [
+      "t v(MO)",
+      "Data output valid time in master mode",
+      "-",
+      "-",
+      "3",
+      "5.5",
+      "ns"
+    ],
+    [
+      "t h(SO)",
+      "Data output hold time in slave mode",
+      "-",
+      "10",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MO)",
+      "Data output hold time in master mode",
+      "-",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Measurement points are done at 0.5 V and with external C = 30 pF. DD L",
+      "2. Maximum frequency in Slave transmitter mode is determined by the sum of t and t ) which has to fit into SCK low v(SO) su(MI",
+      "3. T = T * prescaler / 2 SCK2 PCLK"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c091kb",
+    "table_id": "table_64",
+    "is_continued": false,
+    "pages": [
+      87
+    ],
+    "rows_count": 18,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Pin description",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Pin description",
+  "page": 9,
+  "section": "1.2 PDM digital microphone block diagram",
+  "section_title": "PDM digital microphone block diagram",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 2. Pin description — section 1.2 PDM digital microphone block diagram. Pin name, Function, Direction.",
+  "table_content": {
+    "headers": [
+      "Pin name",
+      "Function",
+      "Direction"
+    ],
+    "rows": [
+      [
+        "Vdd",
+        "3.3 V power supply",
+        "Input"
+      ],
+      [
+        "GND",
+        "0 V",
+        "Input"
+      ],
+      [
+        "LR",
+        "Left/right selection",
+        "Input"
+      ],
+      [
+        "CLK",
+        "Synchronization clock",
+        "Input"
+      ],
+      [
+        "DOUT",
+        "Left/righ PDM data output",
+        "Output"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

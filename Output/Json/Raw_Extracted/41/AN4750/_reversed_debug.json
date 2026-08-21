@@ -1,0 +1,63 @@
+{
+  "pdf_name": "AN4750",
+  "family": "41",
+  "tables_checked": 2,
+  "cells_checked": 6,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "ARM Cortex® core exceptions / periodical core self-test",
+      "reversed": false,
+      "drift": -27.98,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Permanent faults affecting the core functionality unpredictable software or system behavior or malfunction capture",
+      "reversed": false,
+      "drift": -56.93,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Handling system exception interrupts, testing sequence of instructions manipulating with core registers",
+      "reversed": false,
+      "drift": -51.58,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 3,
+      "row": 0,
+      "original": "IEC 60335 R.1.1 – H.2.16.5 – H.2.16.6 – H.2.19.6",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "01-Sep-2015",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

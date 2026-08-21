@@ -1,0 +1,213 @@
+{
+  "table_id": "table_76",
+  "caption": "Table 76. UFBGA64 – Mechanical data",
+  "pdf_name": "stm32c091kb",
+  "family": "C0",
+  "page": 117,
+  "merged_pages": [
+    117
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=117",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Symbol",
+    "millimeters(1) / Min",
+    "millimeters(1) / Typ",
+    "millimeters(1) / Max",
+    "inches(12) / Min",
+    "inches(12) / Typ",
+    "inches(12) / Max"
+  ],
+  "rows": [
+    [
+      "A(2)(3)",
+      "-",
+      "-",
+      "0.60",
+      "-",
+      "-",
+      "0.0236"
+    ],
+    [
+      "A1(4)",
+      "0.05",
+      "-",
+      "-",
+      "0.0020",
+      "-",
+      "-"
+    ],
+    [
+      "A2",
+      "-",
+      "0.43",
+      "-",
+      "-",
+      "0.0169",
+      "-"
+    ],
+    [
+      "b(5)",
+      "0.23",
+      "0.28",
+      "0.33",
+      "0.0090",
+      "0.0110",
+      "0.0130"
+    ],
+    [
+      "D(6)",
+      "5.00 BSC",
+      "5.00 BSC",
+      "5.00 BSC",
+      "0.1969 BSC",
+      "0.1969 BSC",
+      "0.1969 BSC"
+    ],
+    [
+      "D1",
+      "3.50 BSC",
+      "3.50 BSC",
+      "3.50 BSC",
+      "0.1378 BSC",
+      "0.1378 BSC",
+      "0.1378 BSC"
+    ],
+    [
+      "E",
+      "5.00 BSC",
+      "5.00 BSC",
+      "5.00 BSC",
+      "0.1969 BSC",
+      "0.1969 BSC",
+      "0.1969 BSC"
+    ],
+    [
+      "E1",
+      "3.50 BSC",
+      "3.50 BSC",
+      "3.50 BSC",
+      "0.1378 BSC",
+      "0.1378 BSC",
+      "0.1378 BSC"
+    ],
+    [
+      "e(9)",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC"
+    ],
+    [
+      "N(11)",
+      "64",
+      "64",
+      "64",
+      "64",
+      "64",
+      "64"
+    ],
+    [
+      "SD(12)",
+      "0.25 BSC",
+      "0.25 BSC",
+      "0.25 BSC",
+      "0.0098 BSC",
+      "0.0098 BSC",
+      "0.0098 BSC"
+    ],
+    [
+      "SE(12)",
+      "0.25 BSC",
+      "0.25 BSC",
+      "0.25 BSC",
+      "0.0098 BSC",
+      "0.0098 BSC",
+      "0.0098 BSC"
+    ],
+    [
+      "aaa",
+      "0.15",
+      "0.15",
+      "0.15",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "ccc",
+      "0.20",
+      "0.20",
+      "0.20",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "ddd",
+      "0.08",
+      "0.08",
+      "0.08",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ],
+    [
+      "eee",
+      "0.15",
+      "0.15",
+      "0.15",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "fff",
+      "0.05",
+      "0.05",
+      "0.05",
+      "0.0020",
+      "0.0020",
+      "0.0020"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-2009 apart European projection.",
+      "2. UFBGA stands for ultra profile fine pitch ball grid array: 0.5 mm < A ≤ 0.65 mm / fine pitch e < 1.00 mm.",
+      "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "4. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "5. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+      "6. BSC stands for BASIC dimensions. It corresponds to the nominal value and has no tolerance. For tolerances refer to form and position table. On the drawing these",
+      "9. e represents the solder ball grid pitch.",
+      "11. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c091kb",
+    "table_id": "table_76",
+    "is_continued": false,
+    "pages": [
+      117
+    ],
+    "rows_count": 17,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

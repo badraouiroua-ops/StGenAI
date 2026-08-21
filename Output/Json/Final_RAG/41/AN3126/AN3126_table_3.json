@@ -1,0 +1,78 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Digital and analog sample values of the sine wave",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Digital and analog sample values of the sine wave",
+  "page": 15,
+  "section": "2.1.2 Waveform preparation",
+  "section_title": "Waveform preparation",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN3126.pdf#page=15",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN3126.pdf",
+  "text_helper": "Table 3. Digital and analog sample values of the sine wave — section 2.1.2 Waveform preparation. Sample (x), Digital sample value ySineDigital (x), Analog sample value (Volt) ySineAnalog(x).",
+  "table_content": {
+    "headers": [
+      "Sample (x)",
+      "Digital sample value ySineDigital (x)",
+      "Analog sample value (Volt) ySineAnalog(x)"
+    ],
+    "rows": [
+      [
+        "0",
+        "2048",
+        "1.650"
+      ],
+      [
+        "1",
+        "3251",
+        "2.620"
+      ],
+      [
+        "2",
+        "3995",
+        "3.219"
+      ],
+      [
+        "3",
+        "3996",
+        "3.220"
+      ],
+      [
+        "4",
+        "3253",
+        "2.622"
+      ],
+      [
+        "5",
+        "2051",
+        "1.653"
+      ],
+      [
+        "6",
+        "847",
+        "0.682"
+      ],
+      [
+        "7",
+        "101",
+        "0.081"
+      ],
+      [
+        "8",
+        "98",
+        "0.079"
+      ],
+      [
+        "9",
+        "839",
+        "0.676"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

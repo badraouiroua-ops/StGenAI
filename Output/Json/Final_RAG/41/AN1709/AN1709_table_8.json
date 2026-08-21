@@ -1,0 +1,37 @@
+{
+  "table_id": "table_8",
+  "document": "Table 8. Example of the LU test result on STM32L062K8",
+  "rev": null,
+  "table_number": "8",
+  "title": "Table 8. Example of the LU test result on STM32L062K8",
+  "page": 8,
+  "section": "3.1.2 Latch-up (LU)",
+  "section_title": "Latch-up (LU)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=8",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 8. Example of the LU test result on STM32L062K8 — section 3.1.2 Latch-up (LU). Symbol, Parameter, Conditions, Class(1).",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Class(1)"
+    ],
+    "rows": [
+      [
+        "LU",
+        "Static latch-up class",
+        "TA=+125°C conforming to JESD78A",
+        "II level A"
+      ]
+    ],
+    "notes": [
+      "1. Class description: “A” class is an internal specification. All its limits are higher than the JEDEC specifications, that means when a device belongs to class A it exceeds the JEDEC standard. “B”class strictly covers all the JEDEC criteria"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

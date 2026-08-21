@@ -1,0 +1,87 @@
+{
+  "table_id": "table_68",
+  "caption": "Table 68. USB_FS characteristics",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 97,
+  "merged_pages": [
+    97
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=97",
+  "section": "5.3.25 SPI characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VDDUSB",
+      "USB transceiver operating supply voltage",
+      "-",
+      "3.0(1)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "RPUI",
+      "Embedded USB_DP pullup value during idle",
+      "-",
+      "900",
+      "-",
+      "1575",
+      "Ω"
+    ],
+    [
+      "RPUR",
+      "Embedded USB_DP pullup value during reception",
+      "-",
+      "1425",
+      "-",
+      "3090",
+      "Ω"
+    ],
+    [
+      "ZDRV",
+      "Output driver impedance(2)",
+      "High and low driver",
+      "28",
+      "36",
+      "44",
+      "Ω"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. USB functionality is ensured down to 2.7 V, but some USB electrical characteristics are degraded in 2.7 to 3.0 V range.",
+      "2. No external termination series resistors are required on USB_DP (D+) and USB_DM (D-). The matching impedance is already included in the embedded driver."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_68",
+    "is_continued": false,
+    "pages": [
+      97
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

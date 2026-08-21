@@ -1,0 +1,65 @@
+{
+  "table_id": "table_12",
+  "document": "Table 12. FLASH features.",
+  "rev": null,
+  "table_number": "12",
+  "title": "Table 12. FLASH features.",
+  "page": 24,
+  "section": "6.2.1 Embedded flash memory (FLASH)",
+  "section_title": "Embedded flash memory (FLASH)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=24",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 12. FLASH features. — section 6.2.1 Embedded flash memory (FLASH). Flash memory, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "Flash memory",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Main/program memory",
+        "• Up to 1 Mbytes in STM32C5, up to 4 Mbytes in STM32H5 (dual bank) • Flash memory read operations supporting multiple lengths: 128 bits, 64 bits, 32 bits, 16 bits, or one byte • 8 Kbytes sector erase, bank erase and dual-bank mass erase",
+        "• Up to 1 Mbytes in STM32C5, up to 4 Mbytes in STM32H5 (dual bank) • Flash memory read operations supporting multiple lengths: 128 bits, 64 bits, 32 bits, 16 bits, or one byte • 8 Kbytes sector erase, bank erase and dual-bank mass erase"
+      ],
+      [
+        "Dual bank",
+        "Read while write (RWW) and flash bank swapping",
+        "Read while write (RWW) and flash bank swapping"
+      ],
+      [
+        "Error code correction (ECC)",
+        "One error detection/correction or two error detections per 128-bit flash memory word using 9 ECC bits",
+        "One error detection/correction or two error detections per 128-bit flash memory word using 9 ECC bits"
+      ],
+      [
+        "Wait states",
+        "Up to 6 (depending on the supply voltage and frequency)",
+        "Up to 6 (depending on the supply voltage and frequency)"
+      ],
+      [
+        "One time programmable (OTP) memory",
+        "2 Kbytes (OTP) area",
+        "4.5 Kbytes (OTP) for user data"
+      ],
+      [
+        "FLASH security and protections",
+        "• TrustZone® backed watermark and block security protection • HDP protection providing temporal isolation • Configuration protection • Write protection • Device nonvolatile security life cycle and application boot state management",
+        "• Readout protection (RDP) • HDP protection providing temporal isolation • Configuration protection • Write protection • Device nonvolatile application boot state management"
+      ],
+      [
+        "User option bytes (1)",
+        "nRST_STBY nRST_STOP IWDG_SW WWDG_SW IWDG_STBY, IWDG_STOP BOR_LEV BORH_EN BOOT_UBE OPTSTRT OPTLOCK WRPSG PRODUCT_STATE IO_VDDIO2_HSLV SWAP_BANK",
+        "nRST_STBY nRST_STOP IWDG_SW WWDG_SW IWDG_STBY, IWDG_STOP BOOT0 BOOTSEL SINGLE_BANK BOOT_UBE WRPSG RDP_LEVEL SWAP_BANK"
+      ]
+    ],
+    "notes": [
+      "1. Refer to the “Option-byte organization” table in the reference manual that provides all user option bytes. AN6308 - Rev 1 page 24/51"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

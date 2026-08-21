@@ -1,0 +1,22 @@
+{
+  "table_id": "table_1",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête du tableau",
+      "row_index": null,
+      "analyse_visuelle": "L'en-tête de la colonne 7 a été extrait à l'envers (RTL) par l'outil OCR. L'analyse visuelle montre clairement la référence 'STM32C53xCxT/ STM32C53xCxU' écrite verticalement.",
+      "corrections": [
+        {
+          "colonne_index": 7,
+          "valeur_originale_json": "/TxCx35C23MTS UxCx35C23MTS",
+          "nouvelle_valeur": "STM32C53xCxT/\nSTM32C53xCxU",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

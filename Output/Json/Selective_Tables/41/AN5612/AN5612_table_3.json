@@ -1,0 +1,87 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Complementary literature available on www.st.com",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Complementary literature available on www.st.com",
+  "page": 2,
+  "section": "1 General information",
+  "section_title": "General information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5612.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5612.pdf",
+  "text_helper": "Table 3. Complementary literature available on www.st.com — section 1 General information. Category, Document.",
+  "table_content": {
+    "headers": [
+      "Category",
+      "Document"
+    ],
+    "rows": [
+      [
+        "EMIF",
+        "HDMI ESD protection and signal conditioning products for STBs, AN5121"
+      ],
+      [
+        "EMIF",
+        "IEC 61000-4-2 standard testing, AN3353"
+      ],
+      [
+        "EMIF",
+        "EMI filters for SD3.0 card high-speed SD card protection and filtering devices, AN4541"
+      ],
+      [
+        "EMIF",
+        "LC filters for mobile phone LCD and camera links, AN3141"
+      ],
+      [
+        "ECMF",
+        "USB Type-C protection and filtering, AN4871"
+      ],
+      [
+        "ECMF",
+        "Antenna desense on handheld equipment, AN4356"
+      ],
+      [
+        "ECMF",
+        "IEC 61000-4-2 standard testing, AN3353"
+      ],
+      [
+        "ECMF",
+        "Common mode filters, AN4511"
+      ],
+      [
+        "Protection",
+        "Increasing the ST25DV-I2C series Dynamic NFC Tags ESD robustness on antenna using an external ESD protection, AN5425"
+      ],
+      [
+        "Protection",
+        "3.3 V RS485 compatible with 1.8 V I/Os and selectable speed 20 Mbps or 250 kbps, AN5245"
+      ],
+      [
+        "Protection",
+        "Increasing the M24LRXXE-R family ESD robustness on antenna using an external ESD protection, AN4326"
+      ],
+      [
+        "Protection",
+        "Fundamentals of ESD protection at system level, AN5241"
+      ],
+      [
+        "Protection",
+        "USB Type-C protection and filtering, AN4871"
+      ],
+      [
+        "Protection",
+        "HDMI ESD protection and signal conditioning products for STBs, AN5121"
+      ],
+      [
+        "Protection",
+        "IEC 61000-4-2 standard testing, AN3353"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

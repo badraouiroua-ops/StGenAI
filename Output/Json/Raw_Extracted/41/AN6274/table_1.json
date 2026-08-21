@@ -1,0 +1,152 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Package summary for STM32C5 devices",
+  "pdf_name": "AN6274",
+  "family": "41",
+  "page": 11,
+  "merged_pages": [
+    11
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=11",
+  "section": "4.1 Package summary",
+  "headers": [
+    "Package",
+    "Size (mm)",
+    "Height (mm)",
+    "Pitch (mm)",
+    "STM32C53x/C54x",
+    "STM32C55x/C56x",
+    "STM32C59x/C5Ax"
+  ],
+  "rows": [
+    [
+      "LQFP144",
+      "20 × 20",
+      "1.6",
+      "0.5",
+      "-",
+      "-",
+      "X"
+    ],
+    [
+      "LQFP100",
+      "14 × 14",
+      "1.6",
+      "0.5",
+      "-",
+      "X",
+      "X"
+    ],
+    [
+      "LQFP80",
+      "12 × 12",
+      "1.6",
+      "0.5",
+      "-",
+      "X",
+      "X"
+    ],
+    [
+      "LQFP64",
+      "10 × 10",
+      "1.6",
+      "0.5",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "LQFP48",
+      "7 × 7",
+      "1.6",
+      "0.5",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "UFQFPN48",
+      "7 × 7",
+      "0.6",
+      "0.5",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "LQFP32",
+      "7 × 7",
+      "1.6",
+      "0.8",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "UFQFPN32",
+      "5 × 5",
+      "0.6",
+      "0.5",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "UFQFPN24",
+      "4 × 4",
+      "0.6",
+      "0.5",
+      "X",
+      "-",
+      "-"
+    ],
+    [
+      "TSSOP20",
+      "6.5 × 4.4",
+      "1.2",
+      "0.65",
+      "X",
+      "-",
+      "-"
+    ],
+    [
+      "UFQFPN20",
+      "3 × 3",
+      "0.6",
+      "0.5",
+      "X",
+      "-",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. On these packages PC14-OSC32_IN is double bonded to PH0-OSCIN, it can not be used with an external crystal as OSC32OUT is not available but can be used in bypass mode for LSE if HSE is not used.",
+      "2. Plus VSS connection through exposed pad. AN6274 - Rev 1 page 12/30"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN6274",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      11
+    ],
+    "rows_count": 11,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

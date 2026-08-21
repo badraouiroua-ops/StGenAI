@@ -1,0 +1,43 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Bootloader protocol versions",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Bootloader protocol versions",
+  "page": 48,
+  "section": "3 Evolution of the bootloader protocol versions",
+  "section_title": "Evolution of the bootloader protocol versions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4286.pdf#page=48",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4286.pdf",
+  "text_helper": "Table 3. Bootloader protocol versions — section 3 Evolution of the bootloader protocol versions. Version, Description.",
+  "table_content": {
+    "headers": [
+      "Version",
+      "Description"
+    ],
+    "rows": [
+      [
+        "V1.0",
+        "– Initial bootloader version."
+      ],
+      [
+        "V1.1",
+        "– Updated the Acknowledge mechanism. – Updated the \"Get\", \"Get ID\", \"Get Version\" and \"Read\" commands."
+      ],
+      [
+        "V1.3",
+        "– Added support for \"Get Checksum\" command. – Updated \"Get Command\" command to return the opcode of the \"Get Checksum\" command."
+      ],
+      [
+        "V2.0",
+        "– The number of commands can vary on STM32 devices with the same protocol version v2.0. To know the supported commands, use Get command."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. LPDMA programming for I2C",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. LPDMA programming for I2C",
+  "page": 10,
+  "section": "3.3 LPDMA configuration for communication peripherals",
+  "section_title": "LPDMA configuration for communication peripherals",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=10",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 9. LPDMA programming for I2C — section 3.3 LPDMA configuration for communication peripherals. LPDMA data width for source and destination, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA data width for source and destination",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "i2c_tx, i2c_rx: 8‑bit i2c_evc: 32-bit(1)",
+        "Depends on I2C settings."
+      ]
+    ],
+    "notes": [
+      "1. Not applicable for STM32C5"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

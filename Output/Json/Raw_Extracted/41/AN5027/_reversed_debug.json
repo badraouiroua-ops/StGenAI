@@ -1,0 +1,225 @@
+{
+  "pdf_name": "AN5027",
+  "family": "41",
+  "tables_checked": 14,
+  "cells_checked": 24,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Valid data",
+      "reversed": false,
+      "drift": -5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 2,
+      "row": 0,
+      "original": "High impedance",
+      "reversed": false,
+      "drift": -7.25,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "3.3 V power supply",
+      "reversed": false,
+      "drift": -7.55,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Input",
+      "reversed": false,
+      "drift": -2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Immunity to RF noise and electromagnetic interference (EMI)",
+      "reversed": false,
+      "drift": 4.08,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "– Less integration effort",
+      "reversed": false,
+      "drift": -11.65,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "MP34DB02",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Bottom",
+      "reversed": false,
+      "drift": -3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 2,
+      "row": 0,
+      "original": "1.64 to 3.6",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "1 or 2",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 1,
+      "row": 0,
+      "original": "SAI_D1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 2,
+      "row": 0,
+      "original": "SAI_CK1,2,3 or 4",
+      "reversed": false,
+      "drift": -10.1,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Sound capture",
+      "reversed": false,
+      "drift": -6.64,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Between 400 and 800 kHz",
+      "reversed": false,
+      "drift": 1.23,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "SAI (two synchronous sub-blocks)",
+      "reversed": false,
+      "drift": -16.52,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 2,
+      "row": 0,
+      "original": "PLLI2SR",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 7,
+      "row": 0,
+      "original": "153.60",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 6,
+      "row": 0,
+      "original": "65.52",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 5,
+      "row": 0,
+      "original": "40.96",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 4,
+      "row": 0,
+      "original": "40.96",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Sinc 4 or Sinc 5 filter type",
+      "reversed": false,
+      "drift": -10.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 5,
+      "row": 0,
+      "original": "61.44",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_16_row0",
+      "col": 0,
+      "row": 0,
+      "original": "14-Dec-2017",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_16_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

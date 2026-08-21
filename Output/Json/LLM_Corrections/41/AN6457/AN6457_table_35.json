@@ -1,0 +1,22 @@
+{
+  "table_id": "table_35",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête du tableau",
+      "row_index": null,
+      "analyse_visuelle": "Le premier en-tête a été lu en miroir / texte inversé (RTL) 'BPA/BHA kcolc oitar' au lieu de 'AHB/APB clock ratio'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "BPA/BHA kcolc oitar",
+          "nouvelle_valeur": "AHB/APB clock ratio",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,153 @@
+{
+  "table_id": "table_31",
+  "caption": "Table 31. Wake-up time from low-power modes.",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 64,
+  "merged_pages": [
+    64
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=64",
+  "section": "5.3.7 Wake-up time from low-power modes and voltage scaling transition times",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Wakeup clock",
+    "fHCLK (MHz)",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "twu(Sleep)",
+      "Wakeup from Sleep",
+      "Instruction cache enabled or disabled",
+      "-",
+      "-",
+      "16",
+      "16",
+      "CPU clock cycles"
+    ],
+    [
+      "twu(Stop)",
+      "Wakeup from Stop 0",
+      "Flash memory in normal mode",
+      "HSI",
+      "144",
+      "3.6",
+      "5",
+      "µs"
+    ],
+    [
+      "twu(Stop)",
+      "Wakeup from Stop 0",
+      "Flash memory in low-power mode",
+      "HSI",
+      "144",
+      "7.2",
+      "11",
+      "µs"
+    ],
+    [
+      "twu(Stop)",
+      "Wakeup from Stop 0",
+      "Flash memory in normal mode",
+      "HSIDIV3",
+      "48",
+      "5.1",
+      "7",
+      "µs"
+    ],
+    [
+      "twu(Stop)",
+      "Wakeup from Stop 0",
+      "Flash memory in low-power mode",
+      "HSIDIV3",
+      "48",
+      "8.6",
+      "13.5",
+      "µs"
+    ],
+    [
+      "twu(Stop)",
+      "Wakeup from Stop 1(1)",
+      "Flash memory in normal mode",
+      "HSI",
+      "144",
+      "37.0",
+      "49",
+      "µs"
+    ],
+    [
+      "twu(Stop)",
+      "Wakeup from Stop 1(1)",
+      "Flash memory in low-power mode",
+      "HSI",
+      "144",
+      "40.5",
+      "58",
+      "µs"
+    ],
+    [
+      "twu(Stop)",
+      "Wakeup from Stop 1(1)",
+      "Flash memory in normal mode",
+      "HSIDIV3",
+      "48",
+      "39.0",
+      "53",
+      "µs"
+    ],
+    [
+      "twu(Stop)",
+      "Wakeup from Stop 1(1)",
+      "Flash memory in low-power mode",
+      "HSIDIV3",
+      "48",
+      "42.0",
+      "61",
+      "µs"
+    ],
+    [
+      "twu(Standby)",
+      "Wakeup from Standby mode(1)",
+      "-",
+      "HSIDIV3",
+      "48",
+      "445",
+      "-",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "1. Evaluated by characterization - Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_31",
+    "is_continued": false,
+    "pages": [
+      64
+    ],
+    "rows_count": 10,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

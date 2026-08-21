@@ -1,0 +1,183 @@
+{
+  "table_id": "table_8",
+  "caption": "Table 8. List of supported CCCs supported by LSM6DSO",
+  "pdf_name": "AN5879",
+  "family": "41",
+  "page": 16,
+  "merged_pages": [
+    16,
+    17
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=16",
+  "section": "8.8 Supported common command codes",
+  "headers": [
+    "Command name",
+    "Command code",
+    "CCC type"
+  ],
+  "rows": [
+    [
+      "ENTDAA",
+      "0x07",
+      "Broadcast"
+    ],
+    [
+      "SETDASA",
+      "0x87",
+      "Direct"
+    ],
+    [
+      "ENEC",
+      "0x00",
+      "Broadcast"
+    ],
+    [
+      "ENEC",
+      "0x80",
+      "Direct"
+    ],
+    [
+      "DISEC",
+      "0x01",
+      "Broadcast"
+    ],
+    [
+      "DISEC",
+      "0x81",
+      "Direct"
+    ],
+    [
+      "ENTAS 0...3",
+      "0x82 to 0x85",
+      "Direct"
+    ],
+    [
+      "ENTAS 0...3",
+      "0x02 to0x05",
+      "Broadcast"
+    ],
+    [
+      "SETXTIME",
+      "0x28",
+      "Broadcast"
+    ],
+    [
+      "SETXTIME",
+      "0x98",
+      "Direct"
+    ],
+    [
+      "GETXTIME",
+      "0x99",
+      "Direct"
+    ],
+    [
+      "RSTDAA",
+      "0x06",
+      "Broadcast"
+    ],
+    [
+      "RSTDAA",
+      "0x86",
+      "Direct"
+    ],
+    [
+      "SETMWL",
+      "0x08",
+      "Broadcast"
+    ],
+    [
+      "SETMWL",
+      "0x89",
+      "Direct"
+    ],
+    [
+      "SETMRL",
+      "0x09",
+      "Broadcast"
+    ],
+    [
+      "SETMRL",
+      "0x8A",
+      "Direct"
+    ],
+    [
+      "SETNEWDA",
+      "0x88",
+      "Direct Set"
+    ],
+    [
+      "GETMWL",
+      "0x8B",
+      "Direct Get"
+    ],
+    [
+      "GETMRL",
+      "0x8C",
+      "Direct Get"
+    ],
+    [
+      "GETPID",
+      "0x8D",
+      "Direct Get"
+    ],
+    [
+      "GETBCR",
+      "0x8E",
+      "Direct Get"
+    ],
+    [
+      "GETDCR",
+      "0x8F",
+      "Direct Get"
+    ],
+    [
+      "GETSTATUS",
+      "0x90",
+      "Direct Get"
+    ],
+    [
+      "GETMXDS",
+      "0x94",
+      "Direct Get"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 3,
+      "cont_cols_raw": 3,
+      "target_cols": 3,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5879",
+    "table_id": "table_8",
+    "is_continued": true,
+    "pages": [
+      16,
+      17
+    ],
+    "rows_count": 25,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

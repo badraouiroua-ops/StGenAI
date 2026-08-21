@@ -1,0 +1,134 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. SRAM ECC coverage in selected STM32 devices",
+  "pdf_name": "AN5342",
+  "family": "41",
+  "page": 4,
+  "merged_pages": [
+    4
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=4",
+  "section": "2.2 RAM ECC",
+  "headers": [
+    "-",
+    "H72x/H73x",
+    "H74x/H75x",
+    "H7Ax/H7Bx",
+    "H5",
+    "U5",
+    "H7Rx/H7Sx",
+    "C5"
+  ],
+  "rows": [
+    [
+      "AXI",
+      "64b",
+      "64b",
+      "X",
+      "-",
+      "-",
+      "64b (1)",
+      "-"
+    ],
+    [
+      "ITCM",
+      "64b",
+      "64b",
+      "64b",
+      "-",
+      "-",
+      "64b",
+      "-"
+    ],
+    [
+      "DTCM",
+      "32b",
+      "32b",
+      "32b",
+      "-",
+      "-",
+      "32b",
+      "-"
+    ],
+    [
+      "SRAM1",
+      "32b",
+      "32b",
+      "X",
+      "X",
+      "X",
+      "32b",
+      "X"
+    ],
+    [
+      "SRAM2",
+      "32b",
+      "32b",
+      "X",
+      "32b",
+      "32b",
+      "X",
+      "32b"
+    ],
+    [
+      "SRAM3",
+      "-",
+      "32b",
+      "-",
+      "32b(2)",
+      "32b(3)",
+      "32b",
+      "-"
+    ],
+    [
+      "SRAM4",
+      "32b",
+      "32b",
+      "-",
+      "-",
+      "X",
+      "X(4)",
+      "-"
+    ],
+    [
+      "Backup RAM",
+      "32b",
+      "32b",
+      "X",
+      "32b",
+      "32b",
+      "32b",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "1. AXI bus is 64b, but the same memory can also be accessed by AHB.",
+      "2. Only the first 256 KB of SRAM3; the last block of memory is used to manage the ECC.",
+      "3. Not the whole SRAM3, refer to document [6].",
+      "4. Used to provide ECC memory for SRAM1 and SRAM3. On most of the STM32H7 series microcontrollers, the RAM ECC cannot be turned off (except STM32H7Rx/"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5342",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      4
+    ],
+    "rows_count": 8,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

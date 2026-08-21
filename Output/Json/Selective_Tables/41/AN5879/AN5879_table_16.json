@@ -1,0 +1,35 @@
+{
+  "table_id": "table_16",
+  "document": "Table 16. Controller software settings for in-band interrupt",
+  "rev": null,
+  "table_number": "16",
+  "title": "Table 16. Controller software settings for in-band interrupt",
+  "page": 40,
+  "section": "9.9.2.1 Controller",
+  "section_title": "Controller",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=40",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 16. Controller software settings for in-band interrupt — section 9.9.2.1 Controller. 2V14917TD, • Assign a dynamic address. • Activate notifications for specially for this example. • In-band interrupt requested by a target..",
+  "table_content": {
+    "headers": [
+      "2V14917TD",
+      "• Assign a dynamic address. • Activate notifications for specially for this example. • In-band interrupt requested by a target."
+    ],
+    "rows": [
+      [
+        "2V24917TD",
+        "Start the listen mode process."
+      ],
+      [
+        "DT71943V2DT71942V2DT71941V2",
+        "• I3C target requests a dynamic address callback. • I3C notifies callback after receiving a notification."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

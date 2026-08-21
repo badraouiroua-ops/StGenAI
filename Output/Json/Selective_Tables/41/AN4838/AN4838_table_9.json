@@ -1,0 +1,55 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Example of setting up the MPU with Armv8-M",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Example of setting up the MPU with Armv8-M",
+  "page": 16,
+  "section": "4.3 MPU registers",
+  "section_title": "MPU registers",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "text_helper": "Table 9. Example of setting up the MPU with Armv8-M — section 4.3 MPU registers. Configuration, Memory type, Base address, Region number, Memory size, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Configuration",
+      "Memory type",
+      "Base address",
+      "Region number",
+      "Memory size",
+      "Memory attributes"
+    ],
+    "rows": [
+      [
+        "Internal SRAM",
+        "Normal memory",
+        "0x2000 0000",
+        "Region0",
+        "256 Kbytes",
+        "Memory attribute = normal, non-cacheable. XN = 0 AP = full access S = 0"
+      ],
+      [
+        "Flash memory",
+        "Normal memory",
+        "0x0800 0000",
+        "Region1",
+        "2 Mbyte",
+        "Memory attribute = normal, write through and no write allocate. XN = 0 AP = full access S = 0"
+      ],
+      [
+        "Peripherals",
+        "Device",
+        "0x4000 0000",
+        "Region2",
+        "512 Mbytes",
+        "Memory attribute = device nGnRE XN = 1 AP = full access S = 0"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

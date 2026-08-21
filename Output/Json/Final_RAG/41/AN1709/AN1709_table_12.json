@@ -1,0 +1,71 @@
+{
+  "table_id": "table_12",
+  "document": "Table 12. Example of EMI results on STM32",
+  "rev": null,
+  "table_number": "12",
+  "title": "Table 12. Example of EMI results on STM32",
+  "page": 15,
+  "section": "3.2.2 EMI level classification",
+  "section_title": "EMI level classification",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=15",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 12. Example of EMI results on STM32 — section 3.2.2 EMI level classification. Symbol, Parameter, Conditions, Monitored frequency band, Value, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Monitored frequency band",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "SEMI",
+        "Peak",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+        "0.1 MHz to 30 MHz",
+        "7",
+        "dBμV"
+      ],
+      [
+        "SEMI",
+        "Peak",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+        "30 MHz to 130 MHz",
+        "-1",
+        "dBμV"
+      ],
+      [
+        "SEMI",
+        "Peak",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+        "130 MHz to 1 GHz",
+        "8",
+        "dBμV"
+      ],
+      [
+        "SEMI",
+        "Peak",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+        "1 GHz to 2 GHz",
+        "7",
+        "dBμV"
+      ],
+      [
+        "SEMI",
+        "Level",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package compliant with IEC 61967-2",
+        "0.1 MHz to 2 GHz",
+        "2.5",
+        "dBμV"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

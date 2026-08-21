@@ -1,0 +1,28 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Headers",
+      "row_index": null,
+      "analyse_visuelle": "L'en-tête de la colonne STM32G031xx comporte une virgule en trop issue de la coupure de texte, et l'en-tête de la dernière colonne STM32G4xx a fusionné le titre de groupe STM32G4 et le nom de sous-famille STM32G4xx sans séparateur.",
+      "corrections": [
+        {
+          "colonne_index": 41,
+          "valeur_originale_json": "STM32G0 / STM32G031xx,",
+          "nouvelle_valeur": "STM32G0 / STM32G031xx",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 49,
+          "valeur_originale_json": "STM32G4xxSTM32G4",
+          "nouvelle_valeur": "STM32G4 / STM32G4xx",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,43 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Assets to be protected",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Assets to be protected",
+  "page": 7,
+  "section": "2.1 Security purpose",
+  "section_title": "Security purpose",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 3. Assets to be protected — section 2.1 Security purpose. Target, Assets, Risks.",
+  "table_content": {
+    "headers": [
+      "Target",
+      "Assets",
+      "Risks"
+    ],
+    "rows": [
+      [
+        "Data",
+        "Sensor data (such as healthcare data or log of positions) User data (such as ID, PIN, password, or accounts) Transactions logs Cryptographic keys",
+        "Unauthorized sale of personal data Usurpation Spying Blackmail"
+      ],
+      [
+        "Control of device (bootloader, malicious application)",
+        "Device correct functionality Device/user identity",
+        "Denial of service Attacks on service providers Fraudulent access to service (cloud)"
+      ],
+      [
+        "User code",
+        "Device hardware architecture/design Software patent/architecture Technology patents",
+        "Device counterfeit Software counterfeit Software modification Access to secure areas"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

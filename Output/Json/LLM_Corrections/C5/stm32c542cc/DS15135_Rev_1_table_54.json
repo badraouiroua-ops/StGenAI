@@ -1,0 +1,22 @@
+{
+  "table_id": "table_54",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "SINAD Signal-to-noise and distortion ratio",
+      "row_index": 6,
+      "analyse_visuelle": "Visuellement, la colonne 'Unit' regroupe les lignes SINAD, SNR et THD sous la même unité 'dB'. La valeur 'bits' n'appartient qu'à la ligne ENOB.",
+      "corrections": [
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "bits",
+          "nouvelle_valeur": "dB",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

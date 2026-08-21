@@ -1,0 +1,55 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. CDM ESDS component classification levels",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. CDM ESDS component classification levels",
+  "page": 9,
+  "section": "3.1.3 Absolute electrical sensitivity",
+  "section_title": "Absolute electrical sensitivity",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 9. CDM ESDS component classification levels — section 3.1.3 Absolute electrical sensitivity. Class, Voltage range (V).",
+  "table_content": {
+    "headers": [
+      "Class",
+      "Voltage range (V)"
+    ],
+    "rows": [
+      [
+        "C1",
+        "< 125"
+      ],
+      [
+        "C2",
+        "125 to < 250"
+      ],
+      [
+        "C3",
+        "250 to < 500"
+      ],
+      [
+        "C4",
+        "500 to < 1000"
+      ],
+      [
+        "C5",
+        "1000 to < 1500"
+      ],
+      [
+        "C6",
+        "1500 to < 2000"
+      ],
+      [
+        "C7",
+        "≥ 2000"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,1550 @@
+[
+  {
+    "features": {
+      "pdf_name": "AN5879",
+      "family": "41",
+      "pdf_type": 2,
+      "doc_ref": null,
+      "revision": null,
+      "date": null,
+      "title": "Introduction to I3C for STM32 MCUs Introduction The number of sensors connected to a main device acting as a controller has steadily increased in the last couple of years.",
+      "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+      "page": 1,
+      "core": null,
+      "fpu": false,
+      "max_frequency_mhz": 4,
+      "flash_kb": null,
+      "ram_kb": null,
+      "voltage_min_v": null,
+      "voltage_max_v": null,
+      "operating_temp_c": [],
+      "packages": [
+        "WLCSP25"
+      ],
+      "device_summary": null,
+      "extraction_meta": {
+        "source_pages": [
+          1,
+          2,
+          3
+        ],
+        "extraction_method": "regex_type2",
+        "text_extraction_reliable": true,
+        "packages_source": "text",
+        "confidence": "medium",
+        "missing_fields": [
+          "core",
+          "flash_kb",
+          "ram_kb",
+          "voltage_min_v",
+          "voltage_max_v",
+          "operating_temp_c"
+        ],
+        "low_confidence_fields": []
+      }
+    }
+  },
+  {
+    "table_id": "table_1",
+    "caption": "Table 1. Applicable products",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 1,
+    "merged_pages": [
+      1
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=1",
+    "section": "General purpose / Overview",
+    "headers": [
+      "Type",
+      "Products"
+    ],
+    "rows": [
+      [
+        "Microcontroller",
+        "STM32H5 series, STM32H7R3/7S3 line, STM32H7R7/7S7 line, STM32U3 series, STM32N6 series, STM32C5 series"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_1",
+      "is_continued": false,
+      "pages": [
+        1
+      ],
+      "rows_count": 1,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_2",
+    "caption": "Table 2. I3C versus I2C capabilities",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 6,
+    "merged_pages": [
+      6
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=6",
+    "section": "2.4 Block diagram",
+    "headers": [
+      "Parameters",
+      "I3C",
+      "I2C"
+    ],
+    "rows": [
+      [
+        "Protocol",
+        "Serial, half-duplex",
+        "Serial, half-duplex"
+      ],
+      [
+        "Frequency",
+        "Up to 12.5 MHz (SDR)",
+        "Up to 1 MHz"
+      ],
+      [
+        "Signaling",
+        "Open-drain Push-pull",
+        "Only open-drain"
+      ],
+      [
+        "Pull-up resistors at bus level",
+        "Not required",
+        "Required"
+      ],
+      [
+        "I3C reserved address 7'h7E",
+        "To begin I3C SDR transfer",
+        "Not allowed"
+      ],
+      [
+        "Address",
+        "7-bit (Static address for I2C devices and dynamic address for I3C devices)",
+        "7-bit static address 10-bit static address"
+      ],
+      [
+        "Dynamic addressing",
+        "Supported",
+        "Not supported"
+      ],
+      [
+        "In-band interrupt",
+        "Supported",
+        "Not supported"
+      ],
+      [
+        "Hot-join",
+        "Supported",
+        "Not supported"
+      ],
+      [
+        "Multicontrollers",
+        "Supported",
+        "Supported"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "_notes": [
+        "1. Available only on STM32H543/553xx. AN5879 - Rev 6 page 7/52"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_2",
+      "is_continued": false,
+      "pages": [
+        6
+      ],
+      "rows_count": 10,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_3",
+    "caption": "Table 3. I3C peripheral versus MIPI v1.1",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 7,
+    "merged_pages": [
+      7
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=7",
+    "section": "2.4 Block diagram",
+    "headers": [
+      "Feature",
+      "IPIM C3I 1.1v",
+      "I3C peripheral / Controller",
+      "I3C peripheral / Target",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "I3C SDR message",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Legacy I2C message",
+        "X",
+        "X",
+        "-",
+        "Mandatory as controller when there is an I2C target. Optional in MIPI v1.1 when target."
+      ],
+      [
+        "HDR message",
+        "X",
+        "-",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "Dynamic address",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Static address",
+        "X",
+        "X",
+        "X(1)",
+        "I3C peripheral cannot be a target on an I2C bus."
+      ],
+      [
+        "Grouped addressing",
+        "X",
+        "X",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "CCCs",
+        "X",
+        "X",
+        "X",
+        "All mandatory CCCs + some optional CCCs are supported."
+      ],
+      [
+        "Error detection & recovery",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "IBI",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Secondary controller",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Hot join",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Target reset",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Asynchronous timing control 0",
+        "X",
+        "X",
+        "-",
+        "Mandatory in MIPI v1.1 when controller. Optional in MIPI v1.1 when target."
+      ],
+      [
+        "Synchronous & asynchronous timing control 1, 2, 3",
+        "X",
+        "-",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "Device to device tunneling",
+        "X",
+        "X",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "Multi-lane data transfer",
+        "X",
+        "-",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "Monitoring device early termination",
+        "X",
+        "-",
+        "-",
+        "Optional in MIPI v1.1."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 5,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 5,
+      "_notes": [
+        "1. Available only on STM32H543/553xx. AN5879 - Rev 6 page 7/52"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2",
+      "vertical_merge_suspected"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_3",
+      "is_continued": false,
+      "pages": [
+        7
+      ],
+      "rows_count": 17,
+      "cols_count": 5,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_4",
+    "caption": "Table 4. Electrical characteristics",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 10,
+    "merged_pages": [
+      10
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=10",
+    "section": "5.1 Electrical characteristics",
+    "headers": [
+      "Parameters",
+      "Min",
+      "Typical",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Operating voltage",
+        "1.10",
+        "1.20",
+        "1.30",
+        "V"
+      ],
+      [
+        "Operating voltage",
+        "1.65",
+        "1.80",
+        "1.95",
+        "V"
+      ],
+      [
+        "Operating voltage",
+        "2.97",
+        "3.30",
+        "3.63",
+        "V"
+      ],
+      [
+        "SCL clock frequency",
+        "0.01",
+        "12.5",
+        "12.9",
+        "MHz"
+      ],
+      [
+        "Total bus capacitance",
+        "-",
+        "50",
+        "-",
+        "pF"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 5,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 5
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_4",
+      "is_continued": false,
+      "pages": [
+        10
+      ],
+      "rows_count": 5,
+      "cols_count": 5,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_5",
+    "caption": "Table 5. PID, DCR, and BCR",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 14,
+    "merged_pages": [
+      14
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=14",
+    "section": "8.3 Bus format",
+    "headers": [
+      "48-bit provisioned ID",
+      "BCR",
+      "DCR",
+      "-"
+    ],
+    "rows": [
+      [
+        "48 bits",
+        "8 bits",
+        "8bits",
+        "Lowest value concatenated provisioned ID, BCR, and DCR wins the arbitration round"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 4,
+      "_notes": [
+        "1. I3C_EVR.DAUPDF: dynamic address update flag.",
+        "2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_5",
+      "is_continued": false,
+      "pages": [
+        14
+      ],
+      "rows_count": 1,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_6",
+    "caption": "Table 6. Target address available for use",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 14,
+    "merged_pages": [
+      14
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=14",
+    "section": "8.3 Bus format",
+    "headers": [
+      "Target dynamic address / Binary",
+      "Target dynamic address / Hex",
+      "Restriction",
+      "Description"
+    ],
+    "rows": [
+      [
+        "0x0000000",
+        "7'h00",
+        "Shall not use",
+        "I3C reserved"
+      ],
+      [
+        "0x0001000 - 0x0111101",
+        "7'h08 – 7'h3D",
+        "Available for use",
+        "54 addresses"
+      ],
+      [
+        "0x0111111 -0x1011101",
+        "7'h3F – 7'h5D",
+        "Available for use",
+        "31 addresses"
+      ],
+      [
+        "0x101 1111-0x110 1101",
+        "7'h5F – 7'h6D",
+        "Available for use",
+        "15 addresses"
+      ],
+      [
+        "0x110 1111-0x111 0101",
+        "7'h6F – 7'h75",
+        "Available for use",
+        "7 addresses"
+      ],
+      [
+        "0x111 0111",
+        "7'h77",
+        "Available for use",
+        "1 address"
+      ],
+      [
+        "0x111 1111",
+        "7'h7F",
+        "Shall not use",
+        "I3C reserved: Broadcast address single bit error detect"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 4,
+      "_notes": [
+        "1. I3C_EVR.DAUPDF: dynamic address update flag.",
+        "2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_6",
+      "is_continued": false,
+      "pages": [
+        14
+      ],
+      "rows_count": 7,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_7",
+    "caption": "Table 7. Conditional target address",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 14,
+    "merged_pages": [
+      14
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=14",
+    "section": "8.3 Bus format",
+    "headers": [
+      "Target dynamic address / Binary",
+      "Target dynamic address / Hex",
+      "Restriction",
+      "Description"
+    ],
+    "rows": [
+      [
+        "0x0000011-0x0000011",
+        "7'h03-7'h04",
+        "Conditional",
+        "Available for use only if no legacy I2C devices supporting I2C \"High-speed mode\" are present on the bus"
+      ],
+      [
+        "0x1111000-0x1111001",
+        "7'h78-7'h79",
+        "Conditional",
+        "Available for use only if no legacy I2C devices are present on the bus that both 1. Support I2C \"extended address mode\" 2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ],
+      [
+        "0x111 1011",
+        "7'h7B",
+        "Conditional",
+        "Available for use only if no legacy I2C devices are present on the bus that both: 1. Support I2C \"extended address mode\" 2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ],
+      [
+        "0x111 1101",
+        "7'h7D",
+        "Conditional",
+        "Available for use only if no legacy I2C devices supporting I2C \"device ID mode\" are on the bus."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 4,
+      "_notes": [
+        "1. I3C_EVR.DAUPDF: dynamic address update flag.",
+        "2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_7",
+      "is_continued": false,
+      "pages": [
+        14
+      ],
+      "rows_count": 4,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_8",
+    "caption": "Table 8. List of supported CCCs supported by LSM6DSO",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 16,
+    "merged_pages": [
+      16,
+      17
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=16",
+    "section": "8.8 Supported common command codes",
+    "headers": [
+      "Command name",
+      "Command code",
+      "CCC type"
+    ],
+    "rows": [
+      [
+        "ENTDAA",
+        "0x07",
+        "Broadcast"
+      ],
+      [
+        "SETDASA",
+        "0x87",
+        "Direct"
+      ],
+      [
+        "ENEC",
+        "0x00",
+        "Broadcast"
+      ],
+      [
+        "ENEC",
+        "0x80",
+        "Direct"
+      ],
+      [
+        "DISEC",
+        "0x01",
+        "Broadcast"
+      ],
+      [
+        "DISEC",
+        "0x81",
+        "Direct"
+      ],
+      [
+        "ENTAS 0...3",
+        "0x82 to 0x85",
+        "Direct"
+      ],
+      [
+        "ENTAS 0...3",
+        "0x02 to0x05",
+        "Broadcast"
+      ],
+      [
+        "SETXTIME",
+        "0x28",
+        "Broadcast"
+      ],
+      [
+        "SETXTIME",
+        "0x98",
+        "Direct"
+      ],
+      [
+        "GETXTIME",
+        "0x99",
+        "Direct"
+      ],
+      [
+        "RSTDAA",
+        "0x06",
+        "Broadcast"
+      ],
+      [
+        "RSTDAA",
+        "0x86",
+        "Direct"
+      ],
+      [
+        "SETMWL",
+        "0x08",
+        "Broadcast"
+      ],
+      [
+        "SETMWL",
+        "0x89",
+        "Direct"
+      ],
+      [
+        "SETMRL",
+        "0x09",
+        "Broadcast"
+      ],
+      [
+        "SETMRL",
+        "0x8A",
+        "Direct"
+      ],
+      [
+        "SETNEWDA",
+        "0x88",
+        "Direct Set"
+      ],
+      [
+        "GETMWL",
+        "0x8B",
+        "Direct Get"
+      ],
+      [
+        "GETMRL",
+        "0x8C",
+        "Direct Get"
+      ],
+      [
+        "GETPID",
+        "0x8D",
+        "Direct Get"
+      ],
+      [
+        "GETBCR",
+        "0x8E",
+        "Direct Get"
+      ],
+      [
+        "GETDCR",
+        "0x8F",
+        "Direct Get"
+      ],
+      [
+        "GETSTATUS",
+        "0x90",
+        "Direct Get"
+      ],
+      [
+        "GETMXDS",
+        "0x94",
+        "Direct Get"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "continuation": {
+        "base_cols": 3,
+        "cont_cols_raw": 3,
+        "target_cols": 3,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      }
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2",
+      "vertical_merge_suspected"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_8",
+      "is_continued": true,
+      "pages": [
+        16,
+        17
+      ],
+      "rows_count": 25,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_9",
+    "caption": "Table 9. Firmware available examples",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 20,
+    "merged_pages": [
+      20
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=20",
+    "section": "8.11.1 Frame format",
+    "headers": [
+      "Firmware package",
+      "Example name",
+      "Board"
+    ],
+    "rows": [
+      [
+        "STM32CubeH5",
+        "I3C_controller_ENTDA_IT I3C_Target_ENTDAA_IT I3C_Controller_Private_Command_IT I3C_Target_Private_Command_IT I3C_Controller_InBandInterrupt_IT I3C_Target_InBandInterrupt_IT I3C_Target_WakeUpFromStop I3C_Controller_I2C_Com I3C_Target_I2C_Com I3C_Controller_Switch_To_Target I3C_Target_Switch_To_Controller I3C_Controller_HotJoin_IT I3C_Target_HotJoin_IT",
+        "NUCLEO-H503RB"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_9",
+      "is_continued": false,
+      "pages": [
+        20
+      ],
+      "rows_count": 1,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_10",
+    "caption": "Table 10. Software and hardware environment",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 20,
+    "merged_pages": [
+      20,
+      21
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=20",
+    "section": "9.3 Hardware and software settings",
+    "headers": [
+      "Use case",
+      "Hardware",
+      "Software"
+    ],
+    "rows": [
+      [
+        "Dynamic addressing",
+        "STM32H503 board (controller I3C) Accelerometer and gyroscope LSM6DSO (target I3C) • Keep the JP2",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ],
+      [
+        "Direct transfer",
+        "STM32H503 board (controller I3C) Accelerometer and gyroscope LSM6DSO (target I3C) • Keep the JP2",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ],
+      [
+        "Private transfer",
+        "STM32H503 board (controller I3C) Accelerometer and gyroscope LSM6DSO (target I3C) • Keep the JP2",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ],
+      [
+        "IBI",
+        "STM32H503 board (controller I3C) STM32H503 board (target I3C)",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ],
+      [
+        "Mixed Bus",
+        "STM32H503 board (controller I3C) STM32H503 board (target I3C)",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "caption_near_bottom": true,
+      "caption_y_ratio": 0.77,
+      "cols_extracted": 3,
+      "continuation": {
+        "base_cols": 3,
+        "cont_cols_raw": 0,
+        "target_cols": 3,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      }
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2",
+      "vertical_merge_suspected"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_10",
+      "is_continued": true,
+      "pages": [
+        20,
+        21
+      ],
+      "rows_count": 5,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_11",
+    "caption": "Table 11. Software settings for dynamic addressing",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 31,
+    "merged_pages": [
+      31
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=31",
+    "section": "9.6.1 Software settings",
+    "headers": [
+      "",
+      "Target descriptor + dynamic address to assign"
+    ],
+    "rows": [
+      [
+        "",
+        "The array contains the target descriptor"
+      ],
+      [
+        "",
+        "Assigning a dynamic address in the interrupt mode"
+      ],
+      [
+        "",
+        "• GET target characteristics • Controller set the DA"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "medium",
+    "empty_cell_ratio": 0.5,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": true,
+    "heuristics": {
+      "cols_extracted": 2,
+      "_notes": [
+        "1. Address header: START + (7’h7E + W = 0 + ACK = 0) (OD phase)",
+        "2. I3C broadcast CCC (ENTDAA = 0x07): ENTDAA (0x07 + T = 0) Figure 29. ENTDAA CCC"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "has_empty_cells"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_11",
+      "is_continued": false,
+      "pages": [
+        31
+      ],
+      "rows_count": 3,
+      "cols_count": 2,
+      "confidence": "medium",
+      "empty_cell_ratio": 0.5
+    },
+    "debug": {
+      "crop_path": "Raw_Extracted\\41\\AN5879\\debug\\table_11.png"
+    }
+  },
+  {
+    "table_id": "table_12",
+    "caption": "Table 12. Communication frequency",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 32,
+    "merged_pages": [
+      32
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=32",
+    "section": "9.6.2 Waveform results",
+    "headers": [
+      "Mode",
+      "Open Drain",
+      "Push-Pull"
+    ],
+    "rows": [
+      [
+        "Frequency",
+        "1.904 MHz",
+        "3.040 MHz"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "_notes": [
+        "1. Address header: START + (7’h7E + W = 0 + ACK = 0) (OD phase)",
+        "2. I3C broadcast CCC (ENTDAA = 0x07): ENTDAA (0x07 + T = 0) Figure 29. ENTDAA CCC",
+        "4. Dynamic address: Dynamic address (0x32 + PAR = 0 + ACK = 0): (OD phase)",
+        "5. I3C broadcast address + R = 1 + STOP: (0x7E + R = 1 + ACK = 1) + STOP (OD phase) Figure 31. Dynamic addressing"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_12",
+      "is_continued": false,
+      "pages": [
+        32
+      ],
+      "rows_count": 1,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_13",
+    "caption": "Table 13. 48-bit provisioned ID",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 33,
+    "merged_pages": [
+      33
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=33",
+    "section": "9.6.2 Waveform results",
+    "headers": [
+      "Value",
+      "Signification"
+    ],
+    "rows": [
+      [
+        "Bits [47:33] = 000000100000100",
+        "MIPI manufacturer ID"
+      ],
+      [
+        "Bits: 32 = 0",
+        "Provisioned ID type selector: 0b0 = vendor fixed value"
+      ],
+      [
+        "Bits [31:16] = 0000000001101100",
+        "Part ID"
+      ],
+      [
+        "Bits [15:12] = 0001",
+        "Instance ID"
+      ],
+      [
+        "Bits [11:0] = 0001000000001011",
+        "Reserved, must be kept at reset value"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2,
+      "_notes": [
+        "4. Dynamic address: Dynamic address (0x32 + PAR = 0 + ACK = 0): (OD phase)",
+        "5. I3C broadcast address + R = 1 + STOP: (0x7E + R = 1 + ACK = 1) + STOP (OD phase) Figure 31. Dynamic addressing"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_13",
+      "is_continued": false,
+      "pages": [
+        33
+      ],
+      "rows_count": 5,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_14",
+    "caption": "Table 14. Software settings without defining byte",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 34,
+    "merged_pages": [
+      34
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=34",
+    "section": "9.7.1.1 Software settings",
+    "headers": [
+      "1V50327TD",
+      "• I3C CCCTypeDef structure definition • GETDCR CCCode: 0x8F"
+    ],
+    "rows": [
+      [
+        "1V86327TD",
+        "• Prepare context buffers process * uint32_t ControlBuffer[0xFF] : Buffer used by HAL to compute control data for the direct communication"
+      ],
+      [
+        "DT72382V1DT72368V1DT72305V1",
+        "• Add CCC descriptor to the user data transfer descriptor. • For some direct CCCs, a defining byte is optional; for others, it is always required. • The controller transmits the direct read CCC command in interrupt mode."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_14",
+      "is_continued": false,
+      "pages": [
+        34
+      ],
+      "rows_count": 2,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_15",
+    "caption": "Table 15. Software settings with defining byte",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 36,
+    "merged_pages": [
+      36
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=36",
+    "section": "9.8.1 Software settings",
+    "headers": [
+      "",
+      "• aTxBuffer: buffer used for transmission (value = reg address = 0x0F). aRxBuffer: buffer used for reception. aPrivateDescriptor: two directions (read and write)."
+    ],
+    "rows": [
+      [
+        "",
+        "• Prepare context buffers process"
+      ],
+      [
+        "",
+        "• Add context buffer transmit in Frame context • Transmit private data process"
+      ],
+      [
+        "",
+        "• Check the current state of the peripheral • Add context buffer receive in Frame context • Receive private data process"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "medium",
+    "empty_cell_ratio": 0.5,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": true,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [
+      "has_empty_cells"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_15",
+      "is_continued": false,
+      "pages": [
+        36
+      ],
+      "rows_count": 3,
+      "cols_count": 2,
+      "confidence": "medium",
+      "empty_cell_ratio": 0.5
+    },
+    "debug": {
+      "crop_path": "Raw_Extracted\\41\\AN5879\\debug\\table_15.png"
+    }
+  },
+  {
+    "table_id": "table_16",
+    "caption": "Table 16. Controller software settings for in-band interrupt",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 40,
+    "merged_pages": [
+      40
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=40",
+    "section": "9.9.2.1 Controller",
+    "headers": [
+      "2V14917TD",
+      "• Assign a dynamic address. • Activate notifications for specially for this example. • In-band interrupt requested by a target."
+    ],
+    "rows": [
+      [
+        "2V24917TD",
+        "Start the listen mode process."
+      ],
+      [
+        "DT71943V2DT71942V2DT71941V2",
+        "• I3C target requests a dynamic address callback. • I3C notifies callback after receiving a notification."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_16",
+      "is_continued": false,
+      "pages": [
+        40
+      ],
+      "rows_count": 2,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_17",
+    "caption": "Table 17. Target software settings for in-band interrupt",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 41,
+    "merged_pages": [
+      41
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=41",
+    "section": "9.9.2.2 Target",
+    "headers": [
+      "2V76637TD",
+      "Variable declaration: PayloadBuffer[] = {0xAB} = 0b10101011 (in this case the user can set a free payload value)"
+    ],
+    "rows": [
+      [
+        "2V64917TD",
+        "Activate notifications specially for this example: • Dynamic address association • In-band interrupt ended process"
+      ],
+      [
+        "2V74917TD",
+        "Send IBI request"
+      ],
+      [
+        "DT71948V2DT71947V2DT71946V2DT73667V2",
+        "I3C notify callback after receiving a notification"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_17",
+      "is_continued": false,
+      "pages": [
+        41
+      ],
+      "rows_count": 3,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_18",
+    "caption": "Table 18. Software settings I3C/I2C",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 44,
+    "merged_pages": [
+      44
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=44",
+    "section": "9.10.2.1 Software settings",
+    "headers": [
+      "",
+      "• aTxBuffer: buffer used for transmission (register WHO_AM_I: 0x0F) • aRxBuffer: buffer used for reception. • aPrivateDescriptor: 2 directions Read and Write. (0x19 static address) • Prepare context buffers process"
+    ],
+    "rows": [
+      [
+        "",
+        "• Prepare context buffers process • Add context buffer transmit in frame context"
+      ],
+      [
+        "",
+        "Frame context with: • I2C_PRIVATE_WITHOUT_ARB_RESTART as direction • Transmit data process • Check the current state of the peripheral • Add context buffer receive in Frame context with I2C_PRIVATE_WITHOUT_ARB_STOP as direction. • Receive data process"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "medium",
+    "empty_cell_ratio": 0.5,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": true,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [
+      "has_empty_cells"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_18",
+      "is_continued": false,
+      "pages": [
+        44
+      ],
+      "rows_count": 2,
+      "cols_count": 2,
+      "confidence": "medium",
+      "empty_cell_ratio": 0.5
+    },
+    "debug": {
+      "crop_path": "Raw_Extracted\\41\\AN5879\\debug\\table_18.png"
+    }
+  },
+  {
+    "table_id": "table_19",
+    "caption": "Table 19. Software settings mixed bus: I3C - I3C and I2C",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 45,
+    "merged_pages": [
+      45
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=45",
+    "section": "9.10.3.1 Software settings",
+    "headers": [
+      "",
+      "• TxBuffer: buffer used for transmission (value: reg address = 0x0F) (WHO_AM_I) • RxBuffer: buffer used for reception. • aTargetDesc: target descriptor. – (0x32 as DA) • aPrivateDescriptor: two directions, read and write. (0x19 static address)"
+    ],
+    "rows": [
+      [
+        "",
+        "• Assigning DA in interrupt mode (initiate a RSTDAA follow by a ENTDAA) • check the current state of the peripheral. • Prepare context buffers process"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "medium",
+    "empty_cell_ratio": 0.5,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": true,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [
+      "has_empty_cells"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_19",
+      "is_continued": false,
+      "pages": [
+        45
+      ],
+      "rows_count": 1,
+      "cols_count": 2,
+      "confidence": "medium",
+      "empty_cell_ratio": 0.5
+    },
+    "debug": {
+      "crop_path": "Raw_Extracted\\41\\AN5879\\debug\\table_19.png"
+    }
+  },
+  {
+    "table_id": "table_20",
+    "caption": "Table 20. Document revision history",
+    "pdf_name": "AN5879",
+    "family": "41",
+    "page": 47,
+    "merged_pages": [
+      47
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=47",
+    "section": "9.10.3.2 Waveforms results",
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "13-Mar-2023",
+        "1",
+        "Initial release"
+      ],
+      [
+        "18-Mar-2024",
+        "2",
+        "Updated: • Document title • Section Introduction • Section 1: General information • Section 4: STM32H5 implementation • Table 3. I3C peripheral versus MIPI v1.1 • Section 4.2: I3C peripheral integration (Integration with RCC) • Section 5: I3C hardware requirements • Section 6: Bus timing • Section 8.10: In-band interrupt (IBI) • Section 9: Examples of I3C communications with an STM32H503RB Nucleo board • Table 9. Firmware available examples • Section 9.3: Hardware and software settings • Section 9.5.3: Communication at 12.5 MHz push pull • Section 9.6.1: Software settings • Section 9.6.2: Waveform results • Section 9.7.1: Direct read without defining byte • Section 9.7.1.1: Software settings • Section 9.7.1.2: Waveform results • Section 9.8.2: Waveform results • Section 9.9.2: Software settings • Section 9.9.3: Waveform results • Section 9.10.2.2: Waveforms results • Section 9.10.3.2: Waveforms results General document cleanup"
+      ],
+      [
+        "04-Jun-2024",
+        "3",
+        "Updated: • Figure 1. I3C communication interface • Table 3. I3C peripheral versus MIPI v1.1 • Figure 5. Example of I3C mode GPDMA architecture • Figure 6. STM32H503xx communication interfaces operating with VDDIO2 at 1.2 V (USART/ LPUART, SPI, and I2C/I3C) • Figure 14. Legacy I2C transfer on I3C bus"
+      ],
+      [
+        "12-Feb-2025",
+        "4",
+        "Added STM32U3 series Added STM32N6 series Updated: • Table 1. Applicable products • Block diagram • Section 6: Bus timing"
+      ],
+      [
+        "11-Feb-2026",
+        "5",
+        "Added STM32C5 series inside Table 1. Applicable products."
+      ],
+      [
+        "25-Jun-2026",
+        "6",
+        "Updated Section 4.1: I3C MIPI support and Section 9: Examples of I3C communications with an STM32H503RB Nucleo board."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5879",
+      "table_id": "table_20",
+      "is_continued": false,
+      "pages": [
+        47
+      ],
+      "rows_count": 6,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  }
+]

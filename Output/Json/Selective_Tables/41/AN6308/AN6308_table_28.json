@@ -1,0 +1,83 @@
+{
+  "table_id": "table_28",
+  "document": "Table 28. Advanced-control timer (TIM1/8) features",
+  "rev": null,
+  "table_number": "28",
+  "title": "Table 28. Advanced-control timer (TIM1/8) features",
+  "page": 40,
+  "section": "6.6 Migration of timer peripherals",
+  "section_title": "Migration of timer peripherals",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=40",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 28. Advanced-control timer (TIM1/8) features — section 6.6 Migration of timer peripherals. Feature, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Counter resolution and type",
+        "16-bit up, down, up/down autoreload counter",
+        "16-bit up, down, up/down autoreload counter"
+      ],
+      [
+        "Prescaler factor",
+        "16-bit programmable prescaler, allowing the division (also \"on the fly\") of the counter clock frequency, by any factor between 1 and 65536",
+        "16-bit programmable prescaler, allowing the division (also \"on the fly\") of the counter clock frequency, by any factor between 1 and 65536"
+      ],
+      [
+        "Channels",
+        "Up to six independent channels for: • Input capture (channels 5 and 6) • Output compare • PWM generation (edge- and center- aligned modes) combined PWM mode: 1 and 2 • One-pulse mode output",
+        "Up to seven independent channels for: • Input capture (channels 5, 6 and 7) • Output compare • PWM generation (edge- and center- aligned modes) combined PWM mode: 1 to 4 • One-pulse mode output"
+      ],
+      [
+        "Synchronization with external signals and general‑purpose timers",
+        "• Synchronization circuit to control the timer with external signals and to interconnect several timers together • The advanced-control (TIM1/TIM8) and general-purpose (TIMy) timers are completely independent, and do not share any resources",
+        "• Synchronization circuit to control the timer with external signals and to interconnect several timers together • The advanced-control (TIM1/TIM8) and general-purpose (TIMy) timers are completely independent, and do not share any resources"
+      ],
+      [
+        "Break inputs",
+        "Two break inputs to put the timer's output signals in reset state or in a known state",
+        "Two break inputs to put the timer's output signals in reset state or in a known state featuring delayed break."
+      ],
+      [
+        "noitareneg AMD/tpurretnI",
+        "Interrupt/DMA generation on the following events:",
+        "Interrupt/DMA generation on the following events:"
+      ],
+      [
+        "noitareneg AMD/tpurretnI",
+        "• Update: counter overflow/underflow or counter initialization (by software or internal/ external trigger) • Trigger event (counter start, stop, initialization, or count by internal/external trigger) • Input capture • Output compare",
+        "• Update: counter overflow/underflow or counter initialization (by software or internal/ external trigger) • Trigger event (counter start, stop, initialization, or count by internal/external trigger) • Input capture • Output compare"
+      ],
+      [
+        "Encoders and sensors",
+        "Supports incremental (quadrature) encoder and hall-sensor circuitry for positioning purposes",
+        "Supports incremental (quadrature) encoder and hall-sensor circuitry for positioning purposes"
+      ],
+      [
+        "Trigger input",
+        "Trigger input for external clock or cycle-by-cycle current management",
+        "Trigger input for external clock or cycle-by-cycle current management"
+      ],
+      [
+        "Application examples",
+        "• Measuring the pulse lengths of input signals (input capture) • Generating output waveforms (output compare, PWM, complementary PWM with dead-time insertion)",
+        "• Measuring the pulse lengths of input signals (input capture) • Generating output waveforms (output compare, PWM, complementary PWM with dead-time insertion)"
+      ],
+      [
+        "Extra features",
+        "-",
+        "• New extended and asymmetric PWM modes • Output override mode"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "table_id": "table_18",
+  "document": "Table 18. Security use cases.",
+  "rev": null,
+  "table_number": "18",
+  "title": "Table 18. Security use cases.",
+  "page": 47,
+  "section": "7 Guidelines",
+  "section_title": "Guidelines",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=47",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 18. Security use cases. — section 7 Guidelines. 1. Secure manufacturing: SFI / -, 1. Secure manufacturing: SFI / 1.1 Complement existing manufacturing site security with utilization of SFI..",
+  "table_content": {
+    "headers": [
+      "1. Secure manufacturing: SFI / -",
+      "1. Secure manufacturing: SFI / 1.1 Complement existing manufacturing site security with utilization of SFI."
+    ],
+    "rows": [
+      [
+        "gnirotinom ecived ,noitceted repmat ,noitcetorp elcyc efil ,noitcetorp PDR :staerht lanretxe tsniaga noitcetorp eciveD.2",
+        "gnirotinom ecived ,noitceted repmat ,noitcetorp elcyc efil ,noitcetorp PDR :staerht lanretxe tsniaga noitcetorp eciveD.2"
+      ],
+      [
+        "-",
+        "2.1 Device configuration (option bytes, not supposed to be modified ever)"
+      ],
+      [
+        "-",
+        "• Use RDP level 2 or Closed (Locked) product state. This closes the device from any external access."
+      ],
+      [
+        "-",
+        "2.2 Remove debug capability for the device."
+      ],
+      [
+        "-",
+        "• Use product life cycle or RDP level 2 for disabling the debug. Some devices allow usage of debug authentication (DA)."
+      ],
+      [
+        "-",
+        "2.3 Protect a device against a loss of external clock source (crystal)."
+      ],
+      [
+        "-",
+        "• Enable clock security system (CSS)."
+      ],
+      [
+        "-",
+        "2.4 Detect a system-level intrusion."
+      ],
+      [
+        "-",
+        "• Use tamper detection capability."
+      ],
+      [
+        "-",
+        "2.5 Protect a device from code injection."
+      ],
+      [
+        "-",
+        "• Use the RDP or product life cycle. • Isolate communication port protocol with the MPU, firewall, or HDP. • Limit communication port protocol access range. • Use write protection on empty memory areas (flash memory and SRAM)."
+      ],
+      [
+        "3. Code protection against internal threats: TrustZone, PCROP, MPU, firewall, and HDP",
+        "3. Code protection against internal threats: TrustZone, PCROP, MPU, firewall, and HDP"
+      ],
+      [
+        "-",
+        "3.1 Protect the code against cloning."
+      ],
+      [
+        "-",
+        "• Use RDP level 2 against external access. • Use PCROP on most sensitive parts of the code against internal read access. • Use OTFDEC to secure code stored in the external memory."
+      ],
+      [
+        "-",
+        "3.2 Protect secret data from other processes."
+      ],
+      [
+        "-",
+        "• Use firewall to protect both code and data. • Use MPU to protect secret data area from being read. • Use HDP in case data must only be used at reset. • Use secure domain of TrustZone, if available."
+      ],
+      [
+        "-",
+        "3.3 Protect code and data when not fully verified or trusted libraries are used."
+      ],
+      [
+        "-",
+        "• Use PCROP to protect user most sensitive code. • Use firewall to protect user sensitive application (code, data, and execution). • Use MPU and de-privilege the untrusted library. • Use IWDG to avoid any deadlock. • Use secure domain of TrustZone, if available."
+      ],
+      [
+        "4. Device security check and maintenance: integrity checks, SB, SFU",
+        "4. Device security check and maintenance: integrity checks, SB, SFU"
+      ],
+      [
+        "-",
+        "4.1 Check code integrity."
+      ],
+      [
+        "-",
+        "• Hash firmware code at reset and compare to expected value. • Enable ECC on the flash memory and parity check on the SRAM."
+      ],
+      [
+        "-",
+        "4.2 Security checks or embedded firmware authentication"
+      ],
+      [
+        "-",
+        "4.3 Securely update the firmware in the field."
+      ],
+      [
+        "-",
+        "• Implement a SFU application with cryptography. • Apply relevant secure memory protection around the SFU secret data (refer to previous sections)."
+      ],
+      [
+        "5. Communication and authentication: cryptography",
+        ""
+      ],
+      [
+        "-",
+        "5.1 Communicate securely."
+      ],
+      [
+        "-",
+        "• Use or implement secure communication stacks relying on cryptography for confidentiality and authentication (such as TLS for Ethernet)."
+      ],
+      [
+        "-",
+        "5.2 Use the ST AES/SHA cryptographic functions with STM32 devices."
+      ],
+      [
+        "-",
+        "• Use only official software implementation by ST with STM32 X-CUBE-CRYPTOLIB."
+      ],
+      [
+        "-",
+        "5.3 Accelerate AES/SHA cryptographic functions."
+      ],
+      [
+        "-",
+        "• Use device with cryptographic hardware peripheral together with official STM32 X-CUBE-CRYPTOLIB. • Use MCE or OTFDEC to access AES-ciphered code in the external memory without latency penalty."
+      ],
+      [
+        "-",
+        "5.4 Generate random data."
+      ],
+      [
+        "-",
+        "• Use RNG embedded in the STM32 devices."
+      ],
+      [
+        "-",
+        "5.5 Uniquely identify ST microcontrollers."
+      ],
+      [
+        "-",
+        "• Use STM32 96-bit unique ID."
+      ],
+      [
+        "-",
+        "5.6 Authenticate a product device."
+      ],
+      [
+        "-",
+        "• Embed a shared encryption key in the device, and exchange encrypted message."
+      ],
+      [
+        "-",
+        "5.7 Uniquely authenticate a device."
+      ],
+      [
+        "-",
+        "• Embed a device private key and its certificate in the device, and exchange encrypted message."
+      ],
+      [
+        "-",
+        "5.8 Authenticate communication servers."
+      ],
+      [
+        "-",
+        "• Embed a shared encryption key in the device, and exchange encrypted message. • Embed server public key in the device, and exchange encrypted message."
+      ],
+      [
+        "-",
+        "5.9 Store keys securely."
+      ],
+      [
+        "-",
+        "• Use OBK where available. • Use SAES and CCB to prevent exposing key. • After usage, clean-up exposed key or intermediate data."
+      ]
+    ],
+    "notes": [
+      "4. Device security check and maintenance: integrity checks, SB, SFU"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "table_id": "table_7",
+  "caption": "Table 7. Hardware used to connect one digital microphone",
+  "pdf_name": "AN5027",
+  "family": "41",
+  "page": 31,
+  "merged_pages": [
+    31
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=31",
+  "section": "2.5 GPIOs number considerations",
+  "headers": [
+    "Interface",
+    "Number of GPIOs",
+    "Timer"
+  ],
+  "rows": [
+    [
+      "SPI",
+      "2",
+      "No"
+    ],
+    [
+      "I2S",
+      "2",
+      "No"
+    ],
+    [
+      "SAI",
+      "2",
+      "No"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_legend": [
+      "four digital microphones to the different audio and serial interfaces.",
+      "• The column Number of GPIOs indicates the number of GPIO necessary to connect",
+      "digital microphones to an audio interface.",
+      "• The column Timer indicates whether the audio interface needs a timer to deliver the",
+      "appropriate clock to the microphones."
+    ],
+    "_dedup_rows_removed": 1,
+    "_dedup_removed_indices": [
+      3
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5027",
+    "table_id": "table_7",
+    "is_continued": false,
+    "pages": [
+      31
+    ],
+    "rows_count": 3,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

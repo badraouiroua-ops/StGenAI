@@ -1,0 +1,46 @@
+{
+  "table_id": "table_12",
+  "document": "Table 12. U(S)ART and LPUART peripheral information",
+  "rev": null,
+  "table_number": "12",
+  "title": "Table 12. U(S)ART and LPUART peripheral information",
+  "page": 11,
+  "section": "3.3.3 Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART)",
+  "section_title": "Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=11",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 12. U(S)ART and LPUART peripheral information — section 3.3.3 Universal synchronous/asynchronous/low-power receiver transmitter (USART/UART/LPUART). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+  "table_content": {
+    "headers": [
+      "Peripheral request to LPDMA",
+      "Peripheral bus",
+      "Peripheral FIFO (unit, size)",
+      "Peripheral register access",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "(lp)u(s)art_rx_dma",
+        "APB1 for USART2/3/6 and UART4/5/7 APB2 for USART1 APB3 for LPUART1",
+        "8x 12-bit width RXFIFO (9 bits for Rx data + 3 bits for errors) 8x 9-bit width TXFIFO(1)",
+        "Read USART_RDR or LPUART_RDR",
+        "Request for a new received data to be read by the LPDMA. Must be read with a 32-bit aligned address, whatever is the data width."
+      ],
+      [
+        "(lp)u(s)art_tx_dma",
+        "APB1 for USART2/3/6 and UART4/5/7 APB2 for USART1 APB3 for LPUART1",
+        "8x 12-bit width RXFIFO (9 bits for Rx data + 3 bits for errors) 8x 9-bit width TXFIFO(1)",
+        "Write USART_TDR or LPUART_TDRR",
+        "Request for a new data to be written by the LPDMA for transmission. Must be written with a 32-bit aligned address, whatever is the data width."
+      ]
+    ],
+    "notes": [
+      "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

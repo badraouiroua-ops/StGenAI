@@ -1,0 +1,73 @@
+{
+  "table_id": "table_6",
+  "caption": "Table 6. Troubleshooting",
+  "pdf_name": "AN4989",
+  "family": "41",
+  "page": 94,
+  "merged_pages": [
+    94
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=94",
+  "section": "11 Troubleshooting",
+  "headers": [
+    "Problem",
+    "Solution"
+  ],
+  "rows": [
+    [
+      "Connection with target lost during debug of low-power system",
+      "Ensure debug in low-power in DBGMCU register is enabled. Ensure SWD pin not set in analog state. Refer to Section 4.1: SWD/JTAG pinout and to Section 4.3: Low-power case."
+    ],
+    [
+      "Fail to get printf via SWO",
+      "Refer to Section 7.3: Printf via SWO/SWV."
+    ],
+    [
+      "An unexpected power consumption is measured for a low-power application.",
+      "Check that low-power debug in DBGMCU register is OFF. Beware that this register is reset only with a POR (power-on reset). Refer to Section 4.3."
+    ],
+    [
+      "Fail to connect to a board with Normal/System Reset",
+      "Try ConnectUnderReset / Hardware Reset connection mode. This resets SWD connection in case it has been disabled by application. Refer to Section 4.2."
+    ],
+    [
+      "Fail to connect on board using ConnectUnderReset/Hardware using ST-LINK",
+      "Ensure NRST of ST-LINK is properly connected to MCU NRST (e.g. check SB12 for Nucleo)."
+    ],
+    [
+      "Fail to see clock signal on MCO output",
+      "Ensure that the clock configured to MCO is in the supported range of the GPIO and that the OSPEED setting is correct. Refer to Section 8.2."
+    ],
+    [
+      "Impossible to evaluate a value or a variable, or impossible to set a breakpoint at a specific line in code",
+      "Compiler optimization is probably enabled. Remove it. Refer to Chapter 3: Compiling for debug."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_legend": [
+      "debug setting and operation."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4989",
+    "table_id": "table_6",
+    "is_continued": false,
+    "pages": [
+      94
+    ],
+    "rows_count": 7,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

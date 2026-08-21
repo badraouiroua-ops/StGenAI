@@ -1,0 +1,123 @@
+{
+  "table_id": "table_8",
+  "document": "Table 8. Effect of oversampling on ENOB",
+  "rev": null,
+  "table_number": "8",
+  "title": "Table 8. Effect of oversampling on ENOB",
+  "page": 22,
+  "section": "6 ENOB (effective number of bits) measurement",
+  "section_title": "ENOB (effective number of bits) measurement",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=22",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "text_helper": "Table 8. Effect of oversampling on ENOB — section 6 ENOB (effective number of bits) measurement. OVS ration, OVS right shift, OVS left shift, ENOB / 500 Hz, ENOB / 1 kHz, +3 autres.",
+  "table_content": {
+    "headers": [
+      "OVS ration",
+      "OVS right shift",
+      "OVS left shift",
+      "ENOB / 500 Hz",
+      "ENOB / 1 kHz",
+      "ENOB / 1.5 kHz",
+      "ENOB / 2 kHz",
+      "ENOB / 2.5 kHz"
+    ],
+    "rows": [
+      [
+        "None",
+        "None",
+        "None",
+        "10.4126",
+        "10.3622",
+        "10.3543",
+        "10.2774",
+        "10.3084"
+      ],
+      [
+        "2",
+        "None",
+        "3",
+        "10.6245",
+        "10.6302",
+        "10.9172",
+        "10.8618",
+        "10.9524"
+      ],
+      [
+        "4",
+        "None",
+        "2",
+        "10.9567",
+        "11.2234",
+        "11.2249",
+        "11.3322",
+        "11.3531"
+      ],
+      [
+        "8",
+        "None",
+        "1",
+        "11.1692",
+        "11.3454",
+        "11.4646",
+        "11.5817",
+        "11.7653"
+      ],
+      [
+        "16",
+        "None",
+        "None",
+        "11.2158",
+        "11.4962",
+        "11.6551",
+        "11.8414",
+        "11.9138"
+      ],
+      [
+        "32",
+        "1",
+        "None",
+        "11.2718",
+        "11.6126",
+        "11.8103",
+        "12.0408",
+        "12.2725"
+      ],
+      [
+        "64",
+        "2",
+        "None",
+        "11.3109",
+        "11.6220",
+        "11.8968",
+        "12.1124",
+        "12.3626"
+      ],
+      [
+        "128",
+        "3",
+        "None",
+        "11.3259",
+        "11.6568",
+        "11.9050",
+        "12.1579",
+        "12.6038"
+      ],
+      [
+        "256",
+        "4",
+        "None",
+        "11.3582",
+        "11.7032",
+        "11.9301",
+        "12.2419",
+        "12.8259"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

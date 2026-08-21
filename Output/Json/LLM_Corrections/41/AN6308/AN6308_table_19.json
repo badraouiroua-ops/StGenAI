@@ -1,0 +1,10 @@
+{
+  "table_id": "table_19",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Les lignes d'index 26 à 42 (lignes EXTI 41 à 57) présentent une duplication erronée de la colonne STM32H5 dans la colonne STM32C5, alors que visuellement STM32C5 est une cellule fusionnée verticalement (lignes 40 à 57) contenant la valeur 'NA'. Revue manuelle requise."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

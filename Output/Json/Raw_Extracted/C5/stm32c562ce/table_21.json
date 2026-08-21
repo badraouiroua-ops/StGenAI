@@ -1,0 +1,64 @@
+{
+  "table_id": "table_21",
+  "caption": "Table 21. Embedded internal voltage reference.",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 58,
+  "merged_pages": [
+    58
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=58",
+  "section": "5.3.4 Inrush current and inrush electric charge characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Typ",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IRUSH",
+      "Inrush current during voltage regulator power-on (POR) or wake-up from standby",
+      "35",
+      "mA"
+    ],
+    [
+      "QRUSH",
+      "Inrush electric charge during voltage regulator power-on (POR) or wake-up from standby.",
+      "2.8",
+      "µC"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Specified by design - Not tested in production.",
+      "2. From POR threshold crossing to NRST pull-up resistor activation."
+    ],
+    "_legend": [
+      "The typical values are provided for VDD = 3.3V and for a typical decoupling capacitor value .",
+      "The product consumption on VDDCORE is not included in the inrush current and inrush electric charge"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_21",
+    "is_continued": false,
+    "pages": [
+      58
+    ],
+    "rows_count": 2,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

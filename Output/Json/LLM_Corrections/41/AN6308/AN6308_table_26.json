@@ -1,0 +1,12 @@
+{
+  "table_id": "table_26",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Suppression de la ligne d'en-tête du tableau suivant capturée par erreur en fin de tableau."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    5
+  ]
+}

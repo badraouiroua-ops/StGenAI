@@ -1,0 +1,104 @@
+{
+  "table_id": "table_38",
+  "caption": "Table 38. Low-speed external user clock characteristics",
+  "pdf_name": "stm32c031c4",
+  "family": "C0",
+  "page": 55,
+  "merged_pages": [
+    55,
+    56
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=55",
+  "section": "5.3.7 External clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f LSE_ext",
+      "User external clock source frequency",
+      "-",
+      "-",
+      "32.768",
+      "1000",
+      "kHz"
+    ],
+    [
+      "V LSEH",
+      "OSC32_IN input pin high level voltage",
+      "-",
+      "0.7 V DDIO1",
+      "-",
+      "V DDIO1",
+      "V"
+    ],
+    [
+      "V LSEL",
+      "OSC32_IN input pin low level voltage",
+      "-",
+      "V SS",
+      "-",
+      "0.3 V DDIO1",
+      "V"
+    ],
+    [
+      "t w(LSEH)/ t w(LSEL)",
+      "OSC32_IN high or low time",
+      "-",
+      "250",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.75,
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Specified by design – Not tested in production. Figure 14. High-speed external clock source AC timing diagram",
+      "3. This consumption level occurs during the first 2/3 of the t startup time SU(HSE)",
+      "4. t is the startup time measured from the moment it is enabled (by software) to a stabilized 8 MHz oscillation is SU(HSE)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c031c4",
+    "table_id": "table_38",
+    "is_continued": true,
+    "pages": [
+      55,
+      56
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

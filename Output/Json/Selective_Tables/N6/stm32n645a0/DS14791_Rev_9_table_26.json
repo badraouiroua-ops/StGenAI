@@ -1,0 +1,205 @@
+{
+  "table_id": "table_26",
+  "document": "DS14791 Rev 9 - Table 26. Embedded reset and power control block characteristics",
+  "rev": "Rev 9",
+  "table_number": "26",
+  "title": "Table 26. Embedded reset and power control block characteristics",
+  "page": 141,
+  "section": "5.3.3 Embedded reset and power control block characteristics",
+  "section_title": "Embedded reset and power control block characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=141",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 26. Embedded reset and power control block characteristics — section 5.3.3 Embedded reset and power control block characteristics. Symbol, Parameter, Parameter, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t (1) RSTTEMPO",
+        "Reset temporization after POR released",
+        "Reset temporization after POR released",
+        "-",
+        "200",
+        "-",
+        "-",
+        "μs"
+      ],
+      [
+        "V POR",
+        "Power-on reset threshold",
+        "V DD",
+        "Rising edge",
+        "1.62",
+        "1.67",
+        "1.71",
+        "V"
+      ],
+      [
+        "V PDR",
+        "Power-down reset threshold",
+        "V DD",
+        "Falling edge",
+        "1.58",
+        "1.63",
+        "1.67",
+        "V"
+      ],
+      [
+        "V hyst POR",
+        "Hysteresis voltage of POR/PDR",
+        "V DD",
+        "-",
+        "-",
+        "40",
+        "-",
+        "mV"
+      ],
+      [
+        "V BOR0",
+        "Brown-out reset threshold 0",
+        "V DD",
+        "Rising edge",
+        "1.66",
+        "1.67",
+        "1.68",
+        "V"
+      ],
+      [
+        "V BOR0",
+        "Brown-out reset threshold 0",
+        "V DD",
+        "Falling edge",
+        "1.61",
+        "1.62",
+        "1.64",
+        "V"
+      ],
+      [
+        "V BOR1",
+        "Brown-out reset threshold 1",
+        "V DD",
+        "Falling edge",
+        "2.57",
+        "2.58",
+        "2.62",
+        "V"
+      ],
+      [
+        "V hyst BOR0",
+        "Hysteresis voltage of BOR0",
+        "V DD",
+        "-",
+        "-",
+        "40",
+        "-",
+        "mV"
+      ],
+      [
+        "V hyst BOR1",
+        "Hysteresis voltage of BOR1",
+        "V DD",
+        "-",
+        "-",
+        "80",
+        "-",
+        "mV"
+      ],
+      [
+        "V POR ANA",
+        "Power-on reset threshold",
+        "V DDA18AON",
+        "Rising edge",
+        "1.62",
+        "1.67",
+        "1.71",
+        "V"
+      ],
+      [
+        "V PDR ANA",
+        "Power-down reset threshold",
+        "V DDA18AON",
+        "Falling edge",
+        "1.58",
+        "1.63",
+        "1.67",
+        "V"
+      ],
+      [
+        "V hyst POR ANA",
+        "Hysteresis voltage of POR/PDR",
+        "V DDA18AON",
+        "-",
+        "-",
+        "40",
+        "-",
+        "mV"
+      ],
+      [
+        "V RDY VDDCORE",
+        "Threshold on rising edge",
+        "V DDCORE",
+        "Normal modes",
+        "0.61",
+        "0.66",
+        "0.71",
+        "V"
+      ],
+      [
+        "V RDY VDDCORE",
+        "Threshold on rising edge",
+        "V DDCORE",
+        "LPLV modes",
+        "0.50",
+        "0.55",
+        "0.61",
+        "V"
+      ],
+      [
+        "V hyst VDDCORE",
+        "Hysteresis on falling edge",
+        "V DDCORE",
+        "-",
+        "-",
+        "21",
+        "-",
+        "mV"
+      ],
+      [
+        "T delay VDDCORE",
+        "Delay after detection",
+        "V DDCORE",
+        "Rising edge",
+        "180",
+        "-",
+        "-",
+        "μs"
+      ],
+      [
+        "T delay VDDCORE",
+        "Delay after detection",
+        "V DDCORE",
+        "Falling edge",
+        "-",
+        "0",
+        "-",
+        "μs"
+      ]
+    ],
+    "notes": [
+      "1. Specified by design, not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "table_id": "table_9",
+  "caption": "Table 9. ICACHE and DCACHE performance on CoreMark execution with external memories",
+  "pdf_name": "AN5212",
+  "family": "41",
+  "page": 19,
+  "merged_pages": [
+    19
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=19",
+  "section": "3.2.8 Event and interrupt management",
+  "headers": [
+    "CoreMark code",
+    "CoreMark data",
+    "ICACHE configuration",
+    "DCACHE configuration",
+    "CoreMark score/MHz"
+  ],
+  "rows": [
+    [
+      "Internal flash memory",
+      "Internal SRAM",
+      "Enabled (2-ways)",
+      "Disabled",
+      "3.89"
+    ],
+    [
+      "Internal flash memory",
+      "External octo-SPI PSRAM (S‑bus)",
+      "Enabled (2-ways)",
+      "Enabled",
+      "3.89"
+    ],
+    [
+      "Internal flash memory",
+      "External octo-SPI PSRAM (S‑bus)",
+      "Enabled (2-ways)",
+      "Disabled",
+      "0.48"
+    ],
+    [
+      "External octo-SPI flash (C-bus)",
+      "Internal SRAM",
+      "Enabled (2-ways)",
+      "Disabled",
+      "3.86"
+    ],
+    [
+      "External octo-SPI flash (C-bus)",
+      "Internal SRAM",
+      "Disabled",
+      "Disabled",
+      "0.24"
+    ],
+    [
+      "Internal flash memory",
+      "Internal SRAM",
+      "Disabled",
+      "Disabled",
+      "2.69"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Test conditions: • Applicable product: STM32U575/585"
+    ],
+    "_legend": [
+      "(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5212",
+    "table_id": "table_9",
+    "is_continued": false,
+    "pages": [
+      19
+    ],
+    "rows_count": 6,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

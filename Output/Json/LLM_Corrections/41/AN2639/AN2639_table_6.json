@@ -1,0 +1,31 @@
+{
+  "table_id": "table_6",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Temperature gradient in preheat (in pre- reflow)",
+      "row_index": 2,
+      "analyse_visuelle": "Suppression de l'espace indésirable dans 'pre- reflow' pour obtenir 'pre-reflow'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Temperature gradient in preheat (in pre- reflow)",
+          "nouvelle_valeur": "Temperature gradient in preheat (in pre-reflow)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 6,
+      "contenu": [
+        "Time from 50 to 220°C",
+        "150 to 230 seconds",
+        "150 to 230 seconds"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

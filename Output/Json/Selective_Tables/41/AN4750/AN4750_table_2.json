@@ -1,0 +1,38 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Document revision history",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Document revision history",
+  "page": 19,
+  "section": "7 Revision history",
+  "section_title": "Revision history",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4750.pdf#page=19",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4750.pdf",
+  "text_helper": "Table 2. Document revision history — section 7 Revision history. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "01-Sep-2015",
+        "1",
+        "Initial release."
+      ],
+      [
+        "06-Oct-2015",
+        "2",
+        "Updated Introduction, Section 2: Random failures methodology, Section 5.1: Vendor focus, Section 5.4: Specific hardware methods applied to SRAM, Section 5.5: Specific software methods applied to SRAM and Section 6: Conclusion. Updated Figure 2: Failure rate distribution example and Figure 3: Systems without (HFT=0, 1oo1) and with built-in (HFT=1, 1oo2d) redundancy. Removed former Figure 3: FIT rate vs. technology. Updated Table 1: Applicable methods to handle soft errors supported by STM32 HW features."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

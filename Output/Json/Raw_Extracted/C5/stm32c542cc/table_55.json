@@ -1,0 +1,375 @@
+{
+  "table_id": "table_55",
+  "caption": "Table 55. Temperature sensor characteristics",
+  "pdf_name": "stm32c542cc",
+  "family": "C5",
+  "page": 82,
+  "merged_pages": [
+    82,
+    83
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=82",
+  "section": "5.3.18 Temperature sensor characteristics",
+  "headers": [
+    "Symbol",
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "TL(1)",
+      "TL(1)",
+      "VSENSE linearity with temperature (from Vsensor voltage)",
+      "-",
+      "-",
+      "3",
+      "°C"
+    ],
+    [
+      "TL(1)",
+      "TL(1)",
+      "VSENSE linearity with temperature (from ADC counter)",
+      "-",
+      "-",
+      "3",
+      "°C"
+    ],
+    [
+      "Avg_Slope(2)",
+      "Avg_Slope(2)",
+      "Average slope (from Vsense voltage)",
+      "-",
+      "2.14",
+      "-",
+      "mV/°C"
+    ],
+    [
+      "Avg_Slope(2)",
+      "Avg_Slope(2)",
+      "Average slope (from ADC counter)",
+      "-",
+      "2.14",
+      "-",
+      "mV/°C"
+    ],
+    [
+      "V30(3)",
+      "V30(3)",
+      "Voltage at 30° C (± 1 ° C)",
+      "-",
+      "0.65",
+      "-",
+      "V"
+    ],
+    [
+      "tstart_run(1)",
+      "tstart_run(1)",
+      "Startup time in Run mode (buffer startup)",
+      "-",
+      "-",
+      "25.2",
+      "µs"
+    ],
+    [
+      "tS_temp(1)",
+      "tS_temp(1)",
+      "ADC sampling time when reading the temperature",
+      "13",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "Isens(1)",
+      "Isens(1)",
+      "Sensor consumption",
+      "-",
+      "0.18",
+      "0.29",
+      "µA"
+    ],
+    [
+      "Isensbuf(1)",
+      "Isensbuf(1)",
+      "Sensor buffer consumption",
+      "-",
+      "3.8",
+      "6.5",
+      "µA"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+      "±0.5 LSB",
+      "1.7",
+      "3",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "±1 LSB",
+      "-",
+      "1.66",
+      "2.87",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "±2 LSB",
+      "-",
+      "1.65",
+      "2.84",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "±4 LSB",
+      "-",
+      "1.63",
+      "2.78",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "±8 LSB",
+      "-",
+      "1.61",
+      "2.7",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "Normal mode, DAC output buffer OFF, ±1 LSB CL = 10 pF",
+      "-",
+      "1.7",
+      "2",
+      "µs"
+    ],
+    [
+      "tWAKEUP",
+      "Wakeup time from off state (setting the Enx bit in the DAC Control register) until the ±1LSB final value",
+      "Normal mode, DAC output buffer ON, CL ≤ 50 pF, RL = 5 Ω",
+      "-",
+      "5",
+      "7.5",
+      "µs"
+    ],
+    [
+      "tWAKEUP",
+      "Wakeup time from off state (setting the Enx bit in the DAC Control register) until the ±1LSB final value",
+      "Normal mode, DAC output buffer OFF, CL ≤ 10 pF",
+      "-",
+      "2",
+      "5.0",
+      "µs"
+    ],
+    [
+      "PSRR",
+      "DC VDDA supply rejection ratio",
+      "Normal mode DAC output buffer ON CL ≤ 50 pF, RL = 5 kW",
+      "-",
+      "-80",
+      "-28",
+      "dB"
+    ],
+    [
+      "tSAMP",
+      "Sampling time in Sample and Hold mode CSH=100nF (Code transition between the lowest input code and the highest input code when DACOUT reaches final value +/- 1LSB)",
+      "MODE<2:0>_V12 = 100/101 (BUFFER ON)",
+      "-",
+      "0.7",
+      "2.6",
+      "ms"
+    ],
+    [
+      "tSAMP",
+      "Sampling time in Sample and Hold mode CSH=100nF (Code transition between the lowest input code and the highest input code when DACOUT reaches final value +/- 1LSB)",
+      "MODE<2:0>_V12 = 110 (BUFFER OFF)",
+      "-",
+      "11.5",
+      "18.7",
+      "ms"
+    ],
+    [
+      "tSAMP",
+      "Sampling time in Sample and Hold mode CSH=100nF (Code transition between the lowest input code and the highest input code when DACOUT reaches final value +/- 1LSB)",
+      "MODE<2:0>_V12=111 BUFFER OFF (DAC_OUT pin not connected, internal connection only)",
+      "-",
+      "0.3",
+      "0.6",
+      "µs"
+    ],
+    [
+      "Ileak",
+      "Output leakage current",
+      "-",
+      "-",
+      "-",
+      "-",
+      "nA"
+    ],
+    [
+      "CIint",
+      "Internal sample and hold capacitor",
+      "-",
+      "1.43",
+      "1.75",
+      "2",
+      "pF"
+    ],
+    [
+      "tTRIM",
+      "Middle code offset trim time",
+      "DAC output buffer ON",
+      "50",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "Voffset",
+      "Middle code offset for 1 trim code step",
+      "VREF+ = 3.6 V",
+      "-",
+      "850",
+      "-",
+      "µV"
+    ],
+    [
+      "IDDA(DAC)",
+      "DAC quiescent consumption from VDDA",
+      "DAC output buffer ON",
+      "No load, middle code (0x800)",
+      "315",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDA(DAC)",
+      "DAC quiescent consumption from VDDA",
+      "No load, worst code (0xF1C)",
+      "-",
+      "450",
+      "-",
+      "µA"
+    ],
+    [
+      "DAC output buffer OFF",
+      "DAC output buffer OFF",
+      "No load, middle/worst code (0x800)",
+      "-",
+      "20",
+      "-",
+      "µA"
+    ],
+    [
+      "DAC output buffer OFF",
+      "DAC output buffer OFF",
+      "Sample and Hold mode, CSH=100 nF",
+      "-",
+      "315*Ton/ (Ton+Toff)",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDV(DAC)",
+      "DAC consumption from VREF+",
+      "DAC output buffer ON",
+      "No load, middle code (0x800)",
+      "-",
+      "185",
+      "µA"
+    ],
+    [
+      "IDDV(DAC)",
+      "DAC consumption from VREF+",
+      "No load, worst code (0xF1C)",
+      "-",
+      "185",
+      "-",
+      "µA"
+    ],
+    [
+      "DAC output buffer OFF",
+      "DAC output buffer OFF",
+      "No load, middle/worst code (0x800)",
+      "-",
+      "155",
+      "-",
+      "µA"
+    ],
+    [
+      "DAC output buffer OFF",
+      "DAC output buffer OFF",
+      "Sample and Hold mode, Buffer ON, CSH=100 nF (worst code)",
+      "-",
+      "185*Ton/ (Ton+Toff)",
+      "-",
+      "µA"
+    ],
+    [
+      "DAC output buffer OFF",
+      "DAC output buffer OFF",
+      "Sample and Hold mode, Buffer OFF, CSH=100 nF (worst code)",
+      "-",
+      "155*Ton/ (Ton+Toff)",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Specified by design - Not tested in production.",
+      "2. Evaluated by characterization - Not tested in production.",
+      "3. Measured at VDDA = 3.3 V ± 10 mV. The V30 ADC conversion result is stored in the TS_CAL1."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c542cc",
+    "table_id": "table_55",
+    "is_continued": true,
+    "pages": [
+      82,
+      83
+    ],
+    "rows_count": 34,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

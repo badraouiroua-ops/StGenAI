@@ -1,0 +1,53 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. IEC 61000-4-2 standard class levels",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. IEC 61000-4-2 standard class levels",
+  "page": 9,
+  "section": "2.3 Protection against ESD and EMI",
+  "section_title": "Protection against ESD and EMI",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "text_helper": "Table 10. IEC 61000-4-2 standard class levels — section 2.3 Protection against ESD and EMI. Level, Contact / Indicated voltage (kV), Air / Indicated voltage (kV), Peak current (A).",
+  "table_content": {
+    "headers": [
+      "Level",
+      "Contact / Indicated voltage (kV)",
+      "Air / Indicated voltage (kV)",
+      "Peak current (A)"
+    ],
+    "rows": [
+      [
+        "1",
+        "2",
+        "3",
+        "7.5"
+      ],
+      [
+        "2",
+        "4",
+        "4",
+        "15"
+      ],
+      [
+        "3",
+        "6",
+        "8",
+        "22.5"
+      ],
+      [
+        "4",
+        "8",
+        "15",
+        "30"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

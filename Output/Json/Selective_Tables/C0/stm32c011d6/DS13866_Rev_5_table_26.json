@@ -1,0 +1,107 @@
+{
+  "table_id": "table_26",
+  "document": "DS13866 Rev 5 - Table 26. Embedded internal voltage reference",
+  "rev": "Rev 5",
+  "table_number": "26",
+  "title": "Table 26. Embedded internal voltage reference",
+  "page": 38,
+  "section": "5.3.4 Embedded voltage reference",
+  "section_title": "Embedded voltage reference",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=38",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "Table 26. Embedded internal voltage reference — section 5.3.4 Embedded voltage reference. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V REFINT",
+        "Internal reference voltage",
+        "-",
+        "1.182",
+        "1.212",
+        "1.232",
+        "V"
+      ],
+      [
+        "t (1)(2) S_vrefint",
+        "ADC sampling time when reading the internal reference voltage",
+        "-",
+        "4",
+        "-",
+        "-",
+        "µs"
+      ],
+      [
+        "t (2) start_vrefint",
+        "Start time of reference voltage buffer when ADC is enable",
+        "-",
+        "-",
+        "8",
+        "12",
+        "µs"
+      ],
+      [
+        "I (2) DD(VREFINTBUF)",
+        "V buffer consumption from REFINT V when converted by ADC DD",
+        "-",
+        "9",
+        "13.5",
+        "23",
+        "µA"
+      ],
+      [
+        "∆V (2) REFINT",
+        "Internal reference voltage spread over the temperature range",
+        "V = 3 V DD",
+        "-",
+        "30",
+        "50",
+        "mV"
+      ],
+      [
+        "T Coeff",
+        "Averange temperature coefficient",
+        "-",
+        "-",
+        "20",
+        "70",
+        "ppm/°C"
+      ],
+      [
+        "A Coeff",
+        "Long term stability",
+        "1000 hours, T = 25 °C",
+        "-",
+        "300",
+        "1000",
+        "ppm"
+      ],
+      [
+        "V DDCoeff",
+        "Voltage coefficient",
+        "3.0 V < V < 3.6 V DD",
+        "-",
+        "250",
+        "1200",
+        "ppm/V"
+      ]
+    ],
+    "notes": [
+      "1. Specified by design. Not tested in production.",
+      "2. Specified by design. Not tested in production. 38/97 DS13866 Rev 5"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. DFU class requests",
+  "pdf_name": "AN3156",
+  "family": "41",
+  "page": 8,
+  "merged_pages": [
+    8
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN3156.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN3156.pdf#page=8",
+  "section": "2 USB DFU bootloader requests",
+  "headers": [
+    "Request",
+    "Code",
+    "Description"
+  ],
+  "rows": [
+    [
+      "DFU_DETACH",
+      "0x00",
+      "Requests the device to leave DFU mode and enter the application."
+    ],
+    [
+      "DFU_DNLOAD",
+      "0x01",
+      "Requests data transfer from Host to the device in order to load them into device internal flash memory. Includes also erase commands."
+    ],
+    [
+      "DFU_UPLOAD",
+      "0x02",
+      "Requests data transfer from device to Host in order to load content of device internal flash memory into a Host file."
+    ],
+    [
+      "DFU_GETSTATUS",
+      "0x03",
+      "Requests device to send status report to the Host (including status resulting from the last request execution and the state the device enters immediately after this request)."
+    ],
+    [
+      "DFU_CLRSTATUS",
+      "0x04",
+      "Requests device to clear error status and move to next step."
+    ],
+    [
+      "DFU_GETSTATE",
+      "0x05",
+      "Requests the device to send only the state it enters immediately after this request."
+    ],
+    [
+      "DFU_ABORT",
+      "0x06",
+      "Requests device to exit the current state/operation and enter idle state immediately."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. This operation is allowed but not effective: the bootloader does not return an error but the operation is not executed since the sectors are write-protected. This applies only to the flash memory. It does not apply to",
+      "2. Not applicable (this operation is allowed, but has no meaning as the memory is not protected).",
+      "3. In this case, both the flash memory (from 0x0800 0000) and the RAM are erased. The option byte area is reset to the default values."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN3156",
+    "table_id": "table_2",
+    "is_continued": false,
+    "pages": [
+      8
+    ],
+    "rows_count": 7,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

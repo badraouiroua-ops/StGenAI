@@ -1,0 +1,68 @@
+{
+  "table_id": "table_30",
+  "document": "Table 30. GP timer (with autoreload up-counter) features",
+  "rev": null,
+  "table_number": "30",
+  "title": "Table 30. GP timer (with autoreload up-counter) features",
+  "page": 43,
+  "section": "6.6.3 GP timers with autoreload up-counter",
+  "section_title": "GP timers with autoreload up-counter",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=43",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 30. GP timer (with autoreload up-counter) features — section 6.6.3 GP timers with autoreload up-counter. Feature, STM32H523/533, STM32C5.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "STM32H523/533",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Counter resolution and type",
+        "16-bit autoreload up-counter",
+        "16-bit autoreload up-counter"
+      ],
+      [
+        "Prescaler factor",
+        "16-bit programmable prescaler used to divide the counter clock frequency by any factor between 1 and 65535",
+        "16-bit programmable prescaler used to divide the counter clock frequency by any factor between 1 and 65535"
+      ],
+      [
+        "Channels",
+        "• Input capture • Output compare • PWM generation (edge-aligned mode) • One-pulse mode output",
+        "• Input capture • Output compare • PWM generation (edge-aligned mode) • One-pulse mode output"
+      ],
+      [
+        "Complementary outputs",
+        "Complementary outputs with programmable dead-time",
+        "Complementary outputs with programmable dead-time"
+      ],
+      [
+        "Break input",
+        "Break input to put the timer's output signals in the reset state or a known state",
+        "Break input to put the timer's output signals in the reset state or a known state"
+      ],
+      [
+        "Repetition counter",
+        "Repetition counter to update the timer registers only after a given number of cycles of the counter",
+        "Repetition counter to update the timer registers only after a given number of cycles of the counter"
+      ],
+      [
+        "Interrupt generation",
+        "Interrupt/DMA generation on the following events: • Update: counter overflow or counter initialization (by software or internal/external trigger) • Trigger event (counter start, stop, initialization, or count by internal/external trigger) • Input capture • Output compare • Break input (interrupt request)",
+        "Interrupt/DMA generation on the following events: • Update: counter overflow or counter initialization (by software or internal/external trigger) • Trigger event (counter start, stop, initialization, or count by internal/external trigger) • Input capture • Output compare • Break input (interrupt request)"
+      ],
+      [
+        "Application examples",
+        "• Measuring the pulse lengths of input signals (input capture) • Generating output waveforms (output compare, PWM).",
+        "• Measuring the pulse lengths of input signals (input capture) • Generating output waveforms (output compare, PWM)."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

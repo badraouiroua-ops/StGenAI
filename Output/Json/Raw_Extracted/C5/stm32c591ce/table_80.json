@@ -1,0 +1,189 @@
+{
+  "table_id": "table_80",
+  "caption": "Table 80. UFQFPN48 - Mechanical data.",
+  "pdf_name": "stm32c591ce",
+  "family": "C5",
+  "page": 122,
+  "merged_pages": [
+    122
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=122",
+  "section": "6.1 Device marking",
+  "headers": [
+    "Symbol",
+    "Millimeters / Min",
+    "Millimeters / Typ Max",
+    "Inches (1) / Min",
+    "Inches (1) / Typ",
+    "Inches (1) / Max"
+  ],
+  "rows": [
+    [
+      "A",
+      "0.50",
+      "0.55 0.60",
+      "0.0197",
+      "0.0217",
+      "0.0236"
+    ],
+    [
+      "A1",
+      "0.00",
+      "- 0.05",
+      "0.0000",
+      "-",
+      "0.0020"
+    ],
+    [
+      "b",
+      "0.18",
+      "0.25 0.30",
+      "0.0071",
+      "0.0098",
+      "0.0118"
+    ],
+    [
+      "D(2)",
+      "7.00 BSC",
+      "7.00 BSC",
+      "0.2756 BSC",
+      "0.2756 BSC",
+      "0.2756 BSC"
+    ],
+    [
+      "D2(3)",
+      "5.50",
+      "5.60 5.70",
+      "0.2165",
+      "0.2205",
+      "0.2244"
+    ],
+    [
+      "E(2)",
+      "7.00 BSC",
+      "7.00 BSC",
+      "0.2756 BSC",
+      "0.2756 BSC",
+      "0.2756 BSC"
+    ],
+    [
+      "E2(3)",
+      "5.50",
+      "5.60 5.70",
+      "0.2165",
+      "0.2205",
+      "0.2244"
+    ],
+    [
+      "e",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC"
+    ],
+    [
+      "N",
+      "48",
+      "48",
+      "48",
+      "48",
+      "48"
+    ],
+    [
+      "L",
+      "0.30",
+      "- 0.50",
+      "0.0118",
+      "-",
+      "0.0197"
+    ],
+    [
+      "R",
+      "0.10",
+      "- -",
+      "0.0039",
+      "-",
+      "-"
+    ],
+    [
+      "aaa",
+      "0.15",
+      "0.15",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "bbb",
+      "0.10",
+      "0.10",
+      "0.0039",
+      "0.0039",
+      "0.0039"
+    ],
+    [
+      "ccc",
+      "0.10",
+      "0.10",
+      "0.0039",
+      "0.0039",
+      "0.0039"
+    ],
+    [
+      "ddd",
+      "0.05",
+      "0.05",
+      "0.0020",
+      "0.0020",
+      "0.0020"
+    ],
+    [
+      "eee",
+      "0.08",
+      "0.08",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ],
+    [
+      "fff",
+      "0.10",
+      "0.10",
+      "0.0039",
+      "0.0039",
+      "0.0039"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Values in inches are converted from mm and rounded to four decimal digits.",
+      "2. Dimensions D and E do not include mold protrusion, not exceed 0.15 mm.",
+      "3. Dimensions D2 and E2 are not in accordance with JEDEC."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c591ce",
+    "table_id": "table_80",
+    "is_continued": false,
+    "pages": [
+      122
+    ],
+    "rows_count": 17,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

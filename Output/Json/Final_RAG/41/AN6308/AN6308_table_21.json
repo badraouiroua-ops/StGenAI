@@ -1,0 +1,43 @@
+{
+  "table_id": "table_21",
+  "document": "Table 21. I2C differences",
+  "rev": null,
+  "table_number": "21",
+  "title": "Table 21. I2C differences",
+  "page": 37,
+  "section": "6.4.1 Serial peripheral interface (SPI)",
+  "section_title": "Serial peripheral interface (SPI)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=37",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 21. I2C differences — section 6.4.1 Serial peripheral interface (SPI). I2C, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "I2C",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Instances",
+        "x4 (I2C1, I2C2, I2C3 and I2C4)",
+        "x3 (I2C1, I2C2, and I2C3)"
+      ],
+      [
+        "Features",
+        "• 7-bit and 10-bit addressing mode • SMBus/PMBus • Standard mode (up to 100 Kbit/s) • Fast mode (up to 400 Kbit/s)",
+        "• 7-bit and 10-bit addressing mode • SMBus/PMBus • Standard mode (up to 100 Kbit/s) • Fast mode (up to 400 Kbit/s)"
+      ],
+      [
+        "Features",
+        "• Fm+ (up to 1 MHz) I2C bus • Wake-up from Stop mode only (no autonomous mode) • Independent clock",
+        "• Fm+ (up to 1 MHz) I2C bus • Wake-up from Stop mode only (no autonomous mode) • Independent clock"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

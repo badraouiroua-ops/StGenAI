@@ -1,0 +1,151 @@
+{
+  "table_id": "table_71",
+  "document": "DS15125 Rev 2 - Table 71. TSSOP20 - Mechanical data.",
+  "rev": "Rev 2",
+  "table_number": "71",
+  "title": "Table 71. TSSOP20 - Mechanical data.",
+  "page": 97,
+  "section": "6.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=97",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 71. TSSOP20 - Mechanical data. — section 6.1 Device marking. Symbol, Millimeters / Min, Millimeters / Typ, Millimeters / Max, Inches(1) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Millimeters / Min",
+      "Millimeters / Typ",
+      "Millimeters / Max",
+      "Inches(1) / Min",
+      "Inches(1) / Typ",
+      "Inches(1) / Max"
+    ],
+    "rows": [
+      [
+        "A",
+        "-",
+        "-",
+        "1.2",
+        "-",
+        "-",
+        "0.0472"
+      ],
+      [
+        "A1",
+        "0.05",
+        "-",
+        "0.15",
+        "0.002",
+        "-",
+        "0.0059"
+      ],
+      [
+        "A2",
+        "0.8",
+        "1",
+        "1.05",
+        "0.0315",
+        "0.0394",
+        "0.0413"
+      ],
+      [
+        "b",
+        "0.19",
+        "-",
+        "0.3",
+        "0.0075",
+        "-",
+        "0.0118"
+      ],
+      [
+        "c",
+        "0.09",
+        "-",
+        "0.2",
+        "0.0035",
+        "-",
+        "0.0079"
+      ],
+      [
+        "D",
+        "6.4",
+        "6.5",
+        "6.6",
+        "0.252",
+        "0.2559",
+        "0.2598"
+      ],
+      [
+        "E",
+        "6.2",
+        "6.4",
+        "6.6",
+        "0.2441",
+        "0.252",
+        "0.2598"
+      ],
+      [
+        "E1",
+        "4.3",
+        "4.4",
+        "4.5",
+        "0.1693",
+        "0.1732",
+        "0.1772"
+      ],
+      [
+        "e",
+        "-",
+        "0.65",
+        "-",
+        "-",
+        "0.0256",
+        "-"
+      ],
+      [
+        "L",
+        "0.45",
+        "0.6",
+        "0.75",
+        "0.0177",
+        "0.0236",
+        "0.0295"
+      ],
+      [
+        "L1",
+        "-",
+        "1",
+        "-",
+        "-",
+        "0.0394",
+        "-"
+      ],
+      [
+        "k",
+        "0°",
+        "-",
+        "8°",
+        "0°",
+        "-",
+        "8°"
+      ],
+      [
+        "aaa",
+        "-",
+        "-",
+        "0.1",
+        "-",
+        "-",
+        "0.0039"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

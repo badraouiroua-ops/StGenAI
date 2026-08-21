@@ -1,0 +1,179 @@
+{
+  "table_id": "table_32",
+  "caption": "Table 32. Current consumption in Standby mode",
+  "pdf_name": "stm32c011d6",
+  "family": "C0",
+  "page": 46,
+  "merged_pages": [
+    46
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=46",
+  "section": "5.3.5 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "V DD",
+    "Typ / 25 °C",
+    "Typ / 85 °C",
+    "Typ / 105 °C",
+    "Typ / 125 °C",
+    "Max(1) / 25 °C",
+    "Max(1) / 85 °C",
+    "Max(1) / 105 °C",
+    "Max(1) / 125 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD(Standby)",
+      "Supply current in Standby mode",
+      "All clocks off",
+      "2 V",
+      "6.75",
+      "7.70",
+      "8.55",
+      "10.5",
+      "7.50",
+      "8.90",
+      "11.0",
+      "16.0",
+      "µA"
+    ],
+    [
+      "I DD(Standby)",
+      "Supply current in Standby mode",
+      "All clocks off",
+      "2.4 V",
+      "7.05",
+      "8.00",
+      "8.85",
+      "11.0",
+      "7.70",
+      "9.10",
+      "11.0",
+      "17.0",
+      "µA"
+    ],
+    [
+      "I DD(Standby)",
+      "Supply current in Standby mode",
+      "All clocks off",
+      "3 V",
+      "7.45",
+      "8.45",
+      "9.45",
+      "12.0",
+      "8.20",
+      "9.70",
+      "12.0",
+      "18.0",
+      "µA"
+    ],
+    [
+      "I DD(Standby)",
+      "Supply current in Standby mode",
+      "All clocks off",
+      "3.6 V",
+      "7.90",
+      "8.95",
+      "10.0",
+      "12.5",
+      "8.70",
+      "11.0",
+      "13.0",
+      "20.0",
+      "µA"
+    ],
+    [
+      "I DD(Standby)",
+      "Supply current in Standby mode",
+      "IWDG enabled and clocked by LSI",
+      "2 V",
+      "7.30",
+      "8.35",
+      "9.20",
+      "11.5",
+      "8.10",
+      "9.50",
+      "12.0",
+      "17.0",
+      "µA"
+    ],
+    [
+      "I DD(Standby)",
+      "Supply current in Standby mode",
+      "IWDG enabled and clocked by LSI",
+      "2.4 V",
+      "7.65",
+      "8.65",
+      "9.60",
+      "11.5",
+      "8.30",
+      "9.80",
+      "12.0",
+      "17.0",
+      "µA"
+    ],
+    [
+      "I DD(Standby)",
+      "Supply current in Standby mode",
+      "IWDG enabled and clocked by LSI",
+      "3 V",
+      "8.10",
+      "9.20",
+      "10.0",
+      "12.5",
+      "8.90",
+      "11.0",
+      "13.0",
+      "19.0",
+      "µA"
+    ],
+    [
+      "I DD(Standby)",
+      "Supply current in Standby mode",
+      "IWDG enabled and clocked by LSI",
+      "3.6 V",
+      "8.60",
+      "9.75",
+      "11.0",
+      "13.5",
+      "9.50",
+      "12.0",
+      "14.0",
+      "21.0",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 13,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 13,
+    "_notes": [
+      "1. Evaluated by characterization. Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c011d6",
+    "table_id": "table_32",
+    "is_continued": false,
+    "pages": [
+      46
+    ],
+    "rows_count": 8,
+    "cols_count": 13,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

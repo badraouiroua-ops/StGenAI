@@ -1,0 +1,88 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. SPI clock configuration and accuracy",
+  "pdf_name": "AN5027",
+  "family": "41",
+  "page": 39,
+  "merged_pages": [
+    39
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=39",
+  "section": "3.2 DFSDM filters for digital signal processing",
+  "headers": [
+    "Target Audio Frequency (kHz)",
+    "Microphone mode",
+    "DivM",
+    "PLLN",
+    "DivR",
+    "DivP",
+    "SPI clock (MHz)",
+    "Accuracy (ppm)"
+  ],
+  "rows": [
+    [
+      "16",
+      "Mono",
+      "7",
+      "344",
+      "-",
+      "6",
+      "65.52",
+      "-186"
+    ],
+    [
+      "16",
+      "Stereo (with timer)",
+      "7",
+      "344",
+      "-",
+      "6",
+      "65.52",
+      "-186"
+    ],
+    [
+      "48",
+      "Mono",
+      "7",
+      "344",
+      "-",
+      "4",
+      "98.29",
+      "-186"
+    ],
+    [
+      "48",
+      "Stereo (with timer)",
+      "7",
+      "344",
+      "-",
+      "4",
+      "98.29",
+      "-186"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5027",
+    "table_id": "table_11",
+    "is_continued": false,
+    "pages": [
+      39
+    ],
+    "rows_count": 4,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

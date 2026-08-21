@@ -1,0 +1,63 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Document revision history",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Document revision history",
+  "page": 16,
+  "section": "4 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5325.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5325.pdf",
+  "text_helper": "Table 4. Document revision history — section 4 Conclusion. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "23-May-2019",
+        "1",
+        "Initial release."
+      ],
+      [
+        "11-Mar-2021",
+        "2",
+        "Updated: • Section 2: CORDIC introduction. • Table 3. Execution time versus software for other functions. • Section 3.2: Acceleration example: multiple data using DMA."
+      ],
+      [
+        "6-Jul-2022",
+        "3",
+        "Updated Section Introduction"
+      ],
+      [
+        "28-Sep-2022",
+        "4",
+        "Updated /* Write first angle to cordic */ CORDIC->WDATA = aAngles[0]; /* Write remaining angles and read sine results */ for(uint32_t i = 0; i < ARRAY_SIZE; i++) { CORDIC->WDATA = aAngles[i]; *pCalculatedSin++ = CORDIC->RDATA; } /* Read last result */ *pCalculatedSin = CORDIC- >RDATA; Replaced \"BLOCKSIZE\" with \"ARRAY_SIZE\""
+      ],
+      [
+        "27-Feb-2023",
+        "5",
+        "Changed title of the document Added STM32H563/573 product line in Table 1. Applicable products"
+      ],
+      [
+        "07-Mar-2024",
+        "6",
+        "Added STM32H7Rx/Sx products in Table 1. Applicable products"
+      ],
+      [
+        "27-Jan-2026",
+        "7",
+        "Added STM32H5E4/F4 and STM32H5E5/F5 product lines and STM32C5 series in Table 1. Applicable products"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

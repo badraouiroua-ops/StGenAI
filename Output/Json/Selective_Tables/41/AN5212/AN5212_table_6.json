@@ -1,0 +1,43 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. DCACHE cacheability for AHB transaction",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. DCACHE cacheability for AHB transaction",
+  "page": 16,
+  "section": "3.2.1 DCACHE cacheability traffic",
+  "section_title": "DCACHE cacheability traffic",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "text_helper": "Table 6. DCACHE cacheability for AHB transaction — section 3.2.1 DCACHE cacheability traffic. AHB lookup attribute, AHB bufferable attribute, Cacheability.",
+  "table_content": {
+    "headers": [
+      "AHB lookup attribute",
+      "AHB bufferable attribute",
+      "Cacheability"
+    ],
+    "rows": [
+      [
+        "0",
+        "X",
+        "Read and write: noncacheable"
+      ],
+      [
+        "1",
+        "0",
+        "Read: cacheable Write: (cacheable) write-through"
+      ],
+      [
+        "1",
+        "1",
+        "Read: cacheable Write: (cacheable) write-back"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

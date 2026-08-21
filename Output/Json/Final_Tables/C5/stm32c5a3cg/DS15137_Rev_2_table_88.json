@@ -1,0 +1,38 @@
+{
+  "table_id": "table_88",
+  "document": "DS15137 Rev 2 - Table 88. Document revision history.",
+  "rev": "Rev 2",
+  "table_number": "88",
+  "title": "Table 88. Document revision history.",
+  "page": 140,
+  "section": "7 Ordering information",
+  "section_title": "Ordering information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=140",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 88. Document revision history. — section 7 Ordering information. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "27-Feb-2026",
+        "1",
+        "Initial release."
+      ],
+      [
+        "08-Apr-2026",
+        "2",
+        "Updated: • Silhouette • Section 2: Description • Figure 1. STM32C5A3xxx block diagram • Section 4.2: Pin/ball description • Table 24. Typical and maximum current consumption in Run mode • Section 5.3.29: Ethernet interface characteristics • Table 60. Temperature sensor characteristics"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

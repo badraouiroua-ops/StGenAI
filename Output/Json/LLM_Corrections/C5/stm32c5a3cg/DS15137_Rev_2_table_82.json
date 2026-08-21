@@ -1,0 +1,10 @@
+{
+  "table_id": "table_82",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Le tableau extrait comporte 6 colonnes au lieu de 7 colonnes présentes dans l'image (les colonnes Millimètres Typ et Max ont été fusionnées en 'Millimeters / Typ Max'). De plus, les cellules fusionnées ont entraîné la duplication de valeurs sur plusieurs colonnes. Ne pouvant ni ajouter de colonne ni vider des cellules contenant du texte, une révision manuelle est nécessaire."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

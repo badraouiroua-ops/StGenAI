@@ -1,0 +1,59 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. Memory types and associated protection",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. Memory types and associated protection",
+  "page": 20,
+  "section": "4.4 Memory protections",
+  "section_title": "Memory protections",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=20",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 5. Memory types and associated protection — section 4.4 Memory protections. Memory, Types, Description, Protections.",
+  "table_content": {
+    "headers": [
+      "Memory",
+      "Types",
+      "Description",
+      "Protections"
+    ],
+    "rows": [
+      [
+        "System flash memory",
+        "• Internal",
+        "ROM part of the flash memory. Embeds device bootloader and other ST services.",
+        "Cannot be updated (erase/written). A part may also be unreadable."
+      ],
+      [
+        "User flash memory",
+        "• Internal",
+        "Flash memory for user application",
+        "Internal protections: • RDP • WRP • TrustZone • PCROP (not for SRAM) • OTP (not in SRAM) • Firewall • Secure hide protection (not for SRAM) • MPU"
+      ],
+      [
+        "SRAM",
+        "• Internal",
+        "Working memory for stack, heap or buffers. Can be used to execute the firmware downloaded from internal or external non-volatile memories.",
+        "Internal protections: • RDP • WRP • TrustZone • PCROP (not for SRAM) • OTP (not in SRAM) • Firewall • Secure hide protection (not for SRAM) • MPU"
+      ],
+      [
+        "NAND, NOR, octo‑SPI, or quad‑SPI flash memory",
+        "• External",
+        "Additional memory for applications or data storage",
+        "• Cryptography (MCE, OTFDEC)"
+      ],
+      [
+        "SDRAM",
+        "• External",
+        "Additional RAM for application execution",
+        "Cryptography (MCE)"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

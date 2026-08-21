@@ -1,0 +1,138 @@
+{
+  "table_id": "table_18",
+  "caption": "Table 18. PWR features",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 29,
+  "merged_pages": [
+    29,
+    30
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=29",
+  "section": "6.2.5 Power (PWR)",
+  "headers": [
+    "PWR",
+    "STM32H5",
+    "STM32C5"
+  ],
+  "rows": [
+    [
+      "Power supplies",
+      "VDD = 1.71 V to 3.6 V: external power supply for the I/Os, the internal regulator, and the system analogs such as reset, power management, and internal clocks. It is provided externally through the VDD pins.",
+      "VDD = 2.7 to 3.6 V: external power supply for I/Os and the internal regulator (when enabled), provided externally through VDD pins."
+    ],
+    [
+      "Power supplies",
+      "VDDA = 1.62 V ADCs/1.8 V (DAC), 2.1 V (VREFBUF) to 3.6 V: external analog power supply for ADC, DAC, and voltage reference buffer. The VDDA voltage level is independent from the VDD voltage.",
+      "VDDA: external analog power supplies for ADC, DAC, reset blocks, RCs. This product has no separeted VDDA pad. VDDA is internally connected to VDD."
+    ],
+    [
+      "Power supplies",
+      "VCAP = 1.0 V to 1.35 V: power supply for digital peripherals, SRAMs (except BKPSRAM), and embedded flash memory",
+      "VCAP = 0.95 V to 1.25 V: power supply for digital peripherals, SRAMs and embedded flash memory"
+    ],
+    [
+      "Power supplies",
+      "VBAT = 1.2 V to 3.6 V: when VDD is not present, VBAT is the power supply for RTC, the external clock 32 kHz oscillator, backup registers, and optional backup SRAM",
+      "NA"
+    ],
+    [
+      "Power supplies",
+      "VDDUSB = 3.0 V to 3.6 V: external independent power supply for USB transceivers. The VDDUSB voltage level is independent from the VDD voltage.",
+      "Supply for USB transceivers. This product has no separeted VDDUSB pad. VDDUSB is internally connected to VDD"
+    ],
+    [
+      "Power supplies",
+      "VDDIO2 = 1.08 V to 3.6 V: external power supply for 10 I/Os (PD6, PD7, PG9:14, PB8, PB9). This voltage is independent from the VDD voltage.",
+      "NA"
+    ],
+    [
+      "Battery backup domain or RTC domain",
+      "RTC with backup registers (128 bytes) LSE LSE, backup SRAM when the low-power backup regulator is enabled PC13 to PC15 I/Os",
+      "RTC with backup registers LSE PC13 to PC15 I/Os"
+    ],
+    [
+      "Power supply supervisor",
+      "POR, PDR, PVD",
+      ""
+    ],
+    [
+      "Power supply supervisor",
+      "AVD, BOR Backup domain voltage and temperature monitoring",
+      "NA"
+    ],
+    [
+      "Sleep mode wake-up sources",
+      "Any peripheral interrupt/wakeup event",
+      "Any peripheral interrupt/wakeup event"
+    ],
+    [
+      "Standby mode, wake-up sources",
+      "WKUPx pin edge, RTC event, external reset in NRST pin, IWDG reset, BOR reset",
+      "WKUP pin edge RTC alarm (alarm A and alarm B), RTC wake-up, tamper event, time stamp event, external reset in NRST pin IWDG reset External reset in NRST pin"
+    ],
+    [
+      "Stop mode, wake-up sources",
+      "Any EXTI line (configured in the EXTI registers) Specific peripheral events",
+      "Any EXTI line (configured in the EXTI registers, internal and external lines)"
+    ],
+    [
+      "Wake-up system clock",
+      "Stop: CSI when STOPWUCK = 1 in RCC_CFGR HSI with the frequency before entering the Stop mode, up to 64 MHz, when STOPWUCK Standby: HSI clock at 64 MHz",
+      "Stop: HSI oscillator"
+    ],
+    [
+      "Low-power modes",
+      "Sleep mode",
+      "Sleep mode"
+    ],
+    [
+      "Low-power modes",
+      "Stop mode: To further optimize the power consumption, the unused RAMs can be totally or partially shut off.",
+      "Stop mode to further optimize the power consumption, the unused RAMs can be totally or partially shut off"
+    ],
+    [
+      "Low-power modes",
+      "Standby mode",
+      "Standby mode"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0208,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 3,
+      "cont_cols_raw": 3,
+      "target_cols": 3,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_18",
+    "is_continued": true,
+    "pages": [
+      29,
+      30
+    ],
+    "rows_count": 16,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0208
+  }
+}

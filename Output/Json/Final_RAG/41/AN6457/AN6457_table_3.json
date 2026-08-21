@@ -1,0 +1,41 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. LPDMA channel number with peripheral early termination",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. LPDMA channel number with peripheral early termination",
+  "page": 3,
+  "section": "2.2 LPDMA channel allocation",
+  "section_title": "LPDMA channel allocation",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=3",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 3. LPDMA channel number with peripheral early termination — section 2.2 LPDMA channel allocation. Product, Channel number, FIFO size, Addressing mode.",
+  "table_content": {
+    "headers": [
+      "Product",
+      "Channel number",
+      "FIFO size",
+      "Addressing mode"
+    ],
+    "rows": [
+      [
+        "STM32C5",
+        "LPDMA1",
+        "x = 0 and x = 7",
+        "i3c1_rx_dma"
+      ],
+      [
+        "STM32C5",
+        "LPDMA2",
+        "x = 0 and x = 7",
+        "i3c1_rx_dma"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

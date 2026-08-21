@@ -1,0 +1,33 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. LPDMA programming for ADC",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. LPDMA programming for ADC",
+  "page": 8,
+  "section": "3.2.1 Analog-to-digital converter ADC",
+  "section_title": "Analog-to-digital converter ADC",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=8",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 5. LPDMA programming for ADC — section 3.2.1 Analog-to-digital converter ADC. LPDMA source data width, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA source data width",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "8-bit, 16-bit, or 32-bit",
+        "Depends on ADC settings."
+      ]
+    ],
+    "notes": [
+      "1. Not applicable for STM32C5 AN6457 - Rev 1 page 9/32"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

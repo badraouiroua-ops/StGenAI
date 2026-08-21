@@ -1,0 +1,43 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Reference documents",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Reference documents",
+  "page": 3,
+  "section": "2 General information",
+  "section_title": "General information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=3",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 1. Reference documents — section 2 General information. Document number, Title.",
+  "table_content": {
+    "headers": [
+      "Document number",
+      "Title"
+    ],
+    "rows": [
+      [
+        "[1]",
+        "STM32C5xx advanced Arm®-based 32-bit MCUs reference manual (RM0522)"
+      ],
+      [
+        "[2]",
+        "STM32H523/33, STM32H562/63, and STM32H573 Arm®-based 32-bit MCUs reference manual (RM0481)"
+      ],
+      [
+        "[3]",
+        "Arm® Cortex®-M33 32-bit MCU+FPU, 144 MHz, 512-Kbyte flash memory, 128-Kbyte RAM, math accelerators, datasheet (DSxxxxx)"
+      ],
+      [
+        "[4]",
+        "Arm® Cortex®-M33 32-bit MCU+TrustZone®+FPU, 375 DMIPS 250 MHz, 512-Kbyte flash memory, 272- Kbyte RAM, math accelerators datasheet (DS14539 and DS14540 )"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

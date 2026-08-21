@@ -1,0 +1,50 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau",
+      "row_index": null,
+      "analyse_visuelle": "La première ligne de données ('Get(1)...') a été fusionnée par erreur avec les titres des colonnes.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Command / Get(1)",
+          "nouvelle_valeur": "Command",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Command code / 0x00",
+          "nouvelle_valeur": "Command code",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Subsection / Section 4.1",
+          "nouvelle_valeur": "Subsection",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Description / Gets the version and allowed commands supported by the current version of the protocol.",
+          "nouvelle_valeur": "Description",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "Get(1)",
+        "0x00",
+        "Section 4.1",
+        "Gets the version and allowed commands supported by the current version of the protocol."
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

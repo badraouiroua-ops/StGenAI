@@ -1,0 +1,65 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. Typical lead-free reflow profile parameters for LGA",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. Typical lead-free reflow profile parameters for LGA",
+  "page": 11,
+  "section": "4.4.5 Convection reflow for LGA packages",
+  "section_title": "Convection reflow for LGA packages",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=11",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+  "text_helper": "Table 7. Typical lead-free reflow profile parameters for LGA — section 4.4.5 Convection reflow for LGA packages. Profile, Ramp to spike, Ramp-soak-Spike.",
+  "table_content": {
+    "headers": [
+      "Profile",
+      "Ramp to spike",
+      "Ramp-soak-Spike"
+    ],
+    "rows": [
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 70°C to 150°C\n0.9 ± 0.1°C/sec",
+        "Temp. : 70°C to 150°C\n2.0 ± 0.5°C/sec"
+      ],
+      [
+        "Temperature gradient in pre-reflow",
+        "Temp. : 200°C to 225°C 2 ± 1°C/sec",
+        "Temp. : 200°C to 225°C 2 ± 1°C/sec"
+      ],
+      [
+        "Soak/Dwell (*refer to solder paste supplier recommendation)",
+        "N/A or\nTemp. : 150°C to 200°C: 60 ± 20 sec",
+        "Soak\nTemp. : 150°C to 200°C: *70 ± 30 sec"
+      ],
+      [
+        "Duration above 220°C",
+        "55 ± 10 seconds",
+        "55 ± 10 seconds"
+      ],
+      [
+        "Peak temperature (in reflow)",
+        "240 ± 5°C",
+        "240 ± 5°C"
+      ],
+      [
+        "Temperature gradient in cooling",
+        "-3 ± 2°C/sec",
+        "-3 ± 2°C/sec"
+      ],
+      [
+        "Time from 50 to 220°C",
+        "150 to 230 seconds",
+        "150 to 230 seconds"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "1V57308TD"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

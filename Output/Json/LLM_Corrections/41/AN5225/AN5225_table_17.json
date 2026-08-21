@@ -1,0 +1,22 @@
+{
+  "table_id": "table_17",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "16-Mar-2022 | 6",
+      "row_index": 5,
+      "analyse_visuelle": "La ligne pour la version 6 se poursuit sur la page suivante (page 70) avec deux puces supplémentaires sous 'Updated:' ('Figure 49. Battery DRP application example' et 'Figure 50. SRC application using dedicated power management'). Ces éléments manquaient dans l'extraction.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Updated: • Figure 48. 15 W sink application with battery",
+          "nouvelle_valeur": "Updated: • Figure 48. 15 W sink application with battery • Figure 49. Battery DRP application example • Figure 50. SRC application using dedicated power management",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

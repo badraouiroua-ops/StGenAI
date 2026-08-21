@@ -1,0 +1,58 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. Document revision history.",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. Document revision history.",
+  "page": 33,
+  "section": "5 FDCAN implementation improvements over BxCAN",
+  "section_title": "FDCAN implementation improvements over BxCAN",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=33",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+  "text_helper": "Table 10. Document revision history. — section 5 FDCAN implementation improvements over BxCAN. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "4-Oct-2019",
+        "1",
+        "Initial release."
+      ],
+      [
+        "21-Feb-2023",
+        "2",
+        "Updated the title of the document. Updated the Table 1. Applicable products. Updated the Section 4: Implementation of CAN-FD in STM32 devices."
+      ],
+      [
+        "06-Mar-2024",
+        "3",
+        "Updated: • Figure 1. Standard CAN-FD frame • Section 3.1: Frame architecture comparison between CAN-FD and CAN 2.0"
+      ],
+      [
+        "03-Sep-2024",
+        "4",
+        "Document title updated."
+      ],
+      [
+        "29-Oct-2024",
+        "5",
+        "Updated Table 1. Applicable products."
+      ],
+      [
+        "17-Dec-2025",
+        "6",
+        "Updated Table 1. Applicable products."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

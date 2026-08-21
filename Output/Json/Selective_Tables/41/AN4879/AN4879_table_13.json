@@ -1,0 +1,323 @@
+{
+  "table_id": "table_13",
+  "document": "Table 13. Certified USB peripherals",
+  "rev": null,
+  "table_number": "13",
+  "title": "Table 13. Certified USB peripherals",
+  "page": 19,
+  "section": "3.4.1 External USB HS PHYs compatible via ULPI interface",
+  "section_title": "External USB HS PHYs compatible via ULPI interface",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=19",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "text_helper": "Table 13. Certified USB peripherals — section 3.4.1 External USB HS PHYs compatible via ULPI interface. STM32 device, Certified category, Speed(s), TID.",
+  "table_content": {
+    "headers": [
+      "STM32 device",
+      "Certified category",
+      "Speed(s)",
+      "TID"
+    ],
+    "rows": [
+      [
+        "STM32F072",
+        "Peripheral",
+        "LS/FS",
+        "40001561"
+      ],
+      [
+        "STM32F103",
+        "Peripheral",
+        "LS/FS",
+        "40000455"
+      ],
+      [
+        "STM32F105",
+        "Peripheral",
+        "LS/FS",
+        "40001571"
+      ],
+      [
+        "STM32F205/7",
+        "Peripheral",
+        "LS/FS",
+        "40001366"
+      ],
+      [
+        "STM32F205/7",
+        "Peripheral",
+        "HS",
+        "40001365"
+      ],
+      [
+        "STM32F207",
+        "Embedded host",
+        "FS",
+        "120000252"
+      ],
+      [
+        "STM32F207",
+        "Embedded host",
+        "HS",
+        "120000251"
+      ],
+      [
+        "STM32F303",
+        "Peripheral",
+        "LS/FS",
+        "40001494"
+      ],
+      [
+        "STM32F373",
+        "Peripheral",
+        "LS/FS",
+        "40001496"
+      ],
+      [
+        "STM32F405/7",
+        "Peripheral",
+        "HS",
+        "40001393"
+      ],
+      [
+        "STM32F405/7",
+        "Peripheral",
+        "LS/FS",
+        "40001394"
+      ],
+      [
+        "STM32F407",
+        "Embedded host",
+        "HS",
+        "120000253"
+      ],
+      [
+        "STM32F407",
+        "Embedded host",
+        "FS",
+        "120000256"
+      ],
+      [
+        "STM32F723",
+        "Peripheral",
+        "HS",
+        "40001777"
+      ],
+      [
+        "STM32F723",
+        "Embedded host",
+        "FS",
+        "120000703"
+      ],
+      [
+        "STM32F723",
+        "Embedded host",
+        "HS",
+        "120000702"
+      ],
+      [
+        "STM32F723",
+        "Peripheral",
+        "LS/FS",
+        "40001776"
+      ],
+      [
+        "STM32L053",
+        "Peripheral",
+        "LS/FS",
+        "40001612"
+      ],
+      [
+        "STM32L152",
+        "Peripheral",
+        "LS/FS",
+        "10730015"
+      ],
+      [
+        "STM32L476, STM32L476ZGT6U",
+        "Peripheral",
+        "LS/FS",
+        "40001658"
+      ],
+      [
+        "STM32L476, STM32L476ZGT6U",
+        "Embedded host",
+        "FS",
+        "120000348"
+      ],
+      [
+        "STM32F723IE",
+        "Embedded host",
+        "HS",
+        "120000702"
+      ],
+      [
+        "STM32F723IE",
+        "Embedded host",
+        "FS",
+        "120000703"
+      ],
+      [
+        "STM32F723IE",
+        "Embedded host",
+        "HS",
+        "40001777"
+      ],
+      [
+        "STM32F769",
+        "Peripheral Silicon > Other",
+        "FS",
+        "8725"
+      ],
+      [
+        "STM32F769",
+        "Embedded Host Silicon",
+        "HS",
+        "10646"
+      ],
+      [
+        "STM32L496",
+        "Embedded host",
+        "FS",
+        "120000831"
+      ],
+      [
+        "STM32L496AG",
+        "Peripheral",
+        "LS/FS",
+        "40001802"
+      ],
+      [
+        "STM32L4P5",
+        "Embedded Host Silicon",
+        "FS",
+        "7861"
+      ],
+      [
+        "STM32L4R9",
+        "Embedded Host",
+        "FS",
+        "7862"
+      ],
+      [
+        "STM32L4R9",
+        "Peripheral Silicon > Other",
+        "FS",
+        "7840"
+      ],
+      [
+        "STM32L562",
+        "Peripheral",
+        "FS",
+        "6562"
+      ],
+      [
+        "STM32H7B3",
+        "Peripheral Silicon > Other",
+        "HS",
+        "8741"
+      ],
+      [
+        "STM32H7B3",
+        "Embedded Host Silicon",
+        "HS",
+        "8724"
+      ],
+      [
+        "STM32H7A3",
+        "Embedded Host Silicon",
+        "FS",
+        "8709"
+      ],
+      [
+        "STM32H7S",
+        "Embedded Host Silicon",
+        "HS",
+        "10643"
+      ],
+      [
+        "STM32H7S",
+        "Peripheral Silicon > Other",
+        "FS",
+        "10644"
+      ],
+      [
+        "STM32H503",
+        "Peripheral Silicon > Other",
+        "HS",
+        "9721"
+      ],
+      [
+        "STM32H563",
+        "Peripheral Silicon > Other",
+        "HS",
+        "9717"
+      ],
+      [
+        "STM32U585",
+        "Peripheral",
+        "FS",
+        "7189"
+      ],
+      [
+        "STM32U545",
+        "Peripheral Silicon > Other",
+        "HS",
+        "9722"
+      ],
+      [
+        "STM32U599",
+        "Peripheral Silicon > Other",
+        "FS",
+        "10645"
+      ],
+      [
+        "STM32G0C",
+        "Peripheral",
+        "FS",
+        "7046"
+      ],
+      [
+        "STM32G491",
+        "Peripheral",
+        "FS",
+        "6563"
+      ],
+      [
+        "STM32G474",
+        "Peripheral",
+        "FS",
+        "6561"
+      ],
+      [
+        "STM32WB55",
+        "Peripheral",
+        "FS",
+        "2196"
+      ],
+      [
+        "STM32MP13 STM32G0",
+        "Dual Role Device Silicon Embedded Host Silicon",
+        "HS",
+        "8088"
+      ],
+      [
+        "STM32MP15",
+        "Peripheral",
+        "HS",
+        "1735"
+      ],
+      [
+        "STM32MP15",
+        "Embedded host",
+        "HS",
+        "2111"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

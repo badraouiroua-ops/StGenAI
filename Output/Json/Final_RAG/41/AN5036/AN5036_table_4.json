@@ -1,0 +1,131 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. STM32H747XI power dissipation versus T 15 j",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. STM32H747XI power dissipation versus T 15 j",
+  "page": 15,
+  "section": "6 Thermal analysis examples",
+  "section_title": "Thermal analysis examples",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=15",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 4. STM32H747XI power dissipation versus T 15 j — section 6 Thermal analysis examples. TJ (°C), STM32H747I-DISCO (supplied with 5 V) / Current consumption (A), STM32H747I-DISCO (supplied with 5 V) / Power consumption (mW), STM32H747XI power dissipation (mW).",
+  "table_content": {
+    "headers": [
+      "TJ (°C)",
+      "STM32H747I-DISCO (supplied with 5 V) / Current consumption (A)",
+      "STM32H747I-DISCO (supplied with 5 V) / Power consumption (mW)",
+      "STM32H747XI power dissipation (mW)"
+    ],
+    "rows": [
+      [
+        "46.9",
+        "0.395",
+        "1975",
+        "737"
+      ],
+      [
+        "51.8",
+        "0.405",
+        "2025",
+        "769"
+      ],
+      [
+        "55.8",
+        "0.412",
+        "2060",
+        "788"
+      ],
+      [
+        "61.5",
+        "0.423",
+        "2115",
+        "824"
+      ],
+      [
+        "65.7",
+        "0.430",
+        "2150",
+        "852"
+      ],
+      [
+        "71",
+        "0.442",
+        "2210",
+        "888"
+      ],
+      [
+        "77.3",
+        "0.452",
+        "2260",
+        "920"
+      ],
+      [
+        "81.9",
+        "0.465",
+        "2325",
+        "965"
+      ],
+      [
+        "87.5",
+        "0.480",
+        "2400",
+        "1010"
+      ],
+      [
+        "92",
+        "0.490",
+        "2450",
+        "1056"
+      ],
+      [
+        "96.8",
+        "0.509",
+        "2545",
+        "1104"
+      ],
+      [
+        "102.5",
+        "0.534",
+        "2670",
+        "1179"
+      ],
+      [
+        "106.3",
+        "0.550",
+        "2750",
+        "1229"
+      ],
+      [
+        "111.3",
+        "0.571",
+        "2855",
+        "1298"
+      ],
+      [
+        "116.9",
+        "0.600",
+        "3000",
+        "1387"
+      ],
+      [
+        "123",
+        "0.635",
+        "3175",
+        "1499"
+      ],
+      [
+        "125",
+        "0.650",
+        "3250",
+        "1559"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

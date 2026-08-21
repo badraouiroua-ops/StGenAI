@@ -1,0 +1,978 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Package summary for STM32C5 devices",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Package summary for STM32C5 devices",
+    "page": 11,
+    "section": "4.1 Package summary",
+    "section_title": "Package summary",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=11",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+    "text_helper": "Table 1. Package summary for STM32C5 devices — section 4.1 Package summary. Package, Size (mm), Height (mm), Pitch (mm), STM32C53x/C54x, +2 autres.",
+    "table_content": {
+      "headers": [
+        "Package",
+        "Size (mm)",
+        "Height (mm)",
+        "Pitch (mm)",
+        "STM32C53x/C54x",
+        "STM32C55x/C56x",
+        "STM32C59x/C5Ax"
+      ],
+      "rows": [
+        [
+          "LQFP144",
+          "20 × 20",
+          "1.6",
+          "0.5",
+          "-",
+          "-",
+          "X"
+        ],
+        [
+          "LQFP100",
+          "14 × 14",
+          "1.6",
+          "0.5",
+          "-",
+          "X",
+          "X"
+        ],
+        [
+          "LQFP80",
+          "12 × 12",
+          "1.6",
+          "0.5",
+          "-",
+          "X",
+          "X"
+        ],
+        [
+          "LQFP64",
+          "10 × 10",
+          "1.6",
+          "0.5",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "LQFP48",
+          "7 × 7",
+          "1.6",
+          "0.5",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "UFQFPN48",
+          "7 × 7",
+          "0.6",
+          "0.5",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "LQFP32",
+          "7 × 7",
+          "1.6",
+          "0.8",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "UFQFPN32",
+          "5 × 5",
+          "0.6",
+          "0.5",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "UFQFPN24",
+          "4 × 4",
+          "0.6",
+          "0.5",
+          "X",
+          "-",
+          "-"
+        ],
+        [
+          "TSSOP20",
+          "6.5 × 4.4",
+          "1.2",
+          "0.65",
+          "X",
+          "-",
+          "-"
+        ],
+        [
+          "UFQFPN20",
+          "3 × 3",
+          "0.6",
+          "0.5",
+          "X",
+          "-",
+          "-"
+        ]
+      ],
+      "notes": [
+        "1. On these packages PC14-OSC32_IN is double bonded to PH0-OSCIN, it can not be used with an external crystal as OSC32OUT is not available but can be used in bypass mode for LSE if HSE is not used.",
+        "2. Plus VSS connection through exposed pad. AN6274 - Rev 1 page 12/30"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. Pinout summary for STM32C5 devices",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. Pinout summary for STM32C5 devices",
+    "page": 12,
+    "section": "4.2 Pinout summary",
+    "section_title": "Pinout summary",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=12",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+    "text_helper": "Table 2. Pinout summary for STM32C5 devices — section 4.2 Pinout summary. Pin name, Package options / UFQFPN20, Package options / TSSOP20, Package options / UFQFPN24, Package options / UFQFPN32, +7 autres.",
+    "table_content": {
+      "headers": [
+        "Pin name",
+        "Package options / UFQFPN20",
+        "Package options / TSSOP20",
+        "Package options / UFQFPN24",
+        "Package options / UFQFPN32",
+        "Package options / LQFP32",
+        "Package options / UFQFPN48",
+        "Package options / LQFP48",
+        "Package options / LQFP64",
+        "Package options / LQFP80",
+        "Package options / LQFP100",
+        "Package options / LQFP144"
+      ],
+      "rows": [
+        [
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os",
+          "Specific I/Os"
+        ],
+        [
+          "PC14- OSC32_IN",
+          "-",
+          "-",
+          "-",
+          "X(1)",
+          "X(1)",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "PC15- OSC32_OUT",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "PH0-OSC_IN",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "PH1- OSC_OUT",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "System pins",
+          "System pins",
+          "System pins",
+          "System pins",
+          "System pins",
+          "System pins",
+          "System pins",
+          "System pins",
+          "System pins",
+          "System pins",
+          "System pins",
+          "System pins"
+        ],
+        [
+          "NRST",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "PH2-BOOT0",
+          "-",
+          "-",
+          "-",
+          "X",
+          "-",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "PB8-BOOT0",
+          "X",
+          "X",
+          "X",
+          "-",
+          "X",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Power pins",
+          "Power pins",
+          "Power pins",
+          "Power pins",
+          "Power pins",
+          "Power pins",
+          "Power pins",
+          "Power pins",
+          "Power pins",
+          "Power pins",
+          "Power pins",
+          "Power pins"
+        ],
+        [
+          "VREF+",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "VREF-",
+          "X",
+          "X",
+          "-",
+          "-",
+          "-",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "VCAP",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "Number of VDD",
+          "1",
+          "1",
+          "1",
+          "2",
+          "2",
+          "3",
+          "3",
+          "4",
+          "5",
+          "5",
+          "11"
+        ],
+        [
+          "Number of VSS",
+          "1",
+          "1",
+          "0(2)",
+          "0(2)",
+          "2",
+          "3(2)",
+          "3",
+          "4",
+          "5",
+          "5",
+          "11"
+        ],
+        [
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs",
+          "Max GPIOs"
+        ],
+        [
+          "GPIOs",
+          "14",
+          "14",
+          "20",
+          "27",
+          "25",
+          "38",
+          "38",
+          "52",
+          "66",
+          "86",
+          "118"
+        ]
+      ],
+      "notes": [
+        "1. On these packages PC14-OSC32_IN is double bonded to PH0-OSCIN, it can not be used with an external crystal as OSC32OUT is not available but can be used in bypass mode for LSE if HSE is not used.",
+        "2. Plus VSS connection through exposed pad. AN6274 - Rev 1 page 12/30"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. STM32C5 boot modes",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. STM32C5 boot modes",
+    "page": 13,
+    "section": "5.1 Boot mode selection",
+    "section_title": "Boot mode selection",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=13",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+    "text_helper": "Table 3. STM32C5 boot modes — section 5.1 Boot mode selection. RPD_STATE, BOOT_SEL option bit, BOOT0 option bit, BOOT0 pin, EMPTY flag value(1), +1 autres.",
+    "table_content": {
+      "headers": [
+        "RPD_STATE",
+        "BOOT_SEL option bit",
+        "BOOT0 option bit",
+        "BOOT0 pin",
+        "EMPTY flag value(1)",
+        "Boot area"
+      ],
+      "rows": [
+        [
+          "Level 0",
+          "1",
+          "X",
+          "0",
+          "X",
+          "Boot address defined by user option byte BOOTADD[31:8]"
+        ],
+        [
+          "Level 0",
+          "1",
+          "X",
+          "1",
+          "X",
+          "Bootloader"
+        ],
+        [
+          "Level 0",
+          "0",
+          "0",
+          "X",
+          "0",
+          "Boot address defined by user option byte BOOTADD[31:8]"
+        ],
+        [
+          "Level 0",
+          "0",
+          "0",
+          "X",
+          "1",
+          "Bootloader"
+        ],
+        [
+          "Level 0",
+          "0",
+          "1",
+          "X",
+          "X",
+          "Bootloader"
+        ],
+        [
+          "Level 2 with boundary scan and level 2",
+          "X",
+          "X",
+          "X",
+          "X",
+          "Boot address defined by user option byte BOOTADD[31:8]"
+        ]
+      ],
+      "notes": [
+        "1. The boot address, defined by BOOTADD option byte, is considered empty only if the FLASH word is equal to 0xFFFF FFFF. In this case, at option byte loading, the EMPTY bit is set in FLASH_CR."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. Bootloader summary",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. Bootloader summary",
+    "page": 14,
+    "section": "5.2 System bootloader",
+    "section_title": "System bootloader",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=14",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+    "text_helper": "Table 4. Bootloader summary — section 5.2 System bootloader. Interface / name, Package options / UFQFPN 20, Package options / TSSOP20, Package options / UFQFPN 24, Package options / UFQFPN 32, +7 autres.",
+    "table_content": {
+      "headers": [
+        "Interface / name",
+        "Package options / UFQFPN 20",
+        "Package options / TSSOP20",
+        "Package options / UFQFPN 24",
+        "Package options / UFQFPN 32",
+        "Package options / LQFP32",
+        "Package options / UFQFPN 48",
+        "Package options / LQFP48",
+        "Package options / LQFP64",
+        "Package options / LQFP80",
+        "Package options / LQFP100",
+        "Package options / LQFP144"
+      ],
+      "rows": [
+        [
+          "USART1",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "PA9/PA10",
+          "PA9/PA10",
+          "PA9/PA10",
+          "PA9/PA10",
+          "PA9/PA10",
+          "PA9/PA10"
+        ],
+        [
+          "USART2",
+          "PA2/PA3",
+          "PA2/PA3",
+          "PA2/PA3",
+          "PA2/PA3",
+          "PA2/PA3",
+          "PA2/PA3",
+          "PA2/PA3",
+          "PA2/PA3",
+          "PA2/PA3",
+          "PA2/PA3",
+          "PA2/PA3"
+        ],
+        [
+          "USART3",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "PD8/PD9",
+          "PD8/PD9"
+        ],
+        [
+          "UART4",
+          "PA0/PA1",
+          "PA0/PA1",
+          "PA0/PA1",
+          "PA0/PA1",
+          "PA0/PA1",
+          "PA0/PA1",
+          "PA0/PA1",
+          "PA0/PA1",
+          "PA0/PA1",
+          "PA0/PA1",
+          "PA0/PA1"
+        ],
+        [
+          "SPI1",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7",
+          "PA4/PA5/ PA6/PA7"
+        ],
+        [
+          "SPI2",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "PB12/ PB13/ PB14/ PB15",
+          "PB12/ PB13/ PB14/ PB15",
+          "PB12/ PB13/ PB14/ PB15",
+          "PB12/ PB13/ PB14/ PB15",
+          "PB12/ PB13/ PB14/ PB15",
+          "PB12/ PB13/ PB14/ PB15"
+        ],
+        [
+          "SPI3(1)",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "PB0/PB1/ PB2/PB8",
+          "PB0/PB1/ PB2/PB8",
+          "PB0/PB1/ PB2/PB8",
+          "PB0/PB1/ PB2/PB8",
+          "PB0/PB1/ PB2/PB8",
+          "PB0/PB1/ PB2/PB8"
+        ],
+        [
+          "FDCAN(2)",
+          "-",
+          "-",
+          "-",
+          "PB5/PB6",
+          "PB5/PB6",
+          "PB5/PB6",
+          "PB5/PB6",
+          "PB5/PB6",
+          "PB5/PB6",
+          "PB5/PB6",
+          "PB5/PB6"
+        ],
+        [
+          "USB DFU",
+          "PA11/ PA12",
+          "PA11/ PA12",
+          "PA11/ PA12",
+          "PA11/ PA12",
+          "PA11/ PA12",
+          "PA11/ PA12",
+          "PA11/ PA12",
+          "PA11/ PA12",
+          "PA11/ PA12",
+          "PA11/ PA12",
+          "PA11/ PA12"
+        ]
+      ],
+      "notes": [
+        "1. Not supported on STM32C53x/C54x.",
+        "2. FDCAN1 on STM32C55x/C56x and FDCAN2 on STM32C53x/C54x/C59x/C5Ax. For more details refer to the application note STM32 microcontroller system memory boot mode (AN2606)."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_5",
+    "document": "Table 5. JTAG/Serial-wire debug port pins",
+    "rev": null,
+    "table_number": "5",
+    "title": "Table 5. JTAG/Serial-wire debug port pins",
+    "page": 16,
+    "section": "6.2.1 SWJ-DP pins",
+    "section_title": "SWJ-DP pins",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=16",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+    "text_helper": "Table 5. JTAG/Serial-wire debug port pins — section 6.2.1 SWJ-DP pins. Pin name, JTAG debug port / Type, JTAG debug port / Description, Serial-wire debug port / Type, Serial-wire debug port / Description, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Pin name",
+        "JTAG debug port / Type",
+        "JTAG debug port / Description",
+        "Serial-wire debug port / Type",
+        "Serial-wire debug port / Description",
+        "Pin assignment"
+      ],
+      "rows": [
+        [
+          "JTMS/SWDIO",
+          "Input",
+          "JTAG test mode select",
+          "Input/Output",
+          "Serial-wire data in/out",
+          "PA13"
+        ],
+        [
+          "JTCK/SWCLK",
+          "Input",
+          "JTAG test clock",
+          "Input",
+          "Serial-wire clock",
+          "PA14"
+        ],
+        [
+          "JTDI (1)",
+          "Input",
+          "JTAG test data input",
+          "-",
+          "-",
+          "PA15"
+        ],
+        [
+          "JTDO",
+          "Output",
+          "JTAG test data output",
+          "-",
+          "-",
+          "PB3"
+        ],
+        [
+          "nJTRST",
+          "Input",
+          "JTAG test reset",
+          "-",
+          "-",
+          "PB4"
+        ]
+      ],
+      "notes": [
+        "1. TDI is hosted on the same IO as a USBPD-CC line. To avoid pull-up/down conflict, a user option can help to decide whether the pad is used as TDI or as CC."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_6",
+    "document": "Table 6. SWJ-DP I/O pin availability",
+    "rev": null,
+    "table_number": "6",
+    "title": "Table 6. SWJ-DP I/O pin availability",
+    "page": 16,
+    "section": "6.2.2 Flexible SWJ-DP pin assignment",
+    "section_title": "Flexible SWJ-DP pin assignment",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=16",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+    "text_helper": "Table 6. SWJ-DP I/O pin availability — section 6.2.2 Flexible SWJ-DP pin assignment. Available debug ports, SWJ-DP I/O pin assigned / PA13 /JTMS/ SWDIO, SWJ-DP I/O pin assigned / PA14 /JTCK/ SWCLK, SWJ-DP I/O pin assigned / PA15 /JTDI, SWJ-DP I/O pin assigned / PB3 /JTDO, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Available debug ports",
+        "SWJ-DP I/O pin assigned / PA13 /JTMS/ SWDIO",
+        "SWJ-DP I/O pin assigned / PA14 /JTCK/ SWCLK",
+        "SWJ-DP I/O pin assigned / PA15 /JTDI",
+        "SWJ-DP I/O pin assigned / PB3 /JTDO",
+        "SWJ-DP I/O pin assigned / PB4/nJTRST"
+      ],
+      "rows": [
+        [
+          "Full SWJ‑DP (JTAG‑DP + SW‑DP) Reset state",
+          "x",
+          "x",
+          "x",
+          "x",
+          "x"
+        ],
+        [
+          "Full SWJ‑DP (JTAG‑DP + SW‑DP) but without JNTRST",
+          "x",
+          "x",
+          "x",
+          "x",
+          "-"
+        ],
+        [
+          "JTAG-DP disabled and SW-DP enabled",
+          "x",
+          "x",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "JTAG-DP disabled and SW-DP disabled",
+          "Released",
+          "Released",
+          "Released",
+          "Released",
+          "-"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_7",
+    "document": "Table 7. SWD port pins",
+    "rev": null,
+    "table_number": "7",
+    "title": "Table 7. SWD port pins",
+    "page": 17,
+    "section": "6.3 Serial wire debug (SWD) pin assignment",
+    "section_title": "Serial wire debug (SWD) pin assignment",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=17",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+    "text_helper": "Table 7. SWD port pins — section 6.3 Serial wire debug (SWD) pin assignment. SWD pin, SWD port / Type, SWD port / Debug assignment, Pin assignment.",
+    "table_content": {
+      "headers": [
+        "SWD pin",
+        "SWD port / Type",
+        "SWD port / Debug assignment",
+        "Pin assignment"
+      ],
+      "rows": [
+        [
+          "SWDIO",
+          "Input/Output",
+          "Serial-wire data input/output",
+          "PA13"
+        ],
+        [
+          "SWCLK",
+          "Input",
+          "Serial-wire clock",
+          "PA14"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_8",
+    "document": "Table 8. Components of STM32C5 Nucleo-64 boards",
+    "rev": null,
+    "table_number": "8",
+    "title": "Table 8. Components of STM32C5 Nucleo-64 boards",
+    "page": 22,
+    "section": "8.2 Component references",
+    "section_title": "Component references",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=22",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+    "text_helper": "Table 8. Components of STM32C5 Nucleo-64 boards — section 8.2 Component references. Reference, Type, Value, Quantity, Comments.",
+    "table_content": {
+      "headers": [
+        "Reference",
+        "Type",
+        "Value",
+        "Quantity",
+        "Comments"
+      ],
+      "rows": [
+        [
+          "B1",
+          "Push-button",
+          "-",
+          "1",
+          "-"
+        ],
+        [
+          "C6",
+          "Tantalum or ceramic capacitor",
+          "4.7 µF",
+          "1",
+          "Decoupling capacitor required for the package"
+        ],
+        [
+          "C1, C2, C3, C4",
+          "Ceramic capacitor",
+          "100 nF",
+          "7",
+          "For each external power pin"
+        ],
+        [
+          "C5",
+          "Ceramic capacitor",
+          "100 nF",
+          "7",
+          "For each external power pin"
+        ],
+        [
+          "C11",
+          "Ceramic capacitor",
+          "2.2 µF",
+          "1",
+          "Required by the internal LDO regulator"
+        ],
+        [
+          "C7, C8",
+          "Ceramic capacitor",
+          "5.1 pF",
+          "2",
+          "Used for LSE, HSE: values depend on crystal characteristics"
+        ],
+        [
+          "C9, C10",
+          "Ceramic capacitor",
+          "6.8 pF",
+          "2",
+          "Used for LSE, HSE: values depend on crystal characteristics"
+        ],
+        [
+          "X1",
+          "Quartz",
+          "32.768 kHz",
+          "1",
+          "Used for LSE"
+        ],
+        [
+          "X2",
+          "Quartz",
+          "24 MHz",
+          "1",
+          "Used for HSE"
+        ],
+        [
+          "R1",
+          "Resistor",
+          "10 kΩ",
+          "1",
+          "Maintains BOOT0 pin at a logic low or high level"
+        ],
+        [
+          "SW1",
+          "Switch",
+          "-",
+          "1",
+          "Used to select the right boot mode"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_9",
+    "document": "Table 9. Document revision history",
+    "rev": null,
+    "table_number": "9",
+    "title": "Table 9. Document revision history",
+    "page": 25,
+    "section": "9.3.1 Embedded trace macrocell (ETM)",
+    "section_title": "Embedded trace macrocell (ETM)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=25",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+    "text_helper": "Table 9. Document revision history — section 9.3.1 Embedded trace macrocell (ETM). Date, Version, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Version",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "16-Feb-2026",
+          "1",
+          "Initial release."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Package/soldering process compatibility",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Package/soldering process compatibility",
+  "page": 6,
+  "section": "4.2 Soldering recommendations",
+  "section_title": "Soldering recommendations",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=6",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+  "text_helper": "Table 2. Package/soldering process compatibility — section 4.2 Soldering recommendations. Package, Reflow processing process / Process, Reflow processing process / Reliability, Wave soldering process / Process, Wave soldering process / Reliability.",
+  "table_content": {
+    "headers": [
+      "Package",
+      "Reflow processing process / Process",
+      "Reflow processing process / Reliability",
+      "Wave soldering process / Process",
+      "Wave soldering process / Reliability"
+    ],
+    "rows": [
+      [
+        "SOIC",
+        "OK",
+        "OK",
+        "Feasible",
+        "(1)"
+      ],
+      [
+        "QFP",
+        "OK",
+        "OK",
+        "Under customer responsibility (2)",
+        "(1)"
+      ],
+      [
+        "BGA",
+        "OK",
+        "OK",
+        "Impossible",
+        "N/A"
+      ],
+      [
+        "LGA",
+        "OK",
+        "OK",
+        "Impossible",
+        "N/A"
+      ],
+      [
+        "QFN/DFN",
+        "OK",
+        "OK",
+        "Impossible",
+        "N/A"
+      ],
+      [
+        "WLCSP",
+        "OK",
+        "OK",
+        "Impossible",
+        "N/A"
+      ]
+    ],
+    "notes": [
+      "1. Wave soldering with SMT packages is not qualified by STMicroelectronics. SMT package qualification performed as a standard by STMicroelectronics only includes infrared reflow soldering.",
+      "2. Wave soldering with VFQFPN, UFQFPN, and WFQFPN is not recommended because it is difficult to avoid solder bridges when leads pass through the double wave."
+    ],
+    "legend": [
+      "Reflow soldering with DIP and wave soldering with BGA, VFQFPN, UFQFPN, WFQFPN, and WLCSP are strictly impossible",
+      "due to the lead/ball configuration."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

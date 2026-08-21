@@ -1,0 +1,53 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. Comparator output connected externally to break inputs, with low break polarity",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. Comparator output connected externally to break inputs, with low break polarity",
+  "page": 17,
+  "section": "6.3 Using an external emergency signal together with the internal comparator",
+  "section_title": "Using an external emergency signal together with the internal comparator",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+  "text_helper": "Table 7. Comparator output connected externally to break inputs, with low break polarity — section 6.3 Using an external emergency signal together with the internal comparator. Description, Register, Bit, Configuration.",
+  "table_content": {
+    "headers": [
+      "Description",
+      "Register",
+      "Bit",
+      "Configuration"
+    ],
+    "rows": [
+      [
+        "TIM1/8/20 BRK polarity",
+        "TIMx_BDTR",
+        "BKP",
+        "0 (active low), it means that the external signal goes low during the fault"
+      ],
+      [
+        "TIM1/8/20 BKIN AF",
+        "GPIOxAFRL or GPIOxAFRH",
+        "-",
+        "AF enabled on BKIN pin selected among available"
+      ],
+      [
+        "TIM1/8/20 BRK enable",
+        "TIMX_BDTR",
+        "BKE",
+        "1"
+      ],
+      [
+        "COMPx out selection",
+        "COMPx_CSR",
+        "COMPxOUTSEL",
+        "0001: TIM1 BRK 0011: TIM8 BRK 1100: TIM20 BRK"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

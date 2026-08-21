@@ -1,0 +1,22 @@
+{
+  "table_id": "table_9",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "05-Feb-2026 4 Updated document title.",
+      "row_index": 3,
+      "analyse_visuelle": "Sur l'image, la date de la révision 4 est '05-Feb-2021' et non '05-Feb-2026'. Le dernier chiffre est un '1' identique à celui de la ligne précédente.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "05-Feb-2026",
+          "nouvelle_valeur": "05-Feb-2021",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

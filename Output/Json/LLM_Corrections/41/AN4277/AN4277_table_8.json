@@ -1,0 +1,22 @@
+{
+  "table_id": "table_8",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "TIM1/8/20 BRK/BRK2 enable",
+      "row_index": 3,
+      "analyse_visuelle": "Dans la colonne Register, 'TIMX_BDTR' est écrit 'TIMx_BDTR' avec un 'x' minuscule sur l'image.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "TIMX_BDTR",
+          "nouvelle_valeur": "TIMx_BDTR",
+          "confiance": 95
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

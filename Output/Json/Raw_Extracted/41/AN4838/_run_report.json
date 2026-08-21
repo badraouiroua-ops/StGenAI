@@ -1,0 +1,97 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN4838.pdf",
+  "family": "41",
+  "pdf_name": "AN4838",
+  "tables_found": 10,
+  "tables_extracted": 10,
+  "high": 10,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_5",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 5. Cache properties and shareability",
+      "page": 8,
+      "merged_pages": [
+        8
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"TEX\", \"C\", \"B\", \"Memory type\", \"Description\", \"Shareable\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 6
+      }
+    },
+    {
+      "table_id": "table_6",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 6. MPU register summary",
+      "page": 12,
+      "merged_pages": [
+        12
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"AdressName\", \"Type\", \"Reset value\", \"Description\"]",
+      "rows_count": 13,
+      "heuristics": {
+        "cols_extracted": 4,
+        "_notes": [
+          "1. MPU_TYPE[15:8] depends on the number of MPU regions configured. This value can be 0, 4, 8, 12, or 16. AN4838 - Rev 11 page 12/24"
+        ]
+      }
+    },
+    {
+      "table_id": "table_10",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 10. Document revision history",
+      "page": 19,
+      "merged_pages": [
+        19,
+        20
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"Date\", \"Revision\", \"Changes\"]",
+      "rows_count": 11,
+      "heuristics": {
+        "cols_extracted": 3,
+        "continuation": {
+          "base_cols": 3,
+          "cont_cols_raw": 0,
+          "target_cols": 3,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        }
+      }
+    }
+  ],
+  "dedup_rows_removed": 0,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

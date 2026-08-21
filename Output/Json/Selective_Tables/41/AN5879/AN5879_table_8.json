@@ -1,0 +1,153 @@
+{
+  "table_id": "table_8",
+  "document": "Table 8. List of supported CCCs supported by LSM6DSO",
+  "rev": null,
+  "table_number": "8",
+  "title": "Table 8. List of supported CCCs supported by LSM6DSO",
+  "page": 16,
+  "section": "8.8 Supported common command codes",
+  "section_title": "Supported common command codes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 8. List of supported CCCs supported by LSM6DSO — section 8.8 Supported common command codes. Command name, Command code, CCC type.",
+  "table_content": {
+    "headers": [
+      "Command name",
+      "Command code",
+      "CCC type"
+    ],
+    "rows": [
+      [
+        "ENTDAA",
+        "0x07",
+        "Broadcast"
+      ],
+      [
+        "SETDASA",
+        "0x87",
+        "Direct"
+      ],
+      [
+        "ENEC",
+        "0x00",
+        "Broadcast"
+      ],
+      [
+        "ENEC",
+        "0x80",
+        "Direct"
+      ],
+      [
+        "DISEC",
+        "0x01",
+        "Broadcast"
+      ],
+      [
+        "DISEC",
+        "0x81",
+        "Direct"
+      ],
+      [
+        "ENTAS 0...3",
+        "0x82 to 0x85",
+        "Direct"
+      ],
+      [
+        "ENTAS 0...3",
+        "0x02 to0x05",
+        "Broadcast"
+      ],
+      [
+        "SETXTIME",
+        "0x28",
+        "Broadcast"
+      ],
+      [
+        "SETXTIME",
+        "0x98",
+        "Direct"
+      ],
+      [
+        "GETXTIME",
+        "0x99",
+        "Direct"
+      ],
+      [
+        "RSTDAA",
+        "0x06",
+        "Broadcast"
+      ],
+      [
+        "RSTDAA",
+        "0x86",
+        "Direct"
+      ],
+      [
+        "SETMWL",
+        "0x08",
+        "Broadcast"
+      ],
+      [
+        "SETMWL",
+        "0x89",
+        "Direct"
+      ],
+      [
+        "SETMRL",
+        "0x09",
+        "Broadcast"
+      ],
+      [
+        "SETMRL",
+        "0x8A",
+        "Direct"
+      ],
+      [
+        "SETNEWDA",
+        "0x88",
+        "Direct Set"
+      ],
+      [
+        "GETMWL",
+        "0x8B",
+        "Direct Get"
+      ],
+      [
+        "GETMRL",
+        "0x8C",
+        "Direct Get"
+      ],
+      [
+        "GETPID",
+        "0x8D",
+        "Direct Get"
+      ],
+      [
+        "GETBCR",
+        "0x8E",
+        "Direct Get"
+      ],
+      [
+        "GETDCR",
+        "0x8F",
+        "Direct Get"
+      ],
+      [
+        "GETSTATUS",
+        "0x90",
+        "Direct Get"
+      ],
+      [
+        "GETMXDS",
+        "0x94",
+        "Direct Get"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

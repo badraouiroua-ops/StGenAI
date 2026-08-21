@@ -1,0 +1,114 @@
+{
+  "table_id": "table_82",
+  "document": "DS15136 Rev 1 - Table 82. LQFP80 - Mechanical data",
+  "rev": "Rev 1",
+  "table_number": "82",
+  "title": "Table 82. LQFP80 - Mechanical data",
+  "page": 127,
+  "section": "1.2 REF",
+  "section_title": "REF",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=127",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "text_helper": "Table 82. LQFP80 - Mechanical data — section 1.2 REF. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(14.) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min",
+      "millimeters / Typ",
+      "millimeters / Max",
+      "inches(14.) / Min",
+      "inches(14.) / Typ",
+      "inches(14.) / Max"
+    ],
+    "rows": [
+      [
+        "A",
+        "-",
+        "-",
+        "1.60",
+        "-",
+        "-",
+        "0.0630"
+      ],
+      [
+        "b1(11.)",
+        "0.17",
+        "0.20",
+        "0.23",
+        "00067",
+        "0.0079",
+        "0.0091"
+      ],
+      [
+        "D(4.)",
+        "14.00 BSC",
+        "14.00 BSC",
+        "14.00 BSC",
+        "0.5512 BSC",
+        "0.5512 BSC",
+        "0.5512 BSC"
+      ],
+      [
+        "D1(2.)(5.)",
+        "12.00 BSC",
+        "12.00 BSC",
+        "12.00 BSC",
+        "0.4724 BSC",
+        "0.4724 BSC",
+        "0.4724 BSC"
+      ],
+      [
+        "E(4.)",
+        "14.00 BSC",
+        "14.00 BSC",
+        "14.00 BSC",
+        "0.5512 BSC",
+        "0.5512 BSC",
+        "0.5512 BSC"
+      ],
+      [
+        "E1(2.)(5.)",
+        "12.00 BSC",
+        "12.00 BSC",
+        "12.00 BSC",
+        "0.4724 BSC",
+        "0.4724 BSC",
+        "0.4724 BSC"
+      ],
+      [
+        "L1",
+        "-",
+        "1.00",
+        "-",
+        "-",
+        "0.0394",
+        "-"
+      ],
+      [
+        "N(13.)",
+        "80",
+        "80",
+        "80",
+        "80",
+        "80",
+        "80"
+      ]
+    ],
+    "notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+      "2. The top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+      "3. Datums A-B and D to be determined at datum plane H.",
+      "4. To be determined at seating datum plane C.",
+      "5. Dimensions D1and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size dimensions including mold mismatch.",
+      "6. Details of pin 1 identifier are optional but must be located within the zone indicated.",
+      "7. All dimensions are in millimeters.",
+      "8. No intrusion allowed inwards the leads.",
+      "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm. Dambar cannot be located on the lower radius"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

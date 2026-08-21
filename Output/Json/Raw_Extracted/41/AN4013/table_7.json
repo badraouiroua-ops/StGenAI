@@ -1,0 +1,67 @@
+{
+  "table_id": "table_7",
+  "caption": "Table 7. Behavior of timer outputs versus Break1 and Break2 inputs",
+  "pdf_name": "AN4013",
+  "family": "41",
+  "page": 34,
+  "merged_pages": [
+    34
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=34",
+  "section": "4.3.2 Break input",
+  "headers": [
+    "Break input 1",
+    "Break input 2",
+    "NxCO tuptuo",
+    "OCx output"
+  ],
+  "rows": [
+    [
+      "Active",
+      "Inactive",
+      "ON after deadtime insertion",
+      "OFF"
+    ],
+    [
+      "Inactive",
+      "Active",
+      "OFF",
+      "OFF"
+    ],
+    [
+      "Active",
+      "-",
+      "ON after deadtime insertion",
+      "OFF"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. LOCK Level 2 = LOCK Level 1 + CC polarity bits (CCxP/CCxNP bits in TIMx_CCER).",
+      "2. LOCK Level 3 = LOCK Level 2 + CC control bits (OCxM and OCxPE.",
+      "3. Bits present in STM32L4/F7/L5/U3/U5/G0/G4/WBA/WB/WB0/H7/N6 series and STM32F30x/F3x8 lines. Note: The LOCK bits can only be written once after the reset. Once the BDTR register has been"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4013",
+    "table_id": "table_7",
+    "is_continued": false,
+    "pages": [
+      34
+    ],
+    "rows_count": 3,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

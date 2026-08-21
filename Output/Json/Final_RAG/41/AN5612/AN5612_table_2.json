@@ -1,0 +1,39 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Reference documents",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Reference documents",
+  "page": 2,
+  "section": "1 General information",
+  "section_title": "General information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5612.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5612.pdf",
+  "text_helper": "Table 2. Reference documents — section 1 General information. Reference number, Document title.",
+  "table_content": {
+    "headers": [
+      "Reference number",
+      "Document title"
+    ],
+    "rows": [
+      [
+        "[1]",
+        "EMC design guide for STM8, STM32 and Legacy MCUs, AN1709"
+      ],
+      [
+        "[2]",
+        "ESD considerations for touch sensing applications on MCUs, AN3960"
+      ],
+      [
+        "Category",
+        "Document"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

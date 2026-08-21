@@ -1,0 +1,57 @@
+{
+  "table_id": "table_4",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau",
+      "row_index": null,
+      "analyse_visuelle": "L'extracteur a fusionné le texte des en-têtes avec les valeurs de la ligne unique sous-jacente.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Peripheral request to LPDMA / adcx_dma (x = 1, 2, 3)",
+          "nouvelle_valeur": "Peripheral request to LPDMA",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Peripheral bus / AHB2",
+          "nouvelle_valeur": "Peripheral bus",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Peripheral FIFO (unit, size) / 8-word FIFO",
+          "nouvelle_valeur": "Peripheral FIFO (unit, size)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Peripheral register access / Read ADC_DR",
+          "nouvelle_valeur": "Peripheral register access",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 4,
+          "valeur_originale_json": "Comments / The ADC1/2/3 data register (ADC_DR) must be read with a 32‑bit aligned address, whatever the data width.",
+          "nouvelle_valeur": "Comments",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "adcx_dma (x = 1, 2, 3)",
+        "AHB2",
+        "8-word FIFO",
+        "Read ADC_DR",
+        "The ADC1/2/3 data register (ADC_DR) must be read with a 32-bit aligned address, whatever the data width."
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

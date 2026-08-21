@@ -1,0 +1,221 @@
+{
+  "table_id": "table_58",
+  "caption": "Table 58. PLL1 to PLL4 characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 165,
+  "merged_pages": [
+    165
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=165",
+  "section": "5.3.11 PLL characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f PLL_IN",
+      "PLL input clock",
+      "Normal mode",
+      "5",
+      "-",
+      "64",
+      "MHz"
+    ],
+    [
+      "f PLL_IN",
+      "PLL input clock",
+      "Sigma delta mode",
+      "10",
+      "-",
+      "64",
+      "MHz"
+    ],
+    [
+      "f PFD",
+      "PFD input clock",
+      "Normal mode",
+      "5",
+      "f / FREFDIV PLL_IN",
+      "50",
+      "MHz"
+    ],
+    [
+      "f PFD",
+      "PFD input clock",
+      "Sigma delta mode",
+      "10",
+      "-",
+      "min(50, f / 20) VCO",
+      "MHz"
+    ],
+    [
+      "f FOUTPOSTDIV",
+      "Divided output clock",
+      "Divided output clock",
+      "16.32",
+      "-",
+      "3200",
+      "MHz"
+    ],
+    [
+      "f FOUTPOSTDIV",
+      "Divided output clock duty cycle",
+      "Division by 1",
+      "48",
+      "50",
+      "52",
+      "%"
+    ],
+    [
+      "f FOUTPOSTDIV",
+      "Divided output clock duty cycle",
+      "Even division",
+      "48",
+      "50",
+      "52",
+      "%"
+    ],
+    [
+      "f FOUTPOSTDIV",
+      "Divided output clock duty cycle",
+      "Odd division",
+      "47",
+      "50",
+      "53",
+      "%"
+    ],
+    [
+      "f VCO",
+      "PLL VCO output",
+      "PLL VCO output",
+      "800",
+      "-",
+      "3200",
+      "MHz"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Frequency lock",
+      "-",
+      "-",
+      "400",
+      "1 / f PFD cycles"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "f = 40 MHz PFD (f = 40 MHz, PLL_IN FREFDIV = 1)",
+      "-",
+      "-",
+      "10",
+      "μs"
+    ],
+    [
+      "Jitter",
+      "RMS period jitter",
+      "f = 3200 MHz VCO",
+      "-",
+      "-",
+      "±0.26",
+      "ps"
+    ],
+    [
+      "Jitter",
+      "RMS integrated jitter (10 kHz - 20 MHz)",
+      "f = 3200 MHz, VCO f = 25 MHz, PFD integer divider",
+      "-",
+      "±2.7",
+      "±6.6",
+      "ps"
+    ],
+    [
+      "Jitter",
+      "RMS integrated jitter (10 kHz - 20 MHz)",
+      "f = 3200 MHz, VCO f = 25 MHz, PFD fracN divider",
+      "-",
+      "-",
+      "±11.9",
+      "ps"
+    ],
+    [
+      "I VDDA18PLL",
+      "PLL supply current on V DDA18PLL (analog)",
+      "f = 3200 MHz, VCO FBDIV < 256",
+      "-",
+      "5750",
+      "6850",
+      "μA"
+    ],
+    [
+      "I VDDA18PLL",
+      "PLL supply current on V DDA18PLL (analog)",
+      "f = 3200 MHz, VCO FBDIV > 256",
+      "-",
+      "7050",
+      "8450",
+      "μA"
+    ],
+    [
+      "I VDDA18PLL",
+      "PLL supply current on V DDA18PLL (analog)",
+      "f = 800 MHz, VCO FBDIV < 256",
+      "-",
+      "715",
+      "860",
+      "μA"
+    ],
+    [
+      "I VDDCORE(PLL)",
+      "PLL supply current on V (0.81 V) DDCORE",
+      "f = 3200 MHz VCO",
+      "-",
+      "1200",
+      "3650",
+      "μA"
+    ],
+    [
+      "I VDDCORE(PLL)",
+      "PLL supply current on V (0.81 V) DDCORE",
+      "f = 800 MHz VCO",
+      "-",
+      "295",
+      "910",
+      "μA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Specified by design, not tested in production unless otherwise specified."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_58",
+    "is_continued": false,
+    "pages": [
+      165
+    ],
+    "rows_count": 19,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

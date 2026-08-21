@@ -1,0 +1,46 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau (Headers)",
+      "row_index": null,
+      "analyse_visuelle": "Correction du texte inversé (RTL) issu des en-têtes verticaux pour les colonnes 2, 3, 5, 6 et 8.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "270F23MTS 870F23MTS x40F23MTS / USB 2.0 FS device interface",
+          "nouvelle_valeur": "STM32F072 STM32F078 STM32F04x / USB 2.0 FS device interface",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "201F23MTS 301F23MTS / USB 2.0 FS device interface",
+          "nouvelle_valeur": "STM32F102 STM32F103 / USB 2.0 FS device interface",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "C/Bx203F23MTS C/Bx303F23MTS 373F23MTS / USB 2.0 FS device interface",
+          "nouvelle_valeur": "STM32F302xB/C STM32F303xB/C STM32F373 / USB 2.0 FS device interface",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 6,
+          "valeur_originale_json": "8/6x203F23MTS E/Dx203F23MTS E/Dx303F23MTS / USB 2.0 FS device interface",
+          "nouvelle_valeur": "STM32F302x6/8 STM32F302xD/E STM32F303xD/E / USB 2.0 FS device interface",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 8,
+          "valeur_originale_json": "xx0B0G23MTS xx1C0G23MTS / USB 2.0 FS host/device interface",
+          "nouvelle_valeur": "STM32G0B0xx STM32G0C1xx / USB 2.0 FS host/device interface",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

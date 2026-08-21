@@ -1,0 +1,106 @@
+{
+  "table_id": "table_18",
+  "caption": "Table 18. Port C alternate function mapping (AF8 to AF15)",
+  "pdf_name": "stm32c051c6",
+  "family": "C0",
+  "page": 38,
+  "merged_pages": [
+    38
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=38",
+  "section": "4 Pinouts, pin description and alternate functions",
+  "headers": [
+    "Port",
+    "AF8",
+    "AF9",
+    "AF10",
+    "AF11",
+    "AF12",
+    "AF13",
+    "AF14",
+    "AF15"
+  ],
+  "rows": [
+    [
+      "PC6",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC7",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC13",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PC14",
+      "IR_OUT",
+      "USART2_RTS/ USART2_DE",
+      "TIM17_CH1",
+      "TIM3_CH2",
+      "SPI2_NSS",
+      "-",
+      "I2C1_SDA",
+      "EVENTOUT"
+    ],
+    [
+      "PC15",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 9,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 9
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c051c6",
+    "table_id": "table_18",
+    "is_continued": false,
+    "pages": [
+      38
+    ],
+    "rows_count": 5,
+    "cols_count": 9,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

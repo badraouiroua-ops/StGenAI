@@ -1,0 +1,286 @@
+[
+  {
+    "features": {
+      "pdf_name": "AN6363",
+      "family": "41",
+      "pdf_type": 2,
+      "doc_ref": null,
+      "revision": null,
+      "date": null,
+      "title": "Introduction to clock requirements and calibration for STM32 MCUs Introduction This document describes the clock scheme and its capabilities for STM32 MCUs. Two oscillators, HSI and PSI, provide the",
+      "url_pdf": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+      "page": 1,
+      "core": null,
+      "fpu": false,
+      "max_frequency_mhz": null,
+      "flash_kb": null,
+      "ram_kb": null,
+      "voltage_min_v": null,
+      "voltage_max_v": null,
+      "operating_temp_c": [],
+      "packages": [],
+      "device_summary": null,
+      "extraction_meta": {
+        "source_pages": [
+          1
+        ],
+        "extraction_method": "regex_type2",
+        "text_extraction_reliable": true,
+        "packages_source": "text",
+        "confidence": "medium",
+        "missing_fields": [
+          "core",
+          "max_frequency_mhz",
+          "flash_kb",
+          "ram_kb",
+          "voltage_min_v",
+          "voltage_max_v",
+          "operating_temp_c"
+        ],
+        "low_confidence_fields": []
+      }
+    }
+  },
+  {
+    "table_id": "table_1",
+    "caption": "Table 1. CAN network example configuration",
+    "pdf_name": "AN6363",
+    "family": "41",
+    "page": 6,
+    "merged_pages": [
+      6
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN6363.pdf#page=6",
+    "section": "2.2.3 Example for a CAN network",
+    "headers": [
+      "Speed",
+      "Register configuration",
+      "Condition properties"
+    ],
+    "rows": [
+      [
+        "Nominal (FDCAN_NBTP)",
+        "NBRP = 7 NSJW = 3 NTSEG1 = 4 NTSEG2 = 3 PROP_SEG(N) = 1",
+        "BRPN=8 SJWN=4 PS1N=4 PS2N=4"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN6363",
+      "table_id": "table_1",
+      "is_continued": false,
+      "pages": [
+        6
+      ],
+      "rows_count": 1,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_2",
+    "caption": "Table 2. FDCAN network example configuration",
+    "pdf_name": "AN6363",
+    "family": "41",
+    "page": 7,
+    "merged_pages": [
+      7
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN6363.pdf#page=7",
+    "section": "2.2.4 Example for a FDCAN network",
+    "headers": [
+      "Speed",
+      "Register configuration",
+      "Condition properties"
+    ],
+    "rows": [
+      [
+        "Nominal (FDCAN_NBTP)",
+        "NBRP = 3 NSJW = 3 NTSEG1 = 18 NTSEG2 = 3 PROP_SEG(N) = 1",
+        "BRPN=4 SJWN=4 PS1N=18 PS2N=4"
+      ],
+      [
+        "Data (FDCAN_DBTP)",
+        "DBRP = 1 DSJW = 3 DTSEG1 = 6 DTSEG2 = 3 PROP_SEG(D) = 1",
+        "BTN=24 BRPD=2 SJWD=4 PS1D=6 PS2D=4"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN6363",
+      "table_id": "table_2",
+      "is_continued": false,
+      "pages": [
+        7
+      ],
+      "rows_count": 2,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_3",
+    "caption": "Table 3. Clock requirements per peripheral",
+    "pdf_name": "AN6363",
+    "family": "41",
+    "page": 19,
+    "merged_pages": [
+      19
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN6363.pdf#page=19",
+    "section": "3.2 Accuracy achievable on PSI",
+    "headers": [
+      "Peripheral",
+      "Recommanded accuracy",
+      "Recommended clock source"
+    ],
+    "rows": [
+      [
+        "UART",
+        "±1.5%",
+        "HSI (trimmed) or external crystal"
+      ],
+      [
+        "FDCAN",
+        "≤0.65%",
+        "External crystal in direct or via PSI"
+      ],
+      [
+        "USB FS host",
+        "±0.05%",
+        "48 MHz from external crystal (HSE or PSI)"
+      ],
+      [
+        "USB FS device",
+        "±0.25%",
+        "48 MHz (HSE or HSI with CRS)"
+      ],
+      [
+        "Ethernet",
+        "±100 ppm",
+        "External 25/50 MHz crystal"
+      ],
+      [
+        "SPI",
+        "Low sensitivity",
+        "HSI or PSI"
+      ],
+      [
+        "I2C",
+        "Low sensitivity",
+        "HSI or PSI"
+      ],
+      [
+        "I3C",
+        "Jitter critical at 12.5 MHz",
+        "HSI or PSI"
+      ],
+      [
+        "ADC",
+        "Jitter < 1 ps RMS for high speed, but depends on the application",
+        "External low-jitter source"
+      ],
+      [
+        "Timers",
+        "Depends on the application",
+        "HSI or external"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN6363",
+      "table_id": "table_3",
+      "is_continued": false,
+      "pages": [
+        19
+      ],
+      "rows_count": 10,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_4",
+    "caption": "Table 4. Document revision history",
+    "pdf_name": "AN6363",
+    "family": "41",
+    "page": 22,
+    "merged_pages": [
+      22
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN6363.pdf#page=22",
+    "section": "5 Conclusion",
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "02-Feb-2026",
+        "1",
+        "Initial release."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN6363",
+      "table_id": "table_4",
+      "is_continued": false,
+      "pages": [
+        22
+      ],
+      "rows_count": 1,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  }
+]

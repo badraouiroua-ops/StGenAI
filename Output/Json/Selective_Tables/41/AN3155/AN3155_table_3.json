@@ -1,0 +1,57 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Bootloader protocol versions",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Bootloader protocol versions",
+  "page": 48,
+  "section": "4 Bootloader protocol version evolution",
+  "section_title": "Bootloader protocol version evolution",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN3155.pdf#page=48",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN3155.pdf",
+  "text_helper": "Table 3. Bootloader protocol versions — section 4 Bootloader protocol version evolution. Version, Description.",
+  "table_content": {
+    "headers": [
+      "Version",
+      "Description"
+    ],
+    "rows": [
+      [
+        "V2.0",
+        "Initial bootloader version."
+      ],
+      [
+        "V2.1",
+        "– Update Go command to initialize the main stack pointer – Update Go command to return NACK when jump address is in the option byte area or system memory area – Update Get ID command to return the device ID on two bytes – Update the bootloader version to V2.1"
+      ],
+      [
+        "V2.2",
+        "– Update Read Memory, Write Memory and Go commands to deny access, with an NACK response, to the first bytes of RAM used by the bootloader – Update Readout Unprotect command to initialize the whole RAM content to 0x0 before RDP disable operation"
+      ],
+      [
+        "V3.0",
+        "– Extended Erase command added to support number of pages larger than 256 and separate bank mass erase – Erase command has not been modified in this version but, due to addition of the Extended Erase command, it is no longer supported (Erase and Extended Erase commands are exclusive)"
+      ],
+      [
+        "V3.1",
+        "– Limitation fix of: When a Read Memory command or Write Memory command is issued with an unsupported memory address and a correct address checksum (i.e. address 0x6000 0000), the command is aborted by the bootloader device, but the NACK (0x1F) is not sent to the host. As a result, the next two bytes (that is, the number of bytes to be read/written and its checksum) are considered as a new command and its checksum (2). – No changes in specification, the product implementation has been corrected"
+      ],
+      [
+        "V3.3",
+        "– Added support for Get Checksum command – Updated Get Command command to return the opcode of the Get Checksum command"
+      ],
+      [
+        "V4.0",
+        "– Number of commands can vary from device to device with the same protocol. To know supported commands, use Get command"
+      ]
+    ],
+    "notes": [
+      "2. If the “number of data - 1” (N-1) to be read/written is not equal to a valid command code (0x00, 0x01, 0x02, 0x11, 0x21, 0x31, 0x43, 0x44, 0x63, 0x73, 0x82, or 0x92), the limitation is not perceived from the host as"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

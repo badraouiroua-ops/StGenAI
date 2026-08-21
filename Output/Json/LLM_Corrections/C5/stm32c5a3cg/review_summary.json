@@ -1,0 +1,66 @@
+[
+  {
+    "table_file": "DS15137_Rev_2_table_7.json",
+    "table_id": "table_7",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "BOUCLIER-4: Annulation car au moins une correction avait une confiance < 80%."
+    ]
+  },
+  {
+    "table_file": "DS15137_Rev_2_table_58.json",
+    "table_id": "table_58",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Grave problème de structure et d'extraction à la transition de page (page 95) : à partir de la ligne 17, les colonnes Min, Typ, Max et Unit sont complètement décalées et mélangées dans les sous-colonnes Conditions (ex: '3' et '10' placés dans Conditions, 'pF' et 'µs' répétés dans les bornes, Unit valant 'Ω'). De plus, de nombreuses lignes de la seconde partie de la Table 58 sont totalement manquantes (tSTAB, tOFF_CAL, tLATR, tS, tCONV, IDDA(ADC)). Une révision manuelle est indispensable."
+    ]
+  },
+  {
+    "table_file": "DS15137_Rev_2_table_60.json",
+    "table_id": "table_60",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Incohérence structurelle majeure : Le JSON fusionne Table 60 (page 99) et la suite de Table 62 (page 100), tout en omettant Table 61 et la première partie de Table 62. De plus, la colonne 'Conditions' est absente de l'en-tête, provoquant un décalage généralisé de toutes les colonnes."
+    ]
+  },
+  {
+    "table_file": "DS15137_Rev_2_table_81.json",
+    "table_id": "table_81",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Tableau fortement incomplet et décalé : 11 lignes complètes sont manquantes (A, A1, A2, b, c, c1, L, L1, R1, R2, S). De plus, les valeurs des cellules fusionnées horizontalement (D, D1, E, E1, e, N, aaa, bbb, ccc, ddd) ont été dupliquées à travers toutes les colonnes."
+    ]
+  },
+  {
+    "table_file": "DS15137_Rev_2_table_82.json",
+    "table_id": "table_82",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Le tableau extrait comporte 6 colonnes au lieu de 7 colonnes présentes dans l'image (les colonnes Millimètres Typ et Max ont été fusionnées en 'Millimeters / Typ Max'). De plus, les cellules fusionnées ont entraîné la duplication de valeurs sur plusieurs colonnes. Ne pouvant ni ajouter de colonne ni vider des cellules contenant du texte, une révision manuelle est nécessaire."
+    ]
+  },
+  {
+    "table_file": "DS15137_Rev_2_table_83.json",
+    "table_id": "table_83",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "La grande majorité des lignes du tableau sont manquantes dans le JSON (A, A1, A2, b, b1, c, c1, e, L, Θ, Θ1, Θ2, Θ3, R1, R2, S, aaa, bbb, ccc, ddd). Les cellules fusionnées horizontalement ont également été dupliquées de façon erronée sur toutes les colonnes."
+    ]
+  },
+  {
+    "table_file": "DS15137_Rev_2_table_84.json",
+    "table_id": "table_84",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "La majorité des lignes du tableau (A, A1, A2, b, c, c1, e, L, Θ, Θ1, Θ2, Θ3, R1, R2, S, aaa, bbb, ccc, ddd) sont manquantes dans l'extraction JSON de pdfplumber. Une révision manuelle ou une ré-extraction complète est requise."
+    ]
+  },
+  {
+    "table_file": "DS15137_Rev_2_table_85.json",
+    "table_id": "table_85",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Plus de la moitié des lignes du tableau sont manquantes dans le JSON (A1, A2, b, b1, c, c1, e, L, Θ, Θ1, Θ2, Θ3, R1, R2, S). De plus, les valeurs des cellules fusionnées ont été dupliquées à travers toutes les colonnes."
+    ]
+  }
+]

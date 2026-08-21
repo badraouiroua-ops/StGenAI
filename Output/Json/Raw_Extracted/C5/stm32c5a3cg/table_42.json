@@ -1,0 +1,78 @@
+{
+  "table_id": "table_42",
+  "caption": "Table 42. Flash memory user and EDATA endurance and data retention.",
+  "pdf_name": "stm32c5a3cg",
+  "family": "C5",
+  "page": 81,
+  "merged_pages": [
+    81
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=81",
+  "section": "5.3.10 Flash memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "NEND",
+      "Endurance",
+      "TJ = -40 to 140 °C",
+      "10",
+      "Kcycle"
+    ],
+    [
+      "tRET",
+      "Data retention",
+      "1 Kcycle at TJ = 125 °C",
+      "10",
+      "Year"
+    ],
+    [
+      "tRET",
+      "Data retention",
+      "1 Kcycle at TJ = 85 °C",
+      "30",
+      "Year"
+    ],
+    [
+      "tRET",
+      "Data retention",
+      "10 Kcycle at TJ = 55 °C",
+      "30",
+      "Year"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.769,
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by test production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c5a3cg",
+    "table_id": "table_42",
+    "is_continued": false,
+    "pages": [
+      81
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

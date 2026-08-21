@@ -1,0 +1,74 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Device summary",
+  "pdf_name": "stm32c031c4",
+  "family": "C0",
+  "page": 1,
+  "merged_pages": [
+    1
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=1",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Reference",
+    "Part number"
+  ],
+  "rows": [
+    [
+      "STM32C031x4",
+      "STM32C031C4"
+    ],
+    [
+      "STM32C031x4",
+      "STM32C031F4"
+    ],
+    [
+      "STM32C031x4",
+      "STM32C031G4"
+    ],
+    [
+      "STM32C031x4",
+      "STM32C031K4"
+    ],
+    [
+      "STM32C031x6",
+      "STM32C031C6"
+    ],
+    [
+      "STM32C031x6",
+      "STM32C031F6"
+    ],
+    [
+      "STM32C031x6",
+      "STM32C031G6"
+    ],
+    [
+      "STM32C031x6",
+      "STM32C031K6"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c031c4",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      1
+    ],
+    "rows_count": 8,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

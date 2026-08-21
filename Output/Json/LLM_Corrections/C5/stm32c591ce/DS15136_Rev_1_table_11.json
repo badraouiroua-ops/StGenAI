@@ -1,0 +1,24 @@
+{
+  "table_id": "table_11",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Cases vides ignorées pour traitement manuel",
+    "Lignes d'en-tête répétées suite aux sauts de page identifiées et supprimées"
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    16,
+    32,
+    42,
+    50,
+    70,
+    80,
+    93,
+    106,
+    117,
+    127,
+    142,
+    149
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "table_10",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "10-Oct-2019",
+      "row_index": 6,
+      "analyse_visuelle": "Suppression de l'espace indésirable dans le code 'J-STD-020D'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Updated Section Introduction, title of Section 2: Packages overview, Table 1. Package types, Table 3. JEDEC standard lead-free reflow profile (according to J- STD-020D).",
+          "nouvelle_valeur": "Updated Section Introduction, title of Section 2: Packages overview, Table 1. Package types, Table 3. JEDEC standard lead-free reflow profile (according to J-STD-020D).",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,50 @@
+{
+  "table_id": "table_16",
+  "caption": "Table 16. Controller software settings for in-band interrupt",
+  "pdf_name": "AN5879",
+  "family": "41",
+  "page": 40,
+  "merged_pages": [
+    40
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=40",
+  "section": "9.9.2.1 Controller",
+  "headers": [
+    "2V14917TD",
+    "• Assign a dynamic address. • Activate notifications for specially for this example. • In-band interrupt requested by a target."
+  ],
+  "rows": [
+    [
+      "2V24917TD",
+      "Start the listen mode process."
+    ],
+    [
+      "DT71943V2DT71942V2DT71941V2",
+      "• I3C target requests a dynamic address callback. • I3C notifies callback after receiving a notification."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5879",
+    "table_id": "table_16",
+    "is_continued": false,
+    "pages": [
+      40
+    ],
+    "rows_count": 2,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

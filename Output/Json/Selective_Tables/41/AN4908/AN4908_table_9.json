@@ -1,0 +1,68 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Document revision history",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Document revision history",
+  "page": 18,
+  "section": "5 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4908.pdf#page=18",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4908.pdf",
+  "text_helper": "Table 9. Document revision history — section 5 Conclusion. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "15-Nov-2016",
+        "1",
+        "Initial release."
+      ],
+      [
+        "01-Oct-2020",
+        "2",
+        "The following tables now scope STM32H7 series products: • Table 1: Applicable products • Table 2: USART hardware automatic baud rate detection on STM32 Series devices • Table 3: Hardware automatic baud rate detection on STM32 USART interfaces."
+      ],
+      [
+        "12-Jan-2023",
+        "3",
+        "Added STM32C0 and STM32U5 series: • Updated Table 1: Applicable products, Table 2: USART hardware automatic baud rate detection on STM32 Series devices and Table 3: Hardware automatic baud rate detection on STM32 USART interfaces • Modified STM32H7 series products in Table 3: Hardware automatic baud rate detection on STM32 USART interfaces"
+      ],
+      [
+        "08-Mar-2024",
+        "4",
+        "The following tables now scope STM32G0, STM32H5, STM32L4, STM32L5, STM32U0, STM32WB STM32WBA, STM32WBL series products: • Table 1. Applicable products • Table 2. USART hardware automatic baud rate detection on STM32 series devices • Table 3. Hardware automatic baud rate detection on STM32 USART interfaces (mainstream) • Table 4. Hardware automatic baud rate detection on STM32 USART interfaces (high performance) • Table 5. Hardware automatic baud rate detection on STM32 USART interfaces (ultra-low power) • Table 6. Hardware automatic baud rate detection on STM32 USART interfaces (wireless)"
+      ],
+      [
+        "12-Jun-2024",
+        "5",
+        "The following tables now scope STM32G4 series, STM32WB0 series, and STM32H7Rx/7Sx products: • Table 1. Applicable products • Table 2. USART hardware automatic baud rate detection on STM32 series devices • Table 3. Hardware automatic baud rate detection on STM32 USART interfaces (mainstream) • Table 4. Hardware automatic baud rate detection on STM32 USART interfaces (high performance) • Table 5. Hardware automatic baud rate detection on STM32 USART interfaces (ultra-low power) • Table 6. Hardware automatic baud rate detection on STM32 USART interfaces (wireless)"
+      ],
+      [
+        "06-Sep-2024",
+        "6",
+        "Updated: • Document title • Table 3. Hardware automatic baud rate detection on STM32 USART interfaces (mainstream) • Table 5. Hardware automatic baud rate detection on STM32 USART interfaces (ultra-low power) • Table 6. Hardware automatic baud rate detection on STM32 USART interfaces (wireless)"
+      ],
+      [
+        "16-Dec-2024",
+        "7",
+        "The following tables now scope STM32N6 series: • Table 1. Applicable products • Table 2. USART hardware automatic baud rate detection on STM32 series devices • Table 4. Hardware automatic baud rate detection on STM32 USART interfaces (high performance)"
+      ],
+      [
+        "13-Jan-2025",
+        "8",
+        "The following tables now scope STM32U3 series:"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

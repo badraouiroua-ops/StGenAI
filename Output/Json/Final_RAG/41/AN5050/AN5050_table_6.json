@@ -1,0 +1,47 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. STM32CubeMX - Memory connection port",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. STM32CubeMX - Memory connection port",
+  "page": 48,
+  "section": "7.2.3 OCTOSPI GPIOs and clocks configuration",
+  "section_title": "OCTOSPI GPIOs and clocks configuration",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=48",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+  "text_helper": "Table 6. STM32CubeMX - Memory connection port — section 7.2.3 OCTOSPI GPIOs and clocks configuration. Memory, OCTOSPI I/O manager port.",
+  "table_content": {
+    "headers": [
+      "Memory",
+      "OCTOSPI I/O manager port"
+    ],
+    "rows": [
+      [
+        "Octo-SPI PSRAM AP Memory(1) APS6408L-30B-BA",
+        "Port 1"
+      ],
+      [
+        "Octo-SPI Macronix Flash(1) MX25LM51245GXDI00",
+        "Port 2"
+      ],
+      [
+        "HyperBus MCP Infineon memory(2) S71KL256SC0 Including both HyperRAM and HyperFlash",
+        "Multiplexed over Port 1: – OCTOSPIM_P1_NCS connected to HyperRAM – OCTOSPIM_P2_NCS connected to HyperFlash"
+      ],
+      [
+        "Quad-SPI PSRAM AP Memory(3) APS1604M-3SQR",
+        "Port 1"
+      ]
+    ],
+    "notes": [
+      "1. Already Available on STM32L4P5G-DK Discovery kit.",
+      "2. Soldered in U11 (see Figure 25).",
+      "3. Soldered in U14 (see Figure 25). Based on this hardware implementation, the user must configure all the GPIOs shown in"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

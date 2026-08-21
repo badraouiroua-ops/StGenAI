@@ -1,0 +1,151 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. I3C peripheral versus MIPI v1.1",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. I3C peripheral versus MIPI v1.1",
+  "page": 7,
+  "section": "2.4 Block diagram",
+  "section_title": "Block diagram",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 3. I3C peripheral versus MIPI v1.1 — section 2.4 Block diagram. Feature, MIPI I3C v1.1, I3C peripheral / Controller, I3C peripheral / Target, Comments.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "MIPI I3C v1.1",
+      "I3C peripheral / Controller",
+      "I3C peripheral / Target",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "I3C SDR message",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Legacy I2C message",
+        "X",
+        "X",
+        "-",
+        "Mandatory as controller when there is an I2C target. Optional in MIPI v1.1 when target."
+      ],
+      [
+        "HDR message",
+        "X",
+        "-",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "Dynamic address",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Static address",
+        "X",
+        "X",
+        "X(1)",
+        "I3C peripheral cannot be a target on an I2C bus."
+      ],
+      [
+        "Grouped addressing",
+        "X",
+        "X",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "CCCs",
+        "X",
+        "X",
+        "X",
+        "All mandatory CCCs + some optional CCCs are supported."
+      ],
+      [
+        "Error detection & recovery",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "IBI",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Secondary controller",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Hot join",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Target reset",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "Asynchronous timing control 0",
+        "X",
+        "X",
+        "-",
+        "Mandatory in MIPI v1.1 when controller. Optional in MIPI v1.1 when target."
+      ],
+      [
+        "Synchronous & asynchronous timing control 1, 2, 3",
+        "X",
+        "-",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "Device to device tunneling",
+        "X",
+        "X",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "Multi-lane data transfer",
+        "X",
+        "-",
+        "-",
+        "Optional in MIPI v1.1."
+      ],
+      [
+        "Monitoring device early termination",
+        "X",
+        "-",
+        "-",
+        "Optional in MIPI v1.1."
+      ]
+    ],
+    "notes": [
+      "1. Available only on STM32H543/553xx. AN5879 - Rev 6 page 7/52"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

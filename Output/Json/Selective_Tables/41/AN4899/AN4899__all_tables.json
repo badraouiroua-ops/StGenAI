@@ -1,0 +1,151 @@
+[
+  {
+    "document": "AN4899 - Table 1. List of GPIO structures",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4899.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_1",
+    "table_number": "1",
+    "title": "Table 1. List of GPIO structures",
+    "page": 10,
+    "section": "4.1 GPIO abbreviations",
+    "section_title": "GPIO abbreviations",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4899.pdf#page=10",
+    "text_helper": "Table 1. List of GPIO structures — section 4.1 GPIO abbreviations. Name, Name, Abbreviation, Definition.",
+    "table_content": {
+      "headers": [
+        "Name",
+        "Name",
+        "Abbreviation",
+        "Definition"
+      ],
+      "rows": [
+        [
+          "Pin Type",
+          "Pin Type",
+          "S",
+          "Supply pin"
+        ],
+        [
+          "Pin Type",
+          "Pin Type",
+          "I",
+          "Input only pin"
+        ],
+        [
+          "Pin Type",
+          "Pin Type",
+          "I/O",
+          "Input / output pin"
+        ],
+        [
+          "I/O structure",
+          "I/O structure",
+          "FT(1)",
+          "Five-volt tolerant I/O pin"
+        ],
+        [
+          "I/O structure",
+          "I/O structure",
+          "TT(1)",
+          "Three-volt tolerant I/O pin"
+        ],
+        [
+          "I/O structure",
+          "I/O structure",
+          "TC",
+          "Three-volt capable I/O pin (Standard 3.3 V I/O)"
+        ],
+        [
+          "I/O structure",
+          "I/O structure",
+          "B",
+          "Dedicated boot pin"
+        ],
+        [
+          "I/O structure",
+          "I/O structure",
+          "RST",
+          "Bidirectional reset pin with embedded weak pull-up resistor"
+        ],
+        [
+          "Pin functions",
+          "Alternate functions",
+          "Functions selected through GPIOx_AFR registers",
+          "Functions selected through GPIOx_AFR registers"
+        ],
+        [
+          "Pin functions",
+          "Additional functions",
+          "Functions directly selected and enabled through peripheral registers",
+          "Functions directly selected and enabled through peripheral registers"
+        ]
+      ],
+      "notes": [
+        "1. FT and TT I/Os have options depending on the device. The user must refer to the datasheet for their definitions. As an example, the following description refers to a GPIO in a STM32 datasheet:"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN4899 - Table 2. Document revision history",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4899.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_2",
+    "table_number": "2",
+    "title": "Table 2. Document revision history",
+    "page": 32,
+    "section": "9 Revision history",
+    "section_title": "Revision history",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4899.pdf#page=32",
+    "text_helper": "Table 2. Document revision history — section 9 Revision history. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "21-Sep-2017",
+          "1",
+          "Initial release."
+        ],
+        [
+          "12-Aug-2021",
+          "2",
+          "Updated the document title. Added a note to Section 5.2.1: Three-volt tolerant GPIO (TT) and Section 5.2.2: Five-volt tolerant GPIO (FT) about the maximum operating voltage when an analog input function is enabled. Added remarks about the analog switch in Section 4.2: GPIO equivalent schematics and Section 4.3.4: Analog configuration."
+        ],
+        [
+          "29-Mar-2022",
+          "3",
+          "Updated the document title. Updated the applicability of Section 7.5: Shutdown exit mode."
+        ],
+        [
+          "21-May-2026",
+          "4",
+          "Updated: – Document title. – Figure 15: Multi voltage leakage example – Figure 16: Voltage protection when VDD is not supplied – Figure 17: Open-drain output with no load"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "table_id": "table_27",
+  "document": "Table 27. LPDMA programming for HASH",
+  "rev": null,
+  "table_number": "27",
+  "title": "Table 27. LPDMA programming for HASH",
+  "page": 18,
+  "section": "3.6.1 Hash processor (HASH)",
+  "section_title": "Hash processor (HASH)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=18",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 27. LPDMA programming for HASH — section 3.6.1 Hash processor (HASH). LPDMA destination data width, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA destination data width",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "32-bit",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

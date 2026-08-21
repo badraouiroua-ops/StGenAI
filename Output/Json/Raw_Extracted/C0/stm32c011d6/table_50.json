@@ -1,0 +1,132 @@
+{
+  "table_id": "table_50",
+  "caption": "Table 50. Output voltage characteristics",
+  "pdf_name": "stm32c011d6",
+  "family": "C0",
+  "page": 62,
+  "merged_pages": [
+    62
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=62",
+  "section": "5.3.13 I/O port characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V OL",
+      "Output low level voltage",
+      "CMOS port(2) |I | = 8 mA IO V ≥ 2.7 V DDIO1",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V OH",
+      "Output high level voltage",
+      "CMOS port(2) |I | = 8 mA IO V ≥ 2.7 V DDIO1",
+      "V - 0.4 DD",
+      "-",
+      "V"
+    ],
+    [
+      "V (3) OL",
+      "Output low level voltage",
+      "TTL port(2) |I |= 8 mA IO V ≥ 2.7 V DDIO1",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V (3) OH",
+      "Output high level voltage",
+      "TTL port(2) |I |= 8 mA IO V ≥ 2.7 V DDIO1",
+      "2.4",
+      "-",
+      "V"
+    ],
+    [
+      "V (3) OL",
+      "Output low level voltage",
+      "All I/Os |I |= 20 mA IO V ≥ 2.7 V DDIO1",
+      "-",
+      "1.3",
+      "V"
+    ],
+    [
+      "V (3) OH",
+      "Output high level voltage",
+      "All I/Os |I |= 20 mA IO V ≥ 2.7 V DDIO1",
+      "V - 1.3 DD",
+      "-",
+      "V"
+    ],
+    [
+      "V (3) OL",
+      "Output low level voltage",
+      "|I |= 4 mA IO V ≥ 2.0 V DDIO1",
+      "-",
+      "0.45",
+      "V"
+    ],
+    [
+      "V (3) OH",
+      "Output high level voltage",
+      "|I |= 4 mA IO V ≥ 2.0 V DDIO1",
+      "V - 0.45 DD",
+      "-",
+      "V"
+    ],
+    [
+      "V OLFM+ (3)",
+      "Output low level voltage for an FT I/O pin in FM+ mode",
+      "|I |= 20 mA IO V ≥ 2.7 V DDIO1",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V OLFM+ (3)",
+      "Output low level voltage for an FT I/O pin in FM+ mode",
+      "|I |= 10 mA IO V ≥ 2.0 V DDIO1",
+      "-",
+      "0.4",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "2. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+      "3. Specified by design. Not tested in production. Input/output AC characteristics"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c011d6",
+    "table_id": "table_50",
+    "is_continued": false,
+    "pages": [
+      62
+    ],
+    "rows_count": 10,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

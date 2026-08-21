@@ -1,0 +1,43 @@
+{
+  "table_id": "table_11",
+  "document": "AN5879",
+  "rev": "6",
+  "table_number": "11",
+  "title": "Software settings for dynamic addressing",
+  "page": 31,
+  "section": "9.6.1",
+  "section_title": "Software settings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=31",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 11. Software settings for dynamic addressing — section 9.6.1 Software settings.",
+  "table_content": {
+    "headers": [
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "#define TARGET1_DYN_ADDR            0x32\n\n/**************************/\n/* Target Descriptor */\n/**************************/\nTargetDesc_TypeDef TargetDesc1 =\n{\n  \"TARGET_ID1\",\n  TARGET_ID1,\n  0x00000000000000,\n  0x00,\n  TARGET1_DYN_ADDR,\n};\n\n#endif /* __STM32_I3C_DESC_TARGET1_H */",
+        "Target descriptor + dynamic address to assign"
+      ],
+      [
+        "/* USER CODE BEGIN PV */\n\n/* Array contain targets descriptor */\nTargetDesc_TypeDef *aTargetDesc[1] = \\\n{\n  &TargetDesc1,           /* TARGET_ID1 */\n};\n\n/* USER CODE END PV */",
+        "The array contains the target descriptor"
+      ],
+      [
+        "/* Assign dynamic address processus */\nif (HAL_I3C_Ctrl_DynAddrAssign_IT(&hi3c1, I3C_ONLY_ENTDAA) != HAL_OK)\n{\n  /* Error_Handler() function is called when error occurs. */\n  Error_Handler();\n}",
+        "Assigning a dynamic address in the interrupt mode"
+      ],
+      [
+        "/* USER CODE BEGIN 4 */\nvoid HAL_I3C_TgtReqDynamicAddrCallback(I3C_HandleTypeDef *hi3c, uint64_t targetPayload)\n{\n  TargetDesc1.TARGET_BCR_DCR_PID = targetPayload;\n  \n  HAL_I3C_Ctrl_SetDynAddr(hi3c, TargetDesc1.DYNAMIC_ADDR);\n}\n\nvoid HAL_I3C_CtrlDAACpltCallback(I3C_HandleTypeDef *hi3c)\n{\n  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);\n}\n\n/* USER CODE END 4 */",
+        "• GET target characteristics\n• Controller set the DA"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

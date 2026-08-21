@@ -1,0 +1,89 @@
+{
+  "table_id": "table_70",
+  "caption": "Table 70. SWD characteristics.",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 98,
+  "merged_pages": [
+    98
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=98",
+  "section": "5.3.28 JTAG/SWD interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "FSWCLK",
+      "SWCLK clock frequency",
+      "-",
+      "-",
+      "71",
+      "MHz"
+    ],
+    [
+      "tisu(SWDIO)",
+      "SWDIO input setup time",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tih(SWDIO)",
+      "SWDIO input hold time",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tov(SWDIO)",
+      "SWDIO output valid time",
+      "-",
+      "11.5",
+      "14",
+      "ns"
+    ],
+    [
+      "toh(SWDIO)",
+      "SWDIO output hold time",
+      "9.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_legend": [
+      "Evaluated by characterization - Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_70",
+    "is_continued": false,
+    "pages": [
+      98
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

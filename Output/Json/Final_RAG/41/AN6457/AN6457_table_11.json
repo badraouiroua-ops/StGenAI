@@ -1,0 +1,33 @@
+{
+  "table_id": "table_11",
+  "document": "Table 11. LPDMA programming for I3C",
+  "rev": null,
+  "table_number": "11",
+  "title": "Table 11. LPDMA programming for I3C",
+  "page": 11,
+  "section": "3.3 LPDMA configuration for communication peripherals",
+  "section_title": "LPDMA configuration for communication peripherals",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=11",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 11. LPDMA programming for I3C — section 3.3 LPDMA configuration for communication peripherals. LPDMA data width for source and destination, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA data width for source and destination",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "i3c_tx_dma/ i3c_rx_dma: 8-bit or 32-bit i3c_tc_dma/ i3c_rs_dma: 32-bit",
+        "Depends on I3C settings."
+      ]
+    ],
+    "notes": [
+      "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

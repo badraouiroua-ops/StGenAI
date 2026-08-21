@@ -1,0 +1,28 @@
+[
+  {
+    "table_file": "DS15125_Rev_2_table_54.json",
+    "table_id": "table_54",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Le JSON fusionne à tort deux tableaux distincts (Table 54 de la page 81 et la suite de la Table 56 de la page 82).",
+      "Décalage sévère de colonnes dans la section de la Table 56 : les sous-conditions (ex: '±0.5 LSB') ont été placées dans la colonne 'Min', décalant 'Typ' et 'Max'.",
+      "Structure de colonnes incompatible (Table 54 a 6 colonnes, Table 56 en a 7), provoquant la duplication de colonnes et un alignement incorrect."
+    ]
+  },
+  {
+    "table_file": "DS15125_Rev_2_table_78.json",
+    "table_id": "table_78",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Nombreux éléments et lignes manquants dans l'extraction initiale (lignes A, A1, A2, b, c, c1, L, L1, R1, R2, S absentes du JSON). Une vérification et extraction manuelle est nécessaire pour garantir l'exhaustivité des données."
+    ]
+  },
+  {
+    "table_file": "DS15125_Rev_2_table_79.json",
+    "table_id": "table_79",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Structure de colonnes incorrecte : le tableau extrait comporte 6 colonnes au lieu des 7 colonnes présentes dans l'image (les colonnes Typ et Max sous Millimeters ont été fusionnées en une seule colonne 'Millimeters / Typ Max'). Révision manuelle requise."
+    ]
+  }
+]

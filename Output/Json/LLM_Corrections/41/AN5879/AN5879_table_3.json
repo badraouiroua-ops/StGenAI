@@ -1,0 +1,22 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête de colonne",
+      "row_index": null,
+      "analyse_visuelle": "L'en-tête de la 2e colonne est inversé (RTL OCR) : 'IPIM C3I 1.1v' au lieu de 'MIPI I3C v1.1'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "IPIM C3I 1.1v",
+          "nouvelle_valeur": "MIPI I3C v1.1",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

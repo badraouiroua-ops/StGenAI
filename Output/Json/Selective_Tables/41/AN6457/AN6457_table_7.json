@@ -1,0 +1,33 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. LPDMA programming for DAC",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. LPDMA programming for DAC",
+  "page": 9,
+  "section": "3.2.2 Digital-to-analog converter DAC",
+  "section_title": "Digital-to-analog converter DAC",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 7. LPDMA programming for DAC — section 3.2.2 Digital-to-analog converter DAC. LPDMA destination data width, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA destination data width",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "8-bit, 16-bit, or 32-bit",
+        "Depends on DAC settings."
+      ]
+    ],
+    "notes": [
+      "1. Not applicable for STM32C5 AN6457 - Rev 1 page 9/32"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

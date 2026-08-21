@@ -1,0 +1,35 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. ESD standards",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. ESD standards",
+  "page": 4,
+  "section": "3.1.1 Functional EMS test",
+  "section_title": "Functional EMS test",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=4",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 2. ESD standards — section 3.1.1 Functional EMS test. European standard, International standard, Description.",
+  "table_content": {
+    "headers": [
+      "European standard",
+      "International standard",
+      "Description"
+    ],
+    "rows": [
+      [
+        "EN 61000-4-2",
+        "EC 61000-4-2",
+        "Conducted ESD test"
+      ]
+    ],
+    "notes": [
+      "1. R = 50 MΩ, Rd = 330 Ω ch"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

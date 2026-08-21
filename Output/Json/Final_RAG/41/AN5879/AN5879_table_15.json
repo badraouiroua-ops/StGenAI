@@ -1,0 +1,39 @@
+{
+  "table_id": "table_15",
+  "document": "Table 15. Software settings with defining byte",
+  "rev": null,
+  "table_number": "15",
+  "title": "Table 15. Software settings with defining byte",
+  "page": 36,
+  "section": "9.8.1 Software settings",
+  "section_title": "Software settings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=36",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 15. Software settings with defining byte — section 9.8.1 Software settings. , • aTxBuffer: buffer used for transmission (value = reg address = 0x0F). aRxBuffer: buffer used for reception. aPrivateDescriptor: two directions (read and write)..",
+  "table_content": {
+    "headers": [
+      "",
+      "• aTxBuffer: buffer used for transmission (value = reg address = 0x0F). aRxBuffer: buffer used for reception. aPrivateDescriptor: two directions (read and write)."
+    ],
+    "rows": [
+      [
+        "",
+        "• Prepare context buffers process"
+      ],
+      [
+        "",
+        "• Add context buffer transmit in Frame context • Transmit private data process"
+      ],
+      [
+        "",
+        "• Check the current state of the peripheral • Add context buffer receive in Frame context • Receive private data process"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

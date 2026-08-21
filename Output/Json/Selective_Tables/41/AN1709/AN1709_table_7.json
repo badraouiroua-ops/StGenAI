@@ -1,0 +1,41 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. Example of F_ESD / FTB test results",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. Example of F_ESD / FTB test results",
+  "page": 7,
+  "section": "3.1.1 Functional EMS test",
+  "section_title": "Functional EMS test",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 7. Example of F_ESD / FTB test results — section 3.1.1 Functional EMS test. Symbol, Ratings, Conditions, Severity/Criteria.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Conditions",
+      "Severity/Criteria"
+    ],
+    "rows": [
+      [
+        "VF_ESD",
+        "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+        "TA=+25 °C",
+        "2/A, 3/B"
+      ],
+      [
+        "VFTB",
+        "Fast transient voltage burst limits to be applied through 100 pF on VSS and VDD pins to induce a functional disturbance",
+        "TA=+25 °C",
+        "3/B"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

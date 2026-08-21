@@ -1,0 +1,698 @@
+[
+  {
+    "document": "AN5348 - Table 1. Applicable products",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_1",
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "Introduction",
+    "section_title": "Introduction",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=1",
+    "text_helper": "Table 1. Applicable products — section Introduction. Product classes, Product series.",
+    "table_content": {
+      "headers": [
+        "Product classes",
+        "Product series"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "STM32C0 series, STM32C5 series, STM32G0 series, STM32G4 series, STM32H5 series, STM32H7 series, STM32L5 series, STM32N6 series, STM32U5 series."
+        ],
+        [
+          "Microprocessors",
+          "STM32MP1 series."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5348 - Table 2. Payload data length codes (bytes).",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_2",
+    "table_number": "2",
+    "title": "Table 2. Payload data length codes (bytes).",
+    "page": 6,
+    "section": "2.2 CAN-FD format",
+    "section_title": "CAN-FD format",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=6",
+    "text_helper": "Table 2. Payload data length codes (bytes). — section 2.2 CAN-FD format. DLC (Dec), 0, 1, 2, 3, +12 autres.",
+    "table_content": {
+      "headers": [
+        "DLC (Dec)",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "rows": [
+        [
+          "CAN 2.0",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8",
+          "8"
+        ],
+        [
+          "CAN-FD",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "12",
+          "16",
+          "20",
+          "24",
+          "32",
+          "48",
+          "64"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5348 - Table 3. Main differences between CAN-FD and CAN 2.0.",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_3",
+    "table_number": "3",
+    "title": "Table 3. Main differences between CAN-FD and CAN 2.0.",
+    "page": 6,
+    "section": "2.2 CAN-FD format",
+    "section_title": "CAN-FD format",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=6",
+    "text_helper": "Table 3. Main differences between CAN-FD and CAN 2.0. — section 2.2 CAN-FD format. Features, CAN 2.0, CAN-FD.",
+    "table_content": {
+      "headers": [
+        "Features",
+        "CAN 2.0",
+        "CAN-FD"
+      ],
+      "rows": [
+        [
+          "Compatibility",
+          "Does not support CAN-FD",
+          "Supports CAN 2.0 A/B"
+        ],
+        [
+          "Maximum bit rate (Mbit/s)",
+          "Frame bitrate: up to 1",
+          "Arbitration bitrate: up to 1s Data bitrate: up to 8"
+        ],
+        [
+          "DLC field (4 bits) code",
+          "Coded in 0 to 8",
+          "Coded in 0 to 64"
+        ],
+        [
+          "Maximum data bytes in one message",
+          "8 bytes of data",
+          "64 bytes of data"
+        ],
+        [
+          "BRS support",
+          "No",
+          "Yes"
+        ],
+        [
+          "EDL support",
+          "No",
+          "Yes"
+        ],
+        [
+          "ASI support",
+          "No",
+          "Yes"
+        ],
+        [
+          "CRC bits check codes",
+          "Bits not included in CRC calculation",
+          "Bits included in CRC calculation"
+        ],
+        [
+          "Remote frame support",
+          "Yes",
+          "No"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5348 - Table 4. “Element” size number depending on data field range.",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_4",
+    "table_number": "4",
+    "title": "Table 4. “Element” size number depending on data field range.",
+    "page": 9,
+    "section": "4.2.1 RAM organization",
+    "section_title": "RAM organization",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=9",
+    "text_helper": "Table 4. “Element” size number depending on data field range. — section 4.2.1 RAM organization. Data field (bytes), Element size (RAM words).",
+    "table_content": {
+      "headers": [
+        "Data field (bytes)",
+        "Element size (RAM words)"
+      ],
+      "rows": [
+        [
+          "0 to 8",
+          "4"
+        ],
+        [
+          "12",
+          "5"
+        ],
+        [
+          "16",
+          "6"
+        ],
+        [
+          "20",
+          "7"
+        ],
+        [
+          "24",
+          "8"
+        ],
+        [
+          "32",
+          "10"
+        ],
+        [
+          "48",
+          "14"
+        ],
+        [
+          "64",
+          "18"
+        ]
+      ],
+      "notes": [
+        "1. Allocate 128 words in the section ID-11bits.",
+        "2. Reserve 1152 words for the reception of the elements in the section Rx FIFO 0.",
+        "3. Reserve 1152 words for the reception of the elements in the section Rx buffer.",
+        "4. Reserve 128 words for the elements sent in Tx buffer. Thanks to the dynamic allocation and by not making any allocation for unused sections, the whole memory size of"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5348 - Table 5. Standard filter element configuration",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_5",
+    "table_number": "5",
+    "title": "Table 5. Standard filter element configuration",
+    "page": 14,
+    "section": "4.3.1.1 High-priority messages",
+    "section_title": "High-priority messages",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=14",
+    "text_helper": "Table 5. Standard filter element configuration — section 4.3.1.1 High-priority messages. Filter, Standard filter type SFT [31:30], Standard filter element configuration SFEC [29:27], Standard filter ID 1 SFID1 [26:16], Standard filter ID 2 SFID2 [15:0].",
+    "table_content": {
+      "headers": [
+        "Filter",
+        "Standard filter type SFT [31:30]",
+        "Standard filter element configuration SFEC [29:27]",
+        "Standard filter ID 1 SFID1 [26:16]",
+        "Standard filter ID 2 SFID2 [15:0]"
+      ],
+      "rows": [
+        [
+          "First",
+          "00 - Range filter",
+          "011 - Reject",
+          "0x16",
+          "0x20"
+        ],
+        [
+          "Second",
+          "01 - Dual ID",
+          "010 - Store in FIFO 1",
+          "0x15",
+          "0x120"
+        ],
+        [
+          "Third",
+          "xx - Don't care",
+          "111 - Store in Rx buffer",
+          "0x130",
+          "0x04 (buffer index)"
+        ],
+        [
+          "Fourth",
+          "10 - Classic bit mask filter",
+          "001 - Store in FIFO 0",
+          "0x700",
+          "0x7CF"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5348 - Table 6. Differences between dedicated Rx buffer and Rx FIFO.",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_6",
+    "table_number": "6",
+    "title": "Table 6. Differences between dedicated Rx buffer and Rx FIFO.",
+    "page": 17,
+    "section": "4.3.2.3 Differences between dedicated Rx buffer and Rx FIFO",
+    "section_title": "Differences between dedicated Rx buffer and Rx FIFO",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=17",
+    "text_helper": "Table 6. Differences between dedicated Rx buffer and Rx FIFO. — section 4.3.2.3 Differences between dedicated Rx buffer and Rx FIFO. Feature, Dedicated Rx buffer, Rx FIFO.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "Dedicated Rx buffer",
+        "Rx FIFO"
+      ],
+      "rows": [
+        [
+          "Sections to configure",
+          "64 dedicated Rx buffers can be configured .",
+          "Two Rx FIFO can be configured."
+        ],
+        [
+          "Elements per section",
+          "Configured to contain only one element per buffer",
+          "May contain one or more elements (up to 64 elements) per section"
+        ],
+        [
+          "Position in the RAM",
+          "The user chooses the buffer index.",
+          "The position in the RAM is automatically and dynamically managed (using the incrementing of get/put index)."
+        ],
+        [
+          "Discards newly arriving element configuration",
+          "Discards the newly arriving element when buffer is locked. Note: The user must reset the corresponding bit in FDCAN_NDAT1/2.",
+          "Discards the newly arriving element when Rx FIFO is full (blocking mode by default). Note: Overwrite mode option to receive the new element and overwrite the oldest element."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5348 - Table 7. Differences between dedicated Tx buffer, Tx FIFO and Tx queue.",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_7",
+    "table_number": "7",
+    "title": "Table 7. Differences between dedicated Tx buffer, Tx FIFO and Tx queue.",
+    "page": 21,
+    "section": "4.3.3.2 Tx buffer section",
+    "section_title": "Tx buffer section",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=21",
+    "text_helper": "Table 7. Differences between dedicated Tx buffer, Tx FIFO and Tx queue. — section 4.3.3.2 Tx buffer section. Feature, Dedicated Tx buffer, Tx FIFO, Tx queue.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "Dedicated Tx buffer",
+        "Tx FIFO",
+        "Tx queue"
+      ],
+      "rows": [
+        [
+          "Sections that can be configured",
+          "32 dedicated Tx buffers can be configured.",
+          "One Tx FIFO can configured.",
+          "One Tx queue can configured."
+        ],
+        [
+          "Elements per section",
+          "Tx buffer is configured to contain only one element per buffer.",
+          "May contain one or more elements per section (up to 32)",
+          "May contain one or more elements per section (up to 32)"
+        ],
+        [
+          "Element to be sent first",
+          "Element with the lowest ID is sent first.",
+          "Elements transmitted in the FIFO order",
+          "Element with the lowest ID is sent first."
+        ],
+        [
+          "Behaviour if multiple elements with the same ID are present",
+          "The first transmission request is sent first.",
+          "No prioritization with identifier",
+          "FIFO order"
+        ],
+        [
+          "Position in the RAM",
+          "User chooses the buffer index.",
+          "Automatically and dynamically managed (using the incrementing of get and put index)",
+          "Automatically and dynamically managed (using the incrementing of get and put index)"
+        ],
+        [
+          "Pending elements management",
+          "Elements become pending after being added to the RAM or after the tx buffer request is enabled.",
+          "Elements become pending after being added to the RAM (the request is automatically enabled).",
+          "Elements become pending after being added to the RAM (the request is automatically enabled)."
+        ]
+      ],
+      "notes": [
+        "1. Tx buffer 3 (identifier = 1: it is the highest priority between all other dedicated Tx buffers and it has a higher priority than the oldest pending Tx FIFO: Tx buffer 7)",
+        "2. Tx buffer 0 (identifier = 3: it is the highest priority between all other dedicated Tx buffers and it has higher priority than the oldest pending Tx FIFO: Tx buffer 7)",
+        "3. Tx buffer 7 (because it is the oldest pending Tx FIFO with identifier =4 and has higher priority between all dedicated Tx buffers)",
+        "4. Tx buffer 8 (because it is the oldest pending Tx FIFO with identifier =2 and has the highest priority between all dedicated Tx buffers)",
+        "5. Tx buffer 4 (identifier = 8: it has the highest priority between all other dedicated Tx buffers and the Tx FIFO is empty)",
+        "6. Tx buffer 2 (identifier = 12: it has the highest priority between all other dedicated Tx buffers and the Tx FIFO is empty)",
+        "7. Tx buffer 1 (identifier = 15: it has the highest priority between all other dedicated Tx buffers and the Tx FIFO is empty)",
+        "8. Tx buffer 5 (because it is the only pending dedicated Tx buffer) AN5348 - Rev 6 page 22/37"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5348 - Table 8. Differences between mixed Tx buffer + Tx FIFO and mixed Tx buffer + Tx queue configurations",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_8",
+    "table_number": "8",
+    "title": "Table 8. Differences between mixed Tx buffer + Tx FIFO and mixed Tx buffer + Tx queue configurations",
+    "page": 23,
+    "section": "4.3.3.2 Tx buffer section",
+    "section_title": "Tx buffer section",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=23",
+    "text_helper": "Table 8. Differences between mixed Tx buffer + Tx FIFO and mixed Tx buffer + Tx queue configurations — section 4.3.3.2 Tx buffer section. Feature, Mixed configuration: Tx buffer + Tx queue, Mixed configuration: Tx buffer + Tx FIFO.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "Mixed configuration: Tx buffer + Tx queue",
+        "Mixed configuration: Tx buffer + Tx FIFO"
+      ],
+      "rows": [
+        [
+          "Description",
+          "A combination of dedicated Tx buffers and Tx queue",
+          "A combination of dedicated Tx buffers and Tx FIFO"
+        ],
+        [
+          "Element to be sent first",
+          "Element with the lowest ID between all dedicated Tx buffers and Tx queue",
+          "Element with the lowest ID between all dedicated Tx buffers and oldest element in Tx"
+        ],
+        [
+          "Management of multiple elements with same ID",
+          "First request is sent first.",
+          "Order request FIFO"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5348 - Table 9. FDCAN improvements over BxCAN.",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_9",
+    "table_number": "9",
+    "title": "Table 9. FDCAN improvements over BxCAN.",
+    "page": 32,
+    "section": "5 FDCAN implementation improvements over BxCAN",
+    "section_title": "FDCAN implementation improvements over BxCAN",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=32",
+    "text_helper": "Table 9. FDCAN improvements over BxCAN. — section 5 FDCAN implementation improvements over BxCAN. Features / Compatibility, Features / Compatibility with BxCAN, Supported by BxCAN / Yes, Supported by FDCAN / Yes.",
+    "table_content": {
+      "headers": [
+        "Features / Compatibility",
+        "Features / Compatibility with BxCAN",
+        "Supported by BxCAN / Yes",
+        "Supported by FDCAN / Yes"
+      ],
+      "rows": [
+        [
+          "Compatibility",
+          "Compatibility with CAN-FD",
+          "No",
+          "No"
+        ],
+        [
+          "Compatibility",
+          "Remote frame",
+          "No",
+          "Supported to become compatible with BxCAN"
+        ],
+        [
+          "Frame",
+          "Arbitration bitrate /data rate (in Mbit/s)",
+          "Up to 1 (only bitrate per frame)",
+          "Up to 1 /Up to 8"
+        ],
+        [
+          "Frame",
+          "Data length per frame (in bytes)",
+          "0 to 8",
+          "0 to 64"
+        ],
+        [
+          "RAM",
+          "RAM",
+          "512 bytes",
+          "10 Kbytes"
+        ],
+        [
+          "RAM",
+          "Accessible RAM",
+          "No",
+          "Yes"
+        ],
+        [
+          "Transmission",
+          "Dedicated Tx buffer/Tx queue/Tx FIFO",
+          "No/Yes/Yes Maximum three elements can be used as queue or FIFO.",
+          "Yes/Yes/Yes Maximum 32 elements: user chooses the transmit mechanism."
+        ],
+        [
+          "Transmission",
+          "Transmit pause",
+          "No",
+          "Yes"
+        ],
+        [
+          "Reception",
+          "Dedicated Rx buffer/Rx FIFO",
+          "No/2 Up to three elements in each Rx FIFO Up to six elements maximum",
+          "64/2 Up to 64 elements in each Rx FIFO Up to 192 elements maximum"
+        ],
+        [
+          "Reception",
+          "Overwrite mode option",
+          "Overwrite the last element received in FIFO",
+          "Overwrite the oldest element in FIFO"
+        ],
+        [
+          "Reception",
+          "Improvements acceptance filters",
+          "Classical CAL (Can 2.0) acceptance filters",
+          "Some features are added as: • Discards matching filter. • Accepts non matching filters."
+        ],
+        [
+          "Other",
+          "Restricted test mode",
+          "No",
+          "Yes"
+        ],
+        [
+          "Other",
+          "Transceiver delay compensation",
+          "No",
+          "Yes"
+        ],
+        [
+          "Other",
+          "Clock calibration unit",
+          "No",
+          "Yes"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5348 - Table 10. Document revision history.",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_10",
+    "table_number": "10",
+    "title": "Table 10. Document revision history.",
+    "page": 33,
+    "section": "5 FDCAN implementation improvements over BxCAN",
+    "section_title": "FDCAN implementation improvements over BxCAN",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=33",
+    "text_helper": "Table 10. Document revision history. — section 5 FDCAN implementation improvements over BxCAN. Date, Version, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Version",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "4-Oct-2019",
+          "1",
+          "Initial release."
+        ],
+        [
+          "21-Feb-2023",
+          "2",
+          "Updated the title of the document. Updated the Table 1. Applicable products. Updated the Section 4: Implementation of CAN-FD in STM32 devices."
+        ],
+        [
+          "06-Mar-2024",
+          "3",
+          "Updated: • Figure 1. Standard CAN-FD frame • Section 3.1: Frame architecture comparison between CAN-FD and CAN 2.0"
+        ],
+        [
+          "03-Sep-2024",
+          "4",
+          "Document title updated."
+        ],
+        [
+          "29-Oct-2024",
+          "5",
+          "Updated Table 1. Applicable products."
+        ],
+        [
+          "17-Dec-2025",
+          "6",
+          "Updated Table 1. Applicable products."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

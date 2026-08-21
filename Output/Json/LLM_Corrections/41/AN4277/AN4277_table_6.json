@@ -1,0 +1,45 @@
+{
+  "table_id": "table_6",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "TIM1/8/20 BRK_ACTH/BRK/ BRK2 polarity",
+      "row_index": 0,
+      "analyse_visuelle": "Suppression de l'espace superflu dans 'BRK/ BRK2 polarity' pour correspondre exactement au texte de l'image.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "TIM1/8/20 BRK_ACTH/BRK/ BRK2 polarity",
+          "nouvelle_valeur": "TIM1/8/20 BRK_ACTH/BRK/BRK2 polarity",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "TIM1/8/20 BRK and BRK2 enable",
+      "row_index": 2,
+      "analyse_visuelle": "Correction de TIMX_BDTR en TIMx_BDTR avec un 'x' minuscule.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "TIMX_BDTR",
+          "nouvelle_valeur": "TIMx_BDTR",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 1,
+      "contenu": [
+        "Comparator output polarity",
+        "COMPx_CSR",
+        "COMPxPOL",
+        "0 (not inverted), comparators input connected as shown in previous sections"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

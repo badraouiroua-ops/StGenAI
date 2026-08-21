@@ -1,0 +1,48 @@
+{
+  "table_id": "table_14",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau",
+      "row_index": null,
+      "analyse_visuelle": "Le code d'illustration vertical dans la première colonne est extrait à l'envers ('1V50327TD' au lieu de 'DT72305V1').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "1V50327TD",
+          "nouvelle_valeur": "DT72305V1",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Row 0",
+      "row_index": 0,
+      "analyse_visuelle": "Le code d'illustration vertical dans la première colonne est extrait à l'envers ('1V86327TD' au lieu de 'DT72368V1').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "1V86327TD",
+          "nouvelle_valeur": "DT72368V1",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Row 1",
+      "row_index": 1,
+      "analyse_visuelle": "La première colonne contient des identifiants multiples concaténés par erreur. La cellule correspond uniquement à la référence 'DT72382V1'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "DT72382V1DT72368V1DT72305V1",
+          "nouvelle_valeur": "DT72382V1",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

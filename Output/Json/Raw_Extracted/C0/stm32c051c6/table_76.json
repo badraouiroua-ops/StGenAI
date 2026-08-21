@@ -1,0 +1,197 @@
+{
+  "table_id": "table_76",
+  "caption": "Table 76. Thermal resistance",
+  "pdf_name": "stm32c051c6",
+  "family": "C0",
+  "page": 105,
+  "merged_pages": [
+    105
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=105",
+  "section": "6.9 Thermal characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Package(1)",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "WLCSP15",
+      "126.3",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "TSSOP20",
+      "84.5",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "UFQFPN28",
+      "64.2",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "UFQFPN32",
+      "44.3",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "LQFP32",
+      "54",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "UFQFPN48",
+      "33.9",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "LQFP48",
+      "54",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "WLCSP15",
+      "96.5",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "TSSOP20",
+      "58.3",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "UFQFPN28",
+      "28.8",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "UFQFPN32",
+      "26.3",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "LQFP32",
+      "31.1",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "UFQFPN48",
+      "18.3",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "LQFP48",
+      "31.1",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "WLCSP15",
+      "10.4",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "TSSOP20",
+      "32.2",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "UFQFPN28",
+      "31.0",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "UFQFPN32",
+      "32.1",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "LQFP32",
+      "18.6",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "UFQFPN48",
+      "14.7",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "LQFP48",
+      "18.6",
+      "°C/W"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Refer to Section 6: Package information for package dimensions DS14721 Rev 2 105/110"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c051c6",
+    "table_id": "table_76",
+    "is_continued": false,
+    "pages": [
+      105
+    ],
+    "rows_count": 21,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "table_id": "table_22",
+  "document": "Table 22. STM32MP215F thermal measurements at T = 25°C 35 A",
+  "rev": null,
+  "table_number": "22",
+  "title": "Table 22. STM32MP215F thermal measurements at T = 25°C 35 A",
+  "page": 35,
+  "section": "6.3.4 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=35",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 22. STM32MP215F thermal measurements at T = 25°C 35 A — section 6.3.4 Conclusion. TJ (°C) / 43(1), IO / V (V), IO / 3.319, CPU / V (V), CPU / 0.935, +7 autres.",
+  "table_content": {
+    "headers": [
+      "TJ (°C) / 43(1)",
+      "IO / V (V)",
+      "IO / 3.319",
+      "CPU / V (V)",
+      "CPU / 0.935",
+      "CORE / V (V)",
+      "CORE / 0.893",
+      "DDR / V (V)",
+      "DDR / 1.239",
+      "1V8 / V (V)",
+      "1V8 / 1.814",
+      "Power (mV) / 934.37"
+    ],
+    "rows": [
+      [
+        "43(1)",
+        "I (mA)",
+        "40",
+        "I (mA)",
+        "160",
+        "I (mA)",
+        "315",
+        "I (mA)",
+        "226",
+        "I (mA)",
+        "50",
+        "934.37"
+      ]
+    ],
+    "notes": [
+      "1. Thermocouple measurement Figure and table hereafter detail the thermal measurements performed at maximum ambiant temperature"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

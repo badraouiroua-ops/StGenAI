@@ -1,0 +1,31 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. LPDMA instances",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. LPDMA instances",
+  "page": 3,
+  "section": "2.1 LPDMA overview and instances",
+  "section_title": "LPDMA overview and instances",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=3",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 2. LPDMA instances — section 2.1 LPDMA overview and instances. Product, LPDMA instances.",
+  "table_content": {
+    "headers": [
+      "Product",
+      "LPDMA instances"
+    ],
+    "rows": [
+      [
+        "STM32C5",
+        "STM32C53xxx/542xx: LPDMA1 4 channels + LPDMA2 4 channels STM32C55xxx/562xx: LPDMA1 8 channels + LPDMA2 4 channels STM32C59xxx/5A3xx: LPDMA1 8 channels + LPDMA2 8 channels"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

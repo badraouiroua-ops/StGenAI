@@ -1,0 +1,65 @@
+{
+  "table_id": "table_66",
+  "caption": "Table 66. Leakage characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 170,
+  "merged_pages": [
+    170
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=170",
+  "section": "5.3.17 I/O port characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I leak",
+      "TT-x input leakage",
+      "-",
+      "-",
+      "5",
+      "µA"
+    ],
+    [
+      "C IO",
+      "I/O pin capacitance",
+      "-",
+      "5",
+      "-",
+      "pF"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. The pull-up is designed with a true resistance in series with a switchable PMOS, whose contribution to the series resistance must be minimum (~10%)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_66",
+    "is_continued": false,
+    "pages": [
+      170
+    ],
+    "rows_count": 2,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

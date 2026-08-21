@@ -1,0 +1,78 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. Oversampling using white noise versus oversampling using triangular dither",
+  "pdf_name": "AN5537",
+  "family": "41",
+  "page": 14,
+  "merged_pages": [
+    14,
+    15
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=14",
+  "section": "3.3 Comparison of software oversampling methods",
+  "headers": [
+    "Implementation conditions",
+    "Oversampling using white noise",
+    "Oversampling using triangular dither"
+  ],
+  "rows": [
+    [
+      "Oversampling factor to add p bits to the ADC on-chip resolution",
+      "4p",
+      "2.2p"
+    ],
+    [
+      "Dither signal",
+      "White noise with an amplitude of at least 1 LSB",
+      "Triangular signal with an amplitude of n+0.5LSB"
+    ],
+    [
+      "External hardware",
+      "External white noise source needed if the input signal noise is not sufficient.",
+      "Triangular waveform generator: an on- chip timer can be used. In this case, an RC network is used to filter the PWM frequency. An op-amp is needed to add the triangular waveform and the input signal."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.815,
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 3,
+      "cont_cols_raw": 3,
+      "target_cols": 3,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_legend": [
+      "better than the other. Each method has its advantages and limitations. The user must select the one that better",
+      "meets their application requirements (sampling frequency, number of effective bits, and so on)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5537",
+    "table_id": "table_2",
+    "is_continued": true,
+    "pages": [
+      14,
+      15
+    ],
+    "rows_count": 3,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

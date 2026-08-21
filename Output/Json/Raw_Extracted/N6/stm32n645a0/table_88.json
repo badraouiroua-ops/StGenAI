@@ -1,0 +1,113 @@
+{
+  "table_id": "table_88",
+  "caption": "Table 88. XSPI characteristics in DTR mode without DQS",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 194,
+  "merged_pages": [
+    194
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=194",
+  "section": "5.3.20 XSPI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F (CLK)",
+      "XSPI clock frequency",
+      "1.65 V < V < 1.98 V DD Voltage scaling VOS0 C = 15 pF L",
+      "-",
+      "-",
+      "180",
+      "MHz"
+    ],
+    [
+      "F (CLK)",
+      "XSPI clock frequency",
+      "2.7 V < V < 3.6 V DD Voltage scaling VOS0 C = 15 pF L",
+      "-",
+      "-",
+      "140",
+      "MHz"
+    ],
+    [
+      "t w(CLKH)",
+      "XSPI clock high and low time, odd division",
+      "PRESCALER[:0] = n = 2,4,6,8",
+      "(n / 2) × t (CLK) / (n + 1)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t w(CLKL)",
+      "XSPI clock high and low time, odd division",
+      "PRESCALER[:0] = n = 2,4,6,8",
+      "(n / 2 + 1) × t / (CLK) (n + 1) - 1",
+      "-",
+      "(n / 2 + 1) × t / (n + 1) (CLK)",
+      "ns"
+    ],
+    [
+      "t sr(DQ),tsf(DQ)",
+      "Data input setup time",
+      "-",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t hr(DQ),thf(DQ)",
+      "Data input hold time",
+      "-",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "3. When Prescaler = 0 and F < 40 MHz. (CLK)"
+    ],
+    "_dedup_rows_removed": 4,
+    "_dedup_removed_indices": [
+      2,
+      3,
+      8,
+      9
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_88",
+    "is_continued": false,
+    "pages": [
+      194
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

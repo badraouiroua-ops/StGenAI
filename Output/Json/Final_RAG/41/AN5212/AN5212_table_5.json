@@ -1,0 +1,71 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. ICACHE interrupt and event management bits",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. ICACHE interrupt and event management bits",
+  "page": 16,
+  "section": "3.1.9 Event and interrupt management",
+  "section_title": "Event and interrupt management",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "text_helper": "Table 5. ICACHE interrupt and event management bits — section 3.1.9 Event and interrupt management. Register, Bit name, Bit description, Bit access type.",
+  "table_content": {
+    "headers": [
+      "Register",
+      "Bit name",
+      "Bit description",
+      "Bit access type"
+    ],
+    "rows": [
+      [
+        "ICACHE_SR",
+        "BUSYF",
+        "Cache executing a full invalidate operation",
+        "Read-only"
+      ],
+      [
+        "ICACHE_SR",
+        "BSYENDF",
+        "Cache invalidation operation finished",
+        "Read-only"
+      ],
+      [
+        "ICACHE_SR",
+        "ERRF",
+        "An error occurred during caching operation",
+        "Read-only"
+      ],
+      [
+        "ICACHE_IER",
+        "ERRIE",
+        "Enable interrupt for cache error",
+        "Read/write"
+      ],
+      [
+        "ICACHE_IER",
+        "BSYENDIE",
+        "Enable interrupt in case of invalidation operation finished",
+        "Read/write"
+      ],
+      [
+        "ICACHE_FCR",
+        "CERRF",
+        "Clears ERRF in ICACHE_SR",
+        "Write-only"
+      ],
+      [
+        "ICACHE_FCR",
+        "CBSYENDF",
+        "Clears BSYENDF in ICACHE_SR",
+        "Write-only"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

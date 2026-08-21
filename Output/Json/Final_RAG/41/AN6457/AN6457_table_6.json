@@ -1,0 +1,39 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. DAC peripheral information",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. DAC peripheral information",
+  "page": 9,
+  "section": "3.2.2 Digital-to-analog converter DAC",
+  "section_title": "Digital-to-analog converter DAC",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 6. DAC peripheral information — section 3.2.2 Digital-to-analog converter DAC. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+  "table_content": {
+    "headers": [
+      "Peripheral request to LPDMA",
+      "Peripheral bus",
+      "Peripheral FIFO (unit, size)",
+      "Peripheral register access",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "dac_ch1_dma/ dac_ch2_dma",
+        "AHB2",
+        "None",
+        "Write (any) DAC_DHRyRx with y = 12, 8 and x = 1, 2",
+        "The DAC data hold register must be written at the specific 32-bit aligned address, depending on the used DAC format (8- or 12‑bit, left-aligned or right-aligned) and depending on the considered channel (1 or 2)."
+      ]
+    ],
+    "notes": [
+      "1. Not applicable for STM32C5 AN6457 - Rev 1 page 9/32"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

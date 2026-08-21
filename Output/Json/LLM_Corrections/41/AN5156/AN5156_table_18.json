@@ -1,0 +1,39 @@
+{
+  "table_id": "table_18",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Texte inversé (RTL) corrigé à la ligne 0",
+    "Contenu manquant sous la section 4.2 (passage de page) ajouté"
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "2.Device protection against external threats...",
+      "row_index": 0,
+      "analyse_visuelle": "Le texte de l'en-tête de section 2 a été extrait à l'envers (RTL) sur les deux colonnes.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "gnirotinom ecived ,noitceted repmat ,noitcetorp elcyc efil ,noitcetorp PDR :staerht lanretxe tsniaga noitcetorp eciveD.2",
+          "nouvelle_valeur": "2.Device protection against external threats: RDP protection, life cycle protection, tamper detection, device monitoring",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "gnirotinom ecived ,noitceted repmat ,noitcetorp elcyc efil ,noitcetorp PDR :staerht lanretxe tsniaga noitcetorp eciveD.2",
+          "nouvelle_valeur": "2.Device protection against external threats: RDP protection, life cycle protection, tamper detection, device monitoring",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 22,
+      "contenu": [
+        "-",
+        "• Implement SB application with cryptography. • Protect SB application secret data (refer to previous sections). • Guarantee unique boot entry on SB application: – Use HDP if available. – Disable boot pin selection by BOOT_LOCK or RDP."
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

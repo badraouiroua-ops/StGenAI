@@ -1,0 +1,145 @@
+{
+  "table_id": "table_20",
+  "document": "Table 20. SPI features",
+  "rev": null,
+  "table_number": "20",
+  "title": "Table 20. SPI features",
+  "page": 35,
+  "section": "6.4.1 Serial peripheral interface (SPI)",
+  "section_title": "Serial peripheral interface (SPI)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=35",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 20. SPI features — section 6.4.1 Serial peripheral interface (SPI). SPI, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "SPI",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Instances",
+        "Up to 6x SPIs",
+        "3x SPIs"
+      ],
+      [
+        "Features",
+        "SPI + I2S",
+        "SPI + I2S"
+      ],
+      [
+        "Features",
+        "Including 3 muxed with full-duplex I2S",
+        "Including 3 muxed with full-duplex I2S"
+      ],
+      [
+        "Full-duplex synchronous transfer on three lines",
+        "X",
+        "X"
+      ],
+      [
+        "Half-duplex",
+        "X",
+        "X"
+      ],
+      [
+        "Simplex synchronous transfer on two lines",
+        "With a unidirectional data line",
+        "With a unidirectional data line"
+      ],
+      [
+        "Data size",
+        "From 4-bit up to 32-bit data size selection or fixed to multiply of 8-bit",
+        "From 4-bit up to 32-bit data size selection or fixed to multiply of 8-bit"
+      ],
+      [
+        "Multimaster mode capability",
+        "X",
+        "X"
+      ],
+      [
+        "Baud rate prescalers",
+        "Baud rate prescaler up to kernel frequency/2 or bypass from RCC in controller mode",
+        "Baud rate prescaler up to kernel frequency/2 or bypass from RCC in controller mode"
+      ],
+      [
+        "Protection of configuration and settings",
+        "X",
+        "X"
+      ],
+      [
+        "Target select (SS) management",
+        "Hardware or software management of SS for both controller and target",
+        "Hardware or software management of SS for both controller and target"
+      ],
+      [
+        "Configurable SS signal polarity and timing",
+        "Configurable SS signal polarity and timing, MISO x MOSI swap capability",
+        "Configurable SS signal polarity and timing, MISO x MOSI swap capability"
+      ],
+      [
+        "Programmable data order with MSB-first or LSB-first shifting",
+        "Programmable number of data within a transaction to control SS and CRC",
+        "Programmable number of data within a transaction to control SS and CRC"
+      ],
+      [
+        "Programmable data order with MSB-first or LSB-first shifting",
+        "X",
+        "X"
+      ],
+      [
+        "Programmable clock polarity and phase",
+        "X",
+        "X"
+      ],
+      [
+        "Dedicated transmission and reception flags with interrupt capability",
+        "X",
+        "X"
+      ],
+      [
+        "SPI Motorola and TI format support",
+        "X",
+        "X"
+      ],
+      [
+        "Hardware CRC features for reliable communication: • CRC value can be transmitted as the last byte in Tx mode • Automatic CRC error checking for last-received byte",
+        "X",
+        "X"
+      ],
+      [
+        "Configurable behavior at slave-underrun condition",
+        "Interrupts: • TxFIFO ready to be loaded • Data received in RxFIFO • Both TXP and RXP are active • Transmission transfer filled • Overrun error • Underrun error • TI frame format error • CRC error • Mode fault • End of transfer • Controller mode suspended • TxFIFO transmission complete All the interrupt events are capable of waking up the system from Sleep mode at each instance",
+        "Interrupts: • TxFIFO ready to be loaded • Data received in RxFIFO • Both TXP and RXP are active • Transmission transfer filled • Overrun error • Underrun error • TI frame format error • CRC error • Mode fault • End of transfer • Controller mode suspended • TxFIFO transmission complete All the interrupt events are capable of waking up the system from Sleep mode at each instance"
+      ],
+      [
+        "Configurable behavior at slave-underrun condition",
+        "X (support of cascaded circular buffers)",
+        "X (support of cascaded circular buffers)"
+      ],
+      [
+        "FIFOs",
+        "• Two multiples of 8-bit embedded Rx and Tx FIFOs (FIFO size depends on instance) • Configurable FIFO thresholds (data packing)",
+        "• Two multiples of 8-bit embedded Rx and Tx FIFOs (FIFO size depends on instance) • Configurable FIFO thresholds (data packing)"
+      ],
+      [
+        "RDY status pin",
+        "Optional status pin RDY signalizes that the target device is ready to handle the data flow",
+        "Optional status pin RDY signalizes that the target device is ready to handle the data flow"
+      ],
+      [
+        "DRDS delayed read sampling",
+        "X",
+        "X"
+      ]
+    ],
+    "notes": [
+      "1. X = available, NA = not available. AN6308 - Rev 1 page 36/51"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

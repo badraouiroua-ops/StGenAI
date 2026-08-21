@@ -1,0 +1,276 @@
+[
+  {
+    "document": "AN3126 - Table 1. Applicable products",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN3126.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_1",
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "Introduction",
+    "section_title": "Introduction",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN3126.pdf#page=1",
+    "text_helper": "Table 1. Applicable products — section Introduction. Type, Product categories.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Product categories"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "STM32 high performance MCUs STM32 mainstream MCUs STM32 ultra low power MCUs STM32WL series"
+        ],
+        [
+          "Microprocessors",
+          "STM32 Arm Cortex MPUs"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN3126 - Table 2. Preprogrammable triangular waveform amplitude values",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN3126.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_2",
+    "table_number": "2",
+    "title": "Table 2. Preprogrammable triangular waveform amplitude values",
+    "page": 11,
+    "section": "1.8.1 Definition",
+    "section_title": "Definition",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN3126.pdf#page=11",
+    "text_helper": "Table 2. Preprogrammable triangular waveform amplitude values — section 1.8.1 Definition. MAMPx[3:0] bits, Digital amplitude, Analog amplitude (Volt) (with V = 3.3 V) REF+.",
+    "table_content": {
+      "headers": [
+        "MAMPx[3:0] bits",
+        "Digital amplitude",
+        "Analog amplitude (Volt) (with V = 3.3 V) REF+"
+      ],
+      "rows": [
+        [
+          "0",
+          "1",
+          "0.0008"
+        ],
+        [
+          "1",
+          "3",
+          "0.0024"
+        ],
+        [
+          "2",
+          "7",
+          "0.0056"
+        ],
+        [
+          "3",
+          "15",
+          "0.0121"
+        ],
+        [
+          "4",
+          "31",
+          "0.0250"
+        ],
+        [
+          "5",
+          "63",
+          "0.0508"
+        ],
+        [
+          "6",
+          "127",
+          "0.1023"
+        ],
+        [
+          "7",
+          "255",
+          "0.2054"
+        ],
+        [
+          "8",
+          "511",
+          "0.4117"
+        ],
+        [
+          "9",
+          "1023",
+          "0.8242"
+        ],
+        [
+          "10",
+          "2047",
+          "1.6492"
+        ],
+        [
+          "≥ 11",
+          "4095",
+          "3.2992"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN3126 - Table 3. Digital and analog sample values of the sine wave",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN3126.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_3",
+    "table_number": "3",
+    "title": "Table 3. Digital and analog sample values of the sine wave",
+    "page": 15,
+    "section": "2.1.2 Waveform preparation",
+    "section_title": "Waveform preparation",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN3126.pdf#page=15",
+    "text_helper": "Table 3. Digital and analog sample values of the sine wave — section 2.1.2 Waveform preparation. Sample (x), Digital sample value y (x) SineDigital, Analog sample value (Volt) y (x) SineAnalog.",
+    "table_content": {
+      "headers": [
+        "Sample (x)",
+        "Digital sample value y (x) SineDigital",
+        "Analog sample value (Volt) y (x) SineAnalog"
+      ],
+      "rows": [
+        [
+          "0",
+          "2048",
+          "1.650"
+        ],
+        [
+          "1",
+          "3251",
+          "2.620"
+        ],
+        [
+          "2",
+          "3995",
+          "3.219"
+        ],
+        [
+          "3",
+          "3996",
+          "3.220"
+        ],
+        [
+          "4",
+          "3253",
+          "2.622"
+        ],
+        [
+          "5",
+          "2051",
+          "1.653"
+        ],
+        [
+          "6",
+          "847",
+          "0.682"
+        ],
+        [
+          "7",
+          "101",
+          "0.081"
+        ],
+        [
+          "8",
+          "98",
+          "0.079"
+        ],
+        [
+          "9",
+          "839",
+          "0.676"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN3126 - Table 4. Document revision history",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN3126.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_4",
+    "table_number": "4",
+    "title": "Table 4. Document revision history",
+    "page": 22,
+    "section": "4 Revision history",
+    "section_title": "Revision history",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN3126.pdf#page=22",
+    "text_helper": "Table 4. Document revision history — section 4 Revision history. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "28-May-2010",
+          "1",
+          "Initial release."
+        ],
+        [
+          "16-Apr-2015",
+          "2",
+          "Updated Introduction, Section 1.3: Dual channel mode and Section 3: Conclusion. Updated formulas in Section 2.1.2: Waveform preparation. Updated Figure 2: STM32F10x DAC trigger channels and Figure 5: Pseudo random code generator embedded in the DAC. Added Table 1: Applicable products and Table 2: DAC configuration for STM32 microcontrollers. Added Section 1.1: Overview and Note in Section 1.3: Dual channel mode."
+        ],
+        [
+          "11-May-2017",
+          "3",
+          "Introduced STM32H7 Series, hence updated Table 1: Applicable products and Table 2: DAC configuration for STM32 microcontrollers. Updated Introduction, Section 1.2: Data format, Section 1.5: DMA capabilities, Section 1.6: DMA under run error, Section 1.7.2: Typical applications, Section 1.8.1: Definition, Section 1.9: Buffered output, Section 2.1.1: Description, Section 2.1.2: Waveform preparation, Section 2.1.3: Setting the sine wave frequency, Section 2.2.1: Description, Section 2.3: Audio wave player implementation and Section 3: Conclusion. Updated Table 1: Preprogrammable triangular waveform amplitude values. Updated Figure 10: Non buffered channel voltage (with and without load), Figure 11: Buffered channel voltage (with and without load) and Figure 15: Flow of data from microSD memory card to external speakers. Updated second equation in Section 2.1.2: Waveform preparation."
+        ],
+        [
+          "03-Jul-2020",
+          "4",
+          "Document extended to all STM32 products, hence updated document title, Introduction and Table 1: Applicable products. Removed former Table 2: DAC configuration for STM32 microcontrollers. Minor text edits across the whole document."
+        ],
+        [
+          "25-Feb-2026",
+          "5",
+          "Updated: • Document title. • Table 1: Applicable products. • Section 2.2.1: Description. • Figure 15: Flow of data from microSD memory card to external speakers."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

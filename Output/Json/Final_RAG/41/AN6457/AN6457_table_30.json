@@ -1,0 +1,37 @@
+{
+  "table_id": "table_30",
+  "document": "Table 30. XSPI peripheral information",
+  "rev": null,
+  "table_number": "30",
+  "title": "Table 30. XSPI peripheral information",
+  "page": 20,
+  "section": "3.7.1 Extended-SPI interface (XSPI)",
+  "section_title": "Extended-SPI interface (XSPI)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=20",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 30. XSPI peripheral information — section 3.7.1 Extended-SPI interface (XSPI). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+  "table_content": {
+    "headers": [
+      "Peripheral request to LPDMA",
+      "Peripheral bus",
+      "Peripheral FIFO (unit, size)",
+      "Peripheral register access",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "xspi1_rx_dma",
+        "AHB_XSPI (dedicated target of bus matrix)",
+        "32-byte FIFO",
+        "Read/Write 8-bit, 16-bit or 32-bit XSPI_DR",
+        "It is recommended to access XSPI_DR with a 32-bit data width when it is allowed by the application to use efficiently the system bus bandwidth. FTHRES[4:0] is the XSPI_CR register must be set accordingly. Must be a 32-bit aligned address access."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "table_id": "table_14",
+  "document": "Table 14. DMA features Peripherals.",
+  "rev": null,
+  "table_number": "14",
+  "title": "Table 14. DMA features Peripherals.",
+  "page": 26,
+  "section": "6.2.3 Direct memory access controller (DMA)",
+  "section_title": "Direct memory access controller (DMA)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=26",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 14. DMA features Peripherals. — section 6.2.3 Direct memory access controller (DMA). Peripherals, STM32H5 / GPDMA1, STM32H5 / GPDMA2, STM32C5 / LPDMA1, STM32C5 / LPDMA2.",
+  "table_content": {
+    "headers": [
+      "Peripherals",
+      "STM32H5 / GPDMA1",
+      "STM32H5 / GPDMA2",
+      "STM32C5 / LPDMA1",
+      "STM32C5 / LPDMA2"
+    ],
+    "rows": [
+      [
+        "Architecture",
+        "Each instance of DMA controllers can access memory and peripherals",
+        "Each instance of DMA controllers can access memory and peripherals",
+        "Each instance of DMA controllers can access memory and peripherals",
+        "Each instance of DMA controllers can access memory and peripherals"
+      ],
+      [
+        "Number of instances",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "Number of controllers",
+        "Dual bidirectional AHB controller",
+        "Dual bidirectional AHB controller",
+        "Single AHB controller bus",
+        "Single AHB controller bus"
+      ],
+      [
+        "Number of channels",
+        "8",
+        "8",
+        "8",
+        "8"
+      ],
+      [
+        "TrustZone® security",
+        "Yes",
+        "Yes",
+        "NA",
+        "NA"
+      ],
+      [
+        "Per chanel FIFO",
+        "Yes",
+        "Yes",
+        "NA",
+        "NA"
+      ],
+      [
+        "Privileged/unprivileged DMA",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Linked-list",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "RCC",
+        "STM32H5",
+        "STM32H5",
+        "STM32C5",
+        "STM32C5"
+      ],
+      [
+        "LSI",
+        "32 kHz RC Lower consumption, higher accuracy",
+        "32 kHz RC Lower consumption, higher accuracy",
+        "32 kHz RC Lower consumption, higher accuracy",
+        "32 kHz RC Lower consumption, higher accuracy"
+      ],
+      [
+        "HSE",
+        "From 4 to 50 MHz",
+        "From 4 to 50 MHz",
+        "From 4 to 50 MHz",
+        "From 4 to 50 MHz"
+      ],
+      [
+        "LSE",
+        "32.768 kHz Configurable drive/consumption",
+        "32.768 kHz Configurable drive/consumption",
+        "32.768 kHz Configurable drive/consumption",
+        "32.768 kHz Configurable drive/consumption"
+      ],
+      [
+        "PLL",
+        "Three PLLs: • Main PLL (PLL1) provides clocks for CPU and some peripherals • PLL2 and PLL3 generate the kernel clock for peripherals Each PLL offers three outputs with postdividers. Input frequency range: • 2 to 16 MHz for the VCO in wide-range mode • 1 to 2 MHz for the VCO in low-range mode",
+        "Three PLLs: • Main PLL (PLL1) provides clocks for CPU and some peripherals • PLL2 and PLL3 generate the kernel clock for peripherals Each PLL offers three outputs with postdividers. Input frequency range: • 2 to 16 MHz for the VCO in wide-range mode • 1 to 2 MHz for the VCO in low-range mode",
+        "No PLLs",
+        "No PLLs"
+      ],
+      [
+        "AHB frequency",
+        "Up to 250 MHz",
+        "Up to 250 MHz",
+        "Up to 144 MHz",
+        "Up to 144 MHz"
+      ],
+      [
+        "APB1 frequency",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "APB2 frequency",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "RTC clock source",
+        "LSE, LSI or HSE divided by 2 to 511",
+        "LSE, LSI or HSE divided by 2 to 511",
+        "LSE, LSI or HSE divided by 2 to 511",
+        "LSE, LSI, or HSE/ 32"
+      ],
+      [
+        "Kernel clock",
+        "Independent kernel clock for each peripheral, allowing frequency scaling without impact on communication interfaces",
+        "Independent kernel clock for each peripheral, allowing frequency scaling without impact on communication interfaces",
+        "Independent kernel clock for each peripheral, allowing frequency scaling without impact on communication interfaces",
+        "Independent kernel clock for each peripheral, allowing frequency scaling without impact on communication interfaces"
+      ],
+      [
+        "System clock source",
+        "HSIDIV3, HSIS, PSIS or HSE",
+        "HSIDIV3, HSIS, PSIS or HSE",
+        "HSIDIV3, HSIS, PSIS or HSE",
+        "HSI, CSI, HSE, or PLL1"
+      ],
+      [
+        "Clock security system",
+        "CSS on HSE, CSS on LSE",
+        "CSS on HSE, CSS on LSE",
+        "CSS on HSE, CSS on LSE",
+        "CSS on HSE, CSS on LSE"
+      ],
+      [
+        "MCO clock source",
+        "• MCO1 pin (PA8): SYSCLK, HSE , LSE, LSI, PSIK, HSIK, PSIS or HSIS • MCO2 pin (PC9): SYSCLK, HSE, LSE, LSI, PSIK, HSIK, PSIDIV3 or HSIDIV3",
+        "• MCO1 pin (PA8): SYSCLK, HSE , LSE, LSI, PSIK, HSIK, PSIS or HSIS • MCO2 pin (PC9): SYSCLK, HSE, LSE, LSI, PSIK, HSIK, PSIDIV3 or HSIDIV3",
+        "• MCO1 pin (PA8): SYSCLK, HSE , LSE, LSI, PSIK, HSIK, PSIS or HSIS • MCO2 pin (PC9): SYSCLK, HSE, LSE, LSI, PSIK, HSIK, PSIDIV3 or HSIDIV3",
+        "• MCO1 pin (PA8): HSI, LSE, HSE, PLL1, or HSI48 • MCO2 pin (PC9): SYSCLK, PLL2, HSE, PLL1, CSI, or LSI"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

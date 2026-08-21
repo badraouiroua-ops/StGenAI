@@ -1,0 +1,73 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Attached device states - source perspective",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Attached device states - source perspective",
+  "page": 8,
+  "section": "4 CC pins",
+  "section_title": "CC pins",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=8",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 4. Attached device states - source perspective — section 4 CC pins. CC1, CC2, State.",
+  "table_content": {
+    "headers": [
+      "CC1",
+      "CC2",
+      "State"
+    ],
+    "rows": [
+      [
+        "Open",
+        "Open",
+        "Nothing attached"
+      ],
+      [
+        "Rd",
+        "Open",
+        "Sink attached"
+      ],
+      [
+        "Open",
+        "Rd",
+        "Sink attached"
+      ],
+      [
+        "Open",
+        "Ra",
+        "Powered cable without sink attached"
+      ],
+      [
+        "Ra",
+        "Open",
+        "Powered cable without sink attached"
+      ],
+      [
+        "Rd",
+        "Ra",
+        "Powered cable with sink, VCONN- powered accessory (VPA), or VCONN- powered USB device (VPD) attached."
+      ],
+      [
+        "Ra",
+        "Rd",
+        "Powered cable with sink, VCONN- powered accessory (VPA), or VCONN- powered USB device (VPD) attached."
+      ],
+      [
+        "Rd",
+        "Rd",
+        "Debug accessory mode attached"
+      ],
+      [
+        "Ra",
+        "Ra",
+        "Audio adapter accessory mode attached"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

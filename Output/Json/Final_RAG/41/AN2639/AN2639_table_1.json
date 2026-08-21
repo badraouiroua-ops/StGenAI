@@ -1,0 +1,53 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Package types",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Package types",
+  "page": 3,
+  "section": "2 Packages overview",
+  "section_title": "Packages overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=3",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+  "text_helper": "Table 1. Package types — section 2 Packages overview. Surface mount technology / Package, Through hole technology / Package.",
+  "table_content": {
+    "headers": [
+      "Surface mount technology / Package",
+      "Through hole technology / Package"
+    ],
+    "rows": [
+      [
+        "SOIC",
+        "PDIP.3"
+      ],
+      [
+        "QFP",
+        "PDIP.4"
+      ],
+      [
+        "QFN/DFN",
+        "-"
+      ],
+      [
+        "BGA",
+        "-"
+      ],
+      [
+        "LGA",
+        "-"
+      ],
+      [
+        "WLCSP",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "Larger package portfolios can be proposed upon request."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. Classification according to ANSI/EDSA/JEDEC JS-002",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. Classification according to ANSI/EDSA/JEDEC JS-002",
+  "page": 10,
+  "section": "3.1.3 Absolute electrical sensitivity",
+  "section_title": "Absolute electrical sensitivity",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=10",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 10. Classification according to ANSI/EDSA/JEDEC JS-002 — section 3.1.3 Absolute electrical sensitivity. Classification level, Classification test condition (V).",
+  "table_content": {
+    "headers": [
+      "Classification level",
+      "Classification test condition (V)"
+    ],
+    "rows": [
+      [
+        "C0a",
+        "< 125"
+      ],
+      [
+        "C0b",
+        "125 to < 250"
+      ],
+      [
+        "C1",
+        "250 to < 500"
+      ],
+      [
+        "C2a",
+        "500 to < 750"
+      ],
+      [
+        "C2b",
+        "750 to < 1000"
+      ],
+      [
+        "C3",
+        "≥ 1000"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

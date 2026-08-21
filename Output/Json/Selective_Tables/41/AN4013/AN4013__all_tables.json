@@ -1,0 +1,1230 @@
+[
+  {
+    "document": "AN4013 - Table 1. Applicable products",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_1",
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "",
+    "section_title": "",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=1",
+    "text_helper": "Table 1. Applicable products. Type, Product series.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Product series"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "STM32C0 series, STM32C5 series, STM32F0 series, STM32F1 series, STM32F2 series, STM32F3 series, STM32F4 series, STM32F7 series, STM32G0 series, STM32G4 series, STM32H5 series, STM32H7 series, STM32N6 series, STM32L0 series, STM32L1 series, STM32L4 series, STM32L5 series, STM32U0 series, STM32U3 series, STM32U5 series, STM32WB series, STM32WB0 series, STM32WBA series, STM32WL series"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN4013 - Table 2. Simplified overview of timer availability in STM32Fx products",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_2",
+    "table_number": "2",
+    "title": "Table 2. Simplified overview of timer availability in STM32Fx products",
+    "page": 7,
+    "section": "1 Overview",
+    "section_title": "Overview",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=7",
+    "text_helper": "Table 2. Simplified overview of timer availability in STM32Fx products — section 1 Overview. Timer type, Timer type, x30F/6x070F/x40F23MTS 8x030F )x030F gnidulcxe( dna, /8x030F/Bx030F23MTS )6x070F x70F/x90F/x50F gnidulcxe(, /201F/101F23MTS )Gx enil ,Fx( ytisned 301F LX, +9 autres.",
+    "table_content": {
+      "headers": [
+        "Timer type",
+        "Timer type",
+        "x30F/6x070F/x40F23MTS 8x030F )x030F gnidulcxe( dna",
+        "/8x030F/Bx030F23MTS )6x070F x70F/x90F/x50F gnidulcxe(",
+        "/201F/101F23MTS )Gx enil ,Fx( ytisned 301F LX",
+        "/301F/201F/101F23MTS ot )Ex-4x(ytisned pu senil 701F/501F hgih",
+        "001F23MTS enil eulav",
+        ",104F 4F/2F23MTS )014F gnidulcxe( ,114F",
+        "/104F23MTS 014F/114F",
+        "STM32F30X/F3x8 /F378) (excluding",
+        "STM32F37x",
+        "STM32F334",
+        "STM32F31x",
+        "STM32F7 series"
+      ],
+      "rows": [
+        [
+          "Advanced",
+          "Advanced",
+          "TIM1",
+          "TIM1",
+          "TIM1(1) TIM8(1)",
+          "TIM1(1) TIM8(1)",
+          "TIM1",
+          "TIM1 TIM8",
+          "TIM1",
+          "TIM1 TIM8(1) TIM20(1)",
+          "-",
+          "TIM1",
+          "TIM1 TIM8(1)",
+          "TIM1 TIM8"
+        ],
+        [
+          "General purpose",
+          "32-bit",
+          "TIM2",
+          "TIM2",
+          "-",
+          "-",
+          "-",
+          "TIM2 TIM5",
+          "TIM2(1) TIM5",
+          "TIM2",
+          "TIM2 TIM5",
+          "TIM2",
+          "TIM2",
+          "TIM2 TIM5"
+        ],
+        [
+          "General purpose",
+          "16-bit",
+          "TIM3",
+          "TIM3",
+          "TIM2 TIM3 TIM4 TIM5",
+          "TIM2 TIM3 TIM4(1) TIM5(1)",
+          "TIM2 TIM3 TIM4 TIM5(1)",
+          "TIM3 TIM4",
+          "TIM3(1) TIM4(1)",
+          "TIM3(1) TIM4(1) TIM19(1)",
+          "TIM3 TIM4 TIM19",
+          "TIM3",
+          "TIM3 TIM4",
+          "TIM3 TIM4"
+        ],
+        [
+          "Basic",
+          "Basic",
+          "-",
+          "TIM6 TIM7(1)",
+          "TIM6 TIM7",
+          "TIM6(1) TIM7(1)",
+          "TIM6 TIM7",
+          "TIM6 TIM7",
+          "TIM6(1)",
+          "TIM6 TIM7(1)",
+          "TIM6 TIM7 TIM18",
+          "TIM6 TIM7",
+          "TIM6 TIM7(1)",
+          "TIM6 TIM7"
+        ],
+        [
+          "1-channel",
+          "1-channel",
+          "TIM14",
+          "TIM14",
+          "TIM10 TIM11 TIM13 TIM14",
+          "-",
+          "TIM13(1) TIM14(1)",
+          "TIM10 TIM11 TIM13 TIM14",
+          "TIM10(1) TIM11",
+          "-",
+          "TIM13 TIM14",
+          "-",
+          "-",
+          "TIM10 TIM11 TIM13 TIM14"
+        ],
+        [
+          "2-channel",
+          "2-channel",
+          "-",
+          "-",
+          "TIM9 TIM12",
+          "-",
+          "TIM12(1)",
+          "TIM9 TIM12",
+          "TIM9",
+          "-",
+          "TIM12",
+          "-",
+          "-",
+          "TIM9 TIM12"
+        ],
+        [
+          "2-channel with complementary output",
+          "2-channel with complementary output",
+          "-",
+          "TIM15",
+          "-",
+          "-",
+          "TIM15",
+          "-",
+          "-",
+          "TIM15",
+          "TIM15",
+          "TIM15",
+          "TIM15",
+          "-"
+        ],
+        [
+          "1-channel with complementary output",
+          "1-channel with complementary output",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "-",
+          "-",
+          "TIM16 TIM17",
+          "-",
+          "-",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "-"
+        ],
+        [
+          "Low-power timer",
+          "Low-power timer",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "LPTIM1(1)",
+          "-",
+          "-",
+          "-",
+          "-",
+          "LPTIM1"
+        ],
+        [
+          "High-resolution timer",
+          "High-resolution timer",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "HRTIM",
+          "-",
+          "-"
+        ]
+      ],
+      "notes": [
+        "1. Not available on all products in the line. Check the datasheet for details."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN4013 - Table 3. Simplified overview of timer availability in STM32Lx products",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_3",
+    "table_number": "3",
+    "title": "Table 3. Simplified overview of timer availability in STM32Lx products",
+    "page": 8,
+    "section": "1 Overview",
+    "section_title": "Overview",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=8",
+    "text_helper": "Table 3. Simplified overview of timer availability in STM32Lx products — section 1 Overview. Timer type, Timer type, STM32L05X/L06x/ L07x/L08x lines, STM32L0x0 Value line, STM32L0x3/L0x2/ L0x1 lines, +3 autres.",
+    "table_content": {
+      "headers": [
+        "Timer type",
+        "Timer type",
+        "STM32L05X/L06x/ L07x/L08x lines",
+        "STM32L0x0 Value line",
+        "STM32L0x3/L0x2/ L0x1 lines",
+        "STM32L1 series",
+        "STM32L4 series",
+        "STM32L5 series"
+      ],
+      "rows": [
+        [
+          "Advanced",
+          "Advanced",
+          "-",
+          "-",
+          "-",
+          "-",
+          "TIM1 TIM8(1)",
+          "TIM1 TIM8"
+        ],
+        [
+          "General purpose",
+          "32-bit",
+          "-",
+          "-",
+          "-",
+          "TIM5(1)",
+          "TIM2 TIM5(1)",
+          "TIM2 TIM5"
+        ],
+        [
+          "General purpose",
+          "16-bit",
+          "TIM2 TIM3(1)",
+          "TIM2",
+          "TIM2",
+          "TIM2 TIM3 TIM4",
+          "TIM3(1) TIM4(1)",
+          "TIM3 TIM4"
+        ],
+        [
+          "Basic",
+          "Basic",
+          "TIM6 TIM7(1)",
+          "-",
+          "-",
+          "TIM6 TIM7",
+          "TIM6 TIM7(1)",
+          "TIM6 TIM7"
+        ],
+        [
+          "1-channel",
+          "1-channel",
+          "-",
+          "-",
+          "-",
+          "TIM10 TIM11",
+          "-",
+          "-"
+        ],
+        [
+          "2-channel",
+          "2-channel",
+          "TIM21 TIM22",
+          "TIM21",
+          "TIM21 TIM22(1)",
+          "TIM9",
+          "-",
+          "-"
+        ],
+        [
+          "2-channel with complementary output",
+          "2-channel with complementary output",
+          "-",
+          "-",
+          "-",
+          "-",
+          "TIM15",
+          "TIM15"
+        ],
+        [
+          "1-channel with complementary output",
+          "1-channel with complementary output",
+          "-",
+          "-",
+          "-",
+          "-",
+          "TIM16 TIM17(1)",
+          "TIM16 TIM17"
+        ],
+        [
+          "Low-power timer",
+          "Low-power timer",
+          "LPTIM1",
+          "LPTIM1",
+          "LPTIM1",
+          "-",
+          "LPTIM1 LPTIM2",
+          "LPTIM1 LPTIM2 LPTIM3"
+        ],
+        [
+          "High-resolution timer",
+          "High-resolution timer",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      "notes": [
+        "1. Not available on all products in the line. Check the datasheet for details."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN4013 - Table 4. Simplified overview of timer availability in STM32Cx/Gx/Hx/Nx/Ux/WBx products",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_4",
+    "table_number": "4",
+    "title": "Table 4. Simplified overview of timer availability in STM32Cx/Gx/Hx/Nx/Ux/WBx products",
+    "page": 9,
+    "section": "1 Overview",
+    "section_title": "Overview",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=9",
+    "text_helper": "Table 4. Simplified overview of timer availability in STM32Cx/Gx/Hx/Nx/Ux/WBx products — section 1 Overview. Timer type, Timer type, STM32C0 series, STM32C5 series, STM32G0 series, +12 autres.",
+    "table_content": {
+      "headers": [
+        "Timer type",
+        "Timer type",
+        "STM32C0 series",
+        "STM32C5 series",
+        "STM32G0 series",
+        "STM32G4 series",
+        "STM32H5 series",
+        "/x37/x27H23MTS xB7/xA7/x57/x47H",
+        "STM32H7Rx/7Sx",
+        "STM32N6 series",
+        "STM32U0 series",
+        "STM32U3 series",
+        "STM32U5 series",
+        "STM32 WBA series",
+        "STM32 WB series",
+        "STM32 WB0 series",
+        "STM32 WL series"
+      ],
+      "rows": [
+        [
+          "Advanced",
+          "Advanced",
+          "TIM1",
+          "TIM1 TIM8(1)",
+          "TIM1",
+          "TIM1 TIM8 TIM20(1)",
+          "TIM1 TIM8(1)",
+          "TIM1 TIM8",
+          "TIM1",
+          "TIM1 TIM8",
+          "TIM1",
+          "TIM1",
+          "TIM1 TIM8",
+          "TIM1(1)",
+          "TIM1",
+          "TIM1(1)",
+          "TIM1(1)"
+        ],
+        [
+          "General purpose",
+          "32-bit",
+          "-",
+          "TIM2 TIM3(1) TIM4(1) TIM5(1)",
+          "TIM2",
+          "TIM2 TIM5(1)",
+          "TIM2 TIM5(1)",
+          "TIM2 TIM5 TIM23(1) TIM24(1)",
+          "TIM2 TIM3 TIM4 TIM5",
+          "TIM2 TIM3 TIM4 TIM5",
+          "TIM2",
+          "TIM2 TIM3 TIM4",
+          "TIM2 TIM3 TIM4 TIM5",
+          "TIM2 TIM4(1)",
+          "TIM2",
+          "TIM2(1)",
+          "TIM2(1)"
+        ],
+        [
+          "General purpose",
+          "16-bit",
+          "TIM3",
+          "-",
+          "TIM3",
+          "TIM3 TIM4",
+          "TIM3 TIM4(1)",
+          "TIM3 TIM4",
+          "-",
+          "-",
+          "TIM3",
+          "-",
+          "-",
+          "TIM3(1)",
+          "-",
+          "-",
+          "-(1)"
+        ],
+        [
+          "Basic",
+          "Basic",
+          "-",
+          "TIM6 TIM7",
+          "TIM6 TIM7",
+          "TIM6 TIM7",
+          "TIM6 TIM7",
+          "TIM6 TIM7",
+          "TIM6 TIM7",
+          "TIM6 TIM7 TIM18",
+          "TIM6 TIM7",
+          "TIM6 TIM7",
+          "TIM6 TIM7",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "1-channel",
+          "1-channel",
+          "TIM14",
+          "-",
+          "TIM14",
+          "-",
+          "TIM13(1) TIM14(1)",
+          "TIM13 TIM14",
+          "TIM13 TIM14",
+          "TIM10 TIM11 TIM13 TIM14",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "2-channel",
+          "2-channel",
+          "-",
+          "TIM12",
+          "-",
+          "-",
+          "TIM12(1)",
+          "TIM12",
+          "TIM9 TIM12",
+          "TIM9 TIM12",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "2-channel with complementary output",
+          "2-channel with complementary output",
+          "-",
+          "TIM15",
+          "TIM15",
+          "TIM15",
+          "TIM15(1)",
+          "TIM15",
+          "TIM15",
+          "TIM15",
+          "TIM15",
+          "TIM15",
+          "TIM15",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "1-channel with complementary output",
+          "1-channel with complementary output",
+          "TIM16 TIM17",
+          "TIM16(1) TIM17(1)",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "TIM 16(1) TIM 17(1)",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "TIM16",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "TIM16 TIM17",
+          "TIM16(1) TIM17(1)",
+          "TIM16 TIM17(1)"
+        ],
+        [
+          "Low-power timer(2)",
+          "Low-power timer(2)",
+          "-",
+          "LPTIM1",
+          "LPTIM1(1) LPTIM2(1)",
+          "LPTIM1 LPTIM2",
+          "LPTIM1 LPTIM2 LPTIM3(1) LPTIM4(1) LPTIM5(1) LPTIM6(1)",
+          "LPTIM1 LPTIM2 LPTIM3 LPTIM4(1) LPTIM5(1)",
+          "LPTIM1 LPTIM2 LPTIM3 LPTIM4 LPTIM5",
+          "LPTIM1 LPTIM2 LPTIM3 LPTIM4 LPTIM5",
+          "LPTIM1 LPTIM2 LPTIM3(1)",
+          "LPTIM1 LPTIM2 LPTIM3 LPTIM4",
+          "LPTIM1 LPTIM2 LPTIM3 LPTIM4",
+          "LPTIM1 LPTIM2",
+          "LPTIM1 LPTIM2",
+          "-",
+          "LPTIM1 LPTIM2 LPTIM3(1)"
+        ],
+        [
+          "High-resolution timer",
+          "High-resolution timer",
+          "-",
+          "-",
+          "-",
+          "HRTIM1(1)",
+          "-",
+          "HRTIM1(1)",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      ],
+      "notes": [
+        "1. Not available on all products in the line. Check the datasheet for details.",
+        "2. The number of channel may vary depending on the product. Check the datasheet or reference manual for details."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN4013 - Table 5. Timer features overview",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_5",
+    "table_number": "5",
+    "title": "Table 5. Timer features overview",
+    "page": 10,
+    "section": "1 Overview",
+    "section_title": "Overview",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=10",
+    "text_helper": "Table 5. Timer features overview — section 1 Overview. Timer type, Counter resolution, Counter type, DMA, Channels, +3 autres.",
+    "table_content": {
+      "headers": [
+        "Timer type",
+        "Counter resolution",
+        "Counter type",
+        "DMA",
+        "Channels",
+        "Complementary output channels",
+        "Synchronization / Master configuration",
+        "Synchronization / Slave configuration"
+      ],
+      "rows": [
+        [
+          "Advanced Control",
+          "16 bit",
+          "Up, down and center aligned",
+          "Yes",
+          "4, 6(1), 7(1)",
+          "3, 4(1)",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "General-purpose",
+          "16 bit 32 bit(2)",
+          "Up, down and center aligned",
+          "Yes",
+          "Up to 4",
+          "0",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Basic",
+          "16 bit",
+          "Up",
+          "Yes",
+          "0",
+          "0",
+          "Yes",
+          "No"
+        ],
+        [
+          "1-channel",
+          "16 bit",
+          "Up",
+          "No",
+          "1",
+          "0",
+          "Yes (OC signal)",
+          "No"
+        ],
+        [
+          "2-channel",
+          "16 bit",
+          "Up(3)",
+          "No",
+          "2",
+          "0",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "1-channel with one complementary output",
+          "16 bit",
+          "Up, down and center aligned(3)",
+          "Yes",
+          "1",
+          "1",
+          "Yes (OC signal)",
+          "No"
+        ],
+        [
+          "2-channel with one complementary output",
+          "16 bit",
+          "Up, down and center aligned(3)",
+          "Yes",
+          "2",
+          "1",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Low-power timer",
+          "16 bit",
+          "Up",
+          "No",
+          "1(4)",
+          "0",
+          "Yes (OC signal)",
+          "No"
+        ],
+        [
+          "High-resolution timer",
+          "16 bit",
+          "Up",
+          "Yes",
+          "Up to 12(4)",
+          "Up to 6",
+          "Yes",
+          "Yes"
+        ]
+      ],
+      "notes": [
+        "1. For STM32L4/G4/F7, WBA, WB, WB0, L5, U3, U5, H5, H7, N6 series and STM32F30x/F3x8 lines, the advanced timers have six channels. The two additional channels are not",
+        "2. General purpose timers are 32-bit counter resolution on some products and 16-bit on others. See Table 2, Table 3 and Table 4 or product datasheet as reference.",
+        "3. On some devices, the counter type supports up, down, and up/down modes as exception, such in the STM32L0 series. These counters are numbered differently. In the STM32C5 series, the TIM15, TIM16, and TIM17 counters support up, down, and up/down modes autoreload counter modes.",
+        "4. Low-power timer and high-resolution timer do not have channels directly comparable with channels on regular timer peripherals. Indicated number is a practical “channel equivalent”."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN4013 - Table 6. Advanced timer configurations",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_6",
+    "table_number": "6",
+    "title": "Table 6. Advanced timer configurations",
+    "page": 30,
+    "section": "4.1 Signal generation",
+    "section_title": "Signal generation",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=30",
+    "text_helper": "Table 6. Advanced timer configurations — section 4.1 Signal generation. Control bits / MOE, Control bits / OSSI, Control bits / OSSR, Control bits / OCxE, Control bits / OCxNE, +3 autres.",
+    "table_content": {
+      "headers": [
+        "Control bits / MOE",
+        "Control bits / OSSI",
+        "Control bits / OSSR",
+        "Control bits / OCxE",
+        "Control bits / OCxNE",
+        "Output state / OCx output state",
+        "Output state / OCxN output state",
+        "Typical use"
+      ],
+      "rows": [
+        [
+          "1",
+          "x",
+          "0",
+          "0",
+          "0",
+          "Output disable",
+          "Output disable",
+          "General purpose"
+        ],
+        [
+          "1",
+          "x",
+          "0",
+          "0",
+          "1",
+          "Output disable",
+          "OCxREF + polarity",
+          "General purpose"
+        ],
+        [
+          "1",
+          "x",
+          "0",
+          "1",
+          "0",
+          "OCxREF + polarity",
+          "Output disable",
+          "General purpose"
+        ],
+        [
+          "1",
+          "x",
+          "0",
+          "1",
+          "1",
+          "OCxREF + polarity + Deadtime",
+          "(not OCxREF) + polarity + Deadtime",
+          "Motor control (sinewave)"
+        ],
+        [
+          "1",
+          "x",
+          "1",
+          "0",
+          "0",
+          "Output disabled(1)",
+          "Output disabled(1)",
+          "Motor control (6-steps)"
+        ],
+        [
+          "1",
+          "x",
+          "1",
+          "0",
+          "1",
+          "Off-state",
+          "OCxREF + polarity",
+          "Motor control (6-steps)"
+        ],
+        [
+          "1",
+          "x",
+          "1",
+          "1",
+          "0",
+          "OCxREF + polarity",
+          "Off-state",
+          "Motor control (6-steps)"
+        ],
+        [
+          "1",
+          "x",
+          "1",
+          "1",
+          "1",
+          "OCxREF + polarity + deadtime",
+          "(not OCxREF) + polarity + deadtime",
+          "Motor control (sinewave)"
+        ],
+        [
+          "MOE",
+          "OSSI",
+          "OSSR",
+          "OCxE",
+          "OCxNE",
+          "OCx output state",
+          "OCxN output state",
+          "Comments"
+        ],
+        [
+          "0",
+          "0",
+          "x",
+          "0",
+          "0",
+          "Output disable",
+          "Output disable",
+          "Outputs disconnected from I/O ports"
+        ],
+        [
+          "0",
+          "0",
+          "x",
+          "0",
+          "1",
+          "Output disable",
+          "Output disable",
+          "Outputs disconnected from I/O ports"
+        ],
+        [
+          "0",
+          "0",
+          "x",
+          "1",
+          "0",
+          "Output disable",
+          "Output disable",
+          "Outputs disconnected from I/O ports"
+        ],
+        [
+          "0",
+          "0",
+          "x",
+          "1",
+          "1",
+          "Output disable",
+          "Output disable",
+          "Outputs disconnected from I/O ports"
+        ],
+        [
+          "0",
+          "1",
+          "x",
+          "0",
+          "0",
+          "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+          "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+          "All PWMs OFF (low Z for safe stop)"
+        ],
+        [
+          "0",
+          "1",
+          "x",
+          "0",
+          "1",
+          "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+          "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+          "All PWMs OFF (low Z for safe stop)"
+        ],
+        [
+          "0",
+          "1",
+          "x",
+          "1",
+          "0",
+          "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+          "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+          "All PWMs OFF (low Z for safe stop)"
+        ],
+        [
+          "0",
+          "1",
+          "x",
+          "1",
+          "1",
+          "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+          "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+          "All PWMs OFF (low Z for safe stop)"
+        ]
+      ],
+      "notes": [
+        "1. Off state in the STM32C5 series. Note: 1 Deadtime insertion is enabled by setting both CCxE and CCxNE bits, and the MOE bit."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN4013 - Table 7. Behavior of timer outputs versus Break1 and Break2 inputs",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_7",
+    "table_number": "7",
+    "title": "Table 7. Behavior of timer outputs versus Break1 and Break2 inputs",
+    "page": 34,
+    "section": "4.3.2 Break input",
+    "section_title": "Break input",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=34",
+    "text_helper": "Table 7. Behavior of timer outputs versus Break1 and Break2 inputs — section 4.3.2 Break input. Break input 1, Break input 2, NxCO tuptuo, OCx output.",
+    "table_content": {
+      "headers": [
+        "Break input 1",
+        "Break input 2",
+        "NxCO tuptuo",
+        "OCx output"
+      ],
+      "rows": [
+        [
+          "Active",
+          "Inactive",
+          "ON after deadtime insertion",
+          "OFF"
+        ],
+        [
+          "Inactive",
+          "Active",
+          "OFF",
+          "OFF"
+        ],
+        [
+          "Active",
+          "-",
+          "ON after deadtime insertion",
+          "OFF"
+        ]
+      ],
+      "notes": [
+        "1. LOCK Level 2 = LOCK Level 1 + CC polarity bits (CCxP/CCxNP bits in TIMx_CCER).",
+        "2. LOCK Level 3 = LOCK Level 2 + CC control bits (OCxM and OCxPE.",
+        "3. Bits present in STM32L4/F7/L5/U3/U5/G0/G4/WBA/WB/WB0/H7/N6 series and STM32F30x/F3x8 lines. Note: The LOCK bits can only be written once after the reset. Once the BDTR register has been"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN4013 - Table 8. Locking levels",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_8",
+    "table_number": "8",
+    "title": "Table 8. Locking levels",
+    "page": 35,
+    "section": "4.3.3 Locking mechanism",
+    "section_title": "Locking mechanism",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=35",
+    "text_helper": "Table 8. Locking levels — section 4.3.3 Locking mechanism. Level 1, Level 1, LOCK Level 2(1), LOCK Level 2(1), LOCK Level 3(2), +1 autres.",
+    "table_content": {
+      "headers": [
+        "Level 1",
+        "Level 1",
+        "LOCK Level 2(1)",
+        "LOCK Level 2(1)",
+        "LOCK Level 3(2)",
+        "LOCK Level 3(2)"
+      ],
+      "rows": [
+        [
+          "Register",
+          "Bits",
+          "Register",
+          "Bits",
+          "Register",
+          "Bits"
+        ],
+        [
+          "CR2",
+          "OISx",
+          "CR2",
+          "OISx",
+          "CR2",
+          "OISx"
+        ],
+        [
+          "CR2",
+          "OISxN",
+          "CR2",
+          "OISxN",
+          "CR2",
+          "OISxN"
+        ],
+        [
+          "BDTR",
+          "DTG[7:0]",
+          "BDTR",
+          "DTG[7:0]",
+          "BDTR",
+          "DTG[7:0]"
+        ],
+        [
+          "BDTR",
+          "BKE",
+          "BDTR",
+          "BKE",
+          "BDTR",
+          "BKE"
+        ],
+        [
+          "BDTR",
+          "BKP",
+          "BDTR",
+          "BKP",
+          "BDTR",
+          "BKP"
+        ],
+        [
+          "BDTR",
+          "AOE",
+          "BDTR",
+          "AOE",
+          "BDTR",
+          "AOE"
+        ],
+        [
+          "BDTR",
+          "BK2E(3)",
+          "BDTR",
+          "OSSR",
+          "BDTR",
+          "OSSR"
+        ],
+        [
+          "BDTR",
+          "BK2P(3)",
+          "BDTR",
+          "OSSI",
+          "BDTR",
+          "OSSI"
+        ],
+        [
+          "BDTR",
+          "BKF[3:0](3)",
+          "CCER",
+          "CCxP",
+          "CCER",
+          "CCxP"
+        ],
+        [
+          "BDTR",
+          "BK2F[3:0](3)",
+          "CCER",
+          "CCxNP",
+          "CCER",
+          "CCxNP"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "CCMRx",
+          "OCxM"
+        ],
+        [
+          "-",
+          "-",
+          "-",
+          "-",
+          "CCMRx",
+          "OCxPE"
+        ]
+      ],
+      "notes": [
+        "1. LOCK Level 2 = LOCK Level 1 + CC polarity bits (CCxP/CCxNP bits in TIMx_CCER).",
+        "2. LOCK Level 3 = LOCK Level 2 + CC control bits (OCxM and OCxPE.",
+        "3. Bits present in STM32L4/F7/L5/U3/U5/G0/G4/WBA/WB/WB0/H7/N6 series and STM32F30x/F3x8 lines. Note: The LOCK bits can only be written once after the reset. Once the BDTR register has been"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN4013 - Table 9. Document revision history",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_9",
+    "table_number": "9",
+    "title": "Table 9. Document revision history",
+    "page": 45,
+    "section": "8 Revision history",
+    "section_title": "Revision history",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=45",
+    "text_helper": "Table 9. Document revision history — section 8 Revision history. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "21-Feb-2012",
+          "1",
+          "Initial release."
+        ],
+        [
+          "22-Oct-2012",
+          "2",
+          "Added support for STM32F30x, STM32F31x, STM32F37x, STM32F38x."
+        ],
+        [
+          "12-Feb-2014",
+          "3",
+          "Added support for STM32F0 series, STM32F358xC. Replaced \"basic timers\" by \"general-purpose\" timers in the whole document. Updated Section 2.1.2: External clock. Updated Section 2.4: Timer in output compare mode. Updated Section 2.5: Timer in PWM mode. Updated Section 7.3: Six-step mode."
+        ],
+        [
+          "28-Jan-2015",
+          "4",
+          "Extended the applicability to STM32F303xDxE. Updated: – Table 1: Applicable products – Table 2: Simplified overview of timer availability in STM32Fx products – The document title and introduction Added references to timer examples available in STM32CubeF3 firmware package where applicable."
+        ],
+        [
+          "15-Apr-2016",
+          "5",
+          "Extended coverage to STM32F7 series, STM32L0 series and STM32L4 series. Added: – Section 5: High-resolution timer applications. – Section 6: Low-power timer. Updated: – Table 2.: Simplified overview of timer availability in STM32Fx products. – Table 5: Timer features overview. – Section 2.4: Timer in output compare mode."
+        ],
+        [
+          "28-Jul-2016",
+          "6",
+          "Updated Section 2.2: Time base generator: corrected values on the formulas for \"update event\" on the examples for update event period and external clock mode2."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

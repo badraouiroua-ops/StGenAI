@@ -1,0 +1,10 @@
+{
+  "table_id": "table_19",
+  "status": "OK",
+  "logs": [
+    "Cases vides ignorées pour traitement manuel (code source non extrait dans la colonne 0)"
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

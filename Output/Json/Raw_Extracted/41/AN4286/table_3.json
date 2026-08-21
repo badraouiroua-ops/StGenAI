@@ -1,0 +1,58 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. Bootloader protocol versions",
+  "pdf_name": "AN4286",
+  "family": "41",
+  "page": 48,
+  "merged_pages": [
+    48
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4286.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4286.pdf#page=48",
+  "section": "3 Evolution of the bootloader protocol versions",
+  "headers": [
+    "Version",
+    "Description"
+  ],
+  "rows": [
+    [
+      "V1.0",
+      "– Initial bootloader version."
+    ],
+    [
+      "V1.1",
+      "– Updated the Acknowledge mechanism. – Updated the \"Get\", \"Get ID\", \"Get Version\" and \"Read\" commands."
+    ],
+    [
+      "V1.3",
+      "– Added support for \"Get Checksum\" command. – Updated \"Get Command\" command to return the opcode of the \"Get Checksum\" command."
+    ],
+    [
+      "V2.0",
+      "– The number of commands can vary on STM32 devices with the same protocol version v2.0. To know the supported commands, use Get command."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4286",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      48
+    ],
+    "rows_count": 4,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

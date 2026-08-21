@@ -1,0 +1,77 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Access permissions of regions",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Access permissions of regions",
+  "page": 8,
+  "section": "3.3 Memory attributes",
+  "section_title": "Memory attributes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=8",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "text_helper": "Table 4. Access permissions of regions — section 3.3 Memory attributes. AP[2:0], Privileged permissions, Unprivileged permissions, Description.",
+  "table_content": {
+    "headers": [
+      "AP[2:0]",
+      "Privileged permissions",
+      "Unprivileged permissions",
+      "Description"
+    ],
+    "rows": [
+      [
+        "000",
+        "No access",
+        "No access",
+        "All accesses generate a permission fault"
+      ],
+      [
+        "001",
+        "RW",
+        "No access",
+        "Access from a privileged software only"
+      ],
+      [
+        "010",
+        "RW",
+        "RO",
+        "Written by an unprivileged software generates a permission fault"
+      ],
+      [
+        "011",
+        "RW",
+        "RW",
+        "Full access"
+      ],
+      [
+        "100",
+        "Unpredictable",
+        "Unpredictable",
+        "Reserved"
+      ],
+      [
+        "101",
+        "RO",
+        "No access",
+        "Read by a privileged software only"
+      ],
+      [
+        "110",
+        "RO",
+        "RO",
+        "Read only, by privileged or unprivileged software"
+      ],
+      [
+        "111",
+        "RO",
+        "RO",
+        "Read only, by privileged or unprivileged software"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

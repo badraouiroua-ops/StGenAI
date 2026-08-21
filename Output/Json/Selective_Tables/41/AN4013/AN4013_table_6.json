@@ -1,0 +1,205 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. Advanced timer configurations",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. Advanced timer configurations",
+  "page": 30,
+  "section": "4.1 Signal generation",
+  "section_title": "Signal generation",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=30",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+  "text_helper": "Table 6. Advanced timer configurations — section 4.1 Signal generation. Control bits / MOE, Control bits / OSSI, Control bits / OSSR, Control bits / OCxE, Control bits / OCxNE, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Control bits / MOE",
+      "Control bits / OSSI",
+      "Control bits / OSSR",
+      "Control bits / OCxE",
+      "Control bits / OCxNE",
+      "Output state / OCx output state",
+      "Output state / OCxN output state",
+      "Typical use"
+    ],
+    "rows": [
+      [
+        "1",
+        "x",
+        "0",
+        "0",
+        "0",
+        "Output disable",
+        "Output disable",
+        "General purpose"
+      ],
+      [
+        "1",
+        "x",
+        "0",
+        "0",
+        "1",
+        "Output disable",
+        "OCxREF + polarity",
+        "General purpose"
+      ],
+      [
+        "1",
+        "x",
+        "0",
+        "1",
+        "0",
+        "OCxREF + polarity",
+        "Output disable",
+        "General purpose"
+      ],
+      [
+        "1",
+        "x",
+        "0",
+        "1",
+        "1",
+        "OCxREF + polarity + Deadtime",
+        "(not OCxREF) + polarity + Deadtime",
+        "Motor control (sinewave)"
+      ],
+      [
+        "1",
+        "x",
+        "1",
+        "0",
+        "0",
+        "Output disabled(1)",
+        "Output disabled(1)",
+        "Motor control (6-steps)"
+      ],
+      [
+        "1",
+        "x",
+        "1",
+        "0",
+        "1",
+        "Off-state",
+        "OCxREF + polarity",
+        "Motor control (6-steps)"
+      ],
+      [
+        "1",
+        "x",
+        "1",
+        "1",
+        "0",
+        "OCxREF + polarity",
+        "Off-state",
+        "Motor control (6-steps)"
+      ],
+      [
+        "1",
+        "x",
+        "1",
+        "1",
+        "1",
+        "OCxREF + polarity + deadtime",
+        "(not OCxREF) + polarity + deadtime",
+        "Motor control (sinewave)"
+      ],
+      [
+        "MOE",
+        "OSSI",
+        "OSSR",
+        "OCxE",
+        "OCxNE",
+        "OCx output state",
+        "OCxN output state",
+        "Comments"
+      ],
+      [
+        "0",
+        "0",
+        "x",
+        "0",
+        "0",
+        "Output disable",
+        "Output disable",
+        "Outputs disconnected from I/O ports"
+      ],
+      [
+        "0",
+        "0",
+        "x",
+        "0",
+        "1",
+        "Output disable",
+        "Output disable",
+        "Outputs disconnected from I/O ports"
+      ],
+      [
+        "0",
+        "0",
+        "x",
+        "1",
+        "0",
+        "Output disable",
+        "Output disable",
+        "Outputs disconnected from I/O ports"
+      ],
+      [
+        "0",
+        "0",
+        "x",
+        "1",
+        "1",
+        "Output disable",
+        "Output disable",
+        "Outputs disconnected from I/O ports"
+      ],
+      [
+        "0",
+        "1",
+        "x",
+        "0",
+        "0",
+        "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+        "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+        "All PWMs OFF (low Z for safe stop)"
+      ],
+      [
+        "0",
+        "1",
+        "x",
+        "0",
+        "1",
+        "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+        "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+        "All PWMs OFF (low Z for safe stop)"
+      ],
+      [
+        "0",
+        "1",
+        "x",
+        "1",
+        "0",
+        "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+        "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+        "All PWMs OFF (low Z for safe stop)"
+      ],
+      [
+        "0",
+        "1",
+        "x",
+        "1",
+        "1",
+        "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+        "Off-state (outputs are first forced with their inactive level then forced to their idle level after the deadtime.)",
+        "All PWMs OFF (low Z for safe stop)"
+      ]
+    ],
+    "notes": [
+      "1. Off state in the STM32C5 series. Note: 1 Deadtime insertion is enabled by setting both CCxE and CCxNE bits, and the MOE bit."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

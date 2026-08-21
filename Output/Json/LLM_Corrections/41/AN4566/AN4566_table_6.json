@@ -1,0 +1,22 @@
+{
+  "table_id": "table_6",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Resistor R1",
+      "row_index": 0,
+      "analyse_visuelle": "La valeur pour R1 dans la colonne Value est inversée ('Ωk 21' au lieu de '12 kΩ').",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Ωk 21",
+          "nouvelle_valeur": "12 kΩ",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

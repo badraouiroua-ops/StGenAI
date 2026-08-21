@@ -1,0 +1,50 @@
+{
+  "table_id": "table_55",
+  "document": "DS15136 Rev 1 - Table 55. DLYB characteristics",
+  "rev": "Rev 1",
+  "table_number": "55",
+  "title": "Table 55. DLYB characteristics",
+  "page": 92,
+  "section": "5.3.18 Delay block (DLYB) characteristics",
+  "section_title": "Delay block (DLYB) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=92",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "text_helper": "Table 55. DLYB characteristics — section 5.3.18 Delay block (DLYB) characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tinit",
+        "Initial delay",
+        "-",
+        "950",
+        "1400",
+        "1750",
+        "ps"
+      ],
+      [
+        "t∆",
+        "Unit delay",
+        "-",
+        "40",
+        "52",
+        "64",
+        "ps"
+      ]
+    ],
+    "notes": [],
+    "legend": "Evaluated by characterization, not tested in production unless otherwise specified.",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "table_id": "table_49",
+  "document": "DS14791 Rev 9 - Table 49. HSE clock characteristics generated from crystal/ceramic resonator",
+  "rev": "Rev 9",
+  "table_number": "49",
+  "title": "Table 49. HSE clock characteristics generated from crystal/ceramic resonator",
+  "page": 160,
+  "section": "5.3.8 External clock sources characteristics",
+  "section_title": "External clock sources characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=160",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 49. HSE clock characteristics generated from crystal/ceramic resonator — section 5.3.8 External clock sources characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f HSE_ext",
+        "User external clock source",
+        "1.8 V range",
+        "16",
+        "-",
+        "48",
+        "MHz"
+      ],
+      [
+        "G mcritmax",
+        "Maximum critical crystal gm",
+        "Startup",
+        "-",
+        "-",
+        "1.95",
+        "mA/V"
+      ],
+      [
+        "I DD(HSE)",
+        "Current consumption on V DDA18AON",
+        "Startup",
+        "-",
+        "-",
+        "10",
+        "mA"
+      ],
+      [
+        "I DD(HSE)",
+        "Current consumption on V DDA18AON",
+        "V =1.8 V, R = 400 Ω, DD m C = 6 pF, 48 MHz L",
+        "-",
+        "4.8",
+        "-",
+        "mA"
+      ],
+      [
+        "t SU(HSE)",
+        "Startup time",
+        "V stabilized DD",
+        "-",
+        "2",
+        "-",
+        "ms"
+      ],
+      [
+        "R F",
+        "Internal feedback equivalent resistor",
+        "-",
+        "-",
+        "250",
+        "-",
+        "kΩ"
+      ]
+    ],
+    "notes": [
+      "1. Specified by design, not tested in production.",
+      "2. V is equal to V when present, to V otherwise. SW DD BAT",
+      "3. Maximum start-up time is obtained with 200 mV peak-to-peak amplitude. HSE clock generated from a crystal/ceramic resonator"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

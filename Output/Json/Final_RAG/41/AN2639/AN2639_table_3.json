@@ -1,0 +1,63 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. SOIC recommended profile parameters (lead-free mounting)",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. SOIC recommended profile parameters (lead-free mounting)",
+  "page": 8,
+  "section": "4.4.1 Convection reflow for SOIC packages",
+  "section_title": "Convection reflow for SOIC packages",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=8",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+  "text_helper": "Table 3. SOIC recommended profile parameters (lead-free mounting) — section 4.4.1 Convection reflow for SOIC packages. Profile, Ramp to spike, Ramp-soak-Spike.",
+  "table_content": {
+    "headers": [
+      "Profile",
+      "Ramp to spike",
+      "Ramp-soak-Spike"
+    ],
+    "rows": [
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 70°C to 150°C 0.8°C/sec to 1.0°C/sec",
+        "Temp. : 70°C to 150°C 1.0°C/sec to 3.0°C/sec"
+      ],
+      [
+        "Soak/Dwell (refer to solder paste supplier recommendation)",
+        "N/A or Temp. : 150°C to 200°C: 40 to 80s",
+        "Soak Temp. : 150°C to 200°C: 40 to 100s"
+      ],
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 200°C to 225°C 1.0°C/sec to 3.0°C/sec",
+        "Temp. : 200°C to 225°C 1.0°C/sec to 3.0°C/sec"
+      ],
+      [
+        "Peak temperature",
+        "235°C to 245°C",
+        "235°C to 245°C"
+      ],
+      [
+        "Duration above 220°C",
+        "45 to 75 seconds",
+        "45 to 75 seconds"
+      ],
+      [
+        "Temperature gradient in cooling",
+        "-1°C to -5°C",
+        "-1°C to -5°C"
+      ],
+      [
+        "Time from 50 to 220°C",
+        "150 to 230 seconds",
+        "150 to 230 seconds"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

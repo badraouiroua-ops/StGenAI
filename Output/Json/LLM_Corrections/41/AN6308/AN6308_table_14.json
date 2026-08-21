@@ -1,0 +1,10 @@
+{
+  "table_id": "table_14",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Fusion incorrecte de deux tables différentes : la Table 14 (DMA features Peripherals, 5 colonnes) a été indûment fusionnée avec la deuxième partie de la Table 15 (RCC features, 3 colonnes, issue de la page suivante), tandis que la première moitié de la Table 15 sur la page 26 a été totalement ignorée. Une réextraction séparée des Tables 14 et 15 est requise."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,143 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Memory availability.",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Memory availability.",
+  "page": 4,
+  "section": "3.1 Main features",
+  "section_title": "Main features",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=4",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 2. Memory availability. — section 3.1 Main features. Products, Flash memory / Size, Flash memory / Dual bank, RAM size (Kbytes) / SRAM1, RAM size (Kbytes) / SRAM2, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Products",
+      "Flash memory / Size",
+      "Flash memory / Dual bank",
+      "RAM size (Kbytes) / SRAM1",
+      "RAM size (Kbytes) / SRAM2",
+      "RAM size (Kbytes) / SRAM3",
+      "RAM size (Kbytes) / BKPSRAM",
+      "Feature level"
+    ],
+    "rows": [
+      [
+        "STM32H50x",
+        "Up to 128 Kbytes",
+        "Yes",
+        "16",
+        "16",
+        "NA",
+        "2",
+        "Without hardware crypto"
+      ],
+      [
+        "STM32H533",
+        "Up to 512 Kbytes",
+        "Yes",
+        "128",
+        "80",
+        "64",
+        "2",
+        "With hardware crypto: AES, PKA,SAES, and OTFDEC"
+      ],
+      [
+        "STM32H523",
+        "Up to 512 Kbytes",
+        "Yes",
+        "128",
+        "80",
+        "64",
+        "2",
+        "Without hardware crypto"
+      ],
+      [
+        "STM32H573",
+        "Up to 2 MB",
+        "Yes",
+        "256",
+        "64",
+        "320",
+        "4",
+        "With hardware crypto: AES, PKA,SAES, and OTFDEC"
+      ],
+      [
+        "STM32H563",
+        "Up to 2 MB",
+        "Yes",
+        "256",
+        "64",
+        "320",
+        "4",
+        "Without hardware crypto"
+      ],
+      [
+        "STM32C54x",
+        "Up to 256 KB",
+        "Yes",
+        "32",
+        "32",
+        "NA",
+        "NA",
+        "With hardware crypto: AES"
+      ],
+      [
+        "STM32C53x",
+        "Up to 256 KB",
+        "Yes",
+        "32",
+        "32",
+        "NA",
+        "NA",
+        "Without hardware crypto"
+      ],
+      [
+        "STM32C56x",
+        "Up to 512 KB",
+        "Yes",
+        "64",
+        "64",
+        "NA",
+        "NA",
+        "With hardware crypto: AES"
+      ],
+      [
+        "STM32C55x",
+        "Up to 512 KB",
+        "Yes",
+        "64",
+        "64",
+        "NA",
+        "NA",
+        "Without hardware crypto"
+      ],
+      [
+        "STM32C5Ax",
+        "Up to 1 MB",
+        "Yes",
+        "128",
+        "128",
+        "NA",
+        "NA",
+        "With hardware crypto: AES, PKA and SAES"
+      ],
+      [
+        "STM32C59x",
+        "Up to 1 MB",
+        "Yes",
+        "128",
+        "128",
+        "NA",
+        "NA",
+        "Without hardware crypto"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

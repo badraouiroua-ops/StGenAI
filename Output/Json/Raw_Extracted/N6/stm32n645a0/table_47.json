@@ -1,0 +1,81 @@
+{
+  "table_id": "table_47",
+  "caption": "Table 47. HSE clock characteristics (digital bypass)",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 160,
+  "merged_pages": [
+    160
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=160",
+  "section": "5.3.8 External clock sources characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V HSEH",
+      "OSC_IN high level voltage",
+      "1.8 V only",
+      "0.7 x V DDA18AON",
+      "-",
+      "V DDA18AON",
+      "V"
+    ],
+    [
+      "V HSEL",
+      "OSC_IN low level voltage",
+      "1.8 V only",
+      "-",
+      "-",
+      "0.3 x V DDA18AON",
+      "V"
+    ],
+    [
+      "t w(HSEH) t w(HSEL)",
+      "OSC_IN high or low time",
+      "-",
+      "7",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "3. Maximum start-up time is obtained with 200 mV peak-to-peak amplitude. HSE clock generated from a crystal/ceramic resonator"
+    ],
+    "_dedup_rows_removed": 1,
+    "_dedup_removed_indices": [
+      0
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_47",
+    "is_continued": false,
+    "pages": [
+      160
+    ],
+    "rows_count": 3,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau",
+      "row_index": null,
+      "analyse_visuelle": "Correction du mot coupé par un retour à la ligne dans l'en-tête (dma_addressing[x]) et suppression de l'espace inutile dans dma_fifo_size[x].",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Hardware parameters / dma_fifo_size[ x]",
+          "nouvelle_valeur": "Hardware parameters / dma_fifo_size[x]",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Hardware parameters / dma_addressi ng[x]",
+          "nouvelle_valeur": "Hardware parameters / dma_addressing[x]",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

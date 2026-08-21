@@ -1,0 +1,22 @@
+{
+  "table_id": "table_4",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "OTG_FS / ecafretni ecived/tsoh SF 0.2 BSU",
+      "row_index": 0,
+      "analyse_visuelle": "Le texte vertical de l'en-tête de la colonne 16 a été extrait en RTL inversé ('ecafretni ecived/tsoh SF 0.2 BSU'). Il s'agit de 'USB 2.0 FS host/device interface'.",
+      "corrections": [
+        {
+          "colonne_index": 16,
+          "valeur_originale_json": "ecafretni ecived/tsoh SF 0.2 BSU",
+          "nouvelle_valeur": "USB 2.0 FS host/device interface",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

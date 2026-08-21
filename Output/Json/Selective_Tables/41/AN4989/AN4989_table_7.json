@@ -1,0 +1,88 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. STM32 Series vs. debug capabilties",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. STM32 Series vs. debug capabilties",
+  "page": 116,
+  "section": "11 Troubleshooting",
+  "section_title": "Troubleshooting",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=116",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "text_helper": "Table 7. STM32 Series vs. debug capabilties — section 11 Troubleshooting. STM32 Series, Cortex type, SWD, JTAG, ETM, +4 autres.",
+  "table_content": {
+    "headers": [
+      "STM32 Series",
+      "Cortex type",
+      "SWD",
+      "JTAG",
+      "ETM",
+      "SWO",
+      "Hardware breakpoints",
+      "Core Reset",
+      "MCO(1)"
+    ],
+    "rows": [
+      [
+        "L0/F0",
+        "M0/0+",
+        "Yes",
+        "No",
+        "No",
+        "No",
+        "4",
+        "No",
+        "1"
+      ],
+      [
+        "F1/L1/F2",
+        "M3",
+        "Yes",
+        "Yes",
+        "Yes(2)",
+        "Yes",
+        "6",
+        "Yes",
+        "1"
+      ],
+      [
+        "F3/F4/L4",
+        "M4",
+        "Yes",
+        "Yes",
+        "Yes(2)",
+        "Yes",
+        "6",
+        "Yes",
+        "2(2)"
+      ],
+      [
+        "F7/H7",
+        "M7",
+        "Yes",
+        "Yes",
+        "Yes(2)",
+        "Yes",
+        "8",
+        "Yes",
+        "2(2)"
+      ]
+    ],
+    "notes": [
+      "1. Microcontroller Clock Output (refer to Section 8.2: Microcontroller clock output (MCO) on page 87)",
+      "2. Depends on package size. Check availability in the Pin Allocation Table in the related datasheet. For more details, refer to the related Cortex® Arm® documentation."
+    ],
+    "legend": [
+      "L0/F0 M0/0+ Yes No No No 4 No 1",
+      "F1/L1/F2 M3 Yes Yes Yes(2) Yes 6 Yes 1",
+      "F3/F4/L4 M4 Yes Yes Yes(2) Yes 6 Yes 2(2)",
+      "F7/H7 M7 Yes Yes Yes(2) Yes 8 Yes 2(2)",
+      "For more details, refer to the related Cortex® Arm® documentation.",
+      "D.1 Application notes index"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

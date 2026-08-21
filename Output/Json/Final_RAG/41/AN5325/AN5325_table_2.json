@@ -1,0 +1,58 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Execution time versus software for polar to rectangular conversion",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Execution time versus software for polar to rectangular conversion",
+  "page": 10,
+  "section": "3.1.2 Performance comparison",
+  "section_title": "Performance comparison",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5325.pdf#page=10",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5325.pdf",
+  "text_helper": "Table 2. Execution time versus software for polar to rectangular conversion — section 3.1.2 Performance comparison. Function used to calculate sine and cosine, CPU cycles (optimized for speed), CPU cycles (optimized for size).",
+  "table_content": {
+    "headers": [
+      "Function used to calculate sine and cosine",
+      "CPU cycles (optimized for speed)",
+      "CPU cycles (optimized for size)"
+    ],
+    "rows": [
+      [
+        "CORDIC in zero overhead mode (32-bit integer)",
+        "29",
+        "29"
+      ],
+      [
+        "CORDIC in zero overhead mode with conversion from single precision floating-point to 32-bit integer and back",
+        "79",
+        "82"
+      ],
+      [
+        "math.h single precision floating-point functions: float sinf(float), float cosf(float)",
+        "416",
+        "416"
+      ],
+      [
+        "arm_math.h DSP library 32-bit fixed point function: arm_sin_cos_q31(q31_t, q31_t*, q31_t*)",
+        "742",
+        "733"
+      ],
+      [
+        "arm_math.h DSP library 32-bit floating-point function: arm_sin_cos_f32(float32_t, float32_t*, float32_t*)",
+        "405",
+        "413"
+      ],
+      [
+        "math.h double precision floating-point functions: double sin(double), double cos(double)",
+        "4036",
+        "4053"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

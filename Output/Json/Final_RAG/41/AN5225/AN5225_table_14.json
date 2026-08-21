@@ -1,0 +1,121 @@
+{
+  "table_id": "table_14",
+  "document": "Table 14. Source features",
+  "rev": null,
+  "table_number": "14",
+  "title": "Table 14. Source features",
+  "page": 36,
+  "section": "11.3.3 Source port",
+  "section_title": "Source port",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=36",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 14. Source features — section 11.3.3 Source port. Feature, STM32 Peripherals involved, Number of STM32 pins, External components or devices, Comments, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "STM32 Peripherals involved",
+      "Number of STM32 pins",
+      "External components or devices",
+      "Comments",
+      "Signal name"
+    ],
+    "rows": [
+      [
+        "CC1 and CC2 communication channels",
+        "UCPD: CC1, CC2",
+        "2",
+        "-",
+        "Mandatory",
+        "CC1 CC2"
+      ],
+      [
+        "Dead Battery support",
+        "UCPD: DBCC1, DBCC2",
+        "2",
+        "-",
+        "Mandatory",
+        "DBCC1 DBCC1"
+      ],
+      [
+        "VBUS level, vSafe0V, measurement",
+        "ADC",
+        "1",
+        "Resistor bridge with or without op-amp for safety purpose",
+        "Mandatory(1)",
+        "V_SENSE"
+      ],
+      [
+        "Power",
+        "Power",
+        "Power",
+        "Power",
+        "Power",
+        "Power"
+      ],
+      [
+        "Provide power from VBUS",
+        "GPIO",
+        "1",
+        "Power switch",
+        "Mandatory, Dual-MOSFET can be used",
+        "SRC_EN"
+      ],
+      [
+        "Discharge VBUS to vSafe0V",
+        "GPIO",
+        "1",
+        "MOSFET + charge resistors",
+        "Mandatory",
+        "SRC_DISCH"
+      ],
+      [
+        "ISense measurement",
+        "ADC",
+        "1",
+        "Op-amp + shunt resistors",
+        "Optional",
+        "I_SENSE"
+      ],
+      [
+        "CC1 and CC2",
+        "",
+        "",
+        "See Section 14 Recommendations",
+        "",
+        "CC1 and CC2 on Type-C side"
+      ],
+      [
+        "VBUS",
+        "-",
+        "-",
+        "See Section 14 Recommendations",
+        "-",
+        "VBUS on Type-C side"
+      ],
+      [
+        "Message repetition",
+        "TIM",
+        "-",
+        "-",
+        "Used to drive timing repetition 1200 µs et 900 µs",
+        "See [1] for details"
+      ],
+      [
+        "Message transmissions",
+        "DMA",
+        "-",
+        "-",
+        "For TX et RX transfer",
+        "See [1] for details"
+      ]
+    ],
+    "notes": [
+      "1. For certification purposes, vsafe0V must be checked."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

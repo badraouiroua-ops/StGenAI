@@ -1,0 +1,45 @@
+{
+  "table_id": "table_7",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Ligne 1, Col 0 laissée vide (cellule fusionnée verticalement avec Open)"
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête de colonne",
+      "row_index": null,
+      "analyse_visuelle": "Suppression de l'espace indésirable après le trait d'union dans 'option-byte'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Boot address option- byte selection",
+          "nouvelle_valeur": "Boot address option-byte selection",
+          "confiance": 95
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 1,
+      "contenu": [
+        "",
+        "1",
+        "NA",
+        "Bootloader",
+        "Bootloader"
+      ]
+    },
+    {
+      "row_index": 2,
+      "contenu": [
+        "Provisioning",
+        "x",
+        "NA",
+        "RSS",
+        "RSS"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,184 @@
+{
+  "table_id": "table_12",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Suppression des deux lignes d'en-tête répétées suite au saut de page (index 23 et 24).",
+    "Correction des mots coupés avec espaces indésirables (LPUART1_CTS, LPUART1_RTS, PWR_CSLEEP).",
+    "Correction du nom de port superposé (Port BPort A -> Port B)."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "PA6",
+      "row_index": 6,
+      "analyse_visuelle": "Dans la colonne AF8 (colonne_index 10), la chaîne 'LPUART1_RTS' a été extraite avec un espace entre 'RT' et 'S'.",
+      "corrections": [
+        {
+          "colonne_index": 10,
+          "valeur_originale_json": "LPUART1_RT S",
+          "nouvelle_valeur": "LPUART1_RTS",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PA7",
+      "row_index": 7,
+      "analyse_visuelle": "Dans la colonne AF8 (colonne_index 10), la chaîne 'LPUART1_CTS' a été extraite avec un espace 'LPUART1_CT S'.",
+      "corrections": [
+        {
+          "colonne_index": 10,
+          "valeur_originale_json": "LPUART1_CT S",
+          "nouvelle_valeur": "LPUART1_CTS",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PA11",
+      "row_index": 11,
+      "analyse_visuelle": "Dans la colonne AF3 (colonne_index 5), 'LPUART1_CTS' a été coupé en 'LPUART1_CT S'.",
+      "corrections": [
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "LPUART1_CT S",
+          "nouvelle_valeur": "LPUART1_CTS",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PA12",
+      "row_index": 12,
+      "analyse_visuelle": "Dans la colonne AF3 (colonne_index 5), 'LPUART1_RTS' a été coupé en 'LPUART1_RT S'.",
+      "corrections": [
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "LPUART1_RT S",
+          "nouvelle_valeur": "LPUART1_RTS",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB0",
+      "row_index": 16,
+      "analyse_visuelle": "Le nom du port vertical a été extrait comme 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB1",
+      "row_index": 17,
+      "analyse_visuelle": "Le nom du port vertical a été extrait comme 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB2",
+      "row_index": 18,
+      "analyse_visuelle": "Le nom du port vertical a été extrait comme 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB3",
+      "row_index": 19,
+      "analyse_visuelle": "Le nom du port vertical a été extrait comme 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB4",
+      "row_index": 20,
+      "analyse_visuelle": "Correction du nom de port 'Port BPort A' en 'Port B' et correction du mot 'LPUART1_CT S' en 'LPUART1_CTS'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 10,
+          "valeur_originale_json": "LPUART1_CT S",
+          "nouvelle_valeur": "LPUART1_CTS",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB5",
+      "row_index": 21,
+      "analyse_visuelle": "Correction du nom de port 'Port BPort A' en 'Port B' et correction de 'LPUART1_RT S' en 'LPUART1_RTS'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 10,
+          "valeur_originale_json": "LPUART1_RT S",
+          "nouvelle_valeur": "LPUART1_RTS",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB6",
+      "row_index": 22,
+      "analyse_visuelle": "Le nom du port vertical a été extrait comme 'Port BPort A' au lieu de 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC2",
+      "row_index": 35,
+      "analyse_visuelle": "Dans la colonne AF0 (colonne_index 2), la chaîne 'PWR_CSLEEP' comporte un espace indésirable 'PWR_CSLEE P'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "PWR_CSLEE P",
+          "nouvelle_valeur": "PWR_CSLEEP",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    23,
+    24
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "table_id": "table_71",
+  "document": "DS14693 Rev 2 - Table 71. UFQFPN28 – Mechanical data",
+  "rev": "Rev 2",
+  "table_number": "71",
+  "title": "Table 71. UFQFPN28 – Mechanical data",
+  "page": 106,
+  "section": "6.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=106",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 71. UFQFPN28 – Mechanical data — section 6.1 Device marking. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min",
+      "millimeters / Typ",
+      "millimeters / Max",
+      "inches / Min",
+      "inches / Typ",
+      "inches / Max"
+    ],
+    "rows": [
+      [
+        "A",
+        "0.500",
+        "0.550",
+        "0.600",
+        "0.0197",
+        "0.0217",
+        "0.0236"
+      ],
+      [
+        "A1",
+        "-",
+        "0.000",
+        "0.050",
+        "-",
+        "0.0000",
+        "0.0020"
+      ],
+      [
+        "D",
+        "3.900",
+        "4.000",
+        "4.100",
+        "0.1535",
+        "0.1575",
+        "0.1614"
+      ],
+      [
+        "D1",
+        "2.900",
+        "3.000",
+        "3.100",
+        "0.1142",
+        "0.1181",
+        "0.1220"
+      ],
+      [
+        "E",
+        "3.900",
+        "4.000",
+        "4.100",
+        "0.1535",
+        "0.1575",
+        "0.1614"
+      ],
+      [
+        "E1",
+        "2.900",
+        "3.000",
+        "3.100",
+        "0.1142",
+        "0.1181",
+        "0.1220"
+      ],
+      [
+        "L",
+        "0.300",
+        "0.400",
+        "0.500",
+        "0.0118",
+        "0.0157",
+        "0.0197"
+      ],
+      [
+        "L1",
+        "0.250",
+        "0.350",
+        "0.450",
+        "0.0098",
+        "0.0138",
+        "0.0177"
+      ],
+      [
+        "T",
+        "-",
+        "0.152",
+        "-",
+        "-",
+        "0.0060",
+        "-"
+      ],
+      [
+        "b",
+        "0.200",
+        "0.250",
+        "0.300",
+        "0.0079",
+        "0.0098",
+        "0.0118"
+      ],
+      [
+        "e",
+        "-",
+        "0.500",
+        "-",
+        "-",
+        "0.0197",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. Drawing is not to scale."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

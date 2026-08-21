@@ -1,0 +1,91 @@
+{
+  "table_id": "table_31",
+  "caption": "Table 31. Wake-up time using USART/LPUART.",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 63,
+  "merged_pages": [
+    63,
+    64
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=63",
+  "section": "5.3.7 Wake-up time from low-power modes and voltage scaling transition times",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Parameter",
+    "Condition",
+    "Typ",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tWUUSART/ tWULPUART",
+      "Wake-up time needed to calculate the maximum USART/LPUART baudrate allowing to wake up from Stop mode when USART/LPUART clock source is 48 MHz by HSIDIV3",
+      "Wake-up time needed to calculate the maximum USART/LPUART baudrate allowing to wake up from Stop mode when USART/LPUART clock source is 48 MHz by HSIDIV3",
+      "Stop 0 mode",
+      "4.8",
+      "6.6",
+      "µs"
+    ],
+    [
+      "tWUUSART/ tWULPUART",
+      "Wake-up time needed to calculate the maximum USART/LPUART baudrate allowing to wake up from Stop mode when USART/LPUART clock source is 48 MHz by HSIDIV3",
+      "Wake-up time needed to calculate the maximum USART/LPUART baudrate allowing to wake up from Stop mode when USART/LPUART clock source is 48 MHz by HSIDIV3",
+      "Stop 1 mode",
+      "4.8",
+      "6.6",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        2
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. There is no specified rise and fall time for a digital input signal, but the VHSEH and VHSEL conditions must be fulfilled .",
+      "2. The DC component of the signal must ensure that the signal peaks are located between VDD and VSS."
+    ],
+    "_dedup_rows_removed": 3,
+    "_dedup_removed_indices": [
+      2,
+      3,
+      4
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_31",
+    "is_continued": true,
+    "pages": [
+      63,
+      64
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

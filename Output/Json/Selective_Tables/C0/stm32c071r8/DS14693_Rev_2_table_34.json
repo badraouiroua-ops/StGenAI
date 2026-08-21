@@ -1,0 +1,100 @@
+{
+  "table_id": "table_34",
+  "document": "DS14693 Rev 2 - Table 34. Current consumption in Shutdown mode",
+  "rev": "Rev 2",
+  "table_number": "34",
+  "title": "Table 34. Current consumption in Shutdown mode",
+  "page": 64,
+  "section": "5.3.5 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=64",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 34. Current consumption in Shutdown mode — section 5.3.5 Supply current characteristics. Symbol, Parameter, Conditions, V DD, Typ / 25 °C, +8 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "V DD",
+      "Typ / 25 °C",
+      "Typ / 85 °C",
+      "Typ / 105 °C",
+      "Typ / 125 °C",
+      "Max(1) / 25 °C",
+      "Max(1) / 85 °C",
+      "Max(1) / 105 °C",
+      "Max(1) / 125 °C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD(Shutdown)",
+        "Supply current in Shutdown mode",
+        "All clocks off",
+        "2 V",
+        "12.00",
+        "515",
+        "1650",
+        "5250",
+        "82.0",
+        "1300",
+        "4100",
+        "11500",
+        "nA"
+      ],
+      [
+        "I DD(Shutdown)",
+        "Supply current in Shutdown mode",
+        "All clocks off",
+        "2.4 V",
+        "16.0",
+        "580",
+        "1850",
+        "5800",
+        "89.0",
+        "1350",
+        "4300",
+        "11700",
+        "nA"
+      ],
+      [
+        "I DD(Shutdown)",
+        "Supply current in Shutdown mode",
+        "All clocks off",
+        "3.0 V",
+        "23.0",
+        "720",
+        "2250",
+        "6950",
+        "91.0",
+        "1500",
+        "4600",
+        "12400",
+        "nA"
+      ],
+      [
+        "I DD(Shutdown)",
+        "Supply current in Shutdown mode",
+        "All clocks off",
+        "3.6 V",
+        "41.0",
+        "1000",
+        "3100",
+        "9300",
+        "130.0",
+        "1900",
+        "5800",
+        "16700",
+        "nA"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,566 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Applicable products",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "General purpose / Overview",
+    "section_title": "General purpose / Overview",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=1",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+    "text_helper": "Table 1. Applicable products — section General purpose / Overview. Type, Product series.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Product series"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "STM32F0 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F1 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F2 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F3 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F4 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32F7 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32G0 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32G4 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32H5 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32H7 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L0 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L1 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L4 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L4+ series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32L5 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32U0 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32U3 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32U5 series"
+        ],
+        [
+          "Microcontrollers",
+          "STM32C5 series"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. Maximum sampling time",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. Maximum sampling time",
+    "page": 8,
+    "section": "1.4 Digital data update rate",
+    "section_title": "Digital data update rate",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=8",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+    "text_helper": "Table 2. Maximum sampling time — section 1.4 Digital data update rate. Product, Maximum bus speed, DAC maximum sampling rate.",
+    "table_content": {
+      "headers": [
+        "Product",
+        "Maximum bus speed",
+        "DAC maximum sampling rate"
+      ],
+      "rows": [
+        [
+          "STM32F0 series",
+          "48 MHz",
+          "4.8 Msps"
+        ],
+        [
+          "STM32F100xx",
+          "24 MHz",
+          "2.4 Msps"
+        ],
+        [
+          "STM32F101xx STM32F103xx STM32F105xx STM32F107xx",
+          "36 MHz",
+          "4.5 Msps"
+        ],
+        [
+          "STM32F2 series",
+          "30 MHz",
+          "7.5 Msps"
+        ],
+        [
+          "STM32F3 series",
+          "36 MHz",
+          "4.5 Msps"
+        ],
+        [
+          "STM32F40x STM32F41x",
+          "42 MHz",
+          "10.5 Msps"
+        ],
+        [
+          "STM32F42x",
+          "45 MHz",
+          "11.25 Msps"
+        ],
+        [
+          "STM32F7 series",
+          "54 MHz",
+          "13.5 Msps"
+        ],
+        [
+          "STM32G0 series",
+          "64 MHz",
+          "8.0 Msps"
+        ],
+        [
+          "STM32G4 series",
+          "170 MHz",
+          "28.8 Msps 30.9 Msps (DMA double data mode)"
+        ],
+        [
+          "STM32H72x STM32H73x",
+          "137.5 MHz",
+          "51.1 Msps"
+        ],
+        [
+          "STM32H5 series",
+          "250 MHz",
+          "41.6 Msps"
+        ],
+        [
+          "STM32H74x STM32H75x",
+          "120 MHz",
+          "40.8 Msps"
+        ],
+        [
+          "STM32H7Ax STM32H7Bx",
+          "140 MHz",
+          "49.2 Msps"
+        ],
+        [
+          "STM32L0 series",
+          "32 MHz",
+          "4.0 Msps"
+        ],
+        [
+          "STM32L1 series",
+          "32 MHz",
+          "3.2 Msps"
+        ],
+        [
+          "STM32L4 series",
+          "80 MHz",
+          "10 Msps"
+        ],
+        [
+          "STM32L4+ series",
+          "120 MHz",
+          "12 Msps"
+        ],
+        [
+          "STM32L5 series",
+          "110 MHz",
+          "11 Msps"
+        ],
+        [
+          "STM32U0 series",
+          "56 MHz",
+          "7 Msps"
+        ],
+        [
+          "STM32U3 series",
+          "96 MHz",
+          "16 Msps"
+        ],
+        [
+          "STM32U5 series",
+          "160 MHz",
+          "16 Msps"
+        ],
+        [
+          "STM32C5 series",
+          "144 MHz",
+          "8 Msps"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. Example of the offset calibration measurement",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. Example of the offset calibration measurement",
+    "page": 12,
+    "section": "2.2.3 Offset calibration",
+    "section_title": "Offset calibration",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=12",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+    "text_helper": "Table 3. Example of the offset calibration measurement — section 2.2.3 Offset calibration. DAC DOR, ADC result value.",
+    "table_content": {
+      "headers": [
+        "DAC DOR",
+        "ADC result value"
+      ],
+      "rows": [
+        [
+          "2047",
+          "2065"
+        ],
+        [
+          "2065",
+          "2048"
+        ]
+      ],
+      "notes": [
+        "1. Set up the DAC DOR as 2047.",
+        "2. Measure the OpAmp output by the ADC.",
+        "3. Set up the DAC DOR of the ADC result of last measurement (in this case 2065).",
+        "4. Verify the result with the ADC (in this case, 2048, still 1 LSB offset)."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. Example of the calibration measurement",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. Example of the calibration measurement",
+    "page": 13,
+    "section": "2.2.4 Output gain calibration",
+    "section_title": "Output gain calibration",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=13",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+    "text_helper": "Table 4. Example of the calibration measurement — section 2.2.4 Output gain calibration. DAC DOR, ADC result value.",
+    "table_content": {
+      "headers": [
+        "DAC DOR",
+        "ADC result value"
+      ],
+      "rows": [
+        [
+          "1023",
+          "3135"
+        ],
+        [
+          "3071",
+          "983"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_5",
+    "document": "Table 5. Example of digital sample values",
+    "rev": null,
+    "table_number": "5",
+    "title": "Table 5. Example of digital sample values",
+    "page": 13,
+    "section": "2.2.4 Output gain calibration",
+    "section_title": "Output gain calibration",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=13",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+    "text_helper": "Table 5. Example of digital sample values — section 2.2.4 Output gain calibration. Sample, Digital sample value YSineDigital (x).",
+    "table_content": {
+      "headers": [
+        "Sample",
+        "Digital sample value YSineDigital (x)"
+      ],
+      "rows": [
+        [
+          "0",
+          "2066"
+        ],
+        [
+          "1",
+          "2521"
+        ],
+        [
+          "2",
+          "2948"
+        ],
+        [
+          "3",
+          "3319"
+        ],
+        [
+          "4",
+          "3612"
+        ],
+        [
+          "5",
+          "3807"
+        ],
+        [
+          "6",
+          "3893"
+        ],
+        [
+          "7",
+          "3864"
+        ],
+        [
+          "8",
+          "3723"
+        ],
+        [
+          "9",
+          "3477"
+        ],
+        [
+          "10",
+          "3142"
+        ],
+        [
+          "11",
+          "2740"
+        ],
+        [
+          "12",
+          "2295"
+        ],
+        [
+          "13",
+          "1837"
+        ],
+        [
+          "14",
+          "1392"
+        ],
+        [
+          "15",
+          "990"
+        ],
+        [
+          "16",
+          "655"
+        ],
+        [
+          "17",
+          "409"
+        ],
+        [
+          "18",
+          "268"
+        ],
+        [
+          "19",
+          "239"
+        ],
+        [
+          "20",
+          "325"
+        ],
+        [
+          "21",
+          "520"
+        ],
+        [
+          "22",
+          "813"
+        ],
+        [
+          "23",
+          "1184"
+        ],
+        [
+          "24",
+          "1611"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_6",
+    "document": "Table 6. Component values",
+    "rev": null,
+    "table_number": "6",
+    "title": "Table 6. Component values",
+    "page": 15,
+    "section": "2.3 Hardware implementation",
+    "section_title": "Hardware implementation",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=15",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+    "text_helper": "Table 6. Component values — section 2.3 Hardware implementation. Type, Component, Value.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Component",
+        "Value"
+      ],
+      "rows": [
+        [
+          "Resistor",
+          "R1",
+          "12 kΩ"
+        ],
+        [
+          "Resistor",
+          "R2",
+          "10 kΩ"
+        ],
+        [
+          "Resistor",
+          "R3",
+          "10 kΩ"
+        ],
+        [
+          "Capacitor",
+          "C1",
+          "5 pF"
+        ],
+        [
+          "Capacitor",
+          "C2",
+          "100 nF"
+        ],
+        [
+          "Capacitor",
+          "C3",
+          "100 nF"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_7",
+    "document": "Table 7. Document revision history",
+    "rev": null,
+    "table_number": "7",
+    "title": "Table 7. Document revision history",
+    "page": 19,
+    "section": "5 Revision history",
+    "section_title": "Revision history",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=19",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+    "text_helper": "Table 7. Document revision history — section 5 Revision history. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "03-Nov-2014",
+          "1",
+          "Initial release."
+        ],
+        [
+          "02-Aug-2015",
+          "2",
+          "Added STM32L4 series in Table 1: Applicable products and in Table 2: Maximum sampling time."
+        ],
+        [
+          "19-Sep-2019",
+          "3",
+          "Document scope extended to STM32L4+, STM32L5, STM32H7, STM32G0 and STM32G4 series, hence updated Table 1: Applicable products and Table 2: Maximum sampling time. Updated Section 1.1: DAC equivalent circuit, Section 1.3: External OpAmp implementation and Section 2.2.4: Output gain calibration. Added Section 1.4.1: DMA double data mode. Updated Figure 1: DAC equivalent circuit. Minor text edits across the whole document."
+        ],
+        [
+          "03-Oct-2022",
+          "4",
+          "Document scope extended to STM32U5 series. Updated Table 1: Applicable products and Table 2: Maximum sampling time. Minor text edits across the whole document."
+        ],
+        [
+          "09-Jan-2025",
+          "5",
+          "Document scope extended to STM32H5, STM32U0, and STM32U3 series, hence updated Table 1: Applicable products and Table 2: Maximum sampling time. Minor text edits across the whole document."
+        ],
+        [
+          "23-Feb-2026",
+          "6",
+          "Document scope extended to STM32C5 series, hence updated Table 1: Applicable products and Table 2: Maximum sampling time."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

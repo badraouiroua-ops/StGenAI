@@ -1,0 +1,79 @@
+[
+  {
+    "table_file": "DS15136_Rev_1_table_1.json",
+    "table_id": "table_1",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Tableau complexe réparti sur deux pages comportant de nombreuses fusions cellulaires horizontales et verticales (mémoires, timers, interfaces de communication) dupliquées à travers les colonnes par l'outil d'extraction. Conformément aux règles, les fusions complexes nécessitent une révision manuelle."
+    ]
+  },
+  {
+    "table_file": "DS15136_Rev_1_table_27.json",
+    "table_id": "table_27",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "BOUCLIER-4: Annulation car au moins une correction avait une confiance < 80%."
+    ]
+  },
+  {
+    "table_file": "DS15136_Rev_1_table_55.json",
+    "table_id": "table_55",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Le JSON fusionne de manière erronée deux tableaux distincts (Table 55 et la fin de Table 56 de la page 93) tout en omettant la majorité de la Table 56 présente sur la page 92. Une révision manuelle est nécessaire pour séparer les tableaux et réextraire l'intégralité des données."
+    ]
+  },
+  {
+    "table_file": "DS15136_Rev_1_table_56.json",
+    "table_id": "table_56",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Le tableau s'étend sur deux pages (page 92 et page 93). Les lignes 17, 18 et 19 du JSON sont totalement décalées et corrompues. De plus, plusieurs lignes issues de la page 93 (tSTAB, tOFF_CAL, tLATR, tS, tCONV, IDDA(ADC)) sont complètement manquantes dans le JSON extrait. Une intervention manuelle est nécessaire."
+    ]
+  },
+  {
+    "table_file": "DS15136_Rev_1_table_58.json",
+    "table_id": "table_58",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Le JSON fusionne à tort la Table 58 (page 97) et la Table 60 (page 98) avec un nombre de colonnes incompatible (6 vs 7 colonnes).",
+      "La première partie de la Table 60 (page 97) est complètement manquante.",
+      "Décalage systématique et grave des colonnes sur toute la partie DAC (page 98) où le texte des Conditions déborde dans la colonne Min et décale toutes les valeurs numériques."
+    ]
+  },
+  {
+    "table_file": "DS15136_Rev_1_table_79.json",
+    "table_id": "table_79",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Nombre de lignes manquantes très important dans l'extraction JSON (A, A1, A2, b, c, c1, L, L1, R1, R2, S manquent totalement).",
+      "Les cellules fusionnées horizontalement (BSC, REF, valeurs typiques centrées comme pour D, D1, E, E1, e, N, aaa, bbb, ccc, ddd) ont leurs valeurs décalées ou dupliquées à travers toutes les colonnes."
+    ]
+  },
+  {
+    "table_file": "DS15136_Rev_1_table_80.json",
+    "table_id": "table_80",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Le tableau extrait comporte 6 colonnes au lieu des 7 colonnes présentes sur l'image (les colonnes 'Typ' et 'Max' sous 'Millimeters' ont été fusionnées en une seule colonne 'Millimeters / Typ Max'). Une révision manuelle est nécessaire pour restructurer le tableau à 7 colonnes."
+    ]
+  },
+  {
+    "table_file": "DS15136_Rev_1_table_81.json",
+    "table_id": "table_81",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "Le JSON extrait est très incomplet : presque toutes les lignes (A, A1, A2, b, b1, c, c1, e, L, Θ, Θ1, Θ2, Θ3, R1, R2, S, aaa, bbb, ccc, ddd) ont été omises par l'outil d'extraction.",
+      "Les valeurs des cellules fusionnées horizontales (ex: BSC, REF, N) ont été dupliquées de manière erronée sur chaque sous-colonne dans le JSON d'origine.",
+      "Une révision manuelle complète du tableau est nécessaire pour réintégrer l'ensemble des lignes manquantes."
+    ]
+  },
+  {
+    "table_file": "DS15136_Rev_1_table_82.json",
+    "table_id": "table_82",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "L'extraction JSON est très incomplète et décalée : la majorité des lignes du tableau (A1, A2, b, c, c1, e, L, Θ, Θ1, Θ2, Θ3, R1, R2, S, aaa, bbb, ccc, ddd) sont manquantes, et les cellules fusionnées (comme BSC et la valeur N=80) ont été dupliquées de façon erronée dans toutes les colonnes."
+    ]
+  }
+]

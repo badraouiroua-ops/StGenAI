@@ -1,0 +1,88 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. STMicroelectronics documentation guide",
+  "pdf_name": "AN4989",
+  "family": "41",
+  "page": 30,
+  "merged_pages": [
+    30
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=30",
+  "section": "2.4.1 Documentation",
+  "headers": [
+    "Acronym",
+    "Name",
+    "Content"
+  ],
+  "rows": [
+    [
+      "DB",
+      "Data Brief",
+      "Preliminary Product Specification before complete maturity"
+    ],
+    [
+      "DS",
+      "Data sheet",
+      "Product Specifications, Hardware feature and Electrical Characteristics (Pinout/Alternate function definition table, Memory Map, Electrical Characterization etc.)"
+    ],
+    [
+      "RM",
+      "Reference manual",
+      "How to use the targeted microcontroller series, memory and peripherals.(registers details, default/reset value etc.)"
+    ],
+    [
+      "AN",
+      "Application note",
+      "\"How to make\" guide helping to achieve a specific application with the targeted MCU."
+    ],
+    [
+      "UM",
+      "User manual",
+      "\"How To Use\" guide for a specific software of hardware product (board, software tools etc.)"
+    ],
+    [
+      "TN",
+      "Technical note",
+      "Very brief document addressing single technical aspect. Can be seen as a complement of AN or UM documents"
+    ],
+    [
+      "ES",
+      "Errata sheet",
+      "Contained known issues and device limitation."
+    ],
+    [
+      "PM",
+      "Programmer manual",
+      "Target software developer with a full description of the STM32 Cortex®-M processor programming model, instruction set and core peripherals"
+    ],
+    [
+      "RN",
+      "Release note",
+      "It describes new features, known limitations and corrections on a specific software release for an evaluation board, a reference design, a software or programming or debugging tool."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4989",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      30
+    ],
+    "rows_count": 9,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

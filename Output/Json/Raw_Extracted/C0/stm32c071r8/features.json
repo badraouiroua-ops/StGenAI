@@ -1,0 +1,93 @@
+{
+  "pdf_name": "stm32c071r8",
+  "family": "C0",
+  "pdf_type": 1,
+  "doc_ref": "DS14693",
+  "revision": "Rev 2",
+  "date": "April 2025",
+  "title": "Arm Cortex -M0+ 32-bit MCU, 128 KB flash, 24 KB RAM, 2 x USART, timers, ADC, USB FS, comm. I/Fs, 2-3.6V",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "page": 1,
+  "core": "Cortex-M0+",
+  "fpu": false,
+  "max_frequency_mhz": 48,
+  "flash_kb": 128,
+  "ram_kb": 24,
+  "voltage_min_v": 2.0,
+  "voltage_max_v": 3.6,
+  "operating_temp_c": [
+    "-40°C to 85°C",
+    "-40°C to 105°C",
+    "-40°C to 125°C"
+  ],
+  "packages": [
+    "TSSOP20",
+    "UFQFPN28",
+    "UFQFPN32 (7 x 7 mm)",
+    "UFQFPN48 (10 x 10 mm)",
+    "WLCSP19 (2.52 x 1.67 mm)",
+    "LQFP32 (7 x 7 mm)",
+    "LQFP48 (7 x 7 mm)",
+    "LQFP64 (10 x 10 mm)",
+    "UFBGA64 (5 x 5 mm)"
+  ],
+  "device_summary": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32C071x8",
+        "STM32C071F8"
+      ],
+      [
+        "STM32C071x8",
+        "STM32C071G8"
+      ],
+      [
+        "STM32C071x8",
+        "STM32C071K8"
+      ],
+      [
+        "STM32C071x8",
+        "STM32C071C8"
+      ],
+      [
+        "STM32C071x8",
+        "STM32C071R8"
+      ],
+      [
+        "STM32C071xB",
+        "STM32C071FB"
+      ],
+      [
+        "STM32C071xB",
+        "STM32C071GB"
+      ],
+      [
+        "STM32C071xB",
+        "STM32C071KB"
+      ],
+      [
+        "STM32C071xB",
+        "STM32C071CB"
+      ],
+      [
+        "STM32C071xB",
+        "STM32C071RB"
+      ]
+    ]
+  },
+  "extraction_meta": {
+    "source_pages": [
+      1
+    ],
+    "extraction_method": "regex_type1",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "high",
+    "missing_fields": [],
+    "low_confidence_fields": []
+  }
+}

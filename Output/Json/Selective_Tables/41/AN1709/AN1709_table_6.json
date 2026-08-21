@@ -1,0 +1,38 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. F_ESD/FTB target level and acceptance limit",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. F_ESD/FTB target level and acceptance limit",
+  "page": 7,
+  "section": "3.1.1 Functional EMS test",
+  "section_title": "Functional EMS test",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 6. F_ESD/FTB target level and acceptance limit — section 3.1.1 Functional EMS test. -, Acceptance limit, Target level.",
+  "table_content": {
+    "headers": [
+      "-",
+      "Acceptance limit",
+      "Target level"
+    ],
+    "rows": [
+      [
+        "F_ESD",
+        "0.5kV",
+        ">1kV"
+      ],
+      [
+        "FTB",
+        "0.5kV",
+        ">1.5kV"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

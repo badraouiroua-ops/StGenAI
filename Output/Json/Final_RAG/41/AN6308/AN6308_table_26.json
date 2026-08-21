@@ -1,0 +1,53 @@
+{
+  "table_id": "table_26",
+  "document": "Table 26. DAC differences",
+  "rev": null,
+  "table_number": "26",
+  "title": "Table 26. DAC differences",
+  "page": 40,
+  "section": "6.5.2 Digital-to-analog converter (DAC)",
+  "section_title": "Digital-to-analog converter (DAC)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=40",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 26. DAC differences — section 6.5.2 Digital-to-analog converter (DAC). DAC, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "DAC",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Instances",
+        "x1 with two output channels",
+        "x1 with two output channels"
+      ],
+      [
+        "Resolution",
+        "12 bits",
+        "12 bits"
+      ],
+      [
+        "Output buffer",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Dual DAC channel",
+        "For independent or simultaneous conversions",
+        "For independent or simultaneous conversions"
+      ],
+      [
+        "New features",
+        "• Double-data DMA • Buffer offset calibration • Sample and hold mode for low-power operation in Stop mode",
+        "• Double-data DMA • Buffer offset calibration • Sample and hold mode for low-power operation in Stop mode"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

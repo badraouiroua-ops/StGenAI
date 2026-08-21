@@ -1,0 +1,62 @@
+{
+  "table_id": "table_8",
+  "caption": "Table 8. STM32 Series vs. debug capabilities",
+  "pdf_name": "AN4989",
+  "family": "41",
+  "page": 116,
+  "merged_pages": [
+    116
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=116",
+  "section": "General purpose / Overview",
+  "headers": [
+    "AN references",
+    "Subject"
+  ],
+  "rows": [
+    [
+      "AN5361",
+      "Dual core microcontrollers debugging"
+    ],
+    [
+      "AN5286",
+      "Dual core microcontrollers debugging"
+    ],
+    [
+      "AN5421",
+      "Trustzone"
+    ],
+    [
+      "AN5347",
+      "Trustzone"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Microcontroller Clock Output (refer to Section 8.2: Microcontroller clock output (MCO) on page 87)",
+      "2. Depends on package size. Check availability in the Pin Allocation Table in the related datasheet. For more details, refer to the related Cortex® Arm® documentation."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4989",
+    "table_id": "table_8",
+    "is_continued": false,
+    "pages": [
+      116
+    ],
+    "rows_count": 4,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

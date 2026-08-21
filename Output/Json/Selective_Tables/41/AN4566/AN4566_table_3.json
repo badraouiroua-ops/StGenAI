@@ -1,0 +1,40 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Example of the offset calibration measurement",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Example of the offset calibration measurement",
+  "page": 12,
+  "section": "2.2.3 Offset calibration",
+  "section_title": "Offset calibration",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=12",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+  "text_helper": "Table 3. Example of the offset calibration measurement — section 2.2.3 Offset calibration. DAC DOR, ADC result value.",
+  "table_content": {
+    "headers": [
+      "DAC DOR",
+      "ADC result value"
+    ],
+    "rows": [
+      [
+        "2047",
+        "2065"
+      ],
+      [
+        "2065",
+        "2048"
+      ]
+    ],
+    "notes": [
+      "1. Set up the DAC DOR as 2047.",
+      "2. Measure the OpAmp output by the ADC.",
+      "3. Set up the DAC DOR of the ADC result of last measurement (in this case 2065).",
+      "4. Verify the result with the ADC (in this case, 2048, still 1 LSB offset)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

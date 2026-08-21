@@ -1,0 +1,78 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. DCACHE cacheable regions and interfaces",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. DCACHE cacheable regions and interfaces",
+  "page": 17,
+  "section": "3.2.2 DCACHE cacheable regions",
+  "section_title": "DCACHE cacheable regions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "text_helper": "Table 7. DCACHE cacheable regions and interfaces — section 3.2.2 DCACHE cacheable regions. Cacheable memory address region, DCACHE1 cacheable interfaces, DCACHE2 cacheable interfaces.",
+  "table_content": {
+    "headers": [
+      "Cacheable memory address region",
+      "DCACHE1 cacheable interfaces",
+      "DCACHE2 cacheable interfaces"
+    ],
+    "rows": [
+      [
+        "GFXMMU",
+        "X",
+        "X"
+      ],
+      [
+        "SRAM1",
+        "N/A",
+        "X"
+      ],
+      [
+        "SRAM2",
+        "N/A",
+        "X"
+      ],
+      [
+        "SRAM3",
+        "N/A",
+        "X"
+      ],
+      [
+        "SRAM5",
+        "N/A",
+        "X"
+      ],
+      [
+        "SRAM6",
+        "N/A",
+        "X"
+      ],
+      [
+        "HSPI1",
+        "X",
+        "X"
+      ],
+      [
+        "OCTOSPI1",
+        "X",
+        "X"
+      ],
+      [
+        "FMC BANKs",
+        "X",
+        "X"
+      ],
+      [
+        "OCTOSPI2",
+        "X",
+        "X"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

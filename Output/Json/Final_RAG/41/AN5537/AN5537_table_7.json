@@ -1,0 +1,86 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. Practical ENOB measurement with the hardware oversampling unit versus configuration",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. Practical ENOB measurement with the hardware oversampling unit versus configuration",
+  "page": 22,
+  "section": "6 ENOB (effective number of bits) measurement",
+  "section_title": "ENOB (effective number of bits) measurement",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=22",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "text_helper": "Table 7. Practical ENOB measurement with the hardware oversampling unit versus configuration — section 6 ENOB (effective number of bits) measurement. OSR, Software oversampling with white noise / Theoretical resolution, Software oversampling with white noise / Practical ENOB, Software oversamplin...",
+  "table_content": {
+    "headers": [
+      "OSR",
+      "Software oversampling with white noise / Theoretical resolution",
+      "Software oversampling with white noise / Practical ENOB",
+      "Software oversampling with dithering / Theoretical resolution",
+      "Software oversampling with dithering / Practical ENOB"
+    ],
+    "rows": [
+      [
+        "2",
+        "-",
+        "-",
+        "12",
+        "-"
+      ],
+      [
+        "4",
+        "13",
+        "-",
+        "13",
+        "-"
+      ],
+      [
+        "8",
+        "-",
+        "-",
+        "14",
+        "-"
+      ],
+      [
+        "16",
+        "14",
+        "-",
+        "15",
+        "-"
+      ],
+      [
+        "32",
+        "-",
+        "-",
+        "16",
+        "-"
+      ],
+      [
+        "64",
+        "15",
+        "-",
+        "17",
+        "-"
+      ],
+      [
+        "128",
+        "-",
+        "-",
+        "18",
+        "-"
+      ],
+      [
+        "256",
+        "16",
+        "-",
+        "19",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

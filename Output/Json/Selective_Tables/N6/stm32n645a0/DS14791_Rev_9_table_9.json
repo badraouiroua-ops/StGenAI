@@ -1,0 +1,41 @@
+{
+  "table_id": "table_9",
+  "document": "DS14791 Rev 9 - Table 9. Implementation of HPDMA1 channels",
+  "rev": "Rev 9",
+  "table_number": "9",
+  "title": "Table 9. Implementation of HPDMA1 channels",
+  "page": 38,
+  "section": "3.10 High performance direct memory access controller (HPDMA)",
+  "section_title": "High performance direct memory access controller (HPDMA)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=38",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 9. Implementation of HPDMA1 channels — section 3.10 High performance direct memory access controller (HPDMA). Channel x, Hardware parameters / dma_fifo_ size[x], Hardware parameters / dma_ addressing[x], Features.",
+  "table_content": {
+    "headers": [
+      "Channel x",
+      "Hardware parameters / dma_fifo_ size[x]",
+      "Hardware parameters / dma_ addressing[x]",
+      "Features"
+    ],
+    "rows": [
+      [
+        "x = 0 to 11",
+        "3",
+        "0",
+        "Channel x (x = 0 to 11) is implemented with: – a FIFO of 16 bytes, 4 words, 2 double-words – fixed/contiguously incremented addressing These channels can be used for HPDMA transfers between an APB or AHB peripheral, an AHB/AXI SRAM, or CPU TCM."
+      ],
+      [
+        "x = 12 to 15",
+        "5",
+        "1",
+        "Channel x (x = 12 to 15) is implemented with: – a FIFO of 64 bytes, 8 double-words – 2D addressing These channels can be also used for HPDMA transfers, including AXI external memories."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

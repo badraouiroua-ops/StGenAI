@@ -1,0 +1,39 @@
+{
+  "pdf_name": "AN4838",
+  "family": "41",
+  "pdf_type": 2,
+  "doc_ref": null,
+  "revision": null,
+  "date": null,
+  "title": "Introduction to memory protection unit management on STM32 MCUs Introduction This application note describes how to manage the memory protection unit (MPU) in the STM32 products.",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "page": 1,
+  "core": "Cortex-M0+",
+  "fpu": false,
+  "max_frequency_mhz": null,
+  "flash_kb": null,
+  "ram_kb": null,
+  "voltage_min_v": null,
+  "voltage_max_v": null,
+  "operating_temp_c": [],
+  "packages": [],
+  "device_summary": null,
+  "extraction_meta": {
+    "source_pages": [
+      1
+    ],
+    "extraction_method": "regex_type2",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "medium",
+    "missing_fields": [
+      "max_frequency_mhz",
+      "flash_kb",
+      "ram_kb",
+      "voltage_min_v",
+      "voltage_max_v",
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

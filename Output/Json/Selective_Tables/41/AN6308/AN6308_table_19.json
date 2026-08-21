@@ -1,0 +1,243 @@
+{
+  "table_id": "table_19",
+  "document": "Table 19. EXTI line differences",
+  "rev": null,
+  "table_number": "19",
+  "title": "Table 19. EXTI line differences",
+  "page": 33,
+  "section": "6.2.7.2 EXTI block diagram",
+  "section_title": "EXTI block diagram",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=33",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 19. EXTI line differences — section 6.2.7.2 EXTI block diagram. EXTI line, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "EXTI line",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "0-15",
+        "GPIO",
+        "16 external interrupt lines"
+      ],
+      [
+        "16",
+        "PVD/AVD output",
+        "PVD output"
+      ],
+      [
+        "17",
+        "RTC nonsecure",
+        "RTC"
+      ],
+      [
+        "18",
+        "RTC secure",
+        "TAMP"
+      ],
+      [
+        "19",
+        "TAMP nonsecure",
+        "LSE CSS"
+      ],
+      [
+        "20",
+        "TAMP secure",
+        "I2C1 wake-up"
+      ],
+      [
+        "21",
+        "I2C1 wake-up",
+        "I3C1 wake-up"
+      ],
+      [
+        "22",
+        "I2C2 wake-up",
+        "SPI1 wake-up"
+      ],
+      [
+        "23",
+        "I2C3 wake-up",
+        "SPI2 wake-up"
+      ],
+      [
+        "24",
+        "I3C wake-up",
+        "SPI3 wake-up"
+      ],
+      [
+        "25",
+        "USART1 wake-up",
+        "USART1 wake-up"
+      ],
+      [
+        "26",
+        "USART2 wake-up",
+        "USART2 wake-up"
+      ],
+      [
+        "27",
+        "USART3 wake-up",
+        "USART3 wake-up"
+      ],
+      [
+        "28",
+        "UART4 wake-up",
+        "UART4 wake-up"
+      ],
+      [
+        "29",
+        "UART5 wake-up",
+        "UART5 wake-up"
+      ],
+      [
+        "30",
+        "USART6 wake-up",
+        "LPUART1 wake-up"
+      ],
+      [
+        "31",
+        "Reserved",
+        "LPTIM1"
+      ],
+      [
+        "32",
+        "Reserved",
+        "USB FS wake-up"
+      ],
+      [
+        "33",
+        "Reserved",
+        "I2C2 wake-up"
+      ],
+      [
+        "34",
+        "Reserved",
+        "COMP1 OUT"
+      ],
+      [
+        "35",
+        "Reserved",
+        "IWDG early interrupt"
+      ],
+      [
+        "36",
+        "Reserved",
+        "COMP2 OUT"
+      ],
+      [
+        "37",
+        "LPUART1 wake-up",
+        "USART6 wake-up"
+      ],
+      [
+        "38",
+        "LPTIM1",
+        "UART7 wake-up"
+      ],
+      [
+        "39",
+        "LPTIM2",
+        "ETHERNET wake-up"
+      ],
+      [
+        "40",
+        "SPI1 wake-up",
+        "NA"
+      ],
+      [
+        "41",
+        "SPI2 wake-up",
+        "SPI2 wake-up"
+      ],
+      [
+        "42",
+        "SPI3 wake-up",
+        "SPI3 wake-up"
+      ],
+      [
+        "43",
+        "SPI4 wake-up",
+        "SPI4 wake-up"
+      ],
+      [
+        "44",
+        "Reserved",
+        "Reserved"
+      ],
+      [
+        "45",
+        "Reserved",
+        "Reserved"
+      ],
+      [
+        "46",
+        "Reserved",
+        "Reserved"
+      ],
+      [
+        "47",
+        "USB FS wake-up",
+        "USB FS wake-up"
+      ],
+      [
+        "48",
+        "USBPD1 wake-up",
+        "USBPD1 wake-up"
+      ],
+      [
+        "49",
+        "LPTIM2 CH1",
+        "LPTIM2 CH1"
+      ],
+      [
+        "50",
+        "DTS wake-up",
+        "DTS wake-up"
+      ],
+      [
+        "51",
+        "HDMI-CEC wake-up",
+        "HDMI-CEC wake-up"
+      ],
+      [
+        "52",
+        "Reserved",
+        "Reserved"
+      ],
+      [
+        "53",
+        "UVM output",
+        "UVM output"
+      ],
+      [
+        "54",
+        "Reserved",
+        "Reserved"
+      ],
+      [
+        "55",
+        "Reserved",
+        "Reserved"
+      ],
+      [
+        "56",
+        "Reserved",
+        "Reserved"
+      ],
+      [
+        "57",
+        "Reserved",
+        "Reserved"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

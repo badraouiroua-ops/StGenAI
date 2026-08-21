@@ -1,0 +1,35 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Document revision history",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Document revision history",
+    "page": 20,
+    "section": "4 Revision history",
+    "section_title": "Revision history",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4655.pdf#page=20",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4655.pdf",
+    "text_helper": "Table 1. Document revision history — section 4 Revision history. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "05-Mar-2015",
+          "1",
+          "Initial release"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

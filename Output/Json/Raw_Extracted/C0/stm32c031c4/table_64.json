@@ -1,0 +1,196 @@
+{
+  "table_id": "table_64",
+  "caption": "Table 64. USART (SPI mode) characteristics",
+  "pdf_name": "stm32c031c4",
+  "family": "C0",
+  "page": 82,
+  "merged_pages": [
+    82
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=82",
+  "section": "5.3.18 Characteristics of communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f CK",
+      "USART clock frequency",
+      "Master mode",
+      "-",
+      "-",
+      "6.0",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "USART clock frequency",
+      "Slave receiver mode",
+      "-",
+      "-",
+      "16.0",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "USART clock frequency",
+      "Slave transmitter",
+      "-",
+      "-",
+      "16.0",
+      "MHz"
+    ],
+    [
+      "t su(NSS)",
+      "NSS setup time",
+      "Slave mode",
+      "T (1) + 1 ker",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NSS)",
+      "NSS hold time",
+      "Slave mode",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t w(CKH)",
+      "CK high time",
+      "Master mode",
+      "1 / f / 2 CK - 1",
+      "1 / f / 2 CK",
+      "1 / f / 2 CK + 1",
+      "ns"
+    ],
+    [
+      "t w(CKL)",
+      "CK low time",
+      "Master mode",
+      "1 / f / 2 CK - 1",
+      "1 / f / 2 CK",
+      "1 / f / 2 CK + 1",
+      "ns"
+    ],
+    [
+      "t su(MI)",
+      "Data input setup time",
+      "Master mode",
+      "16",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SI)",
+      "Data input setup time",
+      "Slave mode",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MI)",
+      "Data input hold time",
+      "Master mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SI)",
+      "Data input hold time",
+      "Slave mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time",
+      "Slave mode 2.7 V < VDD < 3.6 V",
+      "-",
+      "12.0",
+      "19",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time",
+      "Slave mode 2.0 V < VDD < 3.6 V",
+      "-",
+      "12.0",
+      "13",
+      "ns"
+    ],
+    [
+      "t v(MO)",
+      "Data output valid time",
+      "Master mode",
+      "-",
+      "2.0",
+      "4",
+      "ns"
+    ],
+    [
+      "t h(SO)",
+      "Data output hold time",
+      "Slave mode",
+      "9.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SO)",
+      "Data output hold time",
+      "Master mode",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. T ker is the usart_ker_ck_pres clock period"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c031c4",
+    "table_id": "table_64",
+    "is_continued": false,
+    "pages": [
+      82
+    ],
+    "rows_count": 16,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

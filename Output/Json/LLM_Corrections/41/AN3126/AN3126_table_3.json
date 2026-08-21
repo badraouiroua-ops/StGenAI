@@ -1,0 +1,28 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Headers",
+      "row_index": null,
+      "analyse_visuelle": "Dans l'image, les indices de fonction mathématique sont ySineDigital (x) et ySineAnalog(x). L'extraction a morcelé le texte en 'y (x) SineDigital' et 'y (x) SineAnalog'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Digital sample value y (x) SineDigital",
+          "nouvelle_valeur": "Digital sample value ySineDigital (x)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Analog sample value (Volt) y (x) SineAnalog",
+          "nouvelle_valeur": "Analog sample value (Volt) ySineAnalog(x)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

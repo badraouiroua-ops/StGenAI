@@ -1,0 +1,54 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. Added value of digital microphone",
+  "pdf_name": "AN5027",
+  "family": "41",
+  "page": 14,
+  "merged_pages": [
+    14
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=14",
+  "section": "1.6 Added value of digital microphones",
+  "headers": [
+    "Feature",
+    "Added value"
+  ],
+  "rows": [
+    [
+      "Immunity to RF noise and electromagnetic interference (EMI)",
+      "– Less integration effort"
+    ],
+    [
+      "Analog signal conditioning not required",
+      "– Easier application design – Direct interface to codecs with digital microphones interface – Stereo mode needs only one data line – Significant saving on PCB area with more microphones in system – Flexibility to add additional microphones into the application"
+    ],
+    [
+      "Robust digital transmission",
+      "– Easy MEMS positioning on application system – Standard digital conditioning – Allows audio enhancement integration for stereo capture, noise cancellation and beam forming"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5027",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      14
+    ],
+    "rows_count": 3,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

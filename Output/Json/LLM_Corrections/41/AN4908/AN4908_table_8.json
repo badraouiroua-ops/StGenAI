@@ -1,0 +1,12 @@
+{
+  "table_id": "table_8",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Ligne dupliquée avec cellule vide supprimée à l'index 1."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    1
+  ]
+}

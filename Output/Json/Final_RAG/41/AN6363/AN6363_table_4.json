@@ -1,0 +1,33 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Document revision history",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Document revision history",
+  "page": 22,
+  "section": "5 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6363.pdf#page=22",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+  "text_helper": "Table 4. Document revision history — section 5 Conclusion. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "02-Feb-2026",
+        "1",
+        "Initial release."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

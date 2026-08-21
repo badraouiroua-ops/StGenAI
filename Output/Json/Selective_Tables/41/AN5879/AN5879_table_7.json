@@ -1,0 +1,56 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. Conditional target address",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. Conditional target address",
+  "page": 14,
+  "section": "8.3 Bus format",
+  "section_title": "Bus format",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=14",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 7. Conditional target address — section 8.3 Bus format. Target dynamic address / Binary, Target dynamic address / Hex, Restriction, Description.",
+  "table_content": {
+    "headers": [
+      "Target dynamic address / Binary",
+      "Target dynamic address / Hex",
+      "Restriction",
+      "Description"
+    ],
+    "rows": [
+      [
+        "0x0000011-0x0000011",
+        "7'h03-7'h04",
+        "Conditional",
+        "Available for use only if no legacy I2C devices supporting I2C \"High-speed mode\" are present on the bus"
+      ],
+      [
+        "0x1111000-0x1111001",
+        "7'h78-7'h79",
+        "Conditional",
+        "Available for use only if no legacy I2C devices are present on the bus that both 1. Support I2C \"extended address mode\" 2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ],
+      [
+        "0x111 1011",
+        "7'h7B",
+        "Conditional",
+        "Available for use only if no legacy I2C devices are present on the bus that both: 1. Support I2C \"extended address mode\" 2. Either have an extended address, or would be impacted by the extended address mechanism"
+      ],
+      [
+        "0x111 1101",
+        "7'h7D",
+        "Conditional",
+        "Available for use only if no legacy I2C devices supporting I2C \"device ID mode\" are on the bus."
+      ]
+    ],
+    "notes": [
+      "1. I3C_EVR.DAUPDF: dynamic address update flag.",
+      "2. Either have an extended address, or would be impacted by the extended address mechanism"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

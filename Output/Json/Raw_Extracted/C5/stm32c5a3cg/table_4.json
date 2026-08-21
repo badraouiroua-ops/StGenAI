@@ -1,0 +1,110 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. ADC features",
+  "pdf_name": "stm32c5a3cg",
+  "family": "C5",
+  "page": 18,
+  "merged_pages": [
+    18
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=18",
+  "section": "3.17 Analog-to-digital converter (ADC)",
+  "headers": [
+    "ADC modes/features",
+    "ADC1",
+    "ADC2",
+    "ADC3"
+  ],
+  "rows": [
+    [
+      "Resolution",
+      "12 bits",
+      "12 bits",
+      "12 bits"
+    ],
+    [
+      "Maximum sampling-speed",
+      "2 Msps",
+      "2 Msps",
+      "2 Msps"
+    ],
+    [
+      "Hardware-offset calibration",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Single-ended inputs",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Injected channel conversion",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Oversampling",
+      "up to x1024",
+      "up to x1024",
+      "up to x1024"
+    ],
+    [
+      "Data register",
+      "32 bits",
+      "32 bits",
+      "32 bits"
+    ],
+    [
+      "DMA support",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Offset compensation",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Gain compensation",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Number of analog watchdogs",
+      "3",
+      "3",
+      "3"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c5a3cg",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      18
+    ],
+    "rows_count": 11,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

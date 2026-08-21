@@ -1,0 +1,68 @@
+{
+  "table_id": "table_6",
+  "caption": "Table 6. Methods for ECC testing in nonvolatile memory",
+  "pdf_name": "AN5342",
+  "family": "41",
+  "page": 8,
+  "merged_pages": [
+    8
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=8",
+  "section": "3.2 ECC testing in nonvolatile memory",
+  "headers": [
+    "Method",
+    "Advantages",
+    "Disadvantages",
+    "Applicable products"
+  ],
+  "rows": [
+    [
+      "Dedicated flash word with errors planted from factory",
+      "• Simple to use, only requires read from the dedicated address to get the ECC interrupt • Simple section of SEC or DED outcome",
+      "• Address decoding test is not possible • Feature is only available in selected series",
+      "STM32U5 series"
+    ],
+    [
+      "Data programmed to a location that was not erased before",
+      "• Can be applied anywhere in nonvolatile memory • Known patterns to select SEC or DED outcome",
+      "• Feature is only available in selected series",
+      "STM32C5 series STM32H5 series STM32H7 series"
+    ],
+    [
+      "Disturbing the flash erase or program cycle with a reset",
+      "• Universally applicable • Can be applied anywhere in memory",
+      "• Tuning is required to provide the correctly timed reset • Achieving SEC is difficult",
+      "All STM32 series"
+    ],
+    [
+      "Memory reconfiguration",
+      "Aimed at testing data area ECC protection",
+      "• Limited to the last few sectors of nonvolatile memory • Not usable once the option bytes are closed • Achieving SEC is difficult",
+      "STM32H5 STM32C5"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5342",
+    "table_id": "table_6",
+    "is_continued": false,
+    "pages": [
+      8
+    ],
+    "rows_count": 4,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

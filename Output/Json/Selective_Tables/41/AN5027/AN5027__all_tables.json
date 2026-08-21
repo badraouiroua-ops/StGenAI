@@ -1,0 +1,952 @@
+[
+  {
+    "document": "AN5027 - Table 1. DOUT signal pattern selection",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_1",
+    "table_number": "1",
+    "title": "Table 1. DOUT signal pattern selection",
+    "page": 9,
+    "section": "1.2 PDM digital microphone block diagram",
+    "section_title": "PDM digital microphone block diagram",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=9",
+    "text_helper": "Table 1. DOUT signal pattern selection — section 1.2 PDM digital microphone block diagram. LR, DOUT / CLK low, DOUT / CLK high.",
+    "table_content": {
+      "headers": [
+        "LR",
+        "DOUT / CLK low",
+        "DOUT / CLK high"
+      ],
+      "rows": [
+        [
+          "GND",
+          "Valid data",
+          "High impedance"
+        ],
+        [
+          "Vdd",
+          "High impedance",
+          "Valid data"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 2. Pin description",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_2",
+    "table_number": "2",
+    "title": "Table 2. Pin description",
+    "page": 9,
+    "section": "1.2 PDM digital microphone block diagram",
+    "section_title": "PDM digital microphone block diagram",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=9",
+    "text_helper": "Table 2. Pin description — section 1.2 PDM digital microphone block diagram. Pin name, Function, Direction.",
+    "table_content": {
+      "headers": [
+        "Pin name",
+        "Function",
+        "Direction"
+      ],
+      "rows": [
+        [
+          "Vdd",
+          "3.3 V power supply",
+          "Input"
+        ],
+        [
+          "GND",
+          "0 V",
+          "Input"
+        ],
+        [
+          "LR",
+          "Left/right selection",
+          "Input"
+        ],
+        [
+          "CLK",
+          "Synchronization clock",
+          "Input"
+        ],
+        [
+          "DOUT",
+          "Left/righ PDM data output",
+          "Output"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 3. Added value of digital microphone",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_3",
+    "table_number": "3",
+    "title": "Table 3. Added value of digital microphone",
+    "page": 14,
+    "section": "1.6 Added value of digital microphones",
+    "section_title": "Added value of digital microphones",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=14",
+    "text_helper": "Table 3. Added value of digital microphone — section 1.6 Added value of digital microphones. Feature, Added value.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "Added value"
+      ],
+      "rows": [
+        [
+          "Immunity to RF noise and electromagnetic interference (EMI)",
+          "– Less integration effort"
+        ],
+        [
+          "Analog signal conditioning not required",
+          "– Easier application design – Direct interface to codecs with digital microphones interface – Stereo mode needs only one data line – Significant saving on PCB area with more microphones in system – Flexibility to add additional microphones into the application"
+        ],
+        [
+          "Robust digital transmission",
+          "– Easy MEMS positioning on application system – Standard digital conditioning – Allows audio enhancement integration for stereo capture, noise cancellation and beam forming"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 4. ST digital microphones",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_4",
+    "table_number": "4",
+    "title": "Table 4. ST digital microphones",
+    "page": 15,
+    "section": "1.7 Available ST digital microphones",
+    "section_title": "Available ST digital microphones",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=15",
+    "text_helper": "Table 4. ST digital microphones — section 1.7 Available ST digital microphones. Part number, Top/bottom port, Supply voltage (V), SNR (dB), Sensitivity (dBFS), +1 autres.",
+    "table_content": {
+      "headers": [
+        "Part number",
+        "Top/bottom port",
+        "Supply voltage (V)",
+        "SNR (dB)",
+        "Sensitivity (dBFS)",
+        "AOP (dBSPL)"
+      ],
+      "rows": [
+        [
+          "MP34DB02",
+          "Bottom",
+          "1.64 to 3.6",
+          "62.6",
+          "-26",
+          "120"
+        ],
+        [
+          "MP34DT01-M",
+          "Top",
+          "1.64 to 3.6",
+          "61",
+          "-26",
+          "120"
+        ],
+        [
+          "MP34DT02",
+          "Top",
+          "1.64 to 3.6",
+          "60",
+          "-26",
+          "120"
+        ],
+        [
+          "MP34DT04",
+          "Top",
+          "1.6 to 3.6",
+          "64",
+          "-26",
+          "120"
+        ],
+        [
+          "MP34DT04-C1",
+          "Top",
+          "1.6 to 3.6",
+          "64",
+          "-26",
+          "120"
+        ],
+        [
+          "MP34DT05",
+          "Top",
+          "1.6 to 3.6",
+          "64",
+          "-26",
+          "122.5"
+        ],
+        [
+          "MP45DT02-M",
+          "Top",
+          "1.64 to 3.6",
+          "61",
+          "-26",
+          "120"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 5. Recommended IO lines versus the number digital microphones to be connected",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_5",
+    "table_number": "5",
+    "title": "Table 5. Recommended IO lines versus the number digital microphones to be connected",
+    "page": 24,
+    "section": "2.2.3 Using PDM interface",
+    "section_title": "Using PDM interface",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=24",
+    "text_helper": "Table 5. Recommended IO lines versus the number digital microphones to be connected — section 2.2.3 Using PDM interface. Number of Microphones, Recommended data IO lines, Recommended clock IO lines.",
+    "table_content": {
+      "headers": [
+        "Number of Microphones",
+        "Recommended data IO lines",
+        "Recommended clock IO lines"
+      ],
+      "rows": [
+        [
+          "1 or 2",
+          "SAI_D1",
+          "SAI_CK1,2,3 or 4"
+        ],
+        [
+          "3 or 4",
+          "SAI_D1 and SAI_D2",
+          "SAI_CK1,2,3 or 4"
+        ],
+        [
+          "5 or 6",
+          "SAI_D1 and SAI_D2 and SAI_D3",
+          "SAI_CK1,2,3 or 4"
+        ],
+        [
+          "7 pr 8",
+          "SAI_D1 and SAI_D2 and SAI_D3 and SAI_D4",
+          "SAI_CK1,2,3 or 4"
+        ]
+      ],
+      "notes": [],
+      "legend": [
+        "nected.",
+        "to be connected"
+      ],
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 6. Applications examples and the associated microphone clock frequency",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_6",
+    "table_number": "6",
+    "title": "Table 6. Applications examples and the associated microphone clock frequency",
+    "page": 29,
+    "section": "2.4.1 The digital microphone clock",
+    "section_title": "The digital microphone clock",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=29",
+    "text_helper": "Table 6. Applications examples and the associated microphone clock frequency — section 2.4.1 The digital microphone clock. Use-cases, Clock frequency provided to the digital microphone.",
+    "table_content": {
+      "headers": [
+        "Use-cases",
+        "Clock frequency provided to the digital microphone"
+      ],
+      "rows": [
+        [
+          "Sound capture",
+          "Between 400 and 800 kHz"
+        ],
+        [
+          "Speech application",
+          "Between 1 and 1.5 MHz"
+        ],
+        [
+          "High-quality audio application",
+          "Between 2.4 and 4.8 MHz"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 7. Hardware used to connect one digital microphone",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_7",
+    "table_number": "7",
+    "title": "Table 7. Hardware used to connect one digital microphone",
+    "page": 31,
+    "section": "2.5 GPIOs number considerations",
+    "section_title": "GPIOs number considerations",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=31",
+    "text_helper": "Table 7. Hardware used to connect one digital microphone — section 2.5 GPIOs number considerations. Interface, Number of GPIOs, Timer.",
+    "table_content": {
+      "headers": [
+        "Interface",
+        "Number of GPIOs",
+        "Timer"
+      ],
+      "rows": [
+        [
+          "SPI",
+          "2",
+          "No"
+        ],
+        [
+          "I2S",
+          "2",
+          "No"
+        ],
+        [
+          "SAI",
+          "2",
+          "No"
+        ]
+      ],
+      "notes": [],
+      "legend": [
+        "four digital microphones to the different audio and serial interfaces.",
+        "• The column Number of GPIOs indicates the number of GPIO necessary to connect",
+        "digital microphones to an audio interface.",
+        "• The column Timer indicates whether the audio interface needs a timer to deliver the",
+        "appropriate clock to the microphones."
+      ],
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 8. Hardware used to connect two digital microphones",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_8",
+    "table_number": "8",
+    "title": "Table 8. Hardware used to connect two digital microphones",
+    "page": 31,
+    "section": "2.5 GPIOs number considerations",
+    "section_title": "GPIOs number considerations",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=31",
+    "text_helper": "Table 8. Hardware used to connect two digital microphones — section 2.5 GPIOs number considerations. Interface, Number of GPIOs, Timer.",
+    "table_content": {
+      "headers": [
+        "Interface",
+        "Number of GPIOs",
+        "Timer"
+      ],
+      "rows": [
+        [
+          "SPI",
+          "4",
+          "Yes"
+        ],
+        [
+          "I2S",
+          "4",
+          "Yes"
+        ],
+        [
+          "SAI",
+          "4",
+          "Yes"
+        ],
+        [
+          "SAI (two synchronous sub-blocks)",
+          "4",
+          "No"
+        ],
+        [
+          "SAI with PDM interface",
+          "2",
+          "No"
+        ],
+        [
+          "DFSDM",
+          "2",
+          "No"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 9. Hardware used to connect four digital microphones",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_9",
+    "table_number": "9",
+    "title": "Table 9. Hardware used to connect four digital microphones",
+    "page": 31,
+    "section": "2.5 GPIOs number considerations",
+    "section_title": "GPIOs number considerations",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=31",
+    "text_helper": "Table 9. Hardware used to connect four digital microphones — section 2.5 GPIOs number considerations. Interface, Number of GPIOs, Timer.",
+    "table_content": {
+      "headers": [
+        "Interface",
+        "Number of GPIOs",
+        "Timer"
+      ],
+      "rows": [
+        [
+          "SAI (two synchronous sub-blocks)",
+          "6",
+          "Yes"
+        ],
+        [
+          "SAI with PDM interface",
+          "3",
+          "No"
+        ],
+        [
+          "DFSDM",
+          "3",
+          "No"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 10. I2S2 clock configuration and accuracy",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_10",
+    "table_number": "10",
+    "title": "Table 10. I2S2 clock configuration and accuracy",
+    "page": 36,
+    "section": "3.2 DFSDM filters for digital signal processing",
+    "section_title": "DFSDM filters for digital signal processing",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=36",
+    "text_helper": "Table 10. I2S2 clock configuration and accuracy — section 3.2 DFSDM filters for digital signal processing. Target Audio Frequency (kHz), Microphone mode, I2S_APB1 Clock Mux source, DivM, PLLN, +4 autres.",
+    "table_content": {
+      "headers": [
+        "Target Audio Frequency (kHz)",
+        "Microphone mode",
+        "I2S_APB1 Clock Mux source",
+        "DivM",
+        "PLLN",
+        "DivR",
+        "DivP",
+        "I2S clock (MHz)(1)",
+        "Accuracy (ppm)"
+      ],
+      "rows": [
+        [
+          "16",
+          "Mono",
+          "PLLI2SR",
+          "5",
+          "192",
+          "2",
+          "-",
+          "153.60",
+          "0"
+        ],
+        [
+          "16",
+          "Mono",
+          "PLLI2SR",
+          "5",
+          "192",
+          "5",
+          "-",
+          "61.44",
+          "0"
+        ],
+        [
+          "16",
+          "Stereo (with timer)",
+          "PLLR",
+          "7",
+          "344",
+          "6",
+          "4",
+          "65.52",
+          "-186"
+        ],
+        [
+          "48",
+          "Mono",
+          "PLLI2SR",
+          "5",
+          "192",
+          "2",
+          "-",
+          "153.60",
+          "0"
+        ],
+        [
+          "48",
+          "Mono",
+          "PLLI2SR",
+          "5",
+          "192",
+          "5",
+          "-",
+          "61.44",
+          "0"
+        ],
+        [
+          "48",
+          "Stereo (with timer)",
+          "PLLR",
+          "7",
+          "344",
+          "4",
+          "4",
+          "98.29",
+          "-186"
+        ]
+      ],
+      "notes": [
+        "1. In order to work properly, the I2S clock must be higher than its APB clock."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 11. SPI clock configuration and accuracy",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_11",
+    "table_number": "11",
+    "title": "Table 11. SPI clock configuration and accuracy",
+    "page": 39,
+    "section": "3.2 DFSDM filters for digital signal processing",
+    "section_title": "DFSDM filters for digital signal processing",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=39",
+    "text_helper": "Table 11. SPI clock configuration and accuracy — section 3.2 DFSDM filters for digital signal processing. Target Audio Frequency (kHz), Microphone mode, DivM, PLLN, DivR, +3 autres.",
+    "table_content": {
+      "headers": [
+        "Target Audio Frequency (kHz)",
+        "Microphone mode",
+        "DivM",
+        "PLLN",
+        "DivR",
+        "DivP",
+        "SPI clock (MHz)",
+        "Accuracy (ppm)"
+      ],
+      "rows": [
+        [
+          "16",
+          "Mono",
+          "7",
+          "344",
+          "-",
+          "6",
+          "65.52",
+          "-186"
+        ],
+        [
+          "16",
+          "Stereo (with timer)",
+          "7",
+          "344",
+          "-",
+          "6",
+          "65.52",
+          "-186"
+        ],
+        [
+          "48",
+          "Mono",
+          "7",
+          "344",
+          "-",
+          "4",
+          "98.29",
+          "-186"
+        ],
+        [
+          "48",
+          "Stereo (with timer)",
+          "7",
+          "344",
+          "-",
+          "4",
+          "98.29",
+          "-186"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 12. Clock configuration and accuracy",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_12",
+    "table_number": "12",
+    "title": "Table 12. Clock configuration and accuracy",
+    "page": 42,
+    "section": "3.2 DFSDM filters for digital signal processing",
+    "section_title": "DFSDM filters for digital signal processing",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=42",
+    "text_helper": "Table 12. Clock configuration and accuracy — section 3.2 DFSDM filters for digital signal processing. Target Audio Frequency (kHz), Microphone mode, DivM, PLLN, DivR, +2 autres.",
+    "table_content": {
+      "headers": [
+        "Target Audio Frequency (kHz)",
+        "Microphone mode",
+        "DivM",
+        "PLLN",
+        "DivR",
+        "SAI clock (MHz)",
+        "Accuracy (ppm)"
+      ],
+      "rows": [
+        [
+          "16",
+          "Mono",
+          "5",
+          "128",
+          "5",
+          "40.96",
+          "0"
+        ],
+        [
+          "16",
+          "Stereo (with timer)",
+          "5",
+          "128",
+          "5",
+          "40.96",
+          "0"
+        ],
+        [
+          "48",
+          "Mono",
+          "5",
+          "192",
+          "25",
+          "12.29",
+          "0"
+        ],
+        [
+          "48",
+          "Stereo (with timer)",
+          "5",
+          "192",
+          "25",
+          "12.29",
+          "0"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 13. SAI clock configuration and accuracy",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_13",
+    "table_number": "13",
+    "title": "Table 13. SAI clock configuration and accuracy",
+    "page": 49,
+    "section": "4.1.2 Adding PDM software decoding library middleware files",
+    "section_title": "Adding PDM software decoding library middleware files",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=49",
+    "text_helper": "Table 13. SAI clock configuration and accuracy — section 4.1.2 Adding PDM software decoding library middleware files. Target Audio Freq (kHz), DivM, PLLN, DivR, SAI clock (MHz), +1 autres.",
+    "table_content": {
+      "headers": [
+        "Target Audio Freq (kHz)",
+        "DivM",
+        "PLLN",
+        "DivR",
+        "SAI clock (MHz)",
+        "Accuracy (ppm)"
+      ],
+      "rows": [
+        [
+          "16",
+          "5",
+          "128",
+          "5",
+          "40.96",
+          "0"
+        ],
+        [
+          "48",
+          "5",
+          "192",
+          "25",
+          "12.29",
+          "0"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 14. DFSDFM filter order values",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_14",
+    "table_number": "14",
+    "title": "Table 14. DFSDFM filter order values",
+    "page": 60,
+    "section": "4.3.2 Adding PDM software decoding library middleware files",
+    "section_title": "Adding PDM software decoding library middleware files",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=60",
+    "text_helper": "Table 14. DFSDFM filter order values — section 4.3.2 Adding PDM software decoding library middleware files. Audio Sampling Frequency (kHz), Filter order.",
+    "table_content": {
+      "headers": [
+        "Audio Sampling Frequency (kHz)",
+        "Filter order"
+      ],
+      "rows": [
+        [
+          "16",
+          "Sinc 4 or Sinc 5 filter type"
+        ],
+        [
+          "48",
+          "Sinc 4 or Sinc 5 filter type"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 15. DFSDM clock configuration accuracy values",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_15",
+    "table_number": "15",
+    "title": "Table 15. DFSDM clock configuration accuracy values",
+    "page": 63,
+    "section": "4.3.2 Adding PDM software decoding library middleware files",
+    "section_title": "Adding PDM software decoding library middleware files",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=63",
+    "text_helper": "Table 15. DFSDM clock configuration accuracy values — section 4.3.2 Adding PDM software decoding library middleware files. Target Audio Frequency (kHz), DivM, DivN, DivR, Output Clock Divider, +2 autres.",
+    "table_content": {
+      "headers": [
+        "Target Audio Frequency (kHz)",
+        "DivM",
+        "DivN",
+        "DivR",
+        "Output Clock Divider",
+        "DFSDM clock (MHz)",
+        "Accuracy (ppm)"
+      ],
+      "rows": [
+        [
+          "16",
+          "5",
+          "192",
+          "5",
+          "60",
+          "61.44",
+          "0"
+        ],
+        [
+          "48",
+          "5",
+          "192",
+          "5",
+          "20",
+          "61.44",
+          "0"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5027 - Table 16. Document revision history",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_16",
+    "table_number": "16",
+    "title": "Table 16. Document revision history",
+    "page": 65,
+    "section": "6 Revision history",
+    "section_title": "Revision history",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=65",
+    "text_helper": "Table 16. Document revision history — section 6 Revision history. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "14-Dec-2017",
+          "1",
+          "Initial release."
+        ],
+        [
+          "17-Jul-2019",
+          "2",
+          "Updated all document to enlarge the scope to all STM32 devices (MCU and MPU)"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

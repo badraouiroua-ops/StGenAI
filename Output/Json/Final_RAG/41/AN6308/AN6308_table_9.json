@@ -1,0 +1,81 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. STM32C5 boot modes",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. STM32C5 boot modes",
+  "page": 18,
+  "section": "5.1 Boot mode selection",
+  "section_title": "Boot mode selection",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=18",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 9. STM32C5 boot modes — section 5.1 Boot mode selection. RDP_STATE, BOOT_SEL option bit, BOOT0 option bit, BOOT0 pin, EMPTY flag value(1), +1 autres.",
+  "table_content": {
+    "headers": [
+      "RDP_STATE",
+      "BOOT_SEL option bit",
+      "BOOT0 option bit",
+      "BOOT0 pin",
+      "EMPTY flag value(1)",
+      "Boot area"
+    ],
+    "rows": [
+      [
+        "Level 0",
+        "1",
+        "x",
+        "0",
+        "x",
+        "Boot address defined by user option byte BOOTADD[31:8]"
+      ],
+      [
+        "Level 0",
+        "1",
+        "x",
+        "1",
+        "x",
+        "Bootloader"
+      ],
+      [
+        "Level 0",
+        "0",
+        "0",
+        "x",
+        "0",
+        "Boot address defined by user option byte BOOTADD[31:8]"
+      ],
+      [
+        "Level 0",
+        "0",
+        "0",
+        "x",
+        "1",
+        "Bootloader"
+      ],
+      [
+        "Level 0",
+        "0",
+        "1",
+        "x",
+        "x",
+        "Bootloader"
+      ],
+      [
+        "Level 2 with boundary scan and level 2",
+        "x",
+        "x",
+        "x",
+        "x",
+        "Boot address defined by use option byte BOOTADD[31:8]"
+      ]
+    ],
+    "notes": [
+      "1. The boot address, defined by BOOTADD option byte, is considered empty only if the FLASH word is equal to 0xFFFF FFFF. In this case, at option byte loading, the EMPTY bit is set in FLASH_ACR."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,771 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Applicable products",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "Introduction",
+    "section_title": "Introduction",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=1",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 1. Applicable products — section Introduction. Type, Product series.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Product series"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "• STM32C0 series, STM32C5 series • STM32F1 series, STM32F2 series, STM32F3 series, STM32F4 series, STM32F7 series • STM32G0 series, STM32G4 series • STM32H5 series, STM32H7 series • STM32L0 series, STM32L1 series, STM32L4 series, STM32L4+ series, STM32L5 series • STM32U0 series, STM32U3 series, STM32U5 series • STM32WB series, STM32WB0 series • STM32N6 series"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. Default memory map for the Cortex-M55 processor",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. Default memory map for the Cortex-M55 processor",
+    "page": 6,
+    "section": "2.1 Memory model",
+    "section_title": "Memory model",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=6",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 2. Default memory map for the Cortex-M55 processor — section 2.1 Memory model. Address range (inclusive), Region, Interface.",
+    "table_content": {
+      "headers": [
+        "Address range (inclusive)",
+        "Region",
+        "Interface"
+      ],
+      "rows": [
+        [
+          "0x00000000-0x1FFFFFFF",
+          "Code",
+          "All accesses are performed on the instruction tightly coupled memory (ITCM) or manager-AXI (M-AXI) interface."
+        ],
+        [
+          "0x20000000-0x3FFFFFFF",
+          "SRAM",
+          "All accesses are performed on the data tightly coupled memory (DTCM) or M-AXI interface."
+        ],
+        [
+          "0x40000000-0x5FFFFFFF",
+          "Peripheral",
+          "Data accesses are performed on peripheral AHB (P-AHB) or M-AXI interface. Instruction accesses are performed on M-AXI."
+        ],
+        [
+          "0x60000000-0x9FFFFFFF",
+          "External RAM",
+          "All accesses are performed on the M-AXI interface"
+        ],
+        [
+          "0xA0000000-0xDFFFFFFF",
+          "External device",
+          "All accesses are performed on the M-AXI interface."
+        ],
+        [
+          "0xE0000000-0xE00FFFFF",
+          "Private peripheral bus (PPB)",
+          "Instruction fetches are not supported. Reserved for system control and debug. Data accesses are either performed internally or on external private peripheral bus (EPPB)."
+        ],
+        [
+          "0xE0100000-0xFFFFFFFF",
+          "Vendor_SYS",
+          "Instruction fetches are not supported. 0xE0100000-0xEFFFFFFF is reserved. Vendor resources start at 0xF0000000. Data accesses are performed on P-AHB interface."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. Region attributes and size in MPU_RASR register",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. Region attributes and size in MPU_RASR register",
+    "page": 7,
+    "section": "3.3 Memory attributes",
+    "section_title": "Memory attributes",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=7",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 3. Region attributes and size in MPU_RASR register — section 3.3 Memory attributes. Bits, Name, Description.",
+    "table_content": {
+      "headers": [
+        "Bits",
+        "Name",
+        "Description"
+      ],
+      "rows": [
+        [
+          "28",
+          "XN",
+          "Execute never"
+        ],
+        [
+          "26:24",
+          "AP",
+          "Data access permission field (RO, RW, or No access)"
+        ],
+        [
+          "21:19",
+          "TEX",
+          "Type extension field"
+        ],
+        [
+          "18",
+          "S",
+          "Shareable"
+        ],
+        [
+          "17",
+          "C",
+          "Cacheable"
+        ],
+        [
+          "16",
+          "B",
+          "Bufferable"
+        ],
+        [
+          "15:8",
+          "SRD",
+          "Subregion disabled. For each subregion 1 = disabled, 0 = enabled."
+        ],
+        [
+          "5:1",
+          "SIZE",
+          "Specifies the size of the MPU protection region."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. Access permissions of regions",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. Access permissions of regions",
+    "page": 8,
+    "section": "3.3 Memory attributes",
+    "section_title": "Memory attributes",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=8",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 4. Access permissions of regions — section 3.3 Memory attributes. AP[2:0], Privileged permissions, Unprivileged permissions, Description.",
+    "table_content": {
+      "headers": [
+        "AP[2:0]",
+        "Privileged permissions",
+        "Unprivileged permissions",
+        "Description"
+      ],
+      "rows": [
+        [
+          "000",
+          "No access",
+          "No access",
+          "All accesses generate a permission fault"
+        ],
+        [
+          "001",
+          "RW",
+          "No access",
+          "Access from a privileged software only"
+        ],
+        [
+          "010",
+          "RW",
+          "RO",
+          "Written by an unprivileged software generates a permission fault"
+        ],
+        [
+          "011",
+          "RW",
+          "RW",
+          "Full access"
+        ],
+        [
+          "100",
+          "Unpredictable",
+          "Unpredictable",
+          "Reserved"
+        ],
+        [
+          "101",
+          "RO",
+          "No access",
+          "Read by a privileged software only"
+        ],
+        [
+          "110",
+          "RO",
+          "RO",
+          "Read only, by privileged or unprivileged software"
+        ],
+        [
+          "111",
+          "RO",
+          "RO",
+          "Read only, by privileged or unprivileged software"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_5",
+    "document": "Table 5. Cache properties and shareability",
+    "rev": null,
+    "table_number": "5",
+    "title": "Table 5. Cache properties and shareability",
+    "page": 8,
+    "section": "3.3 Memory attributes",
+    "section_title": "Memory attributes",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=8",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 5. Cache properties and shareability — section 3.3 Memory attributes. TEX, C, B, Memory type, Description, +1 autres.",
+    "table_content": {
+      "headers": [
+        "TEX",
+        "C",
+        "B",
+        "Memory type",
+        "Description",
+        "Shareable"
+      ],
+      "rows": [
+        [
+          "000",
+          "0",
+          "0",
+          "Strongly ordered",
+          "Strongly ordered",
+          "Yes"
+        ],
+        [
+          "000",
+          "0",
+          "1",
+          "Device",
+          "Shared device",
+          "Yes"
+        ],
+        [
+          "000",
+          "1",
+          "0",
+          "Normal",
+          "Write through, no write allocate",
+          "S bit"
+        ],
+        [
+          "000",
+          "1",
+          "1",
+          "Normal",
+          "Write-back, no write allocate",
+          "S bit"
+        ],
+        [
+          "001",
+          "0",
+          "0",
+          "Normal",
+          "Non-cacheable",
+          "S bit"
+        ],
+        [
+          "001",
+          "0",
+          "1",
+          "Reserved",
+          "Reserved",
+          "Reserved"
+        ],
+        [
+          "001",
+          "1",
+          "0",
+          "Undefined",
+          "Undefined",
+          "Undefined"
+        ],
+        [
+          "001",
+          "1",
+          "1",
+          "Normal",
+          "Write-back, write and read allocate",
+          "S bit"
+        ],
+        [
+          "010",
+          "0",
+          "0",
+          "Device",
+          "Non-shareable device",
+          "No"
+        ],
+        [
+          "010",
+          "0",
+          "1",
+          "Reserved",
+          "Reserved",
+          "Reserved"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_6",
+    "document": "Table 6. MPU register summary",
+    "rev": null,
+    "table_number": "6",
+    "title": "Table 6. MPU register summary",
+    "page": 12,
+    "section": "4.3 MPU registers",
+    "section_title": "MPU registers",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=12",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 6. MPU register summary — section 4.3 MPU registers. AdressName, Type, Reset value, Description.",
+    "table_content": {
+      "headers": [
+        "AdressName",
+        "Type",
+        "Reset value",
+        "Description"
+      ],
+      "rows": [
+        [
+          "0xE000ED90",
+          "MPU_TYPE(1)",
+          "RO",
+          "0x0000xx00"
+        ],
+        [
+          "0xE000ED94",
+          "MPU_CTRL",
+          "RW",
+          "0x00000000 MPU Type Register"
+        ],
+        [
+          "0xE000ED98",
+          "MPU_RNR",
+          "RW",
+          "0x000000XX MPU Control Register"
+        ],
+        [
+          "0xE000ED9C",
+          "MPU_RBAR",
+          "RW",
+          "Unknown MPU Region Number Register"
+        ],
+        [
+          "0xE000EDA0",
+          "MPU_RLAR",
+          "RW",
+          "Unknown, bit [0] resets to 0 MPU Region Base Address Register"
+        ],
+        [
+          "0xE000EDA4",
+          "MPU_RBAR_A1",
+          "RW",
+          "Unknown MPU Region Limit Address Register"
+        ],
+        [
+          "0xE000EDA8",
+          "MPU_RLAR_A1",
+          "RW",
+          "Unknown MPU Region Base Address Register Alias 1"
+        ],
+        [
+          "0xE000EDAC",
+          "MPU_RBAR_A2",
+          "RW",
+          "Unknown MPU Region Limit Address Register Alias 1"
+        ],
+        [
+          "0xE000EDB0",
+          "MPU_RLAR_A2",
+          "RW",
+          "Unknown MPU Region Base Address Register Alias 2"
+        ],
+        [
+          "0xE000EDB4",
+          "MPU_RBAR_A3",
+          "RW",
+          "Unknown MPU Region Limit Address Register Alias 2"
+        ],
+        [
+          "0xE000EDB8",
+          "MPU_RLAR_A3",
+          "RW",
+          "Unknown Address Register Alias 3"
+        ],
+        [
+          "0xE000EDC0",
+          "MPU_MAIR0",
+          "RW",
+          "Unknown. MPU Memory Attribute Indirection Register 0"
+        ],
+        [
+          "0xE000EDC4",
+          "MPU_MAIR1",
+          "RW",
+          "Unknown MPU Memory Attribute Indirection Register 1"
+        ]
+      ],
+      "notes": [
+        "1. MPU_TYPE[15:8] depends on the number of MPU regions configured. This value can be 0, 4, 8, 12, or 16. AN4838 - Rev 11 page 12/24"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_7",
+    "document": "Table 7. Comparison of MPU features between Cortex cores",
+    "rev": null,
+    "table_number": "7",
+    "title": "Table 7. Comparison of MPU features between Cortex cores",
+    "page": 13,
+    "section": "4.3 MPU registers",
+    "section_title": "MPU registers",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=13",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 7. Comparison of MPU features between Cortex cores — section 4.3 MPU registers. Features, Cortex-M0+, Cortex-M3/M4, Cortex-M7, Cortex-M33, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Features",
+        "Cortex-M0+",
+        "Cortex-M3/M4",
+        "Cortex-M7",
+        "Cortex-M33",
+        "Cortex-M55"
+      ],
+      "rows": [
+        [
+          "Number of regions",
+          "8",
+          "8",
+          "8/16 (1)(2)",
+          "8 MPU_S / 8 MPU_NS(3)",
+          "16 MPU_S / 16 MPU_NS"
+        ],
+        [
+          "Region address",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Region size",
+          "256 bytes to 4 Gbytes",
+          "32 bytes to 4 Gbytes",
+          "32 bytes to 4 Gbytes",
+          "32 bytes to 4 Gbytes",
+          "32 bytes to 4 Gbytes"
+        ],
+        [
+          "Region memory attributes",
+          "S, C, B, XN(4)",
+          "TEX, S, C, B, XN",
+          "TEX, S, C, B, XN",
+          "S,C, E (5),G (6), R (7), XN",
+          "S,C, E(5) ,G (6), R (7), XN, PXN(8)"
+        ],
+        [
+          "Region access permission (AP)",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes (privileged or not)",
+          "Yes (privileged or not)"
+        ],
+        [
+          "Subregion disable",
+          "8 bits",
+          "8 bits",
+          "8 bits",
+          "NA",
+          "NA"
+        ],
+        [
+          "MPU bypass for NMI/HardFault",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Alias of MPU registers",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Fault exception",
+          "HardFault only",
+          "HardFault/ MemManage",
+          "HardFault/ MemManage",
+          "HardFault/ MemManage",
+          "HardFault/ MemManage"
+        ]
+      ],
+      "notes": [
+        "1. For STM32H7 series devices.",
+        "2. For STM32F7 series devices.",
+        "3. For STM32H5/STM32U3: 12 MPU_S / 8 MPU_NS .",
+        "4. Cortex-M0+ supports one level of cache policy. That is why the TEX field is not available in Cortex-M0+ processor.",
+        "5. Early write acknowledge (similar to bufferable)",
+        "6. Gathering",
+        "7. Reordering",
+        "8. Privileged eXecute Never attribute in Armv8.1-M architecture. AN4838 - Rev 11 page 13/24"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_8",
+    "document": "Table 8. Example of setting up the MPU",
+    "rev": null,
+    "table_number": "8",
+    "title": "Table 8. Example of setting up the MPU",
+    "page": 14,
+    "section": "4.3 MPU registers",
+    "section_title": "MPU registers",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=14",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 8. Example of setting up the MPU — section 4.3 MPU registers. Configuration, Memory type, Base address, Region number, Memory size, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Configuration",
+        "Memory type",
+        "Base address",
+        "Region number",
+        "Memory size",
+        "Memory attributes"
+      ],
+      "rows": [
+        [
+          "Internal SRAM",
+          "Normal memory",
+          "0x2000 0000",
+          "Region0",
+          "8 Kbytes",
+          "Shareable, write through, no write allocate C = 1, B = 0, TEX = 0, S = 1 SRD = 0, XN = 0, AP = full access"
+        ],
+        [
+          "Flash memory",
+          "Normal memory",
+          "0x0800 0000",
+          "Region1",
+          "1 Mbyte",
+          "Non-shareable write through, no write allocate C = 1, B = 0, TEX = 0, S = 1 SRD = 0, XN = 0, AP = full access"
+        ],
+        [
+          "FMC",
+          "Device memory",
+          "0x4000 0000",
+          "Region2",
+          "512 Mbytes",
+          "Shareable, write through, no write allocate C = 1, B = 0, TEX = 0, S = 1 SRD = 0, XN = 1, AP = full access"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_9",
+    "document": "Table 9. Example of setting up the MPU with Armv8-M",
+    "rev": null,
+    "table_number": "9",
+    "title": "Table 9. Example of setting up the MPU with Armv8-M",
+    "page": 16,
+    "section": "4.3 MPU registers",
+    "section_title": "MPU registers",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=16",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 9. Example of setting up the MPU with Armv8-M — section 4.3 MPU registers. Configuration, Memory type, Base address, Region number, Memory size, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Configuration",
+        "Memory type",
+        "Base address",
+        "Region number",
+        "Memory size",
+        "Memory attributes"
+      ],
+      "rows": [
+        [
+          "Internal SRAM",
+          "Normal memory",
+          "0x2000 0000",
+          "Region0",
+          "256 Kbytes",
+          "Memory attribute = normal, non-cacheable. XN = 0 AP = full access S = 0"
+        ],
+        [
+          "Flash memory",
+          "Normal memory",
+          "0x0800 0000",
+          "Region1",
+          "2 Mbyte",
+          "Memory attribute = normal, write through and no write allocate. XN = 0 AP = full access S = 0"
+        ],
+        [
+          "Peripherals",
+          "Device",
+          "0x4000 0000",
+          "Region2",
+          "512 Mbytes",
+          "Memory attribute = device nGnRE XN = 1 AP = full access S = 0"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_10",
+    "document": "Table 10. Document revision history",
+    "rev": null,
+    "table_number": "10",
+    "title": "Table 10. Document revision history",
+    "page": 19,
+    "section": "8 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=19",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+    "text_helper": "Table 10. Document revision history — section 8 Conclusion. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "24-Mar-2016",
+          "1",
+          "Initial release."
+        ],
+        [
+          "04-May-2018",
+          "2",
+          "Added STM32H7 series in the whole document. Updated Figure 1. Example of overlapping regions.. Added Section 1 General information Added Section 3.4 Cortex-M7 constraint speculative prefetch."
+        ],
+        [
+          "17-Jul-2019",
+          "3",
+          "Updated Introduction adding STM32G0 series, STM32G4 series, STM32L4+ series, STM32L5 series and STM32WB series."
+        ],
+        [
+          "10-Feb-2020",
+          "4",
+          "Added: • PM0214 in Section Introduction • Section 4 Memory types, registers and attributes of the CM33 • Section 5 Comparison of MPU features between Cortex-M0+, Cortex-M3/M4, Cortex-M7, and Cortex-M33 Updated: • title of the document • Section Introduction • Section 2 Overview • Section 2.1 Memory model"
+        ],
+        [
+          "20-Sep-2021",
+          "5",
+          "Updated the Applicable products table."
+        ],
+        [
+          "07-Feb-2023",
+          "6",
+          "Added the STM32C0 series and STM32H5 series in Table 1. Applicable products. Updated the Section 6: MPU setting example with STM32Cube HAL on Armv6 and Armv7 architectures. Updated the whole document with minor changes. Updated the document title."
+        ],
+        [
+          "04-Mar-2024",
+          "7",
+          "Added the STM32U0 series in Table 1. Applicable products."
+        ],
+        [
+          "04-Apr-2024",
+          "8",
+          "Added: • STM32WB0 series in Table 1. Applicable products Section 3.2: MPU register description"
+        ],
+        [
+          "15-Jan-2025",
+          "9",
+          "Added STM32N6 series. Updated: • Section 2.1: Memory model • Section 4.2: Attribute indirection • Section 4.3: MPU registers Added Section 4.1.1: Cortex®-M55 access privilege level for device and normal memory."
+        ],
+        [
+          "25-Feb-2025",
+          "10",
+          "Added STM32U3 series. Updated: • Section Introduction • Section 2: Overview • Section 4.3: MPU registers • Section 4: Cortex-M33/M55 memory types, registers and attributes • Section 5: MPU features comparison between Cortex® cores Added Section 7: MPU setting example with STM32Cube HAL on Armv8-M architecture."
+        ],
+        [
+          "03-Dec-2025",
+          "11",
+          "Added STM32C5 series."
+        ],
+        [
+          "",
+          "",
+          "Updated Section 6: MPU setting example with STM32Cube HAL on Armv6 and Armv7 architectures."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

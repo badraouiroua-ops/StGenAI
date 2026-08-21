@@ -1,0 +1,221 @@
+{
+  "table_id": "table_54",
+  "caption": "Table 54. XSPI characteristics in DTR mode (with DQS) / HyperBus.",
+  "pdf_name": "stm32c591ce",
+  "family": "C5",
+  "page": 89,
+  "merged_pages": [
+    89
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=89",
+  "section": "5.3.17 XSPI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f(CLK)",
+      "Clock frequency",
+      "2.7 V < VDD < 3.6 V CL=15 pF",
+      "-",
+      "-",
+      "72(1)(2)",
+      "MHz"
+    ],
+    [
+      "tw(CLKH)",
+      "OCTOSPI clock high and low time (even division)",
+      "PRESCALER[7:0] = n =(0,1,3,5,..,255)",
+      "t(CLK)/2 - 0.5",
+      "-",
+      "t(CLK)/2 + 0.5",
+      "ns"
+    ],
+    [
+      "tw(CLKL)",
+      "OCTOSPI clock high and low time (even division)",
+      "PRESCALER[7:0] = n =(0,1,3,5,..,255)",
+      "t(CLK)/2 - 0.5",
+      "-",
+      "t(CLK)/ 2 + 0.5",
+      "ns"
+    ],
+    [
+      "tw(CLKH)",
+      "OCTOSPI clock high and low time (odd division)",
+      "PRESCALER[7:0] = n =(2,4,6,..,254)",
+      "(n/2)×t(CLK)/(n+1) - 0.5",
+      "-",
+      "(n/2) × t(CLK)/(n+1) + 0.5",
+      "ns"
+    ],
+    [
+      "tw(CLKL)",
+      "OCTOSPI clock high and low time (odd division)",
+      "PRESCALER[7:0] = n =(2,4,6,..,254)",
+      "(n/2+1)×t(CLK)/(n+1) - 0.5",
+      "-",
+      "(n/2+1) × t(CLK)/ (n+1) + 0.5",
+      "ns"
+    ],
+    [
+      "tv(CLK)",
+      "Clock valid time",
+      "-",
+      "-",
+      "-",
+      "t(CLK) + 2",
+      "ns"
+    ],
+    [
+      "th(CLK)",
+      "Clock hold time",
+      "-",
+      "t(CLK)/2 - 1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tw(CS)",
+      "Chip select high time",
+      "-",
+      "3 × t(CLK)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(DQ)",
+      "Data input valid time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(DS)",
+      "Data strobe input valid time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(DS)",
+      "Data strobe input hold time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(RWDS)",
+      "Data strobe output valid time",
+      "-",
+      "-",
+      "-",
+      "3 × t(CLK)",
+      "ns"
+    ],
+    [
+      "tsr(DQ) tsf(DQ)",
+      "Data input setup time",
+      "-",
+      "-1(3)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "thr(DQ) thf(DQ)",
+      "Data input hold time",
+      "-",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tvr(OUT) tvf(OUT)",
+      "Data output valid time",
+      "DHQC = 0",
+      "-",
+      "3.5",
+      "4.5",
+      "ns"
+    ],
+    [
+      "tvr(OUT) tvf(OUT)",
+      "Data output valid time",
+      "DHQC = 1, All prescaler values (except 0)",
+      "-",
+      "t(CLK)/4 + 0.5",
+      "t(CLK)/ 4 + 1.5",
+      "ns"
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "Data output hold time",
+      "DHQC = 0",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "Data output hold time",
+      "DHQC = 1, All prescaler values (except 0)",
+      "t(CLK)/4 - 0.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. DHQC must be set to reach the mentioned frequency.",
+      "2. DHQC must be set to reach the mentioned frequency.",
+      "3. Using UNIT[6:0] = 0x28 and SEL[3:0] = 0x1 in the DLYB_CFGR register."
+    ],
+    "_legend": [
+      "Evaluated by characterization - Not tested in production.",
+      "All values apply to Octal- and Quad-SPI mode.",
+      "Delay block activated."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c591ce",
+    "table_id": "table_54",
+    "is_continued": false,
+    "pages": [
+      89
+    ],
+    "rows_count": 18,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

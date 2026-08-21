@@ -1,0 +1,54 @@
+{
+  "table_id": "table_23",
+  "caption": "Table 23. Measurement interpolation at maximum ambient temperature for STM32MP215F",
+  "pdf_name": "AN5036",
+  "family": "41",
+  "page": 36,
+  "merged_pages": [
+    36
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=36",
+  "section": "6.3.4 Conclusion",
+  "headers": [
+    "Parameter",
+    "Value"
+  ],
+  "rows": [
+    [
+      "TJ",
+      "125 °C"
+    ],
+    [
+      "PTOT",
+      "1327 mW"
+    ],
+    [
+      "Maximum ambient temperature",
+      "100 °C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5036",
+    "table_id": "table_23",
+    "is_continued": false,
+    "pages": [
+      36
+    ],
+    "rows_count": 3,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

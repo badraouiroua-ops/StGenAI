@@ -1,0 +1,75 @@
+{
+  "table_id": "table_22",
+  "document": "Table 22. U(S)ART features",
+  "rev": null,
+  "table_number": "22",
+  "title": "Table 22. U(S)ART features",
+  "page": 38,
+  "section": "6.4.4 Universal synchronous/asynchronous receiver transmitter (USART)",
+  "section_title": "Universal synchronous/asynchronous receiver transmitter (USART)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=38",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 22. U(S)ART features — section 6.4.4 Universal synchronous/asynchronous receiver transmitter (USART). USART, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "USART",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Instances",
+        "• 6 USARTs • 6 UARTs • 1 LPUART",
+        "• 4 USARTs • 2 UARTs • 1 LPUART"
+      ],
+      [
+        "Baud rate",
+        "Depends on the frequency (oversampling by 16 or by 8)(1)",
+        "Depends on the frequency (oversampling by 16 or by 8)(1)"
+      ],
+      [
+        "Clock",
+        "Dual clock domain and wake-up from low-power mode",
+        "Dual clock domain and wake-up from low-power mode"
+      ],
+      [
+        "Data",
+        "• Word length: programmable (7, 8 or 9 bits) • Programmable data order with MSB-first or LSB-first shifting",
+        "• Word length: programmable (7, 8 or 9 bits) • Programmable data order with MSB-first or LSB-first shifting"
+      ],
+      [
+        "Interrupt",
+        "23 interrupt sources with flags",
+        "23 interrupt sources with flags"
+      ],
+      [
+        "Others features",
+        "• RS232 hardware flow control • RS485 hardware control mode",
+        "• RS232 hardware flow control • RS485 hardware control mode"
+      ],
+      [
+        "Others features",
+        "• LIN mode • IrDA SIR encoder block • Continuous communication using DMA • Multiprocessor communications • Single-wire half-duplex communication",
+        "• LIN mode • IrDA SIR encoder block • Continuous communication using DMA • Multiprocessor communications • Single-wire half-duplex communication"
+      ],
+      [
+        "Others features",
+        "• Modbus communication: Timeout feature, CR/LF character recognition • Two internal FIFOs for transmit and receive data • Receiver timeout interrupt (except LPUART) • Auto baud rate detection (except LPUART) • Driver enable • Swappable Tx/Rx pin configuration • Wake-up from Stop mode",
+        "• Modbus communication: Timeout feature, CR/LF character recognition • Two internal FIFOs for transmit and receive data • Receiver timeout interrupt (except LPUART) • Auto baud rate detection (except LPUART) • Driver enable • Swappable Tx/Rx pin configuration • Wake-up from Stop mode"
+      ],
+      [
+        "Others features",
+        "• Smartcard mode: Support the T=0 and T=1 asynchronous protocols • Number of stop bits: 0.5, 1, 1.5, 2",
+        "• Smartcard mode: Support the T=0 and T=1 asynchronous protocols • Number of stop bits: 0.5, 1, 1.5, 2"
+      ]
+    ],
+    "notes": [
+      "1. Refer to the USART section in the reference manual."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

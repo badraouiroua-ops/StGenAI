@@ -1,0 +1,22 @@
+{
+  "table_id": "table_31",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "noitareneg AMD/tpurretnI",
+      "row_index": 3,
+      "analyse_visuelle": "Le texte de la première colonne de la 4ème ligne a été extrait en miroir/inversé (RTL). L'image indique clairement 'Interrupt/DMA generation'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "noitareneg AMD/tpurretnI",
+          "nouvelle_valeur": "Interrupt/DMA generation",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

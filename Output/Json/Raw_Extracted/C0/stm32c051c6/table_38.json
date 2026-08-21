@@ -1,0 +1,86 @@
+{
+  "table_id": "table_38",
+  "caption": "Table 38. Low-speed external user clock characteristics",
+  "pdf_name": "stm32c051c6",
+  "family": "C0",
+  "page": 56,
+  "merged_pages": [
+    56
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=56",
+  "section": "5.3.7 External clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter(1)",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f LSE_ext",
+      "User external clock source frequency",
+      "-",
+      "-",
+      "32.768",
+      "1000",
+      "kHz"
+    ],
+    [
+      "V LSEH",
+      "OSC32_IN input pin high level voltage",
+      "-",
+      "0.7 × V DDIO1",
+      "-",
+      "V DDIO1",
+      "V"
+    ],
+    [
+      "V LSEL",
+      "OSC32_IN input pin low level voltage",
+      "-",
+      "V SS",
+      "-",
+      "0.3 × V DDIO1",
+      "V"
+    ],
+    [
+      "t w(LSEH)/ t w(LSEL)",
+      "OSC32_IN high or low time",
+      "-",
+      "250",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Specified by design. Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c051c6",
+    "table_id": "table_38",
+    "is_continued": false,
+    "pages": [
+      56
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

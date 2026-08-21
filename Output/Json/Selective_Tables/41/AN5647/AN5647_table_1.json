@@ -1,0 +1,58 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Dual-tone multi-frequency (DTMF)",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Dual-tone multi-frequency (DTMF)",
+  "page": 7,
+  "section": "2.7 Goertzel error bounds",
+  "section_title": "Goertzel error bounds",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5647.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5647.pdf",
+  "text_helper": "Table 1. Dual-tone multi-frequency (DTMF) — section 2.7 Goertzel error bounds. Frequencies, 1209 Hz, 1336 Hz, 1477 Hz, 1633 Hz.",
+  "table_content": {
+    "headers": [
+      "Frequencies",
+      "1209 Hz",
+      "1336 Hz",
+      "1477 Hz",
+      "1633 Hz"
+    ],
+    "rows": [
+      [
+        "697 Hz",
+        "1",
+        "2",
+        "3",
+        "A"
+      ],
+      [
+        "770 Hz",
+        "4",
+        "5",
+        "6",
+        "B"
+      ],
+      [
+        "852 Hz",
+        "7",
+        "8",
+        "9",
+        "C"
+      ],
+      [
+        "941 Hz",
+        "*",
+        "0",
+        "#",
+        "D"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "table_id": "table_114",
+  "caption": "Table 114. I3C push-pull measured timing",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 220,
+  "merged_pages": [
+    220
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=220",
+  "section": "5.3.36 Communications interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "I3C push-pull mode / Min",
+    "I3C push-pull mode / Max",
+    "Timing measurements / Min",
+    "Timing measurements / Max",
+    "Unit / -"
+  ],
+  "rows": [
+    [
+      "t SU_PP",
+      "SDA signal data setup in push-pull mode",
+      "Controller",
+      "3",
+      "-",
+      "18(2)",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "2. Spikes with widths below t are filtered. AF(min)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_114",
+    "is_continued": false,
+    "pages": [
+      220
+    ],
+    "rows_count": 1,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

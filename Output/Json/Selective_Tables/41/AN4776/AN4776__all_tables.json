@@ -1,0 +1,55 @@
+[
+  {
+    "document": "AN4776 - Table 1. Document revision history",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4776.pdf",
+    "references": null,
+    "package": "",
+    "family": "41",
+    "core": null,
+    "frequency": "None",
+    "table_id": "table_1",
+    "table_number": "1",
+    "title": "Table 1. Document revision history",
+    "page": 75,
+    "section": "7 Revision history",
+    "section_title": "Revision history",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4776.pdf#page=75",
+    "text_helper": "Table 1. Document revision history — section 7 Revision history. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "23-Jun-2016",
+          "1",
+          "Initial release."
+        ],
+        [
+          "03-May-2017",
+          "2",
+          "Updated Section 1.4.2: The preload feature of the timer registers and Figure 6: Preload mechanism for timer channel register - enabled."
+        ],
+        [
+          "11-Jul-2019",
+          "3",
+          "Updated document scope to all STM32 devices and deleted Table 1: Applicable products on cover page."
+        ],
+        [
+          "23-Feb-2026",
+          "4",
+          "Updated the entire document to cover STM32C5 series."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

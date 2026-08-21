@@ -1,0 +1,50 @@
+{
+  "table_id": "table_14",
+  "caption": "Table 14. Software settings without defining byte",
+  "pdf_name": "AN5879",
+  "family": "41",
+  "page": 34,
+  "merged_pages": [
+    34
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=34",
+  "section": "9.7.1.1 Software settings",
+  "headers": [
+    "1V50327TD",
+    "• I3C CCCTypeDef structure definition • GETDCR CCCode: 0x8F"
+  ],
+  "rows": [
+    [
+      "1V86327TD",
+      "• Prepare context buffers process * uint32_t ControlBuffer[0xFF] : Buffer used by HAL to compute control data for the direct communication"
+    ],
+    [
+      "DT72382V1DT72368V1DT72305V1",
+      "• Add CCC descriptor to the user data transfer descriptor. • For some direct CCCs, a defining byte is optional; for others, it is always required. • The controller transmits the direct read CCC command in interrupt mode."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5879",
+    "table_id": "table_14",
+    "is_continued": false,
+    "pages": [
+      34
+    ],
+    "rows_count": 2,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

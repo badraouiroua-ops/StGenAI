@@ -1,0 +1,58 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Bootloader protocol versions",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Bootloader protocol versions",
+  "page": 31,
+  "section": "5 Bootloader protocol version evolution",
+  "section_title": "Bootloader protocol version evolution",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5405.pdf#page=31",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5405.pdf",
+  "text_helper": "Table 3. Bootloader protocol versions — section 5 Bootloader protocol version evolution. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "16-Aug-2018",
+        "V1.0",
+        "Initial version"
+      ],
+      [
+        "27-Feb-2021",
+        "V1.1",
+        "Added support for extended special commands"
+      ],
+      [
+        "24-Feb-2023",
+        "V2.0",
+        "The number of commands can vary from device to device with the same protocol version v2.0. To know the supported commands, use the Get command."
+      ],
+      [
+        "15-Mar-2024",
+        "V2.1",
+        "Add check on the received command opcode to not exceed one byte max value. Otherwise, a NACK is sent to the host."
+      ],
+      [
+        "15-Feb-2024",
+        "V2.2",
+        "• Limit detection frame to \"ID = 111h, data length =1 and data =5Ah\" • Enable global filters rejection"
+      ],
+      [
+        "25-Feb-2025",
+        "V2.3",
+        "• Fix sector erase function to be able to erase more than 64 pages. • Fix write protect to be able to protect more than 64 bytes. This will need a change on the host side to be aligned with the device."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

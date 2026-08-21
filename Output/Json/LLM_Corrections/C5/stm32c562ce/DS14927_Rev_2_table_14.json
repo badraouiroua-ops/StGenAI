@@ -1,0 +1,849 @@
+{
+  "table_id": "table_14",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Suppression des lignes d'en-têtes répétées suite aux sauts de page (lignes 24, 25, 56, 57).",
+    "Correction du nom du Port dans la première colonne pour les lignes mal extraites (Port BPort A -> Port B, PC1 -> Port C, etc.)."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "PB0",
+      "row_index": 16,
+      "analyse_visuelle": "Nom de port fusionné incorrectement ('Port BPort A' au lieu de 'Port B').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB1",
+      "row_index": 17,
+      "analyse_visuelle": "Nom de port fusionné incorrectement ('Port BPort A' au lieu de 'Port B').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB2",
+      "row_index": 18,
+      "analyse_visuelle": "Nom de port fusionné incorrectement ('Port BPort A' au lieu de 'Port B').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB3",
+      "row_index": 19,
+      "analyse_visuelle": "Nom de port fusionné incorrectement ('Port BPort A' au lieu de 'Port B').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB4",
+      "row_index": 20,
+      "analyse_visuelle": "Nom de port fusionné incorrectement ('Port BPort A' au lieu de 'Port B').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB5",
+      "row_index": 21,
+      "analyse_visuelle": "Nom de port fusionné incorrectement ('Port BPort A' au lieu de 'Port B').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB6",
+      "row_index": 22,
+      "analyse_visuelle": "Nom de port fusionné incorrectement ('Port BPort A' au lieu de 'Port B').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB7",
+      "row_index": 23,
+      "analyse_visuelle": "Nom de port fusionné incorrectement ('Port BPort A' au lieu de 'Port B').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Port BPort A",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB9",
+      "row_index": 27,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PB9' au lieu du groupe de port 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PB9",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB10",
+      "row_index": 28,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PB10' au lieu du groupe de port 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PB10",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB12",
+      "row_index": 29,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PB12' au lieu du groupe de port 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PB12",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB13",
+      "row_index": 30,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PB13' au lieu du groupe de port 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PB13",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB14",
+      "row_index": 31,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PB14' au lieu du groupe de port 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PB14",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB15",
+      "row_index": 32,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PB15' au lieu du groupe de port 'Port B'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PB15",
+          "nouvelle_valeur": "Port B",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC1",
+      "row_index": 34,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC1' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC1",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC2",
+      "row_index": 35,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC2' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC2",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC3",
+      "row_index": 36,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC3' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC3",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC4",
+      "row_index": 37,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC4' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC4",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC5",
+      "row_index": 38,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC5' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC5",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC6",
+      "row_index": 39,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC6' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC6",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC7",
+      "row_index": 40,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC7' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC7",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC8",
+      "row_index": 41,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC8' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC8",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC9",
+      "row_index": 42,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC9' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC9",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC10",
+      "row_index": 43,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC10' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC10",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC11",
+      "row_index": 44,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC11' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC11",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC12",
+      "row_index": 45,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC12' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC12",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC13",
+      "row_index": 46,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC13' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC13",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC14",
+      "row_index": 47,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC14' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC14",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PC15",
+      "row_index": 48,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PC15' au lieu du groupe de port 'Port C'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PC15",
+          "nouvelle_valeur": "Port C",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD1",
+      "row_index": 50,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD1' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD1",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD2",
+      "row_index": 51,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD2' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD2",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD3",
+      "row_index": 52,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD3' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD3",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD4",
+      "row_index": 53,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD4' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD4",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD5",
+      "row_index": 54,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD5' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD5",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD6",
+      "row_index": 55,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD6' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD6",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD8",
+      "row_index": 59,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD8' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD8",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD9",
+      "row_index": 60,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD9' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD9",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD10",
+      "row_index": 61,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD10' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD10",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD11",
+      "row_index": 62,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD11' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD11",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD12",
+      "row_index": 63,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD12' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD12",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD13",
+      "row_index": 64,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD13' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD13",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD14",
+      "row_index": 65,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD14' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD14",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PD15",
+      "row_index": 66,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PD15' au lieu du groupe de port 'Port D'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PD15",
+          "nouvelle_valeur": "Port D",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE1",
+      "row_index": 68,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE1' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE1",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE2",
+      "row_index": 69,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE2' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE2",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE3",
+      "row_index": 70,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE3' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE3",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE4",
+      "row_index": 71,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE4' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE4",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE5",
+      "row_index": 72,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE5' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE5",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE6",
+      "row_index": 73,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE6' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE6",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE7",
+      "row_index": 74,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE7' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE7",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE8",
+      "row_index": 75,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE8' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE8",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE9",
+      "row_index": 76,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE9' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE9",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE10",
+      "row_index": 77,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE10' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE10",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE11",
+      "row_index": 78,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE11' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE11",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE12",
+      "row_index": 79,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE12' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE12",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE13",
+      "row_index": 80,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE13' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE13",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE14",
+      "row_index": 81,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE14' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE14",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE15",
+      "row_index": 82,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PE15' au lieu du groupe de port 'Port E'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PE15",
+          "nouvelle_valeur": "Port E",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PH1",
+      "row_index": 84,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PH1' au lieu du groupe de port 'Port H'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PH1",
+          "nouvelle_valeur": "Port H",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PH2",
+      "row_index": 85,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PH2' au lieu du groupe de port 'Port H'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PH2",
+          "nouvelle_valeur": "Port H",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PH3",
+      "row_index": 86,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PH3' au lieu du groupe de port 'Port H'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PH3",
+          "nouvelle_valeur": "Port H",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PH4",
+      "row_index": 87,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PH4' au lieu du groupe de port 'Port H'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PH4",
+          "nouvelle_valeur": "Port H",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PH5",
+      "row_index": 88,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PH5' au lieu du groupe de port 'Port H'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PH5",
+          "nouvelle_valeur": "Port H",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PH15",
+      "row_index": 89,
+      "analyse_visuelle": "La colonne Port contient le nom de la broche 'PH15' au lieu du groupe de port 'Port H'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "PH15",
+          "nouvelle_valeur": "Port H",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    24,
+    25,
+    56,
+    57
+  ]
+}

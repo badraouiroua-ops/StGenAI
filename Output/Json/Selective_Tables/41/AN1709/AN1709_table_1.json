@@ -1,0 +1,51 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Reference documents",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Reference documents",
+  "page": 2,
+  "section": "1.1 Reference documents",
+  "section_title": "Reference documents",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 1. Reference documents — section 1.1 Reference documents. Document reference, Document title.",
+  "table_content": {
+    "headers": [
+      "Document reference",
+      "Document title"
+    ],
+    "rows": [
+      [
+        "AN901",
+        "EMC guidelines for microcontroller-based applications"
+      ],
+      [
+        "AN1015",
+        "Software techniques for improving microcontrollers EMC performance"
+      ],
+      [
+        "AN3353",
+        "IEC 61000-4-2 standard testing"
+      ],
+      [
+        "AN3960",
+        "Guidelines for ESD for touch sensing applications on STM32 MCUs"
+      ],
+      [
+        "AN4850",
+        "STM32 MCUs spread-spectrum clock generation principles, properties and implementation"
+      ],
+      [
+        "AN5612",
+        "ESD protection of STM32 MCUs and MPUs"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

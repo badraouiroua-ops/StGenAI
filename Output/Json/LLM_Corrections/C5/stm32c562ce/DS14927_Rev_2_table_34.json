@@ -1,0 +1,35 @@
+{
+  "table_id": "table_34",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "VlswLSE (VLSEH - VLSEL)",
+      "row_index": 6,
+      "analyse_visuelle": "Correction de l'espace parasite dans le mot composé 'peak-to- peak' pour obtenir 'peak-to-peak'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Analog low swing OSC_IN peak-to- peak amplitude",
+          "nouvelle_valeur": "Analog low swing OSC_IN peak-to-peak amplitude",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "trLSE/tfLSE",
+      "row_index": 8,
+      "analyse_visuelle": "Correction de la coquille OCR 'Externala' au lieu de 'External' dans les conditions.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Externala analog low swing clock 10 % to 90 %",
+          "nouvelle_valeur": "External analog low swing clock 10 % to 90 %",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

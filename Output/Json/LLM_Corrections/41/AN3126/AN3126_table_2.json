@@ -1,0 +1,22 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête de colonne 2",
+      "row_index": null,
+      "analyse_visuelle": "Dans l'image, l'en-tête de la troisième colonne indique 'Analog amplitude (Volt) (with VREF+ = 3.3 V)'. L'indice REF+ a été extrait après l'expression mathématique dans le JSON.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Analog amplitude (Volt) (with V = 3.3 V) REF+",
+          "nouvelle_valeur": "Analog amplitude (Volt) (with VREF+ = 3.3 V)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

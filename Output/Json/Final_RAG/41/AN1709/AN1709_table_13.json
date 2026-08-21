@@ -1,0 +1,51 @@
+{
+  "table_id": "table_13",
+  "document": "Table 13. EMC reference sources",
+  "rev": null,
+  "table_number": "13",
+  "title": "Table 13. EMC reference sources",
+  "page": 28,
+  "section": "5.4 EMC organizations resources",
+  "section_title": "EMC organizations resources",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=28",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 13. EMC reference sources — section 5.4 EMC organizations resources. Name, Web link.",
+  "table_content": {
+    "headers": [
+      "Name",
+      "Web link"
+    ],
+    "rows": [
+      [
+        "FCC: Federal communication commission",
+        "www.fcc.gov"
+      ],
+      [
+        "EIA: Electronic industries alliance",
+        "www.eoa.org"
+      ],
+      [
+        "SAE: Society of automotive engineers",
+        "www.sae.org"
+      ],
+      [
+        "IEC: The international electrotechnical commission",
+        "www.iec.ch"
+      ],
+      [
+        "IEC: The international electrotechnical commission",
+        "www.cenelec.eu"
+      ],
+      [
+        "JEDEC: Joint electron device engineering council",
+        "www.jedec.org"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

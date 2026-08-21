@@ -1,0 +1,57 @@
+{
+  "table_id": "table_63",
+  "caption": "Table 63. I2C analog filter characteristics",
+  "pdf_name": "stm32c071r8",
+  "family": "C0",
+  "page": 91,
+  "merged_pages": [
+    91
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=91",
+  "section": "5.3.19 Characteristics of communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter(1)",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t AF",
+      "Maximum pulse width of spikes that are suppressed by the analog filter",
+      "50(2)",
+      "100(3)",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Evaluated by characterization. Not tested in production.",
+      "2. Spikes with widths below t (min) are filtered. AF",
+      "3. Spikes with widths above t (max) are not filtered. AF"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c071r8",
+    "table_id": "table_63",
+    "is_continued": false,
+    "pages": [
+      91
+    ],
+    "rows_count": 1,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

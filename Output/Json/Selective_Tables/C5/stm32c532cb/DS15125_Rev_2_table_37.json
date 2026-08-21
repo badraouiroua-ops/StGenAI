@@ -1,0 +1,90 @@
+{
+  "table_id": "table_37",
+  "document": "DS15125 Rev 2 - Table 37. LSI oscillator characteristics",
+  "rev": "Rev 2",
+  "table_number": "37",
+  "title": "Table 37. LSI oscillator characteristics",
+  "page": 67,
+  "section": "5.3.9.3 Low-speed internal (LSI) RC oscillator",
+  "section_title": "Low-speed internal (LSI) RC oscillator",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=67",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 37. LSI oscillator characteristics — section 5.3.9.3 Low-speed internal (LSI) RC oscillator. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fLSI",
+        "LSI frequency",
+        "VDD = 3.3 V, TJ = 30°C",
+        "31.4(1)",
+        "32",
+        "32.6(1)",
+        "kHz"
+      ],
+      [
+        "fLSI",
+        "LSI frequency",
+        "TJ = -40 to 130°C",
+        "29.4(2)",
+        "-",
+        "33.6(2)",
+        "kHz"
+      ],
+      [
+        "fLSI",
+        "LSI frequency",
+        "TJ = -40 to 140°C",
+        "28.6(2)",
+        "-",
+        "33.6(2)",
+        "kHz"
+      ],
+      [
+        "tsu(LSI)(3)",
+        "LSI oscillator startup time",
+        "-",
+        "-",
+        "80",
+        "130",
+        "µs"
+      ],
+      [
+        "tstab(LSI)(3)",
+        "LSI oscillator stabilization time (5% of final value)",
+        "-",
+        "-",
+        "120",
+        "170",
+        "µs"
+      ],
+      [
+        "IDD(LSI)(3)",
+        "LSI oscillator power consumption",
+        "-",
+        "-",
+        "130",
+        "280",
+        "nA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by test production.",
+      "2. Evaluated by characterization - Not tested in production.",
+      "3. Specified by design - Not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

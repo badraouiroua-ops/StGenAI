@@ -1,0 +1,63 @@
+{
+  "table_id": "table_17",
+  "caption": "Table 17. Operating conditions at power-up/power-down.",
+  "pdf_name": "stm32c532cb",
+  "family": "C5",
+  "page": 52,
+  "merged_pages": [
+    52
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=52",
+  "section": "5.3.2 Operating conditions at power-up/power-down",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tVDD",
+      "VDD rise‑time rate",
+      "0",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "tVDD",
+      "VDD fall‑time rate",
+      "0",
+      "∞",
+      "ms/V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Specified by design - Not tested in production.",
+      "2. From POR threshold crossing to NRST pull-up resistor activation."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c532cb",
+    "table_id": "table_17",
+    "is_continued": false,
+    "pages": [
+      52
+    ],
+    "rows_count": 2,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

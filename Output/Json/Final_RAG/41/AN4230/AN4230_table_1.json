@@ -1,0 +1,41 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Applicable products",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Applicable products",
+  "page": 1,
+  "section": "Introduction",
+  "section_title": "Introduction",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4230.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4230.pdf",
+  "text_helper": "Table 1. Applicable products — section Introduction. Type / -, Type / -, Products / Can be checked with SP800-22rev1a, Products / Can be checked with SP800-90b.",
+  "table_content": {
+    "headers": [
+      "Type / -",
+      "Type / -",
+      "Products / Can be checked with SP800-22rev1a",
+      "Products / Can be checked with SP800-90b"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "Series",
+        "STM32F2 series, STM32F4 series, STM32F7 series, STM32L0 series, STM32L4 series, STM32G4 series, STM32WB series.",
+        "STM32WBA series, STM32H5 series, STM32L5 series, STM32U0 series, STM32U5 series, STM32WL series, STM32MP2 series, STM32N6 series, STM32U3 series, STM32C5 series."
+      ],
+      [
+        "Microcontrollers",
+        "Lines",
+        "STM32H742, STM32H743/753, STM32H745/755, STM32H747/757 lines, STM32H750 value line, STM32L4R5/S5, STM32L4R7/S7, STM32L4R9/S9 lines, STM32G0x1 lines, STM32MP15x lines.",
+        "STM32H7R3/7S3 line, STM32H7R7/7S7 line, STM32H7A3/7B3 line, STM32H7B0 value line, STM32H723/733, STM32H725/735, STM32H730 value line, STM32L4P5/Q5 line, STM32MP13x lines."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

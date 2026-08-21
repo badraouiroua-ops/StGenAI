@@ -1,0 +1,100 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. Hardware automatic baud rate detection on STM32 USART interfaces (wireless)",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. Hardware automatic baud rate detection on STM32 USART interfaces (wireless)",
+  "page": 6,
+  "section": "2.1 Feature overview",
+  "section_title": "Feature overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4908.pdf#page=6",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4908.pdf",
+  "text_helper": "Table 6. Hardware automatic baud rate detection on STM32 USART interfaces (wireless) — section 2.1 Feature overview. Port, STM32WB / STM32WB10CC, STM32WB / STM32WB15CC, STM32WB / STM32WB30CESTM32L4x6, STM32WB / STM32WB50CG, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Port",
+      "STM32WB / STM32WB10CC",
+      "STM32WB / STM32WB15CC",
+      "STM32WB / STM32WB30CESTM32L4x6",
+      "STM32WB / STM32WB50CG",
+      "STM32WB / STM32WB55xx/35xx",
+      "STM32WB0 / STM32WB09xE",
+      "STM32WBA / STM32WBA52xx/54XX/55XXSTM32U59xxx",
+      "STM32WL / STM32WLEx"
+    ],
+    "rows": [
+      [
+        "USART 1",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "USART 2",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "X",
+        "X"
+      ],
+      [
+        "USART 2",
+        "STM32WB",
+        "STM32WB",
+        "STM32WB",
+        "STM32WB",
+        "STM32WB",
+        "STM32WB0",
+        "STM32WBA",
+        "STM32WL"
+      ],
+      [
+        "Port",
+        "CC01BW23MTS",
+        "CC51BW23MTS",
+        "EC03BW23MTS",
+        "GC05BW23MTS",
+        "xx53/xx55BW23MTS",
+        "Ex90BW23MTS",
+        "XX55/XX45/xx25ABW23MTS",
+        "xELW23MTS"
+      ],
+      [
+        "UART2-12",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA"
+      ],
+      [
+        "USART 3-12",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA",
+        "NA"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

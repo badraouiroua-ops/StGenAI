@@ -1,0 +1,65 @@
+{
+  "table_id": "table_32",
+  "caption": "Table 32. Wake-up time using USART/LPUART.",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 64,
+  "merged_pages": [
+    64
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=64",
+  "section": "5.3.7 Wake-up time from low-power modes and voltage scaling transition times",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Typ",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tWUUSART/ tWULPUART",
+      "Wake-up time needed to calculate the maximum USART/LPUART baudrate allowing to wake up from Stop mode when USART/LPUART clock source is 48 MHz by HSIDIV3",
+      "Stop 0 mode",
+      "4.8",
+      "6.6",
+      "µs"
+    ],
+    [
+      "tWUUSART/ tWULPUART",
+      "Wake-up time needed to calculate the maximum USART/LPUART baudrate allowing to wake up from Stop mode when USART/LPUART clock source is 48 MHz by HSIDIV3",
+      "Stop 1 mode",
+      "4.8",
+      "6.6",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Evaluated by characterization - Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_32",
+    "is_continued": false,
+    "pages": [
+      64
+    ],
+    "rows_count": 2,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

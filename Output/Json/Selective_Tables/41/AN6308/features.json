@@ -1,0 +1,112 @@
+{
+  "features": [
+    [
+      "pdf_name",
+      "AN6308"
+    ],
+    [
+      "family",
+      "41"
+    ],
+    [
+      "page",
+      1
+    ],
+    [
+      "merged_pages",
+      [
+        1
+      ]
+    ],
+    [
+      "url",
+      "https://www.st.com/resource/en/datasheet/AN6308.pdf"
+    ],
+    [
+      "url_table",
+      "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=1"
+    ],
+    [
+      "text_helper",
+      "pdf_name: AN6308. Migrating from STM32H5 to STM32C5 MCUs Introduction The STM32 microcontroller family, developed by STMicroelectronics, is known for its versatility and performance across a wide. family: 41. core: Cortex-M33. freq: 144 MHz. flash: 512 KB. ram: 256 KB. packages: LQFP100, LQFP144,..."
+    ]
+  ],
+  "features_content": [
+    [
+      "doc_ref",
+      null
+    ],
+    [
+      "revision",
+      null
+    ],
+    [
+      "date",
+      null
+    ],
+    [
+      "title",
+      "Migrating from STM32H5 to STM32C5 MCUs Introduction The STM32 microcontroller family, developed by STMicroelectronics, is known for its versatility and performance across a wide"
+    ],
+    [
+      "core",
+      "Cortex-M33"
+    ],
+    [
+      "fpu",
+      true
+    ],
+    [
+      "max_frequency_mhz",
+      144
+    ],
+    [
+      "flash_kb",
+      512
+    ],
+    [
+      "ram_kb",
+      256
+    ],
+    [
+      "voltage_min_v",
+      null
+    ],
+    [
+      "voltage_max_v",
+      null
+    ],
+    [
+      "operating_temp_c",
+      []
+    ],
+    [
+      "packages",
+      [
+        "LQFP100 (14 x 14 mm)",
+        "LQFP144 (20 x 20 mm)",
+        "LQFP176 (24 x 24 mm)",
+        "LQFP32 (7 x 7 mm)",
+        "LQFP48 (7 x 7 mm)",
+        "LQFP64 (10 x 10 mm)",
+        "LQFP80 (12 x 12 mm)",
+        "TFBGA225 (13 x 13 mm)",
+        "TSSOP20",
+        "UFBGA100 (7 x 7 mm)",
+        "UFBGA144 (10 x 10 mm)",
+        "UFBGA169 (7 x 7 mm)",
+        "UFBGA176 (10 x 10 mm)",
+        "UFQFPN20 (3 x 3 mm)",
+        "UFQFPN24 (4 x 4 mm)",
+        "UFQFPN32 (5 x 5 mm)",
+        "UFQFPN48 (7 x 7 mm)",
+        "QFN48",
+        "WLCSP39"
+      ]
+    ],
+    [
+      "device_summary",
+      null
+    ]
+  ]
+}

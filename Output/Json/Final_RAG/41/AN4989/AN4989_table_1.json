@@ -1,0 +1,31 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Applicable products",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Applicable products",
+  "page": 1,
+  "section": "Introduction",
+  "section_title": "Introduction",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "text_helper": "Table 1. Applicable products — section Introduction. Type, Sub class.",
+  "table_content": {
+    "headers": [
+      "Type",
+      "Sub class"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "STM32 High Performance MCUs\nSTM32 Mainstream MCUs\nSTM32 Ultra Low Power MCUs"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. Document revision history",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. Document revision history",
+  "page": 16,
+  "section": "6.2 Dry pack opening",
+  "section_title": "Dry pack opening",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+  "text_helper": "Table 10. Document revision history — section 6.2 Dry pack opening. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "16-Oct-2007",
+        "1",
+        "Initial release."
+      ],
+      [
+        "26-May-2009",
+        "2",
+        "Modified tL and tPin in Table 3. JEDEC standard lead-free reflow profile (according to J-STD-020D). Updated Figure 6. Recommended flow to control package moisture absorption."
+      ],
+      [
+        "22-May-2013",
+        "3",
+        "Updated Table 1. Package types and Table 2. Package/soldering process compatibility. Added UFQFPN and WLCSP packages in Section 6: Dry packing. Document converted to new template and disclaimer updated."
+      ],
+      [
+        "07-Jul-2014",
+        "4",
+        "Updated RoHS directive and related note in Section 1: Lead-free packages at STMicroelectronics."
+      ],
+      [
+        "17-May-2016",
+        "5",
+        "Updated maximum temperature during soldering in Section 2: Packages overview. Removed reference to application note AN2034 in Section 4.3: Compatibility with leaded soldering process. Updated humidity recommended value unit in Table 4. Environmental conditions."
+      ],
+      [
+        "27-Mar-2018",
+        "6",
+        "Table 2. Package/soldering process compatibility: • updated note 1. changed process for QFP packages"
+      ],
+      [
+        "10-Oct-2019",
+        "7",
+        "Updated Section Introduction, title of Section 2: Packages overview, Table 1. Package types, Table 3. JEDEC standard lead-free reflow profile (according to J- STD-020D)."
+      ],
+      [
+        "05-Nov-2024",
+        "8",
+        "Replaced ECOPACK by ECOPACK2. Removed PLCC package from the whole document. Updated Table 1. Package types and Table 2. Package/soldering process compatibility. Updated Section 4.4: Reflow soldering conditions.."
+      ],
+      [
+        "03-Apr-2025",
+        "9",
+        "Added note on product state after reflow after Section 4.4: Reflow soldering conditions."
+      ],
+      [
+        "09-Jul-2026",
+        "10",
+        "Updated: • Section 2: Packages overview • Section 4.2: Soldering recommendations • Section 4.4: Reflow soldering conditions • Figure 11. Recommended flow to control package moisture absorption • Section 6.2: Dry pack opening Added: • Section 4.4.1: Convection reflow for SOIC packages • Section 4.4.2: Convection reflow for QFP packages • Section 4.4.3: Convection Reflow for QFN/DFN packages • Section 4.4.4: Convection reflow for BGA packages • Section 4.4.5: Convection reflow for LGA packages • Section 4.4.6: Convection reflow for WLCSP packages"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

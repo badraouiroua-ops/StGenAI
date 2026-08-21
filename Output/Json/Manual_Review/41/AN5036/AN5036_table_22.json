@@ -1,0 +1,67 @@
+{
+  "table_id": "table_22",
+  "document": "AN5036",
+  "rev": "8",
+  "table_number": "22",
+  "title": "STM32MP215F thermal measurements at TA = 25°C",
+  "page": 35,
+  "section": "6.6.2",
+  "section_title": "STM32MP215F thermal measurements at TA = 25 °C",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=35",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 22. STM32MP215F thermal measurements at TA = 25°C",
+  "table_content": {
+    "headers": [
+      "TJ (°C)",
+      "IO",
+      "IO",
+      "CPU",
+      "CPU",
+      "CORE",
+      "CORE",
+      "DDR",
+      "DDR",
+      "1V8",
+      "1V8",
+      "Power (mV)"
+    ],
+    "rows": [
+      [
+        "43(1)",
+        "V (V)",
+        "3.319",
+        "V (V)",
+        "0.935",
+        "V (V)",
+        "0.893",
+        "V (V)",
+        "1.239",
+        "V (V)",
+        "1.814",
+        "934.37"
+      ],
+      [
+        "43(1)",
+        "I (mA)",
+        "40",
+        "I (mA)",
+        "160",
+        "I (mA)",
+        "315",
+        "I (mA)",
+        "226",
+        "I (mA)",
+        "50",
+        "934.37"
+      ]
+    ],
+    "notes": [
+      "1. Thermocouple measurement"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

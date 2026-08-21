@@ -1,0 +1,210 @@
+{
+  "table_id": "table_15",
+  "document": "DS14693 Rev 2 - Table 15. Port B alternate function mapping (AF0 to AF7)",
+  "rev": "Rev 2",
+  "table_number": "15",
+  "title": "Table 15. Port B alternate function mapping (AF0 to AF7)",
+  "page": 43,
+  "section": "4 Pinouts, pin description and alternate functions",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=43",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 15. Port B alternate function mapping (AF0 to AF7) — section 4 Pinouts, pin description and alternate functions. Port, AF0, AF1, AF2, AF3, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Port",
+      "AF0",
+      "AF1",
+      "AF2",
+      "AF3",
+      "AF4",
+      "AF5",
+      "AF6",
+      "AF7"
+    ],
+    "rows": [
+      [
+        "PB0",
+        "SPI1_NSS/ I2S1_WS",
+        "TIM3_CH3",
+        "TIM1_CH2N",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PB1",
+        "TIM14_CH1",
+        "TIM3_CH4",
+        "TIM1_CH3N",
+        "-",
+        "-",
+        "TIM1_CH2N",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PB2",
+        "USART1_RX",
+        "-",
+        "-",
+        "MCO2",
+        "SPI2_MISO",
+        "-",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PB3",
+        "SPI1_SCK/ I2S1_CK",
+        "TIM1_CH2",
+        "-",
+        "TIM3_CH2",
+        "USART1_RTS/ USART1_DE/ USART1_CK",
+        "I2C2_SCL",
+        "TIM2_CH2",
+        "EVENTOUT"
+      ],
+      [
+        "PB4",
+        "SPI1_MISO/ I2S1_MCK",
+        "TIM3_CH1",
+        "-",
+        "-",
+        "USART1_CTS/ USART1_NSS",
+        "TIM17_BKIN",
+        "I2C2_SDA",
+        "EVENTOUT"
+      ],
+      [
+        "PB5",
+        "SPI1_MOSI/ I2S1_SD",
+        "TIM3_CH2",
+        "TIM16_BKIN",
+        "TIM3_CH3",
+        "-",
+        "-",
+        "I2C1_SMBA",
+        "-"
+      ],
+      [
+        "PB6",
+        "USART1_TX",
+        "TIM1_CH3",
+        "TIM16_CH1N",
+        "TIM3_CH3",
+        "SPI2_MISO",
+        "USART1_NSS/ USART1_CTS",
+        "I2C1_SCL",
+        "I2C1_SMBA"
+      ],
+      [
+        "PB7",
+        "USART1_RX",
+        "TIM1_CH4",
+        "TIM17_CH1N",
+        "TIM3_CH4",
+        "SPI2_MOSI",
+        "-",
+        "I2C1_SDA",
+        "EVENTOUT"
+      ],
+      [
+        "PB8",
+        "-",
+        "USART2_CTS/ USART2_NSS",
+        "TIM16_CH1",
+        "TIM3_CH1",
+        "SPI2_SCK",
+        "-",
+        "I2C1_SCL",
+        "EVENTOUT"
+      ],
+      [
+        "PB9",
+        "IR_OUT",
+        "USART2_RTS/ USART2_DE/ USART2_CK",
+        "TIM17_CH1",
+        "TIM3_CH2",
+        "-",
+        "SPI2_NSS",
+        "I2C1_SDA",
+        "EVENTOUT"
+      ],
+      [
+        "PB10",
+        "-",
+        "-",
+        "-",
+        "TIM2_CH3",
+        "-",
+        "SPI2_SCK",
+        "I2C2_SCL",
+        "-"
+      ],
+      [
+        "PB11",
+        "SPI2_MOSI",
+        "-",
+        "-",
+        "TIM2_CH4",
+        "-",
+        "-",
+        "I2C2_SDA",
+        "-"
+      ],
+      [
+        "PB12",
+        "SPI2_NSS",
+        "TIM1_BKIN2",
+        "TIM1_BKIN",
+        "-",
+        "-",
+        "-",
+        "-",
+        "EVENTOUT"
+      ],
+      [
+        "PB13",
+        "SPI2_SCK",
+        "-",
+        "TIM1_CH1N",
+        "-",
+        "-",
+        "-",
+        "I2C2_SCL",
+        "EVENTOUT"
+      ],
+      [
+        "PB14",
+        "SPI2_MISO",
+        "-",
+        "TIM1_CH2N",
+        "-",
+        "-",
+        "-",
+        "I2C2_SDA",
+        "EVENTOUT"
+      ],
+      [
+        "PB15",
+        "SPI2_MOSI",
+        "-",
+        "TIM1_CH3N",
+        "-",
+        "-",
+        "-",
+        "-",
+        "EVENTOUT"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

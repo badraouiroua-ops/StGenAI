@@ -1,0 +1,22 @@
+{
+  "table_id": "table_1",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Nominal (FDCAN_NBTP)",
+      "row_index": 0,
+      "analyse_visuelle": "Dans la colonne 'Condition properties', la valeur 'BTN = 10' est manquante à la fin de la cellule.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "BRPN=8 SJWN=4 PS1N=4 PS2N=4",
+          "nouvelle_valeur": "BRPN = 8 SJWN = 4 PS1N = 4 PS2N = 4 BTN = 10",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

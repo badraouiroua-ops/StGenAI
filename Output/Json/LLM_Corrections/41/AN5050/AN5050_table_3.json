@@ -1,0 +1,52 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Plusieurs lignes étaient manquantes dans l'extraction de Table 3.",
+    "Cases fusionnées laissées vides conformément aux consignes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 1,
+      "contenu": [
+        "OCTOSPI I/O manager arbiter",
+        "",
+        "N/A"
+      ]
+    },
+    {
+      "row_index": 2,
+      "contenu": [
+        "Multiplexed mode",
+        "",
+        "N/A"
+      ]
+    },
+    {
+      "row_index": 3,
+      "contenu": [
+        "Dedicated OTFDEC support (on-the-fly decryption engine)",
+        "",
+        "N/A"
+      ]
+    },
+    {
+      "row_index": 4,
+      "contenu": [
+        "Memory-mapped mode",
+        "Max bus frequency access (MHz)",
+        "160 (32-bit AHB bus)"
+      ]
+    },
+    {
+      "row_index": 5,
+      "contenu": [
+        "Indirect mode",
+        "",
+        ""
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

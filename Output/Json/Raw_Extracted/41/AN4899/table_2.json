@@ -1,0 +1,63 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. Document revision history",
+  "pdf_name": "AN4899",
+  "family": "41",
+  "page": 32,
+  "merged_pages": [
+    32
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4899.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4899.pdf#page=32",
+  "section": "9 Revision history",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "21-Sep-2017",
+      "1",
+      "Initial release."
+    ],
+    [
+      "12-Aug-2021",
+      "2",
+      "Updated the document title. Added a note to Section 5.2.1: Three-volt tolerant GPIO (TT) and Section 5.2.2: Five-volt tolerant GPIO (FT) about the maximum operating voltage when an analog input function is enabled. Added remarks about the analog switch in Section 4.2: GPIO equivalent schematics and Section 4.3.4: Analog configuration."
+    ],
+    [
+      "29-Mar-2022",
+      "3",
+      "Updated the document title. Updated the applicability of Section 7.5: Shutdown exit mode."
+    ],
+    [
+      "21-May-2026",
+      "4",
+      "Updated: – Document title. – Figure 15: Multi voltage leakage example – Figure 16: Voltage protection when VDD is not supplied – Figure 17: Open-drain output with no load"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4899",
+    "table_id": "table_2",
+    "is_continued": false,
+    "pages": [
+      32
+    ],
+    "rows_count": 4,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

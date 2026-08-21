@@ -1,0 +1,33 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Document revision history",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Document revision history",
+  "page": 25,
+  "section": "9.3.1 Embedded trace macrocell (ETM)",
+  "section_title": "Embedded trace macrocell (ETM)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=25",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+  "text_helper": "Table 9. Document revision history — section 9.3.1 Embedded trace macrocell (ETM). Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "16-Feb-2026",
+        "1",
+        "Initial release."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

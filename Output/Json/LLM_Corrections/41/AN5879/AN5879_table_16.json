@@ -1,0 +1,48 @@
+{
+  "table_id": "table_16",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête du tableau",
+      "row_index": null,
+      "analyse_visuelle": "L'en-tête de la première colonne contient le texte vertical 'DT71941V2' inversé (2V14917TD).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "2V14917TD",
+          "nouvelle_valeur": "DT71941V2",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Ligne 1 - Start the listen mode process",
+      "row_index": 0,
+      "analyse_visuelle": "La référence verticale 'DT71942V2' a été lue à l'envers sous la forme '2V24917TD'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "2V24917TD",
+          "nouvelle_valeur": "DT71942V2",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Ligne 2 - I3C target requests a dynamic address callback",
+      "row_index": 1,
+      "analyse_visuelle": "La première colonne de la 3e ligne ne contient que la référence 'DT71943V2', mais l'extraction a concaténé plusieurs identifiants.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "DT71943V2DT71942V2DT71941V2",
+          "nouvelle_valeur": "DT71943V2",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

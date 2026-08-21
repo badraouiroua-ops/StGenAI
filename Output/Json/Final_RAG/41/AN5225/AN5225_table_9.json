@@ -1,0 +1,42 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. USB Type-C sink behavior on CC lines",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. USB Type-C sink behavior on CC lines",
+  "page": 25,
+  "section": "11.3 Hardware overview",
+  "section_title": "Hardware overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=25",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 9. USB Type-C sink behavior on CC lines — section 11.3 Hardware overview. State, Pull-down function on CC lines / Sink without Dead battery support, Pull-down function on CC lines / Sink with Dead battery support.",
+  "table_content": {
+    "headers": [
+      "State",
+      "Pull-down function on CC lines / Sink without Dead battery support",
+      "Pull-down function on CC lines / Sink with Dead battery support"
+    ],
+    "rows": [
+      [
+        "Unpowered",
+        "None",
+        "5.1 kΩ resistor or a voltage clamp (DB)"
+      ],
+      [
+        "Powered",
+        "5.1 kΩ",
+        "5.1 kΩ resistor"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "voltage clamp, as shown in the following table. Thanks to this, the USB Type-C source attached to the sink can",
+      "detect that the sink is unpowered (which corresponds to dead battery for battery-powered application). The USB",
+      "Type-C source (for example a battery charger) can then supply power through the VBUS line."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

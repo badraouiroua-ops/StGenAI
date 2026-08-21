@@ -1,0 +1,26 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 15,
+      "contenu": [
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs",
+        "Max GPIOs"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

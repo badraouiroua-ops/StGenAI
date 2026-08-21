@@ -1,0 +1,472 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Device features and peripheral counts",
+  "pdf_name": "stm32c542cc",
+  "family": "C5",
+  "page": 4,
+  "merged_pages": [
+    4,
+    5
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=4",
+  "section": "2 Description",
+  "headers": [
+    "Peripherals",
+    "Peripherals",
+    "STM32C542FCP",
+    "STM32C542FCU",
+    "STM32C542ECU",
+    "STM32C542KCT",
+    "STM32C542KCU",
+    "TCC245C23MTS UCC245C23MTS",
+    "STM32C542RCT"
+  ],
+  "rows": [
+    [
+      "Number of pins",
+      "Number of pins",
+      "20",
+      "20",
+      "24",
+      "32",
+      "32",
+      "48",
+      "64"
+    ],
+    [
+      "Flash memory (Kbytes)",
+      "Flash memory (Kbytes)",
+      "256",
+      "256",
+      "256",
+      "256",
+      "256",
+      "256",
+      "256"
+    ],
+    [
+      "SRAM (Kbytes)",
+      "SRAM (Kbytes)",
+      "64 (including 32 with ECC)",
+      "64 (including 32 with ECC)",
+      "64 (including 32 with ECC)",
+      "64 (including 32 with ECC)",
+      "64 (including 32 with ECC)",
+      "64 (including 32 with ECC)",
+      "64 (including 32 with ECC)"
+    ],
+    [
+      "ICACHE (Kbytes)",
+      "ICACHE (Kbytes)",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8",
+      "8"
+    ],
+    [
+      "Data flash memory (Kbytes)",
+      "Data flash memory (Kbytes)",
+      "64",
+      "64",
+      "64",
+      "64",
+      "64",
+      "64",
+      "64"
+    ],
+    [
+      "One-time-programmable (Kbytes)",
+      "One-time-programmable (Kbytes)",
+      "4.5",
+      "4.5",
+      "4.5",
+      "4.5",
+      "4.5",
+      "4.5",
+      "4.5"
+    ],
+    [
+      "Timers",
+      "General purpose",
+      "1 (32-bit) and 2 (16-bit)",
+      "1 (32-bit) and 2 (16-bit)",
+      "1 (32-bit) and 2 (16-bit)",
+      "1 (32-bit) and 2 (16-bit)",
+      "1 (32-bit) and 2 (16-bit)",
+      "1 (32-bit) and 2 (16-bit)",
+      "1 (32-bit) and 2 (16-bit)"
+    ],
+    [
+      "Timers",
+      "Advanced‑control",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Timers",
+      "Basic",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Timers",
+      "Low‑power",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "SysTick",
+      "SysTick",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Watchdog",
+      "Watchdog",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Communication interfaces",
+      "SPI (with I2S)",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "I2C",
+      "I2C",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "I3C",
+      "I3C",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "USART",
+      "USART",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "UART",
+      "UART",
+      "1",
+      "1",
+      "1",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "LPUART",
+      "LPUART",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "USB",
+      "USB",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "FDCAN",
+      "FDCAN",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "TRACE",
+      "TRACE",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "Yes"
+    ],
+    [
+      "CORDIC",
+      "CORDIC",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "RTC",
+      "RTC",
+      "Yes (without LSE)",
+      "Yes (without LSE)",
+      "Yes (without LSE)",
+      "Yes (without LSE)",
+      "Yes (without LSE)",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Tamper pins",
+      "Tamper pins",
+      "1",
+      "1",
+      "2",
+      "2",
+      "2",
+      "3",
+      "3"
+    ],
+    [
+      "True random number generator (RNG)",
+      "True random number generator (RNG)",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "HASH",
+      "HASH",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "AES",
+      "AES",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "GPIOs",
+      "GPIOs",
+      "14",
+      "14",
+      "16",
+      "25",
+      "27",
+      "38",
+      "52"
+    ],
+    [
+      "Wake-up pins",
+      "Wake-up pins",
+      "1",
+      "1",
+      "3",
+      "3",
+      "3",
+      "4",
+      "4"
+    ],
+    [
+      "12-bit ADC channels",
+      "12-bit ADC channels",
+      "4 external + 2 internal",
+      "4 external + 2 internal",
+      "5 external + 2 internal",
+      "8 external + 2 internal",
+      "8 external + 2 internal",
+      "8 external + 2 internal",
+      "12 external + 2 internal"
+    ],
+    [
+      "12-bit DAC channels",
+      "12-bit DAC channels",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Analog comparator",
+      "Analog comparator",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Operational amplifier",
+      "Operational amplifier",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Maximum CPU frequency (MHz)",
+      "Maximum CPU frequency (MHz)",
+      "144",
+      "144",
+      "144",
+      "144",
+      "144",
+      "144",
+      "144"
+    ],
+    [
+      "Operating voltage",
+      "Operating voltage",
+      "2.7 V - 3.6 V",
+      "2.7 V - 3.6 V",
+      "2.7 V - 3.6 V",
+      "2.7 V - 3.6 V",
+      "2.7 V - 3.6 V",
+      "2.7 V - 3.6 V",
+      "2.7 V - 3.6 V"
+    ],
+    [
+      "Operating temperature",
+      "Operating temperature",
+      "Junction temperature range: -40 to +140°C",
+      "Junction temperature range: -40 to +140°C",
+      "Junction temperature range: -40 to +140°C",
+      "Junction temperature range: -40 to +140°C",
+      "Junction temperature range: -40 to +140°C",
+      "Junction temperature range: -40 to +140°C",
+      "Junction temperature range: -40 to +140°C"
+    ],
+    [
+      "Packages",
+      "Packages",
+      "TSSOP20",
+      "UFQFPN20",
+      "UFQFPN24",
+      "LQFP32",
+      "UFQFPN32",
+      "LQFP48 UFQFPN48",
+      "LQFP64"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 9,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 9,
+    "continuation": {
+      "base_cols": 9,
+      "cont_cols_raw": 9,
+      "target_cols": 9,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c542cc",
+    "table_id": "table_1",
+    "is_continued": true,
+    "pages": [
+      4,
+      5
+    ],
+    "rows_count": 37,
+    "cols_count": 9,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

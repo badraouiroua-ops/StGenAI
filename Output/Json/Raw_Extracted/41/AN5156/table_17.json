@@ -1,0 +1,76 @@
+{
+  "table_id": "table_17",
+  "caption": "Table 17. Features of the OTFDEC compared with the MCE",
+  "pdf_name": "AN5156",
+  "family": "41",
+  "page": 46,
+  "merged_pages": [
+    46
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=46",
+  "section": "6.31 Memory crypto engine (MCE)",
+  "headers": [
+    "Feature",
+    "OTFDEC",
+    "MCE"
+  ],
+  "rows": [
+    [
+      "Function",
+      "On-the-fly decryption",
+      "Encryption and decryption"
+    ],
+    [
+      "Algorithm",
+      "AES-based stream + proprietary",
+      "AES stream, AES block, DPA resistant"
+    ],
+    [
+      "Key management",
+      "128b key per region, TZ protection, write only",
+      "Similar, usually tied to OBK by the software logic"
+    ],
+    [
+      "Latency",
+      "Maximum of 12 cycles",
+      "11 to 36 cycles (scalable security)"
+    ],
+    [
+      "Security",
+      "Base level",
+      "Including tamper and secure boot integration"
+    ],
+    [
+      "Integration",
+      "Associated with XSPI",
+      "Associated with memory subsystem, usable with FMC"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "4. Device security check and maintenance: integrity checks, SB, SFU"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5156",
+    "table_id": "table_17",
+    "is_continued": false,
+    "pages": [
+      46
+    ],
+    "rows_count": 6,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

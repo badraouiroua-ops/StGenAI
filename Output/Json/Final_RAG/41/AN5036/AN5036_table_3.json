@@ -1,0 +1,53 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Natural and forced convection comparison",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Natural and forced convection comparison",
+  "page": 12,
+  "section": "5.2.3 Natural and forced convection comparison",
+  "section_title": "Natural and forced convection comparison",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=12",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 3. Natural and forced convection comparison — section 5.2.3 Natural and forced convection comparison. Comparison factors, Natural convection, Forced convection.",
+  "table_content": {
+    "headers": [
+      "Comparison factors",
+      "Natural convection",
+      "Forced convection"
+    ],
+    "rows": [
+      [
+        "Cooling efficiency",
+        "Low",
+        "Medium to high (depending on air speed)"
+      ],
+      [
+        "Cost",
+        "Low (no fan)",
+        "Higher (cost of the fan)"
+      ],
+      [
+        "Reliability",
+        "Higher (no moving parts)",
+        "Lower (mechanical part moving)"
+      ],
+      [
+        "Acoustic noise",
+        "None",
+        "Small to medium (depending on air speed)"
+      ],
+      [
+        "Possibility to control cooling efficiency based on needs",
+        "None",
+        "Yes, by varying fan voltage"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "table_id": "table_87",
+  "document": "DS14791 Rev 9 - Table 87. XSPI characteristics in SDR mode",
+  "rev": "Rev 9",
+  "table_number": "87",
+  "title": "Table 87. XSPI characteristics in SDR mode",
+  "page": 193,
+  "section": "5.3.20 XSPI interface characteristics",
+  "section_title": "XSPI interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=193",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 87. XSPI characteristics in SDR mode — section 5.3.20 XSPI interface characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F CLK",
+        "XSPI clock frequency",
+        "1.65 V < V < 1.98 V DD Voltage scaling VOS0 C = 15 pF L",
+        "-",
+        "-",
+        "185",
+        "MHz"
+      ],
+      [
+        "F CLK",
+        "XSPI clock frequency",
+        "2.7 V < V < 3.6 V DD Voltage scaling VOS0 C = 15 pF L",
+        "-",
+        "-",
+        "140",
+        "MHz"
+      ],
+      [
+        "t w(CLKL)",
+        "XSPI clock high and low time, odd division",
+        "PRESCALER[7:0] = n = 2,4,6,8",
+        "(n / 2 + 1)*t / (CLK) (n + 1) - 1",
+        "-",
+        "(n / 2 + 1)*t / (CLK) (n + 1)",
+        "ns"
+      ],
+      [
+        "t s(DQ)",
+        "Data input setup time",
+        "-",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(DQ)",
+        "Data input hold time",
+        "-",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(OUT)",
+        "Data output valid time",
+        "-",
+        "-",
+        "0",
+        "0.5",
+        "ns"
+      ],
+      [
+        "t h(OUT)",
+        "Data output hold time",
+        "-",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production.",
+      "2. Voltage scaling = VOS low. Figure 36. XSPI timing diagram - SDR mode",
+      "3. When Prescaler = 0 and F < 40 MHz. (CLK)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

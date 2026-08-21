@@ -1,0 +1,1544 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Thermal parameters",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Thermal parameters",
+    "page": 4,
+    "section": "2.3 Thermal model of a chip carrier",
+    "section_title": "Thermal model of a chip carrier",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=4",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 1. Thermal parameters — section 2.3 Thermal model of a chip carrier. Symbol, Description, Unit.",
+    "table_content": {
+      "headers": [
+        "Symbol",
+        "Description",
+        "Unit"
+      ],
+      "rows": [
+        [
+          "TJ",
+          "Temperature of the die",
+          "°C"
+        ],
+        [
+          "TA",
+          "Temperature of surrounding air",
+          "°C"
+        ],
+        [
+          "TC",
+          "Temperature of the package top",
+          "°C"
+        ],
+        [
+          "TB",
+          "Temperature of the board near the device",
+          "°C"
+        ],
+        [
+          "θJC",
+          "Thermal resistance between the die and the package",
+          "°C/W"
+        ],
+        [
+          "θJB",
+          "Thermal resistance between the die and the PCB on which the IC is mounted",
+          "°C/W"
+        ],
+        [
+          "θJA",
+          "Thermal resistance between the die and the air surrounding the die package",
+          "°C/W"
+        ],
+        [
+          "PB",
+          "Amount of power dissipated by the device through the board",
+          "W"
+        ],
+        [
+          "PC",
+          "Amount of power dissipated by the device through the package top",
+          "W"
+        ],
+        [
+          "PTOT",
+          "The total power dissipated by the device (PTOT = PB + PC)",
+          "W"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. STM32 thermal resistances",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. STM32 thermal resistances",
+    "page": 6,
+    "section": "3.5 Board temperature",
+    "section_title": "Board temperature",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=6",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 2. STM32 thermal resistances — section 3.5 Board temperature. Thermal metric, Symbol, Value, Main purpose.",
+    "table_content": {
+      "headers": [
+        "Thermal metric",
+        "Symbol",
+        "Value",
+        "Main purpose"
+      ],
+      "rows": [
+        [
+          "Theta‑JA",
+          "θJA",
+          "(TJ − TA) / PTOT",
+          "Used to rank package performance in the JEDEC environment"
+        ],
+        [
+          "Theta‑JC",
+          "θJC",
+          "(TJ − TC) / PC",
+          "Used to rank package performance Used in simulations with a 2R model (2R = two resistances)"
+        ],
+        [
+          "Theta‑JB",
+          "θJB",
+          "(TJ − TB) / PB",
+          "Used to rank package performance Used in simulations with 2R model"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. Natural and forced convection comparison",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. Natural and forced convection comparison",
+    "page": 12,
+    "section": "5.2.3 Natural and forced convection comparison",
+    "section_title": "Natural and forced convection comparison",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=12",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 3. Natural and forced convection comparison — section 5.2.3 Natural and forced convection comparison. Comparison factors, Natural convection, Forced convection.",
+    "table_content": {
+      "headers": [
+        "Comparison factors",
+        "Natural convection",
+        "Forced convection"
+      ],
+      "rows": [
+        [
+          "Cooling efficiency",
+          "Low",
+          "Medium to high (depending on air speed)"
+        ],
+        [
+          "Cost",
+          "Low (no fan)",
+          "Higher (cost of the fan)"
+        ],
+        [
+          "Reliability",
+          "Higher (no moving parts)",
+          "Lower (mechanical part moving)"
+        ],
+        [
+          "Acoustic noise",
+          "None",
+          "Small to medium (depending on air speed)"
+        ],
+        [
+          "Possibility to control cooling efficiency based on needs",
+          "None",
+          "Yes, by varying fan voltage"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. STM32H747XI power dissipation versus T 15 j",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. STM32H747XI power dissipation versus T 15 j",
+    "page": 15,
+    "section": "6 Thermal analysis examples",
+    "section_title": "Thermal analysis examples",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=15",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 4. STM32H747XI power dissipation versus T 15 j — section 6 Thermal analysis examples. TJ (°C), STM32H747I-DISCO (supplied with 5 V) / Current consumption (A), STM32H747I-DISCO (supplied with 5 V) / Power consumption (mW), STM32H747XI power dissipation (mW).",
+    "table_content": {
+      "headers": [
+        "TJ (°C)",
+        "STM32H747I-DISCO (supplied with 5 V) / Current consumption (A)",
+        "STM32H747I-DISCO (supplied with 5 V) / Power consumption (mW)",
+        "STM32H747XI power dissipation (mW)"
+      ],
+      "rows": [
+        [
+          "46.9",
+          "0.395",
+          "1975",
+          "737"
+        ],
+        [
+          "51.8",
+          "0.405",
+          "2025",
+          "769"
+        ],
+        [
+          "55.8",
+          "0.412",
+          "2060",
+          "788"
+        ],
+        [
+          "61.5",
+          "0.423",
+          "2115",
+          "824"
+        ],
+        [
+          "65.7",
+          "0.430",
+          "2150",
+          "852"
+        ],
+        [
+          "71",
+          "0.442",
+          "2210",
+          "888"
+        ],
+        [
+          "77.3",
+          "0.452",
+          "2260",
+          "920"
+        ],
+        [
+          "81.9",
+          "0.465",
+          "2325",
+          "965"
+        ],
+        [
+          "87.5",
+          "0.480",
+          "2400",
+          "1010"
+        ],
+        [
+          "92",
+          "0.490",
+          "2450",
+          "1056"
+        ],
+        [
+          "96.8",
+          "0.509",
+          "2545",
+          "1104"
+        ],
+        [
+          "102.5",
+          "0.534",
+          "2670",
+          "1179"
+        ],
+        [
+          "106.3",
+          "0.550",
+          "2750",
+          "1229"
+        ],
+        [
+          "111.3",
+          "0.571",
+          "2855",
+          "1298"
+        ],
+        [
+          "116.9",
+          "0.600",
+          "3000",
+          "1387"
+        ],
+        [
+          "123",
+          "0.635",
+          "3175",
+          "1499"
+        ],
+        [
+          "125",
+          "0.650",
+          "3250",
+          "1559"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_5",
+    "document": "Table 5. STM32H7 thermal measurements at T = 25°C 16 A",
+    "rev": null,
+    "table_number": "5",
+    "title": "Table 5. STM32H7 thermal measurements at T = 25°C 16 A",
+    "page": 16,
+    "section": "6 Thermal analysis examples",
+    "section_title": "Thermal analysis examples",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=16",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 5. STM32H7 thermal measurements at T = 25°C 16 A — section 6 Thermal analysis examples. T (°C) / J, Thermal camera module measurement (°C) / Avg, Thermal camera module measurement (°C) / Min, Thermal camera module measurement (°C) / Max, STM32H7 power consumption / (mW), +1 autres.",
+    "table_content": {
+      "headers": [
+        "T (°C) / J",
+        "Thermal camera module measurement (°C) / Avg",
+        "Thermal camera module measurement (°C) / Min",
+        "Thermal camera module measurement (°C) / Max",
+        "STM32H7 power consumption / (mW)",
+        "Total power consumption (mW)"
+      ],
+      "rows": [
+        [
+          "46.9",
+          "45.5",
+          "39.7",
+          "50.6",
+          "737",
+          "1975"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_6",
+    "document": "Table 6. Measurement interpolation at T = 85 °C for STM32H7 17 A",
+    "rev": null,
+    "table_number": "6",
+    "title": "Table 6. Measurement interpolation at T = 85 °C for STM32H7 17 A",
+    "page": 17,
+    "section": "6 Thermal analysis examples",
+    "section_title": "Thermal analysis examples",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=17",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 6. Measurement interpolation at T = 85 °C for STM32H7 17 A — section 6 Thermal analysis examples. Parameter, Value.",
+    "table_content": {
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        [
+          "TJ",
+          "119 °C"
+        ],
+        [
+          "PTOT",
+          "3050 mW"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_7",
+    "document": "Table 7. STM32MP157 power dissipation versus T 19 J",
+    "rev": null,
+    "table_number": "7",
+    "title": "Table 7. STM32MP157 power dissipation versus T 19 J",
+    "page": 19,
+    "section": "6 Thermal analysis examples",
+    "section_title": "Thermal analysis examples",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=19",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 7. STM32MP157 power dissipation versus T 19 J — section 6 Thermal analysis examples. TJ (°C), STM32MP157x-EV1 board (supplied with 5 V) / Current consumption (A), STM32MP157x-EV1 board (supplied with 5 V) / Power consumption (mW), STM32MP157 power dissipation (mW).",
+    "table_content": {
+      "headers": [
+        "TJ (°C)",
+        "STM32MP157x-EV1 board (supplied with 5 V) / Current consumption (A)",
+        "STM32MP157x-EV1 board (supplied with 5 V) / Power consumption (mW)",
+        "STM32MP157 power dissipation (mW)"
+      ],
+      "rows": [
+        [
+          "39",
+          "0.4",
+          "2000",
+          "970.2"
+        ],
+        [
+          "46",
+          "0.4",
+          "2000",
+          "973.8"
+        ],
+        [
+          "65",
+          "0.405",
+          "2025",
+          "1006.4"
+        ],
+        [
+          "81",
+          "0.41",
+          "2050",
+          "1053.1"
+        ],
+        [
+          "95",
+          "0.42",
+          "2100",
+          "1104.7"
+        ],
+        [
+          "106",
+          "0.432",
+          "2160",
+          "1195.5"
+        ],
+        [
+          "116",
+          "0.445",
+          "2225",
+          "1280.6"
+        ],
+        [
+          "125",
+          "0.456",
+          "2280",
+          "1366.6"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_8",
+    "document": "Table 8. STM32MP157 thermal measurements at T = 25 °C 20 A",
+    "rev": null,
+    "table_number": "8",
+    "title": "Table 8. STM32MP157 thermal measurements at T = 25 °C 20 A",
+    "page": 20,
+    "section": "6 Thermal analysis examples",
+    "section_title": "Thermal analysis examples",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=20",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 8. STM32MP157 thermal measurements at T = 25 °C 20 A — section 6 Thermal analysis examples. TJ (°C), Thermal camera measurement (°C) / Avg, Thermal camera measurement (°C) / Min, Thermal camera measurement (°C) / Max, STM32MP157 power consumption (mW), +1 autres.",
+    "table_content": {
+      "headers": [
+        "TJ (°C)",
+        "Thermal camera measurement (°C) / Avg",
+        "Thermal camera measurement (°C) / Min",
+        "Thermal camera measurement (°C) / Max",
+        "STM32MP157 power consumption (mW)",
+        "Total power consumption (mW)"
+      ],
+      "rows": [
+        [
+          "46",
+          "46.2",
+          "40.52",
+          "51.4",
+          "974",
+          "2000"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_9",
+    "document": "Table 9. Measurement interpolation at T = 85 °C for STM32MP157 21 A",
+    "rev": null,
+    "table_number": "9",
+    "title": "Table 9. Measurement interpolation at T = 85 °C for STM32MP157 21 A",
+    "page": 21,
+    "section": "6 Thermal analysis examples",
+    "section_title": "Thermal analysis examples",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=21",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 9. Measurement interpolation at T = 85 °C for STM32MP157 21 A — section 6 Thermal analysis examples. Parameter, Value.",
+    "table_content": {
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        [
+          "TJ",
+          "110 °C"
+        ],
+        [
+          "PTOT",
+          "2200 mW"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_10",
+    "document": "Table 10. Use cases for STM32MP135 MPU",
+    "rev": null,
+    "table_number": "10",
+    "title": "Table 10. Use cases for STM32MP135 MPU",
+    "page": 22,
+    "section": "6 Thermal analysis examples",
+    "section_title": "Thermal analysis examples",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=22",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 10. Use cases for STM32MP135 MPU — section 6 Thermal analysis examples. Name, Description, CPU load, DDR load. (table vide)",
+    "table_content": {
+      "headers": [
+        "Name",
+        "Description",
+        "CPU load",
+        "DDR load"
+      ],
+      "rows": [
+        [
+          "cpuburn",
+          "-",
+          "",
+          "R = 3 Mbyte/s, W = 0 Mbyte/s, R&W = 4 Mbyte/s"
+        ],
+        [
+          "dd",
+          "Idle (weston launcher, netdata) + dual eth + USB hard drive + dd on hard drive (ETH cables unplugged)",
+          "100%",
+          "R = 129 Mbyte/s, W = 40 Mbyte/s, R&W = 169 Mbyte/s"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_11",
+    "document": "Table 11. STM32MP135 power dissipation versus T at 900 MHz (cpuburn) 22 J",
+    "rev": null,
+    "table_number": "11",
+    "title": "Table 11. STM32MP135 power dissipation versus T at 900 MHz (cpuburn) 22 J",
+    "page": 22,
+    "section": "6.3.1.1 Use case about cpuburn",
+    "section_title": "Use case about cpuburn",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=22",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 11. STM32MP135 power dissipation versus T at 900 MHz (cpuburn) 22 J — section 6.3.1.1 Use case about cpuburn. TJ (°C), STM32MP135 power dissipation (mW) at 900 MHz.",
+    "table_content": {
+      "headers": [
+        "TJ (°C)",
+        "STM32MP135 power dissipation (mW) at 900 MHz"
+      ],
+      "rows": [
+        [
+          "20.00",
+          "711.44"
+        ],
+        [
+          "31.00",
+          "721.04"
+        ],
+        [
+          "43.00",
+          "740.00"
+        ],
+        [
+          "47.00",
+          "748.83"
+        ],
+        [
+          "52.00",
+          "757.93"
+        ],
+        [
+          "56.00",
+          "763.62"
+        ],
+        [
+          "66.00",
+          "791.42"
+        ],
+        [
+          "71.00",
+          "804.79"
+        ],
+        [
+          "78.00",
+          "823.36"
+        ],
+        [
+          "86.00",
+          "857.92"
+        ],
+        [
+          "91.00",
+          "881.62"
+        ],
+        [
+          "96.00",
+          "903.01"
+        ],
+        [
+          "98.00",
+          "914.23"
+        ],
+        [
+          "101.00",
+          "926.44"
+        ],
+        [
+          "106.00",
+          "951.83"
+        ],
+        [
+          "111.00",
+          "973.00"
+        ],
+        [
+          "116.00",
+          "994.98"
+        ],
+        [
+          "119.00",
+          "1014.19"
+        ],
+        [
+          "129.00",
+          "1110.12"
+        ],
+        [
+          "139.00",
+          "1238.89"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_12",
+    "document": "Table 12. STM32MP135 power dissipation versus T at 1 GHz (cpuburn) 23 J",
+    "rev": null,
+    "table_number": "12",
+    "title": "Table 12. STM32MP135 power dissipation versus T at 1 GHz (cpuburn) 23 J",
+    "page": 23,
+    "section": "6.3.1.1 Use case about cpuburn",
+    "section_title": "Use case about cpuburn",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=23",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 12. STM32MP135 power dissipation versus T at 1 GHz (cpuburn) 23 J — section 6.3.1.1 Use case about cpuburn. TJ (°C), STM32MP135 power dissipation (mW) at 1 GHz.",
+    "table_content": {
+      "headers": [
+        "TJ (°C)",
+        "STM32MP135 power dissipation (mW) at 1 GHz"
+      ],
+      "rows": [
+        [
+          "21.60",
+          "795.45"
+        ],
+        [
+          "32.00",
+          "800.12"
+        ],
+        [
+          "37.00",
+          "806.26"
+        ],
+        [
+          "44.00",
+          "825.79"
+        ],
+        [
+          "49.00",
+          "833.00"
+        ],
+        [
+          "56.00",
+          "841.39"
+        ],
+        [
+          "61.00",
+          "861.53"
+        ],
+        [
+          "68.00",
+          "890.82"
+        ],
+        [
+          "76.00",
+          "912.60"
+        ],
+        [
+          "83.00",
+          "936.60"
+        ],
+        [
+          "89.00",
+          "967.97"
+        ],
+        [
+          "100.00",
+          "1014.80"
+        ],
+        [
+          "110.00",
+          "1061.20"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_13",
+    "document": "Table 13. STM32MP135 thermal measurements at T = 25 °C (cpuburn) 23 A",
+    "rev": null,
+    "table_number": "13",
+    "title": "Table 13. STM32MP135 thermal measurements at T = 25 °C (cpuburn) 23 A",
+    "page": 23,
+    "section": "6.3.1.1 Use case about cpuburn",
+    "section_title": "Use case about cpuburn",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=23",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 13. STM32MP135 thermal measurements at T = 25 °C (cpuburn) 23 A — section 6.3.1.1 Use case about cpuburn. Parameter, 900 MHz, 1 GHz, Unit.",
+    "table_content": {
+      "headers": [
+        "Parameter",
+        "900 MHz",
+        "1 GHz",
+        "Unit"
+      ],
+      "rows": [
+        [
+          "TJ",
+          "47",
+          "49",
+          "[°C]"
+        ],
+        [
+          "VCORE",
+          "1.32",
+          "1.332",
+          "[V]"
+        ],
+        [
+          "ICORE",
+          "180",
+          "195",
+          "[mA]"
+        ],
+        [
+          "PCORE",
+          "237",
+          "260",
+          "[mW]"
+        ],
+        [
+          "VDD",
+          "3.33",
+          "3.321",
+          "[V]"
+        ],
+        [
+          "IDD",
+          "13",
+          "19",
+          "[mA]"
+        ],
+        [
+          "PDD",
+          "43",
+          "63",
+          "[mW]"
+        ],
+        [
+          "VCPU",
+          "1.415",
+          "1.414",
+          "[V]"
+        ],
+        [
+          "ICPU",
+          "306",
+          "331",
+          "[mA]"
+        ],
+        [
+          "PCPU",
+          "432",
+          "468",
+          "[mW]"
+        ],
+        [
+          "VDDR2",
+          "1.2",
+          "1.206",
+          "[V]"
+        ],
+        [
+          "IDDR2",
+          "30",
+          "35.5",
+          "[mA]"
+        ],
+        [
+          "PDDR2",
+          "36",
+          "43",
+          "[mW]"
+        ],
+        [
+          "STM32MP135 power dissipation",
+          "748",
+          "834",
+          "[mW]"
+        ],
+        [
+          "STM32MP135 power dissipation",
+          "+11%",
+          "+11%",
+          "[mW]"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_14",
+    "document": "Table 14. STM32MP135 power dissipation versus T at 900 MHz (dd) 24 J",
+    "rev": null,
+    "table_number": "14",
+    "title": "Table 14. STM32MP135 power dissipation versus T at 900 MHz (dd) 24 J",
+    "page": 24,
+    "section": "6.3.1.2 Use case about dd",
+    "section_title": "Use case about dd",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=24",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 14. STM32MP135 power dissipation versus T at 900 MHz (dd) 24 J — section 6.3.1.2 Use case about dd. TJ (°C), STM32MP135 power dissipation (mW) at 900 MHz.",
+    "table_content": {
+      "headers": [
+        "TJ (°C)",
+        "STM32MP135 power dissipation (mW) at 900 MHz"
+      ],
+      "rows": [
+        [
+          "20",
+          "586.44"
+        ],
+        [
+          "31",
+          "596.04"
+        ],
+        [
+          "43",
+          "615.00"
+        ],
+        [
+          "47",
+          "623.83"
+        ],
+        [
+          "52",
+          "632.93"
+        ],
+        [
+          "56",
+          "638.62"
+        ],
+        [
+          "66",
+          "666.42"
+        ],
+        [
+          "71",
+          "679.79"
+        ],
+        [
+          "78",
+          "698.36"
+        ],
+        [
+          "86",
+          "732.92"
+        ],
+        [
+          "91",
+          "756.62"
+        ],
+        [
+          "96",
+          "778.01"
+        ],
+        [
+          "98",
+          "789.23"
+        ],
+        [
+          "101",
+          "801.44"
+        ],
+        [
+          "106",
+          "826.83"
+        ],
+        [
+          "111",
+          "848.00"
+        ],
+        [
+          "116",
+          "869.98"
+        ],
+        [
+          "119",
+          "889.19"
+        ],
+        [
+          "129",
+          "985.12"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_15",
+    "document": "Table 15. STM32MP135 power dissipation versus T at 1 GHz (dd) 25 J",
+    "rev": null,
+    "table_number": "15",
+    "title": "Table 15. STM32MP135 power dissipation versus T at 1 GHz (dd) 25 J",
+    "page": 25,
+    "section": "6.3.1.2 Use case about dd",
+    "section_title": "Use case about dd",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=25",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 15. STM32MP135 power dissipation versus T at 1 GHz (dd) 25 J — section 6.3.1.2 Use case about dd. TJ (°C), STM32MP135 power dissipation (mW) at 1 GHz.",
+    "table_content": {
+      "headers": [
+        "TJ (°C)",
+        "STM32MP135 power dissipation (mW) at 1 GHz"
+      ],
+      "rows": [
+        [
+          "21.6",
+          "670.45"
+        ],
+        [
+          "32",
+          "675.12"
+        ],
+        [
+          "37",
+          "681.26"
+        ],
+        [
+          "46",
+          "700"
+        ],
+        [
+          "49",
+          "708.00"
+        ],
+        [
+          "56",
+          "716.39"
+        ],
+        [
+          "61",
+          "736.53"
+        ],
+        [
+          "68",
+          "765.82"
+        ],
+        [
+          "76",
+          "787.60"
+        ],
+        [
+          "83",
+          "811.60"
+        ],
+        [
+          "89",
+          "842.97"
+        ],
+        [
+          "100",
+          "889.80"
+        ],
+        [
+          "110",
+          "936.20"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_16",
+    "document": "Table 16. STM32MP135 thermal measurements at T = 25 °C (dd) 25 A",
+    "rev": null,
+    "table_number": "16",
+    "title": "Table 16. STM32MP135 thermal measurements at T = 25 °C (dd) 25 A",
+    "page": 25,
+    "section": "6.3.1.2 Use case about dd",
+    "section_title": "Use case about dd",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=25",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 16. STM32MP135 thermal measurements at T = 25 °C (dd) 25 A — section 6.3.1.2 Use case about dd. Parameter, 900 MHz, 1 GHz, Unit.",
+    "table_content": {
+      "headers": [
+        "Parameter",
+        "900 MHz",
+        "1 GHz",
+        "Unit"
+      ],
+      "rows": [
+        [
+          "TJ",
+          "43",
+          "46",
+          "[°C]"
+        ],
+        [
+          "VCORE",
+          "1.32",
+          "1.32",
+          "[V]"
+        ],
+        [
+          "ICORE",
+          "177",
+          "198",
+          "[mA]"
+        ],
+        [
+          "PCORE",
+          "233",
+          "261",
+          "[mW]"
+        ],
+        [
+          "VDD",
+          "3.33",
+          "3.33",
+          "[V]"
+        ],
+        [
+          "IDD",
+          "13",
+          "19",
+          "[mA]"
+        ],
+        [
+          "PDD",
+          "43",
+          "63",
+          "[mW]"
+        ],
+        [
+          "VCPU",
+          "1.415",
+          "1.398",
+          "[V]"
+        ],
+        [
+          "ICPU",
+          "173",
+          "199",
+          "[mA]"
+        ],
+        [
+          "PCPU",
+          "244",
+          "278",
+          "[mW]"
+        ],
+        [
+          "VDDR2",
+          "1.268",
+          "1.268",
+          "[V]"
+        ],
+        [
+          "IDDR2",
+          "75",
+          "77",
+          "[mA]"
+        ],
+        [
+          "PDDR2",
+          "95",
+          "97",
+          "[mW]"
+        ],
+        [
+          "STM32MP135",
+          "615",
+          "700",
+          "[mW]"
+        ],
+        [
+          "STM32MP135",
+          "+ 13%",
+          "+ 13%",
+          "[mW]"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_17",
+    "document": "Table 17. Maximum ambient temperature (STM32MP135 MPU)",
+    "rev": null,
+    "table_number": "17",
+    "title": "Table 17. Maximum ambient temperature (STM32MP135 MPU)",
+    "page": 28,
+    "section": "6.3.4 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=28",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 17. Maximum ambient temperature (STM32MP135 MPU) — section 6.3.4 Conclusion. Frequency, Maximum ambient temperature (°C) / TJ = 105 °C, Maximum ambient temperature (°C) / TJ = 105 °C, Maximum ambient temperature (°C) / TJ = 125 °C, Maximum ambient temperature (°C) / TJ = 125 °C.",
+    "table_content": {
+      "headers": [
+        "Frequency",
+        "Maximum ambient temperature (°C) / TJ = 105 °C",
+        "Maximum ambient temperature (°C) / TJ = 105 °C",
+        "Maximum ambient temperature (°C) / TJ = 125 °C",
+        "Maximum ambient temperature (°C) / TJ = 125 °C"
+      ],
+      "rows": [
+        [
+          "Frequency",
+          "cpuburn",
+          "dd",
+          "cpuburn",
+          "dd"
+        ],
+        [
+          "900 MHz",
+          "77.5",
+          "81",
+          "93.5",
+          "97.5"
+        ],
+        [
+          "1 GHz",
+          "74",
+          "78",
+          "91",
+          "94"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_18",
+    "document": "Table 18. STM32MP257 thermal measurements at T = 25 °C 30 A",
+    "rev": null,
+    "table_number": "18",
+    "title": "Table 18. STM32MP257 thermal measurements at T = 25 °C 30 A",
+    "page": 30,
+    "section": "6.3.4 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=30",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 18. STM32MP257 thermal measurements at T = 25 °C 30 A — section 6.3.4 Conclusion. T (°C) / J, Thermal camera module measurement (°C) / Avg, Thermal camera module measurement (°C) / Min, Thermal camera module measurement (°C) / Max, STM32MP257 power consumption (mW).",
+    "table_content": {
+      "headers": [
+        "T (°C) / J",
+        "Thermal camera module measurement (°C) / Avg",
+        "Thermal camera module measurement (°C) / Min",
+        "Thermal camera module measurement (°C) / Max",
+        "STM32MP257 power consumption (mW)"
+      ],
+      "rows": [
+        [
+          "47.5 (1)",
+          "40.24",
+          "31.5",
+          "48.7",
+          "2164.77"
+        ]
+      ],
+      "notes": [
+        "1. Thermocouple measurement Once the HDC of the design is defined (by measurement at 25 °C), and assuming that this HDC is constant at"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_19",
+    "document": "Table 19. Measurement interpolation at T = 85 °C for STM32MP257 30 A",
+    "rev": null,
+    "table_number": "19",
+    "title": "Table 19. Measurement interpolation at T = 85 °C for STM32MP257 30 A",
+    "page": 30,
+    "section": "6.3.4 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=30",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 19. Measurement interpolation at T = 85 °C for STM32MP257 30 A — section 6.3.4 Conclusion. Parameter, Value.",
+    "table_content": {
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        [
+          "TJ",
+          "115 °C"
+        ],
+        [
+          "PTOT",
+          "2886.5 mW"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_20",
+    "document": "Table 20. STM32N657 thermal measurements at T = 25 °C 33 A",
+    "rev": null,
+    "table_number": "20",
+    "title": "Table 20. STM32N657 thermal measurements at T = 25 °C 33 A",
+    "page": 33,
+    "section": "6.3.4 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=33",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 20. STM32N657 thermal measurements at T = 25 °C 33 A — section 6.3.4 Conclusion. TJ (°C), Thermal camera module measurement (°C) Max, STM32N657 power consumption (mW).",
+    "table_content": {
+      "headers": [
+        "TJ (°C)",
+        "Thermal camera module measurement (°C) Max",
+        "STM32N657 power consumption (mW)"
+      ],
+      "rows": [
+        [
+          "47(1)",
+          "48.7",
+          "1318"
+        ]
+      ],
+      "notes": [
+        "1. Thermocouple measurement Once the heat dissipation capability (HDC) of the design has been defined (by measurement at 25 °C), and"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_21",
+    "document": "Table 21. Measurement interpolation at maximum ambient temperature for STM32N657",
+    "rev": null,
+    "table_number": "21",
+    "title": "Table 21. Measurement interpolation at maximum ambient temperature for STM32N657",
+    "page": 33,
+    "section": "6.3.4 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=33",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 21. Measurement interpolation at maximum ambient temperature for STM32N657 — section 6.3.4 Conclusion. Parameter, Value.",
+    "table_content": {
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        [
+          "TJ",
+          "125 °C"
+        ],
+        [
+          "PTOT",
+          "2082 mW"
+        ],
+        [
+          "Maximum ambient temperature",
+          "91 °C"
+        ]
+      ],
+      "notes": [
+        "1. Thermocouple measurement Once the heat dissipation capability (HDC) of the design has been defined (by measurement at 25 °C), and"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_22",
+    "document": "Table 22. STM32MP215F thermal measurements at T = 25°C 35 A",
+    "rev": null,
+    "table_number": "22",
+    "title": "Table 22. STM32MP215F thermal measurements at T = 25°C 35 A",
+    "page": 35,
+    "section": "6.3.4 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=35",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 22. STM32MP215F thermal measurements at T = 25°C 35 A — section 6.3.4 Conclusion. TJ (°C) / 43(1), IO / V (V), IO / 3.319, CPU / V (V), CPU / 0.935, +7 autres.",
+    "table_content": {
+      "headers": [
+        "TJ (°C) / 43(1)",
+        "IO / V (V)",
+        "IO / 3.319",
+        "CPU / V (V)",
+        "CPU / 0.935",
+        "CORE / V (V)",
+        "CORE / 0.893",
+        "DDR / V (V)",
+        "DDR / 1.239",
+        "1V8 / V (V)",
+        "1V8 / 1.814",
+        "Power (mV) / 934.37"
+      ],
+      "rows": [
+        [
+          "43(1)",
+          "I (mA)",
+          "40",
+          "I (mA)",
+          "160",
+          "I (mA)",
+          "315",
+          "I (mA)",
+          "226",
+          "I (mA)",
+          "50",
+          "934.37"
+        ]
+      ],
+      "notes": [
+        "1. Thermocouple measurement Figure and table hereafter detail the thermal measurements performed at maximum ambiant temperature"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_23",
+    "document": "Table 23. Measurement interpolation at maximum ambient temperature for STM32MP215F",
+    "rev": null,
+    "table_number": "23",
+    "title": "Table 23. Measurement interpolation at maximum ambient temperature for STM32MP215F",
+    "page": 36,
+    "section": "6.3.4 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=36",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 23. Measurement interpolation at maximum ambient temperature for STM32MP215F — section 6.3.4 Conclusion. Parameter, Value.",
+    "table_content": {
+      "headers": [
+        "Parameter",
+        "Value"
+      ],
+      "rows": [
+        [
+          "TJ",
+          "125 °C"
+        ],
+        [
+          "PTOT",
+          "1327 mW"
+        ],
+        [
+          "Maximum ambient temperature",
+          "100 °C"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_24",
+    "document": "Table 24. Document revision history",
+    "rev": null,
+    "table_number": "24",
+    "title": "Table 24. Document revision history",
+    "page": 37,
+    "section": "6.3.4 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=37",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+    "text_helper": "Table 24. Document revision history — section 6.3.4 Conclusion. Date, Version, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Version",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "24-May-2018",
+          "1",
+          "Initial release."
+        ],
+        [
+          "4-Mar-2019",
+          "2",
+          "Updated: • Title of the document • Section 2.3 Thermal model of a chip carrier • Section 3.3 Ambient temperature versus junction temperature • Section 3.5 Board temperature • Section 4 Power dissipation and cooling methods Added: • Section 3.6 STM32 thermal parameters • Section 6 Thermal analysis example"
+        ],
+        [
+          "19-Apr-2019",
+          "3",
+          "Updated Section 3.6 STM32 thermal parameters. Added Section 6.2 Discovery kit with STM32H747XI MCU."
+        ],
+        [
+          "28-Feb-2023",
+          "4",
+          "Updated: • Section orders between Section 6.1 and Section 6.2 • Section 6.2 Evaluation board with STM32MP157 MPU • Figure 3. HDC (heat dissipation capability) Added Section 6.3 Internal validation board with STM32MP135 MPU"
+        ],
+        [
+          "11-Oct-2023",
+          "5",
+          "Updated: • Document title • Figure 20. Junction temperature-dependent dissipated power for STM32MP135 (cpuburn)"
+        ],
+        [
+          "28-Jun-2024",
+          "6",
+          "Added Section 6.4: Internal validation board with STM32MP257 MPU"
+        ],
+        [
+          "21-Nov-2024",
+          "7",
+          "Added Section 6.5: Discovery kit with STM32N657XOH3 MCU"
+        ],
+        [
+          "19-Jan-2026",
+          "8",
+          "Updated document title Added Section 6.6: Internal validation board with STM32MP215F MPU"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

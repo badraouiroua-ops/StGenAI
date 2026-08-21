@@ -1,0 +1,35 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Example of the calibration measurement",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Example of the calibration measurement",
+  "page": 13,
+  "section": "2.2.4 Output gain calibration",
+  "section_title": "Output gain calibration",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=13",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+  "text_helper": "Table 4. Example of the calibration measurement — section 2.2.4 Output gain calibration. DAC DOR, ADC result value.",
+  "table_content": {
+    "headers": [
+      "DAC DOR",
+      "ADC result value"
+    ],
+    "rows": [
+      [
+        "1023",
+        "3135"
+      ],
+      [
+        "3071",
+        "983"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

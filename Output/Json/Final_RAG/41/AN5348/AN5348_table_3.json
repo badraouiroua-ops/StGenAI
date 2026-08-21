@@ -1,0 +1,73 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Main differences between CAN-FD and CAN 2.0.",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Main differences between CAN-FD and CAN 2.0.",
+  "page": 6,
+  "section": "2.2 CAN-FD format",
+  "section_title": "CAN-FD format",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=6",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+  "text_helper": "Table 3. Main differences between CAN-FD and CAN 2.0. — section 2.2 CAN-FD format. Features, CAN 2.0, CAN-FD.",
+  "table_content": {
+    "headers": [
+      "Features",
+      "CAN 2.0",
+      "CAN-FD"
+    ],
+    "rows": [
+      [
+        "Compatibility",
+        "Does not support CAN-FD",
+        "Supports CAN 2.0 A/B"
+      ],
+      [
+        "Maximum bit rate (Mbit/s)",
+        "Frame bitrate: up to 1",
+        "Arbitration bitrate: up to 1s Data bitrate: up to 8"
+      ],
+      [
+        "DLC field (4 bits) code",
+        "Coded in 0 to 8",
+        "Coded in 0 to 64"
+      ],
+      [
+        "Maximum data bytes in one message",
+        "8 bytes of data",
+        "64 bytes of data"
+      ],
+      [
+        "BRS support",
+        "No",
+        "Yes"
+      ],
+      [
+        "EDL support",
+        "No",
+        "Yes"
+      ],
+      [
+        "ESI support",
+        "No",
+        "Yes"
+      ],
+      [
+        "CRC bits check codes",
+        "Bits not included in CRC calculation",
+        "Bits included in CRC calculation"
+      ],
+      [
+        "Remote frame support",
+        "Yes",
+        "No"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

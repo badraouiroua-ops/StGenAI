@@ -1,0 +1,22 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "USB2.0",
+      "row_index": 0,
+      "analyse_visuelle": "Le texte du courant maximal '500 mA' a été extrait inversé sous la forme 'Am 005'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Am 005",
+          "nouvelle_valeur": "500 mA",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

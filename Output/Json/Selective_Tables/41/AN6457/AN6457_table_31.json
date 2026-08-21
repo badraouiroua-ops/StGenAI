@@ -1,0 +1,31 @@
+{
+  "table_id": "table_31",
+  "document": "Table 31. LPDMA programming for XSPI",
+  "rev": null,
+  "table_number": "31",
+  "title": "Table 31. LPDMA programming for XSPI",
+  "page": 20,
+  "section": "3.7.1 Extended-SPI interface (XSPI)",
+  "section_title": "Extended-SPI interface (XSPI)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=20",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 31. LPDMA programming for XSPI — section 3.7.1 Extended-SPI interface (XSPI). LPDMA data width for source and destination, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA data width for source and destination",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "8-bit, 16-bit or 32-bit",
+        "Depends on XSPI settings."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

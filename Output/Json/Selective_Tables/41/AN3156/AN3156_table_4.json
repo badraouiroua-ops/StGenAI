@@ -1,0 +1,83 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. DFU bootloader commands",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. DFU bootloader commands",
+  "page": 9,
+  "section": "3 DFU bootloader commands",
+  "section_title": "DFU bootloader commands",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN3156.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN3156.pdf",
+  "text_helper": "Table 4. DFU bootloader commands — section 3 DFU bootloader commands. DFU request, Bootloader command, Write protection disabled / Protection disabled, Write protection enabled / Protection disabled, Protection enabled.",
+  "table_content": {
+    "headers": [
+      "DFU request",
+      "Bootloader command",
+      "Write protection disabled / Protection disabled",
+      "Write protection enabled / Protection disabled",
+      "Protection enabled"
+    ],
+    "rows": [
+      [
+        "DFU_UPLOAD",
+        "Read Memory",
+        "Allowed",
+        "Allowed",
+        "Not allowed"
+      ],
+      [
+        "DFU_UPLOAD",
+        "Get",
+        "Allowed",
+        "Allowed",
+        "Allowed"
+      ],
+      [
+        "DFU_DNLOAD",
+        "Write Memory",
+        "Allowed",
+        "Allowed(1)",
+        "Not allowed"
+      ],
+      [
+        "DFU_DNLOAD",
+        "Erase",
+        "Allowed",
+        "Allowed(1)",
+        "Not allowed"
+      ],
+      [
+        "DFU_DNLOAD",
+        "Read Unprotect",
+        "N/A(2)",
+        "N/A(2)",
+        "Allowed(3)"
+      ],
+      [
+        "DFU_DNLOAD",
+        "Set Address Pointer",
+        "Allowed",
+        "Allowed",
+        "Allowed"
+      ],
+      [
+        "DFU_DNLOAD",
+        "Leave DFU mode",
+        "Allowed",
+        "Allowed",
+        "Allowed"
+      ]
+    ],
+    "notes": [
+      "1. This operation is allowed but not effective: the bootloader does not return an error but the operation is not executed since the sectors are write-protected. This applies only to the flash memory. It does not apply to",
+      "2. Not applicable (this operation is allowed, but has no meaning as the memory is not protected).",
+      "3. In this case, both the flash memory (from 0x0800 0000) and the RAM are erased. The option byte area is reset to the default values."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

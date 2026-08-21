@@ -1,0 +1,81 @@
+{
+  "table_id": "table_60",
+  "document": "DS14721 Rev 2 - Table 60. IWDG min/max timeout period at 32 kHz LSI clock",
+  "rev": "Rev 2",
+  "table_number": "60",
+  "title": "Table 60. IWDG min/max timeout period at 32 kHz LSI clock",
+  "page": 76,
+  "section": "5.3.18 Timer characteristics",
+  "section_title": "Timer characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=76",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "text_helper": "Table 60. IWDG min/max timeout period at 32 kHz LSI clock — section 5.3.18 Timer characteristics. Prescaler divider, PR[2:0] bits, Min timeout(1) RL[11:0]= 0x000, Max timeout(1) RL[11:0] = 0xFFF, Unit.",
+  "table_content": {
+    "headers": [
+      "Prescaler divider",
+      "PR[2:0] bits",
+      "Min timeout(1) RL[11:0]= 0x000",
+      "Max timeout(1) RL[11:0] = 0xFFF",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "/4",
+        "0",
+        "0.125",
+        "512",
+        "ms"
+      ],
+      [
+        "/8",
+        "1",
+        "0.250",
+        "1024",
+        "ms"
+      ],
+      [
+        "/16",
+        "2",
+        "0.500",
+        "2048",
+        "ms"
+      ],
+      [
+        "/32",
+        "3",
+        "1.0",
+        "4096",
+        "ms"
+      ],
+      [
+        "/64",
+        "4",
+        "2.0",
+        "8192",
+        "ms"
+      ],
+      [
+        "/128",
+        "5",
+        "4.0",
+        "16384",
+        "ms"
+      ],
+      [
+        "/256",
+        "6 or 7",
+        "8.0",
+        "32768",
+        "ms"
+      ]
+    ],
+    "notes": [
+      "1. Specified by design. Not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

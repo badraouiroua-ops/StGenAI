@@ -1,0 +1,31 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Applicable products",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Applicable products",
+  "page": 1,
+  "section": "Introduction",
+  "section_title": "Introduction",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4286.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4286.pdf",
+  "text_helper": "Table 1. Applicable products — section Introduction. Product family, Product series or line.",
+  "table_content": {
+    "headers": [
+      "Product family",
+      "Product series or line"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "STM32C0 series STM32C5 series STM32F4 series STM32F7 series STM32G0 series STM32G4 series STM32H5 series STM32H7 series STM32L0 series STM32L4 series STM32L5 series STM32U0 series STM32U3 series STM32U5 series STM32WB series STM32WBA series STM32WL5x/Ex line"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

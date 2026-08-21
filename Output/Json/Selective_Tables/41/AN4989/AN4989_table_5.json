@@ -1,0 +1,43 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. STM32 USART vs. PC terminal WordLength example",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. STM32 USART vs. PC terminal WordLength example",
+  "page": 71,
+  "section": "7.2 Printf via UART",
+  "section_title": "Printf via UART",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=71",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "text_helper": "Table 5. STM32 USART vs. PC terminal WordLength example — section 7.2 Printf via UART. STM32 UART, PC Terminal.",
+  "table_content": {
+    "headers": [
+      "STM32 UART",
+      "PC Terminal"
+    ],
+    "rows": [
+      [
+        "Word Length: 8, Parity: Odd",
+        "Data: 7, Parity: Odd"
+      ],
+      [
+        "Word Length: 8, Parity: None",
+        "Data: 8, Parity: None"
+      ],
+      [
+        "Word Length: 9, Parity: Odd",
+        "Data 8, Parity: Odd"
+      ],
+      [
+        "Word Length: 7, Parity: Odd/None",
+        "Not Working with VCP"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "table_id": "table_4",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Plusieurs lignes du tableau n'ont pas été extraites par pdfplumber et ont été ajoutées.",
+    "Ligne 5 : cases fusionnées verticalement laissées vides conformément aux consignes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 1,
+      "contenu": [
+        "XSPI I/O manager arbiter",
+        "XSPI I/O manager arbiter",
+        "Available",
+        "Available",
+        "N/A"
+      ]
+    },
+    {
+      "row_index": 2,
+      "contenu": [
+        "Multiplexed mode",
+        "Multiplexed mode",
+        "Available",
+        "Available",
+        "N/A"
+      ]
+    },
+    {
+      "row_index": 3,
+      "contenu": [
+        "Dedicated MCE support",
+        "Dedicated MCE support",
+        "Available",
+        "Available",
+        "N/A"
+      ]
+    },
+    {
+      "row_index": 4,
+      "contenu": [
+        "Memory-mapped mode",
+        "Dedicated bus access",
+        "AXI",
+        "AXI",
+        "AHB"
+      ]
+    },
+    {
+      "row_index": 5,
+      "contenu": [
+        "Indirect mode",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

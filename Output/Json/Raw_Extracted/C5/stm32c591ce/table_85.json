@@ -1,0 +1,48 @@
+{
+  "table_id": "table_85",
+  "caption": "Table 85. Document revision history.",
+  "pdf_name": "stm32c591ce",
+  "family": "C5",
+  "page": 135,
+  "merged_pages": [
+    135
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=135",
+  "section": "7 Ordering information",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "27-Feb-2026",
+      "1",
+      "Initial release."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c591ce",
+    "table_id": "table_85",
+    "is_continued": false,
+    "pages": [
+      135
+    ],
+    "rows_count": 1,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

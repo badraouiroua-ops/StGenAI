@@ -1,0 +1,259 @@
+{
+  "table_id": "table_62",
+  "document": "DS15136 Rev 1 - Table 62. COMP characteristics.",
+  "rev": "Rev 1",
+  "table_number": "62",
+  "title": "Table 62. COMP characteristics.",
+  "page": 100,
+  "section": "5.3.22 Comparator characteristics",
+  "section_title": "Comparator characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=100",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "text_helper": "Table 62. COMP characteristics. — section 5.3.22 Comparator characteristics. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "VDDA",
+        "Analog supply voltage",
+        "-",
+        "-",
+        "2.70",
+        "-",
+        "3.60",
+        "V"
+      ],
+      [
+        "VIN",
+        "Comparator input voltage range",
+        "-",
+        "-",
+        "0",
+        "-",
+        "VDDA",
+        "V"
+      ],
+      [
+        "VBG",
+        "Scaler input voltage",
+        "-",
+        "-",
+        "(1)",
+        "(1)",
+        "(1)",
+        "V"
+      ],
+      [
+        "VSC",
+        "Scaler offset voltage",
+        "-",
+        "-",
+        "-",
+        "±5",
+        "±10",
+        "mV"
+      ],
+      [
+        "IDDA(SCALER)",
+        "Scaler static consumption from VDDA",
+        "BRG_EN=0 (bridge disable)",
+        "BRG_EN=0 (bridge disable)",
+        "-",
+        "0.2",
+        "0.3",
+        "µA"
+      ],
+      [
+        "IDDA(SCALER)",
+        "Scaler static consumption from VDDA",
+        "BRG_EN=1 (bridge enable)",
+        "BRG_EN=1 (bridge enable)",
+        "-",
+        "0.82",
+        "1",
+        "µA"
+      ],
+      [
+        "tSTART_SCALER",
+        "Scaler startup time",
+        "-",
+        "-",
+        "-",
+        "140",
+        "250",
+        "µs"
+      ],
+      [
+        "tSTART",
+        "Comparator startup time to reach propagation delay specification",
+        "High-speed mode",
+        "High-speed mode",
+        "-",
+        "2",
+        "5",
+        "µs"
+      ],
+      [
+        "tSTART",
+        "Comparator startup time to reach propagation delay specification",
+        "Medium mode",
+        "Medium mode",
+        "-",
+        "5",
+        "20",
+        "µs"
+      ],
+      [
+        "tD(2)",
+        "Propagation delay for 200 mV step with 100 mV overdrive",
+        "High-speed mode",
+        "High-speed mode",
+        "-",
+        "50",
+        "80",
+        "ns"
+      ],
+      [
+        "tD(2)",
+        "Propagation delay for 200 mV step with 100 mV overdrive",
+        "Medium mode",
+        "Medium mode",
+        "-",
+        "0.5",
+        "0.9",
+        "µs"
+      ],
+      [
+        "tD(2)",
+        "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+        "High-speed mode",
+        "High-speed mode",
+        "-",
+        "50",
+        "120",
+        "ns"
+      ],
+      [
+        "tD(2)",
+        "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+        "Medium mode",
+        "Medium mode",
+        "-",
+        "0.5",
+        "1.2",
+        "µs"
+      ],
+      [
+        "Voffset",
+        "Comparator offset error",
+        "Full common mode range",
+        "Full common mode range",
+        "-",
+        "-",
+        "±20",
+        "mV"
+      ],
+      [
+        "Vhys",
+        "Comparator hysteresis",
+        "No hysteresis",
+        "No hysteresis",
+        "-",
+        "0",
+        "-",
+        "mV"
+      ],
+      [
+        "Vhys",
+        "Comparator hysteresis",
+        "Low hysteresis",
+        "Low hysteresis",
+        "-",
+        "10",
+        "-",
+        "mV"
+      ],
+      [
+        "Vhys",
+        "Comparator hysteresis",
+        "Medium hysteresis",
+        "Medium hysteresis",
+        "-",
+        "20",
+        "-",
+        "mV"
+      ],
+      [
+        "Vhys",
+        "Comparator hysteresis",
+        "High hysteresis",
+        "High hysteresis",
+        "-",
+        "30",
+        "-",
+        "mV"
+      ],
+      [
+        "IDDA(COMP)",
+        "Comparator consumption from VDDA",
+        "Medium mode",
+        "Static",
+        "-",
+        "5",
+        "9",
+        "µA"
+      ],
+      [
+        "IDDA(COMP)",
+        "Comparator consumption from VDDA",
+        "Medium mode",
+        "With 50 kHz ±100 mV overdrive square signal",
+        "-",
+        "6",
+        "-",
+        "µA"
+      ],
+      [
+        "IDDA(COMP)",
+        "Comparator consumption from VDDA",
+        "High-speed mode",
+        "Static",
+        "-",
+        "70",
+        "110",
+        "µA"
+      ],
+      [
+        "IDDA(COMP)",
+        "Comparator consumption from VDDA",
+        "High-speed mode",
+        "With 50 kHz ±100 mV overdrive square signal",
+        "-",
+        "75",
+        "-",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Difference between two consecutive codes minus 1 LSB.",
+      "2. Difference between the value measured at Code i and the value measured at Code i on a line drawn between Code 0 and last Code 4095."
+    ],
+    "legend": [
+      "The input capacitance is negligible compared to the I/O capacitance.",
+      "Specified by design - not tested in production, unless otherwise stated."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

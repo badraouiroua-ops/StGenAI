@@ -1,0 +1,72 @@
+{
+  "pdf_name": "AN4803",
+  "family": "41",
+  "tables_checked": 3,
+  "cells_checked": 7,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Double data rate. Define an interface where data are sampled on both clock edges.",
+      "reversed": false,
+      "drift": -31.56,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "io8p00(1)_ar3wsudq_ft_pd(3)_lv(2) \"SPEED00 1P8V, PD=40kOhm\"",
+      "reversed": false,
+      "drift": 21.43,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "1.7 V to 2.7 V(2)",
+      "reversed": false,
+      "drift": 2.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Low speed(1)",
+      "reversed": false,
+      "drift": -4.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Pull down 40 K(3)",
+      "reversed": false,
+      "drift": 1.93,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "1-Avr-2016",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

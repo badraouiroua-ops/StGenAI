@@ -1,0 +1,640 @@
+[
+  {
+    "features": {
+      "pdf_name": "AN5342",
+      "family": "41",
+      "pdf_type": 2,
+      "doc_ref": null,
+      "revision": null,
+      "date": null,
+      "title": "protection on STM32 MCUs Introduction This application note describes the error correction code (ECC) management and implementation on STM32 microcontrollers.",
+      "url_pdf": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+      "page": 1,
+      "core": null,
+      "fpu": false,
+      "max_frequency_mhz": null,
+      "flash_kb": null,
+      "ram_kb": 256,
+      "voltage_min_v": null,
+      "voltage_max_v": null,
+      "operating_temp_c": [],
+      "packages": [],
+      "device_summary": null,
+      "extraction_meta": {
+        "source_pages": [
+          1,
+          2,
+          3
+        ],
+        "extraction_method": "regex_type2",
+        "text_extraction_reliable": true,
+        "packages_source": "text",
+        "confidence": "medium",
+        "missing_fields": [
+          "core",
+          "max_frequency_mhz",
+          "flash_kb",
+          "voltage_min_v",
+          "voltage_max_v",
+          "operating_temp_c"
+        ],
+        "low_confidence_fields": []
+      }
+    }
+  },
+  {
+    "table_id": "table_1",
+    "caption": "Table 1. Applicable products",
+    "pdf_name": "AN5342",
+    "family": "41",
+    "page": 1,
+    "merged_pages": [
+      1
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=1",
+    "section": "General purpose / Overview",
+    "headers": [
+      "Type",
+      "Products"
+    ],
+    "rows": [
+      [
+        "Microcontroller",
+        "STM32H5 series, STM32H7 series, STM32U3 series, STM32U5 series, STM32C5 series"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5342",
+      "table_id": "table_1",
+      "is_continued": false,
+      "pages": [
+        1
+      ],
+      "rows_count": 1,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_2",
+    "caption": "Table 2. Acronyms and terms",
+    "pdf_name": "AN5342",
+    "family": "41",
+    "page": 2,
+    "merged_pages": [
+      2
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=2",
+    "section": "1 General information",
+    "headers": [
+      "Acronym",
+      "Definition"
+    ],
+    "rows": [
+      [
+        "ECC",
+        "Error correction code"
+      ],
+      [
+        "CPU",
+        "Central processing unit (part of the MCU)"
+      ],
+      [
+        "CRC",
+        "Cyclic redundancy check"
+      ],
+      [
+        "DED",
+        "Double-error detection"
+      ],
+      [
+        "DTCM",
+        "Data-tightly coupled memory"
+      ],
+      [
+        "FAR",
+        "Falling address register"
+      ],
+      [
+        "ISR",
+        "Interrupt service routine"
+      ],
+      [
+        "ITCM",
+        "Instruction tightly coupled memory"
+      ],
+      [
+        "MCU",
+        "Microcontroller unit"
+      ],
+      [
+        "MDMA",
+        "Master direct-memory access"
+      ],
+      [
+        "POR",
+        "Power-on reset"
+      ],
+      [
+        "RAM",
+        "Random access memory"
+      ],
+      [
+        "SEC",
+        "Single-error correction"
+      ],
+      [
+        "SRAM",
+        "Static RAM"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5342",
+      "table_id": "table_2",
+      "is_continued": false,
+      "pages": [
+        2
+      ],
+      "rows_count": 14,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_3",
+    "caption": "Table 3. Number of extra check bits used for SEC-DED",
+    "pdf_name": "AN5342",
+    "family": "41",
+    "page": 3,
+    "merged_pages": [
+      3
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=3",
+    "section": "2 ECC overview",
+    "headers": [
+      "Data word width",
+      "Number of redundancy bits"
+    ],
+    "rows": [
+      [
+        "16",
+        "6"
+      ],
+      [
+        "32",
+        "7"
+      ],
+      [
+        "64",
+        "8"
+      ],
+      [
+        "128",
+        "9"
+      ],
+      [
+        "256",
+        "10"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5342",
+      "table_id": "table_3",
+      "is_continued": false,
+      "pages": [
+        3
+      ],
+      "rows_count": 5,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_4",
+    "caption": "Table 4. SRAM ECC coverage in selected STM32 devices",
+    "pdf_name": "AN5342",
+    "family": "41",
+    "page": 4,
+    "merged_pages": [
+      4
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=4",
+    "section": "2.2 RAM ECC",
+    "headers": [
+      "-",
+      "H72x/H73x",
+      "H74x/H75x",
+      "H7Ax/H7Bx",
+      "H5",
+      "U5",
+      "H7Rx/H7Sx",
+      "C5"
+    ],
+    "rows": [
+      [
+        "AXI",
+        "64b",
+        "64b",
+        "X",
+        "-",
+        "-",
+        "64b (1)",
+        "-"
+      ],
+      [
+        "ITCM",
+        "64b",
+        "64b",
+        "64b",
+        "-",
+        "-",
+        "64b",
+        "-"
+      ],
+      [
+        "DTCM",
+        "32b",
+        "32b",
+        "32b",
+        "-",
+        "-",
+        "32b",
+        "-"
+      ],
+      [
+        "SRAM1",
+        "32b",
+        "32b",
+        "X",
+        "X",
+        "X",
+        "32b",
+        "X"
+      ],
+      [
+        "SRAM2",
+        "32b",
+        "32b",
+        "X",
+        "32b",
+        "32b",
+        "X",
+        "32b"
+      ],
+      [
+        "SRAM3",
+        "-",
+        "32b",
+        "-",
+        "32b(2)",
+        "32b(3)",
+        "32b",
+        "-"
+      ],
+      [
+        "SRAM4",
+        "32b",
+        "32b",
+        "-",
+        "-",
+        "X",
+        "X(4)",
+        "-"
+      ],
+      [
+        "Backup RAM",
+        "32b",
+        "32b",
+        "X",
+        "32b",
+        "32b",
+        "32b",
+        "-"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 8,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 8,
+      "_notes": [
+        "1. AXI bus is 64b, but the same memory can also be accessed by AHB.",
+        "2. Only the first 256 KB of SRAM3; the last block of memory is used to manage the ECC.",
+        "3. Not the whole SRAM3, refer to document [6].",
+        "4. Used to provide ECC memory for SRAM1 and SRAM3. On most of the STM32H7 series microcontrollers, the RAM ECC cannot be turned off (except STM32H7Rx/"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5342",
+      "table_id": "table_4",
+      "is_continued": false,
+      "pages": [
+        4
+      ],
+      "rows_count": 8,
+      "cols_count": 8,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_5",
+    "caption": "Table 5. Nonvolatile memory ECC coverage in STM32 devices",
+    "pdf_name": "AN5342",
+    "family": "41",
+    "page": 6,
+    "merged_pages": [
+      6
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=6",
+    "section": "2.3 Nonvolatile memory ECC",
+    "headers": [
+      "Memory",
+      "H72x/ H73x",
+      "Other H74x/ H75x",
+      "H7Ax/ H7Bx",
+      "G0",
+      "G4/L4/L5/ WB/WL/U3",
+      "H503",
+      "H563/573 C5",
+      "L0/ L1(1)",
+      "U5",
+      "U0"
+    ],
+    "rows": [
+      [
+        "Bank1",
+        "256b",
+        "256b",
+        "128b",
+        "64b",
+        "64b(2)",
+        "128b",
+        "128b",
+        "16b",
+        "128b",
+        "64b"
+      ],
+      [
+        "Bank2",
+        "-",
+        "256b",
+        "128b",
+        "64b(3)",
+        "64b(4)",
+        "-",
+        "128b",
+        "16b(4)",
+        "128b",
+        "-"
+      ],
+      [
+        "Special region",
+        "-",
+        "-",
+        "16b",
+        "-",
+        "-",
+        "-",
+        "16b(5)",
+        "-",
+        "-",
+        "-"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 11,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 11,
+      "_notes": [
+        "1. ECC in STM32L0 has no user interface, so it is not described in detail in this table.",
+        "2. If DBANK = 0, the access width is 128 bits, but ECC remains 2 × 8 bytes.",
+        "3. Only G0Bx/G0Cx.",
+        "4. Only on dual bank devices.",
+        "5. Area of 16 bits words is configurable. The ECC functionality is integrated into the nonvolatile memory controller and cannot be disabled. If the"
+      ],
+      "_legend": [
+        "memory protected by the bits required to achieve error detection and correction on the nonvolatile memory word.",
+        "Write access to any smaller unit of memory is only possible on read-modify-write basis, this action results in",
+        "higher stress to the memory hardware. The STM32H5 series, STM32C5 series, STM32U5 series, and",
+        "STM32H7Ax/Bx line also feature added robustness on the small 0.5-2 Kbyte OTP area, where every 16 bits are",
+        "protected with 6 bits of ECC redundancy. There is no OTP memory area on STM32H72x/3x/4x/5x lines."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5342",
+      "table_id": "table_5",
+      "is_continued": false,
+      "pages": [
+        6
+      ],
+      "rows_count": 3,
+      "cols_count": 11,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_6",
+    "caption": "Table 6. Methods for ECC testing in nonvolatile memory",
+    "pdf_name": "AN5342",
+    "family": "41",
+    "page": 8,
+    "merged_pages": [
+      8
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=8",
+    "section": "3.2 ECC testing in nonvolatile memory",
+    "headers": [
+      "Method",
+      "Advantages",
+      "Disadvantages",
+      "Applicable products"
+    ],
+    "rows": [
+      [
+        "Dedicated flash word with errors planted from factory",
+        "• Simple to use, only requires read from the dedicated address to get the ECC interrupt • Simple section of SEC or DED outcome",
+        "• Address decoding test is not possible • Feature is only available in selected series",
+        "STM32U5 series"
+      ],
+      [
+        "Data programmed to a location that was not erased before",
+        "• Can be applied anywhere in nonvolatile memory • Known patterns to select SEC or DED outcome",
+        "• Feature is only available in selected series",
+        "STM32C5 series STM32H5 series STM32H7 series"
+      ],
+      [
+        "Disturbing the flash erase or program cycle with a reset",
+        "• Universally applicable • Can be applied anywhere in memory",
+        "• Tuning is required to provide the correctly timed reset • Achieving SEC is difficult",
+        "All STM32 series"
+      ],
+      [
+        "Memory reconfiguration",
+        "Aimed at testing data area ECC protection",
+        "• Limited to the last few sectors of nonvolatile memory • Not usable once the option bytes are closed • Achieving SEC is difficult",
+        "STM32H5 STM32C5"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 4
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5342",
+      "table_id": "table_6",
+      "is_continued": false,
+      "pages": [
+        8
+      ],
+      "rows_count": 4,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_7",
+    "caption": "Table 7. Document revision history",
+    "pdf_name": "AN5342",
+    "family": "41",
+    "page": 16,
+    "merged_pages": [
+      16
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=16",
+    "section": "5 Conclusion",
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "27-May-2019",
+        "1",
+        "Initial release."
+      ],
+      [
+        "6-Jan-2020",
+        "2",
+        "Updated: • Section Introduction • Section 2.2 RAM ECC • Section 2.3 Flash memory ECC"
+      ],
+      [
+        "31-Mar-2022",
+        "3",
+        "Updated: • Section Introduction • Section 2 ECC overview • Section 2.2 RAM ECC • Section 2.3 Flash memory ECC • Added Section 3.1.3 Interpreting FAR (failing address register)"
+      ],
+      [
+        "21-Feb-2023",
+        "4",
+        "Updated document to cover STM32H5, STM32H7, and STM32U5 series microcontrollers. • Section Introduction • Section General Information • Section 2 ECC overview • Section 2.1 ECC implications • Section 2.2 RAM ECC • Section 2.3 Flash memory ECC • Section 2.4 Cache memory ECC • Section 3.1.2 ECC ISR • Section 3.2.1 Flash memory ECC ISR Added: • Section 2.5 ECC testing"
+      ],
+      [
+        "10-Jul-2023",
+        "5",
+        "Updated: • Section 2: ECC overview • Section 2.2: RAM ECC • Section 4.1.3: Interpreting FAR (failing address register)"
+      ],
+      [
+        "7-Feb-2024",
+        "6",
+        "Updated: • H7Rx/H7Sx added to Table 4. SRAM ECC coverage in selected STM32 devices • H7Rx/H7Sx description added to Section 2.2: RAM ECC • U0 added to Table 5. Nonvolatile memory ECC coverage in STM32 devices"
+      ],
+      [
+        "11-Jun-2025",
+        "7",
+        "Updated: • Product information to include the STM32U3 series • Section Introduction • Section 2.2: RAM ECC • Section 2.3: Nonvolatile memory ECC"
+      ],
+      [
+        "24-Feb-2026",
+        "8",
+        "Updated: • Section 2: ECC overview • Section 3: ECC testing Added: • STM32C5 series • Section 3.1: ECC testing in SRAM • Section 3.2: ECC testing in nonvolatile memory • Section 3.3: ECC testing in flash memory • Appendix A: ECC sequences"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN5342",
+      "table_id": "table_7",
+      "is_continued": false,
+      "pages": [
+        16
+      ],
+      "rows_count": 8,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "table_id": "table_31",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Cases vides/fusionnées nettoyées dans la colonne Conditions pour les lignes 7 et 8"
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,29 @@
+{
+  "table_id": "table_10",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Lignes manquantes insérées à partir de l'image de Table 10."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "cpuburn",
+        "-",
+        "",
+        "R = 3 Mbyte/s, W = 0 Mbyte/s, R&W = 4 Mbyte/s"
+      ]
+    },
+    {
+      "row_index": 1,
+      "contenu": [
+        "dd",
+        "Idle (weston launcher, netdata) + dual eth + USB hard drive + dd on hard drive (ETH cables unplugged)",
+        "100%",
+        "R = 129 Mbyte/s, W = 40 Mbyte/s, R&W = 169 Mbyte/s"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

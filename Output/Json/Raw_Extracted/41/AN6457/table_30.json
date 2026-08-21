@@ -1,0 +1,52 @@
+{
+  "table_id": "table_30",
+  "caption": "Table 30. XSPI peripheral information",
+  "pdf_name": "AN6457",
+  "family": "41",
+  "page": 20,
+  "merged_pages": [
+    20
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=20",
+  "section": "3.7.1 Extended-SPI interface (XSPI)",
+  "headers": [
+    "Peripheral request to LPDMA",
+    "Peripheral bus",
+    "Peripheral FIFO (unit, size)",
+    "Peripheral register access",
+    "Comments"
+  ],
+  "rows": [
+    [
+      "xspi1_rx_dma",
+      "AHB_XSPI (dedicated target of bus matrix)",
+      "32-byte FIFO",
+      "Read/Write 8-bit, 16-bit or 32-bit XSPI_DR",
+      "It is recommended to access XSPI_DR with a 32-bit data width when it is allowed by the application to use efficiently the system bus bandwidth. FTHRES[4:0] is the XSPI_CR register must be set accordingly. Must be a 32-bit aligned address access."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6457",
+    "table_id": "table_30",
+    "is_continued": false,
+    "pages": [
+      20
+    ],
+    "rows_count": 1,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

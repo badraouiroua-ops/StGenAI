@@ -1,0 +1,10 @@
+{
+  "table_id": "table_9",
+  "status": "OK",
+  "logs": [
+    "Cases vides et fusions verticales/horizontales conservées sans modification pour traitement manuel conformément aux consignes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

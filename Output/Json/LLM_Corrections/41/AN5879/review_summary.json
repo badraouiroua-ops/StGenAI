@@ -1,0 +1,11 @@
+[
+  {
+    "table_file": "AN5879_table_11.json",
+    "table_id": "table_11",
+    "status": "MANUAL_REVIEW_NEEDED",
+    "logs": [
+      "La première colonne contenant le code source C n'a pas été extraite (cellules vides).",
+      "La première ligne du tableau a été faussement placée dans les en-têtes (headers)."
+    ]
+  }
+]

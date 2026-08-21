@@ -1,0 +1,37 @@
+{
+  "table_id": "table_20",
+  "document": "Table 20. TIM6/7 peripheral information",
+  "rev": null,
+  "table_number": "20",
+  "title": "Table 20. TIM6/7 peripheral information",
+  "page": 15,
+  "section": "3.5.1 Low-power timers (LPTIM)",
+  "section_title": "Low-power timers (LPTIM)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=15",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 20. TIM6/7 peripheral information — section 3.5.1 Low-power timers (LPTIM). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+  "table_content": {
+    "headers": [
+      "Peripheral request to LPDMA",
+      "Peripheral bus",
+      "Peripheral FIFO (unit, size)",
+      "Peripheral register access",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "timx_upd_dma/ timx_up_dma (x = 6, 7)",
+        "APB1",
+        "None",
+        "Write 32-bit TIMx_ARR",
+        "Request on an update event (on a counter overflow)"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

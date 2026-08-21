@@ -1,0 +1,33 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Firmware available examples",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Firmware available examples",
+  "page": 20,
+  "section": "8.11.1 Frame format",
+  "section_title": "Frame format",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=20",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 9. Firmware available examples — section 8.11.1 Frame format. Firmware package, Example name, Board.",
+  "table_content": {
+    "headers": [
+      "Firmware package",
+      "Example name",
+      "Board"
+    ],
+    "rows": [
+      [
+        "STM32CubeH5",
+        "I3C_controller_ENTDA_IT I3C_Target_ENTDAA_IT I3C_Controller_Private_Command_IT I3C_Target_Private_Command_IT I3C_Controller_InBandInterrupt_IT I3C_Target_InBandInterrupt_IT I3C_Target_WakeUpFromStop I3C_Controller_I2C_Com I3C_Target_I2C_Com I3C_Controller_Switch_To_Target I3C_Target_Switch_To_Controller I3C_Controller_HotJoin_IT I3C_Target_HotJoin_IT",
+        "NUCLEO-H503RB"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

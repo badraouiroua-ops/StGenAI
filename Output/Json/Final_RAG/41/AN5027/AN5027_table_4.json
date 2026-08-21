@@ -1,0 +1,87 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. ST digital microphones",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. ST digital microphones",
+  "page": 15,
+  "section": "1.7 Available ST digital microphones",
+  "section_title": "Available ST digital microphones",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=15",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 4. ST digital microphones — section 1.7 Available ST digital microphones. Part number, Top/bottom port, Supply voltage (V), SNR (dB), Sensitivity (dBFS), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Part number",
+      "Top/bottom port",
+      "Supply voltage (V)",
+      "SNR (dB)",
+      "Sensitivity (dBFS)",
+      "AOP (dBSPL)"
+    ],
+    "rows": [
+      [
+        "MP34DB02",
+        "Bottom",
+        "1.64 to 3.6",
+        "62.6",
+        "-26",
+        "120"
+      ],
+      [
+        "MP34DT01-M",
+        "Top",
+        "1.64 to 3.6",
+        "61",
+        "-26",
+        "120"
+      ],
+      [
+        "MP34DT02",
+        "Top",
+        "1.64 to 3.6",
+        "60",
+        "-26",
+        "120"
+      ],
+      [
+        "MP34DT04",
+        "Top",
+        "1.6 to 3.6",
+        "64",
+        "-26",
+        "120"
+      ],
+      [
+        "MP34DT04-C1",
+        "Top",
+        "1.6 to 3.6",
+        "64",
+        "-26",
+        "120"
+      ],
+      [
+        "MP34DT05",
+        "Top",
+        "1.6 to 3.6",
+        "64",
+        "-26",
+        "122.5"
+      ],
+      [
+        "MP45DT02-M",
+        "Top",
+        "1.64 to 3.6",
+        "61",
+        "-26",
+        "120"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

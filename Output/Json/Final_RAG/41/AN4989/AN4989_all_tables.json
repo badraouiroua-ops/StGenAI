@@ -1,0 +1,494 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Applicable products",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "Introduction",
+    "section_title": "Introduction",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=1",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+    "text_helper": "Table 1. Applicable products — section Introduction. Type, Sub class.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Sub class"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "STM32 High Performance MCUs\nSTM32 Mainstream MCUs\nSTM32 Ultra Low Power MCUs"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. ST-LINK software pack",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. ST-LINK software pack",
+    "page": 19,
+    "section": "2.1.2 ST-LINK probe",
+    "section_title": "ST-LINK probe",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=19",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+    "text_helper": "Table 2. ST-LINK software pack — section 2.1.2 ST-LINK probe. Part Number, Description.",
+    "table_content": {
+      "headers": [
+        "Part Number",
+        "Description"
+      ],
+      "rows": [
+        [
+          "STSW-LINK007",
+          "ST-LINK, ST-LINK/V2, ST-LINK/V2-1, STLINK-V3 boards firmware upgrade"
+        ],
+        [
+          "STSW-LINK009",
+          "ST-LINK, ST-LINK/V2, ST-LINK/V2-1 USB driver signed for Windows® 7, Windows® 8, Windows® 10"
+        ],
+        [
+          "STLINK-V3-BRIDGE",
+          "Software API compatible with the bridge interface of STLINK-V3"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. STMicroelectronics documentation guide",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. STMicroelectronics documentation guide",
+    "page": 30,
+    "section": "2.4.1 Documentation",
+    "section_title": "Documentation",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=30",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+    "text_helper": "Table 3. STMicroelectronics documentation guide — section 2.4.1 Documentation. Acronym, Name, Content.",
+    "table_content": {
+      "headers": [
+        "Acronym",
+        "Name",
+        "Content"
+      ],
+      "rows": [
+        [
+          "DB",
+          "Data Brief",
+          "Preliminary Product Specification before complete maturity"
+        ],
+        [
+          "DS",
+          "Data sheet",
+          "Product Specifications, Hardware feature and Electrical Characteristics (Pinout/Alternate function definition table, Memory Map, Electrical Characterization etc.)"
+        ],
+        [
+          "RM",
+          "Reference manual",
+          "How to use the targeted microcontroller series, memory and peripherals.(registers details, default/reset value etc.)"
+        ],
+        [
+          "AN",
+          "Application note",
+          "\"How to make\" guide helping to achieve a specific application with the targeted MCU."
+        ],
+        [
+          "UM",
+          "User manual",
+          "\"How To Use\" guide for a specific software of hardware product (board, software tools etc.)"
+        ],
+        [
+          "TN",
+          "Technical note",
+          "Very brief document addressing single technical aspect. Can be seen as a complement of AN or UM documents"
+        ],
+        [
+          "ES",
+          "Errata sheet",
+          "Contained known issues and device limitation."
+        ],
+        [
+          "PM",
+          "Programmer manual",
+          "Target software developer with a full description of the STM32 Cortex®-M processor programming model, instruction set and core peripherals"
+        ],
+        [
+          "RN",
+          "Release note",
+          "It describes new features, known limitations and corrections on a specific software release for an evaluation board, a reference design, a software or programming or debugging tool."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. STM32 Series RDP protection extension",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. STM32 Series RDP protection extension",
+    "page": 56,
+    "section": "5.3.1 RDP",
+    "section_title": "RDP",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=56",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+    "text_helper": "Table 4. STM32 Series RDP protection extension — section 5.3.1 RDP. Product, RDP protection extension.",
+    "table_content": {
+      "headers": [
+        "Product",
+        "RDP protection extension"
+      ],
+      "rows": [
+        [
+          "F0",
+          "+ backup registers"
+        ],
+        [
+          "F2",
+          "+ backup SRAM"
+        ],
+        [
+          "F3",
+          "+ backup registers"
+        ],
+        [
+          "F4",
+          "+ backup SRAM"
+        ],
+        [
+          "L0",
+          "+ EEPROM"
+        ],
+        [
+          "L1",
+          "+ EEPROM"
+        ],
+        [
+          "L4",
+          "+ backup registers + SRAM2"
+        ],
+        [
+          "L5",
+          "RDP 4 levels + backup registers + SRAM2"
+        ],
+        [
+          "F7",
+          "+ backup SRAM"
+        ],
+        [
+          "H7",
+          "+ backup SRAM"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_5",
+    "document": "Table 5. STM32 USART vs. PC terminal WordLength example",
+    "rev": null,
+    "table_number": "5",
+    "title": "Table 5. STM32 USART vs. PC terminal WordLength example",
+    "page": 71,
+    "section": "7.2 Printf via UART",
+    "section_title": "Printf via UART",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=71",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+    "text_helper": "Table 5. STM32 USART vs. PC terminal WordLength example — section 7.2 Printf via UART. STM32 UART, PC Terminal.",
+    "table_content": {
+      "headers": [
+        "STM32 UART",
+        "PC Terminal"
+      ],
+      "rows": [
+        [
+          "Word Length: 8, Parity: Odd",
+          "Data: 7, Parity: Odd"
+        ],
+        [
+          "Word Length: 8, Parity: None",
+          "Data: 8, Parity: None"
+        ],
+        [
+          "Word Length: 9, Parity: Odd",
+          "Data 8, Parity: Odd"
+        ],
+        [
+          "Word Length: 7, Parity: Odd/None",
+          "Not Working with VCP"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_6",
+    "document": "Table 6. Troubleshooting",
+    "rev": null,
+    "table_number": "6",
+    "title": "Table 6. Troubleshooting",
+    "page": 94,
+    "section": "11 Troubleshooting",
+    "section_title": "Troubleshooting",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=94",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+    "text_helper": "Table 6. Troubleshooting — section 11 Troubleshooting. Problem, Solution.",
+    "table_content": {
+      "headers": [
+        "Problem",
+        "Solution"
+      ],
+      "rows": [
+        [
+          "Connection with target lost during debug of low-power system",
+          "Ensure debug in low-power in DBGMCU register is enabled. Ensure SWD pin not set in analog state. Refer to Section 4.1: SWD/JTAG pinout and to Section 4.3: Low-power case."
+        ],
+        [
+          "Fail to get printf via SWO",
+          "Refer to Section 7.3: Printf via SWO/SWV."
+        ],
+        [
+          "An unexpected power consumption is measured for a low-power application.",
+          "Check that low-power debug in DBGMCU register is OFF. Beware that this register is reset only with a POR (power-on reset). Refer to Section 4.3."
+        ],
+        [
+          "Fail to connect to a board with Normal/System Reset",
+          "Try ConnectUnderReset / Hardware Reset connection mode. This resets SWD connection in case it has been disabled by application. Refer to Section 4.2."
+        ],
+        [
+          "Fail to connect on board using ConnectUnderReset/Hardware using ST-LINK",
+          "Ensure NRST of ST-LINK is properly connected to MCU NRST (e.g. check SB12 for Nucleo)."
+        ],
+        [
+          "Fail to see clock signal on MCO output",
+          "Ensure that the clock configured to MCO is in the supported range of the GPIO and that the OSPEED setting is correct. Refer to Section 8.2."
+        ],
+        [
+          "Impossible to evaluate a value or a variable, or impossible to set a breakpoint at a specific line in code",
+          "Compiler optimization is probably enabled. Remove it. Refer to Chapter 3: Compiling for debug."
+        ]
+      ],
+      "notes": [],
+      "legend": [
+        "debug setting and operation."
+      ],
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_7",
+    "document": "Table 7. STM32 Series vs. debug capabilties",
+    "rev": null,
+    "table_number": "7",
+    "title": "Table 7. STM32 Series vs. debug capabilties",
+    "page": 116,
+    "section": "11 Troubleshooting",
+    "section_title": "Troubleshooting",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=116",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+    "text_helper": "Table 7. STM32 Series vs. debug capabilties — section 11 Troubleshooting. STM32 Series, Cortex type, SWD, JTAG, ETM, +4 autres.",
+    "table_content": {
+      "headers": [
+        "STM32 Series",
+        "Cortex type",
+        "SWD",
+        "JTAG",
+        "ETM",
+        "SWO",
+        "Hardware breakpoints",
+        "Core Reset",
+        "MCO(1)"
+      ],
+      "rows": [
+        [
+          "L0/F0",
+          "M0/0+",
+          "Yes",
+          "No",
+          "No",
+          "No",
+          "4",
+          "No",
+          "1"
+        ],
+        [
+          "F1/L1/F2",
+          "M3",
+          "Yes",
+          "Yes",
+          "Yes(2)",
+          "Yes",
+          "6",
+          "Yes",
+          "1"
+        ],
+        [
+          "F3/F4/L4",
+          "M4",
+          "Yes",
+          "Yes",
+          "Yes(2)",
+          "Yes",
+          "6",
+          "Yes",
+          "2(2)"
+        ],
+        [
+          "F7/H7",
+          "M7",
+          "Yes",
+          "Yes",
+          "Yes(2)",
+          "Yes",
+          "8",
+          "Yes",
+          "2(2)"
+        ]
+      ],
+      "notes": [
+        "1. Microcontroller Clock Output (refer to Section 8.2: Microcontroller clock output (MCO) on page 87)",
+        "2. Depends on package size. Check availability in the Pin Allocation Table in the related datasheet. For more details, refer to the related Cortex® Arm® documentation."
+      ],
+      "legend": [
+        "L0/F0 M0/0+ Yes No No No 4 No 1",
+        "F1/L1/F2 M3 Yes Yes Yes(2) Yes 6 Yes 1",
+        "F3/F4/L4 M4 Yes Yes Yes(2) Yes 6 Yes 2(2)",
+        "F7/H7 M7 Yes Yes Yes(2) Yes 8 Yes 2(2)",
+        "For more details, refer to the related Cortex® Arm® documentation.",
+        "D.1 Application notes index"
+      ],
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_8",
+    "document": "Table 8. STM32 Series vs. debug capabilities",
+    "rev": null,
+    "table_number": "8",
+    "title": "Table 8. STM32 Series vs. debug capabilities",
+    "page": 116,
+    "section": "11 Troubleshooting",
+    "section_title": "Troubleshooting",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=116",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+    "text_helper": "Table 8. STM32 Series vs. debug capabilities — section 11 Troubleshooting. AN references, Subject.",
+    "table_content": {
+      "headers": [
+        "AN references",
+        "Subject"
+      ],
+      "rows": [
+        [
+          "AN5361",
+          "Dual core microcontrollers debugging"
+        ],
+        [
+          "AN5286",
+          "Dual core microcontrollers debugging"
+        ],
+        [
+          "AN5421",
+          "Trustzone"
+        ],
+        [
+          "AN5347",
+          "Trustzone"
+        ]
+      ],
+      "notes": [
+        "1. Microcontroller Clock Output (refer to Section 8.2: Microcontroller clock output (MCO) on page 87)",
+        "2. Depends on package size. Check availability in the Pin Allocation Table in the related datasheet. For more details, refer to the related Cortex® Arm® documentation."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_9",
+    "document": "Table 9. Document revision history",
+    "rev": null,
+    "table_number": "9",
+    "title": "Table 9. Document revision history",
+    "page": 117,
+    "section": "11 Troubleshooting",
+    "section_title": "Troubleshooting",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=117",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+    "text_helper": "Table 9. Document revision history — section 11 Troubleshooting. Date, Revision, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Revision",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "16-Jun-2017",
+          "1",
+          "Initial release."
+        ],
+        [
+          "29-Jun-2017",
+          "2",
+          "Added Table 1: Applicable products."
+        ],
+        [
+          "26-Jan-2021",
+          "3",
+          "Updated: – Section 1.2: Software versions – Section 2.1.1: Hardware kits – Figure 5: Discovery board example Added: – Section 1.1: General information – Section 2.4.2: Wiki platform – Section 2.4.3: Github – Figure 2: Development tools overview – Figure 4: STM32 Nucleo-144 structure – Figure 15: STM32Cube monitor – Figure 14: STM32Cube programmer"
+        ],
+        [
+          "05-Feb-2021",
+          "4",
+          "Updated document title."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

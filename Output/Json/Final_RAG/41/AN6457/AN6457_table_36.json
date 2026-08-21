@@ -1,0 +1,33 @@
+{
+  "table_id": "table_36",
+  "document": "Table 36. Document revision history",
+  "rev": null,
+  "table_number": "36",
+  "title": "Table 36. Document revision history",
+  "page": 27,
+  "section": "4.5.2 AHB-to-APB bridge transfer latency",
+  "section_title": "AHB-to-APB bridge transfer latency",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=27",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 36. Document revision history — section 4.5.2 AHB-to-APB bridge transfer latency. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "03-Mar-2026",
+        "1",
+        "Initial release."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

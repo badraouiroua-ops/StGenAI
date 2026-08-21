@@ -1,0 +1,74 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. Target address available for use",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. Target address available for use",
+  "page": 14,
+  "section": "8.3 Bus format",
+  "section_title": "Bus format",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=14",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 6. Target address available for use — section 8.3 Bus format. Target dynamic address / Binary, Target dynamic address / Hex, Restriction, Description.",
+  "table_content": {
+    "headers": [
+      "Target dynamic address / Binary",
+      "Target dynamic address / Hex",
+      "Restriction",
+      "Description"
+    ],
+    "rows": [
+      [
+        "0x0000000",
+        "7'h00",
+        "Shall not use",
+        "I3C reserved"
+      ],
+      [
+        "0x0001000 - 0x0111101",
+        "7'h08 – 7'h3D",
+        "Available for use",
+        "54 addresses"
+      ],
+      [
+        "0x0111111 -0x1011101",
+        "7'h3F – 7'h5D",
+        "Available for use",
+        "31 addresses"
+      ],
+      [
+        "0x101 1111-0x110 1101",
+        "7'h5F – 7'h6D",
+        "Available for use",
+        "15 addresses"
+      ],
+      [
+        "0x110 1111-0x111 0101",
+        "7'h6F – 7'h75",
+        "Available for use",
+        "7 addresses"
+      ],
+      [
+        "0x111 0111",
+        "7'h77",
+        "Available for use",
+        "1 address"
+      ],
+      [
+        "0x111 1111",
+        "7'h7F",
+        "Shall not use",
+        "I3C reserved: Broadcast address single bit error detect"
+      ]
+    ],
+    "notes": [
+      "1. I3C_EVR.DAUPDF: dynamic address update flag.",
+      "2. Either have an extended address, or would be impacted by the extended address mechanism"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

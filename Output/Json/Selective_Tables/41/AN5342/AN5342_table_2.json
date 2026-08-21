@@ -1,0 +1,83 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Acronyms and terms",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Acronyms and terms",
+  "page": 2,
+  "section": "1 General information",
+  "section_title": "General information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5342.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5342.pdf",
+  "text_helper": "Table 2. Acronyms and terms — section 1 General information. Acronym, Definition.",
+  "table_content": {
+    "headers": [
+      "Acronym",
+      "Definition"
+    ],
+    "rows": [
+      [
+        "ECC",
+        "Error correction code"
+      ],
+      [
+        "CPU",
+        "Central processing unit (part of the MCU)"
+      ],
+      [
+        "CRC",
+        "Cyclic redundancy check"
+      ],
+      [
+        "DED",
+        "Double-error detection"
+      ],
+      [
+        "DTCM",
+        "Data-tightly coupled memory"
+      ],
+      [
+        "FAR",
+        "Falling address register"
+      ],
+      [
+        "ISR",
+        "Interrupt service routine"
+      ],
+      [
+        "ITCM",
+        "Instruction tightly coupled memory"
+      ],
+      [
+        "MCU",
+        "Microcontroller unit"
+      ],
+      [
+        "MDMA",
+        "Master direct-memory access"
+      ],
+      [
+        "POR",
+        "Power-on reset"
+      ],
+      [
+        "RAM",
+        "Random access memory"
+      ],
+      [
+        "SEC",
+        "Single-error correction"
+      ],
+      [
+        "SRAM",
+        "Static RAM"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

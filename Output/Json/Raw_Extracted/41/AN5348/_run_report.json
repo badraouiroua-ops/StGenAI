@@ -1,0 +1,39 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN5348.pdf",
+  "family": "41",
+  "pdf_name": "AN5348",
+  "tables_found": 10,
+  "tables_extracted": 10,
+  "high": 10,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_9",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 9. FDCAN improvements over BxCAN.",
+      "page": 32,
+      "merged_pages": [
+        32
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"Features / Compatibility\", \"Features / Compatibility with BxCAN\", \"Supported by BxCAN / Yes\", \"Supported by FDCAN / Yes\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 4
+      }
+    }
+  ],
+  "dedup_rows_removed": 0,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

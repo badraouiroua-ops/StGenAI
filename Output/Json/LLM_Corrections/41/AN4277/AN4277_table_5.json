@@ -1,0 +1,61 @@
+{
+  "table_id": "table_5",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Comparator 1 output is connected internally to TIM1 BRK_ACTH and TIM1 BKIN alternate function is disabled.",
+      "row_index": 0,
+      "analyse_visuelle": "L'identifiant du schéma DT74301V1 placé verticalement sur le bord droit a été extrait à l'envers sous la forme '1V10347TD'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "The PWM generation is stopped when the comparator output is at the high level, as shown in the following screenshot: 1V10347TD",
+          "nouvelle_valeur": "The PWM generation is stopped when the comparator output is at the high level, as shown in the following screenshot: DT74301V1",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Comparator 1 output is connected internally to TIM1 BRK_ACTH and TIM1 BKIN alternate function is enabled.",
+      "row_index": 1,
+      "analyse_visuelle": "L'identifiant du schéma DT74302V1 placé verticalement sur le bord droit a été extrait à l'envers sous la forme '1V20347TD'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "The break input signal is an OR between the signal on BKIN and the comparator output. The following screenshot shows an example (polarity = High): 1V20347TD Note: To show the effect of the two break sources, the bit AOE in the BDTR register is set, allowing to restart the PWM at the next update event.",
+          "nouvelle_valeur": "The break input signal is an OR between the signal on BKIN and the comparator output. The following screenshot shows an example (polarity = High): DT74302V1 Note: To show the effect of the two break sources, the bit AOE in the BDTR register is set, allowing to restart the PWM at the next update event.",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Comparator 4 output is connected internally to TIM1 BRK and the filter is not configured.",
+      "row_index": 2,
+      "analyse_visuelle": "L'identifiant du schéma DT74303V1 placé verticalement sur le bord droit a été extrait à l'envers sous la forme '1V30347TD'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "The PWM signal is stopped during the break signal low level, as shown in the following screenshot: 1V30347TD",
+          "nouvelle_valeur": "The PWM signal is stopped during the break signal low level, as shown in the following screenshot: DT74303V1",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Comparator 4 output is connected internally to TIM1 BRK and the filter is configured.",
+      "row_index": 3,
+      "analyse_visuelle": "L'identifiant du schéma DT74304V1 placé verticalement sur le bord droit a été extrait à l'envers sous la forme '1V40347TD'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "During the window defined by the filter duration, the break event has no impact on the PWM generation even if the break condition is verified. This is the case of the following example (screenshot) where the PWM signal is generated normally when the break signal is at a high level during the window defined by the filter. • The filter duration is 7.111 µs (BKF = 1111b, filter duration is (32*8/fDTS), fDTS = 36 MHz). • The comparator output high level duration is 7.111 µs. 1V40347TD",
+          "nouvelle_valeur": "During the window defined by the filter duration, the break event has no impact on the PWM generation even if the break condition is verified. This is the case of the following example (screenshot) where the PWM signal is generated normally when the break signal is at a high level during the window defined by the filter. • The filter duration is 7.111 µs (BKF = 1111b, filter duration is (32*8/fDTS), fDTS = 36 MHz). • The comparator output high level duration is 7.111 µs. DT74304V1",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

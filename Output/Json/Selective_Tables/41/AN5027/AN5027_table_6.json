@@ -1,0 +1,39 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. Applications examples and the associated microphone clock frequency",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. Applications examples and the associated microphone clock frequency",
+  "page": 29,
+  "section": "2.4.1 The digital microphone clock",
+  "section_title": "The digital microphone clock",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=29",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 6. Applications examples and the associated microphone clock frequency — section 2.4.1 The digital microphone clock. Use-cases, Clock frequency provided to the digital microphone.",
+  "table_content": {
+    "headers": [
+      "Use-cases",
+      "Clock frequency provided to the digital microphone"
+    ],
+    "rows": [
+      [
+        "Sound capture",
+        "Between 400 and 800 kHz"
+      ],
+      [
+        "Speech application",
+        "Between 1 and 1.5 MHz"
+      ],
+      [
+        "High-quality audio application",
+        "Between 2.4 and 4.8 MHz"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

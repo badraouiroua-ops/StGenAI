@@ -1,0 +1,130 @@
+{
+  "table_id": "table_6",
+  "caption": "Table 6. Hardware automatic baud rate detection on STM32 USART interfaces (wireless)",
+  "pdf_name": "AN4908",
+  "family": "41",
+  "page": 6,
+  "merged_pages": [
+    6,
+    7
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4908.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4908.pdf#page=6",
+  "section": "2.1 Feature overview",
+  "headers": [
+    "Port",
+    "STM32WB / STM32WB10CC",
+    "STM32WB / STM32WB15CC",
+    "STM32WB / STM32WB30CESTM32L4x6",
+    "STM32WB / STM32WB50CG",
+    "STM32WB / STM32WB55xx/35xx",
+    "STM32WB0 / STM32WB09xE",
+    "STM32WBA / STM32WBA52xx/54XX/55XXSTM32U59xxx",
+    "STM32WL / STM32WLEx"
+  ],
+  "rows": [
+    [
+      "USART 1",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "USART 2",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "X",
+      "X"
+    ],
+    [
+      "USART 2",
+      "STM32WB",
+      "STM32WB",
+      "STM32WB",
+      "STM32WB",
+      "STM32WB",
+      "STM32WB0",
+      "STM32WBA",
+      "STM32WL"
+    ],
+    [
+      "Port",
+      "CC01BW23MTS",
+      "CC51BW23MTS",
+      "EC03BW23MTS",
+      "GC05BW23MTS",
+      "xx53/xx55BW23MTS",
+      "Ex90BW23MTS",
+      "XX55/XX45/xx25ABW23MTS",
+      "xELW23MTS"
+    ],
+    [
+      "UART2-12",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ],
+    [
+      "USART 3-12",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA",
+      "NA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 9,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 9,
+    "continuation": {
+      "base_cols": 9,
+      "cont_cols_raw": 9,
+      "target_cols": 9,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN4908",
+    "table_id": "table_6",
+    "is_continued": true,
+    "pages": [
+      6,
+      7
+    ],
+    "rows_count": 6,
+    "cols_count": 9,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

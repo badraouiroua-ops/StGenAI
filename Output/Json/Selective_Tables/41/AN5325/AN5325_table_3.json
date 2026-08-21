@@ -1,0 +1,73 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Execution time versus software for other functions",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Execution time versus software for other functions",
+  "page": 10,
+  "section": "3.1.2 Performance comparison",
+  "section_title": "Performance comparison",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5325.pdf#page=10",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5325.pdf",
+  "text_helper": "Table 3. Execution time versus software for other functions — section 3.1.2 Performance comparison. Function / Rectangular to polar conversion, atan2(y,x), CPU cycles (optimized for speed) / Rectangular to polar conversion, atan2(y,x), CPU cycles (optimized for size) / Rectangular to polar conver...",
+  "table_content": {
+    "headers": [
+      "Function / Rectangular to polar conversion, atan2(y,x)",
+      "CPU cycles (optimized for speed) / Rectangular to polar conversion, atan2(y,x)",
+      "CPU cycles (optimized for size) / Rectangular to polar conversion, atan2(y,x)"
+    ],
+    "rows": [
+      [
+        "CORDIC in zero overhead mode",
+        "33",
+        "25"
+      ],
+      [
+        "CORDIC in zero overhead mode with conversion from single precision floating-point to 32- bit integer and back",
+        "107",
+        "111"
+      ],
+      [
+        "math.h single precision floating-point function: float atan2f(float, float)",
+        "332",
+        "325"
+      ],
+      [
+        "math.h double precision floating-point function: double atan2(double, double)",
+        "4194",
+        "4209"
+      ],
+      [
+        "Exponent, exp(x)",
+        "Exponent, exp(x)",
+        "Exponent, exp(x)"
+      ],
+      [
+        "CORDIC in zero overhead mode (sinh + cosh)",
+        "39",
+        "39"
+      ],
+      [
+        "CORDIC in zero overhead mode with conversion from single precision floating-point to 32- bit integer and back",
+        "81",
+        "81"
+      ],
+      [
+        "math.h single precision floating-point function: float expf(float)",
+        "319",
+        "322"
+      ],
+      [
+        "math.h double precision floating-point function: double exp(double)",
+        "3604",
+        "3608"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

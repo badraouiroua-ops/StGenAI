@@ -1,0 +1,71 @@
+{
+  "table_id": "table_21",
+  "caption": "Table 21. Voltage characteristics",
+  "pdf_name": "stm32c051c6",
+  "family": "C0",
+  "page": 41,
+  "merged_pages": [
+    41
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=41",
+  "section": "5.2 Absolute maximum ratings",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DD",
+      "External supply voltage",
+      "- 0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "V REF+",
+      "External voltage on VREF+ pin",
+      "- 0.3",
+      "Min(V + 0.4, 4.0) DD",
+      "V"
+    ],
+    [
+      "V (1) IN",
+      "Input voltage on pin",
+      "- 0.3",
+      "V + 4.0(2)(3) DDIO1",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. V maximum must always be respected. Refer to Table 22 for the maximum allowed injected current values. IN",
+      "2. To sustain a voltage higher than 4 V the internal pull-up/pull-down resistors must be disabled.",
+      "3. When an FT_a pin is used by an analog peripheral such as ADC, the maximum V is 4 V. IN"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c051c6",
+    "table_id": "table_21",
+    "is_continued": false,
+    "pages": [
+      41
+    ],
+    "rows_count": 3,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

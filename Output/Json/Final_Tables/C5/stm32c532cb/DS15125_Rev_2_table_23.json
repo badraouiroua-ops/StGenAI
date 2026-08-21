@@ -1,0 +1,115 @@
+{
+  "table_id": "table_23",
+  "document": "DS15125 Rev 2 - Table 23. Typical current consumption in Run mode with CoreMark running from flash memory and SRAM.",
+  "rev": "Rev 2",
+  "table_number": "23",
+  "title": "Table 23. Typical current consumption in Run mode with CoreMark running from flash memory and SRAM.",
+  "page": 54,
+  "section": "5.3.6.1 Current consumption in Run mode",
+  "section_title": "Current consumption in Run mode",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=54",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 23. Typical current consumption in Run mode with CoreMark running from flash memory and SRAM. — section 5.3.6.1 Current consumption in Run mode. Symbol, Parameter, Conditions / Peripheral, SYSCLK / source, fHCLK / (MHz), +4 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions / Peripheral",
+      "SYSCLK / source",
+      "fHCLK / (MHz)",
+      "Typ",
+      "Unit",
+      "Typ",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD(Run)",
+        "Supply current in Run mode",
+        "Code in flash, ICACHE 2-way, prefetch ON",
+        "PSI (1)",
+        "144",
+        "10.50",
+        "mA",
+        "72.50",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)",
+        "Supply current in Run mode",
+        "Code in flash, ICACHE 1-way, prefetch ON",
+        "PSI (1)",
+        "144",
+        "9.15",
+        "mA",
+        "63.50",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)",
+        "Supply current in Run mode",
+        "Code in flash, ICACHE OFF, prefetch ON",
+        "PSI (1)",
+        "144",
+        "9.95",
+        "mA",
+        "69.00",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)",
+        "Supply current in Run mode",
+        "Code in flash, ICACHE OFF, prefetch OFF",
+        "PSI (1)",
+        "144",
+        "8.70",
+        "mA",
+        "60.50",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)",
+        "Supply current in Run mode",
+        "SRAM2, ICACHE 2-way",
+        "PSI (1)",
+        "144",
+        "10.00",
+        "mA",
+        "69.50",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)",
+        "Supply current in Run mode",
+        "Code in SRAM2, ICACHE 1-way",
+        "PSI (1)",
+        "144",
+        "8.75",
+        "mA",
+        "61.00",
+        "µA/ MHz"
+      ],
+      [
+        "IDD(Run)",
+        "Supply current in Run mode",
+        "Code in ICACHE OFF",
+        "PSI (1)",
+        "144",
+        "9.30",
+        "mA",
+        "64.50",
+        "µA/ MHz"
+      ]
+    ],
+    "notes": [
+      "1. Measurements done with prefetch enabled."
+    ],
+    "legend": [
+      "Evaluated by characterization - not tested in production, unless otherwise stated."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

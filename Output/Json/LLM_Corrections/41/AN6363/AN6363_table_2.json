@@ -1,0 +1,35 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Nominal (FDCAN_NBTP)",
+      "row_index": 0,
+      "analyse_visuelle": "La valeur BTN = 24 dans la colonne 'Condition properties' appartient à la ligne Nominal mais a été décalée dans la ligne suivante.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "BRPN=4 SJWN=4 PS1N=18 PS2N=4",
+          "nouvelle_valeur": "BRPN = 4 NSJW = 4 PS1N = 18 PS2N = 4 BTN = 24",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Data (FDCAN_DBTP)",
+      "row_index": 1,
+      "analyse_visuelle": "Dans la colonne 'Condition properties', BTN = 24 appartenait à la première ligne, et BTD = 12 a été omis à la fin.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "BTN=24 BRPD=2 SJWD=4 PS1D=6 PS2D=4",
+          "nouvelle_valeur": "BRPD = 2 SJWD = 4 PS1D = 6 PS2D = 4 BTD = 12",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

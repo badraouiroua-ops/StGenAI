@@ -1,0 +1,37 @@
+{
+  "table_id": "table_26",
+  "document": "Table 26. HASH peripheral information",
+  "rev": null,
+  "table_number": "26",
+  "title": "Table 26. HASH peripheral information",
+  "page": 18,
+  "section": "3.6.1 Hash processor (HASH)",
+  "section_title": "Hash processor (HASH)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=18",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 26. HASH peripheral information — section 3.6.1 Hash processor (HASH). Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+  "table_content": {
+    "headers": [
+      "Peripheral request to LPDMA",
+      "Peripheral bus",
+      "Peripheral FIFO (unit, size)",
+      "Peripheral register access",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "hash_in_dma",
+        "AHB2",
+        "16-word FIFO",
+        "Write 32-bit HASH_IN",
+        "HASH input data register (HASH_IN) is written by a single word."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

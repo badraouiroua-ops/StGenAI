@@ -1,0 +1,47 @@
+{
+  "table_id": "table_33",
+  "document": "Table 33. LPDMA in memory-to-memory mode, SRAM (read+write) transfer rate and throughput",
+  "rev": null,
+  "table_number": "33",
+  "title": "Table 33. LPDMA in memory-to-memory mode, SRAM (read+write) transfer rate and throughput",
+  "page": 25,
+  "section": "4.4.2 Transfer rate/throughput and bandwidth",
+  "section_title": "Transfer rate/throughput and bandwidth",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=25",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 33. LPDMA in memory-to-memory mode, SRAM (read+write) transfer rate and throughput — section 4.4.2 Transfer rate/throughput and bandwidth. Programmed LPDMA source & destination data width, Number of cycles (per direct transfer), Transfer rate with a 100 MHz AHB clock (Mtransfer/s), Throughp...",
+  "table_content": {
+    "headers": [
+      "Programmed LPDMA source & destination data width",
+      "Number of cycles (per direct transfer)",
+      "Transfer rate with a 100 MHz AHB clock (Mtransfer/s)",
+      "Throughput with a 100 MHz AHB clock (MByte/s)"
+    ],
+    "rows": [
+      [
+        "8-bit",
+        "3 to 4",
+        "25 to 33",
+        "25 to 33"
+      ],
+      [
+        "16-bit",
+        "3 to 4",
+        "25 to 33",
+        "50 to 66"
+      ],
+      [
+        "32-bit",
+        "3 to 4",
+        "25 to 33",
+        "100 to 133"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

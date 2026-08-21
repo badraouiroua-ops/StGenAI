@@ -1,0 +1,10 @@
+{
+  "table_id": "table_15",
+  "status": "OK",
+  "logs": [
+    "Cases de code C de la colonne de gauche laissées vides (images/extraits graphiques non extraits par OCR textuel)"
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

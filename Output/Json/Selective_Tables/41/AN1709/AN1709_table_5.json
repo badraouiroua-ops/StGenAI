@@ -1,0 +1,35 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. ST behavior classes",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. ST behavior classes",
+  "page": 7,
+  "section": "3.1.1 Functional EMS test",
+  "section_title": "Functional EMS test",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 5. ST behavior classes — section 3.1.1 Functional EMS test. Class A, Class B, Class C, Class D.",
+  "table_content": {
+    "headers": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "rows": [
+      [
+        "No failure detected",
+        "Failure detected but self-recovery after disturbance",
+        "Needs an external user action to recover normal functionality",
+        "Normal functionality cannot be recovered"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

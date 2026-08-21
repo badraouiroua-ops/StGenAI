@@ -1,0 +1,19 @@
+{
+  "table_id": "table_10",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "La suite du tableau présente sur la page 21 a été ajoutée dans lignes_manquantes_ajoutees."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 5,
+      "contenu": [
+        "",
+        "Accelerometer LIS2DW12 (legacy I2C) • Keep the JP1",
+        "STM32CubeMX STM32Cube_FW_H5_V1.0.0 or higher IAR Systems"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

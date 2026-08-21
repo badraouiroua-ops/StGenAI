@@ -1,0 +1,31 @@
+{
+  "table_id": "table_15",
+  "document": "Table 15. LPDMA programming for SPI",
+  "rev": null,
+  "table_number": "15",
+  "title": "Table 15. LPDMA programming for SPI",
+  "page": 12,
+  "section": "3.4.1 CORDIC coprocessor",
+  "section_title": "CORDIC coprocessor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=12",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 15. LPDMA programming for SPI — section 3.4.1 CORDIC coprocessor. LPDMA data width for source and destination, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA data width for source and destination",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "32-bit recommended. If not applicable, 8-bit or 16-bit.",
+        "Depends on SPI settings."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "table_id": "table_5",
+  "caption": "Table 5. Cache properties and shareability",
+  "pdf_name": "AN4838",
+  "family": "41",
+  "page": 8,
+  "merged_pages": [
+    8
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=8",
+  "section": "3.3 Memory attributes",
+  "headers": [
+    "TEX",
+    "C",
+    "B",
+    "Memory type",
+    "Description",
+    "Shareable"
+  ],
+  "rows": [
+    [
+      "000",
+      "0",
+      "0",
+      "Strongly ordered",
+      "Strongly ordered",
+      "Yes"
+    ],
+    [
+      "000",
+      "0",
+      "1",
+      "Device",
+      "Shared device",
+      "Yes"
+    ],
+    [
+      "000",
+      "1",
+      "0",
+      "Normal",
+      "Write through, no write allocate",
+      "S bit"
+    ],
+    [
+      "000",
+      "1",
+      "1",
+      "Normal",
+      "Write-back, no write allocate",
+      "S bit"
+    ],
+    [
+      "001",
+      "0",
+      "0",
+      "Normal",
+      "Non-cacheable",
+      "S bit"
+    ],
+    [
+      "001",
+      "0",
+      "1",
+      "Reserved",
+      "Reserved",
+      "Reserved"
+    ],
+    [
+      "001",
+      "1",
+      "0",
+      "Undefined",
+      "Undefined",
+      "Undefined"
+    ],
+    [
+      "001",
+      "1",
+      "1",
+      "Normal",
+      "Write-back, write and read allocate",
+      "S bit"
+    ],
+    [
+      "010",
+      "0",
+      "0",
+      "Device",
+      "Non-shareable device",
+      "No"
+    ],
+    [
+      "010",
+      "0",
+      "1",
+      "Reserved",
+      "Reserved",
+      "Reserved"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN4838",
+    "table_id": "table_5",
+    "is_continued": false,
+    "pages": [
+      8
+    ],
+    "rows_count": 10,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

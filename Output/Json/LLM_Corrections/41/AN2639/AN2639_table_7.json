@@ -1,0 +1,51 @@
+{
+  "table_id": "table_7",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Plusieurs lignes étaient manquantes dans l'extraction initiale du tableau 7."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "Temperature gradient in preheat",
+        "Temp. : 70°C to 150°C\n0.9 ± 0.1°C/sec",
+        "Temp. : 70°C to 150°C\n2.0 ± 0.5°C/sec"
+      ]
+    },
+    {
+      "row_index": 1,
+      "contenu": [
+        "Soak/Dwell (*refer to solder paste supplier recommendation)",
+        "N/A or\nTemp. : 150°C to 200°C: 60 ± 20 sec",
+        "Soak\nTemp. : 150°C to 200°C: *70 ± 30 sec"
+      ]
+    },
+    {
+      "row_index": 3,
+      "contenu": [
+        "Peak temperature (in reflow)",
+        "240 ± 5°C",
+        "240 ± 5°C"
+      ]
+    },
+    {
+      "row_index": 5,
+      "contenu": [
+        "Temperature gradient in cooling",
+        "-3 ± 2°C/sec",
+        "-3 ± 2°C/sec"
+      ]
+    },
+    {
+      "row_index": 6,
+      "contenu": [
+        "Time from 50 to 220°C",
+        "150 to 230 seconds",
+        "150 to 230 seconds"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

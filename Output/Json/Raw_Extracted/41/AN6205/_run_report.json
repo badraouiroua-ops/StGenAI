@@ -1,0 +1,47 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN6205.pdf",
+  "family": "41",
+  "pdf_name": "AN6205",
+  "tables_found": 6,
+  "tables_extracted": 6,
+  "high": 6,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_2",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 2. Definition of product types",
+      "page": 7,
+      "merged_pages": [
+        7
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"Products / Type 1 (PT1)\", \"Products / Type 2 (PT2)\", \"Products / Type 3 (PT3)\"]",
+      "rows_count": 1,
+      "heuristics": {
+        "cols_extracted": 3,
+        "_notes": [
+          "1. Generate keys.",
+          "2. Protected ECDSA signature blob creation, with a selected ECC curve and the generated private key as input.",
+          "3. Protected scalar multiplication, with ECC curve base point G and previously computed blob as input. Result is the computed ECDSA signature public key.",
+          "4. ECDSA signature using the generated private key as input. Any hash information can be used. Call the result of this signature (r, s).",
+          "5. ECDSA signature verification, using the reference hash information, the signature (r, s) and the computed ECDSA signature public key. If the API returns that the signature is correct, save the ECDSA signature blob",
+          "6. ECDSA key blob can be used at any time to compute ECDSA signature using a wrapped key. Step 1 code:"
+        ]
+      }
+    }
+  ],
+  "dedup_rows_removed": 0,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

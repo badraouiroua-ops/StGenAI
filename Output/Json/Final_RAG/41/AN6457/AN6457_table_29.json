@@ -1,0 +1,31 @@
+{
+  "table_id": "table_29",
+  "document": "Table 29. LPDMA programming for AES",
+  "rev": null,
+  "table_number": "29",
+  "title": "Table 29. LPDMA programming for AES",
+  "page": 19,
+  "section": "3.6.2 AES hardware accelerator (AES)",
+  "section_title": "AES hardware accelerator (AES)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=19",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 29. LPDMA programming for AES — section 3.6.2 AES hardware accelerator (AES). LPDMA data width for source and destination, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA data width for source and destination",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "32-bit",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

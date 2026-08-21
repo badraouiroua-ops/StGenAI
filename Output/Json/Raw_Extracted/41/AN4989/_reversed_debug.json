@@ -1,0 +1,162 @@
+{
+  "pdf_name": "AN4989",
+  "family": "41",
+  "tables_checked": 9,
+  "cells_checked": 17,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Microcontrollers",
+      "reversed": false,
+      "drift": -8.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32 High Performance MCUs STM32 Mainstream MCUs STM32 Ultra Low Power MCUs",
+      "reversed": false,
+      "drift": -0.04,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "STSW-LINK007",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "ST-LINK, ST-LINK/V2, ST-LINK/V2-1, STLINK-V3 boards firmware upgrade",
+      "reversed": false,
+      "drift": -35.68,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Data Brief",
+      "reversed": false,
+      "drift": -2.64,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Preliminary Product Specification before complete maturity",
+      "reversed": false,
+      "drift": -18.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 1,
+      "row": 0,
+      "original": "+ backup registers",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Word Length: 8, Parity: Odd",
+      "reversed": false,
+      "drift": -1.55,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Data: 7, Parity: Odd",
+      "reversed": false,
+      "drift": -1.63,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Connection with target lost during debug of low-power system",
+      "reversed": false,
+      "drift": -29.58,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Ensure debug in low-power in DBGMCU register is enabled. Ensure SWD pin not set in analog state. Refer to Section 4.1: SWD/JTAG pinout and to Section 4.3: Low-power case.",
+      "reversed": false,
+      "drift": 1.16,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 0,
+      "row": 0,
+      "original": "L0/F0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 1,
+      "row": 0,
+      "original": "M0/0+",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 0,
+      "row": 0,
+      "original": "AN5361",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Dual core microcontrollers debugging",
+      "reversed": false,
+      "drift": -18.47,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "16-Jun-2017",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

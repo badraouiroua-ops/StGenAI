@@ -1,0 +1,19 @@
+{
+  "table_id": "table_33",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Insertion de la première ligne manquante fusionnée 'Calendar with subseconds...'"
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "Features",
+        "Calendar with subseconds, seconds, minutes, hours (12- or 24-hour format), weekdays, dates, months, and years",
+        "Calendar with subseconds, seconds, minutes, hours (12- or 24-hour format), weekdays, dates, months, and years"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

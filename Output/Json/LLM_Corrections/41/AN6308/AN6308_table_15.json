@@ -1,0 +1,10 @@
+{
+  "table_id": "table_15",
+  "status": "OK",
+  "logs": [
+    "Cases vides aux lignes 9 et 10 (APB1 frequency, APB2 frequency) laissées vides pour traitement manuel de la fusion verticale."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

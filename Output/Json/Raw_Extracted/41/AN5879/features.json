@@ -1,0 +1,43 @@
+{
+  "pdf_name": "AN5879",
+  "family": "41",
+  "pdf_type": 2,
+  "doc_ref": null,
+  "revision": null,
+  "date": null,
+  "title": "Introduction to I3C for STM32 MCUs Introduction The number of sensors connected to a main device acting as a controller has steadily increased in the last couple of years.",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "page": 1,
+  "core": null,
+  "fpu": false,
+  "max_frequency_mhz": 4,
+  "flash_kb": null,
+  "ram_kb": null,
+  "voltage_min_v": null,
+  "voltage_max_v": null,
+  "operating_temp_c": [],
+  "packages": [
+    "WLCSP25"
+  ],
+  "device_summary": null,
+  "extraction_meta": {
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "extraction_method": "regex_type2",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "medium",
+    "missing_fields": [
+      "core",
+      "flash_kb",
+      "ram_kb",
+      "voltage_min_v",
+      "voltage_max_v",
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

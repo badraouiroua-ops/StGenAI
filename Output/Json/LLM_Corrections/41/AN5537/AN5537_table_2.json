@@ -1,0 +1,17 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 1,
+      "contenu": [
+        "Maximum input signal frequency",
+        "fADC max /(2.4p)",
+        "fADCmax/(2.2.(2p))"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

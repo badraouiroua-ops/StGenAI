@@ -1,0 +1,63 @@
+{
+  "figure_id": "figure_3",
+  "document": "DS13866 Rev 5 - Figure 3. STM32C011JxM SO8N pinout",
+  "rev": "Rev 5",
+  "figure_number": "3",
+  "title": "Figure 3. STM32C011JxM SO8N pinout",
+  "page": 27,
+  "section": "4",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "pinout",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=27",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "SO8N pinout (8 pins). VDD/VDDA on pin 2, VSS/VSSA on pin 3.",
+  "figure_content": {
+    "package_type": "SO8N",
+    "pin_count": 8,
+    "view": "Top view",
+    "pins": [
+      {
+        "pin_number": "1",
+        "pin_name": "PB7/PC14-OSCX_IN",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "2",
+        "pin_name": "VDD/VDDA",
+        "type": "Power"
+      },
+      {
+        "pin_number": "3",
+        "pin_name": "VSS/VSSA",
+        "type": "Ground"
+      },
+      {
+        "pin_number": "4",
+        "pin_name": "PA0/PA1/PA2/PF2-NRST",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "5",
+        "pin_name": "PA11[PA9]/PA8",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "6",
+        "pin_name": "PA12[PA10]",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "7",
+        "pin_name": "PA13",
+        "type": "I/O"
+      },
+      {
+        "pin_number": "8",
+        "pin_name": "PB6/PA14-BOOT0/PC15-OSCX_OUT",
+        "type": "I/O"
+      }
+    ],
+    "notes": []
+  }
+}

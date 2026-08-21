@@ -1,0 +1,30 @@
+{
+  "table_id": "table_29",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "noitareneg AMD/tpurretnI",
+      "row_index": 3,
+      "analyse_visuelle": "Le texte dans la première colonne est écrit à l'envers (RTL) : 'noitareneg AMD/tpurretnI' correspond à 'Interrupt/DMA generation'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "noitareneg AMD/tpurretnI",
+          "nouvelle_valeur": "Interrupt/DMA generation",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 1,
+      "contenu": [
+        "Prescaler factor",
+        "16-bit programmable prescaler, used to divide (also “on the fly”) the counter clock frequency by any factor between 1 and 65535"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,40 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Definition of product types",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Definition of product types",
+  "page": 7,
+  "section": "3 Wrapped key usage with the CCB",
+  "section_title": "Wrapped key usage with the CCB",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6205.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6205.pdf",
+  "text_helper": "Table 2. Definition of product types — section 3 Wrapped key usage with the CCB. Products / Type 1 (PT1), Products / Type 2 (PT2), Products / Type 3 (PT3).",
+  "table_content": {
+    "headers": [
+      "Products / Type 1 (PT1)",
+      "Products / Type 2 (PT2)",
+      "Products / Type 3 (PT3)"
+    ],
+    "rows": [
+      [
+        "STM32H5F4xx, STM32H5F5xx STM32U385xx",
+        "STM32H553xx STM32U3C5xx",
+        "STM32C59x/C5A3"
+      ]
+    ],
+    "notes": [
+      "1. Generate keys.",
+      "2. Protected ECDSA signature blob creation, with a selected ECC curve and the generated private key as input.",
+      "3. Protected scalar multiplication, with ECC curve base point G and previously computed blob as input. Result is the computed ECDSA signature public key.",
+      "4. ECDSA signature using the generated private key as input. Any hash information can be used. Call the result of this signature (r, s).",
+      "5. ECDSA signature verification, using the reference hash information, the signature (r, s) and the computed ECDSA signature public key. If the API returns that the signature is correct, save the ECDSA signature blob",
+      "6. ECDSA key blob can be used at any time to compute ECDSA signature using a wrapped key. Step 1 code:"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

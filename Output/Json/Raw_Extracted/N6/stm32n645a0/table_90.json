@@ -1,0 +1,52 @@
+{
+  "table_id": "table_90",
+  "caption": "Table 90. Output speed settings versus voltage and clock frequency",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 197,
+  "merged_pages": [
+    197
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=197",
+  "section": "5.3.21 SDMMC interface characteristics",
+  "headers": [
+    "Voltage range (V)",
+    "Max clock frequency (MHz)",
+    "OSPEEDRy[1:0] / Clock",
+    "OSPEEDRy[1:0] / Data"
+  ],
+  "rows": [
+    [
+      "1.71 to 1.9 and 3.0 to 3.6",
+      "26/25",
+      "00",
+      "00"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_90",
+    "is_continued": false,
+    "pages": [
+      197
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

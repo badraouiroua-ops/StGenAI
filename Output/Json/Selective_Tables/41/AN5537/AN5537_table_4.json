@@ -1,0 +1,41 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Formulas for ENOB improvement",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Formulas for ENOB improvement",
+  "page": 20,
+  "section": "6 ENOB (effective number of bits) measurement",
+  "section_title": "ENOB (effective number of bits) measurement",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=20",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "text_helper": "Table 4. Formulas for ENOB improvement — section 6 ENOB (effective number of bits) measurement. Method, Formula (X is the ADC resolution OSR is the oversampling ratio).",
+  "table_content": {
+    "headers": [
+      "Method",
+      "Formula (X is the ADC resolution OSR is the oversampling ratio)"
+    ],
+    "rows": [
+      [
+        "Hardware oversampling",
+        "Resolution = X + (ln (OSR) / ln(2)) – M M is the division coefficient of the hardware oversampling engine"
+      ],
+      [
+        "Software oversampling with white noise",
+        "Resolution = X + p with OSR = 4p"
+      ],
+      [
+        "Software oversampling with dithering",
+        "Resolution = X + p with OSR = 2*2p"
+      ]
+    ],
+    "notes": [
+      "1. Bold entries have no significance since the hardware oversampling unit output is limited to 16-bit data width. AN5537 - Rev 2 page 21/29"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

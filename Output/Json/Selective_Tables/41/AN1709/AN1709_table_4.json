@@ -1,0 +1,67 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. ST ESD severity levels",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. ST ESD severity levels",
+  "page": 7,
+  "section": "3.1.1 Functional EMS test",
+  "section_title": "Functional EMS test",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 4. ST ESD severity levels — section 3.1.1 Functional EMS test. Severity level, ESD (IEC 61000-4-2) equipment standard (kV), FTB (IEC 61000-4-4) equipment standard (kV), ESD ST internal EMC test (kV), FTB ST internal EMC test (kV).",
+  "table_content": {
+    "headers": [
+      "Severity level",
+      "ESD (IEC 61000-4-2) equipment standard (kV)",
+      "FTB (IEC 61000-4-4) equipment standard (kV)",
+      "ESD ST internal EMC test (kV)",
+      "FTB ST internal EMC test (kV)"
+    ],
+    "rows": [
+      [
+        "1",
+        "2",
+        "0.5",
+        "≤ 0.5",
+        "≤ 0.5"
+      ],
+      [
+        "2",
+        "4",
+        "1",
+        "≤ 1",
+        "≤ 1"
+      ],
+      [
+        "3",
+        "6",
+        "2",
+        "≤ 1.5",
+        "≤ 1.5"
+      ],
+      [
+        "4",
+        "8",
+        "4",
+        "≤ 2",
+        "≤ 2.5"
+      ],
+      [
+        "5(1)",
+        ">8",
+        ">4",
+        "NA",
+        "> 2.5"
+      ]
+    ],
+    "notes": [
+      "1. Class description: “A” class is an internal specification. All its limits are higher than the JEDEC specifications, that means when a device belongs to class A it exceeds the JEDEC standard. “B”class strictly covers all the JEDEC criteria"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

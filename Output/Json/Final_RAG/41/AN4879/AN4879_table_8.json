@@ -1,0 +1,43 @@
+{
+  "table_id": "table_8",
+  "document": "Table 8. Supported OTG_FS speeds",
+  "rev": null,
+  "table_number": "8",
+  "title": "Table 8. Supported OTG_FS speeds",
+  "page": 8,
+  "section": "2.2 Supported USB speeds",
+  "section_title": "Supported USB speeds",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=8",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "text_helper": "Table 8. Supported OTG_FS speeds — section 2.2 Supported USB speeds. Mode(1), HS (480 Mbit/s), FS (12 Mbit/s), LS (1.5 Mbit/s).",
+  "table_content": {
+    "headers": [
+      "Mode(1)",
+      "HS (480 Mbit/s)",
+      "FS (12 Mbit/s)",
+      "LS (1.5 Mbit/s)"
+    ],
+    "rows": [
+      [
+        "Host",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Device",
+        "X",
+        "X",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. X: supported. In Host mode, the USB OTG_HS supports high-, full-, and low-speed transfers, while in device mode, it only"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "table_15",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "26-May-2026",
+      "row_index": 4,
+      "analyse_visuelle": "La date dans la colonne 'Date' pour la version 5 est '26-May-2023' et non '26-May-2026' (erreur OCR sur le dernier chiffre).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "26-May-2026",
+          "nouvelle_valeur": "26-May-2023",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

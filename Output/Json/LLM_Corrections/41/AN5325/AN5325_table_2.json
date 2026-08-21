@@ -1,0 +1,43 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau",
+      "row_index": null,
+      "analyse_visuelle": "La première ligne de données ('CORDIC in zero overhead mode (32-bit integer)', '29', '29') a été fusionnée par erreur avec la ligne d'en-tête.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Function used to calculate sine and cosine / CORDIC in zero overhead mode (32-bit integer)",
+          "nouvelle_valeur": "Function used to calculate sine and cosine",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "CPU cycles (optimized for speed) / 29",
+          "nouvelle_valeur": "CPU cycles (optimized for speed)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "CPU cycles (optimized for size) / 29",
+          "nouvelle_valeur": "CPU cycles (optimized for size)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "CORDIC in zero overhead mode (32-bit integer)",
+        "29",
+        "29"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

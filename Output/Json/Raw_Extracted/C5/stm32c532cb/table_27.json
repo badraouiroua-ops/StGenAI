@@ -1,0 +1,116 @@
+{
+  "table_id": "table_27",
+  "caption": "Table 27. Typical and maximum current consumption in Standby mode",
+  "pdf_name": "stm32c532cb",
+  "family": "C5",
+  "page": 55,
+  "merged_pages": [
+    55
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=55",
+  "section": "5.3.6.4 Current consumption in Standby mode",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "RTC and / LSE (1)",
+    "Typ / 2.7 V",
+    "Typ / 3 V",
+    "Typ / 3.3 V",
+    "Max / TJ = 30°C",
+    "Max / TJ = 90°C",
+    "Max / TJ = 110°C",
+    "Max / TJ = 130°C",
+    "Max / TJ = 140°C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "OFF",
+      "2.60",
+      "2.75",
+      "2.85",
+      "3.85",
+      "7.70",
+      "14.00",
+      "27.00",
+      "42.50",
+      "µA"
+    ],
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "ON",
+      "2.95",
+      "3.10",
+      "3.25",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "µA"
+    ],
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG ON",
+      "OFF",
+      "2.60",
+      "2.75",
+      "2.85",
+      "5.50",
+      "7.65",
+      "13.50",
+      "26.50",
+      "42.00",
+      "µA"
+    ],
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG ON",
+      "ON",
+      "2.9",
+      "3.05",
+      "3.25",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 12,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 12,
+    "_notes": [
+      "1. LSE is in bypass mode at 32.768 kHz. DS15125 - Rev 2 page 55/129"
+    ],
+    "_legend": [
+      "Evaluated by characterization - not tested in production, unless otherwise stated."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c532cb",
+    "table_id": "table_27",
+    "is_continued": false,
+    "pages": [
+      55
+    ],
+    "rows_count": 4,
+    "cols_count": 12,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

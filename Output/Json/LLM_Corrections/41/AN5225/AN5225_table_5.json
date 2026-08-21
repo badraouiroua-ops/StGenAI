@@ -1,0 +1,10 @@
+{
+  "table_id": "table_5",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "L'outil d'extraction a fusionné la première ligne de données dans les en-têtes et le tableau de données (rows) est complètement vide, manquant toutes les lignes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,22 @@
+{
+  "table_id": "table_6",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête de colonne",
+      "row_index": null,
+      "analyse_visuelle": "Le deuxième en-tête de colonne 'OCTOSPI I/O manager port' a été extrait à l'envers en texte inversé ('IPSOTCO O/I reganam trop').",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "IPSOTCO O/I reganam trop",
+          "nouvelle_valeur": "OCTOSPI I/O manager port",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

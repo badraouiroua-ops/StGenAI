@@ -1,0 +1,35 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. FTB standards",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. FTB standards",
+  "page": 5,
+  "section": "3.1.1 Functional EMS test",
+  "section_title": "Functional EMS test",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=5",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 3. FTB standards — section 3.1.1 Functional EMS test. European standard, International standard, Description.",
+  "table_content": {
+    "headers": [
+      "European standard",
+      "International standard",
+      "Description"
+    ],
+    "rows": [
+      [
+        "N61000-4-4",
+        "EC 61000-4-4",
+        "Fast transient burst"
+      ]
+    ],
+    "notes": [
+      "1. R = 50 MΩ, Rd = 330 Ω ch"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

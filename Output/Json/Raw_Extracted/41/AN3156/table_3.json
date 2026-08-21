@@ -1,0 +1,109 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. Summary of DFU class-specific requests",
+  "pdf_name": "AN3156",
+  "family": "41",
+  "page": 8,
+  "merged_pages": [
+    8
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN3156.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN3156.pdf#page=8",
+  "section": "2 USB DFU bootloader requests",
+  "headers": [
+    "bmRequest",
+    "bRequest",
+    "wValue",
+    "wIndex",
+    "wLength",
+    "Data"
+  ],
+  "rows": [
+    [
+      "00100001b",
+      "DFU_DETACH",
+      "wTimeout",
+      "Interface",
+      "0",
+      "None"
+    ],
+    [
+      "00100001b",
+      "DFU_DNLOAD",
+      "wBlockNum",
+      "Interface",
+      "Length",
+      "Firmware"
+    ],
+    [
+      "10100001b",
+      "DFU_UPLOAD",
+      "wBlockNum",
+      "Interface",
+      "Length",
+      "Firmware"
+    ],
+    [
+      "10100001b",
+      "DFU_GETSTATUS",
+      "0",
+      "Interface",
+      "6",
+      "Status"
+    ],
+    [
+      "00100001b",
+      "DFU_CLRSTATUS",
+      "0",
+      "Interface",
+      "0",
+      "None"
+    ],
+    [
+      "0010001b",
+      "DFU_GETSTATE",
+      "0",
+      "Interface",
+      "1",
+      "State"
+    ],
+    [
+      "00100001b",
+      "DFU_ABORT",
+      "0",
+      "Interface",
+      "0",
+      "None"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. This operation is allowed but not effective: the bootloader does not return an error but the operation is not executed since the sectors are write-protected. This applies only to the flash memory. It does not apply to",
+      "2. Not applicable (this operation is allowed, but has no meaning as the memory is not protected).",
+      "3. In this case, both the flash memory (from 0x0800 0000) and the RAM are erased. The option byte area is reset to the default values."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN3156",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      8
+    ],
+    "rows_count": 7,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

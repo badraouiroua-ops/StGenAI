@@ -1,0 +1,683 @@
+[
+  {
+    "features": {
+      "pdf_name": "AN4230",
+      "family": "41",
+      "pdf_type": 2,
+      "doc_ref": null,
+      "revision": null,
+      "date": null,
+      "title": "test suite for STM32 MCUs and MPUs Introduction Many standards contain requirements and references for the extraction, validation, and use of random number generators",
+      "url_pdf": "https://www.st.com/resource/en/datasheet/AN4230.pdf",
+      "page": 1,
+      "core": null,
+      "fpu": false,
+      "max_frequency_mhz": null,
+      "flash_kb": null,
+      "ram_kb": null,
+      "voltage_min_v": null,
+      "voltage_max_v": null,
+      "operating_temp_c": [],
+      "packages": [],
+      "device_summary": null,
+      "extraction_meta": {
+        "source_pages": [
+          1,
+          2
+        ],
+        "extraction_method": "regex_type2",
+        "text_extraction_reliable": true,
+        "packages_source": "text",
+        "confidence": "medium",
+        "missing_fields": [
+          "core",
+          "max_frequency_mhz",
+          "flash_kb",
+          "ram_kb",
+          "voltage_min_v",
+          "voltage_max_v",
+          "operating_temp_c"
+        ],
+        "low_confidence_fields": []
+      }
+    }
+  },
+  {
+    "table_id": "table_1",
+    "caption": "Table 1. Applicable products",
+    "pdf_name": "AN4230",
+    "family": "41",
+    "page": 1,
+    "merged_pages": [
+      1
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4230.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4230.pdf#page=1",
+    "section": "General purpose / Overview",
+    "headers": [
+      "Type / -",
+      "Type / -",
+      "Products / Can be checked with SP800-22rev1a",
+      "Products / Can be checked with SP800-90b"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "Series",
+        "STM32F2 series, STM32F4 series, STM32F7 series, STM32L0 series, STM32L4 series, STM32G4 series, STM32WB series.",
+        "STM32WBA series, STM32H5 series, STM32L5 series, STM32U0 series, STM32U5 series, STM32WL series, STM32MP2 series, STM32N6 series, STM32U3 series, STM32C5 series."
+      ],
+      [
+        "Microcontrollers",
+        "Lines",
+        "STM32H742, STM32H743/753, STM32H745/755, STM32H747/757 lines, STM32H750 value line, STM32L4R5/S5, STM32L4R7/S7, STM32L4R9/S9 lines, STM32G0x1 lines, STM32MP15x lines.",
+        "STM32H7R3/7S3 line, STM32H7R7/7S7 line, STM32H7A3/7B3 line, STM32H7B0 value line, STM32H723/733, STM32H725/735, STM32H730 value line, STM32L4P5/Q5 line, STM32MP13x lines."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 4
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4230",
+      "table_id": "table_1",
+      "is_continued": false,
+      "pages": [
+        1
+      ],
+      "rows_count": 2,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_2",
+    "caption": "Table 2. STM32 lines embedding the RNG hardware peripheral",
+    "pdf_name": "AN4230",
+    "family": "41",
+    "page": 2,
+    "merged_pages": [
+      2,
+      3
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4230.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4230.pdf#page=2",
+    "section": "1.1 RNG overview",
+    "headers": [
+      "Series",
+      "STM32 lines"
+    ],
+    "rows": [
+      [
+        "STM32F2 series",
+        "All lines"
+      ],
+      [
+        "STM32F4 series",
+        "STM32F405/415, STM32F407/417, STM32F410, STM32F412, STM32F413/423, STM32F427/437, STM32F429/439, STM32F469/479"
+      ],
+      [
+        "STM32F7 series",
+        "All lines"
+      ],
+      [
+        "STM32L0 series",
+        "STM32L05x, STM32L06x, STM32L072/073"
+      ],
+      [
+        "STM32L4 series",
+        "All lines"
+      ],
+      [
+        "STM32L4+ series",
+        "All lines"
+      ],
+      [
+        "STM32H5 series",
+        "All lines"
+      ],
+      [
+        "STM32H7 series",
+        "All lines(1)"
+      ],
+      [
+        "STM32L5 series",
+        "All lines"
+      ],
+      [
+        "STM32U0 series",
+        "All lines"
+      ],
+      [
+        "STM32U5 series",
+        "All lines"
+      ],
+      [
+        "STM32G0 series",
+        "STM32G081xB, STM32G041x6, STM32G041x8, STM32G061x6, STM32G061x8, STM32G0C1xC, STM32G0C1xE"
+      ],
+      [
+        "STM32G4 series",
+        "All lines"
+      ],
+      [
+        "STM32MP1 series",
+        "All lines"
+      ],
+      [
+        "STM32WBA series",
+        "All lines(2)"
+      ],
+      [
+        "STM32WB series",
+        "All lines"
+      ],
+      [
+        "STM32WL series",
+        "All lines"
+      ],
+      [
+        "STM32MP2 series",
+        "All lines"
+      ],
+      [
+        "STM32N6 series",
+        "All lines"
+      ],
+      [
+        "STM32U3 series",
+        "All lines"
+      ],
+      [
+        "STM32C5 series",
+        "All lines"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2,
+      "continuation": {
+        "base_cols": 2,
+        "cont_cols_raw": 2,
+        "target_cols": 2,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      },
+      "_notes": [
+        "1. Except the following part numbers, which don't embed RNG peripherals: STM32H745BG, STM32H745XG, STM32H745ZG, STM32H747AG, STM32H747AI, STM32H747BG, STM32H747IG, STM32H747II, STM32H747XG, STM32H757AI,",
+        "2. Except STM32WBA55HG and STM32WBA55UG. The true RNG implemented in the STM32 MCUs is based on an analog circuit. This circuit generates a"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4230",
+      "table_id": "table_2",
+      "is_continued": true,
+      "pages": [
+        2,
+        3
+      ],
+      "rows_count": 21,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_3",
+    "caption": "Table 3. RNG register values",
+    "pdf_name": "AN4230",
+    "family": "41",
+    "page": 20,
+    "merged_pages": [
+      20
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4230.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4230.pdf#page=20",
+    "section": "5.1.3 NIST compliant RNG configuration",
+    "headers": [
+      "Product(1)",
+      "RNG_CR value(2)",
+      "HTCR value",
+      "NSCR value",
+      "Certificate(3)"
+    ],
+    "rows": [
+      [
+        "STM32L4P/Q",
+        "0x00F00D00",
+        "0xAA74",
+        "default",
+        "-"
+      ],
+      [
+        "STM32L5",
+        "0x00F00D00",
+        "0xA2B3",
+        "default",
+        "-"
+      ],
+      [
+        "STM32U073x/83x",
+        "0x08F01E00",
+        "0x6683",
+        "0x003F",
+        "Yes"
+      ],
+      [
+        "STM32U575/585",
+        "0x00F00D00",
+        "0xA2B0",
+        "0x17CBB",
+        "Yes"
+      ],
+      [
+        "STM32U59x/5Ax",
+        "0x00F11F00",
+        "0x92F3",
+        "0x1609",
+        "Yes"
+      ],
+      [
+        "STM32U535/545",
+        "0x00F11F00",
+        "0x76B3",
+        "0x24C2",
+        "Yes"
+      ],
+      [
+        "STM32U5Fx/5Gx",
+        "0x00F11F00",
+        "0xA715",
+        "0x9049",
+        "Yes"
+      ],
+      [
+        "STM32H7Rx/7Sx",
+        "0x08F01E00",
+        "0x6a92",
+        "0x2F83F",
+        "Yes"
+      ],
+      [
+        "STM32H7A3/7B3",
+        "0x00F00D00",
+        "0x72AC",
+        "default",
+        "-"
+      ],
+      [
+        "STM32H72x/73x",
+        "0x00F00D00",
+        "0xAA74",
+        "default",
+        "-"
+      ],
+      [
+        "STM32WLx",
+        "0x00F00D00",
+        "0xAA74",
+        "default",
+        "-"
+      ],
+      [
+        "STM32H503",
+        "0x00F00D00",
+        "0xAAC7",
+        "default",
+        "-"
+      ],
+      [
+        "STM32H523/533",
+        "0x08F01E00",
+        "0x06689",
+        "0x2357F",
+        "Yes"
+      ],
+      [
+        "STM32H543/553",
+        "0x0845 1F00",
+        "0xAAC7",
+        "default",
+        "-"
+      ],
+      [
+        "STM32H563/573/562",
+        "0x00F01E00",
+        "0x6A91",
+        "0x3AF66",
+        "Yes"
+      ],
+      [
+        "STM32H5Ex/5Fx",
+        "0x08451F00",
+        "0xAAC7",
+        "default",
+        "-"
+      ],
+      [
+        "STM32WBA5x",
+        "0x08F01F00",
+        "0x6688",
+        "0x0FFF",
+        "Yes"
+      ],
+      [
+        "STM32MP13x",
+        "0x00F00D00",
+        "0x668A",
+        "0x2B5BB",
+        "Yes"
+      ],
+      [
+        "STM32MP25x",
+        "0x08F01E00",
+        "0x6688",
+        "0x2E649",
+        "Yes"
+      ],
+      [
+        "STM32U375/385",
+        "0x08351F00",
+        "0x6A8B",
+        "0x01FF",
+        "-"
+      ],
+      [
+        "STM32N6",
+        "0x08F00D00",
+        "0x6A93(4)",
+        "default",
+        "-"
+      ],
+      [
+        "STM32WBA6x",
+        "0x08401F00",
+        "0x6EA0",
+        "0x01FF",
+        "Yes"
+      ],
+      [
+        "STM32MP21x",
+        "0x08451F00",
+        "0x6A8C(4)",
+        "0x1DF",
+        "-"
+      ],
+      [
+        "STM32C5x",
+        "0x08451F00",
+        "0x6684",
+        "0x01BF",
+        "-"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 5,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 5,
+      "_notes": [
+        "1. A special device must be used to execute the NIST test suite, except for the STM32L4P/Q, STM32H7A3/7B3, and STM32H72x/73x.",
+        "2. The bit 6 of RNG_CR enables or disables the bypass of post‑processing/conditioning logic. This bit must be enabled to run the NIST SP800‑90B test suite.",
+        "3. \"Yes\" indicates when the configuration values are part of an official NIST SP800-90B certificate. Links to these certificates can be found in Table 4.",
+        "4. The HTCR value programmed in the product OTP fuse configuration (rng_htcr_value) applies only to the boot ROM. Because the OTP selection supports only a restricted set of HTCR values, set rng_htcr_value to 0x6, which corresponds to"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "vertical_merge_suspected"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4230",
+      "table_id": "table_3",
+      "is_continued": false,
+      "pages": [
+        20
+      ],
+      "rows_count": 24,
+      "cols_count": 5,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_4",
+    "caption": "Table 4. NIST SP800-90B certificates",
+    "pdf_name": "AN4230",
+    "family": "41",
+    "page": 20,
+    "merged_pages": [
+      20,
+      21
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4230.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4230.pdf#page=20",
+    "section": "5.1.3 NIST compliant RNG configuration",
+    "headers": [
+      "Product",
+      "B09-008PS yportne ecruos etacifitrec",
+      "NIST public use document"
+    ],
+    "rows": [
+      [
+        "STM32U575/585",
+        "#E11(1)",
+        "E11 public use(1)"
+      ],
+      [
+        "STM32U5Fx/5Gx",
+        "#E116(1)",
+        "E116 public(1)"
+      ],
+      [
+        "STM32U59x/5Ax",
+        "#E135(1)",
+        "E135 public(1)"
+      ],
+      [
+        "STM32U535x/545x",
+        "#E158",
+        "E158 public(1)"
+      ],
+      [
+        "STM32H56x/573",
+        "#E163(1)",
+        "E163 public(1)"
+      ],
+      [
+        "STM32MP13x",
+        "#E53(1)",
+        "E53 public use(1)"
+      ],
+      [
+        "STM32WBA5x",
+        "#E186(1)",
+        "E186 public(1)"
+      ],
+      [
+        "STM32U073x/83x",
+        "#E262(1)",
+        "E262 public(1)"
+      ],
+      [
+        "STM32H7Rx/7Sx",
+        "#E255(1)",
+        "E255 public(1)"
+      ],
+      [
+        "STM32H523/533",
+        "#E283(1)",
+        "E283 prblic(1)"
+      ],
+      [
+        "STM32MP25x",
+        "#228(1)",
+        "E228 public(1)"
+      ],
+      [
+        "STM32WBA6x",
+        "#299(1)",
+        "E299 public(1)"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "caption_near_bottom": true,
+      "caption_y_ratio": 0.775,
+      "cols_extracted": 3,
+      "continuation": {
+        "base_cols": 3,
+        "cont_cols_raw": 3,
+        "target_cols": 3,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      },
+      "_notes": [
+        "1. A special device must be used to execute the NIST test suite, except for the STM32L4P/Q, STM32H7A3/7B3, and STM32H72x/73x."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4230",
+      "table_id": "table_4",
+      "is_continued": true,
+      "pages": [
+        20,
+        21
+      ],
+      "rows_count": 12,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_5",
+    "caption": "Table 5. Document revision history",
+    "pdf_name": "AN4230",
+    "family": "41",
+    "page": 28,
+    "merged_pages": [
+      28
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4230.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4230.pdf#page=28",
+    "section": "6 Conclusion",
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "13-May-2013",
+        "1",
+        "Initial release."
+      ],
+      [
+        "22-Jun-2016",
+        "2",
+        "Updated: • Introduction. • Section 1: STM32 microcontrollers random number generator. • Figure 1: Block diagram. • Section 3.1: Firmware description. • Section 3.2.1: First step: random number generator. • Section 3.2.2: Second step: NIST statistical test. • Section 4: Conclusion. • Added • Figure 2: STM32 lines embedding the RNG hardware peripheral."
+      ],
+      [
+        "1-Oct-2019",
+        "3",
+        "Updated: • Introduction and Table 1: Applicable products • Table 2: STM32 lines embedding the RNG hardware peripheral • Figure 1: STM32 true RNG block diagram • Section 6: Conclusion • Appendix A: NIST SP800-22b statistical test suite Added: Section 4: NIST SP800-90b test suite Section 5: NIST SP800-90b test suite running and analyzing Appendix B: NIST SP800-90b statistical test suite"
+      ],
+      [
+        "10-Oct-2019",
+        "4",
+        "Updated Table 2: STM32 lines embedding the RNG hardware peripheral."
+      ],
+      [
+        "8-Jan-2020",
+        "5",
+        "Updated: • Table 1: Applicable products • Table 2: STM32 lines embedding the RNG hardware peripheral • Section 5.1.1: STM32 MCU side"
+      ],
+      [
+        "18-Aug-2020",
+        "6",
+        "Updated with new products STM32H72x/73x: • Table 1: Applicable products • Table 2: STM32 lines embedding the RNG hardware peripheral"
+      ],
+      [
+        "25-Aug-2021",
+        "6",
+        "Migration to DITA"
+      ],
+      [
+        "1-Jul-2022",
+        "7",
+        "Updated: • Table 1: Applicable products • NIST SP800-22rev1a test suite • NIST SP800-90b test suite • Firmware description used for RNG NIST evaluation"
+      ],
+      [
+        "09-Mar-2023",
+        "8",
+        "Updated the following elements to add STM32H5 and STM32WBA series: • Table 1. Applicable products. • Table 2. STM32 lines embedding the RNG hardware peripheral. • Section 5.1.3: NIST compliant RNG configuration. Updated the document title. Applied minor changes to the whole document."
+      ],
+      [
+        "10-Jan-2024",
+        "9",
+        "Updated: • Document title. • Table 1. Applicable products. • Table 2. STM32 lines embedding the RNG hardware peripheral. • Figure 2. STM32 true RNG block diagram of the products verified with the SP800-90b. • Table 3. RNG register values. • Section 5.1.3: NIST compliant RNG configuration.."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN4230",
+      "table_id": "table_5",
+      "is_continued": false,
+      "pages": [
+        28
+      ],
+      "rows_count": 10,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  }
+]

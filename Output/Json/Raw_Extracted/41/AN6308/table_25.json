@@ -1,0 +1,98 @@
+{
+  "table_id": "table_25",
+  "caption": "Table 25. ADC differences between devices",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 39,
+  "merged_pages": [
+    39
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=39",
+  "section": "6.5.1 Analog-to-digital converter (ADC)",
+  "headers": [
+    "ADC",
+    "STM32H523/533",
+    "STM32C5"
+  ],
+  "rows": [
+    [
+      "Instances",
+      "x2",
+      "x3 on 2 interfaces (ADC12 and ADC3)"
+    ],
+    [
+      "Resolution",
+      "12-bit",
+      "12-bit"
+    ],
+    [
+      "Number of channels",
+      "Up to 20",
+      "Up to 28"
+    ],
+    [
+      "Configurable resolution",
+      "12-bit, 10-bit, 8-bit, or, 6-bit",
+      "12-bit, 10-bit, 8-bit, or, 6-bit"
+    ],
+    [
+      "Maximum sampling speed",
+      "5 MSPS",
+      "2.25 MSPS 4.5 MSPS in dual interleaved mode"
+    ],
+    [
+      "Conversion modes",
+      "• Single • Continuous • Scan • Discontinuous • Dual mode",
+      "• Single • Continuous • Scan • Discontinuous • Dual mode"
+    ],
+    [
+      "DMA support",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Data register",
+      "16-bit data register",
+      "16-bit data register"
+    ],
+    [
+      "Analog watchdog feature",
+      "This feature allows the application to detect if the input voltage goes outside the user-defined high or low threshold",
+      "This feature allows the application to detect if the input voltage goes outside the user-defined high or low threshold"
+    ],
+    [
+      "ADC input range:",
+      "VSSA ≤ VIN ≤ VREF+",
+      "VREF– ≤ VIN ≤ VREF+"
+    ],
+    [
+      "New features",
+      "NA",
+      "The oversampling is adjustable from 2 to 1024"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_25",
+    "is_continued": false,
+    "pages": [
+      39
+    ],
+    "rows_count": 11,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

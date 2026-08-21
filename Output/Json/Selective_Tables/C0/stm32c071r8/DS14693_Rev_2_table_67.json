@@ -1,0 +1,100 @@
+{
+  "table_id": "table_67",
+  "document": "DS14693 Rev 2 - Table 67. USB electrical characteristics",
+  "rev": "Rev 2",
+  "table_number": "67",
+  "title": "Table 67. USB electrical characteristics",
+  "page": 98,
+  "section": "5.3.19 Characteristics of communication interfaces",
+  "section_title": "Characteristics of communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=98",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 67. USB electrical characteristics — section 5.3.19 Characteristics of communication interfaces. Symbol, Parameter(1)(2), Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter(1)(2)",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DDIO2",
+        "USB full speed transceiver operating voltage",
+        "-",
+        "3.0(3)",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "t STARTUP",
+        "USB transceiver startup time",
+        "-",
+        "-",
+        "-",
+        "1",
+        "µs"
+      ],
+      [
+        "R PD",
+        "Pull down resistor on PA11 (USB_DM), PA12 (USB_DP)",
+        "V = V IN DD",
+        "14.25",
+        "-",
+        "24.8",
+        "kΩ"
+      ],
+      [
+        "R PU",
+        "Pull Up Resistor on PA12 (USB_DP)",
+        "V = V , during idle IN SS",
+        "0.9",
+        "1.25",
+        "1.575",
+        "kΩ"
+      ],
+      [
+        "R PU",
+        "Pull Up Resistor on PA12 (USB_DP)",
+        "V = V , during reception IN SS",
+        "1.425",
+        "2.25",
+        "3.09",
+        "kΩ"
+      ],
+      [
+        "VCRS",
+        "Output signal crossover voltage",
+        "-",
+        "1.3",
+        "-",
+        "2",
+        "V"
+      ],
+      [
+        "ZDRV",
+        "Output driver impedance(4)",
+        "Driving high or low",
+        "28",
+        "36",
+        "44",
+        "Ω"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production.",
+      "2. LSB transmit/receive of the previously transmitted byte. No LSB transmit/receive is sent before the first byte.",
+      "3. The USB full speed transceiver functionality is ensured down to 2.7 V but not the full USB full speed electrical characteristics. These are degraded in the V voltage range from 2.7 V to 3.0 V.",
+      "4. No external termination series resistors are required on DP (D+) and DM (D-) pins as the matching impedance is included in the embedded driver"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

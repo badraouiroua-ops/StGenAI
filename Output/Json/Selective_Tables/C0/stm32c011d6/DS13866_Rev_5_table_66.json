@@ -1,0 +1,202 @@
+{
+  "table_id": "table_66",
+  "document": "DS13866 Rev 5 - Table 66. WLCSP12 – Mechanical data",
+  "rev": "Rev 5",
+  "table_number": "66",
+  "title": "Table 66. WLCSP12 – Mechanical data",
+  "page": 84,
+  "section": "6.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=84",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "Table 66. WLCSP12 – Mechanical data — section 6.1 Device marking. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(1) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min",
+      "millimeters / Typ",
+      "millimeters / Max",
+      "inches(1) / Min",
+      "inches(1) / Typ",
+      "inches(1) / Max"
+    ],
+    "rows": [
+      [
+        "A(2)",
+        "-",
+        "-",
+        "0.49",
+        "-",
+        "-",
+        "0.0193"
+      ],
+      [
+        "A1",
+        "-",
+        "0.17",
+        "-",
+        "-",
+        "0.0067",
+        "-"
+      ],
+      [
+        "A2",
+        "-",
+        "0.29",
+        "-",
+        "-",
+        "0.0114",
+        "-"
+      ],
+      [
+        "A3(3)",
+        "-",
+        "0.025",
+        "-",
+        "-",
+        "0.0098",
+        "-"
+      ],
+      [
+        "Ø b(4)",
+        "0.21",
+        "0.24",
+        "0.27",
+        "0.0083",
+        "0.0094",
+        "0.0106"
+      ],
+      [
+        "D",
+        "1.68",
+        "1.70",
+        "1.72",
+        "0.0661",
+        "0.0669",
+        "0.0677"
+      ],
+      [
+        "E",
+        "1.41",
+        "1.42",
+        "1.43",
+        "0.0555",
+        "0.0559",
+        "0.0563"
+      ],
+      [
+        "e",
+        "-",
+        "0.35",
+        "-",
+        "-",
+        "0.0138",
+        "-"
+      ],
+      [
+        "e1",
+        "-",
+        "0.909",
+        "-",
+        "-",
+        "0.0358",
+        "-"
+      ],
+      [
+        "e2",
+        "-",
+        "0.875",
+        "-",
+        "-",
+        "0.0344",
+        "-"
+      ],
+      [
+        "F(5)",
+        "-",
+        "0.409",
+        "-",
+        "-",
+        "0.0161",
+        "-"
+      ],
+      [
+        "G(5)",
+        "-",
+        "0.282",
+        "-",
+        "-",
+        "0.0111",
+        "-"
+      ],
+      [
+        "N",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+      ],
+      [
+        "aaa",
+        "-",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.0039"
+      ],
+      [
+        "bbb",
+        "-",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.0039"
+      ],
+      [
+        "ccc(6)",
+        "-",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.0039"
+      ],
+      [
+        "ddd(7)",
+        "-",
+        "-",
+        "0.05",
+        "-",
+        "-",
+        "0.0020"
+      ],
+      [
+        "eee",
+        "-",
+        "-",
+        "0.05",
+        "-",
+        "-",
+        "0.0020"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "2. The maximum total package height is calculated by the RSS method (Root Sum Square) using nominal and tolerances values of A1 and A2.",
+      "3. Back side coating. Nominal dimension is rounded to the 3rd decimal place resulting from process capability.",
+      "4. Dimension is measured at the maximum bump diameter parallel to primary datum Z.",
+      "5. Calculated dimensions are rounded to the 3rd decimal place",
+      "6. Bump position designation per JESD 95-1, SPP-010. The tolerance of position that controls the location of the pattern of balls with respect to datums X and Y. For each ball there is a cylindrical tolerance zone ccc",
+      "7. The tolerance of position that controls the location of the balls within the matrix with respect to each other. For each ball there is a cylindrical tolerance zone ddd perpendicular to datum Z and located on true"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

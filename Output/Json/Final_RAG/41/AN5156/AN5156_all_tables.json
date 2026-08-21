@@ -1,0 +1,2130 @@
+[
+  {
+    "table_id": "table_1",
+    "document": "Table 1. Applicable products",
+    "rev": null,
+    "table_number": "1",
+    "title": "Table 1. Applicable products",
+    "page": 1,
+    "section": "AN5156",
+    "section_title": "AN5156",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=1",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 1. Applicable products — section AN5156. Type, Product series.",
+    "table_content": {
+      "headers": [
+        "Type",
+        "Product series"
+      ],
+      "rows": [
+        [
+          "Microcontrollers",
+          "STM32C0, STM32C5, STM32F0, STM32F1, STM32F2, STM32F3, STM32F4, STM32F7, STM32G0, STM32G4, STM32H5, STM32H7, STM32L0, STM32L1, STM32L4, STM32L4+, STM32L5, STM32N6, STM32U0, STM32U3, STM32U5, STM32WB, STM32WBA, STM32WB0, STM32WL."
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_2",
+    "document": "Table 2. Glossary.",
+    "rev": null,
+    "table_number": "2",
+    "title": "Table 2. Glossary.",
+    "page": 2,
+    "section": "1 General information",
+    "section_title": "General information",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=2",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 2. Glossary. — section 1 General information. Term, Definition.",
+    "table_content": {
+      "headers": [
+        "Term",
+        "Definition"
+      ],
+      "rows": [
+        [
+          "AES",
+          "Advanced encryption standard"
+        ],
+        [
+          "CCM",
+          "Core-coupled memory (SRAM)"
+        ],
+        [
+          "CPU",
+          "Central processing unit–core of the microcontroller"
+        ],
+        [
+          "CSS",
+          "Clock security system"
+        ],
+        [
+          "DoS",
+          "Denial of service (attack)"
+        ],
+        [
+          "DRNG",
+          "Deterministic random number generator: generates pseudo-random number from input value"
+        ],
+        [
+          "DPA",
+          "Differential power analysis"
+        ],
+        [
+          "ECC",
+          "Error code correction"
+        ],
+        [
+          "FIA",
+          "Fault injection attack"
+        ],
+        [
+          "FIB",
+          "Focused ion beam"
+        ],
+        [
+          "GTZC",
+          "Global TrustZone® controller"
+        ],
+        [
+          "HDP",
+          "Secure hide protection"
+        ],
+        [
+          "HUK",
+          "Hardware unique key"
+        ],
+        [
+          "IAP",
+          "In-application programming"
+        ],
+        [
+          "IAT",
+          "Initial attestation token"
+        ],
+        [
+          "IoT",
+          "Internet of things"
+        ],
+        [
+          "IV",
+          "Initialization vector (cryptographic algorithms)"
+        ],
+        [
+          "IWDG",
+          "Independent watchdog"
+        ],
+        [
+          "MAC",
+          "Message authentication code"
+        ],
+        [
+          "MCU",
+          "Microcontroller unit (STM32 Arm® Cortex®-M based devices)"
+        ],
+        [
+          "MPCBB",
+          "Memory protection block-based controller"
+        ],
+        [
+          "MPCWM",
+          "Memory protection watermark-based controller"
+        ],
+        [
+          "MPU",
+          "Memory protection unit"
+        ],
+        [
+          "NSC",
+          "Nonsecure callable"
+        ],
+        [
+          "NVM",
+          "Nonvolatile memory"
+        ],
+        [
+          "OTFDEC",
+          "On-the-fly decryption"
+        ],
+        [
+          "OTP",
+          "One-time programmable"
+        ],
+        [
+          "PCROP",
+          "Proprietary code readout protection"
+        ],
+        [
+          "PKA",
+          "Public key algorithm (also named aka asymmetric algorithm)"
+        ],
+        [
+          "PSA",
+          "Platform security architecture"
+        ],
+        [
+          "PVD",
+          "Programmable voltage detector"
+        ],
+        [
+          "PWR",
+          "Power control"
+        ],
+        [
+          "ROM",
+          "Read only memory–system flash memory in STM32"
+        ],
+        [
+          "RoT",
+          "Root of trust"
+        ],
+        [
+          "RDP",
+          "Read protection"
+        ],
+        [
+          "RIF",
+          "Resource isolation framework"
+        ],
+        [
+          "RSS",
+          "Root secure services"
+        ],
+        [
+          "RTC",
+          "Real-time clock"
+        ],
+        [
+          "SAU",
+          "Security attribution unit"
+        ],
+        [
+          "SB",
+          "Secure boot"
+        ],
+        [
+          "SCA",
+          "Side channel attack"
+        ],
+        [
+          "SDRAM",
+          "Synchronous dynamic random access memory"
+        ],
+        [
+          "SECDED",
+          "ECC mode of operation: single error correct, double error detect"
+        ],
+        [
+          "SFI",
+          "Secure firmware installation"
+        ],
+        [
+          "SFU",
+          "Secure firmware update"
+        ],
+        [
+          "SPA",
+          "Simple power analysis"
+        ],
+        [
+          "SPE",
+          "Secure processing environment"
+        ],
+        [
+          "SRAM",
+          "Static random access memory (volatile)"
+        ],
+        [
+          "SST",
+          "Secure storage"
+        ],
+        [
+          "STSAFE",
+          "Secure element product from STMicroelectronics portfolio"
+        ],
+        [
+          "SWD",
+          "Serial-wire debug"
+        ],
+        [
+          "TF-M",
+          "Trusted firmware-M"
+        ],
+        [
+          "WRP",
+          "Write protection"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_3",
+    "document": "Table 3. Assets to be protected",
+    "rev": null,
+    "table_number": "3",
+    "title": "Table 3. Assets to be protected",
+    "page": 7,
+    "section": "2.1 Security purpose",
+    "section_title": "Security purpose",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=7",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 3. Assets to be protected — section 2.1 Security purpose. Target, Assets, Risks.",
+    "table_content": {
+      "headers": [
+        "Target",
+        "Assets",
+        "Risks"
+      ],
+      "rows": [
+        [
+          "Data",
+          "Sensor data (such as healthcare data or log of positions) User data (such as ID, PIN, password, or accounts) Transactions logs Cryptographic keys",
+          "Unauthorized sale of personal data Usurpation Spying Blackmail"
+        ],
+        [
+          "Control of device (bootloader, malicious application)",
+          "Device correct functionality Device/user identity",
+          "Denial of service Attacks on service providers Fraudulent access to service (cloud)"
+        ],
+        [
+          "User code",
+          "Device hardware architecture/design Software patent/architecture Technology patents",
+          "Device counterfeit Software counterfeit Software modification Access to secure areas"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_4",
+    "document": "Table 4. Attacks types and costs",
+    "rev": null,
+    "table_number": "4",
+    "title": "Table 4. Attacks types and costs",
+    "page": 9,
+    "section": "3.1 Introduction to attack types",
+    "section_title": "Introduction to attack types",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=9",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 4. Attacks types and costs — section 3.1 Introduction to attack types. Attacks types, Non-invasive, Semi–invasive, Invasive.",
+    "table_content": {
+      "headers": [
+        "Attacks types",
+        "Non-invasive",
+        "Semi–invasive",
+        "Invasive"
+      ],
+      "rows": [
+        [
+          "-",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Scope",
+          "Remote or local",
+          "Local board and device level",
+          "Local device level"
+        ],
+        [
+          "Techniques",
+          "Software bugs Protocol weaknesses Trojan horse Eavesdropping",
+          "Debug port Power glitches Fault injection Side-channels analysis",
+          "Probing Laser FIB Reverse engineering"
+        ],
+        [
+          "Cost/ expertise",
+          "From very low to high, depending on the security failure targeted",
+          "Quite low cost. Need only moderately sophisticated equipment and knowledge to implement.",
+          "Very expensive. Need dedicated equipment and very specific skills."
+        ],
+        [
+          "Objectives",
+          "Access to confidential assets (code and data). Usurpation Denial of service",
+          "Access to secret data or device internal behavior (algorithm).",
+          "Reverse engineering of the device (silicon intellectual property) Access to hidden hardware and software secrets (flash memory access)"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_5",
+    "document": "Table 5. Memory types and associated protection",
+    "rev": null,
+    "table_number": "5",
+    "title": "Table 5. Memory types and associated protection",
+    "page": 20,
+    "section": "4.4 Memory protections",
+    "section_title": "Memory protections",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=20",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 5. Memory types and associated protection — section 4.4 Memory protections. Memory, Types, Description, Protections.",
+    "table_content": {
+      "headers": [
+        "Memory",
+        "Types",
+        "Description",
+        "Protections"
+      ],
+      "rows": [
+        [
+          "System flash memory",
+          "• Internal",
+          "ROM part of the flash memory. Embeds device bootloader and other ST services.",
+          "Cannot be updated (erase/written). A part may also be unreadable."
+        ],
+        [
+          "User flash memory",
+          "• Internal",
+          "Flash memory for user application",
+          "Internal protections: • RDP • WRP • TrustZone • PCROP (not for SRAM) • OTP (not in SRAM) • Firewall • Secure hide protection (not for SRAM) • MPU"
+        ],
+        [
+          "SRAM",
+          "• Internal",
+          "Working memory for stack, heap or buffers. Can be used to execute the firmware downloaded from internal or external non-volatile memories.",
+          "Internal protections: • RDP • WRP • TrustZone • PCROP (not for SRAM) • OTP (not in SRAM) • Firewall • Secure hide protection (not for SRAM) • MPU"
+        ],
+        [
+          "NAND, NOR, octo‑SPI, or quad‑SPI flash memory",
+          "• External",
+          "Additional memory for applications or data storage",
+          "• Cryptography (MCE, OTFDEC)"
+        ],
+        [
+          "SDRAM",
+          "• External",
+          "Additional RAM for application execution",
+          "Cryptography (MCE)"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_6",
+    "document": "Table 6. Scope of STM32 embedded memory protection features",
+    "rev": null,
+    "table_number": "6",
+    "title": "Table 6. Scope of STM32 embedded memory protection features",
+    "page": 22,
+    "section": "4.4.4 External flash memories",
+    "section_title": "External flash memories",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=22",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 6. Scope of STM32 embedded memory protection features — section 4.4.4 External flash memories. Feature, External attack protection, Internal attack protection, Flash memory, SRAM.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "External attack protection",
+        "Internal attack protection",
+        "Flash memory",
+        "SRAM"
+      ],
+      "rows": [
+        [
+          "RDP, life cycle",
+          "Yes",
+          "No",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Firewall",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "MPU",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "PCROP(1)",
+          "Yes",
+          "Yes (read/write)",
+          "Yes",
+          "No"
+        ],
+        [
+          "WRP(2)",
+          "Yes",
+          "Yes",
+          "Yes",
+          "No"
+        ],
+        [
+          "HDP",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes (for execution)(3)"
+        ],
+        [
+          "TrustZone®, RIF",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ]
+      ],
+      "notes": [
+        "1. Support of this feature in Armv6-M products is limited as constant data cannot be stored in NVM.",
+        "2. Write protection can be unset when RDP level ≠ 2.",
+        "3. The SRAM is protected by a secure area only at secure code execution. It must be cleaned before leaving the secure area."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_7",
+    "document": "Table 7. Software isolation mechanism.",
+    "rev": null,
+    "table_number": "7",
+    "title": "Table 7. Software isolation mechanism.",
+    "page": 22,
+    "section": "4.5 Software isolation",
+    "section_title": "Software isolation",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=22",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 7. Software isolation mechanism. — section 4.5 Software isolation. Protection, Type, Isolation.",
+    "table_content": {
+      "headers": [
+        "Protection",
+        "Type",
+        "Isolation"
+      ],
+      "rows": [
+        [
+          "MPU",
+          "Dynamic",
+          "By privilege attribute (1)"
+        ],
+        [
+          "Firewall",
+          "Static",
+          "By bus address hardware control"
+        ],
+        [
+          "Secure hide protection (HDP)",
+          "Static",
+          "Process preemption at reset"
+        ],
+        [
+          "Dual core",
+          "Static",
+          "By core ID(2)"
+        ],
+        [
+          "TrustZone®/Security attribute",
+          "Static and dynamic",
+          "By secure attribute propagated from the core to all resources"
+        ]
+      ],
+      "notes": [
+        "1. Support of this feature in Armv6-M products is limited as constant data cannot be stored in NVM.",
+        "2. Write protection can be unset when RDP level ≠ 2."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_8",
+    "document": "Table 8. Basic feature differences of TrustZone®-based secure software.",
+    "rev": null,
+    "table_number": "8",
+    "title": "Table 8. Basic feature differences of TrustZone®-based secure software.",
+    "page": 27,
+    "section": "5.4 Arm TF-M solution",
+    "section_title": "Arm TF-M solution",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=27",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 8. Basic feature differences of TrustZone®-based secure software. — section 5.4 Arm TF-M solution. Feature, SBSFU for TrustZone®, TF-M.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "SBSFU for TrustZone®",
+        "TF-M"
+      ],
+      "rows": [
+        [
+          "RoT services",
+          "Immutable RoT",
+          "Immutable RoT + updatable RoT"
+        ],
+        [
+          "Cryptographic key management",
+          "Static keys only",
+          "Key storage hierarchy with HUK root key"
+        ],
+        [
+          "Secure storage",
+          "Absent",
+          "Internal and external"
+        ],
+        [
+          "NV counter",
+          "No",
+          "Yes"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_9",
+    "document": "Table 9. Certifications coverage.",
+    "rev": null,
+    "table_number": "9",
+    "title": "Table 9. Certifications coverage.",
+    "page": 27,
+    "section": "5.6 Product certifications",
+    "section_title": "Product certifications",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=27",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 9. Certifications coverage. — section 5.6 Product certifications. MCU series, Crypto conformance certification, Security system certification, Security system certification with physical resistance (invasive).",
+    "table_content": {
+      "headers": [
+        "MCU series",
+        "Crypto conformance certification",
+        "Security system certification",
+        "Security system certification with physical resistance (invasive)"
+      ],
+      "rows": [
+        [
+          "STM32G0/",
+          "FIPS CAVP, SP800-90A",
+          "PSA L1",
+          "-"
+        ],
+        [
+          "STM32G4",
+          "FIPS CAVP, SP800-90A",
+          "PSA L1",
+          "-"
+        ],
+        [
+          "STM32L4",
+          "",
+          "",
+          ""
+        ],
+        [
+          "STM32L4+",
+          "FIPS CAVP, SP800-90B",
+          "FIPS CAVP, SP800-90B",
+          "FIPS CAVP, SP800-90B"
+        ],
+        [
+          "STM32H7",
+          "",
+          "",
+          ""
+        ],
+        [
+          "STM32L5",
+          "",
+          "PSA L1, SESIP L3",
+          "PSA L1, SESIP L3"
+        ],
+        [
+          "STM32WBA",
+          "",
+          "Yes",
+          "PSA L3, SESIP L3 (with TF-M)"
+        ],
+        [
+          "STM32U5",
+          "",
+          "",
+          ""
+        ],
+        [
+          "STM32H5",
+          "",
+          "",
+          "PSA L3, SESIP L3 (with Secure Manager)"
+        ],
+        [
+          "STM32H7Sx, STM32C0, STM32C5, STM32U0",
+          "",
+          "",
+          "PSA L3, SESIP L3 (using iRoT)"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_10",
+    "document": "Table 10. Security features for STM32C0/5, STM32F0/1/2/3/4, STM32G0/4 devices",
+    "rev": null,
+    "table_number": "10",
+    "title": "Table 10. Security features for STM32C0/5, STM32F0/1/2/3/4, STM32G0/4 devices",
+    "page": 29,
+    "section": "6.1.1 Static and dynamic protections",
+    "section_title": "Static and dynamic protections",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=29",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 10. Security features for STM32C0/5, STM32F0/1/2/3/4, STM32G0/4 devices — section 6.1.1 Static and dynamic protections. Feature, Feature, STM32C0, STM32C5, STM32F0, +6 autres.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "Feature",
+        "STM32C0",
+        "STM32C5",
+        "STM32F0",
+        "STM32F1",
+        "STM32F2",
+        "STM32F3",
+        "STM32F4",
+        "STM32G0",
+        "STM32G4"
+      ],
+      "rows": [
+        [
+          "Cortex core",
+          "Cortex core",
+          "Cortex‑M0+",
+          "Cortex‑M33",
+          "Cortex‑M0",
+          "Cortex‑M3",
+          "Cortex‑M3",
+          "Cortex‑M4",
+          "Cortex‑M4",
+          "Cortex‑M0+",
+          "Cortex‑M4"
+        ],
+        [
+          "RDP additional protection",
+          "RDP additional protection",
+          "Bad OBL recovery",
+          "Backup registers, SRAM2, 2- level RDP only",
+          "Backup registers",
+          "2-level RDP only",
+          "Backup SRAM",
+          "Backup registers",
+          "Backup SRAM",
+          "Backup registers",
+          "Backup registers, CCMSRAM"
+        ],
+        [
+          "Flash WRP",
+          "Flash WRP",
+          "By area with 2‑Kbyte granularity, two areas available",
+          "By pages (8 Kbytes)",
+          "By sectors (4 Kbytes)",
+          "By pages (4 K or 8 Kbytes)",
+          "By sectors (16 K, 64 K, or 128 Kbytes)",
+          "By sectors (4 Kbytes)",
+          "By sectors (16 K, 64 K, or 128 Kbytes)",
+          "By area with 2‑Kbyte granularity, two areas available",
+          "By page (2 K or 4 Kbytes)"
+        ],
+        [
+          "SRAM WRP",
+          "SRAM WRP",
+          "No",
+          "SRAM2, 1‑Kbyte granularity",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "CCM SRAM, with 1‑Kbyte granularity"
+        ],
+        [
+          "PCROP",
+          "PCROP",
+          "By area with 256‑byte granularity, one area per bank",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "By sectors",
+          "By area with 512‑byte granularity, two areas available",
+          "By area with 64‑ or 128‑bit granularity, up to two areas"
+        ],
+        [
+          "HDP",
+          "HDP",
+          "Yes (securable memory area)",
+          "Yes, 3 levels",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "Yes (securable memory area)",
+          "Yes (securable memory area)"
+        ],
+        [
+          "Firewall",
+          "Firewall",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "MPU",
+          "MPU",
+          "Yes",
+          "Yes",
+          "No",
+          "Yes(1)",
+          "Yes",
+          "Yes(2)",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "OTP",
+          "OTP",
+          "1 Kbyte",
+          "4.5 Kbyte",
+          "No",
+          "No",
+          "Yes",
+          "Yes",
+          "512 bytes",
+          "1 Kbyte",
+          "1 Kbyte"
+        ],
+        [
+          "UBE(3)",
+          "UBE(3)",
+          "Yes (boot lock feature)",
+          "Yes (boot lock feature)",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "Yes (boot lock feature)",
+          "Yes"
+        ],
+        [
+          "Internal tamper detection",
+          "Internal tamper detection",
+          "No",
+          "Yes",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Hardware crypto(4)",
+          "Hardware crypto(4)",
+          "No",
+          "AES, HASH, SAES, PKA, CCB",
+          "No",
+          "No",
+          "AES, HASH",
+          "No",
+          "AES, HASH",
+          "AES",
+          "AES"
+        ],
+        [
+          "RNG",
+          "RNG",
+          "No",
+          "SP800‑90‑B",
+          "No",
+          "No",
+          "SP800‑90‑A",
+          "No",
+          "SP800‑90‑A",
+          "SP800‑90‑A",
+          "SP800‑90‑A"
+        ],
+        [
+          "Secure software",
+          "SBSFU",
+          "No",
+          "Yes",
+          "No",
+          "No",
+          "No",
+          "No",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "TF-M",
+          "TF-M",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "KMS",
+          "KMS",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No"
+        ]
+      ],
+      "notes": [
+        "1. Only XL density devices feature the MPU.",
+        "2. MPU is not universally supported in STM32F3 series. Refer to the product datasheet to confirm availability.",
+        "3. Unique boot entry.",
+        "4. For most devices with hardware crypto capability, there is a direct equivalent without it."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_11",
+    "document": "Table 11. Security features for STM32L0/1/4/4+ and STM32U0 devices",
+    "rev": null,
+    "table_number": "11",
+    "title": "Table 11. Security features for STM32L0/1/4/4+ and STM32U0 devices",
+    "page": 30,
+    "section": "6.1.1 Static and dynamic protections",
+    "section_title": "Static and dynamic protections",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=30",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 11. Security features for STM32L0/1/4/4+ and STM32U0 devices — section 6.1.1 Static and dynamic protections. Feature, Feature, STM32L0, STM32L1, STM32L4, +2 autres.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "Feature",
+        "STM32L0",
+        "STM32L1",
+        "STM32L4",
+        "STM32L4+",
+        "STM32U0"
+      ],
+      "rows": [
+        [
+          "Cortex core",
+          "Cortex core",
+          "Cortex‑M0",
+          "Cortex‑M3",
+          "Cortex‑M4",
+          "Cortex‑M4",
+          "Cortex‑M0+"
+        ],
+        [
+          "RDP additional protection",
+          "RDP additional protection",
+          "EEPROM",
+          "EEPROM",
+          "Backup registers, SRAM2",
+          "Backup registers, SRAM2",
+          "Backup registers, SRAM2"
+        ],
+        [
+          "Flash WRP",
+          "Flash WRP",
+          "By sectors (4 Kbytes)",
+          "By sectors (4 Kbytes)",
+          "By area with 2‑Kbyte granularity, one area per bank",
+          "By area with 2‑Kbyte granularity, one area per bank",
+          "Two areas per bank defined by page range"
+        ],
+        [
+          "SRAM WRP",
+          "SRAM WRP",
+          "No",
+          "No",
+          "SRAM2, with 1‑Kbyte granularity",
+          "SRAM2, with 1‑Kbyte granularity",
+          "No"
+        ],
+        [
+          "PCROP",
+          "PCROP",
+          "By sectors",
+          "By sectors",
+          "By area with 8‑byte granularity, one area per bank",
+          "By area with 8‑byte granularity, one area per bank",
+          "No"
+        ],
+        [
+          "HDP",
+          "HDP",
+          "No",
+          "No",
+          "No",
+          "No",
+          "Yes, with second stage extension"
+        ],
+        [
+          "Firewall",
+          "Firewall",
+          "Yes",
+          "No",
+          "Yes",
+          "Yes",
+          "No"
+        ],
+        [
+          "MPU",
+          "MPU",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "OTP",
+          "OTP",
+          "No",
+          "No",
+          "1 Kbyte",
+          "1 Kbyte",
+          "1 Kbyte"
+        ],
+        [
+          "UBE(1)",
+          "UBE(1)",
+          "No",
+          "No",
+          "No",
+          "No",
+          "Yes (boot lock feature)"
+        ],
+        [
+          "Internal tamper detection",
+          "Internal tamper detection",
+          "No",
+          "No",
+          "No",
+          "No",
+          "Yes"
+        ],
+        [
+          "Hardware crypto(2)",
+          "Hardware crypto(2)",
+          "AES",
+          "AES",
+          "AES, HASH",
+          "AES, HASH, (some PKA)",
+          "AES"
+        ],
+        [
+          "RNG",
+          "RNG",
+          "No",
+          "No",
+          "SP800‑90‑A",
+          "SP800‑90‑B",
+          "SP800‑90‑B"
+        ],
+        [
+          "Secure software",
+          "SBSFU",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "MCUboot"
+        ],
+        [
+          "Secure software",
+          "TF-M",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Secure software",
+          "KMS",
+          "No",
+          "No",
+          "Yes",
+          "Yes",
+          "No"
+        ]
+      ],
+      "notes": [
+        "1. Only XL density devices feature the MPU.",
+        "2. MPU is not universally supported in STM32F3 series. Refer to the product datasheet to confirm availability."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_12",
+    "document": "Table 12. Security features for STM32WB, STM32WBA, STM32WB0x, STM32WL, and STM32WL3 devices",
+    "rev": null,
+    "table_number": "12",
+    "title": "Table 12. Security features for STM32WB, STM32WBA, STM32WB0x, STM32WL, and STM32WL3 devices",
+    "page": 30,
+    "section": "6.1.1 Static and dynamic protections",
+    "section_title": "Static and dynamic protections",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=30",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 12. Security features for STM32WB, STM32WBA, STM32WB0x, STM32WL, and STM32WL3 devices — section 6.1.1 Static and dynamic protections. Feature, Feature, STM32WB, STM32WBA, STM32WB0x, +2 autres.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "Feature",
+        "STM32WB",
+        "STM32WBA",
+        "STM32WB0x",
+        "STM32WL",
+        "STM32WL3"
+      ],
+      "rows": [
+        [
+          "Cortex core",
+          "Cortex core",
+          "Cortex‑M4/Cortex‑M0+",
+          "Cortex‑M33",
+          "Cortex‑M0+",
+          "Cortex‑M4/Cortex‑M0+",
+          "Cortex‑M0+"
+        ],
+        [
+          "RDP additional protection",
+          "RDP additional protection",
+          "Backup registers, SRAM2",
+          "RDP four levels,backup registers, SRAM",
+          "No",
+          "Backup registers, SRAM2",
+          "No"
+        ],
+        [
+          "Flash WRP",
+          "Flash WRP",
+          "By area with 4‑Kbyte granularity, two areas available",
+          "Two areas, defined by page range",
+          "By area with 2‑Kbyte granularity, two areas available",
+          "By area with 2‑Kbyte granularity, two areas available",
+          "Four areas"
+        ],
+        [
+          "SRAM WRP",
+          "SRAM WRP",
+          "SRAM2, with 1‑Kbyte granularity",
+          "SRAM2, with 1‑Kbyte granularity",
+          "No",
+          "SRAM2, with 1‑Kbyte granularity",
+          "No"
+        ],
+        [
+          "PCROP",
+          "PCROP",
+          "By area with 2‑Kbyte granularity, up to two areas",
+          "No",
+          "No",
+          "By area with 1‑Kbyte granularity, two areas available",
+          "No"
+        ],
+        [
+          "HDP",
+          "HDP",
+          "Yes (dedicated to Cortex‑M0+ firmware only)",
+          "Yes",
+          "No",
+          "Yes",
+          "No"
+        ],
+        [
+          "Firewall",
+          "Firewall",
+          "No",
+          "No",
+          "No",
+          "Yes",
+          "No"
+        ],
+        [
+          "MPU",
+          "MPU",
+          "Yes (Cortex‑M4)",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "OTP",
+          "OTP",
+          "1 Kbyte",
+          "1 Kbyte",
+          "1 Kbyte",
+          "1 Kbyte",
+          "1 Kbyte"
+        ],
+        [
+          "UBE(1)",
+          "UBE(1)",
+          "No",
+          "Yes (lockable secure and NS address)",
+          "No",
+          "Yes (boot lock feature)",
+          "No"
+        ],
+        [
+          "Internal tamper detection",
+          "Internal tamper detection",
+          "No",
+          "Yes",
+          "No",
+          "Yes",
+          "No"
+        ],
+        [
+          "Hardware crypto(2)",
+          "Hardware crypto(2)",
+          "AES, PKA",
+          "AES, HASH, PKA",
+          "AES(3), PKA",
+          "AES(3), PKA",
+          "AES"
+        ],
+        [
+          "RNG",
+          "RNG",
+          "SP800‑90‑A",
+          "SP800‑90‑B",
+          "SP800‑90‑B",
+          "SP800‑90‑B",
+          "SP800‑90‑B"
+        ],
+        [
+          "Secure software",
+          "SBSFU",
+          "Yes",
+          "Yes",
+          "Yes(4)",
+          "Yes",
+          "Yes(4)"
+        ],
+        [
+          "TF-M",
+          "TF-M",
+          "No",
+          "Yes",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "KMS",
+          "KMS",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No"
+        ]
+      ],
+      "notes": [
+        "1. Unique boot entry.",
+        "2. For most devices with hardware crypto capability, there is a direct equivalent without it.",
+        "3. Only the selected STM32U3 series feature the CCB. It is not available on STM32U5 series.",
+        "4. RNG v2.0 can be used as a seed source for DRBG."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_13",
+    "document": "Table 13. Security features for STM32L5, STM32U3, STM32U5, STM32H503/5, STM32H7R/S, STM32H72x/73/74x/75, STM32H7Ax/7Bx, STM32F7 devices",
+    "rev": null,
+    "table_number": "13",
+    "title": "Table 13. Security features for STM32L5, STM32U3, STM32U5, STM32H503/5, STM32H7R/S, STM32H72x/73/74x/75, STM32H7Ax/7Bx, STM32F7 devices",
+    "page": 31,
+    "section": "6.1.1 Static and dynamic protections",
+    "section_title": "Static and dynamic protections",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=31",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 13. Security features for STM32L5, STM32U3, STM32U5, STM32H503/5, STM32H7R/S, STM32H72x/73/74x/75, STM32H7Ax/7Bx, STM32F7 devices — section 6.1.1 Static and dynamic protections. Feature / Cortex core, Feature / Cortex core, STM32L5 / Cortex‑M33, STM32U3 STM32U5 / Cortex‑M33, STM32H503 / Cor...",
+    "table_content": {
+      "headers": [
+        "Feature / Cortex core",
+        "Feature / Cortex core",
+        "STM32L5 / Cortex‑M33",
+        "STM32U3 STM32U5 / Cortex‑M33",
+        "STM32H503 / Cortex‑M33",
+        "STM32H5 / Cortex‑M33",
+        "STM32 H7R/S / Cortex‑M7",
+        "STM32 H72x/73x / Cortex‑M7",
+        "STM32 H74x/75x / Cortex‑M7",
+        "STM32 H7Ax/7Bx / Cortex‑M7",
+        "STM32F7 / Cortex‑M7"
+      ],
+      "rows": [
+        [
+          "RDP additional protection",
+          "RDP additional protection",
+          "RDP four levels, backup registers, SRAM2",
+          "RDP four levels, backup registers, SRAM3",
+          "Product state instead of RDP",
+          "Product state instead of RDP",
+          "Product state instead of RDP, backup SRAM",
+          "Backup SRAM, backup registers, OTFDEC",
+          "Backup SRAM, backup registers",
+          "Backup SRAM, backup registers, OTFDEC",
+          "Backup SRAM"
+        ],
+        [
+          "Flash WRP",
+          "Flash WRP",
+          "Up to four protected areas with 2‑K or 4‑Kbyte granularity",
+          "Two areas per bank defined by page range",
+          "Two areas per bank defined by page range",
+          "By group of 4 pages of 8‑Kbyte",
+          "By sectors (8 Kbytes)",
+          "By sectors (128 Kbytes)",
+          "By sectors (128 Kbytes)",
+          "By group of 4 8‑Kbyte sectors",
+          "By sectors (16 K, 64 K, 128 K, or 256 Kbytes)"
+        ],
+        [
+          "SRAM WRP",
+          "SRAM WRP",
+          "SRAM2, with 1‑Kbyte granularity",
+          "SRAM2, with 1‑Kbyte granularity",
+          "SRAM2, with 1‑Kbyte granularity",
+          "SRAM2, with 1‑Kbyte granularity",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "PCROP",
+          "PCROP",
+          "No (replaced by TrustZone)",
+          "No (replaced by TrustZone)",
+          "No",
+          "No (replaced by TrustZone)",
+          "No",
+          "By area with 256‑byte granularity",
+          "By area with 256‑byte granularity, one area per bank",
+          "By area with 256‑byte granularity, one area per bank",
+          "By sectors"
+        ],
+        [
+          "HDP",
+          "HDP",
+          "Up to two secure hide areas (HDP) inside the TrustZone secure domain",
+          "Up to two secure hide areas (HDP) inside the TrustZone secure domain",
+          "3‑stage temporal isolation, one per bank",
+          "3‑stage temporal isolation, one per bank",
+          "3‑stage temporal isolation, one per bank",
+          "Yes (secure user memory, with 256‑byte granularity)",
+          "Yes (secure user memory, with 256‑byte granularity)",
+          "Yes (secure user memory, with 256‑byte granularity)",
+          "No"
+        ],
+        [
+          "Firewall",
+          "Firewall",
+          "No (replaced by TrustZone)",
+          "No (replaced by TrustZone)",
+          "No",
+          "No (replaced by TrustZone)",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "MPU",
+          "MPU",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "OTP",
+          "OTP",
+          "512 bytes",
+          "512 bytes",
+          "2 Kbytes",
+          "2 Kbytes",
+          "1 Kbyte",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "UBE(1)",
+          "UBE(1)",
+          "Yes (boot lock feature)",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes (boot lock feature)",
+          "Yes (unique entry point in secure access)",
+          "Yes (unique entry point in secure access)",
+          "Yes (unique entry point in secure access)",
+          "No"
+        ],
+        [
+          "Internal tamper detection",
+          "Internal tamper detection",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Hardware crypto(2)",
+          "Hardware crypto(2)",
+          "AES, HASH, PKA",
+          "AES, HASH, PKA, SAES, CCB(3)",
+          "HASH",
+          "AES,SAES, HASH, OTFDEC, PKA",
+          "AES, SAES, HASH, PKA, MCE",
+          "AES, DES, HASH, OTFDEC",
+          "AES, DES, HASH, OTFDEC",
+          "AES, DES, HASH, OTFDEC",
+          "AES, HASH"
+        ],
+        [
+          "RNG",
+          "RNG",
+          "SP800‑90‑B",
+          "SP800‑90‑B",
+          "SP800‑90‑B",
+          "SP800‑90‑B",
+          "SP800‑90‑B",
+          "SP800‑90‑B",
+          "SP800‑90‑A(4)",
+          "SP800‑90‑B",
+          "SP800‑90‑A(4)"
+        ],
+        [
+          "Secure software",
+          "SBSFU",
+          "No",
+          "No",
+          "No",
+          "No",
+          "MCUboot",
+          "Legacy",
+          "Legacy",
+          "Legacy",
+          "Legacy"
+        ],
+        [
+          "TF-M",
+          "TF-M",
+          "Yes",
+          "Yes",
+          "No",
+          "Yes",
+          "-",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "KMS",
+          "KMS",
+          "No",
+          "No",
+          "No",
+          "Yes",
+          "-",
+          "No",
+          "No",
+          "No",
+          "No"
+        ]
+      ],
+      "notes": [
+        "1. Unique boot entry.",
+        "2. For most devices with hardware crypto capability, there is a direct equivalent without it.",
+        "3. Only the selected STM32U3 series feature the CCB. It is not available on STM32U5 series.",
+        "4. RNG v2.0 can be used as a seed source for DRBG."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_14",
+    "document": "Table 14. RDP protections",
+    "rev": null,
+    "table_number": "14",
+    "title": "Table 14. RDP protections",
+    "page": 34,
+    "section": "6.2 Readout protection (RDP)",
+    "section_title": "Readout protection (RDP)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=34",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 14. RDP protections — section 6.2 Readout protection (RDP). Area, RDP level, Boot from user flash memory / Read, Boot from user flash memory / Write, Boot from user flash memory / Erase, +3 autres.",
+    "table_content": {
+      "headers": [
+        "Area",
+        "RDP level",
+        "Boot from user flash memory / Read",
+        "Boot from user flash memory / Write",
+        "Boot from user flash memory / Erase",
+        "Debug or boot from SRAM or from bootloader / Read",
+        "Debug or boot from SRAM or from bootloader / Write",
+        "Debug or boot from SRAM or from bootloader / Erase"
+      ],
+      "rows": [
+        [
+          "Flash main memory",
+          "0",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Flash main memory",
+          "1",
+          "Yes",
+          "Yes",
+          "Yes",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Flash main memory",
+          "2",
+          "Yes",
+          "Yes",
+          "Yes",
+          "N/A",
+          "N/A",
+          "N/A"
+        ],
+        [
+          "System memory",
+          "0",
+          "Yes",
+          "No",
+          "No",
+          "Yes",
+          "No",
+          "No"
+        ],
+        [
+          "System memory",
+          "1",
+          "Yes",
+          "No",
+          "No",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "System memory",
+          "2",
+          "Yes",
+          "No",
+          "No",
+          "N/A",
+          "N/A",
+          "N/A"
+        ],
+        [
+          "Option bytes",
+          "0",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Option bytes",
+          "1",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Option bytes",
+          "2",
+          "Yes",
+          "No",
+          "No",
+          "N/A",
+          "N/A",
+          "N/A"
+        ],
+        [
+          "Other protected assets (1)",
+          "0",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes",
+          "Yes"
+        ],
+        [
+          "Other protected assets (1)",
+          "1",
+          "Yes",
+          "Yes",
+          "N/A",
+          "No",
+          "No",
+          "No"
+        ],
+        [
+          "Other protected assets (1)",
+          "2",
+          "Yes",
+          "Yes",
+          "N/A",
+          "N/A",
+          "N/A",
+          "N/A"
+        ]
+      ],
+      "notes": [
+        "1. Backup registers/SRAM When to use the RDP"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_15",
+    "document": "Table 15. Attributes and access permission managed by MPU.",
+    "rev": null,
+    "table_number": "15",
+    "title": "Table 15. Attributes and access permission managed by MPU.",
+    "page": 40,
+    "section": "6.12 Memory protection unit (MPU)",
+    "section_title": "Memory protection unit (MPU)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=40",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 15. Attributes and access permission managed by MPU. — section 6.12 Memory protection unit (MPU). Privileged mode attribute, Unprivileged mode attribute, Description.",
+    "table_content": {
+      "headers": [
+        "Privileged mode attribute",
+        "Unprivileged mode attribute",
+        "Description"
+      ],
+      "rows": [
+        [
+          "Execute never (XN)(1)",
+          "Execute never (XN)(1)",
+          "Code execution attribute"
+        ],
+        [
+          "No access",
+          "No access",
+          "All accesses generate a permission fault."
+        ],
+        [
+          "RW",
+          "No access",
+          "Access from a privileged software only"
+        ],
+        [
+          "RW",
+          "RO",
+          "Written by an unprivileged software generate a permission fault."
+        ],
+        [
+          "RW",
+          "RW",
+          "Full access"
+        ],
+        [
+          "RO",
+          "No access",
+          "Read by a privileged software only"
+        ],
+        [
+          "RO",
+          "RO",
+          "Read only, by privileged or unprivileged software"
+        ]
+      ],
+      "notes": [
+        "1. XN attribute is set by region, and is valid for both modes. It can be used to avoid SRAM code injection for example. The code executed in privileged mode can access additional specific instructions (MRS), and can also access"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_16",
+    "document": "Table 16. Process isolation.",
+    "rev": null,
+    "table_number": "16",
+    "title": "Table 16. Process isolation.",
+    "page": 41,
+    "section": "6.12 Memory protection unit (MPU)",
+    "section_title": "Memory protection unit (MPU)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=41",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 16. Process isolation. — section 6.12 Memory protection unit (MPU). Firmware type, Mode, Resources access.",
+    "table_content": {
+      "headers": [
+        "Firmware type",
+        "Mode",
+        "Resources access"
+      ],
+      "rows": [
+        [
+          "Secure firmware (such as SB or OS kernel)",
+          "Privileged",
+          "Full access"
+        ],
+        [
+          "All remaining firmware",
+          "Unprivileged",
+          "MPU controlled access: no access, RO, RW"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_17",
+    "document": "Table 17. Features of the OTFDEC compared with the MCE",
+    "rev": null,
+    "table_number": "17",
+    "title": "Table 17. Features of the OTFDEC compared with the MCE",
+    "page": 46,
+    "section": "6.31 Memory crypto engine (MCE)",
+    "section_title": "Memory crypto engine (MCE)",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=46",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 17. Features of the OTFDEC compared with the MCE — section 6.31 Memory crypto engine (MCE). Feature, OTFDEC, MCE.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "OTFDEC",
+        "MCE"
+      ],
+      "rows": [
+        [
+          "Function",
+          "On-the-fly decryption",
+          "Encryption and decryption"
+        ],
+        [
+          "Algorithm",
+          "AES-based stream + proprietary",
+          "AES stream, AES block, DPA resistant"
+        ],
+        [
+          "Key management",
+          "128b key per region, TZ protection, write only",
+          "Similar, usually tied to OBK by the software logic"
+        ],
+        [
+          "Latency",
+          "Maximum of 12 cycles",
+          "11 to 36 cycles (scalable security)"
+        ],
+        [
+          "Security",
+          "Base level",
+          "Including tamper and secure boot integration"
+        ],
+        [
+          "Integration",
+          "Associated with XSPI",
+          "Associated with memory subsystem, usable with FMC"
+        ]
+      ],
+      "notes": [
+        "4. Device security check and maintenance: integrity checks, SB, SFU"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_18",
+    "document": "Table 18. Security use cases.",
+    "rev": null,
+    "table_number": "18",
+    "title": "Table 18. Security use cases.",
+    "page": 47,
+    "section": "7 Guidelines",
+    "section_title": "Guidelines",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=47",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 18. Security use cases. — section 7 Guidelines. 1. Secure manufacturing: SFI / -, 1. Secure manufacturing: SFI / 1.1 Complement existing manufacturing site security with utilization of SFI..",
+    "table_content": {
+      "headers": [
+        "1. Secure manufacturing: SFI / -",
+        "1. Secure manufacturing: SFI / 1.1 Complement existing manufacturing site security with utilization of SFI."
+      ],
+      "rows": [
+        [
+          "2.Device protection against external threats: RDP protection, life cycle protection, tamper detection, device monitoring",
+          "2.Device protection against external threats: RDP protection, life cycle protection, tamper detection, device monitoring"
+        ],
+        [
+          "-",
+          "2.1 Device configuration (option bytes, not supposed to be modified ever)"
+        ],
+        [
+          "-",
+          "• Use RDP level 2 or Closed (Locked) product state. This closes the device from any external access."
+        ],
+        [
+          "-",
+          "2.2 Remove debug capability for the device."
+        ],
+        [
+          "-",
+          "• Use product life cycle or RDP level 2 for disabling the debug. Some devices allow usage of debug authentication (DA)."
+        ],
+        [
+          "-",
+          "2.3 Protect a device against a loss of external clock source (crystal)."
+        ],
+        [
+          "-",
+          "• Enable clock security system (CSS)."
+        ],
+        [
+          "-",
+          "2.4 Detect a system-level intrusion."
+        ],
+        [
+          "-",
+          "• Use tamper detection capability."
+        ],
+        [
+          "-",
+          "2.5 Protect a device from code injection."
+        ],
+        [
+          "-",
+          "• Use the RDP or product life cycle. • Isolate communication port protocol with the MPU, firewall, or HDP. • Limit communication port protocol access range. • Use write protection on empty memory areas (flash memory and SRAM)."
+        ],
+        [
+          "3. Code protection against internal threats: TrustZone, PCROP, MPU, firewall, and HDP",
+          "3. Code protection against internal threats: TrustZone, PCROP, MPU, firewall, and HDP"
+        ],
+        [
+          "-",
+          "3.1 Protect the code against cloning."
+        ],
+        [
+          "-",
+          "• Use RDP level 2 against external access. • Use PCROP on most sensitive parts of the code against internal read access. • Use OTFDEC to secure code stored in the external memory."
+        ],
+        [
+          "-",
+          "3.2 Protect secret data from other processes."
+        ],
+        [
+          "-",
+          "• Use firewall to protect both code and data. • Use MPU to protect secret data area from being read. • Use HDP in case data must only be used at reset. • Use secure domain of TrustZone, if available."
+        ],
+        [
+          "-",
+          "3.3 Protect code and data when not fully verified or trusted libraries are used."
+        ],
+        [
+          "-",
+          "• Use PCROP to protect user most sensitive code. • Use firewall to protect user sensitive application (code, data, and execution). • Use MPU and de-privilege the untrusted library. • Use IWDG to avoid any deadlock. • Use secure domain of TrustZone, if available."
+        ],
+        [
+          "4. Device security check and maintenance: integrity checks, SB, SFU",
+          "4. Device security check and maintenance: integrity checks, SB, SFU"
+        ],
+        [
+          "-",
+          "4.1 Check code integrity."
+        ],
+        [
+          "-",
+          "• Hash firmware code at reset and compare to expected value. • Enable ECC on the flash memory and parity check on the SRAM."
+        ],
+        [
+          "-",
+          "4.2 Security checks or embedded firmware authentication"
+        ],
+        [
+          "-",
+          "• Implement SB application with cryptography. • Protect SB application secret data (refer to previous sections). • Guarantee unique boot entry on SB application: – Use HDP if available. – Disable boot pin selection by BOOT_LOCK or RDP."
+        ],
+        [
+          "-",
+          "4.3 Securely update the firmware in the field."
+        ],
+        [
+          "-",
+          "• Implement a SFU application with cryptography. • Apply relevant secure memory protection around the SFU secret data (refer to previous sections)."
+        ],
+        [
+          "5. Communication and authentication: cryptography",
+          ""
+        ],
+        [
+          "-",
+          "5.1 Communicate securely."
+        ],
+        [
+          "-",
+          "• Use or implement secure communication stacks relying on cryptography for confidentiality and authentication (such as TLS for Ethernet)."
+        ],
+        [
+          "-",
+          "5.2 Use the ST AES/SHA cryptographic functions with STM32 devices."
+        ],
+        [
+          "-",
+          "• Use only official software implementation by ST with STM32 X-CUBE-CRYPTOLIB."
+        ],
+        [
+          "-",
+          "5.3 Accelerate AES/SHA cryptographic functions."
+        ],
+        [
+          "-",
+          "• Use device with cryptographic hardware peripheral together with official STM32 X-CUBE-CRYPTOLIB. • Use MCE or OTFDEC to access AES-ciphered code in the external memory without latency penalty."
+        ],
+        [
+          "-",
+          "5.4 Generate random data."
+        ],
+        [
+          "-",
+          "• Use RNG embedded in the STM32 devices."
+        ],
+        [
+          "-",
+          "5.5 Uniquely identify ST microcontrollers."
+        ],
+        [
+          "-",
+          "• Use STM32 96-bit unique ID."
+        ],
+        [
+          "-",
+          "5.6 Authenticate a product device."
+        ],
+        [
+          "-",
+          "• Embed a shared encryption key in the device, and exchange encrypted message."
+        ],
+        [
+          "-",
+          "5.7 Uniquely authenticate a device."
+        ],
+        [
+          "-",
+          "• Embed a device private key and its certificate in the device, and exchange encrypted message."
+        ],
+        [
+          "-",
+          "5.8 Authenticate communication servers."
+        ],
+        [
+          "-",
+          "• Embed a shared encryption key in the device, and exchange encrypted message. • Embed server public key in the device, and exchange encrypted message."
+        ],
+        [
+          "-",
+          "5.9 Store keys securely."
+        ],
+        [
+          "-",
+          "• Use OBK where available. • Use SAES and CCB to prevent exposing key. • After usage, clean-up exposed key or intermediate data."
+        ]
+      ],
+      "notes": [
+        "4. Device security check and maintenance: integrity checks, SB, SFU"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "table_id": "table_19",
+    "document": "Table 19. Document revision history.",
+    "rev": null,
+    "table_number": "19",
+    "title": "Table 19. Document revision history.",
+    "page": 54,
+    "section": "8 Conclusion",
+    "section_title": "Conclusion",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=54",
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+    "text_helper": "Table 19. Document revision history. — section 8 Conclusion. Date, Version, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Version",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "17-Oct-2018",
+          "1",
+          "Initial release."
+        ],
+        [
+          "25-Feb-2019",
+          "2",
+          "Updated: • Table 1. Applicable products • Section 1 General information • Table 11. Security features for STM32H7, STM32G0, STM32G4 and STM32WB Series • Figure 9. Example of RDP protections (STM32L4 Series) • Section 6.6 Firewall Added: • Section 6.8 Cryptographic key storage (CKS)"
+        ],
+        [
+          "7-Oct-2019",
+          "3",
+          "Updated: • Table 1. Applicable products • Section \"Introduction\" renamed \"Overview\" • Table 2. Glossary • Section \"Hardware protections\" renamed \"Device protections\" • Figure 4. Memory types • Table 5. Memory types and associated protection • Section 4.2.4 External Flash memories • Table 6. Scope of STM32 embedded memories protection features • Table 7. Software isolation mechanism • Section 4.5 Boot protection • Section 5 Secure applications: Table 9, Table 10 and Table 11 • Section 6.2 Readout protection (RDP) • Section 6.7 Secure hide protection (HDP) • Section 6.17 Cryptography • Section 7 Guidelines • Some colors removed on all figures Added: • Section 4.1 TrustZone® for Armv8-M architecture • Section 6.4 TrustZone • Section 6.18 On-the-fly decryption engine (OTFDEC)"
+        ],
+        [
+          "21-Feb-2020",
+          "4",
+          "• Updated Section Introduction • Added acronyms in Table 2. Glossary • Updated Section 2 Overview and Section 3 Attack types • Restructured Section 3.4 IoT system attack examples (added Section 3.5 List of attack targets) • Updated Section 4 Device protections • Updated and restructured Section 5 Secure applications • Added Section 5.3 Arm TF-M solution • Updated Section 6 STM32 security features, Section 7 Guidelines and Section 8 Conclusion"
+        ],
+        [
+          "06-Nov-2020",
+          "5",
+          "Updated: • Document's scope to add STM32WL Series • Table 1. Applicable products • Section 1 General information • Section 3.1 Introduction to attack types • Section 3.2 Software attacks • Section 3.3.1 Non-invasive attacks"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

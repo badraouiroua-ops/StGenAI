@@ -1,0 +1,48 @@
+{
+  "table_id": "table_11",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Octo-SPI",
+      "row_index": 26,
+      "analyse_visuelle": "La valeur de la première colonne 'IPS‑otcO' a été extraite à l'envers (texte inversé). Elle correspond à 'Octo‑SPI'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "IPS‑otcO",
+          "nouvelle_valeur": "Octo‑SPI",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "ADC (12 bits)",
+      "row_index": 38,
+      "analyse_visuelle": "La valeur de la première colonne ')stib 21( CDA' a été extraite à l'envers (texte inversé). Elle correspond à 'ADC (12 bits)'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": ")stib 21( CDA",
+          "nouvelle_valeur": "ADC (12 bits)",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "DAC (12 bits)",
+      "row_index": 39,
+      "analyse_visuelle": "La valeur de la première colonne ')stib 21( CAD' a été extraite à l'envers (texte inversé). Elle correspond à 'DAC (12 bits)'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": ")stib 21( CAD",
+          "nouvelle_valeur": "DAC (12 bits)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

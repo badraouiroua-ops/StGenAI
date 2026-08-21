@@ -1,0 +1,67 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. STM32 Series RDP protection extension",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. STM32 Series RDP protection extension",
+  "page": 56,
+  "section": "5.3.1 RDP",
+  "section_title": "RDP",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=56",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "text_helper": "Table 4. STM32 Series RDP protection extension — section 5.3.1 RDP. Product, RDP protection extension.",
+  "table_content": {
+    "headers": [
+      "Product",
+      "RDP protection extension"
+    ],
+    "rows": [
+      [
+        "F0",
+        "+ backup registers"
+      ],
+      [
+        "F2",
+        "+ backup SRAM"
+      ],
+      [
+        "F3",
+        "+ backup registers"
+      ],
+      [
+        "F4",
+        "+ backup SRAM"
+      ],
+      [
+        "L0",
+        "+ EEPROM"
+      ],
+      [
+        "L1",
+        "+ EEPROM"
+      ],
+      [
+        "L4",
+        "+ backup registers + SRAM2"
+      ],
+      [
+        "L5",
+        "RDP 4 levels + backup registers + SRAM2"
+      ],
+      [
+        "F7",
+        "+ backup SRAM"
+      ],
+      [
+        "H7",
+        "+ backup SRAM"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

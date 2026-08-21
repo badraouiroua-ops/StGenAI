@@ -1,0 +1,10 @@
+{
+  "table_id": "table_55",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Structure du tableau totalement corrompue : le JSON fusionne la Table 55 de la page 86 avec la suite de la Table 57 de la page 87, en omettant complètement la Table 56 et le début de la Table 57. De plus, le nombre de colonnes est incorrect (7 colonnes extraites au lieu de 6) et les données sont fortement décalées entre colonnes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

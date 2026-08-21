@@ -1,0 +1,258 @@
+{
+  "table_id": "table_122",
+  "caption": "Table 122. CSI PHY characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 229,
+  "merged_pages": [
+    229,
+    230
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=229",
+  "section": "5.3.37 Embedded PHY characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Max",
+    "Typ",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "R EXT",
+      "External resistor on R EXT",
+      "Connected to ground",
+      "Connected to ground",
+      "198",
+      "200",
+      "202",
+      "Ω"
+    ],
+    [
+      "I VDDCORE(CSIPHY)",
+      "Supply current on V DDCORE",
+      "High-speed receive(2)",
+      "2 lanes at 1 Gbps",
+      "-",
+      "2.21",
+      "12.36",
+      "mA"
+    ],
+    [
+      "I VDDCORE(CSIPHY)",
+      "Supply current on V DDCORE",
+      "High-speed receive(2)",
+      "2 lanes at 1.5 Gbps",
+      "-",
+      "3.14",
+      "13.91",
+      "mA"
+    ],
+    [
+      "I VDDCORE(CSIPHY)",
+      "Supply current on V DDCORE",
+      "High-speed receive(2)",
+      "2 lanes at 2 Gbps",
+      "-",
+      "4.07",
+      "14.94",
+      "mA"
+    ],
+    [
+      "I VDDCORE(CSIPHY)",
+      "Supply current on V DDCORE",
+      "High-speed receive(2)",
+      "2 lanes at 2.5 Gbps",
+      "-",
+      "5.00",
+      "16.48",
+      "mA"
+    ],
+    [
+      "I VDDCORE(CSIPHY)",
+      "Supply current on V DDCORE",
+      "LP receive",
+      "Lane 0 at 10 Mbps",
+      "-",
+      "0.42",
+      "8.29",
+      "mA"
+    ],
+    [
+      "I VDDCORE(CSIPHY)",
+      "Supply current on V DDCORE",
+      "ULPS receive",
+      "ck_ker_csi2phy stopped",
+      "-",
+      "0.06",
+      "8.70",
+      "mA"
+    ],
+    [
+      "I VDDA18CSI",
+      "Supply current on V DDA18CSI",
+      "High-speed receive(2)",
+      "2 lanes at 1 Gbps",
+      "2.19",
+      "2.23",
+      "2.84",
+      "mA"
+    ],
+    [
+      "I VDDA18CSI",
+      "Supply current on V DDA18CSI",
+      "High-speed receive(2)",
+      "2 lanes at 1.5 Gbps",
+      "2.31",
+      "2.36",
+      "3.00",
+      "mA"
+    ],
+    [
+      "I VDDA18CSI",
+      "Supply current on V DDA18CSI",
+      "High-speed receive(2)",
+      "2 lanes at 2 Gbps",
+      "2.55",
+      "2.65",
+      "3.35",
+      "mA"
+    ],
+    [
+      "I VDDA18CSI",
+      "Supply current on V DDA18CSI",
+      "High-speed receive(2)",
+      "2 lanes at 2.5 Gbps",
+      "2.54",
+      "2.64",
+      "3.35",
+      "mA"
+    ],
+    [
+      "I VDDA18CSI",
+      "Supply current on V DDA18CSI",
+      "LP receive",
+      "Lane 0 at 10 Mbps",
+      "1.53",
+      "1.72",
+      "2.25",
+      "mA"
+    ],
+    [
+      "I VDDA18CSI",
+      "Supply current on V DDA18CSI",
+      "ULPS receive",
+      "ck_ker_csi2phy stopped",
+      "0.01",
+      "0.01",
+      "0.02",
+      "mA"
+    ],
+    [
+      "I VDDCSI",
+      "Supply current on V DDCSI",
+      "High-speed receive(2)",
+      "2 lanes at 1 Gbps",
+      "3.51",
+      "4.06",
+      "5.80",
+      "mA"
+    ],
+    [
+      "I VDDCSI",
+      "Supply current on V DDCSI",
+      "High-speed receive(2)",
+      "2 lanes at 1.5 Gbps",
+      "3.99",
+      "4.66",
+      "6.60",
+      "mA"
+    ],
+    [
+      "I VDDCSI",
+      "Supply current on V DDCSI",
+      "High-speed receive(2)",
+      "2 lanes at 2 Gbps",
+      "2.99",
+      "3.40",
+      "4.65",
+      "mA"
+    ],
+    [
+      "I VDDCSI",
+      "Supply current on V DDCSI",
+      "High-speed receive(2)",
+      "2 lanes at 2.5 Gbps",
+      "3.41",
+      "3.86",
+      "5.25",
+      "mA"
+    ],
+    [
+      "I VDDCSI",
+      "Supply current on V DDCSI",
+      "LP receive",
+      "Lane 0 at 10 Mbps",
+      "0.68",
+      "0.74",
+      "0.95",
+      "mA"
+    ],
+    [
+      "I VDDCSI",
+      "Supply current on V DDCSI",
+      "ULPS receive",
+      "ck_ker_csi2phy stopped",
+      "0.00",
+      "0.00",
+      "0.01",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. The high-speed mode assumes PRBS9 pattern on data lanes and 100% occupation, that is continuous high speed. USB PHY characteristics"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_122",
+    "is_continued": true,
+    "pages": [
+      229,
+      230
+    ],
+    "rows_count": 19,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

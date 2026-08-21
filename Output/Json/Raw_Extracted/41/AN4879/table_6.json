@@ -1,0 +1,100 @@
+{
+  "table_id": "table_6",
+  "caption": "Table 6. USB implementation on STM32 wireless products",
+  "pdf_name": "AN4879",
+  "family": "41",
+  "page": 7,
+  "merged_pages": [
+    7
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=7",
+  "section": "1 General information",
+  "headers": [
+    "Feature",
+    "STM32WB35xx/ STM32WB55xx / USB 2.0 FS device interface",
+    "STM32WBA2x / USB 2.0 FS host/device interface",
+    "STM32WBA6x / USB 2.0 HS host/device interface"
+  ],
+  "rows": [
+    [
+      "Crystal-less USB",
+      "X",
+      "-",
+      "-"
+    ],
+    [
+      "Number of endpoints",
+      "8",
+      "8",
+      "9"
+    ],
+    [
+      "Host mode channels",
+      "12",
+      "16",
+      "16"
+    ],
+    [
+      "Size of dedicated packet buffer SRAM",
+      "1.25 Kbytes",
+      "2 Kbytes",
+      "4 Kbytes"
+    ],
+    [
+      "Integrated PHY",
+      "FS",
+      "FS",
+      "HS"
+    ],
+    [
+      "Pull up resistor on USB_DP line",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "LPM",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "BCD",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "ADP",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN4879",
+    "table_id": "table_6",
+    "is_continued": false,
+    "pages": [
+      7
+    ],
+    "rows_count": 9,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

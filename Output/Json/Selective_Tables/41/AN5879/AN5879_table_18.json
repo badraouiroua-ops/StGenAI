@@ -1,0 +1,35 @@
+{
+  "table_id": "table_18",
+  "document": "Table 18. Software settings I3C/I2C",
+  "rev": null,
+  "table_number": "18",
+  "title": "Table 18. Software settings I3C/I2C",
+  "page": 44,
+  "section": "9.10.2.1 Software settings",
+  "section_title": "Software settings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=44",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 18. Software settings I3C/I2C — section 9.10.2.1 Software settings. , • aTxBuffer: buffer used for transmission (register WHO_AM_I: 0x0F) • aRxBuffer: buffer used for reception. • aPrivateDescriptor: 2 directions Read and Write. (0x19 static address) • Prepare context buffers process.",
+  "table_content": {
+    "headers": [
+      "",
+      "• aTxBuffer: buffer used for transmission (register WHO_AM_I: 0x0F) • aRxBuffer: buffer used for reception. • aPrivateDescriptor: 2 directions Read and Write. (0x19 static address) • Prepare context buffers process"
+    ],
+    "rows": [
+      [
+        "",
+        "• Prepare context buffers process • Add context buffer transmit in frame context"
+      ],
+      [
+        "",
+        "Frame context with: • I2C_PRIVATE_WITHOUT_ARB_RESTART as direction • Transmit data process • Check the current state of the peripheral • Add context buffer receive in Frame context with I2C_PRIVATE_WITHOUT_ARB_STOP as direction. • Receive data process"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "table_id": "table_12",
+  "document": "Table 12. Summary of principal Type-C application topologies",
+  "rev": null,
+  "table_number": "12",
+  "title": "Table 12. Summary of principal Type-C application topologies",
+  "page": 30,
+  "section": "11.3 Hardware overview",
+  "section_title": "Hardware overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=30",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 12. Summary of principal Type-C application topologies — section 11.3 Hardware overview. Application / Protected(1), Application / Dead battery compliant, Application / Sink/source, DBCCx / Shorted with CCx, DBCCx / Reusable, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Application / Protected(1)",
+      "Application / Dead battery compliant",
+      "Application / Sink/source",
+      "DBCCx / Shorted with CCx",
+      "DBCCx / Reusable",
+      "Note"
+    ],
+    "rows": [
+      [
+        "No",
+        "Yes",
+        "Sink",
+        "Yes",
+        "No",
+        "-"
+      ],
+      [
+        "No",
+        "No",
+        "Sink",
+        "No",
+        "Yes",
+        "Application must ensure low level on DBCCx when the device is unpowered."
+      ],
+      [
+        "Yes",
+        "Yes",
+        "Sink",
+        "Yes",
+        "No",
+        "Protection circuit deactivated when supplied"
+      ],
+      [
+        "Yes",
+        "No",
+        "Sink",
+        "No",
+        "Yes",
+        "Protection circuit deactivated when supplied: the application must ensure low level on DBCCx when the device is unpowered."
+      ],
+      [
+        "Yes",
+        "No",
+        "Sink",
+        "No",
+        "Yes",
+        "Protection circuit deactivated by software: the default Rd is never exposed to Type-C source."
+      ],
+      [
+        "No",
+        "Not applicable",
+        "Source",
+        "No",
+        "Yes",
+        "Rp exposed on CCx when the device is powered. The application must ensure low level on DBCCx when the device is unpowered."
+      ]
+    ],
+    "notes": [
+      "1. Pertains to CCx line"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "table_id": "table_24",
+  "caption": "Table 24. USB differences.",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 39,
+  "merged_pages": [
+    39
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=39",
+  "section": "6.4.6 Universal serial bus interface (USB)",
+  "headers": [
+    "USB",
+    "STM32H5",
+    "STM32C5"
+  ],
+  "rows": [
+    [
+      "General",
+      "USB FS with clock recovery",
+      "USB FS with clock recovery"
+    ],
+    [
+      "General",
+      "Up to 8 bidirectional endpoints",
+      "Up to 8 bidirectional endpoints"
+    ],
+    [
+      "General",
+      "USB connect/disconnect capability (controllable, embedded pull-up resistor on USB_DP line)",
+      "USB connect/disconnect capability (controllable, embedded pull-up resistor on USB_DP line)"
+    ],
+    [
+      "General",
+      "Battery charging detection (BCD) support for device",
+      "Battery charging detection (BCD) support for device"
+    ],
+    [
+      "General",
+      "Independent VDDUSB power supply",
+      "Independent VDDUSB power supply"
+    ],
+    [
+      "Buffer memory",
+      "2048 bytes of dedicated packet buffer memory SRAM",
+      "2048 bytes of dedicated packet buffer memory SRAM"
+    ],
+    [
+      "Low-power modes",
+      "USB revision 2.0 including link power management (LPM) support",
+      "USB revision 2.0 including link power management (LPM) support"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_24",
+    "is_continued": false,
+    "pages": [
+      39
+    ],
+    "rows_count": 7,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

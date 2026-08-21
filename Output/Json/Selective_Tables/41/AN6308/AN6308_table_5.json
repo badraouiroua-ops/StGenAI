@@ -1,0 +1,55 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. STM32H533 boot modes when TrustZone® is disabled (TZEN=0xC3)",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. STM32H533 boot modes when TrustZone® is disabled (TZEN=0xC3)",
+  "page": 17,
+  "section": "5.1 Boot mode selection",
+  "section_title": "Boot mode selection",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 5. STM32H533 boot modes when TrustZone® is disabled (TZEN=0xC3) — section 5.1 Boot mode selection. PRODUCT_STATE, BOOT0 pin, BOOT_UBE FLASH_OPTSR[29:22], Boot address option-byte selection, Boot area, +1 autres.",
+  "table_content": {
+    "headers": [
+      "PRODUCT_STATE",
+      "BOOT0 pin",
+      "BOOT_UBE FLASH_OPTSR[29:22]",
+      "Boot address option-byte selection",
+      "Boot area",
+      "STMicroelectronics default programmed value"
+    ],
+    "rows": [
+      [
+        "Open",
+        "0",
+        "NA",
+        "NSBOOTADD[31:8]",
+        "Boot address defined by user option byte NSBOOTADD[31:8]",
+        "Flash: 0x0800 0000"
+      ],
+      [
+        "Open",
+        "1",
+        "NA",
+        "NA",
+        "Bootloader",
+        "Bootloader"
+      ],
+      [
+        "Provisioned, closed, locked",
+        "x",
+        "NA",
+        "NSBOOTADD[31:8]",
+        "Boot address defined by user option byte NSBOOTADD[31:8]",
+        "Flash: 0x0800 0000"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

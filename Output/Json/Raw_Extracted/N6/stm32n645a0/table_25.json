@@ -1,0 +1,107 @@
+{
+  "table_id": "table_25",
+  "caption": "Table 25. Operating conditions at power-up/power-down",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 140,
+  "merged_pages": [
+    140
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=140",
+  "section": "5.3.2 Operating conditions at power-up/power-down",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t VDD",
+      "V V transitions DD, DDIOx",
+      "Rise and fall time rates",
+      "20",
+      "1500",
+      "µs/V"
+    ],
+    [
+      "t VDDA18AON",
+      "V transitions DDA18AON",
+      "Rise and fall time rates",
+      "20",
+      "1500",
+      "µs/V"
+    ],
+    [
+      "t VDDCORE",
+      "V transitions DDCORE",
+      "Rise and fall time rates",
+      "20",
+      "1500",
+      "µs/V"
+    ],
+    [
+      "t VDDCSI",
+      "V transitions DDCSI",
+      "Rise and fall time rates",
+      "10",
+      "1500",
+      "µs/V"
+    ],
+    [
+      "t VDDA18",
+      "V ,V ,V ,V transitions DDAPLL DDA18CSI DDA18USB DDA18ADC",
+      "Rise and fall time rates",
+      "10",
+      "1500",
+      "µs/V"
+    ],
+    [
+      "t VDD33",
+      "V transitions DD33USB",
+      "Rise and fall time rates",
+      "10",
+      "1500",
+      "µs/V"
+    ],
+    [
+      "t VBAT",
+      "V transitions BAT",
+      "Rise and fall time rates",
+      "10",
+      "1500",
+      "µs/V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Evaluated by characterization, not tested in production, unless otherwise specified."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_25",
+    "is_continued": false,
+    "pages": [
+      140
+    ],
+    "rows_count": 7,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

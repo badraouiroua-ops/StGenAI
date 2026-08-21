@@ -1,0 +1,85 @@
+{
+  "figure_id": "figure_4",
+  "document": "DS13866 Rev 5 - Figure 4. STM32C011DxY WLCSP12 ballout",
+  "rev": "Rev 5",
+  "figure_number": "4",
+  "title": "Figure 4. STM32C011DxY WLCSP12 ballout",
+  "page": 27,
+  "section": "4",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "pinout",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=27",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "WLCSP12 ballout (12 balls). VDD/VDDA at C4, VSS/VSSA at E4.",
+  "figure_content": {
+    "package_type": "WLCSP12",
+    "pin_count": 12,
+    "view": "Top view",
+    "grid_layout": {
+      "balls": [
+        {
+          "ball": "A2",
+          "pin_name": "PB6",
+          "type": "I/O"
+        },
+        {
+          "ball": "A4",
+          "pin_name": "PC15-OSCX_OUT",
+          "type": "I/O"
+        },
+        {
+          "ball": "B1",
+          "pin_name": "PA13",
+          "type": "I/O"
+        },
+        {
+          "ball": "B3",
+          "pin_name": "PC14-OSCX_IN",
+          "type": "I/O"
+        },
+        {
+          "ball": "C2",
+          "pin_name": "PA14-BOOT0",
+          "type": "I/O"
+        },
+        {
+          "ball": "C4",
+          "pin_name": "VDD/VDDA",
+          "type": "Power"
+        },
+        {
+          "ball": "D1",
+          "pin_name": "PA11[PA9]/PA8",
+          "type": "I/O"
+        },
+        {
+          "ball": "D3",
+          "pin_name": "PB7",
+          "type": "I/O"
+        },
+        {
+          "ball": "E2",
+          "pin_name": "PA12[PA10]/PA7",
+          "type": "I/O"
+        },
+        {
+          "ball": "E4",
+          "pin_name": "VSS/VSSA",
+          "type": "Ground"
+        },
+        {
+          "ball": "F1",
+          "pin_name": "PA3/PA4/PA5/PA6",
+          "type": "I/O"
+        },
+        {
+          "ball": "F3",
+          "pin_name": "PF2-NRST/PA0/PA1/PA2",
+          "type": "I/O"
+        }
+      ]
+    },
+    "notes": []
+  }
+}

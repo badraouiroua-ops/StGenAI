@@ -1,0 +1,31 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Applicable products",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Applicable products",
+  "page": 1,
+  "section": "General purpose / Overview",
+  "section_title": "General purpose / Overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+  "text_helper": "Table 1. Applicable products — section General purpose / Overview. Type, Series or lines.",
+  "table_content": {
+    "headers": [
+      "Type",
+      "Series or lines"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "STM32L4+ series, STM32L5 series, STM32U5 series, STM32H7A3/7B3, STM32H7B0 value line STM32H723/733, STM32H725/735, STM32H730 value line STM32H5 series, STM32H7R7/7S7, STM32H7R3/7S3 lines, STM32N6 series, STM32U3 series, STM32C5 series"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

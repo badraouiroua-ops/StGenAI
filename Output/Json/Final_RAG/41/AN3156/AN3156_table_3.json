@@ -1,0 +1,91 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Summary of DFU class-specific requests",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Summary of DFU class-specific requests",
+  "page": 8,
+  "section": "2 USB DFU bootloader requests",
+  "section_title": "USB DFU bootloader requests",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN3156.pdf#page=8",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN3156.pdf",
+  "text_helper": "Table 3. Summary of DFU class-specific requests — section 2 USB DFU bootloader requests. bmRequest, bRequest, wValue, wIndex, wLength, +1 autres.",
+  "table_content": {
+    "headers": [
+      "bmRequest",
+      "bRequest",
+      "wValue",
+      "wIndex",
+      "wLength",
+      "Data"
+    ],
+    "rows": [
+      [
+        "00100001b",
+        "DFU_DETACH",
+        "wTimeout",
+        "Interface",
+        "0",
+        "None"
+      ],
+      [
+        "00100001b",
+        "DFU_DNLOAD",
+        "wBlockNum",
+        "Interface",
+        "Length",
+        "Firmware"
+      ],
+      [
+        "10100001b",
+        "DFU_UPLOAD",
+        "wBlockNum",
+        "Interface",
+        "Length",
+        "Firmware"
+      ],
+      [
+        "10100001b",
+        "DFU_GETSTATUS",
+        "0",
+        "Interface",
+        "6",
+        "Status"
+      ],
+      [
+        "00100001b",
+        "DFU_CLRSTATUS",
+        "0",
+        "Interface",
+        "0",
+        "None"
+      ],
+      [
+        "00100001b",
+        "DFU_GETSTATE",
+        "0",
+        "Interface",
+        "1",
+        "State"
+      ],
+      [
+        "00100001b",
+        "DFU_ABORT",
+        "0",
+        "Interface",
+        "0",
+        "None"
+      ]
+    ],
+    "notes": [
+      "1. This operation is allowed but not effective: the bootloader does not return an error but the operation is not executed since the sectors are write-protected. This applies only to the flash memory. It does not apply to",
+      "2. Not applicable (this operation is allowed, but has no meaning as the memory is not protected).",
+      "3. In this case, both the flash memory (from 0x0800 0000) and the RAM are erased. The option byte area is reset to the default values."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

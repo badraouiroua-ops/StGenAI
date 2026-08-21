@@ -1,0 +1,48 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. Differences between dedicated Rx buffer and Rx FIFO.",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. Differences between dedicated Rx buffer and Rx FIFO.",
+  "page": 17,
+  "section": "4.3.2.3 Differences between dedicated Rx buffer and Rx FIFO",
+  "section_title": "Differences between dedicated Rx buffer and Rx FIFO",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+  "text_helper": "Table 6. Differences between dedicated Rx buffer and Rx FIFO. — section 4.3.2.3 Differences between dedicated Rx buffer and Rx FIFO. Feature, Dedicated Rx buffer, Rx FIFO.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "Dedicated Rx buffer",
+      "Rx FIFO"
+    ],
+    "rows": [
+      [
+        "Sections to configure",
+        "64 dedicated Rx buffers can be configured .",
+        "Two Rx FIFO can be configured."
+      ],
+      [
+        "Elements per section",
+        "Configured to contain only one element per buffer",
+        "May contain one or more elements (up to 64 elements) per section"
+      ],
+      [
+        "Position in the RAM",
+        "The user chooses the buffer index.",
+        "The position in the RAM is automatically and dynamically managed (using the incrementing of get/put index)."
+      ],
+      [
+        "Discards newly arriving element configuration",
+        "Discards the newly arriving element when buffer is locked. Note: The user must reset the corresponding bit in FDCAN_NDAT1/2.",
+        "Discards the newly arriving element when Rx FIFO is full (blocking mode by default). Note: Overwrite mode option to receive the new element and overwrite the oldest element."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

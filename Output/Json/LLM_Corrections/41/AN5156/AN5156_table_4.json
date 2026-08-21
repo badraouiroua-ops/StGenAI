@@ -1,0 +1,10 @@
+{
+  "table_id": "table_4",
+  "status": "OK",
+  "logs": [
+    "Cases vides correspondant aux illustrations graphiques à la ligne 0 ignorées pour traitement manuel"
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

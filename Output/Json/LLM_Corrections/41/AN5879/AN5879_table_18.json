@@ -1,0 +1,10 @@
+{
+  "table_id": "table_18",
+  "status": "OK",
+  "logs": [
+    "Cases de code C à gauche laissées vides conformément aux consignes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

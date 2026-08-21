@@ -1,0 +1,105 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Abbreviations and acronyms",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Abbreviations and acronyms",
+  "page": 3,
+  "section": "1 General information",
+  "section_title": "General information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=3",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "text_helper": "Table 2. Abbreviations and acronyms — section 1 General information. Acronym, Description.",
+  "table_content": {
+    "headers": [
+      "Acronym",
+      "Description"
+    ],
+    "rows": [
+      [
+        "ADP",
+        "Attach detection protocol"
+      ],
+      [
+        "BCD",
+        "Battery charging detection"
+      ],
+      [
+        "EMI",
+        "Electromagnetic interference"
+      ],
+      [
+        "ESD",
+        "Electrostatic discharge"
+      ],
+      [
+        "FS",
+        "Full-speed"
+      ],
+      [
+        "HBM",
+        "Human body model"
+      ],
+      [
+        "HS",
+        "High-speed"
+      ],
+      [
+        "IEC",
+        "International electrotechnical commission"
+      ],
+      [
+        "LPM",
+        "Link power management"
+      ],
+      [
+        "LS",
+        "Low-speed"
+      ],
+      [
+        "MCU",
+        "Microcontroller unit or microcontroller"
+      ],
+      [
+        "OTG",
+        "On-the-go"
+      ],
+      [
+        "PCB",
+        "Printed circuit board"
+      ],
+      [
+        "PHY",
+        "Physical layer"
+      ],
+      [
+        "SOF",
+        "Start of frame"
+      ],
+      [
+        "ULPI",
+        "UTMI + low-pin interface"
+      ],
+      [
+        "USB",
+        "Universal Serial Bus"
+      ],
+      [
+        "UTMI",
+        "USB 2.0 transceiver macrocell interface"
+      ]
+    ],
+    "notes": [
+      "1. X: supported.",
+      "2. When the CAN peripheral is used, only the first 768 bytes are available to the USB. The last 256 bytes are used by the CAN.",
+      "3. The USB and CAN share a dedicated 512 bytes SRAM. They can then be used in the same application but not at the same time.",
+      "4. The dedicated SRAM is used exclusively by the USB endpoints (not shared with any other peripheral).",
+      "5. Internal FS OTG PHY support. AN4879"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

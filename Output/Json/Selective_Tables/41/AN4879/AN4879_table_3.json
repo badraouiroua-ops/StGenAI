@@ -1,0 +1,149 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. USB implementation on STM32 mainstream products",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. USB implementation on STM32 mainstream products",
+  "page": 4,
+  "section": "1 General information",
+  "section_title": "General information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=4",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "text_helper": "Table 3. USB implementation on STM32 mainstream products — section 1 General information. Feature(1), STM32F070x6/B / USB 2.0 FS device interface, 270F23MTS 870F23MTS x40F23MTS / USB 2.0 FS device interface, 201F23MTS 301F23MTS / USB 2.0 FS device interface, STM32F105/107 / USB OTG_FS, +5 autres.",
+  "table_content": {
+    "headers": [
+      "Feature(1)",
+      "STM32F070x6/B / USB 2.0 FS device interface",
+      "270F23MTS 870F23MTS x40F23MTS / USB 2.0 FS device interface",
+      "201F23MTS 301F23MTS / USB 2.0 FS device interface",
+      "STM32F105/107 / USB OTG_FS",
+      "C/Bx203F23MTS C/Bx303F23MTS 373F23MTS / USB 2.0 FS device interface",
+      "8/6x203F23MTS E/Dx203F23MTS E/Dx303F23MTS / USB 2.0 FS device interface",
+      "STM32C071 / USB 2.0 FS host/device interface",
+      "xx0B0G23MTS xx1C0G23MTS / USB 2.0 FS host/device interface",
+      "STM32G4 / USB 2.0 FS device interface"
+    ],
+    "rows": [
+      [
+        "Crystal-less USB",
+        "-",
+        "X",
+        "-",
+        "-",
+        "-",
+        "-",
+        "Supported in device mode",
+        "-",
+        "X"
+      ],
+      [
+        "Bidirectional endpoints (including EP0)",
+        "8",
+        "8",
+        "8",
+        "4",
+        "8",
+        "8",
+        "8",
+        "8",
+        "8"
+      ],
+      [
+        "Host mode channels",
+        "-",
+        "-",
+        "-",
+        "8",
+        "-",
+        "-",
+        "8",
+        "8",
+        "-"
+      ],
+      [
+        "Size of dedicated packet buffer SRAM",
+        "1 Kbyte(2)",
+        "1 Kbyte(2)",
+        "512 bytes(3)",
+        "1.25 Kbytes(4)",
+        "512 bytes(4)",
+        "1 Kbyte(2)",
+        "2 Kbytes",
+        "2 Kbytes",
+        "1 Kbyte"
+      ],
+      [
+        "Integrated PHY",
+        "FS(5)",
+        "FS(5)",
+        "FS(5)",
+        "FS(5)",
+        "FS(5)",
+        "FS(5)",
+        "FS(5)",
+        "FS(5)",
+        "FS(5)"
+      ],
+      [
+        "Pull-up resistor on USB_DP line",
+        "Embedded",
+        "Embedded",
+        "1.5 kΩ resistor must be added",
+        "Embedded",
+        "1.5 kΩ resistor must be added",
+        "1.5 kΩ resistor must be added",
+        "Embedded",
+        "Embedded",
+        "Embedded"
+      ],
+      [
+        "LPM",
+        "X",
+        "X",
+        "-",
+        "-",
+        "-",
+        "X",
+        "Supported in device mode",
+        "Supported in device mode",
+        "X"
+      ],
+      [
+        "BCD",
+        "X",
+        "X",
+        "-",
+        "-",
+        "-",
+        "-",
+        "Supported in device mode",
+        "Supported in device mode",
+        "X"
+      ],
+      [
+        "ADP",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "X"
+      ]
+    ],
+    "notes": [
+      "1. X: supported.",
+      "2. When the CAN peripheral is used, only the first 768 bytes are available to the USB. The last 256 bytes are used by the CAN.",
+      "3. The USB and CAN share a dedicated 512 bytes SRAM. They can then be used in the same application but not at the same time.",
+      "4. The dedicated SRAM is used exclusively by the USB endpoints (not shared with any other peripheral).",
+      "5. Internal FS OTG PHY support. AN4879"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

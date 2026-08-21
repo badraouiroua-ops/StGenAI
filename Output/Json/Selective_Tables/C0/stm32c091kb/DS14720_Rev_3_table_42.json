@@ -1,0 +1,80 @@
+{
+  "table_id": "table_42",
+  "document": "DS14720 Rev 3 - Table 42. LSI oscillator characteristics",
+  "rev": "Rev 3",
+  "table_number": "42",
+  "title": "Table 42. LSI oscillator characteristics",
+  "page": 67,
+  "section": "5.3.8 Internal clock source characteristics",
+  "section_title": "Internal clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=67",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 42. LSI oscillator characteristics — section 5.3.8 Internal clock source characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f LSI",
+        "LSI frequency",
+        "V = 3.3 V, T = 25 °C DD A",
+        "31.04",
+        "32",
+        "32.96",
+        "kHz"
+      ],
+      [
+        "f LSI",
+        "LSI frequency",
+        "V = 2 V to 3.6 V, T = -40 to 125 °C DD A",
+        "29.5(1)",
+        "-",
+        "34(1)",
+        "kHz"
+      ],
+      [
+        "t (2) SU(LSI)",
+        "LSI oscillator start-up time",
+        "-",
+        "-",
+        "80",
+        "130",
+        "μs"
+      ],
+      [
+        "t (2) STAB(LSI)",
+        "LSI oscillator stabilization time",
+        "5% of final frequency",
+        "-",
+        "125",
+        "180",
+        "μs"
+      ],
+      [
+        "I (2) DD(LSI)",
+        "LSI oscillator power consumption",
+        "-",
+        "-",
+        "110",
+        "180",
+        "nA"
+      ]
+    ],
+    "notes": [
+      "1. Based on characterization results, not tested in production",
+      "2. Specified by design. Not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

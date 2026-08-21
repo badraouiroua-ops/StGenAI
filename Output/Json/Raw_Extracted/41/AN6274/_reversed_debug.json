@@ -1,0 +1,324 @@
+{
+  "pdf_name": "AN6274",
+  "family": "41",
+  "tables_checked": 9,
+  "cells_checked": 35,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "LQFP144",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "20 × 20",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 5,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 6,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 7,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 8,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 9,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 10,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 11,
+      "row": 0,
+      "original": "Specific I/Os",
+      "reversed": false,
+      "drift": 1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Level 0",
+      "reversed": false,
+      "drift": -2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 5,
+      "row": 0,
+      "original": "Boot address defined by user option byte BOOTADD[31:8]",
+      "reversed": false,
+      "drift": 18.56,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "USART1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 6,
+      "row": 0,
+      "original": "PA9/PA10",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 7,
+      "row": 0,
+      "original": "PA9/PA10",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 8,
+      "row": 0,
+      "original": "PA9/PA10",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 9,
+      "row": 0,
+      "original": "PA9/PA10",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 10,
+      "row": 0,
+      "original": "PA9/PA10",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 11,
+      "row": 0,
+      "original": "PA9/PA10",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "JTMS/SWDIO",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Input",
+      "reversed": false,
+      "drift": -2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 2,
+      "row": 0,
+      "original": "JTAG test mode select",
+      "reversed": false,
+      "drift": -11.14,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Input/Output",
+      "reversed": false,
+      "drift": -3.11,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Serial-wire data in/out",
+      "reversed": false,
+      "drift": -11.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Full SWJ‑DP (JTAG‑DP + SW‑DP) Reset state",
+      "reversed": false,
+      "drift": -11.75,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 0,
+      "row": 0,
+      "original": "SWDIO",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Input/Output",
+      "reversed": false,
+      "drift": -3.11,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Serial-wire data input/output",
+      "reversed": false,
+      "drift": -14.62,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Push-button",
+      "reversed": false,
+      "drift": -5.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "16-Feb-2026",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

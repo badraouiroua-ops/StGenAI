@@ -1,0 +1,28 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. Use cases for STM32MP135 MPU",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. Use cases for STM32MP135 MPU",
+  "page": 22,
+  "section": "6 Thermal analysis examples",
+  "section_title": "Thermal analysis examples",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=22",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 10. Use cases for STM32MP135 MPU — section 6 Thermal analysis examples. Name, Description, CPU load, DDR load. (table vide)",
+  "table_content": {
+    "headers": [
+      "Name",
+      "Description",
+      "CPU load",
+      "DDR load"
+    ],
+    "rows": [],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

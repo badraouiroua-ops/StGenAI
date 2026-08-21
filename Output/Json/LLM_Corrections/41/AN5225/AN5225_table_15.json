@@ -1,0 +1,34 @@
+{
+  "table_id": "table_15",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "stnemerusaem , V5efaSv ,V0efaSv ,leveL SUBV",
+      "row_index": 3,
+      "analyse_visuelle": "Le texte de la première colonne a été extrait à l'envers (inversion RTL). Visuellement, il s'agit de 'VBUS Level, vSafe0V, vSafe5V , measurements'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "stnemerusaem , V5efaSv ,V0efaSv ,leveL SUBV",
+          "nouvelle_valeur": "VBUS Level, vSafe0V, vSafe5V , measurements",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 14,
+      "contenu": [
+        "same as previous",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

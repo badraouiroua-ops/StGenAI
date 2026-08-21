@@ -1,0 +1,12 @@
+{
+  "table_id": "table_3",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Le tableau comporte 32 colonnes avec de nombreuses cellules fusionnées et des tirets non reconnus par l'extracteur. Les valeurs 'X' et '-' sont massivement décalées horizontalement sur la quasi-totalité des lignes (COMP 1 à COMP 7) à partir des colonnes STM32F3 jusqu'à STM32H7.",
+    "En-têtes verticaux corrompus avec du texte inversé (ex: )1 / STM32L1(1), 0U23MTS, )3(0G23MTS).",
+    "Une revue manuelle est nécessaire pour réaligner l'ensemble des colonnes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

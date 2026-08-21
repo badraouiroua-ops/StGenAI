@@ -1,0 +1,44 @@
+{
+  "table_id": "table_42",
+  "document": "DS14928 Rev 3 - Table 42. EMS characteristics.",
+  "rev": "Rev 3",
+  "table_number": "42",
+  "title": "Table 42. EMS characteristics.",
+  "page": 73,
+  "section": "5.3.11 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=73",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "text_helper": "Table 42. EMS characteristics. — section 5.3.11 EMC characteristics. Symbol, Parameter, Conditions, Level/ Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Level/ Class"
+    ],
+    "rows": [
+      [
+        "VFESD",
+        "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+        "VDD = 3.3 V, TA = 25°C, fHCLK = 144 MHz, LQFP100 package conforming to IEC 61000-4-2",
+        "2B"
+      ],
+      [
+        "VEFTB",
+        "Fast transient voltage burst limits to be applied through 100 pF on VDD and VSS pins to induce a functional disturbance",
+        "VDD = 3.3 V, TA = 25°C, fHCLK = 144 MHz, LQFP100 package conforming to IEC 61000-4-4",
+        "5A"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization - Not tested in production.",
+      "2. All pins are characterized at a maximum value of 4000 V, except for PC14, whose maximum value is 3400 V, and PC15, whose maximum value is 3600 V."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

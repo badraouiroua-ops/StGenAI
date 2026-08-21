@@ -1,0 +1,99 @@
+{
+  "pdf_name": "AN5612",
+  "family": "41",
+  "tables_checked": 6,
+  "cells_checked": 10,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "American national standards institute",
+      "reversed": false,
+      "drift": -18.61,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "EMC design guide for STM8, STM32 and Legacy MCUs, AN1709",
+      "reversed": false,
+      "drift": 6.36,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "HDMI ESD protection and signal conditioning products for STBs, AN5121",
+      "reversed": false,
+      "drift": -5.41,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Contact discharge",
+      "reversed": false,
+      "drift": -8.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "No failure detected",
+      "reversed": false,
+      "drift": -9.94,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Failure detected but self- recovery after disturbance",
+      "reversed": false,
+      "drift": -26.84,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Need an external user action to recover normal functionality",
+      "reversed": false,
+      "drift": -30.94,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Normal functionality cannot be recovered",
+      "reversed": false,
+      "drift": -19.91,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 0,
+      "row": 0,
+      "original": "02-Jun-2022",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

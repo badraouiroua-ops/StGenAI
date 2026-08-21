@@ -1,0 +1,166 @@
+{
+  "table_id": "table_121",
+  "caption": "Table 121. USART (SPI mode) characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 228,
+  "merged_pages": [
+    228
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=228",
+  "section": "5.3.36 Communications interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fSCK",
+      "Clock frequency",
+      "Controller mode, 1.65 V ≤ V ≤ 3.6 V DD",
+      "-",
+      "-",
+      "12.5",
+      "MHz"
+    ],
+    [
+      "fSCK",
+      "Clock frequency",
+      "Target mode, 1.65 V ≤ V ≤ 3.6 V DD",
+      "-",
+      "-",
+      "33",
+      "MHz"
+    ],
+    [
+      "tsu(NSS)",
+      "NSS setup time",
+      "Target mode",
+      "t + 3 ker",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(NSS)",
+      "NSS hold time",
+      "Target mode",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tw(SCKH), tw(SCKL)",
+      "SCK high and low time",
+      "Controller mode",
+      "1 / f / 2 - 1 ck",
+      "1 / f / 2 ck",
+      "1 / f / 2 + 1 ck",
+      "ns"
+    ],
+    [
+      "tsu(RX)",
+      "Data input setup time",
+      "Controller mode",
+      "13",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(TX)",
+      "Data input setup time",
+      "Target mode",
+      "6",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(RX)",
+      "Data input hold time",
+      "Controller mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(RX)",
+      "Data input hold time",
+      "Target mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(TX)",
+      "Data output valid time",
+      "Target mode",
+      "-",
+      "11.5",
+      "14",
+      "ns"
+    ],
+    [
+      "tv(TX)",
+      "Data output valid time",
+      "Controller mode",
+      "-",
+      "4.5",
+      "5.5",
+      "ns"
+    ],
+    [
+      "th(TX)",
+      "Data output hold time",
+      "Target mode",
+      "10",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(TX)",
+      "Data output hold time",
+      "Controller mode",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_121",
+    "is_continued": false,
+    "pages": [
+      228
+    ],
+    "rows_count": 13,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

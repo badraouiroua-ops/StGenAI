@@ -1,0 +1,76 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. ICACHE and DCACHE performance on CoreMark execution with external memories",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. ICACHE and DCACHE performance on CoreMark execution with external memories",
+  "page": 19,
+  "section": "3.2.8 Event and interrupt management",
+  "section_title": "Event and interrupt management",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=19",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "text_helper": "Table 9. ICACHE and DCACHE performance on CoreMark execution with external memories — section 3.2.8 Event and interrupt management. CoreMark code, CoreMark data, ICACHE configuration, DCACHE configuration, CoreMark score/MHz.",
+  "table_content": {
+    "headers": [
+      "CoreMark code",
+      "CoreMark data",
+      "ICACHE configuration",
+      "DCACHE configuration",
+      "CoreMark score/MHz"
+    ],
+    "rows": [
+      [
+        "Internal flash memory",
+        "Internal SRAM",
+        "Enabled (2-ways)",
+        "Disabled",
+        "3.89"
+      ],
+      [
+        "Internal flash memory",
+        "External octo-SPI PSRAM (S‑bus)",
+        "Enabled (2-ways)",
+        "Enabled",
+        "3.89"
+      ],
+      [
+        "Internal flash memory",
+        "External octo-SPI PSRAM (S‑bus)",
+        "Enabled (2-ways)",
+        "Disabled",
+        "0.48"
+      ],
+      [
+        "External octo-SPI flash (C-bus)",
+        "Internal SRAM",
+        "Enabled (2-ways)",
+        "Disabled",
+        "3.86"
+      ],
+      [
+        "External octo-SPI flash (C-bus)",
+        "Internal SRAM",
+        "Disabled",
+        "Disabled",
+        "0.24"
+      ],
+      [
+        "Internal flash memory",
+        "Internal SRAM",
+        "Disabled",
+        "Disabled",
+        "2.69"
+      ]
+    ],
+    "notes": [
+      "1. Test conditions: • Applicable product: STM32U575/585"
+    ],
+    "legend": [
+      "(1)"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

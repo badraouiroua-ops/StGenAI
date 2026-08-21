@@ -1,0 +1,22 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "ASI support",
+      "row_index": 6,
+      "analyse_visuelle": "Dans la première colonne (Features), le texte affiche 'ESI support' (Error State Indicator) et non 'ASI support'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "ASI support",
+          "nouvelle_valeur": "ESI support",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

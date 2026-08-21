@@ -1,0 +1,142 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN4230.pdf",
+  "family": "41",
+  "pdf_name": "AN4230",
+  "tables_found": 5,
+  "tables_extracted": 5,
+  "high": 5,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_1",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 1. Applicable products",
+      "page": 1,
+      "merged_pages": [
+        1
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"Type / -\", \"Type / -\", \"Products / Can be checked with SP800-22rev1a\", \"Products / Can be checked with SP800-90b\"]",
+      "rows_count": 2,
+      "heuristics": {
+        "cols_extracted": 4
+      }
+    },
+    {
+      "table_id": "table_2",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 2. STM32 lines embedding the RNG hardware peripheral",
+      "page": 2,
+      "merged_pages": [
+        2,
+        3
+      ],
+      "col_count": 2,
+      "headers_preview": "[\"Series\", \"STM32 lines\"]",
+      "rows_count": 21,
+      "heuristics": {
+        "cols_extracted": 2,
+        "continuation": {
+          "base_cols": 2,
+          "cont_cols_raw": 2,
+          "target_cols": 2,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. Except the following part numbers, which don't embed RNG peripherals: STM32H745BG, STM32H745XG, STM32H745ZG, STM32H747AG, STM32H747AI, STM32H747BG, STM32H747IG, STM32H747II, STM32H747XG, STM32H757AI,",
+          "2. Except STM32WBA55HG and STM32WBA55UG. The true RNG implemented in the STM32 MCUs is based on an analog circuit. This circuit generates a"
+        ]
+      }
+    },
+    {
+      "table_id": "table_3",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 3. RNG register values",
+      "page": 20,
+      "merged_pages": [
+        20
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Product(1)\", \"RNG_CR value(2)\", \"HTCR value\", \"NSCR value\", \"Certificate(3)\"]",
+      "rows_count": 24,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. A special device must be used to execute the NIST test suite, except for the STM32L4P/Q, STM32H7A3/7B3, and STM32H72x/73x.",
+          "2. The bit 6 of RNG_CR enables or disables the bypass of post‑processing/conditioning logic. This bit must be enabled to run the NIST SP800‑90B test suite.",
+          "3. \"Yes\" indicates when the configuration values are part of an official NIST SP800-90B certificate. Links to these certificates can be found in Table 4.",
+          "4. The HTCR value programmed in the product OTP fuse configuration (rng_htcr_value) applies only to the boot ROM. Because the OTP selection supports only a restricted set of HTCR values, set rng_htcr_value to 0x6, which corresponds to"
+        ]
+      }
+    },
+    {
+      "table_id": "table_4",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 4. NIST SP800-90B certificates",
+      "page": 20,
+      "merged_pages": [
+        20,
+        21
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"Product\", \"B09-008PS yportne ecruos etacifitrec\", \"NIST public use document\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "caption_near_bottom": true,
+        "caption_y_ratio": 0.775,
+        "cols_extracted": 3,
+        "continuation": {
+          "base_cols": 3,
+          "cont_cols_raw": 3,
+          "target_cols": 3,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. A special device must be used to execute the NIST test suite, except for the STM32L4P/Q, STM32H7A3/7B3, and STM32H72x/73x."
+        ]
+      }
+    }
+  ],
+  "dedup_rows_removed": 0,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

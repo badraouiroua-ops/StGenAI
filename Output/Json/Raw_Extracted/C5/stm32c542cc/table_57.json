@@ -1,0 +1,437 @@
+{
+  "table_id": "table_57",
+  "caption": "Table 57. DAC characteristics",
+  "pdf_name": "stm32c542cc",
+  "family": "C5",
+  "page": 82,
+  "merged_pages": [
+    82,
+    83
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=82",
+  "section": "5.3.19 Digital-to-analog converter characteristics (DAC)",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VDDA",
+      "Analog supply voltage",
+      "-",
+      "-",
+      "2.7",
+      "-",
+      "-",
+      "V"
+    ],
+    [
+      "VREF+",
+      "Positive reference voltage",
+      "-",
+      "-",
+      "2.5",
+      "-",
+      "VDDA",
+      "V"
+    ],
+    [
+      "VREF-",
+      "Negative reference voltage",
+      "-",
+      "-",
+      "-",
+      "VSSA",
+      "-",
+      "V"
+    ],
+    [
+      "RL",
+      "Resistive Load",
+      "DAC output buffer ON",
+      "connected to VSSA",
+      "5",
+      "-",
+      "-",
+      "KΩ"
+    ],
+    [
+      "RL",
+      "Resistive Load",
+      "DAC output buffer ON",
+      "connected to VDDA",
+      "25",
+      "-",
+      "-",
+      "KΩ"
+    ],
+    [
+      "RO",
+      "Output Impedance",
+      "DAC output buffer OFF",
+      "DAC output buffer OFF",
+      "10.3",
+      "13.00",
+      "16",
+      "KΩ"
+    ],
+    [
+      "RBON",
+      "Output impedance sample and hold mode, output buffer ON",
+      "DAC output buffer ON",
+      "VDD = 2.7 V",
+      "-",
+      "-",
+      "1.6",
+      "KΩ"
+    ],
+    [
+      "RBOFF",
+      "Output impedance sample and hold mode, output buffer OFF",
+      "DAC output buffer OFF",
+      "VDD = 2.7 V",
+      "-",
+      "-",
+      "17.8",
+      "KΩ"
+    ],
+    [
+      "CL",
+      "Capacitive Load",
+      "DAC output buffer OFF",
+      "DAC output buffer OFF",
+      "-",
+      "-",
+      "50",
+      "pF"
+    ],
+    [
+      "CSH",
+      "Capacitive Load",
+      "Sample and Hold mode",
+      "Sample and Hold mode",
+      "-",
+      "0.10",
+      "1",
+      "µF"
+    ],
+    [
+      "VDAC_OUT",
+      "Voltage on DAC_OUT output",
+      "DAC output buffer ON",
+      "DAC output buffer ON",
+      "0.2",
+      "-",
+      "VDDA -0.2",
+      "V"
+    ],
+    [
+      "VDAC_OUT",
+      "Voltage on DAC_OUT output",
+      "DAC output buffer OFF",
+      "DAC output buffer OFF",
+      "0",
+      "-",
+      "VREF+",
+      "V"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+      "±0.5 LSB",
+      "-",
+      "1.7",
+      "3",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+      "±1 LSB",
+      "-",
+      "1.66",
+      "2.87",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+      "±2 LSB",
+      "-",
+      "1.65",
+      "2.84",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+      "±4 LSB",
+      "-",
+      "1.63",
+      "2.78",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "Normal mode DAC output buffer ON CL ≤ 50 pF, RL ≥ 5 kW",
+      "±8 LSB",
+      "-",
+      "1.61",
+      "2.7",
+      "µs"
+    ],
+    [
+      "tSETTLING",
+      "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+      "Normal mode, DAC output buffer OFF, ±1 LSB CL = 10 pF",
+      "Normal mode, DAC output buffer OFF, ±1 LSB CL = 10 pF",
+      "-",
+      "1.7",
+      "2",
+      "µs"
+    ],
+    [
+      "tWAKEUP",
+      "Wakeup time from off state (setting the Enx bit in the DAC Control register) until the ±1LSB final value",
+      "Normal mode, DAC output buffer ON, CL ≤ 50 pF, RL = 5 Ω",
+      "Normal mode, DAC output buffer ON, CL ≤ 50 pF, RL = 5 Ω",
+      "-",
+      "5",
+      "7.5",
+      "µs"
+    ],
+    [
+      "tWAKEUP",
+      "Wakeup time from off state (setting the Enx bit in the DAC Control register) until the ±1LSB final value",
+      "Normal mode, DAC output buffer OFF, CL ≤ 10 pF",
+      "Normal mode, DAC output buffer OFF, CL ≤ 10 pF",
+      "-",
+      "2",
+      "5.0",
+      "µs"
+    ],
+    [
+      "PSRR",
+      "DC VDDA supply rejection ratio",
+      "Normal mode DAC output buffer ON CL ≤ 50 pF, RL = 5 kW",
+      "Normal mode DAC output buffer ON CL ≤ 50 pF, RL = 5 kW",
+      "-",
+      "-80",
+      "-28",
+      "dB"
+    ],
+    [
+      "tSAMP",
+      "Sampling time in Sample and Hold mode CSH=100nF (Code transition between the lowest input code and the highest input code when DACOUT reaches final value +/- 1LSB)",
+      "MODE<2:0>_V12 = 100/101 (BUFFER ON)",
+      "MODE<2:0>_V12 = 100/101 (BUFFER ON)",
+      "-",
+      "0.7",
+      "2.6",
+      "ms"
+    ],
+    [
+      "tSAMP",
+      "Sampling time in Sample and Hold mode CSH=100nF (Code transition between the lowest input code and the highest input code when DACOUT reaches final value +/- 1LSB)",
+      "MODE<2:0>_V12 = 110 (BUFFER OFF)",
+      "MODE<2:0>_V12 = 110 (BUFFER OFF)",
+      "-",
+      "11.5",
+      "18.7",
+      "ms"
+    ],
+    [
+      "tSAMP",
+      "Sampling time in Sample and Hold mode CSH=100nF (Code transition between the lowest input code and the highest input code when DACOUT reaches final value +/- 1LSB)",
+      "MODE<2:0>_V12=111 BUFFER OFF (DAC_OUT pin not connected, internal connection only)",
+      "MODE<2:0>_V12=111 BUFFER OFF (DAC_OUT pin not connected, internal connection only)",
+      "-",
+      "0.3",
+      "0.6",
+      "µs"
+    ],
+    [
+      "Ileak",
+      "Output leakage current",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "nA"
+    ],
+    [
+      "CIint",
+      "Internal sample and hold capacitor",
+      "-",
+      "-",
+      "1.43",
+      "1.75",
+      "2",
+      "pF"
+    ],
+    [
+      "tTRIM",
+      "Middle code offset trim time",
+      "DAC output buffer ON",
+      "DAC output buffer ON",
+      "50",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "Voffset",
+      "Middle code offset for 1 trim code step",
+      "VREF+ = 3.6 V",
+      "VREF+ = 3.6 V",
+      "-",
+      "850",
+      "-",
+      "µV"
+    ],
+    [
+      "IDDA(DAC)",
+      "DAC quiescent consumption from VDDA",
+      "DAC output buffer ON",
+      "No load, middle code (0x800)",
+      "-",
+      "315",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDA(DAC)",
+      "DAC quiescent consumption from VDDA",
+      "DAC output buffer ON",
+      "No load, worst code (0xF1C)",
+      "-",
+      "450",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDA(DAC)",
+      "DAC quiescent consumption from VDDA",
+      "DAC output buffer OFF",
+      "No load, middle/worst code (0x800)",
+      "-",
+      "20",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDA(DAC)",
+      "DAC quiescent consumption from VDDA",
+      "Sample and Hold mode, CSH=100 nF",
+      "Sample and Hold mode, CSH=100 nF",
+      "-",
+      "315*Ton/ (Ton+Toff)",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDV(DAC)",
+      "DAC consumption from VREF+",
+      "DAC output buffer ON",
+      "No load, middle code (0x800)",
+      "-",
+      "185",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDV(DAC)",
+      "DAC consumption from VREF+",
+      "DAC output buffer ON",
+      "No load, worst code (0xF1C)",
+      "-",
+      "185",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDV(DAC)",
+      "DAC consumption from VREF+",
+      "DAC output buffer OFF",
+      "No load, middle/worst code (0x800)",
+      "-",
+      "155",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDV(DAC)",
+      "DAC consumption from VREF+",
+      "Sample and Hold mode, Buffer ON, CSH=100 nF (worst code)",
+      "Sample and Hold mode, Buffer ON, CSH=100 nF (worst code)",
+      "-",
+      "185*Ton/ (Ton+Toff)",
+      "-",
+      "µA"
+    ],
+    [
+      "IDDV(DAC)",
+      "DAC consumption from VREF+",
+      "Sample and Hold mode, Buffer OFF, CSH=100 nF (worst code)",
+      "Sample and Hold mode, Buffer OFF, CSH=100 nF (worst code)",
+      "-",
+      "155*Ton/ (Ton+Toff)",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_legend": [
+      "Specified by design and not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c542cc",
+    "table_id": "table_57",
+    "is_continued": true,
+    "pages": [
+      82,
+      83
+    ],
+    "rows_count": 37,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "table_id": "table_85",
+  "caption": "Table 85. SDRAM write timings",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 191,
+  "merged_pages": [
+    191
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=191",
+  "section": "5.3.19 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      ")ataD_ LKLCDS(d t",
+      "Data output valid time",
+      "-",
+      "1.5(2) / 5",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. Primary interfaces used."
+    ],
+    "_dedup_rows_removed": 11,
+    "_dedup_removed_indices": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_85",
+    "is_continued": false,
+    "pages": [
+      191
+    ],
+    "rows_count": 1,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. Instances on STM32U5 series devices",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. Instances on STM32U5 series devices",
+  "page": 13,
+  "section": "2.2 OCTOSPI, HSPI, and XSPI in a smart architecture",
+  "section_title": "OCTOSPI, HSPI, and XSPI in a smart architecture",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=13",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+  "text_helper": "Table 5. Instances on STM32U5 series devices — section 2.2 OCTOSPI, HSPI, and XSPI in a smart architecture. Devices, OCTOSPI1, OCTOSPI2, OCTOSPIM, HSPI1.",
+  "table_content": {
+    "headers": [
+      "Devices",
+      "OCTOSPI1",
+      "OCTOSPI2",
+      "OCTOSPIM",
+      "HSPI1"
+    ],
+    "rows": [
+      [
+        "STM32U535/545",
+        "X",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32U575/585",
+        "X",
+        "X",
+        "X",
+        "-"
+      ],
+      [
+        "STM32U59x/5Ax",
+        "X",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "STM32U5Fx/5Gx",
+        "X",
+        "X",
+        "X",
+        "X"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

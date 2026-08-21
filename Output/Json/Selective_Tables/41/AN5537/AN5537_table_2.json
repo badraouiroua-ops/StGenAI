@@ -1,0 +1,46 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Oversampling using white noise versus oversampling using triangular dither",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Oversampling using white noise versus oversampling using triangular dither",
+  "page": 14,
+  "section": "3.3 Comparison of software oversampling methods",
+  "section_title": "Comparison of software oversampling methods",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=14",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "text_helper": "Table 2. Oversampling using white noise versus oversampling using triangular dither — section 3.3 Comparison of software oversampling methods. Implementation conditions, Oversampling using white noise, Oversampling using triangular dither.",
+  "table_content": {
+    "headers": [
+      "Implementation conditions",
+      "Oversampling using white noise",
+      "Oversampling using triangular dither"
+    ],
+    "rows": [
+      [
+        "Oversampling factor to add p bits to the ADC on-chip resolution",
+        "4p",
+        "2.2p"
+      ],
+      [
+        "Dither signal",
+        "White noise with an amplitude of at least 1 LSB",
+        "Triangular signal with an amplitude of n+0.5LSB"
+      ],
+      [
+        "External hardware",
+        "External white noise source needed if the input signal noise is not sufficient.",
+        "Triangular waveform generator: an on- chip timer can be used. In this case, an RC network is used to filter the PWM frequency. An op-amp is needed to add the triangular waveform and the input signal."
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "better than the other. Each method has its advantages and limitations. The user must select the one that better",
+      "meets their application requirements (sampling frequency, number of effective bits, and so on)."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

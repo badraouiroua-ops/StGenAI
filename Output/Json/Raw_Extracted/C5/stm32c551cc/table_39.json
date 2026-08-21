@@ -1,0 +1,80 @@
+{
+  "table_id": "table_39",
+  "caption": "Table 39. Flash memory characteristics",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 72,
+  "merged_pages": [
+    72
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=72",
+  "section": "5.3.10 Flash memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD",
+      "Supply current",
+      "Word program",
+      "-",
+      "1",
+      "-",
+      "mA"
+    ],
+    [
+      "IDD",
+      "Supply current",
+      "Page erase",
+      "-",
+      "0.8",
+      "-",
+      "mA"
+    ],
+    [
+      "IDD",
+      "Supply current",
+      "Mass erase",
+      "-",
+      "0.8",
+      "-",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Evaluated by characterization - Not tested in production."
+    ],
+    "_legend": [
+      "Specified by design and not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_39",
+    "is_continued": false,
+    "pages": [
+      72
+    ],
+    "rows_count": 3,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

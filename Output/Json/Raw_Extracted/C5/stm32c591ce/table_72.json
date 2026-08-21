@@ -1,0 +1,127 @@
+{
+  "table_id": "table_72",
+  "caption": "Table 72. Dynamic characteristics: Ethernet MAC signals for MII",
+  "pdf_name": "stm32c591ce",
+  "family": "C5",
+  "page": 107,
+  "merged_pages": [
+    107,
+    108
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=107",
+  "section": "5.3.29 Ethernet interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tsu(RXD)",
+      "Receive data setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tih(RXD)",
+      "Receive data hold time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(DV)",
+      "Data valid setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tih(DV)",
+      "Data valid hold time",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(ER)",
+      "Error setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tih(ER)",
+      "Error hold time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "td(TXEN)",
+      "Transmit enable valid delay time",
+      "7.5",
+      "9.5",
+      "14",
+      "ns"
+    ],
+    [
+      "td(TXD)",
+      "Transmit data valid delay time",
+      "7",
+      "10.5",
+      "16",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.837,
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 6,
+      "cont_cols_raw": 6,
+      "target_cols": 6,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c591ce",
+    "table_id": "table_72",
+    "is_continued": true,
+    "pages": [
+      107,
+      108
+    ],
+    "rows_count": 8,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

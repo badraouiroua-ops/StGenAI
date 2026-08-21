@@ -1,0 +1,80 @@
+{
+  "table_id": "table_6",
+  "caption": "Table 6. SWJ-DP I/O pin availability",
+  "pdf_name": "AN6274",
+  "family": "41",
+  "page": 16,
+  "merged_pages": [
+    16
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6274.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6274.pdf#page=16",
+  "section": "6.2.2 Flexible SWJ-DP pin assignment",
+  "headers": [
+    "Available debug ports",
+    "SWJ-DP I/O pin assigned / PA13 /JTMS/ SWDIO",
+    "SWJ-DP I/O pin assigned / PA14 /JTCK/ SWCLK",
+    "SWJ-DP I/O pin assigned / PA15 /JTDI",
+    "SWJ-DP I/O pin assigned / PB3 /JTDO",
+    "SWJ-DP I/O pin assigned / PB4/nJTRST"
+  ],
+  "rows": [
+    [
+      "Full SWJ‑DP (JTAG‑DP + SW‑DP) Reset state",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x"
+    ],
+    [
+      "Full SWJ‑DP (JTAG‑DP + SW‑DP) but without JNTRST",
+      "x",
+      "x",
+      "x",
+      "x",
+      "-"
+    ],
+    [
+      "JTAG-DP disabled and SW-DP enabled",
+      "x",
+      "x",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "JTAG-DP disabled and SW-DP disabled",
+      "Released",
+      "Released",
+      "Released",
+      "Released",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN6274",
+    "table_id": "table_6",
+    "is_continued": false,
+    "pages": [
+      16
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

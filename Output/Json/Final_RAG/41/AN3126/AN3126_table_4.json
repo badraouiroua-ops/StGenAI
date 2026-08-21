@@ -1,0 +1,53 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Document revision history",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Document revision history",
+  "page": 22,
+  "section": "4 Revision history",
+  "section_title": "Revision history",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN3126.pdf#page=22",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN3126.pdf",
+  "text_helper": "Table 4. Document revision history — section 4 Revision history. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "28-May-2010",
+        "1",
+        "Initial release."
+      ],
+      [
+        "16-Apr-2015",
+        "2",
+        "Updated Introduction, Section 1.3: Dual channel mode and Section 3: Conclusion. Updated formulas in Section 2.1.2: Waveform preparation. Updated Figure 2: STM32F10x DAC trigger channels and Figure 5: Pseudo random code generator embedded in the DAC. Added Table 1: Applicable products and Table 2: DAC configuration for STM32 microcontrollers. Added Section 1.1: Overview and Note in Section 1.3: Dual channel mode."
+      ],
+      [
+        "11-May-2017",
+        "3",
+        "Introduced STM32H7 Series, hence updated Table 1: Applicable products and Table 2: DAC configuration for STM32 microcontrollers. Updated Introduction, Section 1.2: Data format, Section 1.5: DMA capabilities, Section 1.6: DMA under run error, Section 1.7.2: Typical applications, Section 1.8.1: Definition, Section 1.9: Buffered output, Section 2.1.1: Description, Section 2.1.2: Waveform preparation, Section 2.1.3: Setting the sine wave frequency, Section 2.2.1: Description, Section 2.3: Audio wave player implementation and Section 3: Conclusion. Updated Table 1: Preprogrammable triangular waveform amplitude values. Updated Figure 10: Non buffered channel voltage (with and without load), Figure 11: Buffered channel voltage (with and without load) and Figure 15: Flow of data from microSD memory card to external speakers. Updated second equation in Section 2.1.2: Waveform preparation."
+      ],
+      [
+        "03-Jul-2020",
+        "4",
+        "Document extended to all STM32 products, hence updated document title, Introduction and Table 1: Applicable products. Removed former Table 2: DAC configuration for STM32 microcontrollers. Minor text edits across the whole document."
+      ],
+      [
+        "25-Feb-2026",
+        "5",
+        "Updated: • Document title. • Table 1: Applicable products. • Section 2.2.1: Description. • Figure 15: Flow of data from microSD memory card to external speakers."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

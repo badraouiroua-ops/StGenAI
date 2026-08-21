@@ -1,0 +1,43 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Hardware used to connect four digital microphones",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Hardware used to connect four digital microphones",
+  "page": 31,
+  "section": "2.5 GPIOs number considerations",
+  "section_title": "GPIOs number considerations",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=31",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 9. Hardware used to connect four digital microphones — section 2.5 GPIOs number considerations. Interface, Number of GPIOs, Timer.",
+  "table_content": {
+    "headers": [
+      "Interface",
+      "Number of GPIOs",
+      "Timer"
+    ],
+    "rows": [
+      [
+        "SAI (two synchronous sub-blocks)",
+        "6",
+        "Yes"
+      ],
+      [
+        "SAI with PDM interface",
+        "3",
+        "No"
+      ],
+      [
+        "DFSDM",
+        "3",
+        "No"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

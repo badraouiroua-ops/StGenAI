@@ -14,7 +14,6 @@ mon_log.txt
 
 # ── Données volumineuses / générées ───────────────────────────────────────────
 Output/Images/
-Output/Json/
 ApiLog/
 
 # ── IDE / OS ──────────────────────────────────────────────────────────────────

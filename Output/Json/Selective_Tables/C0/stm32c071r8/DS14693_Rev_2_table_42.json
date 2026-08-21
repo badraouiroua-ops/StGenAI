@@ -1,0 +1,145 @@
+{
+  "table_id": "table_42",
+  "document": "DS14693 Rev 2 - Table 42. HSIUSB48 oscillator characteristics",
+  "rev": "Rev 2",
+  "table_number": "42",
+  "title": "Table 42. HSIUSB48 oscillator characteristics",
+  "page": 73,
+  "section": "5.3.8 Internal clock source characteristics",
+  "section_title": "Internal clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=73",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 42. HSIUSB48 oscillator characteristics — section 5.3.8 Internal clock source characteristics. Symbol, Parameter, Conditions(1), Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions(1)",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f HSIUSB48",
+        "HSIUSB48 frequency",
+        "V = 3.0 V, T = 30 °C DD A",
+        "-",
+        "48",
+        "-",
+        "MHz"
+      ],
+      [
+        "TRIM",
+        "HSIUSB48 user trimming step",
+        "-",
+        "-",
+        "0.11(2)",
+        "0.18(2)",
+        "%"
+      ],
+      [
+        "USER TRIM COVERAGE",
+        "HSIUSB48 user trimming coverage",
+        "±64 steps",
+        "±6(3)",
+        "±7(3)",
+        "-",
+        "%"
+      ],
+      [
+        "DuCy (HSIUSB48)",
+        "Duty cycle",
+        "-",
+        "45(2)",
+        "-",
+        "55(2)",
+        "%"
+      ],
+      [
+        "ACC HSIUSB48_REL",
+        "Accuracy of the HSIUSB48 oscillator over temperature (factory calibrated)",
+        "V = 3.0 V to 3.6 V DD T = -15 to 85 °C A",
+        "-",
+        "-",
+        "±3",
+        "%"
+      ],
+      [
+        "ACC HSIUSB48_REL",
+        "Accuracy of the HSIUSB48 oscillator over temperature (factory calibrated)",
+        "V = 2.0 V to 3.6 V DD T = -40 to 125 °C A",
+        "-",
+        "-",
+        "±4.5(3)",
+        "%"
+      ],
+      [
+        "DV DD(HSIUSB48)",
+        "HSIUSB48 oscillator frequency drift with V DD",
+        "V = 3 V to 3.6 V DD",
+        "-",
+        "0.025(3)",
+        "0.05(3)",
+        "%"
+      ],
+      [
+        "DV DD(HSIUSB48)",
+        "HSIUSB48 oscillator frequency drift with V DD",
+        "V = 2.0 V to 3.6 V DD",
+        "-",
+        "0.05(3)",
+        "0.1(3)",
+        "%"
+      ],
+      [
+        "t su(HSIUSB48)",
+        "HSIUSB48 oscillator start- up time",
+        "-",
+        "-",
+        "2.5(2)",
+        "6(2)",
+        "μs"
+      ],
+      [
+        "I DD(HSIUSB48)",
+        "HSIUSB48 oscillator power consumption",
+        "-",
+        "-",
+        "340(2)",
+        "380(2)",
+        "μA"
+      ],
+      [
+        "NT jitter",
+        "Next transition jitter Accumulated jitter on 28 cycles(4)",
+        "-",
+        "-",
+        "±0.15(2)",
+        "-",
+        "ns"
+      ],
+      [
+        "PT jitter",
+        "Paired transition jitter Accumulated jitter on 56 cycles(4)",
+        "-",
+        "-",
+        "±0.25(2)",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Based on characterization results, not tested in production",
+      "2. Specified by design. Not tested in production.",
+      "3. Evaluated by characterization. Not tested in production.",
+      "4. Jitter measurement is performed without clock source activated in parallel."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

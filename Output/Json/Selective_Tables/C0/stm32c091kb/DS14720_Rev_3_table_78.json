@@ -1,0 +1,221 @@
+{
+  "table_id": "table_78",
+  "document": "DS14720 Rev 3 - Table 78. Thermal resistance",
+  "rev": "Rev 3",
+  "table_number": "78",
+  "title": "Table 78. Thermal resistance",
+  "page": 119,
+  "section": "6.11 Thermal characteristics",
+  "section_title": "Thermal characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=119",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "text_helper": "Table 78. Thermal resistance — section 6.11 Thermal characteristics. Symbol, Parameter, Package(1), Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Package(1)",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "TSSOP20",
+        "81",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "WLCSP24",
+        "92.2",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "UFQFPN28",
+        "57.2",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "UFQFPN32",
+        "42",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "LQFP32",
+        "51.4",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "UFQFPN48",
+        "31.9",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "LQFP48",
+        "51.7",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "LQFP64",
+        "43",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "UFBGA64",
+        "66.5",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "TSSOP20",
+        "54.7",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "WLCSP24",
+        "60.7",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "UFQFPN28",
+        "22.2",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "UFQFPN32",
+        "23.9",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "LQFP32",
+        "28.5",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "UFQFPN48",
+        "16.2",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "LQFP48",
+        "28.8",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "LQFP64",
+        "25.3",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "UFBGA64",
+        "49.3",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "TSSOP20",
+        "26.6",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "WLCSP24",
+        "7",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "UFQFPN28",
+        "25.4",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "UFQFPN32",
+        "17.2",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "LQFP32",
+        "16.3",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "UFQFPN48",
+        "12.8",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "LQFP48",
+        "16.6",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "LQFP64",
+        "12.6",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "UFBGA64",
+        "23.2",
+        "°C/W"
+      ]
+    ],
+    "notes": [
+      "1. Refer to Section 6: Package information for package dimensions"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

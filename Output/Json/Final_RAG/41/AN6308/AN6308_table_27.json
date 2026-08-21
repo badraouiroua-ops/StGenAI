@@ -1,0 +1,113 @@
+{
+  "table_id": "table_27",
+  "document": "Table 27. Merged timer features C5 vs H5.",
+  "rev": null,
+  "table_number": "27",
+  "title": "Table 27. Merged timer features C5 vs H5.",
+  "page": 40,
+  "section": "6.6 Migration of timer peripherals",
+  "section_title": "Migration of timer peripherals",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=40",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 27. Merged timer features C5 vs H5. — section 6.6 Migration of timer peripherals. Timer type, Timer in C5, Timer in H5, Counter resolution, Counter type, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Timer type",
+      "Timer in C5",
+      "Timer in H5",
+      "Counter resolution",
+      "Counter type",
+      "DMA request generation",
+      "Capture / compare channels",
+      "Complementary outputs"
+    ],
+    "rows": [
+      [
+        "Advanced control",
+        "TIM1, TIM8",
+        "TIM1, TIM8",
+        "16 bits",
+        "Up, down, Up/ down",
+        "Yes",
+        "4(+3 internal) in C5 4(+2 internal) in H5",
+        "4"
+      ],
+      [
+        "General purpose",
+        "TIM2, TIM5",
+        "TIM2, TIM5",
+        "32 bits",
+        "Up, down, Up/ down",
+        "Yes",
+        "4",
+        "No"
+      ],
+      [
+        "General purpose",
+        "TIM3, TIM4",
+        "TIM3, TIM4",
+        "32 bits in C5 16 bits in H5",
+        "Up, down, Up/ down",
+        "Yes",
+        "4",
+        "No"
+      ],
+      [
+        "General purpose (mid-range)",
+        "TIM12",
+        "TIM12",
+        "16 bits",
+        "Up",
+        "No",
+        "2",
+        "No"
+      ],
+      [
+        "General purpose (mid-range)",
+        "-",
+        "TIM13, TIM14",
+        "16 bits",
+        "Up",
+        "No",
+        "1",
+        "No"
+      ],
+      [
+        "General purpose (with complementary)",
+        "TIM15",
+        "TIM15",
+        "16 bits",
+        "Up, down, Up/ down in C5 Up in H5",
+        "Yes",
+        "2",
+        "1"
+      ],
+      [
+        "General purpose (single-channel with complementary)",
+        "TIM16, TIM17",
+        "TIM16, TIM17",
+        "16 bits",
+        "Up, down, Up/ down in C5 Up in H5",
+        "Yes",
+        "1",
+        "1"
+      ],
+      [
+        "Basic",
+        "TIM6, TIM7",
+        "TIM6, TIM7",
+        "16 bits",
+        "Up",
+        "Yes",
+        "0",
+        "No"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. STM32 thermal resistances",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. STM32 thermal resistances",
+  "page": 6,
+  "section": "3.5 Board temperature",
+  "section_title": "Board temperature",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=6",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 2. STM32 thermal resistances — section 3.5 Board temperature. Thermal metric, Symbol, Value, Main purpose.",
+  "table_content": {
+    "headers": [
+      "Thermal metric",
+      "Symbol",
+      "Value",
+      "Main purpose"
+    ],
+    "rows": [
+      [
+        "Theta‑JA",
+        "θJA",
+        "(TJ − TA) / PTOT",
+        "Used to rank package performance in the JEDEC environment"
+      ],
+      [
+        "Theta‑JC",
+        "θJC",
+        "(TJ − TC) / PC",
+        "Used to rank package performance Used in simulations with a 2R model (2R = two resistances)"
+      ],
+      [
+        "Theta‑JB",
+        "θJB",
+        "(TJ − TB) / PB",
+        "Used to rank package performance Used in simulations with 2R model"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

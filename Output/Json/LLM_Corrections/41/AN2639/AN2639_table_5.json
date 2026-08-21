@@ -1,0 +1,25 @@
+{
+  "table_id": "table_5",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 5,
+      "contenu": [
+        "Temperature gradient in cooling",
+        "-1°C to -5°C",
+        "-1°C to -5°C"
+      ]
+    },
+    {
+      "row_index": 6,
+      "contenu": [
+        "Time from 50 to 220°C",
+        "150 to 230 seconds",
+        "150 to 230 seconds"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,10 @@
+{
+  "table_id": "table_77",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "Structure de colonnes incorrecte : le tableau physique comporte 7 colonnes (Symbol, Min, Typ, Max pour Millimeters, et Min, Typ, Max pour Inches), alors que l'extraction PDF n'a généré que 6 colonnes en fusionnant 'Typ' et 'Max' sous 'Millimeters'. Un examen/retraitement manuel est requis."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

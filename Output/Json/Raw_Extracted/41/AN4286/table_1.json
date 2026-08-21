@@ -1,0 +1,46 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Applicable products",
+  "pdf_name": "AN4286",
+  "family": "41",
+  "page": 1,
+  "merged_pages": [
+    1
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4286.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4286.pdf#page=1",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Product family",
+    "Product series or line"
+  ],
+  "rows": [
+    [
+      "Microcontrollers",
+      "STM32C0 series STM32C5 series STM32F4 series STM32F7 series STM32G0 series STM32G4 series STM32H5 series STM32H7 series STM32L0 series STM32L4 series STM32L5 series STM32U0 series STM32U3 series STM32U5 series STM32WB series STM32WBA series STM32WL5x/Ex line"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4286",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      1
+    ],
+    "rows_count": 1,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

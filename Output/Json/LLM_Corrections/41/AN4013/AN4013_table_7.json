@@ -1,0 +1,22 @@
+{
+  "table_id": "table_7",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes du tableau",
+      "row_index": null,
+      "analyse_visuelle": "L'en-tête de la troisième colonne a été extrait à l'envers ('NxCO tuptuo') au lieu de 'OCxN output'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "NxCO tuptuo",
+          "nouvelle_valeur": "OCxN output",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

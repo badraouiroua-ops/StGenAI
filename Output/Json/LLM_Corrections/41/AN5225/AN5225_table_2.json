@@ -1,0 +1,41 @@
+{
+  "table_id": "table_2",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "B7 D-",
+      "row_index": 18,
+      "analyse_visuelle": "La cellule Description pour la broche B7 partage la cellule fusionnée avec B6 contenant 'USB2.0 datalines', l'extraction a dupliqué 'D-'.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "D-",
+          "nouvelle_valeur": "USB2.0 datalines",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "B11 RX1+",
+      "row_index": 22,
+      "analyse_visuelle": "Les cellules Description et Comment pour B11 font partie de la fusion avec B10 ('USB3.0 datalines or alternate' et '10 Gbit/s RX differential pair in USB3.1'). L'outil OCR a répété 'RX1+' dans ces colonnes.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "RX1+",
+          "nouvelle_valeur": "USB3.0 datalines or alternate",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "RX1+",
+          "nouvelle_valeur": "10 Gbit/s RX differential pair in USB3.1",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

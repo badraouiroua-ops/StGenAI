@@ -1,0 +1,105 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN5612.pdf",
+  "family": "41",
+  "pdf_name": "AN5612",
+  "tables_found": 6,
+  "tables_extracted": 6,
+  "high": 6,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_2",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 2. Reference documents",
+      "page": 2,
+      "merged_pages": [
+        2,
+        3
+      ],
+      "col_count": 2,
+      "headers_preview": "[\"Reference number\", \"Document title\"]",
+      "rows_count": 17,
+      "heuristics": {
+        "caption_near_bottom": true,
+        "caption_y_ratio": 0.777,
+        "cols_extracted": 2,
+        "continuation": {
+          "base_cols": 2,
+          "cont_cols_raw": 2,
+          "target_cols": 2,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_dedup_rows_removed": 14,
+        "_dedup_removed_indices": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "table_id": "table_3",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 3. Complementary literature available on www.st.com",
+      "page": 2,
+      "merged_pages": [
+        2,
+        3
+      ],
+      "col_count": 2,
+      "headers_preview": "[\"Category\", \"Document\"]",
+      "rows_count": 15,
+      "heuristics": {
+        "caption_near_bottom": true,
+        "caption_y_ratio": 0.873,
+        "cols_extracted": 2,
+        "continuation": {
+          "base_cols": 2,
+          "cont_cols_raw": 2,
+          "target_cols": 2,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        }
+      }
+    }
+  ],
+  "dedup_rows_removed": 14,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

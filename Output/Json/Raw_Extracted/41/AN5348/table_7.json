@@ -1,0 +1,90 @@
+{
+  "table_id": "table_7",
+  "caption": "Table 7. Differences between dedicated Tx buffer, Tx FIFO and Tx queue.",
+  "pdf_name": "AN5348",
+  "family": "41",
+  "page": 21,
+  "merged_pages": [
+    21
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=21",
+  "section": "4.3.3.2 Tx buffer section",
+  "headers": [
+    "Feature",
+    "Dedicated Tx buffer",
+    "Tx FIFO",
+    "Tx queue"
+  ],
+  "rows": [
+    [
+      "Sections that can be configured",
+      "32 dedicated Tx buffers can be configured.",
+      "One Tx FIFO can configured.",
+      "One Tx queue can configured."
+    ],
+    [
+      "Elements per section",
+      "Tx buffer is configured to contain only one element per buffer.",
+      "May contain one or more elements per section (up to 32)",
+      "May contain one or more elements per section (up to 32)"
+    ],
+    [
+      "Element to be sent first",
+      "Element with the lowest ID is sent first.",
+      "Elements transmitted in the FIFO order",
+      "Element with the lowest ID is sent first."
+    ],
+    [
+      "Behaviour if multiple elements with the same ID are present",
+      "The first transmission request is sent first.",
+      "No prioritization with identifier",
+      "FIFO order"
+    ],
+    [
+      "Position in the RAM",
+      "User chooses the buffer index.",
+      "Automatically and dynamically managed (using the incrementing of get and put index)",
+      "Automatically and dynamically managed (using the incrementing of get and put index)"
+    ],
+    [
+      "Pending elements management",
+      "Elements become pending after being added to the RAM or after the tx buffer request is enabled.",
+      "Elements become pending after being added to the RAM (the request is automatically enabled).",
+      "Elements become pending after being added to the RAM (the request is automatically enabled)."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Tx buffer 3 (identifier = 1: it is the highest priority between all other dedicated Tx buffers and it has a higher priority than the oldest pending Tx FIFO: Tx buffer 7)",
+      "2. Tx buffer 0 (identifier = 3: it is the highest priority between all other dedicated Tx buffers and it has higher priority than the oldest pending Tx FIFO: Tx buffer 7)",
+      "3. Tx buffer 7 (because it is the oldest pending Tx FIFO with identifier =4 and has higher priority between all dedicated Tx buffers)",
+      "4. Tx buffer 8 (because it is the oldest pending Tx FIFO with identifier =2 and has the highest priority between all dedicated Tx buffers)",
+      "5. Tx buffer 4 (identifier = 8: it has the highest priority between all other dedicated Tx buffers and the Tx FIFO is empty)",
+      "6. Tx buffer 2 (identifier = 12: it has the highest priority between all other dedicated Tx buffers and the Tx FIFO is empty)",
+      "7. Tx buffer 1 (identifier = 15: it has the highest priority between all other dedicated Tx buffers and the Tx FIFO is empty)",
+      "8. Tx buffer 5 (because it is the only pending dedicated Tx buffer) AN5348 - Rev 6 page 22/37"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5348",
+    "table_id": "table_7",
+    "is_continued": false,
+    "pages": [
+      21
+    ],
+    "rows_count": 6,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

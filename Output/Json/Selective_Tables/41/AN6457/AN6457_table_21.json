@@ -1,0 +1,31 @@
+{
+  "table_id": "table_21",
+  "document": "Table 21. LPDMA programming for TIM6/7",
+  "rev": null,
+  "table_number": "21",
+  "title": "Table 21. LPDMA programming for TIM6/7",
+  "page": 15,
+  "section": "3.5.1 Low-power timers (LPTIM)",
+  "section_title": "Low-power timers (LPTIM)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=15",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 21. LPDMA programming for TIM6/7 — section 3.5.1 Low-power timers (LPTIM). LPDMA destination data width, Comments.",
+  "table_content": {
+    "headers": [
+      "LPDMA destination data width",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "32-bit",
+        "A channel with priority 3 is recommended if the application requires a minimized latency whatever is other concurrent traffic."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

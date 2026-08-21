@@ -1,0 +1,33 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. CAN network example configuration",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. CAN network example configuration",
+  "page": 6,
+  "section": "2.2.3 Example for a CAN network",
+  "section_title": "Example for a CAN network",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6363.pdf#page=6",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+  "text_helper": "Table 1. CAN network example configuration — section 2.2.3 Example for a CAN network. Speed, Register configuration, Condition properties.",
+  "table_content": {
+    "headers": [
+      "Speed",
+      "Register configuration",
+      "Condition properties"
+    ],
+    "rows": [
+      [
+        "Nominal (FDCAN_NBTP)",
+        "NBRP = 7 NSJW = 3 NTSEG1 = 4 NTSEG2 = 3 PROP_SEG(N) = 1",
+        "BRPN = 8 SJWN = 4 PS1N = 4 PS2N = 4 BTN = 10"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

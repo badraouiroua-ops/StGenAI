@@ -1,0 +1,53 @@
+{
+  "table_id": "table_15",
+  "document": "Table 15. Document revision history",
+  "rev": null,
+  "table_number": "15",
+  "title": "Table 15. Document revision history",
+  "page": 31,
+  "section": "6 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=31",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 15. Document revision history — section 6 Conclusion. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "Sep-2023",
+        "1",
+        "Initial release."
+      ],
+      [
+        "03-Feb-2016",
+        "2",
+        "Changed IEC 1000 standard into IEC 61000. Changed NSG 435 provider in Section 3.1.1: Functional EMS test. Updated Table 3: ST ESD severity levels. Changed static latch-up example to STM32L062K8 in Modified Table 7. Removed Table Example of DLU test result on ST72F521 from Section 3.1.2: Latch-up (LU). Section 3.1.3: Absolute electrical sensitivity: • Added the fact that parts are not powered during the ESD stress. • Removed machine model. • Added Section : Charge device model (CDM). Updated Section 3.2: Electromagnetic interference (EMI). Section 4.1: Susceptibility: • Replaced low-voltage detector (LVD) by brownout reset (BOR). • Replaced RESET by NRST. • Removed Figure Maximum operating frequency vs supply voltage. • Replaced Auxiliary voltage detector (AVD) by Programmable voltage detector (PVD). • Removed Section Multiple VDD and VSS Updated Section 4.2.1: Internal PLL. Updated Section : Internal RC oscillator and Section Internal voltage regulators (for MCUs with low-power core). Added trays in Section 5.2: Handling precautions for ESD protection. Added Appendix A: EMI classification before December 14 2015."
+      ],
+      [
+        "23-Apr-2018",
+        "3",
+        "Updated Charge device model (CDM), replace title of Section 3.2.2: Global low-power approach by Section 4.2.2: Clock sources, External Clock source, Internal RC oscillator Added Table 8: CDM ESDS component classification levels, Table 9: CDM ESDS device classification levels,Section 5.1.3: Ground connections"
+      ],
+      [
+        "1-Jul-2022",
+        "4",
+        "Added: • Section 5.1.6 • Section 5.1.4 • Section 5.1.7 • Updated Section 3.2.2"
+      ],
+      [
+        "26-May-2023",
+        "5",
+        "Added: Section 1.1: Reference documents"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

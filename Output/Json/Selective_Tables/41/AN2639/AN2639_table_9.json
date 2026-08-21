@@ -1,0 +1,37 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Environmental conditions",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Environmental conditions",
+  "page": 14,
+  "section": "6.1 Pop-corn effect",
+  "section_title": "Pop-corn effect",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=14",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+  "text_helper": "Table 9. Environmental conditions — section 6.1 Pop-corn effect. Condition, Recommended value.",
+  "table_content": {
+    "headers": [
+      "Condition",
+      "Recommended value"
+    ],
+    "rows": [
+      [
+        "Temperature",
+        "5 → 30 °C"
+      ],
+      [
+        "Humidity",
+        "60% RH max"
+      ]
+    ],
+    "notes": [
+      "1. X depends on the MSL (Moisture Sensitivity Level). See JEDEC standard J-STD-033D. It is recommended to store parts in dry pack in dry boxes (that is, cabinets under nitrogen atmosphere). See"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

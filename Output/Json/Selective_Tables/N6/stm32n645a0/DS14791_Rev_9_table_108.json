@@ -1,0 +1,114 @@
+{
+  "table_id": "table_108",
+  "document": "DS14791 Rev 9 - Table 108. LCD-TFT characteristics",
+  "rev": "Rev 9",
+  "table_number": "108",
+  "title": "Table 108. LCD-TFT characteristics",
+  "page": 214,
+  "section": "5.3.34 LCD-TFT controller (LTDC) characteristics",
+  "section_title": "LCD-TFT controller (LTDC) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=214",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 108. LCD-TFT characteristics — section 5.3.34 LCD-TFT controller (LTDC) characteristics. Symbol, Parameter, Parameter, Min, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f CLK",
+        "LTDC clock output frequency",
+        "Fp 03 DD ,V 6.3 ≤ V ≤ V 56.1",
+        "-",
+        "88",
+        "MHz"
+      ],
+      [
+        "D CLK",
+        "LTDC clock output duty cycle",
+        "LTDC clock output duty cycle",
+        "45",
+        "55",
+        "%"
+      ],
+      [
+        "t , t w(CLKH) w(CLKL)",
+        "Clock high time, low time",
+        "t /2 - 0.5 w(CLK)",
+        "t /2 + 0.5 w(CLK)",
+        "ns",
+        "%"
+      ],
+      [
+        "t v(DATA)",
+        "Data output valid time",
+        "-",
+        "3.5",
+        "3.5",
+        "%"
+      ],
+      [
+        "t h(DATA)",
+        "Data output hold time",
+        "1.5",
+        "-",
+        "-",
+        "%"
+      ],
+      [
+        "t , v(HSYNC) t , v(VSYNC)",
+        "HSYNC/VSYNC/DE output valid time",
+        "-",
+        "-",
+        "ns",
+        "%"
+      ],
+      [
+        "t , v(HSYNC) t , v(VSYNC)",
+        "HSYNC/VSYNC/DE output valid time",
+        "-",
+        "1.5",
+        "ns",
+        "%"
+      ],
+      [
+        "t , h(HSYNC)",
+        "HSYNC/VSYNC/DE output hold time",
+        "0.5",
+        "-",
+        "-",
+        "%"
+      ],
+      [
+        "t , h(VSYNC)",
+        "-",
+        "-",
+        "-",
+        "-",
+        "%"
+      ],
+      [
+        "t h(DE)",
+        "-",
+        "-",
+        "-",
+        "-",
+        "%"
+      ]
+    ],
+    "notes": [
+      "1. Specified by design. Not tested in production.",
+      "2. TIMx is used as a general term to refer to the TIM1 to TIMx timers."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

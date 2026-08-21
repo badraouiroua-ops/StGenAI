@@ -1,0 +1,126 @@
+{
+  "table_id": "table_12",
+  "caption": "Table 12. Compatible USB HS PHY",
+  "pdf_name": "AN4879",
+  "family": "41",
+  "page": 18,
+  "merged_pages": [
+    18
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=18",
+  "section": "3.4.1 External USB HS PHYs compatible via ULPI interface",
+  "headers": [
+    "USB HS PHY",
+    "Tested on / Board",
+    "Tested on / MCU"
+  ],
+  "rows": [
+    [
+      "ISP1705AET",
+      "STM3240G-EVAL",
+      "STM32F407"
+    ],
+    [
+      "ISP1705AET",
+      "STM3241G-Eval",
+      "STM32F417"
+    ],
+    [
+      "ISP1705AET",
+      "STM3221G-Eval",
+      "STM32F207"
+    ],
+    [
+      "ISP1705AET",
+      "STM3220G-EVAL",
+      "STM32F217"
+    ],
+    [
+      "USB3300-EZK",
+      "STM32779I-Eval",
+      "STM32F777"
+    ],
+    [
+      "USB3300-EZK",
+      "STM32769I-Eval",
+      "STM32F769"
+    ],
+    [
+      "USB3300-EZK",
+      "STM32756G-EVAL",
+      "STM32F756"
+    ],
+    [
+      "USB3300-EZK",
+      "STM32746G-Eval",
+      "STM32F746"
+    ],
+    [
+      "USB3300-EZK",
+      "STM32479I-Eval",
+      "STM32F479"
+    ],
+    [
+      "USB3300-EZK",
+      "STM32F446E-Eval",
+      "STM32F446"
+    ],
+    [
+      "USB3300-EZK",
+      "STM32F439I-Eval",
+      "STM32F439"
+    ],
+    [
+      "USB3300-EZK",
+      "STM32F429I-Eval",
+      "STM32F429"
+    ],
+    [
+      "USB3320C-EZK",
+      "STM32H753I-EVAL",
+      "STM32H753"
+    ],
+    [
+      "USB3320C-EZK",
+      "STM32H743I-EVAL",
+      "STM32H743"
+    ],
+    [
+      "USB3320C-EZK",
+      "STM32F769I-DISCO",
+      "STM32F769"
+    ],
+    [
+      "USB3320C-EZK",
+      "STM32F746G-DISCO",
+      "STM32F746"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN4879",
+    "table_id": "table_12",
+    "is_continued": false,
+    "pages": [
+      18
+    ],
+    "rows_count": 16,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

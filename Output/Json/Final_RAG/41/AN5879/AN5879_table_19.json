@@ -1,0 +1,31 @@
+{
+  "table_id": "table_19",
+  "document": "Table 19. Software settings mixed bus: I3C - I3C and I2C",
+  "rev": null,
+  "table_number": "19",
+  "title": "Table 19. Software settings mixed bus: I3C - I3C and I2C",
+  "page": 45,
+  "section": "9.10.3.1 Software settings",
+  "section_title": "Software settings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=45",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 19. Software settings mixed bus: I3C - I3C and I2C — section 9.10.3.1 Software settings. , • TxBuffer: buffer used for transmission (value: reg address = 0x0F) (WHO_AM_I) • RxBuffer: buffer used for reception. • aTargetDesc: target descriptor. – (0x32 as DA) • aPrivateDescriptor: two direct...",
+  "table_content": {
+    "headers": [
+      "",
+      "• TxBuffer: buffer used for transmission (value: reg address = 0x0F) (WHO_AM_I) • RxBuffer: buffer used for reception. • aTargetDesc: target descriptor. – (0x32 as DA) • aPrivateDescriptor: two directions, read and write. (0x19 static address)"
+    ],
+    "rows": [
+      [
+        "",
+        "• Assigning DA in interrupt mode (initiate a RSTDAA follow by a ENTDAA) • check the current state of the peripheral. • Prepare context buffers process"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

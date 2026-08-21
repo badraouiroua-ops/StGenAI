@@ -1,0 +1,31 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Applicable products",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Applicable products",
+  "page": 1,
+  "section": "General purpose / Overview",
+  "section_title": "General purpose / Overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+  "text_helper": "Table 1. Applicable products — section General purpose / Overview. Type, Product series.",
+  "table_content": {
+    "headers": [
+      "Type",
+      "Product series"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "STM32C0 series, STM32C5 series, STM32F0 series, STM32F1 series, STM32F2 series, STM32F3 series, STM32F4 series, STM32F7 series, STM32G0 series, STM32G4 series, STM32H5 series, STM32H7 series, STM32N6 series, STM32L0 series, STM32L1 series, STM32L4 series, STM32L5 series, STM32U0 series, STM32U3 series, STM32U5 series, STM32WB series, STM32WB0 series, STM32WBA series, STM32WL series"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "table_id": "table_15",
+  "document": "Table 15. Attributes and access permission managed by MPU.",
+  "rev": null,
+  "table_number": "15",
+  "title": "Table 15. Attributes and access permission managed by MPU.",
+  "page": 40,
+  "section": "6.12 Memory protection unit (MPU)",
+  "section_title": "Memory protection unit (MPU)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=40",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 15. Attributes and access permission managed by MPU. — section 6.12 Memory protection unit (MPU). Privileged mode attribute, Unprivileged mode attribute, Description.",
+  "table_content": {
+    "headers": [
+      "Privileged mode attribute",
+      "Unprivileged mode attribute",
+      "Description"
+    ],
+    "rows": [
+      [
+        "Execute never (XN)(1)",
+        "Execute never (XN)(1)",
+        "Code execution attribute"
+      ],
+      [
+        "No access",
+        "No access",
+        "All accesses generate a permission fault."
+      ],
+      [
+        "RW",
+        "No access",
+        "Access from a privileged software only"
+      ],
+      [
+        "RW",
+        "RO",
+        "Written by an unprivileged software generate a permission fault."
+      ],
+      [
+        "RW",
+        "RW",
+        "Full access"
+      ],
+      [
+        "RO",
+        "No access",
+        "Read by a privileged software only"
+      ],
+      [
+        "RO",
+        "RO",
+        "Read only, by privileged or unprivileged software"
+      ]
+    ],
+    "notes": [
+      "1. XN attribute is set by region, and is valid for both modes. It can be used to avoid SRAM code injection for example. The code executed in privileged mode can access additional specific instructions (MRS), and can also access"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

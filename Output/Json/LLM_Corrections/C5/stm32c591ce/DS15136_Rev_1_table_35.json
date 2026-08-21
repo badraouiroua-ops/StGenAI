@@ -1,0 +1,35 @@
+{
+  "table_id": "table_35",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "ΔVDD(HSI)(2)(4)",
+      "row_index": 7,
+      "analyse_visuelle": "Absence d'espace entre 'VDD' et 'Section' dans le texte du paramètre.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "HSI oscillator frequency drift with VDDSection 5.3.9.1: High-speed internal HSI144 oscillator (5)(the reference is 3.3V)",
+          "nouvelle_valeur": "HSI oscillator frequency drift with VDD Section 5.3.9.1: High-speed internal HSI144 oscillator (5)(the reference is 3.3V)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "NT jitter(2)",
+      "row_index": 14,
+      "analyse_visuelle": "Présence d'un point en trop à la fin du texte après l'appel de note (7).",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Next transition jitter(7).",
+          "nouvelle_valeur": "Next transition jitter(7)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,58 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. Non-protected sink - sequence of exiting Dead battery mode",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. Non-protected sink - sequence of exiting Dead battery mode",
+  "page": 26,
+  "section": "11.3 Hardware overview",
+  "section_title": "Hardware overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=26",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 10. Non-protected sink - sequence of exiting Dead battery mode — section 11.3 Hardware overview. Sequence, VBUS, VDD, Rd value, Comment.",
+  "table_content": {
+    "headers": [
+      "Sequence",
+      "VBUS",
+      "VDD",
+      "Rd value",
+      "Comment"
+    ],
+    "rows": [
+      [
+        "Step 0",
+        "0 V",
+        "0 V",
+        "DB",
+        "-"
+      ],
+      [
+        "Step 1",
+        "5 V",
+        "0 V",
+        "DB",
+        "VBUS arrives"
+      ],
+      [
+        "Step 2",
+        "5 V",
+        "3.3 V",
+        "default Rd",
+        "device supply arrives"
+      ],
+      [
+        "Step 3",
+        "5 V",
+        "3.3 V",
+        "as selected by SW",
+        "upon write to ANAMODE"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

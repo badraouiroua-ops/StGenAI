@@ -1,0 +1,46 @@
+{
+  "table_id": "table_14",
+  "document": "Table 14. SPI peripheral information",
+  "rev": null,
+  "table_number": "14",
+  "title": "Table 14. SPI peripheral information",
+  "page": 12,
+  "section": "3.4.1 CORDIC coprocessor",
+  "section_title": "CORDIC coprocessor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=12",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "text_helper": "Table 14. SPI peripheral information — section 3.4.1 CORDIC coprocessor. Peripheral request to LPDMA, Peripheral bus, Peripheral FIFO (unit, size), Peripheral register access, Comments.",
+  "table_content": {
+    "headers": [
+      "Peripheral request to LPDMA",
+      "Peripheral bus",
+      "Peripheral FIFO (unit, size)",
+      "Peripheral register access",
+      "Comments"
+    ],
+    "rows": [
+      [
+        "spi_rx_dma (x = 1,2,3)",
+        "STM32C5 (APB2 for SPI1 APB1 for SPI2/3)",
+        "16-byte RXFIFO and TXFIFO for SPI1, SPI2 and SPI3(1)",
+        "Read SPI_RXDR",
+        "Request for a new received data to be read by the LPDMA. Must be read with a 32-bit aligned address, whatever is the data width."
+      ],
+      [
+        "spi_tx_dma (x = 1,2,3)",
+        "STM32C5 (APB2 for SPI1 APB1 for SPI2/3)",
+        "16-byte RXFIFO and TXFIFO for SPI1, SPI2 and SPI3(1)",
+        "Write SPI_TXDR",
+        "Request for a new data to be written by the LPDMA for transmission. Must be written with a 32-bit aligned address, whatever is the data width."
+      ]
+    ],
+    "notes": [
+      "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

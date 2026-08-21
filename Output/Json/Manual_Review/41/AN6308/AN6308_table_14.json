@@ -1,0 +1,86 @@
+{
+  "table_id": "table_14",
+  "document": "AN6308",
+  "rev": "1",
+  "table_number": "14",
+  "title": "Table 14. DMA features Peripherals",
+  "page": 26,
+  "section": "6.2.3 Direct memory access controller (DMA)",
+  "section_title": "Direct memory access controller (DMA)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=26",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 14. DMA features Peripherals — section 6.2.3 Direct memory access controller (DMA). Peripherals, STM32H5 / GPDMA1, STM32H5 / GPDMA2, STM32C5 / LPDMA1, STM32C5 / LPDMA2.",
+  "table_content": {
+    "headers": [
+      "Peripherals",
+      "STM32H5 / GPDMA1",
+      "STM32H5 / GPDMA2",
+      "STM32C5 / LPDMA1",
+      "STM32C5 / LPDMA2"
+    ],
+    "rows": [
+      [
+        "Architecture",
+        "Each instance of DMA controllers can access memory and peripherals",
+        "Each instance of DMA controllers can access memory and peripherals",
+        "Each instance of DMA controllers can access memory and peripherals",
+        "Each instance of DMA controllers can access memory and peripherals"
+      ],
+      [
+        "Number of instances",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "Number of controllers",
+        "Dual bidirectional AHB controller",
+        "Dual bidirectional AHB controller",
+        "Single AHB controller bus",
+        "Single AHB controller bus"
+      ],
+      [
+        "Number of channels",
+        "8",
+        "8",
+        "8",
+        "8"
+      ],
+      [
+        "TrustZone® security",
+        "Yes",
+        "Yes",
+        "NA",
+        "NA"
+      ],
+      [
+        "Per chanel FIFO",
+        "Yes",
+        "Yes",
+        "NA",
+        "NA"
+      ],
+      [
+        "Privileged/unprivileged DMA",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Linked-list",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

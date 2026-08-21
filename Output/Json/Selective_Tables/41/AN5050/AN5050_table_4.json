@@ -1,0 +1,39 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. XSPI main features",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. XSPI main features",
+  "page": 10,
+  "section": "2.1 OCTOSPI, HSPI, and XSPI main features",
+  "section_title": "OCTOSPI, HSPI, and XSPI main features",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=10",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+  "text_helper": "Table 4. XSPI main features — section 2.1 OCTOSPI, HSPI, and XSPI main features. Feature, Feature, STM32H7Rx/7Sx, STM32N6, STM32C5(1).",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "Feature",
+      "STM32H7Rx/7Sx",
+      "STM32N6",
+      "STM32C5(1)"
+    ],
+    "rows": [
+      [
+        "Number of instances",
+        "Number of instances",
+        "2",
+        "3",
+        "1"
+      ]
+    ],
+    "notes": [
+      "1. XSPI is supported only on STM32C59xx/5Axx devices. Refer to the respective product datasheet to verify the supported SPI interface width: 8-bit or 16-bit."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "table_id": "table_9",
+  "caption": "Table 9. Document revision history",
+  "pdf_name": "AN4989",
+  "family": "41",
+  "page": 117,
+  "merged_pages": [
+    117
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=117",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "16-Jun-2017",
+      "1",
+      "Initial release."
+    ],
+    [
+      "29-Jun-2017",
+      "2",
+      "Added Table 1: Applicable products."
+    ],
+    [
+      "26-Jan-2021",
+      "3",
+      "Updated: – Section 1.2: Software versions – Section 2.1.1: Hardware kits – Figure 5: Discovery board example Added: – Section 1.1: General information – Section 2.4.2: Wiki platform – Section 2.4.3: Github – Figure 2: Development tools overview – Figure 4: STM32 Nucleo-144 structure – Figure 15: STM32Cube monitor – Figure 14: STM32Cube programmer"
+    ],
+    [
+      "05-Feb-2026",
+      "4",
+      "Updated document title."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4989",
+    "table_id": "table_9",
+    "is_continued": false,
+    "pages": [
+      117
+    ],
+    "rows_count": 4,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

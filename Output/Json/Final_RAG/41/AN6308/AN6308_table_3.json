@@ -1,0 +1,125 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Available packages",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Available packages",
+  "page": 7,
+  "section": "4.1 Package availability",
+  "section_title": "Package availability",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 3. Available packages — section 4.1 Package availability. Package(size in mm x mm), STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "Package(size in mm x mm)",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "LQFP176 (24 x 24 mm)",
+        "Yes",
+        "No"
+      ],
+      [
+        "LQFP144 (20 x 20 mm)",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "LQFP100 (14 x 14 mm)",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "LQFP80 (12 x 12 mm)",
+        "No",
+        "Yes"
+      ],
+      [
+        "LQFP64 (10 x 10 mm)",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "LQFP48 (7 x 7 mm)",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "LQFP32 (7 x 7 mm)",
+        "No",
+        "Yes"
+      ],
+      [
+        "UFQFPN48 (7 x 7 mm)",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "UFQFPN32 (5 x 5 mm)",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "UFQFPN24 (4 x 4 mm)",
+        "No",
+        "Yes"
+      ],
+      [
+        "UFQFPN20 (3 x 3 mm)",
+        "No",
+        "Yes"
+      ],
+      [
+        "TFBGA225 (13 x 13 mm)",
+        "Yes",
+        "No"
+      ],
+      [
+        "UFBGA176+25 (10 x 10 mm, 0.80 mm pitch)",
+        "Yes",
+        "No"
+      ],
+      [
+        "UFBGA169 (7 x 7 mm, 0.50 mm pitch)",
+        "Yes",
+        "No"
+      ],
+      [
+        "UFBGA144 (10 x 10 mm, 0.80 mm pitch)",
+        "Yes",
+        "No"
+      ],
+      [
+        "UFBGA144 (7 x 7 mm, 0.50 mm pitch)",
+        "Yes",
+        "No"
+      ],
+      [
+        "UFBGA100 (7 x 7 mm, 0.50 mm pitch)",
+        "Yes",
+        "No"
+      ],
+      [
+        "VFQFPN68 (8 x 8 mm)",
+        "Yes",
+        "No"
+      ],
+      [
+        "TSSOP20 (6.5 x 4.4 mm)",
+        "No",
+        "Yes"
+      ]
+    ],
+    "notes": [
+      "1. X = available, NA = not available AN6308 - Rev 1 page 7/51"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

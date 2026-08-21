@@ -1,0 +1,22 @@
+{
+  "table_id": "table_9",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Class 3A",
+      "row_index": 5,
+      "analyse_visuelle": "Sur l'image, la plage de tension pour la Class 3A est '4 kV < V < 8 kV' et non '1 kV < V < 8 kV'. Le chiffre 4 a été mal reconnu comme un 1 par l'OCR.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "1 kV < V < 8 kV",
+          "nouvelle_valeur": "4 kV < V < 8 kV",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

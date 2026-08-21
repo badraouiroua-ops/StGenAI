@@ -1,0 +1,153 @@
+{
+  "table_id": "table_68",
+  "document": "DS13866 Rev 5 - Table 68. TSSOP20 – Mechanical data",
+  "rev": "Rev 5",
+  "table_number": "68",
+  "title": "Table 68. TSSOP20 – Mechanical data",
+  "page": 87,
+  "section": "6.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=87",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "text_helper": "Table 68. TSSOP20 – Mechanical data — section 6.1 Device marking. Symbol, millimeters / Min., millimeters / Typ., millimeters / Max., inches(1) / Min., +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min.",
+      "millimeters / Typ.",
+      "millimeters / Max.",
+      "inches(1) / Min.",
+      "inches(1) / Typ.",
+      "inches(1) / Max."
+    ],
+    "rows": [
+      [
+        "A",
+        "-",
+        "-",
+        "1.200",
+        "-",
+        "-",
+        "0.0472"
+      ],
+      [
+        "A1",
+        "0.050",
+        "-",
+        "0.150",
+        "0.0020",
+        "-",
+        "0.0059"
+      ],
+      [
+        "A2",
+        "0.800",
+        "1.000",
+        "1.050",
+        "0.0315",
+        "0.0394",
+        "0.0413"
+      ],
+      [
+        "b",
+        "0.190",
+        "-",
+        "0.300",
+        "0.0075",
+        "-",
+        "0.0118"
+      ],
+      [
+        "c",
+        "0.090",
+        "-",
+        "0.200",
+        "0.0035",
+        "-",
+        "0.0079"
+      ],
+      [
+        "D(2)",
+        "6.400",
+        "6.500",
+        "6.600",
+        "0.2520",
+        "0.2559",
+        "0.2598"
+      ],
+      [
+        "E",
+        "6.200",
+        "6.400",
+        "6.600",
+        "0.2441",
+        "0.2520",
+        "0.2598"
+      ],
+      [
+        "E1(3)",
+        "4.300",
+        "4.400",
+        "4.500",
+        "0.1693",
+        "0.1732",
+        "0.1772"
+      ],
+      [
+        "e",
+        "-",
+        "0.650",
+        "-",
+        "-",
+        "0.0256",
+        "-"
+      ],
+      [
+        "L",
+        "0.450",
+        "0.600",
+        "0.750",
+        "0.0177",
+        "0.0236",
+        "0.0295"
+      ],
+      [
+        "L1",
+        "-",
+        "1.000",
+        "-",
+        "-",
+        "0.0394",
+        "-"
+      ],
+      [
+        "k",
+        "0°",
+        "-",
+        "8°",
+        "0°",
+        "-",
+        "8°"
+      ],
+      [
+        "aaa",
+        "-",
+        "-",
+        "0.100",
+        "-",
+        "-",
+        "0.0039"
+      ]
+    ],
+    "notes": [
+      "1. Dimensions are expressed in millimeters. 88/97 DS13866 Rev 5",
+      "2. Dimension “D” does not include mold flash, protrusions or gate burrs. Mold flash, protrusions or gate burrs shall not exceed 0.15 mm per side.",
+      "3. Dimension “E1” does not include interlead flash or protrusions. Interlead flash or protrusions shall not exceed 0.25 mm per side."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "table_id": "table_17",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Header",
+      "row_index": null,
+      "analyse_visuelle": "L'identifiant d'image ST 'DT73667V2' écrit verticalement a été extrait à l'envers (RTL) sous la forme '2V76637TD'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "2V76637TD",
+          "nouvelle_valeur": "DT73667V2",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Activate notifications specially for this example",
+      "row_index": 0,
+      "analyse_visuelle": "L'identifiant vertical 'DT71946V2' a été extrait à l'envers sous la forme '2V64917TD'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "2V64917TD",
+          "nouvelle_valeur": "DT71946V2",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Send IBI request",
+      "row_index": 1,
+      "analyse_visuelle": "L'identifiant vertical 'DT71947V2' a été extrait à l'envers sous la forme '2V74917TD'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "2V74917TD",
+          "nouvelle_valeur": "DT71947V2",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "I3C notify callback after receiving a notification",
+      "row_index": 2,
+      "analyse_visuelle": "L'identifiant vertical correspondant à cette ligne est uniquement 'DT71948V2', mais tous les identifiants ont été concaténés dans cette cellule.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "DT71948V2DT71947V2DT71946V2DT73667V2",
+          "nouvelle_valeur": "DT71948V2",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

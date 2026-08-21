@@ -1,0 +1,38 @@
+{
+  "table_id": "table_16",
+  "document": "Table 16. Process isolation.",
+  "rev": null,
+  "table_number": "16",
+  "title": "Table 16. Process isolation.",
+  "page": 41,
+  "section": "6.12 Memory protection unit (MPU)",
+  "section_title": "Memory protection unit (MPU)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=41",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 16. Process isolation. — section 6.12 Memory protection unit (MPU). Firmware type, Mode, Resources access.",
+  "table_content": {
+    "headers": [
+      "Firmware type",
+      "Mode",
+      "Resources access"
+    ],
+    "rows": [
+      [
+        "Secure firmware (such as SB or OS kernel)",
+        "Privileged",
+        "Full access"
+      ],
+      [
+        "All remaining firmware",
+        "Unprivileged",
+        "MPU controlled access: no access, RO, RW"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

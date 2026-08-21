@@ -1,0 +1,33 @@
+{
+  "table_id": "table_23",
+  "document": "Table 23. CAN features",
+  "rev": null,
+  "table_number": "23",
+  "title": "Table 23. CAN features",
+  "page": 38,
+  "section": "6.4.5 Controller area network (CAN)",
+  "section_title": "Controller area network (CAN)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=38",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 23. CAN features — section 6.4.5 Controller area network (CAN). CAN, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "CAN",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Instances",
+        "x2 FDCAN",
+        "x2 FDCAN"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

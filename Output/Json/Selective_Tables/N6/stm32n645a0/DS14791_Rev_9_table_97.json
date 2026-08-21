@@ -1,0 +1,235 @@
+{
+  "table_id": "table_97",
+  "document": "DS14791 Rev 9 - Table 97. VREFBUF characteristics",
+  "rev": "Rev 9",
+  "table_number": "97",
+  "title": "Table 97. VREFBUF characteristics",
+  "page": 204,
+  "section": "5.3.24 Voltage reference buffer (VREFBUF) characteristics",
+  "section_title": "Voltage reference buffer (VREFBUF) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=204",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 97. VREFBUF characteristics — section 5.3.24 Voltage reference buffer (VREFBUF) characteristics. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DDA18ADC",
+        "Analog supply voltage",
+        "-",
+        "VRS = 000",
+        "1.62",
+        "1.8",
+        "1.98(2)",
+        "V"
+      ],
+      [
+        "V DDA18ADC",
+        "Analog supply voltage",
+        "-",
+        "VRS = 001",
+        "1.75",
+        "1.8",
+        "1.98(2)",
+        "V"
+      ],
+      [
+        "V REFBUF_ OUT",
+        "Voltage reference buffer output",
+        "I = 10 μA, LOAD V = 1.8 V, DDA18ADC T = 30°C J",
+        "VRS = 000",
+        "1.209",
+        "1.210",
+        "1.211",
+        "V"
+      ],
+      [
+        "V REFBUF_ OUT",
+        "Voltage reference buffer output",
+        "I = 10 μA, LOAD V = 1.8 V, DDA18ADC T = 30°C J",
+        "VRS = 001",
+        "1.499",
+        "1.5",
+        "1.502",
+        "V"
+      ],
+      [
+        "TRIM",
+        "Trim step resolution",
+        "-",
+        "-",
+        "-",
+        "±0.05",
+        "±0.1",
+        "%"
+      ],
+      [
+        "C L",
+        "Load capacitor",
+        "-",
+        "-",
+        "0.5",
+        "1.1",
+        "1.5",
+        "μF"
+      ],
+      [
+        "esr",
+        "Equivalent serial resistor of C L",
+        "-",
+        "-",
+        "-",
+        "-",
+        "1",
+        "W"
+      ],
+      [
+        "I LOAD",
+        "External DC load current",
+        "ADC ON",
+        "ADC ON",
+        "-",
+        "-",
+        "0.8",
+        "mA"
+      ],
+      [
+        "I LOAD",
+        "External DC load current",
+        "ADC OFF",
+        "ADC OFF",
+        "-",
+        "-",
+        "2",
+        "mA"
+      ],
+      [
+        "I LINE_REG",
+        "Line regulation",
+        "1.62 V ≤ V ≤ 1.98 V, T = +30°C DDA18ADC J",
+        "1.62 V ≤ V ≤ 1.98 V, T = +30°C DDA18ADC J",
+        "-",
+        "6463",
+        "10559",
+        "ppm/V"
+      ],
+      [
+        "I LOAD_REG",
+        "Load regulation",
+        "100 μA ≤ I ≤ 800 μA, T = +30°C LOAD J",
+        "100 μA ≤ I ≤ 800 μA, T = +30°C LOAD J",
+        "-",
+        "6276",
+        "6974",
+        "ppm/mA"
+      ],
+      [
+        "T coeff",
+        "Temperature coefficient",
+        "-40°C < T < +25°C J",
+        "-40°C < T < +25°C J",
+        "43",
+        "-",
+        "98",
+        "ppm/°C"
+      ],
+      [
+        "T coeff",
+        "Temperature coefficient",
+        "25°C < T < +125°C J",
+        "25°C < T < +125°C J",
+        "64",
+        "-",
+        "139",
+        "ppm/°C"
+      ],
+      [
+        "PSRR",
+        "Power supply rejection",
+        "DC",
+        "DC",
+        "48",
+        "76",
+        "-",
+        "dB"
+      ],
+      [
+        "PSRR",
+        "Power supply rejection",
+        "100 kHz",
+        "100 kHz",
+        "51",
+        "60",
+        "-",
+        "dB"
+      ],
+      [
+        "t START",
+        "Start-up time",
+        "-",
+        "-",
+        "-",
+        "300",
+        "800",
+        "μs"
+      ],
+      [
+        "I INRUSH",
+        "Control of max DC current drive on V REFBUF_OUT during start-up phase",
+        "Control of max DC current drive on V REFBUF_OUT during start-up phase",
+        "Control of max DC current drive on V REFBUF_OUT during start-up phase",
+        "-",
+        "-",
+        "10",
+        "mA"
+      ],
+      [
+        "I VDDA18ADC (VREFBUF)",
+        "VREFBUF supply current V DDA18ADC (excluding internal and external load)",
+        "ENVR = 1",
+        "I = 0.8 mA DC LOAD",
+        "-",
+        "9",
+        "17",
+        "μA"
+      ],
+      [
+        "I VDDA18ADC (VREFBUF)",
+        "VREFBUF supply current V DDA18ADC (excluding internal and external load)",
+        "ENVR = 1",
+        "Peak during 2× ADC conversions",
+        "-",
+        "48",
+        "60",
+        "μA"
+      ],
+      [
+        "I VDDA18ADC (VREFBUF)",
+        "VREFBUF supply current V DDA18ADC (excluding internal and external load)",
+        "ENVR = 0",
+        "ENVR = 0",
+        "-",
+        "5",
+        "26",
+        "μA"
+      ]
+    ],
+    "notes": [
+      "2. Maximum external input impedance value authorized for the given resolution."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

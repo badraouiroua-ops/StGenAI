@@ -1,0 +1,22 @@
+{
+  "table_id": "table_48",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Ileak (3) | FT_xx Input leakage current(2) | 0 < VIN ≤ Max(VDDXXX)(4)",
+      "row_index": 5,
+      "analyse_visuelle": "Sur l'image, la valeur Max pour la première condition de courant de fuite FT_xx est '±200'. L'OCR avait généré '±-200' avec un tiret superflus.",
+      "corrections": [
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "±-200",
+          "nouvelle_valeur": "±200",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

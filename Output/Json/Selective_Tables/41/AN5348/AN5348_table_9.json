@@ -1,0 +1,113 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. FDCAN improvements over BxCAN.",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. FDCAN improvements over BxCAN.",
+  "page": 32,
+  "section": "5 FDCAN implementation improvements over BxCAN",
+  "section_title": "FDCAN implementation improvements over BxCAN",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=32",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+  "text_helper": "Table 9. FDCAN improvements over BxCAN. — section 5 FDCAN implementation improvements over BxCAN. Features / Compatibility, Features / Compatibility with BxCAN, Supported by BxCAN / Yes, Supported by FDCAN / Yes.",
+  "table_content": {
+    "headers": [
+      "Features / Compatibility",
+      "Features / Compatibility with BxCAN",
+      "Supported by BxCAN / Yes",
+      "Supported by FDCAN / Yes"
+    ],
+    "rows": [
+      [
+        "Compatibility",
+        "Compatibility with CAN-FD",
+        "No",
+        "No"
+      ],
+      [
+        "Compatibility",
+        "Remote frame",
+        "No",
+        "Supported to become compatible with BxCAN"
+      ],
+      [
+        "Frame",
+        "Arbitration bitrate /data rate (in Mbit/s)",
+        "Up to 1 (only bitrate per frame)",
+        "Up to 1 /Up to 8"
+      ],
+      [
+        "Frame",
+        "Data length per frame (in bytes)",
+        "0 to 8",
+        "0 to 64"
+      ],
+      [
+        "RAM",
+        "RAM",
+        "512 bytes",
+        "10 Kbytes"
+      ],
+      [
+        "RAM",
+        "Accessible RAM",
+        "No",
+        "Yes"
+      ],
+      [
+        "Transmission",
+        "Dedicated Tx buffer/Tx queue/Tx FIFO",
+        "No/Yes/Yes Maximum three elements can be used as queue or FIFO.",
+        "Yes/Yes/Yes Maximum 32 elements: user chooses the transmit mechanism."
+      ],
+      [
+        "Transmission",
+        "Transmit pause",
+        "No",
+        "Yes"
+      ],
+      [
+        "Reception",
+        "Dedicated Rx buffer/Rx FIFO",
+        "No/2 Up to three elements in each Rx FIFO Up to six elements maximum",
+        "64/2 Up to 64 elements in each Rx FIFO Up to 192 elements maximum"
+      ],
+      [
+        "Reception",
+        "Overwrite mode option",
+        "Overwrite the last element received in FIFO",
+        "Overwrite the oldest element in FIFO"
+      ],
+      [
+        "Reception",
+        "Improvements acceptance filters",
+        "Classical CAL (Can 2.0) acceptance filters",
+        "Some features are added as: • Discards matching filter. • Accepts non matching filters."
+      ],
+      [
+        "Other",
+        "Restricted test mode",
+        "No",
+        "Yes"
+      ],
+      [
+        "Other",
+        "Transceiver delay compensation",
+        "No",
+        "Yes"
+      ],
+      [
+        "Other",
+        "Clock calibration unit",
+        "No",
+        "Yes"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

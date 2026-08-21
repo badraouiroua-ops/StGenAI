@@ -1,0 +1,22 @@
+{
+  "table_id": "table_13",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "UBE(1)",
+      "row_index": 8,
+      "analyse_visuelle": "Dans la colonne STM32U3/STM32U5 pour la ligne UBE(1), la valeur affichée est 'Yes' et non 'Yes (boot lock feature)'.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Yes (boot lock feature)",
+          "nouvelle_valeur": "Yes",
+          "confiance": 95
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

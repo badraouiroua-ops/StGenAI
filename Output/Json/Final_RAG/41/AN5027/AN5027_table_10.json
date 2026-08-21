@@ -1,0 +1,102 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. I2S2 clock configuration and accuracy",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. I2S2 clock configuration and accuracy",
+  "page": 36,
+  "section": "3.2 DFSDM filters for digital signal processing",
+  "section_title": "DFSDM filters for digital signal processing",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=36",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 10. I2S2 clock configuration and accuracy — section 3.2 DFSDM filters for digital signal processing. Target Audio Frequency (kHz), Microphone mode, I2S_APB1 Clock Mux source, DivM, PLLN, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Target Audio Frequency (kHz)",
+      "Microphone mode",
+      "I2S_APB1 Clock Mux source",
+      "DivM",
+      "PLLN",
+      "DivR",
+      "DivP",
+      "I2S clock (MHz)(1)",
+      "Accuracy (ppm)"
+    ],
+    "rows": [
+      [
+        "16",
+        "Mono",
+        "PLLI2SR",
+        "5",
+        "192",
+        "2",
+        "-",
+        "153.60",
+        "0"
+      ],
+      [
+        "16",
+        "Mono",
+        "PLLI2SR",
+        "5",
+        "192",
+        "5",
+        "-",
+        "61.44",
+        "0"
+      ],
+      [
+        "16",
+        "Stereo (with timer)",
+        "PLLR",
+        "7",
+        "344",
+        "6",
+        "4",
+        "65.52",
+        "-186"
+      ],
+      [
+        "48",
+        "Mono",
+        "PLLI2SR",
+        "5",
+        "192",
+        "2",
+        "-",
+        "153.60",
+        "0"
+      ],
+      [
+        "48",
+        "Mono",
+        "PLLI2SR",
+        "5",
+        "192",
+        "5",
+        "-",
+        "61.44",
+        "0"
+      ],
+      [
+        "48",
+        "Stereo (with timer)",
+        "PLLR",
+        "7",
+        "344",
+        "4",
+        "4",
+        "98.29",
+        "-186"
+      ]
+    ],
+    "notes": [
+      "1. In order to work properly, the I2S clock must be higher than its APB clock."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

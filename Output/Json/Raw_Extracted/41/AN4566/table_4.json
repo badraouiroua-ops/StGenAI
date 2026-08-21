@@ -1,0 +1,50 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. Example of the calibration measurement",
+  "pdf_name": "AN4566",
+  "family": "41",
+  "page": 13,
+  "merged_pages": [
+    13
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=13",
+  "section": "2.2.4 Output gain calibration",
+  "headers": [
+    "DAC DOR",
+    "ADC result value"
+  ],
+  "rows": [
+    [
+      "1023",
+      "3135"
+    ],
+    [
+      "3071",
+      "983"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4566",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      13
+    ],
+    "rows_count": 2,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

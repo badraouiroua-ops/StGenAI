@@ -1,0 +1,38 @@
+{
+  "table_id": "table_16",
+  "document": "Table 16. Document revision history",
+  "rev": null,
+  "table_number": "16",
+  "title": "Table 16. Document revision history",
+  "page": 65,
+  "section": "6 Revision history",
+  "section_title": "Revision history",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=65",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 16. Document revision history — section 6 Revision history. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "14-Dec-2017",
+        "1",
+        "Initial release."
+      ],
+      [
+        "17-Jul-2019",
+        "2",
+        "Updated all document to enlarge the scope to all STM32 devices (MCU and MPU)"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

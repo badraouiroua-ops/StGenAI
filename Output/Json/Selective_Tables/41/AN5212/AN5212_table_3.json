@@ -1,0 +1,51 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. 1-way versus 2-way ICACHE",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. 1-way versus 2-way ICACHE",
+  "page": 12,
+  "section": "4 MB",
+  "section_title": "MB",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=12",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "text_helper": "Table 3. 1-way versus 2-way ICACHE — section 4 MB. Parameter, 1-way ICACHE, 2-way ICACHE.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "1-way ICACHE",
+      "2-way ICACHE"
+    ],
+    "rows": [
+      [
+        "Cache size (Kbytes)",
+        "8(1)/32(2)",
+        "8(1)/32(2)"
+      ],
+      [
+        "Cache number of ways",
+        "1",
+        "2"
+      ],
+      [
+        "Cache line size",
+        "128 bits (16 bytes)",
+        "128 bits (16 bytes)"
+      ],
+      [
+        "Number of cache lines",
+        "512(1)/2048(2)",
+        "256(1)/1024(2) per way"
+      ]
+    ],
+    "notes": [
+      "1. N/A for STM32C5xx",
+      "2. To be selected when remapping such regions."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "table_id": "table_80",
+  "document": "DS14693 Rev 2 - Table 80. UFBGA64 - Example of PCB design rules (0.5 mm pitch BGA)",
+  "rev": "Rev 2",
+  "table_number": "80",
+  "title": "Table 80. UFBGA64 - Example of PCB design rules (0.5 mm pitch BGA)",
+  "page": 125,
+  "section": "1.2 REF",
+  "section_title": "REF",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=125",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "text_helper": "Table 80. UFBGA64 - Example of PCB design rules (0.5 mm pitch BGA) — section 1.2 REF. Dimension, Values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.5 mm"
+      ],
+      [
+        "Dpad",
+        "0.280 mm"
+      ],
+      [
+        "Dsm",
+        "0.370 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.280 mm"
+      ],
+      [
+        "Stencil thickness",
+        "Between 0.100 mm and 0.125 mm"
+      ],
+      [
+        "Pad trace width",
+        "0.100 mm"
+      ]
+    ],
+    "notes": [
+      "11. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "13. Drawing is not to scale. Figure 53. UFBGA64 – Footprint example"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

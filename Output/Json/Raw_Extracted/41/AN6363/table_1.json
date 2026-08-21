@@ -1,0 +1,48 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. CAN network example configuration",
+  "pdf_name": "AN6363",
+  "family": "41",
+  "page": 6,
+  "merged_pages": [
+    6
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6363.pdf#page=6",
+  "section": "2.2.3 Example for a CAN network",
+  "headers": [
+    "Speed",
+    "Register configuration",
+    "Condition properties"
+  ],
+  "rows": [
+    [
+      "Nominal (FDCAN_NBTP)",
+      "NBRP = 7 NSJW = 3 NTSEG1 = 4 NTSEG2 = 3 PROP_SEG(N) = 1",
+      "BRPN=8 SJWN=4 PS1N=4 PS2N=4"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6363",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      6
+    ],
+    "rows_count": 1,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

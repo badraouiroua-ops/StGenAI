@@ -1,0 +1,160 @@
+{
+  "table_id": "table_26",
+  "document": "DS13867 Rev 4 - Table 26. Embedded reset and power control block characteristics",
+  "rev": "Rev 4",
+  "table_number": "26",
+  "title": "Table 26. Embedded reset and power control block characteristics",
+  "page": 42,
+  "section": "5.3.3 Embedded reset and power control block characteristics",
+  "section_title": "Embedded reset and power control block characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=42",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "text_helper": "Table 26. Embedded reset and power control block characteristics — section 5.3.3 Embedded reset and power control block characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t (1) RSTTEMPO",
+        "POR temporization when V crosses V DD POR",
+        "V rising DD",
+        "-",
+        "270",
+        "500",
+        "µs"
+      ],
+      [
+        "V (1) POR",
+        "Power-on reset threshold",
+        "-",
+        "1.9",
+        "1.94",
+        "1.98",
+        "V"
+      ],
+      [
+        "V (1) PDR",
+        "Power-down reset threshold",
+        "-",
+        "1.88",
+        "1.92",
+        "1.96",
+        "V"
+      ],
+      [
+        "V BOR1",
+        "Brownout reset threshold 1",
+        "V rising DD",
+        "2.05",
+        "2.10",
+        "2.18",
+        "V"
+      ],
+      [
+        "V BOR1",
+        "Brownout reset threshold 1",
+        "V falling DD",
+        "1.95",
+        "2.00",
+        "2.08",
+        "V"
+      ],
+      [
+        "V BOR2",
+        "Brownout reset threshold 2",
+        "V rising DD",
+        "2.20",
+        "2.31",
+        "2.38",
+        "V"
+      ],
+      [
+        "V BOR2",
+        "Brownout reset threshold 2",
+        "V falling DD",
+        "2.10",
+        "2.21",
+        "2.28",
+        "V"
+      ],
+      [
+        "V BOR3",
+        "Brownout reset threshold 3",
+        "V rising DD",
+        "2.50",
+        "2.62",
+        "2.68",
+        "V"
+      ],
+      [
+        "V BOR3",
+        "Brownout reset threshold 3",
+        "V falling DD",
+        "2.40",
+        "2.52",
+        "2.58",
+        "V"
+      ],
+      [
+        "V BOR4",
+        "Brownout reset threshold 4",
+        "V rising DD",
+        "2.80",
+        "2.91",
+        "3.00",
+        "V"
+      ],
+      [
+        "V BOR4",
+        "Brownout reset threshold 4",
+        "V falling DD",
+        "2.70",
+        "2.81",
+        "2.90",
+        "V"
+      ],
+      [
+        "V hyst_POR_PDR",
+        "Hysteresis of V and V POR PDR",
+        "-",
+        "-",
+        "20",
+        "-",
+        "mV"
+      ],
+      [
+        "V hyst_BOR",
+        "Hysteresis of V BORx",
+        "-",
+        "-",
+        "100",
+        "-",
+        "mV"
+      ],
+      [
+        "I (1) DD(BOR)",
+        "BOR consumption",
+        "-",
+        "-",
+        "2.2",
+        "2.5",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. When RESET is released functionality is guaranteed down to V min. PDR"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

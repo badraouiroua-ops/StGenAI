@@ -1,0 +1,42 @@
+{
+  "table_id": "table_11",
+  "document": "Table 11. Software settings for dynamic addressing",
+  "rev": null,
+  "table_number": "11",
+  "title": "Table 11. Software settings for dynamic addressing",
+  "page": 31,
+  "section": "9.6.1 Software settings",
+  "section_title": "Software settings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=31",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 11. Software settings for dynamic addressing — section 9.6.1 Software settings. , Target descriptor + dynamic address to assign.",
+  "table_content": {
+    "headers": [
+      "",
+      "Target descriptor + dynamic address to assign"
+    ],
+    "rows": [
+      [
+        "",
+        "The array contains the target descriptor"
+      ],
+      [
+        "",
+        "Assigning a dynamic address in the interrupt mode"
+      ],
+      [
+        "",
+        "• GET target characteristics • Controller set the DA"
+      ]
+    ],
+    "notes": [
+      "1. Address header: START + (7’h7E + W = 0 + ACK = 0) (OD phase)",
+      "2. I3C broadcast CCC (ENTDAA = 0x07): ENTDAA (0x07 + T = 0) Figure 29. ENTDAA CCC"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

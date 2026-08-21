@@ -1,0 +1,86 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. ADC features",
+  "pdf_name": "stm32c542cc",
+  "family": "C5",
+  "page": 17,
+  "merged_pages": [
+    17
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=17",
+  "section": "3.15 Analog-to-digital converter (ADC)",
+  "headers": [
+    "ADC modes/features",
+    "ADC1"
+  ],
+  "rows": [
+    [
+      "Resolution",
+      "12 bits"
+    ],
+    [
+      "Maximum sampling-speed",
+      "2.25 Msps"
+    ],
+    [
+      "Hardware-offset calibration",
+      "X"
+    ],
+    [
+      "Single-ended inputs",
+      "X"
+    ],
+    [
+      "Injected channel conversion",
+      "X"
+    ],
+    [
+      "Oversampling",
+      "up to x1024"
+    ],
+    [
+      "Data register",
+      "32 bits"
+    ],
+    [
+      "DMA support",
+      "X"
+    ],
+    [
+      "Offset compensation",
+      "X"
+    ],
+    [
+      "Gain compensation",
+      "X"
+    ],
+    [
+      "Number of analog watchdogs",
+      "3"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c542cc",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      17
+    ],
+    "rows_count": 11,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

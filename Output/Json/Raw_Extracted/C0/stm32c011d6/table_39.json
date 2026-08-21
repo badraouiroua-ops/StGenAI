@@ -1,0 +1,99 @@
+{
+  "table_id": "table_39",
+  "caption": "Table 39. LSE oscillator characteristics (f = 32.768 kHz) 53 LSE",
+  "pdf_name": "stm32c011d6",
+  "family": "C0",
+  "page": 53,
+  "merged_pages": [
+    53
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=53",
+  "section": "8 MHz controlled",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions(1)",
+    "Min(2)",
+    "Typ(2)",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD(LSE)",
+      "LSE current consumption",
+      "LSEDRV = 0 Medium high drive capability",
+      "-",
+      "500",
+      "-",
+      "nA"
+    ],
+    [
+      "I DD(LSE)",
+      "LSE current consumption",
+      "LSEDRV = 1 High drive capability",
+      "-",
+      "630",
+      "-",
+      "nA"
+    ],
+    [
+      "Gm critmax",
+      "Maximum critical crystal gm",
+      "LSEDRV = 0 Medium high drive capability",
+      "-",
+      "-",
+      "1.7",
+      "µA/V"
+    ],
+    [
+      "Gm critmax",
+      "Maximum critical crystal gm",
+      "LSEDRV = 1 High drive capability",
+      "-",
+      "-",
+      "2.7",
+      "µA/V"
+    ],
+    [
+      "t (3) SU(LSE)",
+      "Startup time",
+      "V is stabilized DD",
+      "-",
+      "2",
+      "-",
+      "s"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. R value depends on the crystal characteristics. EXT",
+      "2. Specified by design. Not tested in production.",
+      "3. t is the startup time measured from the moment it is enabled (by software) to a stabilized 32.768 kHz oscillation is SU(LSE)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c011d6",
+    "table_id": "table_39",
+    "is_continued": false,
+    "pages": [
+      53
+    ],
+    "rows_count": 5,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Applicable products",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Applicable products",
+  "page": 1,
+  "section": "Introduction",
+  "section_title": "Introduction",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=1",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 1. Applicable products — section Introduction. Type, Products.",
+  "table_content": {
+    "headers": [
+      "Type",
+      "Products"
+    ],
+    "rows": [
+      [
+        "Microcontroller",
+        "STM32H5 series, STM32H7R3/7S3 line, STM32H7R7/7S7 line, STM32U3 series, STM32N6 series, STM32C5 series"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

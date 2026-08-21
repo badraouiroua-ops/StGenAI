@@ -1,0 +1,89 @@
+{
+  "table_id": "table_18",
+  "document": "DS14721 Rev 2 - Table 18. Port C alternate function mapping (AF8 to AF15)",
+  "rev": "Rev 2",
+  "table_number": "18",
+  "title": "Table 18. Port C alternate function mapping (AF8 to AF15)",
+  "page": 38,
+  "section": "4 Pinouts, pin description and alternate functions",
+  "section_title": "Pinouts, pin description and alternate functions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=38",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "text_helper": "Table 18. Port C alternate function mapping (AF8 to AF15) — section 4 Pinouts, pin description and alternate functions. Port, AF8, AF9, AF10, AF11, +4 autres.",
+  "table_content": {
+    "headers": [
+      "Port",
+      "AF8",
+      "AF9",
+      "AF10",
+      "AF11",
+      "AF12",
+      "AF13",
+      "AF14",
+      "AF15"
+    ],
+    "rows": [
+      [
+        "PC6",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC7",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC13",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "PC14",
+        "IR_OUT",
+        "USART2_RTS/ USART2_DE",
+        "TIM17_CH1",
+        "TIM3_CH2",
+        "SPI2_NSS",
+        "-",
+        "I2C1_SDA",
+        "EVENTOUT"
+      ],
+      [
+        "PC15",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

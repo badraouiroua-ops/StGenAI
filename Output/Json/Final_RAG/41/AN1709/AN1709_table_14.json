@@ -1,0 +1,48 @@
+{
+  "table_id": "table_14",
+  "document": "Table 14. Spectrum analyzer resolution bandwidth versus frequency range (narrowband EMI)",
+  "rev": null,
+  "table_number": "14",
+  "title": "Table 14. Spectrum analyzer resolution bandwidth versus frequency range (narrowband EMI)",
+  "page": 30,
+  "section": "6 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=30",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "text_helper": "Table 14. Spectrum analyzer resolution bandwidth versus frequency range (narrowband EMI) — section 6 Conclusion. Frequency range (MHz), Resolution bandwidth, Detector.",
+  "table_content": {
+    "headers": [
+      "Frequency range (MHz)",
+      "Resolution bandwidth",
+      "Detector"
+    ],
+    "rows": [
+      [
+        "0.1 - 1",
+        "1 kHz",
+        "Peak"
+      ],
+      [
+        "1 - 10",
+        "1 kHz",
+        "Peak"
+      ],
+      [
+        "10 - 100",
+        "1 kHz",
+        "Peak"
+      ],
+      [
+        "100 - 1000",
+        "9 kHz",
+        "Peak"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "table_id": "table_10",
+  "document": "Table 10. CoreMark execution ICACHE impact on power consumption",
+  "rev": null,
+  "table_number": "10",
+  "title": "Table 10. CoreMark execution ICACHE impact on power consumption",
+  "page": 19,
+  "section": "3.2.8 Event and interrupt management",
+  "section_title": "Event and interrupt management",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=19",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "text_helper": "Table 10. CoreMark execution ICACHE impact on power consumption — section 3.2.8 Event and interrupt management. ICACHE configuration, MCU power consumption (mA).",
+  "table_content": {
+    "headers": [
+      "ICACHE configuration",
+      "MCU power consumption (mA)"
+    ],
+    "rows": [
+      [
+        "Enabled (2-ways)",
+        "7.60"
+      ],
+      [
+        "Enabled (1-way)",
+        "7.13"
+      ],
+      [
+        "Disabled",
+        "8.89"
+      ]
+    ],
+    "notes": [
+      "1. Test conditions: • Applicable product: STM32U575/585"
+    ],
+    "legend": [
+      "(1)"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

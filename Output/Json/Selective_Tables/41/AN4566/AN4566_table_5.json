@@ -1,0 +1,127 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. Example of digital sample values",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. Example of digital sample values",
+  "page": 13,
+  "section": "2.2.4 Output gain calibration",
+  "section_title": "Output gain calibration",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=13",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+  "text_helper": "Table 5. Example of digital sample values — section 2.2.4 Output gain calibration. Sample, Digital sample value Y (x) SineDigital.",
+  "table_content": {
+    "headers": [
+      "Sample",
+      "Digital sample value Y (x) SineDigital"
+    ],
+    "rows": [
+      [
+        "0",
+        "2066"
+      ],
+      [
+        "1",
+        "2521"
+      ],
+      [
+        "2",
+        "2948"
+      ],
+      [
+        "3",
+        "3319"
+      ],
+      [
+        "4",
+        "3612"
+      ],
+      [
+        "5",
+        "3807"
+      ],
+      [
+        "6",
+        "3893"
+      ],
+      [
+        "7",
+        "3864"
+      ],
+      [
+        "8",
+        "3723"
+      ],
+      [
+        "9",
+        "3477"
+      ],
+      [
+        "10",
+        "3142"
+      ],
+      [
+        "11",
+        "2740"
+      ],
+      [
+        "12",
+        "2295"
+      ],
+      [
+        "13",
+        "1837"
+      ],
+      [
+        "14",
+        "1392"
+      ],
+      [
+        "15",
+        "990"
+      ],
+      [
+        "16",
+        "655"
+      ],
+      [
+        "17",
+        "409"
+      ],
+      [
+        "18",
+        "268"
+      ],
+      [
+        "19",
+        "239"
+      ],
+      [
+        "20",
+        "325"
+      ],
+      [
+        "21",
+        "520"
+      ],
+      [
+        "22",
+        "813"
+      ],
+      [
+        "23",
+        "1184"
+      ],
+      [
+        "24",
+        "1611"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

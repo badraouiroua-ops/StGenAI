@@ -1,0 +1,99 @@
+{
+  "pdf_name": "AN6363",
+  "family": "41",
+  "tables_checked": 4,
+  "cells_checked": 10,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Nominal (FDCAN_NBTP)",
+      "reversed": false,
+      "drift": 8.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "NBRP = 7 NSJW = 3 NTSEG1 = 4 NTSEG2 = 3 PROP_SEG(N) = 1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 2,
+      "row": 0,
+      "original": "BRPN=8 SJWN=4 PS1N=4 PS2N=4",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Nominal (FDCAN_NBTP)",
+      "reversed": false,
+      "drift": 8.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "NBRP = 3 NSJW = 3 NTSEG1 = 18 NTSEG2 = 3 PROP_SEG(N) = 1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "BRPN=4 SJWN=4 PS1N=18 PS2N=4",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "±1.5%",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "HSI (trimmed) or external crystal",
+      "reversed": false,
+      "drift": -17.83,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "02-Feb-2026",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "table_id": "table_4",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    8,
+    9,
+    26,
+    27,
+    45,
+    46,
+    66,
+    67,
+    88,
+    89,
+    110,
+    111,
+    132,
+    133,
+    154,
+    155
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "table_id": "table_33",
+  "document": "Table 33. RTC features.",
+  "rev": null,
+  "table_number": "33",
+  "title": "Table 33. RTC features.",
+  "page": 45,
+  "section": "6.6.6 Real-time clock (RTC)",
+  "section_title": "Real-time clock (RTC)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=45",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 33. RTC features. — section 6.6.6 Real-time clock (RTC). RTC, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "RTC",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Features",
+        "Calendar with subseconds, seconds, minutes, hours (12- or 24-hour format), weekdays, dates, months, and years",
+        "Calendar with subseconds, seconds, minutes, hours (12- or 24-hour format), weekdays, dates, months, and years"
+      ],
+      [
+        "Features",
+        "Two programmable alarms",
+        "Two programmable alarms"
+      ],
+      [
+        "Features",
+        "Reference clock detection: a more precise second source clock (50 or 60 Hz) can be used to enhance the calendar precision",
+        "Reference clock detection: a more precise second source clock (50 or 60 Hz) can be used to enhance the calendar precision"
+      ],
+      [
+        "Features",
+        "Timestamp function",
+        "Timestamp function"
+      ],
+      [
+        "Features",
+        "Daylight saving time",
+        "Daylight saving time"
+      ],
+      [
+        "Features",
+        "Automatic wake-up",
+        "Automatic wake-up"
+      ],
+      [
+        "Features",
+        "Digital calibration circuit with 0.95 ppm resolution",
+        "Digital calibration circuit with 0.95 ppm resolution"
+      ],
+      [
+        "Features",
+        "Alarm A, alarm B, wake-up timer, and timestamp individual privilege protection",
+        "Alarm A, alarm B, wake-up timer, and timestamp individual privilege protection"
+      ],
+      [
+        "Features",
+        "• Binary mode with 32-bit free-running counter • On-the-fly correction from 1 to 32767 RTC clock pulses • RTC TrustZone® support",
+        "• Binary mode with 32-bit free-running counter • On-the-fly correction from 1 to 32767 RTC clock pulses"
+      ],
+      [
+        "Tamper and backup registers",
+        "• 32x 32-bit backup registers • Up to 11 tamper pins for 8 external tamper detection events • 13 internal tamper events • TrustZone® support",
+        "• 32x 32-bit backup registers • Up to 5 tamper pins for 3 external tamper detection events • 6 internal tamper events"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

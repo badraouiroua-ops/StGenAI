@@ -1,0 +1,38 @@
+{
+  "table_id": "table_12",
+  "document": "Table 12. Communication frequency",
+  "rev": null,
+  "table_number": "12",
+  "title": "Table 12. Communication frequency",
+  "page": 32,
+  "section": "9.6.2 Waveform results",
+  "section_title": "Waveform results",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=32",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 12. Communication frequency — section 9.6.2 Waveform results. Mode, Open Drain, Push-Pull.",
+  "table_content": {
+    "headers": [
+      "Mode",
+      "Open Drain",
+      "Push-Pull"
+    ],
+    "rows": [
+      [
+        "Frequency",
+        "1.904 MHz",
+        "3.040 MHz"
+      ]
+    ],
+    "notes": [
+      "1. Address header: START + (7’h7E + W = 0 + ACK = 0) (OD phase)",
+      "2. I3C broadcast CCC (ENTDAA = 0x07): ENTDAA (0x07 + T = 0) Figure 29. ENTDAA CCC",
+      "4. Dynamic address: Dynamic address (0x32 + PAR = 0 + ACK = 0): (OD phase)",
+      "5. I3C broadcast address + R = 1 + STOP: (0x7E + R = 1 + ACK = 1) + STOP (OD phase) Figure 31. Dynamic addressing"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

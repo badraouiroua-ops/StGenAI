@@ -1,0 +1,39 @@
+{
+  "table_id": "table_17",
+  "document": "Table 17. Target software settings for in-band interrupt",
+  "rev": null,
+  "table_number": "17",
+  "title": "Table 17. Target software settings for in-band interrupt",
+  "page": 41,
+  "section": "9.9.2.2 Target",
+  "section_title": "Target",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=41",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "text_helper": "Table 17. Target software settings for in-band interrupt — section 9.9.2.2 Target. 2V76637TD, Variable declaration: PayloadBuffer[] = {0xAB} = 0b10101011 (in this case the user can set a free payload value).",
+  "table_content": {
+    "headers": [
+      "2V76637TD",
+      "Variable declaration: PayloadBuffer[] = {0xAB} = 0b10101011 (in this case the user can set a free payload value)"
+    ],
+    "rows": [
+      [
+        "2V64917TD",
+        "Activate notifications specially for this example: • Dynamic address association • In-band interrupt ended process"
+      ],
+      [
+        "2V74917TD",
+        "Send IBI request"
+      ],
+      [
+        "DT71948V2DT71947V2DT71946V2DT73667V2",
+        "I3C notify callback after receiving a notification"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

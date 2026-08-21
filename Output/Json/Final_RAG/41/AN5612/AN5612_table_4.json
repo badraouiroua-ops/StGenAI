@@ -1,0 +1,68 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Sensitivity classification for the HBM (IEC 61000-4-2)",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Sensitivity classification for the HBM (IEC 61000-4-2)",
+  "page": 7,
+  "section": "2.4.1 ESD protection methods",
+  "section_title": "ESD protection methods",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5612.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5612.pdf",
+  "text_helper": "Table 4. Sensitivity classification for the HBM (IEC 61000-4-2) — section 2.4.1 ESD protection methods. Test type, Level, Test voltage.",
+  "table_content": {
+    "headers": [
+      "Test type",
+      "Level",
+      "Test voltage"
+    ],
+    "rows": [
+      [
+        "Contact discharge",
+        "1",
+        "2 kV"
+      ],
+      [
+        "Contact discharge",
+        "2",
+        "4 kV"
+      ],
+      [
+        "Contact discharge",
+        "3",
+        "6 kV"
+      ],
+      [
+        "Contact discharge",
+        "4",
+        "8 kV"
+      ],
+      [
+        "Air discharge",
+        "1",
+        "2 kV"
+      ],
+      [
+        "Air discharge",
+        "2",
+        "4 kV"
+      ],
+      [
+        "Air discharge",
+        "3",
+        "8 kV"
+      ],
+      [
+        "Air discharge",
+        "4",
+        "15 kV"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

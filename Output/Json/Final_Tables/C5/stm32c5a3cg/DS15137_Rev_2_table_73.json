@@ -1,0 +1,81 @@
+{
+  "table_id": "table_73",
+  "document": "DS15137 Rev 2 - Table 73. Dynamic characteristics: Ethernet MAC signals for RMII.",
+  "rev": "Rev 2",
+  "table_number": "73",
+  "title": "Table 73. Dynamic characteristics: Ethernet MAC signals for RMII.",
+  "page": 109,
+  "section": "5.3.29 Ethernet interface characteristics",
+  "section_title": "Ethernet interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf#page=109",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c5a3cg.pdf",
+  "text_helper": "Table 73. Dynamic characteristics: Ethernet MAC signals for RMII. — section 5.3.29 Ethernet interface characteristics. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tsu(RXD)",
+        "Receive data setup time",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tih(RXD)",
+        "Receive data hold time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tsu(CRS)",
+        "Carrier sense setup time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tih(CRS)",
+        "Carrier sense hold time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "td(TXEN)",
+        "Transmit enable valid delay time",
+        "7.5",
+        "9.5",
+        "14",
+        "ns"
+      ],
+      [
+        "td(TXD)",
+        "Transmit data valid delay time",
+        "7.5",
+        "10",
+        "15.5",
+        "ns"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "Evaluated by characterization - Not tested in production."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

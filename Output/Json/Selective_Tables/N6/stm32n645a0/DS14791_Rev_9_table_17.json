@@ -1,0 +1,127 @@
+{
+  "table_id": "table_17",
+  "document": "DS14791 Rev 9 - Table 17. Legend/abbreviations used in the pinout table",
+  "rev": "Rev 9",
+  "table_number": "17",
+  "title": "Table 17. Legend/abbreviations used in the pinout table",
+  "page": 88,
+  "section": "3.55.2 Embedded Trace Macrocell",
+  "section_title": "Embedded Trace Macrocell",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=88",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 17. Legend/abbreviations used in the pinout table — section 3.55.2 Embedded Trace Macrocell. Name, Name, Abbreviation, Definition.",
+  "table_content": {
+    "headers": [
+      "Name",
+      "Name",
+      "Abbreviation",
+      "Definition"
+    ],
+    "rows": [
+      [
+        "Pin name",
+        "Pin name",
+        "Unless otherwise specified in brackets below the pin name, the function during and after reset is the same as the actual pin name",
+        "Unless otherwise specified in brackets below the pin name, the function during and after reset is the same as the actual pin name"
+      ],
+      [
+        "Pin type",
+        "Pin type",
+        "S",
+        "Supply pin"
+      ],
+      [
+        "Pin type",
+        "Pin type",
+        "I",
+        "Input only pin"
+      ],
+      [
+        "Pin type",
+        "Pin type",
+        "O",
+        "Output only pin"
+      ],
+      [
+        "Pin type",
+        "Pin type",
+        "I/O",
+        "Input/output pin"
+      ],
+      [
+        "Pin type",
+        "Pin type",
+        "A",
+        "Analog or special level pin"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "TT",
+        "3.3 V-tolerant I/O"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "RST",
+        "Bidirectional reset pin with embedded weak pull-up resistor"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "Options for TT I/Os(1)",
+        "Options for TT I/Os(1)"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "_a",
+        "I/O, with analog switch function supplied by V DDA"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "_c",
+        "I/O with USB Type-C power delivery function"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "_f",
+        "I/O, Fm+ capable"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "_t",
+        "I/O with tamper function functional in V mode BAT"
+      ],
+      [
+        "Notes",
+        "Notes",
+        "Unless otherwise specified by a note, all I/Os are set as analog inputs during and after reset",
+        "Unless otherwise specified by a note, all I/Os are set as analog inputs during and after reset"
+      ],
+      [
+        "Pin functions",
+        "Alternate functions",
+        "Functions selected through GPIOx_AFR registers",
+        "Functions selected through GPIOx_AFR registers"
+      ],
+      [
+        "Pin functions",
+        "Additional functions",
+        "Functions directly selected/enabled through peripheral registers",
+        "Functions directly selected/enabled through peripheral registers"
+      ]
+    ],
+    "notes": [
+      "1. The related I/O structures in the following table are a concatenation of various options. Examples: TT_a, TT_at, TT_f. 88/258 DS14791 Rev 9"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

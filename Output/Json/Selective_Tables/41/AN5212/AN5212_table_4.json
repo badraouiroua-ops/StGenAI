@@ -1,0 +1,45 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. Configuration of STM32L5, STM32U3, and STM32U5 series memories",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. Configuration of STM32L5, STM32U3, and STM32U5 series memories",
+  "page": 13,
+  "section": "3.1.4 Cacheable regions and remapping feature",
+  "section_title": "Cacheable regions and remapping feature",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=13",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "text_helper": "Table 4. Configuration of STM32L5, STM32U3, and STM32U5 series memories — section 3.1.4 Cacheable regions and remapping feature. Product memory, Cacheable (MPU programming), Remapped in ICACHE (ICACHE_CRRx programming).",
+  "table_content": {
+    "headers": [
+      "Product memory",
+      "Cacheable (MPU programming)",
+      "Remapped in ICACHE (ICACHE_CRRx programming)"
+    ],
+    "rows": [
+      [
+        "Flash memory",
+        "Yes or No",
+        "Not required"
+      ],
+      [
+        "SRAM",
+        "Not recommended",
+        "Not required"
+      ],
+      [
+        "External memories (HSPI/ OCTOSPI or FSMC)",
+        "Yes or No",
+        "Required if the user wants external code fetching on C‑AHB bus (else on S‑AHB bus)"
+      ]
+    ],
+    "notes": [
+      "1. OCTOSPI configuration for the external memory Configure the OCTOSPI interface in order to access the external memory in Memory mapped mode (the"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

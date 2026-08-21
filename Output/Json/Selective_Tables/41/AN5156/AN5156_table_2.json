@@ -1,0 +1,239 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Glossary.",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Glossary.",
+  "page": 2,
+  "section": "1 General information",
+  "section_title": "General information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 2. Glossary. — section 1 General information. Term, Definition.",
+  "table_content": {
+    "headers": [
+      "Term",
+      "Definition"
+    ],
+    "rows": [
+      [
+        "AES",
+        "Advanced encryption standard"
+      ],
+      [
+        "CCM",
+        "Core-coupled memory (SRAM)"
+      ],
+      [
+        "CPU",
+        "Central processing unit–core of the microcontroller"
+      ],
+      [
+        "CSS",
+        "Clock security system"
+      ],
+      [
+        "DoS",
+        "Denial of service (attack)"
+      ],
+      [
+        "DRNG",
+        "Deterministic random number generator: generates pseudo-random number from input value"
+      ],
+      [
+        "DPA",
+        "Differential power analysis"
+      ],
+      [
+        "ECC",
+        "Error code correction"
+      ],
+      [
+        "FIA",
+        "Fault injection attack"
+      ],
+      [
+        "FIB",
+        "Focused ion beam"
+      ],
+      [
+        "GTZC",
+        "Global TrustZone® controller"
+      ],
+      [
+        "HDP",
+        "Secure hide protection"
+      ],
+      [
+        "HUK",
+        "Hardware unique key"
+      ],
+      [
+        "IAP",
+        "In-application programming"
+      ],
+      [
+        "IAT",
+        "Initial attestation token"
+      ],
+      [
+        "IoT",
+        "Internet of things"
+      ],
+      [
+        "IV",
+        "Initialization vector (cryptographic algorithms)"
+      ],
+      [
+        "IWDG",
+        "Independent watchdog"
+      ],
+      [
+        "MAC",
+        "Message authentication code"
+      ],
+      [
+        "MCU",
+        "Microcontroller unit (STM32 Arm® Cortex®-M based devices)"
+      ],
+      [
+        "MPCBB",
+        "Memory protection block-based controller"
+      ],
+      [
+        "MPCWM",
+        "Memory protection watermark-based controller"
+      ],
+      [
+        "MPU",
+        "Memory protection unit"
+      ],
+      [
+        "NSC",
+        "Nonsecure callable"
+      ],
+      [
+        "NVM",
+        "Nonvolatile memory"
+      ],
+      [
+        "OTFDEC",
+        "On-the-fly decryption"
+      ],
+      [
+        "OTP",
+        "One-time programmable"
+      ],
+      [
+        "PCROP",
+        "Proprietary code readout protection"
+      ],
+      [
+        "PKA",
+        "Public key algorithm (also named aka asymmetric algorithm)"
+      ],
+      [
+        "PSA",
+        "Platform security architecture"
+      ],
+      [
+        "PVD",
+        "Programmable voltage detector"
+      ],
+      [
+        "PWR",
+        "Power control"
+      ],
+      [
+        "ROM",
+        "Read only memory–system flash memory in STM32"
+      ],
+      [
+        "RoT",
+        "Root of trust"
+      ],
+      [
+        "RDP",
+        "Read protection"
+      ],
+      [
+        "RIF",
+        "Resource isolation framework"
+      ],
+      [
+        "RSS",
+        "Root secure services"
+      ],
+      [
+        "RTC",
+        "Real-time clock"
+      ],
+      [
+        "SAU",
+        "Security attribution unit"
+      ],
+      [
+        "SB",
+        "Secure boot"
+      ],
+      [
+        "SCA",
+        "Side channel attack"
+      ],
+      [
+        "SDRAM",
+        "Synchronous dynamic random access memory"
+      ],
+      [
+        "SECDED",
+        "ECC mode of operation: single error correct, double error detect"
+      ],
+      [
+        "SFI",
+        "Secure firmware installation"
+      ],
+      [
+        "SFU",
+        "Secure firmware update"
+      ],
+      [
+        "SPA",
+        "Simple power analysis"
+      ],
+      [
+        "SPE",
+        "Secure processing environment"
+      ],
+      [
+        "SRAM",
+        "Static random access memory (volatile)"
+      ],
+      [
+        "SST",
+        "Secure storage"
+      ],
+      [
+        "STSAFE",
+        "Secure element product from STMicroelectronics portfolio"
+      ],
+      [
+        "SWD",
+        "Serial-wire debug"
+      ],
+      [
+        "TF-M",
+        "Trusted firmware-M"
+      ],
+      [
+        "WRP",
+        "Write protection"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

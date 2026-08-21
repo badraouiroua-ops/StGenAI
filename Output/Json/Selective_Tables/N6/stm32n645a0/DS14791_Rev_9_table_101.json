@@ -1,0 +1,62 @@
+{
+  "table_id": "table_101",
+  "document": "DS14791 Rev 9 - Table 101. Compensation cell characteristics",
+  "rev": "Rev 9",
+  "table_number": "101",
+  "title": "Table 101. Compensation cell characteristics",
+  "page": 206,
+  "section": "5.3.28 Compensation cell characteristics",
+  "section_title": "Compensation cell characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=206",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "text_helper": "Table 101. Compensation cell characteristics — section 5.3.28 Compensation cell characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I COMPCELL",
+        "V current consumption DDA18AON during code calculation",
+        "Using an 8 MHz clock (HSI / 8)",
+        "-",
+        "250",
+        "-",
+        "μA"
+      ],
+      [
+        "T ready",
+        "Time needed to have the first code calculation after enabling",
+        "Using an 8 MHz clock (HSI / 8)",
+        "-",
+        "96",
+        "-",
+        "μs"
+      ],
+      [
+        "T measure",
+        "Time needed to update the code",
+        "Using an 8 MHz clock (HSI / 8)",
+        "-",
+        "832",
+        "-",
+        "μs"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization and not tested in production, unless otherwise specified.",
+      "2. V is an internal regulator supplied by V . V is equal to V when present, equal to V otherwise. 08CAP SW SW DD BAT"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

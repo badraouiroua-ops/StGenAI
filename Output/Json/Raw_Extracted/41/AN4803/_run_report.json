@@ -1,0 +1,45 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN4803.pdf",
+  "family": "41",
+  "pdf_name": "AN4803",
+  "tables_found": 3,
+  "tables_extracted": 3,
+  "high": 3,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_2",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 2. I/Os in/output buffer for \"io8p_arsudq_ft\" selector",
+      "page": 9,
+      "merged_pages": [
+        9
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"IO model name selection (io8p_ar3wsudq_ft)\", \"I/O parameters / Voltage range\", \"I/O parameters / Buffer speed\", \"I/O parameters / Pull up/Pull down\"]",
+      "rows_count": 24,
+      "heuristics": {
+        "cols_extracted": 4,
+        "_notes": [
+          "1. Onthis IBIS model name selection, the fragment “XX” on “io8pXX_ar3wsudq_ft_pu_lv” defines the speed. 00 = low speed, 01 = medium speed, 10 = fast speed, 11 = high speed. Refer to column “Buffer speed” in this table.",
+          "2. Onthis IBIS model name selection, the fragment “ZZ” on “io8p00_ar3wsudq_ft_pd_ZZ” defines the voltage range. The value “lv” = 1.7 to 2.7 V, [empty] = 2.7 to 3.6 V.",
+          "3. Onthis IBIS model name selection, the fragment “YY” on “io8p00_ar3wsudq_ft_YY_lv” defines the pull-up or pull-down. The value “pu” = pull down, “pd” = pull down, [empty] = disabled."
+        ]
+      }
+    }
+  ],
+  "dedup_rows_removed": 0,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

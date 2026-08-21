@@ -1,0 +1,89 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Certifications coverage.",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Certifications coverage.",
+  "page": 27,
+  "section": "5.6 Product certifications",
+  "section_title": "Product certifications",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=27",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "text_helper": "Table 9. Certifications coverage. — section 5.6 Product certifications. MCU series, Crypto conformance certification, Security system certification, Security system certification with physical resistance (invasive).",
+  "table_content": {
+    "headers": [
+      "MCU series",
+      "Crypto conformance certification",
+      "Security system certification",
+      "Security system certification with physical resistance (invasive)"
+    ],
+    "rows": [
+      [
+        "STM32G0/",
+        "FIPS CAVP, SP800-90A",
+        "PSA L1",
+        "-"
+      ],
+      [
+        "STM32G4",
+        "FIPS CAVP, SP800-90A",
+        "PSA L1",
+        "-"
+      ],
+      [
+        "STM32L4",
+        "",
+        "",
+        ""
+      ],
+      [
+        "STM32L4+",
+        "FIPS CAVP, SP800-90B",
+        "FIPS CAVP, SP800-90B",
+        "FIPS CAVP, SP800-90B"
+      ],
+      [
+        "STM32H7",
+        "",
+        "",
+        ""
+      ],
+      [
+        "STM32L5",
+        "",
+        "PSA L1, SESIP L3",
+        "PSA L1, SESIP L3"
+      ],
+      [
+        "STM32WBA",
+        "",
+        "Yes",
+        "PSA L3, SESIP L3 (with TF-M)"
+      ],
+      [
+        "STM32U5",
+        "",
+        "",
+        ""
+      ],
+      [
+        "STM32H5",
+        "",
+        "",
+        "PSA L3, SESIP L3 (with Secure Manager)"
+      ],
+      [
+        "STM32H7Sx, STM32C0, STM32C5, STM32U0",
+        "",
+        "",
+        "PSA L3, SESIP L3 (using iRoT)"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

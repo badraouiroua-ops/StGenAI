@@ -1,0 +1,83 @@
+{
+  "table_id": "table_25",
+  "document": "Table 25. ADC differences between devices",
+  "rev": null,
+  "table_number": "25",
+  "title": "Table 25. ADC differences between devices",
+  "page": 39,
+  "section": "6.5.1 Analog-to-digital converter (ADC)",
+  "section_title": "Analog-to-digital converter (ADC)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=39",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 25. ADC differences between devices — section 6.5.1 Analog-to-digital converter (ADC). ADC, STM32H523/533, STM32C5.",
+  "table_content": {
+    "headers": [
+      "ADC",
+      "STM32H523/533",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "Instances",
+        "x2",
+        "x3 on 2 interfaces (ADC12 and ADC3)"
+      ],
+      [
+        "Resolution",
+        "12-bit",
+        "12-bit"
+      ],
+      [
+        "Number of channels",
+        "Up to 20",
+        "Up to 28"
+      ],
+      [
+        "Configurable resolution",
+        "12-bit, 10-bit, 8-bit, or, 6-bit",
+        "12-bit, 10-bit, 8-bit, or, 6-bit"
+      ],
+      [
+        "Maximum sampling speed",
+        "5 MSPS",
+        "2.25 MSPS 4.5 MSPS in dual interleaved mode"
+      ],
+      [
+        "Conversion modes",
+        "• Single • Continuous • Scan • Discontinuous • Dual mode",
+        "• Single • Continuous • Scan • Discontinuous • Dual mode"
+      ],
+      [
+        "DMA support",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Data register",
+        "16-bit data register",
+        "16-bit data register"
+      ],
+      [
+        "Analog watchdog feature",
+        "This feature allows the application to detect if the input voltage goes outside the user-defined high or low threshold",
+        "This feature allows the application to detect if the input voltage goes outside the user-defined high or low threshold"
+      ],
+      [
+        "ADC input range:",
+        "VSSA ≤ VIN ≤ VREF+",
+        "VREF– ≤ VIN ≤ VREF+"
+      ],
+      [
+        "New features",
+        "NA",
+        "The oversampling is adjustable from 2 to 1024"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

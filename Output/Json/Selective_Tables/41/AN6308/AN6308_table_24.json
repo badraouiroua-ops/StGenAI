@@ -1,0 +1,63 @@
+{
+  "table_id": "table_24",
+  "document": "Table 24. USB differences.",
+  "rev": null,
+  "table_number": "24",
+  "title": "Table 24. USB differences.",
+  "page": 39,
+  "section": "6.4.6 Universal serial bus interface (USB)",
+  "section_title": "Universal serial bus interface (USB)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=39",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "text_helper": "Table 24. USB differences. — section 6.4.6 Universal serial bus interface (USB). USB, STM32H5, STM32C5.",
+  "table_content": {
+    "headers": [
+      "USB",
+      "STM32H5",
+      "STM32C5"
+    ],
+    "rows": [
+      [
+        "General",
+        "USB FS with clock recovery",
+        "USB FS with clock recovery"
+      ],
+      [
+        "General",
+        "Up to 8 bidirectional endpoints",
+        "Up to 8 bidirectional endpoints"
+      ],
+      [
+        "General",
+        "USB connect/disconnect capability (controllable, embedded pull-up resistor on USB_DP line)",
+        "USB connect/disconnect capability (controllable, embedded pull-up resistor on USB_DP line)"
+      ],
+      [
+        "General",
+        "Battery charging detection (BCD) support for device",
+        "Battery charging detection (BCD) support for device"
+      ],
+      [
+        "General",
+        "Independent VDDUSB power supply",
+        "Independent VDDUSB power supply"
+      ],
+      [
+        "Buffer memory",
+        "2048 bytes of dedicated packet buffer memory SRAM",
+        "2048 bytes of dedicated packet buffer memory SRAM"
+      ],
+      [
+        "Low-power modes",
+        "USB revision 2.0 including link power management (LPM) support",
+        "USB revision 2.0 including link power management (LPM) support"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

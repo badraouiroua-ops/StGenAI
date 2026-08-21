@@ -1,0 +1,553 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN6308.pdf",
+  "family": "41",
+  "pdf_name": "AN6308",
+  "tables_found": 34,
+  "tables_extracted": 34,
+  "high": 34,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_15",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0938,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:2",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 15. RCC features",
+      "page": 26,
+      "merged_pages": [
+        26,
+        27
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"RCC\", \"STM32H5\", \"STM32C5\", \"STM32C5\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 3,
+        "continuation": {
+          "base_cols": 4,
+          "cont_cols_raw": 4,
+          "target_cols": 4,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        }
+      }
+    },
+    {
+      "table_id": "table_14",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0762,
+      "has_empty_cells": true,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "multi_page_merged:2",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 14. DMA features Peripherals.",
+      "page": 26,
+      "merged_pages": [
+        26,
+        27
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Peripherals\", \"STM32H5 / GPDMA1\", \"STM32H5 / GPDMA2\", \"STM32C5 / LPDMA1\", \"STM32C5 / LPDMA2\"]",
+      "rows_count": 21,
+      "heuristics": {
+        "cols_extracted": 5,
+        "continuation": {
+          "base_cols": 5,
+          "cont_cols_raw": 5,
+          "target_cols": 5,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": true,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "spanning_check": {
+          "header_has_dup": false,
+          "category_repeats": 0,
+          "likely_missing_span": false
+        }
+      }
+    },
+    {
+      "table_id": "table_18",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0208,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:2",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 18. PWR features",
+      "page": 29,
+      "merged_pages": [
+        29,
+        30
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"PWR\", \"STM32H5\", \"STM32C5\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 3,
+        "continuation": {
+          "base_cols": 3,
+          "cont_cols_raw": 3,
+          "target_cols": 3,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        }
+      }
+    },
+    {
+      "table_id": "table_2",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 2. Memory availability.",
+      "page": 4,
+      "merged_pages": [
+        4
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Products\", \"Flash memory / Size\", \"Flash memory / Dual bank\", \"RAM size (Kbytes) / SRAM1\", \"RAM size (Kbytes) / SRAM2\", \"RAM size (Kbytes) / SRAM3\", \"RAM size (Kbytes) / BKPSRAM\", \"Feature level\"]",
+      "rows_count": 11,
+      "heuristics": {
+        "cols_extracted": 8
+      }
+    },
+    {
+      "table_id": "table_3",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 3. Available packages",
+      "page": 7,
+      "merged_pages": [
+        7
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"Package(size in mm x mm)\", \"STM32H5\", \"STM32C5\"]",
+      "rows_count": 19,
+      "heuristics": {
+        "cols_extracted": 3,
+        "_notes": [
+          "1. X = available, NA = not available AN6308 - Rev 1 page 7/51"
+        ]
+      }
+    },
+    {
+      "table_id": "table_4",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "multi_page_merged:9",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 4. Pinout comptability.",
+      "page": 8,
+      "merged_pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "col_count": 13,
+      "headers_preview": "[\"Pin\", \"UFQFPN32 / H503\", \"UFQFPN32 / C53x/C54x/C55x/C56x\", \"LQFP48 / H503/H523/H533\", \"LQFP48 / C53x/C54x/C55x/C56x/C59x/C5Ax\", \"UFQFPN48 / H503\", \"UFQFPN48 / C53x/C54x/C55x/C56x/C59x/C5Ax\", \"LQFP64",
+      "rows_count": 160,
+      "heuristics": {
+        "cols_extracted": 13,
+        "continuation": {
+          "base_cols": 13,
+          "cont_cols_raw": 13,
+          "target_cols": 13,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 9
+        }
+      }
+    },
+    {
+      "table_id": "table_9",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 9. STM32C5 boot modes",
+      "page": 18,
+      "merged_pages": [
+        18,
+        19
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"RDP_STATE\", \"BOOT_SEL option bit\", \"BOOT0 option bit\", \"BOOT0 pin\", \"EMPTY flag value(1)\", \"Boot area\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "caption_near_bottom": true,
+        "caption_y_ratio": 0.85,
+        "cols_extracted": 6,
+        "continuation": {
+          "base_cols": 6,
+          "cont_cols_raw": 6,
+          "target_cols": 6,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. The boot address, defined by BOOTADD option byte, is considered empty only if the FLASH word is equal to 0xFFFF FFFF. In this case, at option byte loading, the EMPTY bit is set in FLASH_ACR."
+        ]
+      }
+    },
+    {
+      "table_id": "table_11",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 11. STM32 peripheral compatibility between products",
+      "page": 22,
+      "merged_pages": [
+        22,
+        23
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"Peripherals\", \"Peripherals\", \"STM32H523/533(1)\", \"STM32C5(1)\"]",
+      "rows_count": 44,
+      "heuristics": {
+        "cols_extracted": 4,
+        "continuation": {
+          "base_cols": 4,
+          "cont_cols_raw": 4,
+          "target_cols": 4,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            1
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. Refer to the “Option-byte organization” table in the reference manual that provides all user option bytes. AN6308 - Rev 1 page 24/51",
+          "2. Only for product supporting cryptographic peripherals. AN6308 - Rev 1 page 23/51"
+        ]
+      }
+    },
+    {
+      "table_id": "table_16",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 16. STM32C5 kernel clock distribution overview",
+      "page": 27,
+      "merged_pages": [
+        27,
+        28
+      ],
+      "col_count": 15,
+      "headers_preview": "[\"Peripherals\", \"Clock multiplexer control bits\", \"Bus clocks\", \"psis_ck\", \"psidiv3_ck\", \"psik_ck\", \"hsis_ck\", \"hsidiv3_ck\", \"hsik_ck\", \"hse_ck\", \"lse_ck\", \"lsi_ck\", \"AUDIOCLK\", \"hse_1M_ck\", \"Disabled",
+      "rows_count": 15,
+      "heuristics": {
+        "caption_near_bottom": true,
+        "caption_y_ratio": 0.753,
+        "cols_extracted": 15,
+        "continuation": {
+          "base_cols": 15,
+          "cont_cols_raw": 15,
+          "target_cols": 15,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        }
+      }
+    },
+    {
+      "table_id": "table_17",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 17. STM32H5 kernel clock distribution overview",
+      "page": 28,
+      "merged_pages": [
+        28,
+        29
+      ],
+      "col_count": 20,
+      "headers_preview": "[\"Peripherals(1)\", \"Clock multiplexer control bits\", \"pll1_q_ck\", \"pll2_p_ck\", \"pll2_q_ck\", \"pll2_r_ck\", \"pll3_p_ck\", \"pll3_q_ck\", \"pll3_r_ck\", \"sys_ck\", \"Bus clocks(2)\", \"hse_ckhsik_ck\", \"hsi_ker_ckh",
+      "rows_count": 39,
+      "heuristics": {
+        "cols_extracted": 20,
+        "continuation": {
+          "base_cols": 20,
+          "cont_cols_raw": 20,
+          "target_cols": 20,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. For the actual availability of the peripheral refer to the device datasheet.",
+          "2. The bus (APB or AHB) clocks are the bus interface clocks to whom the peripherals are connected.",
+          "3. The per_ck clock can be hse_ck, hsi_ker_ck, or csi_ker_ck, according to CKPERSEL selection.",
+          "4. With a duty cycle close to 50%, meaning that PLL1Q or PLL2R values must be even. For SDMMCx the duty cycle must be 50% when supporting DDR",
+          "5. Clock CSI divided by 122.",
+          "6. With a duty cycle close to 50%, meaning that PLL2R values must be even.",
+          "7. Clock HSI divided by 4.",
+          "8. Clock HSE divided by RTCPRE."
+        ]
+      }
+    },
+    {
+      "table_id": "table_19",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 19. EXTI line differences",
+      "page": 33,
+      "merged_pages": [
+        33,
+        34
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"EXTI line\", \"STM32H5\", \"STM32C5\"]",
+      "rows_count": 43,
+      "heuristics": {
+        "cols_extracted": 3,
+        "continuation": {
+          "base_cols": 3,
+          "cont_cols_raw": 3,
+          "target_cols": 3,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        }
+      }
+    },
+    {
+      "table_id": "table_20",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 20. SPI features",
+      "page": 35,
+      "merged_pages": [
+        35,
+        36
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"SPI\", \"STM32H5\", \"STM32C5\"]",
+      "rows_count": 22,
+      "heuristics": {
+        "cols_extracted": 3,
+        "continuation": {
+          "base_cols": 3,
+          "cont_cols_raw": 3,
+          "target_cols": 3,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. X = available, NA = not available. AN6308 - Rev 1 page 36/51"
+        ]
+      }
+    },
+    {
+      "table_id": "table_26",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 26. DAC differences",
+      "page": 40,
+      "merged_pages": [
+        40,
+        41
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"DAC\", \"STM32H5\", \"STM32C5\"]",
+      "rows_count": 18,
+      "heuristics": {
+        "cols_extracted": 3,
+        "continuation": {
+          "base_cols": 3,
+          "cont_cols_raw": 3,
+          "target_cols": 3,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_dedup_rows_removed": 12,
+        "_dedup_removed_indices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "table_id": "table_28",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 28. Advanced-control timer (TIM1/8) features",
+      "page": 40,
+      "merged_pages": [
+        40,
+        41
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"Feature\", \"STM32H5\", \"STM32C5\"]",
+      "rows_count": 13,
+      "heuristics": {
+        "caption_near_bottom": true,
+        "caption_y_ratio": 0.863,
+        "cols_extracted": 3,
+        "continuation": {
+          "base_cols": 3,
+          "cont_cols_raw": 3,
+          "target_cols": 3,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_dedup_rows_removed": 2,
+        "_dedup_removed_indices": [
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "table_id": "table_33",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 33. RTC features.",
+      "page": 45,
+      "merged_pages": [
+        45
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"RTC\", \"STM32H5\", \"STM32C5\"]",
+      "rows_count": 9,
+      "heuristics": {
+        "cols_extracted": 3
+      }
+    }
+  ],
+  "dedup_rows_removed": 18,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

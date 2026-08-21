@@ -1,0 +1,33 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. Document revision history",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. Document revision history",
+  "page": 29,
+  "section": "4 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5612.pdf#page=29",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5612.pdf",
+  "text_helper": "Table 6. Document revision history — section 4 Conclusion. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "02-Jun-2022",
+        "1",
+        "Initial release."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

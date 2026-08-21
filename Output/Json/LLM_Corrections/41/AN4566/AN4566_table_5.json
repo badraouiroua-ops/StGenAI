@@ -1,0 +1,22 @@
+{
+  "table_id": "table_5",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-tête de colonne",
+      "row_index": null,
+      "analyse_visuelle": "L'indice de Y 'SineDigital' a été placé à la fin du texte au lieu d'être accolé à Y avant '(x)'. Le texte exact sur l'image est 'Digital sample value YSineDigital (x)'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Digital sample value Y (x) SineDigital",
+          "nouvelle_valeur": "Digital sample value YSineDigital (x)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

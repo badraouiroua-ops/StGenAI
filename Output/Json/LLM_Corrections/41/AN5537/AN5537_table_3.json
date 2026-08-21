@@ -1,0 +1,28 @@
+{
+  "table_id": "table_3",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Hardware 6.06 ms 896 pAh Cμ 32.3 Aμ 73",
+      "row_index": 0,
+      "analyse_visuelle": "Le texte dans les deux dernières colonnes de la première ligne a été extrait inversé : 'Cμ 32.3' correspond à '3.23 μC' et 'Aμ 73' correspond à '37 μA'.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Cμ 32.3",
+          "nouvelle_valeur": "3.23 μC",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 4,
+          "valeur_originale_json": "Aμ 73",
+          "nouvelle_valeur": "37 μA",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

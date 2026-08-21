@@ -1,0 +1,18 @@
+{
+  "table_id": "table_8",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 0,
+      "contenu": [
+        "DCACHE_SR",
+        "BUSYF",
+        "Cache executing a full invalidate operation",
+        "Read-only"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

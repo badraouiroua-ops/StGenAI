@@ -1,0 +1,33 @@
+{
+  "table_id": "table_2",
+  "document": "Table 2. Document revision history",
+  "rev": null,
+  "table_number": "2",
+  "title": "Table 2. Document revision history",
+  "page": 13,
+  "section": "3.2 DTMF encoding and decoding, fixed-point C",
+  "section_title": "DTMF encoding and decoding, fixed-point C",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5647.pdf#page=13",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5647.pdf",
+  "text_helper": "Table 2. Document revision history — section 3.2 DTMF encoding and decoding, fixed-point C. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "03-May-2021",
+        "1",
+        "Initial release."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

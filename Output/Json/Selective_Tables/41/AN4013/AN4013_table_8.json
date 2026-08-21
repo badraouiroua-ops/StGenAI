@@ -1,0 +1,139 @@
+{
+  "table_id": "table_8",
+  "document": "Table 8. Locking levels",
+  "rev": null,
+  "table_number": "8",
+  "title": "Table 8. Locking levels",
+  "page": 35,
+  "section": "4.3.3 Locking mechanism",
+  "section_title": "Locking mechanism",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4013.pdf#page=35",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4013.pdf",
+  "text_helper": "Table 8. Locking levels — section 4.3.3 Locking mechanism. Level 1, Level 1, LOCK Level 2(1), LOCK Level 2(1), LOCK Level 3(2), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Level 1",
+      "Level 1",
+      "LOCK Level 2(1)",
+      "LOCK Level 2(1)",
+      "LOCK Level 3(2)",
+      "LOCK Level 3(2)"
+    ],
+    "rows": [
+      [
+        "Register",
+        "Bits",
+        "Register",
+        "Bits",
+        "Register",
+        "Bits"
+      ],
+      [
+        "CR2",
+        "OISx",
+        "CR2",
+        "OISx",
+        "CR2",
+        "OISx"
+      ],
+      [
+        "CR2",
+        "OISxN",
+        "CR2",
+        "OISxN",
+        "CR2",
+        "OISxN"
+      ],
+      [
+        "BDTR",
+        "DTG[7:0]",
+        "BDTR",
+        "DTG[7:0]",
+        "BDTR",
+        "DTG[7:0]"
+      ],
+      [
+        "BDTR",
+        "BKE",
+        "BDTR",
+        "BKE",
+        "BDTR",
+        "BKE"
+      ],
+      [
+        "BDTR",
+        "BKP",
+        "BDTR",
+        "BKP",
+        "BDTR",
+        "BKP"
+      ],
+      [
+        "BDTR",
+        "AOE",
+        "BDTR",
+        "AOE",
+        "BDTR",
+        "AOE"
+      ],
+      [
+        "BDTR",
+        "BK2E(3)",
+        "BDTR",
+        "OSSR",
+        "BDTR",
+        "OSSR"
+      ],
+      [
+        "BDTR",
+        "BK2P(3)",
+        "BDTR",
+        "OSSI",
+        "BDTR",
+        "OSSI"
+      ],
+      [
+        "BDTR",
+        "BKF[3:0](3)",
+        "CCER",
+        "CCxP",
+        "CCER",
+        "CCxP"
+      ],
+      [
+        "BDTR",
+        "BK2F[3:0](3)",
+        "CCER",
+        "CCxNP",
+        "CCER",
+        "CCxNP"
+      ],
+      [
+        "-",
+        "-",
+        "-",
+        "-",
+        "CCMRx",
+        "OCxM"
+      ],
+      [
+        "-",
+        "-",
+        "-",
+        "-",
+        "CCMRx",
+        "OCxPE"
+      ]
+    ],
+    "notes": [
+      "1. LOCK Level 2 = LOCK Level 1 + CC polarity bits (CCxP/CCxNP bits in TIMx_CCER).",
+      "2. LOCK Level 3 = LOCK Level 2 + CC control bits (OCxM and OCxPE.",
+      "3. Bits present in STM32L4/F7/L5/U3/U5/G0/G4/WBA/WB/WB0/H7/N6 series and STM32F30x/F3x8 lines. Note: The LOCK bits can only be written once after the reset. Once the BDTR register has been"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

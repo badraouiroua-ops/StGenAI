@@ -1,0 +1,82 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. STM32 Series RDP protection extension",
+  "pdf_name": "AN4989",
+  "family": "41",
+  "page": 56,
+  "merged_pages": [
+    56
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=56",
+  "section": "5.3.1 RDP",
+  "headers": [
+    "Product",
+    "RDP protection extension"
+  ],
+  "rows": [
+    [
+      "F0",
+      "+ backup registers"
+    ],
+    [
+      "F2",
+      "+ backup SRAM"
+    ],
+    [
+      "F3",
+      "+ backup registers"
+    ],
+    [
+      "F4",
+      "+ backup SRAM"
+    ],
+    [
+      "L0",
+      "+ EEPROM"
+    ],
+    [
+      "L1",
+      "+ EEPROM"
+    ],
+    [
+      "L4",
+      "+ backup registers + SRAM2"
+    ],
+    [
+      "L5",
+      "RDP 4 levels + backup registers + SRAM2"
+    ],
+    [
+      "F7",
+      "+ backup SRAM"
+    ],
+    [
+      "H7",
+      "+ backup SRAM"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4989",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      56
+    ],
+    "rows_count": 10,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

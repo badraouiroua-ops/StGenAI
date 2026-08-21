@@ -1,0 +1,35 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. ST classification of ESD consequences",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. ST classification of ESD consequences",
+  "page": 7,
+  "section": "2.4.1 ESD protection methods",
+  "section_title": "ESD protection methods",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5612.pdf#page=7",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5612.pdf",
+  "text_helper": "Table 5. ST classification of ESD consequences — section 2.4.1 ESD protection methods. Class A, Class B, Class C, Class D.",
+  "table_content": {
+    "headers": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "rows": [
+      [
+        "No failure detected",
+        "Failure detected but self- recovery after disturbance",
+        "Need an external user action to recover normal functionality",
+        "Normal functionality cannot be recovered"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

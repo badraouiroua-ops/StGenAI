@@ -1,0 +1,58 @@
+{
+  "table_id": "table_7",
+  "document": "Table 7. Document revision history",
+  "rev": null,
+  "table_number": "7",
+  "title": "Table 7. Document revision history",
+  "page": 19,
+  "section": "5 Revision history",
+  "section_title": "Revision history",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=19",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+  "text_helper": "Table 7. Document revision history — section 5 Revision history. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "03-Nov-2014",
+        "1",
+        "Initial release."
+      ],
+      [
+        "02-Aug-2015",
+        "2",
+        "Added STM32L4 series in Table 1: Applicable products and in Table 2: Maximum sampling time."
+      ],
+      [
+        "19-Sep-2019",
+        "3",
+        "Document scope extended to STM32L4+, STM32L5, STM32H7, STM32G0 and STM32G4 series, hence updated Table 1: Applicable products and Table 2: Maximum sampling time. Updated Section 1.1: DAC equivalent circuit, Section 1.3: External OpAmp implementation and Section 2.2.4: Output gain calibration. Added Section 1.4.1: DMA double data mode. Updated Figure 1: DAC equivalent circuit. Minor text edits across the whole document."
+      ],
+      [
+        "03-Oct-2022",
+        "4",
+        "Document scope extended to STM32U5 series. Updated Table 1: Applicable products and Table 2: Maximum sampling time. Minor text edits across the whole document."
+      ],
+      [
+        "09-Jan-2025",
+        "5",
+        "Document scope extended to STM32H5, STM32U0, and STM32U3 series, hence updated Table 1: Applicable products and Table 2: Maximum sampling time. Minor text edits across the whole document."
+      ],
+      [
+        "23-Feb-2026",
+        "6",
+        "Document scope extended to STM32C5 series, hence updated Table 1: Applicable products and Table 2: Maximum sampling time."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

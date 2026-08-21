@@ -1,0 +1,19 @@
+{
+  "table_id": "table_10",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Ligne de suite du tableau présente sur la page 20/24 manquante dans l'extraction JSON. Cases Date et Revision laissées vides (\"\") conformément aux consignes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 11,
+      "contenu": [
+        "",
+        "",
+        "Updated Section 6: MPU setting example with STM32Cube HAL on Armv6 and Armv7 architectures."
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

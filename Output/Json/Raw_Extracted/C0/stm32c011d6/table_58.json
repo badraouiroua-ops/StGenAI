@@ -1,0 +1,89 @@
+{
+  "table_id": "table_58",
+  "caption": "Table 58. TIMx characteristics",
+  "pdf_name": "stm32c011d6",
+  "family": "C0",
+  "page": 71,
+  "merged_pages": [
+    71
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=71",
+  "section": "5.3.18 Timer characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t res(TIM)",
+      "Timer resolution time",
+      "-",
+      "1",
+      "-",
+      "t TIMxCLK"
+    ],
+    [
+      "t res(TIM)",
+      "Timer resolution time",
+      "f = 48 MHz TIMxCLK",
+      "20.833",
+      "-",
+      "ns"
+    ],
+    [
+      "f EXT",
+      "Timer external clock frequency on CH1 to CH4",
+      "-",
+      "0",
+      "f /4 TIMxCLK",
+      "MHz"
+    ],
+    [
+      "Res TIM",
+      "Timer resolution",
+      "TIMx",
+      "-",
+      "16",
+      "bit"
+    ],
+    [
+      "t COUNTER",
+      "Counter clock period",
+      "TIMx",
+      "1",
+      "216",
+      "t TIMxCLK"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Evaluated by characterization. Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c011d6",
+    "table_id": "table_58",
+    "is_continued": false,
+    "pages": [
+      71
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

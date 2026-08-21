@@ -1,0 +1,209 @@
+{
+  "table_id": "table_79",
+  "caption": "Table 79. LQFP48 - Mechanical data",
+  "pdf_name": "stm32c542cc",
+  "family": "C5",
+  "page": 112,
+  "merged_pages": [
+    112
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=112",
+  "section": "4.00 PKG",
+  "headers": [
+    "Symbol",
+    "millimeters / Min",
+    "millimeters / Typ",
+    "millimeters / Max",
+    "inches(14.) / Min",
+    "inches(14.) / Typ",
+    "inches(14.) / Max"
+  ],
+  "rows": [
+    [
+      "b1(11.)",
+      "0.17",
+      "0.20",
+      "0.23",
+      "0.0067",
+      "0.0079",
+      "0.0090"
+    ],
+    [
+      "D(4.)",
+      "9.00 BSC",
+      "9.00 BSC",
+      "9.00 BSC",
+      "0.3543 BSC",
+      "0.3543 BSC",
+      "0.3543 BSC"
+    ],
+    [
+      "D1(4.)(5.)",
+      "7.00 BSC",
+      "7.00 BSC",
+      "7.00 BSC",
+      "0.2756 BSC",
+      "0.2756 BSC",
+      "0.2756 BSC"
+    ],
+    [
+      "E(4.)",
+      "9.00 BSC",
+      "9.00 BSC",
+      "9.00 BSC",
+      "0.3543 BSC",
+      "0.3543 BSC",
+      "0.3543 BSC"
+    ],
+    [
+      "E1(4.)(5.)",
+      "7.00 BSC",
+      "7.00 BSC",
+      "7.00 BSC",
+      "0.2756 BSC",
+      "0.2756 BSC",
+      "0.2756 BSC"
+    ],
+    [
+      "e",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.1970 BSC",
+      "0.1970 BSC",
+      "0.1970 BSC"
+    ],
+    [
+      "N(13.)",
+      "48",
+      "48",
+      "48",
+      "48",
+      "48",
+      "48"
+    ],
+    [
+      "θ",
+      "0°",
+      "3.5°",
+      "7°",
+      "0°",
+      "3.5°",
+      "7°"
+    ],
+    [
+      "θ1",
+      "0°",
+      "-",
+      "-",
+      "0°",
+      "-",
+      "-"
+    ],
+    [
+      "θ2",
+      "10°",
+      "12°",
+      "14°",
+      "10°",
+      "12°",
+      "14°"
+    ],
+    [
+      "θ3",
+      "10°",
+      "12°",
+      "14°",
+      "10°",
+      "12°",
+      "14°"
+    ],
+    [
+      "aaa(1.)(7.)",
+      "0.20",
+      "0.20",
+      "0.20",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "bbb(1.)(7.)",
+      "0.20",
+      "0.20",
+      "0.20",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "ccc(1.)(7.)",
+      "0.08",
+      "0.08",
+      "0.08",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ],
+    [
+      "ddd(1.)(7.)",
+      "0.08",
+      "0.08",
+      "0.08",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+      "2. The Top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+      "3. Datums A-B and D to be determined at datum plane H.",
+      "4. To be determined at seating datum plane C.",
+      "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size dimensions including mold mismatch.",
+      "6. Details of pin 1 identifier are optional but must be located within the zone indicated.",
+      "7. All Dimensions are in millimeters.",
+      "8. No intrusion allowed inwards the leads.",
+      "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm. Dambar cannot be located on the lower radius"
+    ],
+    "_dedup_rows_removed": 11,
+    "_dedup_removed_indices": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      12,
+      13,
+      19,
+      20,
+      21
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c542cc",
+    "table_id": "table_79",
+    "is_continued": false,
+    "pages": [
+      112
+    ],
+    "rows_count": 15,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

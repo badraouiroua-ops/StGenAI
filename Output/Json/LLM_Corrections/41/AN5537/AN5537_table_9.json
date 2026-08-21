@@ -1,0 +1,22 @@
+{
+  "table_id": "table_9",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "06-Mar-2026 | 2",
+      "row_index": 1,
+      "analyse_visuelle": "La date affichée dans la colonne Date pour la version 2 est '06-Mar-2024' et non '06-Mar-2026' (erreur OCR sur le chiffre 4).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "06-Mar-2026",
+          "nouvelle_valeur": "06-Mar-2024",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,58 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. Component values",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. Component values",
+  "page": 15,
+  "section": "2.3 Hardware implementation",
+  "section_title": "Hardware implementation",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=15",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+  "text_helper": "Table 6. Component values — section 2.3 Hardware implementation. Type, Component, Value.",
+  "table_content": {
+    "headers": [
+      "Type",
+      "Component",
+      "Value"
+    ],
+    "rows": [
+      [
+        "Resistor",
+        "R1",
+        "12 kΩ"
+      ],
+      [
+        "Resistor",
+        "R2",
+        "10 kΩ"
+      ],
+      [
+        "Resistor",
+        "R3",
+        "10 kΩ"
+      ],
+      [
+        "Capacitor",
+        "C1",
+        "5 pF"
+      ],
+      [
+        "Capacitor",
+        "C2",
+        "100 nF"
+      ],
+      [
+        "Capacitor",
+        "C3",
+        "100 nF"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

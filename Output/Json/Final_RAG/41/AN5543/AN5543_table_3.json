@@ -1,0 +1,53 @@
+{
+  "table_id": "table_3",
+  "document": "Table 3. Document revision history",
+  "rev": null,
+  "table_number": "3",
+  "title": "Table 3. Document revision history",
+  "page": 20,
+  "section": "4.5 SPI synchronization between nodes",
+  "section_title": "SPI synchronization between nodes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5543.pdf#page=20",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5543.pdf",
+  "text_helper": "Table 3. Document revision history — section 4.5 SPI synchronization between nodes. Date, Version, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Version",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "30-Nov-2020",
+        "1",
+        "Initial release."
+      ],
+      [
+        "29-Jun-2021",
+        "2",
+        "Updated Table 1. Main SPI features on STM32 devices"
+      ],
+      [
+        "12-Apr-2024",
+        "3",
+        "Updated document title, Introduction, Section 4: Data flow potential problems, and Section 4.5: SPI synchronization between nodes. Updated Table 1. Main SPI features on STM32 devices, and Table 2. Differences of CRC control between active SPI versions. Minor text edits across the whole document."
+      ],
+      [
+        "03-Oct-2024",
+        "4",
+        "Updated Table 1. Main SPI features on STM32 devices. Minor text edits across the whole document."
+      ],
+      [
+        "21-Nov-2025",
+        "5",
+        "Updated Table 1. Main SPI features on STM32 devices and its footnotes."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

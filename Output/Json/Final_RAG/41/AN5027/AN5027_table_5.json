@@ -1,0 +1,51 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. Recommended IO lines versus the number digital microphones to be connected",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. Recommended IO lines versus the number digital microphones to be connected",
+  "page": 24,
+  "section": "2.2.3 Using PDM interface",
+  "section_title": "Using PDM interface",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=24",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "text_helper": "Table 5. Recommended IO lines versus the number digital microphones to be connected — section 2.2.3 Using PDM interface. Number of Microphones, Recommended data IO lines, Recommended clock IO lines.",
+  "table_content": {
+    "headers": [
+      "Number of Microphones",
+      "Recommended data IO lines",
+      "Recommended clock IO lines"
+    ],
+    "rows": [
+      [
+        "1 or 2",
+        "SAI_D1",
+        "SAI_CK1,2,3 or 4"
+      ],
+      [
+        "3 or 4",
+        "SAI_D1 and SAI_D2",
+        "SAI_CK1,2,3 or 4"
+      ],
+      [
+        "5 or 6",
+        "SAI_D1 and SAI_D2 and SAI_D3",
+        "SAI_CK1,2,3 or 4"
+      ],
+      [
+        "7 pr 8",
+        "SAI_D1 and SAI_D2 and SAI_D3 and SAI_D4",
+        "SAI_CK1,2,3 or 4"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "nected.",
+      "to be connected"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

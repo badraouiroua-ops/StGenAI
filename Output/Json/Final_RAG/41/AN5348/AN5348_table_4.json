@@ -1,0 +1,64 @@
+{
+  "table_id": "table_4",
+  "document": "Table 4. “Element” size number depending on data field range.",
+  "rev": null,
+  "table_number": "4",
+  "title": "Table 4. “Element” size number depending on data field range.",
+  "page": 9,
+  "section": "4.2.1 RAM organization",
+  "section_title": "RAM organization",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=9",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+  "text_helper": "Table 4. “Element” size number depending on data field range. — section 4.2.1 RAM organization. Data field (bytes), Element size (RAM words).",
+  "table_content": {
+    "headers": [
+      "Data field (bytes)",
+      "Element size (RAM words)"
+    ],
+    "rows": [
+      [
+        "0 to 8",
+        "4"
+      ],
+      [
+        "12",
+        "5"
+      ],
+      [
+        "16",
+        "6"
+      ],
+      [
+        "20",
+        "7"
+      ],
+      [
+        "24",
+        "8"
+      ],
+      [
+        "32",
+        "10"
+      ],
+      [
+        "48",
+        "14"
+      ],
+      [
+        "64",
+        "18"
+      ]
+    ],
+    "notes": [
+      "1. Allocate 128 words in the section ID-11bits.",
+      "2. Reserve 1152 words for the reception of the elements in the section Rx FIFO 0.",
+      "3. Reserve 1152 words for the reception of the elements in the section Rx buffer.",
+      "4. Reserve 128 words for the elements sent in Tx buffer. Thanks to the dynamic allocation and by not making any allocation for unused sections, the whole memory size of"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

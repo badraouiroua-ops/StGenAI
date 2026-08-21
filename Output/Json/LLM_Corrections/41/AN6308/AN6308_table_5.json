@@ -1,0 +1,20 @@
+{
+  "table_id": "table_5",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [
+    {
+      "row_index": 2,
+      "contenu": [
+        "Provisioning",
+        "x",
+        "NA",
+        "NA",
+        "RSS",
+        "RSS"
+      ]
+    }
+  ],
+  "lignes_en_trop_supprimees": []
+}

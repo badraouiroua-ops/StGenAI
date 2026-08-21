@@ -1,0 +1,22 @@
+{
+  "table_id": "table_5",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Failure detected but self- recovery after disturbance",
+      "row_index": 0,
+      "analyse_visuelle": "Suppression de l'espace indésirable après le tiret dans le mot 'self-recovery' généré lors de la coupure de ligne.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Failure detected but self- recovery after disturbance",
+          "nouvelle_valeur": "Failure detected but self-recovery after disturbance",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,154 @@
+{
+  "table_id": "table_72",
+  "document": "DS15125 Rev 2 - Table 72. UFQFPN20 - Mechanical data.",
+  "rev": "Rev 2",
+  "table_number": "72",
+  "title": "Table 72. UFQFPN20 - Mechanical data.",
+  "page": 100,
+  "section": "6.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=100",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "text_helper": "Table 72. UFQFPN20 - Mechanical data. — section 6.1 Device marking. Symbol, Millimeters / Min, Millimeters / Typ, Millimeters / Max, Inches / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Millimeters / Min",
+      "Millimeters / Typ",
+      "Millimeters / Max",
+      "Inches / Min",
+      "Inches / Typ",
+      "Inches / Max"
+    ],
+    "rows": [
+      [
+        "A",
+        "0.500",
+        "0.550",
+        "0.600",
+        "0.0197",
+        "0.0217",
+        "0.0236"
+      ],
+      [
+        "A1",
+        "0.000",
+        "0.020",
+        "0.050",
+        "0.0000",
+        "0.0008",
+        "0.0020"
+      ],
+      [
+        "A3",
+        "0.152 reference",
+        "0.152 reference",
+        "0.152 reference",
+        "0.060 reference",
+        "0.060 reference",
+        "0.060 reference"
+      ],
+      [
+        "D",
+        "2.900",
+        "3.000",
+        "3.100",
+        "0.1142",
+        "0.1181",
+        "0.1220"
+      ],
+      [
+        "E",
+        "2.900",
+        "3.000",
+        "3.100",
+        "0.1142",
+        "0.1181",
+        "0.1220"
+      ],
+      [
+        "θ",
+        "0",
+        "-",
+        "12",
+        "0",
+        "-",
+        "0.0020"
+      ],
+      [
+        "e",
+        "-",
+        "0.500 BSC(11.)",
+        "-",
+        "-",
+        "0.0197 BSC",
+        "-"
+      ],
+      [
+        "b(4.)",
+        "0.180",
+        "0.250",
+        "0.300",
+        "0.0071",
+        "0.0098",
+        "0.0118"
+      ],
+      [
+        "N(3.)",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20",
+        "20"
+      ],
+      [
+        "ND(5.)",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      [
+        "NE(5.)",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      [
+        "La",
+        "0.300",
+        "0.350",
+        "0.400",
+        "0.0118",
+        "0.0138",
+        "0.0157"
+      ],
+      [
+        "Lb",
+        "0.500",
+        "0.550",
+        "0.600",
+        "0.0197",
+        "0.0217",
+        "0.0236"
+      ]
+    ],
+    "notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+      "2. All dimensions are in millimeters except for θ, which is in degrees. Values in inches are converted from millimeters and rounded to four decimal digits.",
+      "3. N is the total number of terminals.",
+      "4. Dimension b applies to the metallized terminal and is measured between 0.15 and 0.30 mm from the terminal tip. If the terminal has an optional radius on the other end, dimension b should not be measured in that radius"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}
