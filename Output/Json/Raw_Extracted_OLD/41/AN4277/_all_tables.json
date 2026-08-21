@@ -1,0 +1,1371 @@
+[
+  {
+    "features": {
+      "pdf_name": "AN4277",
+      "family": "41",
+      "pdf_type": 2,
+      "doc_ref": null,
+      "revision": null,
+      "date": null,
+      "title": "STM32 MCUs Introduction The purpose of this application note is to describe the STM32 device timer break feature. It details its use with other STM32",
+      "url_pdf": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+      "page": 1,
+      "core": null,
+      "fpu": false,
+      "max_frequency_mhz": null,
+      "flash_kb": null,
+      "ram_kb": null,
+      "voltage_min_v": null,
+      "voltage_max_v": null,
+      "operating_temp_c": [],
+      "packages": [],
+      "device_summary": null,
+      "extraction_meta": {
+        "source_pages": [
+          1,
+          2
+        ],
+        "extraction_method": "regex_type2",
+        "text_extraction_reliable": true,
+        "packages_source": "text",
+        "confidence": "medium",
+        "missing_fields": [
+          "core",
+          "max_frequency_mhz",
+          "flash_kb",
+          "ram_kb",
+          "voltage_min_v",
+          "voltage_max_v",
+          "operating_temp_c"
+        ],
+        "low_confidence_fields": []
+      }
+    }
+  },
+  {
+    "table_id": "table_1",
+    "caption": "Table 1. Applicable products",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 1,
+    "merged_pages": [
+      1
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=1",
+    "section": "General purpose / Overview",
+    "headers": [
+      "Type",
+      "Product series"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "• STM32C0 series, STM32C5 series • STM32F0 series, STM32F1 series, STM32F2 series, STM32F3 series, STM32F4 series, STM32F7 series • STM32G0 series, STM32G4 series • STM32H5 series, STM32H7 series • STM32L4 series, STM32L5 series • STM32U0 series, STM32U3 series, STM32U5 series • STM32WB series, STM32WL series"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_1",
+      "is_continued": false,
+      "pages": [
+        1
+      ],
+      "rows_count": 1,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_2",
+    "caption": "Table 2. Timers and break input availability in STM32 devices",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 3,
+    "merged_pages": [
+      3
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=3",
+    "section": "2 Break function overview",
+    "headers": [
+      "-",
+      "TIM1",
+      "TIM8",
+      "TIM20",
+      "TIM15",
+      "TIM16",
+      "TIM17"
+    ],
+    "rows": [
+      [
+        "STM32F0",
+        "BRK",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32F0",
+        "BRK_ACTH",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32F1",
+        "BRK",
+        "-",
+        "-",
+        "BRK",
+        "BRK",
+        "BRK"
+      ],
+      [
+        "STM32F1",
+        "BRK_ACTH",
+        "-",
+        "-",
+        "BRK_ACTH",
+        "BRK_ACTH",
+        "BRK_ACTH"
+      ],
+      [
+        "STM32F2 STM32F4",
+        "BRK",
+        "BRK",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32F2 STM32F4",
+        "BRK_ACTH",
+        "BRK_ACTH",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32F3",
+        "BRK",
+        "BRK",
+        "BRK",
+        "BRK",
+        "BRK",
+        "BRK"
+      ],
+      [
+        "STM32F3",
+        "BRK2",
+        "BRK2",
+        "BRK2",
+        "BRK_ACTH",
+        "BRK_ACTH",
+        "BRK_ACTH"
+      ],
+      [
+        "STM32F3",
+        "BRK_ACTH",
+        "BRK_ACTH",
+        "BRK_ACTH",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32F7",
+        "BRK",
+        "BRK",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32F7",
+        "BRK2",
+        "BRK2",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32F7",
+        "BRK_ACTH",
+        "BRK_ACTH",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32L4 STM32L5 STM32U5, STM32C5 STM32H7(1) STM32H5(2)",
+        "BRK",
+        "BRK",
+        "-",
+        "BRK",
+        "BRK",
+        "BRK"
+      ],
+      [
+        "STM32L4 STM32L5 STM32U5, STM32C5 STM32H7(1) STM32H5(2)",
+        "BRK2",
+        "BRK2",
+        "-",
+        "System break",
+        "System break",
+        "System break"
+      ],
+      [
+        "STM32L4 STM32L5 STM32U5, STM32C5 STM32H7(1) STM32H5(2)",
+        "System break",
+        "System break",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32C0 STM32WB STM32WL STM32H7Rx/7Sx",
+        "BRK",
+        "-",
+        "-",
+        "-",
+        "BRK",
+        "BRK"
+      ],
+      [
+        "STM32C0 STM32WB STM32WL STM32H7Rx/7Sx",
+        "BRK2",
+        "-",
+        "-",
+        "-",
+        "System break",
+        "System break"
+      ],
+      [
+        "STM32C0 STM32WB STM32WL STM32H7Rx/7Sx",
+        "System break",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32G0, STM32U3",
+        "BRK",
+        "-",
+        "-",
+        "BRK",
+        "BRK",
+        "BRK"
+      ],
+      [
+        "STM32G0, STM32U3",
+        "BRK2",
+        "-",
+        "-",
+        "System break",
+        "System break",
+        "System break"
+      ],
+      [
+        "STM32G0, STM32U3",
+        "System break",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32G4",
+        "BRK",
+        "BRK",
+        "BRK",
+        "BRK",
+        "BRK",
+        "BRK"
+      ],
+      [
+        "STM32G4",
+        "BRK2",
+        "BRK2",
+        "BRK2",
+        "System break",
+        "System break",
+        "System break"
+      ],
+      [
+        "STM32G4",
+        "System break",
+        "System break",
+        "System break",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32H503 STM32U0",
+        "BRK",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32H503 STM32U0",
+        "BRK2",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32H503 STM32U0",
+        "System break",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32L0",
+        "BRK",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "STM32L0",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 7,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 7,
+      "_notes": [
+        "1. Excluding STM32H7Rx/7Sx.",
+        "2. Excluding STM32H503. AN4277 - Rev 9 page 3/26"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "vertical_merge_suspected"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_2",
+      "is_continued": false,
+      "pages": [
+        3
+      ],
+      "rows_count": 29,
+      "cols_count": 7,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_3",
+    "caption": "Table 3. Comparator peripherals availability per STM32 device",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 4,
+    "merged_pages": [
+      4
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=4",
+    "section": "2 Break function overview",
+    "headers": [
+      "-",
+      "STM32F07xxxSTM32F0 / STM32F05xxx",
+      "STM32F07xxxSTM32F0",
+      "STM32F07xxxSTM32F0 / STM3209xxx",
+      "STM32F3 / STM32F303xB/C",
+      "STM32F3 / STM32F358xC",
+      "STM32F3 / STM32F303x6/8",
+      "STM32F3 / STM32F328x8",
+      "STM32F3 / STM32F303xD/E",
+      "STM32F3 / STM32F398xE",
+      "STM32F3 / STM32F302xB/C/D/E",
+      "STM32F3 / STM32F302x6/8",
+      "STM32F3 / STM32F301x6/8",
+      "STM32F3 / STM32F318x8",
+      "STM32F3 / STM32F334x4/6/8",
+      "STM32F3 / STM32F37xxx",
+      ")1 / STM32L1(1)",
+      ")2 / STM32L0(2)",
+      "STM32L4",
+      "STM32L4 / STM32L4+",
+      "STM32L5",
+      "STM32U5",
+      "LW23 / STM32WB, STM32WL",
+      "STM32C5",
+      "0U23MTS / STM32U3(5)STM32U0",
+      ")3(0G23MTS / STM32G051/61",
+      ")3(0G23MTS / STM32G071/81STM32G0(3)",
+      ")3(0G23MTS / STM32G0B1/C",
+      "STM32G4 / STM32G4x1",
+      "STM32G4 / STM32G4x3",
+      "STM32H503STM32H5",
+      ")4 / STM32H7(4)"
+    ],
+    "rows": [
+      [
+        "Filter",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "DFSDM",
+        "DFSDM",
+        "DFSDM",
+        "MDF(5)",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "DFSDM"
+      ],
+      [
+        "COMP 1",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "-",
+        "-",
+        "X",
+        "X",
+        "X",
+        "-",
+        "-",
+        "-",
+        "-",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "COMP 2",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X(6)",
+        "X(6)",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "-",
+        "X"
+      ],
+      [
+        "COMP 3",
+        "-",
+        "-",
+        "-",
+        "X",
+        "X",
+        "-",
+        "-",
+        "X",
+        "X",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "X",
+        "X",
+        "X",
+        "-",
+        "-"
+      ],
+      [
+        "COMP 4",
+        "-",
+        "-",
+        "-",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "X",
+        "X",
+        "-",
+        "-"
+      ],
+      [
+        "COMP 5",
+        "-",
+        "-",
+        "-",
+        "X",
+        "X",
+        "-",
+        "-",
+        "X",
+        "X",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "X",
+        "-",
+        "-"
+      ],
+      [
+        "COMP 6",
+        "-",
+        "-",
+        "-",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "X",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "X",
+        "-",
+        "-"
+      ],
+      [
+        "COMP 7",
+        "-",
+        "-",
+        "-",
+        "X",
+        "X",
+        "-",
+        "-",
+        "X",
+        "X",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "X",
+        "-",
+        "-"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 32,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 32,
+      "_notes": [
+        "1. These devices feature comparators, but no advanced timers with break inputs.",
+        "2. These devices feature comparators, but no advanced timers with break inputs. STM32L010 value line has no comparators either.",
+        "3. STM32G0x0, STM32G031, and STM32G041 have no comparators.",
+        "4. Excluding the STM32H7Rx/Sx line.",
+        "5. ADF does not feature a break output.",
+        "6. STM32L412/L422 does not have COMP2. AN4277 - Rev 9 page 4/26"
+      ],
+      "_legend": [
+        "Comparator availability may be limited by the package pin count."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_3",
+      "is_continued": false,
+      "pages": [
+        4
+      ],
+      "rows_count": 8,
+      "cols_count": 32,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_4",
+    "caption": "Table 4. Break input sources",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 12,
+    "merged_pages": [
+      12
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=12",
+    "section": "4 Break sources summary",
+    "headers": [
+      "-",
+      "BRK",
+      "BRK_ACTH (or system break)",
+      "BRK2"
+    ],
+    "rows": [
+      [
+        "External connection to pin",
+        "BKIN",
+        "No corresponding I/O",
+        "BKIN2"
+      ],
+      [
+        "Internal connection to pin",
+        "In STM32F3: • Comparators 4 and 7 for TIM1/8/20 • NA for TIM15/16/17 In STM32G4: All comparators, some with polarity control on TIM1/8/20 In STM32L4 and STM32H7(1): • Comparators 1 and 2 • DFSDM break output In STM32U5: • Comparators 1 and 2 • MDF1 break output",
+        "Available signals from: • Clock failure event generated by CSS • PVD output • RAM parity error signal • Cortex-M LOCKUP output (Hardfault) • Comparator outputs (on STM32Fx series) • Flash double ECC error",
+        "In STM32F3: • Comparators 1, 2, 3, 4, 5, 6, and 7 In STM32G4: All comparators, some with polarity control on TIM1/8/20 In STM32L4 and STM32H7(1): • Comparators 1 and 2 • DFSDM break output In STM32U5: • Comparators 1 and 2 • MDF1 break output"
+      ],
+      [
+        "Polarity feature in case of internal connection",
+        "Configurable for most inputs: active high or active low",
+        "Always active high",
+        "Configurable for some inputs: active high or active low"
+      ],
+      [
+        "Polarity feature in case of external break event",
+        "Available",
+        "NA",
+        "Available"
+      ],
+      [
+        "Filter feature",
+        "Not available in STM32F0, STM32F1, STM32F2, and STM32F4. Only available in STM32F3 advanced timers.",
+        "NA",
+        "Not available in STM32F0, STM32F1, STM32F2, and STM32F4"
+      ],
+      [
+        "Available in",
+        "TIM1/8/20/15/16/17",
+        "TIM1/8/20/15/16/17",
+        "TIM1/8/20 in STM32F3, TIM1/8 in other series"
+      ],
+      [
+        "Resulting break signal in case of parallel external or/and internal break sources",
+        "It is an OR between the external break signals and the internal ones.",
+        "It is an OR between the external break signals and the internal ones.",
+        "It is an OR between the external break signals and the internal ones."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 4,
+      "_notes": [
+        "1. Excluding the STM32H7Rx/Sx line. AN4277 - Rev 9 page 12/26"
+      ],
+      "_legend": [
+        "15, 16, and 17) break inputs."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_4",
+      "is_continued": false,
+      "pages": [
+        12
+      ],
+      "rows_count": 7,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_5",
+    "caption": "Table 5. Scenarios of PWM output status in response to internal/external break events",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 13,
+    "merged_pages": [
+      13,
+      14
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=13",
+    "section": "5 Examples",
+    "headers": [
+      "Configuration",
+      "Programmed polarity",
+      "Result"
+    ],
+    "rows": [
+      [
+        "Comparator 1 output is connected internally to TIM1 BRK_ACTH and TIM1 BKIN alternate function is disabled.",
+        "High",
+        "The PWM generation is stopped when the comparator output is at the high level, as shown in the following screenshot: 1V10347TD"
+      ],
+      [
+        "Comparator 1 output is connected internally to TIM1 BRK_ACTH and TIM1 BKIN alternate function is enabled.",
+        "High/Low",
+        "The break input signal is an OR between the signal on BKIN and the comparator output. The following screenshot shows an example (polarity = High): 1V20347TD Note: To show the effect of the two break sources, the bit AOE in the BDTR register is set, allowing to restart the PWM at the next update event."
+      ],
+      [
+        "Comparator 4 output is connected internally to TIM1 BRK and the filter is not configured.",
+        "Low",
+        "The PWM signal is stopped during the break signal low level, as shown in the following screenshot: 1V30347TD"
+      ],
+      [
+        "Comparator 4 output is connected internally to TIM1 BRK and the filter is configured.",
+        "High",
+        "During the window defined by the filter duration, the break event has no impact on the PWM generation even if the break condition is verified. This is the case of the following example (screenshot) where the PWM signal is generated normally when the break signal is at a high level during the window defined by the filter. • The filter duration is 7.111 µs (BKF = 1111b, filter duration is (32*8/fDTS), fDTS = 36 MHz). • The comparator output high level duration is 7.111 µs. 1V40347TD"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "continuation": {
+        "base_cols": 3,
+        "cont_cols_raw": 3,
+        "target_cols": 3,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      },
+      "_legend": [
+        "break events.",
+        "In the following waveforms:",
+        "• The PWM signal is the reference waveform (internal signal, before BRK protection).",
+        "• The COMP_OUT signal represents the BRK input signal, in our case it is the comparator output.",
+        "• The BIN signal is the input signal on BKIN.",
+        "• The PWM_BRK signal is the resulting PWM signal on the timer output after break detection.",
+        "Color legend: green = PWM signal, blue = COMP_OUT signal, yellow = BKIN signal, purple = PWM_BRK signal."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_5",
+      "is_continued": true,
+      "pages": [
+        13,
+        14
+      ],
+      "rows_count": 4,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_6",
+    "caption": "Table 6. Comparator output connected internally to break inputs",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 17,
+    "merged_pages": [
+      17,
+      18
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=17",
+    "section": "6.3 Using an external emergency signal together with the internal comparator",
+    "headers": [
+      "Description",
+      "Register",
+      "Bit",
+      "Configuration(1)"
+    ],
+    "rows": [
+      [
+        "TIM1/8/20 BRK_ACTH/BRK/ BRK2 polarity",
+        "TIMx_BDTR",
+        "BKP or BK2P",
+        "1 (active high)"
+      ],
+      [
+        "TIM1/8/20 BKIN and BKIN2 AF",
+        "GPIOxAFRL or GPIOxAFRH",
+        "-",
+        "AF is not enabled on BKIN1/2 related pins"
+      ],
+      [
+        "TIM1/8/20 BRK and BRK2 enable",
+        "TIMX_BDTR",
+        "BKE or BK2E",
+        "1"
+      ],
+      [
+        "COMPx out selection",
+        "COMPx_CSR",
+        "COMPxOUTSEL",
+        "0001: TIM1 BRK or TIM1 BRK_ACTH(2) 0010: TIM1 BRK2 0011: TIM8 BRK or TIM8 BRK_ACTH(3) 0100: TIM8 BRK2 0101: TIM1 BRK2 + TIM8 BRK2 1100: TIM20 BRK or TIM20 BRK_ACTH(4) 1101: TIM20 BRK2 1110: TIM1 BRK2 + TIM8 BRK2 + TIM20 BRK2"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 4,
+      "continuation": {
+        "base_cols": 4,
+        "cont_cols_raw": 4,
+        "target_cols": 4,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      },
+      "_notes": [
+        "1. Some newer STM32 series, such as STM32U5 abandoned the use of BRK_ACTH identifier using name system level or internal fault instead. The functionality remains analogous.",
+        "2. TIM1 BRK in case of COMP4 and COMP7, or TIM1 BRK_ACTH in case of COMPx, x = 1, 2, 3, 5, and 6.",
+        "3. TIM8 BRK in case of COMP4 and COMP7, or TIM8 BRK_ACTH in case of COMPx, x = 1, 2, 3, 5, and 6.",
+        "4. TIM20 BRK in case of COMP4 and COMP7, or TIM20 BRK_ACTH in case of COMPx, x= 1, 2, 3, 5, and 6. On the contrary, the user may prefer to make use of the external error signal in conjunction with the internal one:"
+      ],
+      "_dedup_rows_removed": 4,
+      "_dedup_removed_indices": [
+        1,
+        5,
+        6,
+        7
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_6",
+      "is_continued": true,
+      "pages": [
+        17,
+        18
+      ],
+      "rows_count": 4,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_7",
+    "caption": "Table 7. Comparator output connected externally to break inputs, with low break polarity",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 17,
+    "merged_pages": [
+      17,
+      18
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=17",
+    "section": "6.3 Using an external emergency signal together with the internal comparator",
+    "headers": [
+      "Description",
+      "Register",
+      "Bit",
+      "Configuration"
+    ],
+    "rows": [
+      [
+        "TIM1/8/20 BRK polarity",
+        "TIMx_BDTR",
+        "BKP",
+        "0 (active low), it means that the external signal goes low during the fault"
+      ],
+      [
+        "TIM1/8/20 BKIN AF",
+        "GPIOxAFRL or GPIOxAFRH",
+        "-",
+        "AF enabled on BKIN pin selected among available"
+      ],
+      [
+        "TIM1/8/20 BRK enable",
+        "TIMX_BDTR",
+        "BKE",
+        "1"
+      ],
+      [
+        "COMPx out selection",
+        "COMPx_CSR",
+        "COMPxOUTSEL",
+        "0001: TIM1 BRK 0011: TIM8 BRK 1100: TIM20 BRK"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 4,
+      "continuation": {
+        "base_cols": 4,
+        "cont_cols_raw": 4,
+        "target_cols": 4,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      },
+      "_dedup_rows_removed": 4,
+      "_dedup_removed_indices": [
+        1,
+        5,
+        6,
+        7
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_7",
+      "is_continued": true,
+      "pages": [
+        17,
+        18
+      ],
+      "rows_count": 4,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_8",
+    "caption": "Table 8. Comparator output connected externally to break inputs, with high break polarity",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 17,
+    "merged_pages": [
+      17,
+      18
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=17",
+    "section": "6.3 Using an external emergency signal together with the internal comparator",
+    "headers": [
+      "Description",
+      "Register",
+      "Bit",
+      "Configuration"
+    ],
+    "rows": [
+      [
+        "TIM1/8/20 BRK/BRK2 polarity",
+        "TIMx_BDTR",
+        "BKP or BK2P",
+        "1 (active high), it means that the external signal goes high during the fault"
+      ],
+      [
+        "Comparator output polarity",
+        "COMPx_CSR",
+        "COMPxPOL",
+        "0 (not inverted), comparators input connected as shown in previous sections"
+      ],
+      [
+        "TIM1/8/20 BKIN/BKIN2 AF",
+        "GPIOxAFRL or GPIOxAFRH",
+        "-",
+        "AF enabled on BKIN/BKIN2 pin selected among available"
+      ],
+      [
+        "TIM1/8/20 BRK/BRK2 enable",
+        "TIMX_BDTR",
+        "BKEor BK2E",
+        "1"
+      ],
+      [
+        "COMPx out selection",
+        "COMPx_CSR",
+        "COMPxOUTSEL",
+        "0001: TIM1 BRK 0010: TIM1 BRK2 0011: TIM8 BRK 0100: TIM8 BRK2 0101: TIM1 BRK2 + TIM8 BRK2 1100: TIM20 BRK 1101: TIM20 BRK2 1110: TIM1 BRK2 + TIM8 BRK2 + TIM20 BRK2"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "caption_near_bottom": true,
+      "caption_y_ratio": 0.821,
+      "cols_extracted": 4,
+      "continuation": {
+        "base_cols": 4,
+        "cont_cols_raw": 4,
+        "target_cols": 4,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      }
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_8",
+      "is_continued": true,
+      "pages": [
+        17,
+        18
+      ],
+      "rows_count": 5,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_9",
+    "caption": "Table 9. Register locking mechanism",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 19,
+    "merged_pages": [
+      19
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=19",
+    "section": "6.5 Locking the selected configuration",
+    "headers": [
+      "Peripheral",
+      "Feature",
+      "Register",
+      "Comment"
+    ],
+    "rows": [
+      [
+        "GPIO port x, pin y",
+        "Inverting input, pin mode selection",
+        "GPIOx_MODER register, MODERy bit to be configured in analog mode",
+        "-"
+      ],
+      [
+        "GPIO port x, pin y",
+        "Inverting input, pin configuration locking",
+        "GPIOx_LCKR register, specific write sequence coded with LCKy bit",
+        "MODERy bit (in GPIOx_MODER register) now frozen until next reset"
+      ],
+      [
+        "GPIO port w, pin z",
+        "Non inverting input, pin mode selection",
+        "GPIOw_MODER register, MODERz bit to be configured in analog mode",
+        "Not needed if an internal reference is selected"
+      ],
+      [
+        "GPIO port w, pin z",
+        "Non inverting input, pin configuration locking",
+        "GPIOw_LCKR register, specific write sequence coded with LCKz bit",
+        "MODERz bit (in the GPIOw_MODER register) now frozen until next reset"
+      ],
+      [
+        "TIMER 1/8/20",
+        "BKIN/BKIN2 configuration locking",
+        "TIMx_BDTR register, LOCK bits",
+        "LOCK level 1 (at least) recommended: DTG bits in TIMx_BDTR register, OISx, and OISxN bits in TIMx_CR2 register and BKE/BKP/AOE bits in TIMx_BDTR register frozen until next reset"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 4,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 4
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_9",
+      "is_continued": false,
+      "pages": [
+        19
+      ],
+      "rows_count": 5,
+      "cols_count": 4,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_10",
+    "caption": "Table 10. Document revision history",
+    "pdf_name": "AN4277",
+    "family": "41",
+    "page": 21,
+    "merged_pages": [
+      21
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=21",
+    "section": "6.5 Locking the selected configuration",
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "25-Nov-2013",
+        "1",
+        "Initial release."
+      ],
+      [
+        "05-Mar-2015",
+        "2",
+        "Updated cover page with STM32F3 series and adding RM references. Updated the whole document adding TIM20 and replacing STM32F30x/31 x by STM32F3 series. Updated Section 1: Break function overview adding Table 3: Peripherals availability per STM32 devices. Updated Figure 1: Break feature implementation for TIM1, TIM8, and TIM20. Updated Figure 11: Comparator chain configuration locking. Updated Table 9: Register locking mechanism."
+      ],
+      [
+        "30-Jun-2015",
+        "3",
+        "Updated Section 2.2: TIM15/16/17 break implementation removing the filter feature in BRK and BRK_ACTH paragraphs. Updated Figure 5: Break feature implementation for TIM15, TIM16, and TIM17 for STM32F1 series devices replacing filter/polarity by polarity. Updated Table 4: Break input sources adding \"NA for TIM15/16/17\" for 2 lines in BRK column."
+      ],
+      [
+        "03-May-2016",
+        "4",
+        "Updated cover page title and introduction with the application note applying to STM32 devices. Added Table 1: Applicable products. Updated Section 1: Break function overview. Added Table 2: Timers and break input availability in STM32 devices. Updated Table 3: Peripherals availability per STM32 devices. Updated Section 2: Break implementation. Updated Figure 1, Figure 2, Figure 3, Figure 5, Figure 6, and Figure 7. Updated Table 4: Break input sources. Updated Table 5: Scenarios of PWM output status in response to internal/external break events. Updated Section 5: Using the break function with other MCU resources adding a note. Updated Section: BRK_ATCH. Added Section: Bidirectional break inputs. Added Figure 4: Output redirection."
+      ],
+      [
+        "09-Mar-2022",
+        "5",
+        "Updated all document with STM32U series in: Section 1: General information Section 4: Break implementation Section 5: Break sources summary Section 7: Using the break function with other MCU resources Added: Figure 4: Break feature implementation in advanced timers for STM32U5 series devices Figure 9: Break feature implementation for TIM15, TIM16, and TIM17 in STM32U5 series devices"
+      ],
+      [
+        "05-Jan-2023",
+        "6",
+        "Updated the whole document to add STM32 series information in: Section Table 1: Applicable products Section Table 3: Timers and break input availability in STM32 devices Section Table 4: Comparator peripherals availability per STM32 device Section 4.1: TIM1/8/20 break implementation Section 4.2: TIM15/16/17 break implementation Section 5: Break sources summary"
+      ],
+      [
+        "06-Mar-2024",
+        "7",
+        "Added STM32U0 series. Updated: • Document title • Table 2. Timers and break input availability in STM32 devices • Table 3. Comparator peripherals availability per STM32 device"
+      ],
+      [
+        "20-Feb-2025",
+        "8",
+        "Added STM32U3 series."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN4277",
+      "table_id": "table_10",
+      "is_continued": false,
+      "pages": [
+        21
+      ],
+      "rows_count": 8,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  }
+]

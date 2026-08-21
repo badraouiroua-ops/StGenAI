@@ -1,0 +1,47 @@
+{
+  "pdf_name": "AN5225",
+  "family": "41",
+  "pdf_type": 2,
+  "doc_ref": null,
+  "revision": null,
+  "date": null,
+  "title": "Introduction to USB Type-C® Power Delivery for STM32 MCUs and MPUs Introduction This application note is a guideline for using USB Type-C® Power Delivery with STM32 MCUs and MPUs in conjunction with the",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "page": 1,
+  "core": "Cortex-M",
+  "fpu": false,
+  "max_frequency_mhz": null,
+  "flash_kb": null,
+  "ram_kb": null,
+  "voltage_min_v": 5.0,
+  "voltage_max_v": 20.0,
+  "operating_temp_c": [],
+  "packages": [
+    "LQFP64"
+  ],
+  "device_summary": null,
+  "extraction_meta": {
+    "source_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "extraction_method": "regex_type2",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "medium",
+    "missing_fields": [
+      "max_frequency_mhz",
+      "flash_kb",
+      "ram_kb",
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

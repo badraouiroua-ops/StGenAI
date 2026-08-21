@@ -1,0 +1,61 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. ADC peripheral information",
+  "page": 8,
+  "section": "3.2.2 Digital-to-analog converter DAC",
+  "pdf_type": 2,
+  "extraction_method": "pdfplumber",
+  "bbox": [
+    99.21261,
+    468.13642,
+    552.75594,
+    529.075
+  ],
+  "page_width": 595.27563,
+  "page_height": 841.88977,
+  "settings": {
+    "vertical_strategy": "lines",
+    "horizontal_strategy": "lines",
+    "snap_tolerance": 5,
+    "join_tolerance": 5,
+    "edge_min_length": 5,
+    "min_words_vertical": 3,
+    "min_words_horizontal": 1,
+    "intersection_tolerance": 5,
+    "text_tolerance": 5
+  },
+  "caption_y": 461.55891999999994,
+  "caption_y_ratio": 0.548,
+  "caption_near_bottom": false,
+  "n_non_empty_raw": 2,
+  "should_try_next": false,
+  "raw_table": [
+    [
+      "Peripheral\nrequest to\nLPDMA",
+      "Peripheral\nbus",
+      "Peripheral\nFIFO\n(unit, size)",
+      "Peripheral\nregister\naccess",
+      "Comments"
+    ],
+    [
+      "adcx_dma\n(x = 1, 2, 3)",
+      "AHB2",
+      "8-word FIFO",
+      "Read\nADC_DR",
+      "The ADC1/2/3 data register (ADC_DR) must be read with\na 32‑bit aligned address, whatever the data width."
+    ]
+  ],
+  "warnings": [
+    "dynamic_header_depth:2",
+    "few_data_rows:0",
+    "high_empty_ratio:1.00"
+  ],
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "nxt_attempt": null,
+  "page_text_first_1000": "AN6457\nExhaustive peripherals, memories, and LPDMA configuration\n3.1.2 Memory-to-memory transfers\nMemory can be also used for memory-to-memory transfers to offload the CPU. Then, the recommended 32-bit\ndata width for source and destination should be used for the best performance, since the system bus and the\nSRAMs natively support transfers of 32-bit words.\nIt can be noted that a GPIO is accessed in memory-to-memory mode: it must be initiated by a software request,\nthere is no DMA hardware request driven by any GPIO.\nThe lowest priority (priority 0) is recommended as default for a channel with memory-to-memory transfers in order\nto:\n• Get a best-effort traffic for this type of transfer.\n• Allow more bandwidth and lower latency to peripherals in DMA mode with a higher priority 1 or 2 via the\nhigher weighted round-robin arbitration.\n• be systematically preempted by the time-sensitive peripherals in DMA mode with the highest priority 3 via\nthe fixed-priority arbitration.\nSee Section 2.3 f",
+  "pdf_path": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN6457.pdf",
+  "pdf_name": "AN6457",
+  "family": "41"
+}

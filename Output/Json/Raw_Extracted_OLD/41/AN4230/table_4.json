@@ -1,0 +1,122 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. NIST SP800-90B certificates",
+  "pdf_name": "AN4230",
+  "family": "41",
+  "page": 20,
+  "merged_pages": [
+    20,
+    21
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4230.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4230.pdf#page=20",
+  "section": "5.1.3 NIST compliant RNG configuration",
+  "headers": [
+    "Product",
+    "B09-008PS yportne ecruos etacifitrec",
+    "NIST public use document"
+  ],
+  "rows": [
+    [
+      "STM32U575/585",
+      "#E11(1)",
+      "E11 public use(1)"
+    ],
+    [
+      "STM32U5Fx/5Gx",
+      "#E116(1)",
+      "E116 public(1)"
+    ],
+    [
+      "STM32U59x/5Ax",
+      "#E135(1)",
+      "E135 public(1)"
+    ],
+    [
+      "STM32U535x/545x",
+      "#E158",
+      "E158 public(1)"
+    ],
+    [
+      "STM32H56x/573",
+      "#E163(1)",
+      "E163 public(1)"
+    ],
+    [
+      "STM32MP13x",
+      "#E53(1)",
+      "E53 public use(1)"
+    ],
+    [
+      "STM32WBA5x",
+      "#E186(1)",
+      "E186 public(1)"
+    ],
+    [
+      "STM32U073x/83x",
+      "#E262(1)",
+      "E262 public(1)"
+    ],
+    [
+      "STM32H7Rx/7Sx",
+      "#E255(1)",
+      "E255 public(1)"
+    ],
+    [
+      "STM32H523/533",
+      "#E283(1)",
+      "E283 prblic(1)"
+    ],
+    [
+      "STM32MP25x",
+      "#228(1)",
+      "E228 public(1)"
+    ],
+    [
+      "STM32WBA6x",
+      "#299(1)",
+      "E299 public(1)"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.775,
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 3,
+      "cont_cols_raw": 3,
+      "target_cols": 3,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. A special device must be used to execute the NIST test suite, except for the STM32L4P/Q, STM32H7A3/7B3, and STM32H72x/73x."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN4230",
+    "table_id": "table_4",
+    "is_continued": true,
+    "pages": [
+      20,
+      21
+    ],
+    "rows_count": 12,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "table_id": "table_10",
+  "caption": "Table 10. Use cases for STM32MP135 MPU",
+  "page": 22,
+  "section": "6.3.1.1 Use case about cpuburn",
+  "pdf_type": 2,
+  "extraction_method": "pdfplumber",
+  "bbox": [
+    99.21261000000004,
+    187.90262999999993,
+    552.755915357143,
+    274.31051
+  ],
+  "page_width": 595.27563,
+  "page_height": 841.88977,
+  "settings": {
+    "vertical_strategy": "lines",
+    "horizontal_strategy": "lines",
+    "snap_tolerance": 5,
+    "join_tolerance": 5,
+    "edge_min_length": 5,
+    "min_words_vertical": 3,
+    "min_words_horizontal": 1,
+    "intersection_tolerance": 5,
+    "text_tolerance": 5
+  },
+  "caption_y": 181.32511999999997,
+  "caption_y_ratio": 0.215,
+  "caption_near_bottom": false,
+  "n_non_empty_raw": 3,
+  "should_try_next": false,
+  "raw_table": [
+    [
+      "Name",
+      "Description",
+      "CPU load",
+      "DDR load"
+    ],
+    [
+      "cpuburn",
+      "-",
+      "100%",
+      "R = 3 Mbyte/s, W = 0\nMbyte/s, R&W = 4 Mbyte/s"
+    ],
+    [
+      "dd",
+      "Idle (weston launcher,\nnetdata) + dual eth + USB\nhard drive + dd on hard drive\n(ETH cables unplugged)",
+      null,
+      "R = 129 Mbyte/s,\nW = 40 Mbyte/s,\nR&W = 169 Mbyte/s"
+    ]
+  ],
+  "warnings": [],
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "nxt_attempt": null,
+  "page_text_first_1000": "AN5036\nThermal analysis examples\n6.3 Internal validation board with STM32MP135 MPU\nThis thermal analysis has been done on an internal validation board with an STM32MP135 device without casing.\nThis analysis is based on the use cases detailed in the table below. They correspond to CPU frequencies of\n900 MHz and 1 GHz:\nTable 10. Use cases for STM32MP135 MPU\nName Description CPU load DDR load\nR = 3 Mbyte/s, W = 0\ncpuburn -\nMbyte/s, R&W = 4 Mbyte/s\nIdle (weston launcher, 100%\nR = 129 Mbyte/s,\nnetdata) + dual eth + USB\ndd W = 40 Mbyte/s,\nhard drive + dd on hard drive\nR&W = 169 Mbyte/s\n(ETH cables unplugged)\n6.3.1 STM32MP135 power dissipation\n6.3.1.1 Use case about cpuburn\nAs stated in Section 3, the dissipated power varies with T . The power consumption in this example is measured\nJ\nfor different T values (see the following tables and figure).\nJ\nTable 11. STM32MP135 power dissipation versus T at 900 MHz (cpuburn)\nJ\nTJ (°C) STM32MP135 power dissipation (mW) at 900 MHz\n20.00 711.44\n31.00 721.",
+  "pdf_path": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN5036.pdf",
+  "pdf_name": "AN5036",
+  "family": "41"
+}

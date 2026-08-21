@@ -1,0 +1,94 @@
+{
+  "table_id": "table_12",
+  "caption": "Table 12. STM32MP135 power dissipation versus T at 1 GHz (cpuburn) 23 J",
+  "pdf_name": "AN5036",
+  "family": "41",
+  "page": 23,
+  "merged_pages": [
+    23
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=23",
+  "section": "6.3.1.1 Use case about cpuburn",
+  "headers": [
+    "TJ (°C)",
+    "STM32MP135 power dissipation (mW) at 1 GHz"
+  ],
+  "rows": [
+    [
+      "21.60",
+      "795.45"
+    ],
+    [
+      "32.00",
+      "800.12"
+    ],
+    [
+      "37.00",
+      "806.26"
+    ],
+    [
+      "44.00",
+      "825.79"
+    ],
+    [
+      "49.00",
+      "833.00"
+    ],
+    [
+      "56.00",
+      "841.39"
+    ],
+    [
+      "61.00",
+      "861.53"
+    ],
+    [
+      "68.00",
+      "890.82"
+    ],
+    [
+      "76.00",
+      "912.60"
+    ],
+    [
+      "83.00",
+      "936.60"
+    ],
+    [
+      "89.00",
+      "967.97"
+    ],
+    [
+      "100.00",
+      "1014.80"
+    ],
+    [
+      "110.00",
+      "1061.20"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5036",
+    "table_id": "table_12",
+    "is_continued": false,
+    "pages": [
+      23
+    ],
+    "rows_count": 13,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

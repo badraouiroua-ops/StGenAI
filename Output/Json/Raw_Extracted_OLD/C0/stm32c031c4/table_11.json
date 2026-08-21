@@ -1,0 +1,116 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. Terms and symbols used in the pin assignment table",
+  "pdf_name": "stm32c031c4",
+  "family": "C0",
+  "page": 31,
+  "merged_pages": [
+    31
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=31",
+  "section": "4 Pinouts, pin description and alternate functions",
+  "headers": [
+    "Column",
+    "Column",
+    "Symbol",
+    "Definition"
+  ],
+  "rows": [
+    [
+      "Pin name",
+      "Pin name",
+      "Terminal name corresponds to its by-default function at reset, unless otherwise specified in parenthesis under the pin name.",
+      "Terminal name corresponds to its by-default function at reset, unless otherwise specified in parenthesis under the pin name."
+    ],
+    [
+      "Pin type",
+      "Pin type",
+      "S",
+      "Supply pin"
+    ],
+    [
+      "Pin type",
+      "Pin type",
+      "I",
+      "Input only pin"
+    ],
+    [
+      "Pin type",
+      "Pin type",
+      "I/O",
+      "Input / output pin"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "FT",
+      "5 V tolerant I/O"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "RST",
+      "Reset pin with embedded weak pull-up resistor"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "Options for FT I/Os",
+      "Options for FT I/Os"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_f",
+      "I/O, Fm+ capable"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_a",
+      "I/O, with analog switch function"
+    ],
+    [
+      "Note",
+      "Note",
+      "Upon reset, all I/Os are set as analog inputs, unless otherwise specified.",
+      "Upon reset, all I/Os are set as analog inputs, unless otherwise specified."
+    ],
+    [
+      "Pin functions",
+      "Alternate functions",
+      "Functions selected through GPIOx_AFR registers",
+      "Functions selected through GPIOx_AFR registers"
+    ],
+    [
+      "Pin functions",
+      "Additional functions",
+      "Functions directly selected/enabled through peripheral registers",
+      "Functions directly selected/enabled through peripheral registers"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c031c4",
+    "table_id": "table_11",
+    "is_continued": false,
+    "pages": [
+      31
+    ],
+    "rows_count": 12,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

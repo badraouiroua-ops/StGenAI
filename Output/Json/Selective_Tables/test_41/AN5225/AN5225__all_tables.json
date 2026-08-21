@@ -1,0 +1,1623 @@
+[
+  {
+    "document": "AN5225 - Table 1. STMicroelectronics ecosystem documents",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_1",
+    "table_number": "1",
+    "title": "Table 1. STMicroelectronics ecosystem documents",
+    "page": 3,
+    "section": "1.2 Reference documents",
+    "section_title": "Reference documents",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=3",
+    "text_helper": "Table 1. STMicroelectronics ecosystem documents — section 1.2 Reference documents. Reference, Document title.",
+    "table_content": {
+      "headers": [
+        "Reference",
+        "Document title"
+      ],
+      "rows": [
+        [
+          "STMicroelectronics ecosystem documents",
+          "STMicroelectronics ecosystem documents"
+        ],
+        [
+          "[1]",
+          "Managing USB Power Delivery systems with STM32 microcontrollers, UM2552"
+        ],
+        [
+          "[2]",
+          "STM32CubeMonitor-UCPD software tool for USB Type-C® Power Delivery port management, UM2468"
+        ],
+        [
+          "[3]",
+          "TCPP01-M12 USB Type-C® port protection, DS12900"
+        ],
+        [
+          "[4]",
+          "TCPP02-M18 USB Type-C® port protection, DS13787"
+        ],
+        [
+          "[5]",
+          "TCPP03-M20 USB Type-C® port protection, DS13618"
+        ],
+        [
+          "[6]",
+          "USB Type-C® protection and filtering, AN4871"
+        ],
+        [
+          "[7]",
+          "STM32CubeMonitor-UCPD software tool for USB Type-C® Power Delivery port management, DB3747"
+        ],
+        [
+          "[8]",
+          "USB Type-C® and Power Delivery DisplayPort Alternate Mode, TA0356"
+        ],
+        [
+          "[9]",
+          "Overview of USB Type-C® and Power Delivery technologies, TA0357"
+        ],
+        [
+          "[10]",
+          "STM32MP151/153/157 MPU lines and STPMIC1B integration on a battery powered application, AN5260"
+        ],
+        [
+          "[11]",
+          "USB hardware and PCB guidelines using STM32 MCUs, AN4879"
+        ],
+        [
+          "[12]",
+          "Getting started with the X-NUCLEO-DRP1M1 USB Type-C® Power Delivery dual role port expansion board based on TCPP03-M20 for STM32 Nucleo, UM2891"
+        ],
+        [
+          "[13]",
+          "Getting started with the X-NUCLEO-SRC1M1 USB Type-C® Power Delivery source expansion board based on TCPP02-M18 for STM32 Nucleo, UM2973"
+        ],
+        [
+          "[14]",
+          "STM32 USB Power Delivery landing page https://www.st.com/content/st_com/en/ecosystems/stm32- usb-c.html"
+        ],
+        [
+          "[15]",
+          "STM32 USB Power Delivery wiki page https://wiki.st.com/stm32mcu/wiki/ Introduction_to_USB_Power_Delivery_with_STM32"
+        ],
+        [
+          "USB specification documents",
+          "USB specification documents"
+        ],
+        [
+          "[16]",
+          "USB2.0 Universal Serial Bus Revision 2.0 Specification"
+        ],
+        [
+          "[17]",
+          "USB3.1 Universal Serial Bus Revision 3.2 Specification"
+        ],
+        [
+          "[18]",
+          "USB BC Battery Charging Specification Revision 1.2"
+        ],
+        [
+          "[19]",
+          "USB BB USB Device Class Definition for Billboard Devices"
+        ],
+        [
+          "[20]",
+          "Universal Serial Bus Power Delivery Specification, Revision 2.0, Version 1.3, January 12, 2017"
+        ],
+        [
+          "[21]",
+          "Universal Serial Bus Power Delivery Specification, Revision 3.1, Version 1.7, January 2023"
+        ],
+        [
+          "[22]",
+          "Universal Serial Bus Type-C Cable and Connector Specification 2.0, August 2019"
+        ],
+        [
+          "[23]",
+          "USB Billboard Device Class Specification, Revision 1.0, August 11, 2014, http://www.usb.org/developers/ docs"
+        ],
+        [
+          "[24]",
+          "USB Type-C® Connector System Software Interface Specification, requirements specification (UCSI), January 2020, revision 1.2"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 2. USB Type-C receptacle pin descriptions",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_2",
+    "table_number": "2",
+    "title": "Table 2. USB Type-C receptacle pin descriptions",
+    "page": 6,
+    "section": "3 Connector pin mapping",
+    "section_title": "Connector pin mapping",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=6",
+    "text_helper": "Table 2. USB Type-C receptacle pin descriptions — section 3 Connector pin mapping. Pin, Name, Description, Comment.",
+    "table_content": {
+      "headers": [
+        "Pin",
+        "Name",
+        "Description",
+        "Comment"
+      ],
+      "rows": [
+        [
+          "A1",
+          "GND",
+          "Ground return",
+          "up to 5 A split into 4 pins"
+        ],
+        [
+          "A2",
+          "TX1+",
+          "USB3.0 datalines or alternate",
+          "10 Gbit/s TX differential pair in USB3.1"
+        ],
+        [
+          "A3",
+          "TX1-",
+          "USB3.0 datalines or alternate",
+          "10 Gbit/s TX differential pair in USB3.1"
+        ],
+        [
+          "A4",
+          "VBUS",
+          "Bus power",
+          "100 W max power split into 4 pins"
+        ],
+        [
+          "A5",
+          "CC1 or VCONN",
+          "Configuration channel or power for active or electronically marked cable",
+          "In VCONN configuration, min power is 1 W"
+        ],
+        [
+          "A6",
+          "D+",
+          "USB2.0 data lines",
+          "-"
+        ],
+        [
+          "A7",
+          "D-",
+          "USB2.0 data lines",
+          "-"
+        ],
+        [
+          "A8",
+          "SBU1",
+          "Side band use",
+          "Alternate mode only"
+        ],
+        [
+          "A9",
+          "VBUS",
+          "Bus power",
+          "100 W max power split into 4 pins"
+        ],
+        [
+          "A10",
+          "RX2-",
+          "USB3.0 datalines or alternate",
+          "10 Gbit/s RX differential pair USB3.1"
+        ],
+        [
+          "A11",
+          "RX2+",
+          "USB3.0 datalines or alternate",
+          "10 Gbit/s RX differential pair USB3.1"
+        ],
+        [
+          "A12",
+          "GND",
+          "Ground return",
+          "up to 5 A split into 4 pins"
+        ],
+        [
+          "B1",
+          "GND",
+          "Ground return",
+          "up to 5 A split into 4 pins"
+        ],
+        [
+          "B2",
+          "TX2+",
+          "USB3.0 datalines or alternate",
+          "10 Gbit/s TX differential pair in USB3.1"
+        ],
+        [
+          "B3",
+          "TX2-",
+          "USB3.0 datalines or alternate",
+          "10 Gbit/s TX differential pair in USB3.1"
+        ],
+        [
+          "B4",
+          "VBUS",
+          "Bus power",
+          "100 W max power split into 4 pins"
+        ],
+        [
+          "B5",
+          "CC2 or VCONN",
+          "Configuration channel or power for active or electronically marked cable",
+          "In VCONN configuration, min power is 1 W"
+        ],
+        [
+          "B6",
+          "D+",
+          "USB2.0 datalines",
+          "-"
+        ],
+        [
+          "B7",
+          "D-",
+          "D-",
+          "-"
+        ],
+        [
+          "B8",
+          "SBU2",
+          "Side band use",
+          "Alternate mode only"
+        ],
+        [
+          "B9",
+          "VBUS",
+          "Bus power",
+          "100 W ma power split into 4 pins"
+        ],
+        [
+          "B10",
+          "RX1-",
+          "USB3.0 datalines or alternate",
+          "10 Gbit/s RX differential pair in USB3.1"
+        ],
+        [
+          "B11",
+          "RX1+",
+          "RX1+",
+          "RX1+"
+        ],
+        [
+          "B12",
+          "GND",
+          "Ground return",
+          "Up to 5 A split into 4 pins"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 3. Power supply options",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_3",
+    "table_number": "3",
+    "title": "Table 3. Power supply options",
+    "page": 7,
+    "section": "3.1 VBUS power options",
+    "section_title": "VBUS power options",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=7",
+    "text_helper": "Table 3. Power supply options — section 3.1 VBUS power options. Mode of operation, Nominal voltage, Maximum current, Note.",
+    "table_content": {
+      "headers": [
+        "Mode of operation",
+        "Nominal voltage",
+        "Maximum current",
+        "Note"
+      ],
+      "rows": [
+        [
+          "USB2.0",
+          "5 V",
+          "Am 005",
+          "Default current based on specification"
+        ],
+        [
+          "USB3.1",
+          "5 V",
+          "900 mA",
+          "Default current based on specification"
+        ],
+        [
+          "USB BC1.2",
+          "5 V",
+          "1.5 A",
+          "Legacy charging"
+        ],
+        [
+          "Current @1.5 A",
+          "5 V",
+          "1.5 A",
+          "Support high-power devices"
+        ],
+        [
+          "Current @3 A",
+          "5 V",
+          "3 A",
+          "Support high-power devices"
+        ],
+        [
+          "USB PD",
+          "5 V to 20 V",
+          "5 A",
+          "Directional control and power level management"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 4. Attached device states - source perspective",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_4",
+    "table_number": "4",
+    "title": "Table 4. Attached device states - source perspective",
+    "page": 8,
+    "section": "4 CC pins",
+    "section_title": "CC pins",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=8",
+    "text_helper": "Table 4. Attached device states - source perspective — section 4 CC pins. CC1, CC2, State.",
+    "table_content": {
+      "headers": [
+        "CC1",
+        "CC2",
+        "State"
+      ],
+      "rows": [
+        [
+          "Open",
+          "Open",
+          "Nothing attached"
+        ],
+        [
+          "Rd",
+          "Open",
+          "Sink attached"
+        ],
+        [
+          "Open",
+          "Rd",
+          "Sink attached"
+        ],
+        [
+          "Open",
+          "Ra",
+          "Powered cable without sink attached"
+        ],
+        [
+          "Ra",
+          "Open",
+          "Powered cable without sink attached"
+        ],
+        [
+          "Rd",
+          "Ra",
+          "Powered cable with sink, VCONN- powered accessory (VPA), or VCONN- powered USB device (VPD) attached."
+        ],
+        [
+          "Ra",
+          "Rd",
+          "Powered cable with sink, VCONN- powered accessory (VPA), or VCONN- powered USB device (VPD) attached."
+        ],
+        [
+          "Rd",
+          "Rd",
+          "Debug accessory mode attached"
+        ],
+        [
+          "Ra",
+          "Ra",
+          "Audio adapter accessory mode attached"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 5. DFP CC termination (Rp) requirements",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_5",
+    "table_number": "5",
+    "title": "Table 5. DFP CC termination (Rp) requirements",
+    "page": 10,
+    "section": "4.2 Power capability detection and usage",
+    "section_title": "Power capability detection and usage",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=10",
+    "text_helper": "Table 5. DFP CC termination (Rp) requirements — section 4.2 Power capability detection and usage. VBUS power / Default USB power, Current source to 1.7 V - 5.5 V / 80 mA ± 20%, Rp pull up to 4.75 V - 5.5 V / 56 kΩ ± 20% (1), Rp pull up to 3.3 V +/-5% / 36 kΩ ± 20%. (table vide)",
+    "table_content": {
+      "headers": [
+        "VBUS power / Default USB power",
+        "Current source to 1.7 V - 5.5 V / 80 mA ± 20%",
+        "Rp pull up to 4.75 V - 5.5 V / 56 kΩ ± 20% (1)",
+        "Rp pull up to 3.3 V +/-5% / 36 kΩ ± 20%"
+      ],
+      "rows": [],
+      "notes": [
+        "1. For Rp when implemented in the USB Type-C plug on a USB Type-C to USB 3.1 Standard-A Cable Assembly, a USB Type- C to USB 2.0 Standard-A Cable Assembly, a USB Type-C to USB 2.0 Micro-B Receptacle Adapter Assembly or a USB"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 6. UFP CC termination (Rd) requirements",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_6",
+    "table_number": "6",
+    "title": "Table 6. UFP CC termination (Rd) requirements",
+    "page": 10,
+    "section": "4.2 Power capability detection and usage",
+    "section_title": "Power capability detection and usage",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=10",
+    "text_helper": "Table 6. UFP CC termination (Rd) requirements — section 4.2 Power capability detection and usage. Rd implementation, Nominal value, Can detect power capability?, max voltage on CC pin.",
+    "table_content": {
+      "headers": [
+        "Rd implementation",
+        "Nominal value",
+        "Can detect power capability?",
+        "max voltage on CC pin"
+      ],
+      "rows": [
+        [
+          "± 20% voltage clamp",
+          "1.1 V",
+          "No",
+          "1.32 V"
+        ],
+        [
+          "± 20% resistor to GND",
+          "5.1 kΩ",
+          "No",
+          "2.18 V"
+        ],
+        [
+          "± 10% resistor to GND",
+          "5.1 kΩ",
+          "Yes",
+          "2.04 V"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 7. Voltage on sink CC pins (multiple source current advertisements)",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_7",
+    "table_number": "7",
+    "title": "Table 7. Voltage on sink CC pins (multiple source current advertisements)",
+    "page": 10,
+    "section": "4.2 Power capability detection and usage",
+    "section_title": "Power capability detection and usage",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=10",
+    "text_helper": "Table 7. Voltage on sink CC pins (multiple source current advertisements) — section 4.2 Power capability detection and usage. Detection, Min voltage (V), Max voltage (V), Threshold (V).",
+    "table_content": {
+      "headers": [
+        "Detection",
+        "Min voltage (V)",
+        "Max voltage (V)",
+        "Threshold (V)"
+      ],
+      "rows": [
+        [
+          "vRa",
+          "-0.25",
+          "0.15",
+          "0.2"
+        ],
+        [
+          "vRd-Connect",
+          "0.25",
+          "2.04",
+          "-"
+        ],
+        [
+          "vRd-USB",
+          "0.25",
+          "0.61",
+          "0.66"
+        ],
+        [
+          "vRd-1.5",
+          "0.70",
+          "1.16",
+          "1.23"
+        ],
+        [
+          "vRd-3.0",
+          "1.31",
+          "2.04",
+          "-"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 8. Fixed and programmable power supply current and cabling requirements",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_8",
+    "table_number": "8",
+    "title": "Table 8. Fixed and programmable power supply current and cabling requirements",
+    "page": 11,
+    "section": "5 Power profiles",
+    "section_title": "Power profiles",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=11",
+    "text_helper": "Table 8. Fixed and programmable power supply current and cabling requirements — section 5 Power profiles. Power range, Fixed voltage source / 5 V, Fixed voltage source / 9 V, Fixed voltage source / 15 V, Fixed voltage source / 20 V, +4 autres.",
+    "table_content": {
+      "headers": [
+        "Power range",
+        "Fixed voltage source / 5 V",
+        "Fixed voltage source / 9 V",
+        "Fixed voltage source / 15 V",
+        "Fixed voltage source / 20 V",
+        "Programmable power supply (PPS) / 5 V (3.3 to 5.9 V)",
+        "Programmable power supply (PPS) / 9 V (3.3 to 11 V)",
+        "Programmable power supply (PPS) / 15 V (3.3 to 16 V)",
+        "Programmable power supply (PPS) / 20 V (3.3 to 21 V)"
+      ],
+      "rows": [
+        [
+          "With 3 A cable",
+          "With 3 A cable",
+          "With 3 A cable",
+          "With 3 A cable",
+          "With 3 A cable",
+          "With 3 A cable",
+          "With 3 A cable",
+          "With 3 A cable",
+          "With 3 A cable"
+        ],
+        [
+          "0 W < PDP <= 15 W",
+          "PDP / 5",
+          "-",
+          "-",
+          "-",
+          "PDP / 5",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "15 W < PDP <= 27 W",
+          "3.0 A",
+          "PDP / 9",
+          "-",
+          "-",
+          "3.0 A",
+          "PDP / 9",
+          "-",
+          "-"
+        ],
+        [
+          "27 W < PDP <= 45 W",
+          "3.0 A",
+          "3.0 A",
+          "PDP / 15",
+          "-",
+          "3.0 A",
+          "3.0 A",
+          "PDP / 15",
+          "-"
+        ],
+        [
+          "45 W < PDP <= 60 W",
+          "3.0 A",
+          "3.0 A",
+          "3.0 A",
+          "PDP / 20",
+          "3.0 A",
+          "3.0 A",
+          "3.0 A",
+          "PDP / 20"
+        ],
+        [
+          "With 5 A cable",
+          "With 5 A cable",
+          "With 5 A cable",
+          "With 5 A cable",
+          "With 5 A cable",
+          "With 5 A cable",
+          "With 5 A cable",
+          "With 5 A cable",
+          "With 5 A cable"
+        ],
+        [
+          "60 W < PDP <= 100 W",
+          "3.0 A",
+          "3.0 A",
+          "3.0 A",
+          "PDP / 20",
+          "3.0 A",
+          "3.0 A",
+          "3.0 A",
+          "PDP / 20"
+        ]
+      ],
+      "notes": [],
+      "legend": [
+        "the cable current rating."
+      ],
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 9. USB Type-C sink behavior on CC lines",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_9",
+    "table_number": "9",
+    "title": "Table 9. USB Type-C sink behavior on CC lines",
+    "page": 25,
+    "section": "11.3 Hardware overview",
+    "section_title": "Hardware overview",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=25",
+    "text_helper": "Table 9. USB Type-C sink behavior on CC lines — section 11.3 Hardware overview. State, Pull-down function on CC lines / Sink without Dead battery support, Pull-down function on CC lines / Sink with Dead battery support.",
+    "table_content": {
+      "headers": [
+        "State",
+        "Pull-down function on CC lines / Sink without Dead battery support",
+        "Pull-down function on CC lines / Sink with Dead battery support"
+      ],
+      "rows": [
+        [
+          "Unpowered",
+          "None",
+          "5.1 kΩ resistor or a voltage clamp (DB)"
+        ],
+        [
+          "Powered",
+          "5.1 kΩ",
+          "5.1 kΩ resistor"
+        ]
+      ],
+      "notes": [],
+      "legend": [
+        "voltage clamp, as shown in the following table. Thanks to this, the USB Type-C source attached to the sink can",
+        "detect that the sink is unpowered (which corresponds to dead battery for battery-powered application). The USB",
+        "Type-C source (for example a battery charger) can then supply power through the VBUS line."
+      ],
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 10. Non-protected sink - sequence of exiting Dead battery mode",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_10",
+    "table_number": "10",
+    "title": "Table 10. Non-protected sink - sequence of exiting Dead battery mode",
+    "page": 26,
+    "section": "11.3 Hardware overview",
+    "section_title": "Hardware overview",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=26",
+    "text_helper": "Table 10. Non-protected sink - sequence of exiting Dead battery mode — section 11.3 Hardware overview. Sequence, VBUS, VDD, Rd value, Comment.",
+    "table_content": {
+      "headers": [
+        "Sequence",
+        "VBUS",
+        "VDD",
+        "Rd value",
+        "Comment"
+      ],
+      "rows": [
+        [
+          "Step 0",
+          "0 V",
+          "0 V",
+          "DB",
+          "-"
+        ],
+        [
+          "Step 1",
+          "5 V",
+          "0 V",
+          "DB",
+          "VBUS arrives"
+        ],
+        [
+          "Step 2",
+          "5 V",
+          "3.3 V",
+          "default Rd",
+          "device supply arrives"
+        ],
+        [
+          "Step 3",
+          "5 V",
+          "3.3 V",
+          "as selected by SW",
+          "upon write to ANAMODE"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 11. Protected sink application - sequence of exiting Dead battery mode",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_11",
+    "table_number": "11",
+    "title": "Table 11. Protected sink application - sequence of exiting Dead battery mode",
+    "page": 28,
+    "section": "11.3 Hardware overview",
+    "section_title": "Hardware overview",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=28",
+    "text_helper": "Table 11. Protected sink application - sequence of exiting Dead battery mode — section 11.3 Hardware overview. Sequence, VBUS, VDD, Protection circuit state, Device CC pins/Rd value, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Sequence",
+        "VBUS",
+        "VDD",
+        "Protection circuit state",
+        "Device CC pins/Rd value",
+        "Comment"
+      ],
+      "rows": [
+        [
+          "Step 0",
+          "0 V",
+          "0 V",
+          "active",
+          "isolated/DB",
+          "-"
+        ],
+        [
+          "Step 1",
+          "5 V",
+          "0 V",
+          "bypass",
+          "connected/DB",
+          "VBUS arrives"
+        ],
+        [
+          "Step 2",
+          "5 V",
+          "3.3 V",
+          "bypass",
+          "connected/ default Rd",
+          "device supply arrives"
+        ],
+        [
+          "Step 3",
+          "5 V",
+          "3.3 V",
+          "bypass",
+          "connected / as selected by SW",
+          "upon write to ANAMODE"
+        ],
+        [
+          "Step 4",
+          "5 V",
+          "3.3 V",
+          "bypass, low power",
+          "connected / as selected by SW",
+          "upon I2C write to protection circuit"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 12. Summary of principal Type-C application topologies",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_12",
+    "table_number": "12",
+    "title": "Table 12. Summary of principal Type-C application topologies",
+    "page": 30,
+    "section": "11.3 Hardware overview",
+    "section_title": "Hardware overview",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=30",
+    "text_helper": "Table 12. Summary of principal Type-C application topologies — section 11.3 Hardware overview. Application / Protected(1), Application / Dead battery compliant, Application / Sink/source, DBCCx / Shorted with CCx, DBCCx / Reusable, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Application / Protected(1)",
+        "Application / Dead battery compliant",
+        "Application / Sink/source",
+        "DBCCx / Shorted with CCx",
+        "DBCCx / Reusable",
+        "Note"
+      ],
+      "rows": [
+        [
+          "No",
+          "Yes",
+          "Sink",
+          "Yes",
+          "No",
+          "-"
+        ],
+        [
+          "No",
+          "No",
+          "Sink",
+          "No",
+          "Yes",
+          "Application must ensure low level on DBCCx when the device is unpowered."
+        ],
+        [
+          "Yes",
+          "Yes",
+          "Sink",
+          "Yes",
+          "No",
+          "Protection circuit deactivated when supplied"
+        ],
+        [
+          "Yes",
+          "No",
+          "Sink",
+          "No",
+          "Yes",
+          "Protection circuit deactivated when supplied: the application must ensure low level on DBCCx when the device is unpowered."
+        ],
+        [
+          "Yes",
+          "No",
+          "Sink",
+          "No",
+          "Yes",
+          "Protection circuit deactivated by software: the default Rd is never exposed to Type-C source."
+        ],
+        [
+          "No",
+          "Not applicable",
+          "Source",
+          "No",
+          "Yes",
+          "Rp exposed on CCx when the device is powered. The application must ensure low level on DBCCx when the device is unpowered."
+        ]
+      ],
+      "notes": [
+        "1. Pertains to CCx line"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 13. Sink features",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_13",
+    "table_number": "13",
+    "title": "Table 13. Sink features",
+    "page": 31,
+    "section": "11.3.2 Sink port",
+    "section_title": "Sink port",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=31",
+    "text_helper": "Table 13. Sink features — section 11.3.2 Sink port. Feature, STM32 peripherals involved, number of STM32 pins, External components or devices, Comments, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "STM32 peripherals involved",
+        "number of STM32 pins",
+        "External components or devices",
+        "Comments",
+        "Signal name"
+      ],
+      "rows": [
+        [
+          "Communication channels CC1 and CC2",
+          "UCPD: CC1, CC2",
+          "2",
+          "-",
+          "Mandatory. Able to handle Rd and Rp",
+          "CC1, CC2"
+        ],
+        [
+          "Dead battery",
+          "UCPD: DBCC1, DBCC2",
+          "2",
+          "-",
+          "Handles Rd",
+          "DBCC1, DBCC2"
+        ],
+        [
+          "VBUS level, vSafe5V, measurement",
+          "ADC",
+          "1",
+          "Resistor divider bridge with or without op-amp for safety purpose",
+          "Mandatory only for OVP protection purpose",
+          "V_SENSE"
+        ],
+        [
+          "Sink power from VBUS",
+          "-",
+          "-",
+          "DC/DC from VBUS to 3.3 V (VDD)",
+          "Optional, LDO, DC/DC, SMPS",
+          "-"
+        ],
+        [
+          "Extra Power switch",
+          "GPIO",
+          "1",
+          "Power switch",
+          "Optional, MOSFET or power switch can be use",
+          "SNK_EN"
+        ],
+        [
+          "CC1 and CC2",
+          "-",
+          "-",
+          "See Section 14 Recommendations",
+          "Optional",
+          "CC1 and CC2 on Type-C side"
+        ],
+        [
+          "VBus",
+          "-",
+          "-",
+          "See Section 14 Recommendations",
+          "Optional",
+          "VBUS on Type-C side"
+        ],
+        [
+          "Message repetition",
+          "TIM",
+          "-",
+          "-",
+          "Used to drive timing repetition 1200 µs et 900 µs",
+          "See UM2552 for details"
+        ],
+        [
+          "Message transmissions",
+          "DMA",
+          "-",
+          "-",
+          "For TX et RX transfer",
+          "See UM2552 for details"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 14. Source features",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_14",
+    "table_number": "14",
+    "title": "Table 14. Source features",
+    "page": 36,
+    "section": "11.3.3 Source port",
+    "section_title": "Source port",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=36",
+    "text_helper": "Table 14. Source features — section 11.3.3 Source port. Feature, STM32 Peripherals involved, Number of STM32 pins, External components or devices, Comments, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "STM32 Peripherals involved",
+        "Number of STM32 pins",
+        "External components or devices",
+        "Comments",
+        "Signal name"
+      ],
+      "rows": [
+        [
+          "CC1 and CC2 communication channels",
+          "UCPD: CC1, CC2",
+          "2",
+          "-",
+          "Mandatory",
+          "CC1 CC2"
+        ],
+        [
+          "Dead Battery support",
+          "UCPD: DBCC1, DBCC2",
+          "2",
+          "-",
+          "Mandatory",
+          "DBCC1 DBCC1"
+        ],
+        [
+          "VBUS level, vSafe0V, measurement",
+          "ADC",
+          "1",
+          "Resistor bridge with or without op- amp for safety purpose",
+          "Mandatory(1)",
+          "V_SENSE"
+        ],
+        [
+          "Power",
+          "Power",
+          "Power",
+          "Power",
+          "Power",
+          "Power"
+        ],
+        [
+          "Provide power from VBUS",
+          "GPIO",
+          "1",
+          "Power switch",
+          "Mandatory, Dual-MOSFET can be used",
+          "SRC_EN"
+        ],
+        [
+          "Discharge VBUS to vSafe0V",
+          "GPIO",
+          "1",
+          "MOSFET + charge resistors",
+          "Mandatory",
+          "SRC_DISCH"
+        ],
+        [
+          "ISense measurement",
+          "ADC",
+          "1",
+          "Op-amp + shunt resistors",
+          "Optional",
+          "I_SENSE"
+        ],
+        [
+          "CC1 and CC2",
+          "",
+          "",
+          "See Section 14 Recommendations",
+          "",
+          "CC1 and CC2 on Type-C side"
+        ],
+        [
+          "VBUS",
+          "-",
+          "-",
+          "See Section 14 Recommendations",
+          "-",
+          "VBUS on Type-C side"
+        ],
+        [
+          "Message repetition",
+          "TIM",
+          "-",
+          "-",
+          "Used to drive timing repetition 1200 µs et 900 µs",
+          "See [1] for details"
+        ],
+        [
+          "Message transmissions",
+          "DMA",
+          "-",
+          "-",
+          "For TX et RX transfer",
+          "See [1] for details"
+        ]
+      ],
+      "notes": [
+        "1. For certification purposes, vsafe0V must be checked."
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 15. Dual-role power port features",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_15",
+    "table_number": "15",
+    "title": "Table 15. Dual-role power port features",
+    "page": 40,
+    "section": "11.3.4 Dual-role power port",
+    "section_title": "Dual-role power port",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=40",
+    "text_helper": "Table 15. Dual-role power port features — section 11.3.4 Dual-role power port. Feature, STM32 Peripherals involved, Number of STM32 pins, External components or devices, Comments, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Feature",
+        "STM32 Peripherals involved",
+        "Number of STM32 pins",
+        "External components or devices",
+        "Comments",
+        "Signal name"
+      ],
+      "rows": [
+        [
+          "Protocol",
+          "Protocol",
+          "Protocol",
+          "Protocol",
+          "Protocol",
+          "Protocol"
+        ],
+        [
+          "CC1 and CC2 communication channels",
+          "UCPD: CC1, CC2",
+          "2",
+          "-",
+          "Mandatory Able to handle Rd & Rp",
+          "CC1 CC2"
+        ],
+        [
+          "Dead Battery",
+          "UCPD: DBCC1, DBCC2",
+          "2",
+          "-",
+          "Mandatory Wire to GND",
+          "DBCC1 DBCC1"
+        ],
+        [
+          "stnemerusaem , V5efaSv ,V0efaSv ,leveL SUBV",
+          "ADC",
+          "1",
+          "Resistor divider bridge with or without op-Amp for safety purpose",
+          "Mandatory for OVP protection purpose",
+          "V_SENSE"
+        ],
+        [
+          "Fast Role Swap",
+          "UCPD: FRSTX1, FRSTX2",
+          "2",
+          "MOS to drive CC lines to GND",
+          "Mandatory",
+          "FRSTX1 FRSTX2"
+        ],
+        [
+          "On Power level",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ],
+        [
+          "Provide power from VBUS",
+          "GPIO",
+          "1",
+          "Power switch",
+          "Mandatory, MOS can be use",
+          "SRC_EN"
+        ],
+        [
+          "Extra Power switch",
+          "GPIO",
+          "-",
+          "Power switch",
+          "Optional, MOS can be use",
+          "SNK_EN"
+        ],
+        [
+          "Discharge VBUS to vSafe0V",
+          "GPIO",
+          "1",
+          "MOS + charge Resistors",
+          "Mandatory",
+          "SRC_DISCH"
+        ],
+        [
+          "ISense measurement",
+          "ADC",
+          "1",
+          "OpAmp + shunt Resistors",
+          "Optional",
+          "I_SENSE"
+        ],
+        [
+          "Protection",
+          "Protection",
+          "Protection",
+          "Protection",
+          "Protection",
+          "Protection"
+        ],
+        [
+          "CC1 and CC2",
+          "-",
+          "-",
+          "See chapter xxx",
+          "Optional",
+          "CC1 and CC2 on Type-C side"
+        ],
+        [
+          "VBUS",
+          "-",
+          "-",
+          "See chapter xxx",
+          "Optional",
+          "VBUS on Type-C side"
+        ],
+        [
+          "Software",
+          "Software",
+          "Software",
+          "Software",
+          "Software",
+          "Software"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 16. STM32G0 resources",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_16",
+    "table_number": "16",
+    "title": "Table 16. STM32G0 resources",
+    "page": 57,
+    "section": "13.6 Dual-role power port",
+    "section_title": "Dual-role power port",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=57",
+    "text_helper": "Table 16. STM32G0 resources — section 13.6 Dual-role power port. Item, X-NUCLEO G0-1 Address: 0x68, X-NUCLEO G0-2 Address: 0x6A, STM32G0 IOs / UCPD1 left -, STM32G0 IOs / UCPD2 right, +1 autres.",
+    "table_content": {
+      "headers": [
+        "Item",
+        "X-NUCLEO G0-1 Address: 0x68",
+        "X-NUCLEO G0-2 Address: 0x6A",
+        "STM32G0 IOs / UCPD1 left -",
+        "STM32G0 IOs / UCPD2 right",
+        "Comment"
+      ],
+      "rows": [
+        [
+          "I2C1 SCL",
+          "CN10-3(1)",
+          "CN10-3(1)",
+          "PB8",
+          "PB8",
+          "-"
+        ],
+        [
+          "I2C1 SDA",
+          "CN10-5(1)",
+          "CN10-5(1)",
+          "PB9",
+          "PB9",
+          "-"
+        ],
+        [
+          "CC1",
+          "C10-23/C10-17(1)",
+          "CN7-9(1)",
+          "PA8",
+          "PD0",
+          "-"
+        ],
+        [
+          "CC2",
+          "C10-26/C10-27(1)",
+          "CN7-4(1)",
+          "PB15",
+          "PD2",
+          "-"
+        ],
+        [
+          "GPIO FIgn",
+          "CN10-37(1)",
+          "CN10-29(1)",
+          "PC5",
+          "PB5",
+          "Wake-up GPIO"
+        ],
+        [
+          "ADC Vbusc",
+          "CN7-28(1)",
+          "CN10-13(1)",
+          "PA0/IN0",
+          "PA6/IN6",
+          "-"
+        ],
+        [
+          "ADC Prov",
+          "CN7-30(2)",
+          "CN10-15(2)",
+          "PA1/IN1",
+          "PA7/IN7",
+          "-"
+        ],
+        [
+          "ADC Cons",
+          "CN7-32(2)",
+          "CN10-17(2)",
+          "PA4/IN4",
+          "PB0/IN8",
+          "-"
+        ],
+        [
+          "ADC Isense",
+          "CN7-36(2)",
+          "CN10-38(2)",
+          "PB11/IN15",
+          "PB12/IN16",
+          "-"
+        ],
+        [
+          "ENABLE",
+          "CN10-2",
+          "CN10-1",
+          "PC8",
+          "PC9",
+          "Vddl via GPIO"
+        ],
+        [
+          "D+",
+          "CN10-12",
+          "-",
+          "PA12",
+          "N/A",
+          "Only 1 port on ST32G0"
+        ],
+        [
+          "D-",
+          "CN10-14",
+          "-",
+          "PA11",
+          "N/A",
+          "Only 1 port on ST32G0"
+        ],
+        [
+          "CC1 DB",
+          "CN10-21(2)",
+          "CN7-10(2)",
+          "PA9",
+          "PD1",
+          "-"
+        ],
+        [
+          "CC2 DB",
+          "CN10-33(2)",
+          "CN7-11(2)",
+          "PA10",
+          "PD3",
+          "-"
+        ],
+        [
+          "USART2",
+          "ST-link part(3)",
+          "ST-link part(3)",
+          "PA2-PA3",
+          "PA2-PA3",
+          "For traces"
+        ],
+        [
+          "LED",
+          "CN10-11(3)",
+          "CN10-11(3)",
+          "PA5",
+          "PA5",
+          "For debug"
+        ]
+      ],
+      "notes": [
+        "1. Mandatory",
+        "2. Optional",
+        "3. For debug purposes AN5225 - Rev 7 page 57/76"
+      ],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  },
+  {
+    "document": "AN5225 - Table 17. Document revision history",
+    "rev": null,
+    "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+    "references": null,
+    "package": "LQFP64",
+    "family": "test_41",
+    "core": "Cortex-M",
+    "frequency": "None",
+    "table_id": "table_17",
+    "table_number": "17",
+    "title": "Table 17. Document revision history",
+    "page": 69,
+    "section": "15 Additional information",
+    "section_title": "Additional information",
+    "semantic_type": "",
+    "tags": [],
+    "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=69",
+    "text_helper": "Table 17. Document revision history — section 15 Additional information. Date, Version, Changes.",
+    "table_content": {
+      "headers": [
+        "Date",
+        "Version",
+        "Changes"
+      ],
+      "rows": [
+        [
+          "24-Apr-2019",
+          "1",
+          "Initial release."
+        ],
+        [
+          "26-Sep-2019",
+          "2",
+          "Updated: • Section Introduction • Section 1.2 Reference documents • Table 8. Fixed and programmable power supply current and cabling requirements • Figure 25. Source architecture • Figure 29. DRP with FRS VBUS = 5 V / 9 V / 15 V connections • Figure 38. Applying VCONN on CC lines • Figure 46. Entirely VBUS-powered sink • Figure 47. Sink application with battery (PD3.0) • Section 14.4.1 SNK or sink power applications • Figure 48. 15 W sink application with battery Added: • Figure 8. USB Type-C Power Delivery block diagram and Figure 9. STM32G0 Discovery kit USB Type-C analyser • New Figure 27. DRP connections • New Figure 1 Removed Source and Source/Sink mode description subsections from Section 14.4 TCPP01, TCPP02 and TCPP03 Type-C port protection devices."
+        ],
+        [
+          "01-Sep-2020",
+          "3",
+          "Updated: • Section Introduction • Section 1.2 Reference documents • Section 5 Power profiles • Section 9 Product offer • Section 11 Type-C with Power Delivery using integrated UCPD peripheral, Section 11.3 Hardware overview • Section 12 Type-C with Power Delivery using a general-purpose peripheral, Section 12.2 Hardware overview • Section 13 Dedicated architecture proposals and solutions • Section 14 Recommendations"
+        ],
+        [
+          "14-Sep-2021",
+          "4",
+          "Updated: • Section 1.2 Reference documents • Table 14. Source features • Section 13.5 Monitoring VBUS voltage and current and Figure 41 • Section 14.4 TCPP01, TCPP02 and TCPP03 Type-C port protection devices (and rearranged subsequent subsections). Added: • Section 13.6 Dual-role power port • Section 14.4.2 DRP or dual-role power applications • Section 14.6 VBUS inrush current considerations in Sink cases • Section 14.7 VBUS overshoot considerations in Sink cases • Section 14.8 VBUS discharge"
+        ],
+        [
+          "12-Oct-2021",
+          "5",
+          "Updated: • Section Introduction"
+        ],
+        [
+          "16-Mar-2022",
+          "6",
+          "Updated: • Figure 48. 15 W sink application with battery"
+        ],
+        [
+          "23-Jun-2023",
+          "7",
+          "Added: • Section 11.2 STM32 MPU software overview • Section 14.3 Capacitors on VBUS line • VBUS sensing detection Updated: • Section Introduction • Section 1.2 Reference documents • Section 11.1 STM32 MCU software overview"
+        ]
+      ],
+      "notes": [],
+      "legend": "",
+      "semantic_type": "",
+      "semantic": {}
+    }
+  }
+]

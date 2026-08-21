@@ -1,0 +1,87 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. Reference documents",
+  "pdf_name": "AN5612",
+  "family": "41",
+  "page": 2,
+  "merged_pages": [
+    2,
+    3
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5612.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5612.pdf#page=2",
+  "section": "1 General information",
+  "headers": [
+    "Reference number",
+    "Document title"
+  ],
+  "rows": [
+    [
+      "[1]",
+      "EMC design guide for STM8, STM32 and Legacy MCUs, AN1709"
+    ],
+    [
+      "[2]",
+      "ESD considerations for touch sensing applications on MCUs, AN3960"
+    ],
+    [
+      "Category",
+      "Document"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.777,
+    "cols_extracted": 2,
+    "continuation": {
+      "base_cols": 2,
+      "cont_cols_raw": 2,
+      "target_cols": 2,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_dedup_rows_removed": 14,
+    "_dedup_removed_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5612",
+    "table_id": "table_2",
+    "is_continued": true,
+    "pages": [
+      2,
+      3
+    ],
+    "rows_count": 3,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

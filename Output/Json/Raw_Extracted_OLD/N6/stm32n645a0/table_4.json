@@ -1,0 +1,641 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. STM32N655xx features and peripheral counts",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 19,
+  "merged_pages": [
+    19,
+    20
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=19",
+  "section": "2 Description",
+  "headers": [
+    "Feature / Peripheral",
+    "Feature / Peripheral",
+    "STM32N655xx (Q3H0X556N)",
+    "STM32N655xx (Q3H0L556N)",
+    "STM32N655xx (Q3H0B556N)",
+    "STM32N655xx (Q3H0I556N)",
+    "STM32N655xx (Q3H0A556N)",
+    "STM32N655xx (Q3H0A556N)",
+    "STM32N655xx (Q3H0Z556N)"
+  ],
+  "rows": [
+    [
+      "SRAM",
+      "System",
+      "4.2 Mbytes",
+      "4.2 Mbytes",
+      "4.2 Mbytes",
+      "4.2 Mbytes",
+      "4.2 Mbytes",
+      "4.2 Mbytes",
+      "4.2 Mbytes"
+    ],
+    [
+      "SRAM",
+      "Backup",
+      "8 Kbytes",
+      "8 Kbytes",
+      "8 Kbytes",
+      "8 Kbytes",
+      "8 Kbytes",
+      "8 Kbytes",
+      "8 Kbytes"
+    ],
+    [
+      "XSPI",
+      "16 bits",
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "XSPI",
+      "8 bits",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Timers",
+      "Advanced control",
+      "2",
+      "1",
+      "1",
+      "1",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "Timers",
+      "General purpose",
+      "10",
+      "10",
+      "10",
+      "10",
+      "7",
+      "8",
+      "7"
+    ],
+    [
+      "Timers",
+      "Basic",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3"
+    ],
+    [
+      "Timers",
+      "Low-power",
+      "5",
+      "4",
+      "4",
+      "2",
+      "1",
+      "2",
+      "1"
+    ],
+    [
+      "Communication interfaces",
+      "I2S",
+      "4",
+      "4",
+      "4",
+      "4",
+      "1",
+      "1",
+      "0"
+    ],
+    [
+      "Communication interfaces",
+      "SPI",
+      "6",
+      "6",
+      "6",
+      "6",
+      "6",
+      "5",
+      "5"
+    ],
+    [
+      "Communication interfaces",
+      "I2C",
+      "4",
+      "4",
+      "4",
+      "4",
+      "3",
+      "4",
+      "3"
+    ],
+    [
+      "Communication interfaces",
+      "I3C",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Communication interfaces",
+      "USART",
+      "5",
+      "5",
+      "4",
+      "4",
+      "3",
+      "3",
+      "2"
+    ],
+    [
+      "Communication interfaces",
+      "UART",
+      "5",
+      "5",
+      "5",
+      "4",
+      "3",
+      "3",
+      "3"
+    ],
+    [
+      "Communication interfaces",
+      "LPUART",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Communication interfaces",
+      "SAI",
+      "2",
+      "2",
+      "2",
+      "2",
+      "1(2)",
+      "0",
+      "1(2)"
+    ],
+    [
+      "Communication interfaces",
+      "FDCAN",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "2",
+      "3"
+    ],
+    [
+      "Communication interfaces",
+      "OTG HS",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "1",
+      "2"
+    ],
+    [
+      "Communication interfaces",
+      "UCPD",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Communication interfaces",
+      "SDMMC",
+      "2",
+      "2",
+      "1",
+      "1",
+      "0",
+      "2",
+      "0"
+    ],
+    [
+      "Communication interfaces",
+      "DCMIPP",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Communication interfaces",
+      "SPDIFRX",
+      "1",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Communication interfaces",
+      "CSI",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Communication interfaces",
+      "PSSI",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Communication interfaces",
+      "LTDC",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "FMC",
+      "FMC_NOR32",
+      "Yes",
+      "Yes",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No"
+    ],
+    [
+      "FMC_NOR16",
+      "FMC_NOR16",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "FMC_NORMUX",
+      "FMC_NORMUX",
+      "",
+      "",
+      "Yes",
+      "",
+      "",
+      "No",
+      ""
+    ],
+    [
+      "FMC SDRAM32",
+      "FMC SDRAM32",
+      "",
+      "",
+      "No",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "FMC SDRAM16",
+      "FMC SDRAM16",
+      "",
+      "",
+      "Yes",
+      "",
+      "No",
+      "No",
+      ""
+    ],
+    [
+      "FMC_NAND16",
+      "FMC_NAND16",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Display interface 16 bits",
+      "Display interface 16 bits",
+      "Yes",
+      "",
+      "",
+      "",
+      "",
+      "Yes",
+      "No"
+    ],
+    [
+      "Display interface 8 bits",
+      "Display interface 8 bits",
+      "Yes",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Crypto",
+      "SAES",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "CRYPT",
+      "CRYPT",
+      "Yes",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "PKA",
+      "PKA",
+      "Yes",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "MCE1.4",
+      "MCE1.4",
+      "Yes",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Accelerator",
+      "Neural-ART",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No",
+      "No"
+    ],
+    [
+      "Multi-function digital filter (MDF)",
+      "Multi-function digital filter (MDF)",
+      "6 filters",
+      "6 filters",
+      "6 filters",
+      "6 filters",
+      "6 filters",
+      "6 filters",
+      "2 filters"
+    ],
+    [
+      "Audio digital filter (ADF)",
+      "Audio digital filter (ADF)",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Real time clock (RTC)",
+      "Real time clock (RTC)",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "RNG",
+      "RNG",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      ")stib 21( CDA",
+      "ADC (12 bits)",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Digital temperature sensor (DTS)",
+      "Digital temperature sensor (DTS)",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Internal voltage reference buffer",
+      "Internal voltage reference buffer",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Maximum CPU frequency",
+      "Maximum CPU frequency",
+      "600 MHz, 800 MHz with overdrive mode",
+      "600 MHz, 800 MHz with overdrive mode",
+      "600 MHz, 800 MHz with overdrive mode",
+      "600 MHz, 800 MHz with overdrive mode",
+      "600 MHz, 800 MHz with overdrive mode",
+      "600 MHz, 800 MHz with overdrive mode",
+      "600 MHz, 800 MHz with overdrive mode"
+    ],
+    [
+      "Operating voltage",
+      "Operating voltage",
+      "1.71 to 3.6 V",
+      "1.71 to 3.6 V",
+      "1.71 to 3.6 V",
+      "1.71 to 3.6 V",
+      "1.71 to 3.6 V",
+      "1.71 to 3.6 V",
+      "1.71 to 3.6 V"
+    ],
+    [
+      "Operating temperature",
+      "Junction",
+      "-40 to 125°C",
+      "-40 to 125°C",
+      "-40 to 125°C",
+      "-40 to 125°C",
+      "-40 to 125°C",
+      "-40 to 125°C",
+      "-40 to 125°C"
+    ],
+    [
+      "Package",
+      "Name",
+      "VFBGA264",
+      "VFBGA223",
+      "VFBGA198",
+      "VFBGA178",
+      "VFBGA169",
+      "VFBGA169",
+      "VFBGA142"
+    ],
+    [
+      "Size",
+      "Size",
+      "14 x 14 mm",
+      "10 x 10 mm",
+      "10 x 10 mm",
+      "12 x 12 mm",
+      "6 x 6 mm",
+      "6 x 6 mm",
+      "8 x 8 mm"
+    ],
+    [
+      "Pitch",
+      "Pitch",
+      "0.8 mm",
+      "0.5 mm",
+      "0.65 mm",
+      "0.8 mm",
+      "0.4 mm",
+      "0.4 mm",
+      "0.5 mm"
+    ],
+    [
+      "Number of I/Os",
+      "Number of I/Os",
+      "165",
+      "144",
+      "126",
+      "106",
+      "90",
+      "90",
+      "75"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.1218,
+  "col_count": 9,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 9,
+    "continuation": {
+      "base_cols": 9,
+      "cont_cols_raw": 9,
+      "target_cols": 9,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. SAI PDM mode only. 20/258 DS14791 Rev 9"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_4",
+    "is_continued": true,
+    "pages": [
+      19,
+      20
+    ],
+    "rows_count": 52,
+    "cols_count": 9,
+    "confidence": "high",
+    "empty_cell_ratio": 0.1218
+  }
+}

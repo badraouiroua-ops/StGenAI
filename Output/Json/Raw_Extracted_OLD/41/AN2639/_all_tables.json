@@ -1,0 +1,845 @@
+[
+  {
+    "features": {
+      "pdf_name": "AN2639",
+      "family": "41",
+      "pdf_type": 2,
+      "doc_ref": null,
+      "revision": null,
+      "date": null,
+      "title": "MCUs and MPUs Introduction STMicroelectronics MCUs and MPUs support various types of lead-free ECOPACK2 packages to meet customer requirements.",
+      "url_pdf": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+      "page": 1,
+      "core": null,
+      "fpu": false,
+      "max_frequency_mhz": null,
+      "flash_kb": null,
+      "ram_kb": null,
+      "voltage_min_v": null,
+      "voltage_max_v": null,
+      "operating_temp_c": [
+        "245°C to 260°C"
+      ],
+      "packages": [],
+      "device_summary": null,
+      "extraction_meta": {
+        "source_pages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "extraction_method": "regex_type2",
+        "text_extraction_reliable": true,
+        "packages_source": "text",
+        "confidence": "medium",
+        "missing_fields": [
+          "core",
+          "max_frequency_mhz",
+          "flash_kb",
+          "ram_kb",
+          "voltage_min_v",
+          "voltage_max_v"
+        ],
+        "low_confidence_fields": []
+      }
+    }
+  },
+  {
+    "table_id": "table_1",
+    "caption": "Table 1. Package types",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 3,
+    "merged_pages": [
+      3
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=3",
+    "section": "2 Packages overview",
+    "headers": [
+      "Surface mount technology / Package",
+      "Through hole technology / Package"
+    ],
+    "rows": [
+      [
+        "SOIC",
+        "PDIP.3"
+      ],
+      [
+        "QFP",
+        "PDIP.4"
+      ],
+      [
+        "QFN/DFN",
+        "-"
+      ],
+      [
+        "BGA",
+        "-"
+      ],
+      [
+        "LGA",
+        "-"
+      ],
+      [
+        "WLCSP",
+        "-"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2,
+      "_legend": [
+        "Larger package portfolios can be proposed upon request."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_1",
+      "is_continued": false,
+      "pages": [
+        3
+      ],
+      "rows_count": 6,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_2",
+    "caption": "Table 2. Package/soldering process compatibility",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 6,
+    "merged_pages": [
+      6
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=6",
+    "section": "4.2 Soldering recommendations",
+    "headers": [
+      "Package",
+      "Reflow processing process / Process",
+      "Reflow processing process / Reliability",
+      "Wave soldering process / Process",
+      "Wave soldering process / Reliability"
+    ],
+    "rows": [
+      [
+        "SOIC",
+        "OK",
+        "OK",
+        "Feasible",
+        "(1)"
+      ],
+      [
+        "QFP",
+        "OK",
+        "OK",
+        "Under customer responsibility (2)",
+        "(1)"
+      ],
+      [
+        "BGA",
+        "OK",
+        "OK",
+        "Impossible",
+        "N/A"
+      ],
+      [
+        "LGA",
+        "OK",
+        "OK",
+        "Impossible",
+        "N/A"
+      ],
+      [
+        "QFN/DFN",
+        "OK",
+        "OK",
+        "Impossible",
+        "N/A"
+      ],
+      [
+        "WLCSP",
+        "OK",
+        "OK",
+        "Impossible",
+        "N/A"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 5,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 5,
+      "_notes": [
+        "1. Wave soldering with SMT packages is not qualified by STMicroelectronics. SMT package qualification performed as a standard by STMicroelectronics only includes infrared reflow soldering.",
+        "2. Wave soldering with VFQFPN, UFQFPN, and WFQFPN is not recommended because it is difficult to avoid solder bridges when leads pass through the double wave."
+      ],
+      "_legend": [
+        "Reflow soldering with DIP and wave soldering with BGA, VFQFPN, UFQFPN, WFQFPN, and WLCSP are strictly impossible",
+        "due to the lead/ball configuration."
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "dynamic_header_depth:2",
+      "vertical_merge_suspected"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_2",
+      "is_continued": false,
+      "pages": [
+        6
+      ],
+      "rows_count": 6,
+      "cols_count": 5,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_3",
+    "caption": "Table 3. SOIC recommended profile parameters (lead-free mounting)",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 8,
+    "merged_pages": [
+      8
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=8",
+    "section": "4.4.1 Convection reflow for SOIC packages",
+    "headers": [
+      "Profile",
+      "Ramp to spike",
+      "Ramp-soak-Spike"
+    ],
+    "rows": [
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 70°C to 150°C 0.8°C/sec to 1.0°C/sec",
+        "Temp. : 70°C to 150°C 1.0°C/sec to 3.0°C/sec"
+      ],
+      [
+        "Soak/Dwell (refer to solder paste supplier recommendation)",
+        "N/A or Temp. : 150°C to 200°C: 40 to 80s",
+        "Soak Temp. : 150°C to 200°C: 40 to 100s"
+      ],
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 200°C to 225°C 1.0°C/sec to 3.0°C/sec",
+        "Temp. : 200°C to 225°C 1.0°C/sec to 3.0°C/sec"
+      ],
+      [
+        "Peak temperature",
+        "235°C to 245°C",
+        "235°C to 245°C"
+      ],
+      [
+        "Duration above 220°C",
+        "45 to 75 seconds",
+        "45 to 75 seconds"
+      ],
+      [
+        "Temperature gradient in cooling",
+        "-1°C to -5°C",
+        "-1°C to -5°C"
+      ],
+      [
+        "Time from 50 to 220°C",
+        "150 to 230 seconds",
+        "150 to 230 seconds"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_3",
+      "is_continued": false,
+      "pages": [
+        8
+      ],
+      "rows_count": 7,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_4",
+    "caption": "Table 4. QFP recommended profile parameters (lead-free mounting)",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 9,
+    "merged_pages": [
+      9,
+      10
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=9",
+    "section": "4.4.2 Convection reflow for QFP packages",
+    "headers": [
+      "Profile",
+      "Ramp to spike",
+      "Ramp-soak-Spike"
+    ],
+    "rows": [
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 70°C to 150°C 0.8°C/sec to 1.0°C/sec",
+        "Temp. : 70°C to 150°C 1.0°C/sec to 3.0°C/sec"
+      ],
+      [
+        "Soak/Dwell (refer to solder paste supplier recommendation)",
+        "N/A or Temp. : 150°C to 200°C: 40 to 80s",
+        "Soak Temp. : 150°C to 200°C: 40 to 100s"
+      ],
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 200°C to 225°C 1.0°C/sec to 3.0°C/sec",
+        "Temp. : 200°C to 225°C 1.0°C/sec to 3.0°C/sec"
+      ],
+      [
+        "Peak temperature",
+        "235°C to 245°C",
+        "235°C to 245°C"
+      ],
+      [
+        "Duration above 220°C",
+        "45 to 75 seconds",
+        "45 to 75 seconds"
+      ],
+      [
+        "Temperature gradient in cooling",
+        "-1°C to -5°C",
+        "-1°C to -5°C"
+      ],
+      [
+        "Time from 50 to 220°C",
+        "150 to 230 seconds",
+        "150 to 230 seconds"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "continuation": {
+        "base_cols": 3,
+        "cont_cols_raw": 3,
+        "target_cols": 3,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      }
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_4",
+      "is_continued": true,
+      "pages": [
+        9,
+        10
+      ],
+      "rows_count": 7,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_5",
+    "caption": "Table 5. QFN/DFN recommended profile parameters (lead-free mounting)",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 9,
+    "merged_pages": [
+      9,
+      10
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=9",
+    "section": "4.4.3 Convection Reflow for QFN/DFN packages",
+    "headers": [
+      "Profile",
+      "Ramp to spike",
+      "Ramp-soak-Spike"
+    ],
+    "rows": [
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 70°C to 150°C 0.8°C/sec to 1.0°C/sec",
+        "Temp. : 70°C to 150°C 1.0°C/sec to 3.0°C/sec"
+      ],
+      [
+        "Soak/Dwell (refer to solder paste supplier recommendation)",
+        "N/A or Temp. : 150°C to 200°C: 40 to 80s",
+        "Soak Temp. : 150°C to 200°C: 40 to 100s"
+      ],
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 200°C to 225°C 1.0°C/sec to 3.0°C/sec",
+        "Temp. : 200°C to 225°C 1.0°C/sec to 3.0°C/sec"
+      ],
+      [
+        "Peak temperature",
+        "235°C to 245°C",
+        "235°C to 245°C"
+      ],
+      [
+        "Duration above 220°C",
+        "45 to 75 seconds",
+        "45 to 75 seconds"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "continuation": {
+        "base_cols": 3,
+        "cont_cols_raw": 3,
+        "target_cols": 3,
+        "base_has_dup_headers": false,
+        "dup_positions": [],
+        "b7_detected": false,
+        "b7_expanded": false,
+        "cont_pages": 2
+      },
+      "_legend": [
+        "1V37308TD"
+      ],
+      "_dedup_rows_removed": 2,
+      "_dedup_removed_indices": [
+        5,
+        6
+      ]
+    },
+    "structured_json": null,
+    "warnings": [
+      "multi_page_merged:2"
+    ],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_5",
+      "is_continued": true,
+      "pages": [
+        9,
+        10
+      ],
+      "rows_count": 5,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_6",
+    "caption": "Table 6. Typical lead-free reflow profile parameters for BGA",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 10,
+    "merged_pages": [
+      10
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=10",
+    "section": "4.4.4 Convection reflow for BGA packages",
+    "headers": [
+      "Profile",
+      "Ramp to spike",
+      "Ramp-soak-Spike"
+    ],
+    "rows": [
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 70°C to 150°C 0.9 ± 0.1°C/sec",
+        "Temp. : 70°C to 150°C 2.0 ± 1.0°C/sec"
+      ],
+      [
+        "Soak/Dwell (refer to solder paste supplier recommendation)",
+        "N/A or Temp. : 150°C to 200°C: 60 ± 20 sec",
+        "Soak Temp. : 150°C to 200°C: 70 ± 30 sec"
+      ],
+      [
+        "Temperature gradient in preheat (in pre- reflow)",
+        "Temp. : 200°C to 225°C 2 ± 1°C/sec",
+        "Temp. : 200°C to 225°C 2 ± 1°C/sec"
+      ],
+      [
+        "Peak temperature (in reflow)",
+        "235°C to 245°C",
+        "235°C to 245°C"
+      ],
+      [
+        "Duration above 220°C",
+        "45 to 60 seconds",
+        "45 to 60 seconds"
+      ],
+      [
+        "Temperature gradient in cooling",
+        "-1°C to -5°C",
+        "-1°C to -5°C"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "_dedup_rows_removed": 1,
+      "_dedup_removed_indices": [
+        6
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_6",
+      "is_continued": false,
+      "pages": [
+        10
+      ],
+      "rows_count": 6,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_7",
+    "caption": "Table 7. Typical lead-free reflow profile parameters for LGA",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 11,
+    "merged_pages": [
+      11
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=11",
+    "section": "4.4.5 Convection reflow for LGA packages",
+    "headers": [
+      "Profile",
+      "Ramp to spike",
+      "Ramp-soak-Spike"
+    ],
+    "rows": [
+      [
+        "Temperature gradient in pre-reflow",
+        "Temp. : 200°C to 225°C 2 ± 1°C/sec",
+        "Temp. : 200°C to 225°C 2 ± 1°C/sec"
+      ],
+      [
+        "Duration above 220°C",
+        "55 ± 10 seconds",
+        "55 ± 10 seconds"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "_legend": [
+        "1V57308TD"
+      ],
+      "_dedup_rows_removed": 5,
+      "_dedup_removed_indices": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_7",
+      "is_continued": false,
+      "pages": [
+        11
+      ],
+      "rows_count": 2,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_8",
+    "caption": "Table 8. Typical lead-free reflow profile parameters for WLCSP",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 12,
+    "merged_pages": [
+      12
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=12",
+    "section": "4.4.6 Convection reflow for WLCSP packages",
+    "headers": [
+      "Profile",
+      "Ramp to spike",
+      "Ramp-soak-Spike"
+    ],
+    "rows": [
+      [
+        "Temperature gradient in preheat",
+        "Temp. : 70°C to 150°C 0.9 ± 0.1°C/sec",
+        "Temp. : 70°C to 150°C 2.0 ± 0.5°C/sec"
+      ],
+      [
+        "Soak/Dwell (*refer to solder paste supplier recommendation)",
+        "N/A or Temp. : 150°C to 200°C: 60 ± 20 sec",
+        "Soak Temp. : 150°C to 200°C: *70 ± 30 sec"
+      ],
+      [
+        "Temperature gradient (in pre-reflow)",
+        "Temp. : 200°C to 225°C 2 ± 1°C/sec",
+        "Temp. : 200°C to 225°C 2 ± 1°C/sec"
+      ],
+      [
+        "Peak temperature (in reflow)",
+        "240 ± 5°C",
+        "240 ± 5°C"
+      ],
+      [
+        "Duration above 220°C",
+        "60 ± 15 seconds",
+        "60 ± 15 seconds"
+      ],
+      [
+        "Temperature gradient in cooling",
+        "-3 ± 2°C/sec",
+        "-3 ± 2°C/sec"
+      ],
+      [
+        "Time from 50 to 220°C",
+        "150 to 230 seconds",
+        "150 to 230 seconds"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_8",
+      "is_continued": false,
+      "pages": [
+        12
+      ],
+      "rows_count": 7,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_9",
+    "caption": "Table 9. Environmental conditions",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 14,
+    "merged_pages": [
+      14
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=14",
+    "section": "6.1 Pop-corn effect",
+    "headers": [
+      "Condition",
+      "Recommended value"
+    ],
+    "rows": [
+      [
+        "Temperature",
+        "5 → 30 °C"
+      ],
+      [
+        "Humidity",
+        "60% RH max"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "caption_near_bottom": true,
+      "caption_y_ratio": 0.844,
+      "cols_extracted": 2,
+      "_notes": [
+        "1. X depends on the MSL (Moisture Sensitivity Level). See JEDEC standard J-STD-033D. It is recommended to store parts in dry pack in dry boxes (that is, cabinets under nitrogen atmosphere). See"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_9",
+      "is_continued": false,
+      "pages": [
+        14
+      ],
+      "rows_count": 2,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_10",
+    "caption": "Table 10. Document revision history",
+    "pdf_name": "AN2639",
+    "family": "41",
+    "page": 16,
+    "merged_pages": [
+      16
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN2639.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN2639.pdf#page=16",
+    "section": "6.2 Dry pack opening",
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "16-Oct-2007",
+        "1",
+        "Initial release."
+      ],
+      [
+        "26-May-2009",
+        "2",
+        "Modified tL and tPin in Table 3. JEDEC standard lead-free reflow profile (according to J-STD-020D). Updated Figure 6. Recommended flow to control package moisture absorption."
+      ],
+      [
+        "22-May-2013",
+        "3",
+        "Updated Table 1. Package types and Table 2. Package/soldering process compatibility. Added UFQFPN and WLCSP packages in Section 6: Dry packing. Document converted to new template and disclaimer updated."
+      ],
+      [
+        "07-Jul-2014",
+        "4",
+        "Updated RoHS directive and related note in Section 1: Lead-free packages at STMicroelectronics."
+      ],
+      [
+        "17-May-2016",
+        "5",
+        "Updated maximum temperature during soldering in Section 2: Packages overview. Removed reference to application note AN2034 in Section 4.3: Compatibility with leaded soldering process. Updated humidity recommended value unit in Table 4. Environmental conditions."
+      ],
+      [
+        "27-Mar-2018",
+        "6",
+        "Table 2. Package/soldering process compatibility: • updated note 1. changed process for QFP packages"
+      ],
+      [
+        "10-Oct-2019",
+        "7",
+        "Updated Section Introduction, title of Section 2: Packages overview, Table 1. Package types, Table 3. JEDEC standard lead-free reflow profile (according to J- STD-020D)."
+      ],
+      [
+        "05-Nov-2024",
+        "8",
+        "Replaced ECOPACK by ECOPACK2. Removed PLCC package from the whole document. Updated Table 1. Package types and Table 2. Package/soldering process compatibility. Updated Section 4.4: Reflow soldering conditions.."
+      ],
+      [
+        "03-Apr-2025",
+        "9",
+        "Added note on product state after reflow after Section 4.4: Reflow soldering conditions."
+      ],
+      [
+        "09-Jul-2026",
+        "10",
+        "Updated: • Section 2: Packages overview • Section 4.2: Soldering recommendations • Section 4.4: Reflow soldering conditions • Figure 11. Recommended flow to control package moisture absorption • Section 6.2: Dry pack opening Added: • Section 4.4.1: Convection reflow for SOIC packages • Section 4.4.2: Convection reflow for QFP packages • Section 4.4.3: Convection Reflow for QFN/DFN packages • Section 4.4.4: Convection reflow for BGA packages • Section 4.4.5: Convection reflow for LGA packages • Section 4.4.6: Convection reflow for WLCSP packages"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN2639",
+      "table_id": "table_10",
+      "is_continued": false,
+      "pages": [
+        16
+      ],
+      "rows_count": 10,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "table_id": "table_11",
+  "document": "Table 11. STM32MP135 power dissipation versus T at 900 MHz (cpuburn) 22 J",
+  "rev": null,
+  "table_number": "11",
+  "title": "Table 11. STM32MP135 power dissipation versus T at 900 MHz (cpuburn) 22 J",
+  "page": 22,
+  "section": "6.3.1.1 Use case about cpuburn",
+  "section_title": "Use case about cpuburn",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=22",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 11. STM32MP135 power dissipation versus T at 900 MHz (cpuburn) 22 J — section 6.3.1.1 Use case about cpuburn. TJ (°C), STM32MP135 power dissipation (mW) at 900 MHz.",
+  "table_content": {
+    "headers": [
+      "TJ (°C)",
+      "STM32MP135 power dissipation (mW) at 900 MHz"
+    ],
+    "rows": [
+      [
+        "20.00",
+        "711.44"
+      ],
+      [
+        "31.00",
+        "721.04"
+      ],
+      [
+        "43.00",
+        "740.00"
+      ],
+      [
+        "47.00",
+        "748.83"
+      ],
+      [
+        "52.00",
+        "757.93"
+      ],
+      [
+        "56.00",
+        "763.62"
+      ],
+      [
+        "66.00",
+        "791.42"
+      ],
+      [
+        "71.00",
+        "804.79"
+      ],
+      [
+        "78.00",
+        "823.36"
+      ],
+      [
+        "86.00",
+        "857.92"
+      ],
+      [
+        "91.00",
+        "881.62"
+      ],
+      [
+        "96.00",
+        "903.01"
+      ],
+      [
+        "98.00",
+        "914.23"
+      ],
+      [
+        "101.00",
+        "926.44"
+      ],
+      [
+        "106.00",
+        "951.83"
+      ],
+      [
+        "111.00",
+        "973.00"
+      ],
+      [
+        "116.00",
+        "994.98"
+      ],
+      [
+        "119.00",
+        "1014.19"
+      ],
+      [
+        "129.00",
+        "1110.12"
+      ],
+      [
+        "139.00",
+        "1238.89"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

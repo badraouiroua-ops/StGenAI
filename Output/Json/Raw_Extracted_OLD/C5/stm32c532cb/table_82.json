@@ -1,0 +1,53 @@
+{
+  "table_id": "table_82",
+  "caption": "Table 82. Document revision history.",
+  "pdf_name": "stm32c532cb",
+  "family": "C5",
+  "page": 121,
+  "merged_pages": [
+    121
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=121",
+  "section": "7 Ordering information",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "27-Feb-2026",
+      "1",
+      "Initial release."
+    ],
+    [
+      "14-Apr-2026",
+      "2",
+      "Updated: • Section 2: Description • Table 1. Device features and peripheral counts • Table 47. Output voltage characteristics (all I/Os except PC14 and PC15) • Table 48. Output voltage characteristics for PC14 and PC15 • Table 54. Temperature sensor characteristics"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c532cb",
+    "table_id": "table_82",
+    "is_continued": false,
+    "pages": [
+      121
+    ],
+    "rows_count": 2,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

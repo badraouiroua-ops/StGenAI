@@ -1,0 +1,51 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. HSPI main features",
+  "pdf_name": "AN5050",
+  "family": "41",
+  "page": 9,
+  "merged_pages": [
+    9
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5050.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5050.pdf#page=9",
+  "section": "2.1 OCTOSPI, HSPI, and XSPI main features",
+  "headers": [
+    "Feature",
+    "Feature",
+    "STM32U59xxx/5Axxx STM32U5Fxxx/5Gxxx"
+  ],
+  "rows": [
+    [
+      "Number of instances",
+      "Number of instances",
+      "1"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. XSPI is supported only on STM32C59xx/5Axx devices. Refer to the respective product datasheet to verify the supported SPI interface width: 8-bit or 16-bit."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5050",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      9
+    ],
+    "rows_count": 1,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

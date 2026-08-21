@@ -1,0 +1,144 @@
+{
+  "table_id": "table_8",
+  "caption": "Table 8. USART, UART, and LPUART features",
+  "pdf_name": "stm32c591ce",
+  "family": "C5",
+  "page": 29,
+  "merged_pages": [
+    29
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=29",
+  "section": "3.27 Universal synchronous/asynchronous receiver transmitter (USART/UART) and",
+  "headers": [
+    "Features(1)",
+    "USART1/2/3/6",
+    "UART4/5/7",
+    "LPUART1"
+  ],
+  "rows": [
+    [
+      "Hardware flow control for modem",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Continuous communication using DMA",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Multiprocessor communication",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Synchronous mode (controller/target)",
+      "X",
+      "-",
+      "-"
+    ],
+    [
+      "Smartcard mode",
+      "X",
+      "-",
+      "-"
+    ],
+    [
+      "Single-wire half-duplex communication",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "IrDA SIR ENDEC block",
+      "X",
+      "X",
+      "-"
+    ],
+    [
+      "LIN mode",
+      "X",
+      "X",
+      "-"
+    ],
+    [
+      "Dual-clock domain and wake-up from Stop mode",
+      "X(2)",
+      "X(2)",
+      "X(2)"
+    ],
+    [
+      "Receiver timeout interrupt",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Modbus communication",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Autobaud rate detection",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Driver enable",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "USART data length",
+      "7, 8, and 9 bits",
+      "7, 8, and 9 bits",
+      "7, 8, and 9 bits"
+    ],
+    [
+      "Tx/Rx FIFO",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Tx/Rx FIFO size",
+      "8 bytes",
+      "8 bytes",
+      "8 bytes"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. X = supported.",
+      "2. Wake‑up supported from Stop mode."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c591ce",
+    "table_id": "table_8",
+    "is_continued": false,
+    "pages": [
+      29
+    ],
+    "rows_count": 16,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

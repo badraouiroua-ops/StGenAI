@@ -1,0 +1,78 @@
+{
+  "table_id": "table_9",
+  "caption": "Table 9. JESD22-A114D standard class levels",
+  "pdf_name": "AN4879",
+  "family": "41",
+  "page": 9,
+  "merged_pages": [
+    9
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=9",
+  "section": "2.3 Protection against ESD and EMI",
+  "headers": [
+    "Class",
+    "Voltage range",
+    "Current range"
+  ],
+  "rows": [
+    [
+      "Class 0",
+      "V < 250 V",
+      "I < 0.17 A"
+    ],
+    [
+      "Class 1A",
+      "250 V < V < 500 V",
+      "0.17 A < I < 0.33 A"
+    ],
+    [
+      "Class 1B",
+      "500 V < V < 1000 V",
+      "0.33 A < I < 0.67 A"
+    ],
+    [
+      "Class 1C",
+      "1 kV < V < 2 kV",
+      "0.67 A < I < 1.33 A"
+    ],
+    [
+      "Class 2",
+      "2 kV < V < 4 kV",
+      "1.33 A < I < 2.67 A"
+    ],
+    [
+      "Class 3A",
+      "1 kV < V < 8 kV",
+      "2.67 A < I < 5.33 A"
+    ],
+    [
+      "Class 3B",
+      "V > 8 kV",
+      "I > 5.33 A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4879",
+    "table_id": "table_9",
+    "is_continued": false,
+    "pages": [
+      9
+    ],
+    "rows_count": 7,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

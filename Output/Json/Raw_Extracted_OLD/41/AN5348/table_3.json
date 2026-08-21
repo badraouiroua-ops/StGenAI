@@ -1,0 +1,88 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. Main differences between CAN-FD and CAN 2.0.",
+  "pdf_name": "AN5348",
+  "family": "41",
+  "page": 6,
+  "merged_pages": [
+    6
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5348.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5348.pdf#page=6",
+  "section": "2.2 CAN-FD format",
+  "headers": [
+    "Features",
+    "CAN 2.0",
+    "CAN-FD"
+  ],
+  "rows": [
+    [
+      "Compatibility",
+      "Does not support CAN-FD",
+      "Supports CAN 2.0 A/B"
+    ],
+    [
+      "Maximum bit rate (Mbit/s)",
+      "Frame bitrate: up to 1",
+      "Arbitration bitrate: up to 1s Data bitrate: up to 8"
+    ],
+    [
+      "DLC field (4 bits) code",
+      "Coded in 0 to 8",
+      "Coded in 0 to 64"
+    ],
+    [
+      "Maximum data bytes in one message",
+      "8 bytes of data",
+      "64 bytes of data"
+    ],
+    [
+      "BRS support",
+      "No",
+      "Yes"
+    ],
+    [
+      "EDL support",
+      "No",
+      "Yes"
+    ],
+    [
+      "ASI support",
+      "No",
+      "Yes"
+    ],
+    [
+      "CRC bits check codes",
+      "Bits not included in CRC calculation",
+      "Bits included in CRC calculation"
+    ],
+    [
+      "Remote frame support",
+      "Yes",
+      "No"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5348",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      6
+    ],
+    "rows_count": 9,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "table_id": "table_60",
+  "caption": "Table 60. OTP characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 166,
+  "merged_pages": [
+    166
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=166",
+  "section": "5.3.13 OTP characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I OTP(VDDA18AON)",
+      "Supply current on V DDA18AON",
+      "Programming",
+      "-",
+      "3.8",
+      "10",
+      "mA"
+    ],
+    [
+      "I OTP(VDDA18AON)",
+      "Supply current on V DDA18AON",
+      "Reading",
+      "-",
+      "0.66",
+      "1.13",
+      "mA"
+    ],
+    [
+      "I OTP(VDDA18AON)",
+      "Supply current on V DDA18AON",
+      "Power down",
+      "-",
+      "5",
+      "132",
+      "μA"
+    ],
+    [
+      "I OTP(VDDCORE)",
+      "Supply current on V DDCORE",
+      "Programming",
+      "-",
+      "0.09",
+      "0.45",
+      "mA"
+    ],
+    [
+      "I OTP(VDDCORE)",
+      "Supply current on V DDCORE",
+      "Reading",
+      "-",
+      "1.8",
+      "3.6",
+      "mA"
+    ],
+    [
+      "I OTP(VDDCORE)",
+      "Supply current on V DDCORE",
+      "Power down",
+      "-",
+      "8",
+      "500",
+      "μA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Evaluated by characterization, not tested in production, unless otherwise specified. Designing hardened software to avoid noise problems",
+      "2. Refer to AN1709, “EMI radiated test” section.",
+      "3. Refer to AN1709, “EMI level classification” section."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_60",
+    "is_continued": false,
+    "pages": [
+      166
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Applicable products",
+  "pdf_name": "AN4566",
+  "family": "41",
+  "page": 1,
+  "merged_pages": [
+    1
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4566.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4566.pdf#page=1",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Type",
+    "Product series"
+  ],
+  "rows": [
+    [
+      "Microcontrollers",
+      "STM32F0 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32F1 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32F2 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32F3 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32F4 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32F7 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32G0 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32G4 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32H5 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32H7 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32L0 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32L1 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32L4 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32L4+ series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32L5 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32U0 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32U3 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32U5 series"
+    ],
+    [
+      "Microcontrollers",
+      "STM32C5 series"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN4566",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      1
+    ],
+    "rows_count": 19,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

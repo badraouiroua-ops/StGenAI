@@ -1,0 +1,366 @@
+[
+  {
+    "features": {
+      "pdf_name": "AN3155",
+      "family": "41",
+      "pdf_type": 1,
+      "doc_ref": null,
+      "revision": null,
+      "date": null,
+      "title": "How to use USART protocol in bootloader on STM32 MCUs Introduction This application note describes the USART protocol used in the STM32 microcontroller",
+      "url_pdf": "https://www.st.com/resource/en/datasheet/AN3155.pdf",
+      "page": 1,
+      "core": null,
+      "fpu": false,
+      "max_frequency_mhz": null,
+      "flash_kb": null,
+      "ram_kb": null,
+      "voltage_min_v": null,
+      "voltage_max_v": null,
+      "operating_temp_c": [],
+      "packages": [],
+      "device_summary": null,
+      "extraction_meta": {
+        "source_pages": [
+          1
+        ],
+        "extraction_method": "regex_type1",
+        "text_extraction_reliable": true,
+        "packages_source": "text",
+        "confidence": "medium",
+        "missing_fields": [
+          "core",
+          "max_frequency_mhz",
+          "flash_kb",
+          "ram_kb",
+          "voltage_min_v",
+          "voltage_max_v",
+          "operating_temp_c"
+        ],
+        "low_confidence_fields": []
+      }
+    }
+  },
+  {
+    "table_id": "table_1",
+    "caption": "Table 1. Applicable products",
+    "pdf_name": "AN3155",
+    "family": "41",
+    "page": 1,
+    "merged_pages": [
+      1
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN3155.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN3155.pdf#page=1",
+    "section": "General purpose / Overview",
+    "headers": [
+      "Type",
+      "Product series or line"
+    ],
+    "rows": [
+      [
+        "Microcontrollers",
+        "STM32C0 series, STM32C5 series STM32F0 series, STM32F1 series, STM32F2 series, STM32F3 series, STM32F4 series, STM32F7 series STM32G0 series, STM32G4 series STM32H5 series, STM32H7 series STM32L0 series, STM32L1 series, STM32L4 series, STM32L5 series STM32U0 series, STM32U3 series, STM32U5 series STM32WB series, STM32WBA series, STM32WB0 series STM32WL3x line, STM32WL5x/Ex line"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN3155",
+      "table_id": "table_1",
+      "is_continued": false,
+      "pages": [
+        1
+      ],
+      "rows_count": 1,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_2",
+    "caption": "Table 2. USART bootloader commands",
+    "pdf_name": "AN3155",
+    "family": "41",
+    "page": 8,
+    "merged_pages": [
+      8
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN3155.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN3155.pdf#page=8",
+    "section": "3 Bootloader command set",
+    "headers": [
+      "Command(1)",
+      "Code",
+      "Description"
+    ],
+    "rows": [
+      [
+        "Get(2)",
+        "0x00",
+        "Gets the version and the allowed commands supported by the current version of the protocol."
+      ],
+      [
+        "Get Version(2)",
+        "0x01",
+        "Gets the protocol version."
+      ],
+      [
+        "Get ID(2)",
+        "0x02",
+        "Gets the chip ID."
+      ],
+      [
+        "Read Memory(3)",
+        "0x11",
+        "Reads up to 256 bytes of memory starting from an address specified by the application."
+      ],
+      [
+        "Go(3)",
+        "0x21",
+        "Jumps to user application code located in the internal flash memory or in the SRAM."
+      ],
+      [
+        "Write Memory(3)",
+        "0x31",
+        "Writes up to 256 bytes to the RAM or flash memory starting from an address specified by the application."
+      ],
+      [
+        "Erase(3)(4)",
+        "0x43",
+        "Erases from one to all the flash memory pages."
+      ],
+      [
+        "Extended Erase(3)(4)(5)",
+        "0x44",
+        "Erases from one to all the flash memory pages using two-byte addressing mode (available only for USART bootloader v3.0 and higher)."
+      ],
+      [
+        "Special(5)",
+        "0x50",
+        "Generic command that allows to add new features depending on the product constraints, without adding a new command for every feature."
+      ],
+      [
+        "Extended Special(5)",
+        "0x51",
+        "Generic command that allows the user to send more data compared to the Special command."
+      ],
+      [
+        "Write Protect(5)",
+        "0x63",
+        "Enables the write protection for some sectors."
+      ],
+      [
+        "Write Unprotect(5)",
+        "0x73",
+        "Disables the write protection for all flash memory sectors."
+      ],
+      [
+        "Readout Protect",
+        "0x82",
+        "Enables the read protection."
+      ],
+      [
+        "Readout Unprotect(2)",
+        "0x92",
+        "Disables the read protection."
+      ],
+      [
+        "Get Checksum(5)",
+        "0xA1",
+        "Computes a CRC value on a given memory area with a size multiple of 4 bytes."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3,
+      "_notes": [
+        "1. If a denied command is received or an error occurs during the command execution, the bootloader sends an NACK byte, and goes back to command checking.",
+        "2. Protection. When active, only this limited subset of commands is available, all others are NACK-ed, and have no effect on the device. The protection depends upon the product.",
+        "3. Refer to STM32 product datasheets and to AN2606 to know the valid memory areas for these commands.",
+        "4. Erase (x043) and Extended Erase (0x44) are exclusive. A device can support either the Erase command or the Extended Erase command, but not both.",
+        "5. Not supported on STM32WB0 series. 8/52 AN3155 Rev 21"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN3155",
+      "table_id": "table_2",
+      "is_continued": false,
+      "pages": [
+        8
+      ],
+      "rows_count": 15,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_3",
+    "caption": "Table 3. Bootloader protocol versions",
+    "pdf_name": "AN3155",
+    "family": "41",
+    "page": 48,
+    "merged_pages": [
+      48
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN3155.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN3155.pdf#page=48",
+    "section": "4 Bootloader protocol version evolution",
+    "headers": [
+      "Version",
+      "Description"
+    ],
+    "rows": [
+      [
+        "V2.0",
+        "Initial bootloader version."
+      ],
+      [
+        "V2.1",
+        "– Update Go command to initialize the main stack pointer – Update Go command to return NACK when jump address is in the option byte area or system memory area – Update Get ID command to return the device ID on two bytes – Update the bootloader version to V2.1"
+      ],
+      [
+        "V2.2",
+        "– Update Read Memory, Write Memory and Go commands to deny access, with an NACK response, to the first bytes of RAM used by the bootloader – Update Readout Unprotect command to initialize the whole RAM content to 0x0 before RDP disable operation"
+      ],
+      [
+        "V3.0",
+        "– Extended Erase command added to support number of pages larger than 256 and separate bank mass erase – Erase command has not been modified in this version but, due to addition of the Extended Erase command, it is no longer supported (Erase and Extended Erase commands are exclusive)"
+      ],
+      [
+        "V3.1",
+        "– Limitation fix of: When a Read Memory command or Write Memory command is issued with an unsupported memory address and a correct address checksum (i.e. address 0x6000 0000), the command is aborted by the bootloader device, but the NACK (0x1F) is not sent to the host. As a result, the next two bytes (that is, the number of bytes to be read/written and its checksum) are considered as a new command and its checksum (2). – No changes in specification, the product implementation has been corrected"
+      ],
+      [
+        "V3.3",
+        "– Added support for Get Checksum command – Updated Get Command command to return the opcode of the Get Checksum command"
+      ],
+      [
+        "V4.0",
+        "– Number of commands can vary from device to device with the same protocol. To know supported commands, use Get command"
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 2,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 2,
+      "_notes": [
+        "2. If the “number of data - 1” (N-1) to be read/written is not equal to a valid command code (0x00, 0x01, 0x02, 0x11, 0x21, 0x31, 0x43, 0x44, 0x63, 0x73, 0x82, or 0x92), the limitation is not perceived from the host as"
+      ]
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN3155",
+      "table_id": "table_3",
+      "is_continued": false,
+      "pages": [
+        48
+      ],
+      "rows_count": 7,
+      "cols_count": 2,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  },
+  {
+    "table_id": "table_4",
+    "caption": "Table 4. Document revision history",
+    "pdf_name": "AN3155",
+    "family": "41",
+    "page": 49,
+    "merged_pages": [
+      49
+    ],
+    "url": "https://www.st.com/resource/en/datasheet/AN3155.pdf",
+    "url_table": "https://www.st.com/resource/en/datasheet/AN3155.pdf#page=49",
+    "section": "4 Bootloader protocol version evolution",
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "09-Mar-2010",
+        "1",
+        "Initial release."
+      ],
+      [
+        "20-Apr-2010",
+        "2",
+        "Table 2: USART bootloader commands: added Extended Erase command; removed footnote 2 concerning read protection from the Readout Protect command. Communication safety: amended Note 1. Section 3.1: Get command: updated byte 10. Updated Figure 10: Go command: host side for missing ACK state. Section 3.7: Write Memory command: added Note 1 and Note 2. Figure 12, and Figure 13: added notes regarding N+1. Added Section 3.8: Extended Erase Memory command. Table 3: Bootloader protocol versions: added v3.0."
+      ],
+      [
+        "12-Feb-2013",
+        "3",
+        "Added Note:, Note and Note:. Changed all occurrences of \"ROP\" by \"RDP\" including in figures: Figure 9., Figure 11., Figure 13., Figure 15., Figure 17., Figure 19., Figure 21., Figure 23., Figure 25.. Added Table 1: Applicable products."
+      ],
+      [
+        "26-Mar-2013",
+        "4",
+        "Added Version 3.1 in Table 3: Bootloader protocol versions. Updated \"byte 4\" value in Section 3.3: Get ID command. Replaced \"address\" by \"ID\" in this Note 1. Replaced \"End of EER\" by \"End of Go\" in Figure 10: Go command: host side. Updated first sentence in Section 3.7: Write Memory command. Removed \"& address=0x1FFF F800\" and replaced the two tests \"Flash memory address?\" and \"RAM address?\" by a single test in Figure 13: Write Memory command: device side. Precised missing \"Y\" values in the third test of Figure 17: Extended Erase Memory command: device side. Added Note: above Figure 24: Readout Unprotect command: host side."
+      ],
+      [
+        "22-May-2013",
+        "5",
+        "Replaced \"STM32L151xx, STM32L152xx and STM32L162xx\" by \"STM32L1 series\" in Table 1: Applicable products."
+      ],
+      [
+        "20-Jun-2014",
+        "6",
+        "Updated Table 1: Applicable products. Removed footnote 4 and added footnote 3.in Table 2: USART bootloader commands. Removed section 3.1 Device-dependent bootloader parameters. Updated Figure 10: Go command: host side and Figure 11: Go command: device side. Updated Section 3.6: Write Memory command."
+      ],
+      [
+        "21-Oct-2016",
+        "7",
+        "Introduced STM32L4 and STM32F7 series, hence updated Introduction and Table 1: Applicable products."
+      ]
+    ],
+    "extraction_method": "pdfplumber",
+    "extraction_confidence": "high",
+    "empty_cell_ratio": 0.0,
+    "col_count": 3,
+    "status": null,
+    "has_empty_cells": false,
+    "heuristics": {
+      "cols_extracted": 3
+    },
+    "structured_json": null,
+    "warnings": [],
+    "datasheet_metaData": {
+      "pdf_name": "AN3155",
+      "table_id": "table_4",
+      "is_continued": false,
+      "pages": [
+        49
+      ],
+      "rows_count": 7,
+      "cols_count": 3,
+      "confidence": "high",
+      "empty_cell_ratio": 0.0
+    }
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "table_id": "table_49",
+  "caption": "Table 49. Output voltage characteristics for PC14 and PC15.",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 78,
+  "merged_pages": [
+    78
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=78",
+  "section": "5.3.14 I/O port characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions(3)",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VOL",
+      "Output low level voltage",
+      "CMOS port(1) IIO=0.5 mA 2.7 V≤ VDD ≤3.6 V",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "VOH",
+      "Output high level voltage",
+      "CMOS port(1) IIO=-0.5 mA 2.7 V≤ VDD ≤3.6 V",
+      "VDD - 0.4",
+      "-",
+      "V"
+    ],
+    [
+      "VOL(2)",
+      "Output low level voltage",
+      "TTL port(1) IIO = 0.5 mA 2.7 V ≤ VDD ≤3.6 V",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "VOH(2)",
+      "Output high level voltage",
+      "TTL port(1) IIO = -0.5 mA 2.7 V ≤ VDD ≤ 3.6 V",
+      "2.4",
+      "-",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+      "2. Specified by design - Not tested in production.",
+      "3. Compensation system enabled. DS14928 - Rev 3 page 79/132"
+    ],
+    "_legend": [
+      "Specified by design and not tested in production.",
+      "The minimum and maximum values are specified for a junction temperature TJ = 125°C.",
+      "The IIO current sourced or sunk by the device must always comply with the absolute maximum rating specified in Table 15. Current",
+      "characteristics. Additionally, the sum of the currents sourced or sunk by all the I/Os (I/O ports and control pins) must always comply with the",
+      "absolute maximum ratings ΣIIO."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_49",
+    "is_continued": false,
+    "pages": [
+      78
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

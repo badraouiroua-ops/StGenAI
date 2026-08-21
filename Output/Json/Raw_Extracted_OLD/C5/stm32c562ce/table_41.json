@@ -1,0 +1,115 @@
+{
+  "table_id": "table_41",
+  "caption": "Table 41. Flash memory programming",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 73,
+  "merged_pages": [
+    73
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=73",
+  "section": "5.3.10 Flash memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Typ",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tprog",
+      "Word programming time",
+      "128 bits (user area)",
+      "-",
+      "20.0",
+      "160.0",
+      "µs"
+    ],
+    [
+      "tprog",
+      "Word programming time",
+      "16 bits (OTP / EDATA area)",
+      "-",
+      "20.0",
+      "160.0",
+      "µs"
+    ],
+    [
+      "tERASE 8KB",
+      "Page (8 KB) erase time",
+      "-",
+      "-",
+      "2.0",
+      "2.1",
+      "ms"
+    ],
+    [
+      "tERASE 2KB",
+      "Page (2 KB) erase time",
+      "-",
+      "-",
+      "2.0",
+      "2.1",
+      "ms"
+    ],
+    [
+      "tME",
+      "Bank Mass erase time",
+      "-",
+      "-",
+      "96.0",
+      "-",
+      "ms"
+    ],
+    [
+      "tME",
+      "Mass erase time",
+      "-",
+      "-",
+      "192.0",
+      "200.0",
+      "ms"
+    ],
+    [
+      "Vprog",
+      "Programming voltage",
+      "-",
+      "2.65",
+      "-",
+      "3.6",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0204,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by test production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_41",
+    "is_continued": false,
+    "pages": [
+      73
+    ],
+    "rows_count": 7,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0204
+  }
+}

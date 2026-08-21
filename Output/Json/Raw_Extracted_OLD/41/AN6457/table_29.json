@@ -1,0 +1,46 @@
+{
+  "table_id": "table_29",
+  "caption": "Table 29. LPDMA programming for AES",
+  "pdf_name": "AN6457",
+  "family": "41",
+  "page": 19,
+  "merged_pages": [
+    19
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=19",
+  "section": "3.6.2 AES hardware accelerator (AES)",
+  "headers": [
+    "LPDMA data width for source and destination",
+    "Comments"
+  ],
+  "rows": [
+    [
+      "32-bit",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6457",
+    "table_id": "table_29",
+    "is_continued": false,
+    "pages": [
+      19
+    ],
+    "rows_count": 1,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

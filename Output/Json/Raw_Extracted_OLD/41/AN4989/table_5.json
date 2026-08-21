@@ -1,0 +1,58 @@
+{
+  "table_id": "table_5",
+  "caption": "Table 5. STM32 USART vs. PC terminal WordLength example",
+  "pdf_name": "AN4989",
+  "family": "41",
+  "page": 71,
+  "merged_pages": [
+    71
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4989.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4989.pdf#page=71",
+  "section": "7.2 Printf via UART",
+  "headers": [
+    "STM32 UART",
+    "PC Terminal"
+  ],
+  "rows": [
+    [
+      "Word Length: 8, Parity: Odd",
+      "Data: 7, Parity: Odd"
+    ],
+    [
+      "Word Length: 8, Parity: None",
+      "Data: 8, Parity: None"
+    ],
+    [
+      "Word Length: 9, Parity: Odd",
+      "Data 8, Parity: Odd"
+    ],
+    [
+      "Word Length: 7, Parity: Odd/None",
+      "Not Working with VCP"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4989",
+    "table_id": "table_5",
+    "is_continued": false,
+    "pages": [
+      71
+    ],
+    "rows_count": 4,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "table_id": "table_46",
+  "caption": "Table 46. Low-power mode wake-up timings",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 158,
+  "merged_pages": [
+    158
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=158",
+  "section": "5.3.7 Wake-up time from low-power modes",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Typ",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t WU(Sleep)",
+      "Wake-up time from Sleep",
+      "-",
+      "38",
+      "CPU clock cycles"
+    ],
+    [
+      "t WUDSTOP",
+      "Wake-up time from Stop",
+      "SVOS HIGH, HSI 64 MHz, clock disabled",
+      "10",
+      "µs"
+    ],
+    [
+      "t WUDSTOP",
+      "Wake-up time from Stop",
+      "SVOS HIGH, HSI 64 MHz, clock enabled",
+      "5",
+      "µs"
+    ],
+    [
+      "t WUDSTOP",
+      "Wake-up time from Stop",
+      "SVOS HIGH, MSI 4 MHz, clock disabled",
+      "65",
+      "µs"
+    ],
+    [
+      "t WUDSTOP",
+      "Wake-up time from Stop",
+      "SVOS HIGH, MSI 4 MHz, clock enabled",
+      "55",
+      "µs"
+    ],
+    [
+      "t WUSTBY",
+      "Wake-up time from Standby mode",
+      "-",
+      "400",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_46",
+    "is_continued": false,
+    "pages": [
+      158
+    ],
+    "rows_count": 6,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

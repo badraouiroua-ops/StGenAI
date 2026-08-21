@@ -1,0 +1,106 @@
+{
+  "table_id": "table_78",
+  "caption": "Table 78. Synchronous multiplexed PSRAM write timings",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 183,
+  "merged_pages": [
+    183
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=183",
+  "section": "5.3.19 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t d(CLKL-AV)",
+      "FMC_CLK low to FMC_Ax valid (x = 16…25)",
+      "-",
+      "0",
+      "ns"
+    ],
+    [
+      "t d(CLKH-AIV)",
+      "FMC_CLK high to FMC_Ax invalid (x = 16…25)",
+      "R × T (2) fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(CLKL-ADV)",
+      "FMC_CLK low to FMC_AD[15:0] valid",
+      "-",
+      "5",
+      "ns"
+    ],
+    [
+      "t d(CLKL-ADIV)",
+      "FMC_CLK low to FMC_AD[15:0] invalid",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(CLKL-NBLL)",
+      "FMC_CLK low to FMC_NBL low",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "T cew(NExL -NWAIT)",
+      "FMC_NWAIT valid after FMC_NEx low (x = 0…2)",
+      "-",
+      "(DATLAT + 2.5) × T × R - 10.5 fmc_ker_ck",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. Clock ratio R = FMC_CLK period / FMC_ker_CLK period. DS14791 Rev 9 183/258"
+    ],
+    "_dedup_rows_removed": 11,
+    "_dedup_removed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      11,
+      13,
+      14,
+      15
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_78",
+    "is_continued": false,
+    "pages": [
+      183
+    ],
+    "rows_count": 6,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

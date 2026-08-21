@@ -1,0 +1,200 @@
+{
+  "table_id": "table_44",
+  "caption": "Table 44. ESD absolute maximum ratings.",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 74,
+  "merged_pages": [
+    74
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=74",
+  "section": "5.3.12 Electrical sensitivity characteristics",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Conditions",
+    "Packages",
+    "Class",
+    "Maximum value(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
+      "LQFP100",
+      "2",
+      "3400(2)",
+      "V"
+    ],
+    [
+      "VESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
+      "LQFP80",
+      "2",
+      "3400(2)",
+      "V"
+    ],
+    [
+      "VESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
+      "LQFP64",
+      "2",
+      "3400(2)",
+      "V"
+    ],
+    [
+      "VESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
+      "LQFP64 alternative pinout",
+      "3A",
+      "4000",
+      "V"
+    ],
+    [
+      "VESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
+      "LQFP48",
+      "2",
+      "3400(2)",
+      "V"
+    ],
+    [
+      "VESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
+      "UFQFPN48",
+      "2",
+      "3400(2)",
+      "V"
+    ],
+    [
+      "VESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
+      "LQFP32",
+      "2",
+      "3400(2)",
+      "V"
+    ],
+    [
+      "VESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-001",
+      "UFQFPN32",
+      "2",
+      "3400(2)",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+      "LQFP100",
+      "C3",
+      "1000",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+      "LQFP80",
+      "C3",
+      "1000",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+      "LQFP64",
+      "C3",
+      "1250",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+      "LQFP64 alternative pinout",
+      "C3",
+      "1250",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+      "LQFP48",
+      "C3",
+      "1250",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+      "UFQFPN48",
+      "C3",
+      "1250",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+      "LQFP32",
+      "C3",
+      "1250",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS-002",
+      "UFQFPN32",
+      "C3",
+      "1250",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Refer to the EMI radiated test section of the application note EMC design guide for STM8, STM32 and Legacy MCUs (AN1709).",
+      "2. Refer to the EMI level classification section of the application note EMC design guide for STM8, STM32 and Legacy MCUs (AN1709)."
+    ],
+    "_legend": [
+      "Specified by design and not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_44",
+    "is_continued": false,
+    "pages": [
+      74
+    ],
+    "rows_count": 16,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

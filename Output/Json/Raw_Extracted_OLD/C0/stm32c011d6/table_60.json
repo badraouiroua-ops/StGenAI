@@ -1,0 +1,125 @@
+{
+  "table_id": "table_60",
+  "caption": "Table 60. Minimum I2CCLK frequency",
+  "pdf_name": "stm32c011d6",
+  "family": "C0",
+  "page": 72,
+  "merged_pages": [
+    72
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=72",
+  "section": "5.3.19 Characteristics of communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Condition",
+    "Typ",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f I2CCLK(min)",
+      "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+      "Standard-mode",
+      "Standard-mode",
+      "2",
+      "MHz"
+    ],
+    [
+      "f I2CCLK(min)",
+      "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+      "Fast-mode",
+      "Analog filter enabled",
+      "9",
+      "MHz"
+    ],
+    [
+      "f I2CCLK(min)",
+      "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+      "Fast-mode",
+      "DNF = 0",
+      "9",
+      "MHz"
+    ],
+    [
+      "f I2CCLK(min)",
+      "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+      "Fast-mode",
+      "Analog filter disabled",
+      "9",
+      "MHz"
+    ],
+    [
+      "f I2CCLK(min)",
+      "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+      "Fast-mode",
+      "DNF = 1",
+      "9",
+      "MHz"
+    ],
+    [
+      "f I2CCLK(min)",
+      "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+      "Fast-mode Plus",
+      "Analog filter enabled",
+      "19",
+      "MHz"
+    ],
+    [
+      "f I2CCLK(min)",
+      "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+      "Fast-mode Plus",
+      "DNF = 0",
+      "19",
+      "MHz"
+    ],
+    [
+      "f I2CCLK(min)",
+      "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+      "Fast-mode Plus",
+      "Analog filter disabled",
+      "16",
+      "MHz"
+    ],
+    [
+      "f I2CCLK(min)",
+      "Minimum I2CCLK frequency for correct operation of I2C peripheral",
+      "Fast-mode Plus",
+      "DNF = 1",
+      "16",
+      "MHz"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Evaluated by characterization. Not tested in production.",
+      "2. Spikes with widths below t (min) are filtered. AF",
+      "3. Spikes with widths above t (max) are not filtered. AF"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c011d6",
+    "table_id": "table_60",
+    "is_continued": false,
+    "pages": [
+      72
+    ],
+    "rows_count": 9,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

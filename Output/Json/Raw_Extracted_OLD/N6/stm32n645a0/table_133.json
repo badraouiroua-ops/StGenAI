@@ -1,0 +1,209 @@
+{
+  "table_id": "table_133",
+  "caption": "Table 133. VFBGA223 - Mechanical data",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 248,
+  "merged_pages": [
+    248
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=248",
+  "section": "5.3.38 JTAG/SWD interface characteristics",
+  "headers": [
+    "Symbol",
+    "millimeters(1) / Min",
+    "millimeters(1) / Typ",
+    "millimeters(1) / Max",
+    "inches(12) / Min",
+    "inches(12) / Typ",
+    "inches(12) / Max"
+  ],
+  "rows": [
+    [
+      "A1(4)",
+      "0.13",
+      "-",
+      "-",
+      "0.0051",
+      "-",
+      "-"
+    ],
+    [
+      "A2",
+      "-",
+      "0.51",
+      "-",
+      "-",
+      "0.0201",
+      "-"
+    ],
+    [
+      "b(5)",
+      "0.26",
+      "0.31",
+      "0.36",
+      "0.0102",
+      "0.0122",
+      "0.0142"
+    ],
+    [
+      "D(6)",
+      "10.00 BSC",
+      "10.00 BSC",
+      "10.00 BSC",
+      "0.3937BSC",
+      "0.3937BSC",
+      "0.3937BSC"
+    ],
+    [
+      "D1",
+      "9.00 BSC",
+      "9.00 BSC",
+      "9.00 BSC",
+      "0.3543 BSC",
+      "0.3543 BSC",
+      "0.3543 BSC"
+    ],
+    [
+      "E",
+      "10.00 BSC",
+      "10.00 BSC",
+      "10.00 BSC",
+      "0.3937BSC",
+      "0.3937BSC",
+      "0.3937BSC"
+    ],
+    [
+      "E1",
+      "9.00 BSC",
+      "9.00 BSC",
+      "9.00 BSC",
+      "0.3543 BSC",
+      "0.3543 BSC",
+      "0.3543 BSC"
+    ],
+    [
+      "e(9)",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC"
+    ],
+    [
+      "N(10)",
+      "223",
+      "223",
+      "223",
+      "223",
+      "223",
+      "223"
+    ],
+    [
+      "SD(11)",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC"
+    ],
+    [
+      "SE(11)",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC"
+    ],
+    [
+      "aaa(12)",
+      "0.15",
+      "0.15",
+      "0.15",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "ccc(12)",
+      "0.20",
+      "0.20",
+      "0.20",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "ddd(12)",
+      "0.08",
+      "0.08",
+      "0.08",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ],
+    [
+      "eee(12)",
+      "0.15",
+      "0.15",
+      "0.15",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "fff(12)",
+      "0.05",
+      "0.05",
+      "0.05",
+      "0.0020",
+      "0.0020",
+      "0.0020"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-2009 apart European projection.",
+      "2. VFBGA stands for very thin profile fine pitch ball grid array: 0.8 mm < A ≤ 1.00 mm / fine pitch e < 1.00 mm.",
+      "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "4. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "5. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+      "6. BSC stands for BASIC dimensions. It corresponds to the nominal value and has no tolerance. For tolerances refer to form and position table. On the drawing these",
+      "9. e represents the solder ball grid pitch.",
+      "10. N represents the total number of balls on the BGA.",
+      "11. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Tolerance of form and position drawing."
+    ],
+    "_dedup_rows_removed": 1,
+    "_dedup_removed_indices": [
+      0
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_133",
+    "is_continued": false,
+    "pages": [
+      248
+    ],
+    "rows_count": 16,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

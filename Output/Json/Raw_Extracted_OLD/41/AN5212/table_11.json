@@ -1,0 +1,83 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. Document revision history",
+  "pdf_name": "AN5212",
+  "family": "41",
+  "page": 21,
+  "merged_pages": [
+    21
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5212.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5212.pdf#page=21",
+  "section": "5 Conclusion",
+  "headers": [
+    "Date",
+    "Version",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "10-Oct-2019",
+      "1",
+      "Initial release."
+    ],
+    [
+      "27-Feb-2020",
+      "2",
+      "Updated: • Table 2. Memory regions and their addresses • Section 2.1.7 ICACHE maintenance • Section 2.1.8 ICACHE security"
+    ],
+    [
+      "7-Dec-2021",
+      "3",
+      "Updated: • Document title • Introduction • Section 1 ICACHE and DCACHE overview • Section 4 Conclusion Added: • Section 2 ICACHE and DCACHE features • Section 3 ICACHE and DCACHE performance and power consumption"
+    ],
+    [
+      "15-Feb-2023",
+      "4",
+      "Updated: • Section 2.2: STM32U5 series smart architecture • Section 2.7: DCACHE block diagram • Section 3.1.1: Dual masters • Section 3.1.2: 1-way versus 2-way ICACHE • Section 3.1.4: Cacheable regions and remapping feature • Section 3.2: DCACHE features • Section 3.2.2: DCACHE cacheable regions • Section 4: ICACHE and DCACHE performance and power consumption Added: • Section 1: General information"
+    ],
+    [
+      "11-Mar-2024",
+      "5",
+      "Updated: • Section 2.4: STM32H5 series smart architecture • Section 3.1.1: Dual masters"
+    ],
+    [
+      "17-May-2024",
+      "6",
+      "Updated: • Section 2.4: STM32H5 series smart architecture"
+    ],
+    [
+      "06-Feb-2025",
+      "7",
+      "Added: • Section 2.3: STM32U3 series smart architecture Updated to add STM32U3 series: • Section Introduction • Section 3.1.2: 1-way versus 2-way ICACHE • Section 3.1.4: Cacheable regions and remapping feature"
+    ],
+    [
+      "13-01-2026",
+      "8",
+      "Added: • Section 2.5: STM32C5 series smart architecture Updated to add STM32C5 series: • Table 1. Applicable products • Table 2. Memory regions and their addresses Updated document title."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5212",
+    "table_id": "table_11",
+    "is_continued": false,
+    "pages": [
+      21
+    ],
+    "rows_count": 8,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

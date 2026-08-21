@@ -1,0 +1,86 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. Protected sink application - sequence of exiting Dead battery mode",
+  "pdf_name": "AN5225",
+  "family": "test_41",
+  "page": 28,
+  "merged_pages": [
+    28
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=28",
+  "section": "11.3 Hardware overview",
+  "headers": [
+    "Sequence",
+    "VBUS",
+    "VDD",
+    "Protection circuit state",
+    "Device CC pins/Rd value",
+    "Comment"
+  ],
+  "rows": [
+    [
+      "Step 0",
+      "0 V",
+      "0 V",
+      "active",
+      "isolated/DB",
+      "-"
+    ],
+    [
+      "Step 1",
+      "5 V",
+      "0 V",
+      "bypass",
+      "connected/DB",
+      "VBUS arrives"
+    ],
+    [
+      "Step 2",
+      "5 V",
+      "3.3 V",
+      "bypass",
+      "connected/ default Rd",
+      "device supply arrives"
+    ],
+    [
+      "Step 3",
+      "5 V",
+      "3.3 V",
+      "bypass",
+      "connected / as selected by SW",
+      "upon write to ANAMODE"
+    ],
+    [
+      "Step 4",
+      "5 V",
+      "3.3 V",
+      "bypass, low power",
+      "connected / as selected by SW",
+      "upon I2C write to protection circuit"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5225",
+    "table_id": "table_11",
+    "is_continued": false,
+    "pages": [
+      28
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

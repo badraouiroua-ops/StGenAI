@@ -1,0 +1,104 @@
+{
+  "table_id": "table_12",
+  "caption": "Table 12. Instance implementation",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 72,
+  "merged_pages": [
+    72,
+    73
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=72",
+  "section": "3.45.2 LPUART",
+  "headers": [
+    "Instance",
+    "STM32N6xx"
+  ],
+  "rows": [
+    [
+      "USART1",
+      "Full"
+    ],
+    [
+      "USART2",
+      "Full"
+    ],
+    [
+      "USART3",
+      "Full"
+    ],
+    [
+      "USART6",
+      "Full"
+    ],
+    [
+      "USART10",
+      "Full"
+    ],
+    [
+      "UART4",
+      "Basic"
+    ],
+    [
+      "UART5",
+      "Basic"
+    ],
+    [
+      "UART7",
+      "Basic"
+    ],
+    [
+      "UART8",
+      "Basic"
+    ],
+    [
+      "UART9",
+      "Basic"
+    ],
+    [
+      "LPUART1",
+      "Low-power"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "continuation": {
+      "base_cols": 2,
+      "cont_cols_raw": 2,
+      "target_cols": 2,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. X = supported.",
+      "2. Wake-up supported from Stop mode."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_12",
+    "is_continued": true,
+    "pages": [
+      72,
+      73
+    ],
+    "rows_count": 11,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

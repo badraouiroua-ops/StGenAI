@@ -1,0 +1,80 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. Electrical characteristics",
+  "pdf_name": "AN5879",
+  "family": "41",
+  "page": 10,
+  "merged_pages": [
+    10
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=10",
+  "section": "5.1 Electrical characteristics",
+  "headers": [
+    "Parameters",
+    "Min",
+    "Typical",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "Operating voltage",
+      "1.10",
+      "1.20",
+      "1.30",
+      "V"
+    ],
+    [
+      "Operating voltage",
+      "1.65",
+      "1.80",
+      "1.95",
+      "V"
+    ],
+    [
+      "Operating voltage",
+      "2.97",
+      "3.30",
+      "3.63",
+      "V"
+    ],
+    [
+      "SCL clock frequency",
+      "0.01",
+      "12.5",
+      "12.9",
+      "MHz"
+    ],
+    [
+      "Total bus capacitance",
+      "-",
+      "50",
+      "-",
+      "pF"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5879",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      10
+    ],
+    "rows_count": 5,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

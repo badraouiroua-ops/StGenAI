@@ -1,0 +1,61 @@
+{
+  "table_id": "table_61",
+  "caption": "Table 61. EMS characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 166,
+  "merged_pages": [
+    166
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=166",
+  "section": "5.3.14 EMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Level/Class"
+  ],
+  "rows": [
+    [
+      "V FESD",
+      "Voltage limits to apply on any I/O pin to induce a functional disturbance",
+      "V = 3.3 V, T = +25°C, DD A f = 1200 MHz, f = 600 MHz, PLL1 ck_icn_hs_mcu VFBGA264 package, conforming to IEC 61000-4-2",
+      "2B"
+    ],
+    [
+      "V FTB",
+      "Fast transient voltage burst limits to apply through 100 pF on V and V pins to DD SS induce a functional disturbance",
+      "V = 3.3 V, T = +25°C, DD A f = 1200 MHz, f = 600 MHz, PLL1 ck_icn_hs_mcu VFBGA264 package, conforming to IEC 61000-4-2",
+      "5A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Evaluated by characterization, not tested in production, unless otherwise specified. Designing hardened software to avoid noise problems",
+      "2. Refer to AN1709, “EMI radiated test” section.",
+      "3. Refer to AN1709, “EMI level classification” section."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_61",
+    "is_continued": false,
+    "pages": [
+      166
+    ],
+    "rows_count": 2,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

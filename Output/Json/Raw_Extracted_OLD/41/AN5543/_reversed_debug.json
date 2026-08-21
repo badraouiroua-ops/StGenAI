@@ -1,0 +1,99 @@
+{
+  "pdf_name": "AN5543",
+  "family": "41",
+  "tables_checked": 3,
+  "cells_checked": 10,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Data size",
+      "reversed": false,
+      "drift": -4.57,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "8- or 16-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 2,
+      "row": 0,
+      "original": "4- to 16-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 3,
+      "row": 0,
+      "original": "4- to 16/32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 4,
+      "row": 0,
+      "original": "4- to 16/32-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Setting of DMA data counters",
+      "reversed": false,
+      "drift": -5.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Number of data excluding the CRC",
+      "reversed": false,
+      "drift": 8.37,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Number of data excluding the CRC(1)",
+      "reversed": false,
+      "drift": 8.37,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "30-Nov-2020",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

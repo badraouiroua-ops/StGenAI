@@ -1,0 +1,65 @@
+{
+  "table_id": "table_48",
+  "caption": "Table 48. ESD absolute maximum ratings",
+  "pdf_name": "stm32c071r8",
+  "family": "C0",
+  "page": 78,
+  "merged_pages": [
+    78
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=78",
+  "section": "5.3.11 Electrical sensitivity characteristics",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Conditions",
+    "Class",
+    "Maximum value(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V ESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "T = +25 °C, conforming to A ANSI/ESDA/JEDEC JS-001",
+      "2",
+      "2000",
+      "V"
+    ],
+    [
+      "V ESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "T = +25 °C, conforming to A ANSI/ESDA/JEDEC JS-002",
+      "C2a",
+      "500",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Evaluated by characterization. Not tested in production. Static latch-up"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c071r8",
+    "table_id": "table_48",
+    "is_continued": false,
+    "pages": [
+      78
+    ],
+    "rows_count": 2,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

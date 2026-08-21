@@ -1,0 +1,59 @@
+{
+  "table_id": "table_54",
+  "caption": "Table 54. EXTI input characteristics",
+  "pdf_name": "stm32c051c6",
+  "family": "C0",
+  "page": 70,
+  "merged_pages": [
+    70
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=70",
+  "section": "5.3.15 Extended interrupt and event controller input (EXTI) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter(1)",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "PLEC",
+      "Pulse length to event controller",
+      "-",
+      "20",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. The reset network protects the device against parasitic resets."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c051c6",
+    "table_id": "table_54",
+    "is_continued": false,
+    "pages": [
+      70
+    ],
+    "rows_count": 1,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

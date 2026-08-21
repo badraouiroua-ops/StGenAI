@@ -1,0 +1,16 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN4655.pdf",
+  "family": "41",
+  "pdf_name": "AN4655",
+  "tables_found": 1,
+  "tables_extracted": 1,
+  "high": 1,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [],
+  "dedup_rows_removed": 0,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

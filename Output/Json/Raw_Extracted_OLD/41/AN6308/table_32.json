@@ -1,0 +1,118 @@
+{
+  "table_id": "table_32",
+  "caption": "Table 32. LPTIM features",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 44,
+  "merged_pages": [
+    44
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=44",
+  "section": "6.6.3 GP timers with autoreload up-counter",
+  "headers": [
+    "Feature",
+    "STM32H5",
+    "STM32C5"
+  ],
+  "rows": [
+    [
+      "LPTIMx",
+      "LPTIM1 and LPTIM2",
+      "LPTIM1"
+    ],
+    [
+      "Counter resolution and type",
+      "16 bit up-counter",
+      "16 bit up-counter"
+    ],
+    [
+      "Prescaler factor",
+      "3-bit prescaler with 8 possible dividing factors (1,2,4,8,16,32,64,128)",
+      "3-bit prescaler with 8 possible dividing factors (1,2,4,8,16,32,64,128)"
+    ],
+    [
+      "Selectable clock",
+      "• Internal clock sources: configurable internal clock source (see RCC section) • External clock source over LPTIM input (working with no LP oscillator running, used by pulse counter application)",
+      "• Internal clock sources: configurable internal clock source (see RCC section) • External clock source over LPTIM input (working with no LP oscillator running, used by pulse counter application)"
+    ],
+    [
+      "Autoreload",
+      "16 bit ARR auto reload register",
+      "16 bit ARR auto reload register"
+    ],
+    [
+      "Capture/compare",
+      "16 bit capture/compare register",
+      "16 bit capture/compare register"
+    ],
+    [
+      "Continuous mode",
+      "Continuous/one-shot mode",
+      "Continuous/one-shot mode"
+    ],
+    [
+      "Trigger mode",
+      "Selectable software/hardware input trigger",
+      "Selectable software/hardware input trigger"
+    ],
+    [
+      "Glitch filter",
+      "Programmable digital glitch filter",
+      "Programmable digital glitch filter"
+    ],
+    [
+      "Configurable output",
+      "Configurable output: pulse, PWM",
+      "Configurable output: pulse, PWM"
+    ],
+    [
+      "Polarity",
+      "Configurable I/O polarity",
+      "Configurable I/O polarity"
+    ],
+    [
+      "Encoder mode",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Repetition counter",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Input capture, PWM, and one‑pulse channels",
+      "Up to two independent channels for: • Input capture • PWM generation (edge-aligned mode) • One-pulse mode output",
+      "Up to two independent channels for: • Input capture • PWM generation (edge-aligned mode) • One-pulse mode output"
+    ],
+    [
+      "DMA requests",
+      "DMA request generation on the following events: • Update event • Input capture",
+      "DMA request generation on the following events: • Update event • Input capture"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_32",
+    "is_continued": false,
+    "pages": [
+      44
+    ],
+    "rows_count": 15,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

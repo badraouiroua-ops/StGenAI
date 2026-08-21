@@ -1,0 +1,71 @@
+{
+  "table_id": "table_11",
+  "document": "Table 11. Protected sink application - sequence of exiting Dead battery mode",
+  "rev": null,
+  "table_number": "11",
+  "title": "Table 11. Protected sink application - sequence of exiting Dead battery mode",
+  "page": 28,
+  "section": "11.3 Hardware overview",
+  "section_title": "Hardware overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=28",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 11. Protected sink application - sequence of exiting Dead battery mode — section 11.3 Hardware overview. Sequence, VBUS, VDD, Protection circuit state, Device CC pins/Rd value, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Sequence",
+      "VBUS",
+      "VDD",
+      "Protection circuit state",
+      "Device CC pins/Rd value",
+      "Comment"
+    ],
+    "rows": [
+      [
+        "Step 0",
+        "0 V",
+        "0 V",
+        "active",
+        "isolated/DB",
+        "-"
+      ],
+      [
+        "Step 1",
+        "5 V",
+        "0 V",
+        "bypass",
+        "connected/DB",
+        "VBUS arrives"
+      ],
+      [
+        "Step 2",
+        "5 V",
+        "3.3 V",
+        "bypass",
+        "connected/ default Rd",
+        "device supply arrives"
+      ],
+      [
+        "Step 3",
+        "5 V",
+        "3.3 V",
+        "bypass",
+        "connected / as selected by SW",
+        "upon write to ANAMODE"
+      ],
+      [
+        "Step 4",
+        "5 V",
+        "3.3 V",
+        "bypass, low power",
+        "connected / as selected by SW",
+        "upon I2C write to protection circuit"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

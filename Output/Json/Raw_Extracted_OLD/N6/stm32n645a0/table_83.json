@@ -1,0 +1,75 @@
+{
+  "table_id": "table_83",
+  "caption": "Table 83. SDRAM read timings",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 190,
+  "merged_pages": [
+    190
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=190",
+  "section": "5.3.19 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(SDCLK)",
+      "FMC_SDCLK period",
+      "2 × T - 0.5 fmc_ker_ck",
+      "2 × T + 0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      ")ataD_H KLCDS(h t",
+      "Data input hold time",
+      "2(2) / 0.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. Primary interfaces used. 190/258 DS14791 Rev 9"
+    ],
+    "_dedup_rows_removed": 8,
+    "_dedup_removed_indices": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_83",
+    "is_continued": false,
+    "pages": [
+      190
+    ],
+    "rows_count": 2,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

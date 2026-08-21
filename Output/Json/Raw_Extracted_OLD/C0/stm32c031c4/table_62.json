@@ -1,0 +1,246 @@
+{
+  "table_id": "table_62",
+  "caption": "Table 62. SPI characteristics",
+  "pdf_name": "stm32c031c4",
+  "family": "C0",
+  "page": 77,
+  "merged_pages": [
+    77,
+    78
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=77",
+  "section": "5.3.18 Characteristics of communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f SCK 1/t c(SCK)",
+      "SPI clock frequency",
+      "Master mode 2. V < V < 3.6 V DD",
+      "-",
+      "-",
+      "24",
+      "MHz"
+    ],
+    [
+      "f SCK 1/t c(SCK)",
+      "SPI clock frequency",
+      "Master transmitter mode 2. V < V < 3.6 V DD",
+      "-",
+      "-",
+      "24",
+      "MHz"
+    ],
+    [
+      "f SCK 1/t c(SCK)",
+      "SPI clock frequency",
+      "Slave receiver mode",
+      "-",
+      "-",
+      "24",
+      "MHz"
+    ],
+    [
+      "f SCK 1/t c(SCK)",
+      "SPI clock frequency",
+      "Slave transmitter mode/full duplex(2) 2.7 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "24",
+      "MHz"
+    ],
+    [
+      "f SCK 1/t c(SCK)",
+      "SPI clock frequency",
+      "Slave transmitter mode/full duplex(2) 2 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "22",
+      "MHz"
+    ],
+    [
+      "t su(NSS)",
+      "NSS setup time",
+      "Slave mode",
+      "4 * T PCLK",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NSS)",
+      "NSS hold time",
+      "Slave mode",
+      "2 * T PCLK",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t w(SCKH) t w(SCKL)",
+      "SCK high and low time",
+      "Master mode",
+      "T PCLK - 1",
+      "T PCLK",
+      "T PCLK + 1",
+      "ns"
+    ],
+    [
+      "-",
+      "SCK low time",
+      "Master mode",
+      "T PCLK - 2",
+      "T PCLK",
+      "T PCLK + 2",
+      "ns"
+    ],
+    [
+      "t su(MI)",
+      "Data input setup time",
+      "Master mode",
+      "4.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SI)",
+      "Data input setup time",
+      "Slave mode",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MI)",
+      "Data input hold time",
+      "Master mode",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SI)",
+      "-",
+      "Slave mode",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t a(SO)",
+      "Data output access time",
+      "Slave mode",
+      "9",
+      "-",
+      "34",
+      "ns"
+    ],
+    [
+      "t dis(SO)",
+      "Data output disable time",
+      "Slave mode",
+      "9",
+      "-",
+      "16",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time",
+      "Slave mode 2.7 V < V < 3.6 V DD",
+      "-",
+      "10",
+      "16",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time",
+      "Slave mode 2 V < V < 3.6 V DD",
+      "-",
+      "10",
+      "22",
+      "ns"
+    ],
+    [
+      "t v(MO)",
+      "-",
+      "Master mode",
+      "-",
+      "3",
+      "5.5",
+      "ns"
+    ],
+    [
+      "t h(SO)",
+      "Data output hold time",
+      "Slave mode 2 V < V < 3.6 V DD",
+      "8",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MO)",
+      "-",
+      "Master mode",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0214,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. Spikes shorter than the limiting duration are suppressed. SPI/I2S characteristics"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c031c4",
+    "table_id": "table_62",
+    "is_continued": true,
+    "pages": [
+      77,
+      78
+    ],
+    "rows_count": 20,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0214
+  }
+}

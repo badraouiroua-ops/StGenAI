@@ -1,0 +1,130 @@
+{
+  "table_id": "table_66",
+  "caption": "Table 66. UFQFPN28 – Mechanical data",
+  "pdf_name": "stm32c031c4",
+  "family": "C0",
+  "page": 87,
+  "merged_pages": [
+    87
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=87",
+  "section": "6.1 Device marking",
+  "headers": [
+    "Symbol",
+    "millimeters / Min",
+    "millimeters / Typ",
+    "millimeters / Max",
+    "inches / Min",
+    "inches / Typ",
+    "inches / Max"
+  ],
+  "rows": [
+    [
+      "A1",
+      "-",
+      "0.000",
+      "0.050",
+      "-",
+      "0.0000",
+      "0.0020"
+    ],
+    [
+      "D",
+      "3.900",
+      "4.000",
+      "4.100",
+      "0.1535",
+      "0.1575",
+      "0.1614"
+    ],
+    [
+      "D1",
+      "2.900",
+      "3.000",
+      "3.100",
+      "0.1142",
+      "0.1181",
+      "0.1220"
+    ],
+    [
+      "E",
+      "3.900",
+      "4.000",
+      "4.100",
+      "0.1535",
+      "0.1575",
+      "0.1614"
+    ],
+    [
+      "E1",
+      "2.900",
+      "3.000",
+      "3.100",
+      "0.1142",
+      "0.1181",
+      "0.1220"
+    ],
+    [
+      "L1",
+      "0.250",
+      "0.350",
+      "0.450",
+      "0.0098",
+      "0.0138",
+      "0.0177"
+    ],
+    [
+      "T",
+      "-",
+      "0.152",
+      "-",
+      "-",
+      "0.0060",
+      "-"
+    ],
+    [
+      "b",
+      "0.200",
+      "0.250",
+      "0.300",
+      "0.0079",
+      "0.0098",
+      "0.0118"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Drawing is not to scale."
+    ],
+    "_dedup_rows_removed": 3,
+    "_dedup_removed_indices": [
+      0,
+      6,
+      10
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c031c4",
+    "table_id": "table_66",
+    "is_continued": false,
+    "pages": [
+      87
+    ],
+    "rows_count": 8,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

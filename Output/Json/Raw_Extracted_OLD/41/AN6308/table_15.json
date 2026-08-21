@@ -1,0 +1,157 @@
+{
+  "table_id": "table_15",
+  "caption": "Table 15. RCC features",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 26,
+  "merged_pages": [
+    26,
+    27
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=26",
+  "section": "6.2.4 Reset and clock control (RCC)",
+  "headers": [
+    "RCC",
+    "STM32H5",
+    "STM32C5",
+    "STM32C5"
+  ],
+  "rows": [
+    [
+      "HSI",
+      "64 MHz RC oscillator",
+      "144 MHz oscillator 3 outputs clock possible: • HSIS 144 MHz intended for SYSCLK • HSIDIV3 48 MHz intended for USB • HSIK prescaled clock for peripheral kernel clock",
+      "144 MHz oscillator 3 outputs clock possible: • HSIS 144 MHz intended for SYSCLK • HSIDIV3 48 MHz intended for USB • HSIK prescaled clock for peripheral kernel clock"
+    ],
+    [
+      "PSI",
+      "NA",
+      "100 MHz, 144 MHz or 160 MHz oscillator 3 outputs clock possible: • PSIS 100 MHz or 144 MHz intended for SYSCLK • PSIDIV3 intended for USB • PSIK prescaled clock for peripheral kernel clock",
+      "100 MHz, 144 MHz or 160 MHz oscillator 3 outputs clock possible: • PSIS 100 MHz or 144 MHz intended for SYSCLK • PSIDIV3 intended for USB • PSIK prescaled clock for peripheral kernel clock"
+    ],
+    [
+      "CSI",
+      "CSI: low-power RC oscillator that can be used directly as a system clock, peripheral clock, or PLL input: • Low-cost clock source since no external crystal is required Faster startup time than HSI (a few microseconds) • Very low-power consumption • The CSI provides a clock frequency of about 4 MHz",
+      "NA",
+      "NA"
+    ],
+    [
+      "HSI48",
+      "48 MHz RC oscillator HSI48 can drive USB and RNG.",
+      "NA",
+      "NA"
+    ],
+    [
+      "LSI",
+      "32 kHz RC Lower consumption, higher accuracy",
+      "32 kHz RC Lower consumption, higher accuracy",
+      "32 kHz RC Lower consumption, higher accuracy"
+    ],
+    [
+      "HSE",
+      "From 4 to 50 MHz",
+      "From 4 to 50 MHz",
+      "From 4 to 50 MHz"
+    ],
+    [
+      "LSE",
+      "32.768 kHz Configurable drive/consumption",
+      "32.768 kHz Configurable drive/consumption",
+      "32.768 kHz Configurable drive/consumption"
+    ],
+    [
+      "PLL",
+      "Three PLLs: • Main PLL (PLL1) provides clocks for CPU and some peripherals • PLL2 and PLL3 generate the kernel clock for peripherals Each PLL offers three outputs with postdividers. Input frequency range: • 2 to 16 MHz for the VCO in wide-range mode • 1 to 2 MHz for the VCO in low-range mode",
+      "No PLLs",
+      "No PLLs"
+    ],
+    [
+      "AHB frequency",
+      "Up to 250 MHz",
+      "Up to 144 MHz",
+      "Up to 144 MHz"
+    ],
+    [
+      "APB1 frequency",
+      "",
+      "",
+      ""
+    ],
+    [
+      "APB2 frequency",
+      "",
+      "",
+      ""
+    ],
+    [
+      "RTC clock source",
+      "LSE, LSI or HSE divided by 2 to 511",
+      "LSE, LSI or HSE divided by 2 to 511",
+      "LSE, LSI, or HSE/ 32"
+    ],
+    [
+      "Kernel clock",
+      "Independent kernel clock for each peripheral, allowing frequency scaling without impact on communication interfaces",
+      "Independent kernel clock for each peripheral, allowing frequency scaling without impact on communication interfaces",
+      "Independent kernel clock for each peripheral, allowing frequency scaling without impact on communication interfaces"
+    ],
+    [
+      "System clock source",
+      "HSIDIV3, HSIS, PSIS or HSE",
+      "HSIDIV3, HSIS, PSIS or HSE",
+      "HSI, CSI, HSE, or PLL1"
+    ],
+    [
+      "Clock security system",
+      "CSS on HSE, CSS on LSE",
+      "CSS on HSE, CSS on LSE",
+      "CSS on HSE, CSS on LSE"
+    ],
+    [
+      "MCO clock source",
+      "• MCO1 pin (PA8): SYSCLK, HSE , LSE, LSI, PSIK, HSIK, PSIS or HSIS • MCO2 pin (PC9): SYSCLK, HSE, LSE, LSI, PSIK, HSIK, PSIDIV3 or HSIDIV3",
+      "• MCO1 pin (PA8): SYSCLK, HSE , LSE, LSI, PSIK, HSIK, PSIS or HSIS • MCO2 pin (PC9): SYSCLK, HSE, LSE, LSI, PSIK, HSIK, PSIDIV3 or HSIDIV3",
+      "• MCO1 pin (PA8): HSI, LSE, HSE, PLL1, or HSI48 • MCO2 pin (PC9): SYSCLK, PLL2, HSE, PLL1, CSI, or LSI"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0938,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 4,
+      "cont_cols_raw": 4,
+      "target_cols": 4,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_15",
+    "is_continued": true,
+    "pages": [
+      26,
+      27
+    ],
+    "rows_count": 16,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0938
+  }
+}

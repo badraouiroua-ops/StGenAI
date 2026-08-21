@@ -1,0 +1,96 @@
+{
+  "table_id": "table_14",
+  "caption": "Table 14. Voltage characteristics",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 55,
+  "merged_pages": [
+    55
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=55",
+  "section": "5.2 Absolute maximum ratings",
+  "headers": [
+    "Symbols",
+    "Ratings",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VDDX - VSS",
+      "External main supply voltage (including VDD, VDDA and VREF+)",
+      "-0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "VIN(1)",
+      "Input voltage on FT_xxx pins",
+      "VSS-0.3",
+      "MIN (VDD + 4.0V , 6.0 V)(2)",
+      "V"
+    ],
+    [
+      "VIN(1)",
+      "Input voltage on TT_xx pins",
+      "VSS-0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "VREF+-VDDA",
+      "Allowed voltage difference for VREF+ > VDDA",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "|∆VDDX|",
+      "Variations between different VDDX power pins of the same domain",
+      "-",
+      "50.0",
+      "mV"
+    ],
+    [
+      "|VSSx-VSS|",
+      "Variations between all the different ground pins",
+      "-",
+      "50.0",
+      "mV"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. When RESET is released, the functionality is guaranteed down to PDR minimum voltage.",
+      "2. For operation with voltage higher than VDD + 0.3 V, the internal pull‑up and pull‑down resistors must be disabled. The minimum and maximum input voltage (Vin) must comply with the selected peripheral enabled on the given GPIOs. Refer to the respective peripheral"
+    ],
+    "_legend": [
+      "All main power (VDD) and ground (VSS) pins must always be connected to the external power supply, in the permitted range.",
+      "The I/O structure options listed in this table can be a concatenation of options including the option explicitly listed. For instance, TT_a refers to",
+      "any TT I/O with _a option. TT_xx refers to any TT I/O and FT_xx refers to any FT I/O."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_14",
+    "is_continued": false,
+    "pages": [
+      55
+    ],
+    "rows_count": 6,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

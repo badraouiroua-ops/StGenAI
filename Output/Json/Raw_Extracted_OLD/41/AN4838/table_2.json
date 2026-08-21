@@ -1,0 +1,78 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. Default memory map for the Cortex-M55 processor",
+  "pdf_name": "AN4838",
+  "family": "41",
+  "page": 6,
+  "merged_pages": [
+    6
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=6",
+  "section": "2.1 Memory model",
+  "headers": [
+    "Address range (inclusive)",
+    "Region",
+    "Interface"
+  ],
+  "rows": [
+    [
+      "0x00000000-0x1FFFFFFF",
+      "Code",
+      "All accesses are performed on the instruction tightly coupled memory (ITCM) or manager-AXI (M-AXI) interface."
+    ],
+    [
+      "0x20000000-0x3FFFFFFF",
+      "SRAM",
+      "All accesses are performed on the data tightly coupled memory (DTCM) or M-AXI interface."
+    ],
+    [
+      "0x40000000-0x5FFFFFFF",
+      "Peripheral",
+      "Data accesses are performed on peripheral AHB (P-AHB) or M-AXI interface. Instruction accesses are performed on M-AXI."
+    ],
+    [
+      "0x60000000-0x9FFFFFFF",
+      "External RAM",
+      "All accesses are performed on the M-AXI interface"
+    ],
+    [
+      "0xA0000000-0xDFFFFFFF",
+      "External device",
+      "All accesses are performed on the M-AXI interface."
+    ],
+    [
+      "0xE0000000-0xE00FFFFF",
+      "Private peripheral bus (PPB)",
+      "Instruction fetches are not supported. Reserved for system control and debug. Data accesses are either performed internally or on external private peripheral bus (EPPB)."
+    ],
+    [
+      "0xE0100000-0xFFFFFFFF",
+      "Vendor_SYS",
+      "Instruction fetches are not supported. 0xE0100000-0xEFFFFFFF is reserved. Vendor resources start at 0xF0000000. Data accesses are performed on P-AHB interface."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4838",
+    "table_id": "table_2",
+    "is_continued": false,
+    "pages": [
+      6
+    ],
+    "rows_count": 7,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

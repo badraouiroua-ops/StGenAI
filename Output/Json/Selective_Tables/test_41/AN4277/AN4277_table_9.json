@@ -1,0 +1,59 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Register locking mechanism",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Register locking mechanism",
+  "page": 19,
+  "section": "6.5 Locking the selected configuration",
+  "section_title": "Locking the selected configuration",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=19",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+  "text_helper": "Table 9. Register locking mechanism — section 6.5 Locking the selected configuration. Peripheral, Feature, Register, Comment.",
+  "table_content": {
+    "headers": [
+      "Peripheral",
+      "Feature",
+      "Register",
+      "Comment"
+    ],
+    "rows": [
+      [
+        "GPIO port x, pin y",
+        "Inverting input, pin mode selection",
+        "GPIOx_MODER register, MODERy bit to be configured in analog mode",
+        "-"
+      ],
+      [
+        "GPIO port x, pin y",
+        "Inverting input, pin configuration locking",
+        "GPIOx_LCKR register, specific write sequence coded with LCKy bit",
+        "MODERy bit (in GPIOx_MODER register) now frozen until next reset"
+      ],
+      [
+        "GPIO port w, pin z",
+        "Non inverting input, pin mode selection",
+        "GPIOw_MODER register, MODERz bit to be configured in analog mode",
+        "Not needed if an internal reference is selected"
+      ],
+      [
+        "GPIO port w, pin z",
+        "Non inverting input, pin configuration locking",
+        "GPIOw_LCKR register, specific write sequence coded with LCKz bit",
+        "MODERz bit (in the GPIOw_MODER register) now frozen until next reset"
+      ],
+      [
+        "TIMER 1/8/20",
+        "BKIN/BKIN2 configuration locking",
+        "TIMx_BDTR register, LOCK bits",
+        "LOCK level 1 (at least) recommended: DTG bits in TIMx_BDTR register, OISx, and OISxN bits in TIMx_CR2 register and BKE/BKP/AOE bits in TIMx_BDTR register frozen until next reset"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

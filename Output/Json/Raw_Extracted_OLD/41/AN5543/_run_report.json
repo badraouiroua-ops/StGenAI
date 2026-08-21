@@ -1,0 +1,45 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN5543.pdf",
+  "family": "41",
+  "pdf_name": "AN5543",
+  "tables_found": 3,
+  "tables_extracted": 3,
+  "high": 3,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_1",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 1. Main SPI features on STM32 devices",
+      "page": 3,
+      "merged_pages": [
+        3
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Version(1)\", \"1.2.x\", \"1.3.x\", \"2.x.x(2)\", \"3.x.x(2)\"]",
+      "rows_count": 17,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. To identify the version and the available feature set refer to the product reference manual and datasheet.",
+          "2. Derivative instances exist where data size configuration or some other features can be limited. Size of the FIFOs and I2S audio specific protocol support depend upon the instance implementation.",
+          "3. Limited capability, not fully supported.",
+          "4. Dependent upon implementation, not available on all products."
+        ]
+      }
+    }
+  ],
+  "dedup_rows_removed": 0,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

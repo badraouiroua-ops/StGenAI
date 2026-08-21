@@ -1,0 +1,134 @@
+{
+  "table_id": "table_16",
+  "caption": "Table 16. STM32MP135 thermal measurements at T = 25 °C (dd) 25 A",
+  "pdf_name": "AN5036",
+  "family": "test_41",
+  "page": 25,
+  "merged_pages": [
+    25
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=25",
+  "section": "6.3.1.2 Use case about dd",
+  "headers": [
+    "Parameter",
+    "900 MHz",
+    "1 GHz",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "TJ",
+      "43",
+      "46",
+      "[°C]"
+    ],
+    [
+      "VCORE",
+      "1.32",
+      "1.32",
+      "[V]"
+    ],
+    [
+      "ICORE",
+      "177",
+      "198",
+      "[mA]"
+    ],
+    [
+      "PCORE",
+      "233",
+      "261",
+      "[mW]"
+    ],
+    [
+      "VDD",
+      "3.33",
+      "3.33",
+      "[V]"
+    ],
+    [
+      "IDD",
+      "13",
+      "19",
+      "[mA]"
+    ],
+    [
+      "PDD",
+      "43",
+      "63",
+      "[mW]"
+    ],
+    [
+      "VCPU",
+      "1.415",
+      "1.398",
+      "[V]"
+    ],
+    [
+      "ICPU",
+      "173",
+      "199",
+      "[mA]"
+    ],
+    [
+      "PCPU",
+      "244",
+      "278",
+      "[mW]"
+    ],
+    [
+      "VDDR2",
+      "1.268",
+      "1.268",
+      "[V]"
+    ],
+    [
+      "IDDR2",
+      "75",
+      "77",
+      "[mA]"
+    ],
+    [
+      "PDDR2",
+      "95",
+      "97",
+      "[mW]"
+    ],
+    [
+      "STM32MP135",
+      "615",
+      "700",
+      "[mW]"
+    ],
+    [
+      "STM32MP135",
+      "+ 13%",
+      "+ 13%",
+      "[mW]"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5036",
+    "table_id": "table_16",
+    "is_continued": false,
+    "pages": [
+      25
+    ],
+    "rows_count": 15,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

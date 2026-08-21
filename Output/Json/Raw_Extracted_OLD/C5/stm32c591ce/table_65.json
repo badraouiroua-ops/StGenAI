@@ -1,0 +1,58 @@
+{
+  "table_id": "table_65",
+  "caption": "Table 65. Open drain timing measurements.",
+  "pdf_name": "stm32c591ce",
+  "family": "C5",
+  "page": 102,
+  "merged_pages": [
+    102
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=102",
+  "section": "5.3.23 Timer characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tSU_OD",
+      "SDA data setup time in open drain mode",
+      "Controller 2.7 V ≤ VDDIOX ≤ 3.6 V",
+      "24.5(1)",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. The minimum SDA data setup time during open-drain-mode is 3 ns, as specified in the MIPI Alliance specification for I3C."
+    ],
+    "_legend": [
+      "Evaluated by characterization - Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c591ce",
+    "table_id": "table_65",
+    "is_continued": false,
+    "pages": [
+      102
+    ],
+    "rows_count": 1,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "table_id": "table_32",
+  "caption": "Table 32. Current consumption in Run mode",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 146,
+  "merged_pages": [
+    146
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=146",
+  "section": "5.3.6 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Conditions",
+    "Conditions",
+    "Conditions",
+    "frcc_c_ck (MHz)",
+    "SMPS internal / Typ",
+    "SMPS internal / Max(1) / T = 125°C J",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Code with data processing running from ITCM(2) HSI, V = 1.8 V DD",
+      "All peripherals disabled",
+      "VOS high",
+      "800(3)",
+      "0.27",
+      "0.40",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from ITCM(2) HSI, V = 1.8 V DD",
+      "All peripherals disabled",
+      "VOS low",
+      "600(4)",
+      "0.27",
+      "0.40",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from ITCM(2) HSI, V = 1.8 V DD",
+      "All peripherals enabled",
+      "VOS high",
+      "800(3)",
+      "0.27",
+      "0.40",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from ITCM(2) HSI, V = 1.8 V DD",
+      "All peripherals enabled",
+      "VOS low",
+      "600(4)",
+      "0.27",
+      "0.40",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from ITCM (2) HSE, V = 1.8 V DD",
+      "All peripherals disabled",
+      "VOS high",
+      "800(3)",
+      "0.30",
+      "0.42",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from ITCM (2) HSE, V = 1.8 V DD",
+      "All peripherals disabled",
+      "VOS low",
+      "600(4)",
+      "0.30",
+      "0.42",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from ITCM (2) HSE, V = 1.8 V DD",
+      "All peripherals enabled",
+      "VOS high",
+      "800(3)",
+      "0.30",
+      "0.42",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from ITCM (2) HSE, V = 1.8 V DD",
+      "All peripherals enabled",
+      "VOS low",
+      "600(4)",
+      "0.30",
+      "0.42",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from AXI-SRAM2, Cache ON (2) HSI, V = 1.8 V DD",
+      "All peripherals disabled",
+      "VOS high",
+      "800(3)",
+      "0.27",
+      "0.40",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from AXI-SRAM2, Cache ON (2) HSI, V = 1.8 V DD",
+      "All peripherals disabled",
+      "VOS low",
+      "600(4)",
+      "0.27",
+      "0.40",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from AXI-SRAM2, Cache ON (2) HSI, V = 1.8 V DD",
+      "All peripherals enabled",
+      "VOS high",
+      "800(3)",
+      "0.27",
+      "0.40",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from AXI-SRAM2, Cache ON (2) HSI, V = 1.8 V DD",
+      "All peripherals enabled",
+      "VOS low",
+      "600(4)",
+      "0.27",
+      "0.40",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from AXI-SRAM2, Cache OFF (2) HSE, V = 1.8 V DD",
+      "All peripherals disabled",
+      "VOS high",
+      "800(3)",
+      "0.30",
+      "0.42",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from AXI-SRAM2, Cache OFF (2) HSE, V = 1.8 V DD",
+      "All peripherals disabled",
+      "VOS low",
+      "600(4)",
+      "0.30",
+      "0.42",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from AXI-SRAM2, Cache OFF (2) HSE, V = 1.8 V DD",
+      "All peripherals enabled",
+      "VOS high",
+      "800(3)",
+      "0.30",
+      "0.42",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Code with data processing running from AXI-SRAM2, Cache OFF (2) HSE, V = 1.8 V DD",
+      "All peripherals enabled",
+      "VOS low",
+      "600(4)",
+      "0.30",
+      "0.42",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "1. Guaranteed by characterization results unless otherwise specified.",
+      "2. Data are in DTCM for best computation performance, cache has no influence on consumption in this case.",
+      "3. cpu_overdrive range frequency.",
+      "4. cpu_nominal range frequency. 146/258 DS14791 Rev 9"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:3",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_32",
+    "is_continued": false,
+    "pages": [
+      146
+    ],
+    "rows_count": 16,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

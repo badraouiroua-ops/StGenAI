@@ -1,0 +1,98 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. Document revision history",
+  "pdf_name": "AN4286",
+  "family": "41",
+  "page": 49,
+  "merged_pages": [
+    49
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4286.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4286.pdf#page=49",
+  "section": "3 Evolution of the bootloader protocol versions",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "27-Mar-2014",
+      "1",
+      "Initial release."
+    ],
+    [
+      "02-May-2014",
+      "2",
+      "Updated Table 1: Applicable products. Added footnote in Table 2: SPI bootloader commands. Updated Section 2: Bootloader command set. Updated Figure 22, Figure 24 and Figure 26."
+    ],
+    [
+      "20-Oct-2016",
+      "3",
+      "Updated Introduction and Table 1: Applicable products. Updated Figure 18: Erase Memory command: master side and Figure 19: Erase Memory command: slave side."
+    ],
+    [
+      "10-Mar-2017",
+      "4",
+      "Updated Table 1: Applicable products."
+    ],
+    [
+      "15-Jan-2019",
+      "5",
+      "Updated Table 1: Applicable products. Updated Section 1: SPI bootloader code sequence. Minor text edits across the whole document."
+    ],
+    [
+      "05-Apr-2019",
+      "6",
+      "Updated Table 1: Applicable products."
+    ],
+    [
+      "24-Sep-2019",
+      "7",
+      "Updated Table 1: Applicable products."
+    ],
+    [
+      "27-Nov-2019",
+      "8",
+      "Updated Table 1: Applicable products."
+    ],
+    [
+      "03-Nov-2020",
+      "9",
+      "Updated Section 2.2: Get command. Updated Table 2: SPI bootloader commands and Table 3: Bootloader protocol versions. Added Section 2.13: Get Checksum command. Minor text edits across the whole document."
+    ],
+    [
+      "11-Jun-2021",
+      "10",
+      "Updated Section 1: SPI bootloader code sequence and Section 2.13: Get Checksum command. Added Section 2.14: Special command and Section 2.15: Extended Special command. Updated Table 2: SPI bootloader commands. Updated Figure 17: Write Memory command: slave side, Figure 21: Write Protect command: slave side, Figure 23: Write Unprotect command: slave side, Figure 25: Readout Protect command: slave side, Figure 27: Readout Unprotect command: slave side, and added footnotes to them. Updated Figure 10: Get ID command: master side, Figure 11: Get ID command: slave side, Figure 22: Write Unprotect command: master side, Figure 24: Readout Protect command: master side, Figure 26: Readout Unprotect command: master side and Figure 28: Get Checksum command: host side."
+    ],
+    [
+      "09-Feb-2022",
+      "11",
+      "Introduced STM32U5 series, hence updated Table 1: Applicable products. Updated Section 2: Bootloader command set and Section 2.7: Write Memory command."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4286",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      49
+    ],
+    "rows_count": 11,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

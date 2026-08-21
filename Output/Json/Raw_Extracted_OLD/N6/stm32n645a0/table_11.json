@@ -1,0 +1,105 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. I2C implementation",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 68,
+  "merged_pages": [
+    68
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=68",
+  "section": "3.42 Tamper and backup registers (TAMP)",
+  "headers": [
+    "I2C features(1)",
+    "I2C1",
+    "I2C2",
+    "I2C3",
+    "I2C4"
+  ],
+  "rows": [
+    [
+      "7-bit addressing mode",
+      "X",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "10-bit addressing mode",
+      "X",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Standard-mode (up to 100 kbit/s)",
+      "X",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Fast-mode (up to 400 kbit/s)",
+      "X",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Fast-mode Plus with 20 mA output drive I/Os (up to 1 Mbit/s)",
+      "X",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Independent clock",
+      "X",
+      "X",
+      "X",
+      "X"
+    ],
+    [
+      "Wake-up from Stop mode",
+      "X(2)",
+      "X(2)",
+      "X(2)",
+      "X(2)"
+    ],
+    [
+      "SMBus/PMBus",
+      "X",
+      "X",
+      "X",
+      "X"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. X = supported.",
+      "2. Supported only from Stop SVOS high."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_11",
+    "is_continued": false,
+    "pages": [
+      68
+    ],
+    "rows_count": 8,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

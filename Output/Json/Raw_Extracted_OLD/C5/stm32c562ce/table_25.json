@@ -1,0 +1,136 @@
+{
+  "table_id": "table_25",
+  "caption": "Table 25. Typical current consumption in Run mode with CoreMark running from flash memory and SRAM.",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 60,
+  "merged_pages": [
+    60
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=60",
+  "section": "5.3.6.1 Current consumption in Run mode",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions / Peripheral",
+    "SYSCLK / source",
+    "fHCLK / (MHz)",
+    "Typ",
+    "Unit",
+    "Typ",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD(Run)(1)",
+      "Supply current in Run mode",
+      "Code in Flash, ICACHE 2-WAY, prefetch ON",
+      "PSI (2)",
+      "144",
+      "12.00",
+      "mA",
+      "82.00",
+      "µA/ MHz"
+    ],
+    [
+      "IDD(Run)(1)",
+      "Supply current in Run mode",
+      "Code in Flash, ICACHE 1-WAY, prefetch ON",
+      "PSI (2)",
+      "144",
+      "9.85",
+      "mA",
+      "68.50",
+      "µA/ MHz"
+    ],
+    [
+      "IDD(Run)(1)",
+      "Supply current in Run mode",
+      "Code in Flash, ICACHE OFF, prefetch ON",
+      "PSI (2)",
+      "144",
+      "9.45",
+      "mA",
+      "65.50",
+      "µA/ MHz"
+    ],
+    [
+      "IDD(Run)(1)",
+      "Supply current in Run mode",
+      "Code in Flash, ICACHE OFF, prefetch OFF",
+      "PSI (2)",
+      "144",
+      "8.40",
+      "mA",
+      "58.50",
+      "µA/ MHz"
+    ],
+    [
+      "IDD(Run)(1)",
+      "Supply current in Run mode",
+      "Code in SRAM2, ICACHE 2-WAY",
+      "PSI (2)",
+      "144",
+      "11.50",
+      "mA",
+      "78.00",
+      "µA/ MHz"
+    ],
+    [
+      "IDD(Run)(1)",
+      "Supply current in Run mode",
+      "Code in SRAM2, ICACHE 1-WAY",
+      "PSI (2)",
+      "144",
+      "9.35",
+      "mA",
+      "65.00",
+      "µA/ MHz"
+    ],
+    [
+      "IDD(Run)(1)",
+      "Supply current in Run mode",
+      "Code in SRAM2, ICACHE OFF",
+      "PSI (2)",
+      "144",
+      "9.15",
+      "mA",
+      "63.50",
+      "µA/ MHz"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 9,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 9,
+    "_notes": [
+      "1. Measures done with prefetch enabled.",
+      "2. Clocked by PSI at 144 MHz with HSE at 16 MHz in bypass mode."
+    ],
+    "_legend": [
+      "Evaluated by characterization - not tested in production, unless otherwise stated."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_25",
+    "is_continued": false,
+    "pages": [
+      60
+    ],
+    "rows_count": 7,
+    "cols_count": 9,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

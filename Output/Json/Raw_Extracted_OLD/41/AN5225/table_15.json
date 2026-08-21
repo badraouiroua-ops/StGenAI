@@ -1,0 +1,158 @@
+{
+  "table_id": "table_15",
+  "caption": "Table 15. Dual-role power port features",
+  "pdf_name": "AN5225",
+  "family": "41",
+  "page": 40,
+  "merged_pages": [
+    40
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=40",
+  "section": "11.3.4 Dual-role power port",
+  "headers": [
+    "Feature",
+    "STM32 Peripherals involved",
+    "Number of STM32 pins",
+    "External components or devices",
+    "Comments",
+    "Signal name"
+  ],
+  "rows": [
+    [
+      "Protocol",
+      "Protocol",
+      "Protocol",
+      "Protocol",
+      "Protocol",
+      "Protocol"
+    ],
+    [
+      "CC1 and CC2 communication channels",
+      "UCPD: CC1, CC2",
+      "2",
+      "-",
+      "Mandatory Able to handle Rd & Rp",
+      "CC1 CC2"
+    ],
+    [
+      "Dead Battery",
+      "UCPD: DBCC1, DBCC2",
+      "2",
+      "-",
+      "Mandatory Wire to GND",
+      "DBCC1 DBCC1"
+    ],
+    [
+      "stnemerusaem , V5efaSv ,V0efaSv ,leveL SUBV",
+      "ADC",
+      "1",
+      "Resistor divider bridge with or without op-Amp for safety purpose",
+      "Mandatory for OVP protection purpose",
+      "V_SENSE"
+    ],
+    [
+      "Fast Role Swap",
+      "UCPD: FRSTX1, FRSTX2",
+      "2",
+      "MOS to drive CC lines to GND",
+      "Mandatory",
+      "FRSTX1 FRSTX2"
+    ],
+    [
+      "On Power level",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "Provide power from VBUS",
+      "GPIO",
+      "1",
+      "Power switch",
+      "Mandatory, MOS can be use",
+      "SRC_EN"
+    ],
+    [
+      "Extra Power switch",
+      "GPIO",
+      "-",
+      "Power switch",
+      "Optional, MOS can be use",
+      "SNK_EN"
+    ],
+    [
+      "Discharge VBUS to vSafe0V",
+      "GPIO",
+      "1",
+      "MOS + charge Resistors",
+      "Mandatory",
+      "SRC_DISCH"
+    ],
+    [
+      "ISense measurement",
+      "ADC",
+      "1",
+      "OpAmp + shunt Resistors",
+      "Optional",
+      "I_SENSE"
+    ],
+    [
+      "Protection",
+      "Protection",
+      "Protection",
+      "Protection",
+      "Protection",
+      "Protection"
+    ],
+    [
+      "CC1 and CC2",
+      "-",
+      "-",
+      "See chapter xxx",
+      "Optional",
+      "CC1 and CC2 on Type-C side"
+    ],
+    [
+      "VBUS",
+      "-",
+      "-",
+      "See chapter xxx",
+      "Optional",
+      "VBUS on Type-C side"
+    ],
+    [
+      "Software",
+      "Software",
+      "Software",
+      "Software",
+      "Software",
+      "Software"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5225",
+    "table_id": "table_15",
+    "is_continued": false,
+    "pages": [
+      40
+    ],
+    "rows_count": 14,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

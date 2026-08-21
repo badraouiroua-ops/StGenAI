@@ -1,0 +1,64 @@
+{
+  "table_id": "table_10",
+  "caption": "Table 10. SPI features",
+  "pdf_name": "stm32c542cc",
+  "family": "C5",
+  "page": 31,
+  "merged_pages": [
+    31
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=31",
+  "section": "3.26.2 Low-power universal asynchronous receiver transmitter (LPUART)",
+  "headers": [
+    "SPI feature",
+    "SPI2S1, SPI2S2 (full feature set instances)"
+  ],
+  "rows": [
+    [
+      "Data size",
+      "Configurable from 4 to 32-bit"
+    ],
+    [
+      "CRC computation",
+      "CRC polynomial length configurable from 5 to 32‑bit"
+    ],
+    [
+      "Size of FIFOs",
+      "16 × 8-bit"
+    ],
+    [
+      "Number of transferred data",
+      "Unlimited, expandable"
+    ],
+    [
+      "I2S feature",
+      "Yes"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.753,
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c542cc",
+    "table_id": "table_10",
+    "is_continued": false,
+    "pages": [
+      31
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

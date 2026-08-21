@@ -1,0 +1,50 @@
+{
+  "table_id": "table_14",
+  "caption": "Table 14. DFSDFM filter order values",
+  "pdf_name": "AN5027",
+  "family": "41",
+  "page": 60,
+  "merged_pages": [
+    60
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=60",
+  "section": "4.3.2 Adding PDM software decoding library middleware files",
+  "headers": [
+    "Audio Sampling Frequency (kHz)",
+    "Filter order"
+  ],
+  "rows": [
+    [
+      "16",
+      "Sinc 4 or Sinc 5 filter type"
+    ],
+    [
+      "48",
+      "Sinc 4 or Sinc 5 filter type"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5027",
+    "table_id": "table_14",
+    "is_continued": false,
+    "pages": [
+      60
+    ],
+    "rows_count": 2,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

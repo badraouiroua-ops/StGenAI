@@ -1,0 +1,254 @@
+{
+  "table_id": "table_35",
+  "caption": "Table 35. Current consumption of peripherals",
+  "pdf_name": "stm32c071r8",
+  "family": "C0",
+  "page": 66,
+  "merged_pages": [
+    66,
+    67
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=66",
+  "section": "5.3.5 Supply current characteristics",
+  "headers": [
+    "Peripheral",
+    "Bus",
+    "Consumption in µA/MHz"
+  ],
+  "rows": [
+    [
+      "IOPORT bus",
+      "IOPORT",
+      "0.1"
+    ],
+    [
+      "GPIOA",
+      "IOPORT",
+      "1.5"
+    ],
+    [
+      "GPIOB",
+      "IOPORT",
+      "1.5"
+    ],
+    [
+      "GPIOC",
+      "IOPORT",
+      "1.5"
+    ],
+    [
+      "GPIOD",
+      "IOPORT",
+      "1.5"
+    ],
+    [
+      "GPIOF",
+      "IOPORT",
+      "0.7"
+    ],
+    [
+      "Bus matrix",
+      "AHB",
+      "0.3"
+    ],
+    [
+      "All AHB peripherals",
+      "AHB",
+      "8.5"
+    ],
+    [
+      "DMA1",
+      "AHB",
+      "3.2"
+    ],
+    [
+      "FLASH",
+      "AHB",
+      "4.4"
+    ],
+    [
+      "SRAM1",
+      "AHB",
+      "0.5"
+    ],
+    [
+      "CRC1",
+      "AHB",
+      "0.5"
+    ],
+    [
+      "All APB peripherals",
+      "APB",
+      "39.1"
+    ],
+    [
+      "AHB to APB bridge (2)",
+      "",
+      "0.3"
+    ],
+    [
+      "TIM3",
+      "",
+      "3.6"
+    ],
+    [
+      "RTCAPB",
+      "",
+      "1.2"
+    ],
+    [
+      "CRS",
+      "",
+      "0.5"
+    ],
+    [
+      "WWDG1",
+      "",
+      "0.4"
+    ],
+    [
+      "USART2",
+      "",
+      "1.9"
+    ],
+    [
+      "I2C1",
+      "",
+      "0.9"
+    ],
+    [
+      "I2C1 independent clock domain",
+      "",
+      "2.5"
+    ],
+    [
+      "I2C2",
+      "",
+      "0.8"
+    ],
+    [
+      "DBGMCU1",
+      "",
+      "0.1"
+    ],
+    [
+      "PWR",
+      "",
+      "0.3"
+    ],
+    [
+      "SYSCFG",
+      "",
+      "0.5"
+    ],
+    [
+      "TIM1",
+      "",
+      "6.0"
+    ],
+    [
+      "TIM2",
+      "",
+      "4.8"
+    ],
+    [
+      "SPI1",
+      "",
+      "2.2"
+    ],
+    [
+      "SPI1 independent clock domain",
+      "",
+      "0.7"
+    ],
+    [
+      "SPI2",
+      "",
+      "1.7"
+    ],
+    [
+      "USART1",
+      "",
+      "2.4"
+    ],
+    [
+      "USART1 independent clock domain",
+      "",
+      "5.2"
+    ],
+    [
+      "TIM14",
+      "",
+      "1.4"
+    ],
+    [
+      "TIM16",
+      "",
+      "2.8"
+    ],
+    [
+      "TIM17",
+      "",
+      "2.7"
+    ],
+    [
+      "ADC1",
+      "",
+      "1.4"
+    ],
+    [
+      "ADC1 independent clock domain",
+      "",
+      "0.1"
+    ],
+    [
+      "USB",
+      "",
+      "4.0"
+    ],
+    [
+      "All peripherals",
+      "",
+      "65.4"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.2222,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 3,
+      "cont_cols_raw": 3,
+      "target_cols": 3,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c071r8",
+    "table_id": "table_35",
+    "is_continued": true,
+    "pages": [
+      66,
+      67
+    ],
+    "rows_count": 39,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.2222
+  }
+}

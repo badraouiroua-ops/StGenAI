@@ -1,0 +1,74 @@
+{
+  "table_id": "table_29",
+  "caption": "Table 29. GP timer (TIM2/3/4/5) features",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 42,
+  "merged_pages": [
+    42
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=42",
+  "section": "6.6 Migration of timer peripherals",
+  "headers": [
+    "Feature",
+    "STM32H5 and STM32C5x"
+  ],
+  "rows": [
+    [
+      "Counter resolution and type",
+      "16-bit or 32-bit up, down, up/down autoreload counter"
+    ],
+    [
+      "Channels",
+      "Up to four independent channels for: • Input capture • Output compare • PWM generation (edge- and center-aligned modes) • One-pulse mode output"
+    ],
+    [
+      "Synchronization with external signals and other timers",
+      "Synchronization circuit to control the timer with external signals and to interconnect several timers"
+    ],
+    [
+      "noitareneg AMD/tpurretnI",
+      "Interrupt/DMA generation on the following events: • Update: counter overflow/underflow or counter initialization (by software or internal/ external trigger) • Trigger event (counter start, stop, initialization, or count by internal/external trigger) • Input capture • Output compare"
+    ],
+    [
+      "Encoders and sensors",
+      "Supports incremental (quadrature) encoder and hall-sensor circuitry for positioning purposes"
+    ],
+    [
+      "Trigger input",
+      "Trigger input for external clock or cycle-by-cycle current management"
+    ],
+    [
+      "Application examples",
+      "• Measuring the pulse lengths of input signals (input capture) • Generating output waveforms (output compare and PWM)"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_dedup_rows_removed": 1,
+    "_dedup_removed_indices": [
+      1
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_29",
+    "is_continued": false,
+    "pages": [
+      42
+    ],
+    "rows_count": 7,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

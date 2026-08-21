@@ -1,0 +1,62 @@
+{
+  "table_id": "table_6",
+  "caption": "Table 6. UFP CC termination (Rd) requirements",
+  "pdf_name": "AN5225",
+  "family": "test_41",
+  "page": 10,
+  "merged_pages": [
+    10
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=10",
+  "section": "4.2 Power capability detection and usage",
+  "headers": [
+    "Rd implementation",
+    "Nominal value",
+    "Can detect power capability?",
+    "max voltage on CC pin"
+  ],
+  "rows": [
+    [
+      "± 20% voltage clamp",
+      "1.1 V",
+      "No",
+      "1.32 V"
+    ],
+    [
+      "± 20% resistor to GND",
+      "5.1 kΩ",
+      "No",
+      "2.18 V"
+    ],
+    [
+      "± 10% resistor to GND",
+      "5.1 kΩ",
+      "Yes",
+      "2.04 V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5225",
+    "table_id": "table_6",
+    "is_continued": false,
+    "pages": [
+      10
+    ],
+    "rows_count": 3,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

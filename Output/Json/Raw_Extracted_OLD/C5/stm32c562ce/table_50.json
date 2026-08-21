@@ -1,0 +1,90 @@
+{
+  "table_id": "table_50",
+  "caption": "Table 50. Output voltage characteristics for PC14 and PC15.",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 79,
+  "merged_pages": [
+    79
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=79",
+  "section": "5.3.14 I/O port characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions(3)",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VOL",
+      "Output low level voltage",
+      "CMOS port(1) IIO=0.5 mA 2.7 V≤ VDD ≤3.6 V",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "VOH",
+      "Output high level voltage",
+      "CMOS port(1) IIO=-0.5 mA 2.7 V≤ VDD ≤3.6 V",
+      "VDD - 0.4",
+      "-",
+      "V"
+    ],
+    [
+      "VOL(2)",
+      "Output low level voltage",
+      "TTL port(1) IIO = 0.5 mA 2.7 V ≤ VDD ≤3.6 V",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "VOH(2)",
+      "Output high level voltage",
+      "TTL port(1) IIO = -0.5 mA 2.7 V ≤ VDD ≤ 3.6 V",
+      "2.4",
+      "-",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. The maximum frequency is defined with the following conditions: (tr+tf) ≤ 2/3 T",
+      "2. The fall and rise times are defined between 90% and 10% and between 10% and 90% of the output waveform, respectively.",
+      "3. Compensation system enabled. DS14927 - Rev 2 page 80/133"
+    ],
+    "_legend": [
+      "Specified by design and not tested in production.",
+      "The minimum and maximum values are specified for a junction temperature TJ = 125°C.",
+      "The IIO current sourced or sunk by the device must always comply with the absolute maximum rating specified in Table 16. Current",
+      "characteristics. Additionally, the sum of the currents sourced or sunk by all the I/Os (I/O ports and control pins) must always comply with the",
+      "absolute maximum ratings ΣIIO."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_50",
+    "is_continued": false,
+    "pages": [
+      79
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

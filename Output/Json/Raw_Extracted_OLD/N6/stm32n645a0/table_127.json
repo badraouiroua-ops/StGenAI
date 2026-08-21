@@ -1,0 +1,81 @@
+{
+  "table_id": "table_127",
+  "caption": "Table 127. MDIO target timing parameters",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 233,
+  "merged_pages": [
+    233
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=233",
+  "section": "5.3.38 JTAG/SWD interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F MDC",
+      "Clock",
+      "-",
+      "-",
+      "30",
+      "MHz"
+    ],
+    [
+      "t d(MDIO)",
+      "Input/output valid time",
+      "7",
+      "8",
+      "14",
+      "ns"
+    ],
+    [
+      "t su(MDIO)",
+      "Input/output setup time",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MDIO)",
+      "Input/output hold time",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Evaluated by characterization. Not tested in production. DS14791 Rev 9 233/258"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_127",
+    "is_continued": false,
+    "pages": [
+      233
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "table_id": "table_14",
+  "caption": "Table 14. Document revision history",
+  "pdf_name": "AN4879",
+  "family": "41",
+  "page": 24,
+  "merged_pages": [
+    24
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4879.pdf#page=24",
+  "section": "4 FAQs (frequently asked questions)",
+  "headers": [
+    "Date",
+    "Version",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "10-Aug-2016",
+      "1",
+      "Initial release."
+    ],
+    [
+      "24-Nov-2016",
+      "2",
+      "Document classification updated from public to ST Restricted."
+    ],
+    [
+      "27-Apr-2018",
+      "3",
+      "• Document classification changed from ST Restricted to Public. • Scope extended to all STM32 microcontrollers. • Updated Introduction and Section 3: Hardware guidelines for USB implementation and its subsections. • Added Section 1: List of abbreviations and acronyms, Section 2: USB on STM32 products and its subsections, Section 4: FAQs and Section 6: Conclusion. • Updated all figures in Section 3: Hardware guidelines for USB implementation. • Removed former Table 1: Applicable products, Section 1: Layout guidelines for USB FS devices, Section 1.1: PCB track impedance and routing on FS data lines, Section 4: Hardware guideline for OTG product implementation and Section 5: OTG USB high speed PHY connected to STM32 through the ULPI link."
+    ],
+    [
+      "18-Dec-2018",
+      "4",
+      "Added Table 1. Applicable products Updated: • Section 1 General information • Table 3. USB implementation in STM32 devices • Section 2.1 USB implementation on STM32 products and all its tables • Section 2.4 Clock • Section 3.1.1 USB FS upstream port in self-powered applications • Section 3.1.2 USB FS upstream port in bus-powered applications • Section 3.2 USB FS downstream port • Section 4 FAQs (frequently asked questions) • Section 6 Conclusion • All figures in the document"
+    ],
+    [
+      "30-May-2022",
+      "5",
+      "Updated: • Section 2.6: VBUS sensing detection • STM32F105/107 in Table 3. USB implementation on STM32 mainstream products • Figure 7. USB FS upstream port with embedded pull-up resistor in self-powered applications • Figure 12. OTG schematic implementation (dual-mode) • References integrated in Section 1: General information"
+    ],
+    [
+      "17-Apr-2023",
+      "6",
+      "Updated: • Section 2: USB on STM32 products • Section 2.6: VBUS sensing detection • Figure 8. USB FS upstream port without embedded pull-up resistor in self-powered applications • Table 1. Applicable products • Section 2: USB on STM32 products • Table 4. USB implementation on STM32 high-performance products • Table 5. USB implementation on STM32 ultra-low-power products"
+    ],
+    [
+      "06-May-2024",
+      "7",
+      "Updated:"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4879",
+    "table_id": "table_14",
+    "is_continued": false,
+    "pages": [
+      24
+    ],
+    "rows_count": 7,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

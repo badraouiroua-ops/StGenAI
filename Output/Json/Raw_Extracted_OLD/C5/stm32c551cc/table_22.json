@@ -1,0 +1,48 @@
+{
+  "table_id": "table_22",
+  "caption": "Table 22. Internal reference voltage calibration values",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 58,
+  "merged_pages": [
+    58
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=58",
+  "section": "5.3.5 Embedded voltage reference",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Memory address"
+  ],
+  "rows": [
+    [
+      "VREFINT_CAL",
+      "Raw data acquired at temperature of 30 °C, VDDA = 3.3 V",
+      "0x08FFF810 - 0x08FFF811"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_22",
+    "is_continued": false,
+    "pages": [
+      58
+    ],
+    "rows_count": 1,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

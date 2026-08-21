@@ -1,0 +1,150 @@
+{
+  "table_id": "table_19",
+  "caption": "Table 19. Port D alternate function mapping (AF0 to AF7)",
+  "pdf_name": "stm32c071r8",
+  "family": "C0",
+  "page": 47,
+  "merged_pages": [
+    47
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c071r8.pdf#page=47",
+  "section": "4 Pinouts, pin description and alternate functions",
+  "headers": [
+    "Port",
+    "AF0",
+    "AF1",
+    "AF2",
+    "AF3",
+    "AF4",
+    "AF5",
+    "AF6",
+    "AF7"
+  ],
+  "rows": [
+    [
+      "PD0",
+      "EVENTOUT",
+      "-",
+      "TIM16_CH1",
+      "SPI2_NSS",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PD1",
+      "EVENTOUT",
+      "-",
+      "TIM17_CH1",
+      "SPI2_SCK",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PD2",
+      "-",
+      "TIM3_ETR",
+      "TIM1_CH1N",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PD3",
+      "USART2_CTS/ USART2_NSS",
+      "-",
+      "TIM1_CH2N",
+      "SPI2_MISO",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PD4",
+      "SPI2_MOSI",
+      "USART2_RTS/ USART2_DE/ USART2_CK",
+      "TIM1_CH3N",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PD5",
+      "SPI1_MISO/ I2S1_MCK",
+      "USART2_TX",
+      "TIM1_BKIN",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PD6",
+      "SPI1_MOSI/ I2S1_SD",
+      "USART2_RX",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PD8",
+      "SPI1_SCK/ I2S1_CK",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "PD9",
+      "SPI1_NSS/ I2S1_WS",
+      "-",
+      "TIM1_BKIN2",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 9,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 9
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c071r8",
+    "table_id": "table_19",
+    "is_continued": false,
+    "pages": [
+      47
+    ],
+    "rows_count": 9,
+    "cols_count": 9,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

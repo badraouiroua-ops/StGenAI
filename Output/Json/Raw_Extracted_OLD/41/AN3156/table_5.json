@@ -1,0 +1,58 @@
+{
+  "table_id": "table_5",
+  "caption": "Table 5. Bootloader protocol versions",
+  "pdf_name": "AN3156",
+  "family": "41",
+  "page": 21,
+  "merged_pages": [
+    21
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN3156.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN3156.pdf#page=21",
+  "section": "6 Bootloader protocol version evolution",
+  "headers": [
+    "Version",
+    "Description"
+  ],
+  "rows": [
+    [
+      "V2.0",
+      "Initial bootloader version."
+    ],
+    [
+      "V2.1",
+      "DFU Bootloader version V2.1. Unlike version V2.0, this version features an extended interface descriptor including OTP memory interface and device feature interface. V2.0 and V2.1 are implemented on different devices. Refer to AN2606 to know the version implemented on the used device. Fixed bug found when writing in data memory timing by using an adequate timeout."
+    ],
+    [
+      "V2.2",
+      "Updated option bytes, OTP and device feature descriptors to support only Read/Write operation instead of Read/Write/Erase."
+    ],
+    [
+      "V3.0",
+      "The number of command can vary on devices with the same protocol version v3.0. To know supported commands, use Get command."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN3156",
+    "table_id": "table_5",
+    "is_continued": false,
+    "pages": [
+      21
+    ],
+    "rows_count": 4,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

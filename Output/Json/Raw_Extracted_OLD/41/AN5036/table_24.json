@@ -1,0 +1,83 @@
+{
+  "table_id": "table_24",
+  "caption": "Table 24. Document revision history",
+  "pdf_name": "AN5036",
+  "family": "41",
+  "page": 37,
+  "merged_pages": [
+    37
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=37",
+  "section": "6.3.4 Conclusion",
+  "headers": [
+    "Date",
+    "Version",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "24-May-2018",
+      "1",
+      "Initial release."
+    ],
+    [
+      "4-Mar-2019",
+      "2",
+      "Updated: • Title of the document • Section 2.3 Thermal model of a chip carrier • Section 3.3 Ambient temperature versus junction temperature • Section 3.5 Board temperature • Section 4 Power dissipation and cooling methods Added: • Section 3.6 STM32 thermal parameters • Section 6 Thermal analysis example"
+    ],
+    [
+      "19-Apr-2019",
+      "3",
+      "Updated Section 3.6 STM32 thermal parameters. Added Section 6.2 Discovery kit with STM32H747XI MCU."
+    ],
+    [
+      "28-Feb-2023",
+      "4",
+      "Updated: • Section orders between Section 6.1 and Section 6.2 • Section 6.2 Evaluation board with STM32MP157 MPU • Figure 3. HDC (heat dissipation capability) Added Section 6.3 Internal validation board with STM32MP135 MPU"
+    ],
+    [
+      "11-Oct-2023",
+      "5",
+      "Updated: • Document title • Figure 20. Junction temperature-dependent dissipated power for STM32MP135 (cpuburn)"
+    ],
+    [
+      "28-Jun-2024",
+      "6",
+      "Added Section 6.4: Internal validation board with STM32MP257 MPU"
+    ],
+    [
+      "21-Nov-2024",
+      "7",
+      "Added Section 6.5: Discovery kit with STM32N657XOH3 MCU"
+    ],
+    [
+      "19-Jan-2026",
+      "8",
+      "Updated document title Added Section 6.6: Internal validation board with STM32MP215F MPU"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5036",
+    "table_id": "table_24",
+    "is_continued": false,
+    "pages": [
+      37
+    ],
+    "rows_count": 8,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

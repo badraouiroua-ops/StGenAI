@@ -1,0 +1,72 @@
+{
+  "pdf_name": "AN3155",
+  "family": "41",
+  "tables_checked": 4,
+  "cells_checked": 7,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Microcontrollers",
+      "reversed": false,
+      "drift": -8.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32C0 series, STM32C5 series STM32F0 series, STM32F1 series, STM32F2 series, STM32F3 series, STM32F4 series, STM32F7 series STM32G0 series, STM32G4 series STM32H5 series, STM32H7 series STM32L0 series, STM32L1 series, STM32L4 series, STM32L5 series STM32U0 series, STM32U3 series, STM32U5 series STM32WB series, STM32WBA series, STM32WB0 series STM32WL3x line, STM32WL5x/Ex line",
+      "reversed": false,
+      "drift": 3.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Get(2)",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Gets the version and the allowed commands supported by the current version of the protocol.",
+      "reversed": false,
+      "drift": -45.32,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Initial bootloader version.",
+      "reversed": false,
+      "drift": -13.04,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "09-Mar-2010",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

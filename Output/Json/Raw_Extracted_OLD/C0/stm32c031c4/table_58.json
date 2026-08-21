@@ -1,0 +1,98 @@
+{
+  "table_id": "table_58",
+  "caption": "Table 58. TIMx characteristics",
+  "pdf_name": "stm32c031c4",
+  "family": "C0",
+  "page": 75,
+  "merged_pages": [
+    75
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=75",
+  "section": "5.3.17 Timer characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t res(TIM)",
+      "Timer resolution time",
+      "-",
+      "1",
+      "-",
+      "t TIMxCLK"
+    ],
+    [
+      "t res(TIM)",
+      "Timer resolution time",
+      "f = 48 MHz TIMxCLK",
+      "20.833",
+      "-",
+      "ns"
+    ],
+    [
+      "f EXT",
+      "Timer external clock frequency on CH1 to CH4",
+      "-",
+      "0",
+      "f /4 TIMxCLK",
+      "MHz"
+    ],
+    [
+      "Res TIM",
+      "Timer resolution",
+      "TIMx",
+      "-",
+      "16",
+      "bit"
+    ],
+    [
+      "t COUNTER",
+      "16-bit counter clock period",
+      "-",
+      "1",
+      "65536",
+      "t TIMxCLK"
+    ],
+    [
+      "t MAX_COUNT",
+      "Maximum possible count with 16-bit counter",
+      "-",
+      "-",
+      "65536",
+      "t TIMxCLK"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. TIMx is used as a general term to refer to a timer (for example, TIM1). ,",
+      "2. Specified by design – Not tested in production. DS13867 Rev 4 75/103"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c031c4",
+    "table_id": "table_58",
+    "is_continued": false,
+    "pages": [
+      75
+    ],
+    "rows_count": 6,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "table_id": "table_123",
+  "caption": "Table 123. USB PHY characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 230,
+  "merged_pages": [
+    230,
+    231
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=230",
+  "section": "5.3.37 Embedded PHY characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "R TXRTUNE",
+      "External resistor on TXRTUNE",
+      "Connected to ground",
+      "Connected to ground",
+      "198",
+      "200",
+      "202",
+      "Ω"
+    ],
+    [
+      "I VDDCORE(USB2PHY)",
+      "Supply current on V DDCORE",
+      "HS transmit, maximum transition density(2)",
+      "HS transmit, maximum transition density(2)",
+      "-",
+      "7.52",
+      "23.72",
+      "mA"
+    ],
+    [
+      "I VDDCORE(USB2PHY)",
+      "Supply current on V DDCORE",
+      "HS transmit, minimum transition density(3)",
+      "HS transmit, minimum transition density(3)",
+      "-",
+      "7.35",
+      "23.88",
+      "mA"
+    ],
+    [
+      "I VDDCORE(USB2PHY)",
+      "Supply current on V DDCORE",
+      "HS idle(4)",
+      "HS idle(4)",
+      "-",
+      "8.21",
+      "23.91",
+      "mA"
+    ],
+    [
+      "I VDDCORE(USB2PHY)",
+      "Supply current on V DDCORE",
+      "FS transmit, maximum transition density(5)",
+      "FS transmit, maximum transition density(5)",
+      "-",
+      "6.53",
+      "23.22",
+      "mA"
+    ],
+    [
+      "I VDDCORE(USB2PHY)",
+      "Supply current on V DDCORE",
+      "LS transmit, maximum transition density(6)",
+      "LS transmit, maximum transition density(6)",
+      "-",
+      "6.45",
+      "24.70",
+      "mA"
+    ],
+    [
+      "I VDDCORE(USB2PHY)",
+      "Supply current on V DDCORE",
+      "Suspend(7)",
+      "Suspend(7)",
+      "-",
+      "1.25",
+      "11.75",
+      "mA"
+    ],
+    [
+      "I VDDCORE(USB2PHY)",
+      "Supply current on V DDCORE",
+      "Sleep(8)",
+      "Sleep(8)",
+      "-",
+      "1.24",
+      "11.52",
+      "mA"
+    ],
+    [
+      "I VDDCORE(USB2PHY)",
+      "Supply current on V DDCORE",
+      "Battery charging",
+      "VDATDETENB = 0, VDATSRCENB = 1",
+      "-",
+      "3.17",
+      "17.26",
+      "mA"
+    ],
+    [
+      "I VDDCORE(USB2PHY)",
+      "Supply current on V DDCORE",
+      "Battery charging",
+      "VDATDETENB = 1, VDATSRCENB = 1(9)",
+      "-",
+      "5.82",
+      "23.80",
+      "mA"
+    ],
+    [
+      "I VDDA18USB",
+      "Supply current on V DDA1V8USB",
+      "HS transmit, maximum transition density(2)",
+      "HS transmit, maximum transition density(2)",
+      "-",
+      "13.35",
+      "17.92",
+      "mA"
+    ],
+    [
+      "I VDDA18USB",
+      "Supply current on V DDA1V8USB",
+      "HS transmit, minimum transition density(3)",
+      "HS transmit, minimum transition density(3)",
+      "-",
+      "9.69",
+      "9.71",
+      "mA"
+    ],
+    [
+      "I VDDA18USB",
+      "Supply current on V DDA1V8USB",
+      "HS idle(4)",
+      "HS idle(4)",
+      "-",
+      "5.10",
+      "5.67",
+      "mA"
+    ],
+    [
+      "I VDDA18USB",
+      "Supply current on V DDA1V8USB",
+      "FS transmit, maximum transition density(5)",
+      "FS transmit, maximum transition density(5)",
+      "-",
+      "5.14",
+      "5.71",
+      "mA"
+    ],
+    [
+      "I VDDA18USB",
+      "Supply current on V DDA1V8USB",
+      "LS transmit, maximum transition density(6)",
+      "LS transmit, maximum transition density(6)",
+      "-",
+      "5.12",
+      "5.69",
+      "mA"
+    ],
+    [
+      "I VDDA18USB",
+      "Supply current on V DDA1V8USB",
+      "Suspend(7)",
+      "Suspend(7)",
+      "-",
+      "0.04",
+      "0.08",
+      "mA"
+    ],
+    [
+      "I VDDA18USB",
+      "Supply current on V DDA1V8USB",
+      "Sleep(8)",
+      "Sleep(8)",
+      "-",
+      "0.04",
+      "0.08",
+      "mA"
+    ],
+    [
+      "I VDDA18USB",
+      "Supply current on V DDA1V8USB",
+      "Battery charging",
+      "VDATDETENB = 0, VDATSRCENB = 1",
+      "-",
+      "3.48",
+      "3.88",
+      "mA"
+    ],
+    [
+      "I VDDA18USB",
+      "Supply current on V DDA1V8USB",
+      "Battery charging",
+      "VDATDETENB = 1, VDATSRCENB = 1(9)",
+      "-",
+      "4.16",
+      "4.55",
+      "mA"
+    ],
+    [
+      "I VDD33USB",
+      "Supply current on V DD33USB",
+      "HS transmit, maximum transition density(2)",
+      "HS transmit, maximum transition density(2)",
+      "-",
+      "3.39",
+      "3.64",
+      "mA"
+    ],
+    [
+      "I VDD33USB",
+      "Supply current on V DD33USB",
+      "HS transmit, minimum transition density(3)",
+      "HS transmit, minimum transition density(3)",
+      "-",
+      "2.32",
+      "2.53",
+      "mA"
+    ],
+    [
+      "I VDD33USB",
+      "Supply current on V DD33USB",
+      "HS idle(4)",
+      "HS idle(4)",
+      "-",
+      "2.15",
+      "2.34",
+      "mA"
+    ],
+    [
+      "I VDD33USB",
+      "Supply current on V DD33USB",
+      "FS transmit, maximum transition density(5)",
+      "FS transmit, maximum transition density(5)",
+      "-",
+      "16.84",
+      "16.84",
+      "mA"
+    ],
+    [
+      "I VDD33USB",
+      "Supply current on V DD33USB",
+      "LS transmit, maximum transition density(6)",
+      "LS transmit, maximum transition density(6)",
+      "-",
+      "13.39",
+      "14.81",
+      "mA"
+    ],
+    [
+      "I VDD33USB",
+      "Supply current on V DD33USB",
+      "Suspend(7)",
+      "Suspend(7)",
+      "-",
+      "0.07",
+      "0.17",
+      "mA"
+    ],
+    [
+      "I VDD33USB",
+      "Supply current on V DD33USB",
+      "Sleep(8)",
+      "Sleep(8)",
+      "-",
+      "0.07",
+      "0.17",
+      "mA"
+    ],
+    [
+      "I VDD33USB",
+      "Supply current on V DD33USB",
+      "Battery charging",
+      "VDATDETENB = 0, VDATSRCENB = 1",
+      "-",
+      "2.15",
+      "2.35",
+      "mA"
+    ],
+    [
+      "I VDD33USB",
+      "Supply current on V DD33USB",
+      "Battery charging",
+      "VDATDETENB = 1, VDATSRCENB = 1(9)",
+      "-",
+      "2.15",
+      "2.34",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. The high-speed mode assumes PRBS9 pattern on data lanes and 100% occupation, that is continuous high speed. USB PHY characteristics",
+      "3. Packet transmission by one transceiver operating in device mode while driving all 1s data (alternating 7-bit strings of J, then K on DP/DM). Loading of 10 pF. Transfers do not include any interpacket delay.",
+      "4. HS receive mode with no traffic on the line.",
+      "5. Packet transmission by one transceiver operating in device mode while driving all 0s data (constant JKJK on DP/DM). Loading of 50 pF. Transfers do not include any interpacket delay.",
+      "6. Packet transmission by one transceiver operating in host mode while driving all 0s data (constant JKJK on DP/DM). Loading of 600 pF. Transfers do not include any interpacket delay.",
+      "7. Suspend when operating in device mode with no far-side host termination on DP/DM during measurements. Measurements taken when COMMONONN (SYSCFG_USB2PHYxCR.USB2PHYxCMN) is deasserted.",
+      "8. Sleep mode when operating in device mode with no far-side host termination on DP/DM during measurements.",
+      "9. PHY is in suspend (with clocks turned OFF), nondriving mode and operating as a portable device in the “dead battery” condition."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_123",
+    "is_continued": true,
+    "pages": [
+      230,
+      231
+    ],
+    "rows_count": 28,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

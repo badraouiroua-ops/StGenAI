@@ -1,0 +1,117 @@
+{
+  "pdf_name": "AN5342",
+  "family": "41",
+  "tables_checked": 6,
+  "cells_checked": 12,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Microcontroller",
+      "reversed": false,
+      "drift": -7.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32H5 series, STM32H7 series, STM32U3 series, STM32U5 series, STM32C5 series",
+      "reversed": false,
+      "drift": -8.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Error correction code",
+      "reversed": false,
+      "drift": -10.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 6,
+      "row": 0,
+      "original": "64b (1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Bank1",
+      "reversed": false,
+      "drift": -2.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 5,
+      "row": 0,
+      "original": "64b(2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Dedicated flash word with errors planted from factory",
+      "reversed": false,
+      "drift": -26.49,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 1,
+      "row": 0,
+      "original": "• Simple to use, only requires read from the dedicated address to get the ECC interrupt • Simple section of SEC or DED outcome",
+      "reversed": false,
+      "drift": 30.09,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 2,
+      "row": 0,
+      "original": "• Address decoding test is not possible • Feature is only available in selected series",
+      "reversed": false,
+      "drift": -22.26,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 3,
+      "row": 0,
+      "original": "STM32U5 series",
+      "reversed": false,
+      "drift": -8.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 0,
+      "row": 0,
+      "original": "27-May-2019",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

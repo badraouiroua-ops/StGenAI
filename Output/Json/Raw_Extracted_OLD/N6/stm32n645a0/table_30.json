@@ -1,0 +1,53 @@
+{
+  "table_id": "table_30",
+  "caption": "Table 30. Embedded reference voltage calibration value",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 143,
+  "merged_pages": [
+    143
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=143",
+  "section": "5.3.5 Embedded voltage reference",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Memory address"
+  ],
+  "rows": [
+    [
+      "V REFINT_CAL",
+      "Raw data acquired on ADC1 at 30°C, V = V = 1.8 V DDA18ADC REF+",
+      "0x4400 01B8[11:0](1)"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.771,
+    "cols_extracted": 3,
+    "_notes": [
+      "1. Guaranteed by test in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_30",
+    "is_continued": false,
+    "pages": [
+      143
+    ],
+    "rows_count": 1,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "table_id": "table_26",
+  "caption": "Table 26. Typical and maximum current consumption in Sleep mode",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 60,
+  "merged_pages": [
+    60
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=60",
+  "section": "5.3.6.2 Current consumption in Sleep mode",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "f / HCLK (MHz)",
+    "Typ",
+    "Max / TJ = 30 °C",
+    "Max / TJ = 90 °C",
+    "Max / TJ = 110 °C",
+    "Max / TJ = 130 °C",
+    "Max / TJ = 140 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD(SLEEP)",
+      "Supply current in Sleep mode",
+      "All peripheral clocks disabled",
+      "144",
+      "2.05",
+      "2.35",
+      "3.95",
+      "5.50",
+      "8.05",
+      "10.00",
+      "mA"
+    ],
+    [
+      "IDD(SLEEP)",
+      "Supply current in Sleep mode",
+      "All peripheral clocks disabled",
+      "48",
+      "0.93",
+      "1.15",
+      "2.80",
+      "4.35",
+      "6.95",
+      "8.85",
+      "mA"
+    ],
+    [
+      "IDD(SLEEP)",
+      "Supply current in Sleep mode",
+      "All peripheral clocks enabled",
+      "144",
+      "15.00",
+      "15.50",
+      "17.00",
+      "18.50",
+      "21.00",
+      "22.50",
+      "mA"
+    ],
+    [
+      "IDD(SLEEP)",
+      "Supply current in Sleep mode",
+      "All peripheral clocks enabled",
+      "48",
+      "5.30",
+      "5.60",
+      "7.00",
+      "8.40",
+      "11.00",
+      "12.50",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 11,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.759,
+    "cols_extracted": 11,
+    "_notes": [
+      "1. LSE is in bypass mode at 32.768 KHz. DS14927 - Rev 2 page 61/133"
+    ],
+    "_legend": [
+      "Evaluated by characterization - Not tested in production.",
+      "Clocked by HSI at 144MHz of HSIDIV3 at 48MHz."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_26",
+    "is_continued": false,
+    "pages": [
+      60
+    ],
+    "rows_count": 4,
+    "cols_count": 11,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "pdf_name": "AN5225",
+  "family": "test_41",
+  "tables_checked": 16,
+  "cells_checked": 54,
+  "cells_reversed": 1,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "STMicroelectronics ecosystem documents",
+      "reversed": false,
+      "drift": -18.82,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STMicroelectronics ecosystem documents",
+      "reversed": false,
+      "drift": -18.82,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Ground return",
+      "reversed": false,
+      "drift": -6.55,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 3,
+      "row": 0,
+      "original": "up to 5 A split into 4 pins",
+      "reversed": false,
+      "drift": -5.88,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "USB2.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "500 mA",
+      "reversed": true,
+      "drift": 1.0,
+      "corrected": "Am 005"
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Default current based on specification",
+      "reversed": false,
+      "drift": -19.27,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Nothing attached",
+      "reversed": false,
+      "drift": -8.07,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "1.5 A @5 V",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 1,
+      "row": 0,
+      "original": "180 mA ± 8%",
+      "reversed": false,
+      "drift": 1.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 2,
+      "row": 0,
+      "original": "22 kΩ ± 5%",
+      "reversed": false,
+      "drift": 1.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 3,
+      "row": 0,
+      "original": "12 kΩ ± 5%",
+      "reversed": false,
+      "drift": 1.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 0,
+      "row": 0,
+      "original": "± 20% voltage clamp",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 1,
+      "row": 0,
+      "original": "1.1 V",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 3,
+      "row": 0,
+      "original": "1.32 V",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 1,
+      "row": 0,
+      "original": "-0.25",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 0,
+      "row": 0,
+      "original": "With 3 A cable",
+      "reversed": false,
+      "drift": -4.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 1,
+      "row": 0,
+      "original": "With 3 A cable",
+      "reversed": false,
+      "drift": -4.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 2,
+      "row": 0,
+      "original": "With 3 A cable",
+      "reversed": false,
+      "drift": -4.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 3,
+      "row": 0,
+      "original": "With 3 A cable",
+      "reversed": false,
+      "drift": -4.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 4,
+      "row": 0,
+      "original": "With 3 A cable",
+      "reversed": false,
+      "drift": -4.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 5,
+      "row": 0,
+      "original": "With 3 A cable",
+      "reversed": false,
+      "drift": -4.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 6,
+      "row": 0,
+      "original": "With 3 A cable",
+      "reversed": false,
+      "drift": -4.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 7,
+      "row": 0,
+      "original": "With 3 A cable",
+      "reversed": false,
+      "drift": -4.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 8,
+      "row": 0,
+      "original": "With 3 A cable",
+      "reversed": false,
+      "drift": -4.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Unpowered",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 2,
+      "row": 0,
+      "original": "5.1 kΩ resistor or a voltage clamp (DB)",
+      "reversed": false,
+      "drift": 6.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Step 0",
+      "reversed": false,
+      "drift": -2.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Step 0",
+      "reversed": false,
+      "drift": -2.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 3,
+      "row": 0,
+      "original": "active",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 4,
+      "row": 0,
+      "original": "isolated/DB",
+      "reversed": false,
+      "drift": 6.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 5,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 5,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 5,
+      "row": 0,
+      "original": "Protocol",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_16_row0",
+      "col": 0,
+      "row": 0,
+      "original": "I2C1 SCL",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_16_row0",
+      "col": 1,
+      "row": 0,
+      "original": "CN10-3(1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_16_row0",
+      "col": 2,
+      "row": 0,
+      "original": "CN10-3(1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_17_row0",
+      "col": 0,
+      "row": 0,
+      "original": "24-Apr-2019",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_17_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

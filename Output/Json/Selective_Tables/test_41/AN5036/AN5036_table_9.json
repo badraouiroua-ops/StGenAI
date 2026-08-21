@@ -1,0 +1,35 @@
+{
+  "table_id": "table_9",
+  "document": "Table 9. Measurement interpolation at T = 85 °C for STM32MP157 21 A",
+  "rev": null,
+  "table_number": "9",
+  "title": "Table 9. Measurement interpolation at T = 85 °C for STM32MP157 21 A",
+  "page": 21,
+  "section": "6 Thermal analysis examples",
+  "section_title": "Thermal analysis examples",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=21",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 9. Measurement interpolation at T = 85 °C for STM32MP157 21 A — section 6 Thermal analysis examples. Parameter, Value.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "Value"
+    ],
+    "rows": [
+      [
+        "TJ",
+        "110 °C"
+      ],
+      [
+        "PTOT",
+        "2200 mW"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

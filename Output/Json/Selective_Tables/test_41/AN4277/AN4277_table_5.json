@@ -1,0 +1,56 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. Scenarios of PWM output status in response to internal/external break events",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. Scenarios of PWM output status in response to internal/external break events",
+  "page": 13,
+  "section": "5 Examples",
+  "section_title": "Examples",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=13",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+  "text_helper": "Table 5. Scenarios of PWM output status in response to internal/external break events — section 5 Examples. Configuration, Programmed polarity, Result.",
+  "table_content": {
+    "headers": [
+      "Configuration",
+      "Programmed polarity",
+      "Result"
+    ],
+    "rows": [
+      [
+        "Comparator 1 output is connected internally to TIM1 BRK_ACTH and TIM1 BKIN alternate function is disabled.",
+        "High",
+        "The PWM generation is stopped when the comparator output is at the high level, as shown in the following screenshot: 1V10347TD"
+      ],
+      [
+        "Comparator 1 output is connected internally to TIM1 BRK_ACTH and TIM1 BKIN alternate function is enabled.",
+        "High/Low",
+        "The break input signal is an OR between the signal on BKIN and the comparator output. The following screenshot shows an example (polarity = High): 1V20347TD Note: To show the effect of the two break sources, the bit AOE in the BDTR register is set, allowing to restart the PWM at the next update event."
+      ],
+      [
+        "Comparator 4 output is connected internally to TIM1 BRK and the filter is not configured.",
+        "Low",
+        "The PWM signal is stopped during the break signal low level, as shown in the following screenshot: 1V30347TD"
+      ],
+      [
+        "Comparator 4 output is connected internally to TIM1 BRK and the filter is configured.",
+        "High",
+        "During the window defined by the filter duration, the break event has no impact on the PWM generation even if the break condition is verified. This is the case of the following example (screenshot) where the PWM signal is generated normally when the break signal is at a high level during the window defined by the filter. • The filter duration is 7.111 µs (BKF = 1111b, filter duration is (32*8/fDTS), fDTS = 36 MHz). • The comparator output high level duration is 7.111 µs. 1V40347TD"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "break events.",
+      "In the following waveforms:",
+      "• The PWM signal is the reference waveform (internal signal, before BRK protection).",
+      "• The COMP_OUT signal represents the BRK input signal, in our case it is the comparator output.",
+      "• The BIN signal is the input signal on BKIN.",
+      "• The PWM_BRK signal is the resulting PWM signal on the timer output after break detection.",
+      "Color legend: green = PWM signal, blue = COMP_OUT signal, yellow = BKIN signal, purple = PWM_BRK signal."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

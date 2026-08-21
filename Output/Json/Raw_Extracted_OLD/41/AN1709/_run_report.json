@@ -1,0 +1,63 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN1709.pdf",
+  "family": "41",
+  "pdf_name": "AN1709",
+  "tables_found": 15,
+  "tables_extracted": 15,
+  "high": 15,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_11",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 11. Spectrum analyzer resolution bandwidth versus frequency range (broadband EMI)",
+      "page": 12,
+      "merged_pages": [
+        12
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"Frequency range (MHz)\", \"Resolution bandwidth (RBW)\", \"Detector\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "caption_near_bottom": true,
+        "caption_y_ratio": 0.775,
+        "cols_extracted": 3
+      }
+    },
+    {
+      "table_id": "table_12",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 12. Example of EMI results on STM32",
+      "page": 15,
+      "merged_pages": [
+        15
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Monitored frequency band\", \"Value\", \"Unit\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 6
+      }
+    }
+  ],
+  "dedup_rows_removed": 0,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

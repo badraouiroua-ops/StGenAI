@@ -1,0 +1,58 @@
+{
+  "table_id": "table_79",
+  "caption": "Table 79. Document revision history",
+  "pdf_name": "stm32c091kb",
+  "family": "C0",
+  "page": 123,
+  "merged_pages": [
+    123
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=123",
+  "section": "9 Revision history",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "02-Dec-2024",
+      "1",
+      "Initial release."
+    ],
+    [
+      "29-Apr-2025",
+      "2",
+      "Updated Figure 16: V vs. temperature, Figure 29: REFINT SPI timing diagram - slave mode and CPHA = 0, and Figure 30: SPI timing diagram - slave mode and CPHA = 1. Added note at the end of Section 6.6: UFQFPN32 package information (A0B8)."
+    ],
+    [
+      "18-Mar-2026",
+      "3",
+      "Updated: Cover page, Section 1: Introduction, Table 2: STM32C091xB/xC and STM32C092xB/xC device features and peripheral counts, Figure 4: STM32C09xExY WLCSP24 ballout, Section 6.4: UFQFPN28 package information (A0B0), Section 6.6: UFQFPN32 package information (A0B8)."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c091kb",
+    "table_id": "table_79",
+    "is_continued": false,
+    "pages": [
+      123
+    ],
+    "rows_count": 3,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

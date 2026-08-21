@@ -1,0 +1,106 @@
+{
+  "table_id": "table_68",
+  "caption": "Table 68. NRST pin characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 171,
+  "merged_pages": [
+    171
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=171",
+  "section": "5.3.18 NRST pin characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "R (1) PU",
+      "Weak pull-up equivalent resistor",
+      "-",
+      "30",
+      "40",
+      "50",
+      "kΩ"
+    ],
+    [
+      "t GEN",
+      "NRST minimum generated output pulse",
+      "-",
+      "17.5",
+      "-",
+      "-",
+      "μs"
+    ],
+    [
+      "T FILT",
+      "NRST input filtered pulse",
+      "-",
+      "-",
+      "-",
+      "50",
+      "ns"
+    ],
+    [
+      "T NFILT",
+      "NRST input not filtered pulse",
+      "-",
+      "150",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "V IL(NRST)",
+      "NRST input low-level voltage",
+      "-",
+      "-",
+      "-",
+      "0.65",
+      "V"
+    ],
+    [
+      "C EXT",
+      "External capacitor",
+      "-",
+      "-",
+      "-",
+      "10",
+      "nF"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. The pull-up is designed with a true resistance in series with a switchable PMOS, whose contribution to the series resistance must be minimum (~10%)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_68",
+    "is_continued": false,
+    "pages": [
+      171
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

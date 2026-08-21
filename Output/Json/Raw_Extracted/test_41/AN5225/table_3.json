@@ -1,0 +1,80 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. Power supply options",
+  "pdf_name": "AN5225",
+  "family": "test_41",
+  "page": 7,
+  "merged_pages": [
+    7
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=7",
+  "section": "3.1 VBUS power options",
+  "headers": [
+    "Mode of operation",
+    "Nominal voltage",
+    "Maximum current",
+    "Note"
+  ],
+  "rows": [
+    [
+      "USB2.0",
+      "5 V",
+      "Am 005",
+      "Default current based on specification"
+    ],
+    [
+      "USB3.1",
+      "5 V",
+      "900 mA",
+      "Default current based on specification"
+    ],
+    [
+      "USB BC1.2",
+      "5 V",
+      "1.5 A",
+      "Legacy charging"
+    ],
+    [
+      "Current @1.5 A",
+      "5 V",
+      "1.5 A",
+      "Support high-power devices"
+    ],
+    [
+      "Current @3 A",
+      "5 V",
+      "3 A",
+      "Support high-power devices"
+    ],
+    [
+      "USB PD",
+      "5 V to 20 V",
+      "5 A",
+      "Directional control and power level management"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5225",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      7
+    ],
+    "rows_count": 6,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

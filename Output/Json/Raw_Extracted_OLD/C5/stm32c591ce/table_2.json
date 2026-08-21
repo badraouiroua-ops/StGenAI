@@ -1,0 +1,54 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. LPDMA1 and LPDMA2 channels implementation and usage.",
+  "pdf_name": "stm32c591ce",
+  "family": "C5",
+  "page": 13,
+  "merged_pages": [
+    13
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=13",
+  "section": "3.12 Low-power direct memory access controller (LPDMA)",
+  "headers": [
+    "Channel x",
+    "Hardware parameters / dma_fifo_size[x]",
+    "Hardware parameters / dma_addressing[x]",
+    "Features"
+  ],
+  "rows": [
+    [
+      "x = 0 to 7",
+      "0",
+      "0",
+      "Channel x (x = 0 to 7) is implemented with: • no FIFO. Only a single source transfer cell is internally registered. • fixed/contiguously incremented addressing"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.756,
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c591ce",
+    "table_id": "table_2",
+    "is_continued": false,
+    "pages": [
+      13
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

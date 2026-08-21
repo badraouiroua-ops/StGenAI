@@ -1,0 +1,202 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. USB Type-C receptacle pin descriptions",
+  "pdf_name": "AN5225",
+  "family": "41",
+  "page": 6,
+  "merged_pages": [
+    6,
+    7
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=6",
+  "section": "3 Connector pin mapping",
+  "headers": [
+    "Pin",
+    "Name",
+    "Description",
+    "Comment"
+  ],
+  "rows": [
+    [
+      "A1",
+      "GND",
+      "Ground return",
+      "up to 5 A split into 4 pins"
+    ],
+    [
+      "A2",
+      "TX1+",
+      "USB3.0 datalines or alternate",
+      "10 Gbit/s TX differential pair in USB3.1"
+    ],
+    [
+      "A3",
+      "TX1-",
+      "USB3.0 datalines or alternate",
+      "10 Gbit/s TX differential pair in USB3.1"
+    ],
+    [
+      "A4",
+      "VBUS",
+      "Bus power",
+      "100 W max power split into 4 pins"
+    ],
+    [
+      "A5",
+      "CC1 or VCONN",
+      "Configuration channel or power for active or electronically marked cable",
+      "In VCONN configuration, min power is 1 W"
+    ],
+    [
+      "A6",
+      "D+",
+      "USB2.0 data lines",
+      "-"
+    ],
+    [
+      "A7",
+      "D-",
+      "USB2.0 data lines",
+      "-"
+    ],
+    [
+      "A8",
+      "SBU1",
+      "Side band use",
+      "Alternate mode only"
+    ],
+    [
+      "A9",
+      "VBUS",
+      "Bus power",
+      "100 W max power split into 4 pins"
+    ],
+    [
+      "A10",
+      "RX2-",
+      "USB3.0 datalines or alternate",
+      "10 Gbit/s RX differential pair USB3.1"
+    ],
+    [
+      "A11",
+      "RX2+",
+      "USB3.0 datalines or alternate",
+      "10 Gbit/s RX differential pair USB3.1"
+    ],
+    [
+      "A12",
+      "GND",
+      "Ground return",
+      "up to 5 A split into 4 pins"
+    ],
+    [
+      "B1",
+      "GND",
+      "Ground return",
+      "up to 5 A split into 4 pins"
+    ],
+    [
+      "B2",
+      "TX2+",
+      "USB3.0 datalines or alternate",
+      "10 Gbit/s TX differential pair in USB3.1"
+    ],
+    [
+      "B3",
+      "TX2-",
+      "USB3.0 datalines or alternate",
+      "10 Gbit/s TX differential pair in USB3.1"
+    ],
+    [
+      "B4",
+      "VBUS",
+      "Bus power",
+      "100 W max power split into 4 pins"
+    ],
+    [
+      "B5",
+      "CC2 or VCONN",
+      "Configuration channel or power for active or electronically marked cable",
+      "In VCONN configuration, min power is 1 W"
+    ],
+    [
+      "B6",
+      "D+",
+      "USB2.0 datalines",
+      "-"
+    ],
+    [
+      "B7",
+      "D-",
+      "D-",
+      "-"
+    ],
+    [
+      "B8",
+      "SBU2",
+      "Side band use",
+      "Alternate mode only"
+    ],
+    [
+      "B9",
+      "VBUS",
+      "Bus power",
+      "100 W ma power split into 4 pins"
+    ],
+    [
+      "B10",
+      "RX1-",
+      "USB3.0 datalines or alternate",
+      "10 Gbit/s RX differential pair in USB3.1"
+    ],
+    [
+      "B11",
+      "RX1+",
+      "RX1+",
+      "RX1+"
+    ],
+    [
+      "B12",
+      "GND",
+      "Ground return",
+      "Up to 5 A split into 4 pins"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "continuation": {
+      "base_cols": 4,
+      "cont_cols_raw": 4,
+      "target_cols": 4,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5225",
+    "table_id": "table_2",
+    "is_continued": true,
+    "pages": [
+      6,
+      7
+    ],
+    "rows_count": 24,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

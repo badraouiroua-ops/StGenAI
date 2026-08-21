@@ -1,0 +1,140 @@
+{
+  "table_id": "table_8",
+  "caption": "Table 8. Effect of oversampling on ENOB",
+  "pdf_name": "AN5537",
+  "family": "41",
+  "page": 22,
+  "merged_pages": [
+    22
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=22",
+  "section": "6 ENOB (effective number of bits) measurement",
+  "headers": [
+    "OVS ration",
+    "OVS right shift",
+    "OVS left shift",
+    "ENOB / 500 Hz",
+    "ENOB / 1 kHz",
+    "ENOB / 1.5 kHz",
+    "ENOB / 2 kHz",
+    "ENOB / 2.5 kHz"
+  ],
+  "rows": [
+    [
+      "None",
+      "None",
+      "None",
+      "10.4126",
+      "10.3622",
+      "10.3543",
+      "10.2774",
+      "10.3084"
+    ],
+    [
+      "2",
+      "None",
+      "3",
+      "10.6245",
+      "10.6302",
+      "10.9172",
+      "10.8618",
+      "10.9524"
+    ],
+    [
+      "4",
+      "None",
+      "2",
+      "10.9567",
+      "11.2234",
+      "11.2249",
+      "11.3322",
+      "11.3531"
+    ],
+    [
+      "8",
+      "None",
+      "1",
+      "11.1692",
+      "11.3454",
+      "11.4646",
+      "11.5817",
+      "11.7653"
+    ],
+    [
+      "16",
+      "None",
+      "None",
+      "11.2158",
+      "11.4962",
+      "11.6551",
+      "11.8414",
+      "11.9138"
+    ],
+    [
+      "32",
+      "1",
+      "None",
+      "11.2718",
+      "11.6126",
+      "11.8103",
+      "12.0408",
+      "12.2725"
+    ],
+    [
+      "64",
+      "2",
+      "None",
+      "11.3109",
+      "11.6220",
+      "11.8968",
+      "12.1124",
+      "12.3626"
+    ],
+    [
+      "128",
+      "3",
+      "None",
+      "11.3259",
+      "11.6568",
+      "11.9050",
+      "12.1579",
+      "12.6038"
+    ],
+    [
+      "256",
+      "4",
+      "None",
+      "11.3582",
+      "11.7032",
+      "11.9301",
+      "12.2419",
+      "12.8259"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5537",
+    "table_id": "table_8",
+    "is_continued": false,
+    "pages": [
+      22
+    ],
+    "rows_count": 9,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

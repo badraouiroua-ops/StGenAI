@@ -1,0 +1,30 @@
+{
+  "table_id": "table_5",
+  "document": "Table 5. DFP CC termination (Rp) requirements",
+  "rev": null,
+  "table_number": "5",
+  "title": "Table 5. DFP CC termination (Rp) requirements",
+  "page": 10,
+  "section": "4.2 Power capability detection and usage",
+  "section_title": "Power capability detection and usage",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=10",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 5. DFP CC termination (Rp) requirements — section 4.2 Power capability detection and usage. VBUS power / Default USB power, Current source to 1.7 V - 5.5 V / 80 mA ± 20%, Rp pull up to 4.75 V - 5.5 V / 56 kΩ ± 20% (1), Rp pull up to 3.3 V +/-5% / 36 kΩ ± 20%. (table vide)",
+  "table_content": {
+    "headers": [
+      "VBUS power / Default USB power",
+      "Current source to 1.7 V - 5.5 V / 80 mA ± 20%",
+      "Rp pull up to 4.75 V - 5.5 V / 56 kΩ ± 20% (1)",
+      "Rp pull up to 3.3 V +/-5% / 36 kΩ ± 20%"
+    ],
+    "rows": [],
+    "notes": [
+      "1. For Rp when implemented in the USB Type-C plug on a USB Type-C to USB 3.1 Standard-A Cable Assembly, a USB Type- C to USB 2.0 Standard-A Cable Assembly, a USB Type-C to USB 2.0 Micro-B Receptacle Adapter Assembly or a USB"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "pdf_type": 2,
+  "doc_ref": "DS14928",
+  "revision": "Rev 3",
+  "date": "May 2026",
+  "title": "Arm® Cortex®-M33 32-bit MCU with FPU, 144 MHz, 593 CoreMark®, up to 512 Kbyte dual bank flash memory, 128-Kbyte RAM",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "page": 1,
+  "core": "Cortex-M33",
+  "fpu": true,
+  "max_frequency_mhz": 144,
+  "flash_kb": 512,
+  "ram_kb": 128,
+  "voltage_min_v": 2.7,
+  "voltage_max_v": 3.6,
+  "operating_temp_c": [],
+  "packages": [
+    "LQFP100 (14 x 14 mm)",
+    "LQFP32 (7 x 7 mm)",
+    "LQFP48 (7 x 7 mm)",
+    "LQFP64 (10 x 10 mm)",
+    "LQFP80 (12 x 12 mm)",
+    "UFQFPN32 (5 x 5 mm)",
+    "UFQFPN48 (7 x 7 mm)"
+  ],
+  "device_summary": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32C551xx",
+        "STM32C551CC STM32C551KC STM32C551MC STM32C551RC STM32C551VC STM32C551CE STM32C551KE STM32C551ME STM32C551RE STM32C551VE"
+      ],
+      [
+        "STM32C552xx",
+        "STM32C552CC STM32C552KC STM32C552MC STM32C552RC STM32C552VC STM32C552CE STM32C552KE STM32C552ME STM32C552RE STM32C552VE"
+      ]
+    ]
+  },
+  "extraction_meta": {
+    "source_pages": [
+      1,
+      2
+    ],
+    "extraction_method": "regex_type2",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "high",
+    "missing_fields": [
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

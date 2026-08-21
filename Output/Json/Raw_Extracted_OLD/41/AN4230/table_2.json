@@ -1,0 +1,144 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. STM32 lines embedding the RNG hardware peripheral",
+  "pdf_name": "AN4230",
+  "family": "41",
+  "page": 2,
+  "merged_pages": [
+    2,
+    3
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4230.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4230.pdf#page=2",
+  "section": "1.1 RNG overview",
+  "headers": [
+    "Series",
+    "STM32 lines"
+  ],
+  "rows": [
+    [
+      "STM32F2 series",
+      "All lines"
+    ],
+    [
+      "STM32F4 series",
+      "STM32F405/415, STM32F407/417, STM32F410, STM32F412, STM32F413/423, STM32F427/437, STM32F429/439, STM32F469/479"
+    ],
+    [
+      "STM32F7 series",
+      "All lines"
+    ],
+    [
+      "STM32L0 series",
+      "STM32L05x, STM32L06x, STM32L072/073"
+    ],
+    [
+      "STM32L4 series",
+      "All lines"
+    ],
+    [
+      "STM32L4+ series",
+      "All lines"
+    ],
+    [
+      "STM32H5 series",
+      "All lines"
+    ],
+    [
+      "STM32H7 series",
+      "All lines(1)"
+    ],
+    [
+      "STM32L5 series",
+      "All lines"
+    ],
+    [
+      "STM32U0 series",
+      "All lines"
+    ],
+    [
+      "STM32U5 series",
+      "All lines"
+    ],
+    [
+      "STM32G0 series",
+      "STM32G081xB, STM32G041x6, STM32G041x8, STM32G061x6, STM32G061x8, STM32G0C1xC, STM32G0C1xE"
+    ],
+    [
+      "STM32G4 series",
+      "All lines"
+    ],
+    [
+      "STM32MP1 series",
+      "All lines"
+    ],
+    [
+      "STM32WBA series",
+      "All lines(2)"
+    ],
+    [
+      "STM32WB series",
+      "All lines"
+    ],
+    [
+      "STM32WL series",
+      "All lines"
+    ],
+    [
+      "STM32MP2 series",
+      "All lines"
+    ],
+    [
+      "STM32N6 series",
+      "All lines"
+    ],
+    [
+      "STM32U3 series",
+      "All lines"
+    ],
+    [
+      "STM32C5 series",
+      "All lines"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "continuation": {
+      "base_cols": 2,
+      "cont_cols_raw": 2,
+      "target_cols": 2,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Except the following part numbers, which don't embed RNG peripherals: STM32H745BG, STM32H745XG, STM32H745ZG, STM32H747AG, STM32H747AI, STM32H747BG, STM32H747IG, STM32H747II, STM32H747XG, STM32H757AI,",
+      "2. Except STM32WBA55HG and STM32WBA55UG. The true RNG implemented in the STM32 MCUs is based on an analog circuit. This circuit generates a"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN4230",
+    "table_id": "table_2",
+    "is_continued": true,
+    "pages": [
+      2,
+      3
+    ],
+    "rows_count": 21,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

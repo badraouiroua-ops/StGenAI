@@ -1,0 +1,99 @@
+{
+  "table_id": "table_12",
+  "caption": "Table 12. Summary of principal Type-C application topologies",
+  "pdf_name": "AN5225",
+  "family": "test_41",
+  "page": 30,
+  "merged_pages": [
+    30
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=30",
+  "section": "11.3.2 Sink port",
+  "headers": [
+    "Application / Protected(1)",
+    "Application / Dead battery compliant",
+    "Application / Sink/source",
+    "DBCCx / Shorted with CCx",
+    "DBCCx / Reusable",
+    "Note"
+  ],
+  "rows": [
+    [
+      "No",
+      "Yes",
+      "Sink",
+      "Yes",
+      "No",
+      "-"
+    ],
+    [
+      "No",
+      "No",
+      "Sink",
+      "No",
+      "Yes",
+      "Application must ensure low level on DBCCx when the device is unpowered."
+    ],
+    [
+      "Yes",
+      "Yes",
+      "Sink",
+      "Yes",
+      "No",
+      "Protection circuit deactivated when supplied"
+    ],
+    [
+      "Yes",
+      "No",
+      "Sink",
+      "No",
+      "Yes",
+      "Protection circuit deactivated when supplied: the application must ensure low level on DBCCx when the device is unpowered."
+    ],
+    [
+      "Yes",
+      "No",
+      "Sink",
+      "No",
+      "Yes",
+      "Protection circuit deactivated by software: the default Rd is never exposed to Type-C source."
+    ],
+    [
+      "No",
+      "Not applicable",
+      "Source",
+      "No",
+      "Yes",
+      "Rp exposed on CCx when the device is powered. The application must ensure low level on DBCCx when the device is unpowered."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Pertains to CCx line"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5225",
+    "table_id": "table_12",
+    "is_continued": false,
+    "pages": [
+      30
+    ],
+    "rows_count": 6,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

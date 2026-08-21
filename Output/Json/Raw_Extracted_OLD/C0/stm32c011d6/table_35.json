@@ -1,0 +1,113 @@
+{
+  "table_id": "table_35",
+  "caption": "Table 35. Low-power mode wake-up times",
+  "pdf_name": "stm32c011d6",
+  "family": "C0",
+  "page": 49,
+  "merged_pages": [
+    49
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=49",
+  "section": "5.3.6 Wake-up time from low-power modes",
+  "headers": [
+    "Symbol",
+    "Parameter(1)",
+    "Conditions",
+    "Conditions",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t WUSLEEP",
+      "Wake-up time from Sleep to Run mode",
+      "HCLK = HSI48/4 = 12 MHz",
+      "Transiting to Run-mode execution in flash memory powered during Sleep mode",
+      "10",
+      "12",
+      "CPU clock cycles"
+    ],
+    [
+      "t WUSLEEP",
+      "Wake-up time from Sleep to Run mode",
+      "HCLK = HSI48/4 = 12 MHz",
+      "Transiting to Run-mode execution in flash memory not powered during Sleep mode",
+      "4.75",
+      "5.02",
+      "µs"
+    ],
+    [
+      "t WULPSTOP",
+      "Wake-up time from Stop mode",
+      "Clock after wake-up is HCLK = HSI48/4 = 12 MHz",
+      "Transiting to Run-mode execution in flash memory powered during Stop mode",
+      "2.7",
+      "3.1",
+      "µs"
+    ],
+    [
+      "t WULPSTOP",
+      "Wake-up time from Stop mode",
+      "Clock after wake-up is HCLK = HSI48/4 = 12 MHz",
+      "Transiting to Run-mode execution in flash memory not powered during Stop mode",
+      "5.9",
+      "6.4",
+      "µs"
+    ],
+    [
+      "t WULPSTOP",
+      "Wake-up time from Stop mode",
+      "Clock after wake-up is HCLK = HSI48/4 = 12 MHz",
+      "Transiting to Run-mode execution in SRAM",
+      "2.5",
+      "2.9",
+      "µs"
+    ],
+    [
+      "t WUSTBY",
+      "Wake-up time from Standby mode",
+      "Clock after wake- up is HCLK = HSI48/4 = 12 MHz",
+      "Transiting to Run mode",
+      "23",
+      "35",
+      "µs"
+    ],
+    [
+      "t WUSHDN",
+      "Wake-up time from Shutdown mode",
+      "Clock after wake- up is HCLK = HSI48/4 = 12 MHz",
+      "Transiting to Run mode",
+      "385",
+      "466",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Evaluated by characterization. Not tested in production. DS13866 Rev 5 49/97"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c011d6",
+    "table_id": "table_35",
+    "is_continued": false,
+    "pages": [
+      49
+    ],
+    "rows_count": 7,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

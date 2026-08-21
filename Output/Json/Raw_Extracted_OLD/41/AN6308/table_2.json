@@ -1,0 +1,161 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. Memory availability.",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 4,
+  "merged_pages": [
+    4
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=4",
+  "section": "3.1 Main features",
+  "headers": [
+    "Products",
+    "Flash memory / Size",
+    "Flash memory / Dual bank",
+    "RAM size (Kbytes) / SRAM1",
+    "RAM size (Kbytes) / SRAM2",
+    "RAM size (Kbytes) / SRAM3",
+    "RAM size (Kbytes) / BKPSRAM",
+    "Feature level"
+  ],
+  "rows": [
+    [
+      "STM32H50x",
+      "Up to 128 Kbytes",
+      "Yes",
+      "16",
+      "16",
+      "NA",
+      "2",
+      "Without hardware crypto"
+    ],
+    [
+      "STM32H533",
+      "Up to 512 Kbytes",
+      "Yes",
+      "128",
+      "80",
+      "64",
+      "2",
+      "With hardware crypto: AES, PKA,SAES, and OTFDEC"
+    ],
+    [
+      "STM32H523",
+      "Up to 512 Kbytes",
+      "Yes",
+      "128",
+      "80",
+      "64",
+      "2",
+      "Without hardware crypto"
+    ],
+    [
+      "STM32H573",
+      "Up to 2 MB",
+      "Yes",
+      "256",
+      "64",
+      "320",
+      "4",
+      "With hardware crypto: AES, PKA,SAES, and OTFDEC"
+    ],
+    [
+      "STM32H563",
+      "Up to 2 MB",
+      "Yes",
+      "256",
+      "64",
+      "320",
+      "4",
+      "Without hardware crypto"
+    ],
+    [
+      "STM32C54x",
+      "Up to 256 KB",
+      "Yes",
+      "32",
+      "32",
+      "NA",
+      "NA",
+      "With hardware crypto: AES"
+    ],
+    [
+      "STM32C53x",
+      "Up to 256 KB",
+      "Yes",
+      "32",
+      "32",
+      "NA",
+      "NA",
+      "Without hardware crypto"
+    ],
+    [
+      "STM32C56x",
+      "Up to 512 KB",
+      "Yes",
+      "64",
+      "64",
+      "NA",
+      "NA",
+      "With hardware crypto: AES"
+    ],
+    [
+      "STM32C55x",
+      "Up to 512 KB",
+      "Yes",
+      "64",
+      "64",
+      "NA",
+      "NA",
+      "Without hardware crypto"
+    ],
+    [
+      "STM32C5Ax",
+      "Up to 1 MB",
+      "Yes",
+      "128",
+      "128",
+      "NA",
+      "NA",
+      "With hardware crypto: AES, PKA and SAES"
+    ],
+    [
+      "STM32C59x",
+      "Up to 1 MB",
+      "Yes",
+      "128",
+      "128",
+      "NA",
+      "NA",
+      "Without hardware crypto"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_2",
+    "is_continued": false,
+    "pages": [
+      4
+    ],
+    "rows_count": 11,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

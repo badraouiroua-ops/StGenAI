@@ -1,0 +1,98 @@
+{
+  "table_id": "table_44",
+  "caption": "Table 44. Flash memory endurance and data retention",
+  "pdf_name": "stm32c091kb",
+  "family": "C0",
+  "page": 68,
+  "merged_pages": [
+    68
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c091kb.pdf#page=68",
+  "section": "5.3.9 Flash memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter(1)",
+    "Conditions",
+    "Min",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "N END",
+      "Endurance",
+      "T = -40 to +130 °C J",
+      "10",
+      "kcycles"
+    ],
+    [
+      "t RET",
+      "Data retention",
+      "1 kcycle(2) at T = 85 °C A",
+      "30",
+      "Years"
+    ],
+    [
+      "t RET",
+      "Data retention",
+      "1 kcycle(2) at T = 105 °C A",
+      "15",
+      "Years"
+    ],
+    [
+      "t RET",
+      "Data retention",
+      "1 kcycle(2) at T = 125 °C A",
+      "7",
+      "Years"
+    ],
+    [
+      "t RET",
+      "Data retention",
+      "10 kcycles(2) at T = 55 °C A",
+      "30",
+      "Years"
+    ],
+    [
+      "t RET",
+      "Data retention",
+      "10 kcycles(2) at T = 85 °C A",
+      "15",
+      "Years"
+    ],
+    [
+      "t RET",
+      "Data retention",
+      "10 kcycles(2) at T = 105 °C A",
+      "10",
+      "Years"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Specified by design. Not tested in production.",
+      "2. Values provided also apply to devices with less flash memory than one 256 Kbyte bank"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c091kb",
+    "table_id": "table_44",
+    "is_continued": false,
+    "pages": [
+      68
+    ],
+    "rows_count": 7,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

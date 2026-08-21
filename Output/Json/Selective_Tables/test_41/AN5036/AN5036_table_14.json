@@ -1,0 +1,103 @@
+{
+  "table_id": "table_14",
+  "document": "Table 14. STM32MP135 power dissipation versus T at 900 MHz (dd) 24 J",
+  "rev": null,
+  "table_number": "14",
+  "title": "Table 14. STM32MP135 power dissipation versus T at 900 MHz (dd) 24 J",
+  "page": 24,
+  "section": "6.3.1.2 Use case about dd",
+  "section_title": "Use case about dd",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=24",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 14. STM32MP135 power dissipation versus T at 900 MHz (dd) 24 J — section 6.3.1.2 Use case about dd. TJ (°C), STM32MP135 power dissipation (mW) at 900 MHz.",
+  "table_content": {
+    "headers": [
+      "TJ (°C)",
+      "STM32MP135 power dissipation (mW) at 900 MHz"
+    ],
+    "rows": [
+      [
+        "20",
+        "586.44"
+      ],
+      [
+        "31",
+        "596.04"
+      ],
+      [
+        "43",
+        "615.00"
+      ],
+      [
+        "47",
+        "623.83"
+      ],
+      [
+        "52",
+        "632.93"
+      ],
+      [
+        "56",
+        "638.62"
+      ],
+      [
+        "66",
+        "666.42"
+      ],
+      [
+        "71",
+        "679.79"
+      ],
+      [
+        "78",
+        "698.36"
+      ],
+      [
+        "86",
+        "732.92"
+      ],
+      [
+        "91",
+        "756.62"
+      ],
+      [
+        "96",
+        "778.01"
+      ],
+      [
+        "98",
+        "789.23"
+      ],
+      [
+        "101",
+        "801.44"
+      ],
+      [
+        "106",
+        "826.83"
+      ],
+      [
+        "111",
+        "848.00"
+      ],
+      [
+        "116",
+        "869.98"
+      ],
+      [
+        "119",
+        "889.19"
+      ],
+      [
+        "129",
+        "985.12"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

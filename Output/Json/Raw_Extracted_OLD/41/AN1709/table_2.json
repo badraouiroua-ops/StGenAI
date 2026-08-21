@@ -1,0 +1,51 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. ESD standards",
+  "pdf_name": "AN1709",
+  "family": "41",
+  "page": 4,
+  "merged_pages": [
+    4
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=4",
+  "section": "3.1.1 Functional EMS test",
+  "headers": [
+    "European standard",
+    "International standard",
+    "Description"
+  ],
+  "rows": [
+    [
+      "EN 61000-4-2",
+      "EC 61000-4-2",
+      "Conducted ESD test"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. R = 50 MΩ, Rd = 330 Ω ch"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN1709",
+    "table_id": "table_2",
+    "is_continued": false,
+    "pages": [
+      4
+    ],
+    "rows_count": 1,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

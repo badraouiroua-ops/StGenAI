@@ -1,0 +1,78 @@
+{
+  "table_id": "table_77",
+  "caption": "Table 77. Tolerance of form and position.",
+  "pdf_name": "stm32c542cc",
+  "family": "C5",
+  "page": 109,
+  "merged_pages": [
+    109
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=109",
+  "section": "4.00 PKG",
+  "headers": [
+    "Symbol(1)",
+    "Tolerance of form and position(2) In millimeters",
+    "Tolerance of form and position(3) In inches"
+  ],
+  "rows": [
+    [
+      "aaa",
+      "0.15",
+      "0.006"
+    ],
+    [
+      "bbb",
+      "0.10",
+      "0.004"
+    ],
+    [
+      "ccc",
+      "0.10",
+      "0.004"
+    ],
+    [
+      "ddd",
+      "0.05",
+      "0.002"
+    ],
+    [
+      "eee",
+      "0.10",
+      "0.004"
+    ],
+    [
+      "fff",
+      "0.10",
+      "0.004"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. All dimensions are in millimeters. Dimensioning and tolerancing schemes are conform to ASME Y14.5M-2018 except European .",
+      "2. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "3. UFQFPN stands for Ultra thin Fine pitch Quad Flat Package No lead: A ≤ 0.60mm / Fine pitch e ≤ 1.00mm."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c542cc",
+    "table_id": "table_77",
+    "is_continued": false,
+    "pages": [
+      109
+    ],
+    "rows_count": 6,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

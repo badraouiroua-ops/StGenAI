@@ -1,0 +1,83 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. ST ESD severity levels",
+  "pdf_name": "AN1709",
+  "family": "41",
+  "page": 7,
+  "merged_pages": [
+    7
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN1709.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN1709.pdf#page=7",
+  "section": "3.1.1 Functional EMS test",
+  "headers": [
+    "Severity level",
+    "ESD (IEC 61000-4-2) equipment standard (kV)",
+    "FTB (IEC 61000-4-4) equipment standard (kV)",
+    "ESD ST internal EMC test (kV)",
+    "FTB ST internal EMC test (kV)"
+  ],
+  "rows": [
+    [
+      "1",
+      "2",
+      "0.5",
+      "≤ 0.5",
+      "≤ 0.5"
+    ],
+    [
+      "2",
+      "4",
+      "1",
+      "≤ 1",
+      "≤ 1"
+    ],
+    [
+      "3",
+      "6",
+      "2",
+      "≤ 1.5",
+      "≤ 1.5"
+    ],
+    [
+      "4",
+      "8",
+      "4",
+      "≤ 2",
+      "≤ 2.5"
+    ],
+    [
+      "5(1)",
+      ">8",
+      ">4",
+      "NA",
+      "> 2.5"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Class description: “A” class is an internal specification. All its limits are higher than the JEDEC specifications, that means when a device belongs to class A it exceeds the JEDEC standard. “B”class strictly covers all the JEDEC criteria"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN1709",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      7
+    ],
+    "rows_count": 5,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

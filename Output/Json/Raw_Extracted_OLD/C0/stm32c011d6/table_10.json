@@ -1,0 +1,67 @@
+{
+  "table_id": "table_10",
+  "caption": "Table 10. SPI/I2S implementation",
+  "pdf_name": "stm32c011d6",
+  "family": "C0",
+  "page": 25,
+  "merged_pages": [
+    25
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=25",
+  "section": "3.19 Serial peripheral interface (SPI)",
+  "headers": [
+    "SPI features(1)",
+    "SPI1"
+  ],
+  "rows": [
+    [
+      "Hardware CRC calculation",
+      "X"
+    ],
+    [
+      "Rx/Tx FIFO",
+      "X"
+    ],
+    [
+      "NSS pulse mode",
+      "X"
+    ],
+    [
+      "I2S mode",
+      "X"
+    ],
+    [
+      "TI mode",
+      "X"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. X: supported"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c011d6",
+    "table_id": "table_10",
+    "is_continued": false,
+    "pages": [
+      25
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

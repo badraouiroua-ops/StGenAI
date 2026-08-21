@@ -1,0 +1,92 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. Access permissions of regions",
+  "pdf_name": "AN4838",
+  "family": "41",
+  "page": 8,
+  "merged_pages": [
+    8
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=8",
+  "section": "3.3 Memory attributes",
+  "headers": [
+    "AP[2:0]",
+    "Privileged permissions",
+    "Unprivileged permissions",
+    "Description"
+  ],
+  "rows": [
+    [
+      "000",
+      "No access",
+      "No access",
+      "All accesses generate a permission fault"
+    ],
+    [
+      "001",
+      "RW",
+      "No access",
+      "Access from a privileged software only"
+    ],
+    [
+      "010",
+      "RW",
+      "RO",
+      "Written by an unprivileged software generates a permission fault"
+    ],
+    [
+      "011",
+      "RW",
+      "RW",
+      "Full access"
+    ],
+    [
+      "100",
+      "Unpredictable",
+      "Unpredictable",
+      "Reserved"
+    ],
+    [
+      "101",
+      "RO",
+      "No access",
+      "Read by a privileged software only"
+    ],
+    [
+      "110",
+      "RO",
+      "RO",
+      "Read only, by privileged or unprivileged software"
+    ],
+    [
+      "111",
+      "RO",
+      "RO",
+      "Read only, by privileged or unprivileged software"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4838",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      8
+    ],
+    "rows_count": 8,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

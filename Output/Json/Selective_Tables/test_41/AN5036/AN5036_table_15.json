@@ -1,0 +1,79 @@
+{
+  "table_id": "table_15",
+  "document": "Table 15. STM32MP135 power dissipation versus T at 1 GHz (dd) 25 J",
+  "rev": null,
+  "table_number": "15",
+  "title": "Table 15. STM32MP135 power dissipation versus T at 1 GHz (dd) 25 J",
+  "page": 25,
+  "section": "6.3.1.2 Use case about dd",
+  "section_title": "Use case about dd",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=25",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 15. STM32MP135 power dissipation versus T at 1 GHz (dd) 25 J — section 6.3.1.2 Use case about dd. TJ (°C), STM32MP135 power dissipation (mW) at 1 GHz.",
+  "table_content": {
+    "headers": [
+      "TJ (°C)",
+      "STM32MP135 power dissipation (mW) at 1 GHz"
+    ],
+    "rows": [
+      [
+        "21.6",
+        "670.45"
+      ],
+      [
+        "32",
+        "675.12"
+      ],
+      [
+        "37",
+        "681.26"
+      ],
+      [
+        "46",
+        "700"
+      ],
+      [
+        "49",
+        "708.00"
+      ],
+      [
+        "56",
+        "716.39"
+      ],
+      [
+        "61",
+        "736.53"
+      ],
+      [
+        "68",
+        "765.82"
+      ],
+      [
+        "76",
+        "787.60"
+      ],
+      [
+        "83",
+        "811.60"
+      ],
+      [
+        "89",
+        "842.97"
+      ],
+      [
+        "100",
+        "889.80"
+      ],
+      [
+        "110",
+        "936.20"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

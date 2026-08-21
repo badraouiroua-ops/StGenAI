@@ -1,0 +1,125 @@
+{
+  "table_id": "table_13",
+  "caption": "Table 13. Sink features",
+  "pdf_name": "AN5225",
+  "family": "41",
+  "page": 31,
+  "merged_pages": [
+    31
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=31",
+  "section": "11.3.2 Sink port",
+  "headers": [
+    "Feature",
+    "STM32 peripherals involved",
+    "number of STM32 pins",
+    "External components or devices",
+    "Comments",
+    "Signal name"
+  ],
+  "rows": [
+    [
+      "Communication channels CC1 and CC2",
+      "UCPD: CC1, CC2",
+      "2",
+      "-",
+      "Mandatory. Able to handle Rd and Rp",
+      "CC1, CC2"
+    ],
+    [
+      "Dead battery",
+      "UCPD: DBCC1, DBCC2",
+      "2",
+      "-",
+      "Handles Rd",
+      "DBCC1, DBCC2"
+    ],
+    [
+      "VBUS level, vSafe5V, measurement",
+      "ADC",
+      "1",
+      "Resistor divider bridge with or without op-amp for safety purpose",
+      "Mandatory only for OVP protection purpose",
+      "V_SENSE"
+    ],
+    [
+      "Sink power from VBUS",
+      "-",
+      "-",
+      "DC/DC from VBUS to 3.3 V (VDD)",
+      "Optional, LDO, DC/DC, SMPS",
+      "-"
+    ],
+    [
+      "Extra Power switch",
+      "GPIO",
+      "1",
+      "Power switch",
+      "Optional, MOSFET or power switch can be use",
+      "SNK_EN"
+    ],
+    [
+      "CC1 and CC2",
+      "-",
+      "-",
+      "See Section 14 Recommendations",
+      "Optional",
+      "CC1 and CC2 on Type-C side"
+    ],
+    [
+      "VBus",
+      "-",
+      "-",
+      "See Section 14 Recommendations",
+      "Optional",
+      "VBUS on Type-C side"
+    ],
+    [
+      "Message repetition",
+      "TIM",
+      "-",
+      "-",
+      "Used to drive timing repetition 1200 µs et 900 µs",
+      "See UM2552 for details"
+    ],
+    [
+      "Message transmissions",
+      "DMA",
+      "-",
+      "-",
+      "For TX et RX transfer",
+      "See UM2552 for details"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_dedup_rows_removed": 4,
+    "_dedup_removed_indices": [
+      0,
+      4,
+      7,
+      10
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5225",
+    "table_id": "table_13",
+    "is_continued": false,
+    "pages": [
+      31
+    ],
+    "rows_count": 9,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

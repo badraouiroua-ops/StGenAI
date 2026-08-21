@@ -1,0 +1,61 @@
+{
+  "table_id": "table_8",
+  "caption": "Table 8. GPDMA1 channel implementation",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 36,
+  "merged_pages": [
+    36
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=36",
+  "section": "3.9 General purpose direct memory access controller (GPDMA)",
+  "headers": [
+    "Channel x",
+    "Hardware parameters / dma_fifo_ size[x]",
+    "Hardware parameters / dma_ addressing[x]",
+    "Features",
+    "Comment"
+  ],
+  "rows": [
+    [
+      "0 to 11",
+      "2",
+      "0",
+      "– 8 bytes, 2 words FIFO – Fixed/contiguously incremented addressing",
+      "Typically allocated for GPDMA transfers between an APB/AHB peripheral and SRAM."
+    ],
+    [
+      "12 to 15",
+      "4",
+      "1",
+      "– 32 bytes, 8 words FIFO – 2D addressing",
+      "Can be used for GPDMA transfers, between a demanding AHB peripheral and SRAM, or for transfers from/to external memories."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_8",
+    "is_continued": false,
+    "pages": [
+      36
+    ],
+    "rows_count": 2,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "table_id": "table_17",
+  "caption": "Table 17. Target software settings for in-band interrupt",
+  "pdf_name": "AN5879",
+  "family": "41",
+  "page": 41,
+  "merged_pages": [
+    41
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=41",
+  "section": "9.9.2.2 Target",
+  "headers": [
+    "2V76637TD",
+    "Variable declaration: PayloadBuffer[] = {0xAB} = 0b10101011 (in this case the user can set a free payload value)"
+  ],
+  "rows": [
+    [
+      "2V64917TD",
+      "Activate notifications specially for this example: • Dynamic address association • In-band interrupt ended process"
+    ],
+    [
+      "2V74917TD",
+      "Send IBI request"
+    ],
+    [
+      "DT71948V2DT71947V2DT71946V2DT73667V2",
+      "I3C notify callback after receiving a notification"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5879",
+    "table_id": "table_17",
+    "is_continued": false,
+    "pages": [
+      41
+    ],
+    "rows_count": 3,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

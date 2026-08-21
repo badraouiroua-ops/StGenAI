@@ -1,0 +1,58 @@
+{
+  "table_id": "table_9",
+  "caption": "Table 9. Implementation of HPDMA1 channels",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 38,
+  "merged_pages": [
+    38
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=38",
+  "section": "3.10 High performance direct memory access controller (HPDMA)",
+  "headers": [
+    "Channel x",
+    "Hardware parameters / dma_fifo_ size[x]",
+    "Hardware parameters / dma_ addressing[x]",
+    "Features"
+  ],
+  "rows": [
+    [
+      "x = 0 to 11",
+      "3",
+      "0",
+      "Channel x (x = 0 to 11) is implemented with: – a FIFO of 16 bytes, 4 words, 2 double-words – fixed/contiguously incremented addressing These channels can be used for HPDMA transfers between an APB or AHB peripheral, an AHB/AXI SRAM, or CPU TCM."
+    ],
+    [
+      "x = 12 to 15",
+      "5",
+      "1",
+      "Channel x (x = 12 to 15) is implemented with: – a FIFO of 64 bytes, 8 double-words – 2D addressing These channels can be also used for HPDMA transfers, including AXI external memories."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_9",
+    "is_continued": false,
+    "pages": [
+      38
+    ],
+    "rows_count": 2,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

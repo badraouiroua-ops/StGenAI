@@ -1,0 +1,83 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. Region attributes and size in MPU_RASR register",
+  "pdf_name": "AN4838",
+  "family": "41",
+  "page": 7,
+  "merged_pages": [
+    7
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=7",
+  "section": "3.3 Memory attributes",
+  "headers": [
+    "Bits",
+    "Name",
+    "Description"
+  ],
+  "rows": [
+    [
+      "28",
+      "XN",
+      "Execute never"
+    ],
+    [
+      "26:24",
+      "AP",
+      "Data access permission field (RO, RW, or No access)"
+    ],
+    [
+      "21:19",
+      "TEX",
+      "Type extension field"
+    ],
+    [
+      "18",
+      "S",
+      "Shareable"
+    ],
+    [
+      "17",
+      "C",
+      "Cacheable"
+    ],
+    [
+      "16",
+      "B",
+      "Bufferable"
+    ],
+    [
+      "15:8",
+      "SRD",
+      "Subregion disabled. For each subregion 1 = disabled, 0 = enabled."
+    ],
+    [
+      "5:1",
+      "SIZE",
+      "Specifies the size of the MPU protection region."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4838",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      7
+    ],
+    "rows_count": 8,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

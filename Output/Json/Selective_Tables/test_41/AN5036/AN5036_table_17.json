@@ -1,0 +1,51 @@
+{
+  "table_id": "table_17",
+  "document": "Table 17. Maximum ambient temperature (STM32MP135 MPU)",
+  "rev": null,
+  "table_number": "17",
+  "title": "Table 17. Maximum ambient temperature (STM32MP135 MPU)",
+  "page": 28,
+  "section": "6.3.4 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=28",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 17. Maximum ambient temperature (STM32MP135 MPU) — section 6.3.4 Conclusion. Frequency, Maximum ambient temperature (°C) / TJ = 105 °C, Maximum ambient temperature (°C) / TJ = 105 °C, Maximum ambient temperature (°C) / TJ = 125 °C, Maximum ambient temperature (°C) / TJ = 125 °C.",
+  "table_content": {
+    "headers": [
+      "Frequency",
+      "Maximum ambient temperature (°C) / TJ = 105 °C",
+      "Maximum ambient temperature (°C) / TJ = 105 °C",
+      "Maximum ambient temperature (°C) / TJ = 125 °C",
+      "Maximum ambient temperature (°C) / TJ = 125 °C"
+    ],
+    "rows": [
+      [
+        "Frequency",
+        "cpuburn",
+        "dd",
+        "cpuburn",
+        "dd"
+      ],
+      [
+        "900 MHz",
+        "77.5",
+        "81",
+        "93.5",
+        "97.5"
+      ],
+      [
+        "1 GHz",
+        "74",
+        "78",
+        "91",
+        "94"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

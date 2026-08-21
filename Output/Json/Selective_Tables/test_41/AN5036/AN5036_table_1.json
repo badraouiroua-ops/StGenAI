@@ -1,0 +1,78 @@
+{
+  "table_id": "table_1",
+  "document": "Table 1. Thermal parameters",
+  "rev": null,
+  "table_number": "1",
+  "title": "Table 1. Thermal parameters",
+  "page": 4,
+  "section": "2.3 Thermal model of a chip carrier",
+  "section_title": "Thermal model of a chip carrier",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=4",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 1. Thermal parameters — section 2.3 Thermal model of a chip carrier. Symbol, Description, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Description",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "TJ",
+        "Temperature of the die",
+        "°C"
+      ],
+      [
+        "TA",
+        "Temperature of surrounding air",
+        "°C"
+      ],
+      [
+        "TC",
+        "Temperature of the package top",
+        "°C"
+      ],
+      [
+        "TB",
+        "Temperature of the board near the device",
+        "°C"
+      ],
+      [
+        "θJC",
+        "Thermal resistance between the die and the package",
+        "°C/W"
+      ],
+      [
+        "θJB",
+        "Thermal resistance between the die and the PCB on which the IC is mounted",
+        "°C/W"
+      ],
+      [
+        "θJA",
+        "Thermal resistance between the die and the air surrounding the die package",
+        "°C/W"
+      ],
+      [
+        "PB",
+        "Amount of power dissipated by the device through the board",
+        "W"
+      ],
+      [
+        "PC",
+        "Amount of power dissipated by the device through the package top",
+        "W"
+      ],
+      [
+        "PTOT",
+        "The total power dissipated by the device (PTOT = PB + PC)",
+        "W"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

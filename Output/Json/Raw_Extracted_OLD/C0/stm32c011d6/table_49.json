@@ -1,0 +1,144 @@
+{
+  "table_id": "table_49",
+  "caption": "Table 49. I/O static characteristics",
+  "pdf_name": "stm32c011d6",
+  "family": "C0",
+  "page": 60,
+  "merged_pages": [
+    60
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=60",
+  "section": "5.3.13 I/O port characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V (1) IL",
+      "I/O input low level voltage",
+      "All",
+      "2.0 V < V < 3.6 V DDIO1",
+      "-",
+      "-",
+      "0.3 × V DDIO1",
+      "V"
+    ],
+    [
+      "V (1) IH",
+      "I/O input high level voltage",
+      "All",
+      "2.0 V < V < 3.6 V DDIO1",
+      "0.7 × V DDIO1",
+      "-",
+      "-",
+      "V"
+    ],
+    [
+      "V (2) hys",
+      "I/O input hysteresis",
+      "-",
+      "-",
+      "-",
+      "200",
+      "-",
+      "mV"
+    ],
+    [
+      "I (3) lkg",
+      "Input leakage current(3)",
+      "0 < V ≤ V IN DDIO1",
+      "0 < V ≤ V IN DDIO1",
+      "-",
+      "±70",
+      "-",
+      "nA"
+    ],
+    [
+      "I (3) lkg",
+      "Input leakage current(3)",
+      "V ≤ V ≤ V +1 V DDIO1 IN DDIO1",
+      "V ≤ V ≤ V +1 V DDIO1 IN DDIO1",
+      "-",
+      "600",
+      "-",
+      "nA"
+    ],
+    [
+      "I (3) lkg",
+      "Input leakage current(3)",
+      "V + 1 V ≤ V DDIO1 IN",
+      "V + 1 V ≤ V DDIO1 IN",
+      "-",
+      "150",
+      "-",
+      "nA"
+    ],
+    [
+      "R PU",
+      "Weak pull-up equivalent resistor (4)",
+      "V = V IN SS",
+      "V = V IN SS",
+      "25",
+      "40",
+      "55",
+      "kΩ"
+    ],
+    [
+      "R PD",
+      "Weak pull-down equivalent resistor(4)",
+      "V = VDDIO1 IN",
+      "V = VDDIO1 IN",
+      "25",
+      "40",
+      "55",
+      "kΩ"
+    ],
+    [
+      "C IO",
+      "I/O pin capacitance",
+      "-",
+      "-",
+      "-",
+      "5",
+      "-",
+      "pF"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "1. Evaluated by characterization. Not tested in production.",
+      "2. Specified by design. Not tested in production.",
+      "3. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: I = 10 μA + [number of I/Os where V is applied on the pad] × I (Max).",
+      "4. Pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10% order)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c011d6",
+    "table_id": "table_49",
+    "is_continued": false,
+    "pages": [
+      60
+    ],
+    "rows_count": 9,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

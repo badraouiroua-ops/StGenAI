@@ -74,15 +74,24 @@ def _build_text_grid(
     4. Détermine les colonnes par clustering des x0.
     5. Assigne chaque mot à sa colonne et retourne une grille.
     """
-    lines: dict[float, list[dict]] = {}
-    for w in words:
-        key = round(w["top"], 0)
-        lines.setdefault(key, []).append(w)
+    # Clustering 1D avec tolérance 3px pour regrouper les mots d'une même ligne visuelle
+    words_sorted = sorted(words, key=lambda w: w["top"])
+    clusters: list[list[dict]] = []
+    for w in words_sorted:
+        if not clusters:
+            clusters.append([w])
+            continue
+        last_cluster = clusters[-1]
+        avg_top = sum(cw["top"] for cw in last_cluster) / len(last_cluster)
+        if abs(w["top"] - avg_top) <= 3.0:
+            last_cluster.append(w)
+        else:
+            clusters.append([w])
 
-    sorted_ys = sorted(lines.keys())
     data_lines: list[list[dict]] = []
-    for y in sorted_ys:
-        line_words = sorted(lines[y], key=lambda w: w["x0"])
+    for line_words in clusters:
+        y = sum(cw["top"] for cw in line_words) / len(line_words)
+        line_words = sorted(line_words, key=lambda w: w["x0"])
         line_text = " ".join(w["text"] for w in line_words).lower()
         if current_table_num and f"table {current_table_num}" in line_text:
             if _CONTINUED_RE.search(line_text):
@@ -697,22 +706,37 @@ def find_continuations(
         # ── Supprimer l'en-tête répété ────────────────────────────────────────
         if len(table_data) > 0:
             cont_header_rows.append([str(c) if c is not None else "" for c in table_data[0]])
-            row0_cell0 = str(table_data[0][0] or "").strip()
-            if row0_cell0 and first_cell_text and row0_cell0 == first_cell_text:
-                skip = 0
+        if table_data:
+            skip = 0
+            if base_header:
+                dedup_base = set(_remove_adjacent_duplicates(base_header))
                 for row in table_data:
-                    c0 = str(row[0] or "").strip()
-                    if c0 == first_cell_text or c0 == "":
+                    row_norm = set(_remove_adjacent_duplicates([str(c or "").lower() for c in row]))
+                    intersection = dedup_base & row_norm
+                    union = dedup_base | row_norm
+                    if len(union) > 0 and (len(intersection) / len(union) >= 0.5):
+                        skip += 1
+                    elif len(row_norm) > 0 and sum(1 for ch in row_norm if any(ch in bh or bh in ch for bh in dedup_base)) / len(row_norm) >= 0.5:
                         skip += 1
                     else:
                         break
-                data_rows = table_data[skip:]
-            else:
-                row0 = [str(c or "").lower() for c in table_data[0]]
-                if any(any(kw in cell for kw in _HEADER_KEYWORDS) for cell in row0):
-                    data_rows = table_data[1:]
+            
+            # Fallback si base_header non fourni ou ne matche pas
+            if skip == 0:
+                row0_cell0 = str(table_data[0][0] or "").strip()
+                if row0_cell0 and first_cell_text and row0_cell0 == first_cell_text:
+                    for row in table_data:
+                        c0 = str(row[0] or "").strip()
+                        if c0 == first_cell_text or c0 == "":
+                            skip += 1
+                        else:
+                            break
                 else:
-                    data_rows = table_data
+                    row0 = [str(c or "").lower() for c in table_data[0]]
+                    if any(any(kw in cell for kw in _HEADER_KEYWORDS) for cell in row0):
+                        skip = 1
+
+            data_rows = table_data[skip:]
         else:
             data_rows = []
 

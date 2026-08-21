@@ -1,0 +1,101 @@
+{
+  "table_id": "table_27",
+  "caption": "Table 27. Typical and maximum current consumption in Standby mode",
+  "pdf_name": "stm32c591ce",
+  "family": "C5",
+  "page": 67,
+  "merged_pages": [
+    67
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c591ce.pdf#page=67",
+  "section": "5.3.6.4 Current consumption in Standby mode",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "RTC and LSE",
+    "Typ / 2.7 V",
+    "Typ / 3 V",
+    "Typ / 3.3 V",
+    "Max / TJ = 30°C",
+    "Max / TJ = 140°C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "OFF",
+      "2.75",
+      "2.90",
+      "3.00",
+      "4.00",
+      "105.00",
+      "µA"
+    ],
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "ON",
+      "3.10",
+      "3.25",
+      "3.40",
+      "-",
+      "-",
+      "µA"
+    ],
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG ON",
+      "OFF",
+      "3.10",
+      "3.25",
+      "3.40",
+      "5.25",
+      "105.00",
+      "µA"
+    ],
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG ON",
+      "ON",
+      "3.40",
+      "3.55",
+      "3.75",
+      "-",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 9,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 9,
+    "_notes": [
+      "1. LSE is in low drive mode. DS15136 - Rev 1 page 67/144"
+    ],
+    "_legend": [
+      "Specify by design - not tested in production, unless otherwise stated."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c591ce",
+    "table_id": "table_27",
+    "is_continued": false,
+    "pages": [
+      67
+    ],
+    "rows_count": 4,
+    "cols_count": 9,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "table_id": "table_21",
+  "caption": "Table 21. Measurement interpolation at maximum ambient temperature for STM32N657",
+  "pdf_name": "AN5036",
+  "family": "test_41",
+  "page": 33,
+  "merged_pages": [
+    33
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=33",
+  "section": "6.3.4 Conclusion",
+  "headers": [
+    "Parameter",
+    "Value"
+  ],
+  "rows": [
+    [
+      "PTOT",
+      "2082 mW"
+    ],
+    [
+      "Maximum ambient temperature",
+      "91 °C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Thermocouple measurement Once the heat dissipation capability (HDC) of the design has been defined (by measurement at 25 °C), and"
+    ],
+    "_dedup_rows_removed": 1,
+    "_dedup_removed_indices": [
+      0
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5036",
+    "table_id": "table_21",
+    "is_continued": false,
+    "pages": [
+      33
+    ],
+    "rows_count": 2,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

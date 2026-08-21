@@ -1,0 +1,92 @@
+{
+  "table_id": "table_44",
+  "caption": "Table 44. EMI characteristics for f = 16 MHz and f = 144 MHz.",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 75,
+  "merged_pages": [
+    75
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=75",
+  "section": "5.3.11 EMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Monitored frequency band",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "SEMI",
+      "Peak(1)",
+      "VDD = 3.6 V, TA = 25 ° C, LQFP100 package compliant with IEC 61967-2",
+      "0.1 MHz to 30 MHz",
+      "16",
+      "dBμV"
+    ],
+    [
+      "SEMI",
+      "Peak(1)",
+      "VDD = 3.6 V, TA = 25 ° C, LQFP100 package compliant with IEC 61967-2",
+      "30 MHz to 130 MHz",
+      "-1",
+      "dBμV"
+    ],
+    [
+      "SEMI",
+      "Peak(1)",
+      "VDD = 3.6 V, TA = 25 ° C, LQFP100 package compliant with IEC 61967-2",
+      "130 MHz to 1 GHz",
+      "21",
+      "dBμV"
+    ],
+    [
+      "SEMI",
+      "Peak(1)",
+      "VDD = 3.6 V, TA = 25 ° C, LQFP100 package compliant with IEC 61967-2",
+      "1 GHz to 2 GHz",
+      "13",
+      "dBμV"
+    ],
+    [
+      "SEMI",
+      "Level(2)",
+      "VDD = 3.6 V, TA = 25 ° C, LQFP100 package compliant with IEC 61967-2",
+      "0.1 MHz to 2 GHz",
+      "3.5",
+      "dBμV"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Refer to the EMI radiated test section of the application note EMC design guide for STM8, STM32 and Legacy MCUs (AN1709).",
+      "2. Refer to the EMI level classification section of the application note EMC design guide for STM8, STM32 and Legacy MCUs (AN1709)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_44",
+    "is_continued": false,
+    "pages": [
+      75
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

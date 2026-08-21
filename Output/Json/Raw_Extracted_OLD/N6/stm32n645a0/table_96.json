@@ -1,0 +1,457 @@
+{
+  "table_id": "table_96",
+  "caption": "Table 96. Minimum sampling time versus RAIN",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 203,
+  "merged_pages": [
+    203,
+    204
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=203",
+  "section": "5.3.22 Delay block (DLYB) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions / (Resolution /",
+    "Conditions / R in ohms) AIN",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "12 bits",
+      "47",
+      "32",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "12 bits",
+      "68",
+      "33",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "12 bits",
+      "100",
+      "34",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "12 bits",
+      "150",
+      "36",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "12 bits",
+      "220",
+      "38",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "12 bits",
+      "330",
+      "42",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "12 bits",
+      "470",
+      "47",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "12 bits",
+      "680",
+      "55",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "12 bits",
+      "1000(2)",
+      "70",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "47",
+      "23",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "68",
+      "24",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "100",
+      "25",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "150",
+      "26",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "220",
+      "28",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "330",
+      "30",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "470",
+      "33",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "680",
+      "38",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "1000",
+      "45",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "1500",
+      "55",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "2200",
+      "71",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "3300",
+      "97",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "10 bits",
+      "4700(2)",
+      "133",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "47",
+      "17",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "68",
+      "17",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "100",
+      "18",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "150",
+      "19",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "220",
+      "20",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "330",
+      "22",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "470",
+      "25",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "680",
+      "28",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "1000",
+      "34",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "1500",
+      "42",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "2200",
+      "53",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "3300",
+      "70",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "4700",
+      "94",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "6800",
+      "128",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "10000",
+      "183",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "15000",
+      "277",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s_min",
+      "Minimum sampling time",
+      "8 bits",
+      "22000(2)",
+      "435",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. Maximum external input impedance value authorized for the given resolution."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_96",
+    "is_continued": true,
+    "pages": [
+      203,
+      204
+    ],
+    "rows_count": 39,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

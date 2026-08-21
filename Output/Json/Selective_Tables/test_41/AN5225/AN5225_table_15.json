@@ -1,0 +1,143 @@
+{
+  "table_id": "table_15",
+  "document": "Table 15. Dual-role power port features",
+  "rev": null,
+  "table_number": "15",
+  "title": "Table 15. Dual-role power port features",
+  "page": 40,
+  "section": "11.3.4 Dual-role power port",
+  "section_title": "Dual-role power port",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=40",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "text_helper": "Table 15. Dual-role power port features — section 11.3.4 Dual-role power port. Feature, STM32 Peripherals involved, Number of STM32 pins, External components or devices, Comments, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "STM32 Peripherals involved",
+      "Number of STM32 pins",
+      "External components or devices",
+      "Comments",
+      "Signal name"
+    ],
+    "rows": [
+      [
+        "Protocol",
+        "Protocol",
+        "Protocol",
+        "Protocol",
+        "Protocol",
+        "Protocol"
+      ],
+      [
+        "CC1 and CC2 communication channels",
+        "UCPD: CC1, CC2",
+        "2",
+        "-",
+        "Mandatory Able to handle Rd & Rp",
+        "CC1 CC2"
+      ],
+      [
+        "Dead Battery",
+        "UCPD: DBCC1, DBCC2",
+        "2",
+        "-",
+        "Mandatory Wire to GND",
+        "DBCC1 DBCC1"
+      ],
+      [
+        "stnemerusaem , V5efaSv ,V0efaSv ,leveL SUBV",
+        "ADC",
+        "1",
+        "Resistor divider bridge with or without op-Amp for safety purpose",
+        "Mandatory for OVP protection purpose",
+        "V_SENSE"
+      ],
+      [
+        "Fast Role Swap",
+        "UCPD: FRSTX1, FRSTX2",
+        "2",
+        "MOS to drive CC lines to GND",
+        "Mandatory",
+        "FRSTX1 FRSTX2"
+      ],
+      [
+        "On Power level",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "Provide power from VBUS",
+        "GPIO",
+        "1",
+        "Power switch",
+        "Mandatory, MOS can be use",
+        "SRC_EN"
+      ],
+      [
+        "Extra Power switch",
+        "GPIO",
+        "-",
+        "Power switch",
+        "Optional, MOS can be use",
+        "SNK_EN"
+      ],
+      [
+        "Discharge VBUS to vSafe0V",
+        "GPIO",
+        "1",
+        "MOS + charge Resistors",
+        "Mandatory",
+        "SRC_DISCH"
+      ],
+      [
+        "ISense measurement",
+        "ADC",
+        "1",
+        "OpAmp + shunt Resistors",
+        "Optional",
+        "I_SENSE"
+      ],
+      [
+        "Protection",
+        "Protection",
+        "Protection",
+        "Protection",
+        "Protection",
+        "Protection"
+      ],
+      [
+        "CC1 and CC2",
+        "-",
+        "-",
+        "See chapter xxx",
+        "Optional",
+        "CC1 and CC2 on Type-C side"
+      ],
+      [
+        "VBUS",
+        "-",
+        "-",
+        "See chapter xxx",
+        "Optional",
+        "VBUS on Type-C side"
+      ],
+      [
+        "Software",
+        "Software",
+        "Software",
+        "Software",
+        "Software",
+        "Software"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

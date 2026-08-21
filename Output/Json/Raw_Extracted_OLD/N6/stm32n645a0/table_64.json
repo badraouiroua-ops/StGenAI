@@ -1,0 +1,54 @@
+{
+  "table_id": "table_64",
+  "caption": "Table 64. Electrical sensitivity",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 168,
+  "merged_pages": [
+    168
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=168",
+  "section": "5.3.15 Electrical sensitivity characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Class"
+  ],
+  "rows": [
+    [
+      "LU",
+      "Static latch-up class",
+      "T = 130°C conforming to JESD78 J",
+      "II.A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Evaluated by characterization, not tested in production, unless otherwise specified.",
+      "2. Specified by design, not tested in production. DS14791 Rev 9 169/258"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_64",
+    "is_continued": false,
+    "pages": [
+      168
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

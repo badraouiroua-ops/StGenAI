@@ -1,0 +1,105 @@
+{
+  "table_id": "table_110",
+  "caption": "Table 110. LPTIMx characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 216,
+  "merged_pages": [
+    216,
+    217
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=216",
+  "section": "5.3.35 Timer characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t res(LPTIM)",
+      "Timer resolution time",
+      "1",
+      "-",
+      "t LPTIMxCLK"
+    ],
+    [
+      "f LPTIMxCLK",
+      "Timer kernel clock",
+      "0",
+      "100",
+      "MHz"
+    ],
+    [
+      "f LPTIMxCLK",
+      "Timer kernel clock (autonomous mode)",
+      "0",
+      "32768",
+      "Hz"
+    ],
+    [
+      "f EXT",
+      "Timer external clock frequency on IN1 and IN2",
+      "0",
+      "f / 2 LPTIMxCLK",
+      "MHz"
+    ],
+    [
+      "Res LPTIM",
+      "Timer resolution",
+      "-",
+      "16",
+      "bit"
+    ],
+    [
+      "t MAX_COUNT",
+      "Maximum possible count",
+      "-",
+      "65536",
+      "f LPTIMxCLK"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 5,
+      "cont_cols_raw": 5,
+      "target_cols": 5,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Specified by design. Not tested in production.",
+      "2. TIMx is used as a general term to refer to the TIM1 to TIMx timers."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_110",
+    "is_continued": true,
+    "pages": [
+      216,
+      217
+    ],
+    "rows_count": 6,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

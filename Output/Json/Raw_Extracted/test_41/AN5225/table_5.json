@@ -1,0 +1,48 @@
+{
+  "table_id": "table_5",
+  "caption": "Table 5. DFP CC termination (Rp) requirements",
+  "pdf_name": "AN5225",
+  "family": "test_41",
+  "page": 10,
+  "merged_pages": [
+    10
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5225.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5225.pdf#page=10",
+  "section": "4.2 Power capability detection and usage",
+  "headers": [
+    "VBUS power / Default USB power",
+    "Current source to 1.7 V - 5.5 V / 80 mA ± 20%",
+    "Rp pull up to 4.75 V - 5.5 V / 56 kΩ ± 20% (1)",
+    "Rp pull up to 3.3 V +/-5% / 36 kΩ ± 20%"
+  ],
+  "rows": [],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. For Rp when implemented in the USB Type-C plug on a USB Type-C to USB 3.1 Standard-A Cable Assembly, a USB Type- C to USB 2.0 Standard-A Cable Assembly, a USB Type-C to USB 2.0 Micro-B Receptacle Adapter Assembly or a USB"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5225",
+    "table_id": "table_5",
+    "is_continued": false,
+    "pages": [
+      10
+    ],
+    "rows_count": 0,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

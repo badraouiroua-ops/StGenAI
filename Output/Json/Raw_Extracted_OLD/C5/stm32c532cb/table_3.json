@@ -1,0 +1,46 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. LPDMA1 and LPDMA2 autonomous mode and wake-up in low-power modes",
+  "pdf_name": "stm32c532cb",
+  "family": "C5",
+  "page": 14,
+  "merged_pages": [
+    14
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c532cb.pdf#page=14",
+  "section": "3.12 Low-power direct memory access controller (LPDMA)",
+  "headers": [
+    "Feature",
+    "Low-power modes"
+  ],
+  "rows": [
+    [
+      "Wake-up",
+      "LPDMA1/2 in Sleep mode"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c532cb",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      14
+    ],
+    "rows_count": 1,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "table_id": "table_120",
+  "caption": "Table 120. Dynamic characteristics: Ethernet MAC signals for RGMII ID",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 227,
+  "merged_pages": [
+    227
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=227",
+  "section": "5.3.36 Communications interfaces",
+  "headers": [
+    "Symbol",
+    "Rating",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "T cyc",
+      "Clock cycle duration",
+      "7.5",
+      "8",
+      "8.5",
+      "ns"
+    ],
+    [
+      "T skew_R (RXD)",
+      "Receive data skew time",
+      "-1(4)",
+      "-",
+      "0.5(4)",
+      "ns"
+    ],
+    [
+      "T skew R (DV)",
+      "Receive valid skew time",
+      "-1(4)",
+      "-",
+      "0.5(4)",
+      "ns"
+    ],
+    [
+      "T setup T (TXEN)",
+      "Transmit enable to clock output setup time",
+      "1.4(5)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T setupT(TXD)",
+      "Transmit data to clock output setup time",
+      "1.4(5)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T hold T (TXEN)",
+      "Transmit clock to transmit enable output hold time",
+      "1.4(5)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T hold T (TXD)",
+      "Transmit clock to data output hold time",
+      "1.4(5)",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "4. With delay on RGMII_RX_CLK (GPIOx_DELAYR) = 0b1110.",
+      "5. With delay on RGMII_TX_CLK (GPIOx_DELAYR) = 0b1010. USART (SPI mode) interface"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_120",
+    "is_continued": false,
+    "pages": [
+      227
+    ],
+    "rows_count": 7,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

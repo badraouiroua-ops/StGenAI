@@ -1,0 +1,59 @@
+{
+  "table_id": "table_28",
+  "caption": "Table 28. AES peripheral information",
+  "pdf_name": "AN6457",
+  "family": "41",
+  "page": 19,
+  "merged_pages": [
+    19
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=19",
+  "section": "3.6.2 AES hardware accelerator (AES)",
+  "headers": [
+    "Peripheral request to LPDMA",
+    "Peripheral bus",
+    "Peripheral FIFO (unit, size)",
+    "Peripheral register access",
+    "Comments"
+  ],
+  "rows": [
+    [
+      "aes_in_dma",
+      "AHB2",
+      "128-bit/4-word input buffer",
+      "Write 32-bit AES_DINR",
+      "Request for a new 32-bit input data to be written by the LPDMA"
+    ],
+    [
+      "aes_out_dma",
+      "AHB2",
+      "128-bit/4-word output buffer",
+      "Read 32-bit AES_DOUTR",
+      "Request for a new 32-bit output data to be read by the LPDMA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6457",
+    "table_id": "table_28",
+    "is_continued": false,
+    "pages": [
+      19
+    ],
+    "rows_count": 2,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

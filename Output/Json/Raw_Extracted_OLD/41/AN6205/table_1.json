@@ -1,0 +1,54 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Applicable products",
+  "pdf_name": "AN6205",
+  "family": "41",
+  "page": 1,
+  "merged_pages": [
+    1
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6205.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6205.pdf#page=1",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Type",
+    "Products"
+  ],
+  "rows": [
+    [
+      "Microcontroller",
+      "STM32C59x/C5A3 line"
+    ],
+    [
+      "Microcontroller",
+      "• STM32H553CG, STM32H553RG, STM32H553UG, STM32H553VG, STM32H553ZG • STM32H5F4AJ, STM32H5F4IJ, STM32H5F4VJ, STM32H5F4ZJ • STM32H5F5IJ, STM32H5F5LJ, STM32H5F5VJ, STM32H5F5ZJ"
+    ],
+    [
+      "Microcontroller",
+      "• STM32U385CG, STM32U385KG, STM32U385RC, STM32U385RE, STM32U385RG, STM32U385VG • STM32U3C5CI, STM32U3C5JI, STM32U3C5QI, STM32U3C5RI, STM32U3C5VI, STM32U3C5WI, STM32U3C5ZI"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6205",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      1
+    ],
+    "rows_count": 3,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "table_id": "table_62",
+  "caption": "Table 62. EMI characteristics for fHSE = 32 MHz and fHCLK = 100 MHz",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 167,
+  "merged_pages": [
+    167
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=167",
+  "section": "5.3.14 EMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Monitored frequency band",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "S EMI",
+      "Peak level(2)",
+      "V = 3.6 V, T = 25°C, DD A VFBGA264 package, SMPS on, f = 800 MHz, ck_icn_hs_mcu compliant with IEC 61967-2",
+      "0.1 MHz to 30 MHz",
+      "9",
+      "dBµV"
+    ],
+    [
+      "S EMI",
+      "Peak level(2)",
+      "V = 3.6 V, T = 25°C, DD A VFBGA264 package, SMPS on, f = 800 MHz, ck_icn_hs_mcu compliant with IEC 61967-2",
+      "30 MHz to 130 MHz",
+      "13",
+      "dBµV"
+    ],
+    [
+      "S EMI",
+      "Peak level(2)",
+      "V = 3.6 V, T = 25°C, DD A VFBGA264 package, SMPS on, f = 800 MHz, ck_icn_hs_mcu compliant with IEC 61967-2",
+      "130 MHz to 1 GHz",
+      "13",
+      "dBµV"
+    ],
+    [
+      "S EMI",
+      "Peak level(2)",
+      "V = 3.6 V, T = 25°C, DD A VFBGA264 package, SMPS on, f = 800 MHz, ck_icn_hs_mcu compliant with IEC 61967-2",
+      "1 GHz to 2 GHz",
+      "7",
+      "dBµV"
+    ],
+    [
+      "S EMI",
+      "Level(3)",
+      "V = 3.6 V, T = 25°C, DD A VFBGA264 package, SMPS on, f = 800 MHz, ck_icn_hs_mcu compliant with IEC 61967-2",
+      "EMI level",
+      "3",
+      "dBµV"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "2. 400 V for USB_PD_CC1 and USB_PD_CC2 pins. Static latch-up",
+      "3. Refer to AN1709, “EMI level classification” section."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_62",
+    "is_continued": false,
+    "pages": [
+      167
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

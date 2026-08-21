@@ -1,0 +1,119 @@
+{
+  "table_id": "table_10",
+  "caption": "Table 10. Bootloader communication peripherals.",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 21,
+  "merged_pages": [
+    21
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=21",
+  "section": "5.2 System bootloader",
+  "headers": [
+    "System bootloader peripherals",
+    "STM32H5 I/O pin",
+    "STM32C5 I/O pin"
+  ],
+  "rows": [
+    [
+      "DFU(1)",
+      "PA11/PA12",
+      "PA11/PA12"
+    ],
+    [
+      "USART1",
+      "PA10/PA9",
+      "PA10/PA9"
+    ],
+    [
+      "USART2",
+      "PA2/PA3",
+      "PA2/PA3"
+    ],
+    [
+      "USART3",
+      "PD9/PD8(2)",
+      "PD9/PD8(2)"
+    ],
+    [
+      "CAN",
+      "FDCAN2(PB5/PB13)(3)",
+      "PB5/PB6(8)"
+    ],
+    [
+      "I2C1",
+      "PB8/PB9(4)",
+      "NA"
+    ],
+    [
+      "I2C2",
+      "NA",
+      "NA"
+    ],
+    [
+      "I2C3",
+      "PA8/PC9(5)",
+      "NA"
+    ],
+    [
+      "I3C1",
+      "PB6(6)/PB7",
+      "NA"
+    ],
+    [
+      "SPI1",
+      "PA7/PA6/PA5/PA4",
+      "PA7/PA6/PA5/PA4"
+    ],
+    [
+      "SPI2",
+      "PC1(7)/PB14/PB10/PB12",
+      "PB15/PB14/PB13/PB12"
+    ],
+    [
+      "SPI3",
+      "PC12/PC11/PC10/PA15(4)",
+      "PB0/PB1/PB2/PB8(9)"
+    ],
+    [
+      "SPI4",
+      "NA",
+      "PE14/PE13/PE12/PE11"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. On STM32H5, the USB DFU bootloader does not need an external quartz. It uses internal HSI48.",
+      "2. Only for LQFP100, LQFP144, UFBGA144 and UFBGA100.",
+      "3. On STM32H5xx, the FDCAN bootloader does not use an external quartz. It uses HSI and PLL.",
+      "4. Not available for LQFP48, UFQFN48, WLCSP39.",
+      "5. PC9 is replaced by PB4 on LQFP48, UFQFN48 and WLCSP39.",
+      "6. PB6 is replaced by PB8 on LQFP48, UFQFN48 and WLCSP39.",
+      "7. PC1 is replaced by PB15 on LQFP48, UFQFN48 and WLCSP39.",
+      "8. FDCAN1 on STM32C55x/C56x and FDCAN2 on STM32C53x/C4x/C59x/C5Ax.",
+      "9. Not supported on STM32C53x/C54x. AN6308 - Rev 1 page 21/51"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_10",
+    "is_continued": false,
+    "pages": [
+      21
+    ],
+    "rows_count": 13,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

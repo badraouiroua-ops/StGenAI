@@ -1,0 +1,99 @@
+{
+  "table_id": "table_60",
+  "caption": "Table 60. IWDG min/max timeout period at 32 kHz LSI clock",
+  "pdf_name": "stm32c051c6",
+  "family": "C0",
+  "page": 76,
+  "merged_pages": [
+    76
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c051c6.pdf#page=76",
+  "section": "5.3.18 Timer characteristics",
+  "headers": [
+    "Prescaler divider",
+    "PR[2:0] bits",
+    "Min timeout(1) RL[11:0]= 0x000",
+    "Max timeout(1) RL[11:0] = 0xFFF",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "/4",
+      "0",
+      "0.125",
+      "512",
+      "ms"
+    ],
+    [
+      "/8",
+      "1",
+      "0.250",
+      "1024",
+      "ms"
+    ],
+    [
+      "/16",
+      "2",
+      "0.500",
+      "2048",
+      "ms"
+    ],
+    [
+      "/32",
+      "3",
+      "1.0",
+      "4096",
+      "ms"
+    ],
+    [
+      "/64",
+      "4",
+      "2.0",
+      "8192",
+      "ms"
+    ],
+    [
+      "/128",
+      "5",
+      "4.0",
+      "16384",
+      "ms"
+    ],
+    [
+      "/256",
+      "6 or 7",
+      "8.0",
+      "32768",
+      "ms"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Specified by design. Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c051c6",
+    "table_id": "table_60",
+    "is_continued": false,
+    "pages": [
+      76
+    ],
+    "rows_count": 7,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

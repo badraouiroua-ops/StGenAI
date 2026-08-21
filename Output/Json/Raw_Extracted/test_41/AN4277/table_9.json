@@ -1,0 +1,74 @@
+{
+  "table_id": "table_9",
+  "caption": "Table 9. Register locking mechanism",
+  "pdf_name": "AN4277",
+  "family": "test_41",
+  "page": 19,
+  "merged_pages": [
+    19
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=19",
+  "section": "6.5 Locking the selected configuration",
+  "headers": [
+    "Peripheral",
+    "Feature",
+    "Register",
+    "Comment"
+  ],
+  "rows": [
+    [
+      "GPIO port x, pin y",
+      "Inverting input, pin mode selection",
+      "GPIOx_MODER register, MODERy bit to be configured in analog mode",
+      "-"
+    ],
+    [
+      "GPIO port x, pin y",
+      "Inverting input, pin configuration locking",
+      "GPIOx_LCKR register, specific write sequence coded with LCKy bit",
+      "MODERy bit (in GPIOx_MODER register) now frozen until next reset"
+    ],
+    [
+      "GPIO port w, pin z",
+      "Non inverting input, pin mode selection",
+      "GPIOw_MODER register, MODERz bit to be configured in analog mode",
+      "Not needed if an internal reference is selected"
+    ],
+    [
+      "GPIO port w, pin z",
+      "Non inverting input, pin configuration locking",
+      "GPIOw_LCKR register, specific write sequence coded with LCKz bit",
+      "MODERz bit (in the GPIOw_MODER register) now frozen until next reset"
+    ],
+    [
+      "TIMER 1/8/20",
+      "BKIN/BKIN2 configuration locking",
+      "TIMx_BDTR register, LOCK bits",
+      "LOCK level 1 (at least) recommended: DTG bits in TIMx_BDTR register, OISx, and OISxN bits in TIMx_CR2 register and BKE/BKP/AOE bits in TIMx_BDTR register frozen until next reset"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4277",
+    "table_id": "table_9",
+    "is_continued": false,
+    "pages": [
+      19
+    ],
+    "rows_count": 5,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "table_id": "table_9",
+  "caption": "Table 9. Example of setting up the MPU with Armv8-M",
+  "pdf_name": "AN4838",
+  "family": "41",
+  "page": 16,
+  "merged_pages": [
+    16
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN4838.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN4838.pdf#page=16",
+  "section": "4.3 MPU registers",
+  "headers": [
+    "Configuration",
+    "Memory type",
+    "Base address",
+    "Region number",
+    "Memory size",
+    "Memory attributes"
+  ],
+  "rows": [
+    [
+      "Internal SRAM",
+      "Normal memory",
+      "0x2000 0000",
+      "Region0",
+      "256 Kbytes",
+      "Memory attribute = normal, non-cacheable. XN = 0 AP = full access S = 0"
+    ],
+    [
+      "Flash memory",
+      "Normal memory",
+      "0x0800 0000",
+      "Region1",
+      "2 Mbyte",
+      "Memory attribute = normal, write through and no write allocate. XN = 0 AP = full access S = 0"
+    ],
+    [
+      "Peripherals",
+      "Device",
+      "0x4000 0000",
+      "Region2",
+      "512 Mbytes",
+      "Memory attribute = device nGnRE XN = 1 AP = full access S = 0"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN4838",
+    "table_id": "table_9",
+    "is_continued": false,
+    "pages": [
+      16
+    ],
+    "rows_count": 3,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

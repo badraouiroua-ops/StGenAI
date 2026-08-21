@@ -1,0 +1,119 @@
+{
+  "table_id": "table_16",
+  "document": "Table 16. STM32MP135 thermal measurements at T = 25 °C (dd) 25 A",
+  "rev": null,
+  "table_number": "16",
+  "title": "Table 16. STM32MP135 thermal measurements at T = 25 °C (dd) 25 A",
+  "page": 25,
+  "section": "6.3.1.2 Use case about dd",
+  "section_title": "Use case about dd",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=25",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 16. STM32MP135 thermal measurements at T = 25 °C (dd) 25 A — section 6.3.1.2 Use case about dd. Parameter, 900 MHz, 1 GHz, Unit.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "900 MHz",
+      "1 GHz",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "TJ",
+        "43",
+        "46",
+        "[°C]"
+      ],
+      [
+        "VCORE",
+        "1.32",
+        "1.32",
+        "[V]"
+      ],
+      [
+        "ICORE",
+        "177",
+        "198",
+        "[mA]"
+      ],
+      [
+        "PCORE",
+        "233",
+        "261",
+        "[mW]"
+      ],
+      [
+        "VDD",
+        "3.33",
+        "3.33",
+        "[V]"
+      ],
+      [
+        "IDD",
+        "13",
+        "19",
+        "[mA]"
+      ],
+      [
+        "PDD",
+        "43",
+        "63",
+        "[mW]"
+      ],
+      [
+        "VCPU",
+        "1.415",
+        "1.398",
+        "[V]"
+      ],
+      [
+        "ICPU",
+        "173",
+        "199",
+        "[mA]"
+      ],
+      [
+        "PCPU",
+        "244",
+        "278",
+        "[mW]"
+      ],
+      [
+        "VDDR2",
+        "1.268",
+        "1.268",
+        "[V]"
+      ],
+      [
+        "IDDR2",
+        "75",
+        "77",
+        "[mA]"
+      ],
+      [
+        "PDDR2",
+        "95",
+        "97",
+        "[mW]"
+      ],
+      [
+        "STM32MP135",
+        "615",
+        "700",
+        "[mW]"
+      ],
+      [
+        "STM32MP135",
+        "+ 13%",
+        "+ 13%",
+        "[mW]"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

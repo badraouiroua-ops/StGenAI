@@ -1,0 +1,63 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. Software settings for dynamic addressing",
+  "pdf_name": "AN5879",
+  "family": "41",
+  "page": 31,
+  "merged_pages": [
+    31
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=31",
+  "section": "9.6.1 Software settings",
+  "headers": [
+    "",
+    "Target descriptor + dynamic address to assign"
+  ],
+  "rows": [
+    [
+      "",
+      "The array contains the target descriptor"
+    ],
+    [
+      "",
+      "Assigning a dynamic address in the interrupt mode"
+    ],
+    [
+      "",
+      "• GET target characteristics • Controller set the DA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "medium",
+  "empty_cell_ratio": 0.5,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Address header: START + (7’h7E + W = 0 + ACK = 0) (OD phase)",
+      "2. I3C broadcast CCC (ENTDAA = 0x07): ENTDAA (0x07 + T = 0) Figure 29. ENTDAA CCC"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5879",
+    "table_id": "table_11",
+    "is_continued": false,
+    "pages": [
+      31
+    ],
+    "rows_count": 3,
+    "cols_count": 2,
+    "confidence": "medium",
+    "empty_cell_ratio": 0.5
+  },
+  "debug": {
+    "crop_path": "Raw_Extracted\\41\\AN5879\\debug\\table_11.png"
+  }
+}

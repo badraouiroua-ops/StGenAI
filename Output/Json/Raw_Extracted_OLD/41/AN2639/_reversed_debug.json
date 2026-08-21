@@ -1,0 +1,225 @@
+{
+  "pdf_name": "AN2639",
+  "family": "41",
+  "tables_checked": 10,
+  "cells_checked": 24,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "PDIP.3",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Feasible",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Temperature gradient in preheat",
+      "reversed": false,
+      "drift": -15.22,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 0.8°C/sec to 1.0°C/sec",
+      "reversed": false,
+      "drift": -4.72,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 1.0°C/sec to 3.0°C/sec",
+      "reversed": false,
+      "drift": -4.72,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Temperature gradient in preheat",
+      "reversed": false,
+      "drift": -15.22,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 0.8°C/sec to 1.0°C/sec",
+      "reversed": false,
+      "drift": -4.72,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 1.0°C/sec to 3.0°C/sec",
+      "reversed": false,
+      "drift": -4.72,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Temperature gradient in preheat",
+      "reversed": false,
+      "drift": -15.22,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 0.8°C/sec to 1.0°C/sec",
+      "reversed": false,
+      "drift": -4.72,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 1.0°C/sec to 3.0°C/sec",
+      "reversed": false,
+      "drift": -4.72,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Temperature gradient in preheat",
+      "reversed": false,
+      "drift": -15.22,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 0.9 ± 0.1°C/sec",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 2.0 ± 1.0°C/sec",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Temperature gradient in preheat",
+      "reversed": false,
+      "drift": -15.22,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 0.9 ± 0.1°C/sec",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 2.0 ± 0.5°C/sec",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Temperature gradient in preheat",
+      "reversed": false,
+      "drift": -15.22,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 0.9 ± 0.1°C/sec",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Temp. : 70°C to 150°C 2.0 ± 0.5°C/sec",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Temperature",
+      "reversed": false,
+      "drift": -5.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 1,
+      "row": 0,
+      "original": "5 → 30 °C",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 0,
+      "row": 0,
+      "original": "16-Oct-2007",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

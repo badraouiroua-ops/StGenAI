@@ -1,0 +1,35 @@
+{
+  "table_id": "table_19",
+  "document": "Table 19. Measurement interpolation at T = 85 °C for STM32MP257 30 A",
+  "rev": null,
+  "table_number": "19",
+  "title": "Table 19. Measurement interpolation at T = 85 °C for STM32MP257 30 A",
+  "page": 30,
+  "section": "6.3.4 Conclusion",
+  "section_title": "Conclusion",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=30",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 19. Measurement interpolation at T = 85 °C for STM32MP257 30 A — section 6.3.4 Conclusion. Parameter, Value.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "Value"
+    ],
+    "rows": [
+      [
+        "TJ",
+        "115 °C"
+      ],
+      [
+        "PTOT",
+        "2886.5 mW"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

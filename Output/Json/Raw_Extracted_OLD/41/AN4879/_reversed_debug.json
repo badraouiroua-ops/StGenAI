@@ -1,0 +1,369 @@
+{
+  "pdf_name": "AN4879",
+  "family": "41",
+  "tables_checked": 11,
+  "cells_checked": 40,
+  "cells_reversed": 1,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Microcontrollers",
+      "reversed": false,
+      "drift": -8.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32C5 series",
+      "reversed": false,
+      "drift": -8.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Attach detection protocol",
+      "reversed": false,
+      "drift": -12.64,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Crystal-less USB",
+      "reversed": false,
+      "drift": 4.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 7,
+      "row": 0,
+      "original": "Supported in device mode",
+      "reversed": false,
+      "drift": -11.8,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Feature(1)",
+      "reversed": false,
+      "drift": -3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 1,
+      "row": 0,
+      "original": "OTG_FS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 2,
+      "row": 0,
+      "original": "OTG_HS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 3,
+      "row": 0,
+      "original": "OTG_FS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 4,
+      "row": 0,
+      "original": "OTG_HS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 5,
+      "row": 0,
+      "original": "OTG_FS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 6,
+      "row": 0,
+      "original": "OTG_HS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 7,
+      "row": 0,
+      "original": "OTG_FS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 8,
+      "row": 0,
+      "original": "OTG_HS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 9,
+      "row": 0,
+      "original": "OTG_FS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 10,
+      "row": 0,
+      "original": "OTG_HS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 11,
+      "row": 0,
+      "original": "OTG_HS1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 12,
+      "row": 0,
+      "original": "OTG_HS2",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 13,
+      "row": 0,
+      "original": "OTG_HS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 14,
+      "row": 0,
+      "original": "OTG_FS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 15,
+      "row": 0,
+      "original": "OTG_HS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 16,
+      "row": 0,
+      "original": "USB 2.0 FS host/device interface",
+      "reversed": true,
+      "drift": -17.26,
+      "corrected": "ecafretni ecived/tsoh SF 0.2 BSU"
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 17,
+      "row": 0,
+      "original": "OTG_HS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Crystal-less USB",
+      "reversed": false,
+      "drift": 4.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Crystal-less USB",
+      "reversed": false,
+      "drift": 4.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Class 0",
+      "reversed": false,
+      "drift": -2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 1,
+      "row": 0,
+      "original": "V < 250 V",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 2,
+      "row": 0,
+      "original": "I < 0.17 A",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 0,
+      "row": 0,
+      "original": "USB FS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 1,
+      "row": 0,
+      "original": "USBLC6-2SC6 (+ ESDA7P60-1U1M for VBUS)",
+      "reversed": false,
+      "drift": -13.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 2,
+      "row": 0,
+      "original": "USBLC6-2P6 (+ ESDA7P60-1U1M for VBUS)",
+      "reversed": false,
+      "drift": -12.35,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 0,
+      "row": 0,
+      "original": "ISP1705AET",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM3240G-EVAL",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 2,
+      "row": 0,
+      "original": "STM32F407",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 0,
+      "row": 0,
+      "original": "STM32F072",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Peripheral",
+      "reversed": false,
+      "drift": -5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 2,
+      "row": 0,
+      "original": "LS/FS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 3,
+      "row": 0,
+      "original": "40001561",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 0,
+      "row": 0,
+      "original": "10-Aug-2016",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

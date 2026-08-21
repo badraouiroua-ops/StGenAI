@@ -1,0 +1,177 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\41\\AN4908.pdf",
+  "family": "41",
+  "pdf_name": "AN4908",
+  "tables_found": 9,
+  "tables_extracted": 9,
+  "high": 9,
+  "medium": 0,
+  "low": 0,
+  "failed": 0,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_8",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0556,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:3",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 8. Software automatic baud rate detection details",
+      "page": 12,
+      "merged_pages": [
+        12,
+        13,
+        14
+      ],
+      "col_count": 2,
+      "headers_preview": "[\"Action\", \"Code\"]",
+      "rows_count": 9,
+      "heuristics": {
+        "cols_extracted": 2,
+        "continuation": {
+          "base_cols": 2,
+          "cont_cols_raw": 2,
+          "target_cols": 2,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 3
+        }
+      }
+    },
+    {
+      "table_id": "table_2",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 2. USART hardware automatic baud rate detection on STM32 series devices",
+      "page": 3,
+      "merged_pages": [
+        3
+      ],
+      "col_count": 2,
+      "headers_preview": "[\"Product ABR support\", \"ABR support\"]",
+      "rows_count": 28,
+      "heuristics": {
+        "cols_extracted": 2
+      }
+    },
+    {
+      "table_id": "table_3",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 3. Hardware automatic baud rate detection on STM32 USART interfaces (mainstream)",
+      "page": 4,
+      "merged_pages": [
+        4
+      ],
+      "col_count": 50,
+      "headers_preview": "[\"Port\", \"STM32C0 / STM32C011x4\", \"STM32C0 / STM32C011x6\", \"STM32C0 / STM32C031x4\", \"STM32C0 / STM32C031x6\", \"STM32C0 / STM32C091xx\", \"STM32C0 / STM32C092xx\", \"STM32C5 / STM32C53x\", \"STM32C5 / STM32C5",
+      "rows_count": 15,
+      "heuristics": {
+        "cols_extracted": 50
+      }
+    },
+    {
+      "table_id": "table_4",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 4. Hardware automatic baud rate detection on STM32 USART interfaces (high performance)",
+      "page": 5,
+      "merged_pages": [
+        5
+      ],
+      "col_count": 15,
+      "headers_preview": "[\"Port\", \"STM32F7 / STM32F745xx\", \"STM32F7 / STM32F756xx\", \"STM32H5 / STM32H503\", \"STM32H5 / STM32H523/533\", \"STM32H5 / STM32H563/H573\", \"STM32H5 / STM32H562\", \"STM32H7 / STM32H745/55/47/57xx\", \"STM32",
+      "rows_count": 22,
+      "heuristics": {
+        "cols_extracted": 15
+      }
+    },
+    {
+      "table_id": "table_5",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 5. Hardware automatic baud rate detection on STM32 USART interfaces (ultra-low power)",
+      "page": 6,
+      "merged_pages": [
+        6
+      ],
+      "col_count": 19,
+      "headers_preview": "[\"Port\", \"STM32 L0 / STM32L0x1/0x2/0x3\", \"STM32L4 / STM32L4x1\", \"STM32L4 / STM32L4x2\", \"STM32L4 / STM32L4x3\", \"STM32L4 / STM32L4x5\", \"STM32L4 / 6x4L23MTS\", \"STM32 L5 / STM32L5x2\", \"STM32U0 / STM32U031",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 19
+      }
+    },
+    {
+      "table_id": "table_6",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 6. Hardware automatic baud rate detection on STM32 USART interfaces (wireless)",
+      "page": 6,
+      "merged_pages": [
+        6,
+        7
+      ],
+      "col_count": 9,
+      "headers_preview": "[\"Port\", \"STM32WB / STM32WB10CC\", \"STM32WB / STM32WB15CC\", \"STM32WB / STM32WB30CESTM32L4x6\", \"STM32WB / STM32WB50CG\", \"STM32WB / STM32WB55xx/35xx\", \"STM32WB0 / STM32WB09xE\", \"STM32WBA / STM32WBA52xx/5",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 9,
+        "continuation": {
+          "base_cols": 9,
+          "cont_cols_raw": 9,
+          "target_cols": 9,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        }
+      }
+    }
+  ],
+  "dedup_rows_removed": 0,
+  "drawing_failed": 0,
+  "bug_suspected": 0
+}

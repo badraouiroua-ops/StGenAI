@@ -1,0 +1,118 @@
+{
+  "table_id": "table_44",
+  "caption": "Table 44. ESD absolute maximum ratings.",
+  "pdf_name": "stm32c542cc",
+  "family": "C5",
+  "page": 70,
+  "merged_pages": [
+    70
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c542cc.pdf#page=70",
+  "section": "5.3.12 Electrical sensitivity characteristics",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Conditions",
+    "Packages",
+    "Class",
+    "Maximum value(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 001",
+      "All",
+      "2",
+      "2000",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+      "LQFP 64",
+      "C3",
+      "1000",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+      "LQFP 48",
+      "C3",
+      "1000",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+      "LQFP 32",
+      "C3",
+      "1000",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+      "UFQFPN 48",
+      "C3",
+      "1000",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+      "UFQFPN 32",
+      "C3",
+      "1000",
+      "V"
+    ],
+    [
+      "VESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "TA = 25°C conforming to ANSI/ESDA/JEDEC JS- 002",
+      "UFQFPN 24",
+      "C3",
+      "1000",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Refer to the EMI radiated test section of the application note EMC design guide for STM8, STM32 and Legacy MCUs (AN1709)."
+    ],
+    "_legend": [
+      "Specified by design and not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c542cc",
+    "table_id": "table_44",
+    "is_continued": false,
+    "pages": [
+      70
+    ],
+    "rows_count": 7,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

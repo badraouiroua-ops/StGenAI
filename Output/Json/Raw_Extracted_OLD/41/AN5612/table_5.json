@@ -1,0 +1,50 @@
+{
+  "table_id": "table_5",
+  "caption": "Table 5. ST classification of ESD consequences",
+  "pdf_name": "AN5612",
+  "family": "41",
+  "page": 7,
+  "merged_pages": [
+    7
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5612.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5612.pdf#page=7",
+  "section": "2.3 ESD protection requirements in application",
+  "headers": [
+    "Class A",
+    "Class B",
+    "Class C",
+    "Class D"
+  ],
+  "rows": [
+    [
+      "No failure detected",
+      "Failure detected but self- recovery after disturbance",
+      "Need an external user action to recover normal functionality",
+      "Normal functionality cannot be recovered"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5612",
+    "table_id": "table_5",
+    "is_continued": false,
+    "pages": [
+      7
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

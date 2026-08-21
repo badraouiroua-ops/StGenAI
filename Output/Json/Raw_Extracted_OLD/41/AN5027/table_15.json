@@ -1,0 +1,65 @@
+{
+  "table_id": "table_15",
+  "caption": "Table 15. DFSDM clock configuration accuracy values",
+  "pdf_name": "AN5027",
+  "family": "41",
+  "page": 63,
+  "merged_pages": [
+    63
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5027.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5027.pdf#page=63",
+  "section": "4.3.2 Adding PDM software decoding library middleware files",
+  "headers": [
+    "Target Audio Frequency (kHz)",
+    "DivM",
+    "DivN",
+    "DivR",
+    "Output Clock Divider",
+    "DFSDM clock (MHz)",
+    "Accuracy (ppm)"
+  ],
+  "rows": [
+    [
+      "16",
+      "5",
+      "192",
+      "5",
+      "60",
+      "61.44",
+      "0"
+    ],
+    [
+      "48",
+      "5",
+      "192",
+      "5",
+      "20",
+      "61.44",
+      "0"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5027",
+    "table_id": "table_15",
+    "is_continued": false,
+    "pages": [
+      63
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

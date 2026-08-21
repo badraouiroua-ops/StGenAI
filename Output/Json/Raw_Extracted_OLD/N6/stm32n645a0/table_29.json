@@ -1,0 +1,96 @@
+{
+  "table_id": "table_29",
+  "caption": "Table 29. Embedded internal voltage reference",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 143,
+  "merged_pages": [
+    143
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=143",
+  "section": "5.3.5 Embedded voltage reference",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V (1) REFINT",
+      "Internal reference voltage",
+      "-40°C ≤ T ≤ +130°C J",
+      "0.792",
+      "0.8",
+      "0.808",
+      "V"
+    ],
+    [
+      "t (2) S_vrefint",
+      "ADC sampling time when reading the internal reference voltage",
+      "-",
+      "34",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "∆V REFINT",
+      "Internal reference voltage spread over the temperature range",
+      "-40°C ≤ T ≤ +130°C J",
+      "-",
+      "-",
+      "11",
+      "mV"
+    ],
+    [
+      "T Coeff",
+      "Temperature coefficient",
+      "-40°C ≤ T ≤ +130°C J",
+      "-",
+      "-",
+      "43",
+      "ppm/°C"
+    ],
+    [
+      "V DDCoeff",
+      "Voltage coefficient",
+      "1.71 V ≤ V ≤ 3.6 V DDA18AON",
+      "-",
+      "-",
+      "1250",
+      "ppm/V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by test in production.",
+      "2. Specified by design, not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_29",
+    "is_continued": false,
+    "pages": [
+      143
+    ],
+    "rows_count": 5,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

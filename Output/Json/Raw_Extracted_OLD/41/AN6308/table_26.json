@@ -1,0 +1,102 @@
+{
+  "table_id": "table_26",
+  "caption": "Table 26. DAC differences",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 40,
+  "merged_pages": [
+    40,
+    41
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=40",
+  "section": "6.5.2 Digital-to-analog converter (DAC)",
+  "headers": [
+    "DAC",
+    "STM32H5",
+    "STM32C5"
+  ],
+  "rows": [
+    [
+      "Instances",
+      "x1 with two output channels",
+      "x1 with two output channels"
+    ],
+    [
+      "Resolution",
+      "12 bits",
+      "12 bits"
+    ],
+    [
+      "Output buffer",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Dual DAC channel",
+      "For independent or simultaneous conversions",
+      "For independent or simultaneous conversions"
+    ],
+    [
+      "New features",
+      "• Double-data DMA • Buffer offset calibration • Sample and hold mode for low-power operation in Stop mode",
+      "• Double-data DMA • Buffer offset calibration • Sample and hold mode for low-power operation in Stop mode"
+    ],
+    [
+      "Feature",
+      "STM32H5",
+      "STM32C5"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 3,
+      "cont_cols_raw": 3,
+      "target_cols": 3,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_dedup_rows_removed": 12,
+    "_dedup_removed_indices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_26",
+    "is_continued": true,
+    "pages": [
+      40,
+      41
+    ],
+    "rows_count": 6,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

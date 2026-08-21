@@ -1,0 +1,75 @@
+{
+  "table_id": "table_8",
+  "caption": "Table 8. I2C implementation",
+  "pdf_name": "stm32c011d6",
+  "family": "C0",
+  "page": 24,
+  "merged_pages": [
+    24
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c011d6.pdf#page=24",
+  "section": "3.16 Real-time clock (RTC)",
+  "headers": [
+    "I2C features(1)",
+    "I2C1"
+  ],
+  "rows": [
+    [
+      "Standard-mode (up to 100 kbit/s)",
+      "X"
+    ],
+    [
+      "Fast-mode (up to 400 kbit/s)",
+      "X"
+    ],
+    [
+      "Fast-mode Plus (up to 1 Mbit/s) with extra output drive I/Os",
+      "X"
+    ],
+    [
+      "Programmable analog and digital noise filters",
+      "X"
+    ],
+    [
+      "SMBus/PMBus hardware support",
+      "X"
+    ],
+    [
+      "Independent clock",
+      "X"
+    ],
+    [
+      "Wake-up from Stop mode on address match",
+      "X"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. X: supported"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c011d6",
+    "table_id": "table_8",
+    "is_continued": false,
+    "pages": [
+      24
+    ],
+    "rows_count": 7,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

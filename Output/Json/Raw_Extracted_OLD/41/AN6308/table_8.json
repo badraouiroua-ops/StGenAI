@@ -1,0 +1,76 @@
+{
+  "table_id": "table_8",
+  "caption": "Table 8. STM32H523 boot mode when TrustZone® is enabled (TZEN=0xB4)",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 18,
+  "merged_pages": [
+    18
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=18",
+  "section": "5.1 Boot mode selection",
+  "headers": [
+    "PRODUCT_STATE",
+    "BOOT0 pin",
+    "Boot address option- byte selection",
+    "Boot area",
+    "STMicroelectronics default programmed value"
+  ],
+  "rows": [
+    [
+      "Open",
+      "0",
+      "SECBOOTADD[31:8]",
+      "Boot address defined by user option byte SECBOOTADD[31:8]",
+      "Flash: 0x0C00 0000"
+    ],
+    [
+      "Open",
+      "1",
+      "NA",
+      "Bootloader",
+      "Bootloader"
+    ],
+    [
+      "Provisioning",
+      "x",
+      "NA",
+      "RSS",
+      "RSS"
+    ],
+    [
+      "Provisioned, TZ_Closed, closed, locked",
+      "x",
+      "SECBOOTADD[31:8]",
+      "Boot address defined by user option byte SECBOOTADD[31:8]",
+      "Flash: 0x0C00 0000"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. The boot address, defined by BOOTADD option byte, is considered empty only if the FLASH word is equal to 0xFFFF FFFF. In this case, at option byte loading, the EMPTY bit is set in FLASH_ACR."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_8",
+    "is_continued": false,
+    "pages": [
+      18
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

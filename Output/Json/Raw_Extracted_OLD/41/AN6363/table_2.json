@@ -1,0 +1,53 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. FDCAN network example configuration",
+  "pdf_name": "AN6363",
+  "family": "41",
+  "page": 7,
+  "merged_pages": [
+    7
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6363.pdf#page=7",
+  "section": "2.2.4 Example for a FDCAN network",
+  "headers": [
+    "Speed",
+    "Register configuration",
+    "Condition properties"
+  ],
+  "rows": [
+    [
+      "Nominal (FDCAN_NBTP)",
+      "NBRP = 3 NSJW = 3 NTSEG1 = 18 NTSEG2 = 3 PROP_SEG(N) = 1",
+      "BRPN=4 SJWN=4 PS1N=18 PS2N=4"
+    ],
+    [
+      "Data (FDCAN_DBTP)",
+      "DBRP = 1 DSJW = 3 DTSEG1 = 6 DTSEG2 = 3 PROP_SEG(D) = 1",
+      "BTN=24 BRPD=2 SJWD=4 PS1D=6 PS2D=4"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6363",
+    "table_id": "table_2",
+    "is_continued": false,
+    "pages": [
+      7
+    ],
+    "rows_count": 2,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

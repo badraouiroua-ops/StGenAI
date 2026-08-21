@@ -1,0 +1,59 @@
+{
+  "table_id": "table_8",
+  "document": "Table 8. Comparator output connected externally to break inputs, with high break polarity",
+  "rev": null,
+  "table_number": "8",
+  "title": "Table 8. Comparator output connected externally to break inputs, with high break polarity",
+  "page": 17,
+  "section": "6.3 Using an external emergency signal together with the internal comparator",
+  "section_title": "Using an external emergency signal together with the internal comparator",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN4277.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN4277.pdf",
+  "text_helper": "Table 8. Comparator output connected externally to break inputs, with high break polarity — section 6.3 Using an external emergency signal together with the internal comparator. Description, Register, Bit, Configuration.",
+  "table_content": {
+    "headers": [
+      "Description",
+      "Register",
+      "Bit",
+      "Configuration"
+    ],
+    "rows": [
+      [
+        "TIM1/8/20 BRK/BRK2 polarity",
+        "TIMx_BDTR",
+        "BKP or BK2P",
+        "1 (active high), it means that the external signal goes high during the fault"
+      ],
+      [
+        "Comparator output polarity",
+        "COMPx_CSR",
+        "COMPxPOL",
+        "0 (not inverted), comparators input connected as shown in previous sections"
+      ],
+      [
+        "TIM1/8/20 BKIN/BKIN2 AF",
+        "GPIOxAFRL or GPIOxAFRH",
+        "-",
+        "AF enabled on BKIN/BKIN2 pin selected among available"
+      ],
+      [
+        "TIM1/8/20 BRK/BRK2 enable",
+        "TIMX_BDTR",
+        "BKEor BK2E",
+        "1"
+      ],
+      [
+        "COMPx out selection",
+        "COMPx_CSR",
+        "COMPxOUTSEL",
+        "0001: TIM1 BRK 0010: TIM1 BRK2 0011: TIM8 BRK 0100: TIM8 BRK2 0101: TIM1 BRK2 + TIM8 BRK2 1100: TIM20 BRK 1101: TIM20 BRK2 1110: TIM1 BRK2 + TIM8 BRK2 + TIM20 BRK2"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

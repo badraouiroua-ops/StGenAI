@@ -1,0 +1,35 @@
+{
+  "table_id": "table_6",
+  "document": "Table 6. Measurement interpolation at T = 85 °C for STM32H7 17 A",
+  "rev": null,
+  "table_number": "6",
+  "title": "Table 6. Measurement interpolation at T = 85 °C for STM32H7 17 A",
+  "page": 17,
+  "section": "6 Thermal analysis examples",
+  "section_title": "Thermal analysis examples",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 6. Measurement interpolation at T = 85 °C for STM32H7 17 A — section 6 Thermal analysis examples. Parameter, Value.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "Value"
+    ],
+    "rows": [
+      [
+        "TJ",
+        "119 °C"
+      ],
+      [
+        "PTOT",
+        "3050 mW"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

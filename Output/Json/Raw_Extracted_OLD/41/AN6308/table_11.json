@@ -1,0 +1,328 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. STM32 peripheral compatibility between products",
+  "pdf_name": "AN6308",
+  "family": "41",
+  "page": 22,
+  "merged_pages": [
+    22,
+    23
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6308.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6308.pdf#page=22",
+  "section": "6 Peripheral migration",
+  "headers": [
+    "Peripherals",
+    "Peripherals",
+    "STM32H523/533(1)",
+    "STM32C5(1)"
+  ],
+  "rows": [
+    [
+      "Core",
+      "Core",
+      "Cortex®‑M33 with TrustZone® mainline and FPU",
+      "Cortex®-M33 with FPU"
+    ],
+    [
+      "ST immutable root of trust (STiROT)",
+      "ST immutable root of trust (STiROT)",
+      "Yes",
+      "No"
+    ],
+    [
+      "Maximum CPU frequency",
+      "Maximum CPU frequency",
+      "Up to 250 MHz",
+      "Up to 144 MHz"
+    ],
+    [
+      "Flash memory",
+      "Flash memory",
+      "Up to 2 Mbytes, with high-data-cycle capability",
+      "Up to 1 Mbytes with extra 64 KB"
+    ],
+    [
+      "SRAMs",
+      "System",
+      "640 Kbytes (256+64 (w/ECC)+320 (w/ flex ECC))",
+      "256 Kbytes (128 (w/ECC) + 128)"
+    ],
+    [
+      "SRAMs",
+      "Backup",
+      "Up to 4 Kbytes",
+      "NA"
+    ],
+    [
+      "Timers",
+      "General purpose",
+      "2 (32 bits) and 8 (16 bits)",
+      "2 (32 bits) and 4 (16 bits)"
+    ],
+    [
+      "Timers",
+      "Advanced control",
+      "2 (16 bits)",
+      "2(16 bits)"
+    ],
+    [
+      "Timers",
+      "Basic",
+      "2 (16 bits)",
+      "2 (16 bits)"
+    ],
+    [
+      "Timers",
+      "Low power",
+      "6 (16 bits)",
+      "1 (16 bits)"
+    ],
+    [
+      "Timers",
+      "SysTick timer",
+      "2",
+      "1"
+    ],
+    [
+      "Timers",
+      "Watchdog timers (independent, window)",
+      "2",
+      "2"
+    ],
+    [
+      "Communication interfaces",
+      "SPI/I2S",
+      "Up to 6 SPIs, including three muxed full-duplex I2S, and up to 6 additional SPIs from USART when configured in Synchronous mode (one additional SPI with Octo‑SPI)",
+      "3 with muxed full-duplex I2S and up to 4 additional SPIs from USART when configured in synchronous mode"
+    ],
+    [
+      "Communication interfaces",
+      "I2C",
+      "4 (Sm, Fm, and Fm+ interfaces (SMBus/PMBus)",
+      "3 (sm, fm, and fm+ interfaces (SMBus/PMBus)"
+    ],
+    [
+      "Communication interfaces",
+      "I3C",
+      "2",
+      "1"
+    ],
+    [
+      "Communication interfaces",
+      "USART/UART",
+      "6/6",
+      "4/2"
+    ],
+    [
+      "Communication interfaces",
+      "LPUART",
+      "1",
+      "1"
+    ],
+    [
+      "Communication interfaces",
+      "USB",
+      "USB FS",
+      "USB FS"
+    ],
+    [
+      "Communication interfaces",
+      "UCPD",
+      "Yes",
+      "No"
+    ],
+    [
+      "Communication interfaces",
+      "CAN",
+      "2 FDCAN",
+      "2"
+    ],
+    [
+      "SAI",
+      "SAI",
+      "2",
+      "No"
+    ],
+    [
+      "SDIO",
+      "SDIO",
+      "2",
+      "No"
+    ],
+    [
+      "DCMI",
+      "DCMI",
+      "Yes",
+      "No"
+    ],
+    [
+      "PSSI",
+      "PSSI",
+      "Yes",
+      "No"
+    ],
+    [
+      "ETHERNET",
+      "ETHERNET",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Flexible memory controller (FMC)",
+      "Flexible memory controller (FMC)",
+      "Yes (8-, 16-bit data bus width); no SDRAM",
+      "No"
+    ],
+    [
+      "IPS‑otcO",
+      "Octo‑SPI",
+      "1",
+      "1"
+    ],
+    [
+      "Quad SPI memory interface (Quad-SPI)",
+      "Quad SPI memory interface (Quad-SPI)",
+      "Yes (Octo‑SPI in quad-mode)",
+      "Yes (Octo‑SPI in quad-mode)"
+    ],
+    [
+      "HDMI-CEC",
+      "HDMI-CEC",
+      "Yes",
+      "No"
+    ],
+    [
+      "CRC",
+      "CRC",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "DMA",
+      "DMA",
+      "2 GPDMA (featuring two controller ports), TrustZone® support/linked-list",
+      "2 LPDMA (up to 8 streams each)"
+    ],
+    [
+      "Real-time clock (RTC)",
+      "Real-time clock (RTC)",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "Random number generator (RNG)",
+      "Random number generator (RNG)",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "SAES, AES",
+      "SAES, AES",
+      "Yes(2)",
+      "Yes(2)"
+    ],
+    [
+      "Public key accelerator (PKA)",
+      "Public key accelerator (PKA)",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "HASH (SHA-512)",
+      "HASH (SHA-512)",
+      "Yes",
+      "Yes"
+    ],
+    [
+      "On-the-fly decryption engine (OTFDEC)",
+      "On-the-fly decryption engine (OTFDEC)",
+      "Yes(2)",
+      "No"
+    ],
+    [
+      "GPIOs",
+      "GPIOs",
+      "Up to 140",
+      "Up to 118"
+    ],
+    [
+      ")stib 21( CDA",
+      "ADC (12 bits)",
+      "2 (12-bit ADC with up to 5 MSPS); up to 20 channels",
+      "3 (12-bit ADC 2.25 MSPS and 4.5 MSPS in dual interleaved mode); up to 28 channels"
+    ],
+    [
+      ")stib 21( CAD",
+      "DAC (12 bits)",
+      "1 (two channels)",
+      "1 (Up to two channel)"
+    ],
+    [
+      "Digital temperature sensor",
+      "Digital temperature sensor",
+      "Yes",
+      "No"
+    ],
+    [
+      "Operating temperatures",
+      "Operating temperatures",
+      "Ambient operating temperature: ‑40 to +85°C/‑40 to +125°C Junction temperature: ‑40 to +130°C",
+      "Ambient operating temperature: ‑40 to +85°C/‑40 to +125°C Junction temperature: ‑40 to +140°C"
+    ],
+    [
+      "Operating voltage",
+      "Operating voltage",
+      "1.71 to 3.6 V",
+      "2.7 to 3.6 V"
+    ],
+    [
+      "Internal voltage reference buffer",
+      "Internal voltage reference buffer",
+      "Yes",
+      "No"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "continuation": {
+      "base_cols": 4,
+      "cont_cols_raw": 4,
+      "target_cols": 4,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Refer to the “Option-byte organization” table in the reference manual that provides all user option bytes. AN6308 - Rev 1 page 24/51",
+      "2. Only for product supporting cryptographic peripherals. AN6308 - Rev 1 page 23/51"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN6308",
+    "table_id": "table_11",
+    "is_continued": true,
+    "pages": [
+      22,
+      23
+    ],
+    "rows_count": 44,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

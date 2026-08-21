@@ -1,0 +1,119 @@
+{
+  "table_id": "table_13",
+  "document": "Table 13. STM32MP135 thermal measurements at T = 25 °C (cpuburn) 23 A",
+  "rev": null,
+  "table_number": "13",
+  "title": "Table 13. STM32MP135 thermal measurements at T = 25 °C (cpuburn) 23 A",
+  "page": 23,
+  "section": "6.3.1.1 Use case about cpuburn",
+  "section_title": "Use case about cpuburn",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/AN5036.pdf#page=23",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/AN5036.pdf",
+  "text_helper": "Table 13. STM32MP135 thermal measurements at T = 25 °C (cpuburn) 23 A — section 6.3.1.1 Use case about cpuburn. Parameter, 900 MHz, 1 GHz, Unit.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "900 MHz",
+      "1 GHz",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "TJ",
+        "47",
+        "49",
+        "[°C]"
+      ],
+      [
+        "VCORE",
+        "1.32",
+        "1.332",
+        "[V]"
+      ],
+      [
+        "ICORE",
+        "180",
+        "195",
+        "[mA]"
+      ],
+      [
+        "PCORE",
+        "237",
+        "260",
+        "[mW]"
+      ],
+      [
+        "VDD",
+        "3.33",
+        "3.321",
+        "[V]"
+      ],
+      [
+        "IDD",
+        "13",
+        "19",
+        "[mA]"
+      ],
+      [
+        "PDD",
+        "43",
+        "63",
+        "[mW]"
+      ],
+      [
+        "VCPU",
+        "1.415",
+        "1.414",
+        "[V]"
+      ],
+      [
+        "ICPU",
+        "306",
+        "331",
+        "[mA]"
+      ],
+      [
+        "PCPU",
+        "432",
+        "468",
+        "[mW]"
+      ],
+      [
+        "VDDR2",
+        "1.2",
+        "1.206",
+        "[V]"
+      ],
+      [
+        "IDDR2",
+        "30",
+        "35.5",
+        "[mA]"
+      ],
+      [
+        "PDDR2",
+        "36",
+        "43",
+        "[mW]"
+      ],
+      [
+        "STM32MP135 power dissipation",
+        "748",
+        "834",
+        "[mW]"
+      ],
+      [
+        "STM32MP135 power dissipation",
+        "+11%",
+        "+11%",
+        "[mW]"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

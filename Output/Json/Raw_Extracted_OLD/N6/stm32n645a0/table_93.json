@@ -1,0 +1,77 @@
+{
+  "table_id": "table_93",
+  "caption": "Table 93. Delay block dynamic characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 200,
+  "merged_pages": [
+    200
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=200",
+  "section": "5.3.22 Delay block (DLYB) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t init",
+      "Initial delay",
+      "Initial delay",
+      "150",
+      "250",
+      "350",
+      "ps"
+    ],
+    [
+      "t ∆",
+      "Unit delay",
+      "Bypass mode",
+      "30",
+      "40",
+      "50",
+      "ps"
+    ],
+    [
+      "t ∆",
+      "Unit delay",
+      "Lock mode",
+      "T(1) / 32 - 10%",
+      "T(1) / 32",
+      "T(1) / 32 + 1%",
+      "ps"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Period of the DLL clock."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_93",
+    "is_continued": false,
+    "pages": [
+      200
+    ],
+    "rows_count": 3,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

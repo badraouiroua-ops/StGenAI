@@ -1,0 +1,214 @@
+{
+  "table_id": "table_134",
+  "caption": "Table 134. VFBGA264 - Mechanical data",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 251,
+  "merged_pages": [
+    251
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=251",
+  "section": "5.3.38 JTAG/SWD interface characteristics",
+  "headers": [
+    "Symbol",
+    "millimeters(1) / Min",
+    "millimeters(1) / Typ",
+    "millimeters(1) / Max",
+    "inches(12) / Min",
+    "inches(12) / Typ",
+    "inches(12) / Max"
+  ],
+  "rows": [
+    [
+      "A(2)(3)",
+      "-",
+      "-",
+      "1.00",
+      "-",
+      "-",
+      "0.0394"
+    ],
+    [
+      "A1(4)",
+      "0.21",
+      "-",
+      "-",
+      "0.0082",
+      "-",
+      "-"
+    ],
+    [
+      "A2",
+      "-",
+      "0.59",
+      "-",
+      "-",
+      "0.0232",
+      "-"
+    ],
+    [
+      "b(5)",
+      "0.38",
+      "0.43",
+      "0.48",
+      "0.150",
+      "0.0170",
+      "0.189"
+    ],
+    [
+      "D(6)",
+      "14.00 BSC",
+      "14.00 BSC",
+      "14.00 BSC",
+      "0.5512 BSC",
+      "0.5512 BSC",
+      "0.5512 BSC"
+    ],
+    [
+      "D1",
+      "12.80 BSC",
+      "12.80 BSC",
+      "12.80 BSC",
+      "0.5039 BSC",
+      "0.5039 BSC",
+      "0.5039 BSC"
+    ],
+    [
+      "E",
+      "14.00 BSC",
+      "14.00 BSC",
+      "14.00 BSC",
+      "0.5512 BSC",
+      "0.5512 BSC",
+      "0.5512 BSC"
+    ],
+    [
+      "E1",
+      "12.80 BSC",
+      "12.80 BSC",
+      "12.80 BSC",
+      "0.5039 BSC",
+      "0.5039 BSC",
+      "0.5039 BSC"
+    ],
+    [
+      "e(9)",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.03149 BSC",
+      "0.03149 BSC",
+      "0.03149 BSC"
+    ],
+    [
+      "N(10)",
+      "264",
+      "264",
+      "264",
+      "264",
+      "264",
+      "264"
+    ],
+    [
+      "SD(11)",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.03149 BSC",
+      "0.03149 BSC",
+      "0.03149 BSC"
+    ],
+    [
+      "SE(11)",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.03149 BSC",
+      "0.03149 BSC",
+      "0.03149 BSC"
+    ],
+    [
+      "aaa",
+      "0.15",
+      "0.15",
+      "0.15",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "ccc",
+      "0.20",
+      "0.20",
+      "0.20",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "ddd",
+      "0.10",
+      "0.10",
+      "0.10",
+      "0.0039",
+      "0.0039",
+      "0.0039"
+    ],
+    [
+      "eee",
+      "0.15",
+      "0.15",
+      "0.15",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "fff",
+      "0.08",
+      "0.08",
+      "0.08",
+      "0.00315",
+      "0.00315",
+      "0.00315"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+      "2. VFBGA stands for very thin profile fine pitch ball grid array: 0.8 mm < A ≤ 1.00 mm / fine pitch e < 1.00 mm.",
+      "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "4. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "5. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+      "6. BSC stands for BASIC dimensions. It corresponds to the nominal value and has no tolerance. For tolerances refer to form and position table.",
+      "9. e represents the solder ball grid pitch.",
+      "10. N represents the total number of balls on the BGA.",
+      "11. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Values in inches are converted from mm and rounded to four decimal digits."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_134",
+    "is_continued": false,
+    "pages": [
+      251
+    ],
+    "rows_count": 17,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

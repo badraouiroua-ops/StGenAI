@@ -1,0 +1,59 @@
+{
+  "table_id": "table_16",
+  "caption": "Table 16. CORDIC peripheral information",
+  "pdf_name": "AN6457",
+  "family": "41",
+  "page": 13,
+  "merged_pages": [
+    13
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=13",
+  "section": "3.4.1 CORDIC coprocessor",
+  "headers": [
+    "Peripheral request to LPDMA",
+    "Peripheral bus",
+    "Peripheral FIFO (unit, size)",
+    "Peripheral register access",
+    "Comments"
+  ],
+  "rows": [
+    [
+      "cordic_rd_dma",
+      "AHB1",
+      "None",
+      "Read CORDIC_RDATA",
+      "Request for a new computed output data to be read by the LPDMA. Must be read with a 32-bit aligned address."
+    ],
+    [
+      "cordic_wr_dma",
+      "AHB1",
+      "None",
+      "Write CORDIC_WDATA",
+      "Request for a new input data to be written by the LPDMA for computation. Must be written with a 32-bit aligned address."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6457",
+    "table_id": "table_16",
+    "is_continued": false,
+    "pages": [
+      13
+    ],
+    "rows_count": 2,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

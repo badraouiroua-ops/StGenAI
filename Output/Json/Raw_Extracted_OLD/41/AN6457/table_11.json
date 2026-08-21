@@ -1,0 +1,49 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. LPDMA programming for I3C",
+  "pdf_name": "AN6457",
+  "family": "41",
+  "page": 11,
+  "merged_pages": [
+    11
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6457.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6457.pdf#page=11",
+  "section": "3.3 LPDMA configuration for communication peripherals",
+  "headers": [
+    "LPDMA data width for source and destination",
+    "Comments"
+  ],
+  "rows": [
+    [
+      "i3c_tx_dma/ i3c_rx_dma: 8-bit or 32-bit i3c_tc_dma/ i3c_rs_dma: 32-bit",
+      "Depends on I3C settings."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. FIFO can be enabled/disabled by software. The table below shows the supported LPDMA settings:"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6457",
+    "table_id": "table_11",
+    "is_continued": false,
+    "pages": [
+      11
+    ],
+    "rows_count": 1,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

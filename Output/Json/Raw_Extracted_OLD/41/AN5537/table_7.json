@@ -1,0 +1,104 @@
+{
+  "table_id": "table_7",
+  "caption": "Table 7. Practical ENOB measurement with the hardware oversampling unit versus configuration",
+  "pdf_name": "AN5537",
+  "family": "41",
+  "page": 22,
+  "merged_pages": [
+    22
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5537.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5537.pdf#page=22",
+  "section": "6 ENOB (effective number of bits) measurement",
+  "headers": [
+    "OSR",
+    "Software oversampling with white noise / Theoretical resolution",
+    "Software oversampling with white noise / Practical ENOB",
+    "Software oversampling with dithering / Theoretical resolution",
+    "Software oversampling with dithering / Practical ENOB"
+  ],
+  "rows": [
+    [
+      "2",
+      "-",
+      "-",
+      "12",
+      "-"
+    ],
+    [
+      "4",
+      "13",
+      "-",
+      "13",
+      "-"
+    ],
+    [
+      "8",
+      "-",
+      "-",
+      "14",
+      "-"
+    ],
+    [
+      "16",
+      "14",
+      "-",
+      "15",
+      "-"
+    ],
+    [
+      "32",
+      "-",
+      "-",
+      "16",
+      "-"
+    ],
+    [
+      "64",
+      "15",
+      "-",
+      "17",
+      "-"
+    ],
+    [
+      "128",
+      "-",
+      "-",
+      "18",
+      "-"
+    ],
+    [
+      "256",
+      "16",
+      "-",
+      "19",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5537",
+    "table_id": "table_7",
+    "is_continued": false,
+    "pages": [
+      22
+    ],
+    "rows_count": 8,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

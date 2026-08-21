@@ -1,0 +1,116 @@
+{
+  "table_id": "table_29",
+  "caption": "Table 29. Typical and maximum current consumption in Standby mode",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 61,
+  "merged_pages": [
+    61
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=61",
+  "section": "5.3.6.4 Current consumption in Standby mode",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "RTC and / LSE(1)",
+    "Typ / 2.7 V",
+    "Typ / 3 V",
+    "Typ / 3.3 V",
+    "Max / TJ = 30 °C",
+    "Max / TJ = 90 °C",
+    "Max / TJ = 110 °C",
+    "Max / TJ = 130 °C",
+    "Max / TJ = 140 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "OFF",
+      "2.75",
+      "2.90",
+      "3.00",
+      "3.80",
+      "9.90",
+      "18.00",
+      "36.50",
+      "51.00",
+      "μA"
+    ],
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "ON",
+      "3.10",
+      "3.25",
+      "3.40",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "μA"
+    ],
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG ON",
+      "OFF",
+      "3.10",
+      "3.25",
+      "3.40",
+      "5.10",
+      "10.00",
+      "18.00",
+      "37.00",
+      "51.00",
+      "μA"
+    ],
+    [
+      "IDD(Standby)",
+      "Supply current in Standby mode, IWDG ON",
+      "ON",
+      "3.40",
+      "3.55",
+      "3.75",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "μA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 12,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 12,
+    "_notes": [
+      "1. LSE is in bypass mode at 32.768 KHz. DS14927 - Rev 2 page 61/133"
+    ],
+    "_legend": [
+      "Evaluated by characterization - not tested in production, unless otherwise stated."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_29",
+    "is_continued": false,
+    "pages": [
+      61
+    ],
+    "rows_count": 4,
+    "cols_count": 12,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

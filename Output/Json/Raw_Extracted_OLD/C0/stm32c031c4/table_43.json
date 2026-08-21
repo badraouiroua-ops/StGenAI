@@ -1,0 +1,191 @@
+{
+  "table_id": "table_43",
+  "caption": "Table 43. Flash memory characteristics",
+  "pdf_name": "stm32c031c4",
+  "family": "C0",
+  "page": 60,
+  "merged_pages": [
+    60,
+    61
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c031c4.pdf#page=60",
+  "section": "5.3.8 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t prog",
+      "Word programming time",
+      "64 bits",
+      "-",
+      "85.0",
+      "125.0",
+      "µs"
+    ],
+    [
+      "t prog_row",
+      "Row (32 double word) programming time",
+      "Normal programming",
+      "-",
+      "2.7",
+      "4.6",
+      "ms"
+    ],
+    [
+      "t prog_row",
+      "Row (32 double word) programming time",
+      "Fast programming",
+      "-",
+      "1.7",
+      "2.8",
+      "ms"
+    ],
+    [
+      "t prog_page",
+      "Page (2 Kbyte) programming time",
+      "Normal programming",
+      "-",
+      "21.8",
+      "36.6",
+      "ms"
+    ],
+    [
+      "t prog_page",
+      "Page (2 Kbyte) programming time",
+      "Fast programming",
+      "-",
+      "13.7",
+      "22.4",
+      "ms"
+    ],
+    [
+      "t ERASE",
+      "Page (2 Kbyte) erase time",
+      "-",
+      "-",
+      "22.0",
+      "40.0",
+      "ms"
+    ],
+    [
+      "t prog_bank",
+      "Bank (32 Kbyte(2)) programming time",
+      "Normal programming",
+      "-",
+      "0.4",
+      "0.6",
+      "s"
+    ],
+    [
+      "t prog_bank",
+      "Bank (32 Kbyte(2)) programming time",
+      "Fast programming",
+      "-",
+      "0.2",
+      "0.4",
+      "s"
+    ],
+    [
+      "t ME",
+      "Mass erase time",
+      "-",
+      "-",
+      "22.1",
+      "40.1",
+      "ms"
+    ],
+    [
+      "I DD(FlashA)",
+      "Average consumption from V DD",
+      "Programming",
+      "-",
+      "3.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(FlashA)",
+      "Average consumption from V DD",
+      "Page erase",
+      "-",
+      "3.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(FlashA)",
+      "Average consumption from V DD",
+      "Mass erase",
+      "-",
+      "5.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(FlashP)",
+      "Maximum current (peak)",
+      "Programming, 2 µs peak duration",
+      "-",
+      "7.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(FlashP)",
+      "Maximum current (peak)",
+      "Erase, 41 µs peak duration",
+      "-",
+      "7.0",
+      "-",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. Specified by design – Not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c031c4",
+    "table_id": "table_43",
+    "is_continued": true,
+    "pages": [
+      60,
+      61
+    ],
+    "rows_count": 14,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

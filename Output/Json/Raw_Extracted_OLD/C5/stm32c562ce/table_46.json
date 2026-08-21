@@ -1,0 +1,59 @@
+{
+  "table_id": "table_46",
+  "caption": "Table 46. Electrical sensitivities.",
+  "pdf_name": "stm32c562ce",
+  "family": "C5",
+  "page": 76,
+  "merged_pages": [
+    76
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c562ce.pdf#page=76",
+  "section": "5.3.12 Electrical sensitivity characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Class"
+  ],
+  "rows": [
+    [
+      "LU",
+      "Static latch-up class",
+      "TA = 130°C conforming to JESD78",
+      "Level II A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Compliant with CMOS requirements.",
+      "2. Specified by design - Not tested in production.",
+      "3. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: ITotal_Ileak_max = 10 μA + [number of I/Os where VIN is applied on the pad] × Ilkg max.",
+      "4. Max(VDDXXX) is the maximum value of all the I/O supplies.",
+      "5. To sustain a voltage higher than the minimum of VDD or VDDA plus 0.3 V, disable the internal pull-up and pull-down resistors.",
+      "6. VIN must be less than Max(VDDXXX) + 3.6 V.",
+      "7. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10% order)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c562ce",
+    "table_id": "table_46",
+    "is_continued": false,
+    "pages": [
+      76
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

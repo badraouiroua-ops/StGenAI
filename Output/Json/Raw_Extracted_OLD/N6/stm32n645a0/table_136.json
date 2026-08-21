@@ -1,0 +1,173 @@
+{
+  "table_id": "table_136",
+  "caption": "Table 136. Thermal characteristics",
+  "pdf_name": "stm32n645a0",
+  "family": "N6",
+  "page": 253,
+  "merged_pages": [
+    253
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32n645a0.pdf#page=253",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Symbol",
+    "Definition",
+    "Parameter",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "θ JA",
+      "Thermal resistance junction-ambient",
+      "VFBGA264 - 14 x 14 mm, 0.8 mm pitch",
+      "30.4",
+      "°C/W"
+    ],
+    [
+      "θ JA",
+      "Thermal resistance junction-ambient",
+      "VFBGA223 - 10 x 10 mm, 0.5 mm pitch",
+      "31.9",
+      "°C/W"
+    ],
+    [
+      "θ JA",
+      "Thermal resistance junction-ambient",
+      "VFBGA198 - 10 x 10 mm, 0.65 mm pitch",
+      "32.0",
+      "°C/W"
+    ],
+    [
+      "θ JA",
+      "Thermal resistance junction-ambient",
+      "VFBGA178 - 10 x 10 mm, 0.8 mm pitch",
+      "27.8",
+      "°C/W"
+    ],
+    [
+      "θ JA",
+      "Thermal resistance junction-ambient",
+      "VFBGA169 - 6 x 6 mm, 0.4 mm pitch",
+      "40.3",
+      "°C/W"
+    ],
+    [
+      "θ JA",
+      "Thermal resistance junction-ambient",
+      "VFBGA142 - 8 x 8 mm, 0.5 mm pitch",
+      "36.6",
+      "°C/W"
+    ],
+    [
+      "θ JB",
+      "Thermal resistance junction-board",
+      "VFBGA264 - 14 x 14 mm, 0.8 mm pitch",
+      "20.4",
+      "°C/W"
+    ],
+    [
+      "θ JB",
+      "Thermal resistance junction-board",
+      "VFBGA223 - 10 x 10 mm, 0.5 mm pitch",
+      "19.5",
+      "°C/W"
+    ],
+    [
+      "θ JB",
+      "Thermal resistance junction-board",
+      "VFBGA198 - 10 x 10 mm, 0.65 mm pitch",
+      "19.7",
+      "°C/W"
+    ],
+    [
+      "θ JB",
+      "Thermal resistance junction-board",
+      "VFBGA178 - 10 x 10 mm, 0.8 mm pitch",
+      "16.5",
+      "°C/W"
+    ],
+    [
+      "θ JB",
+      "Thermal resistance junction-board",
+      "VFBGA169 - 6 x 6 mm, 0.4 mm pitch",
+      "24.5",
+      "°C/W"
+    ],
+    [
+      "θ JB",
+      "Thermal resistance junction-board",
+      "VFBGA142 - 8 x 8 mm, 0.5 mm pitch",
+      "22.3",
+      "°C/W"
+    ],
+    [
+      "θ JC",
+      "Thermal resistance junction-case",
+      "VFBGA264 - 14 x 14 mm, 0.8 mm pitch",
+      "9.8",
+      "°C/W"
+    ],
+    [
+      "θ JC",
+      "Thermal resistance junction-case",
+      "VFBGA223 - 10 x 10 mm, 0.5 mm pitch",
+      "10.1",
+      "°C/W"
+    ],
+    [
+      "θ JC",
+      "Thermal resistance junction-case",
+      "VFBGA198 - 10 x 10 mm, 0.65 mm pitch",
+      "10.2",
+      "°C/W"
+    ],
+    [
+      "θ JC",
+      "Thermal resistance junction-case",
+      "VFBGA178 - 10 x 10 mm, 0.8 mm pitch",
+      "9.0",
+      "°C/W"
+    ],
+    [
+      "θ JC",
+      "Thermal resistance junction-case",
+      "VFBGA169 - 6 x 6 mm, 0.4 mm pitch",
+      "12.9",
+      "°C/W"
+    ],
+    [
+      "θ JC",
+      "Thermal resistance junction-case",
+      "VFBGA142 - 8 x 8 mm, 0.5 mm pitch",
+      "10.9",
+      "°C/W"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32n645a0",
+    "table_id": "table_136",
+    "is_continued": false,
+    "pages": [
+      253
+    ],
+    "rows_count": 18,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

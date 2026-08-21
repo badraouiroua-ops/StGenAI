@@ -1,0 +1,63 @@
+{
+  "table_id": "table_8",
+  "caption": "Table 8. Basic feature differences of TrustZone®-based secure software.",
+  "pdf_name": "AN5156",
+  "family": "41",
+  "page": 27,
+  "merged_pages": [
+    27
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=27",
+  "section": "5.4 Arm TF-M solution",
+  "headers": [
+    "Feature",
+    "SBSFU for TrustZone®",
+    "TF-M"
+  ],
+  "rows": [
+    [
+      "RoT services",
+      "Immutable RoT",
+      "Immutable RoT + updatable RoT"
+    ],
+    [
+      "Cryptographic key management",
+      "Static keys only",
+      "Key storage hierarchy with HUK root key"
+    ],
+    [
+      "Secure storage",
+      "Absent",
+      "Internal and external"
+    ],
+    [
+      "NV counter",
+      "No",
+      "Yes"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN5156",
+    "table_id": "table_8",
+    "is_continued": false,
+    "pages": [
+      27
+    ],
+    "rows_count": 4,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

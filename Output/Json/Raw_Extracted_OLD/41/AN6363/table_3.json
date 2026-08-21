@@ -1,0 +1,93 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. Clock requirements per peripheral",
+  "pdf_name": "AN6363",
+  "family": "41",
+  "page": 19,
+  "merged_pages": [
+    19
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN6363.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN6363.pdf#page=19",
+  "section": "3.2 Accuracy achievable on PSI",
+  "headers": [
+    "Peripheral",
+    "Recommanded accuracy",
+    "Recommended clock source"
+  ],
+  "rows": [
+    [
+      "UART",
+      "±1.5%",
+      "HSI (trimmed) or external crystal"
+    ],
+    [
+      "FDCAN",
+      "≤0.65%",
+      "External crystal in direct or via PSI"
+    ],
+    [
+      "USB FS host",
+      "±0.05%",
+      "48 MHz from external crystal (HSE or PSI)"
+    ],
+    [
+      "USB FS device",
+      "±0.25%",
+      "48 MHz (HSE or HSI with CRS)"
+    ],
+    [
+      "Ethernet",
+      "±100 ppm",
+      "External 25/50 MHz crystal"
+    ],
+    [
+      "SPI",
+      "Low sensitivity",
+      "HSI or PSI"
+    ],
+    [
+      "I2C",
+      "Low sensitivity",
+      "HSI or PSI"
+    ],
+    [
+      "I3C",
+      "Jitter critical at 12.5 MHz",
+      "HSI or PSI"
+    ],
+    [
+      "ADC",
+      "Jitter < 1 ps RMS for high speed, but depends on the application",
+      "External low-jitter source"
+    ],
+    [
+      "Timers",
+      "Depends on the application",
+      "HSI or external"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "AN6363",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      19
+    ],
+    "rows_count": 10,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -80,14 +80,24 @@ def _get_rotated_text_map(page: Page) -> dict[tuple, str]:
     if not rotated_chars:
         return {}
 
-    # Grouper par bande x (±5 px de tolérance)
-    groups: dict[int, list] = {}
+    # Clustering 1D strict par coordonnée X pour éviter de mélanger des
+    # colonnes verticales adjacentes (tolérance 2px max).
+    rotated_chars.sort(key=lambda c: c["x0"])
+    clusters: list[list[dict]] = []
+    
     for c in rotated_chars:
-        key = round(c["x0"] / 5) * 5
-        groups.setdefault(key, []).append(c)
+        if not clusters:
+            clusters.append([c])
+            continue
+        last_cluster = clusters[-1]
+        avg_x0 = sum(ch["x0"] for ch in last_cluster) / len(last_cluster)
+        if abs(c["x0"] - avg_x0) <= 2.5:
+            last_cluster.append(c)
+        else:
+            clusters.append([c])
 
     result = {}
-    for key, chars in groups.items():
+    for chars in clusters:
         # Trier par top décroissant (top grand = en bas de la page)
         # Pour texte "Timers" vertical : le T est en bas (ex: top=446), le s en haut (top=427)
         # → trier du plus grand top au plus petit donne T-i-m-e-r-s ✓

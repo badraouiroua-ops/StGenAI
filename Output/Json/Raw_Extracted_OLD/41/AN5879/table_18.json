@@ -1,0 +1,55 @@
+{
+  "table_id": "table_18",
+  "caption": "Table 18. Software settings I3C/I2C",
+  "pdf_name": "AN5879",
+  "family": "41",
+  "page": 44,
+  "merged_pages": [
+    44
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5879.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5879.pdf#page=44",
+  "section": "9.10.2.1 Software settings",
+  "headers": [
+    "",
+    "• aTxBuffer: buffer used for transmission (register WHO_AM_I: 0x0F) • aRxBuffer: buffer used for reception. • aPrivateDescriptor: 2 directions Read and Write. (0x19 static address) • Prepare context buffers process"
+  ],
+  "rows": [
+    [
+      "",
+      "• Prepare context buffers process • Add context buffer transmit in frame context"
+    ],
+    [
+      "",
+      "Frame context with: • I2C_PRIVATE_WITHOUT_ARB_RESTART as direction • Transmit data process • Check the current state of the peripheral • Add context buffer receive in Frame context with I2C_PRIVATE_WITHOUT_ARB_STOP as direction. • Receive data process"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "medium",
+  "empty_cell_ratio": 0.5,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5879",
+    "table_id": "table_18",
+    "is_continued": false,
+    "pages": [
+      44
+    ],
+    "rows_count": 2,
+    "cols_count": 2,
+    "confidence": "medium",
+    "empty_cell_ratio": 0.5
+  },
+  "debug": {
+    "crop_path": "Raw_Extracted\\41\\AN5879\\debug\\table_18.png"
+  }
+}

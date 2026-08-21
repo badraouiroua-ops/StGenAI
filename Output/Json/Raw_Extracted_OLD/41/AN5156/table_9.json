@@ -1,0 +1,124 @@
+{
+  "table_id": "table_9",
+  "caption": "Table 9. Certifications coverage.",
+  "pdf_name": "AN5156",
+  "family": "41",
+  "page": 27,
+  "merged_pages": [
+    27,
+    28
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/AN5156.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/AN5156.pdf#page=27",
+  "section": "5.6 Product certifications",
+  "headers": [
+    "MCU series",
+    "Crypto conformance certification",
+    "Security system certification",
+    "Security system certification with physical resistance (invasive)"
+  ],
+  "rows": [
+    [
+      "STM32G0/",
+      "FIPS CAVP, SP800-90A",
+      "PSA L1",
+      "-"
+    ],
+    [
+      "STM32G4",
+      "FIPS CAVP, SP800-90A",
+      "PSA L1",
+      "-"
+    ],
+    [
+      "STM32L4",
+      "",
+      "",
+      ""
+    ],
+    [
+      "STM32L4+",
+      "FIPS CAVP, SP800-90B",
+      "FIPS CAVP, SP800-90B",
+      "FIPS CAVP, SP800-90B"
+    ],
+    [
+      "STM32H7",
+      "",
+      "",
+      ""
+    ],
+    [
+      "STM32L5",
+      "",
+      "PSA L1, SESIP L3",
+      "PSA L1, SESIP L3"
+    ],
+    [
+      "STM32WBA",
+      "",
+      "Yes",
+      "PSA L3, SESIP L3 (with TF-M)"
+    ],
+    [
+      "STM32U5",
+      "",
+      "",
+      ""
+    ],
+    [
+      "STM32H5",
+      "",
+      "",
+      "PSA L3, SESIP L3 (with Secure Manager)"
+    ],
+    [
+      "STM32H7Sx, STM32C0, STM32C5, STM32U0",
+      "",
+      "",
+      "PSA L3, SESIP L3 (using iRoT)"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "medium",
+  "empty_cell_ratio": 0.375,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.865,
+    "cols_extracted": 4,
+    "continuation": {
+      "base_cols": 4,
+      "cont_cols_raw": 4,
+      "target_cols": 4,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "AN5156",
+    "table_id": "table_9",
+    "is_continued": true,
+    "pages": [
+      27,
+      28
+    ],
+    "rows_count": 10,
+    "cols_count": 4,
+    "confidence": "medium",
+    "empty_cell_ratio": 0.375
+  },
+  "debug": {
+    "crop_path": "Raw_Extracted\\41\\AN5156\\debug\\table_9.png"
+  }
+}

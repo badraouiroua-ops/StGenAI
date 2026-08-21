@@ -1,0 +1,138 @@
+{
+  "table_id": "table_26",
+  "caption": "Table 26. Typical and maximum current consumption in Stop mode",
+  "pdf_name": "stm32c551cc",
+  "family": "C5",
+  "page": 60,
+  "merged_pages": [
+    60
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32c551cc.pdf#page=60",
+  "section": "5.3.6.3 Current consumption in Stop mode",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Typ",
+    "Max / TJ = 30 °C",
+    "Max / TJ = 90 °C",
+    "Max / TJ = 110 °C",
+    "Max / TJ = 130 °C",
+    "Max / TJ = 140 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD(STOP)",
+      "FLASH ON",
+      "SRAM1/2 ON",
+      "STOP0",
+      "0.19",
+      "0.34",
+      "1.60",
+      "2.80",
+      "4.80",
+      "6.15",
+      "mA"
+    ],
+    [
+      "IDD(STOP)",
+      "FLASH ON",
+      "SRAM1/2 ON",
+      "STOP1",
+      "0.06",
+      "0.14",
+      "0.93",
+      "1.70",
+      "3.05",
+      "3.90",
+      "mA"
+    ],
+    [
+      "IDD(STOP)",
+      "FLASH IN LOW POWER",
+      "SRAM1/2 ON",
+      "STOP0",
+      "0.17",
+      "0.32",
+      "1.60",
+      "2.75",
+      "4.75",
+      "6.10",
+      "mA"
+    ],
+    [
+      "IDD(STOP)",
+      "FLASH IN LOW POWER",
+      "SRAM1/2 ON",
+      "STOP1",
+      "0.05",
+      "0.13",
+      "0.92",
+      "1.70",
+      "3.05",
+      "3.85",
+      "mA"
+    ],
+    [
+      "IDD(STOP)",
+      "FLASH IN LOW POWER",
+      "SRAM1/2 Powered Down",
+      "STOP0",
+      "0.17",
+      "0.31",
+      "1.55",
+      "2.65",
+      "4.55",
+      "5.90",
+      "mA"
+    ],
+    [
+      "IDD(STOP)",
+      "FLASH IN LOW POWER",
+      "SRAM1/2 Powered Down",
+      "STOP1",
+      "0.05",
+      "0.12",
+      "0.82",
+      "1.50",
+      "2.70",
+      "3.55",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 11,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 11,
+    "_notes": [
+      "1. LSE is in bypass mode at 32.768 KHz. DS14928 - Rev 3 page 60/132"
+    ],
+    "_legend": [
+      "Evaluated by characterization - not tested in production, unless otherwise stated."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32c551cc",
+    "table_id": "table_26",
+    "is_continued": false,
+    "pages": [
+      60
+    ],
+    "rows_count": 6,
+    "cols_count": 11,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}
