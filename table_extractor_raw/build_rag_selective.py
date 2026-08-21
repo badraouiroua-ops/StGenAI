@@ -35,10 +35,10 @@ TOC_LINE_PATTERN = re.compile(
 )
 # ex: "5.3.6 Supply current characteristics . . . . . . . . 42"
 
-# ── Configuration des chemins ────────────────────────────────────────────────────
+# ── Configuration des chemins ──────────────────────────────────────────────────────────────────────────
 REPO_ROOT = Path(__file__).parent.parent
-OUTPUT_DIR = REPO_ROOT / "outJason"
-RAG_DIR = REPO_ROOT / "Rag_selective"
+OUTPUT_DIR = REPO_ROOT / "Output" / "Json" / "Raw_Extracted"
+RAG_DIR = REPO_ROOT / "Output" / "Json" / "Selective_Tables"
 
 
 # ═══════════════════════════════════════════════════════════════════════════════════
@@ -601,10 +601,10 @@ def process_pdf(
     dest_dir = rag_base / family / pdf_name
     dest_dir.mkdir(parents=True, exist_ok=True)
 
-    pdf_path = next(
-        (REPO_ROOT / "DataSHEET" / family).glob(f"{pdf_name}.pdf"),
-        None,
-    )
+    # Check standard PDFs location, then fallback to Input/<family> (for ANs)
+    pdf_path = next((REPO_ROOT / "Input" / "PDFs" / family).glob(f"{pdf_name}.pdf"), None)
+    if not pdf_path:
+        pdf_path = next((REPO_ROOT / "Input" / family).glob(f"{pdf_name}.pdf"), None)
 
     # Initialiser les sources + fallback
     section_cache: dict[int, list[tuple[float, str]]] = {}
@@ -698,9 +698,9 @@ def process_pdf(
 
             complete = _build_complete_doc(raw, section, features_data, pdf_name)
 
-            doc_ref = features_data.get("doc_ref", "") if features_data else ""
-            revision_raw = features_data.get("revision", "") if features_data else ""
-            revision_clean = revision_raw.replace(" ", "_")
+            doc_ref = features_data.get("doc_ref") or "" if features_data else ""
+            revision_raw = features_data.get("revision") or "" if features_data else ""
+            revision_clean = revision_raw.replace(" ", "_") if revision_raw else ""
             name_prefix = f"{doc_ref}_{revision_clean}" if doc_ref and revision_clean else pdf_name
             out_name = f"{name_prefix}_{fpath.stem}.json"
             out_path = dest_dir / out_name
@@ -729,9 +729,9 @@ def process_pdf(
 
     # ── _all_tables.json par PDF ────────────────────────────────────────────
     if transformed_complete:
-        doc_ref = features_data.get("doc_ref", "") if features_data else ""
-        revision_raw = features_data.get("revision", "") if features_data else ""
-        revision_clean = revision_raw.replace(" ", "_")
+        doc_ref = features_data.get("doc_ref") or "" if features_data else ""
+        revision_raw = features_data.get("revision") or "" if features_data else ""
+        revision_clean = revision_raw.replace(" ", "_") if revision_raw else ""
         name_prefix = f"{doc_ref}_{revision_clean}" if doc_ref and revision_clean else pdf_name
         all_name = f"{name_prefix}__all_tables.json"
         all_path = dest_dir / all_name
@@ -813,7 +813,7 @@ def process_all(rag_base: Path = RAG_DIR) -> int:
 def main():
     import argparse
     parser = argparse.ArgumentParser(
-        description="Build Rag_selective/ from outJason/"
+        description="Build Output/Json/Selective_Tables/ from Output/Json/Raw_Extracted/"
     )
     parser.add_argument("--family", type=str, help="Famille spécifique (ex: C0)")
     parser.add_argument("--pdf-name", type=str, help="PDF spécifique (ex: stm32c011d6)")

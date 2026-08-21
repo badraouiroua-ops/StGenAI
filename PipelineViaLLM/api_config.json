@@ -1,0 +1,18 @@
+{
+  "pools": {
+    "pool_A": [1, 10],
+    "pool_B": [11, 18],
+    "pool_C": [19, 28],
+    "pool_D": [29, 38],
+    "pool_E": [45, 54],
+    "pool_F": [55, 64],
+    "pool_G": [65, 74],
+    "pool_H": [75, 84],
+    "pool_I": [85, 94],
+    "pool_J": [95, 103]
+
+  },
+  "pool_cycle": [
+    "pool_A", "pool_I", "pool_C", "pool_D", "pool_E", "pool_F", "pool_A", "pool_H", "pool_B", "pool_J"
+  ]
+}

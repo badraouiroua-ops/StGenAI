@@ -20,7 +20,7 @@ function Get-WorkerCount {
 }
 
 # Déterminer l'ordre des familles et leur nombre de PDFs
-$families = Get-ChildItem -LiteralPath DataSHEET -Directory | Sort-Object Name
+$families = Get-ChildItem -LiteralPath Input\PDFs -Directory | Sort-Object Name
 
 foreach ($fam in $families) {
     $name = $fam.Name

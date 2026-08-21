@@ -6,7 +6,7 @@ les arguments CLI reçus. Ce fichier sert de wrapper léger pour simplifier
 l'appel depuis la racine du projet.
 
 Usage:
-    python app.py --pdf DataSHEET/F1/stm32f103rc.pdf   (un seul PDF)
+    python app.py --pdf Input/PDFs/F1/stm32f103rc.pdf   (un seul PDF)
     python app.py --family G0                           (toute une famille)
     python app.py --all                                 (tous les 200 PDFs)
 """
@@ -24,8 +24,9 @@ def main():
 
     args = sys.argv[1:]
     if not args:
-        print("Usage: python app.py --pdf DataSHEET/C0/stm32c011d6.pdf")
+        print("Usage: python app.py --pdf Input/PDFs/C0/stm32c011d6.pdf")
         print("       python app.py --family C0")
+        print("       python app.py --an 41")
         print("       python app.py --all")
         sys.exit(1)
 

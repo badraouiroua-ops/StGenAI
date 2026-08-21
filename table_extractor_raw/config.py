@@ -13,9 +13,9 @@ from pathlib import Path
 
 # ── Chemins ───────────────────────────────────────────────────────────────────
 ROOT_DIR   = Path(__file__).parent
-OUTPUT_DIR = ROOT_DIR.parent / "outJason"
+OUTPUT_DIR = ROOT_DIR.parent / "Output" / "Json" / "Raw_Extracted"
 LOG_DIR    = ROOT_DIR / "logs"
-RAG_DIR    = ROOT_DIR.parent / "Rag_selective"
+RAG_DIR    = ROOT_DIR.parent / "Output" / "Json" / "Selective_Tables"
 
 # ── Seuils qualité (déclenchent le fallback ou le flag) ───────────────────────
 MIN_DATA_ROWS          = 1     # une seule ligne de données est valide (ex: Calibration values)

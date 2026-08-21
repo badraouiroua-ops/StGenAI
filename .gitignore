@@ -13,7 +13,8 @@ table_extractor_raw/logs/
 mon_log.txt
 
 # ── Données volumineuses / générées ───────────────────────────────────────────
-outJason/
+Output/Images/
+Output/Json/
 ApiLog/
 
 # ── IDE / OS ──────────────────────────────────────────────────────────────────

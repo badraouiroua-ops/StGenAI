@@ -354,8 +354,8 @@ def process_pdf(pdf_path: Path, family: str, table_ids: list[int] | None = None)
                 encoding="utf-8"
             )
 
-            # ── Capture images des pages de la table (capt/<famille>/<datasheet>/tableau_N/) ──
-            capt_dir = ROOT_DIR.parent / "capt" / family / pdf_name
+            # ── Capture images des pages de la table (Output/Images/Tables_Screenshots/<famille>/<datasheet>/tableau_N/) ──
+            capt_dir = ROOT_DIR.parent / "Output" / "Images" / "Tables_Screenshots" / family / pdf_name
             merged_pages = raw_dict.get("merged_pages", [raw_dict.get("page", 1)])
             if merged_pages:
                 table_num = int(re.search(r'\d+', ref.table_id).group())
@@ -557,6 +557,7 @@ def main():
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--pdf",    type=Path, help="Chemin vers un PDF spécifique")
     group.add_argument("--family", type=str,  help="Ex: C0 → traite tous les PDFs de cette famille")
+    group.add_argument("--an",     type=str,  help="Dossier Application Notes, ex: 41 → traite tous les PDFs de Input/41/")
     group.add_argument("--all",    action="store_true", help="Traite tous les PDFs du projet")
     group.add_argument("--random", type=int, metavar="N", help="Traite N PDFs aléatoires")
 
@@ -564,13 +565,19 @@ def main():
                         help="Nombre de workers parallèles (défaut = nombre de cœurs CPU)")
     parser.add_argument("--tables", type=str, default=None,
                         help="IDs de tables spécifiques, ex: 2,5,10,11 (avec --pdf uniquement)")
+    parser.add_argument("--exclude", type=str, default=None,
+                        help="PDFs à exclure (noms sans extension, séparés par virgule). Ex: AN2606,AN4989")
 
-    # Chemin racine des PDFs — sous-dossier DataSHEET du repo
-    DATASHEETS_ROOT = Path(__file__).parent.parent / "DataSHEET"
+    # Chemin racine des PDFs — sous-dossier Input/PDFs du repo
+    DATASHEETS_ROOT = Path(__file__).parent.parent / "Input" / "PDFs"
 
     args = parser.parse_args()
     workers = args.workers or os.cpu_count() or 1
     table_ids = [int(x.strip()) for x in args.tables.split(",")] if args.tables else None
+    excluded  = {x.strip().lower().replace('.pdf','') for x in args.exclude.split(",")} if args.exclude else set()
+
+    if excluded:
+        logger.info(f"PDFs exclus : {sorted(excluded)}")
 
     if args.tables and not args.pdf:
         logger.warning("--tables est ignoré sans --pdf (utilisable uniquement avec un seul PDF)")
@@ -589,6 +596,19 @@ def main():
         pdfs = sorted(family_dir.glob("*.pdf"))
         logger.info(f"Processing {len(pdfs)} PDFs from family {args.family} ({workers} workers)")
         _run_parallel(pdfs, lambda p: (p, args.family), workers)
+
+    elif args.an:
+        # Application Notes : les PDFs sont directement dans Input/<an>/ (ex: Input/41/)
+        an_dir = DATASHEETS_ROOT.parent / args.an   # Input/41/
+        if not an_dir.exists():
+            logger.error(f"Dossier AN introuvable: {an_dir}")
+            sys.exit(1)
+        pdfs = sorted(an_dir.glob("*.pdf"))
+        if excluded:
+            pdfs = [p for p in pdfs if p.stem.lower() not in excluded]
+        an_name = args.an
+        logger.info(f"Processing {len(pdfs)} AN PDFs from Input/{an_name}/ ({workers} workers)")
+        _run_parallel(pdfs, lambda p: (p, an_name), workers)
 
     elif args.random:
         all_pdfs = sorted(DATASHEETS_ROOT.glob("*/*.pdf"))

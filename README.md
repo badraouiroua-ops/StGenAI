@@ -13,21 +13,21 @@ PDF Datasheet STM32
 ┌─────────────────────────────────────┐
 │  PHASE 1 — Extraction               │  app.py → table_extractor_raw/
 │  Outil : pdfplumber + règles custom │  Précision : ~90%
-│  Sortie : Rag_selective/            │
+│  Sortie : Output/Json/Selective_Tables/  │
 └──────────────┬──────────────────────┘
                │
                ▼
 ┌─────────────────────────────────────┐
 │  PHASE 2 — Correction LLM           │  BatchLLMValidation.py + Gemini Flash
 │  Outil : Gemini Flash multimodal    │  Précision : ~99%+
-│  Sortie : Correction/               │
+│  Sortie : Output/Json/LLM_Corrections/  │
 └──────────────┬──────────────────────┘
                │
                ▼
 ┌─────────────────────────────────────┐
 │  PHASE 3 — Application              │  ApplyCorrections.py
 │  Outil : Script Python              │  Fusion source + corrections LLM
-│  Sortie : correction_Rag/           │
+│  Sortie : Output/Json/Final_Tables/ │
 └──────────────┬──────────────────────┘
                │
                ▼
@@ -44,36 +44,49 @@ PDF Datasheet STM32
 ```
 rag1/
 ├── app.py                    # Point d'entrée Phase 1 (extraction PDF)
-├── BatchLLMValidation.py     # Phase 2 : Correction LLM par batch
-├── ApiManager.py             # Gestionnaire intelligent des clés API (pools)
-├── ApplyCorrections.py       # Phase 3 : Application des corrections JSON
-├── UpdateAllTables.py        # Phase 4 : Recrée all_tables.json après retouches
-├── api_config.json           # Configuration des pools de clés API
+├── run_all_families.ps1      # Automatisation multi-familles
 ├── .env                      # Clés API Gemini (privé, non versionné)
 │
 ├── table_extractor_raw/      # Moteur d'extraction pdfplumber (Phase 1)
-├── DataSHEET/                # PDFs originaux STM32, organisés par famille
-│   └── C0/
-│       └── stm32c011d6.pdf
-├── capt/                     # Images PNG des pages PDF (pour le LLM)
-│   └── C0/
-│       └── stm32c011d6/
-│           └── tableau_12/
-│               └── page_29.png
-├── Rag_selective/            # JSON bruts extraits (Phase 1 output)
-│   └── C0/
-│       └── stm32c011d6/
-│           ├── DS13866_Rev_5_table_1.json
-│           └── DS13866_Rev_5__all_tables.json
-├── Correction/               # JSON de corrections LLM (Phase 2 output)
-│   └── C0/
-│       └── stm32c011d6/
-│           └── DS13866_Rev_5_table_12.json
-├── correction_Rag/           # JSON finaux corrigés (Phase 3 output)
-│   └── C0/
-│       └── stm32c011d6/
-│           ├── DS13866_Rev_5_table_1.json
-│           └── DS13866_Rev_5_all_tables.json
+│
+├── PipelineViaLLM/           # Scripts de validation, correction & enrichissement LLM
+│   ├── ApiManager.py         # Gestionnaire intelligent des clés API (pools)
+│   ├── BatchLLMValidation.py # Phase 2 : Correction LLM par batch
+│   ├── MANUAL_REVIEW.py      # Re-correction automatique des tables complexes
+│   ├── ApplyCorrections.py   # Phase 3 : Application des corrections JSON
+│   ├── UpdateAllTables.py    # Phase 4 : Recrée all_tables.json après retouches
+│   ├── Figure.py             # Extraction des figures Pinout/Ballout
+│   ├── Prompt_Tables.txt     # Prompt expert pour la correction manuelle
+│   └── api_config.json       # Configuration des pools de clés API
+│
+├── Input/
+│   └── PDFs/                 # PDFs originaux STM32, organisés par famille
+│       └── C0/
+│           └── stm32c011d6.pdf
+│
+├── Output/
+│   ├── Images/
+│   │   ├── Tables_Screenshots/   # Images PNG des pages PDF (pour le LLM)
+│   │   │   └── C0/stm32c011d6/tableau_12/page_29.png
+│   │   └── Figures_Screenshots/  # Images PNG des figures Pinout/Ballout
+│   │       └── C0/stm32c011d6/page_27.png
+│   │
+│   ├── Json/
+│   │   ├── Raw_Extracted/        # JSON bruts extraits par pdfplumber
+│   │   ├── Selective_Tables/     # JSON filtrés et structurés (Phase 1 output)
+│   │   │   └── C0/stm32c011d6/DS13866_Rev_5_table_1.json
+│   │   ├── LLM_Corrections/      # JSON de corrections LLM (Phase 2 output)
+│   │   │   └── C0/stm32c011d6/DS13866_Rev_5_table_12.json
+│   │   ├── Final_Tables/         # JSON finaux corrigés (Phase 3 output)
+│   │   │   └── C0/stm32c011d6/DS13866_Rev_5_all_tables.json
+│   │   ├── Final_Figures/        # JSON des figures Pinout/Ballout
+│   │   └── Manual_Review/        # JSON re-corrigés par MANUAL_REVIEW.py
+│   │
+│   └── Reports/                  # Documentation et rapports
+│       ├── ARCHITECTURE.md
+│       ├── Rapport.md
+│       └── ...
+│
 └── ApiLog/
     └── api_state.json        # État persistant des clés API (généré automatiquement)
 ```
@@ -86,9 +99,9 @@ Wrapper du moteur d'extraction `table_extractor_raw/`. Lit les PDFs avec `pdfplu
 
 ### Usage
 ```bash
-python app.py --pdf DataSHEET/C0/stm32c011d6.pdf   # Un seul PDF
-python app.py --family C0                            # Toute une famille
-python app.py --all                                  # Tous les PDFs
+python app.py --pdf Input/PDFs/C0/stm32c011d6.pdf   # Un seul PDF
+python app.py --family C0                             # Toute une famille
+python app.py --all                                   # Tous les PDFs
 ```
 
 ### Format JSON produit
