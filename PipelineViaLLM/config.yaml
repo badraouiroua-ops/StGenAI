@@ -1,0 +1,23 @@
+# Config ST AI Bridge (Myriamx) — utilisé par llm_provider.STBridgeProvider
+# Reprise de Myriamx_datasheet_validatrion/config.yaml
+# Chaque clé surchargable via kwargs du provider
+
+# URL du bridge (QA par défaut, prod à ajuster si besoin)
+url: "https://api-ai-bridge-qa.st.com/chatgpt/api/client-apps"
+clientAppName: "mdrf-gpam-stm32-technical-support-qa"
+serviceName: "chat"
+# remoteUser: email ST obligatoire pour le bridge (ex: younes.lahbib@st.com) — surchargé par REMOTE_USER dans .env
+remoteUser: "younes.lahbib@st.com"
+persona: "Myriam"
+temperature: 0.2
+maxResponseTokens: 32400
+responseFormat: "json_object"
+reasoningEffort: "high"
+
+# Proxy d'entreprise (Zscaler) — décommenter si réseau société
+#proxies:
+#  http: "http://gateway.zscaler.net:80"
+#  https: "http://gateway.zscaler.net:80"
+
+# Clés optionnelles attendues dans .env (prioritaire sur ce fichier)
+# ST_AI_BRIDGE_API_KEY: voir .env.example
