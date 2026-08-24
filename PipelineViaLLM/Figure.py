@@ -15,25 +15,38 @@ if sys.stdout.encoding != 'utf-8':
 import pypdf
 import pdfplumber
 from PIL import Image, ImageEnhance
-from google import genai
-from google.genai import types
+
+# Provider Myriamx (ST Bridge) — défaut, Gemini en rollback
+try:
+    from llm_provider import STBridgeProvider
+except ImportError:
+    sys.path.insert(0, str(Path(__file__).parent))
+    from llm_provider import STBridgeProvider
+
+try:
+    from ApiManager import ApiManager
+except ImportError:
+    ApiManager = None
 
 # === Import de la détection de Type de PDF (depuis le pipeline existant) ===
 current_dir = Path(__file__).resolve().parent
 repo_root = current_dir.parent
 sys.path.append(str(repo_root / "table_extractor_raw"))
-from table_extractor_raw.main import detect_pdf_type
+try:
+    from table_extractor_raw.main import detect_pdf_type
+except ImportError:
+    def detect_pdf_type(pdf_path): return 1
 
-# === Import de l'ApiManager (gestion intelligente des clés Gemini) ===
-sys.path.append(str(current_dir))
-from ApiManager import ApiManager
+PROVIDER_NAME = "stbridge"
+ST_PROVIDER: STBridgeProvider = None
+API_MANAGER = None
 
 # =====================================================================
-# === CONFIGURATION GEMINI & PROMPT ===================================
+# === CONFIGURATION & PROMPT ==========================================
 # =====================================================================
-MODEL = "gemini-flash-latest"
+MODEL = "gemini-flash-latest"  # legacy
 
-# Prompt strict demandant une sortie JSON pure
+# Prompt strict demandant une sortie JSON pure — GARDÉ INTACT
 FIGURE_PROMPT = """Tu es un expert en microcontrôleurs STM32 et en lecture de datasheets.
 Tu reçois une image très haute résolution et le fichier PDF correspondant d'une page de datasheet STM32 contenant des schémas de Pinout / Ballout.
 Ton rôle est d'extraire de manière exhaustive et parfaite chaque figure présente sur la page, et de formater le résultat en JSON.
@@ -90,9 +103,22 @@ Retourne UNIQUEMENT une liste JSON valide, sans aucun texte autour, ni Markdown 
 # =====================================================================
 # === CHARGEMENT DES CLES API & LOGGING ===============================
 # =====================================================================
-def load_api_keys(env_path=".env"):
-    """Charge les clés API depuis un fichier .env"""
+def load_api_keys(env_path=".env", provider="stbridge"):
     keys = []
+    if provider in ("stbridge", "myriamx", "st", "openai"):
+        val = os.environ.get("ST_AI_BRIDGE_API_KEY") or os.environ.get("OPENAI_API_KEY") or ""
+        if val:
+            return [val]
+        fallback = "38d5a975-128d-4106-8cc8-394dc1122696"
+        if os.path.exists(env_path):
+            with open(env_path, "r") as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith("#") and "ST_AI_BRIDGE_API_KEY" in line:
+                        parts = line.split("=", 1)
+                        if len(parts) == 2 and parts[1].strip() and "AIza" not in parts[1]:
+                            keys.append(parts[1].strip())
+        return keys if keys else [fallback]
     if os.path.exists(env_path):
         with open(env_path, "r") as f:
             for line in f:
@@ -103,12 +129,7 @@ def load_api_keys(env_path=".env"):
                         keys.append(parts[1])
     return keys
 
-# Initialisation des clés et de l'ApiManager (qui va gérer les pools et les erreurs 429)
-API_KEYS = load_api_keys()
-if not API_KEYS:
-    val = os.environ.get("GEMINI_API_KEY", "")
-    API_KEYS = [val] if val else []
-API_MANAGER = ApiManager(API_KEYS) if API_KEYS else None
+API_KEYS = load_api_keys(provider="stbridge")
 
 # Verrou pour éviter que les prints des différents workers ne se chevauchent
 print_lock = threading.Lock()
@@ -121,20 +142,14 @@ def safe_print(*args, **kwargs):
 # =====================================================================
 
 def extract_metadata_from_pdf(pdf_path: str):
-    """
-    Extrait le numéro de document (DSxxxx) et la révision (Rev X) depuis 
-    le texte brut de la toute première page du PDF.
-    """
     ds_num = "DS_UNKNOWN"
     rev = "Rev_UNKNOWN"
     try:
         with pdfplumber.open(pdf_path) as pdf:
             first_page_text = pdf.pages[0].extract_text()
-            # Cherche DS suivi de chiffres
             match_ds = re.search(r'(DS\d+)', first_page_text)
             if match_ds:
                 ds_num = match_ds.group(1)
-            # Cherche Rev suivi d'un ou plusieurs chiffres
             match_rev = re.search(r'Rev\s+(\d+)', first_page_text, re.IGNORECASE)
             if match_rev:
                 rev = f"Rev {match_rev.group(1)}"
@@ -143,10 +158,6 @@ def extract_metadata_from_pdf(pdf_path: str):
     return ds_num, rev
 
 def get_all_bookmarks(pdf_path: str) -> list[tuple[int, str]]:
-    """
-    Parcourt l'Outline (les signets) du PDF pour extraire tous les titres 
-    et leurs numéros de page (0-indexés convertis en 1-indexés).
-    """
     reader = pypdf.PdfReader(pdf_path)
     entries = []
     def _walk(items):
@@ -155,13 +166,13 @@ def get_all_bookmarks(pdf_path: str) -> list[tuple[int, str]]:
                 _walk(item)
             else:
                 title = (item.get("/Title", "") or "").strip()
-                if not title: continue
-                if item.get("/Page") is None: continue
+                if not title: return
+                if item.get("/Page") is None: return
                 try:
                     page_num = reader.get_destination_page_number(item) + 1
                     entries.append((page_num, title))
                 except Exception:
-                    continue
+                    return
     try:
         _walk(reader.outline or [])
     except Exception:
@@ -169,30 +180,17 @@ def get_all_bookmarks(pdf_path: str) -> list[tuple[int, str]]:
     return sorted(entries, key=lambda x: x[0])
 
 def detect_pinout_figures(pdf_path: str) -> dict[int, int]:
-    """
-    Étape 2 : Identifie toutes les pages contenant des figures de pinout/ballout
-    et compte précisément combien de figures sont attendues par page.
-    - Type 1 : Recherche dans l'Outline (bookmarks).
-    - Type 2 : Si l'Outline échoue, scanne le texte des 20 dernières pages (Table des matières).
-    Retourne un dict {page_num: nb_figures_attendues} pour un cache précis à 100%.
-    """
     pdf_type = detect_pdf_type(pdf_path)
     bookmarks = get_all_bookmarks(pdf_path)
-    # Regex : "Figure" + (chiffre entre 2 et 20) + ... + "pinout" ou "ballout"
     figure_regex = re.compile(r'(?i)Figure\s+([2-9]|1[0-9]|20)\b.*?(pinout|ballout)')
-    
     pinout_figures = []
-    # 1. Recherche dans les signets (Type 1)
     for page_num, title in bookmarks:
         if figure_regex.search(title):
             pinout_figures.append((page_num, title))
-            
-    # 2. Fallback pour Type 2 (Antenna House) : Scan de la Table des Matières à la fin du doc
     if not pinout_figures:
         if pdf_type == 2:
             with pdfplumber.open(pdf_path) as pdf:
-                pages = pdf.pages[-20:] # On ne scanne que la fin du PDF pour gagner du temps
-                # Regex stricte pour extraire le titre de la figure ET son numéro de page dans la TOC
+                pages = pdf.pages[-20:]
                 toc_regex = re.compile(r'(?i)(Figure\s+([2-9]|1[0-9]|20)\b.*?(?:pinout|ballout).*?)\s*\.\s*(?:\.\s*)*(\d+)')
                 for p in pages:
                     text = p.extract_text() or ""
@@ -200,38 +198,31 @@ def detect_pinout_figures(pdf_path: str) -> dict[int, int]:
                         title = match.group(1).strip()
                         page_str = match.group(3)
                         pinout_figures.append((int(page_str), title))
-
     if not pinout_figures:
         return {}
-
-    # Construction du dictionnaire {page: nb_figures_attendues sur cette page}
     page_figure_count: dict[int, int] = {}
     for page_num, _ in pinout_figures:
         page_figure_count[page_num] = page_figure_count.get(page_num, 0) + 1
-
     return page_figure_count
 
 
 # =====================================================================
-# === ETAPE 4 : APPEL API GEMINI ======================================
+# === ETAPE 4 : APPEL LLM (STBridge par défaut, Gemini fallback) =======
 # =====================================================================
 def call_gemini_extraction(img_path: Path, pdf_page_path: Path, ds_num: str, rev: str, datasheet_name: str, family: str, page_num: int, expected_figures: int = 1):
     """
-    Envoie l'image et la page PDF unitaire à Gemini pour extraire le JSON de chaque figure.
-    - Utilise ApiManager pour les retrys et les quotas.
-    - Encapsule le JSON dans les métadonnées officielles attendues par le RAG.
-    - expected_figures : nombre de figures attendues sur cette page (déterminé depuis la TOC/bookmarks).
-      Le SKIP n'est déclenché que si le nombre de JSONs existants pour cette page >= expected_figures.
+    Wrapper historique conservé pour compatibilité. Dispatche vers STBridge ou Gemini.
+    Supprime l'envoi PDF binaire (types.Part) pour STBridge — images PNG 600 DPI suffisent.
     """
-    if not API_MANAGER:
-        safe_print("Pas de clé API configurée.")
-        return
+    if PROVIDER_NAME in ("stbridge", "myriamx", "st", "openai"):
+        return call_stbridge_extraction(img_path, ds_num, rev, datasheet_name, family, page_num, expected_figures)
+    # fallback Gemini
+    return call_gemini_legacy(img_path, pdf_page_path, ds_num, rev, datasheet_name, family, page_num, expected_figures)
 
+
+def call_stbridge_extraction(img_path: Path, ds_num: str, rev: str, datasheet_name: str, family: str, page_num: int, expected_figures: int = 1):
     output_dir = Path("Output") / "Json" / "Final_Figures" / family / datasheet_name
     output_dir.mkdir(parents=True, exist_ok=True)
-
-    # --- LOGIQUE DE CACHING INTELLIGENT ---
-    # On compte combien de JSON existent déjà pour cette page
     existing_count = 0
     for jpath in output_dir.glob("*.json"):
         try:
@@ -241,61 +232,38 @@ def call_gemini_extraction(img_path: Path, pdf_page_path: Path, ds_num: str, rev
                     existing_count += 1
         except Exception:
             pass
-
-    # SKIP seulement si TOUTES les figures attendues sont déjà présentes
     if existing_count >= expected_figures:
         safe_print(f"  -> [SKIP] Page {page_num} complète ({existing_count}/{expected_figures} figures en cache)")
         return
 
-    # Préparation du payload (Prompt + Image + PDF)
-    contents = [FIGURE_PROMPT]
-    contents.append("Image de la page :")
-    contents.append(Image.open(img_path))
-    
-    try:
-        pdf_bytes = pdf_page_path.read_bytes()
-        contents.append(types.Part.from_bytes(data=pdf_bytes, mime_type="application/pdf"))
-    except Exception as e:
-        safe_print(f"  -> [WARN] Impossible de lire le PDF {pdf_page_path.name}: {e}")
-
     max_retries = 3
     for attempt in range(max_retries):
-        # Récupération d'une clé API valide via l'ApiManager
-        api_key, k_idx, pool_name = API_MANAGER.get_key()
-        time.sleep(1.5) # Pause anti rate-limit IP
-        client = genai.Client(api_key=api_key)
-        
-        safe_print(f"  -> [GEMINI] Envoi Page {page_num} | Clé N°{k_idx+1} (Pool:{pool_name}) | Tentative {attempt+1}/{max_retries}...")
-        
+        time.sleep(1.5 if attempt == 0 else 5)
+        safe_print(f"  -> [STBridge] Envoi Page {page_num} | Tentative {attempt+1}/{max_retries}...")
         try:
-            # Appel de l'API avec ThinkingConfig (intelligence accrue)
-            response = client.models.generate_content(
-                model=MODEL,
-                contents=contents,
-                config=types.GenerateContentConfig(
-                    temperature=0,
-                    response_mime_type="application/json",
-                    thinking_config=types.ThinkingConfig(thinking_budget=4000)
-                )
+            t0 = time.time()
+            result = ST_PROVIDER.generate(
+                prompt=FIGURE_PROMPT,
+                images=[img_path],
+                responseFormat=None,
+                temperature=None,
+                maxResponseTokens=None,
+                reasoningEffort=None,
+                include_header_zoom=False,
+                max_retries=1,
             )
-            raw = response.text
-            # Nettoyage des balises markdown si Gemini en a mis
-            if raw.startswith("```json"):
-                raw = raw[7:]
-            if raw.endswith("```"):
-                raw = raw[:-3]
-            
+            raw = result["text"] if isinstance(result, dict) else str(result)
+            t_el = time.time() - t0
+            if raw.strip().startswith("```"):
+                if raw.strip().startswith("```json"):
+                    raw = raw.strip()[7:]
+                if raw.strip().endswith("```"):
+                    raw = raw.strip()[:-3]
             figures_data = json.loads(raw.strip())
-            
-            # Au cas où Gemini ne retourne qu'un objet au lieu d'une liste
             if not isinstance(figures_data, list):
                 figures_data = [figures_data]
-
-            # Traitement de chaque figure trouvée sur la page
             for i, fig in enumerate(figures_data):
                 fig_num = fig.get('figure_number', str(i+1))
-                
-                # Création du JSON final encapsulé avec les métadonnées officielles RAG
                 final_json = {
                     "figure_id": f"figure_{fig_num}",
                     "document": f"{ds_num} {rev} - {fig.get('title', '')}",
@@ -312,23 +280,97 @@ def call_gemini_extraction(img_path: Path, pdf_page_path: Path, ds_num: str, rev
                     "text_helper": fig.get('text_helper', ''),
                     "figure_content": fig.get('figure_content', {})
                 }
-                
-                # Nommage cohérent (demande utilisateur) sans la page: ex: DS15137_Rev_2_figure_3.json
                 out_filename = f"{ds_num}_{rev.replace(' ', '_')}_figure_{fig_num}.json"
                 out_path = output_dir / out_filename
-                
-                # Sauvegarde du JSON
                 with open(out_path, "w", encoding="utf-8") as f:
                     json.dump(final_json, f, indent=2, ensure_ascii=False)
-                    
+                safe_print(f"  -> [SUCCESS] Enregistré {out_filename} [{t_el:.1f}s]")
+            break
+        except Exception as e:
+            safe_print(f"  -> [ERREUR STBridge] {e}")
+            if attempt == max_retries - 1:
+                safe_print(f"  -> [ABANDON] Page {page_num} ignorée après {max_retries} échecs.")
+
+
+def call_gemini_legacy(img_path: Path, pdf_page_path: Path, ds_num: str, rev: str, datasheet_name: str, family: str, page_num: int, expected_figures: int = 1):
+    from google import genai
+    from google.genai import types
+    output_dir = Path("Output") / "Json" / "Final_Figures" / family / datasheet_name
+    output_dir.mkdir(parents=True, exist_ok=True)
+    existing_count = 0
+    for jpath in output_dir.glob("*.json"):
+        try:
+            with open(jpath, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if data.get("page") == page_num:
+                    existing_count += 1
+        except Exception:
+            pass
+    if existing_count >= expected_figures:
+        safe_print(f"  -> [SKIP] Page {page_num} complète ({existing_count}/{expected_figures} figures en cache)")
+        return
+    max_retries = 3
+    for attempt in range(max_retries):
+        if not API_MANAGER:
+            safe_print("Pas de clé API Gemini configurée.")
+            return
+        api_key, k_idx, pool_name = API_MANAGER.get_key()
+        time.sleep(1.5)
+        client = genai.Client(api_key=api_key)
+        safe_print(f"  -> [GEMINI] Envoi Page {page_num} | Clé N°{k_idx+1} (Pool:{pool_name}) | Tentative {attempt+1}/{max_retries}...")
+        try:
+            # Reconstituer contents legacy avec PDF part
+            contents = [FIGURE_PROMPT, "Image de la page :", Image.open(img_path)]
+            try:
+                pdf_bytes = pdf_page_path.read_bytes()
+                contents.append(types.Part.from_bytes(data=pdf_bytes, mime_type="application/pdf"))
+            except Exception as e:
+                safe_print(f"  -> [WARN] Impossible de lire le PDF {pdf_page_path.name}: {e}")
+            response = client.models.generate_content(
+                model=MODEL,
+                contents=contents,
+                config=types.GenerateContentConfig(
+                    temperature=0,
+                    response_mime_type="application/json",
+                    thinking_config=types.ThinkingConfig(thinking_budget=4000)
+                )
+            )
+            raw = response.text
+            if raw.startswith("```json"):
+                raw = raw[7:]
+            if raw.endswith("```"):
+                raw = raw[:-3]
+            figures_data = json.loads(raw.strip())
+            if not isinstance(figures_data, list):
+                figures_data = [figures_data]
+            for i, fig in enumerate(figures_data):
+                fig_num = fig.get('figure_number', str(i+1))
+                final_json = {
+                    "figure_id": f"figure_{fig_num}",
+                    "document": f"{ds_num} {rev} - {fig.get('title', '')}",
+                    "rev": rev,
+                    "figure_number": fig_num,
+                    "title": fig.get('title', ''),
+                    "page": page_num,
+                    "section": fig.get('section', ''),
+                    "section_title": fig.get('section_title', ''),
+                    "semantic_type": "pinout",
+                    "tags": fig.get('tags', []),
+                    "url": f"https://www.st.com/resource/en/datasheet/{datasheet_name}.pdf#page={page_num}",
+                    "url_pdf": f"https://www.st.com/resource/en/datasheet/{datasheet_name}.pdf",
+                    "text_helper": fig.get('text_helper', ''),
+                    "figure_content": fig.get('figure_content', {})
+                }
+                out_filename = f"{ds_num}_{rev.replace(' ', '_')}_figure_{fig_num}.json"
+                out_path = output_dir / out_filename
+                with open(out_path, "w", encoding="utf-8") as f:
+                    json.dump(final_json, f, indent=2, ensure_ascii=False)
                 safe_print(f"  -> [SUCCESS] Enregistré {out_filename}")
-            
-            # Succès complet pour cette page, on sort de la boucle de retry
-            break 
-            
+            break
         except Exception as e:
             safe_print(f"  -> [ERREUR GEMINI] {e}")
-            API_MANAGER.report_rate_limit(k_idx) # Signale l'erreur 429/503 pour bloquer la clé temporairement
+            if API_MANAGER:
+                API_MANAGER.report_rate_limit(k_idx)
             if attempt == max_retries - 1:
                 safe_print(f"  -> [ABANDON] Page {page_num} ignorée après {max_retries} échecs.")
 
@@ -337,69 +379,43 @@ def call_gemini_extraction(img_path: Path, pdf_page_path: Path, ds_num: str, rev
 # === PROCESSUS PRINCIPAL (ORCHESTRATEUR) =============================
 # =====================================================================
 def process_pdf(pdf_path: Path):
-    """
-    Fonction principale exécutée pour un datasheet spécifique.
-    Coordonne l'extraction des métadonnées, la détection des pages (Étapes 1 & 2),
-    la capture d'image (Étape 3) et l'appel à Gemini (Étape 4).
-    """
     safe_print(f"\n=== Traitement de {pdf_path.name} ===")
     try:
-        # Extraire DS et Rev depuis la 1ère page
         ds_num, rev = extract_metadata_from_pdf(str(pdf_path))
-
-        # Déterminer précisément quelles pages traiter et combien de figures sont attendues par page
         page_figure_map = detect_pinout_figures(str(pdf_path))
-
         if not page_figure_map:
             safe_print(f"Aucune figure trouvée pour {pdf_path.name}.")
             return
-
         safe_print(f"  -> Pages détectées : { {p: f'{c} figure(s)' for p, c in page_figure_map.items()} }")
-
         datasheet_name = pdf_path.stem
         family = pdf_path.parent.name
         output_dir_fig = Path("Output") / "Images" / "Figures_Screenshots" / family / datasheet_name
         output_dir_fig.mkdir(parents=True, exist_ok=True)
-
         reader = pypdf.PdfReader(str(pdf_path))
-
         with pdfplumber.open(str(pdf_path)) as pdf:
-            # Itère directement sur le dictionnaire : on ne traite QUE les pages utiles
             for page_num, expected_count in page_figure_map.items():
                 img_path = output_dir_fig / f"page_{page_num}.png"
                 pdf_out_path = output_dir_fig / f"page_{page_num}.pdf"
-                
-                # --- ETAPE 3 : CAPTURE (Skip si le fichier existe déjà) ---
                 if not img_path.exists() or not pdf_out_path.exists():
                     safe_print(f"  -> Capture de la page {page_num}...")
                     if 0 <= page_num - 1 < len(pdf.pages):
                         page_img = pdf.pages[page_num - 1]
-                        
-                        # Création de l'image en 600 dpi pour une netteté parfaite
                         img_obj = page_img.to_image(resolution=600)
-                        
-                        # Amélioration du contraste et de la netteté avec Pillow
                         pil_img = img_obj.original
                         enhancer_contrast = ImageEnhance.Contrast(pil_img)
-                        pil_img = enhancer_contrast.enhance(1.8) # Les noirs sont plus profonds
+                        pil_img = enhancer_contrast.enhance(1.8)
                         enhancer_sharpness = ImageEnhance.Sharpness(pil_img)
-                        pil_img = enhancer_sharpness.enhance(2.5) # Le contour des lettres est plus "crisp"
+                        pil_img = enhancer_sharpness.enhance(2.5)
                         pil_img.save(str(img_path))
-                        
-                        # Création du fichier PDF unitaire (1 seule page)
                         writer = pypdf.PdfWriter()
                         writer.add_page(reader.pages[page_num - 1])
                         with open(pdf_out_path, "wb") as f_out:
                             writer.write(f_out)
                 else:
                     safe_print(f"  -> [CACHE] Capture page {page_num} existe déjà. Saut de l'étape 3.")
-                
-                # --- ETAPE 4 : EXTRACTION GEMINI (avec le nombre de figures attendues pour un cache précis) ---
                 call_gemini_extraction(img_path, pdf_out_path, ds_num, rev, datasheet_name, family, page_num, expected_figures=expected_count)
-                
     except Exception as e:
         safe_print(f"Erreur globale lors du traitement de {pdf_path.name}: {e}")
-
 
 # =====================================================================
 # === POINT D'ENTREE (CLI) ============================================
@@ -409,20 +425,30 @@ if __name__ == "__main__":
     parser.add_argument("--pdf", type=Path, help="Chemin vers un fichier PDF spécifique")
     parser.add_argument("--family", type=str, help="Famille de datasheets à traiter (ex: C0, C5)")
     parser.add_argument("--an", type=str, help="Dossier Application Notes à traiter (ex: 41) → Input/41/")
-    parser.add_argument("--workers", type=int, default=1, help="Nombre de processus parallèles (défaut: 1)")
+    parser.add_argument("--workers", type=int, default=1, help="Nombre de processus parallèles (défaut: 1, mono-clé STBridge)")
+    parser.add_argument("--provider", type=str, default="stbridge", choices=["stbridge","myriamx","st","gemini"], help="Provider LLM (défaut: stbridge)")
     args = parser.parse_args()
-    
+
+    PROVIDER_NAME = args.provider.lower()
+    if PROVIDER_NAME in ("stbridge","myriamx","st"):
+        keys = load_api_keys(provider="stbridge")
+        ST_PROVIDER = STBridgeProvider(api_key=keys[0] if keys else None)
+        safe_print(f"[STBridge] Provider actif | URL={ST_PROVIDER.url} | Key=...{(keys[0][-6:] if keys and keys[0] else 'none')}")
+    else:
+        if ApiManager is None:
+            safe_print("ApiManager introuvable pour gemini")
+            sys.exit(1)
+        keys = load_api_keys(provider="gemini")
+        API_MANAGER = ApiManager(keys) if keys else None
+        safe_print(f"[Gemini] Provider actif (rollback) | {len(keys)} clés")
+
     pdfs_to_process = []
-    
-    # Mode Fichier Unique
     if args.pdf:
         if args.pdf.exists():
             pdfs_to_process.append(args.pdf)
         else:
             safe_print(f"Fichier introuvable : {args.pdf}")
             sys.exit(1)
-            
-    # Mode Famille entière (STM32 datasheets classiques)
     elif args.family:
         family_dir = Path("Input") / "PDFs" / args.family
         if family_dir.exists() and family_dir.is_dir():
@@ -430,8 +456,6 @@ if __name__ == "__main__":
         else:
             safe_print(f"Dossier de famille introuvable : {family_dir}")
             sys.exit(1)
-
-    # Mode Application Notes (ex: --an 41 → Input/41/)
     elif args.an:
         an_dir = Path("Input") / args.an
         if an_dir.exists() and an_dir.is_dir():
@@ -439,14 +463,11 @@ if __name__ == "__main__":
         else:
             safe_print(f"Dossier AN introuvable : {an_dir}")
             sys.exit(1)
-            
     else:
         safe_print("Veuillez spécifier soit --pdf, --family, soit --an. Exemple: python Figure.py --an 41")
         sys.exit(1)
         
     safe_print(f"Nombre de PDFs à traiter : {len(pdfs_to_process)}")
-    
-    # Exécution parallèle ou séquentielle
     if args.workers > 1:
         safe_print(f"Lancement de {args.workers} workers...")
         with concurrent.futures.ProcessPoolExecutor(max_workers=args.workers) as executor:
