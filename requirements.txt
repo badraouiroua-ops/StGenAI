@@ -1,0 +1,19 @@
+# ==============================================================================
+# RAG STM32 - Dépendances du projet complet (Phase 1 à Phase 4)
+# ==============================================================================
+
+# --- Moteur d'extraction PDF (table_extractor_raw & app.py) ---
+pdfplumber>=0.11.0        # Extraction de tableaux, textes et métadonnées PDF
+PyMuPDF>=1.24.0          # Rendu graphique rapide et captures haute résolution (import fitz)
+pypdf>=4.0.0             # Manipulation et inspection des flux PDF
+pydantic>=2.0.0          # Validation de schéma de données et sérialisation (RawTable, etc.)
+
+# --- Traitement d'images (PipelineViaLLM) ---
+Pillow>=10.0.0           # Manipulation et prétraitement des captures PNG (import PIL)
+
+# --- Intégration LLM Multimodal / Vision (PipelineViaLLM) ---
+google-genai>=1.0.0      # SDK officiel Google Gemini (from google import genai)
+
+# --- Utilitaires complémentaires recommandés ---
+python-dotenv>=1.0.0     # Gestion des variables d'environnement (.env)
+tqdm>=4.66.0             # Barres de progression pour les traitements batch
