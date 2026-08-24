@@ -313,8 +313,12 @@ def process_datasheet(family: str, ds: str, src_root: Path, corr_root: Path, man
                         
                     status = correction.get('status')
                     conf = correction.get('confirmation')
-                    
-                    if status == 'ERRORS_FOUND' or (status == 'MANUAL_REVIEW_NEEDED' and conf == 'OK') or (status == 'MANUAL_REVIEW_NEEDED' and is_manual):
+
+                    if status == 'MORE_THAN_7':
+                        safe_print(f"  [MORE_THAN_7] {table_name}: {correction.get('images_count', '?')} images >7 — copie originale sans correction (étape More_Than_7)")
+                        merged = original
+                        stats['ok'] += 1
+                    elif status == 'ERRORS_FOUND' or (status == 'MANUAL_REVIEW_NEEDED' and conf == 'OK') or (status == 'MANUAL_REVIEW_NEEDED' and is_manual):
                         # Note: Si c'est un patch venant de Manual_Review, on l'applique d'office (même si le status est resté MANUAL_REVIEW_NEEDED)
                         safe_print(f"\n[FIXING] {table_name}")
                         merged = apply_correction(original, correction)
