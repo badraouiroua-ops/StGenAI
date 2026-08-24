@@ -1,6 +1,6 @@
 # RAG STM32 — Pipeline d'extraction et correction des tableaux de datasheets
 
-Pipeline complet pour extraire, corriger et indexer les tableaux techniques des datasheets STM32 (familles C0, N6, etc.) pour un système RAG (Retrieval-Augmented Generation).
+Pipeline complet pour extraire, corriger et indexer les tableaux techniques des datasheets STM32 (familles C0, H7, N6, AN…) pour un système RAG.
 
 ---
 
@@ -12,615 +12,317 @@ PDF Datasheet STM32
       ▼
 ┌─────────────────────────────────────┐
 │  PHASE 1 — Extraction               │  app.py → table_extractor_raw/
-│  Outil : pdfplumber + règles custom │  Précision : ~90%
-│  Sortie : Output/Json/Selective_Tables/  │
+│  Outil : pdfplumber + PyMuPDF       │  Précision : ~90%
+│  Sortie : Output/Json/Selective_Tables/ (+Raw_Extracted) │
 └──────────────┬──────────────────────┘
-               │
-               ▼
+                │
+         ┌──────┴──────┐
+         │ len(images) │
+         └──────┬──────┘
+                │
+     ┌──────────┼──────────┐
+     │ >7       │ ≤7       │
+     ▼          ▼
+┌──────────┐ ┌─────────────────────────────────────┐
+│ ÉTAPE    │ │  PHASE 2 — Correction LLM           │  PipelineViaLLM/BatchLLMValidation.py
+│ More     │ │  Provider par défaut : STBridge     │  Myriamx (ST AI Bridge)
+│ Than 7   │ │  Fallback : Gemini Flash (ApiManager)│
+│ Output/  │ │  Sortie : Output/Json/LLM_Corrections/ │
+│ Json/    │ │  More_Than_7 → Output/Json/More_Than_7/  │
+│ More_Than_7/│ └──────────────┬──────────────────────┘
+└──────────┘                │
+                ▼
 ┌─────────────────────────────────────┐
-│  PHASE 2 — Correction LLM           │  BatchLLMValidation.py + Gemini Flash
-│  Outil : Gemini Flash multimodal    │  Précision : ~99%+
-│  Sortie : Output/Json/LLM_Corrections/  │
+│  PHASE 2b — Manual Review (option.) │  PipelineViaLLM/MANUAL_REVIEW.py
+│  Re-corrige MANUAL_REVIEW_NEEDED    │  Skip >7 (More_Than_7)
+│  Sortie : Output/Json/Manual_Review/│
 └──────────────┬──────────────────────┘
-               │
-               ▼
+                │
+                ▼
 ┌─────────────────────────────────────┐
-│  PHASE 3 — Application              │  ApplyCorrections.py
-│  Outil : Script Python              │  Fusion source + corrections LLM
-│  Sortie : Output/Json/Final_Tables/ │
+│  PHASE 3 — Application              │  PipelineViaLLM/ApplyCorrections.py
+│  Gère MORE_THAN_7 → copie originale │  Fusion source + corrections
+│  Sortie : Output/Json/Final_RAG/    │
 └──────────────┬──────────────────────┘
-               │
-               ▼
+                │
+                ▼
 ┌─────────────────────────────────────┐
 │  PHASE 4 — Agrégation finale        │  UpdateAllTables.py
 │  Sortie : *_all_tables.json         │  Après retouches manuelles
 └─────────────────────────────────────┘
+      │
+      ▼
+┌─────────────────────────────────────┐
+│  EXTRA — Figures Pinout/Ballout     │  PipelineViaLLM/Figure.py (STBridge)
+│  Sortie : Output/Json/Final_Figures/│
+└─────────────────────────────────────┘
 ```
+
+**Providers LLM :**
+- **STBridge (Myriamx)** par défaut — `https://api-ai-bridge-qa.st.com/chatgpt/api/client-apps` via `PipelineViaLLM/llm_provider.py:134`, auth SHA1, `data:image/jpg;base64`, 5s entre tables.
+- **Gemini** en rollback `--provider gemini` avec `ApiManager` pools.
 
 ---
 
 ## Structure des dossiers
 
 ```
-rag1/
-├── requirements.txt          # Dépendances Python du projet complet
-├── app.py                    # Point d'entrée Phase 1 (extraction PDF)
-├── run_all_families.ps1      # Automatisation multi-familles
-├── .env                      # Clés API Gemini (privé, non versionné)
+StGenAI-malek/
+├── app.py                    # Wrapper Phase 1
+├── .env                      # ST_AI_BRIDGE_API_KEY, REMOTE_USER, TEMPERATURE=0.2, MAX_RESPONSE_TOKENS=32400 (non versionné)
+├── .env.example              # Template STBridge
+├── requirements.txt
 │
-├── table_extractor_raw/      # Moteur d'extraction pdfplumber (Phase 1)
+├── PipelineViaLLM/
+│   ├── llm_provider.py       # Abstraction STBridge/Gemini (STBridgeProvider, encode_image_base64, build_multimodal_content)
+│   ├── config.yaml           # STBridge : url, remoteUser, temperature 0.2, maxResponseTokens 32400, persona Myriam
+│   ├── BatchLLMValidation.py # Phase 2 : Correction batch (STBridge, MORE_DIR, 5s)
+│   ├── MANUAL_REVIEW.py      # Phase 2b : Re-correction (skip >7)
+│   ├── Figure.py             # Figures Pinout/Ballout (STBridge, 600 DPI)
+│   ├── ApplyCorrections.py   # Phase 3 : Fusion (gère MORE_THAN_7)
+│   ├── ApiManager.py         # Legacy Gemini pools (rollback)
+│   ├── Prompt_Tables.txt
+│   └── api_config.json
 │
-├── PipelineViaLLM/           # Scripts de validation, correction & enrichissement LLM
-│   ├── ApiManager.py         # Gestionnaire intelligent des clés API (pools)
-│   ├── BatchLLMValidation.py # Phase 2 : Correction LLM par batch
-│   ├── MANUAL_REVIEW.py      # Re-correction automatique des tables complexes
-│   ├── ApplyCorrections.py   # Phase 3 : Application des corrections JSON
-│   ├── UpdateAllTables.py    # Phase 4 : Recrée all_tables.json après retouches
-│   ├── Figure.py             # Extraction des figures Pinout/Ballout
-│   ├── Prompt_Tables.txt     # Prompt expert pour la correction manuelle
-│   └── api_config.json       # Configuration des pools de clés API
+├── table_extractor_raw/      # Moteur pdfplumber + PyMuPDF (Phase 1)
+│   └── main.py               # Capture Output/Images/Tables_Screenshots/<family>/<ds>/tableau_N/page_*.png (150 dpi) + PDF page
 │
 ├── Input/
-│   └── PDFs/                 # PDFs originaux STM32, organisés par famille
-│       └── C0/
-│           └── stm32c011d6.pdf
+│   └── PDFs/                 # PDFs par famille (C0, H7, N6) + AN (Input/41/)
 │
 ├── Output/
 │   ├── Images/
-│   │   ├── Tables_Screenshots/   # Images PNG des pages PDF (pour le LLM)
-│   │   │   └── C0/stm32c011d6/tableau_12/page_29.png
-│   │   └── Figures_Screenshots/  # Images PNG des figures Pinout/Ballout
-│   │       └── C0/stm32c011d6/page_27.png
-│   │
+│   │   ├── Tables_Screenshots/   # C0/stm32c011d6/tableau_12/page_29.png (+page_*.pdf)
+│   │   └── Figures_Screenshots/
 │   ├── Json/
-│   │   ├── Raw_Extracted/        # JSON bruts extraits par pdfplumber
-│   │   ├── Selective_Tables/     # JSON filtrés et structurés (Phase 1 output)
-│   │   │   └── C0/stm32c011d6/DS13866_Rev_5_table_1.json
-│   │   ├── LLM_Corrections/      # JSON de corrections LLM (Phase 2 output)
-│   │   │   └── C0/stm32c011d6/DS13866_Rev_5_table_12.json
-│   │   ├── Final_Tables/         # JSON finaux corrigés (Phase 3 output)
-│   │   │   └── C0/stm32c011d6/DS13866_Rev_5_all_tables.json
-│   │   ├── Final_Figures/        # JSON des figures Pinout/Ballout
-│   │   └── Manual_Review/        # JSON re-corrigés par MANUAL_REVIEW.py
-│   │
-│   └── Reports/                  # Documentation et rapports
-│       ├── ARCHITECTURE.md
-│       ├── Rapport.md
-│       └── ...
-│
+│   │   ├── Raw_Extracted/
+│   │   ├── Selective_Tables/     # Phase 1 output
+│   │   ├── LLM_Corrections/      # Phase 2 output (OK/ERRORS_FOUND/MANUAL_REVIEW_NEEDED)
+│   │   ├── More_Than_7/          # NOUVEAU : >7 images (status MORE_THAN_7, voir ci-dessous)
+│   │   ├── Manual_Review/        # Phase 2b output
+│   │   ├── Final_RAG/            # Phase 3 output (corrigé)
+│   │   └── Final_Figures/
+│   └── Reports/
 └── ApiLog/
-    └── api_state.json        # État persistant des clés API (généré automatiquement)
+    └── api_state.json        # Gemini seulement
 ```
 
 ---
 
-## ⚙️ Installation & Initialisation
+## Phase 1 — Extraction PDF (`app.py` → `table_extractor_raw/main.py`)
 
-### 1. Prérequis
-- **Python** 3.10 ou supérieur
-- **PowerShell** (Windows) ou **Bash** (Linux/macOS)
-
-### 2. Création de l'environnement virtuel (`venv`)
-
-À la racine du projet (`rag1/`) :
-
-```bash
-# Créer le dossier venv
-python -m venv venv
-```
-
-### 3. Activation de l'environnement virtuel
-
-- **Sur Windows (PowerShell) :**
-  ```powershell
-  .\venv\Scripts\Activate.ps1
-  ```
-  *(En cas d'erreur de restriction de script PowerShell, exécuter d'abord : `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`)*
-
-- **Sur Windows (Invite de commandes CMD) :**
-  ```cmd
-  .\venv\Scripts\activate.bat
-  ```
-
-- **Sur Linux / macOS (Bash/Zsh) :**
-  ```bash
-  source venv/bin/activate
-  ```
-
-### 4. Installation des dépendances
-
-Une fois l'environnement virtuel activé (le préfixe `(venv)` apparaît dans votre terminal) :
-
-```bash
-# Mettre à jour pip (recommandé)
-python -m pip install --upgrade pip
-
-# Installer toutes les dépendances requises
-pip install -r requirements.txt
-```
-
-### 5. Configuration du fichier `.env`
-
-Copiez l'exemple de configuration et renseignez vos clés API Gemini :
-
-```bash
-# Sous Windows (PowerShell)
-Copy-Item .env.example .env
-
-# Sous Linux/macOS
-cp .env.example .env
-```
-
-Éditez ensuite `.env` pour insérer vos clés API (`GEMINI_API_KEY1=...`).
-
----
-
-## Phase 1 — Extraction PDF (`app.py`)
-
-Wrapper du moteur d'extraction `table_extractor_raw/`. Lit les PDFs avec `pdfplumber`, détecte et sérialise les tableaux en JSON structuré.
+Wrapper `table_extractor_raw/`. Détecte les tables (TOC/scan), extrait via `grid_extractor`, valide `RawTable`, capture 1 PNG (150 dpi) + 1 PDF par `merged_pages`.
 
 ### Usage
 ```bash
-python app.py --pdf Input/PDFs/C0/stm32c011d6.pdf   # Un seul PDF
-python app.py --family C0                             # Toute une famille
-python app.py --all                                   # Tous les PDFs
+python app.py --pdf Input/PDFs/C0/stm32c011d6.pdf
+python app.py --family C0
+python app.py --family H7
+python app.py --an 41
+python app.py --all
 ```
 
-### Format JSON produit
-```json
-{
-  "table_id": "table_12",
-  "document": "DS13866 Rev 5",
-  "page": 29,
-  "table_content": {
-    "headers": ["Pin / SO8N", "Pin name (function upon reset)", "..."],
-    "rows": [
-      ["1", "PC14-OSCX_IN (PC14)", "I/O", "..."],
-      ["8", "PC15-OSCX_OUT (PC15)", "I/O", "..."]
-    ],
-    "notes": ["1. RST I/O structure when..."]
-  }
-}
-```
+### Sortie
+`Output/Json/Selective_Tables/<family>/<ds>/DSxxxx_table_N.json` + `Output/Images/Tables_Screenshots/.../tableau_N/page_*.png`
 
-### Limites connues (~10% d'erreurs)
-- Texte RTL inversé (ex: `kcolc UPC` → `CPU clock`)
-- Cellules fusionnées laissées vides (`""`)
-- Lignes d'en-tête répétées après un saut de page
-- Indices/exposants mal positionnés (ex: `V DD` au lieu de `VDD`)
+**Log More_Than_7 dès Phase 1** (`table_extractor_raw/main.py:365`): si `len(merged_pages)>7` → `warnings: ["more_than_7_pages:9"]`.
 
 ---
 
-## Phase 2 — Correction LLM (`BatchLLMValidation.py`)
+## Phase 2 — Correction LLM (`PipelineViaLLM/BatchLLMValidation.py`)
 
-Envoie chaque tableau à Gemini Flash en mode multimodal avec 3 sources simultanées :
-1. **Image PNG** de la page (vérité terrain visuelle)
-2. **Texte positionné** extrait par pdfplumber (résolution RTL)
-3. **JSON brut** de la Phase 1 (objet à corriger)
+Provider **STBridge Myriamx** par défaut. Envoie `images JPG base64` (avec `crop_header_zoom` 22% `llm_provider.py:84`), prompt expert `PROMPT`, `pdf_text` positionné et JSON brut.
 
-### Règles du prompt LLM
+### Règle More Than 7 (nouvelle étape)
+Si `len(images) > 7` (table éclatée sur >7 pages) :
+- **Skip LLM** — pas d'appel STBridge (coût/limite tokens)
+- Archive dans `Output/Json/More_Than_7/<family>/<ds>/DSxxxx_table_N.json` :
+```json
+{
+  "table_id": "table_42",
+  "status": "MORE_THAN_7",
+  "reason": "Skipped LLM: 9 images >7",
+  "images_count": 9,
+  "merged_pages": [45,46,47,48,49,50,51,52,53],
+  "logs": ["More Than 7 — découpage manuel requis"]
+}
+```
+- `ApplyCorrections.py` copie l'original sans correction (statut tracé dans `Rapport_Validation`).
+
+### Règles prompt & boucliers
 | Règle | Description |
 |-------|-------------|
-| RTL inversé | Détecte et corrige le texte vertical lu à l'envers |
-| Codes composants | Corrige les codes STM32 mal orthographiés dans les en-têtes |
-| Corrections globales | Si une erreur se répète sur plusieurs lignes, corrige **toutes** les lignes |
-| Anti-destruction | Interdit de vider une cellule contenant du texte |
-| Cases vides | Ne jamais toucher aux cellules `""` |
-| Lignes en trop | Les en-têtes répétés (sauts de page) → `lignes_en_trop_supprimees` |
+| RTL inversé | Texte vertical `)stib 21(` → `ADC (12 bits)` |
+| Codes composants | `Q3H0X546N` corrigé |
+| Anti-destruction BOUCLIER-1 | Interdit vider texte → tiret/vide |
+| Cases vides BOUCLIER-2 | Remplissage seulement si confiance ≥90% |
+| Suppression massive BOUCLIER-3 | >20% lignes → `MANUAL_REVIEW_NEEDED` |
+| Faible confiance BOUCLIER-4 | <80% → `MANUAL_REVIEW_NEEDED` |
 
-### Boucliers de sécurité (côté Python)
-- **BOUCLIER-1** : Interdit d'écraser un vrai texte par un tiret ou vide
-- **BOUCLIER-2** : Remplissage d'une case vide seulement si confiance ≥ 90%
-- **BOUCLIER-3** : Annule la suppression si le LLM veut supprimer > 20% des lignes
-
-### Usage
+### Usage STBridge (par défaut, 32400 tokens)
 ```bash
-# Un seul datasheet
-python BatchLLMValidation.py --family C0 --datasheet stm32c011d6 --workers 2
+# 1 datasheet H7
+python -u PipelineViaLLM/BatchLLMValidation.py --family H7 --datasheet stm32h7a3ag --workers 1
 
-# Toute une famille
-python BatchLLMValidation.py --family C0 --workers 4
+# Famille C0, AN
+python -u PipelineViaLLM/BatchLLMValidation.py --family C0 --workers 1
+python -u PipelineViaLLM/BatchLLMValidation.py --an 41 --workers 1
+
+# Rollback Gemini
+python PipelineViaLLM/BatchLLMValidation.py --provider gemini --family C0 --workers 4
 ```
+- `--provider {stbridge,gemini}` défaut `stbridge`
+- `--workers 1` recommandé STBridge mono-clé (max 2)
+- Pause 5s entre tables (configuré), reprise automatique (skip `out_file.exists()`)
 
-### Format du JSON de correction produit
-```json
-{
-  "table_id": "table_12",
-  "status": "ERRORS_FOUND",
-  "logs": [],
-  "erreurs_corrigees": [
-    {
-      "ligne": "PC15- OSCX_OUT",
-      "row_index": 1,
-      "analyse_visuelle": "Espace parasite après PC15-",
-      "corrections": [
-        {
-          "colonne_index": 4,
-          "valeur_originale_json": "PC15- OSCX_OUT (PC15)",
-          "nouvelle_valeur": "PC15-OSCX_OUT (PC15)",
-          "confiance": 98
-        }
-      ]
-    }
-  ],
-  "lignes_manquantes_ajoutees": [],
-  "lignes_en_trop_supprimees": [
-    { "row_index": 6, "raison": "Ligne d'en-tête répétée (saut de page)" }
-  ]
-}
-```
-
-### Statuts possibles
+### Statuts
 | Statut | Description |
 |--------|-------------|
-| `OK` | Aucune erreur détectée, table parfaite |
-| `ERRORS_FOUND` | Erreurs détectées et corrigées dans le JSON |
-| `MANUAL_REVIEW_NEEDED` | Structure trop complexe, revue manuelle requise |
+| `OK` | Parfait |
+| `ERRORS_FOUND` | Corrigé |
+| `MANUAL_REVIEW_NEEDED` | À re-corriger via `MANUAL_REVIEW.py` |
+| `MORE_THAN_7` | >7 images, archivé dans `More_Than_7` |
 
 ---
 
-## Gestionnaire de clés API (`ApiManager.py`)
+## Phase 2b — Manual Review (`PipelineViaLLM/MANUAL_REVIEW.py`)
 
-Système intelligent de rotation des clés API Gemini, conçu pour maximiser l'utilisation de multiples projets Google Cloud sans erreur 429.
+Re-corrige les tables `MANUAL_REVIEW_NEEDED` de `LLM_Corrections`. Skip aussi `>7 images` → `More_Than_7`.
 
-### Fonctionnement
-- **Pools configurables** via `api_config.json` : chaque pool = un projet Google Cloud distinct
-- **Rotation Round-Robin inter-pools** : les workers utilisent des pools différents en alternance
-- **Clé la moins récente en priorité** dans chaque pool (`last_used`)
-- **Persistance** entre les exécutions via `ApiLog/api_state.json`
-
-### Gestion des erreurs API
-| Erreur | Action | Durée du blocage |
-|--------|--------|-----------------|
-| 429 Rate Limit (RPM/TPM) | `report_rate_limit()` | 60 secondes |
-| Quota journalier épuisé (RPD) | `report_exhausted()` | 24 heures |
-| Erreur permanente | `report_permanent_error()` | 24 heures |
-| Toutes clés bloquées | Attente automatique | Jusqu'au prochain déblocage |
-
-### Configuration des pools (`api_config.json`)
-```json
-{
-  "pools": {
-    "pool_A": [1, 10],
-    "pool_B": [11, 18],
-    "pool_C": [19, 25],
-    "pool_D": [26, 34],
-    "pool_E": [35, 44],
-    "pool_F": [45, 54],
-    "pool_G": [55, 64]
-  }
-}
-```
-*Les numéros correspondent aux index dans le fichier `.env` (1-based).*
-
-### État persistant (`ApiLog/api_state.json`)
-```json
-{
-  "keys_state": {
-    "0": {
-      "key_num": 1,
-      "status": "AVAILABLE",
-      "unblock_time": 0,
-      "last_used": 1722772800.5,
-      "nb_used": 47,
-      "nb_errors": 2,
-      "tokens_in": 183420,
-      "tokens_out": 12800
-    }
-  }
-}
-```
-
----
-
-## Phase 3 — Application des corrections (`ApplyCorrections.py`)
-
-Fusionne les JSON bruts (`Rag_selective/`) avec les JSON de corrections (`Correction/`) pour produire les JSON finaux dans `correction_Rag/`.
-
-### Logique d'application
-1. **Suppressions** : supprime les lignes de `lignes_en_trop_supprimees` (du plus grand index au plus petit pour éviter les décalages)
-2. **Insertions** : insère les lignes de `lignes_manquantes_ajoutees` (avec compensation d'offset)
-3. **Corrections de cellules** : applique `erreurs_corrigees` sur la ligne ciblée
-4. **Propagation globale** : si la même valeur erronée existe dans d'autres lignes de la même colonne, elle est corrigée automatiquement
-
-### Sécurités
-- Ne touche **jamais** aux cellules vides (`""`)
-- En cas d'erreur sur une table, copie l'original en fallback (le batch continue)
-- Encodage UTF-8 forcé sur Windows
-
-### Usage
 ```bash
-# Un seul datasheet
-python ApplyCorrections.py --family C0 --datasheet stm32c011d6 --workers 6
-
-# Toute la famille
-python ApplyCorrections.py --family C0 --workers 6
+python PipelineViaLLM/MANUAL_REVIEW.py --family C0 --workers 1
+python PipelineViaLLM/MANUAL_REVIEW.py --provider gemini --family C0
 ```
 
 ---
 
-## Phase 4 — Agrégation finale (`UpdateAllTables.py`)
+## Phase 3 — Application (`PipelineViaLLM/ApplyCorrections.py`)
 
-Après des corrections manuelles sur des tables individuelles dans `correction_Rag/`, recrée le fichier `*_all_tables.json` de chaque datasheet pour le maintenir synchronisé.
+Fusionne `Selective_Tables` + `LLM_Corrections` (priorité `Manual_Review`) vers `Final_RAG`. Gère `MORE_THAN_7` → copie originale.
 
-### Usage
+```bash
+python PipelineViaLLM/ApplyCorrections.py --family C0 --datasheet stm32c011d6 --workers 6
+python PipelineViaLLM/ApplyCorrections.py --family C0 --workers 6
+python PipelineViaLLM/ApplyCorrections.py --family H7 --workers 6
+python PipelineViaLLM/ApplyCorrections.py --an 41 --workers 6
+```
+
+---
+
+## Phase 4 — Agrégation (`UpdateAllTables.py`)
 ```bash
 python UpdateAllTables.py --family C0
 ```
 
-### Quand l'utiliser ?
-Après avoir corrigé manuellement une table marquée `MANUAL_REVIEW_NEEDED`. Le script re-fusionne toutes les tables individuelles dans le bon ordre pour mettre à jour le fichier global.
+---
+
+## Figures Pinout/Ballout (`PipelineViaLLM/Figure.py`)
+```bash
+python -u PipelineViaLLM/Figure.py --family C0 --workers 1
+python -u PipelineViaLLM/Figure.py --pdf Input/PDFs/C0/stm32c011d6.pdf
+python PipelineViaLLM/Figure.py --an 41 --workers 1
+```
+Capture 600 dpi `Output/Images/Figures_Screenshots/`, sortie `Output/Json/Final_Figures/`.
 
 ---
 
 ## Dépendances
 
 ```bash
-pip install google-genai pillow pdfplumber
+pip install -r requirements.txt
+# - pdfplumber, PyMuPDF>=1.24 (import fitz/pymupdf), pypdf, pydantic
+# - Pillow, requests, pyyaml, urllib3, tqdm
+# - google-genai (rollback uniquement)
 ```
 
-### Fichier `.env`
+### `.env` STBridge (actuel)
 ```
-GEMINI_KEY_1=AIza...
-GEMINI_KEY_2=AIza...
-...
-GEMINI_KEY_64=AIza...
+ST_AI_BRIDGE_API_KEY=38d5a975-128d-4106-8cc8-394dc1122696
+ST_AI_BRIDGE_URL=https://api-ai-bridge-qa.st.com/chatgpt/api/client-apps
+CLIENT_APP_NAME=mdrf-gpam-stm32-technical-support-qa
+REMOTE_USER=younes.lahbib@st.com
+SERVICE_NAME=chat
+PERSONA=Myriam
+TEMPERATURE=0.2
+MAX_RESPONSE_TOKENS=32400
+RESPONSE_FORMAT=json_object
+REASONING_EFFORT=high
 ```
+
+`PipelineViaLLM/config.yaml` reflète les mêmes valeurs (surchargées par `.env`).
 
 ---
 
 ## Modèle LLM
 
-| Paramètre | Valeur |
-|-----------|--------|
-| Provider | Google AI Studio |
-| Modèle | `gemini-flash-latest` |
-| Température | `0` (réponses déterministes) |
-| Format sortie | JSON strict (`application/json`) |
-| Budget de réflexion | 8000 tokens (thinking mode) |
+| Paramètre | STBridge (défaut) | Gemini (rollback) |
+|-----------|-------------------|-------------------|
+| Provider | ST AI Bridge QA | Google AI Studio |
+| Auth | SHA1 `stchatgpt-auth-token` | `GEMINI_KEY_*` pools |
+| Température | `0.2` (>0 requis) | `0` |
+| Max tokens | `32400` (timeout 900s) | 4096 |
+| Images | `data:image/jpg;base64` + header zoom 22% | `Part(pdf)` |
+| Pause | 5s entre tables | pools Round-Robin |
 
 ---
 
 ## 📋 Référence complète des commandes
 
----
-
-### `app.py` — Extraction PDF (Phase 1)
-
-| Argument | Type | Défaut | Description |
-|----------|------|--------|-------------|
-| `--pdf` | str | — | Chemin vers un seul PDF à extraire |
-| `--family` | str | — | Nom de la famille (extrait tous les PDFs de la famille) |
-| `--all` | flag | — | Extrait tous les PDFs de tous les dossiers |
-
+### `app.py`
 ```powershell
-# ── Un seul PDF ──────────────────────────────────────────────────────────────
-
-# Extraire un PDF spécifique famille C0
-python app.py --pdf DataSHEET/C0/stm32c011d6.pdf
-
-# Extraire un PDF spécifique famille N6
-python app.py --pdf DataSHEET/N6/stm32n645a0.pdf
-
-# ── Toute une famille ─────────────────────────────────────────────────────────
-
-# Extraire tous les PDFs de la famille C0
-python app.py --family C0
-
-# Extraire tous les PDFs de la famille N6
-python app.py --family N6
-
-# ── Tout extraire ─────────────────────────────────────────────────────────────
-
-# Extraire absolument tous les PDFs de tous les dossiers DataSHEET/
+python app.py --pdf Input/PDFs/H7/stm32h7a3ag.pdf
+python app.py --family H7
+python app.py --an 41
 python app.py --all
+python app.py --pdf Input/PDFs/C0/stm32c011d6.pdf --tables 2,5,10
 ```
 
----
-
-### `BatchLLMValidation.py` — Correction LLM (Phase 2)
-
-| Argument | Type | Défaut | Description |
-|----------|------|--------|-------------|
-| `--family` | str | **requis** | Famille cible (ex: `C0`, `N6`) |
-| `--datasheet` | str | tous | Datasheet spécifique (ex: `stm32c011d6`). Si absent, toute la famille |
-| `--workers` | int | `6` | Nombre de requêtes API parallèles |
-
+### `BatchLLMValidation.py`
 ```powershell
-# ── Test rapide sur 1 datasheet ───────────────────────────────────────────────
-
-# Tester sur stm32c011d6 avec 2 workers (recommandé si erreurs 429 fréquentes)
-python BatchLLMValidation.py --family C0 --datasheet stm32c011d6 --workers 2
-
-# Tester sur stm32c031c4 avec 4 workers
-python BatchLLMValidation.py --family C0 --datasheet stm32c031c4 --workers 4
-
-# Tester sur stm32c051c6 avec 6 workers
-python BatchLLMValidation.py --family C0 --datasheet stm32c051c6 --workers 6
-
-# Tester sur stm32c071r8 avec 4 workers
-python BatchLLMValidation.py --family C0 --datasheet stm32c071r8 --workers 4
-
-# Tester sur stm32c091kb avec 2 workers
-python BatchLLMValidation.py --family C0 --datasheet stm32c091kb --workers 2
-
-# ── Toute une famille ─────────────────────────────────────────────────────────
-
-# Traiter toute la famille C0 avec 2 workers (prudent)
-python BatchLLMValidation.py --family C0 --workers 2
-
-# Traiter toute la famille C0 avec 4 workers (plus rapide si stable)
-python BatchLLMValidation.py --family C0 --workers 4
-
-# Traiter toute la famille N6 avec 6 workers
-python BatchLLMValidation.py --family N6 --workers 6
-
-# ── Reprise après interruption ────────────────────────────────────────────────
-# Le script ignore automatiquement les tables déjà traitées (fichier déjà présent
-# dans Correction/). Il suffit de relancer la même commande pour reprendre.
-python BatchLLMValidation.py --family C0 --datasheet stm32c011d6 --workers 2
+# STBridge (défaut)
+python -u PipelineViaLLM/BatchLLMValidation.py --family H7 --datasheet stm32h7a3ag --workers 1
+python -u PipelineViaLLM/BatchLLMValidation.py --family C0 --workers 1
+python -u PipelineViaLLM/BatchLLMValidation.py --an 41 --workers 1
+# Gemini rollback
+python PipelineViaLLM/BatchLLMValidation.py --provider gemini --family C0 --workers 4
 ```
 
-> **Conseils pratiques :**
-> - `--workers 2` : recommandé si les erreurs 429 sont fréquentes
-> - `--workers 4` : bon compromis vitesse / stabilité avec 7 pools de clés
-> - `--workers 6` : uniquement si toutes vos clés sont dans des projets distincts
-> - Le script est **reprennable** : relancez-le sans crainte, il saute les tables déjà corrigées
-
----
-
-### `ApplyCorrections.py` — Application des corrections (Phase 3)
-
-| Argument | Type | Défaut | Description |
-|----------|------|--------|-------------|
-| `--family` | str | **requis** | Famille cible (ex: `C0`, `N6`) |
-| `--datasheet` | str | tous | Datasheet spécifique. Si absent, toute la famille |
-| `--workers` | int | `6` | Nombre de workers parallèles (opération locale, pas d'API) |
-| `--src-root` | str | `Rag_selective` | Dossier source des tables brutes |
-| `--corr-root` | str | `Correction` | Dossier source des corrections LLM |
-| `--out-root` | str | `correction_Rag` | Dossier de sortie des tables corrigées |
-
+### `MANUAL_REVIEW.py`
 ```powershell
-# ── Un seul datasheet ─────────────────────────────────────────────────────────
-
-python ApplyCorrections.py --family C0 --datasheet stm32c011d6 --workers 6
-python ApplyCorrections.py --family C0 --datasheet stm32c031c4 --workers 6
-python ApplyCorrections.py --family C0 --datasheet stm32c051c6 --workers 6
-python ApplyCorrections.py --family C0 --datasheet stm32c071r8 --workers 6
-python ApplyCorrections.py --family C0 --datasheet stm32c091kb --workers 6
-
-# ── Plusieurs datasheets en boucle PowerShell ─────────────────────────────────
-
-foreach ($ds in 'stm32c011d6','stm32c031c4','stm32c051c6') {
-    python ApplyCorrections.py --family C0 --datasheet $ds --workers 6
-}
-
-# Tous les datasheets corrigés de la famille C0 d'un seul coup
-foreach ($ds in 'stm32c011d6','stm32c031c4','stm32c051c6','stm32c071r8','stm32c091kb') {
-    python ApplyCorrections.py --family C0 --datasheet $ds --workers 6
-}
-
-# ── Toute la famille d'un seul coup ───────────────────────────────────────────
-
-python ApplyCorrections.py --family C0 --workers 6
-python ApplyCorrections.py --family N6 --workers 6
-
-# ── Dossiers personnalisés ────────────────────────────────────────────────────
-
-# Utiliser des dossiers non standard
-python ApplyCorrections.py --family C0 --src-root Rag_selective --corr-root Correction --out-root correction_Rag --workers 6
+python PipelineViaLLM/MANUAL_REVIEW.py --family C0 --workers 1
 ```
 
-> **Note :** Ce script est 100% local (aucun appel API). Pas besoin de limiter les workers.
-
----
-
-### `UpdateAllTables.py` — Régénération du fichier agrégé (Phase 4)
-
-| Argument | Type | Défaut | Description |
-|----------|------|--------|-------------|
-| `--family` | str | **requis** | Famille dont on veut régénérer les `*_all_tables.json` |
-
+### `Figure.py`
 ```powershell
-# Régénérer les all_tables.json de toute la famille C0
-python UpdateAllTables.py --family C0
-
-# Régénérer pour la famille N6
-python UpdateAllTables.py --family N6
-
-# Régénérer pour toutes les familles (boucle)
-foreach ($fam in 'C0','N6') {
-    python UpdateAllTables.py --family $fam
-}
+python -u PipelineViaLLM/Figure.py --family C0 --workers 1
+python -u PipelineViaLLM/Figure.py --an 41 --workers 1
 ```
 
-> **Quand l'utiliser ?** Après avoir corrigé manuellement une ou plusieurs tables marquées
-> `MANUAL_REVIEW_NEEDED` dans `correction_Rag/<famille>/<datasheet>/`.
+### `ApplyCorrections.py` + `UpdateAllTables.py`
+```powershell
+python PipelineViaLLM/ApplyCorrections.py --family H7 --workers 6
+python UpdateAllTables.py --family H7
+```
 
----
+### Vérification More_Than_7
+```powershell
+Get-ChildItem -Recurse Output/Json/More_Than_7 | Format-Table Name
+Get-ChildItem -Recurse Output/Json/LLM_Corrections -Filter *.json | Measure-Object
+Select-String -Path "Output/Json/More_Than_7/*/*/*.json" -Pattern "MORE_THAN_7"
+```
 
 ### Workflows complets
-
-#### Workflow standard — 1 datasheet de test
-
 ```powershell
-# 1. Extraire le PDF
-python app.py --pdf DataSHEET/C0/stm32c011d6.pdf
+# 1 datasheet H7 complet
+python app.py --pdf Input/PDFs/H7/stm32h7a3ag.pdf
+python -u PipelineViaLLM/BatchLLMValidation.py --family H7 --datasheet stm32h7a3ag --workers 1
+python PipelineViaLLM/ApplyCorrections.py --family H7 --datasheet stm32h7a3ag --workers 6
 
-# 2. Corriger avec le LLM (2 workers pour stabilité)
-python BatchLLMValidation.py --family C0 --datasheet stm32c011d6 --workers 2
-
-# 3. Appliquer les corrections
-python ApplyCorrections.py --family C0 --datasheet stm32c011d6 --workers 6
-
-# 4. (Optionnel) Corriger manuellement les tables MANUAL_REVIEW_NEEDED
-#    → éditer directement les fichiers dans correction_Rag/C0/stm32c011d6/
-
-# 5. Régénérer le all_tables.json final
-python UpdateAllTables.py --family C0
-```
-
-#### Workflow complet — Toute la famille C0
-
-```powershell
-# 1. Extraire tous les PDFs C0
+# Famille C0
 python app.py --family C0
+python -u PipelineViaLLM/BatchLLMValidation.py --family C0 --workers 1
+python PipelineViaLLM/ApplyCorrections.py --family C0 --workers 6
 
-# 2. Valider avec le LLM (toute la famille, 4 workers)
-python BatchLLMValidation.py --family C0 --workers 4
-
-# 3. Appliquer toutes les corrections
-python ApplyCorrections.py --family C0 --workers 6
-
-# 4. Identifier les tables à révision manuelle
-Select-String -Path "Correction\C0\*\*.json" -Pattern "MANUAL_REVIEW_NEEDED" | Select-Object Filename
-
-# 5. Après corrections manuelles → régénérer les agrégats
-python UpdateAllTables.py --family C0
+# Reprise après interruption (auto-skip)
+python -u PipelineViaLLM/BatchLLMValidation.py --family H7 --datasheet stm32h7a3ag --workers 1
 ```
-
-#### Workflow reprise après interruption
-
-```powershell
-# Le BatchLLMValidation.py reprend automatiquement là où il s'est arrêté.
-# Il suffit de relancer exactement la même commande :
-python BatchLLMValidation.py --family C0 --datasheet stm32c011d6 --workers 2
-
-# Puis ré-appliquer les corrections (écrase les anciens fichiers de sortie)
-python ApplyCorrections.py --family C0 --datasheet stm32c011d6 --workers 6
-python UpdateAllTables.py --family C0
-```
-
----
-
-### Vérification et diagnostic
-
-```powershell
-# ── État des clés API ─────────────────────────────────────────────────────────
-
-# Voir tout l'état brut
-Get-Content ApiLog\api_state.json
-
-# Compter les clés AVAILABLE vs BLOCKED
-$state = Get-Content ApiLog\api_state.json | ConvertFrom-Json
-$state.keys_state.PSObject.Properties.Value | Group-Object status | Format-Table Name, Count
-
-# Voir les 5 clés les plus utilisées
-$state.keys_state.PSObject.Properties.Value |
-    Sort-Object nb_used -Descending | Select-Object -First 5 key_num, nb_used, nb_errors, tokens_in, tokens_out
-
-# ── Vérifier les tables MANUAL_REVIEW_NEEDED ─────────────────────────────────
-
-# Lister tous les fichiers nécessitant révision manuelle dans la famille C0
-Select-String -Path "Correction\C0\*\*.json" -Pattern '"status": "MANUAL_REVIEW_NEEDED"' |
-    Select-Object -ExpandProperty Path
-
-# ── Compter les tables corrigées ──────────────────────────────────────────────
-
-# Compter les fichiers de correction produits pour C0
-(Get-ChildItem -Recurse "Correction\C0" -Filter "*.json" | Where-Object { $_.Name -notlike "*all_tables*" }).Count
-
-# Compter les tables finales dans correction_Rag
-(Get-ChildItem -Recurse "correction_Rag\C0" -Filter "*.json" | Where-Object { $_.Name -notlike "*all_tables*" }).Count
-```
-
