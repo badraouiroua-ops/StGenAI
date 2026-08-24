@@ -1,0 +1,107 @@
+{
+  "table_id": "table_32",
+  "caption": "Table 32. Operating conditions at power-up/power-down",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 165,
+  "merged_pages": [
+    165
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=165",
+  "section": "6.3.4 Operating conditions at power-up / power-down",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t VDD",
+      "V rise time rate DD",
+      "0",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "t VDD",
+      "V fall time rate DD",
+      "10",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "t VDDA",
+      "V rise time rate DDA",
+      "0",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "t VDDA",
+      "V fall time rate DDA",
+      "10",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "t VDD33USB",
+      "V rise time rate DD33USB",
+      "0",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "t VDD33USB",
+      "VDD33USB fall time rate",
+      "10",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "t (1) VCORE",
+      "V rise time rate(2) CORE",
+      "0",
+      "285",
+      "µs/V"
+    ],
+    [
+      "t (1) VCORE",
+      "V fall time rate CORE",
+      "10",
+      "∞",
+      "µs/V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. t should be achieved when V is provided by an external supply voltage (bypass with VCORE CORE",
+      "2. V rising slope must respect the above constraints. There are no constraints on the delay between V CORE DD"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_32",
+    "is_continued": false,
+    "pages": [
+      165
+    ],
+    "rows_count": 8,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

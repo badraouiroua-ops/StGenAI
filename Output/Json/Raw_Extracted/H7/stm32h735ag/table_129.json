@@ -1,0 +1,65 @@
+{
+  "table_id": "table_129",
+  "caption": "Table 129. WLCSP - 115 balls, 3.73 x 4.15 mm, 0.35 mm pitch, wafer level chip scale mechanical data",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 262,
+  "merged_pages": [
+    262
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=262",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Dimension",
+    "Recommended values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.35 mm"
+    ],
+    [
+      "Dpad",
+      "0,225 mm"
+    ],
+    [
+      "Dsm",
+      "0.250 mm typ. (depends on soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.250 mm"
+    ],
+    [
+      "Stencil thickness",
+      "0.080 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_129",
+    "is_continued": false,
+    "pages": [
+      262
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

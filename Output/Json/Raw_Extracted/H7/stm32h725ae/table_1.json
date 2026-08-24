@@ -1,0 +1,82 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Device summary",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 2,
+  "merged_pages": [
+    2
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=2",
+  "section": "4 Kbytes of backup SRAM (available in the",
+  "headers": [
+    "Reference",
+    "Part number"
+  ],
+  "rows": [
+    [
+      "STM32H725xE",
+      "STM32H725ZE"
+    ],
+    [
+      "STM32H725xE",
+      "STM32H725VE"
+    ],
+    [
+      "STM32H725xE",
+      "STM32H725RE"
+    ],
+    [
+      "STM32H725xE",
+      "STM32H725IE"
+    ],
+    [
+      "STM32H725xE",
+      "STM32H725AE"
+    ],
+    [
+      "STM32H725xG",
+      "STM32H725ZG"
+    ],
+    [
+      "STM32H725xG",
+      "STM32H725VG"
+    ],
+    [
+      "STM32H725xG",
+      "STM32H725RG"
+    ],
+    [
+      "STM32H725xG",
+      "STM32H725IG"
+    ],
+    [
+      "STM32H725xG",
+      "STM32H725AG"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      2
+    ],
+    "rows_count": 10,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

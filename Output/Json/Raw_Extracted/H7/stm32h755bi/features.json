@@ -1,0 +1,59 @@
+{
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "pdf_type": 1,
+  "doc_ref": "DS12919",
+  "revision": "Rev 3",
+  "date": "January 2026",
+  "title": "Dual 32-bit Arm Cortex -M7 up to 480MHz and -M4 MCUs, 2MB flash, 1MB RAM, 46 com. and analog interfaces, SMPS, crypto",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "page": 1,
+  "core": "Cortex-M7",
+  "fpu": true,
+  "max_frequency_mhz": 480,
+  "flash_kb": 2048,
+  "ram_kb": 864,
+  "voltage_min_v": 1.62,
+  "voltage_max_v": 3.6,
+  "operating_temp_c": [],
+  "packages": [
+    "LQFP176 (24 x 24 mm)",
+    "LQFP208 (28 x 28 mm)",
+    "TFBGA240 (10 x 10 mm)",
+    "UFBGA240",
+    "LQFP144 (20 x 20 mm)",
+    "TFBGA265",
+    "UFBGA176 (10 x 10 mm)",
+    "TFBGA24"
+  ],
+  "device_summary": {
+    "headers": [
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H755BI"
+      ],
+      [
+        "STM32H755II"
+      ],
+      [
+        "STM32H755ZI"
+      ]
+    ]
+  },
+  "extraction_meta": {
+    "source_pages": [
+      1,
+      2
+    ],
+    "extraction_method": "regex_type1",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "high",
+    "missing_fields": [
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

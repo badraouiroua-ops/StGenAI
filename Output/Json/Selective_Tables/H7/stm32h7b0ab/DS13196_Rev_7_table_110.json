@@ -1,0 +1,121 @@
+{
+  "table_id": "table_110",
+  "document": "DS13196 Rev 7 - Table 110. LTDC characteristics",
+  "rev": "Rev 7",
+  "table_number": "110",
+  "title": "Table 110. LTDC characteristics",
+  "page": 149,
+  "section": "6.3.33 LCD-TFT controller (LTDC) characteristics",
+  "section_title": "LCD-TFT controller (LTDC) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=149",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 110. LTDC characteristics — section 6.3.33 LCD-TFT controller (LTDC) characteristics. Symbol, Parameter, Conditions, Min, Max(1), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fCLK",
+        "LTDC clock output frequency",
+        "2.7 V < VDD < 3.6 V, 20 pF",
+        "-",
+        "140",
+        "MHz"
+      ],
+      [
+        "fCLK",
+        "LTDC clock output frequency",
+        "2.7 V < VDD < 3.6 V",
+        "-",
+        "133",
+        "MHz"
+      ],
+      [
+        "fCLK",
+        "LTDC clock output frequency",
+        "1.62 V < VDD < 3.6 V",
+        "-",
+        "66.5",
+        "MHz"
+      ],
+      [
+        "DCLK",
+        "LTDC clock output duty cycle",
+        "-",
+        "45",
+        "55",
+        "%"
+      ],
+      [
+        "tw(CLKH), tw(CLKL)",
+        "Clock High time, low time",
+        "-",
+        "tw(CLK)/2-0.5",
+        "tw(CLK)/2+0.5",
+        "ns"
+      ],
+      [
+        "tv(DATA)",
+        "Data output valid time",
+        "2.7 V < VDD < 3.6 V",
+        "-",
+        "3.0",
+        "ns"
+      ],
+      [
+        "tv(DATA)",
+        "Data output valid time",
+        "1.62 V < VDD < 3.6 V",
+        "-",
+        "7.5",
+        "ns"
+      ],
+      [
+        "th(DATA)",
+        "Data output hold time",
+        "-",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "tv(HSYNC), tv(VSYNC), tv(DE)",
+        "HSYNC/VSYNC/DE output valid time",
+        "2.7 V < VDD < 3.6 V",
+        "-",
+        "3.0",
+        "ns"
+      ],
+      [
+        "tv(HSYNC), tv(VSYNC), tv(DE)",
+        "HSYNC/VSYNC/DE output valid time",
+        "1.62 V < VDD < 3.6 V",
+        "-",
+        "7.5",
+        "ns"
+      ],
+      [
+        "th(HSYNC), th(VSYNC), th(DE)",
+        "HSYNC/VSYNC/DE output hold time",
+        "-",
+        "0",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. At VOS1, these values are degraded by up to 5 %. DS13196 - Rev 7 page 149/205"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

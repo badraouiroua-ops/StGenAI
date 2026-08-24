@@ -1,0 +1,76 @@
+{
+  "table_id": "table_128",
+  "caption": "Table 128. TFBGA100 - Example of PCB design rules (0.8 mm pitch BGA)",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 257,
+  "merged_pages": [
+    257
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=257",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Dimension",
+    "Values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.8"
+    ],
+    [
+      "Dpad",
+      "0.400 mm"
+    ],
+    [
+      "Dsm",
+      "0.470 mm typ. (depends on the soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.400 mm"
+    ],
+    [
+      "Stencil thickness",
+      "Between 0.100 mm and 0.125 mm"
+    ],
+    [
+      "Pad trace width",
+      "0.120 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Drawing is not to scale.",
+      "2. Dimension is measured at the maximum bump diameter parallel to primary datum Z.",
+      "3. Primary datum Z and seating plane are defined by the spherical crowns of the bump.",
+      "4. Bump position designation per JESD 95-1, SPP-010. DS13311 Rev 5 257/283",
+      "10. N represents the total number of balls on the BGA.",
+      "11. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "13. Drawing is not to scale. Figure 77. TFBGA100 - Footprint example"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_128",
+    "is_continued": false,
+    "pages": [
+      257
+    ],
+    "rows_count": 6,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

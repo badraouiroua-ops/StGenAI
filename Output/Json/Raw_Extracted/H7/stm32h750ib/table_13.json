@@ -1,0 +1,90 @@
+{
+  "table_id": "table_13",
+  "caption": "Table 13. VCAP operating conditions",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 96,
+  "merged_pages": [
+    96
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=96",
+  "section": "6.3.2 VCAP external capacitor",
+  "headers": [
+    "Figure 13. External capacitor C EXT",
+    ""
+  ],
+  "rows": [
+    [
+      "C",
+      ""
+    ],
+    [
+      "ESR C",
+      ""
+    ],
+    [
+      "ESR R Leak",
+      ""
+    ],
+    [
+      "1. L egend: ESR is theequivalent series resistance. R Leak",
+      ""
+    ],
+    [
+      "1. L Symbolheequivalent serie Parameter",
+      "Conditions"
+    ],
+    [
+      "1. L CEXT he Capacitance of external capacitor",
+      "2.2 µF(2)"
+    ],
+    [
+      "1. L ESR he ES R of externalcapacitorcitor",
+      "< 1 00 mΩ"
+    ],
+    [
+      "1. W hen bypassingthevoltage regulator, the two 2.2 µF V CAP capacitors are not",
+      "requiredand should"
+    ],
+    [
+      "replaced by two 1 00 nF decouplingcapacitors. µF V CAP capacitors are not",
+      "requiredand should"
+    ]
+  ],
+  "extraction_method": "pdfplumber_text",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.2222,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 10,
+    "truncated_rows": 20,
+    "bleed_rows_removed": 3,
+    "columns_initial": 10,
+    "columns_merged": 8,
+    "columns_final": 2,
+    "footnote_rows_removed": 3,
+    "_notes": [
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "no_table_obj_for_spans",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_13",
+    "is_continued": false,
+    "pages": [
+      96
+    ],
+    "rows_count": 9,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.2222
+  }
+}

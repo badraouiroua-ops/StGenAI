@@ -1,0 +1,100 @@
+{
+  "table_id": "table_10",
+  "caption": "Table 10. Voltage characteristics",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 101,
+  "merged_pages": [
+    101
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=101",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbols",
+    "Ratings",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V - V DDX SS",
+      "External main supply voltage (including V , DD V , V , V , V , V ) DDLDO DDSMPS DDA DD33USB BAT",
+      "-0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "V (2) IN",
+      "Input voltage on FT_xxx pins",
+      "V -0.3 SS",
+      "Min(Min(V , DD V , V , DDA DD33USB V ) + 4.0, BAT 6 V)(3)(4)(5)",
+      "V"
+    ],
+    [
+      "V (2) IN",
+      "Input voltage on TT_xx pins",
+      "V -0.3 SS",
+      "4.0",
+      "V"
+    ],
+    [
+      "V (2) IN",
+      "Input voltage on BOOT0 pin",
+      "V SS",
+      "9.0",
+      "V"
+    ],
+    [
+      "V (2) IN",
+      "Input voltage on any other pins",
+      "V -0.3 SS",
+      "4.0",
+      "V"
+    ],
+    [
+      "|∆V | DDX",
+      "Variations between different V power pins DDX of the same domain",
+      "-",
+      "50",
+      "mV"
+    ],
+    [
+      "|V -V | SSx SS",
+      "Variations between all the different ground pins",
+      "-",
+      "50",
+      "mV"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. V maximum must always be respected. Refer to Table 58: I/O current injection susceptibility for the IN",
+      "3. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+      "4. To sustain a voltage higher than 4V the internal pull-up/pull-down resistors must be disabled.",
+      "5. When an FT_a pin is used by an analog peripheral such as an ADC, the maximum V is 4 V. IN"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_10",
+    "is_continued": false,
+    "pages": [
+      101
+    ],
+    "rows_count": 7,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

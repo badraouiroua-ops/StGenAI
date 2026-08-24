@@ -1,0 +1,70 @@
+{
+  "table_id": "table_60",
+  "document": "DS13196 Rev 7 - Table 60. ESD absolute maximum ratings",
+  "rev": "Rev 7",
+  "table_number": "60",
+  "title": "Table 60. ESD absolute maximum ratings",
+  "page": 99,
+  "section": "6.3.14 Absolute maximum ratings (electrical sensitivity)",
+  "section_title": "Absolute maximum ratings (electrical sensitivity)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=99",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 60. ESD absolute maximum ratings — section 6.3.14 Absolute maximum ratings (electrical sensitivity). Symbol, Ratings, Conditions, Packages, Class, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Conditions",
+      "Packages",
+      "Class",
+      "Maximum value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "VESD(HBM)",
+        "Electrostatic discharge voltage (human body model)",
+        "TA = +25 °C conforming to ANSI/ESDA/ JEDEC JS-001",
+        "Packages with SMPS",
+        "1C",
+        "1000(2)",
+        "V"
+      ],
+      [
+        "VESD(HBM)",
+        "Electrostatic discharge voltage (human body model)",
+        "TA = +25 °C conforming to ANSI/ESDA/ JEDEC JS-001",
+        "Packages without SMPS",
+        "2",
+        "2000",
+        "V"
+      ],
+      [
+        "VESD(CDM)",
+        "Electrostatic discharge voltage (charge device model)",
+        "TA = +25 °C conforming to ANSI/ESDA/ JEDEC JS-002",
+        "All LQFP packages",
+        "C1",
+        "250",
+        "V"
+      ],
+      [
+        "VESD(CDM)",
+        "Electrostatic discharge voltage (charge device model)",
+        "TA = +25 °C conforming to ANSI/ESDA/ JEDEC JS-002",
+        "All BGA packages",
+        "C2a",
+        "500",
+        "V"
+      ]
+    ],
+    "notes": [
+      "2. Refer to the EMI level classification chapter of application note AN1709 \"EMC design guide for STM8, STM32 and Legacy MCUs\" available from the ST website www.st.com."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

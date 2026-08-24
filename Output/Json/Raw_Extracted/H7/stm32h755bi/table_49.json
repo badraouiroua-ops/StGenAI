@@ -1,0 +1,243 @@
+{
+  "table_id": "table_49",
+  "caption": "Table 49. PLL characteristics (wide VCO frequency range)",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 139,
+  "merged_pages": [
+    139
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=139",
+  "section": "6.3.11 PLL characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f PLL_IN",
+      "PLL input clock",
+      "-",
+      "-",
+      "2",
+      "-",
+      "16",
+      "MHz"
+    ],
+    [
+      "f PLL_IN",
+      "PLL input clock duty cycle",
+      "-",
+      "-",
+      "10",
+      "-",
+      "90",
+      "%"
+    ],
+    [
+      "f PLL_P_OUT",
+      "PLL multiplier output clock P",
+      "VOS0",
+      "VOS0",
+      "1.5",
+      "-",
+      "480(2)",
+      "MHz"
+    ],
+    [
+      "f PLL_P_OUT",
+      "PLL multiplier output clock P",
+      "VOS1",
+      "VOS1",
+      "1.5",
+      "-",
+      "400(2)",
+      "MHz"
+    ],
+    [
+      "f PLL_P_OUT",
+      "PLL multiplier output clock P",
+      "VOS2",
+      "VOS2",
+      "1.5",
+      "-",
+      "300(2)",
+      "MHz"
+    ],
+    [
+      "f PLL_P_OUT",
+      "PLL multiplier output clock P",
+      "VOS3",
+      "VOS3",
+      "1.5",
+      "-",
+      "200(2)",
+      "MHz"
+    ],
+    [
+      "f VCO_OUT",
+      "PLL VCO output",
+      "-",
+      "-",
+      "192",
+      "-",
+      "960",
+      "MHz"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Normal mode",
+      "Normal mode",
+      "-",
+      "50(3)",
+      "150(3)",
+      "µs"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Sigma-delta mode (CKIN ≥ 8 MHz)",
+      "Sigma-delta mode (CKIN ≥ 8 MHz)",
+      "-",
+      "58(3)",
+      "166(3)",
+      "µs"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(4)",
+      "-",
+      "VCO = 192 MHz",
+      "-",
+      "134",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(4)",
+      "-",
+      "VCO = 200 MHz",
+      "-",
+      "134",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(4)",
+      "-",
+      "VCO = 400 MHz",
+      "-",
+      "76",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(4)",
+      "-",
+      "VCO = 800 MHz",
+      "-",
+      "39",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Normal mode",
+      "VCO = 800 MHz",
+      "-",
+      "±0.7",
+      "-",
+      "%"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Sigma-delta mode (CKIN = 16 MHz)",
+      "VCO = 800 MHz",
+      "-",
+      "±0.8",
+      "-",
+      "%"
+    ],
+    [
+      "I (3) DD(PLL)",
+      "PLL power consumption on V DD",
+      "VCO freq = 836 MHz",
+      "V DDA",
+      "-",
+      "590",
+      "1500",
+      "µA"
+    ],
+    [
+      "I (3) DD(PLL)",
+      "PLL power consumption on V DD",
+      "VCO freq = 836 MHz",
+      "V CORE",
+      "-",
+      "720",
+      "-",
+      "µA"
+    ],
+    [
+      "I (3) DD(PLL)",
+      "PLL power consumption on V DD",
+      "VCO freq = 192 MHz",
+      "V DDA",
+      "-",
+      "180",
+      "600",
+      "µA"
+    ],
+    [
+      "I (3) DD(PLL)",
+      "PLL power consumption on V DD",
+      "VCO freq = 192 MHz",
+      "V CORE",
+      "-",
+      "280",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "2. This value must be limited to the maximum frequency due to the product limitation (480 MHz for VOS0, 400 MHz for VOS1, 300 MHz for VOS2, 200 MHz for VOS3).",
+      "3. Guaranteed by characterization results.",
+      "4. Integer mode only. DS12919 Rev 3 139/246"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_49",
+    "is_continued": false,
+    "pages": [
+      139
+    ],
+    "rows_count": 19,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

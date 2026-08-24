@@ -1,0 +1,101 @@
+{
+  "table_id": "table_20",
+  "document": "DS13195 Rev 8 - Table 20. Current characteristics",
+  "rev": "Rev 8",
+  "table_number": "20",
+  "title": "Table 20. Current characteristics",
+  "page": 81,
+  "section": "6.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=81",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 20. Current characteristics — section 6.2 Absolute maximum ratings. Symbols, Ratings, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbols",
+      "Ratings",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "ΣIVDD",
+        "Total current into sum of all VDD power lines (source)(1)",
+        "620",
+        "mA"
+      ],
+      [
+        "ΣIVSS",
+        "Total current out of sum of all VSS ground lines (sink)(1)",
+        "620",
+        "mA"
+      ],
+      [
+        "IVDD",
+        "Maximum current into each VDD power pin (source)(1)",
+        "100",
+        "mA"
+      ],
+      [
+        "IVSS",
+        "Maximum current out of each VSS ground pin (sink)(1)",
+        "100",
+        "mA"
+      ],
+      [
+        "IIO",
+        "Output current sunk or sourced by any I/O and control pin",
+        "20",
+        "mA"
+      ],
+      [
+        "IIO",
+        "Output current sunk or sourced by Pxy_C pin",
+        "1",
+        "mA"
+      ],
+      [
+        "ΣI(PIN)",
+        "Total output current sunk by sum of all I/Os and control pins(2)",
+        "140",
+        "mA"
+      ],
+      [
+        "ΣI(PIN)",
+        "Total output current sourced by sum of all I/Os and control pins(2)",
+        "140",
+        "mA"
+      ],
+      [
+        "IINJ(PIN)(3)(4)",
+        "Injected current on FT_xxx, TT_xx, RST and B pins except PA4, PA5",
+        "-5/+0",
+        "mA"
+      ],
+      [
+        "IINJ(PIN)(3)(4)",
+        "Injected current on PA4, PA5",
+        "-0/0",
+        "mA"
+      ],
+      [
+        "ΣIINJ(PIN)",
+        "Total injected current (sum of all I/Os and control pins)(5)",
+        "±25",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. VIN maximum value must always be respected. Refer to Table 64. I/O current injection susceptibility for the maximum allowed injected current values.",
+      "2. To sustain a voltage higher than 4 V the internal pull-up/pull-down resistors must be disabled.",
+      "3. This formula has to be applied on power supplies related to the I/O structure described by the pin definition table.",
+      "4. Positive injection is not possible on these I/Os and does not occur for input voltages lower than the specified maximum value.",
+      "5. When several inputs are submitted to a current injection, the maximum ∑IINJ(PIN) is the absolute sum of the positive and negative injected currents (instantaneous values)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

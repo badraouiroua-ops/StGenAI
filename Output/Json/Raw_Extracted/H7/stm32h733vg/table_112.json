@@ -1,0 +1,209 @@
+{
+  "table_id": "table_112",
+  "caption": "Table 112. Dynamics characteristics: SD / MMC characteristics, VDD = 2.7 to 3.6 V",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 208,
+  "merged_pages": [
+    208,
+    209
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=208",
+  "section": "6.3.37 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f PP",
+      "Clock frequency in data transfer mode",
+      "-",
+      "0",
+      "-",
+      "120",
+      "MHz"
+    ],
+    [
+      "-",
+      "SDIO_CK/fPCLK2 frequency ratio",
+      "-",
+      "-",
+      "-",
+      "8/3",
+      "MHz"
+    ],
+    [
+      "t W(CKL)",
+      "Clock low time",
+      "f =52MHz PP",
+      "8.5",
+      "9.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t W(CKH)",
+      "Clock high time",
+      "f =52MHz PP",
+      "8.5",
+      "9.5",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode"
+    ],
+    [
+      "t ISU",
+      "Input setup time HS",
+      "-",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t IH",
+      "Input hold time HS",
+      "-",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t (3) IDW",
+      "Input valid window (variable window)",
+      "-",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+      "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode"
+    ],
+    [
+      "t OV",
+      "Output valid time HS",
+      "-",
+      "-",
+      "5.5",
+      "6",
+      "ns"
+    ],
+    [
+      "t OH",
+      "Output hold time HS",
+      "-",
+      "4.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ISUD",
+      "Input setup time SD",
+      "-",
+      "1.5",
+      "1.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t IHD",
+      "Input hold time SD",
+      "-",
+      "0.5",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D outputs (referenced to CK) in SD default mode",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t OVD",
+      "Output valid default time SD",
+      "-",
+      "-",
+      "1",
+      "1",
+      "ns"
+    ],
+    [
+      "t OHD",
+      "Output hold default time SD",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0446,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. T able 113. Dynamics characteristics: eMMC characteristics VDD = 1.71V to 1.9V(1)(2)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_112",
+    "is_continued": true,
+    "pages": [
+      208,
+      209
+    ],
+    "rows_count": 16,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0446
+  }
+}

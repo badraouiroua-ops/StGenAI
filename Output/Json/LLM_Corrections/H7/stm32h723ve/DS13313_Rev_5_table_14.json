@@ -1,0 +1,10 @@
+{
+  "table_id": "table_14",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "L'outil d'extraction a confondu la Figure 12 avec la Table 14, entraînant des colonnes et des lignes totalement erronées et incohérentes."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

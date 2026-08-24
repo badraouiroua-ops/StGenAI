@@ -1,0 +1,76 @@
+{
+  "table_id": "table_84",
+  "caption": "Table 84. Asynchronous multiplexed PSRAM/NOR read-NWAIT timings",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 222,
+  "merged_pages": [
+    222
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=222",
+  "section": "6.3.17 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(NE)",
+      "FMC_NE low time",
+      "9T –1 fmc_ker_ck",
+      "9T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t w(NOE)",
+      "FMC_NWE low time",
+      "6T –1 fmc_ker_ck",
+      "6T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t su(NWAIT_NE)",
+      "FMC_NWAIT valid before FMC_NEx high",
+      "5T +13 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NE_NWAIT)",
+      "FMC_NEx hold time after FMC_NWAIT invalid",
+      "4T +13 fmc_ker_ck",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_84",
+    "is_continued": false,
+    "pages": [
+      222
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

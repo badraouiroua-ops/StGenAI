@@ -1,0 +1,270 @@
+{
+  "table_id": "table_144",
+  "caption": "Table 144. Thermal characteristics",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 219,
+  "merged_pages": [
+    219,
+    220
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=219",
+  "section": "7.11 Thermal characteristics",
+  "headers": [
+    "Symbol",
+    "Definition",
+    "Parameter",
+    "value",
+    "unit"
+  ],
+  "rows": [
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient LQFP64 - 10 x 10 mm /0.5 mm pitch",
+      "48.8",
+      "°C/W"
+    ],
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient LQFP100 - 14 x 14 mm /0.5 mm pitch",
+      "47.4",
+      "°C/W"
+    ],
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient LQFP144 - 20 x 20 mm /0.5 mm pitch",
+      "46",
+      "°C/W"
+    ],
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+      "43.6",
+      "°C/W"
+    ],
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient TFBGA100 - 8 x 8 mm /0.8 mm pitch",
+      "41.3",
+      "°C/W"
+    ],
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient TFBGA216 13 x 13 mm /0.8 mm pitch",
+      "39.4",
+      "°C/W"
+    ],
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient TFBGA225 13 x 13 mm /0.8 mm pitch",
+      "38.7",
+      "°C/W"
+    ],
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient UFBGA169 - 7 x 7 mm /0.5 mm pitch",
+      "41.4",
+      "°C/W"
+    ],
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient UFBGA176+25 - 10 x 10 mm / 0.65 mm pitch",
+      "44.4",
+      "°C/W"
+    ],
+    [
+      "ΘJA",
+      "Thermal resistance junction-ambiant",
+      "Thermal resistance junction-ambient WLCSP132 - 4.57 x 4.37 mm / 0.35 mm pitch",
+      "34.6",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board LQFP64 - 10 x 10 mm /0.5 mm pitch",
+      "37.2",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board LQFP100 - 14 x 14 mm /0.5 mm pitch",
+      "39.2",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board LQFP144 - 20 x 20 mm /0.5 mm pitch",
+      "41.3",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board LQFP176 - 24 x 24 mm /0.5 mm pitch",
+      "40.2",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board TFBGA100 - 8 x 8 mm /0.8 mm pitch",
+      "19",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board UFBGA169 - 7 x 7 mm /0.5 mm pitch",
+      "15.3",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board UFBGA176+25 - 10 x 10 mm /0.65 mm pitch",
+      "25",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board TFBGA216 13 x 13 mm /0.8 mm pitch",
+      "21.9",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board TFBGA225 13 x 13 mm /0.8 mm pitch",
+      "20.3",
+      "°C/W"
+    ],
+    [
+      "ΘJB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-board WLCSP132 - 4.57 x 4.37 mm /0.35 mm pitch",
+      "NA",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case LQFP64 - 10 x 10 mm /0.5 mm pitch",
+      "13",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case LQFP100 - 14 x 14 mm /0.5 mm pitch",
+      "12.8",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case LQFP144 - 20 x 20 mm /0.5 mm pitch",
+      "12.6",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case LQFP176 - 24 x 24 mm /0.5 mm pitch",
+      "11.5",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case TFBGA100 - 8 x 8 mm /0.8 mm pitch",
+      "22.2",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case UFBGA169 - 7 x 7 mm /0.5 mm pitch",
+      "19.9",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case UFBGA176+25 - 10 x 10 mm /0.65 mm pitch",
+      "18.9",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case TFBGA216 13 x 13 mm /0.8 mm pitch",
+      "22.2",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case TFBGA225 13 x 13 mm /0.8 mm pitch",
+      "22.2",
+      "°C/W"
+    ],
+    [
+      "ΘJC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-case WLCSP132 - 4.57 x 4.37 mm /0.35 mm pitch",
+      "NA",
+      "°C/W"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 5,
+      "cont_cols_raw": 5,
+      "target_cols": 5,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_144",
+    "is_continued": true,
+    "pages": [
+      219,
+      220
+    ],
+    "rows_count": 30,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

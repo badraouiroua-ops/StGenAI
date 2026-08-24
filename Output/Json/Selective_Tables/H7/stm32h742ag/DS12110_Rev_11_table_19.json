@@ -1,0 +1,37 @@
+{
+  "table_id": "table_19",
+  "document": "DS12110 Rev 11 - Table 19. Internal reference voltage calibration values",
+  "rev": "Rev 11",
+  "table_number": "19",
+  "title": "Table 19. Internal reference voltage calibration values",
+  "page": 109,
+  "section": "6.3.5 Embedded reference voltage",
+  "section_title": "Embedded reference voltage",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=109",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 19. Internal reference voltage calibration values — section 6.3.5 Embedded reference voltage. Symbol, Parameter, Memory address.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Memory address"
+    ],
+    "rows": [
+      [
+        "V REFIN_CAL",
+        "Raw data acquired at temperature of 30 °C, V = 3.3 V DDA",
+        "1FF1E860 - 1FF1E861"
+      ]
+    ],
+    "notes": [
+      "1. Data are in DTCM for best computation performance, cache has no influence on consumption in this case.",
+      "2. Guaranteed by characterization results unless otherwise specified.",
+      "3. Guaranteed by test in production. 110/357 DS12110 Rev 11"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

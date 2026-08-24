@@ -1,0 +1,33 @@
+{
+  "table_id": "table_21",
+  "document": "DS12930 Rev 3 - Table 21. Internal reference voltage calibration values",
+  "rev": "Rev 3",
+  "table_number": "21",
+  "title": "Table 21. Internal reference voltage calibration values",
+  "page": 114,
+  "section": "6.3.6 Embedded reference voltage",
+  "section_title": "Embedded reference voltage",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=114",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 21. Internal reference voltage calibration values — section 6.3.6 Embedded reference voltage. Symbol, Parameter, Memory address.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Memory address"
+    ],
+    "rows": [
+      [
+        "V REFIN_CAL",
+        "Raw data acquired at temperature of 30 °C, V = 3.3 V DDA",
+        "1FF1E860 - 1FF1E861"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

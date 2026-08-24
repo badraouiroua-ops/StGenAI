@@ -1,0 +1,88 @@
+{
+  "table_id": "table_107",
+  "caption": "Table 107. Voltage booster for analog switch characteristics",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 253,
+  "merged_pages": [
+    253
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=253",
+  "section": "6.3.23 Voltage booster for analog switch",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DD",
+      "Supply voltage",
+      "-",
+      "1.71",
+      "2.6",
+      "3.6",
+      "V"
+    ],
+    [
+      "t SU(BOOST)",
+      "Booster startup time",
+      "-",
+      "-",
+      "-",
+      "50",
+      "µs"
+    ],
+    [
+      "I DD(BOOST)",
+      "Booster consumption",
+      "1.71 V ≤ V ≤ 2.7 V DD",
+      "-",
+      "-",
+      "125",
+      "µA"
+    ],
+    [
+      "I DD(BOOST)",
+      "Booster consumption",
+      "2.7 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "250",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. Evaluated by characterization - Not tested in production.",
+      "3. The characterization is done at VDD_CORE = 1.19 V for Typ/Min/Max."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_107",
+    "is_continued": false,
+    "pages": [
+      253
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

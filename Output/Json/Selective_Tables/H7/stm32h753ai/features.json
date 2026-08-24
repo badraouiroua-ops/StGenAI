@@ -1,0 +1,125 @@
+{
+  "features": [
+    [
+      "pdf_name",
+      "stm32h753ai"
+    ],
+    [
+      "family",
+      "H7"
+    ],
+    [
+      "page",
+      1
+    ],
+    [
+      "merged_pages",
+      [
+        1
+      ]
+    ],
+    [
+      "url",
+      "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf"
+    ],
+    [
+      "url_table",
+      "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=1"
+    ],
+    [
+      "text_helper",
+      "pdf_name: stm32h753ai. DS12117 Rev 10 (January 2026). 32-bit Arm Cortex -M7 480MHz MCUs, 2MB flash , 1MB RAM, 46 com. and analog interfaces, crypto. family: H7. core: Cortex-M7. freq: 480 MHz. flash: 2048 KB. ram: 864 KB. voltage: 1.62-3.6 V. packages: LQFP176, LQFP208, UFBGA169, UFBGA176, UFBGA2..."
+    ]
+  ],
+  "features_content": [
+    [
+      "doc_ref",
+      "DS12117"
+    ],
+    [
+      "revision",
+      "Rev 10"
+    ],
+    [
+      "date",
+      "January 2026"
+    ],
+    [
+      "title",
+      "32-bit Arm Cortex -M7 480MHz MCUs, 2MB flash , 1MB RAM, 46 com. and analog interfaces, crypto"
+    ],
+    [
+      "core",
+      "Cortex-M7"
+    ],
+    [
+      "fpu",
+      true
+    ],
+    [
+      "max_frequency_mhz",
+      480
+    ],
+    [
+      "flash_kb",
+      2048
+    ],
+    [
+      "ram_kb",
+      864
+    ],
+    [
+      "voltage_min_v",
+      1.62
+    ],
+    [
+      "voltage_max_v",
+      3.6
+    ],
+    [
+      "operating_temp_c",
+      []
+    ],
+    [
+      "packages",
+      [
+        "LQFP176 (24 x 24 mm)",
+        "LQFP208 (28 x 28 mm)",
+        "UFBGA169 (14 x 14 mm)",
+        "UFBGA176 (20 x 20 mm)",
+        "UFBGA240",
+        "LQFP100 (14 x 14 mm)",
+        "UFBGA100",
+        "LQFP144 (20 x 20 mm)",
+        "TFBGA240 (14 x 14 mm)",
+        "TFBGA265",
+        "TFBGA100 (8 x 8 mm)"
+      ]
+    ],
+    [
+      "device_summary",
+      {
+        "headers": [
+          "Part number"
+        ],
+        "rows": [
+          [
+            "STM32H753AI"
+          ],
+          [
+            "STM32H753BI"
+          ],
+          [
+            "STM32H753II"
+          ],
+          [
+            "STM32H753VI"
+          ],
+          [
+            "STM32H753ZI"
+          ]
+        ]
+      }
+    ]
+  ]
+}

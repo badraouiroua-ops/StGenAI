@@ -1,0 +1,42 @@
+{
+  "table_id": "table_223",
+  "caption": "Table 223. Thermal characteristics. Added note related to ECOPACK®2 compliance in",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 328,
+  "merged_pages": [
+    328
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=328",
+  "section": "11 Revision history",
+  "headers": [],
+  "rows": [],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "failed",
+  "empty_cell_ratio": 1.0,
+  "col_count": 0,
+  "status": "failed",
+  "has_empty_cells": false,
+  "heuristics": {},
+  "structured_json": null,
+  "warnings": [
+    "empty_raw_table",
+    "unresolved:likely_mechanical_drawing_not_extractable_as_text"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_223",
+    "is_continued": false,
+    "pages": [
+      328
+    ],
+    "rows_count": 0,
+    "cols_count": 0,
+    "confidence": "failed",
+    "empty_cell_ratio": 1.0
+  },
+  "debug": {
+    "crop_path": "Raw_Extracted\\H7\\stm32h750ib\\debug\\table_223.png"
+  }
+}

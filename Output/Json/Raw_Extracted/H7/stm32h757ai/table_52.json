@@ -1,0 +1,163 @@
+{
+  "table_id": "table_52",
+  "caption": "Table 52. MIPI D-PHY AC characteristics LP mode and HS/LP transitions",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 146,
+  "merged_pages": [
+    146
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=146",
+  "section": "6.3.12 MIPI D-PHY characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "T LPX",
+      "Transmitted length of any Low- Power state period",
+      "-",
+      "50",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T CLK-PREPARE",
+      "Time that the transmitter drives the Clock Lane LP-00 Line state immediately before the HS-0 Line state starting the HS transmission.",
+      "-",
+      "38",
+      "-",
+      "95",
+      "ns"
+    ],
+    [
+      "T CLK-PREPARE + T CLK-ZERO",
+      "Time that the transmitter drives the HS-0 state prior to starting the clock.",
+      "-",
+      "300",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T CLK-PRE",
+      "Time that the HS clock shall be driven by the transmitter prior to any associated Data Lane beginning the transition from LP to HS mode.",
+      "-",
+      "8",
+      "-",
+      "-",
+      "UI"
+    ],
+    [
+      "T CLK-POST",
+      "Time that the transmitter continues to send HS clock after the last associated Data Lane has transitioned to LP Mode.",
+      "-",
+      "62+52*UI",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T CLK-TRAIL",
+      "Time that the transmitter drives the HS-0 state after the last payload clock bit of an HS transmission burst.",
+      "-",
+      "60",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T HS-PREPARE",
+      "Time that the transmitter drives the Data Lane LP-00 Line state immediately before the HS-0 Line state starting the HS transmission.",
+      "-",
+      "40+4*UI",
+      "-",
+      "85+6*UI",
+      "ns"
+    ],
+    [
+      "T HS-PREPARE + T HS-ZERO",
+      "T Time that the HS-PREPARE+ transmitter drives the HS-0 state prior to transmitting the Sync sequence.",
+      "-",
+      "145+10*UI",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T HS-TRAIL",
+      "Time that the transmitter drives the flipped differential state after last payload data bit of a HS transmission burst.",
+      "-",
+      "Max (n*8*UI, 60+n*4*UI)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T HS-EXIT",
+      "Time that the transmitter drives LP-11 following a HS burst.",
+      "-",
+      "100",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T REOT",
+      "30%-85% rise time and fall time",
+      "-",
+      "-",
+      "-",
+      "35",
+      "ns"
+    ],
+    [
+      "T EOT",
+      "Transmitted time interval from the start of T or HS-TRAIL T , to the start of the CLK-TRAIL LP-11 state following a HS burst.",
+      "-",
+      "-",
+      "-",
+      "105+ n*12UI",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed based on test during characterization. 146/254 DS12931 Rev 5"
+    ],
+    "_legend": [
+      "transitions(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_52",
+    "is_continued": false,
+    "pages": [
+      146
+    ],
+    "rows_count": 12,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "table_id": "table_122",
+  "document": "DS14359 Rev 7 - Table 122. I3C open-drain measured timing",
+  "rev": "Rev 7",
+  "table_number": "122",
+  "title": "Table 122. I3C open-drain measured timing",
+  "page": 267,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=267",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 122. I3C open-drain measured timing — section 6.3.33 Communication interfaces. Symbol, Parameter, Conditions, I3C open drain mode, , +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "I3C open drain mode",
+      "",
+      "Timing measurements",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t SU_OD",
+        "SDA data setup time during open drain mode",
+        "Controller 1.71 V < V < 3.6 V DD",
+        "3",
+        "-",
+        "16",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. I2C interface characteristics",
+      "2. At VOS Low, these values are degraded by up to 7%. DS14359 Rev 7 269/325",
+      "4. Spikes with widths below t are filtered. AF(min)",
+      "5. Spikes with widths above t are not filtered. AF(max)"
+    ],
+    "legend": [
+      "(specification) Timing"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

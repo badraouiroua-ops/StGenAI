@@ -1,0 +1,58 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. System vs domain low-power mode",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 17,
+  "merged_pages": [
+    17
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=17",
+  "section": "5 DMA controllers to unload the CPU",
+  "headers": [
+    "System power mode",
+    "CD domain power mode",
+    "SRD domain power mode"
+  ],
+  "rows": [
+    [
+      "Run",
+      "DRun/DStop/DStop2",
+      "DRun"
+    ],
+    [
+      "Stop",
+      "DStop/DStop2",
+      "DStop"
+    ],
+    [
+      "Standby",
+      "Standby",
+      "Standby"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_2",
+    "is_continued": false,
+    "pages": [
+      17
+    ],
+    "rows_count": 3,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

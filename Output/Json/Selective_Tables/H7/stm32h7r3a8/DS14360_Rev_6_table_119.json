@@ -1,0 +1,68 @@
+{
+  "table_id": "table_119",
+  "document": "DS14360 Rev 6 - Table 119. LPTIMx characteristics",
+  "rev": "Rev 6",
+  "table_number": "119",
+  "title": "Table 119. LPTIMx characteristics",
+  "page": 263,
+  "section": "6.3.32 Low-power timer characteristics",
+  "section_title": "Low-power timer characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=263",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 119. LPTIMx characteristics — section 6.3.32 Low-power timer characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t res(TIM)",
+        "Timer resolution time",
+        "1",
+        "-",
+        "t TIMxCLK"
+      ],
+      [
+        "f LPTIMxCLK",
+        "Timer kernel clock",
+        "0",
+        "150",
+        "MHz"
+      ],
+      [
+        "f EXT",
+        "Timer external clock frequency on Input1 and Input2",
+        "0",
+        "f /2 LPTIMxCLK",
+        "MHz"
+      ],
+      [
+        "Res TIM",
+        "Timer resolution",
+        "-",
+        "16",
+        "bit"
+      ],
+      [
+        "t MAX_COUNT",
+        "Maximum possible count",
+        "-",
+        "65536",
+        "t TIMxCLK"
+      ]
+    ],
+    "notes": [
+      "1. LPTIMx is used as a general term to refer to the LPTIM1 to LPTIM5 timers.",
+      "2. Guaranteed by design. DS14360 Rev 6 263/322"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

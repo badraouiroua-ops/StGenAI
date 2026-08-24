@@ -1,0 +1,62 @@
+{
+  "table_id": "table_14",
+  "document": "DS13314 Rev 4 - Table 14. VCAP operating conditions",
+  "rev": "Rev 4",
+  "table_number": "14",
+  "title": "Table 14. VCAP operating conditions",
+  "page": 93,
+  "section": "6.3.2 VCAP external capacitor",
+  "section_title": "VCAP external capacitor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=93",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 14. VCAP operating conditions — section 6.3.2 VCAP external capacitor. Figure 12., External capacitor C E, XT, , .",
+  "table_content": {
+    "headers": [
+      "Figure 12.",
+      "External capacitor C E",
+      "XT",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "Figure 12.",
+        "C",
+        "XT",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "C",
+        "XT",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "R L eak",
+        "XT",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "R L eak",
+        "XT",
+        "",
+        "MS 19044V2"
+      ]
+    ],
+    "notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated.",
+      "3. If a third VCAP pin is available on the package, it must be connected to the other VCAP pins but no additional capacitor is required."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

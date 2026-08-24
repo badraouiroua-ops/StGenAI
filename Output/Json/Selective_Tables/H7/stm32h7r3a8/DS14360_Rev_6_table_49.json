@@ -1,0 +1,105 @@
+{
+  "table_id": "table_49",
+  "document": "DS14360 Rev 6 - Table 49. Typical and maximum current consumption: data write 6.25% toggle on 16-bit memory.",
+  "rev": "Rev 6",
+  "table_number": "49",
+  "title": "Table 49. Typical and maximum current consumption: data write 6.25% toggle on 16-bit memory.",
+  "page": 177,
+  "section": "6.3.7 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=177",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 49. Typical and maximum current consumption: data write 6.25% toggle on 16-bit memory. — section 6.3.7 Supply current characteristics. Symbol, Parameter, Conditions, frcc_c_ck (MHz), Memory frequency (MHz), +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "frcc_c_ck (MHz)",
+      "Memory frequency (MHz)",
+      "Typ",
+      "Max(2) TJ = 105°C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD_XSPI",
+        "XSPI current in Run mode",
+        "V = DDXSPIx 1.8 V",
+        "400",
+        "200",
+        "10.50",
+        "11.5",
+        "mA"
+      ],
+      [
+        "IDD_XSPI",
+        "XSPI current in Run mode",
+        "V = DDXSPIx 1.8 V",
+        "320",
+        "160",
+        "8.55",
+        "9.5",
+        "mA"
+      ],
+      [
+        "IDD_XSPI",
+        "XSPI current in Run mode",
+        "V = DDXSPIx 1.8 V",
+        "266",
+        "133",
+        "7.35",
+        "8.0",
+        "mA"
+      ],
+      [
+        "IDD_XSPI",
+        "XSPI current in Run mode",
+        "V = DDXSPIx 1.8 V",
+        "200",
+        "100",
+        "5.60",
+        "6.2",
+        "mA"
+      ],
+      [
+        "IDD_XSPI",
+        "XSPI current in Run mode",
+        "V = DDXSPIx 1.8 V",
+        "180",
+        "90",
+        "5.05",
+        "5.6",
+        "mA"
+      ],
+      [
+        "IDD_XSPI",
+        "XSPI current in Run mode",
+        "V = DDXSPIx 1.8 V",
+        "120",
+        "60",
+        "3.40",
+        "3.8",
+        "mA"
+      ],
+      [
+        "IDD_XSPI",
+        "XSPI current in Run mode",
+        "V = DDXSPIx 1.8 V",
+        "60",
+        "30",
+        "1.70",
+        "1.9",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "2. Guaranteed by characterization results."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

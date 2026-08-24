@@ -1,0 +1,180 @@
+{
+  "table_id": "table_40",
+  "caption": "Table 40. Low-power mode wakeup timings",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 130,
+  "merged_pages": [
+    130
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=130",
+  "section": "6.3.8 Wakeup time from low-power modes",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Typ(2)",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t (3) WUSLEEP",
+      "Wakeup from Sleep",
+      "-",
+      "9",
+      "10",
+      "CPU clock cycles"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS3, HSI, flash memory in normal mode",
+      "4.4",
+      "5.6",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS3, HSI, flash memory in low-power mode",
+      "12",
+      "15",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS4, HSI, flash memory in normal mode",
+      "15",
+      "20",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS4, HSI, flash memory in low-power mode",
+      "23",
+      "28",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS5, HSI, flash memory in normal mode",
+      "39",
+      "71",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS5, HSI, flash memory in low-power mode",
+      "39",
+      "47",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS3, CSI, flash memory in normal mode",
+      "30",
+      "37",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS3, CSI, flash memory in low power mode",
+      "36",
+      "50",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS4, CSI, flash memory in normal mode",
+      "38",
+      "48",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS4, CSI, flash memory in low-power mode",
+      "47",
+      "61",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS5, CSI, flash memory in normal mode",
+      "68",
+      "75",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop",
+      "VOS5, CSI, flash memory in low-power mode",
+      "68",
+      "77",
+      "µs"
+    ],
+    [
+      "t WUSTOP_ (3) KERON",
+      "Wakeup from Stop, clock kept running",
+      "VOS3, HSI, flash memory in normal mode",
+      "2.6",
+      "3.4",
+      "µs"
+    ],
+    [
+      "t WUSTOP_ (3) KERON",
+      "Wakeup from Stop, clock kept running",
+      "VOS3, CSI, flash memory in normal mode",
+      "26",
+      "36",
+      "µs"
+    ],
+    [
+      "t (3) WUSTDBY",
+      "Wakeup from Standby mode",
+      "-",
+      "390",
+      "500",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "2. Guaranteed by characterization results.",
+      "3. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. 130/245 DS12923 Rev 3"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_40",
+    "is_continued": false,
+    "pages": [
+      130
+    ],
+    "rows_count": 16,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

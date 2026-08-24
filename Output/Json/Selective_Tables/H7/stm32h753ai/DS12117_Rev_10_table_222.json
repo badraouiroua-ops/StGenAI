@@ -1,0 +1,43 @@
+{
+  "table_id": "table_222",
+  "document": "DS12117 Rev 10 - Table 222. Document revision history",
+  "rev": "Rev 10",
+  "table_number": "222",
+  "title": "Table 222. Document revision history",
+  "page": 348,
+  "section": "11 Revision history",
+  "section_title": "Revision history",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=348",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 222. Document revision history — section 11 Revision history. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "22-Jun-2017",
+        "1",
+        "Initial release."
+      ],
+      [
+        "27-Sep-2017",
+        "2",
+        "Updated list of features. Changed datasheet status to \"production data\". Added UFBGA169 and TFBGA100 packages as well as notes related to TFBGA100 and UFBGA169 status on cover page and in Table 6: STM32H753xI features and peripheral counts. Differentiated number of GPIOs for each package in Table 6: STM32H753xI features and peripheral counts. Updated Error code correction (ECC) in Section 3.4.3: Embedded SRAM. Change PWR_CR3 into PWR_D3CR in Section 3.7.1: Power supply scheme. Updated Section 3.14: Nested vectored interrupt controller (NVIC). Added Table 12: DFSDM implementation in Section 3.25: Digital filter for sigma-delta modulators (DFSDM). Changed PC2/3 to PC2/3_C and VDD33USB to VDD in Figure 9: LQFP100 pinout. Changed PC2/3 to PC2/3_C in Figure 11: LQFP144 pinout. Changed PC2/3 to PC2/3_C in Figure 13: LQFP176 pinout. Changed PC2/3 to PC2/3_C in Figure 15: LQFP208 pinout. Table 17: Pin/ball definition: – Modified PA7, PC4, PC5, PB1, PG1, PE7, PE8 and PE9 I/O structure – TFBGA240 +25: removed duplicate occurrence of F1, F2 and P17 pin; added notes related to F1, F2, G2 pin connection; added note on E1, L16, L17, M16, M17, K16, K17, N17. – UFBGA176+25: changed G10 pin name to VSS. – Added note to VREF+ pin. Added current consumption corresponding to 125 °C ambient temperature in Section 6.3.6: Supply current characteristics. Replaced FMC_CLK by FMC_SDCLK in Section : SDRAM waveforms and timings. Changed description of the last five f values and updated t in Table 96: ADC S LATRINJ characteristics. For TFBGA100, TFBGA240+25 and UFBGA169, updated thermal resistance power- junction in Table 276: Thermal characteristics as well as power dissipation in Table 32: General operating conditions."
+      ],
+      [
+        "23-Oct-2017",
+        "3",
+        "Total current consumption changed to 4 µA minimum in Features. Updated Figure 12: UFBGA169 ballout. Updated dpad and dsm in Table 136: TFBGA240+25 - Recommended PCB design rules."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

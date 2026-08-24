@@ -1,0 +1,213 @@
+{
+  "table_id": "table_153",
+  "caption": "Table 153. TFBGA225 - Mechanical data",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 314,
+  "merged_pages": [
+    314
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=314",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Symbol",
+    "millimeters(1) / Min",
+    "millimeters(1) / Typ",
+    "millimeters(1) / Max",
+    "inches(12) / Min",
+    "inches(12) / Typ",
+    "inches(12) / Max"
+  ],
+  "rows": [
+    [
+      "A(2)(3)",
+      "-",
+      "-",
+      "1.20",
+      "-",
+      "-",
+      "0.0472"
+    ],
+    [
+      "A1(4)",
+      "0.15",
+      "-",
+      "-",
+      "0.0059",
+      "-",
+      "-"
+    ],
+    [
+      "A2",
+      "-",
+      "0.78",
+      "-",
+      "-",
+      "0.0307",
+      "-"
+    ],
+    [
+      "b(5)",
+      "0.35",
+      "0.40",
+      "0.45",
+      "0.0138",
+      "0.0157",
+      "0.0177"
+    ],
+    [
+      "D(6)",
+      "13.00 BSC",
+      "13.00 BSC",
+      "13.00 BSC",
+      "0.5118 BSC",
+      "0.5118 BSC",
+      "0.5118 BSC"
+    ],
+    [
+      "D1",
+      "11.20 BSC",
+      "11.20 BSC",
+      "11.20 BSC",
+      "0.4409 BSC",
+      "0.4409 BSC",
+      "0.4409 BSC"
+    ],
+    [
+      "E",
+      "13.00 BSC",
+      "13.00 BSC",
+      "13.00 BSC",
+      "0.5118 BSC",
+      "0.5118 BSC",
+      "0.5118 BSC"
+    ],
+    [
+      "E1",
+      "11.20 BSC",
+      "11.20 BSC",
+      "11.20 BSC",
+      "0.4409 BSC",
+      "0.4409 BSC",
+      "0.4409 BSC"
+    ],
+    [
+      "e(9)",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.0315 BSC",
+      "0.0315 BSC",
+      "0.0315 BSC"
+    ],
+    [
+      "N(11)",
+      "225",
+      "225",
+      "225",
+      "225",
+      "225",
+      "225"
+    ],
+    [
+      "SD(12)",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.0315 BSC",
+      "0.0315 BSC",
+      "0.0315 BSC"
+    ],
+    [
+      "SE(12)",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.80 BSC",
+      "0.0315 BSC",
+      "0.0315 BSC",
+      "0.0315 BSC"
+    ],
+    [
+      "aaa",
+      "0.15",
+      "0.15",
+      "0.15",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "ccc",
+      "0.20",
+      "0.20",
+      "0.20",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "ddd",
+      "0.10",
+      "0.10",
+      "0.10",
+      "0.0039",
+      "0.0039",
+      "0.0039"
+    ],
+    [
+      "eee",
+      "0.15",
+      "0.15",
+      "0.15",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "fff",
+      "0.08",
+      "0.08",
+      "0.08",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+      "2. TFBGA stands for Thin profile Fine pitch Ball Grid Array: 1.00mm < A ≤ 1.20mm / Fine pitch e < 1.00mm.",
+      "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "4. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "5. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+      "6. BSC stands for BASIC dimensions. It corresponds to the nominal value and has no tolerance. For tolerances refer to form and position table.",
+      "9. e represents the solder ball grid pitch.",
+      "11. Basic dimensions SD & SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_153",
+    "is_continued": false,
+    "pages": [
+      314
+    ],
+    "rows_count": 17,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

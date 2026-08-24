@@ -1,0 +1,47 @@
+{
+  "table_id": "table_3",
+  "document": "DS12556 Rev 8 - Table 3. DFSDM implementation",
+  "rev": "Rev 8",
+  "table_number": "3",
+  "title": "Table 3. DFSDM implementation",
+  "page": 37,
+  "section": "3.23 Digital filter for sigma-delta modulators (DFSDM)",
+  "section_title": "Digital filter for sigma-delta modulators (DFSDM)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=37",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 3. DFSDM implementation — section 3.23 Digital filter for sigma-delta modulators (DFSDM). DFSDM features, DFSDM1.",
+  "table_content": {
+    "headers": [
+      "DFSDM features",
+      "DFSDM1"
+    ],
+    "rows": [
+      [
+        "Number of filters",
+        "4"
+      ],
+      [
+        "Number of input transceivers/channels",
+        "8"
+      ],
+      [
+        "Internal ADC parallel input",
+        "X"
+      ],
+      [
+        "Number of external triggers",
+        "16"
+      ],
+      [
+        "Regular channel information in identification register",
+        "X"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

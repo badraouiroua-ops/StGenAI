@@ -1,0 +1,53 @@
+{
+  "table_id": "table_59",
+  "document": "DS13195 Rev 8 - Table 59. Flash memory endurance and data retention",
+  "rev": "Rev 8",
+  "table_number": "59",
+  "title": "Table 59. Flash memory endurance and data retention",
+  "page": 113,
+  "section": "6.3.12 Memory characteristics",
+  "section_title": "Memory characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=113",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 59. Flash memory endurance and data retention — section 6.3.12 Memory characteristics. Symbol, Parameter, Conditions, Value / Min(1), Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Value / Min(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "NEND",
+        "Endurance",
+        "TJ = –40 to +130 °C",
+        "10",
+        "kcycles"
+      ],
+      [
+        "tRET",
+        "Data retention",
+        "1 kcycle at TA = 85 °C",
+        "30",
+        "Years"
+      ],
+      [
+        "tRET",
+        "-",
+        "10 kcycles at TA = 55 °C",
+        "20",
+        "Years"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

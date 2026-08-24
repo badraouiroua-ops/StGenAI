@@ -1,0 +1,60 @@
+{
+  "table_id": "table_67",
+  "document": "DS13311 Rev 5 - Table 67. Asynchronous multiplexed PSRAM/NOR read-NWAIT timings",
+  "rev": "Rev 5",
+  "table_number": "67",
+  "title": "Table 67. Asynchronous multiplexed PSRAM/NOR read-NWAIT timings",
+  "page": 173,
+  "section": "6.3.19 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=173",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 67. Asynchronous multiplexed PSRAM/NOR read-NWAIT timings — section 6.3.19 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(NE)",
+        "FMC_NE low time",
+        "8T –1 fmc_ker_ck",
+        "8T +1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t w(NOE)",
+        "FMC_NWE low time",
+        "5T –1 fmc_ker_ck",
+        "5T +1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t su(NWAIT_NE)",
+        "FMC_NWAIT valid before FMC_NEx high",
+        "4T +9 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(NE_NWAIT)",
+        "FMC_NEx hold time after FMC_NWAIT invalid",
+        "3T +12 fmc_ker_ck",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

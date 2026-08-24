@@ -1,0 +1,117 @@
+{
+  "table_id": "table_14",
+  "caption": "Table 14. VCAP operating conditions",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 109,
+  "merged_pages": [
+    109
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=109",
+  "section": "6.3.2 VCAP external capacitor",
+  "headers": [
+    "Figure",
+    "15. External capacitor C EXT",
+    "",
+    ""
+  ],
+  "rows": [
+    [
+      "Figure",
+      "C",
+      "",
+      ""
+    ],
+    [
+      "ESR",
+      "",
+      "",
+      ""
+    ],
+    [
+      "ESR",
+      "R L eak",
+      "",
+      ""
+    ],
+    [
+      "ESR",
+      "R L eak",
+      "",
+      "MS19044V2"
+    ],
+    [
+      "1. Legend: ESR is the equivalent series re",
+      "sistance.",
+      "",
+      ""
+    ],
+    [
+      "T able 14.",
+      "VCAP operating conditions(",
+      "1)",
+      ""
+    ],
+    [
+      "CEXT Capacitan",
+      "ce of external capacitor",
+      "2.2 µF",
+      "(2)(3)"
+    ],
+    [
+      "ESR ESR o",
+      "f external capacitor",
+      "< 100",
+      "mΩ"
+    ]
+  ],
+  "extraction_method": "pdfplumber_text",
+  "extraction_confidence": "medium",
+  "empty_cell_ratio": 0.3333,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 7,
+    "truncated_rows": 5,
+    "bleed_rows_removed": 3,
+    "columns_initial": 7,
+    "columns_merged": 3,
+    "columns_final": 4,
+    "_notes": [
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated.",
+      "3. If a third VCAP pin is available on the package, it must be connected to the other VCAP pins but no additional capacitor is required."
+    ],
+    "_legend": [
+      "CEXT Capacitance of external capacitor 2.2 µF(2)(3)",
+      "ESR ESR of external capacitor < 100 mΩ",
+      "replaced by two 100 nF decoupling capacitors.",
+      "additional capacitor is required.",
+      "The devices embed a high power efficiency SMPS step-down converter. SMPS",
+      "characteristics for external usage are given in Table 16. The SMPS step-down converter",
+      "requires external components that are fully described in AN5419 “Getting started with",
+      "STM32H723/733, STM32H725/735 and STM32H730 Value Line hardware development”."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "no_table_obj_for_spans",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_14",
+    "is_continued": false,
+    "pages": [
+      109
+    ],
+    "rows_count": 8,
+    "cols_count": 4,
+    "confidence": "medium",
+    "empty_cell_ratio": 0.3333
+  },
+  "debug": {
+    "crop_path": "Raw_Extracted\\H7\\stm32h730ab\\debug\\table_14.png"
+  }
+}

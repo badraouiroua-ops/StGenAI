@@ -1,0 +1,77 @@
+{
+  "table_id": "table_22",
+  "document": "DS13315 Rev 5 - Table 22. USB regulator characteristics",
+  "rev": "Rev 5",
+  "table_number": "22",
+  "title": "Table 22. USB regulator characteristics",
+  "page": 116,
+  "section": "6.3.7 Embedded USB regulator characteristics",
+  "section_title": "Embedded USB regulator characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=116",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "text_helper": "Table 22. USB regulator characteristics — section 6.3.7 Embedded USB regulator characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DD50USB",
+        "Supply voltage",
+        "-",
+        "4",
+        "5",
+        "5.5",
+        "V"
+      ],
+      [
+        "I DD50USB",
+        "Current consumption",
+        "-",
+        "-",
+        "14",
+        "-",
+        "µA"
+      ],
+      [
+        "V REGOUTV33V",
+        "Regulated output voltage",
+        "-",
+        "3",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "I OUT",
+        "Output current load sinked by USB block",
+        "-",
+        "-",
+        "-",
+        "20",
+        "mA"
+      ],
+      [
+        "T WKUP",
+        "Wakeup time",
+        "-",
+        "-",
+        "120",
+        "170",
+        "us"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

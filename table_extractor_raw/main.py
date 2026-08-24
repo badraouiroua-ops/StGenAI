@@ -105,6 +105,25 @@ logger = logging.getLogger("main")
 
 
 def _deduplicate_table_boundaries(all_tables: list[dict], out_dir: Path, family: str = "") -> int:
+    """Supprime les lignes dupliquées aux frontières entre tables adjacentes.
+
+    Quand pdfplumber « déborde » (bleed), il capture les premières lignes
+    de la table suivante et les colle à la fin de la table courante.
+
+    Algorithme (Suffix → Prefix) :
+      Pour chaque table T_i, on compare son SUFFIXE (dernières lignes)
+      avec le PRÉFIXE (premières lignes) de T_i+1 et T_i+2.
+      Si les N dernières lignes de T_i == les N premières de T_i+j,
+      on supprime ces N lignes de T_i (max 8 lignes, sécurité).
+
+    Pourquoi +2 tables ?  Certains PDF entrelacent 3 tables sur 2 pages :
+      T_29/T_30/T_31 partagent les pages 58-59, et le bleed de T_31
+      se retrouve à la fin de T_29 ET de T_30.
+
+    Sécurité : on ne compare QUE les frontières séquentielles, jamais
+    le milieu du tableau → 0 faux positif sur les tables mécaniques
+    (LQFP48/LQFP64) qui partagent des données identiques.
+    """
     sorted_tables = sorted(
         all_tables,
         key=lambda t: int(re.findall(r'\d+', t.get("table_id", "0"))[0])
@@ -119,44 +138,41 @@ def _deduplicate_table_boundaries(all_tables: list[dict], out_dir: Path, family:
     removed_rows = 0
     modified_ids: set[str] = set()
 
-    for i in range(len(sorted_tables)):
+    for i in range(len(sorted_tables) - 1):
         cur = sorted_tables[i]
         cur_rows = cur.get("rows", [])
         if not cur_rows:
             continue
 
-        next_rows: list[list] = []
-        for j in range(1, 3):
-            if i + j < len(sorted_tables):
-                next_rows.extend(sorted_tables[i + j].get("rows", []))
+        cur_json = [json.dumps(r, ensure_ascii=False) for r in cur_rows]
 
-        if not next_rows:
-            continue
+        # Check suffix of cur against the PREFIX of the next 2 tables
+        # This catches bleed from table_i+2 appearing at end of table_i AND table_i+1
+        max_overlap = 0
+        for j in range(1, min(3, len(sorted_tables) - i)):
+            cmp_rows = sorted_tables[i + j].get("rows", [])
+            if not cmp_rows:
+                continue
+            cmp_json = [json.dumps(r, ensure_ascii=False) for r in cmp_rows]
+            max_len = min(len(cur_json), len(cmp_json), 8)
+            for overlap_len in range(1, max_len + 1):
+                if cur_json[-overlap_len:] == cmp_json[:overlap_len]:
+                    max_overlap = max(max_overlap, overlap_len)
 
-        next_set = {json.dumps(row, ensure_ascii=False) for row in next_rows}
-        before = len(cur_rows)
-        removed_indices: list[int] = []
-        removed_rows_data: list[list] = []
-        kept: list[list] = []
-        for ri, row in enumerate(cur_rows):
-            if json.dumps(row, ensure_ascii=False) in next_set:
-                removed_indices.append(ri)
-                removed_rows_data.append(row)
-            else:
-                kept.append(row)
+        if max_overlap > 0:
+            before = len(cur_rows)
+            kept = cur_rows[:-max_overlap]
 
-        # Ne pas appliquer si le résultat est vide
-        if len(kept) == 0:
-            logger.info(f"  [dedup] {cur['table_id']}: would become empty, skipped")
-            continue
+            if len(kept) == 0:
+                logger.info(f"  [dedup] {cur['table_id']}: would become empty, skipped")
+                continue
 
-        if before != len(kept):
-            n_removed = before - len(kept)
-            removed_rows += n_removed
+            removed_rows += max_overlap
             modified_ids.add(cur["table_id"])
+
             heuristics = cur.setdefault("heuristics", {})
-            heuristics["_dedup_rows_removed"] = n_removed
-            heuristics["_dedup_removed_indices"] = removed_indices
+            heuristics["_dedup_rows_removed"] = max_overlap
+            heuristics["_dedup_removed_indices"] = list(range(len(kept), before))
             cur["rows"] = kept
 
     total = removed_rows

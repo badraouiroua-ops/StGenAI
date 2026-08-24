@@ -1,0 +1,90 @@
+{
+  "table_id": "table_125",
+  "document": "DS13195 Rev 8 - Table 125. Dynamics characteristics: USB ULPI",
+  "rev": "Rev 8",
+  "table_number": "125",
+  "title": "Table 125. Dynamics characteristics: USB ULPI",
+  "page": 180,
+  "section": "6.3.36.7 SD/SDIO MMC card host interface (SDMMC) characteristics",
+  "section_title": "SD/SDIO MMC card host interface (SDMMC) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=180",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 125. Dynamics characteristics: USB ULPI — section 6.3.36.7 SD/SDIO MMC card host interface (SDMMC) characteristics. Symbol, Parameter, Condition, Min(1), Typ(1), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min(1)",
+      "Typ(1)",
+      "Max(1)(2)(3)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tSC",
+        "Control in (ULPI_DIR , ULPI_NXT) setup time",
+        "-",
+        "3.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tHC",
+        "Control in (ULPI_DIR, ULPI_NXT) hold time",
+        "-",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tSD",
+        "Data in setup time",
+        "-",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tHD",
+        "Data in hold time",
+        "-",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tDC/tDD",
+        "Control/Datal output delay",
+        "2.7 < VDD < 3.6 V, CL=20 pF",
+        "-",
+        "7",
+        "8.5",
+        "ns"
+      ],
+      [
+        "tDC/tDD",
+        "Control/Datal output delay",
+        "1.71 < VDD < 3.6 V, CL=15 pF",
+        "-",
+        "9",
+        "13",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. The USB functionality is ensured down to 2.7 V but not the full USB electrical characteristics that are degraded in the 2.7 to",
+      "2. No external termination series resistors are required on USB_DP (D+) and USB_DM (D-); the matching impedance is already included in the embedded driver.",
+      "3. For external ULPI transceivers operating at 1.8 V, check carefully the timing values for compatibility. DS13195 - Rev 8 page 180/237"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "table_id": "table_109",
+  "document": "DS12930 Rev 3 - Table 109. USART (SPI mode) characteristics",
+  "rev": "Rev 3",
+  "table_number": "109",
+  "title": "Table 109. USART (SPI mode) characteristics",
+  "page": 211,
+  "section": "6.3.35 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=211",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 109. USART (SPI mode) characteristics — section 6.3.35 Communication interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f CK",
+        "USART clock frequency",
+        "SPI master mode",
+        "-",
+        "-",
+        "12.5",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "USART clock frequency",
+        "SPI slave mode",
+        "-",
+        "-",
+        "25",
+        "MHz"
+      ],
+      [
+        "t su(NSS)",
+        "NSS setup time",
+        "SPI slave mode",
+        "t +1 ker",
+        "-",
+        "-",
+        "MHz"
+      ],
+      [
+        "t h(NSS)",
+        "NSS hold time",
+        "SPI slave mode",
+        "2",
+        "-",
+        "-",
+        "MHz"
+      ],
+      [
+        "t , w(CKH) t w(CKL)",
+        "CK high and low time",
+        "SPI master mode",
+        "1/f /2-2 CK",
+        "1/f /2 CK",
+        "1/f /2+2 CK",
+        "MHz"
+      ],
+      [
+        "t su(RX)",
+        "Data input setup time",
+        "SPI master mode",
+        "t +6 ker",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(RX)",
+        "Data input setup time",
+        "SPI slave mode",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(RX)",
+        "Data input hold time",
+        "SPI master mode",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(RX)",
+        "Data input hold time",
+        "SPI slave mode",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(TX)",
+        "Data output valid time",
+        "SPI slave mode",
+        "-",
+        "12",
+        "20",
+        "ns"
+      ],
+      [
+        "t v(TX)",
+        "Data output valid time",
+        "SPI master mode",
+        "-",
+        "0.5",
+        "1",
+        "ns"
+      ],
+      [
+        "t h(TX)",
+        "Data output hold time",
+        "SPI slave mode",
+        "9",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(TX)",
+        "Data output hold time",
+        "SPI master mode",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Measurement points are done at 0.5V and with external C = 30 pF. DD L"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

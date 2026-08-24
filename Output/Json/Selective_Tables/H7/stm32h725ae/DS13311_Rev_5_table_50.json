@@ -1,0 +1,43 @@
+{
+  "table_id": "table_50",
+  "document": "DS13311 Rev 5 - Table 50. EMS characteristics",
+  "rev": "Rev 5",
+  "table_number": "50",
+  "title": "Table 50. EMS characteristics",
+  "page": 156,
+  "section": "6.3.14 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=156",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 50. EMS characteristics — section 6.3.14 EMC characteristics. Symbol, Parameter, Conditions, Level/ Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Level/ Class"
+    ],
+    "rows": [
+      [
+        "V FESD",
+        "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+        "V = 3.3 V, T = 25 °C, DD A LQFP176, conforming to IEC 61000-4-2",
+        "3B"
+      ],
+      [
+        "V FTB",
+        "Fast transient voltage burst limits to be applied through 100 pF on V and V pins to induce a DD SS functional disturbance",
+        "V = 3.3 V, T = 25 °C, DD A LQFP176, conforming to IEC 61000-4-4",
+        "5A"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS13311 Rev 5 157/283"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

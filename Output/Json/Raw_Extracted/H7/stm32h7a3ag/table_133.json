@@ -1,0 +1,65 @@
+{
+  "table_id": "table_133",
+  "caption": "Table 133. WLCSP132 - Recommended PCB design rules",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 198,
+  "merged_pages": [
+    198
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=198",
+  "section": "7 Package information",
+  "headers": [
+    "Dimension",
+    "Recommended values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.35 mm"
+    ],
+    [
+      "Dpad",
+      "0,200 mm"
+    ],
+    [
+      "Dsm",
+      "0.200 mm typ. (depends on soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.250 mm"
+    ],
+    [
+      "Stencil thickness",
+      "0.080 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences resulting"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_133",
+    "is_continued": false,
+    "pages": [
+      198
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

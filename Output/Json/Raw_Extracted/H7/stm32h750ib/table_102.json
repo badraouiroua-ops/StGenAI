@@ -1,0 +1,84 @@
+{
+  "table_id": "table_102",
+  "caption": "Table 102. Dynamics characteristics: Ethernet MAC signals for SMI",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 190,
+  "merged_pages": [
+    190
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=190",
+  "section": "6.3.32 Communications interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t MDC",
+      "MDC cycle time(2.5 MHz)",
+      "400",
+      "400",
+      "403",
+      "ns"
+    ],
+    [
+      "T d(MDIO)",
+      "Write data valid time",
+      "1",
+      "1.5",
+      "3",
+      "ns"
+    ],
+    [
+      "t su(MDIO)",
+      "Read data setup time",
+      "8",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MDIO)",
+      "Read data hold time",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. 190/335 DS12556 Rev 8"
+    ],
+    "_legend": [
+      "corresponding timing diagram."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_102",
+    "is_continued": false,
+    "pages": [
+      190
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

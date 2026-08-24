@@ -1,0 +1,193 @@
+{
+  "table_id": "table_215",
+  "document": "DS12556 Rev 8 - Table 215. Thermal characteristics",
+  "rev": "Rev 8",
+  "table_number": "215",
+  "title": "Table 215. Thermal characteristics",
+  "page": 325,
+  "section": "8.7 Thermal characteristics",
+  "section_title": "Thermal characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=325",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 215. Thermal characteristics — section 8.7 Thermal characteristics. Symbol, Definition, Parameter, Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Definition",
+      "Parameter",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient LQFP100 - 14 x 14 mm /0.5 mm pitch",
+        "45.0",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient LQFP144 - 20 x 20 mm /0.5 mm pitch",
+        "43.7",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+        "43.0",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient UFBGA176+25 - 10 x 10 mm /0.65 mm pitch",
+        "37.4",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient TFBGA240+25 - 14 x 14 mm / 0.8 mm pitch",
+        "36.6",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient LQFP100 - 14 x 14 mm /0.5 mm pitch",
+        "36.3",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient LQFP144 - 20 x 20 mm /0.5 mm pitch",
+        "38.3",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+        "43.0",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient UFBGA176+25 - 10 x 10 mm /0.65 mm pitch",
+        "19.3",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient TFBGA240+25 - 14 x 14 mm / 0.8 mm pitch",
+        "24.3",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient LQFP100 - 14 x 14 mm /0.5 mm pitch",
+        "11.5",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient LQFP144 - 20 x 20 mm /0.5 mm pitch",
+        "11.3",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+        "11.2",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient UFBGA176+25 - 10 x 10 mm /0.65 mm pitch",
+        "23.9",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient TFBGA240+25 - 14 x 14 mm / 0.8 mm pitch",
+        "7.4",
+        "°C/W"
+      ],
+      [
+        "9 Or",
+        "derin",
+        "g inf",
+        "orma",
+        "tion"
+      ],
+      [
+        "Example:",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "Device family",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "STM32 = Arm-base",
+        "d 32-bit m",
+        "icrocont",
+        "roller",
+        "tion"
+      ],
+      [
+        "Product type",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "H = High performan",
+        "ce",
+        "ce",
+        "ce",
+        "tion"
+      ],
+      [
+        "Device subfamily",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "750 = STM32H750",
+        "value line",
+        "with cry",
+        "ptograph",
+        "ic"
+      ]
+    ],
+    "notes": [
+      "1. The tape and reel packing is not available on all packages. For a list of available options (such as speed and package) or for further information on any"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

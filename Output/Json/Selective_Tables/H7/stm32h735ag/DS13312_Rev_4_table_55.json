@@ -1,0 +1,213 @@
+{
+  "table_id": "table_55",
+  "document": "DS13312 Rev 4 - Table 55. I/O static characteristics",
+  "rev": "Rev 4",
+  "table_number": "55",
+  "title": "Table 55. I/O static characteristics",
+  "page": 161,
+  "section": "6.3.17 I/O port characteristics",
+  "section_title": "I/O port characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=161",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 55. I/O static characteristics — section 6.3.17 I/O port characteristics. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V IL",
+        "I/O input low level voltage except BOOT0",
+        "1.62 V<V <3.6 V DD",
+        "-",
+        "-",
+        "0.3V (1) DD",
+        "V"
+      ],
+      [
+        "V IL",
+        "I/O input low level voltage except BOOT0",
+        "1.62 V<V <3.6 V DD",
+        "-",
+        "-",
+        "0.4V -0.1 DD (2)",
+        "V"
+      ],
+      [
+        "V IL",
+        "BOOT0 I/O input low level voltage",
+        "1.62 V<V <3.6 V DD",
+        "-",
+        "-",
+        "0.19V +0.1 DD (2)",
+        "V"
+      ],
+      [
+        "V IH",
+        "I/O input high level voltage except BOOT0 and Pxy_C I/Os",
+        "1.62 V<V <3.6 V DD",
+        "0.7V (1) DD",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "V IH",
+        "Pxy_C pin input high level voltage",
+        "1.62 V<V <3.6 V DD",
+        "0.7V (3) DD",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "V IH",
+        "I/O input high level voltage except BOOT0",
+        "1.62 V<V <3.6 V DD",
+        "0.47V + DD 0.25(2)",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "V IH",
+        "BOOT0 I/O input high level voltage",
+        "1.62 V<V <3.6 V DD",
+        "0.17V + DD 0.6(2)",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "V (2) HYS",
+        "TT_xx, FT_xxx and NRST I/O input hysteresis",
+        "1.62 V< V <3.6 V DD",
+        "-",
+        "250",
+        "-",
+        "mV"
+      ],
+      [
+        "V (2) HYS",
+        "BOOT0 I/O input hysteresis",
+        "1.62 V< V <3.6 V DD",
+        "-",
+        "200",
+        "-",
+        "mV"
+      ],
+      [
+        "I (4) lkg",
+        "FT_xx Input leakage current(2)",
+        "0< V ≤ Max(V )(9) IN DDXXX",
+        "-",
+        "-",
+        "+/-250",
+        "nA"
+      ],
+      [
+        "I (4) lkg",
+        "FT_xx Input leakage current(2)",
+        "Max(V ) < V ≤ 5.5 V DDXXX IN (5)(6)(9)",
+        "-",
+        "-",
+        "1500",
+        "nA"
+      ],
+      [
+        "I (4) lkg",
+        "FT_u IO",
+        "0< V ≤ Max(V )(9) IN DDXXX",
+        "-",
+        "-",
+        "+/- 350",
+        "nA"
+      ],
+      [
+        "I (4) lkg",
+        "FT_u IO",
+        "Max(V ) < V ≤ 5.5 V DDXXX IN (5)(6)(9)",
+        "-",
+        "-",
+        "5000(7)",
+        "nA"
+      ],
+      [
+        "I (4) lkg",
+        "TT_xx Input leakage current",
+        "0< V ≤ Max(V ) (9) IN DDXXX",
+        "-",
+        "-",
+        "+/-250",
+        "nA"
+      ],
+      [
+        "I (4) lkg",
+        "VPP (BOOT0 alternate function)",
+        "0< V ≤ V IN DD",
+        "-",
+        "-",
+        "15",
+        "nA"
+      ],
+      [
+        "I (4) lkg",
+        "VPP (BOOT0 alternate function)",
+        "V < V ≤ 9 V DD IN",
+        "-",
+        "-",
+        "35",
+        "nA"
+      ],
+      [
+        "R PU",
+        "Weak pull-up equivalent resistor(8)",
+        "V =V IN SS",
+        "30",
+        "40",
+        "50",
+        "kΩ"
+      ],
+      [
+        "R PD",
+        "Weak pull-down equivalent resistor(8)",
+        "V =V (9) IN DD",
+        "30",
+        "40",
+        "50",
+        "kΩ"
+      ],
+      [
+        "C IO",
+        "I/O pin capacitance",
+        "-",
+        "-",
+        "5",
+        "-",
+        "pF"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Guaranteed by design.",
+      "3. To use these I/Os in digital input mode, V must respect the following condition: 0.7 V < V + 0.3 V. DD DD DDA",
+      "4. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: I = 10 μA + [number of I/Os where V is applied on the pad] ₓ I .",
+      "5. All FT_xx IO except FT_lu, FT_u and PC3.",
+      "6. V must be less than Max(VDDXXX) + 3.6 V. IN",
+      "7. To sustain a voltage higher than MIN(V , V , V ) +0.3 V, the internal pull-up and pull-down resistors must be DD DDA DD33USB",
+      "8. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10% order).",
+      "9. Max(VDDXXX) is the maximum value of all the I/O supplies. All I/Os are CMOS and TTL compliant (no software configuration required). Their"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

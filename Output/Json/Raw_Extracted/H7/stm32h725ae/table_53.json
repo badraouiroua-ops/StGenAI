@@ -1,0 +1,50 @@
+{
+  "table_id": "table_53",
+  "caption": "Table 53. Electrical sensitivities",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 158,
+  "merged_pages": [
+    158
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=158",
+  "section": "6.3.15 Absolute maximum ratings (electrical sensitivity)",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Class"
+  ],
+  "rows": [
+    [
+      "LU",
+      "Static latchup class",
+      "Conforming to JESD78, T = T J JMax",
+      "II level A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_53",
+    "is_continued": false,
+    "pages": [
+      158
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

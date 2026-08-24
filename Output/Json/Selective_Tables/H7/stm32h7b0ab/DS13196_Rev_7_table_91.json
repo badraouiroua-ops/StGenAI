@@ -1,0 +1,95 @@
+{
+  "table_id": "table_91",
+  "document": "DS13196 Rev 7 - Table 91. ADC characteristics",
+  "rev": "Rev 7",
+  "table_number": "91",
+  "title": "Table 91. ADC characteristics",
+  "page": 127,
+  "section": "6.3.20 Delay block (DLYB) characteristics",
+  "section_title": "Delay block (DLYB) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=127",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 91. ADC characteristics — section 6.3.20 Delay block (DLYB) characteristics. Symbol, Parameter, Conditions, Conditions, Min(1) Typ(1), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min(1) Typ(1)",
+      "Max(1) Unit"
+    ],
+    "rows": [
+      [
+        "VDDA",
+        "Analog power supply for ADC ON",
+        "-",
+        "-",
+        "1.62 -",
+        "3.6 VDDA V"
+      ],
+      [
+        "VREF+(2)",
+        "Positive reference voltage",
+        "VDDA ≥ 2 V",
+        "VDDA ≥ 2 V",
+        "1.62 -",
+        "3.6 VDDA V"
+      ],
+      [
+        "VREF+(2)",
+        "Positive reference voltage",
+        "VDDA < 2 V",
+        "VDDA < 2 V",
+        "VDDA",
+        "3.6 VDDA V"
+      ],
+      [
+        "VREF-(2)",
+        "Negative reference voltage",
+        "-",
+        "-",
+        "VSSA",
+        "3.6 VDDA V"
+      ],
+      [
+        "fADC",
+        "ADC clock frequency",
+        "1,62 V ≤VDDA ≤ 3.6 V",
+        "BOOST = 11",
+        "0.12 -",
+        "50 25 MHz 12.5 6.25"
+      ],
+      [
+        "fADC",
+        "ADC clock frequency",
+        "1,62 V ≤VDDA ≤ 3.6 V",
+        "BOOST = 10",
+        "0.12 -",
+        "50 25 MHz 12.5 6.25"
+      ],
+      [
+        "fADC",
+        "ADC clock frequency",
+        "1,62 V ≤VDDA ≤ 3.6 V",
+        "BOOST = 01",
+        "0.12 -",
+        "50 25 MHz 12.5 6.25"
+      ],
+      [
+        "fADC",
+        "ADC clock frequency",
+        "1,62 V ≤VDDA ≤ 3.6 V",
+        "BOOST = 00",
+        "- -",
+        "50 25 MHz 12.5 6.25"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

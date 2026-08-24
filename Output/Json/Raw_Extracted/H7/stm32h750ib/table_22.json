@@ -1,0 +1,70 @@
+{
+  "table_id": "table_22",
+  "caption": "Table 22. Typical current consumption batch acquisition mode",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 102,
+  "merged_pages": [
+    102
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=102",
+  "section": "6.3.6 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "f rcc_ahb_ck(AHB4) (MHz)",
+    "Typ",
+    "unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current in batch acquisition mode",
+      "D1Standby, D2Standby, D3Run",
+      "VOS3",
+      "64",
+      "6.5",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in batch acquisition mode",
+      "D1Stop, D2Stop, D3Run",
+      "VOS3",
+      "64",
+      "12",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. 102/335 DS12556 Rev 8",
+      "2. Guaranteed by test in production. T able 25. Typical and maximum current consumption in Standby mode",
+      "3. Guaranteed by characterization results. DS12556 Rev 8 103/335"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_22",
+    "is_continued": false,
+    "pages": [
+      102
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

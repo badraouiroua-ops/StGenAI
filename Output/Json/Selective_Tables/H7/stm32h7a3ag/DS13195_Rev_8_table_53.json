@@ -1,0 +1,135 @@
+{
+  "table_id": "table_53",
+  "document": "DS13195 Rev 8 - Table 53. CSI oscillator characteristics",
+  "rev": "Rev 8",
+  "table_number": "53",
+  "title": "Table 53. CSI oscillator characteristics",
+  "page": 110,
+  "section": "6.3.10 Internal clock source characteristics",
+  "section_title": "Internal clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=110",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 53. CSI oscillator characteristics — section 6.3.10 Internal clock source characteristics. Symbol, Parameter, Conditions, Min(1), Typ(1), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min(1)",
+      "Typ(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fCSI",
+        "CSI frequency",
+        "VDD = 3.3 V, TJ = 30 °C",
+        "3.96(2)",
+        "4",
+        "4.04(2)",
+        "MHz"
+      ],
+      [
+        "TRIM",
+        "CSI user trimming step",
+        "Trimming is not a multiple of 16",
+        "-",
+        "0.40",
+        "0.75",
+        "MHz"
+      ],
+      [
+        "TRIM",
+        "CSI user trimming step",
+        "Trimming is a multiple of 32",
+        "-4,75",
+        "-2,75",
+        "0.75",
+        "MHz"
+      ],
+      [
+        "TRIM",
+        "CSI user trimming step",
+        "Other trimming are a multiple of 16 (not including multiple of 32)",
+        "-0,43",
+        "0.00",
+        "0.75",
+        "%"
+      ],
+      [
+        "DuCy(CSI)",
+        "Duty Cycle",
+        "-",
+        "45",
+        "-",
+        "55",
+        "%"
+      ],
+      [
+        "∆TEMP (CSI)",
+        "CSI oscillator frequency drift over temperature",
+        "TJ = 0 to 85 °C",
+        "-3.7(3)",
+        "-",
+        "4,5(3)",
+        "%"
+      ],
+      [
+        "∆TEMP (CSI)",
+        "CSI oscillator frequency drift over temperature",
+        "TJ = -40 to 130 °C",
+        "-11(3)",
+        "-",
+        "7,5(3)",
+        "%"
+      ],
+      [
+        "∆VDD(CSI)",
+        "CSI oscillator frequency drift over VDD",
+        "VDD = 1.62 to 3.6 V",
+        "-0.06",
+        "-",
+        "0.06",
+        "%"
+      ],
+      [
+        "tsu(CSI)",
+        "CSI oscillator startup time",
+        "-",
+        "-",
+        "1",
+        "2",
+        "µs"
+      ],
+      [
+        "tstab(CSI)",
+        "CSI oscillator stabilization time (to reach ± 3 % of fCSI)",
+        "-",
+        "-",
+        "-",
+        "4",
+        "cycle"
+      ],
+      [
+        "IDD(CSI)",
+        "CSI oscillator power consumption",
+        "-",
+        "-",
+        "23",
+        "30",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. Calibrated during manufacturing tests.",
+      "3. Trimming value of HSICAL[8:0] (refer to RM0455)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

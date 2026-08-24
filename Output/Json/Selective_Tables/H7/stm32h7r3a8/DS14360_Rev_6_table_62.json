@@ -1,0 +1,207 @@
+{
+  "table_id": "table_62",
+  "document": "DS14360 Rev 6 - Table 62. PLL1/2/3 characteristics (wide VCO frequency range)",
+  "rev": "Rev 6",
+  "table_number": "62",
+  "title": "Table 62. PLL1/2/3 characteristics (wide VCO frequency range)",
+  "page": 198,
+  "section": "6.3.11 PLL characteristics",
+  "section_title": "PLL characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=198",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 62. PLL1/2/3 characteristics (wide VCO frequency range) — section 6.3.11 PLL characteristics. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f PLL_IN",
+        "PLL input clock",
+        "-",
+        "-",
+        "2",
+        "-",
+        "16",
+        "MHz"
+      ],
+      [
+        "f PLL_IN",
+        "PLL input clock duty cycle",
+        "-",
+        "-",
+        "10",
+        "-",
+        "90",
+        "%"
+      ],
+      [
+        "f PLL_P_OUT",
+        "PLL multiplier output clock P, Q, R, S, T",
+        "VOS high",
+        "VOS high",
+        "1.5",
+        "-",
+        "600(2)",
+        "MHz"
+      ],
+      [
+        "f PLL_P_OUT",
+        "PLL multiplier output clock P, Q, R, S, T",
+        "VOS low",
+        "VOS low",
+        "1.5",
+        "-",
+        "400(2)",
+        "MHz"
+      ],
+      [
+        "f VCO_OUT",
+        "PLL VCO output",
+        "-",
+        "-",
+        "192",
+        "-",
+        "836(3)",
+        "MHz"
+      ],
+      [
+        "t LOCK",
+        "PLL lock time",
+        "Normal mode",
+        "Normal mode",
+        "15",
+        "50",
+        "150(3)",
+        "µs"
+      ],
+      [
+        "t LOCK",
+        "PLL lock time",
+        "Sigma-delta mode (CKIN ≥ 8 MHz)",
+        "Sigma-delta mode (CKIN ≥ 8 MHz)",
+        "25",
+        "65",
+        "170",
+        "µs"
+      ],
+      [
+        "Jitter (RMS)",
+        "Cycle-to-cycle jitter multiplier output clock P, Q, R, S, T",
+        "f = 192 MHz VCO_OUT",
+        "f = 192 MHz VCO_OUT",
+        "-",
+        "35",
+        "-",
+        "±ps"
+      ],
+      [
+        "Jitter (RMS)",
+        "Cycle-to-cycle jitter multiplier output clock P, Q, R, S, T",
+        "f = 836 MHz VCO_OUT",
+        "f = 836 MHz VCO_OUT",
+        "-",
+        "15",
+        "-",
+        "±ps"
+      ],
+      [
+        "Jitter (RMS)",
+        "Period jitter multiplier output clock P, Q, R, S, T",
+        "f = 192 MHz VCO_OUT",
+        "f = 192 MHz VCO_OUT",
+        "-",
+        "32",
+        "-",
+        "±ps"
+      ],
+      [
+        "Jitter (RMS)",
+        "Period jitter multiplier output clock P, Q, R, S, T",
+        "f = 836 MHz VCO_OUT",
+        "f = 836 MHz VCO_OUT",
+        "-",
+        "10",
+        "-",
+        "±ps"
+      ],
+      [
+        "Jitter (RMS)",
+        "Long term jitter multiplier output clock P, Q, R, S, T",
+        "Normal mode (F = 2 MHz), PLL IN f = 192 MHz VCO_OUT",
+        "Normal mode (F = 2 MHz), PLL IN f = 192 MHz VCO_OUT",
+        "-",
+        "±0.18",
+        "-",
+        "%(4)"
+      ],
+      [
+        "Jitter (RMS)",
+        "Long term jitter multiplier output clock P, Q, R, S, T",
+        "Normal mode (F = 16 MHz), PLL IN f = 192 MHz VCO_OUT",
+        "Normal mode (F = 16 MHz), PLL IN f = 192 MHz VCO_OUT",
+        "-",
+        "±0.5",
+        "-",
+        "%(4)"
+      ],
+      [
+        "I DD(PLL)",
+        "PLL power consumption",
+        "f = 192 MHz VCO_OUT",
+        "V DD",
+        "-",
+        "390",
+        "548",
+        "µA"
+      ],
+      [
+        "I DD(PLL)",
+        "PLL power consumption",
+        "f = 192 MHz VCO_OUT",
+        "V CORE",
+        "-",
+        "590",
+        "3800",
+        "µA"
+      ],
+      [
+        "I DD(PLL)",
+        "PLL power consumption",
+        "f = 836 MHz VCO_OUT",
+        "V DD",
+        "-",
+        "1000",
+        "1100",
+        "µA"
+      ],
+      [
+        "I DD(PLL)",
+        "PLL power consumption",
+        "f = 836 MHz VCO_OUT",
+        "V CORE",
+        "-",
+        "3500",
+        "9020",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "2. This value must be limited to the maximum frequency due to the product limitation.",
+      "3. Guaranteed by characterization results.",
+      "4. Given as percent of input clock period. 198/322 DS14360 Rev 6"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "table_id": "table_76",
+  "document": "DS13312 Rev 4 - Table 76. SDRAM read timings",
+  "rev": "Rev 4",
+  "table_number": "76",
+  "title": "Table 76. SDRAM read timings",
+  "page": 188,
+  "section": "6.3.19 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=188",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 76. SDRAM read timings — section 6.3.19 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(SDCLK)",
+        "FMC_SDCLK period",
+        "2T – fmc_ker_ck 0.5",
+        "2T fmc_ker_ck +0.5",
+        "ns"
+      ],
+      [
+        "t su(SDCLKH _Data)",
+        "Data input setup time",
+        "3",
+        "-",
+        "ns"
+      ],
+      [
+        ")ataD_HKLCDS(h t",
+        "Data input hold time",
+        "1.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL_Add)",
+        "Address valid time",
+        "-",
+        "2.0",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL- SDNE)",
+        "Chip select valid time",
+        "-",
+        "1.5(2)",
+        "ns"
+      ],
+      [
+        "t h(SDCLKL_SDNE)",
+        "Chip select hold time",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL_SDNRAS)",
+        "SDNRAS valid time",
+        "-",
+        "1",
+        "ns"
+      ],
+      [
+        "t h(SDCLKL_SDNRAS)",
+        "SDNRAS hold time",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL_SDNCAS)",
+        "SDNCAS valid time",
+        "-",
+        "2.0",
+        "ns"
+      ],
+      [
+        "t h(SDCLKL_SDNCAS)",
+        "SDNCAS hold time",
+        "0.5",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. Using PC2_C I/O adds 4.5 ns to this timing. 188/286 DS13312 Rev 4"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "table_id": "table_19",
+  "caption": "Table 19. Voltage characteristics",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 81,
+  "merged_pages": [
+    81,
+    82
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=81",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbols",
+    "Ratings",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VDDX - VSS",
+      "External main supply voltage (including VDD, VDDLDO, VDDSMPS, VDDA, VDD33USB, VDDMMC, VBAT, VREF+)",
+      "-0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "VIN(1)",
+      "Input voltage on FT_xxx pins",
+      "VSS-0.3",
+      "Min(VDD, VDDA, VDD33USB, VDDMMC, VBAT) +4.0(2)(3)",
+      "V"
+    ],
+    [
+      "VIN(1)",
+      "Input voltage on TT_xx pins",
+      "VSS-0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "VIN(1)",
+      "Input voltage on BOOT0 pin",
+      "VSS",
+      "9.0",
+      "V"
+    ],
+    [
+      "VIN(1)",
+      "Input voltage on any other pins",
+      "VSS-0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "|ΔVDDX|",
+      "Variations between different VDDX power pins of the same domain",
+      "-",
+      "50",
+      "mV"
+    ],
+    [
+      "|VSSx-VSS|",
+      "Variations between all the different ground pins",
+      "-",
+      "50",
+      "mV"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 5,
+      "cont_cols_raw": 5,
+      "target_cols": 5,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. 100 nF filtering capacitor on each package pin.",
+      "2. A tolerance of +/- 20% is acceptable on decoupling capacitors. Note: Refer to Getting started with STM32H7A3/7B3 and STM32H7B0 hardware development(AN5307) for more",
+      "3. This formula has to be applied on power supplies related to the I/O structure described by the pin definition table."
+    ],
+    "_legend": [
+      "All main power (VDD, VDDA, VDD33USB, VDDMMC, VDDSMPS, VBAT) and ground (VSS, VSSA) pins must always be connected to the",
+      "external power supply, in the permitted range."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_19",
+    "is_continued": true,
+    "pages": [
+      81,
+      82
+    ],
+    "rows_count": 7,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

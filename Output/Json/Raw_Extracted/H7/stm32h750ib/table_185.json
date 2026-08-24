@@ -1,0 +1,620 @@
+{
+  "table_id": "table_185",
+  "caption": "Table 185. Operational amplifier characteristics",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 279,
+  "merged_pages": [
+    279,
+    280,
+    281
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=279",
+  "section": "7.3.27 Operational amplifier characteristics",
+  "headers": [
+    "Symbol",
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DDA",
+      "V DDA",
+      "Analog supply voltage Range",
+      "-",
+      "2",
+      "3.3",
+      "3.6",
+      "V"
+    ],
+    [
+      "CMIR",
+      "CMIR",
+      "Common Mode Input Range",
+      "-",
+      "0",
+      "-",
+      "V DDA",
+      "V"
+    ],
+    [
+      "VI OFFSET",
+      "VI OFFSET",
+      "Input offset voltage",
+      "25°C, no load on output",
+      "-",
+      "-",
+      "±1.5",
+      "mV"
+    ],
+    [
+      "VI OFFSET",
+      "VI OFFSET",
+      "Input offset voltage",
+      "All voltages and temperature, no load",
+      "-",
+      "-",
+      "±2.5",
+      "mV"
+    ],
+    [
+      "TESFFO IVΔ",
+      "ΔVI OFFSET",
+      "Input offset voltage drift",
+      "-",
+      "-",
+      "±3.0",
+      "-",
+      "μV/°C"
+    ],
+    [
+      "TRIMOFFSETP TRIMLPOFFSETP",
+      "TRIMOFFSETP TRIMLPOFFSETP",
+      "Offset trim step at low common input voltage (0.1*V ) DDA",
+      "-",
+      "-",
+      "1.1",
+      "1.5",
+      "mV"
+    ],
+    [
+      "TRIMOFFSETN TRIMLPOFFSETN",
+      "TRIMOFFSETN TRIMLPOFFSETN",
+      "Offset trim step at high common input voltage (0.9*V ) DDA",
+      "-",
+      "-",
+      "1.1",
+      "1.5",
+      "mV"
+    ],
+    [
+      "I LOAD",
+      "I LOAD",
+      "Drive current",
+      "-",
+      "-",
+      "-",
+      "500",
+      "μA"
+    ],
+    [
+      "I LOAD_PGA",
+      "I LOAD_PGA",
+      "Drive current in PGA mode",
+      "-",
+      "-",
+      "-",
+      "270",
+      "μA"
+    ],
+    [
+      "C LOAD",
+      "C LOAD",
+      "Capacitive load",
+      "-",
+      "-",
+      "-",
+      "50",
+      "pF"
+    ],
+    [
+      "CMRR",
+      "CMRR",
+      "Common mode rejection ratio",
+      "-",
+      "-",
+      "80",
+      "-",
+      "dB"
+    ],
+    [
+      "PSRR",
+      "PSRR",
+      "Power supply rejection ratio",
+      "C ≤ 50pf / LOAD R ≥ 4 kΩ(1) at 1 kHz, LOAD V =V /2 com DDA",
+      "50",
+      "66",
+      "-",
+      "dB"
+    ],
+    [
+      "GBW",
+      "GBW",
+      "Gain bandwidth for high supply range",
+      "200 mV ≤ Output dynamic range ≤ V - 200 mV DDA",
+      "4",
+      "7.3",
+      "12.3",
+      "MHz"
+    ],
+    [
+      "SR",
+      "SR",
+      "Slew rate (from 10% and 90% of output voltage)",
+      "Normal mode",
+      "-",
+      "3",
+      "-",
+      "V/µs"
+    ],
+    [
+      "SR",
+      "SR",
+      "Slew rate (from 10% and 90% of output voltage)",
+      "High-speed mode",
+      "-",
+      "30",
+      "-",
+      "V/µs"
+    ],
+    [
+      "AO",
+      "AO",
+      "Open loop gain",
+      "200 mV ≤ Output dynamic range ≤ V - 200 mV DDA",
+      "59",
+      "90",
+      "129",
+      "dB"
+    ],
+    [
+      "φm",
+      "φm",
+      "Phase margin",
+      "-",
+      "-",
+      "55",
+      "-",
+      "°"
+    ],
+    [
+      "GM",
+      "GM",
+      "Gain margin",
+      "-",
+      "-",
+      "12",
+      "-",
+      "dB"
+    ],
+    [
+      "V OHSAT",
+      "V OHSAT",
+      "High saturation voltage",
+      "I =max or R =min, load LOAD Input at V DDA",
+      "V DDA -100 mV",
+      "-",
+      "-",
+      "mV"
+    ],
+    [
+      "V OLSAT",
+      "V OLSAT",
+      "Low saturation voltage",
+      "I =max or R =min, load LOAD Input at 0 V",
+      "-",
+      "-",
+      "100",
+      "mV"
+    ],
+    [
+      "t WAKEUP",
+      "Wake up time from OFF state",
+      "Normal mode",
+      "C ≤ 50pf, LOAD R ≥ 4 kΩ, LOAD follower configuration",
+      "-",
+      "0.8",
+      "3.2",
+      "µs"
+    ],
+    [
+      "t WAKEUP",
+      "Wake up time from OFF state",
+      "High speed mode",
+      "C ≤ 50pf, LOAD R ≥ 4 kΩ, LOAD follower configuration",
+      "-",
+      "0.9",
+      "2.8",
+      "µs"
+    ],
+    [
+      "PGA gain",
+      "Non inverting gain error value",
+      "PGA gain = 2",
+      "PGA gain = 2",
+      "-1",
+      "-",
+      "1",
+      "%"
+    ],
+    [
+      "PGA gain",
+      "Non inverting gain error value",
+      "PGA gain = 4",
+      "PGA gain = 4",
+      "-2",
+      "-",
+      "2",
+      "%"
+    ],
+    [
+      "PGA gain",
+      "Non inverting gain error value",
+      "PGA gain = 8",
+      "PGA gain = 8",
+      "-2.5",
+      "-",
+      "2.5",
+      "%"
+    ],
+    [
+      "PGA gain",
+      "Non inverting gain error value",
+      "PGA gain = 16",
+      "PGA gain = 16",
+      "-3",
+      "-",
+      "3",
+      "%"
+    ],
+    [
+      "Inverting gain error value",
+      "Inverting gain error value",
+      "PGA gain = 2",
+      "PGA gain = 2",
+      "-1",
+      "-",
+      "1",
+      "%"
+    ],
+    [
+      "Inverting gain error value",
+      "Inverting gain error value",
+      "PGA gain = 4",
+      "PGA gain = 4",
+      "-1",
+      "-",
+      "1",
+      "%"
+    ],
+    [
+      "Inverting gain error value",
+      "Inverting gain error value",
+      "PGA gain = 8",
+      "PGA gain = 8",
+      "-2",
+      "-",
+      "2",
+      "%"
+    ],
+    [
+      "Inverting gain error value",
+      "Inverting gain error value",
+      "PGA gain = 16",
+      "PGA gain = 16",
+      "-3",
+      "-",
+      "3",
+      "%"
+    ],
+    [
+      "External non-inverting gain error value",
+      "External non-inverting gain error value",
+      "PGA gain = 2",
+      "PGA gain = 2",
+      "-1",
+      "-",
+      "1",
+      "%"
+    ],
+    [
+      "External non-inverting gain error value",
+      "External non-inverting gain error value",
+      "PGA gain = 4",
+      "PGA gain = 4",
+      "-3",
+      "-",
+      "3",
+      "%"
+    ],
+    [
+      "External non-inverting gain error value",
+      "External non-inverting gain error value",
+      "PGA gain = 8",
+      "PGA gain = 8",
+      "-3.5",
+      "-",
+      "3.5",
+      "%"
+    ],
+    [
+      "External non-inverting gain error value",
+      "External non-inverting gain error value",
+      "PGA gain = 16",
+      "PGA gain = 16",
+      "-4",
+      "-",
+      "4",
+      "%"
+    ],
+    [
+      "R network",
+      "R2/R1 internal resistance values in non-inverting PGA mode(2)",
+      "PGA Gain=2",
+      "PGA Gain=2",
+      "-",
+      "10/10",
+      "-",
+      "kΩ/ kΩ"
+    ],
+    [
+      "R network",
+      "R2/R1 internal resistance values in non-inverting PGA mode(2)",
+      "PGA Gain=4",
+      "PGA Gain=4",
+      "-",
+      "30/10",
+      "-",
+      "kΩ/ kΩ"
+    ],
+    [
+      "R network",
+      "R2/R1 internal resistance values in non-inverting PGA mode(2)",
+      "PGA Gain=8",
+      "PGA Gain=8",
+      "-",
+      "70/10",
+      "-",
+      "kΩ/ kΩ"
+    ],
+    [
+      "R network",
+      "R2/R1 internal resistance values in non-inverting PGA mode(2)",
+      "PGA Gain=16",
+      "PGA Gain=16",
+      "-",
+      "150/10",
+      "-",
+      "kΩ/ kΩ"
+    ],
+    [
+      "R2/R1 internal resistance values in inverting PGA mode(2)",
+      "R2/R1 internal resistance values in inverting PGA mode(2)",
+      "PGA Gain = -1",
+      "PGA Gain = -1",
+      "-",
+      "10/10",
+      "-",
+      "kΩ/ kΩ"
+    ],
+    [
+      "R2/R1 internal resistance values in inverting PGA mode(2)",
+      "R2/R1 internal resistance values in inverting PGA mode(2)",
+      "PGA Gain = -3",
+      "PGA Gain = -3",
+      "-",
+      "30/10",
+      "-",
+      "kΩ/ kΩ"
+    ],
+    [
+      "R2/R1 internal resistance values in inverting PGA mode(2)",
+      "R2/R1 internal resistance values in inverting PGA mode(2)",
+      "PGA Gain = -7",
+      "PGA Gain = -7",
+      "-",
+      "70/10",
+      "-",
+      "kΩ/ kΩ"
+    ],
+    [
+      "R2/R1 internal resistance values in inverting PGA mode(2)",
+      "R2/R1 internal resistance values in inverting PGA mode(2)",
+      "PGA Gain = -15",
+      "PGA Gain = -15",
+      "-",
+      "150/10",
+      "-",
+      "kΩ/ kΩ"
+    ],
+    [
+      "Delta R",
+      "Resistance variation (R1 or R2)",
+      "-",
+      "-",
+      "-15",
+      "-",
+      "15",
+      "%"
+    ],
+    [
+      "PGA BW",
+      "PGA bandwidth for different non inverting gain",
+      "Gain=2",
+      "Gain=2",
+      "-",
+      "GBW/2",
+      "-",
+      "MHz"
+    ],
+    [
+      "PGA BW",
+      "PGA bandwidth for different non inverting gain",
+      "Gain=4",
+      "Gain=4",
+      "-",
+      "GBW/4",
+      "-",
+      "MHz"
+    ],
+    [
+      "PGA BW",
+      "PGA bandwidth for different non inverting gain",
+      "Gain=8",
+      "Gain=8",
+      "-",
+      "GBW/8",
+      "-",
+      "MHz"
+    ],
+    [
+      "PGA BW",
+      "PGA bandwidth for different non inverting gain",
+      "Gain=16",
+      "Gain=16",
+      "-",
+      "GBW/16",
+      "-",
+      "MHz"
+    ],
+    [
+      "PGA bandwidth for different inverting gain",
+      "PGA bandwidth for different inverting gain",
+      "Gain = -1",
+      "Gain = -1",
+      "-",
+      "5.00",
+      "-",
+      "MHz"
+    ],
+    [
+      "PGA bandwidth for different inverting gain",
+      "PGA bandwidth for different inverting gain",
+      "Gain = -3",
+      "Gain = -3",
+      "-",
+      "3.00",
+      "-",
+      "MHz"
+    ],
+    [
+      "PGA bandwidth for different inverting gain",
+      "PGA bandwidth for different inverting gain",
+      "Gain = -7",
+      "Gain = -7",
+      "-",
+      "1.50",
+      "-",
+      "MHz"
+    ],
+    [
+      "PGA bandwidth for different inverting gain",
+      "PGA bandwidth for different inverting gain",
+      "Gain = -15",
+      "Gain = -15",
+      "-",
+      "0.80",
+      "-",
+      "MHz"
+    ],
+    [
+      "en",
+      "Voltage noise density",
+      "at 1 KHz",
+      "output loaded with 4 kΩ",
+      "-",
+      "140",
+      "-",
+      "nV/√ Hz"
+    ],
+    [
+      "en",
+      "Voltage noise density",
+      "at 10 KHz",
+      "output loaded with 4 kΩ",
+      "-",
+      "55",
+      "-",
+      "nV/√ Hz"
+    ],
+    [
+      "I DDA(OPAMP)",
+      "OPAMP consumption from V DDA",
+      "Normal mode",
+      "no Load, quiescent mode, follower",
+      "-",
+      "570",
+      "1000",
+      "µA"
+    ],
+    [
+      "I DDA(OPAMP)",
+      "OPAMP consumption from V DDA",
+      "High- speed mode",
+      "no Load, quiescent mode, follower",
+      "-",
+      "610",
+      "1200",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 3
+    },
+    "_notes": [
+      "1. R LOAD is the resistive load connected to VSSA or to VDDA.",
+      "2. R2 is the internal resistance between the OPAMP output and th OPAMP inverting input. R1 is the internal resistance between the OPAMP inverting input and ground. PGA gain = 1 + R2/R1."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:3"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_185",
+    "is_continued": true,
+    "pages": [
+      279,
+      280,
+      281
+    ],
+    "rows_count": 55,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

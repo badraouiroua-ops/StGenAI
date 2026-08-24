@@ -1,0 +1,171 @@
+{
+  "table_id": "table_66",
+  "caption": "Table 66. Synchronous non-multiplexed NOR/PSRAM read timings",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 144,
+  "merged_pages": [
+    144
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=144",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(CLK)",
+      "FMC_CLK period",
+      "FMC_CLK period",
+      "2T –0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t (CLKL-NExL)",
+      "FMC_CLK low to FMC_NEx low (x=0..2)",
+      "FMC_CLK low to FMC_NEx low (x=0..2)",
+      "-",
+      "3",
+      "ns"
+    ],
+    [
+      "t d(CLKH-NExH)",
+      "FMC_CLK high to FMC_NEx high (x= 0…2)",
+      "FMC_CLK high to FMC_NEx high (x= 0…2)",
+      "T +1.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(CLKL-NADVL)",
+      "FMC_CLK low to FMC_NADV low",
+      "1.62 V <V < 3.6 V DD",
+      "-",
+      "5.5",
+      "ns"
+    ],
+    [
+      "t d(CLKL-NADVL)",
+      "FMC_CLK low to FMC_NADV low",
+      "2.7 V <V < 3.6 V DD",
+      "-",
+      "2.0",
+      "ns"
+    ],
+    [
+      "t d(CLKL-NADVH)",
+      "FMC_CLK low to FMC_NADV high",
+      "1.62 V <V < 3.6 V DD",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(CLKL-NADVH)",
+      "FMC_CLK low to FMC_NADV high",
+      "2.7 V <V < 3.6 V DD",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(CLKL-AV)",
+      "FMC_CLK low to FMC_Ax valid (x=16…25)",
+      "FMC_CLK low to FMC_Ax valid (x=16…25)",
+      "-",
+      "3",
+      "ns"
+    ],
+    [
+      "t d(CLKH-AIV)",
+      "FMC_CLK high to FMC_Ax invalid (x=16…25)",
+      "FMC_CLK high to FMC_Ax invalid (x=16…25)",
+      "T fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(CLKL-NOEL)",
+      "FMC_CLK ow to FMC_NOE low",
+      "FMC_CLK ow to FMC_NOE low",
+      "-",
+      "2.5",
+      "ns"
+    ],
+    [
+      "t d(CLKH-NOEH)",
+      "FMC_CLK high to FMC_NOE high",
+      "FMC_CLK high to FMC_NOE high",
+      "T +1 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(DV-CLKH)",
+      "FMC_D[15:0] valid data before FMC_CLK high",
+      "FMC_D[15:0] valid data before FMC_CLK high",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(CLKH-DV)",
+      "FMC_D[15:0] valid data after FMC_CLK high",
+      "FMC_D[15:0] valid data after FMC_CLK high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t (NWAIT-CLKH)",
+      "FMC_NWAIT valid before FMC_CLK high",
+      "FMC_NWAIT valid before FMC_CLK high",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(CLKH-NWAIT)",
+      "FMC_NWAIT valid after FMC_CLK high",
+      "FMC_NWAIT valid after FMC_CLK high",
+      "2.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. 144/236 DS13313 Rev 5"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_66",
+    "is_continued": false,
+    "pages": [
+      144
+    ],
+    "rows_count": 15,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

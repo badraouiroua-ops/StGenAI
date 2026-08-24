@@ -1,0 +1,223 @@
+{
+  "table_id": "table_129",
+  "caption": "Table 129. Thermal characteristics",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 239,
+  "merged_pages": [
+    239,
+    240
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=239",
+  "section": "7.7 Thermal characteristics",
+  "headers": [
+    "Symbol",
+    "Definition",
+    "Parameter",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "Thermal resistance junction-ambient LQFP144 - 20 x 20 mm /0.5 mm pitch",
+      "43.7",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+      "43.0",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "Thermal resistance junction-ambient LQFP208 - 28 x 28 mm /0.5 mm pitch",
+      "42.4",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "Thermal resistance junction-ambient UFBGA176+25 - 10 x 10 mm /0.65 mm pitch",
+      "37.4",
+      "°C/W"
+    ],
+    [
+      "Θ JA",
+      "Thermal resistance junction-ambient",
+      "Thermal resistance junction-ambient TFBGA240+25 - 14 x 14 mm / 0.8 mm pitch",
+      "36.6",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-ambient LQFP144 - 20 x 20 mm /0.5 mm pitch",
+      "11.3",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+      "11.2",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-ambient LQFP208 - 28 x 28 mm /0.5 mm pitch",
+      "11.1",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-ambient UFBGA176+25 - 10 x 10 mm /0.65 mm pitch",
+      "23.9",
+      "°C/W"
+    ],
+    [
+      "Θ JC",
+      "Thermal resistance junction-case",
+      "Thermal resistance junction-ambient TFBGA240+25 - 14 x 14 mm / 0.8 mm pitch",
+      "7.4",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-ambient LQFP144 - 20 x 20 mm /0.5 mm pitch",
+      "38.3",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+      "39.4",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-ambient LQFP208 - 28 x 28 mm /0.5 mm pitch",
+      "40.3",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-ambient UFBGA176+25 - 10 x 10 mm /0.65 mm pitch",
+      "19.3",
+      "°C/W"
+    ],
+    [
+      "Θ JB",
+      "Thermal resistance junction-board",
+      "Thermal resistance junction-ambient TFBGA240+25 - 14 x 14 mm / 0.8 mm pitch",
+      "24.3",
+      "°C/W"
+    ],
+    [
+      "8 Or",
+      "deri",
+      "ng informa",
+      "tion",
+      "tion"
+    ],
+    [
+      "Example:",
+      "",
+      "-",
+      "-",
+      "tion"
+    ],
+    [
+      "Device family",
+      "",
+      "-",
+      "-",
+      "tion"
+    ],
+    [
+      "STM32 = Arm-base",
+      "d 32-bit",
+      "microcontroller",
+      "microcontroller",
+      "tion"
+    ],
+    [
+      "Product type",
+      "",
+      "-",
+      "-",
+      "tion"
+    ],
+    [
+      "H = High performan",
+      "ce",
+      "ce",
+      "ce",
+      "tion"
+    ],
+    [
+      "Device subfamily",
+      "",
+      "-",
+      "-",
+      "tion"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.2255,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 5,
+      "cont_cols_raw": 5,
+      "target_cols": 5,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": true,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "spanning_check": {
+      "header_has_dup": false,
+      "category_repeats": 12,
+      "likely_missing_span": true
+    },
+    "_notes": [
+      "1. The tape and reel packing is not available on all packages. For a list of available options (such as speed and package) or for further information on any"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_129",
+    "is_continued": true,
+    "pages": [
+      239,
+      240
+    ],
+    "rows_count": 22,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.2255
+  }
+}

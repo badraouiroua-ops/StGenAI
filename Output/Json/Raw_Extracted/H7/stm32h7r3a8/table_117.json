@@ -1,0 +1,105 @@
+{
+  "table_id": "table_117",
+  "caption": "Table 117. LTDC characteristics",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 261,
+  "merged_pages": [
+    261
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=261",
+  "section": "6.3.30 LCD-TFT controller (LTDC) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Parameter",
+    "Min",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "1.71<V <3. DD 6 V, 30 pF",
+      "-",
+      "90",
+      "MHz"
+    ],
+    [
+      "D CLK",
+      "LTDC clock output duty cycle",
+      "LTDC clock output duty cycle",
+      "45",
+      "55",
+      "%"
+    ],
+    [
+      "t w(CLKH), t w(CLKL)",
+      "Clock High time, low time",
+      "Clock High time, low time",
+      "t //2-0.5 w(CLK)",
+      "t /2+0.5 w(CLK)",
+      "ns"
+    ],
+    [
+      "t v(DATA)",
+      "Data output valid time",
+      "Data output valid time",
+      "-",
+      "3.5",
+      "ns"
+    ],
+    [
+      "t h(DATA)",
+      "Data output hold time",
+      "Data output hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(HSYNC), t v(VSYNC), t v(DE)",
+      "HSYNC/VSYNC/DE output valid time",
+      "HSYNC/VSYNC/DE output valid time",
+      "-",
+      "3.0",
+      "ns"
+    ],
+    [
+      "t h(HSYNC), t , h(VSYNC) t h(DE)",
+      "HSYNC/VSYNC/DE output hold time",
+      "HSYNC/VSYNC/DE output hold time",
+      "0.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "2. At VOS Low, these values are degraded by up to 7%. DS14360 Rev 6 261/322"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_117",
+    "is_continued": false,
+    "pages": [
+      261
+    ],
+    "rows_count": 7,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

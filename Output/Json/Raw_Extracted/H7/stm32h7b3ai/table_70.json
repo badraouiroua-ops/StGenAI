@@ -1,0 +1,103 @@
+{
+  "table_id": "table_70",
+  "caption": "Table 70. Pxy_C and Pxy analog switch characteristics",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 122,
+  "merged_pages": [
+    122
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=122",
+  "section": "6.3.16 I/O port characteristics",
+  "headers": [
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "Switch impedance",
+      "Switch control boosted",
+      "Switch control boosted",
+      "-",
+      "-",
+      "315",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "VDDSWITCH > 2.7 V",
+      "-",
+      "-",
+      "315",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "VDDSWITCH > 2.4 V",
+      "-",
+      "-",
+      "335",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "VDDSWITCH > 2.0 V",
+      "-",
+      "-",
+      "390",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "VDDSWITCH > 1.8 V",
+      "-",
+      "-",
+      "445",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "VDDSWITCH > 1.62 V",
+      "-",
+      "-",
+      "550",
+      "Ω"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_70",
+    "is_continued": false,
+    "pages": [
+      122
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

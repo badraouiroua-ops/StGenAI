@@ -1,0 +1,58 @@
+{
+  "table_id": "table_128",
+  "caption": "Table 128. Document revision history",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 233,
+  "merged_pages": [
+    233
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=233",
+  "section": "9 Important security notice",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "10-Jul-2020",
+      "1",
+      "Initial release."
+    ],
+    [
+      "03-Sep-2020",
+      "2",
+      "Renamed Section 3.30 into True random number generator (RNG). Replaced V by V in Section 6: Electrical characteristics. DDIOx DD Updated I in Table 10: Current characteristics. IO Updated Table 24: Typical current consumption in Autonomous mode, Table 27: Typical and maximum current consumption in Standby mode and Table 28: Typical and maximum current consumption in VBAT mode. Added Section 6.3.15: I/O current injection characteristics. Removed reference to PI8 in Table 52: Output voltage characteristics for all I/Os except PC13, PC14 and PC15 and Table 53: Output voltage characteristics for PC13, PC14 and PC15. Added Section 6.3.15: I/O current injection characteristics. Added Section : Analog switch between ports Pxy_C and Pxy."
+    ],
+    [
+      "07-Dec-2021",
+      "3",
+      "Added indication that patents apply to the devices in Section : Features. Added reference to errata sheet in Section 1: Introduction. Table 1: STM32H723xE/G features and peripheral counts: – Changed number of general-purpose 32-bit timers to 4. – For LQFP100 and TFBGA100 packages, replaced 2 Octo-SPI/Quad-SPI interfaces by 1 and remove note. In Section 3.7.1: Power supply scheme, changed V power supply DD requirements. Section 3.34: Universal synchronous/asynchronous receiver transmitter (USART): changed USART communication speed to 17 Mbit/s Table 7: STM32H723 pin and ball descriptions: – Added Note 1.to the package pin/balls corresponding to Pxy_C. – For PA15(JTDI), replaced SPI3_NSS/I2S3_WS alternate function by SPI3_NSS(boot)/I2S3_WS. Moved LSI clock from backup domain to VDD domain in Figure 10: Power supply scheme. Added V in Table 12: General operating conditions. BAT Updated Table 15: Operating conditions at power-up/power-down title and added t .Added t in Table 15: Operating conditions at power- VCORE VCORE up/power-down. Updated measurement conditions for Typical and maximum current consumption. Section : On-chip peripheral current consumption: updated measurement conditions and Table 29: Peripheral current consumption in Run mode. Updated Table 31: High-speed external user clock characteristics. Changed unit for PLL long-term jitter in Table 39: PLL1 characteristics (wide VCO frequency range). Renamed I into I in Table 51: I/O static characteristics. LEAK lkg"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_128",
+    "is_continued": false,
+    "pages": [
+      233
+    ],
+    "rows_count": 3,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

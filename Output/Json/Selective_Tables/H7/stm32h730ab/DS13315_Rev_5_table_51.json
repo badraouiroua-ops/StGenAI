@@ -1,0 +1,71 @@
+{
+  "table_id": "table_51",
+  "document": "DS13315 Rev 5 - Table 51. ESD absolute maximum ratings",
+  "rev": "Rev 5",
+  "table_number": "51",
+  "title": "Table 51. ESD absolute maximum ratings",
+  "page": 149,
+  "section": "6.3.15 Absolute maximum ratings (electrical sensitivity)",
+  "section_title": "Absolute maximum ratings (electrical sensitivity)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=149",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "text_helper": "Table 51. ESD absolute maximum ratings — section 6.3.15 Absolute maximum ratings (electrical sensitivity). Symbol, Ratings, Conditions, Packages, Class, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Conditions",
+      "Packages",
+      "Class",
+      "Maximum value(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V ESD(HBM)",
+        "Electrostatic discharge voltage (human body model)",
+        "T = 25 °C conforming to A ANSI/ESDA/JEDEC JS-001",
+        "Packages with SMPS",
+        "1C",
+        "1000(2)",
+        "V"
+      ],
+      [
+        "V ESD(HBM)",
+        "Electrostatic discharge voltage (human body model)",
+        "T = 25 °C conforming to A ANSI/ESDA/JEDEC JS-001",
+        "Packages without SMPS",
+        "2",
+        "2000",
+        "V"
+      ],
+      [
+        "V ESD(CDM)",
+        "Electrostatic discharge voltage (charge device model)",
+        "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS-002",
+        "All LQFP packages",
+        "C1",
+        "250",
+        "V"
+      ],
+      [
+        "V ESD(CDM)",
+        "Electrostatic discharge voltage (charge device model)",
+        "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS-002",
+        "All BGA and WLCSP packages",
+        "C2a",
+        "500",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Excluding V ,the maximum value is 2000 V. FBSMPS"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

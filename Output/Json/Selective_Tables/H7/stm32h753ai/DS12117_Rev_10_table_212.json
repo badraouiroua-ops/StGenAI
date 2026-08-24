@@ -1,0 +1,43 @@
+{
+  "table_id": "table_212",
+  "document": "DS12117 Rev 10 - Table 212. UFBGA169 - Example of PCB design rules (0.5 mm pitch BGA)",
+  "rev": "Rev 10",
+  "table_number": "212",
+  "title": "Table 212. UFBGA169 - Example of PCB design rules (0.5 mm pitch BGA)",
+  "page": 330,
+  "section": "8.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=330",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 212. UFBGA169 - Example of PCB design rules (0.5 mm pitch BGA) — section 8.1 Device marking. Dimension, Values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.5 mm"
+      ],
+      [
+        "Dpad",
+        "0.27 mm"
+      ],
+      [
+        "Dsm",
+        "0.35 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Solder paste",
+        "0.27 mm aperture diameter."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

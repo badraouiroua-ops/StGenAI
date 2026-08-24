@@ -1,0 +1,88 @@
+{
+  "table_id": "table_58",
+  "document": "DS13139 Rev 8 - Table 58. Flash memory programming",
+  "rev": "Rev 8",
+  "table_number": "58",
+  "title": "Table 58. Flash memory programming",
+  "page": 114,
+  "section": "6.3.12 Memory characteristics",
+  "section_title": "Memory characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=114",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 58. Flash memory programming — section 6.3.12 Memory characteristics. Symbol, Parameter, Conditions, Min(1), Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min(1)",
+      "Typ",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tprog",
+        "Word program time",
+        "128 bits (user area)",
+        "-",
+        "-",
+        "20",
+        "µs"
+      ],
+      [
+        "tprog",
+        "Word program time",
+        "16 bits (OTP area)",
+        "-",
+        "-",
+        "20",
+        "µs"
+      ],
+      [
+        "tERASE8KB",
+        "Sector erase time (8 Kbytes)",
+        "-",
+        "-",
+        "-",
+        "2.2",
+        "ms"
+      ],
+      [
+        "tME",
+        "Singe-bank mass erase time",
+        "Singe-bank mass erase time",
+        "-",
+        "-",
+        "10",
+        "ms"
+      ],
+      [
+        "tME",
+        "Dual-bank mass erase time",
+        "Dual-bank mass erase time",
+        "-",
+        "-",
+        "10",
+        "ms"
+      ],
+      [
+        "Vprog",
+        "Programming voltage",
+        "Programming voltage",
+        "1.62",
+        "-",
+        "3.6",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

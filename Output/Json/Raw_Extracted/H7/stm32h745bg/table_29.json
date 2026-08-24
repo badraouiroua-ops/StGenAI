@@ -1,0 +1,174 @@
+{
+  "table_id": "table_29",
+  "caption": "Table 29. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, only Arm Cortex-M7 running, cache OFF, LDO regulator ON",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 115,
+  "merged_pages": [
+    115
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=115",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "f CPU1 (MHz)",
+    "Typ",
+    "Max(2) / Tj=25° C",
+    "Max(2) / Tj=85° C",
+    "Max(2) / Tj=105 °C",
+    "Max(2) / Tj=125 °C",
+    "Max(2) / Tj=140 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS0",
+      "480",
+      "87",
+      "157",
+      "259",
+      "342",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1",
+      "400",
+      "73",
+      "123",
+      "201",
+      "267",
+      "355",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS2",
+      "300",
+      "52",
+      "85",
+      "150",
+      "204",
+      "277",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "200",
+      "34",
+      "54",
+      "109",
+      "152",
+      "212",
+      "284",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS0",
+      "480",
+      "168",
+      "276",
+      "390",
+      "504",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS1",
+      "400",
+      "135",
+      "224",
+      "308",
+      "397",
+      "519",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS2",
+      "300",
+      "100",
+      "154",
+      "228",
+      "301",
+      "401",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS3",
+      "200",
+      "70",
+      "103",
+      "167",
+      "226",
+      "307",
+      "407",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 12,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 12,
+    "_notes": [
+      "2. Guaranteed by characterization results, unless otherwise specified."
+    ],
+    "_legend": [
+      "running from flash memory, only Arm Cortex-M7 running, cache OFF,",
+      "LDO regulator ON(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_29",
+    "is_continued": false,
+    "pages": [
+      115
+    ],
+    "rows_count": 8,
+    "cols_count": 12,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

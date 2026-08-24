@@ -1,0 +1,133 @@
+{
+  "table_id": "table_21",
+  "caption": "Table 21. Voltage characteristics",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 153,
+  "merged_pages": [
+    153
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=153",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbols",
+    "Ratings",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V -V (1) DDX SS",
+      "External main supply voltage (including V (2)(3)(4), V , V , V , DD DDSMPS DDA DD33USB V (2)(3)(4), V V ) DDXSPIx BAT, REF+",
+      "-0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "(3) V -V DDX SS",
+      "I/O supply when HSLV= 0",
+      "-0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "(3) V -V DDX SS",
+      "I/O supply when HSLV= 1",
+      "-",
+      "2.8",
+      "V"
+    ],
+    [
+      "V (5) IN",
+      "Input voltage on FT_xxx pins",
+      "V -0.3 SS",
+      "MIN (MIN (V , V , V ) DD DDA DD33USB + 4.0 V, 6.0 V )(6)(7)",
+      "V"
+    ],
+    [
+      "V (5) IN",
+      "Input voltage on FT_t in V mode BAT",
+      "V -0.3 SS",
+      "MIN (MIN (V , V , V ) BAT DDA DD33USB + 4.0 V, 6.0 V)",
+      "V"
+    ],
+    [
+      "V (5) IN",
+      "Input voltage on TT_xx pins",
+      "V -0.3 SS",
+      "4.0",
+      "V"
+    ],
+    [
+      "V (5) IN",
+      "Input voltage on BOOT0 pin",
+      "VSS",
+      "9.0",
+      "V"
+    ],
+    [
+      "V (5) IN",
+      "Input voltage on any other pins",
+      "V -0.3 SS",
+      "4.0",
+      "V"
+    ],
+    [
+      "|∆V | DDX",
+      "Variations between different V DDX power pins of the same domain",
+      "-",
+      "50.0",
+      "mV"
+    ],
+    [
+      "|V -V | SSX SS",
+      "Variations between all the different ground pins",
+      "-",
+      "50.0",
+      "mV"
+    ],
+    [
+      "ADD fer V- V",
+      "Allowed voltage difference for V + > ref V DDA",
+      "-",
+      "0.4",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. All main power (V , V , V , V , V ) and ground (V , V ) pins must always be connected to the DD DDA DD33USB DDSMPS BAT SS SSA",
+      "2. If HSLV = 0.",
+      "3. V , V , or V . DD DDXSP1 DDXSP2",
+      "4. HSLV = High-speed low-voltage mode. Refer to General-purpose I/Os (GPIO) section of RM0477.",
+      "5. V maximum must always be respected. Refer to Table 22: Current characteristics. IN",
+      "6. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+      "7. To sustain a voltage higher than 4V the internal pull-up/pull-down resistors must be disabled. DS14360 Rev 6 153/322"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_21",
+    "is_continued": false,
+    "pages": [
+      153
+    ],
+    "rows_count": 11,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

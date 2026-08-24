@@ -1,0 +1,115 @@
+{
+  "table_id": "table_137",
+  "document": "DS14360 Rev 6 - Table 137. Dynamic JTAG characteristics",
+  "rev": "Rev 6",
+  "table_number": "137",
+  "title": "Table 137. Dynamic JTAG characteristics",
+  "page": 283,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=283",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 137. Dynamic JTAG characteristics — section 6.3.33 Communication interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F TCK",
+        "T clock frequency CK",
+        "2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "-",
+        "50",
+        "MHz"
+      ],
+      [
+        "F TCK",
+        "T clock frequency CK",
+        "1.71 ≤ V ≤ 3.6 V DD",
+        "-",
+        "-",
+        "40",
+        "MHz"
+      ],
+      [
+        "ti su(TMS)",
+        "TMS input setup time",
+        "-",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "ti h(TMS)",
+        "TMS input hold time",
+        "-",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "ti su(TDI)",
+        "TDI input setup time",
+        "-",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "ti h(TDI)",
+        "TDI input hold time",
+        "-",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ov(TDO)",
+        "TDO output valid time",
+        "2.7 V <V < 3.6 V DD",
+        "-",
+        "9",
+        "10",
+        "ns"
+      ],
+      [
+        "t ov(TDO)",
+        "TDO output valid time",
+        "1.71 <V < 3.6 V DD",
+        "-",
+        "10",
+        "12.5",
+        "ns"
+      ],
+      [
+        "t oh(TDO)",
+        "TDO output hold time",
+        "-",
+        "8",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS low, these values are degraded by up to 7%. DS14360 Rev 6 283/322"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "table_id": "table_1",
+  "document": "DS12117 Rev 10 - Table 1. Device summary",
+  "rev": "Rev 10",
+  "table_number": "1",
+  "title": "Table 1. Device summary",
+  "page": 2,
+  "section": "4 DMA controllers to unload the CPU resolution)",
+  "section_title": "DMA controllers to unload the CPU resolution)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 1. Device summary — section 4 DMA controllers to unload the CPU resolution). Reference, Part number.",
+  "table_content": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H753xI",
+        "STM32H753VI"
+      ],
+      [
+        "STM32H753xI",
+        "STM32H753ZI"
+      ],
+      [
+        "STM32H753xI",
+        "STM32H753II"
+      ],
+      [
+        "STM32H753xI",
+        "STM32H753BI"
+      ],
+      [
+        "STM32H753xI",
+        "STM32H753XI"
+      ],
+      [
+        "STM32H753xI",
+        "STM32H753AI"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

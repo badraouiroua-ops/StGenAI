@@ -1,0 +1,58 @@
+{
+  "table_id": "table_216",
+  "caption": "Table 216. Document revision history",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 328,
+  "merged_pages": [
+    328
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=328",
+  "section": "11 Revision history",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "8102 -yaM-12",
+      "1",
+      "Initial release."
+    ],
+    [
+      "29-Jun-2018",
+      "2",
+      "Changed datasheet status to \"production data\". Added description of power-up and power-down phases in Section 3.5.1: Power supply scheme. Updated Table 44: HSI48 oscillator characteristics, Table 45: HSI oscillator characteristics and Table 46: CSI oscillator characteristics. Renamed Table 48 into \"PLL characteristics (wide VCO frequency range)\" and updated note 2.. Added Table 49: PLL characteristics (medium VCO frequency range). Updated t in Table 92: V monitoring characteristics. S_vbat BAT Updated Table 97: OPAMP characteristics."
+    ],
+    [
+      "05-Apr-2019",
+      "3",
+      "Changed maximum Arm Core-M7 frequency to 480 MHz. Features: – Changed operational amplifier bandwidth to 7.3 MHz – Updated high-resolution timer to 2.1 ns – Updated low-power consumption feature Updated voltage scaling in Section 3.5.1: Power supply scheme. Added VOS0 in Section 3.5.3: Voltage regulator. Updated HSE clock in Section 3.7.1: Clock management. Removed ETH_TX_ER from Table 7: STM32H750xB pin/ball definition. Updated Section 6: Electrical characteristics (rev Y): – Added note related to decoupling capacitor tolerance below Figure 11: Power supply scheme. – Added note 2. related to CEXT in Table 23: VCAP operating conditions. – Updated note 2 below Figure 19: Recommended NRST pin protection. – Updated f in Table 44: HSI48 oscillator characteristics. HSI48 – Updated t in Table 45: HSI oscillator characteristics. stab – Removed note 2 in Table 49: PLL characteristics (medium VCO frequency range). – Added Table 60: Output voltage characteristics for PC13, PC14, PC15 and PI8. – Added note related to PC13, PC14, PC15 an PI8 limited frequency in Table 61: Output timing characteristics (HSLV OFF). – Updated T in Table 89: VREFBUF characteristics. coeff – Table 85: ADC characteristics: updated f and added note related to f formula; S S updated t . CAL – Renamed Section 6.3.24 into Temperature and VBAT monitoring and content updated. – Updated f in Table 98: DFSDM measured timing - 1.62-3.6 V. DFSDMCLK Added Section 7: Electrical characteristics (rev V). Updated paragraph introducing all package marking schematics to add the new sentence \"The printed markings may differ depending on the supply chain\". Updated Table 223: Thermal characteristics. Added note related to ECOPACK®2 compliance in Section 9: Ordering information."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_216",
+    "is_continued": false,
+    "pages": [
+      328
+    ],
+    "rows_count": 3,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

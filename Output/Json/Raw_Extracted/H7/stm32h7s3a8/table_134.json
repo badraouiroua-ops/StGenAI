@@ -1,0 +1,108 @@
+{
+  "table_id": "table_134",
+  "caption": "Table 134. OTG_HS current consumption characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 283,
+  "merged_pages": [
+    283
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=283",
+  "section": "6.3.33 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD(OTG_HS)",
+      "USB (PLL and PHY) current consumption at V (2) DD33USB",
+      "Full Speed Transmit(3)",
+      "-",
+      "5.65",
+      "6.02",
+      "mA"
+    ],
+    [
+      "I DD(OTG_HS)",
+      "USB (PLL and PHY) current consumption at V (2) DD33USB",
+      "High Speed Idle(3)",
+      "-",
+      "5.66",
+      "6.00",
+      "mA"
+    ],
+    [
+      "I DD(OTG_HS)",
+      "USB (PLL and PHY) current consumption at V (2) DD33USB",
+      "High Speed Transmit(3)",
+      "-",
+      "14.6",
+      "14.92",
+      "mA"
+    ],
+    [
+      "I DD_DVDD(OTG_HS)",
+      "USB (PLL and PHY) current consumption at D (4) VDD",
+      "Full Speed Transmit(3)",
+      "-",
+      "6.00",
+      "10.59",
+      "mA"
+    ],
+    [
+      "I DD_DVDD(OTG_HS)",
+      "USB (PLL and PHY) current consumption at D (4) VDD",
+      "High Speed Idle(3)",
+      "-",
+      "5.93",
+      "10.51",
+      "mA"
+    ],
+    [
+      "I DD_DVDD(OTG_HS)",
+      "USB (PLL and PHY) current consumption at D (4) VDD",
+      "High Speed Transmit(3)",
+      "-",
+      "6.87",
+      "11.98",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. Measured on VDD33USB. See Table 133: USB OTG_HS DC electrical characteristics.",
+      "3. Suspend when operating in Device mode with no far-side host termination on DP/DM during measurements.",
+      "4. Measured on DVDD. See Table 26: General operating conditions. UCPD characteristics"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_134",
+    "is_continued": false,
+    "pages": [
+      283
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

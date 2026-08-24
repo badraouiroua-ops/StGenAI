@@ -1,0 +1,99 @@
+{
+  "table_id": "table_116",
+  "document": "DS13195 Rev 8 - Table 116. I2C analog filter characteristics",
+  "rev": "Rev 8",
+  "table_number": "116",
+  "title": "Table 116. I2C analog filter characteristics",
+  "page": 168,
+  "section": "6.3.36 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=168",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 116. I2C analog filter characteristics — section 6.3.36 Communication interfaces. Symbol, Symbol, Parameter, Min(1), Max(1), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Symbol",
+      "Parameter",
+      "Min(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tAF",
+        "tAF",
+        "Maximum pulse width of spikes that are suppressed by analog filter",
+        "50(2)",
+        "260(3)",
+        "ns"
+      ],
+      [
+        "th(RX)",
+        "Data input hold time",
+        "Master mode",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "Slave mode",
+        "Slave mode",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tv(TX)",
+        "Data output valid time",
+        "Slave mode transmitter mode, 1.62 V < VDD < 3.6 V",
+        "-",
+        "15.5",
+        "22"
+      ],
+      [
+        "Slave mode transmitter mode, 2.7 V < VDD < 3.6 V",
+        "Slave mode transmitter mode, 2.7 V < VDD < 3.6 V",
+        "-",
+        "15.5",
+        "17",
+        "22"
+      ],
+      [
+        "Master mode",
+        "Master mode",
+        "-",
+        "1.5",
+        "2",
+        "22"
+      ],
+      [
+        "th(TX)",
+        "Data output hold time",
+        "Slave mode",
+        "12",
+        "-",
+        "22"
+      ],
+      [
+        "Master mode",
+        "Master mode",
+        "1",
+        "-",
+        "-",
+        "22"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. Spikes whose width is lower than tAF(min) are filtered.",
+      "3. Spikes whose width is higer than tAF(max) are not filtered."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

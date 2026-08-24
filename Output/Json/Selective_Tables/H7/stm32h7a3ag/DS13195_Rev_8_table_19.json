@@ -1,0 +1,86 @@
+{
+  "table_id": "table_19",
+  "document": "DS13195 Rev 8 - Table 19. Voltage characteristics",
+  "rev": "Rev 8",
+  "table_number": "19",
+  "title": "Table 19. Voltage characteristics",
+  "page": 80,
+  "section": "6.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=80",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 19. Voltage characteristics — section 6.2 Absolute maximum ratings. Symbols, Ratings, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbols",
+      "Ratings",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "VDDX - VSS",
+        "External main supply voltage (including VDD, VDDLDO, VDDSMPS, VDDA, VDD33USB, VDDMMC, VBAT, VREF+)",
+        "-0.3",
+        "4.0",
+        "V"
+      ],
+      [
+        "VIN(1)",
+        "Input voltage on FT_xxx pins",
+        "VSS-0.3",
+        "Min(VDD, VDDA, VDD33USB, VDDMMC, VBAT) +4.0(2)(3)",
+        "V"
+      ],
+      [
+        "VIN(1)",
+        "Input voltage on TT_xx pins",
+        "VSS-0.3",
+        "4.0",
+        "V"
+      ],
+      [
+        "VIN(1)",
+        "Input voltage on BOOT0 pin",
+        "VSS",
+        "9.0",
+        "V"
+      ],
+      [
+        "VIN(1)",
+        "Input voltage on any other pins",
+        "VSS-0.3",
+        "4.0",
+        "V"
+      ],
+      [
+        "|ΔVDDX|",
+        "Variations between different VDDX power pins of the same domain",
+        "-",
+        "50",
+        "mV"
+      ],
+      [
+        "|VSSx-VSS|",
+        "Variations between all the different ground pins",
+        "-",
+        "50",
+        "mV"
+      ]
+    ],
+    "notes": [
+      "1. 100 nF filtering capacitor on each package pin.",
+      "2. A tolerance of +/- 20% is acceptable on decoupling capacitors. Note: Refer to Getting started with STM32H7A3/7B3 and STM32H7B0 hardware development(AN5307) for more",
+      "3. This formula has to be applied on power supplies related to the I/O structure described by the pin definition table."
+    ],
+    "legend": [
+      "All main power (VDD, VDDA, VDD33USB, VDDMMC, VDDSMPS, VBAT) and ground (VSS, VSSA) pins must always be connected to the",
+      "external power supply, in the permitted range."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

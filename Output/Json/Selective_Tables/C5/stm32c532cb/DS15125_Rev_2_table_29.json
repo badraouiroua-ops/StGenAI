@@ -121,6 +121,42 @@
         "-",
         "445",
         "µs"
+      ],
+      [
+        "DuCyHSE",
+        "OSC_IN duty cycle",
+        "Digital mode (HSEYBYP = 1, HSEEXT = 1)",
+        "45",
+        "-",
+        "55",
+        "%"
+      ],
+      [
+        "VHSE_ext_PP",
+        "OSC_IN peak-to-peak amplitude",
+        "Analog mode (HSEBYP = 1, HSEEXT = 0)",
+        "0.2",
+        "-",
+        "2/3 VDD",
+        "V"
+      ],
+      [
+        "VHSE_ext",
+        "OSC_IN input range",
+        "OSC_IN input range",
+        "0",
+        "-",
+        "VDD",
+        "V"
+      ],
+      [
+        "tr(HSE), tf(HSE)",
+        "OSC_IN rise and fall time",
+        "OSC_IN rise and fall time",
+        "0.05 / fext_ext",
+        "-",
+        "0.3 / fext_ext",
+        "ns"
       ]
     ],
     "notes": [

@@ -1,0 +1,79 @@
+{
+  "table_id": "table_28",
+  "caption": "Table 28. Peripheral current consumption in Stop, Standby and VBAT mode",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 111,
+  "merged_pages": [
+    111
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=111",
+  "section": "6.3.6 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Typ / 3 V",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "RTC+LSE low drive",
+      "-",
+      "2.32",
+      "µA"
+    ],
+    [
+      "I DD",
+      "RTC+LSE medium- low drive",
+      "-",
+      "2.4",
+      "µA"
+    ],
+    [
+      "I DD",
+      "RTC+LSE medium- high drive",
+      "-",
+      "2.7",
+      "µA"
+    ],
+    [
+      "I DD",
+      "RTC+LSE High drive",
+      "-",
+      "3",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. 112/335 DS12556 Rev 8"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_28",
+    "is_continued": false,
+    "pages": [
+      111
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

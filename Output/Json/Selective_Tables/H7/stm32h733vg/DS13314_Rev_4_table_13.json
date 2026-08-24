@@ -1,0 +1,97 @@
+{
+  "table_id": "table_13",
+  "document": "DS13314 Rev 4 - Table 13. Supply voltage and maximum temperature configuration",
+  "rev": "Rev 4",
+  "table_number": "13",
+  "title": "Table 13. Supply voltage and maximum temperature configuration",
+  "page": 93,
+  "section": "6.3.1 General operating conditions",
+  "section_title": "General operating conditions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=93",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 13. Supply voltage and maximum temperature configuration — section 6.3.1 General operating conditions. Power scale, V source CORE, Max. T (°C) J, Min. V (V) DD, Min. V (V) DDLDO.",
+  "table_content": {
+    "headers": [
+      "Power scale",
+      "V source CORE",
+      "Max. T (°C) J",
+      "Min. V (V) DD",
+      "Min. V (V) DDLDO"
+    ],
+    "rows": [
+      [
+        "VOS0",
+        "LDO",
+        "105",
+        "1.7",
+        "1.7"
+      ],
+      [
+        "VOS0",
+        "External (Bypass)",
+        "105",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS1",
+        "LDO",
+        "125",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "VOS1",
+        "External (Bypass)",
+        "125",
+        "-",
+        "-"
+      ],
+      [
+        "VOS2 or VOS3",
+        "LDO",
+        "125",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "VOS2 or VOS3",
+        "External (Bypass)",
+        "125",
+        "-",
+        "-"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "LDO",
+        "125",
+        "2",
+        "2"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "LDO",
+        "105",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "External (Bypass)",
+        "125",
+        "1.62",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated.",
+      "3. If a third VCAP pin is available on the package, it must be connected to the other VCAP pins but no additional capacitor is required."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

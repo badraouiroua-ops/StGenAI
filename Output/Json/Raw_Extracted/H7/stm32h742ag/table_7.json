@@ -1,0 +1,106 @@
+{
+  "table_id": "table_7",
+  "caption": "Table 7. Flash memory and SRAM memory mapping for STM32H742xI/G",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 54,
+  "merged_pages": [
+    54
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=54",
+  "section": "3.43 Debug infrastructure",
+  "headers": [
+    "",
+    "Memory",
+    "Size in Kbytes",
+    "Start address"
+  ],
+  "rows": [
+    [
+      "RAM area",
+      "Backup SRAM",
+      "4",
+      "0x3880 0000"
+    ],
+    [
+      "RAM area",
+      "SRAM4",
+      "64",
+      "0x3800 0000"
+    ],
+    [
+      "RAM area",
+      "SRAM2",
+      "16",
+      "0x3002 0000"
+    ],
+    [
+      "RAM area",
+      "SRAM1",
+      "32",
+      "0x3000 0000"
+    ],
+    [
+      "RAM area",
+      "AXI-SRAM",
+      "384",
+      "0x2400 0000"
+    ],
+    [
+      "RAM area",
+      "DTCM",
+      "128",
+      "0x2000 0000"
+    ],
+    [
+      "Code area",
+      "System memory 2",
+      "-",
+      "0x1FF4 0000"
+    ],
+    [
+      "Code area",
+      "System memory",
+      "-",
+      "0x1FF0 0000"
+    ],
+    [
+      "Code area",
+      "Flash memory",
+      "2048",
+      "0x0800 0000"
+    ],
+    [
+      "Code area",
+      "ITCM",
+      "64",
+      "0x0000 0000"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_7",
+    "is_continued": false,
+    "pages": [
+      54
+    ],
+    "rows_count": 10,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

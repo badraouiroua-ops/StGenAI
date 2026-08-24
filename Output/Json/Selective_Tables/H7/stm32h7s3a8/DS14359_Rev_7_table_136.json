@@ -1,0 +1,65 @@
+{
+  "table_id": "table_136",
+  "document": "DS14359 Rev 7 - Table 136. Dynamic characteristics: Ethernet MAC signals for SMI",
+  "rev": "Rev 7",
+  "table_number": "136",
+  "title": "Table 136. Dynamic characteristics: Ethernet MAC signals for SMI",
+  "page": 284,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=284",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 136. Dynamic characteristics: Ethernet MAC signals for SMI — section 6.3.33 Communication interfaces. Symbol, Parameter, Min, Typ, Max(2), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t MDC",
+        "MDC cycle time( 2.5 MHz)",
+        "400",
+        "400",
+        "400",
+        "ns"
+      ],
+      [
+        "T d(MDIO)",
+        "Write data valid time",
+        "0",
+        "1",
+        "1.5",
+        "ns"
+      ],
+      [
+        "t su(MDIO)",
+        "Read data setup time",
+        "12.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(MDIO)",
+        "Read data hold time",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS low, these values are degraded by up to 7%."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "table_id": "table_118",
+  "caption": "Table 118. Dynamics JTAG characteristics",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 220,
+  "merged_pages": [
+    220
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=220",
+  "section": "6.3.33 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F pp",
+      "T clock frequency CK",
+      "2.7V <V < 3.6 V DD",
+      "-",
+      "-",
+      "37",
+      "MHz"
+    ],
+    [
+      "1/t c(TCK)",
+      "T clock frequency CK",
+      "1.62 <V < 3.6 V DD",
+      "-",
+      "-",
+      "27.5",
+      "MHz"
+    ],
+    [
+      "ti su(TMS)",
+      "TMS input setup time",
+      "-",
+      "2.5",
+      "-",
+      "-",
+      "MHz"
+    ],
+    [
+      "ti h(TMS)",
+      "TMS input hold time",
+      "-",
+      "1",
+      "-",
+      "-",
+      "MHz"
+    ],
+    [
+      "ti su(TDI)",
+      "TDI input setup time",
+      "-",
+      "1.5",
+      "-",
+      "-",
+      "MHz"
+    ],
+    [
+      "ti h(TDI)",
+      "TDI input hold time",
+      "-",
+      "1",
+      "-",
+      "-",
+      "MHz"
+    ],
+    [
+      "t ov(TDO)",
+      "TDO output valid time",
+      "2.7V <V < 3.6 V DD",
+      "-",
+      "8",
+      "13.5",
+      "MHz"
+    ],
+    [
+      "t ov(TDO)",
+      "TDO output valid time",
+      "1.62 <V < 3.6 V DD",
+      "-",
+      "8",
+      "18",
+      "MHz"
+    ],
+    [
+      "t oh(TDO)",
+      "TDO output hold time",
+      "-",
+      "7",
+      "-",
+      "-",
+      "MHz"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_118",
+    "is_continued": false,
+    "pages": [
+      220
+    ],
+    "rows_count": 9,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

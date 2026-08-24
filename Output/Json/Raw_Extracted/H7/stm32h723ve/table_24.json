@@ -1,0 +1,70 @@
+{
+  "table_id": "table_24",
+  "caption": "Table 24. Typical current consumption in Autonomous mode",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 101,
+  "merged_pages": [
+    101
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=101",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "f rcc_c_c k (MHz)",
+    "Typ",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current in Autonous mode",
+      "Run, D1Stop, D2Stop",
+      "VOS3",
+      "64",
+      "3.6",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Autonous mode",
+      "Run, D1Standby, D2Standby",
+      "VOS3",
+      "64",
+      "2.6",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. CPU_FREQ_BOOST is enabled. DS13313 Rev 5 101/236",
+      "3. The LSE is in Low-drive mode. I/O system current consumption"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_24",
+    "is_continued": false,
+    "pages": [
+      101
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

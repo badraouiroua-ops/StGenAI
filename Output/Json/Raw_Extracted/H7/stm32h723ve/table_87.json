@@ -1,0 +1,317 @@
+{
+  "table_id": "table_87",
+  "caption": "Table 87. DAC accuracy",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 179,
+  "merged_pages": [
+    179,
+    180
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=179",
+  "section": "6.3.23 DAC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "DNL",
+      "Differential non linearity(2)",
+      "DAC output buffer ON",
+      "DAC output buffer ON",
+      "-2",
+      "-",
+      "2",
+      "LSB"
+    ],
+    [
+      "DNL",
+      "Differential non linearity(2)",
+      "DAC output buffer OFF",
+      "DAC output buffer OFF",
+      "-2",
+      "-",
+      "2",
+      "LSB"
+    ],
+    [
+      "-",
+      "Monotonicity",
+      "10 bits",
+      "10 bits",
+      "-",
+      "-",
+      "-",
+      "LSB"
+    ],
+    [
+      "INL",
+      "Integral non linearity(3)",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀ L",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀ L",
+      "-4",
+      "-",
+      "4",
+      "LSB"
+    ],
+    [
+      "INL",
+      "Integral non linearity(3)",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "-4",
+      "-",
+      "4",
+      "LSB"
+    ],
+    [
+      "Offset",
+      "Offset error at code 0x800 (3)",
+      "DAC output buffer ON, C L ≤ 50 pF, R ≥ 5 ㏀ L",
+      "V = 3.6 V REF+",
+      "-",
+      "-",
+      "±12",
+      "LSB"
+    ],
+    [
+      "Offset",
+      "Offset error at code 0x800 (3)",
+      "DAC output buffer ON, C L ≤ 50 pF, R ≥ 5 ㏀ L",
+      "V = 1.8 V REF+",
+      "-",
+      "-",
+      "±25",
+      "LSB"
+    ],
+    [
+      "Offset",
+      "Offset error at code 0x800 (3)",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "-",
+      "-",
+      "±8",
+      "LSB"
+    ],
+    [
+      "Offset1",
+      "Offset error at code 0x001(4)",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "-",
+      "-",
+      "±5",
+      "LSB"
+    ],
+    [
+      "OffsetCal",
+      "Offset error at code 0x800 after factory calibration",
+      "DAC output buffer ON, C L ≤ 50 pF, R ≥ 5 ㏀ L",
+      "V = 3.6 V REF+",
+      "-",
+      "-",
+      "±5",
+      "LSB"
+    ],
+    [
+      "OffsetCal",
+      "Offset error at code 0x800 after factory calibration",
+      "DAC output buffer ON, C L ≤ 50 pF, R ≥ 5 ㏀ L",
+      "V = 1.8 V REF+",
+      "-",
+      "-",
+      "±7",
+      "LSB"
+    ],
+    [
+      "Gain",
+      "Gain error(5)",
+      "DAC output buffer ON,C L≤50 pF, R ≥ 5 ㏀ L",
+      "DAC output buffer ON,C L≤50 pF, R ≥ 5 ㏀ L",
+      "-",
+      "-",
+      "±1",
+      "%"
+    ],
+    [
+      "Gain",
+      "Gain error(5)",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "-",
+      "-",
+      "±1",
+      "%"
+    ],
+    [
+      "TUE",
+      "Total unadjusted error",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀ L",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀ L",
+      "-",
+      "-",
+      "±30",
+      "LSB"
+    ],
+    [
+      "TUE",
+      "Total unadjusted error",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L",
+      "-",
+      "-",
+      "±12",
+      "LSB"
+    ],
+    [
+      "TUECal",
+      "Total unadjusted error after calibration",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀ L",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀ L",
+      "-",
+      "-",
+      "±23",
+      "LSB"
+    ],
+    [
+      "SNR",
+      "Signal-to-noise ratio(6)",
+      "DAC output buffer ON,C L ≤ 50 pF, R ≥ 5 ㏀, 1 kHz, BW = 500 KHz L",
+      "DAC output buffer ON,C L ≤ 50 pF, R ≥ 5 ㏀, 1 kHz, BW = 500 KHz L",
+      "-",
+      "67.8",
+      "-",
+      "dB"
+    ],
+    [
+      "SNR",
+      "Signal-to-noise ratio(6)",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L ,1 kHz, BW = 500 KHz",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L ,1 kHz, BW = 500 KHz",
+      "-",
+      "67.8",
+      "-",
+      "dB"
+    ],
+    [
+      "THD",
+      "Total harmonic distortion(6)",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀, 1 kHz L",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀, 1 kHz L",
+      "-",
+      "-78.6",
+      "-",
+      "dB"
+    ],
+    [
+      "THD",
+      "Total harmonic distortion(6)",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L , 1 kHz",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L , 1 kHz",
+      "-",
+      "-78.6",
+      "-",
+      "dB"
+    ],
+    [
+      "SINAD",
+      "Signal-to-noise and distortion ratio(6)",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀, 1 kHz L",
+      "DAC output buffer ON, C L≤50 pF, R ≥ 5 ㏀, 1 kHz L",
+      "-",
+      "67.5",
+      "-",
+      "dB"
+    ],
+    [
+      "SINAD",
+      "Signal-to-noise and distortion ratio(6)",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L , 1 kHz",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L , 1 kHz",
+      "-",
+      "67.5",
+      "-",
+      "dB"
+    ],
+    [
+      "ENOB",
+      "Effective number of bits",
+      "DAC output buffer ON, C ≤ 50 pF, R ≥ 5 ㏀, 1 kHz L L",
+      "DAC output buffer ON, C ≤ 50 pF, R ≥ 5 ㏀, 1 kHz L L",
+      "-",
+      "10.9",
+      "-",
+      "bits"
+    ],
+    [
+      "ENOB",
+      "Effective number of bits",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L , 1 kHz",
+      "DAC output buffer OFF, C L ≤ 50 pF, no R L , 1 kHz",
+      "-",
+      "10.9",
+      "-",
+      "bits"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": true,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "spanning_check": {
+      "header_has_dup": false,
+      "category_repeats": 11,
+      "likely_missing_span": true
+    },
+    "_notes": [
+      "2. In buffered mode, the output can overshoot above the final value for low input code (starting from the minimum value).",
+      "3. Refer to Table 51: I/O static characteristics.",
+      "4. T is the refresh phase duration, while T is the hold phase duration. Refer to the product reference manual for more ON OFF",
+      "5. Difference between the ideal slope of the transfer function and the measured slope computed from code 0x000 and 0xFFF when the buffer is OFF, and from code giving 0.2 V and (V - 0.2 V) when the buffer is ON.",
+      "6. Signal is −0.5dBFS with F =1 MHz. sampling"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_87",
+    "is_continued": true,
+    "pages": [
+      179,
+      180
+    ],
+    "rows_count": 24,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

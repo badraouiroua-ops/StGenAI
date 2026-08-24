@@ -4754,26 +4754,6 @@
         "EVENTOUT"
       ],
       [
-        "Port BPort A",
-        "PB7",
-        "AF0",
-        "AF1",
-        "AF2",
-        "AF3",
-        "AF4",
-        "AF5",
-        "AF6",
-        "AF7",
-        "AF8",
-        "AF9",
-        "AF10",
-        "AF11",
-        "AF12",
-        "AF13",
-        "AF14",
-        "AF15"
-      ],
-      [
         "Port",
         "Port",
         "SYS",
@@ -5372,26 +5352,6 @@
         "-",
         "-",
         "EVENTOUT"
-      ],
-      [
-        "PD5",
-        "PD5",
-        "AF0",
-        "AF1",
-        "AF2",
-        "AF3",
-        "AF4",
-        "AF5",
-        "AF6",
-        "AF7",
-        "AF8",
-        "AF9",
-        "AF10",
-        "AF11",
-        "AF12",
-        "AF13",
-        "AF14",
-        "AF15"
       ],
       [
         "Port",
@@ -6094,26 +6054,6 @@
         "EVENTOUT"
       ],
       [
-        "PF7",
-        "PF7",
-        "AF0",
-        "AF1",
-        "AF2",
-        "AF3",
-        "AF4",
-        "AF5",
-        "AF6",
-        "AF7",
-        "AF8",
-        "AF9",
-        "AF10",
-        "AF11",
-        "AF12",
-        "AF13",
-        "AF14",
-        "AF15"
-      ],
-      [
         "Port",
         "Port",
         "SYS",
@@ -6792,7 +6732,7 @@
         60,
         61
       ],
-      "rows_count": 124,
+      "rows_count": 121,
       "cols_count": 18,
       "confidence": "high",
       "empty_cell_ratio": 0.0018

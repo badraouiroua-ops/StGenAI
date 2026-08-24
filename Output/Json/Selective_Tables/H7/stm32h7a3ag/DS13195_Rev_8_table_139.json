@@ -1,0 +1,54 @@
+{
+  "table_id": "table_139",
+  "document": "DS13195 Rev 8 - Table 139. TFBGA225 - Recommended PCB design rules (0.8 mm pitch)",
+  "rev": "Rev 8",
+  "table_number": "139",
+  "title": "Table 139. TFBGA225 - Recommended PCB design rules (0.8 mm pitch)",
+  "page": 212,
+  "section": "7 Package information",
+  "section_title": "Package information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=212",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 139. TFBGA225 - Recommended PCB design rules (0.8 mm pitch) — section 7 Package information. Dimension, Recommended values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Recommended values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.8 mm"
+      ],
+      [
+        "Dpad",
+        "0.400 mm"
+      ],
+      [
+        "Dsm",
+        "0.470 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.400 mm"
+      ],
+      [
+        "Stencil thickness",
+        "Between 0.100 mm and 0.125 mm"
+      ],
+      [
+        "Pad trace width",
+        "0.120 mm"
+      ]
+    ],
+    "notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences resulting",
+      "2. – The terminal A1 corner must be identified on the top surface by using a corner chamfer, ink or metalized markings, or other feature of package body or integral heat slug."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

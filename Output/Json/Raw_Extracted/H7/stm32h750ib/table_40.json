@@ -1,0 +1,88 @@
+{
+  "table_id": "table_40",
+  "caption": "Table 40. Flash memory characteristics",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 121,
+  "merged_pages": [
+    121
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=121",
+  "section": "6.3.11 Memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current",
+      "Write / Erase 8-bit mode",
+      "-",
+      "6.5",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current",
+      "Write / Erase 16-bit mode",
+      "-",
+      "11.5",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current",
+      "Write / Erase 32-bit mode",
+      "-",
+      "20",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current",
+      "Write / Erase 64-bit mode",
+      "-",
+      "35",
+      "-",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design unless otherwise specified.",
+      "2. Guaranteed by characterization results.",
+      "3. Integer mode only."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_40",
+    "is_continued": false,
+    "pages": [
+      121
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

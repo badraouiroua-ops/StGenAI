@@ -1,0 +1,81 @@
+{
+  "table_id": "table_127",
+  "caption": "Table 127. MDIO slave timing parameters",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 275,
+  "merged_pages": [
+    275
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=275",
+  "section": "6.3.33 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F MDC",
+      "Management Data Clock",
+      "-",
+      "-",
+      "30",
+      "MHz"
+    ],
+    [
+      "t d(MDIO)",
+      "Management Data Iput/output output valid time",
+      "6",
+      "8.5",
+      "13",
+      "ns"
+    ],
+    [
+      "t su(MDIO)",
+      "Management Data Iput/output setup time",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MDIO)",
+      "Management Data Iput/output hold time",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "2. At VOS Low, these values are degraded by up to 7%."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_127",
+    "is_continued": false,
+    "pages": [
+      275
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

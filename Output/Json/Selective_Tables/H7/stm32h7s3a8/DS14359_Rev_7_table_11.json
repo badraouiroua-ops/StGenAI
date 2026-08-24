@@ -1,0 +1,112 @@
+{
+  "table_id": "table_11",
+  "document": "DS14359 Rev 7 - Table 11. Accelerated cryptographic operations",
+  "rev": "Rev 7",
+  "table_number": "11",
+  "title": "Table 11. Accelerated cryptographic operations",
+  "page": 58,
+  "section": "3.31.1 Crypto engines features",
+  "section_title": "Crypto engines features",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=58",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 11. Accelerated cryptographic operations — section 3.31.1 Crypto engines features. Operations, Algo- rithm, Specification, Key lengths (in bit), Modes.",
+  "table_content": {
+    "headers": [
+      "Operations",
+      "Algo- rithm",
+      "Specification",
+      "Key lengths (in bit)",
+      "Modes"
+    ],
+    "rows": [
+      [
+        "Get entropy",
+        "RNG",
+        "NIST SP800-90B(1)",
+        "N/A",
+        "Software and hardware(2) modes running in parallel"
+      ],
+      [
+        "Encryption, decryption",
+        "AES",
+        "FIPS PUB 197 NIST SP800-38A",
+        "128, 256",
+        "ECB, CBC, CTR(3)"
+      ],
+      [
+        "Authenticated encryption or decryption",
+        "AES",
+        "NIST SP800-38C NIST SP800-38D",
+        "128, 256",
+        "GCM, CCM"
+      ],
+      [
+        "Cipher-based message authentication code",
+        "AES",
+        "NIST SP800-38D",
+        "128, 256",
+        "GMAC"
+      ],
+      [
+        "Checksum",
+        "SHA-1",
+        "FIPS PUB 180-4",
+        "N/A",
+        "Digest 160-bit"
+      ],
+      [
+        "Cryptographic hash",
+        "SHA-2",
+        "FIPS PUB 180-4",
+        "-",
+        "SHA-224, SHA-256 SHA2-384, SHA2-512"
+      ],
+      [
+        "Keyed-hashing for message authentication",
+        "HMAC",
+        "FIPS PUB 198-1 IETF RFC 2104",
+        "Short, long (>64 bytes)",
+        "-"
+      ],
+      [
+        "Encryption/decryption key-pair generation(4)",
+        "RSA",
+        "IETF RFC 8017 NIST SP800-56B",
+        "Up to 4160",
+        "RSAES-OAEP"
+      ],
+      [
+        "Signature(4) with hashing Signature verification",
+        "RSA",
+        "IETF RFC 8017 FIPS PUB 186-4",
+        "Up to 4160",
+        "PKCS1-v1_5, PSS"
+      ],
+      [
+        "Signature(4) with hashing Signature verification",
+        "ECDSA",
+        "ANSI X9.62 IETF RFC 7027 FIPS PUB 186-4",
+        "Up to 640",
+        "-"
+      ],
+      [
+        "Key agreement",
+        "ECDH",
+        "ANSI X9.42",
+        "Up to 640",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. Certifiable using STMicroelectronics reviewed documents.",
+      "2. Random numbers distribution to SAES and PKA using a dedicated hardware bus.",
+      "3. ECB and CBC chaining modes protected against side-channel and timing attacks in SAES.",
+      "4. Private key cryptography protected against side-channel and timing attacks. Note: Binary curves, Edwards curves and Curve25519 are not supported by the PKA."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

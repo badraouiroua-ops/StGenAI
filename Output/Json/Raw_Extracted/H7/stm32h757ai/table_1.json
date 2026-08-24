@@ -1,0 +1,67 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Device summary",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 2,
+  "merged_pages": [
+    2
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=2",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Reference",
+    "Part number"
+  ],
+  "rows": [
+    [
+      "STM32H757xI",
+      "STM32H757AI"
+    ],
+    [
+      "STM32H757xI",
+      "STM32H757BI"
+    ],
+    [
+      "STM32H757xI",
+      "STM32H757II"
+    ],
+    [
+      "STM32H757xI",
+      "STM32H757XI"
+    ],
+    [
+      "STM32H757xI",
+      "STM32H757ZI"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.773,
+    "cols_extracted": 2,
+    "_legend": [
+      "• 3× ADCs with 16-bit max. resolution (up to 36"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      2
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "table_id": "table_139",
+  "caption": "Table 139. Dynamic JTAG characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 286,
+  "merged_pages": [
+    286
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=286",
+  "section": "6.3.33 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F TCK",
+      "T clock frequency CK",
+      "2.7 V ≤ V ≤ 3.6 V DD",
+      "-",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "F TCK",
+      "T clock frequency CK",
+      "1.71 ≤ V ≤ 3.6 V DD",
+      "-",
+      "-",
+      "40",
+      "MHz"
+    ],
+    [
+      "ti su(TMS)",
+      "TMS input setup time",
+      "-",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "ti h(TMS)",
+      "TMS input hold time",
+      "-",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "ti su(TDI)",
+      "TDI input setup time",
+      "-",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "ti h(TDI)",
+      "TDI input hold time",
+      "-",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ov(TDO)",
+      "TDO output valid time",
+      "2.7 V <V < 3.6 V DD",
+      "-",
+      "9",
+      "10",
+      "ns"
+    ],
+    [
+      "t ov(TDO)",
+      "TDO output valid time",
+      "1.71 <V < 3.6 V DD",
+      "-",
+      "10",
+      "12.5",
+      "ns"
+    ],
+    [
+      "t oh(TDO)",
+      "TDO output hold time",
+      "-",
+      "8",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. At VOS low, these values are degraded by up to 7%. 286/325 DS14359 Rev 7"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_139",
+    "is_continued": false,
+    "pages": [
+      286
+    ],
+    "rows_count": 9,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

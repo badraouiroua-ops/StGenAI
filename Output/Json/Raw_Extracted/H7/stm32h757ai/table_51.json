@@ -1,0 +1,142 @@
+{
+  "table_id": "table_51",
+  "caption": "Table 51. MIPI D-PHY characteristics",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 144,
+  "merged_pages": [
+    144,
+    145
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=144",
+  "section": "6.3.12 MIPI D-PHY characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "U INST",
+      "UI instantaneous",
+      "-",
+      "1",
+      "-",
+      "12.5",
+      "ns"
+    ],
+    [
+      "V CMTX",
+      "HS transmit common mode voltage",
+      "-",
+      "150",
+      "200",
+      "250",
+      "mV"
+    ],
+    [
+      "|∆V | CMTX",
+      "V mismatch when output CMTX is Differential-1 or Differential-0",
+      "-",
+      "-",
+      "-",
+      "5",
+      "mV"
+    ],
+    [
+      "|V | OD",
+      "HS transmit differential voltage",
+      "-",
+      "140",
+      "200",
+      "270",
+      "mV"
+    ],
+    [
+      "|∆V | OD",
+      "V mismatch when output is OD Differential-1 or Differential-0",
+      "-",
+      "-",
+      "-",
+      "14",
+      "mV"
+    ],
+    [
+      "V OHHS",
+      "HS output high voltage",
+      "-",
+      "-",
+      "-",
+      "360",
+      "mV"
+    ],
+    [
+      "Z OS",
+      "Single ended output impedance",
+      "-",
+      "40",
+      "50",
+      "62.5",
+      "Ω"
+    ],
+    [
+      "∆Z OS",
+      "Single ended output impedance mismatch",
+      "-",
+      "-",
+      "-",
+      "10",
+      "%"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0932,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.79,
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by design unless otherwise specified.",
+      "2. Guaranteed by characterization results.",
+      "3. Integer mode only."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_51",
+    "is_continued": true,
+    "pages": [
+      144,
+      145
+    ],
+    "rows_count": 8,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0932
+  }
+}

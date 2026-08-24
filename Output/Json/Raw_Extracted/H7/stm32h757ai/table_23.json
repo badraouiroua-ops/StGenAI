@@ -1,0 +1,262 @@
+{
+  "table_id": "table_23",
+  "caption": "Table 23. Typical and maximum current consumption in Run mode, code with data processing running from ITCM for Arm Cortex-M7 and flash memory for Arm Cortex-M4, ART accelerator ON, SMPS regulator",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 115,
+  "merged_pages": [
+    115,
+    116
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=115",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Arm Cortex- M7 f CPU1 (MHz)",
+    "Arm Cortex- M4 f CPU2 (MHz)",
+    "Typ",
+    "Max / Tj= 25 °C",
+    "Max / Tj= 85 °C",
+    "Max / Tj= 105°C",
+    "Max / Tj= 125°C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A",
+      "All products, except STM32H757XIH6A"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1",
+      "400",
+      "200",
+      "58.3",
+      "79.0",
+      "129.0",
+      "175.1",
+      "236.0",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS2",
+      "300",
+      "150",
+      "37.0",
+      "50.2",
+      "84.7",
+      "115.6",
+      "161.1",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "200",
+      "100",
+      "21.5",
+      "29.9",
+      "56.1",
+      "77.1",
+      "107.6",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS1",
+      "400",
+      "200",
+      "78.1",
+      "100.1",
+      "148.9",
+      "193.4",
+      "254.3",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS2",
+      "300",
+      "150",
+      "51.2",
+      "65.5",
+      "100.8",
+      "130.9",
+      "176.9",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS3",
+      "200",
+      "100",
+      "29.5",
+      "39.4",
+      "63.9",
+      "86.7",
+      "116.3",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS3",
+      "200",
+      "100",
+      "29.5",
+      "Tj= 25 °C",
+      "Tj= 85 °C",
+      "Tj= 105°C",
+      "Tj= 125°C",
+      "mA"
+    ],
+    [
+      "STM32H757XIH6A only",
+      "-",
+      "-",
+      "-",
+      "",
+      "",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1(2)",
+      "480",
+      "240",
+      "74.0",
+      "82.0",
+      "124.0",
+      "155.0",
+      "198.0",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1",
+      "400",
+      "200",
+      "62.0",
+      "75.0",
+      "115.0",
+      "147.5",
+      "102.0",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS1(2)",
+      "480",
+      "240",
+      "98.0",
+      "112.0",
+      "152.0",
+      "184.0",
+      "226.0",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS1",
+      "400",
+      "200",
+      "82.0",
+      "99.0",
+      "138.0",
+      "170.0",
+      "215.0",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0641,
+  "col_count": 12,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 12,
+    "continuation": {
+      "base_cols": 12,
+      "cont_cols_raw": 12,
+      "target_cols": 12,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. The grayed cells correspond to the forbidden configurations."
+    ],
+    "_legend": [
+      "running from ITCM for Arm Cortex-M7 and flash memory for Arm Cortex-M4,",
+      "ART accelerator ON, SMPS regulator(1)",
+      "running from ITCM for Arm Cortex-M7 and flash memory for Arm Cortex-M4,",
+      "ART accelerator ON, SMPS regulator(1) (continued)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_23",
+    "is_continued": true,
+    "pages": [
+      115,
+      116
+    ],
+    "rows_count": 13,
+    "cols_count": 12,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0641
+  }
+}

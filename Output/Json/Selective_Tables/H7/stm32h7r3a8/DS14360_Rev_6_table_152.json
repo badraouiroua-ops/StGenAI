@@ -1,0 +1,52 @@
+{
+  "table_id": "table_152",
+  "document": "DS14360 Rev 6 - Table 152. UFBGA(176+25) - Recommended PCB design rules (0.65 mm pitch BGA)",
+  "rev": "Rev 6",
+  "table_number": "152",
+  "title": "Table 152. UFBGA(176+25) - Recommended PCB design rules (0.65 mm pitch BGA)",
+  "page": 312,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=312",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 152. UFBGA(176+25) - Recommended PCB design rules (0.65 mm pitch BGA) — section 7.1 Device marking. Symbol, millimeters / Min., millimeters / Typ., millimeters / Max., inches(1) / Min., +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min.",
+      "millimeters / Typ.",
+      "millimeters / Max.",
+      "inches(1) / Min.",
+      "inches(1) / Typ.",
+      "inches(1) / Max."
+    ],
+    "rows": [
+      [
+        "eee",
+        "-",
+        "-",
+        "0.150",
+        "-",
+        "-",
+        "0.0059"
+      ],
+      [
+        "fff",
+        "-",
+        "-",
+        "0.050",
+        "-",
+        "-",
+        "0.0020"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

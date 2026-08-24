@@ -1,0 +1,209 @@
+{
+  "table_id": "table_117",
+  "caption": "Table 117. USART characteristics",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 169,
+  "merged_pages": [
+    169,
+    170
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=169",
+  "section": "6.3.36.2 USART interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fCK",
+      "USART clock frequency",
+      "Master mode",
+      "-",
+      "-",
+      "35",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "USART clock frequency",
+      "Slave receiver mode",
+      "-",
+      "-",
+      "93.0",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "USART clock frequency",
+      "Slave mode transmitter mode, 2.7 V < VDD < 3.6 V",
+      "-",
+      "-",
+      "29.0",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "USART clock frequency",
+      "Slave mode transmitter mode, 1.62 V < VDD < 3.6 V",
+      "-",
+      "-",
+      "22.0",
+      "MHz"
+    ],
+    [
+      "tsu(NSS)",
+      "NSS setup time",
+      "Slave mode",
+      "tker+2",
+      "-",
+      "-",
+      "MHz"
+    ],
+    [
+      "th(NSS)",
+      "NSS hold time",
+      "Slave mode",
+      "2",
+      "-",
+      "-",
+      "MHz"
+    ],
+    [
+      "tw(SCKH), tw(SCKL)",
+      "CK high and low time",
+      "Master mode",
+      "1/fck/2-2",
+      "1/fck/2",
+      "1/fck/2+2",
+      "MHz"
+    ],
+    [
+      "tsu(RX)",
+      "Data input setup time",
+      "Master mode",
+      "17",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(RX)",
+      "Data input setup time",
+      "Slave mode",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(RX)",
+      "Data input hold time",
+      "Master mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(RX)",
+      "Data input hold time",
+      "Slave mode",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(TX)",
+      "Data output valid time",
+      "Slave mode transmitter mode, 1.62 V < VDD < 3.6 V",
+      "-",
+      "15.5",
+      "22",
+      "ns"
+    ],
+    [
+      "tv(TX)",
+      "Data output valid time",
+      "Slave mode transmitter mode, 2.7 V < VDD < 3.6 V",
+      "-",
+      "15.5",
+      "17",
+      "ns"
+    ],
+    [
+      "tv(TX)",
+      "Data output valid time",
+      "Master mode",
+      "-",
+      "1.5",
+      "2",
+      "ns"
+    ],
+    [
+      "th(TX)",
+      "Data output hold time",
+      "Slave mode",
+      "12",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(TX)",
+      "Data output hold time",
+      "Master mode",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by design."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_117",
+    "is_continued": true,
+    "pages": [
+      169,
+      170
+    ],
+    "rows_count": 16,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

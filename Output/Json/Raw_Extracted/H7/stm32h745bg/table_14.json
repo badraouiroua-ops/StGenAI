@@ -1,0 +1,184 @@
+{
+  "table_id": "table_14",
+  "caption": "Table 14. Supply voltage and maximum frequency configuration",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 104,
+  "merged_pages": [
+    104,
+    105
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=104",
+  "section": "6.3.1 General operating conditions",
+  "headers": [
+    "Power scale",
+    "V source CORE",
+    "Max T (°C) J",
+    "Max frequency (MHz)",
+    "Min V (V) DDLDO"
+  ],
+  "rows": [
+    [
+      "VOS0",
+      "LDO",
+      "105",
+      "480",
+      "1.7"
+    ],
+    [
+      "VOS0",
+      "SMPS step-down converter(1)",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "VOS1",
+      "LDO",
+      "125",
+      "400",
+      "1.62"
+    ],
+    [
+      "VOS1",
+      "SMPS step-down converter",
+      "125",
+      "400",
+      "1.62"
+    ],
+    [
+      "VOS2",
+      "LDO",
+      "125",
+      "300",
+      "1.62"
+    ],
+    [
+      "VOS2",
+      "SMPS step-down converter",
+      "125",
+      "300",
+      "1.62"
+    ],
+    [
+      "VOS2",
+      "SMPS step-down converter",
+      "140",
+      "300",
+      "1.62"
+    ],
+    [
+      "VOS3",
+      "LDO(2)",
+      "105",
+      "64",
+      "1.2(2)"
+    ],
+    [
+      "VOS3",
+      "LDO",
+      "125",
+      "200",
+      "1.62"
+    ],
+    [
+      "VOS3",
+      "SMPS step-down converter",
+      "125",
+      "200",
+      "1.62"
+    ],
+    [
+      "VOS3",
+      "SMPS step-down converter",
+      "140(3)",
+      "200",
+      "1.62"
+    ],
+    [
+      "SVOS4",
+      "LDO",
+      "105",
+      "N/A",
+      "1.62"
+    ],
+    [
+      "SVOS4",
+      "SMPS step-down converter",
+      "125",
+      "N/A",
+      "1.62"
+    ],
+    [
+      "SVOS4",
+      "SMPS step-down converter",
+      "140(3)",
+      "N/A",
+      "1.62"
+    ],
+    [
+      "SVOS5",
+      "LDO",
+      "105",
+      "N/A",
+      "1.62"
+    ],
+    [
+      "SVOS5",
+      "SMPS step-down converter",
+      "125",
+      "N/A",
+      "1.62"
+    ],
+    [
+      "SVOS5",
+      "SMPS step-down converter",
+      "140(3)",
+      "N/A",
+      "1.62"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 5,
+      "cont_cols_raw": 5,
+      "target_cols": 5,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. When RESET is released functionality is guaranteed down to V min BOR0",
+      "2. Only for power-up sequence when the SMPS step-down converter is configured to supply the LDO and T = 105 °C. JMax",
+      "3. This formula has to be applied on power supplies related to the IO structure described by the pin definition table."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_14",
+    "is_continued": true,
+    "pages": [
+      104,
+      105
+    ],
+    "rows_count": 17,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

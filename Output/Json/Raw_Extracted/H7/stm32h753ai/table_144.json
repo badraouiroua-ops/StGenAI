@@ -1,0 +1,53 @@
+{
+  "table_id": "table_144",
+  "caption": "Table 144. Electrical sensitivities",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 239,
+  "merged_pages": [
+    239
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=239",
+  "section": "7.3.13 Absolute maximum ratings (electrical sensitivity)",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Class"
+  ],
+  "rows": [
+    [
+      "LU",
+      "Static latchup class",
+      "T = +25 °C conforming to JESD78 A",
+      "II level A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Guaranteed by characterization results. Static latchup"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_144",
+    "is_continued": false,
+    "pages": [
+      239
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

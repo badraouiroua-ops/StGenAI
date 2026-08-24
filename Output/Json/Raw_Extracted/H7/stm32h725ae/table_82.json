@@ -1,0 +1,298 @@
+{
+  "table_id": "table_82",
+  "caption": "Table 82. OCTOSPI characteristics in DTR mode (with DQS)/Octal and Hyperbus",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 192,
+  "merged_pages": [
+    192
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=192",
+  "section": "6.3.20 Octo-SPI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F (2)(3) CK",
+      "OCTOSPI clock frequency",
+      "2,7 V < V < 3.6 V, DD VOS0, C = 20 pF LOAD",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "F (2)(3) CK",
+      "OCTOSPI clock frequency",
+      "1.71 V < V < 3.6 V, DD VOS0, C = 20 pF LOAD",
+      "-",
+      "-",
+      "100(4)",
+      "MHz"
+    ],
+    [
+      "t w(CKH)",
+      "OCTOSPI clock high and low time, even division",
+      "PRESCALER[7:0] = n = 0,1,3,5",
+      "t /2 (CK)",
+      "-",
+      "t /2+1 (CK)",
+      "ns"
+    ],
+    [
+      "t w(CKL)",
+      "OCTOSPI clock high and low time, even division",
+      "PRESCALER[7:0] = n = 0,1,3,5",
+      "t /2–1 (CK)",
+      "-",
+      "t /2 (CK)",
+      "ns"
+    ],
+    [
+      "t w(CKH)",
+      "OCTOSPI clock high and low time, odd division",
+      "PRESCALER[7:0] = n = 2,4,6,8",
+      "(n/2)*t / (CK) (n+1)",
+      "-",
+      "(n/2)*t / (CK) (n+1)+1",
+      "ns"
+    ],
+    [
+      "t w(CKL)",
+      "OCTOSPI clock high and low time, odd division",
+      "PRESCALER[7:0] = n = 2,4,6,8",
+      "(n/2+1)*t /( (CK) n+1)–1",
+      "-",
+      "(n/2+1)*t / (CK) (n+1)",
+      "ns"
+    ],
+    [
+      "t v(CK)",
+      "Clock valid time",
+      "-",
+      "-",
+      "-",
+      "t +1 (CK)",
+      "ns"
+    ],
+    [
+      "t h(CK)",
+      "Clock hold time",
+      "-",
+      "t /2 (CK)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "V ODr(CK)",
+      "CK,CK crossing level on CK rising edge",
+      "VDD = 1.8 V",
+      "922",
+      "-",
+      "1229",
+      "mV"
+    ],
+    [
+      "V ODf(CK)",
+      "CK,CK crossing level on CK falling edge",
+      "VDD = 1.8 V",
+      "1000",
+      "-",
+      "1277",
+      "mV"
+    ],
+    [
+      "t w(CS)",
+      "Chip select high time",
+      "-",
+      "3*t (CK)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(DQ)",
+      "Data input vallid time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(DS)",
+      "Data strobe input valid time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(DS)",
+      "Data strobe input hold time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(RWDS)",
+      "Data strobe output valid time",
+      "-",
+      "-",
+      "-",
+      "3 x t (CK)",
+      "ns"
+    ],
+    [
+      "t sr(DQ)",
+      "Data input setup time",
+      "Rising edge",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t sf(DQ)",
+      "Data input setup time",
+      "Falling edge",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t hr(DQ)",
+      "Data input hold time",
+      "Rising edge",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t hf(DQ)",
+      "Data input hold time",
+      "Falling edge",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t vr(OUT)",
+      "Data output valid time rising edge",
+      "DHQC = 0",
+      "-",
+      "6",
+      "7(5)",
+      "ns"
+    ],
+    [
+      "t vr(OUT)",
+      "Data output valid time rising edge",
+      "DHQC = 1, Prescaler = 1,2...",
+      "-",
+      "t /4+ pclk 1",
+      "t /4+1.25 pclk (5)",
+      "ns"
+    ],
+    [
+      "t vf(OUT)",
+      "Data output valid time falling edge",
+      "DHQC = 0",
+      "-",
+      "5.5",
+      "6(5)",
+      "ns"
+    ],
+    [
+      "t vf(OUT)",
+      "Data output valid time falling edge",
+      "DHQC = 1, Prescaler = 1,2...",
+      "-",
+      "t /4+ pclk 0.5",
+      "t /4+0.75 pclk (5)",
+      "ns"
+    ],
+    [
+      "t hr(OUT)",
+      "Data output hold time rising edge",
+      "DHQC = 0",
+      "4.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t hr(OUT)",
+      "Data output hold time rising edge",
+      "DHQC = 1, Prescaler = 1,2...",
+      "t /4 pclk",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t hf(OUT)",
+      "Data output hold time falling edge",
+      "DHQC = 0",
+      "4.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t hf(OUT)",
+      "Data output hold time falling edge",
+      "DHQC = 1, Prescaler = 1,2...",
+      "t /4 pclk",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. Maximum frequency values are given for a RWDS to DQ skew of maximum +/-1.0 ns.",
+      "3. Activating DHQC is mandatory to reach this frequency",
+      "4. Using PC2 or PC3 I/O on data bus decreases the frequency to 47 MHz.",
+      "5. Using PC2 or PC3 I/O on the data bus adds 4 ns to this timing value."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_82",
+    "is_continued": false,
+    "pages": [
+      192
+    ],
+    "rows_count": 27,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "pdf_type": 1,
+  "doc_ref": "DS12930",
+  "revision": "Rev 3",
+  "date": "January 2026",
+  "title": "Dual 32-bit Arm Cortex -M7 up to 480MHz and -M4 MCUs, up t o",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "page": 1,
+  "core": "Cortex-M7",
+  "fpu": true,
+  "max_frequency_mhz": 480,
+  "flash_kb": 2048,
+  "ram_kb": 864,
+  "voltage_min_v": 1.62,
+  "voltage_max_v": 3.6,
+  "operating_temp_c": [],
+  "packages": [
+    "TFBGA240 (28 x 28 mm)",
+    "WLCSP156 (24 x 24 mm)",
+    "UFBGA176",
+    "UFBGA240",
+    "UFBGA169 (7 x 7 mm)",
+    "LQFP176 (24 x 24 mm)",
+    "LQFP208 (28 x 28 mm)",
+    "TFBGA265"
+  ],
+  "device_summary": {
+    "headers": [
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H747AG"
+      ],
+      [
+        "STM32H747AI"
+      ],
+      [
+        "STM32H747BG"
+      ],
+      [
+        "STM32H747BI"
+      ],
+      [
+        "STM32H747IG"
+      ],
+      [
+        "STM32H747II"
+      ],
+      [
+        "STM32H747ZI"
+      ]
+    ]
+  },
+  "extraction_meta": {
+    "source_pages": [
+      1,
+      2
+    ],
+    "extraction_method": "regex_type1",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "high",
+    "missing_fields": [
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

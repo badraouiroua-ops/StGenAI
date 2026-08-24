@@ -1,0 +1,81 @@
+{
+  "table_id": "table_180",
+  "document": "DS12556 Rev 8 - Table 180. V monitoring characteristics 277 BAT",
+  "rev": "Rev 8",
+  "table_number": "180",
+  "title": "Table 180. V monitoring characteristics 277 BAT",
+  "page": 277,
+  "section": "7.3.24 Temperature and V monitoring",
+  "section_title": "Temperature and V monitoring",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=277",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 180. V monitoring characteristics 277 BAT — section 7.3.24 Temperature and V monitoring. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "R",
+        "Resistor bridge for V BAT",
+        "-",
+        "26",
+        "-",
+        "KΩ"
+      ],
+      [
+        "Q",
+        "Ratio on V measurement BAT",
+        "-",
+        "4",
+        "-",
+        "KΩ"
+      ],
+      [
+        "Er(1)",
+        "Error on Q",
+        "–10",
+        "-",
+        "+10",
+        "%"
+      ],
+      [
+        "t (1) S_vbat",
+        "ADC sampling time when reading V input BAT",
+        "9",
+        "-",
+        "-",
+        "µs"
+      ],
+      [
+        "V BAThigh",
+        "High supply monitoring",
+        "-",
+        "3.55",
+        "-",
+        "V"
+      ],
+      [
+        "V BATlow",
+        "Low supply monitoring",
+        "-",
+        "1.36",
+        "-",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

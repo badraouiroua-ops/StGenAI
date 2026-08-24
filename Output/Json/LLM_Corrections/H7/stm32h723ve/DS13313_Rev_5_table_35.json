@@ -1,0 +1,143 @@
+{
+  "table_id": "table_35",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "fHSI48",
+      "row_index": 0,
+      "analyse_visuelle": "Correction des indices de symboles et conditions mal extraits (fHSI48, VDD=3.3 V, TJ=30 °C).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f HSI48",
+          "nouvelle_valeur": "fHSI48",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =3.3 V, DD TJ=30 °C",
+          "nouvelle_valeur": "VDD=3.3 V, TJ=30 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "ACCHSI48_REL(3)(4)",
+      "row_index": 4,
+      "analyse_visuelle": "Correction de la condition TJ=-40 to 125 °C (l'indice J était placé à la fin).",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "T =-40 to 125 °C J",
+          "nouvelle_valeur": "TJ=-40 to 125 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "∆VDD(HSI48)(2)(5) ligne 1",
+      "row_index": 5,
+      "analyse_visuelle": "Correction des indices de symboles (∆VDD(HSI48)(2)(5)), du paramètre (VDD(6)) et de la condition (VDD=3 to 3.6 V).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "∆ (HSI48)(2)(5) VDD",
+          "nouvelle_valeur": "∆VDD(HSI48)(2)(5)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "HSI48 oscillator frequency drift with V (6) (the reference is 3.3 V) DD",
+          "nouvelle_valeur": "HSI48 oscillator frequency drift with VDD(6) (the reference is 3.3 V)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =3 to 3.6 V DD",
+          "nouvelle_valeur": "VDD=3 to 3.6 V",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "∆VDD(HSI48)(2)(5) ligne 2",
+      "row_index": 6,
+      "analyse_visuelle": "Correction des indices de symboles (∆VDD(HSI48)(2)(5)), du paramètre (VDD(6)) et de la condition (VDD=1.62 V to 3.6 V).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "∆ (HSI48)(2)(5) VDD",
+          "nouvelle_valeur": "∆VDD(HSI48)(2)(5)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "HSI48 oscillator frequency drift with V (6) (the reference is 3.3 V) DD",
+          "nouvelle_valeur": "HSI48 oscillator frequency drift with VDD(6) (the reference is 3.3 V)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =1.62 V to 3.6 V DD",
+          "nouvelle_valeur": "VDD=1.62 V to 3.6 V",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tsu(HSI48)(2)",
+      "row_index": 7,
+      "analyse_visuelle": "Correction du symbole tsu(HSI48)(2).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (2) su(HSI48)",
+          "nouvelle_valeur": "tsu(HSI48)(2)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "IDD(HSI48)(2)",
+      "row_index": 8,
+      "analyse_visuelle": "Correction du symbole IDD(HSI48)(2).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I (2) DD(HSI48)",
+          "nouvelle_valeur": "IDD(HSI48)(2)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "NT jitter(2)",
+      "row_index": 9,
+      "analyse_visuelle": "Correction du symbole NT jitter(2).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "N jitter(2) T",
+          "nouvelle_valeur": "NT jitter(2)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PT jitter(2)",
+      "row_index": 10,
+      "analyse_visuelle": "Correction du symbole PT jitter(2).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "P jitter(2) T",
+          "nouvelle_valeur": "PT jitter(2)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

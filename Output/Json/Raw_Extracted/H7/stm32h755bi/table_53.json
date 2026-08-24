@@ -1,0 +1,71 @@
+{
+  "table_id": "table_53",
+  "caption": "Table 53. Flash memory endurance and data retention",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 142,
+  "merged_pages": [
+    142
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=142",
+  "section": "6.3.12 Memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Value / Min(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "N END",
+      "Endurance",
+      "T = –40 to +125 °C (6 suffix versions) J",
+      "10",
+      "kcycles"
+    ],
+    [
+      "t RET",
+      "Data retention",
+      "1 kcycle at T = 85 °C A",
+      "30",
+      "Years"
+    ],
+    [
+      "t RET",
+      "Data retention",
+      "10 kcycles at T = 55 °C A",
+      "20",
+      "Years"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_53",
+    "is_continued": false,
+    "pages": [
+      142
+    ],
+    "rows_count": 3,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

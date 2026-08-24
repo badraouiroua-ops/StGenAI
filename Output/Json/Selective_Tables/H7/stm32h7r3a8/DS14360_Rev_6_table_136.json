@@ -1,0 +1,97 @@
+{
+  "table_id": "table_136",
+  "document": "DS14360 Rev 6 - Table 136. Dynamic characteristics: Ethernet MAC signals for MII",
+  "rev": "Rev 6",
+  "table_number": "136",
+  "title": "Table 136. Dynamic characteristics: Ethernet MAC signals for MII",
+  "page": 282,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=282",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 136. Dynamic characteristics: Ethernet MAC signals for MII — section 6.3.33 Communication interfaces. Symbol, Parameter, Min, Typ, Max(2), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t su(RXD)",
+        "Receive data setup time",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(RXD)",
+        "Receive data hold time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(DV)",
+        "Data valid setup time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(DV)",
+        "Data valid hold time",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(ER)",
+        "Error setup time",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(ER)",
+        "Error hold time",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(TXEN)",
+        "Transmit enable valid delay time",
+        "6.5",
+        "9",
+        "13",
+        "ns"
+      ],
+      [
+        "t d(TXD)",
+        "Transmit data valid delay time",
+        "6.5",
+        "10",
+        "14.5",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS low, these values are degraded by up to 7%."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

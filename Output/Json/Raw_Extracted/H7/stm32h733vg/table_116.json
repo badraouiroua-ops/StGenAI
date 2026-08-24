@@ -1,0 +1,81 @@
+{
+  "table_id": "table_116",
+  "caption": "Table 116. Dynamics characteristics: Ethernet MAC signals for SMI",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 212,
+  "merged_pages": [
+    212
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=212",
+  "section": "6.3.37 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t MDC",
+      "MDC cycle time( 2.5 MHz)",
+      "400",
+      "400",
+      "403",
+      "ns"
+    ],
+    [
+      "T d(MDIO)",
+      "Write data valid time",
+      "0.5",
+      "1.5",
+      "4",
+      "ns"
+    ],
+    [
+      "t su(MDIO)",
+      "Read data setup time",
+      "12.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MDIO)",
+      "Read data hold time",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. 212/236 DS13314 Rev 4"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_116",
+    "is_continued": false,
+    "pages": [
+      212
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

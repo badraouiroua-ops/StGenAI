@@ -1,0 +1,53 @@
+{
+  "table_id": "table_134",
+  "caption": "Table 134. Document revision history",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 250,
+  "merged_pages": [
+    250
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=250",
+  "section": "9 Important security notice",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "16-May-2019",
+      "1",
+      "Initial release."
+    ],
+    [
+      "27-Mar-2023",
+      "2",
+      "Added reference to errata sheet ES0392 in Section 1: Introduction. Figure 1: STM32H757xI block diagram: changed APB1 and APB2 maximum frequency to 120 MHz, and WKUP[5:0] to WKUP[6:1]. Updated Figure 5: STM32H757xI bus matrix. Modified Section 3.5.1: Power supply scheme. Removed note to Section 3.5.3: Voltage regulator (SMPS step-down converter and LDO). Updated Section 3.24: Digital camera interface (DCMI) (modified supported format). Updated Figure 13: Power supply scheme (Backup domain and VDD domain blocks). Swapped 158 and 159 pin positions in Table 8: LQFP176 pinout on page 58. Added Full-duplex mode in Section 3.35: Serial peripheral interfaces (SPI)/integrated interchip sound interfaces (I2S). Updated number of microphones that can be supported by the SAI in Section 3.36: Serial audio interfaces (SAI). Removed FDCAN1_RXFD_MODE, FDCAN1_TXFD_MODE, FDCAN2_RXFD_MODE and FDCAN2_TXFD_MODE functions from Table 8: STM32H750xB pin/ball definition and all alternate function tables. Additional modifications made on Table 8: STM32H750xB pin/ball definition: – Added note to VDD50USB. – Added note to PB12 and PB13. – Change PB1 I/O structure to TT_A. – Replaced PI8 WKUP3 additional function by WKUP2. – Replaced PC13 WKUP2 additional function by WKUP3. Updated Figure 43: Typical connection diagram when using the ADC with FT/TT pins featuring analog switch function. Modified Table 68: EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz. Updated Section 6.2: Absolute maximum ratings introduction to device mission profile. Modified text in Section : I/O static current consumption. Changed fCPU2 to 100 MHz in Table 123: General operating conditions. Replaced Min VDD by Min VDDLDO in Table 24: Supply voltage and maximum frequency configuration. Removed note 1 from Table 43: Typical and maximum current consumption in Stop, LDO regulator ON and Table 45: Typical and maximum current consumption in Sleep mode, LDO regulator. Updated Table 51: High-speed external user clock characteristics. Updated UINST min value in Table 61: MIPI D-PHY characteristics."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_134",
+    "is_continued": false,
+    "pages": [
+      250
+    ],
+    "rows_count": 2,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

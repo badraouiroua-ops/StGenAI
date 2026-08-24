@@ -1,0 +1,99 @@
+{
+  "table_id": "table_117",
+  "caption": "Table 117. Dynamics characteristics: Ethernet MAC signals for RMII",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 212,
+  "merged_pages": [
+    212
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=212",
+  "section": "6.3.37 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t su(RXD)",
+      "Receive data setup time",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(RXD)",
+      "Receive data hold time",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(CRS)",
+      "Carrier sense setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(CRS)",
+      "Carrier sense hold time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(TXEN)",
+      "Transmit enable valid delay time",
+      "8",
+      "9",
+      "10.5",
+      "ns"
+    ],
+    [
+      "t d(TXD)",
+      "Transmit data valid delay time",
+      "7",
+      "8",
+      "9.5",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. Figure 60. Ethernet RMII timing diagram"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_117",
+    "is_continued": false,
+    "pages": [
+      212
+    ],
+    "rows_count": 6,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

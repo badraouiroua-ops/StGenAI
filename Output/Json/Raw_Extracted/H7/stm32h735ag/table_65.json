@@ -1,0 +1,80 @@
+{
+  "table_id": "table_65",
+  "caption": "Table 65. Asynchronous non-multiplexed SRAM/PSRAM/NOR write-NWAIT timings",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 173,
+  "merged_pages": [
+    173
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=173",
+  "section": "6.3.19 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(NE)",
+      "FMC_NE low time",
+      "8T –1 fmc_ker_ck",
+      "8T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t w(NWE)",
+      "FMC_NWE low time",
+      "6T –1 fmc_ker_ck",
+      "6T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t su(NWAIT_NE)",
+      "FMC_NWAIT valid before FMC_NEx high",
+      "5T +13 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NE_NWAIT)",
+      "FMC_NEx hold time after FMC_NWAIT invalid",
+      "4T +12 fmc_ker_ck",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. N pulse width is equal to 1 fmc_ker_ck cycle. WAIT"
+    ],
+    "_legend": [
+      "timings(1)(2)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_65",
+    "is_continued": false,
+    "pages": [
+      173
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

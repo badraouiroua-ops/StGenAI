@@ -1,0 +1,71 @@
+{
+  "table_id": "table_69",
+  "document": "DS13196 Rev 7 - Table 69. NRST pin characteristics",
+  "rev": "Rev 7",
+  "table_number": "69",
+  "title": "Table 69. NRST pin characteristics",
+  "page": 106,
+  "section": "6.3.17 NRST pin characteristics",
+  "section_title": "NRST pin characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=106",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 69. NRST pin characteristics — section 6.3.17 NRST pin characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "RPU(1)",
+        "Weak pull-up equivalent resistor(2)",
+        "VIN = VSS",
+        "30",
+        "40",
+        "50",
+        "㏀"
+      ],
+      [
+        "VF(NRST)(1)",
+        "NRST Input filtered pulse",
+        "1.71 V < VDD < 3.6 V",
+        "-",
+        "-",
+        "50",
+        "ns"
+      ],
+      [
+        "VNF(NRST)(1)",
+        "NRST Input not filtered pulse",
+        "1.71 V < VDD < 3.6 V",
+        "350",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "VNF(NRST)(1)",
+        "NRST Input not filtered pulse",
+        "1.62 V < VDD < 3.6 V",
+        "1000",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. The pull-up is designed with a true resistance in series with a switchable PMOS. This PMOS contribution to the series resistance must be minimum (~10%)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

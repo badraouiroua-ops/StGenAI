@@ -1,0 +1,126 @@
+{
+  "table_id": "table_47",
+  "caption": "Table 47. Typical and maximum current consumption in Run mode, code with data processing running from 16-bit memory, cache OFF",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 178,
+  "merged_pages": [
+    178
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=178",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "frcc_c_ck (MHz)",
+    "Memory frequency( MHz)",
+    "Typ",
+    "Max(3) TJ = 105°C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "400",
+      "200",
+      "4.55",
+      "5.0",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "320",
+      "160",
+      "3.70",
+      "4.1",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "266",
+      "133",
+      "3.10",
+      "3.4",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "200",
+      "100",
+      "2.35",
+      "2.6",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "180",
+      "90",
+      "2.10",
+      "2.4",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "120",
+      "60",
+      "1.45",
+      "1.6",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "60",
+      "30",
+      "0.76",
+      "0.8",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "3. Guaranteed by characterization results."
+    ],
+    "_legend": [
+      "running from 16-bit memory(1), cache OFF(2)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_47",
+    "is_continued": false,
+    "pages": [
+      178
+    ],
+    "rows_count": 7,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

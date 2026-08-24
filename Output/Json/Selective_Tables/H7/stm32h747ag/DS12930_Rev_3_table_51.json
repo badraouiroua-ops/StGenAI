@@ -1,0 +1,108 @@
+{
+  "table_id": "table_51",
+  "document": "DS12930 Rev 3 - Table 51. MIPI D-PHY characteristics",
+  "rev": "Rev 3",
+  "table_number": "51",
+  "title": "Table 51. MIPI D-PHY characteristics",
+  "page": 144,
+  "section": "6.3.12 MIPI D-PHY characteristics",
+  "section_title": "MIPI D-PHY characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=144",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 51. MIPI D-PHY characteristics — section 6.3.12 MIPI D-PHY characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "U INST",
+        "UI instantaneous",
+        "-",
+        "1",
+        "-",
+        "12.5",
+        "ns"
+      ],
+      [
+        "V CMTX",
+        "HS transmit common mode voltage",
+        "-",
+        "150",
+        "200",
+        "250",
+        "mV"
+      ],
+      [
+        "|∆V | CMTX",
+        "V mismatch when output CMTX is Differential-1 or Differential-0",
+        "-",
+        "-",
+        "-",
+        "5",
+        "mV"
+      ],
+      [
+        "|V | OD",
+        "HS transmit differential voltage",
+        "-",
+        "140",
+        "200",
+        "270",
+        "mV"
+      ],
+      [
+        "|∆V | OD",
+        "V mismatch when output is OD Differential-1 or Differential-0",
+        "-",
+        "-",
+        "-",
+        "14",
+        "mV"
+      ],
+      [
+        "V OHHS",
+        "HS output high voltage",
+        "-",
+        "-",
+        "-",
+        "360",
+        "mV"
+      ],
+      [
+        "Z OS",
+        "Single ended output impedance",
+        "-",
+        "40",
+        "50",
+        "62.5",
+        "Ω"
+      ],
+      [
+        "∆Z OS",
+        "Single ended output impedance mismatch",
+        "-",
+        "-",
+        "-",
+        "10",
+        "%"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design unless otherwise specified.",
+      "2. Guaranteed by characterization results.",
+      "3. Integer mode only."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

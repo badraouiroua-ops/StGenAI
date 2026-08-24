@@ -1,0 +1,115 @@
+{
+  "table_id": "table_17",
+  "document": "DS12923 Rev 3 - Table 17. SMPS step-down converter characteristics for external usage",
+  "rev": "Rev 3",
+  "table_number": "17",
+  "title": "Table 17. SMPS step-down converter characteristics for external usage",
+  "page": 106,
+  "section": "6.3.3 SMPS step-down converter",
+  "section_title": "SMPS step-down converter",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=106",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "text_helper": "Table 17. SMPS step-down converter characteristics for external usage — section 6.3.3 SMPS step-down converter. Parameters, Conditions, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Parameters",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V (1) DDSMPS",
+        "V = 1.8 V OUT",
+        "2.3",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V (1) DDSMPS",
+        "V = 2.5 V OUT",
+        "3",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V (2) OUT",
+        "Iout=600 mA",
+        "2.25",
+        "2.5",
+        "2.75",
+        "V"
+      ],
+      [
+        "V (2) OUT",
+        "Iout=600 mA",
+        "1.62",
+        "1.8",
+        "1.98",
+        "V"
+      ],
+      [
+        "I OUT",
+        "internal and external usage",
+        "-",
+        "-",
+        "600",
+        "mA"
+      ],
+      [
+        "I OUT",
+        "External usage only(3)",
+        "-",
+        "-",
+        "600",
+        "mA"
+      ],
+      [
+        "RDS ON",
+        "-",
+        "-",
+        "100",
+        "120",
+        "mΩ"
+      ],
+      [
+        "I DDSMPS_Q",
+        "Quiescent current",
+        "-",
+        "220",
+        "-",
+        "µA"
+      ],
+      [
+        "T SMPS_START",
+        "V = 1.8 V OUT",
+        "-",
+        "-",
+        "225",
+        "µs"
+      ],
+      [
+        "T SMPS_START",
+        "V = 2.5 V OUT",
+        "-",
+        "-",
+        "300",
+        "µs"
+      ]
+    ],
+    "notes": [
+      "1. VOS0 cannot be selected in direct SMPS supply mode.",
+      "2. Including line transient and load transient.",
+      "3. These characteristics are given for SDEXTHP bit is set in the PWR_CR3 register."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

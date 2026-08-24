@@ -1,0 +1,124 @@
+{
+  "table_id": "table_74",
+  "document": "DS12930 Rev 3 - Table 74. Asynchronous multiplexed PSRAM/NOR write timings",
+  "rev": "Rev 3",
+  "table_number": "74",
+  "title": "Table 74. Asynchronous multiplexed PSRAM/NOR write timings",
+  "page": 167,
+  "section": "6.3.20 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=167",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 74. Asynchronous multiplexed PSRAM/NOR write timings — section 6.3.20 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(NE)",
+        "FMC_NE low time",
+        "4T –1 fmc_ker_ck",
+        "4T fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t v(NWE_NE)",
+        "FMC_NEx low to FMC_NWE low",
+        "T –1 fmc_ker_ck",
+        "T +0.5 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t w(NWE)",
+        "FMC_NWE low time",
+        "2T –0.5 fmc_ker_ck",
+        "2T +0.5 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t h(NE_NWE)",
+        "FMC_NWE high to FMC_NE high hold time",
+        "T –0.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(A_NE)",
+        "FMC_NEx low to FMC_A valid",
+        "-",
+        "0",
+        "ns"
+      ],
+      [
+        "t v(NADV_NE)",
+        "FMC_NEx low to FMC_NADV low",
+        "0",
+        "0.5",
+        "ns"
+      ],
+      [
+        "t w(NADV)",
+        "FMC_NADV low time",
+        "T fmc_ker_ck",
+        "T + 1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t h(AD_NADV)",
+        "FMC_AD(adress) valid hold time after FMC_NADV high)",
+        "T +0.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(A_NWE)",
+        "Address hold time after FMC_NWE high",
+        "T +0.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(BL_NWE)",
+        "FMC_BL hold time after FMC_NWE high",
+        "T – 0.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(BL_NE)",
+        "FMC_NEx low to FMC_BL valid",
+        "-",
+        "0.5",
+        "ns"
+      ],
+      [
+        "t v(Data_NADV)",
+        "FMC_NADV high to Data valid",
+        "-",
+        "T +2 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t h(Data_NWE)",
+        "Data hold time after FMC_NWE high",
+        "T +0.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. N pulse width is equal to 1 AHB cycle. WAIT"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

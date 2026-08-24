@@ -1,0 +1,35 @@
+{
+  "table_id": "table_5",
+  "document": "DS14359 Rev 7 - Table 5. Overview of low-power mode monitoring pins",
+  "rev": "Rev 7",
+  "table_number": "5",
+  "title": "Table 5. Overview of low-power mode monitoring pins",
+  "page": 31,
+  "section": "3.6 Low-power modes",
+  "section_title": "Low-power modes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=31",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 5. Overview of low-power mode monitoring pins — section 3.6 Low-power modes. Power state monitoring pins, Description.",
+  "table_content": {
+    "headers": [
+      "Power state monitoring pins",
+      "Description"
+    ],
+    "rows": [
+      [
+        "PWR_CSLEEP (CSLEEP)",
+        "CPU clock OFF"
+      ],
+      [
+        "PWR_CSTOP (CDSLEEP)",
+        "CPU domain in low-power mode"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

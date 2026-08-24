@@ -1,0 +1,136 @@
+{
+  "table_id": "table_86",
+  "caption": "Table 86. SDRAM write timings",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 123,
+  "merged_pages": [
+    123
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=123",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min(1)",
+    "Max(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tw(SDCLK)",
+      "FMC_SDCLK period",
+      "2Tfmc_ker_ck – 1",
+      "2Tfmc_ker_ck+0.5",
+      "ns"
+    ],
+    [
+      ")ataD_ LKLCDS(dt",
+      "Data output valid time",
+      "-",
+      "2.5",
+      "ns"
+    ],
+    [
+      ")ataD_ LKLCDS(ht",
+      "Data output hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_Add)",
+      "Address valid time",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_SDNWE)",
+      "SDNWE valid time",
+      "-",
+      "2.5",
+      "ns"
+    ],
+    [
+      "th(SDCLKL_SDNWE)",
+      "SDNWE hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_ SDNE)",
+      "Chip select valid time",
+      "-",
+      "2(3)",
+      "ns"
+    ],
+    [
+      "th(SDCLKL-_SDNE)",
+      "Chip select hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_SDNRAS)",
+      "SDNRAS valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "th(SDCLKL_SDNRAS)",
+      "SDNRAS hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_SDNCAS)",
+      "SDNCAS valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_SDNCAS)",
+      "SDNCAS hold time",
+      "0.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. Using PC2_C I/O adds 4.5 ns to this timing."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_86",
+    "is_continued": false,
+    "pages": [
+      123
+    ],
+    "rows_count": 12,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

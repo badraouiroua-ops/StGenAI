@@ -1,0 +1,203 @@
+{
+  "table_id": "table_125",
+  "caption": "Table 125. UFBGA - 144 balls, 7 x 7 mm, 0.50 mm pitch, ultra fine pitch ball grid array package mechanical data",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 227,
+  "merged_pages": [
+    227,
+    228
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=227",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Symbol",
+    "millimeters / Min.",
+    "millimeters / Typ.",
+    "millimeters / Max.",
+    "inches(1) / Min.",
+    "inches(1) / Typ.",
+    "inches(1) / Max."
+  ],
+  "rows": [
+    [
+      "A",
+      "0.460",
+      "0.530",
+      "0.600",
+      "0.0181",
+      "0.0209",
+      "0.0236"
+    ],
+    [
+      "A1",
+      "0.050",
+      "0.080",
+      "0.110",
+      "0.0020",
+      "0.0031",
+      "0.0043"
+    ],
+    [
+      "A2",
+      "0.400",
+      "0.450",
+      "0.500",
+      "0.0157",
+      "0.0177",
+      "0.0197"
+    ],
+    [
+      "A3",
+      "-",
+      "0.130",
+      "-",
+      "-",
+      "0.0051",
+      "-"
+    ],
+    [
+      "A4",
+      "0.270",
+      "0.320",
+      "0.370",
+      "0.0106",
+      "0.0126",
+      "0.0146"
+    ],
+    [
+      "b",
+      "0.230",
+      "0.280",
+      "0.320",
+      "0.0091",
+      "0.0110",
+      "0.0126"
+    ],
+    [
+      "D",
+      "6.950",
+      "7.000",
+      "7.050",
+      "0.2736",
+      "0.2756",
+      "0.2776"
+    ],
+    [
+      "D1",
+      "5.450",
+      "5.500",
+      "5.550",
+      "0.2146",
+      "0.2165",
+      "0.2185"
+    ],
+    [
+      "E",
+      "6.950",
+      "7.000",
+      "7.050",
+      "0.2736",
+      "0.2756",
+      "0.2776"
+    ],
+    [
+      "E1",
+      "5.450",
+      "5.500",
+      "5.550",
+      "0.2146",
+      "0.2165",
+      "0.2185"
+    ],
+    [
+      "e",
+      "-",
+      "0.500",
+      "-",
+      "-",
+      "0.0197",
+      "-"
+    ],
+    [
+      "F",
+      "0.700",
+      "0.750",
+      "0.800",
+      "0.0276",
+      "0.0295",
+      "0.0315"
+    ],
+    [
+      "ddd",
+      "-",
+      "-",
+      "0.100",
+      "-",
+      "-",
+      "0.0039"
+    ],
+    [
+      "eee",
+      "-",
+      "-",
+      "0.150",
+      "-",
+      "-",
+      "0.0059"
+    ],
+    [
+      "fff",
+      "-",
+      "-",
+      "0.050",
+      "-",
+      "-",
+      "0.0020"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Drawing is not to scale. T able 125. UFBGA - 144 balls, 7 x 7 mm, 0.50 mm pitch, ultra fine pitch ball grid array"
+    ],
+    "_legend": [
+      "package mechanical data (continued)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_125",
+    "is_continued": true,
+    "pages": [
+      227,
+      228
+    ],
+    "rows_count": 15,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "table_id": "table_70",
+  "document": "DS13195 Rev 8 - Table 70. Pxy_C and Pxy analog switch characteristics",
+  "rev": "Rev 8",
+  "table_number": "70",
+  "title": "Table 70. Pxy_C and Pxy analog switch characteristics",
+  "page": 121,
+  "section": "6.3.16 I/O port characteristics",
+  "section_title": "I/O port characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=121",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 70. Pxy_C and Pxy analog switch characteristics — section 6.3.16 I/O port characteristics. Parameter, Conditions, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Switch impedance",
+        "Switch control boosted",
+        "Switch control boosted",
+        "-",
+        "-",
+        "315",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "VDDSWITCH > 2.7 V",
+        "-",
+        "-",
+        "315",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "VDDSWITCH > 2.4 V",
+        "-",
+        "-",
+        "335",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "VDDSWITCH > 2.0 V",
+        "-",
+        "-",
+        "390",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "VDDSWITCH > 1.8 V",
+        "-",
+        "-",
+        "445",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "VDDSWITCH > 1.62 V",
+        "-",
+        "-",
+        "550",
+        "Ω"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

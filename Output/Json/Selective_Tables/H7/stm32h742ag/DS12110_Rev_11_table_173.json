@@ -1,0 +1,50 @@
+{
+  "table_id": "table_173",
+  "document": "DS12110 Rev 11 - Table 173. Delay Block characteristics",
+  "rev": "Rev 11",
+  "table_number": "173",
+  "title": "Table 173. Delay Block characteristics",
+  "page": 272,
+  "section": "7.3.19 Delay block (DLYB) characteristics",
+  "section_title": "Delay block (DLYB) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=272",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 173. Delay Block characteristics — section 7.3.19 Delay block (DLYB) characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t init",
+        "Initial delay",
+        "-",
+        "1400",
+        "2200",
+        "2400",
+        "ps"
+      ],
+      [
+        "t ∆",
+        "Unit Delay",
+        "-",
+        "35",
+        "40",
+        "45",
+        "ps"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

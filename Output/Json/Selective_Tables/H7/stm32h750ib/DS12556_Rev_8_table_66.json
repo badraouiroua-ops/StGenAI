@@ -1,0 +1,67 @@
+{
+  "table_id": "table_66",
+  "document": "DS12556 Rev 8 - Table 66. Switching characteristics for NAND flash read cycles",
+  "rev": "Rev 8",
+  "table_number": "66",
+  "title": "Table 66. Switching characteristics for NAND flash read cycles",
+  "page": 150,
+  "section": "6.3.17 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=150",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 66. Switching characteristics for NAND flash read cycles — section 6.3.17 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(N0E)",
+        "FMC_NOE low width",
+        "4T - 0.5 fmc_ker_ck",
+        "4T + 0.5 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t su(D-NOE)",
+        "FMC_D[15-0] valid data before FMC_NOE high",
+        "8",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(NOE-D)",
+        "FMC_D[15-0] valid data after FMC_NOE high",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(ALE-NOE)",
+        "FMC_ALE valid before FMC_NOE low",
+        "-",
+        "3T + 1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t h(NOE-ALE)",
+        "FMC_NWE high to FMC_ALE invalid",
+        "4T - 2 fmc_ker_ck",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. SDRAM waveforms and timings"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

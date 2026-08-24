@@ -1,0 +1,53 @@
+{
+  "table_id": "table_33",
+  "caption": "Table 33. Internal reference voltage calibration values",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 165,
+  "merged_pages": [
+    165
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=165",
+  "section": "6.3.6 Embedded reference voltage characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Memory address"
+  ],
+  "rows": [
+    [
+      "V REFIN_CAL",
+      "Raw data acquired at temperature of 30 °C, V = 3.3 V DDA",
+      "0x08FF F810 - 0x08FF F811"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. The shortest sampling time for the application can be determined by multiple iterations.",
+      "2. Guaranteed by design.",
+      "3. Guaranteed by design. and tested in production at 3.3 V."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_33",
+    "is_continued": false,
+    "pages": [
+      165
+    ],
+    "rows_count": 1,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

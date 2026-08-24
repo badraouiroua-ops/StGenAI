@@ -1,0 +1,58 @@
+{
+  "table_id": "table_16",
+  "caption": "Table 16. OTG_FS speeds supported",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 69,
+  "merged_pages": [
+    69
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=69",
+  "section": "3.43 Secure digital input/output MultiMediaCard interface",
+  "headers": [
+    "Mode",
+    "HS (480 Mbit/s)",
+    "FS (12 Mbit/s)",
+    "LS (1.5 Mbit/s)"
+  ],
+  "rows": [
+    [
+      "Host mode",
+      "-",
+      "X",
+      "X"
+    ],
+    [
+      "Device mode",
+      "-",
+      "X",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.781,
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_16",
+    "is_continued": false,
+    "pages": [
+      69
+    ],
+    "rows_count": 2,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

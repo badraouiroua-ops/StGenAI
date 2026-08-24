@@ -1,0 +1,99 @@
+{
+  "table_id": "table_31",
+  "document": "DS14359 Rev 7 - Table 31. Inrush current and inrush electric charge characteristics for LDO and SMPS",
+  "rev": "Rev 7",
+  "table_number": "31",
+  "title": "Table 31. Inrush current and inrush electric charge characteristics for LDO and SMPS",
+  "page": 162,
+  "section": "6.3.3 SMPS step-down converter",
+  "section_title": "SMPS step-down converter",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=162",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 31. Inrush current and inrush electric charge characteristics for LDO and SMPS — section 6.3.3 SMPS step-down converter. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I RUSH",
+        "Inrush current on voltage regulator power-on (POR or wakeup from Standby)",
+        "On V (3) DDLDO",
+        "-",
+        "-",
+        "55",
+        "96(4)",
+        "mA"
+      ],
+      [
+        "I RUSH",
+        "Inrush current on voltage regulator power-on (POR or wakeup from Standby)",
+        "On V (5) DDSMPS",
+        "SMPS supplies the V DDCORE",
+        "-",
+        "100",
+        "420(6)",
+        "mA"
+      ],
+      [
+        "I RUSH",
+        "Inrush current on voltage regulator power-on (POR)",
+        "On V (5) DDSMPS",
+        "SMPS supplies external circuit, V = 1.8 V(7) OUT",
+        "-",
+        "100",
+        "320(6)",
+        "mA"
+      ],
+      [
+        "Q RUSH",
+        "Inrush charge on voltage regulator power-on (POR or wakeup from Standby)",
+        "On V (3) DDLDO",
+        "-",
+        "-",
+        "4.4",
+        "5.3(4)",
+        "µC"
+      ],
+      [
+        "Q RUSH",
+        "Inrush charge on voltage regulator power-on (POR or wakeup from Standby)",
+        "On V (5) DDSMPS",
+        "SMPS supplies the V DDCORE",
+        "-",
+        "7.3",
+        "18(6)",
+        "µC"
+      ],
+      [
+        "Q RUSH",
+        "Inrush charge on voltage regulator power-on (POR)",
+        "On V (5) DDSMPS",
+        "SMPS supplies external circuit, V = 1.8 V(7) OUT",
+        "-",
+        "7.3",
+        "13.7(6)",
+        "µC"
+      ]
+    ],
+    "notes": [
+      "3. These characteristics are given for SMPSEXTHP bit is set in the PWR_CR3 register.",
+      "4. The maximum value is given for the maximum decoupling capacitor C . EXT",
+      "5. The inrush current and inrush electric charges on V are not present if the external component (L or C ) is not DDSMPS OUT",
+      "6. The maximum value is given for the maximum decoupling capacitor C and the minimum V voltage. OUT DDSMPS",
+      "7. The inrush current due to transition from 1.2 V to the final V OUT"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

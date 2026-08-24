@@ -1,0 +1,87 @@
+{
+  "table_id": "table_71",
+  "caption": "Table 71. NRST pin characteristics",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 123,
+  "merged_pages": [
+    123
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=123",
+  "section": "6.3.17 NRST pin characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "RPU(1)",
+      "Weak pull-up equivalent resistor(2)",
+      "VIN = VSS",
+      "30",
+      "40",
+      "50",
+      "㏀"
+    ],
+    [
+      "VF(NRST)(1)",
+      "NRST Input filtered pulse",
+      "1.71 V < VDD < 3.6 V",
+      "-",
+      "-",
+      "50",
+      "ns"
+    ],
+    [
+      "VNF(NRST)(1)",
+      "NRST Input not filtered pulse",
+      "1.71 V < VDD < 3.6 V",
+      "350",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "VNF(NRST)(1)",
+      "NRST Input not filtered pulse",
+      "1.62 V < VDD < 3.6 V",
+      "1000",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design.",
+      "2. The pull-up is designed with a true resistance in series with a switchable PMOS. This PMOS contribution to the series resistance must be minimum (~10%)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_71",
+    "is_continued": false,
+    "pages": [
+      123
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

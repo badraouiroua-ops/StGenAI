@@ -1,0 +1,74 @@
+{
+  "table_id": "table_19",
+  "caption": "Table 19. USB regulator characteristics",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 96,
+  "merged_pages": [
+    96
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=96",
+  "section": "6.3.6 Embedded USB regulator characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V REGOUTV33V",
+      "Regulated output voltage",
+      "-",
+      "3",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "I OUT",
+      "Output current load sinked by USB block",
+      "-",
+      "-",
+      "-",
+      "20",
+      "mA"
+    ],
+    [
+      "T WKUP",
+      "Wakeup time",
+      "-",
+      "-",
+      "120",
+      "170",
+      "us"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_19",
+    "is_continued": false,
+    "pages": [
+      96
+    ],
+    "rows_count": 3,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

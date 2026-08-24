@@ -1,0 +1,100 @@
+{
+  "table_id": "table_10",
+  "caption": "Table 10. Voltage characteristics",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 115,
+  "merged_pages": [
+    115
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=115",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbols",
+    "Ratings",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V - V (1) DDX SS",
+      "External main supply voltage (including V , DD V , V , V , V , V ) DDLDO DDSMPS DDA DD33USB BAT",
+      "-0.3",
+      "4.0",
+      "V"
+    ],
+    [
+      "V (2) IN",
+      "Input voltage on FT_xxx pins",
+      "V -0.3 SS",
+      "Min(V , V , DD DDA V , V ) DD33USB BAT +4.0(3)(4)",
+      "V"
+    ],
+    [
+      "V (2) IN",
+      "Input voltage on TT_xx pins",
+      "V -0.3 SS",
+      "4.0",
+      "V"
+    ],
+    [
+      "V (2) IN",
+      "Input voltage on BOOT0 pin",
+      "V SS",
+      "9.0",
+      "V"
+    ],
+    [
+      "V (2) IN",
+      "Input voltage on any other pins",
+      "V -0.3 SS",
+      "4.0",
+      "V"
+    ],
+    [
+      "|∆V | DDX",
+      "Variations between different V power DDX pins of the same domain",
+      "-",
+      "50",
+      "mV"
+    ],
+    [
+      "|V -V | SSx SS",
+      "Variations between all the different ground pins",
+      "-",
+      "50",
+      "mV"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. All main power (V , V , V , V , V ) and ground (V , V ) pins must always be DD DDA DD33USB DDSMPS BAT SS SSA",
+      "2. V maximum must always be respected. Refer to Table 54: I/O current injection susceptibility for the IN",
+      "3. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+      "4. To sustain a voltage higher than 4 V the internal pull-up/pull-down resistors must be disabled."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_10",
+    "is_continued": false,
+    "pages": [
+      115
+    ],
+    "rows_count": 7,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

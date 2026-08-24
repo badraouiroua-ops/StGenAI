@@ -1,0 +1,376 @@
+{
+  "table_id": "table_33",
+  "document": "DS14359 Rev 7 - Table 33. Reset and power control block characteristics",
+  "rev": "Rev 7",
+  "table_number": "33",
+  "title": "Table 33. Reset and power control block characteristics",
+  "page": 166,
+  "section": "6.3.5 Embedded reset and power control block characteristics",
+  "section_title": "Embedded reset and power control block characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=166",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 33. Reset and power control block characteristics — section 6.3.5 Embedded reset and power control block characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t (1) RSTTEMPO",
+        "Reset temporization after BOR0 released",
+        "-",
+        "-",
+        "377",
+        "550",
+        "µs"
+      ],
+      [
+        "V BOR0/POR/PDR",
+        "Power-on/power-down reset threshold",
+        "Rising edge(1)",
+        "1.62",
+        "1.67",
+        "1.71",
+        "V"
+      ],
+      [
+        "V BOR0/POR/PDR",
+        "Power-on/power-down reset threshold",
+        "Falling edge",
+        "1.58",
+        "1.62",
+        "1.68",
+        "V"
+      ],
+      [
+        "V BOR1",
+        "Brown-out reset threshold 1",
+        "Rising edge",
+        "2.04",
+        "2.10",
+        "2.15",
+        "V"
+      ],
+      [
+        "V BOR1",
+        "Brown-out reset threshold 1",
+        "Falling edge",
+        "1.95",
+        "2.00",
+        "2.06",
+        "V"
+      ],
+      [
+        "V BOR2",
+        "Brown-out reset threshold 2",
+        "Rising edge",
+        "2.34",
+        "2.41",
+        "2.47",
+        "V"
+      ],
+      [
+        "V BOR2",
+        "Brown-out reset threshold 2",
+        "Falling edge",
+        "2.25",
+        "2.31",
+        "2.37",
+        "V"
+      ],
+      [
+        "V BOR3",
+        "Brown-out reset threshold 3",
+        "Rising edge",
+        "2.63",
+        "2.70",
+        "2.78",
+        "V"
+      ],
+      [
+        "V BOR3",
+        "Brown-out reset threshold 3",
+        "Falling edge",
+        "2.54",
+        "2.61",
+        "2.68",
+        "V"
+      ],
+      [
+        "V PVD0",
+        "Programmable Voltage Detector threshold 0",
+        "Rising edge",
+        "1.90",
+        "1.96",
+        "2.01",
+        "V"
+      ],
+      [
+        "V PVD0",
+        "Programmable Voltage Detector threshold 0",
+        "Falling edge",
+        "1.81",
+        "1.86",
+        "1.91",
+        "V"
+      ],
+      [
+        "V PVD1",
+        "Programmable Voltage Detector threshold 1",
+        "Rising edge",
+        "2.05",
+        "2.10",
+        "2.16",
+        "V"
+      ],
+      [
+        "V PVD1",
+        "Programmable Voltage Detector threshold 1",
+        "Falling edge",
+        "1.96",
+        "2.01",
+        "2.06",
+        "V"
+      ],
+      [
+        "V PVD2",
+        "Programmable Voltage Detector threshold 2",
+        "Rising edge",
+        "2.19",
+        "2.26",
+        "2.32",
+        "V"
+      ],
+      [
+        "V PVD2",
+        "Programmable Voltage Detector threshold 2",
+        "Falling edge",
+        "2.10",
+        "2.15",
+        "2.21",
+        "V"
+      ],
+      [
+        "V PVD3",
+        "Programmable Voltage Detector threshold 3",
+        "Rising edge",
+        "2.35",
+        "2.41",
+        "2.47",
+        "V"
+      ],
+      [
+        "V PVD3",
+        "Programmable Voltage Detector threshold 3",
+        "Falling edge",
+        "2.25",
+        "2.31",
+        "2.37",
+        "V"
+      ],
+      [
+        "V PVD4",
+        "Programmable Voltage Detector threshold 4",
+        "Rising edge",
+        "2.49",
+        "2.56",
+        "2.62",
+        "V"
+      ],
+      [
+        "V PVD4",
+        "Programmable Voltage Detector threshold 4",
+        "Falling edge",
+        "2.39",
+        "2.45",
+        "2.51",
+        "V"
+      ],
+      [
+        "V PVD5",
+        "Programmable Voltage Detector threshold 5",
+        "Rising edge",
+        "2.64",
+        "2.71",
+        "2.78",
+        "V"
+      ],
+      [
+        "V PVD5",
+        "Programmable Voltage Detector threshold 5",
+        "Falling edge",
+        "2.55",
+        "2.61",
+        "2.68",
+        "V"
+      ],
+      [
+        "V PVD6",
+        "Programmable Voltage Detector threshold 6",
+        "Rising edge",
+        "2.78",
+        "2.86",
+        "2.94",
+        "V"
+      ],
+      [
+        "V PVD6",
+        "Programmable Voltage Detector threshold 6",
+        "Falling edge in Run mode",
+        "2.69",
+        "2.76",
+        "2.83",
+        "V"
+      ],
+      [
+        "V hyst_POR_PDR",
+        "Hysteresis voltage for Power-on/power-down reset (including BOR0)",
+        "Hysteresis in Run mode",
+        "-",
+        "43",
+        "-",
+        "mV"
+      ],
+      [
+        "V hyst_BOR_PVD",
+        "Hysteresis voltage for BOR (except BOR0)",
+        "Hysteresis in Run mode",
+        "-",
+        "100",
+        "-",
+        "mV"
+      ],
+      [
+        "I (1) DD_BOR_PVD",
+        "BOR and PVD consumption from V DD",
+        "-",
+        "-",
+        "-",
+        "0.63",
+        "µA"
+      ],
+      [
+        "I DD_POR_PVD",
+        "POR and PVD consumption from V DD",
+        "-",
+        "0.8",
+        "-",
+        "1.2",
+        "µA"
+      ],
+      [
+        "V AVM_0",
+        "Analog voltage detector for V threshold 0 DDA",
+        "Rising edge",
+        "1.66",
+        "1.71",
+        "1.76",
+        "V"
+      ],
+      [
+        "V AVM_0",
+        "Analog voltage detector for V threshold 0 DDA",
+        "Falling edge",
+        "1.56",
+        "1.61",
+        "1.66",
+        "V"
+      ],
+      [
+        "V AVM_1",
+        "Analog voltage detector for V threshold 1 DDA",
+        "Rising edge",
+        "2.06",
+        "2.12",
+        "2.19",
+        "V"
+      ],
+      [
+        "V AVM_1",
+        "Analog voltage detector for V threshold 1 DDA",
+        "Falling edge",
+        "1.96",
+        "2.02",
+        "2.08",
+        "V"
+      ],
+      [
+        "V AVM_2",
+        "Analog voltage detector for V threshold 2 DDA",
+        "Rising edge",
+        "2.42",
+        "2.50",
+        "2.58",
+        "V"
+      ],
+      [
+        "V AVM_2",
+        "Analog voltage detector for V threshold 2 DDA",
+        "Falling edge",
+        "2.35",
+        "2.42",
+        "2.49",
+        "V"
+      ],
+      [
+        "V AVM_3",
+        "Analog voltage detector for V threshold 3 DDA",
+        "Rising edge",
+        "2.74",
+        "2.83",
+        "2.91",
+        "V"
+      ],
+      [
+        "V AVM_3",
+        "Analog voltage detector for V threshold 3 DDA",
+        "Falling edge",
+        "2.64",
+        "2.72",
+        "2.80",
+        "V"
+      ],
+      [
+        "V hyst_VDDA",
+        "Hysteresis of V voltage DDA detector",
+        "-",
+        "-",
+        "100",
+        "-",
+        "mV"
+      ],
+      [
+        "I DD_PVM",
+        "PVM consumption from V DD(1)",
+        "-",
+        "-",
+        "-",
+        "0.25",
+        "µA"
+      ],
+      [
+        "I DD_VDDA",
+        "Voltage detector consumption on V (1) DDA",
+        "Resistor bridge",
+        "-",
+        "-",
+        "2.5",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. The shortest sampling time for the application can be determined by multiple iterations."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

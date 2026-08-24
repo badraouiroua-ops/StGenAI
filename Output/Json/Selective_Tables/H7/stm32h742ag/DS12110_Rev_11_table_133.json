@@ -1,0 +1,138 @@
+{
+  "table_id": "table_133",
+  "document": "DS12110 Rev 11 - Table 133. HSI48 oscillator characteristics",
+  "rev": "Rev 11",
+  "table_number": "133",
+  "title": "Table 133. HSI48 oscillator characteristics",
+  "page": 231,
+  "section": "7.3.9 Internal clock source characteristics",
+  "section_title": "Internal clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=231",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 133. HSI48 oscillator characteristics — section 7.3.9 Internal clock source characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f HSI48",
+        "HSI48 frequency",
+        "V =3.3 V, DD TJ=30 °C",
+        "47.5(1)",
+        "48",
+        "48.5(1)",
+        "MHz"
+      ],
+      [
+        "TRIM(2)",
+        "USER trimming step",
+        "-",
+        "-",
+        "0.175",
+        "-",
+        "%"
+      ],
+      [
+        "USER TRIM COVERAGE(3)",
+        "USER TRIMMING Coverage",
+        "± 32 steps",
+        "±4.79",
+        "±5.60",
+        "-",
+        "%"
+      ],
+      [
+        "DuCy(HSI48)(2)",
+        "Duty Cycle",
+        "-",
+        "45",
+        "-",
+        "55",
+        "%"
+      ],
+      [
+        "ACCHSI48_REL(3)(4)",
+        "Accuracy of the HSI48 oscillator over temperature (factory calibrated)",
+        "T =-40 to 125 °C J",
+        "–4.5",
+        "-",
+        "3.5",
+        "%"
+      ],
+      [
+        "∆ (HSI48)(3) VDD",
+        "HSI48 oscillator frequency drift with V (5) DD",
+        "V =3 to 3.6 V DD",
+        "-",
+        "0.025",
+        "0.05",
+        "%"
+      ],
+      [
+        "∆ (HSI48)(3) VDD",
+        "HSI48 oscillator frequency drift with V (5) DD",
+        "V =1.62 V to 3.6 V DD",
+        "-",
+        "0.05",
+        "0.1",
+        "%"
+      ],
+      [
+        "t (2) su(HSI48)",
+        "HSI48 oscillator start-up time",
+        "-",
+        "-",
+        "2.1",
+        "4.0",
+        "µs"
+      ],
+      [
+        "I (2) DD(HSI48)",
+        "HSI48 oscillator power consumption",
+        "-",
+        "-",
+        "350",
+        "400",
+        "µA"
+      ],
+      [
+        "N jitter T",
+        "Next transition jitter Accumulated jitter on 28 cycles(6)",
+        "-",
+        "-",
+        "± 0.15",
+        "-",
+        "ns"
+      ],
+      [
+        "P jitter T",
+        "Paired transition jitter Accumulated jitter on 56 cycles(6)",
+        "-",
+        "-",
+        "± 0.25",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design unless otherwise specified.",
+      "2. Guaranteed by test in production.",
+      "3. Guaranteed by characterization. 4 MHz low-power internal RC oscillator (CSI)",
+      "4. ∆fHSI = ACCHSI48_REL + ∆ . VDD",
+      "5. These values are obtained by using the formula: (Freq(3.6V) - Freq(3.0V)) / Freq(3.0V) or (Freq(3.6V) - Freq(1.62V)) / Freq(1.62V).",
+      "6. Jitter measurements are performed without clock source activated in parallel. 64 MHz high-speed internal RC oscillator (HSI)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "table_id": "table_31",
+  "document": "DS13314 Rev 4 - Table 31. High-speed external user clock characteristics",
+  "rev": "Rev 4",
+  "table_number": "31",
+  "title": "Table 31. High-speed external user clock characteristics",
+  "page": 113,
+  "section": "6.3.9 External clock source characteristics",
+  "section_title": "External clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=113",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 31. High-speed external user clock characteristics — section 6.3.9 External clock source characteristics. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f HSE_ext",
+        "User external clock source frequency",
+        "4",
+        "25",
+        "50",
+        "MHz"
+      ],
+      [
+        "V HSEH",
+        "Digital OSC_IN input high-level voltage",
+        "0.7 V DD",
+        "-",
+        "V DD",
+        "V"
+      ],
+      [
+        "V HSEL",
+        "Digital OSC_IN input low-level voltage",
+        "V SS",
+        "-",
+        "0.3 V DD",
+        "V"
+      ],
+      [
+        "t W(HSE)",
+        "OSC_IN high or low time",
+        "7",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design. Figure 13. High-speed external clock source AC timing diagram"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

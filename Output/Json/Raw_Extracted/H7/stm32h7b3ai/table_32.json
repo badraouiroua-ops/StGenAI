@@ -1,0 +1,101 @@
+{
+  "table_id": "table_32",
+  "caption": "Table 32. USB regulator characteristics",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 93,
+  "merged_pages": [
+    93
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=93",
+  "section": "6.3.6 Embedded reference voltage",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VDD50USB",
+      "Supply voltage",
+      "-",
+      "4",
+      "5",
+      "5,5",
+      "V"
+    ],
+    [
+      "IDD50USB",
+      "Current consumption",
+      "-",
+      "-",
+      "13.5",
+      "-",
+      "µA"
+    ],
+    [
+      "VREGOUTV33V",
+      "Regulated output voltage",
+      "-",
+      "3",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "IOUT",
+      "Output current load sinked by USB block",
+      "-",
+      "-",
+      "-",
+      "20",
+      "mA"
+    ],
+    [
+      "TWKUP",
+      "Wakeup time",
+      "-",
+      "-",
+      "120",
+      "170",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. The inrush current and inrush electric charge on VDDLDO are not present in Bypass mode or when the SMPS supplies VDDCORE.",
+      "2. The maximum value is given for the maximum decoupling capacitor CEXT.",
+      "3. The inrush current and inrush electric charge on VDDSMPS is not present if the external component (L or COUT) is not present, that is if the SMPS is not used.",
+      "4. The maximum value is given for the maximum decoupling capacitor COUT and the minimum VDDSMPS voltage.",
+      "5. The inrush current and inrush electric charge due to the transition from 1.2 V to the final VOUT value (1.8 V or 2.5 V) is not taken into account."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_32",
+    "is_continued": false,
+    "pages": [
+      93
+    ],
+    "rows_count": 5,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

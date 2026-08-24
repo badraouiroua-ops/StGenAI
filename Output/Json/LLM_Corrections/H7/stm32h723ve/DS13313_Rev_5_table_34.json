@@ -1,0 +1,22 @@
+{
+  "table_id": "table_34",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "t (3) SU Startup time",
+      "row_index": 9,
+      "analyse_visuelle": "Le symbole est tSU avec l'appel de note (3) en exposant (tSU(3)). L'extraction a inséré l'exposant au milieu du symbole ('t (3) SU').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (3) SU",
+          "nouvelle_valeur": "tSU(3)",
+          "confiance": 95
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

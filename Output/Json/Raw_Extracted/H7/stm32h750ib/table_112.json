@@ -1,0 +1,82 @@
+{
+  "table_id": "table_112",
+  "caption": "Table 112. VCAP operating conditions",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 201,
+  "merged_pages": [
+    201
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=201",
+  "section": "7.3.2 VCAP external capacitor",
+  "headers": [
+    "Figure",
+    "64. External capacitor C EXT"
+  ],
+  "rows": [
+    [
+      "Figure",
+      "C"
+    ],
+    [
+      "ESR",
+      "C"
+    ],
+    [
+      "ESR",
+      "R Leak"
+    ],
+    [
+      "ESR",
+      "R Leak MS190"
+    ],
+    [
+      "1. Legend: ESR istheequivalent series re",
+      "sistance."
+    ],
+    [
+      "CEXT Capacitanc",
+      "e of external capacitor 2.2 µF(2 )"
+    ],
+    [
+      "ESR ESR of",
+      "external capacitor < 100 m Ω"
+    ],
+    [
+      "1. In bypass mode, thetwo 2.2 μF VCAP c",
+      "apacitors are not required and should bereplaced bytwo 100 nF"
+    ]
+  ],
+  "extraction_method": "pdfplumber_text",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0417,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 7,
+    "truncated_rows": 20,
+    "bleed_rows_removed": 3,
+    "columns_initial": 7,
+    "columns_merged": 5,
+    "columns_final": 2
+  },
+  "structured_json": null,
+  "warnings": [
+    "no_table_obj_for_spans",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_112",
+    "is_continued": false,
+    "pages": [
+      201
+    ],
+    "rows_count": 8,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0417
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "table_id": "table_23",
+  "document": "DS14360 Rev 6 - Table 23. Thermal characteristics",
+  "rev": "Rev 6",
+  "table_number": "23",
+  "title": "Table 23. Thermal characteristics",
+  "page": 154,
+  "section": "6.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=154",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 23. Thermal characteristics — section 6.2 Absolute maximum ratings. Symbol, Ratings, Ratings, Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Ratings",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "T STG",
+        "Storage temperature range",
+        "Storage temperature range",
+        "-65 to +150",
+        "°C"
+      ],
+      [
+        "T J",
+        "Maximum junction temperature",
+        "Industrial temperature range 6",
+        "130(1)",
+        "°C"
+      ]
+    ],
+    "notes": [
+      "1. All main power (V , V , V ) and ground (V , V ) pins must always be connected to the DD DDA DD33USB SS SSA"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

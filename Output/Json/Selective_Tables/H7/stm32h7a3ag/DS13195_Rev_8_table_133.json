@@ -1,0 +1,49 @@
+{
+  "table_id": "table_133",
+  "document": "DS13195 Rev 8 - Table 133. WLCSP132 - Recommended PCB design rules",
+  "rev": "Rev 8",
+  "table_number": "133",
+  "title": "Table 133. WLCSP132 - Recommended PCB design rules",
+  "page": 198,
+  "section": "7 Package information",
+  "section_title": "Package information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=198",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 133. WLCSP132 - Recommended PCB design rules — section 7 Package information. Dimension, Recommended values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Recommended values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.35 mm"
+      ],
+      [
+        "Dpad",
+        "0,200 mm"
+      ],
+      [
+        "Dsm",
+        "0.200 mm typ. (depends on soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.250 mm"
+      ],
+      [
+        "Stencil thickness",
+        "0.080 mm"
+      ]
+    ],
+    "notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences resulting"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "table_id": "table_191",
+  "document": "DS12556 Rev 8 - Table 191. I2C analog filter characteristics",
+  "rev": "Rev 8",
+  "table_number": "191",
+  "title": "Table 191. I2C analog filter characteristics",
+  "page": 288,
+  "section": "7.3.32 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=288",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 191. I2C analog filter characteristics — section 7.3.32 Communication interfaces. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t AF",
+        "Maximum pulse width of spikes that are suppressed by analog filter",
+        "50(2)",
+        "80(3)",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. Spikes with widths below t are filtered. AF(min)",
+      "3. Spikes with widths above t are not filtered. AF(max)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "table_id": "table_15",
+  "caption": "Table 15. VCAP operating conditions",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 106,
+  "merged_pages": [
+    106
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=106",
+  "section": "6.3.2 VCAP external capacitor",
+  "headers": [
+    "Figure 17. External capacitor C EXT",
+    ""
+  ],
+  "rows": [
+    [
+      "C",
+      ""
+    ],
+    [
+      "ESR C",
+      ""
+    ],
+    [
+      "ESR R Leak",
+      ""
+    ],
+    [
+      "1. L egend: ESR is the equivalentseries resistance.",
+      ""
+    ],
+    [
+      "1. L egend: ESR is t Table 15. VCAP operatingconditions(1)",
+      ""
+    ],
+    [
+      "1. L Symbol Tab Parameterconditions(1)",
+      "Conditions"
+    ],
+    [
+      "1. L CEXT Capacitance of external capacitor",
+      "2.2 µF(2)"
+    ],
+    [
+      "1. L ESR Cap ESR of external capacitorcitor",
+      "< 1 00 mΩ"
+    ],
+    [
+      "1. W hen bypassingthe voltage regulator, the two 2.2 µF V CAP capacitors are not",
+      "requiredand should"
+    ],
+    [
+      "replaced by two 1 00 nF decoupling capacitors. 2.2 µF V CAP capacitors are not",
+      "requiredand should"
+    ]
+  ],
+  "extraction_method": "pdfplumber_text",
+  "extraction_confidence": "low",
+  "empty_cell_ratio": 0.25,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 9,
+    "truncated_rows": 20,
+    "bleed_rows_removed": 3,
+    "columns_initial": 9,
+    "columns_merged": 7,
+    "columns_final": 2,
+    "footnote_rows_removed": 3,
+    "_notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "no_table_obj_for_spans",
+    "post_merge_corrupted",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_15",
+    "is_continued": false,
+    "pages": [
+      106
+    ],
+    "rows_count": 10,
+    "cols_count": 2,
+    "confidence": "low",
+    "empty_cell_ratio": 0.25
+  },
+  "debug": {
+    "crop_path": "Raw_Extracted\\H7\\stm32h742ag\\debug\\table_15.png"
+  }
+}

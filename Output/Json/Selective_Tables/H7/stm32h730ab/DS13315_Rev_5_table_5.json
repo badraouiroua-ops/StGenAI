@@ -1,0 +1,110 @@
+{
+  "table_id": "table_5",
+  "document": "DS13315 Rev 5 - Table 5. USART features",
+  "rev": "Rev 5",
+  "table_number": "5",
+  "title": "Table 5. USART features",
+  "page": 49,
+  "section": "3.37 Universal synchronous/asynchronous receiver transmitter",
+  "section_title": "Universal synchronous/asynchronous receiver transmitter",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=49",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "text_helper": "Table 5. USART features — section 3.37 Universal synchronous/asynchronous receiver transmitter. USART modes/features(1), USART1/2/3/6/10, UART4/5/7/8/9.",
+  "table_content": {
+    "headers": [
+      "USART modes/features(1)",
+      "USART1/2/3/6/10",
+      "UART4/5/7/8/9"
+    ],
+    "rows": [
+      [
+        "Hardware flow control for modem",
+        "X",
+        "X"
+      ],
+      [
+        "Continuous communication using DMA",
+        "X",
+        "X"
+      ],
+      [
+        "Multiprocessor communication",
+        "X",
+        "X"
+      ],
+      [
+        "Synchronous SPI mode (master/slave)",
+        "X",
+        "-"
+      ],
+      [
+        "Smartcard mode",
+        "X",
+        "-"
+      ],
+      [
+        "Single-wire half-duplex communication",
+        "X",
+        "X"
+      ],
+      [
+        "IrDA SIR ENDEC block",
+        "X",
+        "X"
+      ],
+      [
+        "LIN mode",
+        "X",
+        "X"
+      ],
+      [
+        "Dual clock domain and wake-up from low power mode",
+        "X",
+        "X"
+      ],
+      [
+        "Receiver timeout interrupt",
+        "X",
+        "X"
+      ],
+      [
+        "Modbus communication",
+        "X",
+        "X"
+      ],
+      [
+        "Auto baud rate detection",
+        "X",
+        "X"
+      ],
+      [
+        "Driver Enable",
+        "X",
+        "X"
+      ],
+      [
+        "USART data length",
+        "7, 8 and 9 bits",
+        "7, 8 and 9 bits"
+      ],
+      [
+        "Tx/Rx FIFO",
+        "X",
+        "X"
+      ],
+      [
+        "Tx/Rx FIFO size",
+        "16",
+        "16"
+      ]
+    ],
+    "notes": [
+      "1. X = supported."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

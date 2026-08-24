@@ -1,0 +1,44 @@
+{
+  "table_id": "table_60",
+  "document": "DS13195 Rev 8 - Table 60. EMS characteristics",
+  "rev": "Rev 8",
+  "table_number": "60",
+  "title": "Table 60. EMS characteristics",
+  "page": 114,
+  "section": "6.3.13 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=114",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 60. EMS characteristics — section 6.3.13 EMC characteristics. Symbol, Parameter, Conditions, Level/ Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Level/ Class"
+    ],
+    "rows": [
+      [
+        "VFESD",
+        "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+        "VDD = 3.3 V, TA = +25 °C, LQFP144, frcc_cpu_ck = 216 MHz, conforms to IEC 61000-4-2",
+        "3B"
+      ],
+      [
+        "VFTB",
+        "Fast transient voltage burst limits to be applied through 100 pF on VDD and VSS pins to induce a functional disturbance",
+        "VDD = 3.3 V, TA = +25 °C, LQFP144, frcc_cpu_ck = 216 MHz, conforms to IEC 61000-4-2",
+        "5A"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The electrostatic discharge is 2000 V for all pins, except VFBSMPS, for which the test fails at 2000 V and passes at 1600 V. Static latchup"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

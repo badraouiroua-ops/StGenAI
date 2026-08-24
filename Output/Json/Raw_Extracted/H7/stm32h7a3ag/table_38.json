@@ -1,0 +1,68 @@
+{
+  "table_id": "table_38",
+  "caption": "Table 38. Typical current consumption in Autonomous mode",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 96,
+  "merged_pages": [
+    96
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=96",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions(1)",
+    "Conditions(1)",
+    "frcc_hclk4 (AHB4) (MHz)",
+    "Typ",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD",
+      "Supply current in Autonomous mode",
+      "Run, DStop mode",
+      "VOS3",
+      "64",
+      "2.98",
+      "mA"
+    ],
+    [
+      "IDD",
+      "Supply current in Autonomous mode",
+      "Run, DStop2 mode",
+      "VOS3",
+      "64",
+      "2.64",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results, unless otherwise specified."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_38",
+    "is_continued": false,
+    "pages": [
+      96
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

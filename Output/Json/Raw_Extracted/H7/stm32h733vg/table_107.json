@@ -1,0 +1,196 @@
+{
+  "table_id": "table_107",
+  "caption": "Table 107. USART characteristics",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 198,
+  "merged_pages": [
+    198
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=198",
+  "section": "6.3.37 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f CK",
+      "USART clock frequency",
+      "Master mode, 1.62 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "17.0",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "USART clock frequency",
+      "Slave receiver mode, 1.62 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "45.0",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "USART clock frequency",
+      "Slave transmitter mode, 1.62 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "27.0",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "USART clock frequency",
+      "Slave transmitter mode, 2.5 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "37.0",
+      "MHz"
+    ],
+    [
+      "t su(NSS)",
+      "NSS setup time",
+      "Slave mode",
+      "t +1 ker",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NSS)",
+      "NSS hold time",
+      "Slave mode",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t , w(CKH) t w(CKL)",
+      "CK high and low time",
+      "Master mode",
+      "1/f /2-2 CK",
+      "1/f /2 CK",
+      "1/f /2+2 CK",
+      "ns"
+    ],
+    [
+      "t su(RX)",
+      "Data input setup time",
+      "Master mode",
+      "16",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(RX)",
+      "Data input setup time",
+      "Slave mode",
+      "1.0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(RX)",
+      "Data input hold time",
+      "Master mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(RX)",
+      "Data input hold time",
+      "Slave mode",
+      "2.0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(TX)",
+      "Data output valid time",
+      "Slave mode, , 1.62 V < V < 3.6 V DD",
+      "-",
+      "12.0",
+      "18",
+      "ns"
+    ],
+    [
+      "t v(TX)",
+      "Data output valid time",
+      "Slave mode, , 2.5 V < V < 3.6 V DD",
+      "-",
+      "12.0",
+      "13.5",
+      "ns"
+    ],
+    [
+      "t v(TX)",
+      "Data output valid time",
+      "Master mode",
+      "-",
+      "0.5",
+      "1",
+      "ns"
+    ],
+    [
+      "t h(TX)",
+      "Data output hold time",
+      "Slave mode",
+      "9",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(TX)",
+      "Data output hold time",
+      "Master mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. 198/236 DS13314 Rev 4"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_107",
+    "is_continued": false,
+    "pages": [
+      198
+    ],
+    "rows_count": 16,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

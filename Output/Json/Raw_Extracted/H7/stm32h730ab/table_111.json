@@ -1,0 +1,258 @@
+{
+  "table_id": "table_111",
+  "caption": "Table 111. SPI characteristics",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 223,
+  "merged_pages": [
+    223,
+    224
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=223",
+  "section": "6.3.38 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Master mode, 2.7 V < V < 3.6 V, SPI1, 2, 3 DD",
+      "-",
+      "-",
+      "125",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Master mode, 1.62 V < V < 3.6 V, SPI1, 2, DD 3",
+      "-",
+      "-",
+      "80/66(3)",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Master mode, 1.62 V < V < 3.6 V, SPI4, 5, DD 6",
+      "-",
+      "-",
+      "68.5",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Slave receiver mode, 1.62 V < V < 3.6 V, SPI1, 2, DD 3",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Slave receiver mode, 1.62 V < V < 3.6 V, SPI4, 5, DD 6",
+      "-",
+      "-",
+      "68.5",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Slave mode transmitter/full duplex, 2.7 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "45",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Slave mode transmitter/full duplex, 1.62 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "42.5/31(4)",
+      "MHz"
+    ],
+    [
+      "t su(NSS)",
+      "NSS setup time",
+      "Slave mode",
+      "2",
+      "-",
+      "-",
+      "MHz"
+    ],
+    [
+      "t h(NSS)",
+      "NSS hold time",
+      "Slave mode",
+      "1",
+      "-",
+      "-",
+      "MHz"
+    ],
+    [
+      "t , w(SCKH) t w(SCKL)",
+      "SCK high and low time",
+      "Master mode",
+      "t /2-1(5) SCK",
+      "t /2(5) SCK",
+      "t /2+1(5) SCK",
+      "MHz"
+    ],
+    [
+      "t su(MI)",
+      "Data input setup time",
+      "Master mode",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SI)",
+      "-",
+      "Slave mode",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MI)",
+      "Data input hold time",
+      "Master mode",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SI)",
+      "-",
+      "Slave mode",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t a(SO)",
+      "Data output access time",
+      "Slave mode",
+      "9",
+      "13",
+      "27",
+      "ns"
+    ],
+    [
+      "t dis(SO)",
+      "Data output disable time",
+      "Slave mode",
+      "0",
+      "1",
+      "5",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time",
+      "Slave mode, 2.7 V < V < 3.6 V DD",
+      "-",
+      "7.5",
+      "11",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time",
+      "Slave mode, 1.62 V < V < 3.6 V DD",
+      "-",
+      "7.5",
+      "12/16(4)",
+      "ns"
+    ],
+    [
+      "t v(MO)",
+      "-",
+      "Master mode, 1.62 V < V < 3.6 V DD",
+      "-",
+      "1",
+      "1.5/5.5(6)",
+      "ns"
+    ],
+    [
+      "t h(SO)",
+      "Data output hold time",
+      "Slave mode",
+      "7",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MO)",
+      "-",
+      "Master mode",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0272,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "3. This value is obtained by using PA9 or PA12 I/O.",
+      "4. This value is obtained by using PC2 or PJ11 I/O.",
+      "5. t SCK = t ker_ck * baud rate prescaler.",
+      "6. This value is obtained by using PC3 or PJ10 I/O."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_111",
+    "is_continued": true,
+    "pages": [
+      223,
+      224
+    ],
+    "rows_count": 21,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0272
+  }
+}

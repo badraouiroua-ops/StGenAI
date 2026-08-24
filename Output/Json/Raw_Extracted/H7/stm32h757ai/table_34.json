@@ -1,0 +1,272 @@
+{
+  "table_id": "table_34",
+  "caption": "Table 34. Typical and maximum current consumption in Stop, SMPS regulator",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 123,
+  "merged_pages": [
+    123
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=123",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Typ",
+    "Max / Tj=25°C",
+    "Max / Tj=85°C",
+    "Max / Tj=105 °C",
+    "Max / Tj=125 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Stop, D3 Stop",
+      "Flash OFF, no IWDG",
+      "SVOS5",
+      "0.36",
+      "1.73",
+      "11.91",
+      "21.53",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Stop, D3 Stop",
+      "Flash OFF, no IWDG",
+      "SVOS4",
+      "0.63",
+      "3.05",
+      "19.57",
+      "33.51",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Stop, D3 Stop",
+      "Flash OFF, no IWDG",
+      "SVOS3",
+      "1.00",
+      "4.98",
+      "29.11",
+      "47.13",
+      "68.76",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Stop, D3 Stop",
+      "Flash ON, no IWDG",
+      "SVOS5",
+      "0.36",
+      "1.73",
+      "11.91",
+      "21.53",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Stop, D3 Stop",
+      "Flash ON, no IWDG",
+      "SVOS4",
+      "0.73",
+      "3.18",
+      "19.74",
+      "33.72",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Stop, D3 Stop",
+      "Flash ON, no IWDG",
+      "SVOS3",
+      "1.11",
+      "5.09",
+      "29.31",
+      "47.40",
+      "69.14",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Standby, D3 Stop",
+      "Flash OFF, no IWDG",
+      "SVOS5",
+      "0.25",
+      "1.24",
+      "8.21",
+      "14.00",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Standby, D3 Stop",
+      "Flash OFF, no IWDG",
+      "SVOS4",
+      "0.46",
+      "2.21",
+      "14.01",
+      "22.94",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Standby, D3 Stop",
+      "Flash OFF, no IWDG",
+      "SVOS3",
+      "0.73",
+      "3.57",
+      "19.62",
+      "32.80",
+      "49.24",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Standby, D3 Stop",
+      "Flash ON, no IWDG",
+      "SVOS5",
+      "0.25",
+      "1.24",
+      "8.21",
+      "14.00",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Standby, D3 Stop",
+      "Flash ON, no IWDG",
+      "SVOS4",
+      "0.55",
+      "2.34",
+      "14.15",
+      "23.15",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Stop, D2 Standby, D3 Stop",
+      "Flash ON, no IWDG",
+      "SVOS3",
+      "0.83",
+      "3.67",
+      "19.81",
+      "32.99",
+      "49.55",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Standby, D2 Stop, D3 Stop",
+      "Flash OFF, no IWDG",
+      "SVOS5",
+      "0.15",
+      "0.67",
+      "4.51",
+      "7.85",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Standby, D2 Stop, D3 Stop",
+      "Flash OFF, no IWDG",
+      "SVOS4",
+      "0.26",
+      "1.17",
+      "7.21",
+      "12.32",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Standby, D2 Stop, D3 Stop",
+      "Flash OFF, no IWDG",
+      "SVOS3",
+      "0.40",
+      "1.90",
+      "10.57",
+      "17.12",
+      "26.97",
+      "mA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Standby, D2 Standby, D3 Stop",
+      "Flash ON, no IWDG",
+      "SVOS5",
+      "0.06",
+      "0.20",
+      "1.18",
+      "2.05",
+      "-",
+      "µA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Standby, D2 Standby, D3 Stop",
+      "Flash ON, no IWDG",
+      "SVOS4",
+      "0.08",
+      "0.33",
+      "1.90",
+      "3.11",
+      "-",
+      "µA"
+    ],
+    [
+      "I DD (Stop)",
+      "D1 Standby, D2 Standby, D3 Stop",
+      "Flash ON, no IWDG",
+      "SVOS3",
+      "0.13",
+      "0.54",
+      "2.80",
+      "4.47",
+      "6.77",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 10,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 10,
+    "_notes": [
+      "1. The parameters given in the above table for the SMPS regulator are derived by extrapolation from the LDO consumption ."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_34",
+    "is_continued": false,
+    "pages": [
+      123
+    ],
+    "rows_count": 18,
+    "cols_count": 10,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

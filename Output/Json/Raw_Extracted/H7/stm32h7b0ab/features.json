@@ -1,0 +1,72 @@
+{
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "pdf_type": 2,
+  "doc_ref": "DS13196",
+  "revision": "Rev 7",
+  "date": "May 2022",
+  "title": "32-bit Arm® Cortex®-M7 280 MHz MCUs, 128-Kbyte Flash memory, 1.4-Mbyte RAM, 46 com. and analog interfaces, SMPS, crypto",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "page": 1,
+  "core": "Cortex-M7",
+  "fpu": true,
+  "max_frequency_mhz": 110,
+  "flash_kb": 128,
+  "ram_kb": 128,
+  "voltage_min_v": 1.62,
+  "voltage_max_v": 3.6,
+  "operating_temp_c": [],
+  "packages": [
+    "LQFP144 (20 x 20 mm)",
+    "LQFP176 (24 x 24 mm)",
+    "UFBGA169 (10 x 10 mm)",
+    "UFBGA176 (14 x 14 mm)",
+    "TFBGA216",
+    "TFBGA225",
+    "LQFP100 (14 x 14 mm)",
+    "LQFP64 (10 x 10 mm)"
+  ],
+  "device_summary": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H7B0xB",
+        "STM32H7B0AB"
+      ],
+      [
+        "STM32H7B0xB",
+        "STM32H7B0IB"
+      ],
+      [
+        "STM32H7B0xB",
+        "STM32H7B0RB"
+      ],
+      [
+        "STM32H7B0xB",
+        "STM32H7B0ZB"
+      ],
+      [
+        "STM32H7B0xB",
+        "STM32H7B0VB"
+      ]
+    ]
+  },
+  "extraction_meta": {
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "extraction_method": "regex_type2",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "high",
+    "missing_fields": [
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

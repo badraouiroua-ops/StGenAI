@@ -1,0 +1,189 @@
+{
+  "table_id": "table_123",
+  "document": "DS12931 Rev 5 - Table 123. WLCSP156 - Mechanical data",
+  "rev": "Rev 5",
+  "table_number": "123",
+  "title": "Table 123. WLCSP156 - Mechanical data",
+  "page": 230,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=230",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "text_helper": "Table 123. WLCSP156 - Mechanical data — section 7.1 Device marking. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(1) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min",
+      "millimeters / Typ",
+      "millimeters / Max",
+      "inches(1) / Min",
+      "inches(1) / Typ",
+      "inches(1) / Max"
+    ],
+    "rows": [
+      [
+        "A",
+        "-",
+        "-",
+        "0.58",
+        "0.020",
+        "0.021",
+        "0.023"
+      ],
+      [
+        "A1",
+        "-",
+        "0.17",
+        "-",
+        "-",
+        "0.006",
+        "-"
+      ],
+      [
+        "A2",
+        "-",
+        "0.38",
+        "-",
+        "-",
+        "0.015",
+        "-"
+      ],
+      [
+        "A3",
+        "-",
+        "0.025(2)",
+        "-",
+        "-",
+        "0.001",
+        "-"
+      ],
+      [
+        "b",
+        "0.21",
+        "0.24",
+        "0.27",
+        "0.008",
+        "0.009",
+        "0.011"
+      ],
+      [
+        "D",
+        "4.94",
+        "4.96",
+        "4.98",
+        "0.193",
+        "0.195",
+        "0.196"
+      ],
+      [
+        "E",
+        "4.62",
+        "4.64",
+        "4.66",
+        "0.181",
+        "0.182",
+        "0.183"
+      ],
+      [
+        "e1",
+        "-",
+        "4.20",
+        "-",
+        "-",
+        "0.014",
+        "-"
+      ],
+      [
+        "e2",
+        "-",
+        "3.85",
+        "-",
+        "-",
+        "0.165",
+        "-"
+      ],
+      [
+        "e",
+        "-",
+        "0.35",
+        "-",
+        "-",
+        "0.152",
+        "-"
+      ],
+      [
+        "F",
+        "-",
+        "0.380(3)",
+        "-",
+        "-",
+        "0.015",
+        "-"
+      ],
+      [
+        "G",
+        "-",
+        "0.395(3)",
+        "-",
+        "-",
+        "0.015",
+        "-"
+      ],
+      [
+        "aaa",
+        "-",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.004"
+      ],
+      [
+        "bbb",
+        "-",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.004"
+      ],
+      [
+        "ccc",
+        "-",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.004"
+      ],
+      [
+        "ddd",
+        "-",
+        "-",
+        "0.05",
+        "-",
+        "-",
+        "0.002"
+      ],
+      [
+        "eee",
+        "-",
+        "-",
+        "0.05",
+        "-",
+        "-",
+        "0.002"
+      ]
+    ],
+    "notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences",
+      "2. Back side coating. Nominal dimension rounded to the 3rd decimal place resulting from process capability.",
+      "3. Calculated dimensions are rounded to 3rd decimal place."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

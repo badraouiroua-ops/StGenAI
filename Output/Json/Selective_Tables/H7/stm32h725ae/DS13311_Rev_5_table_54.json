@@ -1,0 +1,58 @@
+{
+  "table_id": "table_54",
+  "document": "DS13311 Rev 5 - Table 54. I/O current injection susceptibility",
+  "rev": "Rev 5",
+  "table_number": "54",
+  "title": "Table 54. I/O current injection susceptibility",
+  "page": 158,
+  "section": "6.3.16 I/O current injection characteristics",
+  "section_title": "I/O current injection characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=158",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 54. I/O current injection susceptibility — section 6.3.16 I/O current injection characteristics. Symbol, Description, Functional susceptibility / Negative injection, Functional susceptibility / Positive injection, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Description",
+      "Functional susceptibility / Negative injection",
+      "Functional susceptibility / Positive injection",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I INJ",
+        "PA12, PE8",
+        "5",
+        "0",
+        "mA"
+      ],
+      [
+        "I INJ",
+        "PC4, PE12, PF15, PH0",
+        "0",
+        "NA",
+        "mA"
+      ],
+      [
+        "I INJ",
+        "PA0, PA0_C, PA1, PA1_C, PC2, PC2_C, PC3, PC3_C, PA4, PA5, PE7, PG1, PH4, PH5, BOOT0",
+        "0",
+        "0",
+        "mA"
+      ],
+      [
+        "I INJ",
+        "All other I/Os",
+        "5",
+        "NA",
+        "mA"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

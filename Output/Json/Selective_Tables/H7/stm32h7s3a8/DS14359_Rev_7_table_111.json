@@ -1,0 +1,45 @@
+{
+  "table_id": "table_111",
+  "document": "DS14359 Rev 7 - Table 111. V monitoring characteristics 256 CORE",
+  "rev": "Rev 7",
+  "table_number": "111",
+  "title": "Table 111. V monitoring characteristics 256 CORE",
+  "page": 256,
+  "section": "6.3.25 V monitoring characteristics",
+  "section_title": "V monitoring characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=256",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 111. V monitoring characteristics 256 CORE — section 6.3.25 V monitoring characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "ts_vcore",
+        "ADC sampling time when reading the VCORE voltage",
+        "-",
+        "1",
+        "-",
+        "-",
+        "µs"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. Evaluated by characterization - Not tested in production.",
+      "3. The characterization is done at VDD_CORE = 1.19 V for Typ/Min/Max."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

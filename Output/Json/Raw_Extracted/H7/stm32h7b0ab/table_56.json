@@ -1,0 +1,97 @@
+{
+  "table_id": "table_56",
+  "caption": "Table 56. Flash memory programming",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 97,
+  "merged_pages": [
+    97
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=97",
+  "section": "6.3.12 Memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tprog",
+      "Word program time",
+      "128 bits (user area)",
+      "-",
+      "-",
+      "20",
+      "µs"
+    ],
+    [
+      "tprog",
+      "Word program time",
+      "16 bits (OTP area)",
+      "-",
+      "-",
+      "20",
+      "µs"
+    ],
+    [
+      "tERASE8KB",
+      "Sector erase time (8 Kbytes)",
+      "-",
+      "-",
+      "-",
+      "2.2",
+      "ms"
+    ],
+    [
+      "tME",
+      "Bank mass erase time",
+      "Bank mass erase time",
+      "-",
+      "-",
+      "10",
+      "ms"
+    ],
+    [
+      "Vprog",
+      "Programming voltage",
+      "Programming voltage",
+      "1.62",
+      "-",
+      "3.6",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_56",
+    "is_continued": false,
+    "pages": [
+      97
+    ],
+    "rows_count": 5,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "table_id": "table_124",
+  "caption": "Table 124. SPI characteristics",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 268,
+  "merged_pages": [
+    268,
+    269
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=268",
+  "section": "6.3.33 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Master mode, 1.71 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "90",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Master mode, 2.7 V < V < 3.6 V, SPI2, 3, 4, DD 5, 6",
+      "-",
+      "-",
+      "133",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Master mode, 2.7 V < V < 3.6 V, SPI1 DD",
+      "-",
+      "-",
+      "130",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Slave receiver mode, 2.7 V < V < 3.6 V, SPI2, 3, 4, DD 5, 6",
+      "-",
+      "-",
+      "140",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Slave receiver mode, 1.71 V < V < 3.6 V, SPI1 DD",
+      "-",
+      "-",
+      "130",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Slave mode transmitter/full duplex, 2.7 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "45",
+      "MHz"
+    ],
+    [
+      "f SCK",
+      "SPI clock frequency",
+      "Slave mode transmitter/full duplex, 1.71 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "38",
+      "MHz"
+    ],
+    [
+      "t su(NSS)",
+      "NSS setup time",
+      "Slave mode",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NSS)",
+      "NSS hold time",
+      "Slave mode",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t , w(SCKH) t w(SCKL)",
+      "SCK high and low time",
+      "Master mode, prescaler = 2",
+      "t -1 SCK",
+      "t SCK",
+      "t +1 SCK",
+      "ns"
+    ],
+    [
+      "t su(MI)",
+      "Data input setup time",
+      "Master mode",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SI)",
+      "-",
+      "Slave mode",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MI)",
+      "Data input hold time",
+      "Master mode",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SI)",
+      "-",
+      "Slave mode",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t a(SO)",
+      "Data output access time",
+      "Slave mode",
+      "10",
+      "11.5",
+      "15.5",
+      "ns"
+    ],
+    [
+      "t dis(SO)",
+      "Data output disable time",
+      "Slave mode",
+      "7.5",
+      "8",
+      "12",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time",
+      "Slave mode, 2.7 V < V < 3.6 V DD",
+      "-",
+      "9",
+      "11",
+      "ns"
+    ],
+    [
+      "t v(SO)",
+      "Data output valid time",
+      "Slave mode, 1.71 V < V < 3.6 V DD",
+      "-",
+      "9",
+      "13",
+      "ns"
+    ],
+    [
+      "t v(MO)",
+      "-",
+      "Master mode, 1.71 V < V < 3.6 V DD",
+      "-",
+      "0.5",
+      "1",
+      "ns"
+    ],
+    [
+      "t h(SO)",
+      "Data output hold time",
+      "Slave mode",
+      "6.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MO)",
+      "-",
+      "Master mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0272,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. At VOS low, these values are degraded by up to 7%."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_124",
+    "is_continued": true,
+    "pages": [
+      268,
+      269
+    ],
+    "rows_count": 21,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0272
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "table_id": "table_136",
+  "document": "DS13315 Rev 5 - Table 136. Document revision history",
+  "rev": "Rev 5",
+  "table_number": "136",
+  "title": "Table 136. Document revision history",
+  "page": 266,
+  "section": "9 Important security notice",
+  "section_title": "Important security notice",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=266",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "text_helper": "Table 136. Document revision history — section 9 Important security notice. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "10-Jul-2020",
+        "1",
+        "Initial release."
+      ],
+      [
+        "03-Sep-2020",
+        "2",
+        "Renamed Section 3.31 into True random number generator (RNG). Replaced V by V in Section 6: Electrical characteristics. DDIOx DD Updated I in Table 10: Current characteristics and Table 17: Inrush IO current and inrush electric charge characteristics for LDO and SMPS. Removed Table 13: Supply voltage and maximum temperature configuration. Updated Table 27: Typical current consumption in Autonomous mode, Table 30: Typical and maximum current consumption in Standby mode and Table 31: Typical and maximum current consumption in VBAT mode. Added Section 6.3.16: I/O current injection characteristics. Removed reference to PI8 in Table 55: Output voltage characteristics for all I/Os except PC13, PC14 and PC15 and Table 56: Output voltage characteristics for PC13, PC14 and PC15. Added Section : Analog switch between ports Pxy_C and Pxy. Added Figure 83: LQFP176 - Footprint example and Figure 81: UFBGA169 - Footprint example."
+      ],
+      [
+        "07-Dec-2021",
+        "3",
+        "Added indication that patents apply to the devices in Section : Features. Table 1: STM32H730xB features and peripheral counts: – Changed number of general-purpose 32-bit timers to 4. – For LQFP100 and TFBGA100 packages, replaced 2 Octo-SPI/Quad- SPI interfaces by 1 and remove note – Changed number of SPI/I2S from 4/4 to 6/4 for UFBGA169. In Section 3.8.1: Power supply scheme, changed V power supply DD requirements. Section 3.8.3: Voltage regulator: Scale0 is available even without LDO. Section 3.37: Universal synchronous/asynchronous receiver transmitter (USART): changed USART communication speed to 17 Mbit/s. Table 7: STM32H730xB pin and ball descriptions: – for PA15(JTDI), replaced SPI3_NSS/I2S3_WS alternate function by SPI3_NSS(boot)/I2S3_WS. – Added Note 1.and Note 2.to the package pin/balls corresponding to Pxy and Pxy_C. Added V in Table 12: General operating conditions. BAT Moved LSI clock from backup domain to VDD domain in Figure 13: Power supply scheme. Modified Section 6.3.3: SMPS step-down converter including Figure 16: External components for SMPS step-down converter. Updated Table 18: Operating conditions at power-up/power-down title and added t . VCORE"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

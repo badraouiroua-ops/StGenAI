@@ -1,0 +1,194 @@
+{
+  "table_id": "table_98",
+  "caption": "Table 98. MDIO Slave timing parameters",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 195,
+  "merged_pages": [
+    195,
+    196
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=195",
+  "section": "6.3.32 Communications interfaces",
+  "headers": [
+    "Symbol",
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F sDC",
+      "F sDC",
+      "Management data clock",
+      "-",
+      "-",
+      "40",
+      "MHz"
+    ],
+    [
+      "t d(MDIO)",
+      "t d(MDIO)",
+      "Management data input/output output valid time",
+      "7",
+      "8",
+      "20",
+      "ns"
+    ],
+    [
+      "t su(MDIO)",
+      "t su(MDIO)",
+      "Management data input/output setup time",
+      "4",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MDIO)",
+      "t h(MDIO)",
+      "Management data input/output hold time",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "f PP",
+      "Clock frequency in data transfer mode",
+      "-",
+      "0",
+      "-",
+      "125",
+      "MHz"
+    ],
+    [
+      "t W(CKL)",
+      "Clock low time",
+      "f =50 MHz PP",
+      "9.5",
+      "10.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t W(CKH)",
+      "Clock high time",
+      "-",
+      "8.5",
+      "9.5",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D inputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+      "CMD, D inputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+      "-",
+      "-",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ISU",
+      "Input setup time HS",
+      "f ≥50 MHz PP",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t IH",
+      "Input hold time HS",
+      "-",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t (3) IDW",
+      "Input valid window (variable window)",
+      "-",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D outputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+      "CMD, D outputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+      "-",
+      "-",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t OV",
+      "Output valid time HS",
+      "f ≥50 MHz PP",
+      "-",
+      "3.5",
+      "5",
+      "ns"
+    ],
+    [
+      "t OH",
+      "Output hold time HS",
+      "-",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.1224,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_98",
+    "is_continued": true,
+    "pages": [
+      195,
+      196
+    ],
+    "rows_count": 14,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.1224
+  }
+}

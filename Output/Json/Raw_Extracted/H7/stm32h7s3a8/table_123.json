@@ -1,0 +1,75 @@
+{
+  "table_id": "table_123",
+  "caption": "Table 123. I3C push-pull measured timing",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 267,
+  "merged_pages": [
+    267
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=267",
+  "section": "6.3.33 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "I3C open drain mode (specification) (specification) / Min",
+    "I3C open drain mode (specification) (specification) / Max",
+    "Timing measurements",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t SU_OD",
+      "SDA data setup time during open drain mode",
+      "Controller 1.71 V < V < 3.6 V DD",
+      "3",
+      "-",
+      "16",
+      "ns"
+    ],
+    [
+      "t SU_PP",
+      "SDA signal data setup in push-pull mode",
+      "Controller 1.71 V < V < 3.6 V DD",
+      "3",
+      "-",
+      "14.5",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. I2C interface characteristics",
+      "4. Spikes with widths below t are filtered. AF(min)",
+      "5. Spikes with widths above t are not filtered. AF(max)"
+    ],
+    "_legend": [
+      "SCL low duration in the I3C_TIMINGR0 register. For further details refer to AN5879."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:3"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_123",
+    "is_continued": false,
+    "pages": [
+      267
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

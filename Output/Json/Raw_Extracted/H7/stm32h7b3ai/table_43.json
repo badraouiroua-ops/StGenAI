@@ -1,0 +1,119 @@
+{
+  "table_id": "table_43",
+  "caption": "Table 43. Typical and maximum current consumption in V mode 100 BAT",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 100,
+  "merged_pages": [
+    100
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=100",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions / Backup SRAM",
+    "Conditions / RTC & LSE(2)",
+    "Typ / 1.2 V",
+    "Typ / 2 V",
+    "Typ / 3 V",
+    "Typ / 3.3 V",
+    "Max (3.6V)(1) / TJ = 25 °C",
+    "Max (3.6V)(1) / TJ = 85 °C",
+    "Max (3.6V)(1) / TJ = 105 °C",
+    "Max (3.6V)(1) / TJ= 130 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD (VBAT)",
+      "Supply current in VBAT mode",
+      "OFF",
+      "OFF",
+      "0.01",
+      "0.02",
+      "0.03",
+      "0.07",
+      "0.2",
+      "1.9",
+      "4.6",
+      "14",
+      "µA"
+    ],
+    [
+      "IDD (VBAT)",
+      "Supply current in VBAT mode",
+      "ON",
+      "OFF",
+      "0.85",
+      "0.93",
+      "1.05",
+      "1.14",
+      "1.5",
+      "3.6",
+      "7.5",
+      "20.0",
+      "µA"
+    ],
+    [
+      "IDD (VBAT)",
+      "Supply current in VBAT mode",
+      "OFF",
+      "ON",
+      "0.50",
+      "0.63",
+      "0.74",
+      "0.84",
+      "1.2",
+      "3.1",
+      "5.9",
+      "16",
+      "µA"
+    ],
+    [
+      "IDD (VBAT)",
+      "Supply current in VBAT mode",
+      "ON",
+      "ON",
+      "1.34",
+      "1.54",
+      "1.76",
+      "1.91",
+      "2.5",
+      "4.8",
+      "8.8",
+      "22.0",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 13,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 13,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The LSE clock is in low-drive mode. I/O system current consumption"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_43",
+    "is_continued": false,
+    "pages": [
+      100
+    ],
+    "rows_count": 4,
+    "cols_count": 13,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

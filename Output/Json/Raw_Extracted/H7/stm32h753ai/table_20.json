@@ -1,0 +1,268 @@
+{
+  "table_id": "table_20",
+  "caption": "Table 20. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, cache ON, regulator ON",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 111,
+  "merged_pages": [
+    111
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=111",
+  "section": "6.3.6 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "f rcc_c_ck (MHz)",
+    "Typ",
+    "Max(1) / T = J 25°C",
+    "Max(1) / T = J 85°C",
+    "Max(1) / T = J 105°C",
+    "Max(1) / T = J 125°C",
+    "unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1",
+      "400",
+      "105",
+      "160",
+      "310",
+      "420",
+      "750",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1",
+      "300",
+      "55",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS2",
+      "300",
+      "50",
+      "72",
+      "160",
+      "230",
+      "370",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS2",
+      "216",
+      "38",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS2",
+      "200",
+      "36",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "200",
+      "33",
+      "50",
+      "130",
+      "190",
+      "300",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "180",
+      "30",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "168",
+      "29",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "144",
+      "26",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "60",
+      "14",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "25",
+      "14",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS1",
+      "400",
+      "160",
+      "220",
+      "400",
+      "500",
+      "750",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS1",
+      "300",
+      "130",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS2",
+      "300",
+      "120",
+      "160",
+      "300",
+      "390",
+      "560",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS2",
+      "200",
+      "81",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS3",
+      "200",
+      "77",
+      "110",
+      "220",
+      "300",
+      "460",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 11,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 11,
+    "_notes": [
+      "1. Guaranteed by characterization results. 112/357 DS12117 Rev 10"
+    ],
+    "_legend": [
+      "running from flash memory, cache ON, regulator ON"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_20",
+    "is_continued": false,
+    "pages": [
+      111
+    ],
+    "rows_count": 16,
+    "cols_count": 11,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

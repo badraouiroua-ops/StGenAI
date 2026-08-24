@@ -1,0 +1,66 @@
+{
+  "table_id": "table_7",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Suppression des lignes d'en-tête répétées aux sauts de page.",
+    "Correction de coupures de texte et de types de broches mal découpés."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "PC2_C(2)",
+      "row_index": 30,
+      "analyse_visuelle": "Dans la colonne Pin type, 'AN' et 'A' sur deux lignes forment 'ANA'.",
+      "corrections": [
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "AN A",
+          "nouvelle_valeur": "ANA",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PC3_C(2)",
+      "row_index": 32,
+      "analyse_visuelle": "Dans la colonne Pin type, 'AN' et 'A' sur deux lignes forment 'ANA'.",
+      "corrections": [
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "AN A",
+          "nouvelle_valeur": "ANA",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PA1",
+      "row_index": 40,
+      "analyse_visuelle": "Le signal ETH_RMII_REF_CLK a été coupé en 'ETH_RMII_REF_C LK' par le retour à la ligne.",
+      "corrections": [
+        {
+          "colonne_index": 8,
+          "valeur_originale_json": "TIM2_CH2, TIM5_CH2, LPTIM3_OUT, TIM15_CH1N, USART2_RTS/USART2_DE, UART4_RX, OCTOSPIM_P1_IO3, SAI4_MCLK_B, ETH_MII_RX_CLK/ETH_RMII_REF_C LK, OCTOSPIM_P1_DQS, LCD_R2, EVENTOUT",
+          "nouvelle_valeur": "TIM2_CH2, TIM5_CH2, LPTIM3_OUT, TIM15_CH1N, USART2_RTS/USART2_DE, UART4_RX, OCTOSPIM_P1_IO3, SAI4_MCLK_B, ETH_MII_RX_CLK/ETH_RMII_REF_CLK, OCTOSPIM_P1_DQS, LCD_R2, EVENTOUT",
+          "confiance": 99
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    9,
+    24,
+    38,
+    47,
+    55,
+    72,
+    83,
+    92,
+    108,
+    117,
+    129,
+    140,
+    149,
+    157
+  ]
+}

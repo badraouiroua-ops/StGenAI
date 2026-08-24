@@ -1,0 +1,70 @@
+{
+  "table_id": "table_101",
+  "document": "DS12556 Rev 8 - Table 101. Dynamic characteristics: USB ULPI",
+  "rev": "Rev 8",
+  "table_number": "101",
+  "title": "Table 101. Dynamic characteristics: USB ULPI",
+  "page": 189,
+  "section": "6.3.32 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=189",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 101. Dynamic characteristics: USB ULPI — section 6.3.32 Communications interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t SC",
+        "Control in (ULPI_DIR, ULPI_NXT) setup time",
+        "-",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t HC",
+        "Control in (ULPI_DIR, ULPI_NXT) hold time",
+        "-",
+        "6.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t SD",
+        "Data in setup time",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t HD",
+        "Data in hold time",
+        "-",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS12556 Rev 8 189/335"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "table_id": "table_46",
+  "caption": "Table 46. Low-power mode wakeup timings",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 105,
+  "merged_pages": [
+    105,
+    106
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=105",
+  "section": "6.3.8 Wakeup time from low-power modes",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Typ(1)",
+    "Max(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tWUSLEEP(3)",
+      "Wakeup from Sleep",
+      "-",
+      "5.00",
+      "5.00",
+      "CPU clock cycles"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS3 Main, HSI, flash memory in normal mode",
+      "4.2",
+      "6",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS3 Main, HSI, flash memory in low-power mode",
+      "8.3",
+      "11",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS3 LP, HSI, flash memory in normal mode",
+      "5.0",
+      "7",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS3 LP, HSI, flash memory in low-power mode",
+      "9.0",
+      "12",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS4, HSI, flash memory in normal mode",
+      "15.7",
+      "19",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS4, HSI, flash memory in low-power mode",
+      "19.7",
+      "25",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS5, HSI, flash memory in normal mode",
+      "35.0",
+      "43",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS5, HSI, flash memory in low-power mode",
+      "35.0",
+      "43",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS3 Main, CSI, flash memory in normal mode",
+      "42.5",
+      "52",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS3 Main, CSI, flash memory in low power mode",
+      "48.0",
+      "58",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS3 LP, CSI, flash memory in normal mode",
+      "43.3",
+      "53",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS3 LP, CSI, flash memory in low power mode",
+      "48.8",
+      "59",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS4, CSI, flash memory in normal mode",
+      "54.0",
+      "65",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS4, CSI, flash memory in low-power mode",
+      "59.5",
+      "72",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS5, CSI, flash memory in normal mode",
+      "74.8",
+      "90",
+      "µs"
+    ],
+    [
+      "tWUDSTOP(3)",
+      "Wakeup from DStop",
+      "SVOS5, CSI, flash memory in low-power mode",
+      "74.8",
+      "90",
+      "µs"
+    ],
+    [
+      "tWUDSTOP2(3)",
+      "Wakeup from DStop2, clock kept running",
+      "SVOS3 LP, HSI, flash memory in low-power mode",
+      "9.7",
+      "13",
+      "µs"
+    ],
+    [
+      "tWUDSTOP2(3)",
+      "Wakeup from DStop2, clock kept running",
+      "SVOS4, HSI, flash memory in low-power mode",
+      "20.4",
+      "26",
+      "µs"
+    ],
+    [
+      "tWUDSTOP2(3)",
+      "Wakeup from DStop2, clock kept running",
+      "SVOS5, HSI, flash memory in low-power mode",
+      "35.7",
+      "44",
+      "µs"
+    ],
+    [
+      "tWUDSTOP2(3)",
+      "Wakeup from DStop2, clock kept running",
+      "SVOS3 LP, CSI, flash memory in low-power mode",
+      "51.3",
+      "62",
+      "µs"
+    ],
+    [
+      "tWUDSTOP2(3)",
+      "Wakeup from DStop2, clock kept running",
+      "SVOS4, CSI, flash memory in low-power mode",
+      "62.0",
+      "75",
+      "µs"
+    ],
+    [
+      "tWUDSTOP2(3)",
+      "Wakeup from DStop2, clock kept running",
+      "SVOS5, CSI, flash memory in low-power mode",
+      "77.3",
+      "93",
+      "µs"
+    ],
+    [
+      "tWUSTDBY(3)",
+      "Wakeup from Standby mode",
+      "-",
+      "257",
+      "330",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 6,
+      "cont_cols_raw": 6,
+      "target_cols": 6,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Measures done at −40 °C in the worst conditions.",
+      "3. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_46",
+    "is_continued": true,
+    "pages": [
+      105,
+      106
+    ],
+    "rows_count": 24,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

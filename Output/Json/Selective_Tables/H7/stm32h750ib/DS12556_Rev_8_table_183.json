@@ -1,0 +1,71 @@
+{
+  "table_id": "table_183",
+  "document": "DS12556 Rev 8 - Table 183. Voltage booster for analog switch characteristics",
+  "rev": "Rev 8",
+  "table_number": "183",
+  "title": "Table 183. Voltage booster for analog switch characteristics",
+  "page": 277,
+  "section": "7.3.25 Voltage booster for analog switch",
+  "section_title": "Voltage booster for analog switch",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=277",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 183. Voltage booster for analog switch characteristics — section 7.3.25 Voltage booster for analog switch. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DD",
+        "Supply voltage",
+        "-",
+        "1.62",
+        "2.6",
+        "3.6",
+        "V"
+      ],
+      [
+        "t SU(BOOST)",
+        "Booster startup time",
+        "-",
+        "-",
+        "-",
+        "50",
+        "µs"
+      ],
+      [
+        "I DD(BOOST)",
+        "Booster consumption",
+        "1.62 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "-",
+        "125",
+        "µA"
+      ],
+      [
+        "I DD(BOOST)",
+        "Booster consumption",
+        "2.7 V < V < 3.6 V DD",
+        "-",
+        "-",
+        "250",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS12556 Rev 8 277/335",
+      "2. Refer to Table 115: Embedded reference voltage. 278/335 DS12556 Rev 8"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

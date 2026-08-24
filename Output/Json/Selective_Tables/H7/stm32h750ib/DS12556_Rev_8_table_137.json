@@ -1,0 +1,71 @@
+{
+  "table_id": "table_137",
+  "document": "DS12556 Rev 8 - Table 137. Flash memory characteristics",
+  "rev": "Rev 8",
+  "table_number": "137",
+  "title": "Table 137. Flash memory characteristics",
+  "page": 226,
+  "section": "7.3.11 Memory characteristics",
+  "section_title": "Memory characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=226",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 137. Flash memory characteristics — section 7.3.11 Memory characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "Supply current",
+        "Write / Erase 8-bit mode",
+        "-",
+        "6.5",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current",
+        "Write / Erase 16-bit mode",
+        "-",
+        "11.5",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current",
+        "Write / Erase 32-bit mode",
+        "-",
+        "20",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current",
+        "Write / Erase 64-bit mode",
+        "-",
+        "35",
+        "-",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The maximum programming time is measured after 10K erase operations. 226/335 DS12556 Rev 8"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

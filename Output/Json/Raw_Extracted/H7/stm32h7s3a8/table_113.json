@@ -1,0 +1,68 @@
+{
+  "table_id": "table_113",
+  "caption": "Table 113. V charging characteristics 257 BAT",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 257,
+  "merged_pages": [
+    257
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=257",
+  "section": "6.3.26 Temperature and V monitoring",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "R BC",
+      "Battery charging resistor",
+      "VBRS in PWR_CR3= 0",
+      "-",
+      "5",
+      "-",
+      "kΩ"
+    ],
+    [
+      "R BC",
+      "Battery charging resistor",
+      "VBRS in PWR_CR3= 1",
+      "-",
+      "1.5",
+      "-",
+      "kΩ"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_113",
+    "is_continued": false,
+    "pages": [
+      257
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

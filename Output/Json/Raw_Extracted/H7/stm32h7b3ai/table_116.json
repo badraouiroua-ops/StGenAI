@@ -1,0 +1,131 @@
+{
+  "table_id": "table_116",
+  "caption": "Table 116. I2C analog filter characteristics",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 169,
+  "merged_pages": [
+    169,
+    170
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=169",
+  "section": "6.3.36 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Symbol",
+    "Parameter",
+    "Min(1)",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tAF",
+      "tAF",
+      "Maximum pulse width of spikes that are suppressed by analog filter",
+      "50(2)",
+      "260(3)",
+      "ns"
+    ],
+    [
+      "th(RX)",
+      "Data input hold time",
+      "Master mode",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "Slave mode",
+      "Slave mode",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(TX)",
+      "Data output valid time",
+      "Slave mode transmitter mode, 1.62 V < VDD < 3.6 V",
+      "-",
+      "15.5",
+      "22"
+    ],
+    [
+      "Slave mode transmitter mode, 2.7 V < VDD < 3.6 V",
+      "Slave mode transmitter mode, 2.7 V < VDD < 3.6 V",
+      "-",
+      "15.5",
+      "17",
+      "22"
+    ],
+    [
+      "Master mode",
+      "Master mode",
+      "-",
+      "1.5",
+      "2",
+      "22"
+    ],
+    [
+      "th(TX)",
+      "Data output hold time",
+      "Slave mode",
+      "12",
+      "-",
+      "22"
+    ],
+    [
+      "Master mode",
+      "Master mode",
+      "1",
+      "-",
+      "-",
+      "22"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 6,
+      "cont_cols_raw": 6,
+      "target_cols": 6,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by design.",
+      "2. Spikes whose width is lower than tAF(min) are filtered.",
+      "3. Spikes whose width is higer than tAF(max) are not filtered."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_116",
+    "is_continued": true,
+    "pages": [
+      169,
+      170
+    ],
+    "rows_count": 8,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

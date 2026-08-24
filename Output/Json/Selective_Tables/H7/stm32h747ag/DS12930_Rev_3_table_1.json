@@ -1,0 +1,63 @@
+{
+  "table_id": "table_1",
+  "document": "DS12930 Rev 3 - Table 1. Device summary",
+  "rev": "Rev 3",
+  "table_number": "1",
+  "title": "Table 1. Device summary",
+  "page": 2,
+  "section": "General purpose / Overview",
+  "section_title": "General purpose / Overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 1. Device summary — section General purpose / Overview. Reference, Part number.",
+  "table_content": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H747 xI",
+        "STM32H747AI"
+      ],
+      [
+        "STM32H747 xI",
+        "STM32H747BI"
+      ],
+      [
+        "STM32H747 xI",
+        "STM32H747II"
+      ],
+      [
+        "STM32H747 xI",
+        "STM32H747XI"
+      ],
+      [
+        "STM32H747 xI",
+        "STM32H747ZI"
+      ],
+      [
+        "STM32H747 xG",
+        "STM32H747AG"
+      ],
+      [
+        "STM32H747 xG",
+        "STM32H747BG"
+      ],
+      [
+        "STM32H747 xG",
+        "STM32H747IG"
+      ],
+      [
+        "STM32H747 xG",
+        "STM32H747XG"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

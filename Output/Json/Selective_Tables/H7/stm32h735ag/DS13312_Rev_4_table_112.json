@@ -1,0 +1,226 @@
+{
+  "table_id": "table_112",
+  "document": "DS13312 Rev 4 - Table 112. SPI characteristics",
+  "rev": "Rev 4",
+  "table_number": "112",
+  "title": "Table 112. SPI characteristics",
+  "page": 234,
+  "section": "6.3.38 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=234",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 112. SPI characteristics — section 6.3.38 Communication interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f SCK",
+        "SPI clock frequency",
+        "Master mode, 2.7 V < V < 3.6 V, SPI1, 2, 3 DD",
+        "-",
+        "-",
+        "125",
+        "MHz"
+      ],
+      [
+        "f SCK",
+        "SPI clock frequency",
+        "Master mode, 1.62 V < V < 3.6 V, SPI1, 2, DD 3",
+        "-",
+        "-",
+        "80/66(3)",
+        "MHz"
+      ],
+      [
+        "f SCK",
+        "SPI clock frequency",
+        "Master mode, 1.62 V < V < 3.6 V, SPI4, 5, DD 6",
+        "-",
+        "-",
+        "68.5",
+        "MHz"
+      ],
+      [
+        "f SCK",
+        "SPI clock frequency",
+        "Slave receiver mode, 1.62 V < V < 3.6 V, SPI1, 2, DD 3",
+        "-",
+        "-",
+        "100",
+        "MHz"
+      ],
+      [
+        "f SCK",
+        "SPI clock frequency",
+        "Slave receiver mode, 1.62 V < V < 3.6 V, SPI4, 5, DD 6",
+        "-",
+        "-",
+        "68.5",
+        "MHz"
+      ],
+      [
+        "f SCK",
+        "SPI clock frequency",
+        "Slave mode transmitter/full duplex, 2.7 V < V < 3.6 V DD",
+        "-",
+        "-",
+        "45",
+        "MHz"
+      ],
+      [
+        "f SCK",
+        "SPI clock frequency",
+        "Slave mode transmitter/full duplex, 1.62 V < V < 3.6 V DD",
+        "-",
+        "-",
+        "42.5/31(4)",
+        "MHz"
+      ],
+      [
+        "t su(NSS)",
+        "NSS setup time",
+        "Slave mode",
+        "2",
+        "-",
+        "-",
+        "MHz"
+      ],
+      [
+        "t h(NSS)",
+        "NSS hold time",
+        "Slave mode",
+        "1",
+        "-",
+        "-",
+        "MHz"
+      ],
+      [
+        "t , w(SCKH) t w(SCKL)",
+        "SCK high and low time",
+        "Master mode",
+        "t /2-1(5) SCK",
+        "t /2(5) SCK",
+        "t /2+1(5) SCK",
+        "MHz"
+      ],
+      [
+        "t su(MI)",
+        "Data input setup time",
+        "Master mode",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(SI)",
+        "-",
+        "Slave mode",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(MI)",
+        "Data input hold time",
+        "Master mode",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(SI)",
+        "-",
+        "Slave mode",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t a(SO)",
+        "Data output access time",
+        "Slave mode",
+        "9",
+        "13",
+        "27",
+        "ns"
+      ],
+      [
+        "t dis(SO)",
+        "Data output disable time",
+        "Slave mode",
+        "0",
+        "1",
+        "5",
+        "ns"
+      ],
+      [
+        "t v(SO)",
+        "Data output valid time",
+        "Slave mode, 2.7 V < V < 3.6 V DD",
+        "-",
+        "7.5",
+        "11",
+        "ns"
+      ],
+      [
+        "t v(SO)",
+        "Data output valid time",
+        "Slave mode, 1.62 V < V < 3.6 V DD",
+        "-",
+        "7.5",
+        "12/16(4)",
+        "ns"
+      ],
+      [
+        "t v(MO)",
+        "-",
+        "Master mode, 1.62 V < V < 3.6 V DD",
+        "-",
+        "1",
+        "1.5/5.5(6)",
+        "ns"
+      ],
+      [
+        "t h(SO)",
+        "Data output hold time",
+        "Slave mode",
+        "7",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(MO)",
+        "-",
+        "Master mode",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "3. This value is obtained by using PA9 or PA12 I/O.",
+      "4. This value is obtained by using PC2 or PJ11 I/O.",
+      "5. t SCK = t ker_ck * baud rate prescaler.",
+      "6. This value is obtained by using PC3 or PJ10 I/O."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

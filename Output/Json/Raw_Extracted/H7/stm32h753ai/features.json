@@ -1,0 +1,68 @@
+{
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "pdf_type": 1,
+  "doc_ref": "DS12117",
+  "revision": "Rev 10",
+  "date": "January 2026",
+  "title": "32-bit Arm Cortex -M7 480MHz MCUs, 2MB flash , 1MB RAM, 46 com. and analog interfaces, crypto",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "page": 1,
+  "core": "Cortex-M7",
+  "fpu": true,
+  "max_frequency_mhz": 480,
+  "flash_kb": 2048,
+  "ram_kb": 864,
+  "voltage_min_v": 1.62,
+  "voltage_max_v": 3.6,
+  "operating_temp_c": [],
+  "packages": [
+    "LQFP176 (24 x 24 mm)",
+    "LQFP208 (28 x 28 mm)",
+    "UFBGA169 (14 x 14 mm)",
+    "UFBGA176 (20 x 20 mm)",
+    "UFBGA240",
+    "LQFP100 (14 x 14 mm)",
+    "UFBGA100",
+    "LQFP144 (20 x 20 mm)",
+    "TFBGA240 (14 x 14 mm)",
+    "TFBGA265",
+    "TFBGA100 (8 x 8 mm)"
+  ],
+  "device_summary": {
+    "headers": [
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H753AI"
+      ],
+      [
+        "STM32H753BI"
+      ],
+      [
+        "STM32H753II"
+      ],
+      [
+        "STM32H753VI"
+      ],
+      [
+        "STM32H753ZI"
+      ]
+    ]
+  },
+  "extraction_meta": {
+    "source_pages": [
+      1,
+      2
+    ],
+    "extraction_method": "regex_type1",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "high",
+    "missing_fields": [
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

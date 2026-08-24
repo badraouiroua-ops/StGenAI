@@ -1,0 +1,240 @@
+{
+  "table_id": "table_157",
+  "document": "DS14359 Rev 7 - Table 157. Package thermal characteristics",
+  "rev": "Rev 7",
+  "table_number": "157",
+  "title": "Table 157. Package thermal characteristics",
+  "page": 319,
+  "section": "7.12 Package thermal characteristics",
+  "section_title": "Package thermal characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=319",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 157. Package thermal characteristics — section 7.12 Package thermal characteristics. Symbol, Definition, Parameter, Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Definition",
+      "Parameter",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient VFQFPN68 - 8 x 8 mm / 0.35 mm pitch",
+        "23.8",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient LQFP100 - 14 x 14 mm / 0.5 mm pitch",
+        "34.9",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient LQFP144 - 20 x 20 mm / 0.5 mm pitch",
+        "36.4",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm / 0.5 mm pitch",
+        "35.9",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient WLCSP101 - 3.86 x 3.79 mm / 0.35 mm pitch",
+        "43.2",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient TFBGA100 - 8 x 8 mm / 0.8 mm pitch",
+        "35.0",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient UFBGA144 - 10 x 10 mm / 0.8 mm pitch",
+        "35.0",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient UFBGA169 - 7 x 7 mm / 0.5 mm pitch",
+        "37.1",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient UFBGA176 - 10 x 10 mm / 0.65 mm pitch",
+        "35.7",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient TFBGA225 - 13 x 13 mm / 0.8 mm pitch",
+        "32.8",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board VQFN68 - 8 x 8 mm / 0.35 mm pitch",
+        "9.0",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board LQFP100 - 14 x 14 mm / 0.5 mm pitch",
+        "20.8",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board LQFP144 - 20 x 20 mm / 0.5 mm pitch",
+        "25.3",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board LQFP176 - 24 x 24 mm / 0.5 mm pitch",
+        "25.9",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board WLCSP101 - 3.86 mm / 0.35 mm pitch",
+        "21.1",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board TFBGA100 - 8 x 8 mm / 0.8 mm pitch",
+        "22.0",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board UFBGA144 - 10 x 10 mm / 0.8 mm pitch",
+        "22.9",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board UFBGA169 - 7 x 7 mm / 0.5 mm pitch",
+        "22.8",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board UFBGA176 - 10 x 10 mm / 0.65 mm pitch",
+        "23.6",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-board TFBGA225 - 13 x 13 mm / 0.8 mm pitch",
+        "22.3",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case VQFN68 - 8 x 8 mm / 0.35 mm pitch",
+        "10.7",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case LQFP100 - 14 x 14 mm / 0.5 mm pitch",
+        "7.7",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case LQFP144 - 20 x 20 mm / 0.5 mm pitch",
+        "7.9",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case LQFP176 - 24 x 24 mm / 0.5 mm pitch",
+        "9.2",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case WLCSP101 - 3.86 mm / 0.35 mm pitch",
+        "1.8",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case TFBGA100 - 8 x 8 mm / 0.8 mm pitch",
+        "12.6",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case UFBGA144 - 10 x 10 mm / 0.8 mm pitch",
+        "9.0",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case UFBGA169 - 7 x 7 mm / 0.5 mm pitch",
+        "9.4",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case UFBGA176 - 10 x 10 mm / 0.65 mm pitch",
+        "9.0",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-case TFBGA225 - 13 x 13 mm / 0.8 mm pitch",
+        "12.0",
+        "°C/W"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

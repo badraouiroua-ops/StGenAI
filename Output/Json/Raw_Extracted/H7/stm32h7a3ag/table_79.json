@@ -1,0 +1,76 @@
+{
+  "table_id": "table_79",
+  "caption": "Table 79. Asynchronous multiplexed PSRAM/NOR write - NWAIT timings",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 128,
+  "merged_pages": [
+    128
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=128",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min(1)",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tw(NE)",
+      "FMC_NE low time",
+      "9Tfmc_ker_ck - 1",
+      "9Tfmc_ker_ck",
+      "ns"
+    ],
+    [
+      "tw(NWE)",
+      "FMC_NWE low time",
+      "7Tfmc_ker_ck - 0.5",
+      "7Tfmc_ker_ck + 0.5",
+      "ns"
+    ],
+    [
+      "tsu(NWAIT_NE)",
+      "FMC_NWAIT valid before FMC_NEx high",
+      "5Tfmc_ker_ck + 9",
+      "-",
+      "ns"
+    ],
+    [
+      "th(NE_NWAIT)",
+      "FMC_NEx hold time after FMC_NWAIT invalid",
+      "4Tfmc_ker_ck + 12",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results. Synchronous waveforms and timings"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_79",
+    "is_continued": false,
+    "pages": [
+      128
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

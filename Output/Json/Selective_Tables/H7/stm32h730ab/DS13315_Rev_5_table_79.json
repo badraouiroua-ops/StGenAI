@@ -1,0 +1,134 @@
+{
+  "table_id": "table_79",
+  "document": "DS13315 Rev 5 - Table 79. OCTOSPI characteristics in SDR mode",
+  "rev": "Rev 5",
+  "table_number": "79",
+  "title": "Table 79. OCTOSPI characteristics in SDR mode",
+  "page": 182,
+  "section": "6.3.20 Octo-SPI interface characteristics",
+  "section_title": "Octo-SPI interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=182",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "text_helper": "Table 79. OCTOSPI characteristics in SDR mode — section 6.3.20 Octo-SPI interface characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F (CLK)",
+        "OCTOSPI clock frequency",
+        "1.71 V < V < 3.6 V, DD VOS0, C = 15 pF LOAD",
+        "-",
+        "-",
+        "92",
+        "MHz"
+      ],
+      [
+        "F (CLK)",
+        "OCTOSPI clock frequency",
+        "1.71 V < V < 3.6 V, DD VOS0, C =20 pF LOAD",
+        "-",
+        "-",
+        "90",
+        "MHz"
+      ],
+      [
+        "F (CLK)",
+        "OCTOSPI clock frequency",
+        "2.7 V < V < 3.6 V, DD VOS0, C = 20 pF LOAD",
+        "-",
+        "-",
+        "140",
+        "MHz"
+      ],
+      [
+        "t w(CKH)",
+        "OCTOSPI clock high and low time, even division",
+        "PRESCALER[7:0] = n = 0,1,3,5",
+        "t /2 (CK)",
+        "-",
+        "t /2+1 (CK)",
+        "ns"
+      ],
+      [
+        "t w(CKL)",
+        "OCTOSPI clock high and low time, even division",
+        "PRESCALER[7:0] = n = 0,1,3,5",
+        "t /2–1 (CK)",
+        "-",
+        "t /2 (CK)",
+        "ns"
+      ],
+      [
+        "t w(CKH)",
+        "OCTOSPI clock high and low time, odd division",
+        "PRESCALER[7:0] = n = 2,4,6,8",
+        "(n/2)*t / (CK) (n+1)",
+        "-",
+        "(n/2)*t / (CK) (n+1)+1",
+        "ns"
+      ],
+      [
+        "t w(CKL)",
+        "OCTOSPI clock high and low time, odd division",
+        "PRESCALER[7:0] = n = 2,4,6,8",
+        "(n/2+1)*t / (CK) (n+1)–1",
+        "-",
+        "(n/2+1)*t (CK) /(n+1)",
+        "ns"
+      ],
+      [
+        "t (3) s(IN)",
+        "Data input setup time",
+        "-",
+        "3.0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t (3) h(IN)",
+        "Data input hold time",
+        "-",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(OUT)",
+        "Data output valid time",
+        "-",
+        "-",
+        "0.5",
+        "1(4)",
+        "ns"
+      ],
+      [
+        "t h(OUT)",
+        "Data output hold time",
+        "-",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "3. Delay block bypassed.",
+      "4. Using PC2 or PC3 I/O in the data bus adds 4 ns to this timing value."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

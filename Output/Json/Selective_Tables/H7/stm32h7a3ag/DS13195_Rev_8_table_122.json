@@ -1,0 +1,191 @@
+{
+  "table_id": "table_122",
+  "document": "DS13195 Rev 8 - Table 122. Dynamics characteristics: SDMMC characteristics, V =2.7 to 3.6 V 177 DD",
+  "rev": "Rev 8",
+  "table_number": "122",
+  "title": "Table 122. Dynamics characteristics: SDMMC characteristics, V =2.7 to 3.6 V 177 DD",
+  "page": 177,
+  "section": "6.3.36.7 SD/SDIO MMC card host interface (SDMMC) characteristics",
+  "section_title": "SD/SDIO MMC card host interface (SDMMC) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=177",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 122. Dynamics characteristics: SDMMC characteristics, V =2.7 to 3.6 V 177 DD — section 6.3.36.7 SD/SDIO MMC card host interface (SDMMC) characteristics. Symbol, Parameter, Conditions, Min(1), Typ(1), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min(1)",
+      "Typ(1)",
+      "Max(1)(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fPP",
+        "Clock frequency in data transfer mode",
+        "-",
+        "0",
+        "-",
+        "133",
+        "MHz"
+      ],
+      [
+        "-",
+        "SDIO_CK/fPCLK2 frequency ratio",
+        "-",
+        "-",
+        "-",
+        "8/3",
+        "MHz"
+      ],
+      [
+        "tW(CKL)",
+        "Clock low time",
+        "fPP =52 MHz",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "tW(CKH)",
+        "Clock high time",
+        "fPP =52 MHz",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode"
+      ],
+      [
+        "tISU",
+        "Input setup time HS",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tIH",
+        "Input hold time HS",
+        "-",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tIDW(3)",
+        "Input valid window (variable window)",
+        "-",
+        "3.0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tOV",
+        "Output valid time HS",
+        "-",
+        "-",
+        "6",
+        "6.5",
+        "ns"
+      ],
+      [
+        "tOH",
+        "Output hold time HS",
+        "-",
+        "5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D inputs (referenced to CK) in SD default mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tISUD",
+        "Input setup time SD",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tIHD",
+        "Input hold time SD",
+        "-",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tOVD",
+        "Output valid default time SD",
+        "-",
+        "-",
+        "1",
+        "1.5",
+        "ns"
+      ],
+      [
+        "tOHD",
+        "Output hold default time SD",
+        "-",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. At VOS1, these values are degraded by up to 5 %.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode."
+    ],
+    "legend": [
+      "Above 100 MHz, CL = 20 pF."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

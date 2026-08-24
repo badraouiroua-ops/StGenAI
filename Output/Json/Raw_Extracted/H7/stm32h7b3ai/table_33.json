@@ -1,0 +1,217 @@
+{
+  "table_id": "table_33",
+  "caption": "Table 33. Inrush current and inrush electric charge characteristics for LDO and SMPS",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 94,
+  "merged_pages": [
+    94
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=94",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IRUSH",
+      "Inrush current on voltage regulator power-on (POR or wakeup from Standby)",
+      "on VDDLDO(1)",
+      "on VDDLDO(1)",
+      "-",
+      "55",
+      "96 (2)",
+      "mA"
+    ],
+    [
+      "IRUSH",
+      "Inrush current on voltage regulator power-on (POR or wakeup from Standby)",
+      "on VDDSMPS(3)",
+      "SMPS supplies the VDDCORE",
+      "-",
+      "25",
+      "92(4)",
+      "mA"
+    ],
+    [
+      "IRUSH",
+      "Inrush current on voltage regulator power-on (POR)",
+      "on VDDSMPS(3)",
+      "SMPS supplies internal LDO VOUT = 1.8 V(5)",
+      "-",
+      "45",
+      "135(4)",
+      "mA"
+    ],
+    [
+      "IRUSH",
+      "Inrush current on voltage regulator power-on (POR)",
+      "on VDDSMPS(3)",
+      "SMPS supplies internal LDO VOUT = 2.5 V(5)",
+      "-",
+      "45",
+      "100(4)",
+      "mA"
+    ],
+    [
+      "IRUSH",
+      "Inrush current on voltage regulator power-on (POR)",
+      "on VDDSMPS(3)",
+      "SMPS supplies external circuit VOUT = 1.8 V(5)",
+      "-",
+      "25",
+      "70(4)",
+      "mA"
+    ],
+    [
+      "IRUSH",
+      "Inrush current on voltage regulator power-on (POR)",
+      "on VDDSMPS(3)",
+      "SMPS supplies external circuit VOUT = 2.5 V(5)",
+      "-",
+      "25",
+      "50(4)",
+      "mA"
+    ],
+    [
+      "IRUSH",
+      "Inrush current on voltage regulator power-on (wakeup from Standby)",
+      "on VDDSMPS(3)",
+      "SMPS supplies internal LDO VOUT = 1.8 V",
+      "-",
+      "70",
+      "200(4)",
+      "mA"
+    ],
+    [
+      "IRUSH",
+      "Inrush current on voltage regulator power-on (wakeup from Standby)",
+      "on VDDSMPS(3)",
+      "SMPS supplies internal LDO VOUT = 2.5 V",
+      "-",
+      "95",
+      "210(4)",
+      "mA"
+    ],
+    [
+      "QRUSH",
+      "Inrush current on voltage regulator power-on (POR or wakeup from Standby)",
+      "on VDDLDO(1)",
+      "on VDDLDO(1)",
+      "-",
+      "4.4",
+      "5.3(2)",
+      "μC"
+    ],
+    [
+      "QRUSH",
+      "Inrush current on voltage regulator power-on (POR or wakeup from Standby)",
+      "on VDDSMPS(3)",
+      "SMPS supplies the VDDCORE",
+      "-",
+      "2.9",
+      "7(2)",
+      "μC"
+    ],
+    [
+      "QRUSH",
+      "Inrush current on voltage regulator power-on (POR)",
+      "on VDDSMPS(3)",
+      "SMPS supplies internal LDO VOUT = 1.8 V(5)",
+      "-",
+      "4.0",
+      "7.5(2)",
+      "μC"
+    ],
+    [
+      "QRUSH",
+      "Inrush current on voltage regulator power-on (POR)",
+      "on VDDSMPS(3)",
+      "SMPS supplies internal LDO VOUT = 2.5 V(5)",
+      "-",
+      "4.0",
+      "5.7(2)",
+      "μC"
+    ],
+    [
+      "QRUSH",
+      "Inrush current on voltage regulator power-on (POR)",
+      "on VDDSMPS(3)",
+      "SMPS supplies external circuit VOUT = 1.8 V(5)",
+      "-",
+      "2.9",
+      "5.2(2)",
+      "μC"
+    ],
+    [
+      "QRUSH",
+      "Inrush current on voltage regulator power-on (POR)",
+      "on VDDSMPS(3)",
+      "SMPS supplies external circuit VOUT = 2.5 V(5)",
+      "-",
+      "2.9",
+      "4(2)",
+      "μC"
+    ],
+    [
+      "QRUSH",
+      "Inrush current on voltage regulator power-on (wakeup from Standby)",
+      "on VDDSMPS(3)",
+      "SMPS supplies internal LDO VOUT = 1.8 V",
+      "-",
+      "8.0",
+      "15(2)",
+      "μC"
+    ],
+    [
+      "QRUSH",
+      "Inrush current on voltage regulator power-on (wakeup from Standby)",
+      "on VDDSMPS(3)",
+      "SMPS supplies internal LDO VOUT = 2.5 V",
+      "-",
+      "14.5",
+      "20.5(2)",
+      "μC"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "1. The typical values are given for VDDLDO = VDDSMPS = 3.3 V and for typical decoupling capacitor values of CEXT and COUT.",
+      "2. The product consumption on VDDCORE is not taken into account in the inrush current and inrush electric charge. Symbol Parameter Conditions Min Typ Max Unit",
+      "3. The inrush current and inrush electric charge on VDDSMPS is not present if the external component (L or COUT) is not present, that is if the SMPS is not used.",
+      "4. The maximum value is given for the maximum decoupling capacitor COUT and the minimum VDDSMPS voltage.",
+      "5. The inrush current and inrush electric charge due to the transition from 1.2 V to the final VOUT value (1.8 V or 2.5 V) is not taken into account."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_33",
+    "is_continued": false,
+    "pages": [
+      94
+    ],
+    "rows_count": 16,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

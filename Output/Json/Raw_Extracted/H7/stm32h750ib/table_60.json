@@ -1,0 +1,161 @@
+{
+  "table_id": "table_60",
+  "caption": "Table 60. Asynchronous multiplexed PSRAM/NOR write timings",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 141,
+  "merged_pages": [
+    141,
+    142
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=141",
+  "section": "6.3.17 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(NE)",
+      "FMC_NE low time",
+      "4T - 1 fmc_ker_c",
+      "4T fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t v(NWE_NE)",
+      "FMC_NEx low to FMC_NWE low",
+      "T - 1 fmc_ker_c",
+      "T + 0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t w(NWE)",
+      "FMC_NWE low time",
+      "2T - 0.5 fmc_ker_ck",
+      "2T + 0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(NE_NWE)",
+      "FMC_NWE high to FMC_NE high hold time",
+      "T - 0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(A_NE)",
+      "FMC_NEx low to FMC_A valid",
+      "-",
+      "0",
+      "ns"
+    ],
+    [
+      "t v(NADV_NE)",
+      "FMC_NEx low to FMC_NADV low",
+      "0",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t w(NADV)",
+      "FMC_NADV low time",
+      "T fmc_ker_ck",
+      "T + 1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(AD_NADV)",
+      "FMC_AD(address) valid hold time after FMC_NADV high",
+      "T + 0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(A_NWE)",
+      "Address hold time after FMC_NWE high",
+      "T + 0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(BL_NWE)",
+      "FMC_BL hold time after FMC_NWE high",
+      "T - 0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(BL_NE)",
+      "FMC_NEx low to FMC_BL valid",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t v(Data_NADV)",
+      "FMC_NADV high to Data valid",
+      "-",
+      "T + 2 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(Data_NWE)",
+      "Data hold time after FMC_NWE high",
+      "T + 0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 5,
+      "cont_cols_raw": 5,
+      "target_cols": 5,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by characterization results. DS12556 Rev 8 141/335"
+    ],
+    "_dedup_rows_removed": 4,
+    "_dedup_removed_indices": [
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_60",
+    "is_continued": true,
+    "pages": [
+      141,
+      142
+    ],
+    "rows_count": 13,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

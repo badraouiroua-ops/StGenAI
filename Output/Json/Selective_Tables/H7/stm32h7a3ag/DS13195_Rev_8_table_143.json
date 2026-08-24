@@ -1,0 +1,53 @@
+{
+  "table_id": "table_143",
+  "document": "DS13195 Rev 8 - Table 143. UFBGA(176+25) - Recommended PCB design rules (0.65 mm pitch BGA)",
+  "rev": "Rev 8",
+  "table_number": "143",
+  "title": "Table 143. UFBGA(176+25) - Recommended PCB design rules (0.65 mm pitch BGA)",
+  "page": 218,
+  "section": "7 Package information",
+  "section_title": "Package information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=218",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 143. UFBGA(176+25) - Recommended PCB design rules (0.65 mm pitch BGA) — section 7 Package information. Dimension, Recommended values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Recommended values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.65 mm"
+      ],
+      [
+        "Dpad",
+        "0.300 mm"
+      ],
+      [
+        "Dsm",
+        "0.400 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.300 mm aperture diameter"
+      ],
+      [
+        "Stencil thickness",
+        "Between 0.100 mm and 0.125 mm"
+      ],
+      [
+        "Pad trace width",
+        "0.100 mm"
+      ]
+    ],
+    "notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences resulting"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

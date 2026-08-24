@@ -1,0 +1,102 @@
+{
+  "table_id": "table_82",
+  "document": "DS12930 Rev 3 - Table 82. SDRAM read timings",
+  "rev": "Rev 3",
+  "table_number": "82",
+  "title": "Table 82. SDRAM read timings",
+  "page": 179,
+  "section": "6.3.20 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=179",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 82. SDRAM read timings — section 6.3.20 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(SDCLK)",
+        "FMC_SDCLK period",
+        "2T – 1 fmc_ker_ck",
+        "2T fmc_ker_ck +0.5",
+        "ns"
+      ],
+      [
+        "t su(SDCLKH _Data)",
+        "Data input setup time",
+        "3",
+        "-",
+        "ns"
+      ],
+      [
+        ")ataD_HKLCDS(h t",
+        "Data input hold time",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL_Add)",
+        "Address valid time",
+        "-",
+        "1.5",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL- SDNE)",
+        "Chip select valid time",
+        "-",
+        "1.5",
+        "ns"
+      ],
+      [
+        "t h(SDCLKL_SDNE)",
+        "Chip select hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL_SDNRAS)",
+        "SDNRAS valid time",
+        "-",
+        "1",
+        "ns"
+      ],
+      [
+        "t h(SDCLKL_SDNRAS)",
+        "SDNRAS hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL_SDNCAS)",
+        "SDNCAS valid time",
+        "-",
+        "0.5",
+        "ns"
+      ],
+      [
+        "t h(SDCLKL_SDNCAS)",
+        "SDNCAS hold time",
+        "0",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS12930 Rev 3 179/253"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

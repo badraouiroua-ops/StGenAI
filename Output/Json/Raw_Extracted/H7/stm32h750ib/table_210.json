@@ -1,0 +1,66 @@
+{
+  "table_id": "table_210",
+  "caption": "Table 210. UFBGA(176+25) - Example of PCB design rules (0.65 mm pitch BGA)",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 320,
+  "merged_pages": [
+    320
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=320",
+  "section": "8.1 Device marking",
+  "headers": [
+    "Dimension",
+    "Values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.65 mm"
+    ],
+    [
+      "Dpad",
+      "0.300 mm"
+    ],
+    [
+      "Dsm",
+      "0.400 mm typ. (depends on the soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.300 mm"
+    ],
+    [
+      "Stencil thickness",
+      "Between 0.100 mm and 0.125 mm"
+    ],
+    [
+      "Pad trace width",
+      "0.100 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_210",
+    "is_continued": false,
+    "pages": [
+      320
+    ],
+    "rows_count": 6,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "table_id": "table_142",
+  "caption": "Table 142. TFBGA100 - Recommended PCB design rules (0.8 mm pitch BGA)",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 293,
+  "merged_pages": [
+    293
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=293",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Dimension",
+    "Recommended values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.8"
+    ],
+    [
+      "Dpad",
+      "0.400 mm"
+    ],
+    [
+      "Dsm",
+      "0.470 mm typ. (depends on the soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.400 mm"
+    ],
+    [
+      "Stencil thickness",
+      "Between 0.100 mm and 0.125 mm"
+    ],
+    [
+      "Pad trace width",
+      "0.120 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_142",
+    "is_continued": false,
+    "pages": [
+      293
+    ],
+    "rows_count": 6,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

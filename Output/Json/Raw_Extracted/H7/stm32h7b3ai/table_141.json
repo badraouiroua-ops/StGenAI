@@ -1,0 +1,78 @@
+{
+  "table_id": "table_141",
+  "caption": "Table 141. UFBGA169 - recommended PCB design rules (0.5 mm pitch BGA)",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 216,
+  "merged_pages": [
+    216,
+    217
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=216",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Dimension",
+    "Recommended values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.5 mm"
+    ],
+    [
+      "Dpad",
+      "0.27 mm"
+    ],
+    [
+      "Dsm",
+      "0.35 mm typ. (depends on the soldermask registration tolerance)"
+    ],
+    [
+      "Solder paste",
+      "0.27 mm aperture diameter"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "continuation": {
+      "base_cols": 2,
+      "cont_cols_raw": 0,
+      "target_cols": 2,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences resulting",
+      "2. The terminal A1 corner must be identified on the top surface by using a corner chamfer, ink or metalized markings, or other feature of package body or integral heat slug. A distinguishing feature is allowable on the",
+      "3. The tolerance of position that controls the location of the pattern of balls with respect to datum A and B. For each ball there is a cylindrical tolerance zone eee perpendicular to datum C and located on true position with respect to datum A and B as",
+      "4. The tolerance of position that controls the location of the balls within the matrix with respect to each other. For each ball there is a cylindrical tolerance zone fff perpendicular to datum C and located on true position as defined by e. The axis"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_141",
+    "is_continued": true,
+    "pages": [
+      216,
+      217
+    ],
+    "rows_count": 4,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

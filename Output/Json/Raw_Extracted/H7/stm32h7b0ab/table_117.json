@@ -1,0 +1,189 @@
+{
+  "table_id": "table_117",
+  "caption": "Table 117. I2S dynamic characteristics",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 157,
+  "merged_pages": [
+    157
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=157",
+  "section": "6.3.36.3 SPI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Max(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fMCK",
+      "I2S main clock output",
+      "-",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "I2S clock frequency",
+      "Master Tx",
+      "-",
+      "50/33(3)",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "I2S clock frequency",
+      "Master Rx",
+      "-",
+      "40",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "I2S clock frequency",
+      "Slave Tx",
+      "-",
+      "31/18.5(3)",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "I2S clock frequency",
+      "Slave Rx",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "tv(WS)",
+      "WS valid time",
+      "Master mode",
+      "-",
+      "5.5",
+      "ns"
+    ],
+    [
+      "th(WS)",
+      "WS hold time",
+      "Master mode",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(WS)",
+      "WS setup time",
+      "Slave mode",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "th(WS)",
+      "WS hold time",
+      "Slave mode",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(SD_MR)",
+      "Data input setup time",
+      "Master receiver",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(SD_SR)",
+      "Data input setup time",
+      "Slave receiver",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "th(SD_MR)",
+      "Data input hold time",
+      "Master receiver",
+      "4.5",
+      "-",
+      "ns"
+    ],
+    [
+      "th(SD_SR)",
+      "Data input hold time",
+      "Slave receiver",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(SD_ST)",
+      "Data output valid time",
+      "Slave transmitter (after enable edge)",
+      "-",
+      "16/27(3)",
+      "ns"
+    ],
+    [
+      "tv(SD_MT)",
+      "Data output valid time",
+      "Master transmitter (after enable edge)",
+      "-",
+      "4/15(3)",
+      "ns"
+    ],
+    [
+      "th(SD_ST)",
+      "Data output hold time",
+      "Slave transmitter (after enable edge)",
+      "7",
+      "-",
+      "ns"
+    ],
+    [
+      "th(SD_MT)",
+      "Data output hold time",
+      "Master transmitter (after enable edge)",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. Using PC3_C / PC2_C (not available on all packages). DS13196 - Rev 7 page 157/205"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_117",
+    "is_continued": false,
+    "pages": [
+      157
+    ],
+    "rows_count": 17,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

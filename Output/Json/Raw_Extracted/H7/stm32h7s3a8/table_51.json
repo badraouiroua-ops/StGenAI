@@ -1,0 +1,123 @@
+{
+  "table_id": "table_51",
+  "caption": "Table 51. Typical and maximum current consumption: data write 6.25% toggle on 16-bit memory.",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 180,
+  "merged_pages": [
+    180
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=180",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "frcc_c_ck (MHz)",
+    "Memory frequency (MHz)",
+    "Typ",
+    "Max(2) TJ = 105°C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "400",
+      "200",
+      "10.50",
+      "11.5",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "320",
+      "160",
+      "8.55",
+      "9.5",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "266",
+      "133",
+      "7.35",
+      "8.0",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "200",
+      "100",
+      "5.60",
+      "6.2",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "180",
+      "90",
+      "5.05",
+      "5.6",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "120",
+      "60",
+      "3.40",
+      "3.8",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "60",
+      "30",
+      "1.70",
+      "1.9",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "2. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_51",
+    "is_continued": false,
+    "pages": [
+      180
+    ],
+    "rows_count": 7,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

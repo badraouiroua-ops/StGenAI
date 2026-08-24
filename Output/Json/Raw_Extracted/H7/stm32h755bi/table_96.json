@@ -1,0 +1,66 @@
+{
+  "table_id": "table_96",
+  "caption": "Table 96. Temperature monitoring characteristics",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 192,
+  "merged_pages": [
+    192
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=192",
+  "section": "6.3.25 Temperature and V monitoring",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "TEMP high",
+      "High temperature monitoring",
+      "-",
+      "117",
+      "-",
+      "°C"
+    ],
+    [
+      "TEMP low",
+      "Low temperature monitoring",
+      "-",
+      "–25",
+      "-",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. 192/246 DS12919 Rev 3",
+      "2. Refer to Table 20: Embedded reference voltage. DS12919 Rev 3 193/246"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_96",
+    "is_continued": false,
+    "pages": [
+      192
+    ],
+    "rows_count": 2,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

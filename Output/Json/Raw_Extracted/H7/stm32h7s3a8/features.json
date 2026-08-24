@@ -1,0 +1,82 @@
+{
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "pdf_type": 1,
+  "doc_ref": "DS14359",
+  "revision": "Rev 7",
+  "date": "June 2026",
+  "title": "Arm Cortex -M7 32-bit 600 MHz MCU, 64 KB flash, 620 KB RAM, Ethernet , 2x USB, 2x FD-CAN, advanced graphics and security, 2x12-bit ADCs",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "page": 1,
+  "core": "Cortex-M7",
+  "fpu": true,
+  "max_frequency_mhz": 600,
+  "flash_kb": 64,
+  "ram_kb": 384,
+  "voltage_min_v": 1.71,
+  "voltage_max_v": 3.6,
+  "operating_temp_c": [],
+  "packages": [
+    "LQFP100 (14 x 14 mm)",
+    "LQFP144 (20 x 20 mm)",
+    "LQFP176 (24 x 24 mm)",
+    "TFBGA100 (8 x 8 mm)",
+    "TFBGA225 (13 x 13 mm)",
+    "UFBGA144 (10 x 10 mm)",
+    "UFBGA169 (7 x 7 mm)",
+    "UFBGA176 (10 x 10 mm)",
+    "WLCSP101",
+    "QFN68 (8 x 8 mm)"
+  ],
+  "device_summary": {
+    "headers": [
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H7S3A8"
+      ],
+      [
+        "STM32H7S3I8"
+      ],
+      [
+        "STM32H7S3L8"
+      ],
+      [
+        "STM32H7S3R8"
+      ],
+      [
+        "STM32H7S3V8"
+      ],
+      [
+        "STM32H7S3Z8"
+      ],
+      [
+        "STM32H7S7A8"
+      ],
+      [
+        "STM32H7S7I8"
+      ],
+      [
+        "STM32H7S7L8"
+      ],
+      [
+        "STM32H7S7Z8"
+      ]
+    ]
+  },
+  "extraction_meta": {
+    "source_pages": [
+      1,
+      2
+    ],
+    "extraction_method": "regex_type1",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "high",
+    "missing_fields": [
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

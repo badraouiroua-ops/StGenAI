@@ -1,0 +1,84 @@
+{
+  "table_id": "table_10",
+  "document": "DS12919 Rev 3 - Table 10. Voltage characteristics",
+  "rev": "Rev 3",
+  "table_number": "10",
+  "title": "Table 10. Voltage characteristics",
+  "page": 101,
+  "section": "6.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=101",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "text_helper": "Table 10. Voltage characteristics — section 6.2 Absolute maximum ratings. Symbols, Ratings, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbols",
+      "Ratings",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V - V DDX SS",
+        "External main supply voltage (including V , DD V , V , V , V , V ) DDLDO DDSMPS DDA DD33USB BAT",
+        "-0.3",
+        "4.0",
+        "V"
+      ],
+      [
+        "V (2) IN",
+        "Input voltage on FT_xxx pins",
+        "V -0.3 SS",
+        "Min(Min(V , DD V , V , DDA DD33USB V ) + 4.0, BAT 6 V)(3)(4)(5)",
+        "V"
+      ],
+      [
+        "V (2) IN",
+        "Input voltage on TT_xx pins",
+        "V -0.3 SS",
+        "4.0",
+        "V"
+      ],
+      [
+        "V (2) IN",
+        "Input voltage on BOOT0 pin",
+        "V SS",
+        "9.0",
+        "V"
+      ],
+      [
+        "V (2) IN",
+        "Input voltage on any other pins",
+        "V -0.3 SS",
+        "4.0",
+        "V"
+      ],
+      [
+        "|∆V | DDX",
+        "Variations between different V power pins DDX of the same domain",
+        "-",
+        "50",
+        "mV"
+      ],
+      [
+        "|V -V | SSx SS",
+        "Variations between all the different ground pins",
+        "-",
+        "50",
+        "mV"
+      ]
+    ],
+    "notes": [
+      "2. V maximum must always be respected. Refer to Table 58: I/O current injection susceptibility for the IN",
+      "3. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+      "4. To sustain a voltage higher than 4V the internal pull-up/pull-down resistors must be disabled.",
+      "5. When an FT_a pin is used by an analog peripheral such as an ADC, the maximum V is 4 V. IN"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

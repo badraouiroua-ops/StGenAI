@@ -1,0 +1,99 @@
+{
+  "table_id": "table_47",
+  "document": "DS13195 Rev 8 - Table 47. High-speed external user clock characteristics",
+  "rev": "Rev 8",
+  "table_number": "47",
+  "title": "Table 47. High-speed external user clock characteristics",
+  "page": 105,
+  "section": "6.3.9 External clock source characteristics",
+  "section_title": "External clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=105",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 47. High-speed external user clock characteristics — section 6.3.9 External clock source characteristics. Symbol, Parameter, Conditions, Min(1), Typ(1), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min(1)",
+      "Typ(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fHSE_ext",
+        "User external clock source frequency",
+        "External digital/analog clock",
+        "4",
+        "25",
+        "50",
+        "MHz"
+      ],
+      [
+        "VHSEH",
+        "Digital OSC_IN input high- level voltage",
+        "External digital clock",
+        "0.7 VDD",
+        "-",
+        "VDD",
+        "V"
+      ],
+      [
+        "VHSEL",
+        "Digital OSC_IN input low-level voltage",
+        "External digital clock",
+        "VSS",
+        "-",
+        "0.3 VDD",
+        "V"
+      ],
+      [
+        "tW(HSEH)/tW(HSEL)(2)",
+        "Digital OSC_IN input high or low time",
+        "External digital clock",
+        "7",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "VlswHSE (VHSEH-VHSEL)(3)",
+        "Analog low-swing OSC_IN peak-to-peak amplitude",
+        "External analog low- swing clock",
+        "0.2",
+        "-",
+        "2/3 VDD",
+        "V"
+      ],
+      [
+        "DuCyHSE",
+        "Analog low-swing OSC_IN duty cycle",
+        "External analog low- swing clock",
+        "45",
+        "50",
+        "55",
+        "%"
+      ],
+      [
+        "tr(HSE)/tf(HSE)",
+        "Analog low-swing OSC_IN rise and fall times",
+        "External analog low- swing clock, 10% to 90%",
+        "0.05 / fHSE_ext",
+        "-",
+        "0.3 / fHSE_ext",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Measures done at −40 °C in the worst conditions.",
+      "3. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

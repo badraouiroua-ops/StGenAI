@@ -1,0 +1,125 @@
+{
+  "table_id": "table_105",
+  "caption": "Table 105. Temperature sensor characteristics",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 252,
+  "merged_pages": [
+    252
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=252",
+  "section": "6.3.22 Analog temperature sensor characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "T (1) L",
+      "V linearity with temperature (from V voltage) SENSE sensor",
+      "-",
+      "-",
+      "3",
+      "°C"
+    ],
+    [
+      "T (1) L",
+      "V linearity with temperature (from ADC counter) SENSE",
+      "-",
+      "-",
+      "3",
+      "°C"
+    ],
+    [
+      "Avg_Slope(2)",
+      "Average slope (from V voltage) SENSE",
+      "-",
+      "2",
+      "-",
+      "mV/°C"
+    ],
+    [
+      "Avg_Slope(2)",
+      "Average slope (from ADC counter)",
+      "-",
+      "2",
+      "-",
+      "mV/°C"
+    ],
+    [
+      "V (3) 30",
+      "Voltage at 30°C ± 5 °C",
+      "-",
+      "0.62",
+      "-",
+      "V"
+    ],
+    [
+      "t start_run",
+      "Startup time in Run mode (buffer startup)",
+      "-",
+      "-",
+      "25.2",
+      "µs"
+    ],
+    [
+      "t (1) S_temp",
+      "ADC sampling time when reading the temperature",
+      "9",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "I (1) sens",
+      "Sensor consumption",
+      "-",
+      "0.18",
+      "0.31",
+      "µA"
+    ],
+    [
+      "I (1) sensbuf",
+      "Sensor buffer consumption",
+      "-",
+      "3.8",
+      "6.5",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. In degraded mode, the voltage reference buffer cannot accurately maintain the output voltage (V - drop voltage). DDA",
+      "3. Evaluated in characterization not tested in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_105",
+    "is_continued": false,
+    "pages": [
+      252
+    ],
+    "rows_count": 9,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

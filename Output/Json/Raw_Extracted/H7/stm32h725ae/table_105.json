@@ -1,0 +1,112 @@
+{
+  "table_id": "table_105",
+  "caption": "Table 105. PSSI receive characteristics",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 225,
+  "merged_pages": [
+    225
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=225",
+  "section": "6.3.34 Parallel synchronous slave interface (PSSI) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "-",
+      "Frequency ratio PSSI_PDCK/f HCLK",
+      "-",
+      "0.4",
+      "-"
+    ],
+    [
+      "PSSI_PDCK",
+      "PSSI Clock input",
+      "-",
+      "110",
+      "MHz"
+    ],
+    [
+      "D pixel",
+      "PSSI Clock input duty cycle",
+      "30",
+      "70",
+      "%"
+    ],
+    [
+      "t (DATA) su",
+      "Data input setup time",
+      "1.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t (DATA) h",
+      "Data input hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t (DE) su(",
+      "DE input setup time",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "t (DE) h",
+      "DE input hold time",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "tov(RDY)",
+      "RDY output valid time",
+      "-",
+      "15",
+      "ns"
+    ],
+    [
+      "toh(RDY)",
+      "RDY output hold time",
+      "5.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS13311 Rev 5 225/283",
+      "2. This value is valid when PA[9], PA[10], PA[11], PA[12], PA[15], PB[11], PH[4], PJ[8], PJ[9], PJ[10], PJ[11], PK[0], PK[1] or PK[2] is used."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_105",
+    "is_continued": false,
+    "pages": [
+      225
+    ],
+    "rows_count": 9,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

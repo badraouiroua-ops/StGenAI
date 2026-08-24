@@ -1,0 +1,81 @@
+{
+  "table_id": "table_57",
+  "caption": "Table 57. Flash memory characteristics",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 112,
+  "merged_pages": [
+    112
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=112",
+  "section": "6.3.12 Memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD",
+      "Supply current",
+      "Word program",
+      "-",
+      "2.5",
+      "4",
+      "mA"
+    ],
+    [
+      "IDD",
+      "Supply current",
+      "Sector erase",
+      "-",
+      "1.8",
+      "3",
+      "mA"
+    ],
+    [
+      "IDD",
+      "Supply current",
+      "Mass erase",
+      "-",
+      "2.0",
+      "3",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.84,
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. This value must be limited to the maximum frequency due to the product limitation.",
+      "3. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_57",
+    "is_continued": false,
+    "pages": [
+      112
+    ],
+    "rows_count": 3,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

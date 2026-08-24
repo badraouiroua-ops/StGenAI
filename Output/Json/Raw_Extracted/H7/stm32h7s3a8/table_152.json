@@ -1,0 +1,65 @@
+{
+  "table_id": "table_152",
+  "caption": "Table 152. WLCSP101 - recommended PCB design rules",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 312,
+  "merged_pages": [
+    312
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=312",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Dimension",
+    "Recommended values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.35 mm"
+    ],
+    [
+      "Dpad",
+      "0.210 mm"
+    ],
+    [
+      "Dsm",
+      "0.275 mm typ. (depends on the soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.235 mm"
+    ],
+    [
+      "Stencil thickness",
+      "0.100 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Dimensions are expressed in millimeters."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_152",
+    "is_continued": false,
+    "pages": [
+      312
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

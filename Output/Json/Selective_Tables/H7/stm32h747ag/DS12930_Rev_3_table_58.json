@@ -1,0 +1,74 @@
+{
+  "table_id": "table_58",
+  "document": "DS12930 Rev 3 - Table 58. EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz",
+  "rev": "Rev 3",
+  "table_number": "58",
+  "title": "Table 58. EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz",
+  "page": 150,
+  "section": "6.3.15 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=150",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 58. EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz — section 6.3.15 EMC characteristics. Symbol, Parameter, Conditions, Monitored frequency band, Value, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Monitored frequency band",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "S EMI",
+        "Peak (1)",
+        "V = 3.6 V, T = 25 °C, UFBGA240 DD A package, compliant with IEC61967-2",
+        "0.1 MHz to 30 MHz",
+        "11",
+        "dBµV"
+      ],
+      [
+        "S EMI",
+        "Peak (1)",
+        "V = 3.6 V, T = 25 °C, UFBGA240 DD A package, compliant with IEC61967-2",
+        "30 MHz to 130 MHz",
+        "6",
+        "dBµV"
+      ],
+      [
+        "S EMI",
+        "Peak (1)",
+        "V = 3.6 V, T = 25 °C, UFBGA240 DD A package, compliant with IEC61967-2",
+        "130 MHz to 1 GHz",
+        "12",
+        "dBµV"
+      ],
+      [
+        "S EMI",
+        "Peak (1)",
+        "V = 3.6 V, T = 25 °C, UFBGA240 DD A package, compliant with IEC61967-2",
+        "1 GHz to 2 GHz",
+        "7",
+        "dBµV"
+      ],
+      [
+        "S EMI",
+        "Level (2)",
+        "V = 3.6 V, T = 25 °C, UFBGA240 DD A package, compliant with IEC61967-2",
+        "0.1 MHz to 2 GHz",
+        "2.5",
+        "dBµV"
+      ]
+    ],
+    "notes": [
+      "1. Refer to AN1709 “EMI radiated test” chapter.",
+      "2. Refer to AN1709 “EMI level classification” chapter. 150/253 DS12930 Rev 3"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

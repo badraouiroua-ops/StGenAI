@@ -1,0 +1,98 @@
+{
+  "table_id": "table_52",
+  "document": "DS14360 Rev 6 - Table 52. High-speed external user clock characteristics",
+  "rev": "Rev 6",
+  "table_number": "52",
+  "title": "Table 52. High-speed external user clock characteristics",
+  "page": 187,
+  "section": "6.3.9 External clock source characteristics",
+  "section_title": "External clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=187",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 52. High-speed external user clock characteristics — section 6.3.9 External clock source characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f HSE_ext",
+        "User external clock source frequency",
+        "External digital/ analog clock",
+        "4",
+        "25",
+        "50",
+        "MHz"
+      ],
+      [
+        "V HSEH",
+        "Digital OSC_IN input high-level voltage",
+        "External digital clock",
+        "0.7 V DD",
+        "-",
+        "V DD",
+        "V"
+      ],
+      [
+        "V HSEL",
+        "Digital OSC_IN input low-level voltage",
+        "External digital cwlock",
+        "V SS",
+        "-",
+        "0.3 V DD",
+        "V"
+      ],
+      [
+        "t (2) W(HSE)",
+        "OSC_IN high or low time(2)",
+        "External digital clock",
+        "7",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "V lswHSE (V -V )(3) HSEH HSEL",
+        "Analog low swing OSC_IN peak-to- peak amplitud(3)e",
+        "External Analog Low Swing Clock",
+        "0.2",
+        "-",
+        "2/3 V DD",
+        "V"
+      ],
+      [
+        "DuCyHSE",
+        "Analog low swing OSC_IN duty cycle",
+        "External analog low-swing clock",
+        "45",
+        "50",
+        "55",
+        "%"
+      ],
+      [
+        "t /t rHSE fHSE",
+        "Analog low swing OSC_IN rise and fall time(3)",
+        "External analog low -swing clock 10% to 90%",
+        "0.05 / f HSE_ext",
+        "-",
+        "0.3 / f HSE_ext",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. No specified rise and fall time for a digital input signal but the VHSEH and VHSEL conditions must be fulfilled.",
+      "3. The DC component of the signal must insure that the signal peaks are located between V and V . DD SS"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

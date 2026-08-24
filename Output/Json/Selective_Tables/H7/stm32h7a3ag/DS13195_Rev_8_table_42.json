@@ -1,0 +1,102 @@
+{
+  "table_id": "table_42",
+  "document": "DS13195 Rev 8 - Table 42. Typical and maximum current consumption in Standby mode",
+  "rev": "Rev 8",
+  "table_number": "42",
+  "title": "Table 42. Typical and maximum current consumption in Standby mode",
+  "page": 98,
+  "section": "6.3.7 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=98",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 42. Typical and maximum current consumption in Standby mode — section 6.3.7 Supply current characteristics. Symbol, Parameter, Conditions / Backup SRAM, Conditions / RTC & LSE(2), Typ / 1.62 V, +8 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions / Backup SRAM",
+      "Conditions / RTC & LSE(2)",
+      "Typ / 1.62 V",
+      "Typ / 2.4 V(3)",
+      "Typ / 3 V(3)",
+      "Typ / 3.3 V(3)",
+      "Max (3.6V)(1) / TJ = 25 °C",
+      "Max (3.6V)(1) / TJ = 85 °C",
+      "Max (3.6V)(1) / TJ = 105 °C",
+      "Max (3.6V)(1) / TJ = 130 °C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD (Standby)",
+        "Supply current in Standby mode, IWDG OFF",
+        "OFF",
+        "OFF",
+        "1.97",
+        "2.76",
+        "3.02",
+        "3.30",
+        "4.0",
+        "11.0",
+        "22.0",
+        "57.0",
+        "µA"
+      ],
+      [
+        "IDD (Standby)",
+        "Supply current in Standby mode, IWDG OFF",
+        "ON",
+        "OFF",
+        "2.78",
+        "3.69",
+        "4.02",
+        "4.40",
+        "5.4",
+        "13.0",
+        "25.0",
+        "64.0",
+        "µA"
+      ],
+      [
+        "IDD (Standby)",
+        "Supply current in Standby mode, IWDG OFF",
+        "OFF",
+        "ON",
+        "2.46",
+        "3.37",
+        "3.73",
+        "4.07",
+        "5.0",
+        "12.2",
+        "23.3",
+        "59.0",
+        "µA"
+      ],
+      [
+        "IDD (Standby)",
+        "Supply current in Standby mode, IWDG OFF",
+        "ON",
+        "ON",
+        "3.27",
+        "4.30",
+        "4.73",
+        "5.17",
+        "6.4",
+        "14.2",
+        "26.3",
+        "66.0",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The maximum values are given for LDO regulator ON. Refer to Section 6.3.3 SMPS step-down converterfor the SMPS maximum current consumption.",
+      "3. The SMPS is unnecessarily ON in System Stop mode, leading to an additional consumption. It is recommended to use SVOS3 LP mode to optimize power consumption."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "table_id": "table_14",
+  "document": "DS13312 Rev 4 - Table 14. Supply voltage and maximum temperature configuration",
+  "rev": "Rev 4",
+  "table_number": "14",
+  "title": "Table 14. Supply voltage and maximum temperature configuration",
+  "page": 119,
+  "section": "6.3.1 General operating conditions",
+  "section_title": "General operating conditions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=119",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 14. Supply voltage and maximum temperature configuration — section 6.3.1 General operating conditions. Power scale, V source CORE, Max. T (°C)(1) J, Min. V (V) DD, Min. V (V) DDLDO.",
+  "table_content": {
+    "headers": [
+      "Power scale",
+      "V source CORE",
+      "Max. T (°C)(1) J",
+      "Min. V (V) DD",
+      "Min. V (V) DDLDO"
+    ],
+    "rows": [
+      [
+        "VOS0",
+        "SMPS",
+        "105",
+        "2.2",
+        "-"
+      ],
+      [
+        "VOS0",
+        "LDO",
+        "105",
+        "1.7",
+        "1.7"
+      ],
+      [
+        "VOS0",
+        "SMPS supplies LDO",
+        "105",
+        "3(2)",
+        "1.7"
+      ],
+      [
+        "VOS0",
+        "External (Bypass)",
+        "105",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS1",
+        "SMPS",
+        "140",
+        "2.2",
+        "-"
+      ],
+      [
+        "VOS1",
+        "SMPS",
+        "125",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS1",
+        "LDO",
+        "125",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "VOS1",
+        "SMPS supplies LDO",
+        "125",
+        "2.3",
+        "-"
+      ],
+      [
+        "VOS1",
+        "External (Bypass)",
+        "125",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS2",
+        "SMPS",
+        "140",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS2",
+        "LDO",
+        "125",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "VOS2",
+        "SMPS supplies LDO",
+        "125",
+        "2.3",
+        "-"
+      ],
+      [
+        "VOS2",
+        "External (Bypass)",
+        "125",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS3",
+        "SMPS",
+        "140",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS3",
+        "LDO",
+        "125",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "VOS3",
+        "SMPS supplies LDO",
+        "125",
+        "2.3",
+        "-"
+      ],
+      [
+        "VOS3",
+        "External (Bypass)",
+        "125",
+        "1.62",
+        "-"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "SMPS",
+        "140",
+        "1.62",
+        "-"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "LDO",
+        "125",
+        "2",
+        "2"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "LDO",
+        "105",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "SMPS supplies LDO",
+        "125",
+        "3(2)",
+        "2"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "SMPS supplies LDO",
+        "105",
+        "2.3",
+        "-"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "External (Bypass)",
+        "125",
+        "1.62",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

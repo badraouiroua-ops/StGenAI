@@ -1,0 +1,162 @@
+{
+  "table_id": "table_83",
+  "caption": "Table 83. Synchronous non-multiplexed PSRAM write timings",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 133,
+  "merged_pages": [
+    133,
+    134
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=133",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min(1)",
+    "Max(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t(CLK)",
+      "FMC_CLK period",
+      "2Tfmc_ker_ck - 0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "td(CLKL-NExL)",
+      "FMC_CLK low to FMC_NEx low (x=0..2)",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t(CLKH-NExH)",
+      "FMC_CLK high to FMC_NEx high (x= 0…2)",
+      "Tfmc_ker_ck + 1.5",
+      "-",
+      "ns"
+    ],
+    [
+      "td(CLKL-NADVL)",
+      "FMC_CLK low to FMC_NADV low",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "td(CLKL-NADVH)",
+      "FMC_CLK low to FMC_NADV high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "td(CLKL-AV)",
+      "FMC_CLK low to FMC_Ax valid (x=16…25)",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "td(CLKH-AIV)",
+      "FMC_CLK high to FMC_Ax invalid (x=16…25)",
+      "Tfmc_ker_ck + 1.5",
+      "-",
+      "ns"
+    ],
+    [
+      "td(CLKL-NWEL)",
+      "FMC_CLK low to FMC_NWE low",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "td(CLKH-NWEH)",
+      "FMC_CLK high to FMC_NWE high",
+      "Tfmc_ker_ck + 1",
+      "-",
+      "ns"
+    ],
+    [
+      ")ataD-LKLC(dt",
+      "FMC_D[15:0] valid data after FMC_CLK low -",
+      "-",
+      "3",
+      "ns"
+    ],
+    [
+      "td(CLKL-NBLL)",
+      "FMC_CLK low to FMC_NBL low -",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "td(CLKH-NBLH)",
+      "FMC_CLK high to FMC_NBL high",
+      "Tfmc_ker_ck + 0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(NWAIT-CLKH)",
+      "FMC_NWAIT valid before FMC_CLK high 2",
+      "FMC_NWAIT valid before FMC_CLK high 2",
+      "-",
+      "ns"
+    ],
+    [
+      "th(CLKH-NWAIT)",
+      "FMC_NWAIT valid after FMC_CLK high 2",
+      "FMC_NWAIT valid after FMC_CLK high 2",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 5,
+      "cont_cols_raw": 5,
+      "target_cols": 5,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_83",
+    "is_continued": true,
+    "pages": [
+      133,
+      134
+    ],
+    "rows_count": 14,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

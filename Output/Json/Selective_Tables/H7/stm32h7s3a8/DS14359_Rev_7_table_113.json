@@ -1,0 +1,52 @@
+{
+  "table_id": "table_113",
+  "document": "DS14359 Rev 7 - Table 113. V charging characteristics 257 BAT",
+  "rev": "Rev 7",
+  "table_number": "113",
+  "title": "Table 113. V charging characteristics 257 BAT",
+  "page": 257,
+  "section": "6.3.26 Temperature and V monitoring",
+  "section_title": "Temperature and V monitoring",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=257",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 113. V charging characteristics 257 BAT — section 6.3.26 Temperature and V monitoring. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "R BC",
+        "Battery charging resistor",
+        "VBRS in PWR_CR3= 0",
+        "-",
+        "5",
+        "-",
+        "kΩ"
+      ],
+      [
+        "R BC",
+        "Battery charging resistor",
+        "VBRS in PWR_CR3= 1",
+        "-",
+        "1.5",
+        "-",
+        "kΩ"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

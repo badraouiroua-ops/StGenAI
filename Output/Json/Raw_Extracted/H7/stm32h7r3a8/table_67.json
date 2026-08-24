@@ -1,0 +1,68 @@
+{
+  "table_id": "table_67",
+  "caption": "Table 67. ESD absolute maximum ratings",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 202,
+  "merged_pages": [
+    202
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=202",
+  "section": "6.3.13 Absolute maximum ratings (electrical sensitivity)",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Conditions",
+    "Packages",
+    "Class",
+    "Maximum value(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V ESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS-001",
+      "All packages",
+      "2",
+      "2000",
+      "V"
+    ],
+    [
+      "V ESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS-002",
+      "All packages",
+      "C2B",
+      "500",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Evaluated by characterization – not tested in production. Static latchup"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_67",
+    "is_continued": false,
+    "pages": [
+      202
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

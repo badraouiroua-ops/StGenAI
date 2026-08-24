@@ -1,0 +1,186 @@
+{
+  "table_id": "table_208",
+  "document": "DS12117 Rev 10 - Table 208. TFBGA100 - Mechanical data",
+  "rev": "Rev 10",
+  "table_number": "208",
+  "title": "Table 208. TFBGA100 - Mechanical data",
+  "page": 321,
+  "section": "8.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=321",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 208. TFBGA100 - Mechanical data — section 8.1 Device marking. Symbol, millimeters(1) / Min, millimeters(1) / Typ, millimeters(1) / Max, inches(12) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters(1) / Min",
+      "millimeters(1) / Typ",
+      "millimeters(1) / Max",
+      "inches(12) / Min",
+      "inches(12) / Typ",
+      "inches(12) / Max"
+    ],
+    "rows": [
+      [
+        "A(2)(3)",
+        "-",
+        "-",
+        "1.20",
+        "-",
+        "-",
+        "0.0472"
+      ],
+      [
+        "A1(4)",
+        "0.15",
+        "-",
+        "-",
+        "0.0059",
+        "-",
+        "-"
+      ],
+      [
+        "A2",
+        "-",
+        "0.74",
+        "-",
+        "-",
+        "0.0291",
+        "-"
+      ],
+      [
+        "b(5)",
+        "0.35",
+        "0.40",
+        "0.45",
+        "0.0138",
+        "0.0157",
+        "0.0177"
+      ],
+      [
+        "D",
+        "8.00 BSC(6)",
+        "8.00 BSC(6)",
+        "8.00 BSC(6)",
+        "0.3150 BSC",
+        "0.3150 BSC",
+        "0.3150 BSC"
+      ],
+      [
+        "D1",
+        "7.20 BSC",
+        "7.20 BSC",
+        "7.20 BSC",
+        "0.2835 BSC",
+        "0.2835 BSC",
+        "0.2835 BSC"
+      ],
+      [
+        "E1",
+        "7.20 BSC",
+        "7.20 BSC",
+        "7.20 BSC",
+        "0.2835 BSC",
+        "0.2835 BSC",
+        "0.2835 BSC"
+      ],
+      [
+        "e(9)",
+        "0.80 BSC",
+        "0.80 BSC",
+        "0.80 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC"
+      ],
+      [
+        "N(11)",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100",
+        "100"
+      ],
+      [
+        "SD(12)",
+        "0.40 BSC",
+        "0.40 BSC",
+        "0.40 BSC",
+        "0.0157 BSC",
+        "0.0157 BSC",
+        "0.0157 BSC"
+      ],
+      [
+        "SE(12)",
+        "0.40 BSC",
+        "0.40 BSC",
+        "0.40 BSC",
+        "0.0157 BSC",
+        "0.0157 BSC",
+        "0.0157 BSC"
+      ],
+      [
+        "aaa",
+        "0.15",
+        "0.15",
+        "0.15",
+        "0.0059",
+        "0.0059",
+        "0.0059"
+      ],
+      [
+        "ccc",
+        "0.20",
+        "0.20",
+        "0.20",
+        "0.0079",
+        "0.0079",
+        "0.0079"
+      ],
+      [
+        "ddd",
+        "0.10",
+        "0.10",
+        "0.10",
+        "0.0039",
+        "0.0039",
+        "0.0039"
+      ],
+      [
+        "eee",
+        "0.15",
+        "0.15",
+        "0.15",
+        "0.0059",
+        "0.0059",
+        "0.0059"
+      ],
+      [
+        "fff",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.0031",
+        "0.0031",
+        "0.0031"
+      ]
+    ],
+    "notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-2018.",
+      "2. TFBGA stands for thin profile fine pitch ball grid array: 1.00 mm < A ≤ 1.20 mm / fine pitch e < 1.00 mm.",
+      "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "4. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "5. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+      "6. BSC stands for BASIC dimensions. It corresponds to the nominal value and has no tolerance. For tolerances refer to form and position table. On the drawing these",
+      "9. e represents the solder ball grid pitch.",
+      "11. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

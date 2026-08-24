@@ -1,0 +1,83 @@
+{
+  "table_id": "table_99",
+  "caption": "Table 99. Voltage booster for analog switch characteristics",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 217,
+  "merged_pages": [
+    217
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=217",
+  "section": "6.3.29 Voltage booster for analog switch",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DD",
+      "Supply voltage",
+      "-",
+      "1.62",
+      "2.6",
+      "3.6",
+      "V"
+    ],
+    [
+      "t SU(BOOST)",
+      "Booster startup time",
+      "-",
+      "-",
+      "-",
+      "50",
+      "µs"
+    ],
+    [
+      "I DD(BOOST)",
+      "Booster consumption",
+      "1.62 V ≤ V ≤ 2.7 V DD",
+      "-",
+      "-",
+      "125",
+      "µA"
+    ],
+    [
+      "I DD(BOOST)",
+      "Booster consumption",
+      "2.7 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "250",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_99",
+    "is_continued": false,
+    "pages": [
+      217
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

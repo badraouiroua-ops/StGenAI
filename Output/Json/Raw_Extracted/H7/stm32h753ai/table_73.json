@@ -1,0 +1,142 @@
+{
+  "table_id": "table_73",
+  "caption": "Table 73. QUADSPI characteristics in SDR mode",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 164,
+  "merged_pages": [
+    164
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=164",
+  "section": "6.3.18 Quad-SPI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "Fck1/T CK",
+      "QUADSPI clock frequency",
+      "L Fp 02= C DD V 6.3< V ≤ V 7.2",
+      "-",
+      "-",
+      "133",
+      "MHz"
+    ],
+    [
+      "Fck1/T CK",
+      "QUADSPI clock frequency",
+      "1.62 V<V <3.6 V DD C =15 pF L",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "t w(CKH)",
+      "QUADSPI clock high and low time",
+      "-",
+      "T /2–0.5 CK",
+      "-",
+      "T /2 CK",
+      "ns"
+    ],
+    [
+      "t w(CKL)",
+      "QUADSPI clock high and low time",
+      "-",
+      "T /2 CK",
+      "-",
+      "T /2 + 0.5 CK",
+      "ns"
+    ],
+    [
+      "t s(IN)",
+      "Data input setup time",
+      "2.7 V ≤ V < 3.6 V DD",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t s(IN)",
+      "Data input setup time",
+      "1.62 V ≤ V < 3.6 V DD",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(IN)",
+      "Data input hold time",
+      "2.7 V ≤ V < 3.6 V DD",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(IN)",
+      "Data input hold time",
+      "1.62 V ≤ V < 3.6 V DD",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(OUT)",
+      "Data output valid time",
+      "-",
+      "-",
+      "1.5",
+      "2",
+      "ns"
+    ],
+    [
+      "t h(OUT)",
+      "Data output hold time",
+      "-",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. 164/357 DS12117 Rev 10"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_73",
+    "is_continued": false,
+    "pages": [
+      164
+    ],
+    "rows_count": 10,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

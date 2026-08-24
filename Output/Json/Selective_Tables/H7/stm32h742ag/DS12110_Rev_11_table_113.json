@@ -1,0 +1,78 @@
+{
+  "table_id": "table_113",
+  "document": "DS12110 Rev 11 - Table 113. Supply voltage and maximum frequency configuration",
+  "rev": "Rev 11",
+  "table_number": "113",
+  "title": "Table 113. Supply voltage and maximum frequency configuration",
+  "page": 210,
+  "section": "7.3.1 General operating conditions",
+  "section_title": "General operating conditions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=210",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 113. Supply voltage and maximum frequency configuration — section 7.3.1 General operating conditions. Power scale, V source CORE, Max T (°C) J, Max frequency (MHz), Min V (V) DDLDO.",
+  "table_content": {
+    "headers": [
+      "Power scale",
+      "V source CORE",
+      "Max T (°C) J",
+      "Max frequency (MHz)",
+      "Min V (V) DDLDO"
+    ],
+    "rows": [
+      [
+        "VOS0",
+        "LDO",
+        "105",
+        "480",
+        "1.7"
+      ],
+      [
+        "VOS1",
+        "LDO",
+        "125",
+        "400",
+        "1.62"
+      ],
+      [
+        "VOS2",
+        "LDO",
+        "125",
+        "300",
+        "1.62"
+      ],
+      [
+        "VOS3",
+        "LDO",
+        "125",
+        "200",
+        "1.62"
+      ],
+      [
+        "SVOS4",
+        "LDO",
+        "105",
+        "N/A",
+        "1.62"
+      ],
+      [
+        "SVOS5",
+        "LDO",
+        "105",
+        "N/A",
+        "1.62"
+      ]
+    ],
+    "notes": [
+      "3. For operation with voltage higher than Min (V , V , V ) +0.3V, the internal Pull-up and Pull-Down resistors must DD DDA DD33USB",
+      "4. VOS0 is available only when the LDO regulator is ON.",
+      "5. T = 105 °C. JMax",
+      "6. Maximum APB clock frequency when at least one peripheral is enabled.",
+      "7. In low-power dissipation state, T can be extended to this range as long as T does not exceed T (see Section 8.10: A J Jmax"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

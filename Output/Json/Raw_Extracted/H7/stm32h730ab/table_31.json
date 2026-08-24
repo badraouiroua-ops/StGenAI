@@ -1,0 +1,125 @@
+{
+  "table_id": "table_31",
+  "caption": "Table 31. Typical and maximum current consumption in VBAT mode",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 123,
+  "merged_pages": [
+    123
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=123",
+  "section": "6.3.8 Supply current characteristics",
+  "headers": [
+    "Sym- bol",
+    "Para- meter",
+    "Conditions / Back- up SRAM",
+    "Conditions / RTC and LSE(3)",
+    "Typ / 1.2 V",
+    "Typ / 2 V",
+    "Typ / 3 V",
+    "Typ / 3.3 V",
+    "Max at 3.6 V with LDO regulator ON (1)(2) / T = J 25 °C",
+    "Max at 3.6 V with LDO regulator ON (1)(2) / T = J 85 ° C",
+    "Max at 3.6 V with LDO regulator ON (1)(2) / T = J 105 °C",
+    "Max at 3.6 V with LDO / T = J 125 °C",
+    "Max at 3.6 V with SMPS ON(1)(2) / T = J 140 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD (VBAT)",
+      "Supply current in VBAT mode",
+      "OFF",
+      "OFF",
+      "0.008",
+      "0.01",
+      "0.025",
+      "0.05",
+      "0.3",
+      "3.1",
+      "7.4",
+      "18",
+      "34",
+      "µA"
+    ],
+    [
+      "I DD (VBAT)",
+      "Supply current in VBAT mode",
+      "ON",
+      "OFF",
+      "1.5",
+      "1.7",
+      "1.9",
+      "1.9",
+      "4",
+      "28",
+      "53",
+      "91",
+      "110",
+      "µA"
+    ],
+    [
+      "I DD (VBAT)",
+      "Supply current in VBAT mode",
+      "OFF",
+      "ON",
+      "0.4",
+      "0.5",
+      "0.75",
+      "0.8",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "µA"
+    ],
+    [
+      "I DD (VBAT)",
+      "Supply current in VBAT mode",
+      "ON",
+      "ON",
+      "1.8",
+      "2.1",
+      "2.8",
+      "3.2",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 14,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 14,
+    "_notes": [
+      "1. These values are given for PDR OFF. When the PDR is ON, the typical current consumption is increased (refer to Table 19: Reset and power control block characteristics.",
+      "2. Guaranteed by characterization results.",
+      "3. The parameter values given in the above table for the SMPS regulator are extrapolated from the LDO consumption and typical SMPS efficiency factors."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:3"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_31",
+    "is_continued": false,
+    "pages": [
+      123
+    ],
+    "rows_count": 4,
+    "cols_count": 14,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

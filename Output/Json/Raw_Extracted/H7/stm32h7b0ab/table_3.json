@@ -1,0 +1,54 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. Overview of low-power mode monitoring pins",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 16,
+  "merged_pages": [
+    16
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=16",
+  "section": "3.6 Low-power modes",
+  "headers": [
+    "Power state monitoring pins",
+    "Description"
+  ],
+  "rows": [
+    [
+      "PWR_CSLEEP",
+      "CPU clock OFF"
+    ],
+    [
+      "PWR_CSTOP",
+      "CPU domain in low-power mode"
+    ],
+    [
+      "PWR_NDSTOP2",
+      "CPU domain retention mode selection"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      16
+    ],
+    "rows_count": 3,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

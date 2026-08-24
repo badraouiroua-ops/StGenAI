@@ -1,0 +1,60 @@
+{
+  "table_id": "table_79",
+  "document": "DS13195 Rev 8 - Table 79. Asynchronous multiplexed PSRAM/NOR write - NWAIT timings",
+  "rev": "Rev 8",
+  "table_number": "79",
+  "title": "Table 79. Asynchronous multiplexed PSRAM/NOR write - NWAIT timings",
+  "page": 128,
+  "section": "6.3.18 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=128",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 79. Asynchronous multiplexed PSRAM/NOR write - NWAIT timings — section 6.3.18 FMC characteristics. Symbol, Parameter, Min(1), Max(1), Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tw(NE)",
+        "FMC_NE low time",
+        "9Tfmc_ker_ck - 1",
+        "9Tfmc_ker_ck",
+        "ns"
+      ],
+      [
+        "tw(NWE)",
+        "FMC_NWE low time",
+        "7Tfmc_ker_ck - 0.5",
+        "7Tfmc_ker_ck + 0.5",
+        "ns"
+      ],
+      [
+        "tsu(NWAIT_NE)",
+        "FMC_NWAIT valid before FMC_NEx high",
+        "5Tfmc_ker_ck + 9",
+        "-",
+        "ns"
+      ],
+      [
+        "th(NE_NWAIT)",
+        "FMC_NEx hold time after FMC_NWAIT invalid",
+        "4Tfmc_ker_ck + 12",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. Synchronous waveforms and timings"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

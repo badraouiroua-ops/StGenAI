@@ -1,0 +1,123 @@
+{
+  "table_id": "table_11",
+  "document": "DS14360 Rev 6 - Table 11. Timer feature comparison",
+  "rev": "Rev 6",
+  "table_number": "11",
+  "title": "Table 11. Timer feature comparison",
+  "page": 58,
+  "section": "3.33 Timers and watchdogs",
+  "section_title": "Timers and watchdogs",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=58",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 11. Timer feature comparison — section 3.33 Timers and watchdogs. Timer type, Timer, Counter resolution, Counter type, Prescaler factor, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Timer type",
+      "Timer",
+      "Counter resolution",
+      "Counter type",
+      "Prescaler factor",
+      "DMA request generation",
+      "Capture/ compare channels",
+      "Comple- mentary output"
+    ],
+    "rows": [
+      [
+        "Advanced- control",
+        "TIM1",
+        "16-bit",
+        "Up, Down, Up/down",
+        "Any integer between 1 and 65536",
+        "Yes",
+        "4",
+        "4"
+      ],
+      [
+        "General purpose",
+        "TIM2,TIM3, TIM4 TIM5",
+        "32-bit",
+        "Up, Down, Up/down",
+        "Any integer between 1 and 65536",
+        "Yes",
+        "4",
+        "No"
+      ],
+      [
+        "General purpose",
+        "TIM9,TIM12",
+        "16-bit",
+        "Up",
+        "Any integer between 1 and 65536",
+        "No",
+        "2",
+        "No"
+      ],
+      [
+        "General purpose",
+        "TIM13,TIM14",
+        "16-bit",
+        "Up",
+        "Any integer between 1 and 65536",
+        "No",
+        "1",
+        "No"
+      ],
+      [
+        "General purpose",
+        "TIM15",
+        "16-bit",
+        "Up",
+        "Any integer between 1 and 65536",
+        "Yes",
+        "2",
+        "1"
+      ],
+      [
+        "General purpose",
+        "TIM16, TIM17",
+        "16-bit",
+        "Up",
+        "Any integer between 1 and 65536",
+        "Yes",
+        "1",
+        "1"
+      ],
+      [
+        "Basic",
+        "TIM6, TIM7",
+        "16-bit",
+        "Up",
+        "Any integer between 1 and 65536",
+        "Yes",
+        "0",
+        "No"
+      ],
+      [
+        "Low-power timer",
+        "LPTIM1, LPTIM2, LPTIM3",
+        "16-bit",
+        "Up",
+        "1, 2, 4, 8, 16, 32, 64, 128",
+        "Yes",
+        "2",
+        "No"
+      ],
+      [
+        "Low-power timer",
+        "LPTIM4, LPTIM5",
+        "16-bit",
+        "Up",
+        "1, 2, 4, 8, 16, 32, 64, 128",
+        "No",
+        "0",
+        "No"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

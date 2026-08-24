@@ -1,0 +1,152 @@
+{
+  "table_id": "table_51",
+  "caption": "Table 51. HSI48 oscillator characteristics",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 109,
+  "merged_pages": [
+    109
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=109",
+  "section": "6.3.10 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fHSI48",
+      "HSI48 frequency",
+      "VDD = 3.3 V, TJ = 30 °C",
+      "47.5(1)",
+      "48",
+      "48.5(1)",
+      "MHz"
+    ],
+    [
+      "TRIM(2)",
+      "User trimming step",
+      "-",
+      "-",
+      "0.175",
+      "0.250",
+      "%"
+    ],
+    [
+      "USER TRIM COVERAGE(3)",
+      "User trimming coverage",
+      "± 32 steps",
+      "±4,70",
+      "±5.6",
+      "-",
+      "%"
+    ],
+    [
+      "DuCy(HSI48)(2)",
+      "Duty cycle",
+      "-",
+      "45",
+      "-",
+      "55",
+      "%"
+    ],
+    [
+      "ACCHSI48_REL(3)",
+      "Accuracy of the HSI48 oscillator over temperature (reference is 30 °C)",
+      "TJ = -40 to 130 °C",
+      "-4.5",
+      "-",
+      "4",
+      "%"
+    ],
+    [
+      "ΔVDD(HSI48)(2)",
+      "HSI48 oscillator frequency drift with VDD (reference is 3.3 V)",
+      "VDD = 3 to 3.6 V",
+      "-",
+      "0.025",
+      "0.05",
+      "%"
+    ],
+    [
+      "ΔVDD(HSI48)(2)",
+      "HSI48 oscillator frequency drift with VDD (reference is 3.3 V)",
+      "VDD = 1.62 to 3.6 V",
+      "-",
+      "0.05",
+      "0.1",
+      "%"
+    ],
+    [
+      "tsu(HSI48)(2)",
+      "HSI48 oscillator startup time",
+      "-",
+      "-",
+      "2.1",
+      "4.0",
+      "µs"
+    ],
+    [
+      "IDD(HSI48)(2)",
+      "HSI48 oscillator power consumption",
+      "-",
+      "-",
+      "350",
+      "400",
+      "µA"
+    ],
+    [
+      "NT jitter(2)",
+      "Next transition jitter accumulated jitter on 28 cycles",
+      "-",
+      "-",
+      "± 0.15",
+      "-",
+      "ns"
+    ],
+    [
+      "PT jitter(2)",
+      "Paired transition jitter Accumulated jitter on 56 cycles(6)",
+      "-",
+      "-",
+      "± 0.25",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. An external resistor is not required between OSC32_IN and OSC32_OUT and it is forbidden to add one.",
+      "2. Guaranteed by design.",
+      "3. Guaranteed by characterization results.",
+      "6. Jitter measurements are performed without clock sources activated in parallel. DS13195 - Rev 8 page 109/237"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_51",
+    "is_continued": false,
+    "pages": [
+      109
+    ],
+    "rows_count": 11,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

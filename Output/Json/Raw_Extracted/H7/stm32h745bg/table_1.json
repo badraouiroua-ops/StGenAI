@@ -1,0 +1,74 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Device summary",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 2,
+  "merged_pages": [
+    2
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=2",
+  "section": "4 DMA controllers to unload the CPU",
+  "headers": [
+    "Reference",
+    "Part number"
+  ],
+  "rows": [
+    [
+      "STM32H745xI",
+      "STM32H745ZI"
+    ],
+    [
+      "STM32H745xI",
+      "STM32H745II"
+    ],
+    [
+      "STM32H745xI",
+      "STM32H745BI"
+    ],
+    [
+      "STM32H745xI",
+      "STM32H745XI"
+    ],
+    [
+      "STM32H745xG",
+      "STM32H745ZG"
+    ],
+    [
+      "STM32H745xG",
+      "STM32H745IG"
+    ],
+    [
+      "STM32H745xG",
+      "STM32H745BG"
+    ],
+    [
+      "STM32H745xG",
+      "STM32H745XG"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      2
+    ],
+    "rows_count": 8,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

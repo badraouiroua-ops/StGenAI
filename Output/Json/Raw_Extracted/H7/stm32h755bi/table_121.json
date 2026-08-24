@@ -1,0 +1,294 @@
+{
+  "table_id": "table_121",
+  "caption": "Table 121. LQFP176 - Mechanical data",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 228,
+  "merged_pages": [
+    228
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=228",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Symbol",
+    "millimeters / Min",
+    "millimeters / Typ",
+    "millimeters / Max",
+    "inches(14) / Min",
+    "inches(14) / Typ",
+    "inches(14) / Max"
+  ],
+  "rows": [
+    [
+      "A",
+      "-",
+      "-",
+      "1.600",
+      "-",
+      "-",
+      "0.0630"
+    ],
+    [
+      "A1(12)",
+      "0.050",
+      "-",
+      "0.150",
+      "0.0020",
+      "-",
+      "0.0059"
+    ],
+    [
+      "A2",
+      "1.350",
+      "1.400",
+      "1.450",
+      "0.0531",
+      "0.0551",
+      "0.0571"
+    ],
+    [
+      "b(9)(11)",
+      "0.170",
+      "0.220",
+      "0.270",
+      "0.0067",
+      "0.0087",
+      "0.0106"
+    ],
+    [
+      "b1(11)",
+      "0.170",
+      "0.200",
+      "0.230",
+      "0.0067",
+      "0.0079",
+      "0.0091"
+    ],
+    [
+      "c(11)",
+      "0.090",
+      "-",
+      "0.200",
+      "0.0035",
+      "-",
+      "0.0079"
+    ],
+    [
+      "c1(11)",
+      "0.090",
+      "-",
+      "0.160",
+      "0.0035",
+      "-",
+      "0.063"
+    ],
+    [
+      "D(4)",
+      "26.000",
+      "26.000",
+      "26.000",
+      "1.0236",
+      "1.0236",
+      "1.0236"
+    ],
+    [
+      "D1(2)(5)",
+      "24.000",
+      "24.000",
+      "24.000",
+      "0.9449",
+      "0.9449",
+      "0.9449"
+    ],
+    [
+      "E(4)",
+      "26.000",
+      "26.000",
+      "26.000",
+      "0.0197",
+      "0.0197",
+      "0.0197"
+    ],
+    [
+      "E1(2)(5)",
+      "24.000",
+      "24.000",
+      "24.000",
+      "0.9449",
+      "0.9449",
+      "0.9449"
+    ],
+    [
+      "e",
+      "0.500",
+      "0.500",
+      "0.500",
+      "0.1970",
+      "0.1970",
+      "0.1970"
+    ],
+    [
+      "L",
+      "0.450",
+      "0.600",
+      "0.750",
+      "0.0177",
+      "0.0236",
+      "0.0295"
+    ],
+    [
+      "L1(1)(11)",
+      "1",
+      "1",
+      "1",
+      "0.0394 REF",
+      "0.0394 REF",
+      "0.0394 REF"
+    ],
+    [
+      "N(13)",
+      "176",
+      "176",
+      "176",
+      "176",
+      "176",
+      "176"
+    ],
+    [
+      "θ",
+      "0°",
+      "3.5°",
+      "7°",
+      "0°",
+      "3.5°",
+      "7°"
+    ],
+    [
+      "θ1",
+      "0°",
+      "-",
+      "-",
+      "0°",
+      "-",
+      "-"
+    ],
+    [
+      "θ2",
+      "10°",
+      "12°",
+      "14°",
+      "10°",
+      "12°",
+      "14°"
+    ],
+    [
+      "θ3",
+      "10°",
+      "12°",
+      "14°",
+      "10°",
+      "12°",
+      "14°"
+    ],
+    [
+      "R1",
+      "0.080",
+      "-",
+      "-",
+      "0.0031",
+      "-",
+      "-"
+    ],
+    [
+      "R2",
+      "0.080",
+      "-",
+      "0.200",
+      "0.0031",
+      "-",
+      "0.0079"
+    ],
+    [
+      "S",
+      "0.200",
+      "-",
+      "-",
+      "0.0079",
+      "-",
+      "-"
+    ],
+    [
+      "aaa(1)",
+      "0.200",
+      "0.200",
+      "0.200",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "bbb(1)",
+      "0.200",
+      "0.200",
+      "0.200",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "ccc(1)",
+      "0.080",
+      "0.080",
+      "0.080",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ],
+    [
+      "ddd(1)",
+      "0.080",
+      "0.080",
+      "0.080",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+      "2. The Top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+      "4. To be determined at seating datum plane C.",
+      "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size",
+      "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm.",
+      "11. These dimensions apply to the flat section of the lead between 0.10 mm and 0.25 mm from the lead tip.",
+      "12. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "13. “N” is the number of terminal positions for the specified body size.",
+      "14. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_121",
+    "is_continued": false,
+    "pages": [
+      228
+    ],
+    "rows_count": 26,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

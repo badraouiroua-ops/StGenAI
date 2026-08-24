@@ -1,0 +1,136 @@
+{
+  "table_id": "table_51",
+  "document": "DS13195 Rev 8 - Table 51. HSI48 oscillator characteristics",
+  "rev": "Rev 8",
+  "table_number": "51",
+  "title": "Table 51. HSI48 oscillator characteristics",
+  "page": 109,
+  "section": "6.3.10 Internal clock source characteristics",
+  "section_title": "Internal clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=109",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 51. HSI48 oscillator characteristics — section 6.3.10 Internal clock source characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fHSI48",
+        "HSI48 frequency",
+        "VDD = 3.3 V, TJ = 30 °C",
+        "47.5(1)",
+        "48",
+        "48.5(1)",
+        "MHz"
+      ],
+      [
+        "TRIM(2)",
+        "User trimming step",
+        "-",
+        "-",
+        "0.175",
+        "0.250",
+        "%"
+      ],
+      [
+        "USER TRIM COVERAGE(3)",
+        "User trimming coverage",
+        "± 32 steps",
+        "±4,70",
+        "±5.6",
+        "-",
+        "%"
+      ],
+      [
+        "DuCy(HSI48)(2)",
+        "Duty cycle",
+        "-",
+        "45",
+        "-",
+        "55",
+        "%"
+      ],
+      [
+        "ACCHSI48_REL(3)",
+        "Accuracy of the HSI48 oscillator over temperature (reference is 30 °C)",
+        "TJ = -40 to 130 °C",
+        "-4.5",
+        "-",
+        "4",
+        "%"
+      ],
+      [
+        "ΔVDD(HSI48)(2)",
+        "HSI48 oscillator frequency drift with VDD (reference is 3.3 V)",
+        "VDD = 3 to 3.6 V",
+        "-",
+        "0.025",
+        "0.05",
+        "%"
+      ],
+      [
+        "ΔVDD(HSI48)(2)",
+        "HSI48 oscillator frequency drift with VDD (reference is 3.3 V)",
+        "VDD = 1.62 to 3.6 V",
+        "-",
+        "0.05",
+        "0.1",
+        "%"
+      ],
+      [
+        "tsu(HSI48)(2)",
+        "HSI48 oscillator startup time",
+        "-",
+        "-",
+        "2.1",
+        "4.0",
+        "µs"
+      ],
+      [
+        "IDD(HSI48)(2)",
+        "HSI48 oscillator power consumption",
+        "-",
+        "-",
+        "350",
+        "400",
+        "µA"
+      ],
+      [
+        "NT jitter(2)",
+        "Next transition jitter accumulated jitter on 28 cycles",
+        "-",
+        "-",
+        "± 0.15",
+        "-",
+        "ns"
+      ],
+      [
+        "PT jitter(2)",
+        "Paired transition jitter Accumulated jitter on 56 cycles(6)",
+        "-",
+        "-",
+        "± 0.25",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. An external resistor is not required between OSC32_IN and OSC32_OUT and it is forbidden to add one.",
+      "2. Guaranteed by design.",
+      "3. Guaranteed by characterization results.",
+      "6. Jitter measurements are performed without clock sources activated in parallel. DS13195 - Rev 8 page 109/237"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

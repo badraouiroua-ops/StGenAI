@@ -74,7 +74,10 @@ def _build_text_grid(
     4. Détermine les colonnes par clustering des x0.
     5. Assigne chaque mot à sa colonne et retourne une grille.
     """
-    # Clustering 1D avec tolérance 3px pour regrouper les mots d'une même ligne visuelle
+    # ── FIX (0-Regression) : Clustering 1D avec tolérance ─────────────────
+    # Au lieu d'utiliser un simple round() ou une grille fixe qui casse
+    # quand les Y varient légèrement, on regroupe les mots (clusters)
+    # s'ils sont à moins de 3px d'écart verticalement.
     words_sorted = sorted(words, key=lambda w: w["top"])
     clusters: list[list[dict]] = []
     for w in words_sorted:

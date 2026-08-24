@@ -1,0 +1,87 @@
+{
+  "table_id": "table_109",
+  "document": "DS13196 Rev 7 - Table 109. PSSI receive characteristics",
+  "rev": "Rev 7",
+  "table_number": "109",
+  "title": "Table 109. PSSI receive characteristics",
+  "page": 147,
+  "section": "6.3.32 PSSI interface characteristics",
+  "section_title": "PSSI interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=147",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 109. PSSI receive characteristics — section 6.3.32 PSSI interface characteristics. Symbol, Parameter, Min, Max.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max"
+    ],
+    "rows": [
+      [
+        "-",
+        "Frequency ratio PSSI_PDCK/fHCLK",
+        "-",
+        "0.4"
+      ],
+      [
+        "PSSI_PDCK",
+        "PSSI clock input",
+        "-",
+        "100"
+      ],
+      [
+        "Dpixel",
+        "PSSI clock input duty cycle",
+        "30",
+        "70"
+      ],
+      [
+        "tsu(DATA)",
+        "Data input setup time",
+        "2",
+        "-"
+      ],
+      [
+        "th(DATA)",
+        "Data input hold time",
+        "1",
+        "-"
+      ],
+      [
+        "tsu((DE)",
+        "DE input setup time",
+        "3",
+        "-"
+      ],
+      [
+        "th(DE)",
+        "DE input hold time",
+        "1",
+        "-"
+      ],
+      [
+        "tov(RDY)",
+        "RDY output valid time",
+        "-",
+        "10"
+      ],
+      [
+        "toh(RDY)",
+        "RDY output hold time",
+        "4.5",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. At VOS1, these values are degraded by up to 5 %."
+    ],
+    "legend": [
+      "Guaranteed by characterization results."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "table_id": "table_45",
+  "caption": "Table 45. Typical and maximum current consumption in VBAT mode",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 176,
+  "merged_pages": [
+    176
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=176",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Sym-bol",
+    "Parameter",
+    "Conditions / Backup SRAM",
+    "Conditions / RTC and LSE(2)",
+    "Typ / 1.62 V",
+    "Typ / 2.4 V",
+    "Typ / 3 V",
+    "Typ / 3.3 V",
+    "Max (3.6 V)(1) / T = J 25 °C",
+    "Max (3.6 V)(1) / T = J 85 °C",
+    "Max (3.6 V)(1) / T = J 105 °C",
+    "Max (3.6 V)(1) / T = J 130 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD (VBAT)",
+      "Supply current in VBAT mode",
+      "OFF",
+      "OFF",
+      "0.009",
+      "0.013",
+      "0.021",
+      "0.037",
+      "0.22",
+      "3.40",
+      "8.70",
+      "27.00",
+      "µA"
+    ],
+    [
+      "I DD (VBAT)",
+      "Supply current in VBAT mode",
+      "ON",
+      "OFF",
+      "1.5",
+      "1.8",
+      "1.8",
+      "1.9",
+      "2.85",
+      "19.00",
+      "41.00",
+      "87.00",
+      "µA"
+    ],
+    [
+      "I DD (VBAT)",
+      "Supply current in VBAT mode",
+      "OFF",
+      "ON",
+      "0.4",
+      "0.5",
+      "0.7",
+      "0.8",
+      "1.10",
+      "4.25",
+      "9.55",
+      "28.50",
+      "µA"
+    ],
+    [
+      "I DD (VBAT)",
+      "Supply current in VBAT mode",
+      "ON",
+      "ON",
+      "1.9",
+      "2.1",
+      "2.4",
+      "2.5",
+      "3.70",
+      "19.50",
+      "41.50",
+      "89.00",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 13,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 13,
+    "_notes": [
+      "1. Guaranteed by characterization results unless otherwise specified. Refer to Section 6.3.3: SMPS step-down converter for the SMPS maximum consumption.",
+      "2. The LSE is in Low-drive mode."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_45",
+    "is_continued": false,
+    "pages": [
+      176
+    ],
+    "rows_count": 4,
+    "cols_count": 13,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "table_id": "table_94",
+  "document": "DS13313 Rev 5 - Table 94. Temperature monitoring characteristics",
+  "rev": "Rev 5",
+  "table_number": "94",
+  "title": "Table 94. Temperature monitoring characteristics",
+  "page": 184,
+  "section": "6.3.27 Temperature and V monitoring",
+  "section_title": "Temperature and V monitoring",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=184",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "text_helper": "Table 94. Temperature monitoring characteristics — section 6.3.27 Temperature and V monitoring. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "TEMP high",
+        "High temperature monitoring",
+        "-",
+        "117",
+        "-",
+        "°C"
+      ],
+      [
+        "TEMP low",
+        "Low temperature monitoring",
+        "-",
+        "–25",
+        "-",
+        "°C"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

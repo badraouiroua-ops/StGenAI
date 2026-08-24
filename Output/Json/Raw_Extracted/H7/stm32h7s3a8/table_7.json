@@ -1,0 +1,66 @@
+{
+  "table_id": "table_7",
+  "caption": "Table 7. XSPIM implementation",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 51,
+  "merged_pages": [
+    51
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=51",
+  "section": "3.19.1 XSPI I/O manager (XSPIM)",
+  "headers": [
+    "XSPIM features",
+    "i/f avaibility"
+  ],
+  "rows": [
+    [
+      "Supports up to two single/dual/quad interfaces",
+      "Both"
+    ],
+    [
+      "Fully I/O multiplexing capability",
+      "Both"
+    ],
+    [
+      "Supports time-multiplexed mode",
+      "Both"
+    ],
+    [
+      "Supports high-speed interface",
+      "Both"
+    ],
+    [
+      "Chip select selection if XSPI provides dual chip select",
+      "Package dependent"
+    ],
+    [
+      "Supports 16-bit data interface and dual-octal mode",
+      "Only a single i/f, package dependent"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_7",
+    "is_continued": false,
+    "pages": [
+      51
+    ],
+    "rows_count": 6,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

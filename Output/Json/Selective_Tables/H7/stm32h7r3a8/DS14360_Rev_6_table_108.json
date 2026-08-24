@@ -1,0 +1,107 @@
+{
+  "table_id": "table_108",
+  "document": "DS14360 Rev 6 - Table 108. Digital temperature sensor characteristics",
+  "rev": "Rev 6",
+  "table_number": "108",
+  "title": "Table 108. Digital temperature sensor characteristics",
+  "page": 253,
+  "section": "6.3.24 Digital temperature sensor characteristics",
+  "section_title": "Digital temperature sensor characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=253",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 108. Digital temperature sensor characteristics — section 6.3.24 Digital temperature sensor characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f (2) DTS",
+        "Output clock frequency",
+        "VDD_CORE = 1.19 V(3)",
+        "500",
+        "750",
+        "1150",
+        "kHz"
+      ],
+      [
+        "T (2) LC",
+        "Temperature linearity coefficient",
+        "VDD_CORE = 1.19 V(3)",
+        "1660",
+        "2100",
+        "2750",
+        "Hz/°C"
+      ],
+      [
+        "T (2) TOTAL_ERROR",
+        "Temperature offset measurement, all VOS",
+        "T =-40°C to J 30°C",
+        "-13",
+        "-",
+        "4",
+        "°C"
+      ],
+      [
+        "T (2) TOTAL_ERROR",
+        "Temperature offset measurement, all VOS",
+        "T =30°C to J 130°C",
+        "-7",
+        "-",
+        "2",
+        "°C"
+      ],
+      [
+        "T VDD_CORE",
+        "Additional error due to supply variation",
+        "-",
+        "-1",
+        "-",
+        "1",
+        "°C"
+      ],
+      [
+        "t TRIM",
+        "Calibration time",
+        "-",
+        "-",
+        "-",
+        "2",
+        "ms"
+      ],
+      [
+        "t WAKE_UP",
+        "Wake-up time from off state until DTS ready bit is set",
+        "-",
+        "-",
+        "67",
+        "116.00",
+        "µs"
+      ],
+      [
+        "I DDCORE_DTS",
+        "DTS consumption on VDD_CORE",
+        "-",
+        "8.5",
+        "30",
+        "70.0",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "2. Evaluated by characterization - Not tested in production.",
+      "3. The characterization is done at VDD_CORE = 1.19 V for Typ/Min/Max."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

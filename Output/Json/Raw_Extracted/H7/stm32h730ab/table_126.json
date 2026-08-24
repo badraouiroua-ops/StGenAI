@@ -1,0 +1,71 @@
+{
+  "table_id": "table_126",
+  "caption": "Table 126. TFBGA100 - Example of PCB design rules (0.8 mm pitch BGA)",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 246,
+  "merged_pages": [
+    246
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=246",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Dimension",
+    "Values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.8"
+    ],
+    [
+      "Dpad",
+      "0.400 mm"
+    ],
+    [
+      "Dsm",
+      "0.470 mm typ. (depends on the soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.400 mm"
+    ],
+    [
+      "Stencil thickness",
+      "Between 0.100 mm and 0.125 mm"
+    ],
+    [
+      "Pad trace width",
+      "0.120 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "11. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "13. Drawing is not to scale. Figure 75. TFBGA100 - Footprint example"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_126",
+    "is_continued": false,
+    "pages": [
+      246
+    ],
+    "rows_count": 6,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

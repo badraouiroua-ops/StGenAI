@@ -1,0 +1,104 @@
+{
+  "table_id": "table_109",
+  "caption": "Table 109. PSSI receive characteristics",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 147,
+  "merged_pages": [
+    147
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=147",
+  "section": "6.3.32 PSSI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max"
+  ],
+  "rows": [
+    [
+      "-",
+      "Frequency ratio PSSI_PDCK/fHCLK",
+      "-",
+      "0.4"
+    ],
+    [
+      "PSSI_PDCK",
+      "PSSI clock input",
+      "-",
+      "100"
+    ],
+    [
+      "Dpixel",
+      "PSSI clock input duty cycle",
+      "30",
+      "70"
+    ],
+    [
+      "tsu(DATA)",
+      "Data input setup time",
+      "2",
+      "-"
+    ],
+    [
+      "th(DATA)",
+      "Data input hold time",
+      "1",
+      "-"
+    ],
+    [
+      "tsu((DE)",
+      "DE input setup time",
+      "3",
+      "-"
+    ],
+    [
+      "th(DE)",
+      "DE input hold time",
+      "1",
+      "-"
+    ],
+    [
+      "tov(RDY)",
+      "RDY output valid time",
+      "-",
+      "10"
+    ],
+    [
+      "toh(RDY)",
+      "RDY output hold time",
+      "4.5",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. At VOS1, these values are degraded by up to 5 %."
+    ],
+    "_legend": [
+      "Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_109",
+    "is_continued": false,
+    "pages": [
+      147
+    ],
+    "rows_count": 9,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

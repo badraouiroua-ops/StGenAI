@@ -1,0 +1,52 @@
+{
+  "table_id": "table_59",
+  "document": "DS12931 Rev 5 - Table 59. ESD absolute maximum ratings",
+  "rev": "Rev 5",
+  "table_number": "59",
+  "title": "Table 59. ESD absolute maximum ratings",
+  "page": 151,
+  "section": "6.3.16 Absolute maximum ratings (electrical sensitivity)",
+  "section_title": "Absolute maximum ratings (electrical sensitivity)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=151",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "text_helper": "Table 59. ESD absolute maximum ratings — section 6.3.16 Absolute maximum ratings (electrical sensitivity). Symbol, Ratings, Conditions, Packages, Class, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Conditions",
+      "Packages",
+      "Class",
+      "Maximum value(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V ESD(HBM)",
+        "Electrostatic discharge voltage (human body model)",
+        "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS- 001",
+        "All",
+        "1C",
+        "1000",
+        "V"
+      ],
+      [
+        "V ESD(CDM)",
+        "Electrostatic discharge voltage (charge device model)",
+        "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS- 002",
+        "All",
+        "C1",
+        "250",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization. 152/254 DS12931 Rev 5"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

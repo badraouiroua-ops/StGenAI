@@ -1,0 +1,53 @@
+{
+  "table_id": "table_70",
+  "caption": "Table 70. Electrical sensitivities",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 205,
+  "merged_pages": [
+    205
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=205",
+  "section": "6.3.13 Absolute maximum ratings (electrical sensitivity)",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Class"
+  ],
+  "rows": [
+    [
+      "LU",
+      "Static latchup class",
+      "Conforming to JESD78, T = T J JMax",
+      "II level A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Evaluated by characterization – not tested in production. Static latchup"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_70",
+    "is_continued": false,
+    "pages": [
+      205
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

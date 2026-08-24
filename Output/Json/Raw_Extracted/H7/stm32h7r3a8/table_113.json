@@ -1,0 +1,169 @@
+{
+  "table_id": "table_113",
+  "caption": "Table 113. ADF characteristics",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 255,
+  "merged_pages": [
+    255
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=255",
+  "section": "6.3.27 Audio digital filter (ADF)",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Units"
+  ],
+  "rows": [
+    [
+      "F CCKI",
+      "Input clock frequency via the ADF_CCK[1:0] pin, in SLAVE_SPI mode",
+      "1.71<VDD<3.6 V",
+      "-",
+      "-",
+      "25",
+      "MHz"
+    ],
+    [
+      "F CCKO",
+      "Output clock frequency in MASTER_SPI",
+      "1.71<VDD<3.6 V",
+      "-",
+      "-",
+      "25",
+      "MHz"
+    ],
+    [
+      "F CCKOLF",
+      "Output clock frequency in LF_MASTER_SPI",
+      "1.71<VDD<3.6 V",
+      "-",
+      "-",
+      "5",
+      "MHz"
+    ],
+    [
+      "F SYMB",
+      "Input symbol rate in MANCHESTER mode",
+      "1.71<VDD<3.6 V",
+      "-",
+      "-",
+      "20",
+      "MHz"
+    ],
+    [
+      "IKCCL IKCCH T , T",
+      "ADF_CCK[1:0] input clock high and low time",
+      "In SLAVE_SPI mode",
+      "2 x T adf_proc_ck",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "OKCCL OKCCH T , T",
+      "ADF_CCK[1:0] output clock high and low time",
+      "In MASTER_SPI mode",
+      "2 x T adf_proc_ck",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "FLOKCCL T FLOKCCH , T",
+      "ADF_CCK[1:0] output clock high and low time",
+      "In LF_MASTER_SPI mode",
+      "T adf_proc_ck",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T SUCCKI",
+      "Data setup time w.r.t. ADF_CCK[1:0] input",
+      "In SLAVE_SPI mode: ADF_CCK[1:0] configured in input, measured on rising and falling edge",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T HDCCKI",
+      "Data hold time w.r.t. ADF_CCK[1:0] input",
+      "In SLAVE_SPI mode: ADF_CCK[1:0] configured in input, measured on rising and falling edge",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T SUCCKO",
+      "Data setup time w.r.t. ADF_CCK[1:0] output",
+      "In MASTER_SPI mode: ADF_CCK[1:0] configured in output, measured on rising and falling edge",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T HDCCKO",
+      "Data hold time w.r.t. ADF_CCK[1:0] output",
+      "In MASTER_SPI mode: ADF_CCK[1:0] configured in output, measured on rising and falling edge",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T SUCCKOLF",
+      "Data setup time w.r.t. ADF_CCK[1:0] output",
+      "In LF_MASTER_SPI mode: ADF_CCK[1:0] configured in output, measured on rising and falling edge",
+      "13",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "T HDCCKOLF",
+      "Data hold time w.r.t. ADF_CCK[1:0] output",
+      "In LF_MASTER_SPI mode: ADF_CCK[1:0] configured in output, measured on rising and falling edge",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS14360 Rev 6 255/322"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_113",
+    "is_continued": false,
+    "pages": [
+      255
+    ],
+    "rows_count": 13,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

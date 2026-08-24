@@ -1,0 +1,63 @@
+{
+  "table_id": "table_64",
+  "document": "DS14360 Rev 6 - Table 64. PLL1/2/3 SSCG parameter ranges",
+  "rev": "Rev 6",
+  "table_number": "64",
+  "title": "Table 64. PLL1/2/3 SSCG parameter ranges",
+  "page": 200,
+  "section": "6.3.11 PLL characteristics",
+  "section_title": "PLL characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=200",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 64. PLL1/2/3 SSCG parameter ranges — section 6.3.11 PLL characteristics. Parameter, Min, Max.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "Min",
+      "Max"
+    ],
+    "rows": [
+      [
+        "md: Modulation depth in center spread mode",
+        "+/-0.25%",
+        "+/-2%"
+      ],
+      [
+        "2*md: Modulation depth in down spread mode",
+        "-4%",
+        "-0.5%"
+      ],
+      [
+        "STEP (RCC_PLLxSSCGR.INCSTEP[14:0])",
+        "2",
+        "2621(1) (STEP*MOD < 215 & |md|<2%)"
+      ],
+      [
+        "MOD (RCC_PLLxSSCGR.MODPER[12:0])",
+        "12.5(2) (BW PLL >5*Fmod)",
+        "200(3)"
+      ],
+      [
+        "STEP*MOD",
+        "-",
+        "215 (32768)"
+      ],
+      [
+        "F in GP mode mod",
+        "20 kHz(4)",
+        "40 kHz"
+      ]
+    ],
+    "notes": [
+      "1. STEP*MOD < 215 then STEP max =215 / MOD min = 32768 / 12.5 = 2621.",
+      "2. MOD min = F (VCO_GP) min /4*F max = 2 MHz / 4*40 kHz = 12.5. ref mod",
+      "3. MOD max = F (VCO_GP) max /4*F min = 16 MHz / 4*20kHz=200. ref mod",
+      "4. As an example, the 20 kHz min limitation comes from JEDEC DDR specification."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

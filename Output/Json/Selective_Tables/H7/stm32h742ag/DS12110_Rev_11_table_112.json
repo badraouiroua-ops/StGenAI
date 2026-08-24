@@ -1,0 +1,373 @@
+{
+  "table_id": "table_112",
+  "document": "DS12110 Rev 11 - Table 112. General operating conditions",
+  "rev": "Rev 11",
+  "table_number": "112",
+  "title": "Table 112. General operating conditions",
+  "page": 209,
+  "section": "7.3.1 General operating conditions",
+  "section_title": "General operating conditions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=209",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 112. General operating conditions — section 7.3.1 General operating conditions. Symbol, Parameter, Operating conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Operating conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DD",
+        "Standard operating voltage",
+        "-",
+        "1.62(1)",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V DDLDO",
+        "Supply voltage for the internal regulator",
+        "V ≤ V DDLDO DD",
+        "1.62(1)",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V DD33USB",
+        "Standard operating voltage, USB domain",
+        "USB used",
+        "3.0",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V DD33USB",
+        "Standard operating voltage, USB domain",
+        "USB not used",
+        "0",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V DDA",
+        "Analog operating voltage",
+        "ADC or COMP used",
+        "1.62",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V DDA",
+        "Analog operating voltage",
+        "DAC used",
+        "1.8",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V DDA",
+        "Analog operating voltage",
+        "OPAMP used",
+        "2.0",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V DDA",
+        "Analog operating voltage",
+        "VREFBUF used",
+        "1.8",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V DDA",
+        "Analog operating voltage",
+        "ADC, DAC, OPAMP, COMP, VREFBUF not used",
+        "0",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V IN",
+        "I/O Input voltage",
+        "TT_xx I/O",
+        "-0.3",
+        "-",
+        "V +0.3 DD",
+        "V"
+      ],
+      [
+        "V IN",
+        "I/O Input voltage",
+        "BOOT0",
+        "0",
+        "-",
+        "9",
+        "V"
+      ],
+      [
+        "V IN",
+        "I/O Input voltage",
+        "All I/O except BOOT0 and TT_xx",
+        "-0.3",
+        "-",
+        "Min(V , V , DD DDA V ) DD33USB +3.6V < 5.5V(2)(3)",
+        "V"
+      ],
+      [
+        "V CORE",
+        "Internal regulator ON (LDO)",
+        "VOS3 (max frequency 200 MHz)",
+        "0.95",
+        "1.0",
+        "1.05",
+        "V"
+      ],
+      [
+        "V CORE",
+        "Internal regulator ON (LDO)",
+        "VOS2 (max frequency 300 MHz)",
+        "1.05",
+        "1.10",
+        "1.15",
+        "V"
+      ],
+      [
+        "V CORE",
+        "Internal regulator ON (LDO)",
+        "VOS1 (max frequency 400 MHz)",
+        "1.15",
+        "1.20",
+        "1.26",
+        "V"
+      ],
+      [
+        "V CORE",
+        "Internal regulator ON (LDO)",
+        "VOS0(4) (max frequency 480 MHz)(5)",
+        "1.26",
+        "1.35",
+        "1.40",
+        "V"
+      ],
+      [
+        "V CORE",
+        "Regulator OFF: external V CORE voltage must be supplied from external regulator on two VCAP pins",
+        "VOS3 (max frequency 200 MHz)",
+        "0.98",
+        "1.03",
+        "1.08",
+        "V"
+      ],
+      [
+        "V CORE",
+        "Regulator OFF: external V CORE voltage must be supplied from external regulator on two VCAP pins",
+        "VOS2 (max frequency 300 MHz)",
+        "1.08",
+        "1.13",
+        "1.17",
+        "V"
+      ],
+      [
+        "V CORE",
+        "Regulator OFF: external V CORE voltage must be supplied from external regulator on two VCAP pins",
+        "VOS1 (max frequency 400 MHz)",
+        "1.17",
+        "1.23",
+        "1.26",
+        "V"
+      ],
+      [
+        "V CORE",
+        "Regulator OFF: external V CORE voltage must be supplied from external regulator on two VCAP pins",
+        "VOS0 (max frequency 480 MHz)",
+        "1.37",
+        "1.38",
+        "1.40",
+        "V"
+      ],
+      [
+        "f CPU",
+        "Arm® Cortex®-M7 clock frequency",
+        "VOS3",
+        "-",
+        "-",
+        "200",
+        "MHz"
+      ],
+      [
+        "f CPU",
+        "Arm® Cortex®-M7 clock frequency",
+        "VOS2",
+        "-",
+        "-",
+        "300",
+        "MHz"
+      ],
+      [
+        "f CPU",
+        "Arm® Cortex®-M7 clock frequency",
+        "VOS1",
+        "-",
+        "-",
+        "400",
+        "MHz"
+      ],
+      [
+        "f CPU",
+        "Arm® Cortex®-M7 clock frequency",
+        "VOS0",
+        "-",
+        "-",
+        "480",
+        "MHz"
+      ],
+      [
+        "f HCLK",
+        "AHB clock frequency",
+        "VOS3",
+        "-",
+        "-",
+        "100",
+        "MHz"
+      ],
+      [
+        "f HCLK",
+        "AHB clock frequency",
+        "VOS2",
+        "-",
+        "-",
+        "150",
+        "MHz"
+      ],
+      [
+        "f HCLK",
+        "AHB clock frequency",
+        "VOS1",
+        "-",
+        "-",
+        "200",
+        "MHz"
+      ],
+      [
+        "f HCLK",
+        "AHB clock frequency",
+        "VOS0",
+        "-",
+        "-",
+        "240(5)",
+        "MHz"
+      ],
+      [
+        "f PCLK",
+        "APB clock frequency",
+        "VOS3",
+        "-",
+        "-",
+        "50(6)",
+        "MHz"
+      ],
+      [
+        "f PCLK",
+        "APB clock frequency",
+        "VOS2",
+        "-",
+        "-",
+        "75",
+        "MHz"
+      ],
+      [
+        "f PCLK",
+        "APB clock frequency",
+        "VOS1",
+        "-",
+        "-",
+        "100",
+        "MHz"
+      ],
+      [
+        "f PCLK",
+        "APB clock frequency",
+        "VOS0",
+        "-",
+        "-",
+        "120(5)",
+        "MHz"
+      ],
+      [
+        "TA",
+        "Ambient temperature for the suffix 6 version",
+        "Maximum power dissipation",
+        "Maximum power dissipation",
+        "–40",
+        "85",
+        "°C"
+      ],
+      [
+        "TA",
+        "Ambient temperature for the suffix 6 version",
+        "Low-power dissipation(7)",
+        "Low-power dissipation(7)",
+        "–40",
+        "105",
+        "°C"
+      ],
+      [
+        "TA",
+        "Ambient temperature for the suffix 3 version",
+        "Maximum power dissipation",
+        "Maximum power dissipation",
+        "–40",
+        "125",
+        "°C"
+      ],
+      [
+        "TA",
+        "Ambient temperature for the suffix 3 version",
+        "Low-power dissipation(7)",
+        "Low-power dissipation(7)",
+        "–40",
+        "130",
+        "°C"
+      ],
+      [
+        "TJ",
+        "Junction temperature range",
+        "Suffix 6 version",
+        "Suffix 6 version",
+        "–40",
+        "125",
+        "°C"
+      ]
+    ],
+    "notes": [
+      "1. When RESET is released functionality is guaranteed down to V min BOR0",
+      "2. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+      "3. For operation with voltage higher than Min (V , V , V ) +0.3V, the internal Pull-up and Pull-Down resistors must DD DDA DD33USB",
+      "4. VOS0 is available only when the LDO regulator is ON.",
+      "5. T = 105 °C. JMax",
+      "6. Maximum APB clock frequency when at least one peripheral is enabled.",
+      "7. In low-power dissipation state, T can be extended to this range as long as T does not exceed T (see Section 8.10: A J Jmax"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

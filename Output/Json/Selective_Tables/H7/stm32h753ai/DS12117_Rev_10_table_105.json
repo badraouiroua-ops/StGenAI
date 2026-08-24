@@ -1,0 +1,97 @@
+{
+  "table_id": "table_105",
+  "document": "DS12117 Rev 10 - Table 105. Dynamics characteristics: Ethernet MAC signals for MII",
+  "rev": "Rev 10",
+  "table_number": "105",
+  "title": "Table 105. Dynamics characteristics: Ethernet MAC signals for MII",
+  "page": 202,
+  "section": "6.3.32 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=202",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 105. Dynamics characteristics: Ethernet MAC signals for MII — section 6.3.32 Communications interfaces. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t su(RXD)",
+        "Receive data setup time",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(RXD)",
+        "Receive data hold time",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(DV)",
+        "Data valid setup time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(DV)",
+        "Data valid hold time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(ER)",
+        "Error setup time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(ER)",
+        "Error hold time",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(TXEN)",
+        "Transmit enable valid delay time",
+        "4.5",
+        "6.5",
+        "11",
+        "ns"
+      ],
+      [
+        "t d(TXD)",
+        "Transmit data valid delay time",
+        "7",
+        "7.5",
+        "15",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS12117 Rev 10 203/357"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

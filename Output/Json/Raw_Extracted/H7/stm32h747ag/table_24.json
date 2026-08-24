@@ -1,0 +1,189 @@
+{
+  "table_id": "table_24",
+  "caption": "Table 24. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, both cores running, cache ON, ART accelerator ON, LDO regulator ON",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 116,
+  "merged_pages": [
+    116
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=116",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Arm Cortex -M7 f CPU1 (MHz)",
+    "Arm Cortex- M4 f CPU2 (MHz)",
+    "Typ",
+    "Max(2) / Tj= 25 °C",
+    "Max(2) / Tj= 85 °C",
+    "Max(2) / Tj= 105°C",
+    "Max(2) / Tj= 125°C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS0",
+      "480",
+      "240",
+      "173",
+      "268",
+      "385",
+      "496",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS0",
+      "400",
+      "200",
+      "147",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1",
+      "400",
+      "200",
+      "128",
+      "175",
+      "288",
+      "379",
+      "499",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS2",
+      "300",
+      "150",
+      "88",
+      "120",
+      "209",
+      "279",
+      "374",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "200",
+      "100",
+      "55",
+      "77",
+      "149",
+      "205",
+      "283",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS0",
+      "480",
+      "240",
+      "242",
+      "368",
+      "459",
+      "569",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS1",
+      "400",
+      "200",
+      "178",
+      "229(3)",
+      "334",
+      "419(3)",
+      "537",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS2",
+      "300",
+      "150",
+      "123",
+      "161",
+      "246",
+      "316",
+      "412",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS3",
+      "200",
+      "100",
+      "77",
+      "102",
+      "172",
+      "228",
+      "306",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 12,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 12,
+    "_notes": [
+      "2. Available for STM32H757XIH6A.",
+      "3. Guaranteed by tests in production. 116/253 DS12930 Rev 3"
+    ],
+    "_legend": [
+      "running from flash memory, both cores running, cache ON,",
+      "ART accelerator ON, LDO regulator ON(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_24",
+    "is_continued": false,
+    "pages": [
+      116
+    ],
+    "rows_count": 9,
+    "cols_count": 12,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

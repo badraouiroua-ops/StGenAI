@@ -1,0 +1,41 @@
+{
+  "table_id": "table_17",
+  "document": "DS14360 Rev 6 - Table 17. OTG_HS speeds supported",
+  "rev": "Rev 6",
+  "table_number": "17",
+  "title": "Table 17. OTG_HS speeds supported",
+  "page": 70,
+  "section": "3.43 Secure digital input/output MultiMediaCard interface",
+  "section_title": "Secure digital input/output MultiMediaCard interface",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=70",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 17. OTG_HS speeds supported — section 3.43 Secure digital input/output MultiMediaCard interface. Mode, HS (480 Mbit/s), FS (12 Mbit/s), LS (1.5 Mbit/s).",
+  "table_content": {
+    "headers": [
+      "Mode",
+      "HS (480 Mbit/s)",
+      "FS (12 Mbit/s)",
+      "LS (1.5 Mbit/s)"
+    ],
+    "rows": [
+      [
+        "Host mode",
+        "X",
+        "X",
+        "X"
+      ],
+      [
+        "Device mode",
+        "X",
+        "X",
+        "-"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

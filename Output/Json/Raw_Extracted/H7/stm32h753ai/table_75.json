@@ -1,0 +1,70 @@
+{
+  "table_id": "table_75",
+  "caption": "Table 75. Dynamics characteristics: Delay Block characteristics",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 166,
+  "merged_pages": [
+    166
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=166",
+  "section": "6.3.19 Delay block (DLYB) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t init",
+      "Initial delay",
+      "-",
+      "1400",
+      "2200",
+      "2400",
+      "ps"
+    ],
+    [
+      "t ∆",
+      "Unit Delay",
+      "-",
+      "35",
+      "40",
+      "45",
+      "ps"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design.",
+      "2. These values are obtained using the following formula: f = f / t , S ADC CONV",
+      "3. Depending on the package, V can be internally connected to V and V to V . REF+ DDA REF- SSA"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_75",
+    "is_continued": false,
+    "pages": [
+      166
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

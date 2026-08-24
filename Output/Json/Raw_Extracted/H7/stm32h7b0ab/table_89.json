@@ -1,0 +1,327 @@
+{
+  "table_id": "table_89",
+  "caption": "Table 89. OCTOSPI characteristics in DTR mode (with DQS)/Octal and Hyperbus",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 125,
+  "merged_pages": [
+    125,
+    126,
+    127
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=125",
+  "section": "6.3.19 Octo-SPI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Typ(1)",
+    "Max(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F(CLK)(3)(4)",
+      "OCTOSPI clock frequency",
+      "OCTOSPI clock frequency",
+      "1.71 V < VDD < 3.6 V, VOS0, CLOAD = 15 pF",
+      "-",
+      "-",
+      "120(5)",
+      "MHz"
+    ],
+    [
+      "F(CLK)(3)(4)",
+      "OCTOSPI clock frequency",
+      "OCTOSPI clock frequency",
+      "2.7 V < VDD < 3.6 V, VOS0, CLOAD = 20 pF",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "F(CLK)(3)(4)",
+      "OCTOSPI clock frequency",
+      "OCTOSPI clock frequency",
+      "1.62 V < VDD < 2.5 V, VOS0, CLOAD = 20 pF",
+      "-",
+      "-",
+      "100/45(6)",
+      "MHz"
+    ],
+    [
+      "tw(CLKH)",
+      "OCTOSPI clock high and low time",
+      "OCTOSPI clock high and low time",
+      "PRESCALER[7:0] = n = 0,1,3,5",
+      "t(CLK)/2",
+      "-",
+      "t(CLK)/2+1",
+      "ns"
+    ],
+    [
+      "tw(CLKL)",
+      "OCTOSPI clock high and low time",
+      "OCTOSPI clock high and low time",
+      "PRESCALER[7:0] = n = 0,1,3,5",
+      "t(CLK)/2-1",
+      "-",
+      "t(CLK)/2",
+      "ns"
+    ],
+    [
+      "tw(CLKH)",
+      "OCTOSPI clock high and low time",
+      "OCTOSPI clock high and low time",
+      "PRESCALER[7:0] = n = 2,4,6,8",
+      "(n/2)*t(CLK)/ (n+1)",
+      "-",
+      "(n/2)*t(CLK)/ (n+1)+1",
+      "ns"
+    ],
+    [
+      "tw(CLKL)",
+      "OCTOSPI clock high and low time",
+      "OCTOSPI clock high and low time",
+      "PRESCALER[7:0] = n = 2,4,6,8",
+      "(n/2+1)*t(CLK)/ (n+1)-1",
+      "-",
+      "(n/2+1)*t(CLK)/ (n+1)",
+      "ns"
+    ],
+    [
+      "tv(CLK)",
+      "Clock valid time",
+      "Clock valid time",
+      "-",
+      "-",
+      "-",
+      "t(CLK)+1",
+      "ns"
+    ],
+    [
+      "th(CLK)",
+      "Clock hold time",
+      "Clock hold time",
+      "-",
+      "t(CLK)/2-0.5 t(CLK)/2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tw(CS)",
+      "Chip select high time",
+      "Chip select high time",
+      "-",
+      "3 x t(CLK)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(DQ)",
+      "Data input vallid time",
+      "Data input vallid time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(DS)",
+      "Data strobe input valid time",
+      "Data strobe input valid time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(DS)",
+      "Data strobe input hold time",
+      "Data strobe input hold time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(RWDS)",
+      "Data strobe output valid time",
+      "Data strobe output valid time",
+      "-",
+      "-",
+      "-",
+      "3 x t(CLK)",
+      "ns"
+    ],
+    [
+      "tsr(DQ) tsf(DQ)(7)",
+      "Data input setup time",
+      "Data input setup time",
+      "-",
+      "-1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "thr(DQ)",
+      "Data input hold time",
+      "Data input hold time",
+      "Rising edge",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "thf(DQ)(7)",
+      "Data input hold time",
+      "Data input hold time",
+      "Falling edge",
+      "3.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tvr(OUT) tvf(OUT)",
+      "Data output valid time",
+      "Data output valid time",
+      "DHQC = 0",
+      "-",
+      "5.5",
+      "7(8)",
+      "ns"
+    ],
+    [
+      "tvr(OUT) tvf(OUT)",
+      "Data output valid time",
+      "Data output valid time",
+      "DHQC = 1, PRESCALER[7:0]=1,2...",
+      "-",
+      "t(CLK)/4+ 1",
+      "t(CLK)/4+2(8)",
+      "ns"
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "Data output hold time",
+      "Data output hold time",
+      "DHQC = 0",
+      "4.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "Data output hold time DHQC =",
+      "Data output hold time DHQC =",
+      "1, PRESCALER[7:0]=1,2...",
+      "t(CLK)/4 -",
+      "t(CLK)/4 -",
+      "-",
+      "ns"
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "ead write recovery",
+      "Access latency",
+      "1, PRESCALER[7:0]=1,2...",
+      "t(CLK)/4 -",
+      "t(CLK)/4 -",
+      "-",
+      "ns"
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "tv(CLK)",
+      "tv(CLK)",
+      "1, PRESCALER[7:0]=1,2...",
+      "t(CLK)/4 -",
+      "t(CLK)/4 -",
+      "-",
+      "ns"
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "WDS) High = 2x la",
+      "tv tency count",
+      "1, PRESCALER[7:0]=1,2...",
+      "t(CLK)/4 -",
+      "t(CLK)/4 -",
+      "-",
+      "(OUT) th("
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "WDS) High = 2x la",
+      "tency count Latency count th(OUT) tv",
+      "1, PRESCALER[7:0]=1,2...",
+      "t(CLK)/4 -",
+      "t(CLK)/4 -",
+      "-",
+      "(OUT) th( Dn Dn Dn+"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        2
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 3
+    },
+    "_notes": [
+      "1. Guaranteed by characterization results, unless otherwise specified.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. The maximum frequency values are given for a maximum RWDS to DQ skew ≤ ±1.0 ns.",
+      "4. DHQC must be set to reach the mentioned frequency.",
+      "5. Guaranteed by design.",
+      "6. Using PC2, PC3, PI11, PF0 or PF1 I/Os limits the maximum clock frequency.",
+      "7. Delay block bypassed.",
+      "8. Using PC2, PC3, PI11, PF0 or PF1 I/O in the data bus adds 3.5 ns to this timing value."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:3",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_89",
+    "is_continued": true,
+    "pages": [
+      125,
+      126,
+      127
+    ],
+    "rows_count": 25,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

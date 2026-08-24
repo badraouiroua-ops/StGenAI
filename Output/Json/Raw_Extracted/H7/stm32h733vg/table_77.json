@@ -1,0 +1,172 @@
+{
+  "table_id": "table_77",
+  "caption": "Table 77. OCTOSPI characteristics in DTR mode (no DQS)",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 160,
+  "merged_pages": [
+    160
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=160",
+  "section": "6.3.19 Octo-SPI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F (3) CK",
+      "OCTOSPI clock frequency",
+      "1.71 V < V < 3.6 V, DD VOS0, C = 15 pF LOAD",
+      "-",
+      "-",
+      "90(4)",
+      "MHz"
+    ],
+    [
+      "F (3) CK",
+      "OCTOSPI clock frequency",
+      "1.71 V < V < 3.6 V, DD VOS0, C = 20 pF LOAD",
+      "-",
+      "-",
+      "87(4)",
+      "MHz"
+    ],
+    [
+      "F (3) CK",
+      "OCTOSPI clock frequency",
+      "2.7 V < V < 3.6 V, DD VOS0, C = 20 pF LOAD",
+      "-",
+      "-",
+      "110",
+      "MHz"
+    ],
+    [
+      "t w(CKH)",
+      "OCTOSPI clock high and low time, even division",
+      "PRESCALER[7:0] = n = 0,1,3,5",
+      "t /2 (CK)",
+      "-",
+      "t /2+1 (CK)",
+      "ns"
+    ],
+    [
+      "t w(CKL)",
+      "OCTOSPI clock high and low time, even division",
+      "PRESCALER[7:0] = n = 0,1,3,5",
+      "t /2–1 (CK)",
+      "-",
+      "t /2 (CK)",
+      "ns"
+    ],
+    [
+      "t w(CKH)",
+      "OCTOSPI clock high and low time, odd division",
+      "PRESCALER[7:0] = n = 2,4,6,8",
+      "(n/2)*t / (CK) (n+1)",
+      "-",
+      "(n/2)*t / (CK) (n+1)+1",
+      "ns"
+    ],
+    [
+      "t w(CKL)",
+      "OCTOSPI clock high and low time, odd division",
+      "PRESCALER[7:0] = n = 2,4,6,8",
+      "(n/2+1)*t /( (CK) n+1) – 1",
+      "-",
+      "(n/2+1)* t /(n+1) (CK)",
+      "ns"
+    ],
+    [
+      "t sr(IN) t (5) sf(IN)",
+      "Data input setup time",
+      "-",
+      "3.0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t hr(IN) t (5) hf(IN)",
+      "Data input hold time",
+      "-",
+      "1.50",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t vr(OUT) t vf(OUT)",
+      "Data output valid time",
+      "DHQC = 0",
+      "-",
+      "6",
+      "7(6)",
+      "ns"
+    ],
+    [
+      "t vr(OUT) t vf(OUT)",
+      "Data output valid time",
+      "DHQC = 1, Prescaler = 1,2 ...",
+      "-",
+      "t /4+ pclk 1",
+      "t /4+1.25 pclk (6)",
+      "ns"
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "Data output hold time",
+      "DHQC = 0",
+      "4.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "thr(OUT) thf(OUT)",
+      "Data output hold time",
+      "DHQC = 1, Prescaler = 1,2 ...",
+      "t /4 pclk",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "3. DHQC must be set to reach the mentioned frequency.",
+      "4. Using PC2 or PC3 I/O in the data bus decreases the frequency to 47 MHz.",
+      "5. Delay block bypassed.",
+      "6. Using PC2 or PC3 I/O in the data bus adds 4 ns to this timing value."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_77",
+    "is_continued": false,
+    "pages": [
+      160
+    ],
+    "rows_count": 13,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

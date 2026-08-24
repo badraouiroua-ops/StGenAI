@@ -1,0 +1,275 @@
+{
+  "table_id": "table_91",
+  "document": "DS12931 Rev 5 - Table 91. ADC accuracy",
+  "rev": "Rev 5",
+  "table_number": "91",
+  "title": "Table 91. ADC accuracy",
+  "page": 190,
+  "section": "6.3.22 Delay block (DLYB) characteristics",
+  "section_title": "Delay block (DLYB) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=190",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "text_helper": "Table 91. ADC accuracy — section 6.3.22 Delay block (DLYB) characteristics. Symbol, Parameter, Conditions(3), Conditions(3), Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions(3)",
+      "Conditions(3)",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "ET",
+        "Total undadjusted error",
+        "Direct channel",
+        "Single ended",
+        "-",
+        "+10/–20",
+        "-",
+        "LSB"
+      ],
+      [
+        "ET",
+        "Total undadjusted error",
+        "Direct channel",
+        "Differential",
+        "-",
+        "±15",
+        "-",
+        "LSB"
+      ],
+      [
+        "ET",
+        "Total undadjusted error",
+        "Fast channel",
+        "Single ended",
+        "-",
+        "+10/–20",
+        "-",
+        "LSB"
+      ],
+      [
+        "ET",
+        "Total undadjusted error",
+        "Fast channel",
+        "Differential",
+        "-",
+        "±15",
+        "-",
+        "LSB"
+      ],
+      [
+        "ET",
+        "Total undadjusted error",
+        "Slow channel",
+        "Single ended",
+        "-",
+        "±10",
+        "-",
+        "LSB"
+      ],
+      [
+        "ET",
+        "Total undadjusted error",
+        "Slow channel",
+        "Differential",
+        "-",
+        "±10",
+        "-",
+        "LSB"
+      ],
+      [
+        "EO",
+        "Offset error",
+        "-",
+        "-",
+        "-",
+        "±10",
+        "-",
+        "LSB"
+      ],
+      [
+        "EG",
+        "Gain error",
+        "-",
+        "-",
+        "-",
+        "±15",
+        "-",
+        "LSB"
+      ],
+      [
+        "ED",
+        "Differential linearity error",
+        "Single ended",
+        "Single ended",
+        "-",
+        "+3/–1",
+        "-",
+        "LSB"
+      ],
+      [
+        "ED",
+        "Differential linearity error",
+        "Differential",
+        "Differential",
+        "-",
+        "+4.5/–1",
+        "-",
+        "LSB"
+      ],
+      [
+        "EL",
+        "Integral linearity error",
+        "Direct channel",
+        "Single ended",
+        "-",
+        "±11",
+        "-",
+        "LSB"
+      ],
+      [
+        "EL",
+        "Integral linearity error",
+        "Direct channel",
+        "Differential",
+        "-",
+        "±7",
+        "-",
+        "LSB"
+      ],
+      [
+        "EL",
+        "Integral linearity error",
+        "Fast channel",
+        "Single ended",
+        "-",
+        "±13",
+        "-",
+        "LSB"
+      ],
+      [
+        "EL",
+        "Integral linearity error",
+        "Fast channel",
+        "Differential",
+        "-",
+        "±7",
+        "-",
+        "LSB"
+      ],
+      [
+        "EL",
+        "Integral linearity error",
+        "Slow channel",
+        "Single ended",
+        "-",
+        "±10",
+        "-",
+        "LSB"
+      ],
+      [
+        "EL",
+        "Integral linearity error",
+        "Slow channel",
+        "Differential",
+        "-",
+        "±6",
+        "-",
+        "LSB"
+      ],
+      [
+        "ENOB",
+        "Effective number of bits",
+        "Single ended",
+        "Single ended",
+        "-",
+        "12.2",
+        "-",
+        "Bits"
+      ],
+      [
+        "ENOB",
+        "Effective number of bits",
+        "Differential",
+        "Differential",
+        "-",
+        "13.2",
+        "-",
+        "Bits"
+      ],
+      [
+        "SINAD",
+        "Signal-to-noise and distortion ratio",
+        "Single ended",
+        "Single ended",
+        "-",
+        "75.2",
+        "-",
+        "dB"
+      ],
+      [
+        "SINAD",
+        "Signal-to-noise and distortion ratio",
+        "Differential",
+        "Differential",
+        "-",
+        "81.2",
+        "-",
+        "dB"
+      ],
+      [
+        "SNR",
+        "Signal-to-noise ratio",
+        "Single ended",
+        "Single ended",
+        "-",
+        "77.0",
+        "-",
+        "dB"
+      ],
+      [
+        "SNR",
+        "Signal-to-noise ratio",
+        "Differential",
+        "Differential",
+        "-",
+        "81.0",
+        "-",
+        "dB"
+      ],
+      [
+        "THD",
+        "Total harmonic distortion",
+        "Single ended",
+        "Single ended",
+        "-",
+        "87",
+        "-",
+        "dB"
+      ],
+      [
+        "THD",
+        "Total harmonic distortion",
+        "Differential",
+        "Differential",
+        "-",
+        "90",
+        "-",
+        "dB"
+      ]
+    ],
+    "notes": [
+      "3. ADC clock frequency = 25 MHz, ADC resolution = 16 bits, V =V =3.3 V and BOOST=11. DDA REF+"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

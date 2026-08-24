@@ -1,0 +1,65 @@
+{
+  "table_id": "table_130",
+  "caption": "Table 130. WLCSP115 recommended PCB design rules",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 260,
+  "merged_pages": [
+    260
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=260",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Dimension",
+    "Recommended values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.35 mm"
+    ],
+    [
+      "Dpad",
+      "0,225 mm"
+    ],
+    [
+      "Dsm",
+      "0.250 mm typ. (depends on soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.250 mm"
+    ],
+    [
+      "Stencil thickness",
+      "0.080 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_130",
+    "is_continued": false,
+    "pages": [
+      260
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

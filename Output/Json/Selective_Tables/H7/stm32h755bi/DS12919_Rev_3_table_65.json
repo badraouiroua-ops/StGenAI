@@ -1,0 +1,117 @@
+{
+  "table_id": "table_65",
+  "document": "DS12919 Rev 3 - Table 65. Asynchronous non-multiplexed SRAM/PSRAM/NOR read timings",
+  "rev": "Rev 3",
+  "table_number": "65",
+  "title": "Table 65. Asynchronous non-multiplexed SRAM/PSRAM/NOR read timings",
+  "page": 155,
+  "section": "6.3.18 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=155",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "text_helper": "Table 65. Asynchronous non-multiplexed SRAM/PSRAM/NOR read timings — section 6.3.18 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(NE)",
+        "FMC_NE low time",
+        "3T –1 fmc_ker_ck",
+        "3T +1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t v(NOE_NE)",
+        "FMC_NEx low to FMC_NOE low",
+        "0",
+        "0.5",
+        "ns"
+      ],
+      [
+        "t w(NOE)",
+        "FMC_NOE low time",
+        "2T –1 fmc_ker_ck",
+        "2T +1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t h(NE_NOE)",
+        "FMC_NOE high to FMC_NE high hold time",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(A_NE)",
+        "FMC_NEx low to FMC_A valid",
+        "-",
+        "0.5",
+        "ns"
+      ],
+      [
+        "t h(A_NOE)",
+        "Address hold time after FMC_NOE high",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(Data_NE)",
+        "Data to FMC_NEx high setup time",
+        "11",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(Data_NOE)",
+        "Data to FMC_NOEx high setup time",
+        "11",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(Data_NOE)",
+        "Data hold time after FMC_NOE high",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(Data_NE)",
+        "Data hold time after FMC_NEx high",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(NADV_NE)",
+        "FMC_NEx low to FMC_NADV low",
+        "-",
+        "0",
+        "ns"
+      ],
+      [
+        "t w(NADV)",
+        "FMC_NADV low time",
+        "-",
+        "T +1 fmc_ker_ck",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. N pulse width is equal to 1 AHB cycle. WAIT"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

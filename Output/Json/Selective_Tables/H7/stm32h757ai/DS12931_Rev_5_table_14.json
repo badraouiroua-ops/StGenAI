@@ -1,0 +1,126 @@
+{
+  "table_id": "table_14",
+  "document": "DS12931 Rev 5 - Table 14. Supply voltage and maximum frequency configuration",
+  "rev": "Rev 5",
+  "table_number": "14",
+  "title": "Table 14. Supply voltage and maximum frequency configuration",
+  "page": 108,
+  "section": "6.3.1 General operating conditions",
+  "section_title": "General operating conditions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=108",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "text_helper": "Table 14. Supply voltage and maximum frequency configuration — section 6.3.1 General operating conditions. Power scale, V source CORE, Max T (°C) J, Max frequency (MHz), Min V (V) DDLDO.",
+  "table_content": {
+    "headers": [
+      "Power scale",
+      "V source CORE",
+      "Max T (°C) J",
+      "Max frequency (MHz)",
+      "Min V (V) DDLDO"
+    ],
+    "rows": [
+      [
+        "VOS0(1)",
+        "LDO",
+        "105",
+        "480",
+        "1.7"
+      ],
+      [
+        "VOS0(1)",
+        "SMPS step-down converter(2)",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "VOS1",
+        "LDO(1)",
+        "125",
+        "400/480(3)",
+        "1.62"
+      ],
+      [
+        "VOS1",
+        "SMPS step-down converter",
+        "125",
+        "400/480(3)",
+        "1.62"
+      ],
+      [
+        "VOS2",
+        "LDO(1)",
+        "125",
+        "300",
+        "1.62"
+      ],
+      [
+        "VOS2",
+        "SMPS step-down converter",
+        "125",
+        "300",
+        "1.62"
+      ],
+      [
+        "VOS3",
+        "LDO(1)(4)",
+        "105",
+        "64",
+        "1.2(4)"
+      ],
+      [
+        "VOS3",
+        "LDO(1)",
+        "125",
+        "200",
+        "1.62"
+      ],
+      [
+        "VOS3",
+        "SMPS step-down converter",
+        "125",
+        "200",
+        "1.62"
+      ],
+      [
+        "SVOS4",
+        "LDO(1)",
+        "105",
+        "N/A",
+        "1.62"
+      ],
+      [
+        "SVOS4",
+        "SMPS step-down converter",
+        "125",
+        "N/A",
+        "1.62"
+      ],
+      [
+        "SVOS5",
+        "LDO(1)",
+        "105",
+        "N/A",
+        "1.62"
+      ],
+      [
+        "SVOS5",
+        "SMPS step-down converter",
+        "125",
+        "N/A",
+        "1.62"
+      ]
+    ],
+    "notes": [
+      "1. When RESET is released functionality is guaranteed down to V min BOR0",
+      "2. Only for power-up sequence when the SMPS step-down converter is configured to supply the LDO and T = 105 °C. JMax",
+      "3. TT_xx stands for any TT I/O structure except TT_d.",
+      "4. This formula has to be applied on power supplies related to the IO structure described by the pin definition table."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

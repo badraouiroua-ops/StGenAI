@@ -1,0 +1,204 @@
+{
+  "table_id": "table_113",
+  "caption": "Table 113. MDIO Slave timing parameters",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 219,
+  "merged_pages": [
+    219,
+    220
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=219",
+  "section": "6.3.35 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F MDC",
+      "F MDC",
+      "Management Data Clock",
+      "-",
+      "-",
+      "30",
+      "MHz"
+    ],
+    [
+      "t d(MDIO)",
+      "t d(MDIO)",
+      "Management Data Iput/output output valid time",
+      "8",
+      "10",
+      "19",
+      "ns"
+    ],
+    [
+      "t su(MDIO)",
+      "t su(MDIO)",
+      "Management Data Iput/output setup time",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MDIO)",
+      "t h(MDIO)",
+      "Management Data Iput/output hold time",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "f PP",
+      "Clock frequency in data transfer mode",
+      "-",
+      "0",
+      "-",
+      "133",
+      "MHz"
+    ],
+    [
+      "-",
+      "SDIO_CK/fPCLK2 frequency ratio",
+      "-",
+      "-",
+      "-",
+      "8/3",
+      "MHz"
+    ],
+    [
+      "t W(CKL)",
+      "Clock low time",
+      "f =52MHz PP",
+      "8.5",
+      "9.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t W(CKH)",
+      "Clock high time",
+      "f =52MHz PP",
+      "8.5",
+      "9.5",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR(3)/DDR(3) mode",
+      "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR(3)/DDR(3) mode",
+      "-",
+      "-",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ISU",
+      "Input setup time HS",
+      "-",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t IH",
+      "Input hold time HS",
+      "-",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t (4) IDW",
+      "Input valid window (variable window)",
+      "-",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR(3) mode",
+      "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR(3) mode",
+      "-",
+      "-",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t OV",
+      "Output valid time HS",
+      "-",
+      "-",
+      "3.5",
+      "5",
+      "ns"
+    ],
+    [
+      "t OH",
+      "Output hold time HS",
+      "-",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0762,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "3. An external voltage converter is required to support SD 1.8 V.",
+      "4. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. T able 115. Dynamics characteristics: eMMC characteristics VDD = 1.71V to 1.9V(1)(2)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_113",
+    "is_continued": true,
+    "pages": [
+      219,
+      220
+    ],
+    "rows_count": 15,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0762
+  }
+}

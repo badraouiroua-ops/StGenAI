@@ -1,0 +1,59 @@
+{
+  "table_id": "table_112",
+  "document": "DS12556 Rev 8 - Table 112. VCAP operating conditions",
+  "rev": "Rev 8",
+  "table_number": "112",
+  "title": "Table 112. VCAP operating conditions",
+  "page": 201,
+  "section": "7.3.2 VCAP external capacitor",
+  "section_title": "VCAP external capacitor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=201",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 112. VCAP operating conditions — section 7.3.2 VCAP external capacitor. Figure, 64. External capacitor C EXT.",
+  "table_content": {
+    "headers": [
+      "Figure",
+      "64. External capacitor C EXT"
+    ],
+    "rows": [
+      [
+        "Figure",
+        "C"
+      ],
+      [
+        "ESR",
+        "C"
+      ],
+      [
+        "ESR",
+        "R Leak"
+      ],
+      [
+        "ESR",
+        "R Leak MS190"
+      ],
+      [
+        "1. Legend: ESR istheequivalent series re",
+        "sistance."
+      ],
+      [
+        "CEXT Capacitanc",
+        "e of external capacitor 2.2 µF(2 )"
+      ],
+      [
+        "ESR ESR of",
+        "external capacitor < 100 m Ω"
+      ],
+      [
+        "1. In bypass mode, thetwo 2.2 μF VCAP c",
+        "apacitors are not required and should bereplaced bytwo 100 nF"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

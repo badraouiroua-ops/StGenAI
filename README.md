@@ -43,6 +43,7 @@ PDF Datasheet STM32
 
 ```
 rag1/
+├── requirements.txt          # Dépendances Python du projet complet
 ├── app.py                    # Point d'entrée Phase 1 (extraction PDF)
 ├── run_all_families.ps1      # Automatisation multi-familles
 ├── .env                      # Clés API Gemini (privé, non versionné)
@@ -90,6 +91,67 @@ rag1/
 └── ApiLog/
     └── api_state.json        # État persistant des clés API (généré automatiquement)
 ```
+
+---
+
+## ⚙️ Installation & Initialisation
+
+### 1. Prérequis
+- **Python** 3.10 ou supérieur
+- **PowerShell** (Windows) ou **Bash** (Linux/macOS)
+
+### 2. Création de l'environnement virtuel (`venv`)
+
+À la racine du projet (`rag1/`) :
+
+```bash
+# Créer le dossier venv
+python -m venv venv
+```
+
+### 3. Activation de l'environnement virtuel
+
+- **Sur Windows (PowerShell) :**
+  ```powershell
+  .\venv\Scripts\Activate.ps1
+  ```
+  *(En cas d'erreur de restriction de script PowerShell, exécuter d'abord : `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`)*
+
+- **Sur Windows (Invite de commandes CMD) :**
+  ```cmd
+  .\venv\Scripts\activate.bat
+  ```
+
+- **Sur Linux / macOS (Bash/Zsh) :**
+  ```bash
+  source venv/bin/activate
+  ```
+
+### 4. Installation des dépendances
+
+Une fois l'environnement virtuel activé (le préfixe `(venv)` apparaît dans votre terminal) :
+
+```bash
+# Mettre à jour pip (recommandé)
+python -m pip install --upgrade pip
+
+# Installer toutes les dépendances requises
+pip install -r requirements.txt
+```
+
+### 5. Configuration du fichier `.env`
+
+Copiez l'exemple de configuration et renseignez vos clés API Gemini :
+
+```bash
+# Sous Windows (PowerShell)
+Copy-Item .env.example .env
+
+# Sous Linux/macOS
+cp .env.example .env
+```
+
+Éditez ensuite `.env` pour insérer vos clés API (`GEMINI_API_KEY1=...`).
 
 ---
 
@@ -561,3 +623,4 @@ Select-String -Path "Correction\C0\*\*.json" -Pattern '"status": "MANUAL_REVIEW_
 # Compter les tables finales dans correction_Rag
 (Get-ChildItem -Recurse "correction_Rag\C0" -Filter "*.json" | Where-Object { $_.Name -notlike "*all_tables*" }).Count
 ```
+

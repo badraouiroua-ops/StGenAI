@@ -1,0 +1,75 @@
+{
+  "table_id": "table_22",
+  "document": "DS13196 Rev 7 - Table 22. Supply voltage and maximum frequency configuration",
+  "rev": "Rev 7",
+  "table_number": "22",
+  "title": "Table 22. Supply voltage and maximum frequency configuration",
+  "page": 68,
+  "section": "6.3.1 General operating conditions",
+  "section_title": "General operating conditions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=68",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 22. Supply voltage and maximum frequency configuration — section 6.3.1 General operating conditions. Power scale, VCORE source, Max TJ (°C), Max frequency (MHz), Min VDD (V).",
+  "table_content": {
+    "headers": [
+      "Power scale",
+      "VCORE source",
+      "Max TJ (°C)",
+      "Max frequency (MHz)",
+      "Min VDD (V)"
+    ],
+    "rows": [
+      [
+        "VOS0",
+        "LDO/SMPS",
+        "105",
+        "280",
+        "1.71"
+      ],
+      [
+        "VOS1",
+        "LDO/SMPS",
+        "130",
+        "225",
+        "1.62"
+      ],
+      [
+        "VOS2",
+        "LDO/SMPS",
+        "130",
+        "160",
+        "1.62"
+      ],
+      [
+        "VOS3",
+        "LDO/SMPS",
+        "130",
+        "88",
+        "1.62"
+      ],
+      [
+        "SVOS4",
+        "LDO/SMPS",
+        "130",
+        "N/A",
+        "1.62"
+      ],
+      [
+        "SVOS5",
+        "LDO/SMPS",
+        "130",
+        "N/A",
+        "1.62"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. The maximum kernel clock frequencies can be limited by the maximum peripheral clock frequency (refer each peripheral electrical characteristics)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

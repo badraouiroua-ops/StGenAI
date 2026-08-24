@@ -1,0 +1,107 @@
+{
+  "table_id": "table_92",
+  "caption": "Table 92. Temperature sensor characteristics",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 206,
+  "merged_pages": [
+    206
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=206",
+  "section": "6.3.26 Analog temperature sensor characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "T (1) L",
+      "V linearity with temperature SENSE",
+      "-",
+      "-",
+      "±3",
+      "°C"
+    ],
+    [
+      "Avg_Slope(2)",
+      "Average slope",
+      "-",
+      "2",
+      "-",
+      "mV/°C"
+    ],
+    [
+      "V (3) 30",
+      "Voltage at 30°C ± 5 °C",
+      "-",
+      "0.62",
+      "-",
+      "V"
+    ],
+    [
+      "t start_run",
+      "Startup time in Run mode (buffer startup)",
+      "-",
+      "-",
+      "25.2",
+      "µs"
+    ],
+    [
+      "t (1) S_temp",
+      "ADC sampling time when reading the temperature",
+      "9",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "I (1) sens",
+      "Sensor consumption",
+      "-",
+      "0.18",
+      "0.31",
+      "µA"
+    ],
+    [
+      "I (1) sensbuf",
+      "Sensor buffer consumption",
+      "-",
+      "3.8",
+      "6.5",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. In degraded mode, the voltage reference buffer cannot accurately maintain the output voltage (V −drop voltage). DDA",
+      "3. To properly control VREFBUF I current during the startup phase and the change of scaling, V voltage should be in INRUSH DDA"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_92",
+    "is_continued": false,
+    "pages": [
+      206
+    ],
+    "rows_count": 7,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

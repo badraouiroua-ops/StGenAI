@@ -1,0 +1,138 @@
+{
+  "table_id": "table_80",
+  "document": "DS13139 Rev 8 - Table 80. Synchronous multiplexed NOR/PSRAM read timings",
+  "rev": "Rev 8",
+  "table_number": "80",
+  "title": "Table 80. Synchronous multiplexed NOR/PSRAM read timings",
+  "page": 130,
+  "section": "6.3.18 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=130",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 80. Synchronous multiplexed NOR/PSRAM read timings — section 6.3.18 FMC characteristics. Symbol, Parameter, Min(1), Max(1)(2), Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min(1)",
+      "Max(1)(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tw(CLK)",
+        "FMC_CLK period",
+        "2Tfmc_ker_ck –0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "td(CLKL-NExL)",
+        "FMC_CLK low to FMC_NEx low (x=0..2)",
+        "-",
+        "2",
+        "ns"
+      ],
+      [
+        "td(CLKH_NExH)",
+        "FMC_CLK high to FMC_NEx high (x= 0…2)",
+        "Tfmc_ker_ck+1.5",
+        "-",
+        "ns"
+      ],
+      [
+        "td(CLKL-NADVL)",
+        "FMC_CLK low to FMC_NADV low",
+        "-",
+        "1",
+        "ns"
+      ],
+      [
+        "td(CLKL-NADVH)",
+        "FMC_CLK low to FMC_NADV high",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "td(CLKL-AV)",
+        "FMC_CLK low to FMC_Ax valid (x=16…25)",
+        "-",
+        "2.0",
+        "ns"
+      ],
+      [
+        "td(CLKH-AIV)",
+        "FMC_CLK high to FMC_Ax invalid (x=16…25)",
+        "Tfmc_ker_ck+1.5",
+        "-",
+        "ns"
+      ],
+      [
+        "td(CLKL-NOEL)",
+        "FMC_CLK low to FMC_NOE low",
+        "-",
+        "1.5",
+        "ns"
+      ],
+      [
+        "td(CLKH-NOEH)",
+        "FMC_CLK high to FMC_NOE high",
+        "Tfmc_ker_ck +1.5",
+        "-",
+        "ns"
+      ],
+      [
+        "td(CLKL-ADV)",
+        "FMC_CLK low to FMC_AD[15:0] valid",
+        "-",
+        "3",
+        "ns"
+      ],
+      [
+        "td(CLKL-ADIV)",
+        "FMC_CLK low to FMC_AD[15:0] invalid",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "tsu(ADV-CLKH)",
+        "FMC_A/D[15:0] valid data before FMC_CLK high",
+        "3",
+        "-",
+        "ns"
+      ],
+      [
+        "th(CLKH-ADV)",
+        "FMC_A/D[15:0] valid data after FMC_CLK high",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "tsu(NWAIT-CLKH)",
+        "FMC_NWAIT valid before FMC_CLK high",
+        "3",
+        "-",
+        "ns"
+      ],
+      [
+        "th(CLKH-NWAIT)",
+        "FMC_NWAIT valid after FMC_CLK high",
+        "1",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

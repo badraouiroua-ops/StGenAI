@@ -1,0 +1,48 @@
+{
+  "table_id": "table_6",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "analog option (supplied by VDDA)",
+      "row_index": 11,
+      "analyse_visuelle": "L'indice de tension VDDA a été mal extrait avec un espace et parenthèse déplacée ('V ) DDA'). Il s'agit de 'VDDA'.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "analog option (supplied by V ) DDA",
+          "nouvelle_valeur": "analog option (supplied by VDDA)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "USB option (supplied by VDD33USB)",
+      "row_index": 12,
+      "analyse_visuelle": "L'indice de tension VDD33USB a été mal extrait ('V ) DD33USB'). Il s'agit de 'VDD33USB'.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "USB option (supplied by V ) DD33USB",
+          "nouvelle_valeur": "USB option (supplied by VDD33USB)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Additional functions",
+      "row_index": 16,
+      "analyse_visuelle": "Dans la colonne 'Name', la cellule 'Pin functions' couvre à la fois 'Alternate functions' et 'Additional functions'. La première colonne doit donc être 'Pin functions'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Additional functions",
+          "nouvelle_valeur": "Pin functions",
+          "confiance": 95
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

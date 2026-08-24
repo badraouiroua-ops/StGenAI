@@ -1,0 +1,70 @@
+{
+  "table_id": "table_119",
+  "document": "DS13311 Rev 5 - Table 119. Dynamics characteristics: USB ULPI",
+  "rev": "Rev 5",
+  "table_number": "119",
+  "title": "Table 119. Dynamics characteristics: USB ULPI",
+  "page": 243,
+  "section": "6.3.38 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=243",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 119. Dynamics characteristics: USB ULPI — section 6.3.38 Communication interfaces. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t SC",
+        "Control in (ULPI_DIR , ULPI_NXT) setup time",
+        "-",
+        "5.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t HC",
+        "Control in (ULPI_DIR, ULPI_NXT) hold time",
+        "-",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t SD",
+        "Data in setup time",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t HD",
+        "Data in hold time",
+        "-",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS13311 Rev 5 243/283"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "table_id": "table_4",
+  "document": "DS14359 Rev 7 - Table 4. Operating mode summary",
+  "rev": "Rev 7",
+  "table_number": "4",
+  "title": "Table 4. Operating mode summary",
+  "page": 31,
+  "section": "3.6 Low-power modes",
+  "section_title": "Low-power modes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=31",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 4. Operating mode summary — section 3.6 Low-power modes. System, System oscillator, System clock, Peripheral clock, CPU clock, +1 autres.",
+  "table_content": {
+    "headers": [
+      "System",
+      "System oscillator",
+      "System clock",
+      "Peripheral clock",
+      "CPU clock",
+      "Voltage regulator"
+    ],
+    "rows": [
+      [
+        "Run",
+        "ON",
+        "ON",
+        "ON",
+        "ON",
+        "ON (VOS)"
+      ],
+      [
+        "Sleep",
+        "ON",
+        "ON",
+        "ON/OFF",
+        "OFF",
+        "ON (VOS)"
+      ],
+      [
+        "Stop",
+        "ON/OFF",
+        "OFF",
+        "ON/OFF",
+        "OFF",
+        "ON (SVOS)"
+      ],
+      [
+        "Standby",
+        "OFF",
+        "OFF",
+        "OFF",
+        "OFF",
+        "OFF"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

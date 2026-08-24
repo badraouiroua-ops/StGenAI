@@ -1,0 +1,100 @@
+{
+  "table_id": "table_57",
+  "caption": "Table 57. Output voltage characteristics for PC13, PC14 and PC15",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 165,
+  "merged_pages": [
+    165
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=165",
+  "section": "6.3.17 I/O port characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions(3)",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V OL",
+      "Output low level voltage",
+      "CMOS port(2) I = 3 mA IO 2.7 V≤ V ≤3.6 V DD",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V OH",
+      "Output high level voltage",
+      "CMOS port(2) I = -3 mA IO 2.7 V≤ V ≤3.6 V DD",
+      "V -0.4 DD",
+      "-",
+      "V"
+    ],
+    [
+      "V (3) OL",
+      "Output low level voltage",
+      "TTL port(2) I = 3 mA IO 2.7 V≤ V ≤3.6 V DD",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V (2) OH",
+      "Output high level voltage",
+      "TTL port(2) I = -3 mA IO 2.7 V≤ V ≤3.6 V DD",
+      "2.4",
+      "-",
+      "V"
+    ],
+    [
+      "V (2) OL",
+      "Output low level voltage",
+      "I = 1.5 mA IO 1.62 V≤ V ≤3.6 V DD",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V (2) OH",
+      "Output high level voltage",
+      "I = -1.5 mA IO 1.62 V≤ V ≤3.6 V DD",
+      "V -0.4 DD",
+      "-",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "2. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+      "3. Guaranteed by design. DS13312 Rev 4 165/286"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_57",
+    "is_continued": false,
+    "pages": [
+      165
+    ],
+    "rows_count": 6,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

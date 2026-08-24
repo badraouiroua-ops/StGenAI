@@ -1,0 +1,125 @@
+{
+  "table_id": "table_100",
+  "caption": "Table 100. PSSI transmit characteristics",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 192,
+  "merged_pages": [
+    192
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=192",
+  "section": "6.3.33 Parallel synchronous slave interface (PSSI) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "-",
+      "Frequency ratio PSSI_PDCK/f HCLK",
+      "-",
+      "0.4",
+      "-"
+    ],
+    [
+      "PSSI_PDCK",
+      "PSSI Clock input",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "PSSI_PDCK",
+      "PSSI Clock input",
+      "-",
+      "35(2)",
+      "MHz"
+    ],
+    [
+      "D pixel",
+      "PSSI Clock input duty cycle",
+      "30",
+      "70",
+      "%"
+    ],
+    [
+      "t (DATA) ov",
+      "Data output valid time",
+      "-",
+      "10",
+      "ns"
+    ],
+    [
+      "-",
+      "-",
+      "-",
+      "(2) 14",
+      "ns"
+    ],
+    [
+      "t (DATA) oh",
+      "Data output hold time",
+      "4.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t (DE) ov(",
+      "DE output valid time",
+      "-",
+      "10",
+      "ns"
+    ],
+    [
+      "t (DE) oh",
+      "DE output hold time",
+      "4",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(RDY)",
+      "RDY input setup time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "th(RDY)",
+      "RDY input hold time",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. This value is obtained by using PA9, PA10 or PH4 I/O."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_100",
+    "is_continued": false,
+    "pages": [
+      192
+    ],
+    "rows_count": 11,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

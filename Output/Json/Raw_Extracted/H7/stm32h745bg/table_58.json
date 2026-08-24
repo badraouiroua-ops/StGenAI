@@ -1,0 +1,79 @@
+{
+  "table_id": "table_58",
+  "caption": "Table 58. I/O current injection susceptibility",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 144,
+  "merged_pages": [
+    144
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=144",
+  "section": "6.3.15 I/O current injection characteristics",
+  "headers": [
+    "Symbol",
+    "Description",
+    "Functional susceptibility / Negative injection",
+    "Functional susceptibility / Positive injection",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I INJ",
+      "PA7, PC5, PG1, PB14, PJ7, PA11, PA12, PA13, PA14, PA15, PJ12, PB4",
+      "5",
+      "0",
+      "mA"
+    ],
+    [
+      "I INJ",
+      "PA2, PH2, PH3, PE8, PA6, PA7, PC4, PE7, PE10, PE11",
+      "0",
+      "NA",
+      "mA"
+    ],
+    [
+      "I INJ",
+      "PA0, PA_C, PA1, PA1_C, PC2, PC2_C, PC3, PC3_C, PA4, PA5, PH4, PH5, BOOT0",
+      "0",
+      "0",
+      "mA"
+    ],
+    [
+      "I INJ",
+      "All other I/Os",
+      "5",
+      "NA",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization. 144/245 DS12923 Rev 3",
+      "2. Guaranteed by design. DS12923 Rev 3 145/245"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_58",
+    "is_continued": false,
+    "pages": [
+      144
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

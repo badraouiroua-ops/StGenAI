@@ -1,0 +1,47 @@
+{
+  "table_id": "table_1",
+  "document": "DS13312 Rev 4 - Table 1. Device summary",
+  "rev": "Rev 4",
+  "table_number": "1",
+  "title": "Table 1. Device summary",
+  "page": 2,
+  "section": "4 Kbytes of backup SRAM (available in the",
+  "section_title": "Kbytes of backup SRAM (available in the",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 1. Device summary — section 4 Kbytes of backup SRAM (available in the. Reference, Part number.",
+  "table_content": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H735xG",
+        "STM32H735AG"
+      ],
+      [
+        "STM32H735xG",
+        "STM32H735IG"
+      ],
+      [
+        "STM32H735xG",
+        "STM32H735RG"
+      ],
+      [
+        "STM32H735xG",
+        "STM32H735VG"
+      ],
+      [
+        "STM32H735xG",
+        "STM32H735ZG"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "table_id": "table_132",
+  "document": "DS13196 Rev 7 - Table 132. UFBGA(176+25) - Mechanical data",
+  "rev": "Rev 7",
+  "table_number": "132",
+  "title": "Table 132. UFBGA(176+25) - Mechanical data",
+  "page": 188,
+  "section": "7 Package information",
+  "section_title": "Package information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=188",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 132. UFBGA(176+25) - Mechanical data — section 7 Package information. Symbol, millimeters / Min., millimeters / Typ., millimeters / Max., inches (1) / Min., +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min.",
+      "millimeters / Typ.",
+      "millimeters / Max.",
+      "inches (1) / Min.",
+      "inches (1) / Typ.",
+      "inches (1) / Max."
+    ],
+    "rows": [
+      [
+        "A(2)",
+        "-",
+        "-",
+        "0.60",
+        "-",
+        "-",
+        "0.0236"
+      ],
+      [
+        "A1",
+        "0.05",
+        "0.08",
+        "0.11",
+        "0.0020",
+        "0.0031",
+        "0.0043"
+      ],
+      [
+        "A2",
+        "-",
+        "0.45",
+        "-",
+        "-",
+        "0.0177",
+        "-"
+      ],
+      [
+        "A3",
+        "-",
+        "0.13",
+        "-",
+        "-",
+        "0.0051",
+        "-"
+      ],
+      [
+        "A4",
+        "-",
+        "0.32",
+        "-",
+        "-",
+        "0.0126",
+        "-"
+      ],
+      [
+        "b",
+        "0.24",
+        "0.29",
+        "0.34",
+        "0.0094",
+        "0.0114",
+        "0.0134"
+      ],
+      [
+        "D",
+        "9.85",
+        "10.00",
+        "10.15",
+        "0.3878",
+        "0.03937",
+        "0.3996"
+      ],
+      [
+        "D1",
+        "-",
+        "9.10",
+        "-",
+        "-",
+        "0.3583",
+        "-"
+      ],
+      [
+        "E",
+        "9.85",
+        "10.00",
+        "10.15",
+        "0.3878",
+        "0.03937",
+        "0.3996"
+      ],
+      [
+        "E1",
+        "-",
+        "9.10",
+        "-",
+        "-",
+        "0.3583",
+        "-"
+      ],
+      [
+        "e",
+        "-",
+        "0.65",
+        "-",
+        "-",
+        "0.0256",
+        "-"
+      ],
+      [
+        "F",
+        "-",
+        "0.45",
+        "-",
+        "-",
+        "0.0177",
+        "-"
+      ],
+      [
+        "ddd",
+        "-",
+        "-",
+        "0.08",
+        "-",
+        "-",
+        "0.0031"
+      ],
+      [
+        "eee (3)",
+        "-",
+        "-",
+        "0.15",
+        "-",
+        "-",
+        "0.0059"
+      ],
+      [
+        "fff(4)",
+        "-",
+        "-",
+        "0.05",
+        "-",
+        "-",
+        "0.0020"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to four decimal digits.",
+      "2. Ultra thin profile: 0.50 < A Max \\u0001 0.65 mm / Fine pitch: e < 1.00 mm. The total profile height (Dim.A) is measured from the seating plane “C” to the top of the component.",
+      "3. The tolerance of position that controls the location of the pattern of balls with respect to datum A and B. For each ball there is a cylindrical tolerance zone eee perpendicular to datum C and located on true position with respect to datum A and B as",
+      "4. The tolerance of position that controls the location of the balls within the matrix with respect to each other. For each ball there is a cylindrical tolerance zone fff perpendicular to datum C and located on true position as defined by e. The axis"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "table_id": "table_120",
+  "document": "DS12556 Rev 8 - Table 120. Typical and maximum current consumption batch acquisition mode, LDO regulator ON",
+  "rev": "Rev 8",
+  "table_number": "120",
+  "title": "Table 120. Typical and maximum current consumption batch acquisition mode, LDO regulator ON",
+  "page": 207,
+  "section": "7.3.6 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=207",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 120. Typical and maximum current consumption batch acquisition mode, LDO regulator ON — section 7.3.6 Supply current characteristics. Symbol, Parameter, Conditions, Conditions, f HCLK (MHz), +6 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "f HCLK (MHz)",
+      "Typ",
+      "Max(1) / Tj=25°C",
+      "Max(1) / Tj=85°C",
+      "Max(1) / Tj=105 °C",
+      "Max(1) / Tj=125 °C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "Supply current in batch acquisition mode",
+        "D1 Standby, D2 Standby, D3 Run",
+        "VOS3",
+        "64",
+        "2.7",
+        "4.7",
+        "12.9",
+        "19.0",
+        "27.5",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in batch acquisition mode",
+        "D1 Standby, D2 Standby, D3 Run",
+        "VOS3",
+        "8",
+        "1.1",
+        "-",
+        "-",
+        "-",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in batch acquisition mode",
+        "D1 Stop, D2 Stop, D3 Run",
+        "VOS3",
+        "64",
+        "5.4",
+        "18.4",
+        "83.7",
+        "132.6",
+        "202.4",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in batch acquisition mode",
+        "D1 Stop, D2 Stop, D3 Run",
+        "VOS3",
+        "8",
+        "3.8",
+        "-",
+        "-",
+        "-",
+        "-",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results, unless otherwise specified."
+    ],
+    "legend": [
+      "LDO regulator ON"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

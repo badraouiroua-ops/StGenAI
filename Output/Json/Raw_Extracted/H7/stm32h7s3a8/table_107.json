@@ -1,0 +1,125 @@
+{
+  "table_id": "table_107",
+  "caption": "Table 107. Temperature sensor characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 255,
+  "merged_pages": [
+    255
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=255",
+  "section": "6.3.22 Analog temperature sensor characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "T (1) L",
+      "V linearity with temperature (from V voltage) SENSE sensor",
+      "-",
+      "-",
+      "3",
+      "°C"
+    ],
+    [
+      "T (1) L",
+      "V linearity with temperature (from ADC counter) SENSE",
+      "-",
+      "-",
+      "3",
+      "°C"
+    ],
+    [
+      "Avg_Slope(2)",
+      "Average slope (from V voltage) SENSE",
+      "-",
+      "2",
+      "-",
+      "mV/°C"
+    ],
+    [
+      "Avg_Slope(2)",
+      "Average slope (from ADC counter)",
+      "-",
+      "2",
+      "-",
+      "mV/°C"
+    ],
+    [
+      "V (3) 30",
+      "Voltage at 30°C ± 5 °C",
+      "-",
+      "0.62",
+      "-",
+      "V"
+    ],
+    [
+      "t start_run",
+      "Startup time in Run mode (buffer startup)",
+      "-",
+      "-",
+      "25.2",
+      "µs"
+    ],
+    [
+      "t (1) S_temp",
+      "ADC sampling time when reading the temperature",
+      "9",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "I (1) sens",
+      "Sensor consumption",
+      "-",
+      "0.18",
+      "0.31",
+      "µA"
+    ],
+    [
+      "I (1) sensbuf",
+      "Sensor buffer consumption",
+      "-",
+      "3.8",
+      "6.5",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Evaluated by characterization - Not tested in production.",
+      "2. Evaluated by characterization - Not tested in production.",
+      "3. The characterization is done at VDD_CORE = 1.19 V for Typ/Min/Max."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_107",
+    "is_continued": false,
+    "pages": [
+      255
+    ],
+    "rows_count": 9,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

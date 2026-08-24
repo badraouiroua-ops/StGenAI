@@ -1,0 +1,100 @@
+{
+  "table_id": "table_14",
+  "caption": "Table 14. VCAP operating conditions",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 106,
+  "merged_pages": [
+    106
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=106",
+  "section": "6.3.2 VCAP external capacitor",
+  "headers": [
+    "Figure 16. External capacitor C EXT",
+    "",
+    ""
+  ],
+  "rows": [
+    [
+      "C",
+      "",
+      ""
+    ],
+    [
+      "ESR C",
+      "",
+      ""
+    ],
+    [
+      "ESR R Leak",
+      "",
+      ""
+    ],
+    [
+      "ESR R Leak",
+      "",
+      "MS19044V2"
+    ],
+    [
+      "1. L egend: ESR is the equivalentseries resistance.",
+      "",
+      "MS19044V2"
+    ],
+    [
+      "1. L egend: ESR is t Table 14. VCAP operatingconditions(1)",
+      "",
+      "MS19044V2"
+    ],
+    [
+      "1. L Symbol Tab Parameterconditions(1)",
+      "Conditio",
+      "ns"
+    ],
+    [
+      "1. L CEXT Capacitance of external capacitor",
+      "2.2 µF(",
+      "2)"
+    ],
+    [
+      "1. L ESR Cap ESR of external capacitorcitor",
+      "< 100 m",
+      "Ω"
+    ]
+  ],
+  "extraction_method": "pdfplumber_text",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.2727,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 9,
+    "truncated_rows": 20,
+    "bleed_rows_removed": 3,
+    "columns_initial": 9,
+    "columns_merged": 6,
+    "columns_final": 3,
+    "footnote_rows_removed": 3,
+    "_notes": [
+      "1. Legend: ESR is the equivalent series resistance."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "no_table_obj_for_spans",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_14",
+    "is_continued": false,
+    "pages": [
+      106
+    ],
+    "rows_count": 9,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.2727
+  }
+}

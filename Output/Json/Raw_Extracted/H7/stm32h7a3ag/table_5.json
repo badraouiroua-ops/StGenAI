@@ -1,0 +1,141 @@
+{
+  "table_id": "table_5",
+  "caption": "Table 5. USART features",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 29,
+  "merged_pages": [
+    29,
+    30
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=29",
+  "section": "3.36 Universal synchronous/asynchronous receiver transmitter (USART)",
+  "headers": [
+    "USART modes/features",
+    "USART1/2/3/6/10",
+    "UART4/5/7/8/9"
+  ],
+  "rows": [
+    [
+      "Hardware flow control for modem",
+      "X",
+      "X"
+    ],
+    [
+      "Continuous communication using DMA",
+      "X",
+      "X"
+    ],
+    [
+      "Multiprocessor communication",
+      "X",
+      "X"
+    ],
+    [
+      "Synchronous mode (Master/Slave)",
+      "X",
+      "-"
+    ],
+    [
+      "Smartcard mode",
+      "X",
+      "-"
+    ],
+    [
+      "Single-wire Half-duplex communication",
+      "X",
+      "X"
+    ],
+    [
+      "IrDA SIR ENDEC block",
+      "X",
+      "X"
+    ],
+    [
+      "LIN mode",
+      "X",
+      "X"
+    ],
+    [
+      "Dual clock domain and wakeup from low power mode",
+      "X",
+      "X"
+    ],
+    [
+      "Receiver timeout interrupt",
+      "X",
+      "X"
+    ],
+    [
+      "Modbus communication",
+      "X",
+      "X"
+    ],
+    [
+      "Auto baud rate detection",
+      "X",
+      "X"
+    ],
+    [
+      "Driver Enable",
+      "X",
+      "X"
+    ],
+    [
+      "USART data length",
+      "7, 8 and 9 bits",
+      "7, 8 and 9 bits"
+    ],
+    [
+      "Tx/Rx FIFO",
+      "X",
+      "X"
+    ],
+    [
+      "Tx/Rx FIFO size",
+      "16",
+      "16"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 3,
+      "cont_cols_raw": 3,
+      "target_cols": 3,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_legend": [
+      "X = supported."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_5",
+    "is_continued": true,
+    "pages": [
+      29,
+      30
+    ],
+    "rows_count": 16,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

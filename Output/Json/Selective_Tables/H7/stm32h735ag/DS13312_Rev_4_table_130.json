@@ -1,0 +1,25 @@
+{
+  "table_id": "table_130",
+  "document": "DS13312 Rev 4 - Table 130. WLCSP115 recommended PCB design rules",
+  "rev": "Rev 4",
+  "table_number": "130",
+  "title": "Table 130. WLCSP115 recommended PCB design rules",
+  "page": 263,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=263",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 130. WLCSP115 recommended PCB design rules — section 7.1 Device marking. Figure 80. WLCSP115 marking example (package top view). (table vide)",
+  "table_content": {
+    "headers": [
+      "Figure 80. WLCSP115 marking example (package top view)"
+    ],
+    "rows": [],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

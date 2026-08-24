@@ -1,0 +1,113 @@
+{
+  "table_id": "table_112",
+  "caption": "Table 112. LPTIMx characteristics",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 151,
+  "merged_pages": [
+    151,
+    152
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=151",
+  "section": "6.3.35 Low-power timer characteristics",
+  "headers": [
+    "Symbol",
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tres(TIM)",
+      "tres(TIM)",
+      "Timer resolution time",
+      "1",
+      "-",
+      "tTIMxCLK"
+    ],
+    [
+      "fLPTIMxCLK",
+      "fLPTIMxCLK",
+      "Timer kernel clock",
+      "0",
+      "100",
+      "MHz"
+    ],
+    [
+      "fEXT",
+      "fEXT",
+      "Timer external clock frequency on Input1 and Input2",
+      "0",
+      "fLPTIMxCLK/2",
+      "MHz"
+    ],
+    [
+      "ResTIM",
+      "ResTIM",
+      "Timer resolution",
+      "-",
+      "16",
+      "bit"
+    ],
+    [
+      "tMAX_COUNT",
+      "tMAX_COUNT",
+      "Maximum possible count",
+      "-",
+      "65536",
+      "tTIMxCLK"
+    ],
+    [
+      "fI2CCLK",
+      "I2CCLK frequency",
+      "Fast-mode Plus",
+      "Analog Filtre OFF, DNF=1",
+      "16",
+      "tTIMxCLK"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 6,
+      "cont_cols_raw": 6,
+      "target_cols": 6,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Measurement points are done at 0.5V and with external C = 30 pF. DD L"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_112",
+    "is_continued": true,
+    "pages": [
+      151,
+      152
+    ],
+    "rows_count": 6,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "table_id": "table_61",
+  "document": "DS13139 Rev 8 - Table 61. EMI characteristics for f = 8 MHz and f = 64 MHz 116 HSE HCLK",
+  "rev": "Rev 8",
+  "table_number": "61",
+  "title": "Table 61. EMI characteristics for f = 8 MHz and f = 64 MHz 116 HSE HCLK",
+  "page": 116,
+  "section": "6.3.13 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=116",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 61. EMI characteristics for f = 8 MHz and f = 64 MHz 116 HSE HCLK — section 6.3.13 EMC characteristics. Symbol, Parameter, Conditions, Monitored frequency band, Value, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Monitored frequency band",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "SEMI",
+        "Peak(1)",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+        "0.1 to 30 MHz",
+        "7",
+        "dBµV"
+      ],
+      [
+        "SEMI",
+        "Peak(1)",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+        "30 to 130 MHz",
+        "–1",
+        "dBµV"
+      ],
+      [
+        "SEMI",
+        "Peak(1)",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+        "130 MHz to 1 GHz",
+        "8",
+        "dBµV"
+      ],
+      [
+        "SEMI",
+        "Peak(1)",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+        "1 GHz to 2 GHz",
+        "7",
+        "dBµV"
+      ],
+      [
+        "SEMI",
+        "Level(2)",
+        "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+        "0.1 GHz to 2 GHz",
+        "2.5",
+        "dBµV"
+      ]
+    ],
+    "notes": [
+      "1. Refer to the EMI radiated test chapter of application note AN1709 \"EMC design guide for STM8, STM32 and Legacy MCUs\" available from the ST website www.st.com..",
+      "2. Refer to the EMI level classification chapter of application note AN1709 \"EMC design guide for STM8, STM32 and Legacy MCUs\" available from the ST website www.st.com."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "table_id": "table_21",
+  "caption": "Table 21. Internal reference voltage calibration values",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 116,
+  "merged_pages": [
+    116
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=116",
+  "section": "6.3.6 Embedded reference voltage characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Memory address"
+  ],
+  "rows": [
+    [
+      "V REFIN_CAL",
+      "Raw data acquired at temperature of 30 °C, V = 3.3 V DDA",
+      "1FF1 E860 - 1FF1 E861"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_21",
+    "is_continued": false,
+    "pages": [
+      116
+    ],
+    "rows_count": 1,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

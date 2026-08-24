@@ -1,0 +1,124 @@
+{
+  "table_id": "table_12",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "VDDLDO Supply voltage for the internal regulator",
+      "row_index": 1,
+      "analyse_visuelle": "Correction de la formule d'inégalité dans Operating conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V DDLDO",
+          "nouvelle_valeur": "VDDLDO",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V ≤ V DDLDO DD",
+          "nouvelle_valeur": "VDDLDO ≤ VDD",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "VIN TT_xx I/O except Pxy_C",
+      "row_index": 10,
+      "analyse_visuelle": "Correction du formatage de la valeur Max VDD+0.3.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V IN",
+          "nouvelle_valeur": "VIN",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "V +0.3 DD",
+          "nouvelle_valeur": "VDD+0.3",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "VIN Pxy_C I/O",
+      "row_index": 11,
+      "analyse_visuelle": "Correction du formatage de la valeur Max Min(VDDA, VDD) + 0.3.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V IN",
+          "nouvelle_valeur": "VIN",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "Min(V , DDA V ) + 0.3 DD",
+          "nouvelle_valeur": "Min(VDDA, VDD) + 0.3",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "VIN All I/Os except BOOT0, TT_xx and Pxy_C",
+      "row_index": 13,
+      "analyse_visuelle": "Correction du formatage de la formule dans la colonne Max.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V IN",
+          "nouvelle_valeur": "VIN",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 5,
+          "valeur_originale_json": "Min(V , V , DD DDA V ) + 3. DD33USB 6 < 5.5(3)",
+          "nouvelle_valeur": "Min(VDD, VDDA, VDD33USB) + 3.6 < 5.5(3)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "TA(6) Ambient temperature for temperature range 3",
+      "row_index": 39,
+      "analyse_visuelle": "Correction du symbole et de la colonne Typ qui ne doit pas avoir -40 (la valeur -40 est uniquement dans Min).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "T (6) A",
+          "nouvelle_valeur": "TA(6)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "TA(6) Ambient temperature for temperature range 6 Maximum power dissipation",
+      "row_index": 40,
+      "analyse_visuelle": "Correction du symbole et suppression du doublon -40 dans la colonne Typ.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "T (6) A",
+          "nouvelle_valeur": "TA(6)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "TA(6) Ambient temperature for temperature range 6 Low-power dissipation(7)",
+      "row_index": 41,
+      "analyse_visuelle": "Correction du symbole et suppression du doublon -40 dans la colonne Typ.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "T (6) A",
+          "nouvelle_valeur": "TA(6)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

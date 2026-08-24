@@ -1,0 +1,99 @@
+{
+  "table_id": "table_28",
+  "caption": "Table 28. SMPS step-down converter characteristics for external usage",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 159,
+  "merged_pages": [
+    159
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=159",
+  "section": "6.3.3 SMPS step-down converter",
+  "headers": [
+    "Parameters",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V (1) DDSMPS",
+      "V = 1.8 V OUT",
+      "2.3",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V (2) OUT",
+      "Iout=600 mA",
+      "1.62",
+      "1.8",
+      "1.98",
+      "V"
+    ],
+    [
+      "I OUT",
+      "External usage only(3)",
+      "-",
+      "-",
+      "600",
+      "mA"
+    ],
+    [
+      "RDS ON",
+      "-",
+      "-",
+      "100",
+      "120",
+      "mΩ"
+    ],
+    [
+      "I DDSMPS_Q",
+      "Quiescent current",
+      "-",
+      "220",
+      "-",
+      "µA"
+    ],
+    [
+      "T SMPS_START",
+      "V = 1.8 V OUT",
+      "-",
+      "270",
+      "405",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. The switching frequency is 2.4 MHz±10%.",
+      "2. Including line transient and load transient.",
+      "3. These characteristics are given for SMPSEXTHP bit is set in the PWR_CR3 register."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_28",
+    "is_continued": false,
+    "pages": [
+      159
+    ],
+    "rows_count": 6,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

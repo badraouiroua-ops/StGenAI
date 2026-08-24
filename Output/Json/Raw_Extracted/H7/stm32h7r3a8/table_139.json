@@ -1,0 +1,151 @@
+{
+  "table_id": "table_139",
+  "caption": "Table 139. VFQFPN68 - Mechanical data",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 287,
+  "merged_pages": [
+    287
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=287",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Symbol",
+    "millimeters / Min",
+    "millimeters / Typ",
+    "millimeters / Max",
+    "inches(1) / Min",
+    "inches(1) / Typ",
+    "inches(1) / Max"
+  ],
+  "rows": [
+    [
+      "A",
+      "0.80",
+      "0.90",
+      "1.00",
+      "0.0315",
+      "0.0354",
+      "0.0394"
+    ],
+    [
+      "A1",
+      "0",
+      "0.02",
+      "0.05",
+      "0",
+      "0.0008",
+      "0.0020"
+    ],
+    [
+      "A3",
+      "-",
+      "0.20",
+      "-",
+      "-",
+      "0.0008",
+      "-"
+    ],
+    [
+      "b",
+      "0.15",
+      "0.20",
+      "0.25",
+      "0.0059",
+      "0.0079",
+      "0.0098"
+    ],
+    [
+      "D",
+      "7.85",
+      "8.00",
+      "8.15",
+      "0.3091",
+      "0.3150",
+      "0.3209"
+    ],
+    [
+      "D2",
+      "6.30",
+      "6.40",
+      "6.50",
+      "0.2480",
+      "0.2520",
+      "0.2559"
+    ],
+    [
+      "E",
+      "7.85",
+      "8.00",
+      "8.15",
+      "0.3091",
+      "0.3150",
+      "0.3209"
+    ],
+    [
+      "E2",
+      "6.30",
+      "6.40",
+      "6.50",
+      "0.2480",
+      "0.2520",
+      "0.2559"
+    ],
+    [
+      "e",
+      "-",
+      "0.40",
+      "-",
+      "-",
+      "0.0157",
+      "-"
+    ],
+    [
+      "L",
+      "0.40",
+      "0.50",
+      "0.60",
+      "0.0157",
+      "0.0197",
+      "0.0236"
+    ],
+    [
+      "ddd",
+      "-",
+      "-",
+      "0.08",
+      "-",
+      "-",
+      "0.0031"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_139",
+    "is_continued": false,
+    "pages": [
+      287
+    ],
+    "rows_count": 11,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

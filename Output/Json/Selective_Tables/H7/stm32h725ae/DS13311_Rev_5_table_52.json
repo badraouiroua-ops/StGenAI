@@ -1,0 +1,62 @@
+{
+  "table_id": "table_52",
+  "document": "DS13311 Rev 5 - Table 52. ESD absolute maximum ratings",
+  "rev": "Rev 5",
+  "table_number": "52",
+  "title": "Table 52. ESD absolute maximum ratings",
+  "page": 157,
+  "section": "6.3.15 Absolute maximum ratings (electrical sensitivity)",
+  "section_title": "Absolute maximum ratings (electrical sensitivity)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=157",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 52. ESD absolute maximum ratings — section 6.3.15 Absolute maximum ratings (electrical sensitivity). Symbol, Ratings, Conditions, Packages, Class, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Conditions",
+      "Packages",
+      "Class",
+      "Maximum value(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V ESD(HBM)",
+        "Electrostatic discharge voltage (human body model)",
+        "T = 25 °C conforming to A ANSI/ESDA/JEDEC JS-001",
+        "All packages",
+        "1C",
+        "1000(2)",
+        "V"
+      ],
+      [
+        "V ESD(CDM)",
+        "Electrostatic discharge voltage (charge device model)",
+        "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS-002",
+        "All LQFP packages",
+        "C1",
+        "250",
+        "V"
+      ],
+      [
+        "V ESD(CDM)",
+        "Electrostatic discharge voltage (charge device model)",
+        "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS-002",
+        "All BGA and WLCSP packages",
+        "C2a",
+        "500",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Refer to AN1709 “EMI radiated test” chapter.",
+      "2. Refer to AN1709 “EMI level classification” chapter."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "table_id": "table_16",
+  "document": "DS12930 Rev 3 - Table 16. Characteristics of SMPS step-down converter external components",
+  "rev": "Rev 3",
+  "table_number": "16",
+  "title": "Table 16. Characteristics of SMPS step-down converter external components",
+  "page": 110,
+  "section": "6.3.3 SMPS step-down converter",
+  "section_title": "SMPS step-down converter",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=110",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 16. Characteristics of SMPS step-down converter external components — section 6.3.3 SMPS step-down converter. Symbol, Parameter, Conditions.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions"
+    ],
+    "rows": [
+      [
+        "C in",
+        "Capacitance of external capacitor on V DDSMPS",
+        "Fµ 7.4"
+      ],
+      [
+        "C in",
+        "ESR of external capacitor",
+        "100 mΩ"
+      ],
+      [
+        "C filt",
+        "Capacitance of external capacitor on V pin LXSMPS",
+        "220 pF"
+      ],
+      [
+        "C OUT",
+        "Capacitance of external capacitor on V pin FBSMPS",
+        "10 µF"
+      ],
+      [
+        "C OUT",
+        "ESR of external capacitor",
+        "20 mΩ"
+      ],
+      [
+        "L",
+        "Inductance of external Inductor on V pin LXSMPS",
+        "2.2 µH"
+      ],
+      [
+        "-",
+        "Serial DC resistor",
+        "150 mΩ"
+      ],
+      [
+        "I SAT",
+        "DC current at which the inductance drops 30% from its value without current.",
+        "1.7 A"
+      ],
+      [
+        "I RMS",
+        "Average current for a 40 °C rise: rated current for which the temperature of the inductor is raised 40°C by DC current",
+        "1.4 A"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

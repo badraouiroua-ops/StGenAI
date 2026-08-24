@@ -1,0 +1,162 @@
+{
+  "table_id": "table_33",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "R F",
+      "row_index": 1,
+      "analyse_visuelle": "L'indice 'F' est séparé par un espace dans le symbole 'RF'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "R F",
+          "nouvelle_valeur": "RF",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "During startup(3)",
+      "row_index": 2,
+      "analyse_visuelle": "L'indice 'DD(HSE)' est séparé par un espace dans le symbole 'IDD(HSE)'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(HSE)",
+          "nouvelle_valeur": "IDD(HSE)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "CL=10 pF at 4 MHz",
+      "row_index": 3,
+      "analyse_visuelle": "Correction du symbole IDD(HSE) et du texte des conditions avec les indices VDD et CL mal placés.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(HSE)",
+          "nouvelle_valeur": "IDD(HSE)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =3 V, Rm=30 Ω DD C =10 pF at 4 MHz L",
+          "nouvelle_valeur": "VDD=3 V, Rm=30 Ω CL=10 pF at 4 MHz",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "CL=10 pF at 8 MHz",
+      "row_index": 4,
+      "analyse_visuelle": "Correction du symbole IDD(HSE) et du texte des conditions avec les indices VDD et CL mal placés.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(HSE)",
+          "nouvelle_valeur": "IDD(HSE)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =3 V, Rm=30 Ω DD C =10 pF at 8 MHz L",
+          "nouvelle_valeur": "VDD=3 V, Rm=30 Ω CL=10 pF at 8 MHz",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "CL=10 pF at 16 MHz",
+      "row_index": 5,
+      "analyse_visuelle": "Correction du symbole IDD(HSE) et du texte des conditions avec les indices VDD et CL mal placés.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(HSE)",
+          "nouvelle_valeur": "IDD(HSE)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =3 V, Rm=30 Ω DD C =10 pF at 16 MHz L",
+          "nouvelle_valeur": "VDD=3 V, Rm=30 Ω CL=10 pF at 16 MHz",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "CL=10 pF at 32 MHz",
+      "row_index": 6,
+      "analyse_visuelle": "Correction du symbole IDD(HSE) et du texte des conditions avec les indices VDD et CL mal placés.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(HSE)",
+          "nouvelle_valeur": "IDD(HSE)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =3 V, Rm=30 Ω DD C =10 pF at 32 MHz L",
+          "nouvelle_valeur": "VDD=3 V, Rm=30 Ω CL=10 pF at 32 MHz",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "CL=10 pF at 48 MHz",
+      "row_index": 7,
+      "analyse_visuelle": "Correction du symbole IDD(HSE) et du texte des conditions avec les indices VDD et CL mal placés.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(HSE)",
+          "nouvelle_valeur": "IDD(HSE)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =3 V, Rm=30 Ω DD C =10 pF at 48 MHz L",
+          "nouvelle_valeur": "VDD=3 V, Rm=30 Ω CL=10 pF at 48 MHz",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Gm critmax",
+      "row_index": 8,
+      "analyse_visuelle": "L'indice 'critmax' est séparé par un espace dans le symbole 'Gmcritmax'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Gm critmax",
+          "nouvelle_valeur": "Gmcritmax",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Start-up time",
+      "row_index": 9,
+      "analyse_visuelle": "Correction du symbole tSU(4) et de la condition 'VDD is stabilized' (l'indice DD était mal placé en fin de chaîne).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (4) SU",
+          "nouvelle_valeur": "tSU(4)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V is stabilized DD",
+          "nouvelle_valeur": "VDD is stabilized",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

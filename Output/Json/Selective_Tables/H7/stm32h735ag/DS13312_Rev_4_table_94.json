@@ -1,0 +1,42 @@
+{
+  "table_id": "table_94",
+  "document": "DS13312 Rev 4 - Table 94. Temperature sensor calibration values",
+  "rev": "Rev 4",
+  "table_number": "94",
+  "title": "Table 94. Temperature sensor calibration values",
+  "page": 217,
+  "section": "6.3.26 Analog temperature sensor characteristics",
+  "section_title": "Analog temperature sensor characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=217",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 94. Temperature sensor calibration values — section 6.3.26 Analog temperature sensor characteristics. Symbol, Parameter, Memory address.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Memory address"
+    ],
+    "rows": [
+      [
+        "TS_CAL1",
+        "Temperature sensor raw data acquired value at 30 °C, V =3.3 V DDA",
+        "0x1FF1 E820 -0x1FF1 E821"
+      ],
+      [
+        "TS_CAL2",
+        "Temperature sensor raw data acquired value at 130 °C, V =3.3 V DDA",
+        "0x1FF1 E840 - 0x1FF1 E841"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. Guaranteed by characterization results.",
+      "3. Measured at V = 3.3 V ± 10 mV. The V ADC conversion result is stored in the TS_CAL1 DDA 30"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

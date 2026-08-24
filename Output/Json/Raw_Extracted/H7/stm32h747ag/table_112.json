@@ -1,0 +1,210 @@
+{
+  "table_id": "table_112",
+  "caption": "Table 112. SAI characteristics",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 217,
+  "merged_pages": [
+    217,
+    218
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=217",
+  "section": "6.3.35 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f MCK",
+      "SAI Main clock output",
+      "-",
+      "256x8K",
+      "256xF S",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "SAI clock frequency(2)",
+      "Master Data: 32 bits",
+      "-",
+      "128xF (3) S",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "SAI clock frequency(2)",
+      "Slave Data: 32 bits",
+      "-",
+      "128xF (3) S",
+      "MHz"
+    ],
+    [
+      "t v(FS)",
+      "F valid time S",
+      "Master mode 2.7≤V ≤3.6 DD",
+      "-",
+      "13",
+      "ns"
+    ],
+    [
+      "t v(FS)",
+      "F valid time S",
+      "Master mode 1.62≤V ≤3.6 DD",
+      "-",
+      "20",
+      "ns"
+    ],
+    [
+      "t su(FS)",
+      "F hold time S",
+      "Master mode",
+      "8",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(FS)",
+      "F setup time S",
+      "Slave mode",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(FS)",
+      "F hold time S",
+      "Slave mode",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SD_A_MR)",
+      "Data input setup time",
+      "Master receiver",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SD_B_SR)",
+      "-",
+      "Slave receiver",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SD_A_MR)",
+      "Data input hold time",
+      "Master receiver",
+      "3.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SD_B_SR)",
+      "-",
+      "Slave receiver",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(SD_B_ST)",
+      "Data output valid time",
+      "Slave transmitter (after enable edge) 2.7≤V ≤3.6 DD",
+      "-",
+      "14",
+      "ns"
+    ],
+    [
+      "t v(SD_B_ST)",
+      "Data output valid time",
+      "Slave transmitter (after enable edge) 1.62≤V ≤3.6 DD",
+      "-",
+      "20",
+      "ns"
+    ],
+    [
+      "t h(SD_B_ST)",
+      "Data output hold time",
+      "Slave transmitter (after enable edge)",
+      "9",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(SD_A_MT)",
+      "Data output valid time",
+      "Master transmitter (after enable edge) 2.7≤V ≤3.6 DD",
+      "-",
+      "12",
+      "ns"
+    ],
+    [
+      "t v(SD_A_MT)",
+      "Data output valid time",
+      "Master transmitter (after enable edge) 1.62≤V ≤3.6 DD",
+      "-",
+      "19",
+      "ns"
+    ],
+    [
+      "t h(SD_A_MT)",
+      "Data output hold time",
+      "Master transmitter (after enable edge)",
+      "7.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0185,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 6,
+      "cont_cols_raw": 6,
+      "target_cols": 6,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. APB clock frequency must be at least twice SAI clock frequency.",
+      "3. With F =192 kHz. S"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_112",
+    "is_continued": true,
+    "pages": [
+      217,
+      218
+    ],
+    "rows_count": 18,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0185
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "table_id": "table_131",
+  "document": "DS13195 Rev 8 - Table 131. TFBGA100 - Recommended PCB design rules (0.8 mm pitch BGA)",
+  "rev": "Rev 8",
+  "table_number": "131",
+  "title": "Table 131. TFBGA100 - Recommended PCB design rules (0.8 mm pitch BGA)",
+  "page": 194,
+  "section": "7 Package information",
+  "section_title": "Package information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=194",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 131. TFBGA100 - Recommended PCB design rules (0.8 mm pitch BGA) — section 7 Package information. Dimension, Recommended values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Recommended values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.8"
+      ],
+      [
+        "Dpad",
+        "0.400 mm"
+      ],
+      [
+        "Dsm",
+        "0.470 mm typical (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.400 mm"
+      ],
+      [
+        "Stencil thickness",
+        "Between 0.100 mm and 0.125 mm"
+      ],
+      [
+        "Pad trace width",
+        "0.120 mm"
+      ]
+    ],
+    "notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences resulting"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "table_id": "table_42",
+  "document": "DS12110 Rev 11 - Table 42. Flash memory characteristics",
+  "rev": "Rev 11",
+  "table_number": "42",
+  "title": "Table 42. Flash memory characteristics",
+  "page": 131,
+  "section": "6.3.11 Memory characteristics",
+  "section_title": "Memory characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=131",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 42. Flash memory characteristics — section 6.3.11 Memory characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "Supply current",
+        "Write / Erase 8-bit mode",
+        "-",
+        "6.5",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current",
+        "Write / Erase 16-bit mode",
+        "-",
+        "11.5",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current",
+        "Write / Erase 32-bit mode",
+        "-",
+        "20",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current",
+        "Write / Erase 64-bit mode",
+        "-",
+        "35",
+        "-",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design unless otherwise specified.",
+      "2. Guaranteed by characterization results.",
+      "3. Integer mode only."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

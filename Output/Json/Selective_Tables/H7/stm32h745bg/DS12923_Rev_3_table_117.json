@@ -1,0 +1,95 @@
+{
+  "table_id": "table_117",
+  "document": "DS12923 Rev 3 - Table 117. Dynamics characteristics: Ethernet MAC signals for MII",
+  "rev": "Rev 3",
+  "table_number": "117",
+  "title": "Table 117. Dynamics characteristics: Ethernet MAC signals for MII",
+  "page": 218,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=218",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "text_helper": "Table 117. Dynamics characteristics: Ethernet MAC signals for MII — section 6.3.33 Communication interfaces. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t su(RXD)",
+        "Receive data setup time",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(RXD)",
+        "Receive data hold time",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(DV)",
+        "Data valid setup time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(DV)",
+        "Data valid hold time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(ER)",
+        "Error setup time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(ER)",
+        "Error hold time",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(TXEN)",
+        "Transmit enable valid delay time",
+        "9",
+        "10",
+        "11",
+        "ns"
+      ],
+      [
+        "t d(TXD)",
+        "Transmit data valid delay time",
+        "8.5",
+        "9.5",
+        "12.5",
+        "ns"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

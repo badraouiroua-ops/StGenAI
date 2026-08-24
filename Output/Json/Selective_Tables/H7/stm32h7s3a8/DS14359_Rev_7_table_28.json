@@ -1,0 +1,56 @@
+{
+  "table_id": "table_28",
+  "document": "DS14359 Rev 7 - Table 28. VCAP operating conditions",
+  "rev": "Rev 7",
+  "table_number": "28",
+  "title": "Table 28. VCAP operating conditions",
+  "page": 160,
+  "section": "6.3.2 VCAP external capacitor",
+  "section_title": "VCAP external capacitor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=160",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 28. VCAP operating conditions — section 6.3.2 VCAP external capacitor. Figure, 25. External capacitor C EXT, .",
+  "table_content": {
+    "headers": [
+      "Figure",
+      "25. External capacitor C EXT",
+      ""
+    ],
+    "rows": [
+      [
+        "Figure",
+        "C",
+        ""
+      ],
+      [
+        "ESR Figure",
+        "C",
+        ""
+      ],
+      [
+        "ESR Figure",
+        "R Leak",
+        ""
+      ]
+    ],
+    "notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of ±20% is tolerated.",
+      "3. If a fourth VCAP pin is available on the package, it must be connected to the other VCAP pins, but no additional capacitor is required."
+    ],
+    "legend": [
+      "CEXT Capacitance of external capacitor 2.2 µF(2)(3)",
+      "ESR ESR of external capacitor < 100 mΩ",
+      "replaced by three 100 nF decoupling capacitors.",
+      "additional capacitor is required.",
+      "The devices embed a high power efficiency SMPS step-down converter. SMPS",
+      "characteristics for external usage are given in Table 30. The SMPS step-down converter",
+      "requires external components that are fully described in AN5935 “STM32H7R3/7S3 and",
+      "STM32H7R7/7S7 MCU hardware development”. The components used for datasheet"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

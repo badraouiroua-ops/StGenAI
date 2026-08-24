@@ -1,0 +1,107 @@
+{
+  "table_id": "table_56",
+  "caption": "Table 56. Pxy_C and Pxy analog switch characteristics",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 134,
+  "merged_pages": [
+    134
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=134",
+  "section": "6.3.17 NRST pin characteristics",
+  "headers": [
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "Switch impedance",
+      "Switch control boosted",
+      "Switch control boosted",
+      "-",
+      "-",
+      "315",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 2.7 V DDSWITCH",
+      "-",
+      "-",
+      "315",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 2.4 V DDSWITCH",
+      "-",
+      "-",
+      "335",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 2.0 V DDSWITCH",
+      "-",
+      "-",
+      "390",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 1.8 V DDSWITCH",
+      "-",
+      "-",
+      "445",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 1.62 V DDSWITCH",
+      "-",
+      "-",
+      "550",
+      "Ω"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. The pull-up is designed with a true resistance in series with a switchable PMOS. This PMOS contribution to the series resistance must be minimum (~10% order).",
+      "2. Guaranteed by design. 134/236 DS13313 Rev 5"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_56",
+    "is_continued": false,
+    "pages": [
+      134
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

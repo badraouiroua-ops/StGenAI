@@ -1,0 +1,248 @@
+{
+  "table_id": "table_116",
+  "caption": "Table 116. SPI dynamic characteristics",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 154,
+  "merged_pages": [
+    154,
+    155
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=154",
+  "section": "6.3.36.3 SPI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Typ(1)",
+    "Max(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fSCK",
+      "SPI clock frequency",
+      "Master mode 2.7 < VDD< 3.6 V, SPI1, 2, 3",
+      "-",
+      "-",
+      "125/100(3)",
+      "MHz"
+    ],
+    [
+      "fSCK",
+      "SPI clock frequency",
+      "Master mode, 2.7 < VDD<3.6 V, SPI4, 5, 6",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "fSCK",
+      "SPI clock frequency",
+      "Master mode, 1.62 < VDD < 3.6 V, SPI4, 5, 6",
+      "-",
+      "-",
+      "75/38(3)",
+      "MHz"
+    ],
+    [
+      "fSCK",
+      "SPI clock frequency",
+      "Slave receiver mode, 1.62 < VDD < 3.6 V",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "fSCK",
+      "SPI clock frequency",
+      "Slave mode transmitter/full duplex, 2.7 < VDD < 3.6 V",
+      "-",
+      "-",
+      "45/31(3)",
+      "MHz"
+    ],
+    [
+      "fSCK",
+      "SPI clock frequency",
+      "Slave mode transmitter/full duplex, 1.62 <VDD < 3.6 V",
+      "-",
+      "-",
+      "29/18(3)",
+      "MHz"
+    ],
+    [
+      "tsu(SS)",
+      "SS setup time",
+      "Slave mode",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(SS)",
+      "SS hold time",
+      "Slave mode",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(MI)",
+      "Data input setup time",
+      "Master mode",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(SI)",
+      "Data input setup time",
+      "Slave mode",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(MI)",
+      "Data input hold time",
+      "Master mode",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(SI)",
+      "-",
+      "Slave mode",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "ta(SO)",
+      "Data output access time",
+      "Slave mode",
+      "9",
+      "13",
+      "27",
+      "ns"
+    ],
+    [
+      "tdis(SO)",
+      "Data output disable time",
+      "Slave mode",
+      "0",
+      "1",
+      "5",
+      "ns"
+    ],
+    [
+      "tv(SO)",
+      "Data output valid time",
+      "Slave mode, 2.7 < VDD < 3.6 V",
+      "-",
+      "9/15(3)",
+      "11/16(3)",
+      "ns"
+    ],
+    [
+      "tv(SO)",
+      "Data output valid time",
+      "Slave mode, 1.62 < VDD < 3.6 V",
+      "-",
+      "9/15(3)",
+      "17/27(3)",
+      "ns"
+    ],
+    [
+      "tv(MO)",
+      "-",
+      "Master mode, 2.7 < VDD < 3.6 V",
+      "-",
+      "1/5(3)",
+      "1.5/7(3)",
+      "ns"
+    ],
+    [
+      "tv(MO)",
+      "-",
+      "Master mode, 1.62 < VDD < 3.6 V",
+      "-",
+      "1/5(3)",
+      "2/13(3)",
+      "ns"
+    ],
+    [
+      "th(SO)",
+      "Data output hold time",
+      "Slave mode, 1.62 < VDD < 3.6 V",
+      "7",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "th(MO)",
+      "-",
+      "Master mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0286,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. Using PC3_C / PC2_C (not available on all packages)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_116",
+    "is_continued": true,
+    "pages": [
+      154,
+      155
+    ],
+    "rows_count": 20,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0286
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "table_id": "table_38",
+  "document": "DS13139 Rev 8 - Table 38. Typical current consumption in Autonomous mode",
+  "rev": "Rev 8",
+  "table_number": "38",
+  "title": "Table 38. Typical current consumption in Autonomous mode",
+  "page": 97,
+  "section": "6.3.7 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=97",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 38. Typical current consumption in Autonomous mode — section 6.3.7 Supply current characteristics. Symbol, Parameter, Conditions(1), Conditions(1), frcc_hclk4 (AHB4) (MHz), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions(1)",
+      "Conditions(1)",
+      "frcc_hclk4 (AHB4) (MHz)",
+      "Typ",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "IDD",
+        "Supply current in Autonomous mode",
+        "Run, DStop mode",
+        "VOS3",
+        "64",
+        "2.98",
+        "mA"
+      ],
+      [
+        "IDD",
+        "Supply current in Autonomous mode",
+        "Run, DStop2 mode",
+        "VOS3",
+        "64",
+        "2.64",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results, unless otherwise specified."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

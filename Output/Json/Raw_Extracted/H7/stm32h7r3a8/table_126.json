@@ -1,0 +1,196 @@
+{
+  "table_id": "table_126",
+  "caption": "Table 126. SAI characteristics",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 273,
+  "merged_pages": [
+    273
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=273",
+  "section": "6.3.33 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Max (2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f MCK",
+      "SAI Main clock output",
+      "-",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "SAI clock frequency(3)",
+      "Master transmitter",
+      "-",
+      "34",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "SAI clock frequency(3)",
+      "Master receiver",
+      "-",
+      "38",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "SAI clock frequency(3)",
+      "Slave transmitter",
+      "-",
+      "35",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "SAI clock frequency(3)",
+      "Slave receiver",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "t v(FS)",
+      "F valid time S",
+      "Master mode, 2.7 V ≤ V ≤ 3.6 V DD",
+      "-",
+      "12",
+      "ns"
+    ],
+    [
+      "t v(FS)",
+      "F valid time S",
+      "Master mode, 1.71 V ≤ V ≤ 3.6 V DD",
+      "-",
+      "13",
+      "ns"
+    ],
+    [
+      "t su(FS)",
+      "F setup time S",
+      "Slave mode",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(FS)",
+      "F hold time S",
+      "Master mode",
+      "7",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(FS)",
+      "F hold time S",
+      "Slave mode",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SD_A_MR)",
+      "Data input setup time",
+      "Master receiver",
+      "2.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SD_B_SR)",
+      "Data input setup time",
+      "Slave receiver",
+      "1.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SD_A_MR)",
+      "Data input hold time",
+      "Master receiver",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SD_B_SR)",
+      "Data input hold time",
+      "Slave receiver",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(SD_B_ST)",
+      "Data output valid time",
+      "Slave transmitter (after enable edge)",
+      "-",
+      "14",
+      "ns"
+    ],
+    [
+      "t h(SD_B_ST)",
+      "Data output hold time",
+      "Slave transmitter (after enable edge)",
+      "7.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(SD_A_MT)",
+      "Data output valid time",
+      "Master transmitter (after enable edge)",
+      "-",
+      "14.5",
+      "ns"
+    ],
+    [
+      "t h(SD_A_MT)",
+      "Data output hold time",
+      "Master transmitter (after enable edge)",
+      "7",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "2. At VOS Low, these values are degraded by up to 7%.",
+      "3. APB clock frequency must be at least twice SAI clock frequency. DS14360 Rev 6 273/322"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_126",
+    "is_continued": false,
+    "pages": [
+      273
+    ],
+    "rows_count": 18,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

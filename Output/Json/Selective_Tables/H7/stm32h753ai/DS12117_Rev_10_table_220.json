@@ -1,0 +1,47 @@
+{
+  "table_id": "table_220",
+  "document": "DS12117 Rev 10 - Table 220. TFBGA240+25 - Example of PCB design rules",
+  "rev": "Rev 10",
+  "table_number": "220",
+  "title": "Table 220. TFBGA240+25 - Example of PCB design rules",
+  "page": 343,
+  "section": "8.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=343",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 220. TFBGA240+25 - Example of PCB design rules — section 8.1 Device marking. Dimension, Values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.8 mm"
+      ],
+      [
+        "Dpad",
+        "0.400 mm"
+      ],
+      [
+        "Dsm",
+        "0.470 mm typical (depends on solder mask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.400 mm"
+      ],
+      [
+        "Stencil thickness",
+        "Between 0.100 mm and 0.125 mm"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

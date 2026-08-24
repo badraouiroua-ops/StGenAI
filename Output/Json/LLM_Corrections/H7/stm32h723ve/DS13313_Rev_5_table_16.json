@@ -1,0 +1,197 @@
+{
+  "table_id": "table_16",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "tRSTTEMPO(1)",
+      "row_index": 0,
+      "analyse_visuelle": "Correction du symbole tRSTTEMPO(1) mal assemblé.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (1) RSTTEMPO",
+          "nouvelle_valeur": "tRSTTEMPO(1)",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "IDD_BOR_PVD(1)",
+      "row_index": 25,
+      "analyse_visuelle": "Correction du symbole IDD_BOR_PVD(1) mal assemblé et suppression des espaces superflus dans VDDA/VDD.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I (1) DD_BOR_PVD",
+          "nouvelle_valeur": "IDD_BOR_PVD(1)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "BOR and PVD consumption from V DD",
+          "nouvelle_valeur": "BOR and PVD consumption from VDD",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "IDD_POR_PVD",
+      "row_index": 26,
+      "analyse_visuelle": "Correction de V DD en VDD dans le paramètre.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "POR and PVD consumption from V DD",
+          "nouvelle_valeur": "POR and PVD consumption from VDD",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VAVM_0 threshold 0",
+      "row_index": 27,
+      "analyse_visuelle": "Le texte VDDA a été fragmenté en 'V threshold 0 DDA'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Analog voltage detector for V threshold 0 DDA",
+          "nouvelle_valeur": "Analog voltage detector for VDDA threshold 0",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VAVM_0 threshold 0 (falling)",
+      "row_index": 28,
+      "analyse_visuelle": "Le texte VDDA a été fragmenté en 'V threshold 0 DDA'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Analog voltage detector for V threshold 0 DDA",
+          "nouvelle_valeur": "Analog voltage detector for VDDA threshold 0",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VAVM_1 threshold 1",
+      "row_index": 29,
+      "analyse_visuelle": "Le texte VDDA a été fragmenté en 'V threshold 1 DDA'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Analog voltage detector for V threshold 1 DDA",
+          "nouvelle_valeur": "Analog voltage detector for VDDA threshold 1",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VAVM_1 threshold 1 (falling)",
+      "row_index": 30,
+      "analyse_visuelle": "Le texte VDDA a été fragmenté en 'V threshold 1 DDA'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Analog voltage detector for V threshold 1 DDA",
+          "nouvelle_valeur": "Analog voltage detector for VDDA threshold 1",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VAVM_2 threshold 2",
+      "row_index": 31,
+      "analyse_visuelle": "Le texte VDDA a été fragmenté en 'V threshold 2 DDA'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Analog voltage detector for V threshold 2 DDA",
+          "nouvelle_valeur": "Analog voltage detector for VDDA threshold 2",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VAVM_2 threshold 2 (falling)",
+      "row_index": 32,
+      "analyse_visuelle": "Le texte VDDA a été fragmenté en 'V threshold 2 DDA'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Analog voltage detector for V threshold 2 DDA",
+          "nouvelle_valeur": "Analog voltage detector for VDDA threshold 2",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VAVM_3 threshold 3",
+      "row_index": 33,
+      "analyse_visuelle": "Le texte VDDA a été fragmenté en 'V threshold 3 DDA'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Analog voltage detector for V threshold 3 DDA",
+          "nouvelle_valeur": "Analog voltage detector for VDDA threshold 3",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VAVM_3 threshold 3 (falling)",
+      "row_index": 34,
+      "analyse_visuelle": "Le texte VDDA a été fragmenté en 'V threshold 3 DDA'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Analog voltage detector for V threshold 3 DDA",
+          "nouvelle_valeur": "Analog voltage detector for VDDA threshold 3",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "Vhyst_VDDA",
+      "row_index": 35,
+      "analyse_visuelle": "Le texte VDDA a été mal découpé en 'V voltage DDA detector'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Hysteresis of V voltage DDA detector",
+          "nouvelle_valeur": "Hysteresis of VDDA voltage detector",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "IDD_PVM",
+      "row_index": 36,
+      "analyse_visuelle": "Suppression de l'espace dans VDD(1).",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "PVM consumption from V DD(1)",
+          "nouvelle_valeur": "PVM consumption from VDD(1)",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "IDD_VDDA",
+      "row_index": 37,
+      "analyse_visuelle": "Le texte VDDA(1) a été découpé en 'V (1) DDA'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Voltage detector consumption on V (1) DDA",
+          "nouvelle_valeur": "Voltage detector consumption on VDDA(1)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

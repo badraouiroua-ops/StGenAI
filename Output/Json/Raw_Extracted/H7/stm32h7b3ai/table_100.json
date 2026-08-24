@@ -1,0 +1,57 @@
+{
+  "table_id": "table_100",
+  "caption": "Table 100. Analog temperature sensor calibration values",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 156,
+  "merged_pages": [
+    156
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=156",
+  "section": "6.3.24 Analog temperature sensor characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Memory address"
+  ],
+  "rows": [
+    [
+      "TS_CAL1",
+      "Temperature sensor raw data acquired value at 30 °C, VDDA=3.3 V",
+      "0x08FF F814 - 0x08FF F816"
+    ],
+    [
+      "TS_CAL2",
+      "Temperature sensor raw data acquired value at 130 °C, VDDA=3.3 V",
+      "0x08FF F818 - 0x08FF F81A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. Guaranteed by characterization results. DS13139 - Rev 8 page 156/238"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_100",
+    "is_continued": false,
+    "pages": [
+      156
+    ],
+    "rows_count": 2,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

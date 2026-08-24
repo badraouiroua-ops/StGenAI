@@ -1,0 +1,28 @@
+{
+  "table_id": "table_18",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "VREFIN_CAL Raw data acquired at temperature of 30 °C, VDDA = 3.3 V",
+      "row_index": 0,
+      "analyse_visuelle": "Dans la colonne Symbol, le texte est 'VREFIN_CAL' (indice collé). Dans la colonne Parameter, 'VDDA' a été scindé et l'indice 'DDA' s'est retrouvé après la tension ('V = 3.3 V DDA' au lieu de 'VDDA = 3.3 V').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V REFIN_CAL",
+          "nouvelle_valeur": "VREFIN_CAL",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Raw data acquired at temperature of 30 °C, V = 3.3 V DDA",
+          "nouvelle_valeur": "Raw data acquired at temperature of 30 °C, VDDA = 3.3 V",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

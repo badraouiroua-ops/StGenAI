@@ -1,0 +1,134 @@
+{
+  "table_id": "table_53",
+  "caption": "Table 53. Low-power mode wakeup timings",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 189,
+  "merged_pages": [
+    189
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=189",
+  "section": "6.3.8 Wake-up time from low-power modes",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Typ(1)",
+    "Max(1)(2)(3)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t (4) WUSLEEP",
+      "Wakeup from Sleep",
+      "-",
+      "15",
+      "16",
+      "CPU clock cycles"
+    ],
+    [
+      "t (4) WUDSTOP",
+      "Wakeup from Stop",
+      "SVOS low, HSI, Flash memory in normal mode",
+      "42.5",
+      "46.0",
+      "µs"
+    ],
+    [
+      "t (4) WUDSTOP",
+      "Wakeup from Stop",
+      "SVOS low, HSI, Flash memory in low-power mode",
+      "42.5",
+      "46.0",
+      "µs"
+    ],
+    [
+      "t (4) WUDSTOP",
+      "Wakeup from Stop",
+      "SVOS high, HSI, Flash memory in normal mode",
+      "16.0",
+      "17.5",
+      "µs"
+    ],
+    [
+      "t (4) WUDSTOP",
+      "Wakeup from Stop",
+      "SVOS high, HSI, Flash memory in low-power mode",
+      "20.0",
+      "21.0",
+      "µs"
+    ],
+    [
+      "t (4) WUDSTOP",
+      "Wakeup from Stop",
+      "SVOS low, CSI, Flash memory in normal mode",
+      "65.0",
+      "71.0",
+      "µs"
+    ],
+    [
+      "t (4) WUDSTOP",
+      "Wakeup from Stop",
+      "SVOS low, CSI, Flash memory in low power mode",
+      "71.5",
+      "77.5",
+      "µs"
+    ],
+    [
+      "t (4) WUDSTOP",
+      "Wakeup from Stop",
+      "SVOS high, CSI, Flash memory in normal mode",
+      "32.0",
+      "35.0",
+      "µs"
+    ],
+    [
+      "t (4) WUDSTOP",
+      "Wakeup from Stop",
+      "SVOS high, CSI, Flash memory in low-power mode",
+      "48.5",
+      "54.0",
+      "µs"
+    ],
+    [
+      "t (4) WUSTDBY",
+      "Wakeup from Standby mode",
+      "-",
+      "280.0",
+      "535.0",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Measurements are made at -40°C under worst-case conditions.",
+      "3. Maximum values are for the LDO configuration.",
+      "4. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction.."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_53",
+    "is_continued": false,
+    "pages": [
+      189
+    ],
+    "rows_count": 10,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

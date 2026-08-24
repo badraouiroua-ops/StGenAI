@@ -1,0 +1,169 @@
+{
+  "table_id": "table_23",
+  "caption": "Table 23. Typical consumption in Run mode and corresponding performance versus code position",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 101,
+  "merged_pages": [
+    101
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=101",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions / Peripheral",
+    "Conditions / Code",
+    "f rcc_c_c k (MHz)",
+    "Coremark",
+    "Typ",
+    "Unit",
+    "I / DD Coremark",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "ITCM",
+      "550",
+      "2778",
+      "145",
+      "mA",
+      "52.2",
+      "µA/ Core- mark"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "FLASH",
+      "550",
+      "2778",
+      "145",
+      "mA",
+      "52.2",
+      "µA/ Core- mark"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "AXI SRAM",
+      "550",
+      "2778",
+      "145",
+      "mA",
+      "52.2",
+      "µA/ Core- mark"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "SRAM 1",
+      "550",
+      "2778",
+      "150",
+      "mA",
+      "54.0",
+      "µA/ Core- mark"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "SRAM 4",
+      "550",
+      "2778",
+      "145",
+      "mA",
+      "52.2",
+      "µA/ Core- mark"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled cache OFF",
+      "FLASH",
+      "550",
+      "923",
+      "99",
+      "mA",
+      "107.3",
+      "µA/ Core- mark"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled cache OFF",
+      "AXI SRAM",
+      "550",
+      "1271",
+      "105",
+      "mA",
+      "82.6",
+      "µA/ Core- mark"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled cache OFF",
+      "SRAM 1",
+      "550",
+      "790",
+      "96.5",
+      "mA",
+      "122.2",
+      "µA/ Core- mark"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled cache OFF",
+      "SRAM 4",
+      "550",
+      "723",
+      "89.5",
+      "mA",
+      "123.8",
+      "µA/ Core- mark"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 10,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 10,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. CPU_FREQ_BOOST is enabled. DS13313 Rev 5 101/236",
+      "3. The LSE is in Low-drive mode. I/O system current consumption"
+    ],
+    "_legend": [
+      "versus code position"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_23",
+    "is_continued": false,
+    "pages": [
+      101
+    ],
+    "rows_count": 9,
+    "cols_count": 10,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

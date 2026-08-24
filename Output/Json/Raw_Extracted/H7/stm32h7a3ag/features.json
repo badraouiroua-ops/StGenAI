@@ -1,0 +1,114 @@
+{
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "pdf_type": 2,
+  "doc_ref": "DS13195",
+  "revision": "Rev 8",
+  "date": "May 2022",
+  "title": "32-bit Arm® Cortex®-M7 280 MHz MCUs, up to 2-Mbyte Flash memory, 1.4- Mbyte RAM, 46 com. and analog interfaces, SMPS",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "page": 1,
+  "core": "Cortex-M7",
+  "fpu": true,
+  "max_frequency_mhz": 140,
+  "flash_kb": 2048,
+  "ram_kb": 128,
+  "voltage_min_v": 1.62,
+  "voltage_max_v": 3.6,
+  "operating_temp_c": [],
+  "packages": [
+    "LQFP176 (24 x 24 mm)",
+    "TFBGA100 (10 x 10 mm)",
+    "TFBGA216 (14 x 14 mm)",
+    "TFBGA225 (20 x 20 mm)",
+    "UFBGA176 (10 x 10 mm)",
+    "WLCSP132 (7 x 7 mm)",
+    "LQFP100 (14 x 14 mm)",
+    "LQFP144 (20 x 20 mm)",
+    "LQFP64 (10 x 10 mm)",
+    "UFBGA169 (7 x 7 mm)"
+  ],
+  "device_summary": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H7A3xI",
+        "STM32H7A3RI"
+      ],
+      [
+        "STM32H7A3xI",
+        "STM32H7A3VI"
+      ],
+      [
+        "STM32H7A3xI",
+        "STM32H7A3QI"
+      ],
+      [
+        "STM32H7A3xI",
+        "STM32H7A3ZI"
+      ],
+      [
+        "STM32H7A3xI",
+        "STM32H7A3AI"
+      ],
+      [
+        "STM32H7A3xI",
+        "STM32H7A3II"
+      ],
+      [
+        "STM32H7A3xI",
+        "STM32H7A3NI"
+      ],
+      [
+        "STM32H7A3xI",
+        "STM32H7A3LI"
+      ],
+      [
+        "STM32H7A3xG",
+        "STM32H7A3RG"
+      ],
+      [
+        "STM32H7A3xG",
+        "STM32H7A3VG"
+      ],
+      [
+        "STM32H7A3xG",
+        "STM32H7A3ZG"
+      ],
+      [
+        "STM32H7A3xG",
+        "STM32H7A3AG"
+      ],
+      [
+        "STM32H7A3xG",
+        "STM32H7A3IG"
+      ],
+      [
+        "STM32H7A3xG",
+        "STM32H7A3NG"
+      ],
+      [
+        "STM32H7A3xG",
+        "STM32H7A3LG"
+      ]
+    ]
+  },
+  "extraction_meta": {
+    "source_pages": [
+      1,
+      2,
+      3
+    ],
+    "extraction_method": "regex_type2",
+    "text_extraction_reliable": true,
+    "packages_source": "text",
+    "confidence": "high",
+    "missing_fields": [
+      "operating_temp_c"
+    ],
+    "low_confidence_fields": []
+  }
+}

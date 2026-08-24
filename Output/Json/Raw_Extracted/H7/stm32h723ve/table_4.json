@@ -1,0 +1,176 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. Timer feature comparison",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 40,
+  "merged_pages": [
+    40,
+    41
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=40",
+  "section": "3.31 Timers and watchdogs",
+  "headers": [
+    "Timer type",
+    "Timer",
+    "Counter resolution",
+    "Counter type",
+    "Prescaler factor",
+    "DMA request generation",
+    "Capture/ compare channels",
+    "Comple- mentary output",
+    "Max interface clock (MHz)",
+    "Max timer clock (MHz) (1)"
+  ],
+  "rows": [
+    [
+      "Advanced -control",
+      "TIM1, TIM8",
+      "16-bit",
+      "Up, Down, Up/down",
+      "Any integer between 1 and 65536",
+      "Yes",
+      "4",
+      "Yes",
+      "137.5",
+      "275"
+    ],
+    [
+      "General purpose",
+      "TIM2, TIM5, TIM23, TIM24",
+      "32-bit",
+      "Up, Down, Up/down",
+      "Any integer between 1 and 65536",
+      "Yes",
+      "4",
+      "No",
+      "137.5",
+      "275"
+    ],
+    [
+      "General purpose",
+      "TIM3, TIM4",
+      "16-bit",
+      "Up, Down, Up/down",
+      "Any integer between 1 and 65536",
+      "Yes",
+      "4",
+      "No",
+      "137.5",
+      "275"
+    ],
+    [
+      "General purpose",
+      "TIM12",
+      "16-bit",
+      "Up",
+      "Any integer between 1 and 65536",
+      "No",
+      "2",
+      "No",
+      "137.5",
+      "275"
+    ],
+    [
+      "General purpose",
+      "TIM13, TIM14",
+      "16-bit",
+      "Up",
+      "Any integer between 1 and 65536",
+      "No",
+      "1",
+      "No",
+      "137.5",
+      "275"
+    ],
+    [
+      "General purpose",
+      "TIM15",
+      "16-bit",
+      "Up",
+      "Any integer between 1 and 65536",
+      "Yes",
+      "2",
+      "1",
+      "137.5",
+      "275"
+    ],
+    [
+      "General purpose",
+      "TIM16, TIM17",
+      "16-bit",
+      "Up",
+      "Any integer between 1 and 65536",
+      "Yes",
+      "1",
+      "1",
+      "137.5",
+      "275"
+    ],
+    [
+      "Basic",
+      "TIM6, TIM7",
+      "16-bit",
+      "Up",
+      "Any integer between 1 and 65536",
+      "Yes",
+      "0",
+      "No",
+      "137.5",
+      "275"
+    ],
+    [
+      "Low- power timer",
+      "LPTIM1, LPTIM2, LPTIM3, LPTIM4, LPTIM5",
+      "16-bit",
+      "Up",
+      "1, 2, 4, 8, 16, 32, 64, 128",
+      "No",
+      "0",
+      "No",
+      "137.5",
+      "275"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 10,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 10,
+    "continuation": {
+      "base_cols": 10,
+      "cont_cols_raw": 10,
+      "target_cols": 10,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. The maximum timer clock is up to 275 MHz depending on the TIMPRE bit in the RCC_CFGR register and D2PRE1/2 bits in RCC_D2CFGR register."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_4",
+    "is_continued": true,
+    "pages": [
+      40,
+      41
+    ],
+    "rows_count": 9,
+    "cols_count": 10,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

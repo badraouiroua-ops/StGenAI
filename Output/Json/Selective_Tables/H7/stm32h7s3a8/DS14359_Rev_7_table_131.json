@@ -1,0 +1,126 @@
+{
+  "table_id": "table_131",
+  "document": "DS14359 Rev 7 - Table 131. Dynamic characteristics: eMMC characteristics VDD = 1.71V to 1.9V",
+  "rev": "Rev 7",
+  "table_number": "131",
+  "title": "Table 131. Dynamic characteristics: eMMC characteristics VDD = 1.71V to 1.9V",
+  "page": 280,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=280",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 131. Dynamic characteristics: eMMC characteristics VDD = 1.71V to 1.9V — section 6.3.33 Communication interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f PP",
+        "Clock frequency in data transfer mode",
+        "-",
+        "-",
+        "-",
+        "130(3)",
+        "MHz"
+      ],
+      [
+        "t W(CKL)",
+        "Clock low time",
+        "f =52 MHz PP",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t W(CKH)",
+        "Clock high time",
+        "f =52 MHz PP",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode"
+      ],
+      [
+        "t ISU",
+        "Input setup time HS",
+        "-",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t IH",
+        "Input hold time HS",
+        "-",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t (4) IDW",
+        "Input valid window (variable window)",
+        "-",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode"
+      ],
+      [
+        "t OVD",
+        "Output valid time HS",
+        "-",
+        "-",
+        "6",
+        "6.5",
+        "ns"
+      ],
+      [
+        "t OHD",
+        "Output hold time HS",
+        "-",
+        "4",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS low, these values are degraded by up to 7%.",
+      "3. C = 20 pF. L",
+      "4. The minimum window of time where the data needs to be stable for proper sampling in tuning mode."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

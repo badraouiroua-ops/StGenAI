@@ -1,0 +1,41 @@
+{
+  "table_id": "table_122",
+  "document": "DS14360 Rev 6 - Table 122. I2C analog filter characteristics",
+  "rev": "Rev 6",
+  "table_number": "122",
+  "title": "Table 122. I2C analog filter characteristics",
+  "page": 265,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=265",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 122. I2C analog filter characteristics — section 6.3.33 Communication interfaces. Symbol, Parameter, Min, Max(3), Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max(3)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t AF",
+        "Maximum pulse width of spikes that are suppressed by analog filter",
+        "50(4)",
+        "165(5)",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "3. At VOS low, the performance can be degraded by up to 7% compared to VOS high.",
+      "4. Spikes with widths below t are filtered. AF(min)",
+      "5. Spikes with widths above t are not filtered. AF(max)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

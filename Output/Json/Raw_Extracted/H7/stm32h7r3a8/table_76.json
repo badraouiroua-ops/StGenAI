@@ -1,0 +1,427 @@
+{
+  "table_id": "table_76",
+  "caption": "Table 76. Output timing characteristics V 1.2 V range (HSLV OFF) 213 DDXSPIx",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 213,
+  "merged_pages": [
+    213,
+    214
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=213",
+  "section": "6.3.15 I/O port characteristics",
+  "headers": [
+    "Speed",
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 50 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "67",
+      "MHz"
+    ],
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 40 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 30 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "120",
+      "MHz"
+    ],
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 20 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "155",
+      "MHz"
+    ],
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 10 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "200",
+      "MHz"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 50 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "5.0",
+      "ns"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 40 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "4.1",
+      "ns"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 30 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "3.3",
+      "ns"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 20 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "2.5",
+      "ns"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 10 pF, 1.71 V ≤ V ≤2 V DD",
+      "-",
+      "1.8",
+      "ns"
+    ],
+    [
+      "01",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 50 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "5",
+      "MHz"
+    ],
+    [
+      "01",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 40 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "5",
+      "MHz"
+    ],
+    [
+      "01",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 30 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "5",
+      "MHz"
+    ],
+    [
+      "01",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 20 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "5",
+      "MHz"
+    ],
+    [
+      "01",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 10 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "5",
+      "MHz"
+    ],
+    [
+      "01",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 50 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "24.5",
+      "ns"
+    ],
+    [
+      "01",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 40 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "22.2",
+      "ns"
+    ],
+    [
+      "01",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 30 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "20.0",
+      "ns"
+    ],
+    [
+      "01",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 20 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "17.8",
+      "ns"
+    ],
+    [
+      "01",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 10 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "15.0",
+      "ns"
+    ],
+    [
+      "10",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 50 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "10",
+      "MHz"
+    ],
+    [
+      "10",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 40 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "10",
+      "MHz"
+    ],
+    [
+      "10",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 30 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "10",
+      "MHz"
+    ],
+    [
+      "10",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 20 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "10",
+      "MHz"
+    ],
+    [
+      "10",
+      "F (2) max",
+      "Maximum frequency",
+      "C = 10 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "10",
+      "MHz"
+    ],
+    [
+      "10",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 50 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "16.2",
+      "ns"
+    ],
+    [
+      "10",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 40 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "14.3",
+      "ns"
+    ],
+    [
+      "10",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 30 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "12.2",
+      "ns"
+    ],
+    [
+      "10",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 20 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "10.0",
+      "ns"
+    ],
+    [
+      "10",
+      "t/t(3) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 10 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "7.9",
+      "ns"
+    ],
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 50 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "20",
+      "MHz"
+    ],
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 40 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "23",
+      "MHz"
+    ],
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 30 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "25",
+      "MHz"
+    ],
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 20 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "28",
+      "MHz"
+    ],
+    [
+      "11",
+      "F (2)(4) max",
+      "Maximum frequency",
+      "C = 10 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "30",
+      "MHz"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 50 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "14.0",
+      "ns"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 40 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "12.0",
+      "ns"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 30 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "10.0",
+      "ns"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 20 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "8.0",
+      "ns"
+    ],
+    [
+      "11",
+      "t/t(3)(4) r f",
+      "Output high to low level fall time and output low to high level rise time",
+      "C = 10 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "-",
+      "6.0",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. The maximum frequency is defined with the following conditions: (t+t) ≤ 2/3 T",
+      "3. The fall and rise times are defined, respectively, between 90 and 10% and between 10 and 90% of the output waveform.",
+      "4. Compensation system enabled. T a ble 76. Output timing characteristics V 1.2 V range (HSLV OFF)(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_76",
+    "is_continued": true,
+    "pages": [
+      213,
+      214
+    ],
+    "rows_count": 40,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

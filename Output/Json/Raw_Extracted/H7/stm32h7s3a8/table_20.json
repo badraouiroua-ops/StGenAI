@@ -1,0 +1,167 @@
+{
+  "table_id": "table_20",
+  "caption": "Table 20. Legend/abbreviations used in the pinout table",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 91,
+  "merged_pages": [
+    91
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=91",
+  "section": "4.1 Pin descriptions",
+  "headers": [
+    "Name",
+    "Name",
+    "Abbreviation",
+    "Definition"
+  ],
+  "rows": [
+    [
+      "Pin name",
+      "Pin name",
+      "Unless otherwise specified in brackets below the pin name, the pin function during and after reset is the same as the actual pin name",
+      "Unless otherwise specified in brackets below the pin name, the pin function during and after reset is the same as the actual pin name"
+    ],
+    [
+      "Pin type",
+      "Pin type",
+      "S",
+      "Supply pin"
+    ],
+    [
+      "Pin type",
+      "Pin type",
+      "I",
+      "Input only pin"
+    ],
+    [
+      "Pin type",
+      "Pin type",
+      "I/O",
+      "Input/output pin"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "FT",
+      "5V-tolerant I/O"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "TT",
+      "3.6V-tolerant I/O"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "B",
+      "Dedicated BOOT pin"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "RST",
+      "Bidirectional reset pin with embedded weak pull-up resistor"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "Option for TT or FT I/Os(1)",
+      "Option for TT or FT I/Os(1)"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_a",
+      "I/O, with analog switch function supplied by V DDA"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_f",
+      "I/O, Fm+ capable"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_h",
+      "I/O with high-speed low-voltage mode (HSLV)"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_s",
+      "I/O supplied only by V DDXSPIx"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_t",
+      "I/O with tamper function functional in VBAT mode"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_c",
+      "I/O power delivery"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_d",
+      "I/O i/o dead battery"
+    ],
+    [
+      "I/O structure",
+      "I/O structure",
+      "_u",
+      "I/O with USB function supplied by V DD33USB"
+    ],
+    [
+      "Notes",
+      "Notes",
+      "Unless otherwise specified by a note, all I/Os are set as analog inputs during and after reset.",
+      "Unless otherwise specified by a note, all I/Os are set as analog inputs during and after reset."
+    ],
+    [
+      "Pin functions",
+      "Alternate functions",
+      "Functions selected through GPIOx_AFR registers",
+      "Functions selected through GPIOx_AFR registers"
+    ],
+    [
+      "Pin functions",
+      "Additional functions",
+      "Functions directly selected/enabled through peripheral registers",
+      "Functions directly selected/enabled through peripheral registers"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. The related I/O structures in the table below are a concatenation of various options. Examples: FT_hat, FT_fs, TT_a. DS14359 Rev 7 91/325"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_20",
+    "is_continued": false,
+    "pages": [
+      91
+    ],
+    "rows_count": 20,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

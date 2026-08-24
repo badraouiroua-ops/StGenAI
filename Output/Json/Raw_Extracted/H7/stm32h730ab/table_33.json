@@ -1,0 +1,165 @@
+{
+  "table_id": "table_33",
+  "caption": "Table 33. Low-power mode wakeup timings",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 134,
+  "merged_pages": [
+    134
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=134",
+  "section": "6.3.9 Wake-up time from low-power modes",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Typ(1)",
+    "Max(1) (2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t (3) WUSLEEP",
+      "Wakeup from Sleep",
+      "-",
+      "14.00",
+      "15.00",
+      "CPU clock cycles"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS3, HSI, flash memory in Normal mode",
+      "4.6",
+      "6.2",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS3, HSI, flash memory in low-power mode",
+      "12.4",
+      "17.4",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS4, HSI, flash memory in Normal mode",
+      "15.5",
+      "21.1",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS4, HSI, flash memory in low-power mode",
+      "23.3",
+      "31.8",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS5, HSI, flash memory in Normal mode",
+      "39.1",
+      "52.6",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS5, HSI, flash memory in low-power mode",
+      "39.1",
+      "52.7",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS3, CSI, flash memory in Normal mode",
+      "30.0",
+      "41.6",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS3, CSI, flash memory in low-power mode",
+      "40.6",
+      "55.0",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS4, CSI, flash memory in Normal mode",
+      "41.0",
+      "55.4",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS4, CSI, flash memory in low-power mode",
+      "51.5",
+      "68.8",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS5, CSI, flash memory in Normal mode",
+      "67.3",
+      "89.5",
+      "µs"
+    ],
+    [
+      "t (3) WUSTOP",
+      "Wakeup from Stop mode",
+      "SVOS5, CSI, flash memory in low-power mode",
+      "67.2",
+      "89.5",
+      "µs"
+    ],
+    [
+      "t (3) WUSTDBY",
+      "Wakeup from Standby mode",
+      "-",
+      "400.0",
+      "504.3",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The maximum values have been measured at -40 °C, in worst conditions.",
+      "3. The wake-up times are measured from the wake-up event to the point in which the application code reads the first 134/270 DS13315 Rev 5"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_33",
+    "is_continued": false,
+    "pages": [
+      134
+    ],
+    "rows_count": 14,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

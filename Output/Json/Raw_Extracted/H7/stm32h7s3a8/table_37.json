@@ -1,0 +1,202 @@
+{
+  "table_id": "table_37",
+  "caption": "Table 37. Typical and maximum current consumption in Run mode, code with data processing running from AXISRAM3, cache ON",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 171,
+  "merged_pages": [
+    171
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=171",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "frcc_c_ck (MHz)",
+    "Typ LDO",
+    "Typ SMPS",
+    "Max(2) LDO / TJ = 25°C",
+    "Max(2) LDO / TJ = 85°C",
+    "Max(2) LDO / TJ = 105°C",
+    "Max(2) LDO / TJ = 130°C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS high",
+      "600",
+      "130.0",
+      "69.0",
+      "140.0",
+      "240.0",
+      "315.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS high",
+      "400",
+      "89.5",
+      "47.5",
+      "99.5",
+      "200.0",
+      "275.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS high(3)",
+      "400",
+      "92.0",
+      "49.0",
+      "105.0",
+      "205.0",
+      "280.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS low",
+      "400",
+      "77.5",
+      "38.5",
+      "96.0",
+      "195.0",
+      "265.0",
+      "410.0",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS low",
+      "300",
+      "60.5",
+      "30.5",
+      "78.5",
+      "175.0",
+      "245.0",
+      "395.0",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS high",
+      "600",
+      "180.0",
+      "94.5",
+      "190.0",
+      "285.0",
+      "360.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS high",
+      "400",
+      "125.0",
+      "65.5",
+      "135.0",
+      "235.0",
+      "310.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS high(3)",
+      "400",
+      "125.0",
+      "67.0",
+      "135.0",
+      "235.0",
+      "310.0",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS low",
+      "400",
+      "105.0",
+      "52.5",
+      "130.0",
+      "225.0",
+      "295.0",
+      "440.0",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS low",
+      "300",
+      "82.5",
+      "41.0",
+      "105.0",
+      "200.0",
+      "270.0",
+      "415.0",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 12,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 12,
+    "_notes": [
+      "2. Guaranteed by characterization results unless otherwise specified. Refer to Section 6.3.3: SMPS step-down converter for the SMPS maximum consumption.",
+      "3. ECC is enabled. DS14359 Rev 7 171/325"
+    ],
+    "_legend": [
+      "running from AXISRAM3, cache ON (1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_37",
+    "is_continued": false,
+    "pages": [
+      171
+    ],
+    "rows_count": 10,
+    "cols_count": 12,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

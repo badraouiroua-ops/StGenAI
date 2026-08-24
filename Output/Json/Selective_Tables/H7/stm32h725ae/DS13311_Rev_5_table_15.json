@@ -1,0 +1,89 @@
+{
+  "table_id": "table_15",
+  "document": "DS13311 Rev 5 - Table 15. VCAP operating conditions",
+  "rev": "Rev 5",
+  "table_number": "15",
+  "title": "Table 15. VCAP operating conditions",
+  "page": 119,
+  "section": "6.3.2 VCAP external capacitor",
+  "section_title": "VCAP external capacitor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=119",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 15. VCAP operating conditions — section 6.3.2 VCAP external capacitor. Figure, 16. External capacitor C EXT, , .",
+  "table_content": {
+    "headers": [
+      "Figure",
+      "16. External capacitor C EXT",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "Figure",
+        "C",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "R L eak",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "R L eak",
+        "",
+        "MS19044V2"
+      ],
+      [
+        "1. Legend: ESR is the equivalent series re",
+        "sistance.",
+        "",
+        ""
+      ],
+      [
+        "T able 15.",
+        "VCAP operating conditions(",
+        "1)",
+        ""
+      ],
+      [
+        "CEXT Capacitan",
+        "ce of external capacitor",
+        "2.2 µF",
+        "(2)(3)"
+      ],
+      [
+        "ESR ESR o",
+        "f external capacitor",
+        "< 100",
+        "mΩ"
+      ]
+    ],
+    "notes": [
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated.",
+      "3. If a third VCAP pin is available on the package, it must be connected to the other VCAP pins but no additional capacitor is required."
+    ],
+    "legend": [
+      "CEXT Capacitance of external capacitor 2.2 µF(2)(3)",
+      "ESR ESR of external capacitor < 100 mΩ",
+      "replaced by two 100 nF decoupling capacitors.",
+      "additional capacitor is required.",
+      "The devices embed a high power efficiency SMPS step-down converter. SMPS",
+      "characteristics for external usage are given in Table 17. The SMPS step-down converter",
+      "requires external components that are fully described in AN5419 “Getting started with",
+      "STM32H723/733, STM32H725/735 and STM32H730 Value Line hardware development”."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

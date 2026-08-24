@@ -1,0 +1,212 @@
+{
+  "table_id": "table_129",
+  "caption": "Table 129. WLCSP - 115 balls, 3.73 x 4.15 mm, 0.35 mm pitch, wafer level chip scale mechanical data",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 259,
+  "merged_pages": [
+    259
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=259",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Symbol",
+    "millimeters / Min",
+    "millimeters / Typ",
+    "millimeters / Max",
+    "inches(1) / Min",
+    "inches(1) / Typ",
+    "inches(1) / Max"
+  ],
+  "rows": [
+    [
+      "A(2)",
+      "-",
+      "-",
+      "0.58",
+      "-",
+      "-",
+      "0.023"
+    ],
+    [
+      "A1",
+      "-",
+      "0.17",
+      "-",
+      "-",
+      "0.007",
+      "-"
+    ],
+    [
+      "A2",
+      "-",
+      "0.38",
+      "-",
+      "-",
+      "0.015",
+      "-"
+    ],
+    [
+      "A3(3)",
+      "-",
+      "0.025",
+      "-",
+      "-",
+      "0.001",
+      "-"
+    ],
+    [
+      "b",
+      "0.21",
+      "0.24",
+      "0.27",
+      "0.008",
+      "0.009",
+      "0.011"
+    ],
+    [
+      "D",
+      "3.71",
+      "3.73",
+      "3.75",
+      "0.146",
+      "0.147",
+      "0.148"
+    ],
+    [
+      "E",
+      "4.13",
+      "4.15",
+      "4.17",
+      "0.163",
+      "0.163",
+      "0.164"
+    ],
+    [
+      "e",
+      "-",
+      "0.35",
+      "-",
+      "-",
+      "0.014",
+      "-"
+    ],
+    [
+      "e1",
+      "-",
+      "3.03",
+      "-",
+      "-",
+      "0.119",
+      "-"
+    ],
+    [
+      "e2",
+      "-",
+      "3.15",
+      "-",
+      "-",
+      "0.124",
+      "-"
+    ],
+    [
+      "F(4)",
+      "-",
+      "0.36",
+      "-",
+      "-",
+      "0.014",
+      "-"
+    ],
+    [
+      "G(4)",
+      "-",
+      "0.51",
+      "-",
+      "-",
+      "0.020",
+      "-"
+    ],
+    [
+      "aaa",
+      "-",
+      "-",
+      "0.10",
+      "-",
+      "-",
+      "0.004"
+    ],
+    [
+      "bbb",
+      "-",
+      "-",
+      "0.10",
+      "-",
+      "-",
+      "0.004"
+    ],
+    [
+      "ccc",
+      "-",
+      "-",
+      "0.10",
+      "-",
+      "-",
+      "0.004"
+    ],
+    [
+      "ddd",
+      "-",
+      "-",
+      "0.05",
+      "-",
+      "-",
+      "0.002"
+    ],
+    [
+      "eee",
+      "-",
+      "-",
+      "0.05",
+      "-",
+      "-",
+      "0.002"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "2. The maximum total package height is calculated by the RSS method (Root Sum Square) using nominal and tolerances values of A1 and A2.",
+      "3. Back side coating. Nominal dimension is rounded to the 3rd decimal place resulting from process capability.",
+      "4. Calculated dimensions are rounded to the 3rd decimal place 258/283 DS13311 Rev 5"
+    ],
+    "_legend": [
+      "mechanical data"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_129",
+    "is_continued": false,
+    "pages": [
+      259
+    ],
+    "rows_count": 17,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

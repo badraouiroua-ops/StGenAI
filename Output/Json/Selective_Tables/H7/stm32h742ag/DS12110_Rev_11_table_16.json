@@ -1,0 +1,72 @@
+{
+  "table_id": "table_16",
+  "document": "DS12110 Rev 11 - Table 16. Operating conditions at power-up / power-down (regulator ON)",
+  "rev": "Rev 11",
+  "table_number": "16",
+  "title": "Table 16. Operating conditions at power-up / power-down (regulator ON)",
+  "page": 106,
+  "section": "6.3.3 Operating conditions at power-up / power-down",
+  "section_title": "Operating conditions at power-up / power-down",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=106",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 16. Operating conditions at power-up / power-down (regulator ON) — section 6.3.3 Operating conditions at power-up / power-down. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t VDD",
+        "V rise time rate DD",
+        "0",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDD",
+        "V fall time rate DD",
+        "10",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDDA",
+        "V rise time rate DDA",
+        "0",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDDA",
+        "V fall time rate DDA",
+        "10",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDDUSB",
+        "V rise time rate DDUSB",
+        "0",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDDUSB",
+        "V fall time rate DDUSB",
+        "10",
+        "∞",
+        "µs/V"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

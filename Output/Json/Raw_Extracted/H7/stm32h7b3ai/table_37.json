@@ -1,0 +1,198 @@
+{
+  "table_id": "table_37",
+  "caption": "Table 37. Typical consumption in Run mode and corresponding performance versus code position",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 97,
+  "merged_pages": [
+    97
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=97",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions / Peripheral",
+    "Conditions / Code",
+    "frcc_cpu_c k / (MHz)",
+    "Coremark",
+    "Typ / LDO",
+    "Typ / SMPS",
+    "Unit",
+    "LDO IDD/ / Coremark",
+    "SMPS IDD/ / Coremark",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "ITCM",
+      "280",
+      "1414",
+      "69.5",
+      "33.8",
+      "mA",
+      "49.2",
+      "23.9",
+      "µA/ Coremark"
+    ],
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "FLASH",
+      "280",
+      "1414",
+      "69.0",
+      "33.4",
+      "mA",
+      "48.8",
+      "23.6",
+      "µA/ Coremark"
+    ],
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "AXI SRAM",
+      "280",
+      "1414",
+      "69.5",
+      "33.6",
+      "mA",
+      "49.2",
+      "23.8",
+      "µA/ Coremark"
+    ],
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "AHB SRAM",
+      "280",
+      "1414",
+      "70.0",
+      "33.7",
+      "mA",
+      "49.5",
+      "23.8",
+      "µA/ Coremark"
+    ],
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled, cache ON",
+      "SRD SRAM",
+      "280",
+      "1414",
+      "70.0",
+      "33.7",
+      "mA",
+      "49.5",
+      "23.8",
+      "µA/ Coremark"
+    ],
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled cache OFF",
+      "ITCM",
+      "280",
+      "1414",
+      "69.5",
+      "33.8",
+      "mA",
+      "49.2",
+      "23.9",
+      "µA/ Coremark"
+    ],
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled cache OFF",
+      "FLASH",
+      "280",
+      "668",
+      "56.0",
+      "28.0",
+      "mA",
+      "83.8",
+      "41.9",
+      "µA/ Coremark"
+    ],
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled cache OFF",
+      "AXI SRAM",
+      "280",
+      "668",
+      "62.5",
+      "30.2",
+      "mA",
+      "93.6",
+      "45.2",
+      "µA/ Coremark"
+    ],
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled cache OFF",
+      "AHB SRAM",
+      "280",
+      "295",
+      "59.5",
+      "28.8",
+      "mA",
+      "201.7",
+      "97.6",
+      "µA/ Coremark"
+    ],
+    [
+      "IDD",
+      "Supply current in Run mode",
+      "All peripherals disabled cache OFF",
+      "SRD SRAM",
+      "280",
+      "295",
+      "59.0",
+      "28.5",
+      "mA",
+      "200.0",
+      "96.6",
+      "µA/ Coremark"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 12,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 12,
+    "_notes": [
+      "1. System in Run mode, CPU domain is DStop or DStop2 mode with memories of the CPU domain shut-off enable or disable. DS13139 - Rev 8 page 97/238"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_37",
+    "is_continued": false,
+    "pages": [
+      97
+    ],
+    "rows_count": 10,
+    "cols_count": 12,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

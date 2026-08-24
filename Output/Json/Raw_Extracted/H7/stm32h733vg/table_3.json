@@ -1,0 +1,62 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. DFSDM implementation",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 37,
+  "merged_pages": [
+    37
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=37",
+  "section": "3.27 Digital filter for sigma-delta modulators (DFSDM)",
+  "headers": [
+    "DFSDM features",
+    "DFSDM1"
+  ],
+  "rows": [
+    [
+      "Number of filters",
+      "4"
+    ],
+    [
+      "Number of input transceivers/channels",
+      "8"
+    ],
+    [
+      "Internal ADC parallel input",
+      "X"
+    ],
+    [
+      "Number of external triggers",
+      "16"
+    ],
+    [
+      "Regular channel information in identification register",
+      "X"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      37
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

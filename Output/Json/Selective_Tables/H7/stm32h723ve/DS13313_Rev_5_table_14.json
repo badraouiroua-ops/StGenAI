@@ -1,0 +1,76 @@
+{
+  "table_id": "table_14",
+  "document": "DS13313 Rev 5 - Table 14. VCAP operating conditions",
+  "rev": "Rev 5",
+  "table_number": "14",
+  "title": "Table 14. VCAP operating conditions",
+  "page": 92,
+  "section": "6.3.2 VCAP external capacitor",
+  "section_title": "VCAP external capacitor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=92",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "text_helper": "Table 14. VCAP operating conditions — section 6.3.2 VCAP external capacitor. Figure 12., External capacitor C E, XT, , .",
+  "table_content": {
+    "headers": [
+      "Figure 12.",
+      "External capacitor C E",
+      "XT",
+      "",
+      ""
+    ],
+    "rows": [
+      [
+        "Figure 12.",
+        "C",
+        "XT",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "C",
+        "XT",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "R L eak",
+        "XT",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "R L eak",
+        "XT",
+        "",
+        "M"
+      ],
+      [
+        "1. Legend: ESR isthe equivalent series resista",
+        "nce. eak",
+        "XT",
+        "",
+        "M"
+      ],
+      [
+        "1. Symbolthe equ Par",
+        "ametereak",
+        "XT",
+        "Conditions",
+        "M"
+      ]
+    ],
+    "notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated.",
+      "3. If a third VCAP pin is available on the package, it must be connected to the other VCAP pins but no additional capacitor is required."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

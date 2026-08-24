@@ -1,0 +1,115 @@
+{
+  "table_id": "table_27",
+  "document": "DS13195 Rev 8 - Table 27. SMPS step-down converter characteristics for external usage",
+  "rev": "Rev 8",
+  "table_number": "27",
+  "title": "Table 27. SMPS step-down converter characteristics for external usage",
+  "page": 86,
+  "section": "6.3.3 SMPS step-down converter",
+  "section_title": "SMPS step-down converter",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=86",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 27. SMPS step-down converter characteristics for external usage — section 6.3.3 SMPS step-down converter. Symbol, Conditions, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "VDDSMPS(1)",
+        "VOUT = 1.8 V",
+        "2.3",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "VDDSMPS(1)",
+        "VOUT = 2.5 V",
+        "3",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "VOUT(2)",
+        "IOUT=600 mA",
+        "2.25",
+        "2.5",
+        "2.75",
+        "V"
+      ],
+      [
+        "VOUT(2)",
+        "IOUT=600 mA",
+        "1.62",
+        "1.8",
+        "1.98",
+        "V"
+      ],
+      [
+        "IOUT",
+        "internal and external usage",
+        "-",
+        "-",
+        "600",
+        "mA"
+      ],
+      [
+        "IOUT",
+        "External usage only(3)",
+        "-",
+        "-",
+        "600",
+        "mA"
+      ],
+      [
+        "RDSON",
+        "-",
+        "-",
+        "100",
+        "120",
+        "mΩ"
+      ],
+      [
+        "IDDSMPS_Q",
+        "Quiescent current",
+        "-",
+        "220",
+        "-",
+        "µA"
+      ],
+      [
+        "TSMPS_START",
+        "VOUT = 1.8 V",
+        "-",
+        "270",
+        "405",
+        "µs"
+      ],
+      [
+        "TSMPS_START",
+        "VOUT = 2.5 V",
+        "-",
+        "360",
+        "540",
+        "µs"
+      ]
+    ],
+    "notes": [
+      "1. The switching frequency is 2.4 MHz±10%",
+      "2. Including line transient and load transient.",
+      "3. These characteristics are given for SMPSEXTHP bit is set in the PWR_CR3 register. The SMPS current consumption can be determined using the following formula based on the maximum LDO"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

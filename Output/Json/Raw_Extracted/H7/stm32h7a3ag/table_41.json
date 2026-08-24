@@ -1,0 +1,135 @@
+{
+  "table_id": "table_41",
+  "caption": "Table 41. Typical current consumption RAM shutoff in Stop mode",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 98,
+  "merged_pages": [
+    98
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=98",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Typ LDO / SVOS3 LP",
+    "Typ LDO / SVOS4",
+    "Typ LDO / SVOS5",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "∆IDD(Stop)",
+      "Stop, Dstop or Dstop2",
+      "AXISRAM1 shutoff power consumption (power consumption reduction when AXISRAM1 shutoff is enabled)",
+      "3.00",
+      "1.80",
+      "3.00",
+      "µA"
+    ],
+    [
+      "∆IDD(Stop)",
+      "Stop, Dstop or Dstop2",
+      "AXISRAM2 shutoff power consumption (power consumption reduction when AXISRAM2 shutoff is enabled)",
+      "4.40",
+      "2.70",
+      "4.40",
+      "µA"
+    ],
+    [
+      "∆IDD(Stop)",
+      "Stop, Dstop or Dstop2",
+      "AXISRAM13 shutoff power consumption (power consumption reduction when AXISRAM3 shutoff is enabled)",
+      "4.40",
+      "2.70",
+      "4.40",
+      "µA"
+    ],
+    [
+      "∆IDD(Stop)",
+      "Stop, Dstop or Dstop2",
+      "AHBSRAM1 shutoff power consumption (power consumption reduction when AHBSRAM1 shutoff is enabled)",
+      "0.90",
+      "0.50",
+      "0.70",
+      "µA"
+    ],
+    [
+      "∆IDD(Stop)",
+      "Stop, Dstop or Dstop2",
+      "AHBSRAM2 shutoff power consumption (power consumption reduction when AHBSRAM2 shutoff is enabled)",
+      "0.90",
+      "0.50",
+      "0.70",
+      "µA"
+    ],
+    [
+      "∆IDD(Stop)",
+      "Stop, Dstop or Dstop2",
+      "ITCM and ETM shutoff power consumption (power consumption reduction when ITCM and ETM shutoff is enabled)",
+      "1.00",
+      "0.60",
+      "0.90",
+      "µA"
+    ],
+    [
+      "∆IDD(Stop)",
+      "Stop, Dstop or Dstop2",
+      "GFXMMU and JPEG shutoff power consumption (power consumption reduction when GFXMMU and JPEG shutoff is enabled)",
+      "0.20",
+      "0.10",
+      "0.10",
+      "µA"
+    ],
+    [
+      "∆IDD(Stop)",
+      "Stop, Dstop or Dstop2",
+      "High-speed interface USB and FDCAN shutoff power consumption (power consumption reduction when High-speed interface USB and FDCAN shutoff is enabled)",
+      "0.20",
+      "0.10",
+      "0.10",
+      "µA"
+    ],
+    [
+      "∆IDD(Stop)",
+      "Stop, Dstop or Dstop2",
+      "SRDSRAM shutoff power consumption (power consumption reduction when SRDSRAM shutoff is enabled)",
+      "0.30",
+      "0.30",
+      "0.40",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The LSE clock is in low-drive mode. DS13195 - Rev 8 page 98/237"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_41",
+    "is_continued": false,
+    "pages": [
+      98
+    ],
+    "rows_count": 9,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

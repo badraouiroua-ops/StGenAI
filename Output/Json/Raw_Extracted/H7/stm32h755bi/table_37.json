@@ -1,0 +1,123 @@
+{
+  "table_id": "table_37",
+  "caption": "Table 37. Typical and maximum current consumption in Standby",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 121,
+  "merged_pages": [
+    121
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=121",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions / Backup SRAM",
+    "Conditions / RTC and LSE",
+    "Typ / 1.62 V",
+    "Typ / 2.4 V",
+    "Typ / 3 V",
+    "Typ / 3.3 V",
+    "Max(1) / 3 V / Tj=25 °C",
+    "Max(1) / 3 V / Tj=85 °C",
+    "Max(1) / 3 V / Tj=105 °C",
+    "Max(1) / 3 V / Tj=125 °C",
+    "Max(1) / 3 V / Tj=140 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD (Standby)",
+      "Supply current in Standby mode",
+      "OFF",
+      "OFF",
+      "1,92",
+      "1,95",
+      "2,06",
+      "2,16",
+      "4",
+      "18",
+      "40",
+      "90",
+      "140",
+      "µA"
+    ],
+    [
+      "I DD (Standby)",
+      "Supply current in Standby mode",
+      "ON",
+      "OFF",
+      "3,33",
+      "3,44",
+      "3,6",
+      "3,79",
+      "8.2",
+      "47",
+      "83",
+      "141",
+      "230",
+      "µA"
+    ],
+    [
+      "I DD (Standby)",
+      "Supply current in Standby mode",
+      "OFF",
+      "ON",
+      "2,43",
+      "2,57",
+      "2,77",
+      "2,95",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "µA"
+    ],
+    [
+      "I DD (Standby)",
+      "Supply current in Standby mode",
+      "ON",
+      "ON",
+      "3,82",
+      "4,05",
+      "4,31",
+      "4,55",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 14,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 14,
+    "_notes": [
+      "1. Guaranteed by characterization results, unless otherwise specified."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:3"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_37",
+    "is_continued": false,
+    "pages": [
+      121
+    ],
+    "rows_count": 4,
+    "cols_count": 14,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

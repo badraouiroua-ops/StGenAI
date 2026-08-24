@@ -1,0 +1,96 @@
+{
+  "table_id": "table_104",
+  "document": "DS13315 Rev 5 - Table 104. PSSI receive characteristics",
+  "rev": "Rev 5",
+  "table_number": "104",
+  "title": "Table 104. PSSI receive characteristics",
+  "page": 216,
+  "section": "6.3.34 Parallel synchronous slave interface (PSSI) characteristics",
+  "section_title": "Parallel synchronous slave interface (PSSI) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=216",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "text_helper": "Table 104. PSSI receive characteristics — section 6.3.34 Parallel synchronous slave interface (PSSI) characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "-",
+        "Frequency ratio PSSI_PDCK/f HCLK",
+        "-",
+        "0.4",
+        "-"
+      ],
+      [
+        "PSSI_PDCK",
+        "PSSI Clock input",
+        "-",
+        "110",
+        "MHz"
+      ],
+      [
+        "D pixel",
+        "PSSI Clock input duty cycle",
+        "30",
+        "70",
+        "%"
+      ],
+      [
+        "t (DATA) su",
+        "Data input setup time",
+        "1.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t (DATA) h",
+        "Data input hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t (DE) su(",
+        "DE input setup time",
+        "2",
+        "-",
+        "ns"
+      ],
+      [
+        "t (DE) h",
+        "DE input hold time",
+        "1",
+        "-",
+        "ns"
+      ],
+      [
+        "tov(RDY)",
+        "RDY output valid time",
+        "-",
+        "15",
+        "ns"
+      ],
+      [
+        "toh(RDY)",
+        "RDY output hold time",
+        "5.5",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. 216/270 DS13315 Rev 5",
+      "2. This value is valid when PA[9], PA[10], PA[11], PA[12], PA[15], PB[11], PH[4], PJ[8], PJ[9], PJ[10], PJ[11], PK[0], PK[1] or PK[2] is used."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

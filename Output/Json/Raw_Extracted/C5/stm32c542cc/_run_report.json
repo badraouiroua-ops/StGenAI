@@ -1,5 +1,5 @@
 {
-  "pdf": "C:\\Users\\user\\Desktop\\rag1\\DataSHEET\\C5\\stm32c542cc.pdf",
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\PDFs\\C5\\stm32c542cc.pdf",
   "family": "C5",
   "pdf_name": "stm32c542cc",
   "tables_found": 83,
@@ -308,7 +308,7 @@
       ],
       "col_count": 18,
       "headers_preview": "[\"Port\", \"Port\", \"AF0 / SYS\", \"AF1 / LPTIM1/ TIM1/2\", \"AF2 / I3C1/ TIM1/8/12/15\", \"AF3 / I3C1/LPTIM1/ LPUART1/ TIM8\", \"AF4 / I2C1/2/I3C1/ LPTIM1/SPI1/ I2S1/TIM15/ USART1/2\", \"AF5 / I3C1/LPTIM1/ SPI1/I",
-      "rows_count": 54,
+      "rows_count": 53,
       "heuristics": {
         "cols_extracted": 18,
         "continuation": {

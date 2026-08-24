@@ -1,0 +1,61 @@
+{
+  "table_id": "table_109",
+  "caption": "Table 109. V monitoring characteristics 253 CORE",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 253,
+  "merged_pages": [
+    253
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=253",
+  "section": "6.3.25 V monitoring characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "ts_vcore",
+      "ADC sampling time when reading the VCORE voltage",
+      "-",
+      "1",
+      "-",
+      "-",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. Evaluated by characterization - Not tested in production.",
+      "3. The characterization is done at VDD_CORE = 1.19 V for Typ/Min/Max."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_109",
+    "is_continued": false,
+    "pages": [
+      253
+    ],
+    "rows_count": 1,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,583 @@
+{
+  "table_id": "table_89",
+  "caption": "Table 89. ADC characteristics",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 184,
+  "merged_pages": [
+    184,
+    185,
+    186,
+    187
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=184",
+  "section": "6.3.22 Delay block (DLYB) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VDDA",
+      "Analog supply voltage for ADC ON",
+      "-",
+      "-",
+      "-",
+      "1.62",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "VREF+",
+      "Positive reference voltage",
+      "-",
+      "-",
+      "-",
+      "1.62",
+      "-",
+      "VDDA",
+      "V"
+    ],
+    [
+      "VREF-",
+      "Negative reference voltage",
+      "-",
+      "-",
+      "-",
+      "VSSA",
+      "VSSA",
+      "VSSA",
+      "V"
+    ],
+    [
+      "fADC",
+      "ADC clock frequency",
+      "1.62 V ≤ VDDA ≤ 3.6 V",
+      "1.62 V ≤ VDDA ≤ 3.6 V",
+      "BOOST = 11",
+      "0.12",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "fADC",
+      "ADC clock frequency",
+      "1.62 V ≤ VDDA ≤ 3.6 V",
+      "1.62 V ≤ VDDA ≤ 3.6 V",
+      "BOOST = 10",
+      "0.12",
+      "-",
+      "25",
+      "MHz"
+    ],
+    [
+      "fADC",
+      "ADC clock frequency",
+      "1.62 V ≤ VDDA ≤ 3.6 V",
+      "1.62 V ≤ VDDA ≤ 3.6 V",
+      "BOOST = 01",
+      "0.12",
+      "-",
+      "12.5",
+      "MHz"
+    ],
+    [
+      "fADC",
+      "ADC clock frequency",
+      "1.62 V ≤ VDDA ≤ 3.6 V",
+      "1.62 V ≤ VDDA ≤ 3.6 V",
+      "BOOST = 00",
+      "-",
+      "-",
+      "6.25",
+      "MHz"
+    ],
+    [
+      "fs (4)",
+      "Sampling rate for Direct channels(5)",
+      "Resolution = 16 bits, VDDA >2.5 V",
+      "TJ = 90 °C",
+      "fADC=36 MHz",
+      "-",
+      "-",
+      "3.60",
+      "MSps"
+    ],
+    [
+      "fs (4)",
+      "Sampling rate for Direct channels(5)",
+      "Resolution = 16 bits",
+      "fADC=37 MHz",
+      "SMP = 2.5",
+      "-",
+      "-",
+      "3.35",
+      "MSps"
+    ],
+    [
+      "fs (4)",
+      "Resolution = 14 bits",
+      "TJ = 125 °C",
+      "fADC = 50 MHz",
+      "SMP = 2.5",
+      "-",
+      "-",
+      "5.00",
+      "MSps"
+    ],
+    [
+      "fs (4)",
+      "Resolution = 14 bits",
+      "Resolution = 12 bits",
+      "fADC = 50 MHz",
+      "SMP = 2.5",
+      "-",
+      "-",
+      "5.50",
+      "MSps"
+    ],
+    [
+      "fs (4)",
+      "Resolution = 14 bits",
+      "Resolution = 10 bits",
+      "fADC = 50 MHz",
+      "SMP = 1.5",
+      "-",
+      "-",
+      "7.10",
+      "MSps"
+    ],
+    [
+      "fs (4)",
+      "Resolution = 14 bits",
+      "Resolution = 8 bits",
+      "fADC = 50 MHz",
+      "SMP = 1.5",
+      "-",
+      "-",
+      "8.30",
+      "MSps"
+    ],
+    [
+      "fs (4)",
+      "Sampling rate for Fast channels",
+      "Resolution = 16 bits, VDDA >2.5 V",
+      "TJ = 90 °C",
+      "fADC=32 MHz",
+      "SMP = 2.5",
+      "-",
+      "-",
+      "2.90"
+    ],
+    [
+      "fs (4)",
+      "Sampling rate for Fast channels",
+      "Resolution = 16 bits",
+      "fADC=31 MHz",
+      "SMP = 2.5",
+      "-",
+      "-",
+      "2.80",
+      "2.90"
+    ],
+    [
+      "fs (4)",
+      "Resolution = 14 bits",
+      "TJ = 125 °C",
+      "fADC = 33 MHz",
+      "SMP = 2.5",
+      "-",
+      "-",
+      "3.30",
+      "2.90"
+    ],
+    [
+      "fs (4)",
+      "Resolution = 14 bits",
+      "Resolution = 12 bits",
+      "fADC = 39 MHz",
+      "SMP = 2.5",
+      "-",
+      "-",
+      "4.30",
+      "2.90"
+    ],
+    [
+      "fs (4)",
+      "Resolution = 14 bits",
+      "Resolution = 10 bits",
+      "fADC = 48 MHz",
+      "SMP = 2.5",
+      "-",
+      "-",
+      "6.00",
+      "2.90"
+    ],
+    [
+      "fs (4)",
+      "Resolution = 14 bits",
+      "Resolution = 8 bits",
+      "fADC = 50 MHz",
+      "SMP = 2.5",
+      "-",
+      "-",
+      "7.10",
+      "2.90"
+    ],
+    [
+      "fs (4)",
+      "Sampling rate for Slow channels",
+      "Resolution = 16 bits",
+      "TJ = 90 °C",
+      "fADC = 10 MHz",
+      "SMP = 1.5",
+      "-",
+      "-",
+      "1.00"
+    ],
+    [
+      "fs (4)",
+      "Sampling rate for Slow channels",
+      "resolution = 14 bits",
+      "TJ = 125 °C",
+      "TJ = 125 °C",
+      "-",
+      "-",
+      "-",
+      "1.00"
+    ],
+    [
+      "fs (4)",
+      "Sampling rate for Slow channels",
+      "resolution = 12 bits",
+      "resolution = 12 bits",
+      "resolution = 12 bits",
+      "-",
+      "-",
+      "-",
+      "1.00"
+    ],
+    [
+      "fs (4)",
+      "Sampling rate for Slow channels",
+      "resolution = 10 bits",
+      "resolution = 10 bits",
+      "resolution = 10 bits",
+      "-",
+      "-",
+      "-",
+      "1.00"
+    ],
+    [
+      "fs (4)",
+      "Sampling rate for Slow channels",
+      "resolution = 8 bits",
+      "resolution = 8 bits",
+      "resolution = 8 bits",
+      "-",
+      "-",
+      "-",
+      "1.00"
+    ],
+    [
+      "VAIN (6)",
+      "Conversion voltage range",
+      "-",
+      "-",
+      "-",
+      "0",
+      "-",
+      "VREF+",
+      "V"
+    ],
+    [
+      "VCMIV",
+      "Common mode input voltage",
+      "-",
+      "-",
+      "-",
+      "VREF/2 - 10%",
+      "VREF/ 2",
+      "VREF/2 + 10%",
+      "V"
+    ],
+    [
+      "RAIN (7)",
+      "External input impedance",
+      "Resolution = 16 bits, TJ = 125 °C",
+      "-",
+      "-",
+      "-",
+      "-",
+      "170",
+      "Ω"
+    ],
+    [
+      "RAIN (7)",
+      "External input impedance",
+      "Resolution = 14 bits, TJ = 125 °C",
+      "-",
+      "-",
+      "-",
+      "-",
+      "435",
+      "Ω"
+    ],
+    [
+      "RAIN (7)",
+      "External input impedance",
+      "Resolution = 12 bits, TJ =125 °C",
+      "-",
+      "-",
+      "-",
+      "-",
+      "1150",
+      "Ω"
+    ],
+    [
+      "RAIN (7)",
+      "External input impedance",
+      "Resolution = 10 bits, TJ = 125 °C",
+      "-",
+      "-",
+      "-",
+      "-",
+      "5650",
+      "Ω"
+    ],
+    [
+      "RAIN (7)",
+      "External input impedance",
+      "Resolution = 8 bits, TJ = 125 °C",
+      "-",
+      "-",
+      "-",
+      "-",
+      "26500",
+      "Ω"
+    ],
+    [
+      "CADC",
+      "Internal sample and hold capacitor",
+      "-",
+      "-",
+      "-",
+      "-",
+      "4",
+      "-",
+      "pF"
+    ],
+    [
+      "tADCVREG _STUP",
+      "ADC LDO startup time",
+      "-",
+      "-",
+      "-",
+      "-",
+      "5",
+      "10",
+      "us"
+    ],
+    [
+      "tSTAB",
+      "ADC Power-up time",
+      "LDO already started",
+      "-",
+      "-",
+      "1",
+      "-",
+      "-",
+      "conver sion cycle"
+    ],
+    [
+      "tCAL",
+      "Offset and linearity calibration time",
+      "-",
+      "-",
+      "-",
+      "165010",
+      "-",
+      "-",
+      "1/fADC"
+    ],
+    [
+      "tOFF_ CAL",
+      "Offset calibration time",
+      "-",
+      "-",
+      "-",
+      "1280",
+      "-",
+      "-",
+      "1/fADC"
+    ],
+    [
+      "tLATR",
+      "Trigger conversion latency regular and injected channels without conversion abort",
+      "CKMODE = 00",
+      "-",
+      "-",
+      "1.5",
+      "2",
+      "2.5",
+      "1/fADC"
+    ],
+    [
+      "tLATR",
+      "Trigger conversion latency regular and injected channels without conversion abort",
+      "CKMODE = 01",
+      "-",
+      "-",
+      "-",
+      "-",
+      "2.5",
+      "1/fADC"
+    ],
+    [
+      "tLATR",
+      "Trigger conversion latency regular and injected channels without conversion abort",
+      "CKMODE = 10",
+      "-",
+      "-",
+      "-",
+      "-",
+      "2.5",
+      "1/fADC"
+    ],
+    [
+      "tLATR",
+      "Trigger conversion latency regular and injected channels without conversion abort",
+      "CKMODE = 11",
+      "-",
+      "-",
+      "-",
+      "-",
+      "2.25",
+      "1/fADC"
+    ],
+    [
+      "tLATRINJ",
+      "Trigger conversion latency regular injected channels aborting a regular conversion",
+      "CKMODE = 00",
+      "-",
+      "-",
+      "2.5",
+      "3",
+      "3.5",
+      "1/fADC"
+    ],
+    [
+      "tLATRINJ",
+      "Trigger conversion latency regular injected channels aborting a regular conversion",
+      "CKMODE = 01",
+      "-",
+      "-",
+      "-",
+      "-",
+      "3.5",
+      "1/fADC"
+    ],
+    [
+      "tLATRINJ",
+      "Trigger conversion latency regular injected channels aborting a regular conversion",
+      "CKMODE = 10",
+      "-",
+      "-",
+      "-",
+      "-",
+      "3.5",
+      "1/fADC"
+    ],
+    [
+      "tLATRINJ",
+      "Trigger conversion latency regular injected channels aborting a regular conversion",
+      "CKMODE = 11",
+      "-",
+      "-",
+      "-",
+      "-",
+      "3.25",
+      "1/fADC"
+    ],
+    [
+      "tS",
+      "Sampling time",
+      "-",
+      "-",
+      "-",
+      "1.5",
+      "-",
+      "810.5",
+      "1/fADC"
+    ],
+    [
+      "tCONV",
+      "Total conversion time (including sampling time)",
+      "Resolution = N bits",
+      "-",
+      "-",
+      "ts + 0.5 + N/2",
+      "-",
+      "-",
+      "1/fADC"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 9,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 9,
+      "cont_cols_raw": 9,
+      "target_cols": 9,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3,
+        4
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 4
+    },
+    "_notes": [
+      "4. These values are valid for UFBGA169 and one ADC. Refer to Getting started with the STM32H7 Series MCU 16-bit ADC (AN5354) for values of other packages and multiple ADCs operation.",
+      "5. Direct channels are connected to analog I/Os (PA0_C, PA1_C, PC2_C and PC3_C) to optimize ADC performance.",
+      "6. Depending on the package, V can be internally connected to V and V to V . REF+ DDA REF- SSA",
+      "7. The tolerance is 10 LSBs for 16-bit resolution, 4 LSBs for 14-bit resolution, and 2 LSBs for 12-bit, 10-bit and 8-bit resolutions. DS12931 Rev 5 187/254"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:4",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_89",
+    "is_continued": true,
+    "pages": [
+      184,
+      185,
+      186,
+      187
+    ],
+    "rows_count": 46,
+    "cols_count": 9,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

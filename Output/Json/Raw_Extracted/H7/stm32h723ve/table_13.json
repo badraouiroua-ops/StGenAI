@@ -1,0 +1,115 @@
+{
+  "table_id": "table_13",
+  "caption": "Table 13. Supply voltage and maximum temperature configuration",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 92,
+  "merged_pages": [
+    92
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=92",
+  "section": "6.3.1 General operating conditions",
+  "headers": [
+    "Power scale",
+    "V source CORE",
+    "Max. T (°C) J",
+    "Min. V (V) DD",
+    "Min. V (V) DDLDO"
+  ],
+  "rows": [
+    [
+      "VOS0",
+      "LDO",
+      "105",
+      "1.7",
+      "1.7"
+    ],
+    [
+      "VOS0",
+      "External (Bypass)",
+      "105",
+      "1.62",
+      "-"
+    ],
+    [
+      "VOS1",
+      "LDO",
+      "125",
+      "1.62",
+      "1.62"
+    ],
+    [
+      "VOS1",
+      "External (Bypass)",
+      "125",
+      "-",
+      "-"
+    ],
+    [
+      "VOS2 or VOS3",
+      "LDO",
+      "125",
+      "1.62",
+      "1.62"
+    ],
+    [
+      "VOS2 or VOS3",
+      "External (Bypass)",
+      "125",
+      "-",
+      "-"
+    ],
+    [
+      "SVOS4/SVOS5",
+      "LDO",
+      "125",
+      "2",
+      "2"
+    ],
+    [
+      "SVOS4/SVOS5",
+      "LDO",
+      "105",
+      "1.62",
+      "1.62"
+    ],
+    [
+      "SVOS4/SVOS5",
+      "External (Bypass)",
+      "125",
+      "1.62",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated.",
+      "3. If a third VCAP pin is available on the package, it must be connected to the other VCAP pins but no additional capacitor is required."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_13",
+    "is_continued": false,
+    "pages": [
+      92
+    ],
+    "rows_count": 9,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "table_id": "table_101",
+  "caption": "Table 101. Digital temperature sensor characteristics",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 155,
+  "merged_pages": [
+    155
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=155",
+  "section": "6.3.25 Digital temperature sensor characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Typ(1)",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fDTS(2)",
+      "Output Clock frequency",
+      "-",
+      "500",
+      "750",
+      "1150",
+      "kHz"
+    ],
+    [
+      "TLC(2)",
+      "Temperature linearity coefficient",
+      "VOS2",
+      "1660",
+      "2100",
+      "2750",
+      "Hz/°C"
+    ],
+    [
+      "TTOTAL_ERROR(2)",
+      "Temperature offset measurement, all VOS",
+      "TJ =-40 °C to 30 °C",
+      "-13",
+      "-",
+      "4",
+      "°C"
+    ],
+    [
+      "TTOTAL_ERROR(2)",
+      "Temperature offset measurement, all VOS",
+      "TJ =30 °C to 130 °C",
+      "-7",
+      "-",
+      "2",
+      "°C"
+    ],
+    [
+      "TVDD_CORE",
+      "Additional error due to supply variation",
+      "VOS2",
+      "0",
+      "-",
+      "0",
+      "°C"
+    ],
+    [
+      "TVDD_CORE",
+      "Additional error due to supply variation",
+      "VOS0, VOS1, VOS3",
+      "-1",
+      "-",
+      "1",
+      "°C"
+    ],
+    [
+      "tTRIM",
+      "Calibration time",
+      "-",
+      "-",
+      "-",
+      "2",
+      "ms"
+    ],
+    [
+      "tWAKE_UP",
+      "Wake-up time from off state until DTS ready bit is set",
+      "-",
+      "-",
+      "67",
+      "116.00",
+      "μs"
+    ],
+    [
+      "IDDCORE_DTS",
+      "DTS consumption on VCORE",
+      "-",
+      "8.5",
+      "30",
+      "70.0",
+      "μA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design.",
+      "2. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_101",
+    "is_continued": false,
+    "pages": [
+      155
+    ],
+    "rows_count": 9,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

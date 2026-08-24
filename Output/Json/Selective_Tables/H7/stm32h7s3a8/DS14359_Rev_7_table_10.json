@@ -1,0 +1,73 @@
+{
+  "table_id": "table_10",
+  "document": "DS14359 Rev 7 - Table 10. ADF features",
+  "rev": "Rev 7",
+  "table_number": "10",
+  "title": "Table 10. ADF features",
+  "page": 55,
+  "section": "3.25 Audio digital filter (ADF)",
+  "section_title": "Audio digital filter (ADF)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=55",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 10. ADF features — section 3.25 Audio digital filter (ADF). Mode or feature, ADF1.",
+  "table_content": {
+    "headers": [
+      "Mode or feature",
+      "ADF1"
+    ],
+    "rows": [
+      [
+        "Number of filters (DFLTx) and serial interfaces (SITFx)",
+        "1"
+      ],
+      [
+        "ADF_CKI0 connected to pins",
+        "-"
+      ],
+      [
+        "Sound activity detection (SAD)",
+        "X"
+      ],
+      [
+        "RXFIFO depth (number of 24-bit words)",
+        "4"
+      ],
+      [
+        "ADC connected to ADCITF1",
+        "ADC1"
+      ],
+      [
+        "ADC connected to ADCITF2",
+        "ADC2"
+      ],
+      [
+        "Motor dedicated features (SCD, OLD, OEC, INT, snapshot, break)",
+        "-"
+      ],
+      [
+        "Main path with CIC4, CIC5",
+        "X"
+      ],
+      [
+        "Main path with CIC1,2, 3 or FastSinc",
+        "-"
+      ],
+      [
+        "RSFLT, HPF, SAT, SCALE, DLY, Discard functions",
+        "X"
+      ],
+      [
+        "Autonomous in Stop modes",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. ‘X’ = supported, ‘-’ = not supported."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

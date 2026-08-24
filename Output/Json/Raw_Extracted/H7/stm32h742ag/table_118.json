@@ -1,0 +1,52 @@
+{
+  "table_id": "table_118",
+  "caption": "Table 118. Internal reference voltage calibration values",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 214,
+  "merged_pages": [
+    214
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=214",
+  "section": "7.3.5 Embedded reference voltage",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Memory address"
+  ],
+  "rows": [
+    [
+      "V REFIN_CAL",
+      "Raw data acquired at temperature of 30 °C, V = 3.3 V DDA",
+      "1FF1E860 - 1FF1E861"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. Data are in DTCM for best computation performance, the cache has no influence on consumption in this case.",
+      "2. Guaranteed by characterization results, unless otherwise specified. DS12110 Rev 11 215/357"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_118",
+    "is_continued": false,
+    "pages": [
+      214
+    ],
+    "rows_count": 1,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

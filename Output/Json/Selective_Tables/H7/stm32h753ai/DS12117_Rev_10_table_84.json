@@ -1,0 +1,53 @@
+{
+  "table_id": "table_84",
+  "document": "DS12117 Rev 10 - Table 84. V charging characteristics 176 BAT",
+  "rev": "Rev 10",
+  "table_number": "84",
+  "title": "Table 84. V charging characteristics 176 BAT",
+  "page": 176,
+  "section": "6.3.24 Temperature and V monitoring",
+  "section_title": "Temperature and V monitoring",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=176",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 84. V charging characteristics 176 BAT — section 6.3.24 Temperature and V monitoring. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "R BC",
+        "Battery charging resistor",
+        "VBRS in PWR_CR3= 0",
+        "-",
+        "5",
+        "-",
+        "KΩ"
+      ],
+      [
+        "R BC",
+        "Battery charging resistor",
+        "VBRS in PWR_CR3= 1",
+        "-",
+        "1.5",
+        "-",
+        "KΩ"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. 176/357 DS12117 Rev 10",
+      "2. Refer to Table 17: Embedded reference voltage. DS12117 Rev 10 177/357"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

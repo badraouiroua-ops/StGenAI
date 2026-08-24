@@ -1,0 +1,97 @@
+{
+  "table_id": "table_25",
+  "caption": "Table 25. VCAP operating conditions",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 86,
+  "merged_pages": [
+    86
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=86",
+  "section": "6.3.2 VCAP external capacitor",
+  "headers": [
+    "VCAP pins (refer to Getting started with STM32H7A3B7/3 dna",
+    "STM32H7B0hardware development",
+    "(AN5307"
+  ],
+  "rows": [
+    [
+      "dna 3B7/3",
+      "STM32H7B0",
+      "(AN5307"
+    ],
+    [
+      "Figure 23. E xternal ca",
+      "pacitor CEXT",
+      "(AN5307"
+    ],
+    [
+      "Figure 23. E C",
+      "pacitor CEXT",
+      "(AN5307"
+    ],
+    [
+      "ES R 23. E C",
+      "pacitor CEXT",
+      "(AN5307"
+    ],
+    [
+      "ES R 23. E R Le",
+      "ak",
+      "(AN5307"
+    ],
+    [
+      "1. Legend: ESR isthe equivalent series resistance.",
+      "ak",
+      "(AN5307"
+    ],
+    [
+      "When the internal LDO voltage regulator is switched OFF, the two 2.2",
+      "µF VCAP capacitors are notrequired. Ho",
+      "wever all V"
+    ]
+  ],
+  "extraction_method": "pdfplumber_text",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0351,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 12,
+    "truncated_rows": 22,
+    "columns_initial": 12,
+    "columns_merged": 9,
+    "columns_final": 3,
+    "_notes": [
+      "1. The switching frequency is 2.4 MHz±10%",
+      "2. Including line transient and load transient.",
+      "3. These characteristics are given for SMPSEXTHP bit is set in the PWR_CR3 register. The SMPS current consumption can be determined using the following formula based on the maximum LDO"
+    ],
+    "_legend": [
+      "When the internal LDO voltage regulator is switched OFF, the two 2.2 µF VCAP capacitors are not required. However all VCAPx",
+      "package pins must be connected together and it is recommended to add a ceramic filtering capacitor of 100 nF as close as",
+      "possible to each VCAPx pin.",
+      "CEXT External capacitor for LDO enabled 2.2 µF(1)(2)",
+      "ESR ESR of external capacitor < 100 mΩ"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "no_table_obj_for_spans",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_25",
+    "is_continued": false,
+    "pages": [
+      86
+    ],
+    "rows_count": 7,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0351
+  }
+}

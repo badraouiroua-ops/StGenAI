@@ -1,0 +1,135 @@
+{
+  "table_id": "table_62",
+  "caption": "Table 62. Asynchronous non-multiplexed SRAM/PSRAM/NOR read timings",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 169,
+  "merged_pages": [
+    169
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=169",
+  "section": "6.3.19 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(NE)",
+      "FMC_NE low time",
+      "3T –1 fmc_ker_ck",
+      "3T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t v(NOE_NE)",
+      "FMC_NEx low to FMC_NOE low",
+      "0",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t w(NOE)",
+      "FMC_NOE low time",
+      "2T –1 fmc_ker_ck",
+      "2T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(NE_NOE)",
+      "FMC_NOE high to FMC_NE high hold time",
+      "T fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(A_NE)",
+      "FMC_NEx low to FMC_A valid",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t h(A_NOE)",
+      "Address hold time after FMC_NOE high",
+      "2T fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(Data_NE)",
+      "Data to FMC_NEx high setup time",
+      "T +14 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(Data_NOE)",
+      "Data to FMC_NOEx high setup time",
+      "13",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(Data_NOE)",
+      "Data hold time after FMC_NOE high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(Data_NE)",
+      "Data hold time after FMC_NEx high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(NADV_NE)",
+      "FMC_NEx low to FMC_NADV low",
+      "-",
+      "4",
+      "ns"
+    ],
+    [
+      "t w(NADV)",
+      "FMC_NADV low time",
+      "-",
+      "T +1 fmc_ker_ck",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. N pulse width is equal to 1 fmc_ker_ck cycle. WAIT"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_62",
+    "is_continued": false,
+    "pages": [
+      169
+    ],
+    "rows_count": 12,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

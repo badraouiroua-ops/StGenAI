@@ -1,0 +1,59 @@
+{
+  "table_id": "table_19",
+  "caption": "Table 19. Thermal characteristics",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 65,
+  "merged_pages": [
+    65
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=65",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "TSTG",
+      "Storage temperature range",
+      "-65 to +150",
+      "°C"
+    ],
+    [
+      "TJmax",
+      "Maximum junction temperature",
+      "130(1)",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. VIN maximum value must always be respected. Refer to Table 62. I/O current injection susceptibility for the maximum allowed injected current values."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_19",
+    "is_continued": false,
+    "pages": [
+      65
+    ],
+    "rows_count": 2,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

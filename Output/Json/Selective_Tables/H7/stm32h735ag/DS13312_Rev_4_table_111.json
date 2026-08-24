@@ -1,0 +1,178 @@
+{
+  "table_id": "table_111",
+  "document": "DS13312 Rev 4 - Table 111. USART characteristics",
+  "rev": "Rev 4",
+  "table_number": "111",
+  "title": "Table 111. USART characteristics",
+  "page": 232,
+  "section": "6.3.38 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=232",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 111. USART characteristics — section 6.3.38 Communication interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f CK",
+        "USART clock frequency",
+        "Master mode, 1.62 V < V < 3.6 V DD",
+        "-",
+        "-",
+        "17.0",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "USART clock frequency",
+        "Slave receiver mode, 1.62 V < V < 3.6 V DD",
+        "-",
+        "-",
+        "45.0",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "USART clock frequency",
+        "Slave transmitter mode, 1.62 V < V < 3.6 V DD",
+        "-",
+        "-",
+        "27.0",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "USART clock frequency",
+        "Slave transmitter mode, 2.5 V < V < 3.6 V DD",
+        "-",
+        "-",
+        "37.0",
+        "MHz"
+      ],
+      [
+        "t su(NSS)",
+        "NSS setup time",
+        "Slave mode",
+        "t +1 ker",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(NSS)",
+        "NSS hold time",
+        "Slave mode",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t , w(CKH) t w(CKL)",
+        "CK high and low time",
+        "Master mode",
+        "1/f /2-2 CK",
+        "1/f /2 CK",
+        "1/f /2+2 CK",
+        "ns"
+      ],
+      [
+        "t su(RX)",
+        "Data input setup time",
+        "Master mode",
+        "16",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(RX)",
+        "Data input setup time",
+        "Slave mode",
+        "1.0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(RX)",
+        "Data input hold time",
+        "Master mode",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(RX)",
+        "Data input hold time",
+        "Slave mode",
+        "2.0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(TX)",
+        "Data output valid time",
+        "Slave mode, , 1.62 V < V < 3.6 V DD",
+        "-",
+        "12.0",
+        "18",
+        "ns"
+      ],
+      [
+        "t v(TX)",
+        "Data output valid time",
+        "Slave mode, , 2.5 V < V < 3.6 V DD",
+        "-",
+        "12.0",
+        "13.5",
+        "ns"
+      ],
+      [
+        "t v(TX)",
+        "Data output valid time",
+        "Master mode",
+        "-",
+        "0.5",
+        "1",
+        "ns"
+      ],
+      [
+        "t h(TX)",
+        "Data output hold time",
+        "Slave mode",
+        "9",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(TX)",
+        "Data output hold time",
+        "Master mode",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. 232/286 DS13312 Rev 4"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "table_id": "table_61",
+  "caption": "Table 61. EMI characteristics for f = 8 MHz and f = 64 MHz 116 HSE HCLK",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 116,
+  "merged_pages": [
+    116
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=116",
+  "section": "6.3.13 EMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Monitored frequency band",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "SEMI",
+      "Peak(1)",
+      "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+      "0.1 to 30 MHz",
+      "7",
+      "dBµV"
+    ],
+    [
+      "SEMI",
+      "Peak(1)",
+      "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+      "30 to 130 MHz",
+      "–1",
+      "dBµV"
+    ],
+    [
+      "SEMI",
+      "Peak(1)",
+      "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+      "130 MHz to 1 GHz",
+      "8",
+      "dBµV"
+    ],
+    [
+      "SEMI",
+      "Peak(1)",
+      "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+      "1 GHz to 2 GHz",
+      "7",
+      "dBµV"
+    ],
+    [
+      "SEMI",
+      "Level(2)",
+      "VDD = 3.6 V, TA = 25 °C, LQFP64 package, compliant with IEC 61967-2",
+      "0.1 GHz to 2 GHz",
+      "2.5",
+      "dBµV"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Refer to the EMI radiated test chapter of application note AN1709 \"EMC design guide for STM8, STM32 and Legacy MCUs\" available from the ST website www.st.com..",
+      "2. Refer to the EMI level classification chapter of application note AN1709 \"EMC design guide for STM8, STM32 and Legacy MCUs\" available from the ST website www.st.com."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_61",
+    "is_continued": false,
+    "pages": [
+      116
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

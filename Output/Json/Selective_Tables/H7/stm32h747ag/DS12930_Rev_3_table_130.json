@@ -1,0 +1,80 @@
+{
+  "table_id": "table_130",
+  "document": "DS12930 Rev 3 - Table 130. TFBGA240+25 - Tolerance of form and position",
+  "rev": "Rev 3",
+  "table_number": "130",
+  "title": "Table 130. TFBGA240+25 - Tolerance of form and position",
+  "page": 244,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=244",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 130. TFBGA240+25 - Tolerance of form and position — section 7.1 Device marking. Symbol, Millimeters / Min, Millimeters / Typ, Millimeters / Max, Inches(2) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Millimeters / Min",
+      "Millimeters / Typ",
+      "Millimeters / Max",
+      "Inches(2) / Min",
+      "Inches(2) / Typ",
+      "Inches(2) / Max"
+    ],
+    "rows": [
+      [
+        "aaa(13)",
+        "0.150",
+        "0.150",
+        "0.150",
+        "0.0059",
+        "0.0059",
+        "0.0059"
+      ],
+      [
+        "ccc(13)",
+        "0.200",
+        "0.200",
+        "0.200",
+        "0.0079",
+        "0.0079",
+        "0.0079"
+      ],
+      [
+        "ddd(13)",
+        "0.100",
+        "0.100",
+        "0.100",
+        "0.0039",
+        "0.0039",
+        "0.0039"
+      ],
+      [
+        "eee(13)",
+        "0.150",
+        "0.150",
+        "0.150",
+        "0.0059",
+        "0.0059",
+        "0.0059"
+      ],
+      [
+        "fff(13)",
+        "0.080",
+        "0.080",
+        "0.080",
+        "0.0031",
+        "0.0031",
+        "0.0031"
+      ]
+    ],
+    "notes": [
+      "2. Values in inches are converted from millimeters and rounded to four decimal digits.",
+      "13. For the tolerance of form and position definitions, see the following table."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

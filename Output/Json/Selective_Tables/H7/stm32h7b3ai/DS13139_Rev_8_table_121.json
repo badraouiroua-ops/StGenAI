@@ -1,0 +1,179 @@
+{
+  "table_id": "table_121",
+  "document": "DS13139 Rev 8 - Table 121. MDIO Slave timing parameters",
+  "rev": "Rev 8",
+  "table_number": "121",
+  "title": "Table 121. MDIO Slave timing parameters",
+  "page": 178,
+  "section": "6.3.36.6 MDIO characteristics",
+  "section_title": "MDIO characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=178",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 121. MDIO Slave timing parameters — section 6.3.36.6 MDIO characteristics. Symbol, Symbol, Parameter, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "FMDC",
+        "FMDC",
+        "Management Data Clock",
+        "-",
+        "-",
+        "30",
+        "MHz"
+      ],
+      [
+        "td(MDIO)",
+        "td(MDIO)",
+        "Management Data Iput/output output valid time",
+        "9",
+        "11",
+        "21",
+        "ns"
+      ],
+      [
+        "tsu(MDIO)",
+        "tsu(MDIO)",
+        "Management Data Iput/output setup time",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "th(MDIO)",
+        "th(MDIO)",
+        "Management Data Iput/output hold time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tISU",
+        "Input setup time HS",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tIH",
+        "Input hold time HS",
+        "-",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tIDW(3)",
+        "Input valid window (variable window)",
+        "-",
+        "3.0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tOV",
+        "Output valid time HS",
+        "-",
+        "-",
+        "6",
+        "6.5",
+        "ns"
+      ],
+      [
+        "tOH",
+        "Output hold time HS",
+        "-",
+        "5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D inputs (referenced to CK) in SD default mode",
+        "CMD, D inputs (referenced to CK) in SD default mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tISUD",
+        "Input setup time SD",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tIHD",
+        "Input hold time SD",
+        "-",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "tOVD",
+        "Output valid default time SD",
+        "-",
+        "-",
+        "1",
+        "1.5",
+        "ns"
+      ],
+      [
+        "tOHD",
+        "Output hold default time SD",
+        "-",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. At VOS1, these values are degraded by up to 5 %.",
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

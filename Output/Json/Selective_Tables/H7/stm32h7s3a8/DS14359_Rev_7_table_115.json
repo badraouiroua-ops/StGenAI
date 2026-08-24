@@ -1,0 +1,151 @@
+{
+  "table_id": "table_115",
+  "document": "DS14359 Rev 7 - Table 115. ADF characteristics",
+  "rev": "Rev 7",
+  "table_number": "115",
+  "title": "Table 115. ADF characteristics",
+  "page": 258,
+  "section": "6.3.27 Audio digital filter (ADF)",
+  "section_title": "Audio digital filter (ADF)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=258",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 115. ADF characteristics — section 6.3.27 Audio digital filter (ADF). Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Units"
+    ],
+    "rows": [
+      [
+        "F CCKI",
+        "Input clock frequency via the ADF_CCK[1:0] pin, in SLAVE_SPI mode",
+        "1.71<VDD<3.6 V",
+        "-",
+        "-",
+        "25",
+        "MHz"
+      ],
+      [
+        "F CCKO",
+        "Output clock frequency in MASTER_SPI",
+        "1.71<VDD<3.6 V",
+        "-",
+        "-",
+        "25",
+        "MHz"
+      ],
+      [
+        "F CCKOLF",
+        "Output clock frequency in LF_MASTER_SPI",
+        "1.71<VDD<3.6 V",
+        "-",
+        "-",
+        "5",
+        "MHz"
+      ],
+      [
+        "F SYMB",
+        "Input symbol rate in MANCHESTER mode",
+        "1.71<VDD<3.6 V",
+        "-",
+        "-",
+        "20",
+        "MHz"
+      ],
+      [
+        "IKCCL IKCCH T , T",
+        "ADF_CCK[1:0] input clock high and low time",
+        "In SLAVE_SPI mode",
+        "2 x T adf_proc_ck",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "OKCCL OKCCH T , T",
+        "ADF_CCK[1:0] output clock high and low time",
+        "In MASTER_SPI mode",
+        "2 x T adf_proc_ck",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "FLOKCCL T FLOKCCH , T",
+        "ADF_CCK[1:0] output clock high and low time",
+        "In LF_MASTER_SPI mode",
+        "T adf_proc_ck",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "T SUCCKI",
+        "Data setup time w.r.t. ADF_CCK[1:0] input",
+        "In SLAVE_SPI mode: ADF_CCK[1:0] configured in input, measured on rising and falling edge",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "T HDCCKI",
+        "Data hold time w.r.t. ADF_CCK[1:0] input",
+        "In SLAVE_SPI mode: ADF_CCK[1:0] configured in input, measured on rising and falling edge",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "T SUCCKO",
+        "Data setup time w.r.t. ADF_CCK[1:0] output",
+        "In MASTER_SPI mode: ADF_CCK[1:0] configured in output, measured on rising and falling edge",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "T HDCCKO",
+        "Data hold time w.r.t. ADF_CCK[1:0] output",
+        "In MASTER_SPI mode: ADF_CCK[1:0] configured in output, measured on rising and falling edge",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "T SUCCKOLF",
+        "Data setup time w.r.t. ADF_CCK[1:0] output",
+        "In LF_MASTER_SPI mode: ADF_CCK[1:0] configured in output, measured on rising and falling edge",
+        "13",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "T HDCCKOLF",
+        "Data hold time w.r.t. ADF_CCK[1:0] output",
+        "In LF_MASTER_SPI mode: ADF_CCK[1:0] configured in output, measured on rising and falling edge",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. 258/325 DS14359 Rev 7"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "table_id": "table_32",
+  "caption": "Table 32. Typical and maximum current consumption in Run mode, code with data processing running from flash bank 2, only Arm Cortex-M4 running, ART accelerator ON, SMPS regulator",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 122,
+  "merged_pages": [
+    122
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=122",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Typ",
+    "Max / Tj=25 °C",
+    "Max / Tj=85 °C",
+    "Max / Tj=105 °C",
+    "Max / Tj=125 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1",
+      "35.3",
+      "54.3",
+      "102.1",
+      "144.4",
+      "203.5",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS2",
+      "23.3",
+      "35.0",
+      "70.6",
+      "99.2",
+      "145.8",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "13.6",
+      "22.3",
+      "49.0",
+      "69.8",
+      "101.9",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS1",
+      "57.0",
+      "84.1",
+      "126.8",
+      "172.3",
+      "234.6",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS2",
+      "36.6",
+      "54.5",
+      "84.9",
+      "118.1",
+      "165.0",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS3",
+      "23.1",
+      "37.4",
+      "58.4",
+      "79.8",
+      "112.5",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 10,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 10,
+    "_notes": [
+      "1. The parameters given in the above table for the SMPS regulator are derived by extrapolation from the LDO consumption ."
+    ],
+    "_legend": [
+      "running from flash bank 2, only Arm Cortex-M4 running, ART accelerator ON,",
+      "SMPS regulator(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_32",
+    "is_continued": false,
+    "pages": [
+      122
+    ],
+    "rows_count": 6,
+    "cols_count": 10,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

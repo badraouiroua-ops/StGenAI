@@ -1,0 +1,133 @@
+{
+  "table_id": "table_102",
+  "document": "DS12923 Rev 3 - Table 102. LTDC characteristics",
+  "rev": "Rev 3",
+  "table_number": "102",
+  "title": "Table 102. LTDC characteristics",
+  "page": 199,
+  "section": "6.3.31 LCD-TFT controller (LTDC) characteristics",
+  "section_title": "LCD-TFT controller (LTDC) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=199",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "text_helper": "Table 102. LTDC characteristics — section 6.3.31 LCD-TFT controller (LTDC) characteristics. Symbol, Parameter, Parameter, Parameter, Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Parameter",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f CLK",
+        "LTDC clock output frequency",
+        "2.7<V <3.6 V DD 20pF",
+        "2.7<V <3.6 V DD 20pF",
+        "-",
+        "150",
+        "MHz"
+      ],
+      [
+        "f CLK",
+        "LTDC clock output frequency",
+        "2.7<V <3.6 V DD",
+        "2.7<V <3.6 V DD",
+        "-",
+        "133",
+        "MHz"
+      ],
+      [
+        "f CLK",
+        "LTDC clock output frequency",
+        "1.62<V <3.6 V DD",
+        "1.62<V <3.6 V DD",
+        "-",
+        "90",
+        "MHz"
+      ],
+      [
+        "D CLK",
+        "LTDC clock output duty cycle",
+        "LTDC clock output duty cycle",
+        "LTDC clock output duty cycle",
+        "45",
+        "55",
+        "%"
+      ],
+      [
+        "t w(CLKH), t w(CLKL)",
+        "Clock High time, low time",
+        "Clock High time, low time",
+        "Clock High time, low time",
+        "t //2-0.5 w(CLK)",
+        "t //2+0.5 w(CLK)",
+        "%"
+      ],
+      [
+        "t v(DATA)",
+        "Data output valid time",
+        "Data output valid time",
+        "2.7<V <3.6 V DD",
+        "-",
+        "0.5",
+        "%"
+      ],
+      [
+        "t h(DATA)",
+        "Data output valid time",
+        "Data output valid time",
+        "1.62<V <3.6 V DD",
+        "-",
+        "5",
+        "%"
+      ],
+      [
+        "t v(DATA)",
+        "Data output hold time",
+        "Data output hold time",
+        "Data output hold time",
+        "0",
+        "-",
+        "%"
+      ],
+      [
+        "t v(HSYNC), t v(VSYNC), t v(DE)",
+        "HSYNC/VSYNC/DE output valid time",
+        "HSYNC/VSYNC/DE output valid time",
+        "2.7<V <3.6 V DD",
+        "-",
+        "0.5",
+        "%"
+      ],
+      [
+        "t v(HSYNC), t v(VSYNC), t v(DE)",
+        "HSYNC/VSYNC/DE output valid time",
+        "HSYNC/VSYNC/DE output valid time",
+        "1.62<V <3.6 V DD",
+        "-",
+        "5",
+        "%"
+      ],
+      [
+        "t h(HSYNC), t , h(VSYNC) t h(DE)",
+        "HSYNC/VSYNC/DE output hold time",
+        "HSYNC/VSYNC/DE output hold time",
+        "HSYNC/VSYNC/DE output hold time",
+        "0",
+        "-",
+        "%"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS12923 Rev 3 199/245"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

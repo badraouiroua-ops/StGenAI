@@ -1,0 +1,112 @@
+{
+  "table_id": "table_118",
+  "caption": "Table 118. Dynamics characteristics: Ethernet MAC signals for MII",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 213,
+  "merged_pages": [
+    213
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=213",
+  "section": "6.3.37 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t su(RXD)",
+      "Receive data setup time",
+      "2.0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(RXD)",
+      "Receive data hold time",
+      "2.0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(DV)",
+      "Data valid setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(DV)",
+      "Data valid hold time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(ER)",
+      "Error setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(ER)",
+      "Error hold time",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(TXEN)",
+      "Transmit enable valid delay time",
+      "9.0",
+      "11",
+      "19",
+      "ns"
+    ],
+    [
+      "t d(TXD)",
+      "Transmit data valid delay time",
+      "8.5",
+      "10",
+      "19",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_118",
+    "is_continued": false,
+    "pages": [
+      213
+    ],
+    "rows_count": 8,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

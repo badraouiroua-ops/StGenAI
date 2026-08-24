@@ -1,0 +1,62 @@
+{
+  "table_id": "table_94",
+  "caption": "Table 94. Temperature monitoring characteristics",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 184,
+  "merged_pages": [
+    184
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=184",
+  "section": "6.3.27 Temperature and V monitoring",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "TEMP high",
+      "High temperature monitoring",
+      "-",
+      "117",
+      "-",
+      "°C"
+    ],
+    [
+      "TEMP low",
+      "Low temperature monitoring",
+      "-",
+      "–25",
+      "-",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_94",
+    "is_continued": false,
+    "pages": [
+      184
+    ],
+    "rows_count": 2,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

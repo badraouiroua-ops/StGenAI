@@ -1,0 +1,116 @@
+{
+  "table_id": "table_101",
+  "document": "DS13195 Rev 8 - Table 101. Digital temperature sensor characteristics",
+  "rev": "Rev 8",
+  "table_number": "101",
+  "title": "Table 101. Digital temperature sensor characteristics",
+  "page": 155,
+  "section": "6.3.25 Digital temperature sensor characteristics",
+  "section_title": "Digital temperature sensor characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=155",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 101. Digital temperature sensor characteristics — section 6.3.25 Digital temperature sensor characteristics. Symbol, Parameter, Conditions, Min(1), Typ(1), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min(1)",
+      "Typ(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fDTS(2)",
+        "Output Clock frequency",
+        "-",
+        "500",
+        "750",
+        "1150",
+        "kHz"
+      ],
+      [
+        "TLC(2)",
+        "Temperature linearity coefficient",
+        "VOS2",
+        "1660",
+        "2100",
+        "2750",
+        "Hz/°C"
+      ],
+      [
+        "TTOTAL_ERROR(2)",
+        "Temperature offset measurement, all VOS",
+        "TJ =-40 °C to 30 °C",
+        "-13",
+        "-",
+        "4",
+        "°C"
+      ],
+      [
+        "TTOTAL_ERROR(2)",
+        "Temperature offset measurement, all VOS",
+        "TJ =30 °C to 130 °C",
+        "-7",
+        "-",
+        "2",
+        "°C"
+      ],
+      [
+        "TVDD_CORE",
+        "Additional error due to supply variation",
+        "VOS2",
+        "0",
+        "-",
+        "0",
+        "°C"
+      ],
+      [
+        "TVDD_CORE",
+        "Additional error due to supply variation",
+        "VOS0, VOS1, VOS3",
+        "-1",
+        "-",
+        "1",
+        "°C"
+      ],
+      [
+        "tTRIM",
+        "Calibration time",
+        "-",
+        "-",
+        "-",
+        "2",
+        "ms"
+      ],
+      [
+        "tWAKE_UP",
+        "Wake-up time from off state until DTS ready bit is set",
+        "-",
+        "-",
+        "67",
+        "116.00",
+        "μs"
+      ],
+      [
+        "IDDCORE_DTS",
+        "DTS consumption on VCORE",
+        "-",
+        "8.5",
+        "30",
+        "70.0",
+        "μA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. Guaranteed by characterization results."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

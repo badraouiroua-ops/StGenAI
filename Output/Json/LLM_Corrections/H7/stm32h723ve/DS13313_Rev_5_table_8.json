@@ -1,0 +1,103 @@
+{
+  "table_id": "table_8",
+  "status": "ERRORS_FOUND",
+  "logs": [
+    "Suppression des lignes d'en-tête répétées à chaque saut de page dans le document."
+  ],
+  "erreurs_corrigees": [
+    {
+      "ligne": "PB8",
+      "row_index": 26,
+      "analyse_visuelle": "Correction de l'espace indésirable dans TIM16_CH1.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "TIM16_C H1",
+          "nouvelle_valeur": "TIM16_CH1",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PB12",
+      "row_index": 31,
+      "analyse_visuelle": "Correction de la coupure de mot dans TIM1_BKIN.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "TIM1_BKI N",
+          "nouvelle_valeur": "TIM1_BKIN",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PE7",
+      "row_index": 79,
+      "analyse_visuelle": "Correction de la coupure de mot dans TIM1_ETR.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "TIM1_ET R",
+          "nouvelle_valeur": "TIM1_ETR",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PF10",
+      "row_index": 101,
+      "analyse_visuelle": "Correction de la coupure de mot dans TIM16_BKIN.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "TIM16_BK IN",
+          "nouvelle_valeur": "TIM16_BKIN",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PG4",
+      "row_index": 112,
+      "analyse_visuelle": "Correction de la coupure de mot dans TIM1_BKIN2.",
+      "corrections": [
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "TIM1_BKI N2",
+          "nouvelle_valeur": "TIM1_BKIN2",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "PG15",
+      "row_index": 124,
+      "analyse_visuelle": "Correction de la coupure de mot dans FMC_NCAS.",
+      "corrections": [
+        {
+          "colonne_index": 14,
+          "valeur_originale_json": "FMC_NCA S",
+          "nouvelle_valeur": "FMC_NCAS",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": [
+    8,
+    17,
+    28,
+    35,
+    45,
+    53,
+    63,
+    71,
+    82,
+    89,
+    100,
+    107,
+    118
+  ]
+}

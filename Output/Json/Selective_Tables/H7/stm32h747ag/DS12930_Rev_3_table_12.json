@@ -1,0 +1,41 @@
+{
+  "table_id": "table_12",
+  "document": "DS12930 Rev 3 - Table 12. Thermal characteristics",
+  "rev": "Rev 3",
+  "table_number": "12",
+  "title": "Table 12. Thermal characteristics",
+  "page": 106,
+  "section": "6.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=106",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 12. Thermal characteristics — section 6.2 Absolute maximum ratings. Symbol, Ratings, Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "T STG",
+        "Storage temperature range",
+        "-65 to +150",
+        "°C"
+      ],
+      [
+        "T J",
+        "Maximum junction temperature",
+        "125",
+        "°C"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

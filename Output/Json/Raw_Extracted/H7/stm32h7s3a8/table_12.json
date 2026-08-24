@@ -1,0 +1,73 @@
+{
+  "table_id": "table_12",
+  "caption": "Table 12. MCE implementation",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 60,
+  "merged_pages": [
+    60
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=60",
+  "section": "3.35.2 Memory cipher implementation",
+  "headers": [
+    "MCE features",
+    "MCE1",
+    "MCE2/3"
+  ],
+  "rows": [
+    [
+      "Number of regions",
+      "4",
+      "4"
+    ],
+    [
+      "Cipher engines",
+      "AES x 2",
+      "12 rounds Noekeon x2"
+    ],
+    [
+      "Derive key function",
+      "normal, fast",
+      "normal, fast"
+    ],
+    [
+      "Master key",
+      "2",
+      "2"
+    ],
+    [
+      "Chaining modes (encryption mode)",
+      "block, stream",
+      "block"
+    ],
+    [
+      "Cipher context(s)",
+      "2",
+      "0"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_12",
+    "is_continued": false,
+    "pages": [
+      60
+    ],
+    "rows_count": 6,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

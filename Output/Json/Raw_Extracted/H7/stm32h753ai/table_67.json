@@ -1,0 +1,85 @@
+{
+  "table_id": "table_67",
+  "caption": "Table 67. Switching characteristics for NAND flash read cycles",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 160,
+  "merged_pages": [
+    160
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=160",
+  "section": "6.3.17 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(N0E)",
+      "FMC_NOE low width",
+      "4T - 0.5 fmc_ker_ck",
+      "4T + 0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t su(D-NOE)",
+      "FMC_D[15-0] valid data before FMC_NOE high",
+      "8",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NOE-D)",
+      "FMC_D[15-0] valid data after FMC_NOE high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(ALE-NOE)",
+      "FMC_ALE valid before FMC_NOE low",
+      "-",
+      "3T + 1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(NOE-ALE)",
+      "FMC_NWE high to FMC_ALE invalid",
+      "4T - 2 fmc_ker_ck",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results. SDRAM waveforms and timings"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_67",
+    "is_continued": false,
+    "pages": [
+      160
+    ],
+    "rows_count": 5,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

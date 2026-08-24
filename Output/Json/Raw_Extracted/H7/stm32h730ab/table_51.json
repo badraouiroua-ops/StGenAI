@@ -1,0 +1,87 @@
+{
+  "table_id": "table_51",
+  "caption": "Table 51. ESD absolute maximum ratings",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 149,
+  "merged_pages": [
+    149
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=149",
+  "section": "6.3.15 Absolute maximum ratings (electrical sensitivity)",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Conditions",
+    "Packages",
+    "Class",
+    "Maximum value(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V ESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "T = 25 °C conforming to A ANSI/ESDA/JEDEC JS-001",
+      "Packages with SMPS",
+      "1C",
+      "1000(2)",
+      "V"
+    ],
+    [
+      "V ESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "T = 25 °C conforming to A ANSI/ESDA/JEDEC JS-001",
+      "Packages without SMPS",
+      "2",
+      "2000",
+      "V"
+    ],
+    [
+      "V ESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS-002",
+      "All LQFP packages",
+      "C1",
+      "250",
+      "V"
+    ],
+    [
+      "V ESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS-002",
+      "All BGA and WLCSP packages",
+      "C2a",
+      "500",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Excluding V ,the maximum value is 2000 V. FBSMPS"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_51",
+    "is_continued": false,
+    "pages": [
+      149
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "table_id": "table_125",
+  "document": "DS12923 Rev 3 - Table 125. TFBGA240+25 - Mechanical data",
+  "rev": "Rev 3",
+  "table_number": "125",
+  "title": "Table 125. TFBGA240+25 - Mechanical data",
+  "page": 236,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=236",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "text_helper": "Table 125. TFBGA240+25 - Mechanical data — section 7.1 Device marking. Symbol, Millimeters / Min, Millimeters / Typ, Millimeters / Max, Inches(2) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Millimeters / Min",
+      "Millimeters / Typ",
+      "Millimeters / Max",
+      "Inches(2) / Min",
+      "Inches(2) / Typ",
+      "Inches(2) / Max"
+    ],
+    "rows": [
+      [
+        "A(3)",
+        "-",
+        "-",
+        "1.200",
+        "-",
+        "-",
+        "0.0472"
+      ],
+      [
+        "A1(4)",
+        "0.150",
+        "-",
+        "-",
+        "0.0059",
+        "-",
+        "-"
+      ],
+      [
+        "A2",
+        "-",
+        "0.760",
+        "-",
+        "-",
+        "0.0299",
+        "-"
+      ],
+      [
+        "b(6)",
+        "0.320",
+        "0.400",
+        "0.450",
+        "0.0126",
+        "0.0157",
+        "0.0177"
+      ],
+      [
+        "D",
+        "14.000 BSC(7)",
+        "14.000 BSC(7)",
+        "14.000 BSC(7)",
+        "0.5512 BSC",
+        "0.5512 BSC",
+        "0.5512 BSC"
+      ],
+      [
+        "D1",
+        "12.800 BSC",
+        "12.800 BSC",
+        "12.800 BSC",
+        "0.5039 BSC",
+        "0.5039 BSC",
+        "0.5039 BSC"
+      ],
+      [
+        "E",
+        "14.000 BSC",
+        "14.000 BSC",
+        "14.000 BSC",
+        "0.5512 BSC",
+        "0.5512 BSC",
+        "0.5512 BSC"
+      ],
+      [
+        "E1",
+        "12.800 BSC",
+        "12.800 BSC",
+        "12.800 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC"
+      ],
+      [
+        "e(10)",
+        "0.800 BSC",
+        "0.800 BSC",
+        "0.800 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC"
+      ],
+      [
+        "N(11)",
+        "265",
+        "265",
+        "265",
+        "265",
+        "265",
+        "265"
+      ],
+      [
+        "SD(12)",
+        "0.800 BSC",
+        "0.800 BSC",
+        "0.800 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC"
+      ],
+      [
+        "SE(12)",
+        "0.800 BSC",
+        "0.800 BSC",
+        "0.800 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC",
+        "0.0315 BSC"
+      ]
+    ],
+    "notes": [
+      "2. Values in inches are converted from millimeters and rounded to four decimal digits.",
+      "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "4. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "6. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+      "7. BSC stands for basic dimensions. It corresponds to the nominal value and has no tolerance. For tolerances, refer to Table 126.",
+      "10. e represents the solder ball grid pitch.",
+      "11. N represents the total number of balls on the BGA.",
+      "12. Basic dimensions SD and SE are defined with respect to datums A and B. They define the position of the center ball(s) in the outer row or column of a fully populated matrix."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

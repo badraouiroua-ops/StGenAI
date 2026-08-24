@@ -1,0 +1,194 @@
+{
+  "table_id": "table_17",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "VREFINT",
+      "row_index": 0,
+      "analyse_visuelle": "Correction des espaces parasites dans le symbole et la condition TJ < TJmax.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V REFINT",
+          "nouvelle_valeur": "VREFINT",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "-40°C < T < T J Jmax",
+          "nouvelle_valeur": "-40°C < TJ < TJmax",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tS_vrefint",
+      "row_index": 1,
+      "analyse_visuelle": "Reconstitution du symbole avec ses notes en exposant.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (1)(2) S_vrefint (3)",
+          "nouvelle_valeur": "tS_vrefint(1)(2)(3)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tS_vbat",
+      "row_index": 2,
+      "analyse_visuelle": "Reconstitution du symbole tS_vbat(2).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (2) S_vbat",
+          "nouvelle_valeur": "tS_vbat(2)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tstart_vrefint",
+      "row_index": 3,
+      "analyse_visuelle": "Reconstitution du symbole tstart_vrefint(2).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (2) start_vrefint",
+          "nouvelle_valeur": "tstart_vrefint(2)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Irefbuf",
+      "row_index": 4,
+      "analyse_visuelle": "Correction du symbole Irefbuf(2) et de la condition VDD = 3.3 V.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I (2) refbuf",
+          "nouvelle_valeur": "Irefbuf(2)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 3.3 V DD",
+          "nouvelle_valeur": "VDD = 3.3 V",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "ΔVREFINT",
+      "row_index": 5,
+      "analyse_visuelle": "Correction du symbole ΔVREFINT(2) et de la condition TJ < TJmax.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "ΔV (2) REFINT",
+          "nouvelle_valeur": "ΔVREFINT(2)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "-40°C < T < T J Jmax",
+          "nouvelle_valeur": "-40°C < TJ < TJmax",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Tcoeff",
+      "row_index": 6,
+      "analyse_visuelle": "Correction du symbole Tcoeff(2).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "T (2) coeff",
+          "nouvelle_valeur": "Tcoeff(2)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "VDDcoeff",
+      "row_index": 7,
+      "analyse_visuelle": "Correction du symbole VDDcoeff(2) et de la condition 3.0 V < VDD < 3.6 V.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V (2) DDcoeff",
+          "nouvelle_valeur": "VDDcoeff(2)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "3.0 V < V < 3.6 V DD",
+          "nouvelle_valeur": "3.0 V < VDD < 3.6 V",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "VREFINT_DIV1",
+      "row_index": 8,
+      "analyse_visuelle": "Suppression de l'espace parasite dans le symbole VREFINT_DIV1 et dans l'unité.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V REFINT_DIV1",
+          "nouvelle_valeur": "VREFINT_DIV1",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 6,
+          "valeur_originale_json": "% V REFINT",
+          "nouvelle_valeur": "% VREFINT",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "VREFINT_DIV2",
+      "row_index": 9,
+      "analyse_visuelle": "Suppression de l'espace parasite dans le symbole VREFINT_DIV2 et dans l'unité.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V REFINT_DIV2",
+          "nouvelle_valeur": "VREFINT_DIV2",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 6,
+          "valeur_originale_json": "% V REFINT",
+          "nouvelle_valeur": "% VREFINT",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "VREFINT_DIV3",
+      "row_index": 10,
+      "analyse_visuelle": "Suppression de l'espace parasite dans le symbole VREFINT_DIV3 et dans l'unité.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V REFINT_DIV3",
+          "nouvelle_valeur": "VREFINT_DIV3",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 6,
+          "valeur_originale_json": "% V REFINT",
+          "nouvelle_valeur": "% VREFINT",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

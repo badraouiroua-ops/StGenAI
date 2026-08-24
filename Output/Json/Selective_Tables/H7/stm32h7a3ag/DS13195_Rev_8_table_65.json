@@ -1,0 +1,202 @@
+{
+  "table_id": "table_65",
+  "document": "DS13195 Rev 8 - Table 65. I/O static characteristics",
+  "rev": "Rev 8",
+  "table_number": "65",
+  "title": "Table 65. I/O static characteristics",
+  "page": 116,
+  "section": "6.3.16 I/O port characteristics",
+  "section_title": "I/O port characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=116",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 65. I/O static characteristics — section 6.3.16 I/O port characteristics. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "VIL",
+        "I/O input low-level voltage except BOOT0",
+        "1.62 V < VDDIOx < 3.6 V",
+        "-",
+        "-",
+        "0.3VDD (1)",
+        "V"
+      ],
+      [
+        "VIL",
+        "I/O input low-level voltage except BOOT0",
+        "1.62 V < VDDIOx < 3.6 V",
+        "-",
+        "-",
+        "0.4VDD-0.1(2)",
+        "V"
+      ],
+      [
+        "VIL",
+        "BOOT0 I/O input low level voltage",
+        "1.62 V < VDDIOx < 3.6 V",
+        "-",
+        "-",
+        "0.19VDD+0.1(2)",
+        "V"
+      ],
+      [
+        "VIH",
+        "I/O input high level voltage except BOOT0",
+        "1.62 V < VDDIOx < 3.6 V",
+        "0.7VDD (1)",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "VIH",
+        "I/O input high level voltage except BOOT0",
+        "1.62 V < VDDIOx < 3.6 V",
+        "0.47VDD+0.25(2)",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "VIH",
+        "BOOT0 I/O input high level voltage",
+        "1.62 V < VDDIOx < 3.6 V",
+        "0.17VDD+0.6(2)",
+        "-",
+        "-",
+        "V"
+      ],
+      [
+        "VHYS(2)",
+        "TT_xx, FT_xxx and NRST I/O input hysteresis",
+        "1.62 V < VDDIOx < 3.6 V",
+        "-",
+        "250",
+        "-",
+        "mV"
+      ],
+      [
+        "VHYS(2)",
+        "BOOT0 I/O input hysteresis",
+        "1.62 V < VDDIOx < 3.6 V",
+        "-",
+        "200",
+        "-",
+        "mV"
+      ],
+      [
+        "Ilkg",
+        "FT_xx input leakage current(2)",
+        "0 < VIN ≤ Max(VDDxxx)(5)",
+        "-",
+        "-",
+        "±250",
+        "nA"
+      ],
+      [
+        "Ilkg",
+        "FT_xx input leakage current(2)",
+        "Max(VDDxxx) < VIN ≤ 5.5 V (3)(4)(5)",
+        "-",
+        "-",
+        "1500",
+        "nA"
+      ],
+      [
+        "Ilkg",
+        "FT_u I/O",
+        "0 < VIN ≤ Max(VDDxxx)(5)",
+        "-",
+        "-",
+        "±350",
+        "nA"
+      ],
+      [
+        "Ilkg",
+        "FT_u I/O",
+        "Max(VDDxxx) < VIN ≤ 5.5 V (3)(4)(8)(5)",
+        "-",
+        "-",
+        "5000(6)",
+        "nA"
+      ],
+      [
+        "Ilkg",
+        "TT_xx input leakage current",
+        "0 < VIN ≤ Max(VDDxxx)(5)",
+        "-",
+        "-",
+        "±250",
+        "nA"
+      ],
+      [
+        "Ilkg",
+        "VPP (BOOT0 alternate function)",
+        "0 < VIN ≤ VDDIOx",
+        "-",
+        "-",
+        "15",
+        "uA"
+      ],
+      [
+        "Ilkg",
+        "VPP (BOOT0 alternate function)",
+        "VDDIOx < VIN ≤ 9 V",
+        "-",
+        "-",
+        "35",
+        "uA"
+      ],
+      [
+        "RPU",
+        "Weak pull-up equivalent resistor(7)",
+        "VIN = VSS",
+        "30",
+        "40",
+        "50",
+        "kΩ"
+      ],
+      [
+        "RPD",
+        "Weak pull-down equivalent resistor(7)",
+        "VIN = VDD(5)",
+        "30",
+        "40",
+        "50",
+        "kΩ"
+      ],
+      [
+        "CIO",
+        "I/O pin capacitance",
+        "-",
+        "-",
+        "5",
+        "-",
+        "pF"
+      ]
+    ],
+    "notes": [
+      "1. Compliant with CMOS requirements.",
+      "2. Guaranteed by design.",
+      "3. All FT_xx IO except FT_lu and FT_u.",
+      "4. VIN must be less than Max(VDDxxx) + 3.6 V.",
+      "5. Max(VDDxxx) is the maximum value of all the I/O supplies.",
+      "6. To sustain a voltage higher than MIN(VDD, VDDA, VDD33USB) +0.3 V, the internal pull-up and pull-down resistors must be disabled.",
+      "7. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10%)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

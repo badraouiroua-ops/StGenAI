@@ -1,0 +1,340 @@
+{
+  "table_id": "table_133",
+  "document": "DS12930 Rev 3 - Table 133. Thermal characteristics",
+  "rev": "Rev 3",
+  "table_number": "133",
+  "title": "Table 133. Thermal characteristics",
+  "page": 247,
+  "section": "7.7 Thermal characteristics",
+  "section_title": "Thermal characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=247",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 133. Thermal characteristics — section 7.7 Thermal characteristics. Symbol, Definition, Parameter, Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Definition",
+      "Parameter",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient WLCSP156 - 4.96 x 4.64 mm /0.35 mm pitch",
+        "35",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient UFBGA169 - 7 x 7 mm /0.5 mm pitch",
+        "37.7",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+        "43.0",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient LQFP208 - 28 x 28 mm /0.5 mm pitch",
+        "42.4",
+        "°C/W"
+      ],
+      [
+        "Θ JA",
+        "Thermal resistance junction-ambient",
+        "Thermal resistance junction-ambient TFBGA240+25 - 14 x 14 mm / 0.8 mm pitch",
+        "36.6",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient WLCSP156 - 4.96 x 4.64 mm /0.35 mm pitch",
+        "18.1",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient UFBGA169 - 7 x 7 mm /0.5 mm pitch",
+        "17.3",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+        "39.4",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient LQFP208 - 28 x 28 mm /0.5 mm pitch",
+        "40.3",
+        "°C/W"
+      ],
+      [
+        "Θ JB",
+        "Thermal resistance junction-board",
+        "Thermal resistance junction-ambient TFBGA240+25 - 14 x 14 mm / 0.8 mm pitch",
+        "24.3",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient WLCSP156 - 4.96 x 4.64 mm /0.35 mm pitch",
+        "1",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient UFBGA169 - 7 x 7 mm /0.5 mm pitch",
+        "11",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient LQFP176 - 24 x 24 mm /0.5 mm pitch",
+        "11.2",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient LQFP208 - 28 x 28 mm /0.5 mm pitch",
+        "11.1",
+        "°C/W"
+      ],
+      [
+        "Θ JC",
+        "Thermal resistance junction-case",
+        "Thermal resistance junction-ambient TFBGA240+25 - 14 x 14 mm / 0.8 mm pitch",
+        "7.4",
+        "°C/W"
+      ],
+      [
+        "8 Or",
+        "derin",
+        "g informa",
+        "tion",
+        "tion"
+      ],
+      [
+        "Example:",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "Device family",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "STM32 = Arm-base",
+        "d 32-bit m",
+        "icrocontroller",
+        "icrocontroller",
+        "tion"
+      ],
+      [
+        "Product type",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "H = High performan",
+        "ce",
+        "ce",
+        "ce",
+        "tion"
+      ],
+      [
+        "Device subfamily",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "747 = STM32H7x7",
+        "dual core",
+        "MIPI-DSI line",
+        "MIPI-DSI line",
+        "tion"
+      ],
+      [
+        "Pin count",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "Z = 156 balls",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "A = 169 balls",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "I = 176 pins176+25",
+        "balls",
+        "balls",
+        "balls",
+        "tion"
+      ],
+      [
+        "B = 208 pins",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "X = 240+25 balls",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "Flash memory size",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "G = 1 Mbytes",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "I = 2 Mbytes",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "Package",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "T = LQFP ECOPAC",
+        "K2",
+        "K2",
+        "K2",
+        "tion"
+      ],
+      [
+        "I = UFBGA pitch 0.5",
+        "mm ECO",
+        "PACK2",
+        "PACK2",
+        "tion"
+      ],
+      [
+        "H = TFBGA ECOPA",
+        "CK2",
+        "CK2",
+        "CK2",
+        "tion"
+      ],
+      [
+        "Y = WLCSP ECOPA",
+        "CK2",
+        "CK2",
+        "CK2",
+        "tion"
+      ],
+      [
+        "Temperature range",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "6 = –40 to 85 °C",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "Option",
+        "",
+        "-",
+        "-",
+        "tion"
+      ],
+      [
+        "A = Advanced missi",
+        "on profile",
+        "(VOS1, 480 MHz",
+        ")",
+        ")"
+      ],
+      [
+        "Packing",
+        "",
+        "-",
+        "-",
+        ")"
+      ],
+      [
+        "leer dna epat = RT",
+        "",
+        "-",
+        "-",
+        ")"
+      ],
+      [
+        "No character = tray",
+        "or tube",
+        "or tube",
+        "or tube",
+        ")"
+      ]
+    ],
+    "notes": [
+      "1. The tape and reel packing is not available on all packages. For a list of available options (such as speed and package) or for further information on any"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

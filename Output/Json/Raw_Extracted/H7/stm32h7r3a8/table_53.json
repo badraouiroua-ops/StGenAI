@@ -1,0 +1,135 @@
+{
+  "table_id": "table_53",
+  "caption": "Table 53. Timing for analog HSE input",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 188,
+  "merged_pages": [
+    188
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=188",
+  "section": "6.3.9 External clock source characteristics",
+  "headers": [
+    "Parameter",
+    "Comment",
+    "Min",
+    "Typ",
+    "Max",
+    "KHz"
+  ],
+  "rows": [
+    [
+      "IO power supply",
+      "V DDIO",
+      "1.71",
+      "3.30",
+      "3.60",
+      "V"
+    ],
+    [
+      "Temperature",
+      "-",
+      "-40",
+      "25",
+      "130",
+      "°C"
+    ],
+    [
+      "Absolute input range",
+      "-",
+      "0.000",
+      "-",
+      "V DDIO",
+      "V"
+    ],
+    [
+      "Input peak-to peak amplitude",
+      "V pp",
+      "0.2(1)",
+      "-",
+      "2/3.V DDIO",
+      "V"
+    ],
+    [
+      "V power consumption DDIO",
+      "-",
+      "-",
+      "150(2)",
+      "500(3)",
+      "µA"
+    ],
+    [
+      "Input frequency",
+      "-",
+      "4",
+      "-",
+      "50(4)",
+      "MHz"
+    ],
+    [
+      "Input duty cycle",
+      "Square wave",
+      "45",
+      "50",
+      "55",
+      "%"
+    ],
+    [
+      "Duty cycle deterioration",
+      "-",
+      "0",
+      "±10(5)",
+      "±10(6)",
+      "%"
+    ],
+    [
+      "Time to start",
+      "-",
+      "1",
+      "-",
+      "10(7)",
+      "µs"
+    ],
+    [
+      "Rise and fall time",
+      "10% to 90% threshold levels of the input peak-to-peak amplitude",
+      "0.05 / freq",
+      "-",
+      "0.3 / freq",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. 200 mV is the minimum peak-to-peak amplitude @25°C (0.1 V< V < V -0.1 V where V is the DC component of the dc DDIO dc",
+      "2. Power consumption with a sine wave signal at the input @25°C (V = 3.3 V / V pp = 400 mV / V dc = 0.4 V). DD IO",
+      "3. Power consumption with a sine wave signal at the input @130°C (V = 3.6 V / V pp = 800 mV / V dc =1.8 V). DD IO",
+      "4. The IP is functional up to 50 MHz for RMII applications.",
+      "5. Guaranteed by design with a square wave @25°C / V =3.3 V / V pp = 400 mV / V =1 V. DD IO dc",
+      "6. Guaranteed by design with a square wave @25°C / V =1.6 V / V pp = 200 mV / V =0.8 V. DD IO dc",
+      "7. Maximum start-up time value (slow corner @130°C with 200 mV peak-to-peak amplitude). 188/322 DS14360 Rev 6"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_53",
+    "is_continued": false,
+    "pages": [
+      188
+    ],
+    "rows_count": 10,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

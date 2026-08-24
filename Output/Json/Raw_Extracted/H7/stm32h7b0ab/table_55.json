@@ -1,0 +1,77 @@
+{
+  "table_id": "table_55",
+  "caption": "Table 55. Flash memory characteristics",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 97,
+  "merged_pages": [
+    97
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=97",
+  "section": "6.3.12 Memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD",
+      "Supply current",
+      "Word program",
+      "-",
+      "2.5",
+      "4",
+      "mA"
+    ],
+    [
+      "IDD",
+      "Supply current",
+      "Sector erase",
+      "-",
+      "1.8",
+      "3",
+      "mA"
+    ],
+    [
+      "IDD",
+      "Supply current",
+      "Mass erase",
+      "-",
+      "2.0",
+      "3",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_55",
+    "is_continued": false,
+    "pages": [
+      97
+    ],
+    "rows_count": 3,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

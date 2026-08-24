@@ -1,0 +1,149 @@
+{
+  "table_id": "table_23",
+  "document": "DS13314 Rev 4 - Table 23. Typical consumption in Run mode and corresponding performance versus code position",
+  "rev": "Rev 4",
+  "table_number": "23",
+  "title": "Table 23. Typical consumption in Run mode and corresponding performance versus code position",
+  "page": 102,
+  "section": "6.3.7 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=102",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 23. Typical consumption in Run mode and corresponding performance versus code position — section 6.3.7 Supply current characteristics. Symbol, Parameter, Conditions / Peripheral, Conditions / Code, f rcc_c_c k (MHz), +5 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions / Peripheral",
+      "Conditions / Code",
+      "f rcc_c_c k (MHz)",
+      "Coremark",
+      "Typ",
+      "Unit",
+      "I / DD Coremark",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled, cache ON",
+        "ITCM",
+        "550",
+        "2777",
+        "145",
+        "mA",
+        "52.2",
+        "µA/ Core- mark"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled, cache ON",
+        "FLASH",
+        "550",
+        "2777",
+        "145",
+        "mA",
+        "52.2",
+        "µA/ Core- mark"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled, cache ON",
+        "AXI SRAM",
+        "550",
+        "2777",
+        "145",
+        "mA",
+        "52.2",
+        "µA/ Core- mark"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled, cache ON",
+        "SRAM 1",
+        "550",
+        "2777",
+        "150",
+        "mA",
+        "54.0",
+        "µA/ Core- mark"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled, cache ON",
+        "SRAM 4",
+        "550",
+        "2777",
+        "145",
+        "mA",
+        "52.2",
+        "µA/ Core- mark"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled cache OFF",
+        "FLASH",
+        "550",
+        "923",
+        "99",
+        "mA",
+        "107.3",
+        "µA/ Core- mark"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled cache OFF",
+        "AXI SRAM",
+        "550",
+        "1271",
+        "105",
+        "mA",
+        "82.6",
+        "µA/ Core- mark"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled cache OFF",
+        "SRAM 1",
+        "550",
+        "790",
+        "96.5",
+        "mA",
+        "122.2",
+        "µA/ Core- mark"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled cache OFF",
+        "SRAM 4",
+        "550",
+        "723",
+        "89.5",
+        "mA",
+        "123.8",
+        "µA/ Core- mark"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. CPU_FREQ_BOOST is enabled. 102/236 DS13314 Rev 4",
+      "3. The LSE is in Low-drive mode. I/O system current consumption"
+    ],
+    "legend": [
+      "versus code position"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

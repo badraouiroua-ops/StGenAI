@@ -1,0 +1,120 @@
+{
+  "table_id": "table_27",
+  "caption": "Table 27. Typical and maximum current consumption in Standby mode",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 102,
+  "merged_pages": [
+    102
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=102",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions / Backup SRAM",
+    "Conditions / RTC and LSE(3)",
+    "Typ(1) / 1.65 V",
+    "Typ(1) / 2.4 V",
+    "Typ(1) / 3 V",
+    "Typ(1) / 3.3 V",
+    "Max at 3.6 V(2) / T = J 25 ° C",
+    "Max at 3.6 V(2) / T = J 85 ° C",
+    "Max at 3.6 V(2) / T = J 105 ° C",
+    "Max at 3.6 V(2) / T = J 125 ° C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD (Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "OFF",
+      "OFF",
+      "2.2",
+      "2.35",
+      "2.5",
+      "2.8",
+      "-",
+      "-",
+      "-",
+      "-",
+      "µA"
+    ],
+    [
+      "I DD (Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "ON",
+      "OFF",
+      "3.5",
+      "3.7",
+      "4",
+      "4.3",
+      "-",
+      "-",
+      "-",
+      "-",
+      "µA"
+    ],
+    [
+      "I DD (Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "OFF",
+      "ON",
+      "2.2",
+      "2.4",
+      "2.85",
+      "3.25",
+      "4.5",
+      "15",
+      "30",
+      "64",
+      "µA"
+    ],
+    [
+      "I DD (Standby)",
+      "Supply current in Standby mode, IWDG OFF",
+      "ON",
+      "ON",
+      "3.5",
+      "3.8",
+      "4.35",
+      "4.75",
+      "8.3",
+      "39",
+      "75",
+      "140",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 13,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 13,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Guaranteed by characterization results.",
+      "3. The LSE is in Low-drive mode."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_27",
+    "is_continued": false,
+    "pages": [
+      102
+    ],
+    "rows_count": 4,
+    "cols_count": 13,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

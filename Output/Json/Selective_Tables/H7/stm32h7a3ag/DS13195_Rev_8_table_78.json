@@ -1,0 +1,123 @@
+{
+  "table_id": "table_78",
+  "document": "DS13195 Rev 8 - Table 78. Asynchronous multiplexed PSRAM/NOR write timings",
+  "rev": "Rev 8",
+  "table_number": "78",
+  "title": "Table 78. Asynchronous multiplexed PSRAM/NOR write timings",
+  "page": 127,
+  "section": "6.3.18 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=127",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 78. Asynchronous multiplexed PSRAM/NOR write timings — section 6.3.18 FMC characteristics. Symbol, Parameter, Min(1), Max(1), Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tw(NE)",
+        "FMC_NE low time",
+        "4Tfmc_ker_ck - 1",
+        "4Tfmc_ker_ck",
+        "ns"
+      ],
+      [
+        "tv(NWE_NE)",
+        "FMC_NEx low to FMC_NWE low",
+        "Tfmc_ker_c - 1",
+        "Tfmc_ker_ck + 0.5",
+        "ns"
+      ],
+      [
+        "tw(NWE)",
+        "FMC_NWE low time",
+        "2Tfmc_ker_ck- 0.5",
+        "2Tfmc_ker_ck + 0.5",
+        "ns"
+      ],
+      [
+        "th(NE_NWE)",
+        "FMC_NWE high to FMC_NE high hold time",
+        "Tfmc_ker_ck - 0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "tv(A_NE)",
+        "FMC_NEx low to FMC_A valid",
+        "-",
+        "0",
+        "ns"
+      ],
+      [
+        "tv(NADV_NE)",
+        "FMC_NEx low to FMC_NADV low",
+        "0",
+        "0.5",
+        "ns"
+      ],
+      [
+        "tw(NADV)",
+        "FMC_NADV low time",
+        "Tfmc_ker_ck",
+        "Tfmc_ker_ck+ 1",
+        "ns"
+      ],
+      [
+        "th(AD_NADV)",
+        "FMC_AD(address) valid hold time after FMC_NADV high",
+        "Tfmc_ker_ck + 0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "th(A_NWE)",
+        "Address hold time after FMC_NWE high",
+        "Tfmc_ker_ck + 0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "th(BL_NWE)",
+        "FMC_BL hold time after FMC_NWE high",
+        "Tfmc_ker_ck - 0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "tv(BL_NE)",
+        "FMC_NEx low to FMC_BL valid",
+        "-",
+        "0.5",
+        "ns"
+      ],
+      [
+        "tv(Data_NADV)",
+        "FMC_NADV high to Data valid",
+        "-",
+        "Tfmc_ker_ck + 2",
+        "ns"
+      ],
+      [
+        "th(Data_NWE)",
+        "Data hold time after FMC_NWE high",
+        "Tfmc_ker_ck+0.5",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. Synchronous waveforms and timings"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "table_id": "table_138",
+  "caption": "Table 138. UFBGA(176+25) - Example of PCB design rules (0.65 mm pitch BGA)",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 275,
+  "merged_pages": [
+    275
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=275",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Dimension",
+    "Values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.65 mm"
+    ],
+    [
+      "Dpad",
+      "0.300 mm"
+    ],
+    [
+      "Dsm",
+      "0.400 mm typ. (depends on the soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.300 mm"
+    ],
+    [
+      "Stencil thickness",
+      "Between 0.100 mm and 0.125 mm"
+    ],
+    [
+      "Pad trace width",
+      "0.100 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits. Figure 90. UFBGA(176+25) - Footprint example"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_138",
+    "is_continued": false,
+    "pages": [
+      275
+    ],
+    "rows_count": 6,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

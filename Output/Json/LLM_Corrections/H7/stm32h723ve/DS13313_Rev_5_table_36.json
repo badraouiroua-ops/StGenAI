@@ -1,0 +1,143 @@
+{
+  "table_id": "table_36",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "f HSI",
+      "row_index": 0,
+      "analyse_visuelle": "Correction du symbole fHSI et de la formule de conditions mal découpée à cause des indices (VDD=3.3 V, TJ=30 °C).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f HSI",
+          "nouvelle_valeur": "fHSI",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =3.3 V, T =30 °C DD J",
+          "nouvelle_valeur": "VDD=3.3 V, TJ=30 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Δ VDD (HSI)",
+      "row_index": 6,
+      "analyse_visuelle": "Correction des indices VDD déplacés à la fin du texte dans Symbol, Parameter et Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Δ VDD (HSI)",
+          "nouvelle_valeur": "ΔVDD (HSI)",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "HSI oscillator frequency drift over V (the reference is 3.3 V) DD",
+          "nouvelle_valeur": "HSI oscillator frequency drift over VDD (the reference is 3.3 V)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =1.62 to 3.6 V DD",
+          "nouvelle_valeur": "VDD=1.62 to 3.6 V",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Δ TEMP(HSI) TJ=-20 to 105 °C",
+      "row_index": 7,
+      "analyse_visuelle": "Correction du symbole et de la température TJ mal concaténée.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Δ TEMP(HSI)",
+          "nouvelle_valeur": "ΔTEMP(HSI)",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "T =-20 to 105 °C J",
+          "nouvelle_valeur": "TJ=-20 to 105 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Δ TEMP(HSI) TJ=-40 to TJmax °C",
+      "row_index": 8,
+      "analyse_visuelle": "Correction du symbole et des indices TJ et TJmax dans Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "Δ TEMP(HSI)",
+          "nouvelle_valeur": "ΔTEMP(HSI)",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "T =-40 to T max °C J J",
+          "nouvelle_valeur": "TJ=−40 to TJmax °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tsu(HSI)",
+      "row_index": 9,
+      "analyse_visuelle": "Correction de l'indice su dans le symbole tsu(HSI).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (HSI) su",
+          "nouvelle_valeur": "tsu(HSI)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tstab(HSI) at 1%",
+      "row_index": 10,
+      "analyse_visuelle": "Correction de l'indice stab dans le symbole tstab(HSI).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (HSI) stab",
+          "nouvelle_valeur": "tstab(HSI)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tstab(HSI) at 5%",
+      "row_index": 11,
+      "analyse_visuelle": "Correction de l'indice stab dans le symbole tstab(HSI).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (HSI) stab",
+          "nouvelle_valeur": "tstab(HSI)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "IDD(HSI)",
+      "row_index": 12,
+      "analyse_visuelle": "Correction de l'indice DD dans le symbole IDD(HSI).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I (HSI) DD",
+          "nouvelle_valeur": "IDD(HSI)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

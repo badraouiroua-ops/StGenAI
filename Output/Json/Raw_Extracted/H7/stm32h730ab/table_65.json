@@ -1,0 +1,141 @@
+{
+  "table_id": "table_65",
+  "caption": "Table 65. Asynchronous multiplexed PSRAM/NOR read timings",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 164,
+  "merged_pages": [
+    164
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=164",
+  "section": "6.3.19 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(NE)",
+      "FMC_NE low time",
+      "4T –1 fmc_ker_ck",
+      "4T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t v(NOE_NE)",
+      "FMC_NEx low to FMC_NOE low",
+      "2T fmc_ker_ck",
+      "2T fmc_ker_ck +0.5",
+      "ns"
+    ],
+    [
+      "t tw(NOE)",
+      "FMC_NOE low time",
+      "T –1 fmc_ker_ck",
+      "T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(NE_NOE)",
+      "FMC_NOE high to FMC_NE high hold time",
+      "T fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(A_NE)",
+      "FMC_NEx low to FMC_A valid",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t v(NADV_NE)",
+      "FMC_NEx low to FMC_NADV low",
+      "0",
+      "4.0",
+      "ns"
+    ],
+    [
+      "t w(NADV)",
+      "FMC_NADV low time",
+      "T –0.5 fmc_ker_ck",
+      "T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(AD_NADV)",
+      "FMC_AD(address) valid hold time after FMC_NADV high)",
+      "T –4 fmc_ker_ckk",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(A_NOE)",
+      "Address hold time after FMC_NOE high",
+      "T –0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(Data_NE)",
+      "Data to FMC_NEx high setup time",
+      "T +14 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(Data_NOE)",
+      "Data to FMC_NOE high setup time",
+      "13",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(Data_NE)",
+      "Data hold time after FMC_NEx high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(Data_NOE)",
+      "Data hold time after FMC_NOE high",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_65",
+    "is_continued": false,
+    "pages": [
+      164
+    ],
+    "rows_count": 13,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

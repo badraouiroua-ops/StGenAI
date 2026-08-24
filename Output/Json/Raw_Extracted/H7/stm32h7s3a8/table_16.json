@@ -1,0 +1,81 @@
+{
+  "table_id": "table_16",
+  "caption": "Table 16. SPI features",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 69,
+  "merged_pages": [
+    69
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=69",
+  "section": "3.42.3 SPI implementation",
+  "headers": [
+    "SPI feature",
+    "SPI2S1, SPI2S2, SPI2S3 and SPI2S6 (full feature set instances)",
+    "SPI4 and SPI5 (full feature set instances)"
+  ],
+  "rows": [
+    [
+      "Data and CRC size",
+      "Configurable from 4 to 32- bit",
+      "Configurable from 4 to 16- bit"
+    ],
+    [
+      "CRC computation",
+      "CRC polynomial length configurable from 5 to 33- bit",
+      "CRC polynomial length configurable from 5 to 17- bit"
+    ],
+    [
+      "Size of FIFOs",
+      "16x8-bit",
+      "8x8-bit"
+    ],
+    [
+      "Number of data control (TSIZE)",
+      "Up to 65536",
+      "Up to 65536"
+    ],
+    [
+      "I2S feature",
+      "Yes",
+      "No"
+    ],
+    [
+      "Autonomous in Stop modes with wakeup capability",
+      "No",
+      "No"
+    ],
+    [
+      "Autonomous in LP-Stop and Standby modes with wakeup capability",
+      "No",
+      "No"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_legend": [
+      "or a limited set of features."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_16",
+    "is_continued": false,
+    "pages": [
+      69
+    ],
+    "rows_count": 7,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

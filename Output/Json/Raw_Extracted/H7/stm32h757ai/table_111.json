@@ -1,0 +1,171 @@
+{
+  "table_id": "table_111",
+  "caption": "Table 111. I2S dynamic characteristics",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 216,
+  "merged_pages": [
+    216
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=216",
+  "section": "6.3.35 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f MCK",
+      "I2S main clock output",
+      "-",
+      "256x8K",
+      "256F S",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "I2S clock frequency",
+      "Master data",
+      "-",
+      "64F S",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "I2S clock frequency",
+      "Slave data",
+      "-",
+      "64F S",
+      "MHz"
+    ],
+    [
+      "t v(WS)",
+      "WS valid time",
+      "Master mode",
+      "-",
+      "3",
+      "ns"
+    ],
+    [
+      "t h(WS)",
+      "WS hold time",
+      "Master mode",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(WS)",
+      "WS setup time",
+      "Slave mode",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(WS)",
+      "WS hold time",
+      "Slave mode",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SD_MR)",
+      "Data input setup time",
+      "Master receiver",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(SD_SR)",
+      "Data input setup time",
+      "Slave receiver",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SD_MR)",
+      "Data input hold time",
+      "Master receiver",
+      "4",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SD_SR)",
+      "Data input hold time",
+      "Slave receiver",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(SD_ST)",
+      "Data output valid time",
+      "Slave transmitter (after enable edge)",
+      "-",
+      "17",
+      "ns"
+    ],
+    [
+      "t v(SD_MT)",
+      "Data output valid time",
+      "Master transmitter (after enable edge)",
+      "-",
+      "3",
+      "ns"
+    ],
+    [
+      "t h(SD_ST)",
+      "Data output hold time",
+      "Slave transmitter (after enable edge)",
+      "9",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(SD_MT)",
+      "Data output hold time",
+      "Master transmitter (after enable edge)",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. Figure 56. I2S slave timing diagram (Philips protocol)(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_111",
+    "is_continued": false,
+    "pages": [
+      216
+    ],
+    "rows_count": 15,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

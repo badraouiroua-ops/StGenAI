@@ -1,0 +1,67 @@
+{
+  "table_id": "table_124",
+  "caption": "Table 124. WLCSP156 - Example of PCB design rules",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 231,
+  "merged_pages": [
+    231
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=231",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Dimension",
+    "Values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.35 mm"
+    ],
+    [
+      "Dpad",
+      "0.210 mm"
+    ],
+    [
+      "Dsm",
+      "0.275 mm typ. (depends on the soldermask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.235 mm"
+    ],
+    [
+      "Stencil thickness",
+      "0.100 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Values in inches are converted from mm and rounded to the 3rd decimal place.",
+      "2. Back side coating. Nominal dimension rounded to the 3rd decimal place resulting from process capability.",
+      "3. Calculated dimensions are rounded to 3rd decimal place. Figure 71. WLCSP156 - footprint example"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_124",
+    "is_continued": false,
+    "pages": [
+      231
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

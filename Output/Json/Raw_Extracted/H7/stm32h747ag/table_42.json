@@ -1,0 +1,81 @@
+{
+  "table_id": "table_42",
+  "caption": "Table 42. Low-speed external user clock characteristics",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 137,
+  "merged_pages": [
+    137
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=137",
+  "section": "6.3.9 External clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f LSE_ext",
+      "User external clock source frequency",
+      "5",
+      "32.768",
+      "40",
+      "kHz"
+    ],
+    [
+      "V LSE_ext _PP",
+      "OSC32_IN peak-to-peak amplitude",
+      "0.3",
+      "-",
+      "V (2) SW",
+      "V"
+    ],
+    [
+      "V LSE_ext",
+      "OSC32_IN input range",
+      "0",
+      "-",
+      "V (2) SW",
+      "V"
+    ],
+    [
+      "t w(LSEH) t w(LSEL)",
+      "OSC32_IN high or low time for square signal input",
+      "10",
+      "-",
+      "-",
+      "μs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "2. V = V when V > V , V = V when V < V . If the customer application includes V SW DD DD BOR0 SW BAT DD BOR0 BAT"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_42",
+    "is_continued": false,
+    "pages": [
+      137
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

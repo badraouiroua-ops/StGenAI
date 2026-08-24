@@ -1,0 +1,106 @@
+{
+  "table_id": "table_99",
+  "caption": "Table 99. Dynamic characteristics: eMMC characteristics, VDD = 1.71 to 1.9 V",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 187,
+  "merged_pages": [
+    187
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=187",
+  "section": "6.3.32 Communications interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "CMD, D inputs (referenced to CK) in SD default mode",
+      "CMD, D inputs (referenced to CK) in SD default mode",
+      "CMD, D inputs (referenced to CK) in SD default mode",
+      "CMD, D inputs (referenced to CK) in SD default mode",
+      "CMD, D inputs (referenced to CK) in SD default mode",
+      "CMD, D inputs (referenced to CK) in SD default mode",
+      "CMD, D inputs (referenced to CK) in SD default mode"
+    ],
+    [
+      "t ISUD",
+      "Input setup time SD",
+      "f =25 MHz PP",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t IHD",
+      "Input hold time SD",
+      "f =25 MHz PP",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D outputs (referenced to CK) in SD default mode",
+      "CMD, D outputs (referenced to CK) in SD default mode",
+      "CMD, D outputs (referenced to CK) in SD default mode",
+      "CMD, D outputs (referenced to CK) in SD default mode",
+      "CMD, D outputs (referenced to CK) in SD default mode",
+      "CMD, D outputs (referenced to CK) in SD default mode",
+      "CMD, D outputs (referenced to CK) in SD default mode"
+    ],
+    [
+      "t OVD",
+      "Output valid default time SD",
+      "f =25 MHz PP",
+      "-",
+      "1",
+      "2",
+      "ns"
+    ],
+    [
+      "t OHD",
+      "Output hold default time SD",
+      "f =25 MHz PP",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. C = 20 pF. L",
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. DS12556 Rev 8 187/335"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_99",
+    "is_continued": false,
+    "pages": [
+      187
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

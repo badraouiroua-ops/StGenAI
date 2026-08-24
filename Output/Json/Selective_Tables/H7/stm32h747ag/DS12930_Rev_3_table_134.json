@@ -1,0 +1,43 @@
+{
+  "table_id": "table_134",
+  "document": "DS12930 Rev 3 - Table 134. Document revision history",
+  "rev": "Rev 3",
+  "table_number": "134",
+  "title": "Table 134. Document revision history",
+  "page": 250,
+  "section": "9 Important security notice",
+  "section_title": "Important security notice",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=250",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 134. Document revision history — section 9 Important security notice. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "16-May-2019",
+        "1",
+        "Initial release."
+      ],
+      [
+        "28-Mar-2023",
+        "2",
+        "Added reference to errata sheet ES0392 in Section 1: Introduction. Figure 1: STM32H750xB block diagram: changed APB1 and APB2 maximum frequency to 120 MHz, and WKUP[5:0] to WKUP[6:1]. Updated Figure 5: STM32H747xI/G bus matrix. Removed note to Section 3.5.3: Voltage regulator (SMPS step-down converter and LDO) Updated Section 3.24: Digital camera interface (DCMI) (modified supported format) Updated Figure 13: Power supply scheme (Backup domain and VDD domain blocks) Swapped 158 and 159 pin positions in Table 8: LQFP176 pinout on page 58 Added Full-duplex mode in Section 3.34: Serial peripheral interfaces (SPI)/integrated interchip sound interfaces (I2S). Updated number of microphones that can be supported by the SAI in Section 3.35: Serial audio interfaces (SAI). Removed FDCAN1_RXFD_MODE, FDCAN1_TXFD_MODE, FDCAN2_RXFD_MODE and FDCAN2_TXFD_MODE functions from Table 8: STM32H750xB pin/ball definition and all alternate function tables. Additional modifications made on Table 8: STM32H750xB pin/ball definition: Added note to VDD50USB. Added note to PB12 and PB13. Change PB1 I/O structure to TT_A. Replaced PI8 WKUP3 additional function by WKUP2 Replaced PC13 WKUP2 additional function by WKUP3 Modified Table 58: EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz Updated Section 6.2: Absolute maximum ratings introduction to device mission profile. Modified text in Section : I/O static current consumption Changed f to 100 MHz in Table 13: General operating conditions. CPU2 Replaced Min V by Min V in Table 14: Supply voltage and DD DDLDO maximum frequency configuration. Removed note 1 from Table 33: Typical and maximum current consumption in Stop, LDO regulator ON and Table 35: Typical and maximum current consumption in Sleep mode, LDO regulator. Updated Table 41: High-speed external user clock characteristics. Updated U min value in Table 51: MIPI D-PHY characteristics on INST page 144 In Table 55: Flash memory programming: removed reference to single bank configuration in title and added t typical and maximum ERASE128KB values. Changed I to I in Table 62: I/O static characteristics leak lkg"
+      ],
+      [
+        "28-Mar-2023",
+        "2 (continued)",
+        "Modified title for footprint figures and PCB design rules tables (examples instead of recommendations) Updated Figure 43: Typical connection diagram when using the ADC with FT/TT pins featuring analog switch function Updated information on pin count in Section 8: Ordering information Added Section 9: Important security notice."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

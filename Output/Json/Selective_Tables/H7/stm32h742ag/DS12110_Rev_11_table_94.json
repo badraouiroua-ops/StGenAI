@@ -1,0 +1,75 @@
+{
+  "table_id": "table_94",
+  "document": "DS12110 Rev 11 - Table 94. Minimum i2c_ker_ck frequency in all I2C modes",
+  "rev": "Rev 11",
+  "table_number": "94",
+  "title": "Table 94. Minimum i2c_ker_ck frequency in all I2C modes",
+  "page": 188,
+  "section": "6.3.32 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=188",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 94. Minimum i2c_ker_ck frequency in all I2C modes — section 6.3.32 Communications interfaces. Symbol, Parameter, Condition, Condition, Min, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Condition",
+      "Min",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f(I2CCLK)",
+        "I2CCLK frequency",
+        "Standard-mode",
+        "",
+        "2",
+        "MHz"
+      ],
+      [
+        "f(I2CCLK)",
+        "I2CCLK frequency",
+        "Fast-mode",
+        "Analog filter ON DNF=0",
+        "8",
+        "MHz"
+      ],
+      [
+        "f(I2CCLK)",
+        "I2CCLK frequency",
+        "Fast-mode",
+        "Analog filter OFF DNF=1",
+        "9",
+        "MHz"
+      ],
+      [
+        "f(I2CCLK)",
+        "I2CCLK frequency",
+        "Fast-mode Plus",
+        "Analog filter ON DNF=0",
+        "17",
+        "MHz"
+      ],
+      [
+        "f(I2CCLK)",
+        "I2CCLK frequency",
+        "Fast-mode Plus",
+        "Analog filter OFF DNF=1",
+        "16",
+        "MHz"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. Spikes with widths below t are filtered. AF(min)",
+      "3. Spikes with widths above t are not filtered. AF(max)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

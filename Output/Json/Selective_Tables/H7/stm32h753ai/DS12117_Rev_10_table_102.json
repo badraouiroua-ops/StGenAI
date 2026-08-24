@@ -1,0 +1,70 @@
+{
+  "table_id": "table_102",
+  "document": "DS12117 Rev 10 - Table 102. Dynamic characteristics: USB ULPI",
+  "rev": "Rev 10",
+  "table_number": "102",
+  "title": "Table 102. Dynamic characteristics: USB ULPI",
+  "page": 199,
+  "section": "6.3.32 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=199",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 102. Dynamic characteristics: USB ULPI — section 6.3.32 Communications interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t SC",
+        "Control in (ULPI_DIR, ULPI_NXT) setup time",
+        "-",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t HC",
+        "Control in (ULPI_DIR, ULPI_NXT) hold time",
+        "-",
+        "6.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t SD",
+        "Data in setup time",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t HD",
+        "Data in hold time",
+        "-",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS12117 Rev 10 199/357"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

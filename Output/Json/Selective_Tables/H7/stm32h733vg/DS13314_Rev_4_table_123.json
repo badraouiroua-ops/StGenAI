@@ -1,0 +1,56 @@
+{
+  "table_id": "table_123",
+  "document": "DS13314 Rev 4 - Table 123. TFBGA100 - Example of PCB design rules (0.8 mm pitch BGA)",
+  "rev": "Rev 4",
+  "table_number": "123",
+  "title": "Table 123. TFBGA100 - Example of PCB design rules (0.8 mm pitch BGA)",
+  "page": 223,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=223",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 123. TFBGA100 - Example of PCB design rules (0.8 mm pitch BGA) — section 7.1 Device marking. Dimension, Values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.8"
+      ],
+      [
+        "Dpad",
+        "0.400 mm"
+      ],
+      [
+        "Dsm",
+        "0.470 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.400 mm"
+      ],
+      [
+        "Stencil thickness",
+        "Between 0.100 mm and 0.125 mm"
+      ],
+      [
+        "Pad trace width",
+        "0.120 mm"
+      ]
+    ],
+    "notes": [
+      "10. N represents the total number of balls on the BGA.",
+      "11. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "12. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "13. Drawing is not to scale. Figure 66. TFBGA100 - Footprint example"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "table_id": "table_23",
+  "caption": "Table 23. USB regulator characteristics",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 127,
+  "merged_pages": [
+    127
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=127",
+  "section": "6.3.7 Embedded USB regulator characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DD50USB",
+      "Supply voltage",
+      "-",
+      "4",
+      "5",
+      "5.5",
+      "V"
+    ],
+    [
+      "I DD50USB",
+      "Current consumption",
+      "-",
+      "-",
+      "14",
+      "-",
+      "µA"
+    ],
+    [
+      "V REGOUTV33V",
+      "Regulated output voltage",
+      "-",
+      "3",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "I OUT",
+      "Output current load sinked by USB block",
+      "-",
+      "-",
+      "-",
+      "20",
+      "mA"
+    ],
+    [
+      "T WKUP",
+      "Wakeup time",
+      "-",
+      "-",
+      "120",
+      "170",
+      "us"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_23",
+    "is_continued": false,
+    "pages": [
+      127
+    ],
+    "rows_count": 5,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

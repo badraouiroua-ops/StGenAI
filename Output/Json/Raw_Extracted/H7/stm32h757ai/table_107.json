@@ -1,0 +1,93 @@
+{
+  "table_id": "table_107",
+  "caption": "Table 107. Minimum i2c_ker_ck frequency in all I2C modes",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 210,
+  "merged_pages": [
+    210
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=210",
+  "section": "6.3.35 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Condition",
+    "Min",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f(I2CCLK)",
+      "I2CCLK frequency",
+      "Standard-mode",
+      "-",
+      "2",
+      "MHz"
+    ],
+    [
+      "f(I2CCLK)",
+      "I2CCLK frequency",
+      "Fast-mode",
+      "Analog Filtre ON DNF=0",
+      "8",
+      "MHz"
+    ],
+    [
+      "f(I2CCLK)",
+      "I2CCLK frequency",
+      "Fast-mode",
+      "Analog Filtre OFF DNF=1",
+      "9",
+      "MHz"
+    ],
+    [
+      "f(I2CCLK)",
+      "I2CCLK frequency",
+      "Fast-mode Plus",
+      "Analog Filtre ON DNF=0",
+      "17",
+      "MHz"
+    ],
+    [
+      "f(I2CCLK)",
+      "I2CCLK frequency",
+      "Fast-mode Plus",
+      "Analog Filtre OFF DNF=1",
+      "16",
+      "MHz"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Spikes with widths below t are filtered. AF(min)",
+      "3. Spikes with widths above t are not filtered. AF(max)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_107",
+    "is_continued": false,
+    "pages": [
+      210
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

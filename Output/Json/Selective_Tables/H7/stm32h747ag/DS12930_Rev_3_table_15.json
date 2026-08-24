@@ -1,0 +1,92 @@
+{
+  "table_id": "table_15",
+  "document": "DS12930 Rev 3 - Table 15. VCAP operating conditions",
+  "rev": "Rev 3",
+  "table_number": "15",
+  "title": "Table 15. VCAP operating conditions",
+  "page": 109,
+  "section": "6.3.2 VCAP external capacitor",
+  "section_title": "VCAP external capacitor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=109",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 15. VCAP operating conditions — section 6.3.2 VCAP external capacitor. Figure, 15. Externalcapacitor C, EXT, .",
+  "table_content": {
+    "headers": [
+      "Figure",
+      "15. Externalcapacitor C",
+      "EXT",
+      ""
+    ],
+    "rows": [
+      [
+        "Figure",
+        "C",
+        "EXT",
+        ""
+      ],
+      [
+        "ESR Figure",
+        "C",
+        "EXT",
+        ""
+      ],
+      [
+        "ESR Figure",
+        "R Leak",
+        "EXT",
+        ""
+      ],
+      [
+        "ESR Figure",
+        "R Leak",
+        "EXT",
+        "MS19044V2"
+      ],
+      [
+        "1. Legend: ESR is the equivalent series re",
+        "sistance .",
+        "",
+        ""
+      ],
+      [
+        "1. Legend: ESR is the e T able 15.",
+        "VCAP operating conditi",
+        "ons(1)",
+        ""
+      ],
+      [
+        "Symbol",
+        "Parameter",
+        "Condit",
+        "ions"
+      ],
+      [
+        "CEXT Capacitan",
+        "ce of external capacitor",
+        "2.2 µ",
+        "F(2)"
+      ],
+      [
+        "ESR ESR o",
+        "f external capacitor",
+        "< 100",
+        "mΩ"
+      ]
+    ],
+    "notes": [
+      "1. VOS0 (power scale 0) is not available when the SMPS step-down converter directly supplies V . CORE",
+      "2. 480 MHz available only on STM32H757XIH6A."
+    ],
+    "legend": [
+      "CEXT Capacitance of external capacitor 2.2 µF(2)",
+      "ESR ESR of external capacitor < 100 mΩ",
+      "decoupling capacitors",
+      "The devices embed a high power efficiency SMPS step-down converter. SMPS",
+      "characteristics for external usage are given in Table 17. The SMPS step-down converter"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

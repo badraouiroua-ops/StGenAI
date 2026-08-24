@@ -1,0 +1,105 @@
+{
+  "table_id": "table_112",
+  "caption": "Table 112. V monitoring characteristics 257 BAT",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 257,
+  "merged_pages": [
+    257
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=257",
+  "section": "6.3.26 Temperature and V monitoring",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "R",
+      "Resistor bridge for V BAT",
+      "-",
+      "4x26",
+      "-",
+      "kΩ"
+    ],
+    [
+      "Q",
+      "Ratio on V measurement BAT",
+      "-",
+      "4",
+      "-",
+      "kΩ"
+    ],
+    [
+      "Er(1)",
+      "Error on Q",
+      "-10",
+      "-",
+      "+10",
+      "%"
+    ],
+    [
+      "t (1) S_vbat",
+      "ADC sampling time when reading V input BAT",
+      "9",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "V BAThigh",
+      "High supply monitoring",
+      "-",
+      "3.575",
+      "-",
+      "V"
+    ],
+    [
+      "V BATlow",
+      "Low supply monitoring",
+      "-",
+      "1.36",
+      "-",
+      "V"
+    ],
+    [
+      "I (1) VBATbuf",
+      "Sensor buffer consuption",
+      "-",
+      "3.8",
+      "6.5",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by design."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_112",
+    "is_continued": false,
+    "pages": [
+      257
+    ],
+    "rows_count": 7,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

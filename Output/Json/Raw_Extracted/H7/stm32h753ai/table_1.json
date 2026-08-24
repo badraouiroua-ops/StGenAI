@@ -1,0 +1,66 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Device summary",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 2,
+  "merged_pages": [
+    2
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=2",
+  "section": "4 DMA controllers to unload the CPU resolution)",
+  "headers": [
+    "Reference",
+    "Part number"
+  ],
+  "rows": [
+    [
+      "STM32H753xI",
+      "STM32H753VI"
+    ],
+    [
+      "STM32H753xI",
+      "STM32H753ZI"
+    ],
+    [
+      "STM32H753xI",
+      "STM32H753II"
+    ],
+    [
+      "STM32H753xI",
+      "STM32H753BI"
+    ],
+    [
+      "STM32H753xI",
+      "STM32H753XI"
+    ],
+    [
+      "STM32H753xI",
+      "STM32H753AI"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      2
+    ],
+    "rows_count": 6,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

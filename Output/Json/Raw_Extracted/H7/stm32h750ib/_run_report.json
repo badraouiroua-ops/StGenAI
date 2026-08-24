@@ -1,0 +1,4459 @@
+{
+  "pdf": "C:\\Users\\user\\Desktop\\rag1\\Input\\PDFs\\H7\\stm32h750ib.pdf",
+  "family": "H7",
+  "pdf_name": "stm32h750ib",
+  "tables_found": 217,
+  "tables_extracted": 217,
+  "high": 216,
+  "medium": 0,
+  "low": 0,
+  "failed": 1,
+  "errors": [],
+  "worst_tables": [
+    {
+      "table_id": "table_223",
+      "confidence": "failed",
+      "empty_cell_ratio": 1.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "empty_raw_table",
+        "unresolved:likely_mechanical_drawing_not_extractable_as_text"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": "failed",
+      "caption": "Table 223. Thermal characteristics. Added note related to ECOPACK®2 compliance in",
+      "page": 328,
+      "merged_pages": [
+        328
+      ],
+      "col_count": 0,
+      "headers_preview": "[]",
+      "rows_count": 0,
+      "heuristics": {}
+    },
+    {
+      "table_id": "table_215",
+      "confidence": "high",
+      "empty_cell_ratio": 0.2348,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 215. Thermal characteristics",
+      "page": 325,
+      "merged_pages": [
+        325,
+        326
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Definition\", \"Parameter\", \"Value\", \"Unit\"]",
+      "rows_count": 23,
+      "heuristics": {
+        "cols_extracted": 5,
+        "continuation": {
+          "base_cols": 5,
+          "cont_cols_raw": 5,
+          "target_cols": 5,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. The tape and reel packing is not available on all packages. For a list of available options (such as speed and package) or for further information on any"
+        ]
+      }
+    },
+    {
+      "table_id": "table_13",
+      "confidence": "high",
+      "empty_cell_ratio": 0.2222,
+      "has_empty_cells": true,
+      "warnings": [
+        "no_table_obj_for_spans",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber_text",
+      "status": null,
+      "caption": "Table 13. VCAP operating conditions",
+      "page": 96,
+      "merged_pages": [
+        96
+      ],
+      "col_count": 2,
+      "headers_preview": "[\"Figure 13. External capacitor C EXT\", \"\"]",
+      "rows_count": 9,
+      "heuristics": {
+        "cols_extracted": 10,
+        "truncated_rows": 20,
+        "bleed_rows_removed": 3,
+        "columns_initial": 10,
+        "columns_merged": 8,
+        "columns_final": 2,
+        "footnote_rows_removed": 3,
+        "_notes": [
+          "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated."
+        ]
+      }
+    },
+    {
+      "table_id": "table_97",
+      "confidence": "high",
+      "empty_cell_ratio": 0.1224,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 97. MDIO Slave timing parameters",
+      "page": 185,
+      "merged_pages": [
+        185,
+        186
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Symbol\", \"Parameter\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 6,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            1
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. Tabl e 99. Dynamic characteristics: eMMC characteristics, V = 1.71 to 1.9 V(1)(2)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_196",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0762,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 196. MDIO Slave timing parameters",
+      "page": 297,
+      "merged_pages": [
+        297,
+        298
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Symbol\", \"Parameter\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 15,
+      "heuristics": {
+        "cols_extracted": 6,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            1
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "3. An external voltage converter is required to support SD 1.8 V.",
+          "4. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. T able 198. Dynamics characteristics: eMMC characteristics VDD = 1.71V to 1.9V(1)(2)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_98",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0476,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:2",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 98. Dynamic characteristics: SD / MMC characteristics, VDD = 2.7 to 3.6 V",
+      "page": 186,
+      "merged_pages": [
+        186,
+        187
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 15,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. Tabl e 99. Dynamic characteristics: eMMC characteristics, V = 1.71 to 1.9 V(1)(2)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_197",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0446,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:2",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 197. Dynamics characteristics: SD / MMC characteristics, VDD = 2.7 to 3.6 V",
+      "page": 298,
+      "merged_pages": [
+        298,
+        299
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "3. An external voltage converter is required to support SD 1.8 V.",
+          "4. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. T able 198. Dynamics characteristics: eMMC characteristics VDD = 1.71V to 1.9V(1)(2)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_112",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0417,
+      "has_empty_cells": true,
+      "warnings": [
+        "no_table_obj_for_spans",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber_text",
+      "status": null,
+      "caption": "Table 112. VCAP operating conditions",
+      "page": 201,
+      "merged_pages": [
+        201
+      ],
+      "col_count": 2,
+      "headers_preview": "[\"Figure\", \"64. External capacitor C EXT\"]",
+      "rows_count": 8,
+      "heuristics": {
+        "cols_extracted": 7,
+        "truncated_rows": 20,
+        "bleed_rows_removed": 3,
+        "columns_initial": 7,
+        "columns_merged": 5,
+        "columns_final": 2
+      }
+    },
+    {
+      "table_id": "table_92",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0333,
+      "has_empty_cells": true,
+      "warnings": [
+        "vertical_merge_suspected",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 92. Minimum i2c_ker_ck frequency in all I2C modes",
+      "page": 178,
+      "merged_pages": [
+        178
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Condition\", \"Condition\", \"Min\", \"Unit\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Guaranteed by design.",
+          "2. Spikes with widths below t are filtered. AF(min)",
+          "3. Spikes with widths above t are not filtered. AF(max)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_94",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0272,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 94. SPI dynamic characteristics",
+      "page": 179,
+      "merged_pages": [
+        179,
+        180
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 21,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. Guaranteed by characterization results. Figure 43. SPI timing diagram - slave mode and CPHA = 0"
+        ]
+      }
+    },
+    {
+      "table_id": "table_195",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0185,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 195. SAI characteristics",
+      "page": 295,
+      "merged_pages": [
+        295,
+        296
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 18,
+      "heuristics": {
+        "cols_extracted": 6,
+        "continuation": {
+          "base_cols": 6,
+          "cont_cols_raw": 6,
+          "target_cols": 6,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. APB clock frequency must be at least twice SAI clock frequency.",
+          "3. With F =192 kHz. S"
+        ]
+      }
+    },
+    {
+      "table_id": "table_1",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0106,
+      "has_empty_cells": true,
+      "warnings": [
+        "multi_page_merged:3",
+        "has_empty_cells"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 1. STM32H750xB features and peripheral counts",
+      "page": 18,
+      "merged_pages": [
+        18,
+        19,
+        20
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Peripherals\", \"Peripherals\", \"STM32H750VB\", \"STM32H750ZB\", \"STM32H750IB\", \"STM32H750XB\"]",
+      "rows_count": 47,
+      "heuristics": {
+        "cols_extracted": 6,
+        "continuation": {
+          "base_cols": 6,
+          "cont_cols_raw": 6,
+          "target_cols": 6,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            1
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 3
+        },
+        "_notes": [
+          "1. SDRAM is not available on LQFP100 package.",
+          "2. The SPI1, SPI2 and SPI3 interfaces give the flexibility to work in an exclusive way in either the SPI mode or the I2S audio mode.",
+          "3. The maximum CPU frequency of 480 MHz can be obtained on devices revision V.",
+          "4. The product junction temperature must be kept within the –40 to +105 °C temperature range.",
+          "5. Since the LQFP100 package does not feature the PDR_ON pin (tied internally to V ), the minimum V value for this DD DD",
+          "6. V /V can drop down to 1.62 V by using an external power supervisor (see Section 3.5.2: Power supply supervisor) and DD DDA",
+          "7. The product junction temperature must be kept within the –40 to +125 °C temperature range. 20/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_4",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 4. Timer feature comparison",
+      "page": 39,
+      "merged_pages": [
+        39,
+        40
+      ],
+      "col_count": 10,
+      "headers_preview": "[\"Timer type\", \"Timer\", \"Counter resolution\", \"Counter type\", \"Prescaler factor\", \"DMA request generation\", \"Capture/ compare channels\", \"Comple- mentary output\", \"Max interface clock (MHz)\", \"Max tim",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 10,
+        "continuation": {
+          "base_cols": 10,
+          "cont_cols_raw": 10,
+          "target_cols": 10,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. The maximum timer clock is up to 480 MHz depending on TIMPRE bit in the RCC_CFGR register and D2PRE1/2 bits in RCC_D2CFGR register."
+        ]
+      }
+    },
+    {
+      "table_id": "table_5",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 5. USART features",
+      "page": 46,
+      "merged_pages": [
+        46
+      ],
+      "col_count": 3,
+      "headers_preview": "[\"USART modes/features(1)\", \"USART1/2/3/6\", \"UART4/5/7/8\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 3,
+        "_notes": [
+          "1. X = supported."
+        ]
+      }
+    },
+    {
+      "table_id": "table_7",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "multi_page_merged:19",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 7. STM32H750xB pin/ball definition",
+      "page": 59,
+      "merged_pages": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Pin/ball name / LQFP100\", \"Pin/ball name / LQFP144\", \"Pin/ball name / UFBGA176+25\", \"Pin/ball name / LQFP176\", \"Pin/ball name / TFBGA240 +25\", \"Pin name (function after reset)\", \"Pin type\", \"I/O str",
+      "rows_count": 281,
+      "heuristics": {
+        "cols_extracted": 11,
+        "continuation": {
+          "base_cols": 11,
+          "cont_cols_raw": 11,
+          "target_cols": 11,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 19
+        },
+        "_notes": [
+          "1. When this pin/ball was previously configured as an oscillator, the oscillator function is kept during and after a reset. This is valid for all resets except for power-on reset.",
+          "2. This ball should remain floating.",
+          "3. Pxy_C and Pxy pins/balls are two separate pads (analog switch open). The analog switch is configured through a SYSCFG register. Refer to the product reference manual for a detailed description of the switch configuration bits.",
+          "4. There is a direct path between Pxy_C and Pxy pins/balls, through an analog switch. Pxy alternate functions are available on Pxy_C when the analog switch is closed. The analog switch is configured through a SYSCFG register. Refer to the product",
+          "5. When it is not available on a package, the VDDLDO pin is internally tied to VDD.",
+          "6. When the pin is used in USB configuration (OTG_HS_ID/OTG_HS_VBUS), the I/O is supplied by V , otherwise it is DD33USB",
+          "7. When it is not available on a package, the VDD50USB pin is internally tied to VDD33USB. 78/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_8",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "multi_page_merged:12",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 8. Alternate functions",
+      "page": 79,
+      "merged_pages": [
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "col_count": 18,
+      "headers_preview": "[\"Port\", \"Port\", \"AF0 / SYS\", \"AF1 / TIM1/2/16/ 17/LPTIM1/ HRTIM1\", \"AF2 / SAI1/ TIM3/4/5/ 12/HRTIM1\", \"AF3 / LPUART/ TIM8/ LPTIM2/3/4 /5/HRTIM1/ DFSDM\", \"AF4 / I2C1/2/3/4/ USART1/ TIM15/ LPTIM2/ DFSD",
+      "rows_count": 179,
+      "heuristics": {
+        "cols_extracted": 18,
+        "continuation": {
+          "base_cols": 18,
+          "cont_cols_raw": 18,
+          "target_cols": 18,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            1
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 12
+        }
+      }
+    },
+    {
+      "table_id": "table_10",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 10. Current characteristics",
+      "page": 94,
+      "merged_pages": [
+        94
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"Symbols\", \"Ratings\", \"Max\", \"Unit\"]",
+      "rows_count": 11,
+      "heuristics": {
+        "cols_extracted": 4,
+        "_notes": [
+          "1. All main power (V , V , V ) and ground (V , V ) pins must always be connected to the DD DDA DD33USB SS SSA",
+          "2. This current consumption must be correctly distributed over all I/Os and control pins. The total output current must not be sunk/sourced between two consecutive power supply pins referring to high pin count",
+          "3. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+          "4. To sustain a voltage higher than 4V the internal pull-up/pull-down resistors must be disabled.",
+          "5. When an FT_a pin is used by an analog peripheral such as an ADC, the maximum V is 4 V. IN"
+        ]
+      }
+    },
+    {
+      "table_id": "table_12",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 12. General operating conditions",
+      "page": 95,
+      "merged_pages": [
+        95
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Parameter\", \"Operating conditions\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 15,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Legend: ESR is the equivalent series resistance.",
+          "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated.",
+          "3. For operation with voltage higher than Min (V , V , V ) +0.3V, the internal Pull-up and Pull-Down resistors must DD DDA DD33USB",
+          "4. In low-power dissipation state, T can be extended to this range as long as T does not exceed T (see Section 8.7: A J Jmax"
+        ]
+      }
+    },
+    {
+      "table_id": "table_14",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 14. Operating conditions at power-up / power-down (regulator ON)",
+      "page": 96,
+      "merged_pages": [
+        96
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 5
+      }
+    },
+    {
+      "table_id": "table_15",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 15. Reset and power control block characteristics",
+      "page": 97,
+      "merged_pages": [
+        97,
+        98
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 36,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. Guaranteed by design.",
+          "2. BOR0 is enabled in all modes and its consumption is therefore included in the supply current characteristics tables (refer to Section 6.3.6: Supply current characteristics)."
+        ]
+      }
+    },
+    {
+      "table_id": "table_16",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 16. Embedded reference voltage",
+      "page": 98,
+      "merged_pages": [
+        98,
+        99
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. Guaranteed by design.",
+          "2. BOR0 is enabled in all modes and its consumption is therefore included in the supply current characteristics tables (refer to Section 6.3.6: Supply current characteristics)."
+        ]
+      }
+    },
+    {
+      "table_id": "table_18",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 18. Typical and maximum current consumption in Run mode, code with data processing running from ITCM, regulator ON",
+      "page": 100,
+      "merged_pages": [
+        100
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"f rcc_c_ck (MHz)\", \"Typ\", \"Max(2) / T = J 25°C\", \"Max(2) / T = J 85°C\", \"Max(2) / T = J 105°C\", \"Max(2) / T = J 125°C\", \"unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 11,
+        "_notes": [
+          "2. Guaranteed by characterization results unless otherwise specified.",
+          "3. Guaranteed by test in production. 100/335 DS12556 Rev 8"
+        ],
+        "_legend": [
+          "running from ITCM, regulator ON(1)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_19",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 19. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, cach",
+      "page": 101,
+      "merged_pages": [
+        101
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"f rcc_c_ck (MHz)\", \"Typ\", \"Max(1) / T = J 25°C\", \"Max(1) / T = J 85°C\", \"Max(1) / T = J 105°C\", \"Max(1) / T = J 125°C\", \"unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 11,
+        "_notes": [
+          "1. Guaranteed by characterization results unless otherwise specified."
+        ],
+        "_legend": [
+          "running from flash memory, cache ON, regulator ON"
+        ]
+      }
+    },
+    {
+      "table_id": "table_20",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 20. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, cach",
+      "page": 101,
+      "merged_pages": [
+        101
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"f rcc_c_ck (MHz)\", \"Typ\", \"Max(1) / T = J 25°C\", \"Max(1) / T = J 85°C\", \"Max(1) / T = J 105°C\", \"Max(1) / T = J 125°C\", \"unit\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 11,
+        "_notes": [
+          "1. Guaranteed by characterization results unless otherwise specified."
+        ],
+        "_legend": [
+          "running from flash memory, cache OFF, regulator ON"
+        ]
+      }
+    },
+    {
+      "table_id": "table_21",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 21. Typical consumption in Run mode and corresponding performance versus code position",
+      "page": 102,
+      "merged_pages": [
+        102,
+        103
+      ],
+      "col_count": 10,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions / Peripheral\", \"Conditions / Code\", \"f rcc_c_ck (MHz)\", \"CoreMark\", \"Typ\", \"Unit\", \"IDD/ CoreMark\", \"Unit\"]",
+      "rows_count": 29,
+      "heuristics": {
+        "cols_extracted": 10,
+        "continuation": {
+          "base_cols": 10,
+          "cont_cols_raw": 10,
+          "target_cols": 10,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. Guaranteed by test in production. T able 25. Typical and maximum current consumption in Standby mode"
+        ],
+        "_legend": [
+          "versus code position"
+        ]
+      }
+    },
+    {
+      "table_id": "table_23",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 23. Typical and maximum current consumption in Sleep mode, regulator ON",
+      "page": 102,
+      "merged_pages": [
+        102,
+        103
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"f rcc_c_ck (MHz)\", \"Typ\", \"Max(1) / T = J 25°C\", \"Max(1) / T = J 85°C\", \"Max(1) / T = J 105°C\", \"Max(1) / T = J 125°C\", \"unit\"]",
+      "rows_count": 24,
+      "heuristics": {
+        "cols_extracted": 11,
+        "continuation": {
+          "base_cols": 11,
+          "cont_cols_raw": 11,
+          "target_cols": 11,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": true,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "spanning_check": {
+          "header_has_dup": false,
+          "category_repeats": 22,
+          "likely_missing_span": true
+        },
+        "_notes": [
+          "1. Guaranteed by characterization results. I/O system current consumption",
+          "2. Guaranteed by test in production. T able 25. Typical and maximum current consumption in Standby mode"
+        ]
+      }
+    },
+    {
+      "table_id": "table_24",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 24. Typical and maximum current consumption in Stop mode, regulator ON",
+      "page": 103,
+      "merged_pages": [
+        103
+      ],
+      "col_count": 10,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Typ\", \"Max(1) / T = J 25°C\", \"Max(1) / T = J 85°C\", \"Max(1) / T = J 105°C\", \"Max(1) / T = J 125°C\", \"unit\"]",
+      "rows_count": 18,
+      "heuristics": {
+        "cols_extracted": 10,
+        "_notes": [
+          "1. Guaranteed by characterization results. I/O system current consumption",
+          "2. Guaranteed by test in production. T able 25. Typical and maximum current consumption in Standby mode"
+        ]
+      }
+    },
+    {
+      "table_id": "table_25",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 25. Typical and maximum current consumption in Standby mode",
+      "page": 103,
+      "merged_pages": [
+        103
+      ],
+      "col_count": 10,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Typ\", \"Max(1) / T = J 25°C\", \"Max(1) / T = J 85°C\", \"Max(1) / T = J 105°C\", \"Max(1) / T = J 125°C\", \"unit\"]",
+      "rows_count": 18,
+      "heuristics": {
+        "cols_extracted": 10,
+        "_notes": [
+          "1. Guaranteed by characterization results. I/O system current consumption",
+          "2. Guaranteed by test in production. T able 25. Typical and maximum current consumption in Standby mode"
+        ]
+      }
+    },
+    {
+      "table_id": "table_26",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 26. Typical and maximum current consumption in VBAT mode",
+      "page": 104,
+      "merged_pages": [
+        104
+      ],
+      "col_count": 13,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions / Backup SRAM\", \"Conditions / RTC & LSE\", \"Typ(1) / 1.2 V\", \"Typ(1) / 2 V\", \"Typ(1) / 3 V\", \"Typ(1) / 3.4 V\", \"Max (3 V) / T = J 25°C\", \"Max (3 V) / T = J 85°C\", \"M",
+      "rows_count": 4,
+      "heuristics": {
+        "cols_extracted": 13,
+        "_notes": [
+          "1. Guaranteed by characterization results. I/O system current consumption"
+        ]
+      }
+    },
+    {
+      "table_id": "table_27",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:3",
+        "multi_page_merged:6",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 27. Peripheral current consumption in Run mode",
+      "page": 106,
+      "merged_pages": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Peripheral\", \"Peripheral\", \"I (Typ) / VOS1\", \"I (Typ) / DD / VOS2\", \"I (Typ) / VOS3\", \"Unit\"]",
+      "rows_count": 153,
+      "heuristics": {
+        "cols_extracted": 6,
+        "continuation": {
+          "base_cols": 6,
+          "cont_cols_raw": 6,
+          "target_cols": 6,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            1
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 6
+        },
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. 112/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_28",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 28. Peripheral current consumption in Stop, Standby and VBAT mode",
+      "page": 111,
+      "merged_pages": [
+        111
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Typ / 3 V\", \"Unit\"]",
+      "rows_count": 4,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. 112/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_29",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 29. Low-power mode wakeup timings",
+      "page": 112,
+      "merged_pages": [
+        112
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Typ(1)\", \"Max(1)\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. 112/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_32",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 32. 4-48 MHz HSE oscillator characteristics",
+      "page": 115,
+      "merged_pages": [
+        115
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Operating conditions(2)\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. Resonator characteristics given by the crystal/ceramic resonator manufacturer.",
+          "3. This consumption level occurs during the first 2/3 of the t startup time. SU(HSE)",
+          "4. t is the startup time measured from the moment it is enabled (by software) to a stabilized 8 MHz oscillation is SU(HSE)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_33",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 33. Low-speed external user clock characteristics",
+      "page": 116,
+      "merged_pages": [
+        116
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Operating conditions(2)\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. Refer to the note and caution paragraphs below the table, and to the application note AN2867 “Oscillator design guide for STM8AL/AF/S, STM32 MCUs and MPUs”.",
+          "3. t is the startup time measured from the moment it is enabled (by software) to a stabilized 32.768k Hz oscillation is SU"
+        ]
+      }
+    },
+    {
+      "table_id": "table_36",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 36. CSI oscillator characteristics",
+      "page": 118,
+      "merged_pages": [
+        118,
+        119
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 9,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. This value must be limited to the maximum frequency due to the product limitation (400 MHz for VOS1, 300 MHz for VOS2, 200 MHz for VOS3).",
+          "3. Guaranteed by characterization results."
+        ]
+      }
+    },
+    {
+      "table_id": "table_38",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 38. PLL characteristics (wide VCO frequency range)",
+      "page": 119,
+      "merged_pages": [
+        119,
+        120
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 21,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. This value must be limited to the maximum frequency due to the product limitation (400 MHz for VOS1, 300 MHz for VOS2, 200 MHz for VOS3).",
+          "3. Guaranteed by characterization results.",
+          "4. Integer mode only."
+        ]
+      }
+    },
+    {
+      "table_id": "table_39",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 39. PLL characteristics (medium VCO frequency range)",
+      "page": 120,
+      "merged_pages": [
+        120,
+        121
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 21,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. This value must be limited to the maximum frequency due to the product limitation (400 MHz for VOS1, 300 MHz for VOS2, 200 MHz for VOS3).",
+          "3. Guaranteed by characterization results."
+        ]
+      }
+    },
+    {
+      "table_id": "table_41",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 41. Flash memory programming",
+      "page": 122,
+      "merged_pages": [
+        122
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min(1)\", \"Typ\", \"Max(1)\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. The maximum programming time is measured after 10K erase operations."
+        ]
+      }
+    },
+    {
+      "table_id": "table_42",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 42. Flash memory endurance and data retention",
+      "page": 122,
+      "merged_pages": [
+        122
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Value / Min(1)\", \"Unit\"]",
+      "rows_count": 3,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results."
+        ]
+      }
+    },
+    {
+      "table_id": "table_44",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 44. EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz",
+      "page": 124,
+      "merged_pages": [
+        124
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Monitored frequency band\", \"Value\", \"Unit\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Refer to AN1709 “EMI radiated test” chapter.",
+          "2. Refer to AN1709 “EMI level classification” chapter. 124/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_47",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 47. I/O current injection susceptibility",
+      "page": 126,
+      "merged_pages": [
+        126
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Description\", \"Functional susceptibility / Negative injection\", \"Functional susceptibility / Positive injection\", \"Unit\"]",
+      "rows_count": 4,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Compliant with CMOS requirement.",
+          "2. Guaranteed by design.",
+          "3. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: I = 10 μA + [number of I/Os where V is applied on the pad] ₓ I .",
+          "4. All FT_xx IO except FT_lu, FT_u and PC3.",
+          "5. V must be less than Max(VDDXXX) + 3.6 V. IN",
+          "6. To sustain a voltage higher than MIN(V , V , V ) +0.3 V, the internal pull-up and pull-down resistors must be DD DDA DD33USB",
+          "7. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10% order).",
+          "8. Max(VDDXXX) is the maximum value of all the I/O supplies. All I/Os are CMOS and TTL compliant (no software configuration required). Their"
+        ]
+      }
+    },
+    {
+      "table_id": "table_48",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 48. I/O static characteristics",
+      "page": 126,
+      "merged_pages": [
+        126,
+        127
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Condition\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 18,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. Guaranteed by characterization.",
+          "2. Guaranteed by design.",
+          "3. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: I = 10 μA + [number of I/Os where V is applied on the pad] ₓ I .",
+          "4. All FT_xx IO except FT_lu, FT_u and PC3.",
+          "5. V must be less than Max(VDDXXX) + 3.6 V. IN",
+          "6. To sustain a voltage higher than MIN(V , V , V ) +0.3 V, the internal pull-up and pull-down resistors must be DD DDA DD33USB",
+          "7. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10% order).",
+          "8. Max(VDDXXX) is the maximum value of all the I/O supplies. All I/Os are CMOS and TTL compliant (no software configuration required). Their"
+        ]
+      }
+    },
+    {
+      "table_id": "table_49",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 49. Output voltage characteristics for all I/Os except PC13, PC14, PC15 and PI8",
+      "page": 129,
+      "merged_pages": [
+        129,
+        130
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions(3)\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 6,
+        "continuation": {
+          "base_cols": 6,
+          "cont_cols_raw": 6,
+          "target_cols": 6,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+          "3. Guaranteed by design. DS12556 Rev 8 129/335"
+        ],
+        "_dedup_rows_removed": 6,
+        "_dedup_removed_indices": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "table_id": "table_50",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 50. Output voltage characteristics for PC13, PC14, PC15 and PI8",
+      "page": 130,
+      "merged_pages": [
+        130
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions(3)\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "2. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+          "3. Guaranteed by design. 130/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_51",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 51. Output timing characteristics (HSLV OFF)",
+      "page": 131,
+      "merged_pages": [
+        131,
+        132
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Speed\", \"Symbol\", \"Parameter\", \"conditions\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 48,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "3. The maximum frequency is defined with the following conditions: (t+t) ≤ 2/3 T",
+          "4. The fall and rise times are defined between 90% and 10% and between 10% and 90% of the output waveform, respectively.",
+          "5. Compensation system enabled. 132/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_52",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 52. Output timing characteristics (HSLV ON)",
+      "page": 133,
+      "merged_pages": [
+        133
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Speed\", \"Symbol\", \"Parameter\", \"conditions\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 24,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. The maximum frequency is defined with the following conditions: (t+t) ≤ 2/3 T",
+          "3. The fall and rise times are defined between 90% and 10% and between 10% and 90% of the output waveform, respectively.",
+          "4. Compensation system enabled. DS12556 Rev 8 133/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_54",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 54. Asynchronous non-multiplexed SRAM/PSRAM/NOR read timings",
+      "page": 137,
+      "merged_pages": [
+        137
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. N pulse width is equal to 1 AHB cycle. WAIT"
+        ]
+      }
+    },
+    {
+      "table_id": "table_55",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 55. Asynchronous non-multiplexed SRAM/PSRAM/NOR read - NWAIT timings",
+      "page": 137,
+      "merged_pages": [
+        137
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. N pulse width is equal to 1 AHB cycle. WAIT"
+        ]
+      }
+    },
+    {
+      "table_id": "table_56",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 56. Asynchronous non-multiplexed SRAM/PSRAM/NOR write timings",
+      "page": 138,
+      "merged_pages": [
+        138
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. 138/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_58",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 58. Asynchronous multiplexed PSRAM/NOR read timings",
+      "page": 140,
+      "merged_pages": [
+        140
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 19,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. T able 59. Asynchronous multiplexed PSRAM/NOR read-NWAIT timings(1)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_59",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 59. Asynchronous multiplexed PSRAM/NOR read-NWAIT timings",
+      "page": 140,
+      "merged_pages": [
+        140
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 19,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. T able 59. Asynchronous multiplexed PSRAM/NOR read-NWAIT timings(1)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_60",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 60. Asynchronous multiplexed PSRAM/NOR write timings",
+      "page": 141,
+      "merged_pages": [
+        141,
+        142
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 17,
+      "heuristics": {
+        "cols_extracted": 5,
+        "continuation": {
+          "base_cols": 5,
+          "cont_cols_raw": 5,
+          "target_cols": 5,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 141/335"
+        ],
+        "_dedup_rows_removed": 4,
+        "_dedup_removed_indices": [
+          13,
+          14,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "table_id": "table_62",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 62. Synchronous multiplexed NOR/PSRAM read timings",
+      "page": 144,
+      "merged_pages": [
+        144
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 15,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. 144/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_63",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 63. Synchronous multiplexed PSRAM write timings",
+      "page": 146,
+      "merged_pages": [
+        146
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. 146/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_64",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 64. Synchronous non-multiplexed NOR/PSRAM read timings",
+      "page": 147,
+      "merged_pages": [
+        147
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 13,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 147/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_65",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 65. Synchronous non-multiplexed PSRAM write timings",
+      "page": 148,
+      "merged_pages": [
+        148
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. 148/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_66",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 66. Switching characteristics for NAND flash read cycles",
+      "page": 150,
+      "merged_pages": [
+        150
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. SDRAM waveforms and timings"
+        ]
+      }
+    },
+    {
+      "table_id": "table_67",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 67. Switching characteristics for NAND flash write cycles",
+      "page": 150,
+      "merged_pages": [
+        150
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. SDRAM waveforms and timings"
+        ]
+      }
+    },
+    {
+      "table_id": "table_68",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 68. SDRAM read timings",
+      "page": 151,
+      "merged_pages": [
+        151
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 151/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_69",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 69. LPSDR SDRAM read timings",
+      "page": 152,
+      "merged_pages": [
+        152
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 153/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_70",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 70. SDRAM write timings",
+      "page": 153,
+      "merged_pages": [
+        153
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 153/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_71",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 71. LPSDR SDRAM write timings",
+      "page": 153,
+      "merged_pages": [
+        153
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 153/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_72",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 72. QUADSPI characteristics in SDR mode",
+      "page": 154,
+      "merged_pages": [
+        154
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Guaranteed by characterization results. 154/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_73",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 73. QUADSPI characteristics in DDR mode",
+      "page": 155,
+      "merged_pages": [
+        155
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 7
+      }
+    },
+    {
+      "table_id": "table_75",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 75. ADC characteristics",
+      "page": 156,
+      "merged_pages": [
+        156,
+        157
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 39,
+      "heuristics": {
+        "cols_extracted": 8,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": true,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "spanning_check": {
+          "header_has_dup": false,
+          "category_repeats": 22,
+          "likely_missing_span": true
+        },
+        "_notes": [
+          "2. These values are obtained using the following formula: f = f / t , S ADC CONV",
+          "3. Depending on the package, V can be internally connected to V and V to V . REF+ DDA REF- SSA"
+        ]
+      }
+    },
+    {
+      "table_id": "table_76",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 76. ADC accuracy",
+      "page": 158,
+      "merged_pages": [
+        158
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions(4)\", \"Conditions(4)\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 28,
+      "heuristics": {
+        "cols_extracted": 8,
+        "_notes": [
+          "4. ADC clock frequency ≤36 MHz, 2 V ≤ V ≤3.3 V, 1.6 V ≤ V ≤ V , BOOSTEN (for I/O) = 1. DDA REF DDA",
+          "5. ENOB, SINAD, SNR and THD are specified for V = V = 3.3 V. DDA REF"
+        ]
+      }
+    },
+    {
+      "table_id": "table_77",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 77. DAC characteristics",
+      "page": 161,
+      "merged_pages": [
+        161,
+        162
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 27,
+      "heuristics": {
+        "cols_extracted": 8,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. Guaranteed by design.",
+          "3. In buffered mode, the output can overshoot above the final value for low input code (starting from the minimum value)."
+        ]
+      }
+    },
+    {
+      "table_id": "table_78",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 78. DAC accuracy",
+      "page": 162,
+      "merged_pages": [
+        162,
+        163
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 8,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. Guaranteed by design.",
+          "3. In buffered mode, the output can overshoot above the final value for low input code (starting from the minimum value).",
+          "4. Difference between the value measured at Code (0x001) and the ideal value.",
+          "5. Difference between the ideal slope of the transfer function and the measured slope computed from code 0x000 and 0xFFF when the buffer is OFF, and from code giving 0.2 V and (V - 0.2 V) when the buffer is ON.",
+          "6. Signal is -0.5dBFS with F =1 MHz. sampling"
+        ]
+      }
+    },
+    {
+      "table_id": "table_79",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 79. VREFBUF characteristics",
+      "page": 164,
+      "merged_pages": [
+        164,
+        165
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 33,
+      "heuristics": {
+        "cols_extracted": 8,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. In degraded mode, the voltage reference buffer cannot accurately maintain the output voltage (V −drop voltage). DDA",
+          "3. To properly control VREFBUF I current during the startup phase and the change of scaling, V voltage should be in INRUSH DDA"
+        ]
+      }
+    },
+    {
+      "table_id": "table_86",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 86. COMP characteristics",
+      "page": 167,
+      "merged_pages": [
+        167
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 27,
+      "heuristics": {
+        "cols_extracted": 8,
+        "_notes": [
+          "2. Refer to Table 16: Embedded reference voltage. DS12556 Rev 8 167/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_87",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:3",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 87. OPAMP characteristics",
+      "page": 168,
+      "merged_pages": [
+        168,
+        169,
+        170
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 47,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            1
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 3
+        },
+        "_notes": [
+          "2. R LOAD is the resistive load connected to VSSA or to VDDA.",
+          "3. R2 is the internal resistance between the OPAMP output and th OPAMP inverting input. R1 is the internal resistance between the OPAMP inverting input and ground. PGA gain = 1 + R2/R1."
+        ]
+      }
+    },
+    {
+      "table_id": "table_88",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 88. DFSDM measured timing - 1.62-3.6 V",
+      "page": 171,
+      "merged_pages": [
+        171,
+        172
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 8,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": true,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "spanning_check": {
+          "header_has_dup": false,
+          "category_repeats": 4,
+          "likely_missing_span": true
+        },
+        "_notes": [
+          "1. Guaranteed by characterization results. 172/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_95",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 95. I2S dynamic characteristics",
+      "page": 182,
+      "merged_pages": [
+        182
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 15,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Guaranteed by characterization results. 182/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_96",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 96. SAI characteristics",
+      "page": 184,
+      "merged_pages": [
+        184
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 18,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "2. APB clock frequency must be at least twice SAI clock frequency.",
+          "3. With F =192 kHz. S"
+        ]
+      }
+    },
+    {
+      "table_id": "table_101",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 101. Dynamic characteristics: USB ULPI",
+      "page": 189,
+      "merged_pages": [
+        189
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 4,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 189/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_103",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 103. Dynamics characteristics: Ethernet MAC signals for RMII",
+      "page": 191,
+      "merged_pages": [
+        191
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Guaranteed by characterization results. Figure 56. Ethernet RMII timing diagram"
+        ],
+        "_legend": [
+          "corresponding timing diagram."
+        ]
+      }
+    },
+    {
+      "table_id": "table_104",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 104. Dynamics characteristics: Ethernet MAC signals for MII",
+      "page": 192,
+      "merged_pages": [
+        192
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 8,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 193/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_105",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 105. Dynamics JTAG characteristics",
+      "page": 193,
+      "merged_pages": [
+        193
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 9,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 193/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_108",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 108. Current characteristics",
+      "page": 198,
+      "merged_pages": [
+        198
+      ],
+      "col_count": 4,
+      "headers_preview": "[\"Symbols\", \"Ratings\", \"Max\", \"Unit\"]",
+      "rows_count": 11,
+      "heuristics": {
+        "cols_extracted": 4,
+        "_notes": [
+          "1. All main power (V , V , V , V ) and ground (V , V ) pins must always be connected to DD DDA DD33USB BAT SS SSA",
+          "2. V maximum must always be respected. Refer to Table 144: I/O current injection susceptibility for the IN",
+          "3. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+          "4. To sustain a voltage higher than 4V the internal pull-up/pull-down resistors must be disabled.",
+          "5. When an FT_a pin is used by an analog peripheral such as an ADC, the maximum V is 4 V. IN"
+        ]
+      }
+    },
+    {
+      "table_id": "table_110",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 110. General operating conditions",
+      "page": 199,
+      "merged_pages": [
+        199,
+        200
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Operating conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 35,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. When RESET is released functionality is guaranteed down to V min BOR0",
+          "2. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+          "3. For operation with voltage higher than Min (V , V , V ) +0.3V, the internal Pull-up and Pull-Down resistors must DD DDA DD33USB",
+          "4. VOS0 is available only when the LDO regulator is ON.",
+          "5. T = 105 °C. JMax",
+          "6. Maximum APB clock frequency when at least one peripheral is enabled.",
+          "7. In low-power dissipation state, T can be extended to this range as long as T does not exceed T (see Section 8.7: A J Jmax"
+        ]
+      }
+    },
+    {
+      "table_id": "table_111",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 111. Supply voltage and maximum frequency configuration",
+      "page": 200,
+      "merged_pages": [
+        200
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Power scale\", \"V source CORE\", \"Max T (°C) J\", \"Max frequency (MHz)\", \"Min V (V) DDLDO\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "3. For operation with voltage higher than Min (V , V , V ) +0.3V, the internal Pull-up and Pull-Down resistors must DD DDA DD33USB",
+          "4. VOS0 is available only when the LDO regulator is ON.",
+          "5. T = 105 °C. JMax",
+          "6. Maximum APB clock frequency when at least one peripheral is enabled.",
+          "7. In low-power dissipation state, T can be extended to this range as long as T does not exceed T (see Section 8.7: A J Jmax"
+        ]
+      }
+    },
+    {
+      "table_id": "table_113",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 113. Operating conditions at power-up / power-down (regulator ON)",
+      "page": 201,
+      "merged_pages": [
+        201
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 5
+      }
+    },
+    {
+      "table_id": "table_114",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 114. Reset and power control block characteristics",
+      "page": 202,
+      "merged_pages": [
+        202,
+        203
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 36,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. Guaranteed by design.",
+          "2. BOR0 is enabled in all modes and its consumption is therefore included in the supply current characteristics tables (refer to Section 7.3.6: Supply current characteristics)."
+        ]
+      }
+    },
+    {
+      "table_id": "table_115",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 115. Embedded reference voltage",
+      "page": 203,
+      "merged_pages": [
+        203,
+        204
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "1. Guaranteed by design.",
+          "2. BOR0 is enabled in all modes and its consumption is therefore included in the supply current characteristics tables (refer to Section 7.3.6: Supply current characteristics)."
+        ]
+      }
+    },
+    {
+      "table_id": "table_117",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 117. Typical and maximum current consumption in Run mode, code with data processing running from ITCM, LDO regulat",
+      "page": 205,
+      "merged_pages": [
+        205
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"f HCLK (MHz)\", \"Typ\", \"Max(2) / Tj=25 °C\", \"Max(2) / Tj=85 °C\", \"Max(2) / Tj=105 °C\", \"Max(2) / Tj=125 °C\", \"Unit\"]",
+      "rows_count": 20,
+      "heuristics": {
+        "cols_extracted": 11,
+        "_notes": [
+          "2. Guaranteed by characterization results, unless otherwise specified. DS12556 Rev 8 205/335"
+        ],
+        "_legend": [
+          "running from ITCM, LDO regulator ON(1)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_118",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 118. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, cac",
+      "page": 206,
+      "merged_pages": [
+        206
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"f HCLK (MHz)\", \"Typ\", \"Max(1) / Tj=25 °C\", \"Max(1) / Tj=85 °C\", \"Max(1) / Tj=105 °C\", \"Max(1) / Tj=125 °C\", \"Unit\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 11,
+        "_notes": [
+          "1. Guaranteed by characterization results, unless otherwise specified."
+        ],
+        "_legend": [
+          "running from flash memory, cache ON,",
+          "LDO regulator ON"
+        ]
+      }
+    },
+    {
+      "table_id": "table_119",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 119. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, cac",
+      "page": 206,
+      "merged_pages": [
+        206
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"f HCLK (MHz)\", \"Typ\", \"Max(1) / Tj=25°C\", \"Max(1) / Tj=85°C\", \"Max(1) / Tj=105 °C\", \"Max(1) / Tj=125 °C\", \"Unit\"]",
+      "rows_count": 8,
+      "heuristics": {
+        "cols_extracted": 11,
+        "_notes": [
+          "1. Guaranteed by characterization results, unless otherwise specified."
+        ],
+        "_legend": [
+          "running from flash memory, cache OFF,",
+          "LDO regulator ON"
+        ]
+      }
+    },
+    {
+      "table_id": "table_120",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 120. Typical and maximum current consumption batch acquisition mode, LDO regulator ON",
+      "page": 207,
+      "merged_pages": [
+        207
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"f HCLK (MHz)\", \"Typ\", \"Max(1) / Tj=25°C\", \"Max(1) / Tj=85°C\", \"Max(1) / Tj=105 °C\", \"Max(1) / Tj=125 °C\", \"Unit\"]",
+      "rows_count": 4,
+      "heuristics": {
+        "cols_extracted": 11,
+        "_notes": [
+          "1. Guaranteed by characterization results, unless otherwise specified."
+        ],
+        "_legend": [
+          "LDO regulator ON"
+        ]
+      }
+    },
+    {
+      "table_id": "table_121",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 121. Typical and maximum current consumption in Stop, LDO regulator ON",
+      "page": 207,
+      "merged_pages": [
+        207
+      ],
+      "col_count": 10,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Typ\", \"Max(1) / Tj=25°C\", \"Max(1) / Tj=85°C\", \"Max(1) / Tj=105 °C\", \"Max(1) / Tj=125 °C\", \"Unit\"]",
+      "rows_count": 18,
+      "heuristics": {
+        "cols_extracted": 10,
+        "_notes": [
+          "1. Guaranteed by characterization results, unless otherwise specified."
+        ]
+      }
+    },
+    {
+      "table_id": "table_122",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 122. Typical and maximum current consumption in Sleep mode, LDO regulator",
+      "page": 208,
+      "merged_pages": [
+        208
+      ],
+      "col_count": 11,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"f HCLK (MHz)\", \"Typ\", \"Max(1) / Tj=25 °C\", \"Max(1) / Tj=85 °C\", \"Max(1) / Tj=105 °C\", \"Max(1) / Tj=125 °C\", \"Unit\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 11,
+        "_notes": [
+          "1. Guaranteed by characterization results, unless otherwise specified."
+        ]
+      }
+    },
+    {
+      "table_id": "table_123",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:3"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 123. Typical and maximum current consumption in Standby",
+      "page": 208,
+      "merged_pages": [
+        208
+      ],
+      "col_count": 13,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions / Backup SRAM\", \"Conditions / RTC and LSE\", \"Typ / 1.62 V\", \"Typ / 2.4 V\", \"Typ / 3 V\", \"Typ / 3.3 V\", \"Max(1) / 3 V / Tj=25 °C\", \"Max(1) / 3 V / Tj=85 °C\", \"Max(1)",
+      "rows_count": 4,
+      "heuristics": {
+        "cols_extracted": 13,
+        "_notes": [
+          "1. Guaranteed by characterization results, unless otherwise specified."
+        ]
+      }
+    },
+    {
+      "table_id": "table_124",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:3"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 124. Typical and maximum current consumption in VBAT mode",
+      "page": 209,
+      "merged_pages": [
+        209
+      ],
+      "col_count": 13,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions / Backup SRAM\", \"Conditions / RTC and LSE\", \"Typ / 1.2 V\", \"Typ / 2 V\", \"Typ / 3 V\", \"Typ / 3.4 V\", \"Max(1) / 3 V / Tj=25 °C\", \"Max(1) / 3 V / Tj=85 °C\", \"Max(1) / ",
+      "rows_count": 4,
+      "heuristics": {
+        "cols_extracted": 13,
+        "_notes": [
+          "1. Guaranteed by characterization results, unless otherwise specified. I/O system current consumption"
+        ]
+      }
+    },
+    {
+      "table_id": "table_125",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:5",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 125. Peripheral current consumption in Run mode",
+      "page": 211,
+      "merged_pages": [
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Bus\", \"Peripheral\", \"VOS0\", \"VOS1\", \"VOS2\", \"VOS3\", \"Unit\"]",
+      "rows_count": 162,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 5
+        },
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. 216/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_126",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 126. Low-power mode wakeup timings",
+      "page": 216,
+      "merged_pages": [
+        216
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Typ(1)\", \"Max(1)\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. 216/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_129",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 129. 4-48 MHz HSE oscillator characteristics",
+      "page": 219,
+      "merged_pages": [
+        219
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Operating conditions(2)\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. Resonator characteristics given by the crystal/ceramic resonator manufacturer.",
+          "3. This consumption level occurs during the first 2/3 of the t startup time. SU(HSE)",
+          "4. t is the startup time measured from the moment it is enabled (by software) to a stabilized 8 MHz oscillation is SU(HSE)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_130",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 130. Low-speed external user clock characteristics",
+      "page": 220,
+      "merged_pages": [
+        220
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Operating conditions(2)\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. Refer to the note and caution paragraphs below the table, and to the application note AN2867 “Oscillator design guide for STM8AL/AF/S, STM32 MCUs and MPUs”.",
+          "3. t is the startup time measured from the moment it is enabled (by software) to a stabilized 32.768k Hz oscillation is SU"
+        ]
+      }
+    },
+    {
+      "table_id": "table_133",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 133. CSI oscillator characteristics",
+      "page": 222,
+      "merged_pages": [
+        222,
+        223
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 9,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. This value must be limited to the maximum frequency due to the product limitation (480 MHz for VOS0, 400 MHz for VOS1, 300 MHz for VOS2, 200 MHz for VOS3).",
+          "3. Guaranteed by characterization results."
+        ]
+      }
+    },
+    {
+      "table_id": "table_138",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 138. Flash memory programming",
+      "page": 226,
+      "merged_pages": [
+        226
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min(1)\", \"Typ\", \"Max(1)\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. The maximum programming time is measured after 10K erase operations. 226/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_139",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 139. Flash memory endurance and data retention",
+      "page": 227,
+      "merged_pages": [
+        227
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Value / Min(1)\", \"Unit\"]",
+      "rows_count": 3,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results."
+        ]
+      }
+    },
+    {
+      "table_id": "table_141",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 141. EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz",
+      "page": 228,
+      "merged_pages": [
+        228
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Monitored frequency band\", \"Value\", \"Unit\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Refer to AN1709 “EMI radiated test” chapter.",
+          "2. Refer to AN1709 “EMI level classification” chapter. 228/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_144",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 144. I/O current injection susceptibility",
+      "page": 230,
+      "merged_pages": [
+        230
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Description\", \"Functional susceptibility / Negative injection\", \"Functional susceptibility / Positive injection\", \"Unit\"]",
+      "rows_count": 4,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization. 230/335 DS12556 Rev 8",
+          "2. Guaranteed by design. DS12556 Rev 8 231/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_146",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 146. Output voltage characteristics for all I/Os except PC13, PC14, PC15 and PI8",
+      "page": 233,
+      "merged_pages": [
+        233,
+        234
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions(3)\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 6,
+        "continuation": {
+          "base_cols": 6,
+          "cont_cols_raw": 6,
+          "target_cols": 6,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+          "3. Guaranteed by design. DS12556 Rev 8 233/335"
+        ],
+        "_dedup_rows_removed": 6,
+        "_dedup_removed_indices": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "table_id": "table_147",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 147. Output voltage characteristics for PC13, PC14, PC15 and PI8",
+      "page": 234,
+      "merged_pages": [
+        234
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions(3)\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "2. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+          "3. Guaranteed by design. 234/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_148",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 148. Output timing characteristics (HSLV OFF)",
+      "page": 235,
+      "merged_pages": [
+        235,
+        236
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Speed\", \"Symbol\", \"Parameter\", \"conditions\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 48,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 7,
+          "cont_cols_raw": 7,
+          "target_cols": 7,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "3. The maximum frequency is defined with the following conditions: (t+t) ≤ 2/3 T",
+          "4. The fall and rise times are defined between 90% and 10% and between 10% and 90% of the output waveform, respectively.",
+          "5. Compensation system enabled. 236/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_149",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 149. Output timing characteristics (HSLV ON)",
+      "page": 237,
+      "merged_pages": [
+        237
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Speed\", \"Symbol\", \"Parameter\", \"conditions\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 24,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. The maximum frequency is defined with the following conditions: (t+t) ≤ 2/3 T",
+          "3. The fall and rise times are defined between 90% and 10% and between 10% and 90% of the output waveform, respectively.",
+          "4. Compensation system enabled. DS12556 Rev 8 237/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_151",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 151. Asynchronous non-multiplexed SRAM/PSRAM/NOR read timings",
+      "page": 240,
+      "merged_pages": [
+        240
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. N pulse width is equal to 1 AHB cycle. WAIT"
+        ]
+      }
+    },
+    {
+      "table_id": "table_152",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 152. Asynchronous non-multiplexed SRAM/PSRAM/NOR read-NWAIT timings",
+      "page": 240,
+      "merged_pages": [
+        240
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. N pulse width is equal to 1 AHB cycle. WAIT"
+        ],
+        "_legend": [
+          "timings(1)(2)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_153",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 153. Asynchronous non-multiplexed SRAM/PSRAM/NOR write timings",
+      "page": 242,
+      "merged_pages": [
+        242
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. N pulse width is equal to 1 AHB cycle. WAIT"
+        ]
+      }
+    },
+    {
+      "table_id": "table_155",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 155. Asynchronous multiplexed PSRAM/NOR read timings",
+      "page": 244,
+      "merged_pages": [
+        244
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 13,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. N pulse width is equal to 1 AHB cycle. WAIT"
+        ]
+      }
+    },
+    {
+      "table_id": "table_157",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 157. Asynchronous multiplexed PSRAM/NOR write timings",
+      "page": 245,
+      "merged_pages": [
+        245
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 13,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. N pulse width is equal to 1 AHB cycle. WAIT"
+        ]
+      }
+    },
+    {
+      "table_id": "table_159",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 159. Synchronous multiplexed NOR/PSRAM read timings",
+      "page": 247,
+      "merged_pages": [
+        247
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 15,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 247/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_160",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 160. Synchronous multiplexed PSRAM write timings",
+      "page": 249,
+      "merged_pages": [
+        249
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 16,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 249/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_161",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 161. Synchronous non-multiplexed NOR/PSRAM read timings",
+      "page": 251,
+      "merged_pages": [
+        251
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 13,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 251/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_162",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 162. Synchronous non-multiplexed PSRAM write timings",
+      "page": 253,
+      "merged_pages": [
+        253
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 253/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_163",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 163. Switching characteristics for NAND flash read cycles",
+      "page": 255,
+      "merged_pages": [
+        255
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 255/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_164",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 164. Switching characteristics for NAND flash write cycles",
+      "page": 255,
+      "merged_pages": [
+        255
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 255/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_165",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 165. SDRAM read timings",
+      "page": 257,
+      "merged_pages": [
+        257
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 257/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_166",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 166. LPSDR SDRAM read timings",
+      "page": 257,
+      "merged_pages": [
+        257
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 10,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 257/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_167",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 167. SDRAM Write timings",
+      "page": 258,
+      "merged_pages": [
+        258
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results. 258/335 DS12556 Rev 8"
+        ]
+      }
+    },
+    {
+      "table_id": "table_168",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 168. LPSDR SDRAM Write timings",
+      "page": 259,
+      "merged_pages": [
+        259
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 5,
+        "_notes": [
+          "1. Guaranteed by characterization results."
+        ]
+      }
+    },
+    {
+      "table_id": "table_169",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 169. QUADSPI characteristics in SDR mode",
+      "page": 260,
+      "merged_pages": [
+        260
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Guaranteed by characterization results. The following table summarizes the parameters measured in DDR mode."
+        ]
+      }
+    },
+    {
+      "table_id": "table_170",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 170. QUADSPI characteristics in DDR mode",
+      "page": 261,
+      "merged_pages": [
+        261
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 14,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Guaranteed by characterization results. Figure 82. QUADSPI timing diagram - SDR mode"
+        ]
+      }
+    },
+    {
+      "table_id": "table_172",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:4",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 172. ADC characteristics",
+      "page": 262,
+      "merged_pages": [
+        262,
+        263,
+        264,
+        265
+      ],
+      "col_count": 9,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 46,
+      "heuristics": {
+        "cols_extracted": 8,
+        "continuation": {
+          "base_cols": 9,
+          "cont_cols_raw": 9,
+          "target_cols": 9,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3,
+            4
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 4
+        },
+        "_notes": [
+          "4. These values are valid for UFBGA176+25 and one ADC. Refer to Getting started with the STM32H7 Series MCU 16-bit ADC (AN5354) for values of other packages and multiple ADCs operation.",
+          "5. Direct channels are connected to analog I/Os (PA0_C, PA1_C, PC2_C and PC3_C) to optimize ADC performance.",
+          "6. Depending on the package, V can be internally connected to V and V to V . REF+ DDA REF- SSA",
+          "7. The tolerance is 10 LSBs for 16-bit resolution, 4 LSBs for 14-bit resolution, and 2 LSBs for 12-bit, 10-bit and 8-bit resolutions. DS12556 Rev 8 265/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_173",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2",
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 173. Minimum sampling time vs R 266 AIN",
+      "page": 266,
+      "merged_pages": [
+        266,
+        267
+      ],
+      "col_count": 5,
+      "headers_preview": "[\"Resolution\", \"R )Ω( NIA\", \"Minimum sampling time (s) / Direct channels(3)\", \"Minimum sampling time (s) / Fast channels(4)\", \"Minimum sampling time (s) / Slow channels(5)\"]",
+      "rows_count": 42,
+      "heuristics": {
+        "cols_extracted": 5,
+        "continuation": {
+          "base_cols": 5,
+          "cont_cols_raw": 5,
+          "target_cols": 5,
+          "base_has_dup_headers": false,
+          "dup_positions": [],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "3. Direct channels are connected to analog I/Os (PA0_C, PA1_C, PC2_C and PC3_C) to optimize ADC performance.",
+          "4. Fast channels correspond to PF3, PF5, PF7, PF9, PA6, PC4, PB1, PF11 and PF13.",
+          "5. Slow channels correspond to all ADC inputs except for the Direct and Fast channels. DS12556 Rev 8 267/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_174",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 174. ADC accuracy",
+      "page": 268,
+      "merged_pages": [
+        268
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions(3)\", \"Conditions(3)\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 24,
+      "heuristics": {
+        "cols_extracted": 8,
+        "_notes": [
+          "3. ADC clock frequency = 25 MHz, ADC resolution = 16 bits, V =V =3.3 V and BOOST=11. DDA REF+"
+        ]
+      }
+    },
+    {
+      "table_id": "table_175",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 175. DAC characteristics",
+      "page": 271,
+      "merged_pages": [
+        271,
+        272
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 39,
+      "heuristics": {
+        "cols_extracted": 8,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "3. In buffered mode, the output can overshoot above the final value for low input code (starting from the minimum value).",
+          "4. T is the refresh phase duration, while T is the hold phase duration. Refer to the product reference manual for more ON OFF"
+        ]
+      }
+    },
+    {
+      "table_id": "table_176",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2",
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 176. DAC accuracy",
+      "page": 273,
+      "merged_pages": [
+        273,
+        274
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 21,
+      "heuristics": {
+        "cols_extracted": 8,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": true,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "spanning_check": {
+          "header_has_dup": false,
+          "category_repeats": 10,
+          "likely_missing_span": true
+        },
+        "_notes": [
+          "2. TBD stands for “to be defined”.",
+          "3. In buffered mode, the output can overshoot above the final value for low input code (starting from the minimum value).",
+          "4. T is the refresh phase duration, while T is the hold phase duration. Refer to the product reference manual for more ON OFF",
+          "5. Difference between the ideal slope of the transfer function and the measured slope computed from code 0x000 and 0xFFF when the buffer is OFF, and from code giving 0.2 V and (V - 0.2 V) when the buffer is ON.",
+          "6. Signal is −0.5dBFS with F =1 MHz. sampling"
+        ]
+      }
+    },
+    {
+      "table_id": "table_177",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 177. VREFBUF characteristics",
+      "page": 275,
+      "merged_pages": [
+        275,
+        276
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 33,
+      "heuristics": {
+        "cols_extracted": 8,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            3
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 2
+        },
+        "_notes": [
+          "2. In degraded mode, the voltage reference buffer cannot accurately maintain the output voltage (V −drop voltage). DDA",
+          "3. To properly control VREFBUF I current during the startup phase and the change of scaling, V voltage should be in INRUSH DDA"
+        ]
+      }
+    },
+    {
+      "table_id": "table_184",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 184. COMP characteristics",
+      "page": 278,
+      "merged_pages": [
+        278
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 27,
+      "heuristics": {
+        "cols_extracted": 8,
+        "_notes": [
+          "2. Refer to Table 115: Embedded reference voltage. 278/335 DS12556 Rev 8",
+          "3. Guaranteed by characterization results."
+        ]
+      }
+    },
+    {
+      "table_id": "table_185",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "multi_page_merged:3"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 185. Operational amplifier characteristics",
+      "page": 279,
+      "merged_pages": [
+        279,
+        280,
+        281
+      ],
+      "col_count": 8,
+      "headers_preview": "[\"Symbol\", \"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 55,
+      "heuristics": {
+        "cols_extracted": 7,
+        "continuation": {
+          "base_cols": 8,
+          "cont_cols_raw": 8,
+          "target_cols": 8,
+          "base_has_dup_headers": true,
+          "dup_positions": [
+            1
+          ],
+          "b7_detected": false,
+          "b7_expanded": false,
+          "cont_pages": 3
+        },
+        "_notes": [
+          "1. R LOAD is the resistive load connected to VSSA or to VDDA.",
+          "2. R2 is the internal resistance between the OPAMP output and th OPAMP inverting input. R1 is the internal resistance between the OPAMP inverting input and ground. PGA gain = 1 + R2/R1."
+        ]
+      }
+    },
+    {
+      "table_id": "table_188",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 188. LTDC characteristics",
+      "page": 285,
+      "merged_pages": [
+        285
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Parameter\", \"Parameter\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 11,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 285/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_190",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 190. Minimum i2c_ker_ck frequency in all I2C modes",
+      "page": 288,
+      "merged_pages": [
+        288
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Condition\", \"Condition\", \"Min\", \"Unit\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Guaranteed by characterization results.",
+          "2. Spikes with widths below t are filtered. AF(min)",
+          "3. Spikes with widths above t are not filtered. AF(max)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_192",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 192. USART (SPI mode) characteristics",
+      "page": 289,
+      "merged_pages": [
+        289
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 13,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Measurement points are done at 0.5V and with external C = 30 pF. DD L"
+        ]
+      }
+    },
+    {
+      "table_id": "table_193",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 193. SPI dynamic characteristics",
+      "page": 291,
+      "merged_pages": [
+        291
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 20,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Guaranteed by characterization results. DS12556 Rev 8 291/335"
+        ]
+      }
+    },
+    {
+      "table_id": "table_194",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 194. I2S dynamic characteristics",
+      "page": 294,
+      "merged_pages": [
+        294
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Max\", \"Unit\"]",
+      "rows_count": 15,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Guaranteed by characterization results. Figure 98. I2S slave timing diagram (Philips protocol)(1)"
+        ]
+      }
+    },
+    {
+      "table_id": "table_200",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 200. Dynamics characteristics: USB ULPI",
+      "page": 301,
+      "merged_pages": [
+        301
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Condition\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. No external termination series resistors are required on USB_DP (D+) and USB_DM (D-); the matching impedance is already included in the embedded driver."
+        ]
+      }
+    },
+    {
+      "table_id": "table_202",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 202. Dynamics characteristics: Ethernet MAC signals for RMII",
+      "page": 303,
+      "merged_pages": [
+        303
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 6,
+      "heuristics": {
+        "cols_extracted": 6,
+        "_notes": [
+          "1. Guaranteed by characterization results. Figure 108. Ethernet RMII timing diagram"
+        ]
+      }
+    },
+    {
+      "table_id": "table_203",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 203. Dynamics characteristics: Ethernet MAC signals for MII",
+      "page": 304,
+      "merged_pages": [
+        304
+      ],
+      "col_count": 6,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 8,
+      "heuristics": {
+        "cols_extracted": 6
+      }
+    },
+    {
+      "table_id": "table_204",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "vertical_merge_suspected"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 204. Dynamics JTAG characteristics",
+      "page": 305,
+      "merged_pages": [
+        305
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Parameter\", \"Conditions\", \"Min\", \"Typ\", \"Max\", \"Unit\"]",
+      "rows_count": 9,
+      "heuristics": {
+        "cols_extracted": 7
+      }
+    },
+    {
+      "table_id": "table_206",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 206. LQFP100 - Mechanical data",
+      "page": 309,
+      "merged_pages": [
+        309
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"millimeters / Min\", \"millimeters / Typ\", \"millimeters / Max\", \"inches(14) / Min\", \"inches(14) / Typ\", \"inches(14) / Max\"]",
+      "rows_count": 26,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+          "2. The Top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+          "4. To be determined at seating datum plane C.",
+          "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size",
+          "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm.",
+          "11. These dimensions apply to the flat section of the lead between 0.10 mm and 0.25 mm from the lead tip.",
+          "12. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+          "13. “N” is the number of terminal positions for the specified body size.",
+          "14. Values in inches are converted from mm and rounded to 4 decimal digits."
+        ]
+      }
+    },
+    {
+      "table_id": "table_207",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 207. LQFP144 - Mechanical data",
+      "page": 312,
+      "merged_pages": [
+        312
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"millimeters / Min\", \"millimeters / Typ\", \"millimeters / Max\", \"inches(14) / Min\", \"inches(14) / Typ\", \"inches(14) / Max\"]",
+      "rows_count": 26,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. The Top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+          "4. To be determined at seating datum plane C.",
+          "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size",
+          "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm.",
+          "11. These dimensions apply to the flat section of the lead between 0.10 mm and 0.25 mm from the lead tip.",
+          "12. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+          "13. “N” is the number of terminal positions for the specified body size.",
+          "14. Values in inches are converted from mm and rounded to 4 decimal digits."
+        ]
+      }
+    },
+    {
+      "table_id": "table_208",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 208. LQFP176 - Mechanical data",
+      "page": 316,
+      "merged_pages": [
+        316
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"millimeters / Min\", \"millimeters / Typ\", \"millimeters / Max\", \"inches(14) / Min\", \"inches(14) / Typ\", \"inches(14) / Max\"]",
+      "rows_count": 26,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+          "2. The Top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+          "4. To be determined at seating datum plane C.",
+          "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size",
+          "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm.",
+          "11. These dimensions apply to the flat section of the lead between 0.10 mm and 0.25 mm from the lead tip.",
+          "12. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+          "13. “N” is the number of terminal positions for the specified body size.",
+          "14. Values in inches are converted from mm and rounded to 4 decimal digits."
+        ]
+      }
+    },
+    {
+      "table_id": "table_209",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 209. UFBGA(176+25) - Mechanical data",
+      "page": 319,
+      "merged_pages": [
+        319
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"millimeters / Min.\", \"millimeters / Typ.\", \"millimeters / Max.\", \"inches(1) / Min.\", \"inches(1) / Typ.\", \"inches(1) / Max.\"]",
+      "rows_count": 15,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "1. Drawing is not to scale."
+        ]
+      }
+    },
+    {
+      "table_id": "table_211",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 211. TFBGA240+25 - Mechanical data",
+      "page": 322,
+      "merged_pages": [
+        322
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Millimeters / Min\", \"Millimeters / Typ\", \"Millimeters / Max\", \"Inches(2) / Min\", \"Inches(2) / Typ\", \"Inches(2) / Max\"]",
+      "rows_count": 12,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. Values in inches are converted from millimeters and rounded to four decimal digits.",
+          "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+          "4. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+          "6. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+          "7. BSC stands for basic dimensions. It corresponds to the nominal value and has no tolerance. For tolerances, refer to Table 212.",
+          "10. e represents the solder ball grid pitch.",
+          "11. N represents the total number of balls on the BGA.",
+          "12. Basic dimensions SD and SE are defined with respect to datums A and B. They define the position of the center ball(s) in the outer row or column of a fully populated matrix."
+        ]
+      }
+    },
+    {
+      "table_id": "table_212",
+      "confidence": "high",
+      "empty_cell_ratio": 0.0,
+      "has_empty_cells": false,
+      "warnings": [
+        "dynamic_header_depth:2"
+      ],
+      "extraction_method": "pdfplumber",
+      "status": null,
+      "caption": "Table 212. TFBGA240+25 - Tolerance of form and position",
+      "page": 322,
+      "merged_pages": [
+        322
+      ],
+      "col_count": 7,
+      "headers_preview": "[\"Symbol\", \"Millimeters / Min\", \"Millimeters / Typ\", \"Millimeters / Max\", \"Inches(2) / Min\", \"Inches(2) / Typ\", \"Inches(2) / Max\"]",
+      "rows_count": 5,
+      "heuristics": {
+        "cols_extracted": 7,
+        "_notes": [
+          "2. Values in inches are converted from millimeters and rounded to four decimal digits.",
+          "13. For the tolerance of form and position definitions, see the following table."
+        ]
+      }
+    }
+  ],
+  "dedup_rows_removed": 16,
+  "drawing_failed": 0,
+  "bug_suspected": 1
+}

@@ -1,0 +1,147 @@
+{
+  "table_id": "table_34",
+  "document": "DS13311 Rev 5 - Table 34. Low-power mode wakeup timings",
+  "rev": "Rev 5",
+  "table_number": "34",
+  "title": "Table 34. Low-power mode wakeup timings",
+  "page": 143,
+  "section": "6.3.9 Wake-up time from low-power modes",
+  "section_title": "Wake-up time from low-power modes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=143",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 34. Low-power mode wakeup timings — section 6.3.9 Wake-up time from low-power modes. Symbol, Parameter, Conditions, Typ(1), Max(1) (2), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Typ(1)",
+      "Max(1) (2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t (3) WUSLEEP",
+        "Wakeup from Sleep",
+        "-",
+        "14.00",
+        "15.00",
+        "CPU clock cycles"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS3, HSI, flash memory in Normal mode",
+        "4.6",
+        "6.2",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS3, HSI, flash memory in low-power mode",
+        "12.4",
+        "17.4",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS4, HSI, flash memory in Normal mode",
+        "15.5",
+        "21.1",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS4, HSI, flash memory in low-power mode",
+        "23.3",
+        "31.8",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS5, HSI, flash memory in Normal mode",
+        "39.1",
+        "52.6",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS5, HSI, flash memory in low-power mode",
+        "39.1",
+        "52.7",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS3, CSI, flash memory in Normal mode",
+        "30.0",
+        "41.6",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS3, CSI, flash memory in low-power mode",
+        "40.6",
+        "55.0",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS4, CSI, flash memory in Normal mode",
+        "41.0",
+        "55.4",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS4, CSI, flash memory in low-power mode",
+        "51.5",
+        "68.8",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS5, CSI, flash memory in Normal mode",
+        "67.3",
+        "89.5",
+        "µs"
+      ],
+      [
+        "t (3) WUSTOP",
+        "Wakeup from Stop mode",
+        "SVOS5, CSI, flash memory in low-power mode",
+        "67.2",
+        "89.5",
+        "µs"
+      ],
+      [
+        "t (3) WUSTDBY",
+        "Wakeup from Standby mode",
+        "-",
+        "400.0",
+        "504.3",
+        "µs"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. The maximum values have been measured at -40 °C, in worst conditions.",
+      "3. The wake-up times are measured from the wake-up event to the point in which the application code reads the first DS13311 Rev 5 143/283"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

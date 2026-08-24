@@ -1,0 +1,53 @@
+{
+  "table_id": "table_126",
+  "document": "DS13313 Rev 5 - Table 126. UFBGA144 recommended PCB design rules (0.50 mm pitch BGA)",
+  "rev": "Rev 5",
+  "table_number": "126",
+  "title": "Table 126. UFBGA144 recommended PCB design rules (0.50 mm pitch BGA)",
+  "page": 228,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=228",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "text_helper": "Table 126. UFBGA144 recommended PCB design rules (0.50 mm pitch BGA) — section 7.1 Device marking. Dimension, Recommended values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Recommended values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.50 mm"
+      ],
+      [
+        "Dpad",
+        "0.280 mm"
+      ],
+      [
+        "Dsm",
+        "0.370 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.280 mm"
+      ],
+      [
+        "Stencil thickness",
+        "Between 0.100 mm and 0.125 mm"
+      ],
+      [
+        "Pad trace width",
+        "0.120 mm"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits. Figure 71. UFBGA - 144 balls, 7 x 7 mm, 0.50 mm pitch, ultra fine pitch ball grid array"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

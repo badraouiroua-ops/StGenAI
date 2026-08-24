@@ -1,0 +1,59 @@
+{
+  "table_id": "table_15",
+  "document": "DS14359 Rev 7 - Table 15. Instance implementation on STM32H7Sxx8",
+  "rev": "Rev 7",
+  "table_number": "15",
+  "title": "Table 15. Instance implementation on STM32H7Sxx8",
+  "page": 67,
+  "section": "3.38 Tamper and backup registers (TAMP)",
+  "section_title": "Tamper and backup registers (TAMP)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=67",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 15. Instance implementation on STM32H7Sxx8 — section 3.38 Tamper and backup registers (TAMP). Instance, STM32H7Sxx8.",
+  "table_content": {
+    "headers": [
+      "Instance",
+      "STM32H7Sxx8"
+    ],
+    "rows": [
+      [
+        "USART1",
+        "Full"
+      ],
+      [
+        "USART2",
+        "Full"
+      ],
+      [
+        "USART3",
+        "Full"
+      ],
+      [
+        "UART4",
+        "Basic"
+      ],
+      [
+        "UART5",
+        "Basic"
+      ],
+      [
+        "UART7",
+        "Basic"
+      ],
+      [
+        "UART8",
+        "Basic"
+      ],
+      [
+        "LPUART1",
+        "Low-power"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

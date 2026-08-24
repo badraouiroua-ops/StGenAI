@@ -1,0 +1,48 @@
+{
+  "table_id": "table_131",
+  "document": "DS13196 Rev 7 - Table 131. UFBGA169 - recommended PCB design rules (0.5 mm pitch BGA)",
+  "rev": "Rev 7",
+  "table_number": "131",
+  "title": "Table 131. UFBGA169 - recommended PCB design rules (0.5 mm pitch BGA)",
+  "page": 186,
+  "section": "7 Package information",
+  "section_title": "Package information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=186",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 131. UFBGA169 - recommended PCB design rules (0.5 mm pitch BGA) — section 7 Package information. Dimension, Recommended values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Recommended values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.5 mm"
+      ],
+      [
+        "Dpad",
+        "0.27 mm"
+      ],
+      [
+        "Dsm",
+        "0.35 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Solder paste",
+        "0.27 mm aperture diameter"
+      ]
+    ],
+    "notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences resulting",
+      "2. The terminal A1 corner must be identified on the top surface by using a corner chamfer, ink or metalized markings, or other feature of package body or integral heat slug. A distinguishing feature is allowable on the",
+      "3. The tolerance of position that controls the location of the pattern of balls with respect to datum A and B. For each ball there is a cylindrical tolerance zone eee perpendicular to datum C and located on true position with respect to datum A and B as",
+      "4. The tolerance of position that controls the location of the balls within the matrix with respect to each other. For each ball there is a cylindrical tolerance zone fff perpendicular to datum C and located on true position as defined by e. The axis"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "table_id": "table_138",
+  "document": "DS14360 Rev 6 - Table 138. Dynamics SWD characteristics",
+  "rev": "Rev 6",
+  "table_number": "138",
+  "title": "Table 138. Dynamics SWD characteristics",
+  "page": 284,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=284",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 138. Dynamics SWD characteristics — section 6.3.33 Communication interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F SWCLK",
+        "SWCLK clock frequency",
+        "2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "-",
+        "90",
+        "MHz"
+      ],
+      [
+        "F SWCLK",
+        "SWCLK clock frequency",
+        "1.71 ≤ V ≤ 3.6 V DD",
+        "-",
+        "-",
+        "60",
+        "MHz"
+      ],
+      [
+        "ti su(SWDIO)",
+        "SWDIO input setup time",
+        "-",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "ti h(SWDIO)",
+        "SWDIO input hold time",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ov(SWDIO)",
+        "SWDIO output valid time",
+        "2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "9",
+        "11",
+        "ns"
+      ],
+      [
+        "t ov(SWDIO)",
+        "SWDIO output valid time",
+        "1.71 ≤ V ≤ 3.6 V DD",
+        "-",
+        "11",
+        "16.5",
+        "ns"
+      ],
+      [
+        "t oh(SWDIO)",
+        "SWDIO output hold time",
+        "-",
+        "8",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS low, these values are degraded by up to 7%."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

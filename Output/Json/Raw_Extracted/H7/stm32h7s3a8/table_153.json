@@ -1,0 +1,187 @@
+{
+  "table_id": "table_153",
+  "caption": "Table 153. UFBGA(176+25) - Mechanical data",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 314,
+  "merged_pages": [
+    314,
+    315
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=314",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Symbol",
+    "millimeters / Min.",
+    "millimeters / Typ.",
+    "millimeters / Max.",
+    "inches(1) / Min.",
+    "inches(1) / Typ.",
+    "inches(1) / Max."
+  ],
+  "rows": [
+    [
+      "A",
+      "-",
+      "-",
+      "0.600",
+      "-",
+      "-",
+      "0.0236"
+    ],
+    [
+      "A1",
+      "0.050",
+      "0.080",
+      "0.110",
+      "0.0020",
+      "0.0031",
+      "0.0043"
+    ],
+    [
+      "A2",
+      "-",
+      "0.450",
+      "-",
+      "-",
+      "0.0177",
+      "-"
+    ],
+    [
+      "A3",
+      "-",
+      "0.130",
+      "-",
+      "-",
+      "0.0051",
+      "-"
+    ],
+    [
+      "A4",
+      "-",
+      "0.320",
+      "-",
+      "-",
+      "0.0126",
+      "-"
+    ],
+    [
+      "b",
+      "0.240",
+      "0.290",
+      "0.340",
+      "0.0094",
+      "0.0114",
+      "0.0134"
+    ],
+    [
+      "D",
+      "9.850",
+      "10.000",
+      "10.150",
+      "0.3878",
+      "0.3937",
+      "0.3996"
+    ],
+    [
+      "D1",
+      "-",
+      "9.100",
+      "-",
+      "-",
+      "0.3583",
+      "-"
+    ],
+    [
+      "E",
+      "9.850",
+      "10.000",
+      "10.150",
+      "0.3878",
+      "0.3937",
+      "0.3996"
+    ],
+    [
+      "E1",
+      "-",
+      "9.100",
+      "-",
+      "-",
+      "0.3583",
+      "-"
+    ],
+    [
+      "e",
+      "-",
+      "0.650",
+      "-",
+      "-",
+      "0.0256",
+      "-"
+    ],
+    [
+      "F",
+      "-",
+      "0.450",
+      "-",
+      "-",
+      "0.0177",
+      "-"
+    ],
+    [
+      "ddd",
+      "-",
+      "-",
+      "0.080",
+      "-",
+      "-",
+      "0.0031"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Drawing is not to scale."
+    ],
+    "_dedup_rows_removed": 2,
+    "_dedup_removed_indices": [
+      13,
+      14
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_153",
+    "is_continued": true,
+    "pages": [
+      314,
+      315
+    ],
+    "rows_count": 13,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

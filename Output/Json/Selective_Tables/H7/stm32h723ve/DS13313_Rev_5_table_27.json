@@ -1,0 +1,102 @@
+{
+  "table_id": "table_27",
+  "document": "DS13313 Rev 5 - Table 27. Typical and maximum current consumption in Standby mode",
+  "rev": "Rev 5",
+  "table_number": "27",
+  "title": "Table 27. Typical and maximum current consumption in Standby mode",
+  "page": 102,
+  "section": "6.3.7 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=102",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "text_helper": "Table 27. Typical and maximum current consumption in Standby mode — section 6.3.7 Supply current characteristics. Symbol, Parameter, Conditions / Backup SRAM, Conditions / RTC and LSE(3), Typ(1) / 1.65 V, +8 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions / Backup SRAM",
+      "Conditions / RTC and LSE(3)",
+      "Typ(1) / 1.65 V",
+      "Typ(1) / 2.4 V",
+      "Typ(1) / 3 V",
+      "Typ(1) / 3.3 V",
+      "Max at 3.6 V(2) / T = J 25 ° C",
+      "Max at 3.6 V(2) / T = J 85 ° C",
+      "Max at 3.6 V(2) / T = J 105 ° C",
+      "Max at 3.6 V(2) / T = J 125 ° C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD (Standby)",
+        "Supply current in Standby mode, IWDG OFF",
+        "OFF",
+        "OFF",
+        "2.2",
+        "2.35",
+        "2.5",
+        "2.8",
+        "-",
+        "-",
+        "-",
+        "-",
+        "µA"
+      ],
+      [
+        "I DD (Standby)",
+        "Supply current in Standby mode, IWDG OFF",
+        "ON",
+        "OFF",
+        "3.5",
+        "3.7",
+        "4",
+        "4.3",
+        "-",
+        "-",
+        "-",
+        "-",
+        "µA"
+      ],
+      [
+        "I DD (Standby)",
+        "Supply current in Standby mode, IWDG OFF",
+        "OFF",
+        "ON",
+        "2.2",
+        "2.4",
+        "2.85",
+        "3.25",
+        "4.5",
+        "15",
+        "30",
+        "64",
+        "µA"
+      ],
+      [
+        "I DD (Standby)",
+        "Supply current in Standby mode, IWDG OFF",
+        "ON",
+        "ON",
+        "3.5",
+        "3.8",
+        "4.35",
+        "4.75",
+        "8.3",
+        "39",
+        "75",
+        "140",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Guaranteed by characterization results.",
+      "3. The LSE is in Low-drive mode."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

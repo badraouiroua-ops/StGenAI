@@ -1,0 +1,65 @@
+{
+  "table_id": "table_79",
+  "caption": "Table 79. Delay Block characteristics",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 162,
+  "merged_pages": [
+    162
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=162",
+  "section": "6.3.20 Delay block (DLYB) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t init",
+      "Initial delay",
+      "-",
+      "900",
+      "1300",
+      "1900",
+      "ps"
+    ],
+    [
+      "t ∆",
+      "Unit Delay",
+      "-",
+      "28",
+      "33",
+      "41",
+      "ps"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_79",
+    "is_continued": false,
+    "pages": [
+      162
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "table_id": "table_49",
+  "caption": "Table 49. Electrical sensitivities",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 125,
+  "merged_pages": [
+    125
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=125",
+  "section": "6.3.14 Absolute maximum ratings (electrical sensitivity)",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Class"
+  ],
+  "rows": [
+    [
+      "LU",
+      "Static latchup class",
+      "Conforming to JESD78, T = T J JMax",
+      "II level A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS13313 Rev 5 125/236"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_49",
+    "is_continued": false,
+    "pages": [
+      125
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

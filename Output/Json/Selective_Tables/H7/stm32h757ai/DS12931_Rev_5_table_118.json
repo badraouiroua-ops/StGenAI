@@ -1,0 +1,65 @@
+{
+  "table_id": "table_118",
+  "document": "DS12931 Rev 5 - Table 118. Dynamics characteristics: Ethernet MAC signals for SMI",
+  "rev": "Rev 5",
+  "table_number": "118",
+  "title": "Table 118. Dynamics characteristics: Ethernet MAC signals for SMI",
+  "page": 224,
+  "section": "6.3.35 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=224",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "text_helper": "Table 118. Dynamics characteristics: Ethernet MAC signals for SMI — section 6.3.35 Communication interfaces. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t MDC",
+        "MDC cycle time( 2.5 MHz)",
+        "400",
+        "400",
+        "403",
+        "ns"
+      ],
+      [
+        "T d(MDIO)",
+        "Write data valid time",
+        "0.5",
+        "1.5",
+        "4",
+        "ns"
+      ],
+      [
+        "t su(MDIO)",
+        "Read data setup time",
+        "12.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(MDIO)",
+        "Read data hold time",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. 224/254 DS12931 Rev 5"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

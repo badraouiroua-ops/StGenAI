@@ -1,0 +1,71 @@
+{
+  "table_id": "table_86",
+  "document": "DS12117 Rev 10 - Table 86. Voltage booster for analog switch characteristics",
+  "rev": "Rev 10",
+  "table_number": "86",
+  "title": "Table 86. Voltage booster for analog switch characteristics",
+  "page": 176,
+  "section": "6.3.25 Voltage booster for analog switch",
+  "section_title": "Voltage booster for analog switch",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=176",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 86. Voltage booster for analog switch characteristics — section 6.3.25 Voltage booster for analog switch. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DD",
+        "Supply voltage",
+        "-",
+        "1.62",
+        "2-6",
+        "3.6",
+        "V"
+      ],
+      [
+        "t SU(BOOST)",
+        "Booster startup time",
+        "-",
+        "-",
+        "-",
+        "50",
+        "µs"
+      ],
+      [
+        "I DD(BOOST)",
+        "Booster consumption",
+        "1.62 V ≤ V ≤ 2.7 V DD",
+        "-",
+        "-",
+        "125",
+        "µA"
+      ],
+      [
+        "I DD(BOOST)",
+        "Booster consumption",
+        "2.7 V < V < 3.6 V DD",
+        "-",
+        "-",
+        "250",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. 176/357 DS12117 Rev 10",
+      "2. Refer to Table 17: Embedded reference voltage. DS12117 Rev 10 177/357"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

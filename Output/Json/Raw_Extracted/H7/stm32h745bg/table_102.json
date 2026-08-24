@@ -1,0 +1,151 @@
+{
+  "table_id": "table_102",
+  "caption": "Table 102. LTDC characteristics",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 199,
+  "merged_pages": [
+    199
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=199",
+  "section": "6.3.31 LCD-TFT controller (LTDC) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Parameter",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "2.7<V <3.6 V DD 20pF",
+      "2.7<V <3.6 V DD 20pF",
+      "-",
+      "150",
+      "MHz"
+    ],
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "2.7<V <3.6 V DD",
+      "2.7<V <3.6 V DD",
+      "-",
+      "133",
+      "MHz"
+    ],
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "1.62<V <3.6 V DD",
+      "1.62<V <3.6 V DD",
+      "-",
+      "90",
+      "MHz"
+    ],
+    [
+      "D CLK",
+      "LTDC clock output duty cycle",
+      "LTDC clock output duty cycle",
+      "LTDC clock output duty cycle",
+      "45",
+      "55",
+      "%"
+    ],
+    [
+      "t w(CLKH), t w(CLKL)",
+      "Clock High time, low time",
+      "Clock High time, low time",
+      "Clock High time, low time",
+      "t //2-0.5 w(CLK)",
+      "t //2+0.5 w(CLK)",
+      "%"
+    ],
+    [
+      "t v(DATA)",
+      "Data output valid time",
+      "Data output valid time",
+      "2.7<V <3.6 V DD",
+      "-",
+      "0.5",
+      "%"
+    ],
+    [
+      "t h(DATA)",
+      "Data output valid time",
+      "Data output valid time",
+      "1.62<V <3.6 V DD",
+      "-",
+      "5",
+      "%"
+    ],
+    [
+      "t v(DATA)",
+      "Data output hold time",
+      "Data output hold time",
+      "Data output hold time",
+      "0",
+      "-",
+      "%"
+    ],
+    [
+      "t v(HSYNC), t v(VSYNC), t v(DE)",
+      "HSYNC/VSYNC/DE output valid time",
+      "HSYNC/VSYNC/DE output valid time",
+      "2.7<V <3.6 V DD",
+      "-",
+      "0.5",
+      "%"
+    ],
+    [
+      "t v(HSYNC), t v(VSYNC), t v(DE)",
+      "HSYNC/VSYNC/DE output valid time",
+      "HSYNC/VSYNC/DE output valid time",
+      "1.62<V <3.6 V DD",
+      "-",
+      "5",
+      "%"
+    ],
+    [
+      "t h(HSYNC), t , h(VSYNC) t h(DE)",
+      "HSYNC/VSYNC/DE output hold time",
+      "HSYNC/VSYNC/DE output hold time",
+      "HSYNC/VSYNC/DE output hold time",
+      "0",
+      "-",
+      "%"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS12923 Rev 3 199/245"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_102",
+    "is_continued": false,
+    "pages": [
+      199
+    ],
+    "rows_count": 11,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

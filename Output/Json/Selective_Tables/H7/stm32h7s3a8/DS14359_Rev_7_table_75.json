@@ -1,0 +1,82 @@
+{
+  "table_id": "table_75",
+  "document": "DS14359 Rev 7 - Table 75. Output voltage characteristics for PC14 and PC15",
+  "rev": "Rev 7",
+  "table_number": "75",
+  "title": "Table 75. Output voltage characteristics for PC14 and PC15",
+  "page": 210,
+  "section": "6.3.15 I/O port characteristics",
+  "section_title": "I/O port characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=210",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 75. Output voltage characteristics for PC14 and PC15 — section 6.3.15 I/O port characteristics. Symbol, Parameter, Conditions(3), Min, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions(3)",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V OL",
+        "Output low level voltage",
+        "CMOS port(2) I = 0.5 mA IO 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "0.4",
+        "V"
+      ],
+      [
+        "V OH",
+        "Output high level voltage",
+        "CMOS port(2) I = -0.5 mA IO 2.7 V ≤ V ≤ 3.6 V DD",
+        "V - 0.4 DD",
+        "-",
+        "V"
+      ],
+      [
+        "V (3) OL",
+        "Output low level voltage",
+        "TTL port(2) I = 0.5 mA IO 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "0.4",
+        "V"
+      ],
+      [
+        "V (3) OH",
+        "Output high level voltage",
+        "TTL port(2) I = -0.5 mA IO 2.7 V ≤ V ≤ 3.6 V DD",
+        "2.4",
+        "-",
+        "V"
+      ],
+      [
+        "V (3) OL",
+        "Output low level voltage",
+        "I = 0.25 mA IO 1.71 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "0.4",
+        "V"
+      ],
+      [
+        "V (3) OH",
+        "Output high level voltage",
+        "I = -0.25 mA IO 1.71 V ≤ V ≤ 3.6 V DD",
+        "V - 0.4 DD",
+        "-",
+        "V"
+      ]
+    ],
+    "notes": [
+      "2. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+      "3. Specified by design - Not tested in production."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

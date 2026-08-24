@@ -1,0 +1,480 @@
+{
+  "table_id": "table_44",
+  "caption": "Table 44. PLL2 and PLL3 characteristics (wide VCO frequency range)",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 144,
+  "merged_pages": [
+    144,
+    145
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=144",
+  "section": "6.3.12 PLL characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f PLL_IN",
+      "PLL input clock",
+      "-",
+      "-",
+      "2",
+      "-",
+      "16",
+      "MHz"
+    ],
+    [
+      "f PLL_IN",
+      "PLL input clock duty cycle",
+      "-",
+      "-",
+      "10",
+      "-",
+      "90",
+      "%"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS0",
+      "VOS0",
+      "1.5",
+      "-",
+      "550(2)",
+      "MHz"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS1",
+      "VOS1",
+      "1.5",
+      "-",
+      "400(2)",
+      "MHz"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS2",
+      "VOS2",
+      "1.5",
+      "-",
+      "300(2)",
+      "MHz"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS3",
+      "VOS3",
+      "1.5",
+      "-",
+      "170(2)",
+      "MHz"
+    ],
+    [
+      "f VCO_OUT",
+      "PLL VCO output",
+      "-",
+      "-",
+      "192",
+      "-",
+      "960(3)",
+      "MHz"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Normal mode",
+      "Normal mode",
+      "-",
+      "50",
+      "150(3)",
+      "µs"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Sigma-delta mode (f PLL_IN ≥ 8 MHz)",
+      "Sigma-delta mode (f PLL_IN ≥ 8 MHz)",
+      "-",
+      "58",
+      "166(3)",
+      "µs"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(4)",
+      "f = 192 MHz VCO_OUT",
+      "f = 192 MHz VCO_OUT",
+      "-",
+      "134",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(4)",
+      "f = 200 MHz VCO_OUT",
+      "f = 200 MHz VCO_OUT",
+      "-",
+      "134",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(4)",
+      "f = 400 MHz VCO_OUT",
+      "f = 400 MHz VCO_OUT",
+      "-",
+      "76",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(4)",
+      "f = 800 MHz VCO_OUT",
+      "f = 800 MHz VCO_OUT",
+      "-",
+      "39",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Normal mode (f = PLL_IN 2 MHz)",
+      "f = VCO_OUT 560 MHz",
+      "-",
+      "±0.2",
+      "-",
+      "%"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Normal mode (f = PLL_IN 16 MHz)",
+      "f = VCO_OUT 560 MHz",
+      "-",
+      "±0.8",
+      "-",
+      "%"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Sigma-delta mode (f = PLL_IN 2 MHz)",
+      "f = VCO_OUT 560 MHz",
+      "-",
+      "±0.2",
+      "-",
+      "%"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Sigma-delta mode (f = PLL_IN 16 MHz)",
+      "f = VCO_OUT 560 MHz",
+      "-",
+      "±0.8",
+      "-",
+      "%"
+    ],
+    [
+      "I (3) DD(PLL)",
+      "PLL power consumption",
+      "f = VCO_OUT 836 MHz",
+      "V DD",
+      "-",
+      "590",
+      "1500",
+      "µA"
+    ],
+    [
+      "I (3) DD(PLL)",
+      "PLL power consumption",
+      "f = VCO_OUT 836 MHz",
+      "V CORE",
+      "-",
+      "720",
+      "-",
+      "µA"
+    ],
+    [
+      "I (3) DD(PLL)",
+      "PLL power consumption",
+      "f = VCO_OUT 192 MHz",
+      "V DD",
+      "-",
+      "180",
+      "600",
+      "µA"
+    ],
+    [
+      "I (3) DD(PLL)",
+      "PLL power consumption",
+      "f = VCO_OUT 192 MHz",
+      "V CORE",
+      "-",
+      "280",
+      "-",
+      "µA"
+    ],
+    [
+      "f PLL_IN",
+      "PLL input clock",
+      "-",
+      "-",
+      "1",
+      "-",
+      "2",
+      "MHz"
+    ],
+    [
+      "f PLL_IN",
+      "PLL input clock duty cycle",
+      "-",
+      "-",
+      "10",
+      "-",
+      "90",
+      "%"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS0",
+      "VOS0",
+      "1.17",
+      "-",
+      "210",
+      "MHz"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS1",
+      "VOS1",
+      "1.17",
+      "-",
+      "210",
+      "MHz"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS2",
+      "VOS2",
+      "1.17",
+      "-",
+      "210",
+      "MHz"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS3",
+      "VOS3",
+      "1.17",
+      "-",
+      "200",
+      "MHz"
+    ],
+    [
+      "f VCO_OUT",
+      "PLL VCO output",
+      "-",
+      "-",
+      "150",
+      "-",
+      "420",
+      "MHz"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Normal mode",
+      "Normal mode",
+      "-",
+      "60",
+      "100(2)",
+      "µs"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Sigma-delta mode",
+      "Sigma-delta mode",
+      "forbidden",
+      "60",
+      "100(2)",
+      "µs"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(3)",
+      "f = 150 MHz VCO_OUT",
+      "f = 150 MHz VCO_OUT",
+      "-",
+      "145",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(3)",
+      "f = 200 MHz VCO_OUT",
+      "f = 200 MHz VCO_OUT",
+      "-",
+      "91",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(3)",
+      "f = 400 MHz VCO_OUT",
+      "f = 400 MHz VCO_OUT",
+      "-",
+      "64",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(3)",
+      "f = 420 MHz VCO_OUT",
+      "f = 420 MHz VCO_OUT",
+      "-",
+      "63",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Period jitter",
+      "f = PLL_OUT 50 MHz",
+      "f = VCO_OUT 150 MHz",
+      "-",
+      "55",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Period jitter",
+      "f = 400 MHz VCO_OUT",
+      "f = 400 MHz VCO_OUT",
+      "-",
+      "30",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Normal mode",
+      "f = VCO_OUT 400 MHz",
+      "-",
+      "±0.3",
+      "-",
+      "%"
+    ],
+    [
+      "I DD(PLL)",
+      "PLL power consumption on V DD",
+      "f = VCO_OUT 420 MHz",
+      "V DD",
+      "-",
+      "440",
+      "1150",
+      "µA"
+    ],
+    [
+      "I DD(PLL)",
+      "PLL power consumption on V DD",
+      "f = VCO_OUT 420 MHz",
+      "V CORE",
+      "-",
+      "530",
+      "-",
+      "µA"
+    ],
+    [
+      "I DD(PLL)",
+      "PLL power consumption on V DD",
+      "f = VCO_OUT 150 MHz",
+      "V DD",
+      "-",
+      "180",
+      "500",
+      "µA"
+    ],
+    [
+      "I DD(PLL)",
+      "PLL power consumption on V DD",
+      "f = VCO_OUT 150 MHz",
+      "V CORE",
+      "-",
+      "200",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. Guaranteed by characterization results.",
+      "3. Integer mode only. T able 44. PLL2 and PLL3 characteristics (wide VCO frequency range)(1)",
+      "4. Integer mode only. T a ble 45. PLL2 and PLL3 characteristics (medium VCO frequency range)(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_44",
+    "is_continued": true,
+    "pages": [
+      144,
+      145
+    ],
+    "rows_count": 41,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

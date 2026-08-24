@@ -1,0 +1,97 @@
+{
+  "table_id": "table_96",
+  "caption": "Table 96. V monitoring characteristics 216 BAT",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 216,
+  "merged_pages": [
+    216
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=216",
+  "section": "6.3.28 Temperature and V monitoring",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "R",
+      "Resistor bridge for V BAT",
+      "-",
+      "26",
+      "-",
+      "KΩ"
+    ],
+    [
+      "Q",
+      "Ratio on V measurement BAT",
+      "-",
+      "4",
+      "-",
+      "KΩ"
+    ],
+    [
+      "Er(1)",
+      "Error on Q",
+      "–10",
+      "-",
+      "+10",
+      "%"
+    ],
+    [
+      "t (1) S_vbat",
+      "ADC sampling time when reading V input BAT",
+      "9",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "V BAThigh",
+      "High supply monitoring",
+      "-",
+      "3.55",
+      "-",
+      "V"
+    ],
+    [
+      "V BATlow",
+      "Low supply monitoring",
+      "-",
+      "1.36",
+      "-",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_96",
+    "is_continued": false,
+    "pages": [
+      216
+    ],
+    "rows_count": 6,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

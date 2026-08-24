@@ -1,0 +1,183 @@
+{
+  "table_id": "table_60",
+  "caption": "Table 60. Asynchronous multiplexed PSRAM/NOR read timings",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 150,
+  "merged_pages": [
+    150
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=150",
+  "section": "6.3.17 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(NE)",
+      "FMC_NE low time",
+      "3T - 1 fmc_ker_ck",
+      "3T + 1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t v(NOE_NE)",
+      "FMC_NEx low to FMC_NOE low",
+      "2T fmc_ker_ck",
+      "2T + 0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t tw(NOE)",
+      "FMC_NOE low time",
+      "T - 1 fmc_ker_ck",
+      "T + 1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(NE_NOE)",
+      "FMC_NOE high to FMC_NE high hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(A_NE)",
+      "FMC_NEx low to FMC_A valid",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t v(NADV_NE)",
+      "FMC_NEx low to FMC_NADV low",
+      "0",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t w(NADV)",
+      "FMC_NADV low time",
+      "T - 0.5 fmc_ker_ck",
+      "T + 1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(AD_NADV)",
+      "FMC_AD(address) valid hold time after FMC_NADV high",
+      "T + 0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(A_NOE)",
+      "Address hold time after FMC_NOE high",
+      "T - 0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(BL_NOE)",
+      "FMC_BL time after FMC_NOE high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(BL_NE)",
+      "FMC_NEx low to FMC_BL valid",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t su(Data_NE)",
+      "Data to FMC_NEx high setup time",
+      "T - 2 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(Data_NOE)",
+      "Data to FMC_NOE high setup time",
+      "T - 2 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(Data_NE)",
+      "Data hold time after FMC_NEx high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(Data_NOE)",
+      "Data hold time after FMC_NOE high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t w(NE)",
+      "FMC_NE low time",
+      "8T - 1 fmc_ker_ck",
+      "8T fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t w(NOE)",
+      "FMC_NWE low time",
+      "5T - 1.5 fmc_ker_ck",
+      "5T + 0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t su(NWAIT_NE)",
+      "FMC_NWAIT valid before FMC_NEx high",
+      "5T + 3 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NE_NWAIT)",
+      "FMC_NEx hold time after FMC_NWAIT invalid",
+      "4T fmc_ker_ck",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results. T able 61. Asynchronous multiplexed PSRAM/NOR read-NWAIT timings(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_60",
+    "is_continued": false,
+    "pages": [
+      150
+    ],
+    "rows_count": 19,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

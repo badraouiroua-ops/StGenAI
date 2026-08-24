@@ -1,0 +1,107 @@
+{
+  "table_id": "table_60",
+  "caption": "Table 60. Pxy_C and Pxy analog switch characteristics",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 167,
+  "merged_pages": [
+    167
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=167",
+  "section": "6.3.18 NRST pin characteristics",
+  "headers": [
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "Switch impedance",
+      "Switch control boosted",
+      "Switch control boosted",
+      "-",
+      "-",
+      "315",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 2.7 V DDSWITCH",
+      "-",
+      "-",
+      "315",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 2.4 V DDSWITCH",
+      "-",
+      "-",
+      "335",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 2.0 V DDSWITCH",
+      "-",
+      "-",
+      "390",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 1.8 V DDSWITCH",
+      "-",
+      "-",
+      "445",
+      "Ω"
+    ],
+    [
+      "Switch impedance",
+      "Switch control not boosted",
+      "V > 1.62 V DDSWITCH",
+      "-",
+      "-",
+      "550",
+      "Ω"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. The pull-up is designed with a true resistance in series with a switchable PMOS. This PMOS contribution to the series resistance must be minimum (~10% order).",
+      "2. Guaranteed by design. DS13311 Rev 5 167/283"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_60",
+    "is_continued": false,
+    "pages": [
+      167
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

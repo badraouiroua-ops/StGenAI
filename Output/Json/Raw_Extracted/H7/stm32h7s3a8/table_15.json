@@ -1,0 +1,74 @@
+{
+  "table_id": "table_15",
+  "caption": "Table 15. Instance implementation on STM32H7Sxx8",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 67,
+  "merged_pages": [
+    67
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=67",
+  "section": "3.38 Tamper and backup registers (TAMP)",
+  "headers": [
+    "Instance",
+    "STM32H7Sxx8"
+  ],
+  "rows": [
+    [
+      "USART1",
+      "Full"
+    ],
+    [
+      "USART2",
+      "Full"
+    ],
+    [
+      "USART3",
+      "Full"
+    ],
+    [
+      "UART4",
+      "Basic"
+    ],
+    [
+      "UART5",
+      "Basic"
+    ],
+    [
+      "UART7",
+      "Basic"
+    ],
+    [
+      "UART8",
+      "Basic"
+    ],
+    [
+      "LPUART1",
+      "Low-power"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_15",
+    "is_continued": false,
+    "pages": [
+      67
+    ],
+    "rows_count": 8,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

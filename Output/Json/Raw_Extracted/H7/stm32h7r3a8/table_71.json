@@ -1,0 +1,165 @@
+{
+  "table_id": "table_71",
+  "caption": "Table 71. Output voltage characteristics for all I/Os except PC13, PC14, and PC15",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 206,
+  "merged_pages": [
+    206
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=206",
+  "section": "6.3.15 I/O port characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions(1)",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V OL",
+      "Output low level voltage",
+      "CMOS port(2) I = 8 mA IO 2.7 V≤ V ≤ 3.6 V DD",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V OH",
+      "Output high level voltage",
+      "CMOS port(2) I = -8 mA IO 2.7 V≤ V ≤ 3.6 V DD",
+      "V - 0.4 DD",
+      "-",
+      "V"
+    ],
+    [
+      "V (3) OL",
+      "Output low level voltage",
+      "TTL port(2) I = 8 mA IO 2.7 V≤ V ≤ 3.6 V DD",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V (3) OH",
+      "Output high level voltage",
+      "TTL port(2) I = -8 mA IO 2.7 V≤ V ≤ 3.6 V DD",
+      "2.4",
+      "-",
+      "V"
+    ],
+    [
+      "V (3) OL",
+      "Output low level voltage",
+      "I = 20 mA IO 2.7 V ≤ V ≤ 3.6 V DD",
+      "-",
+      "1.3",
+      "V"
+    ],
+    [
+      "V (3) OH",
+      "Output high level voltage",
+      "I = -20 mA IO 2.7 V ≤ V ≤ 3.6 V DD",
+      "V - 1.3 DD",
+      "-",
+      "V"
+    ],
+    [
+      "V (3) OL",
+      "Output low level voltage",
+      "I = 4 mA IO 1.71 V ≤ V ≤ 3.6 V DD",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V (3) OH",
+      "Output high level voltage",
+      "I = -4 mA IO 1.71 V ≤ V <3.6 V DD",
+      "V - 0.4 DD",
+      "-",
+      "V"
+    ],
+    [
+      "V (3) OL",
+      "Output low level voltage",
+      "I = 2 mA IO 1.08 V ≤ V ≤ 1.32 V DD",
+      "-",
+      "0.3 V DDXSPIx",
+      "V"
+    ],
+    [
+      "V (3) OL",
+      "Output low level voltage",
+      "I = 2 mA IO 1.08 V ≤ V ≤ 1.32 V DD",
+      "-",
+      "0.3",
+      "V"
+    ],
+    [
+      "V (3) OH",
+      "Output high level voltage",
+      "I = -2 mA IO 1.71 V ≤ V < 1.32 V DD",
+      "0.7 V DDXSPIx",
+      "-",
+      "V"
+    ],
+    [
+      "V (3) OLFM+",
+      "Output low level voltage for an FTf I/O pin in (FT I/O with \"f\" option)",
+      "I = 20 mA IO 2.3 V≤ V ≤3.6 V DD",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V (3) OLFM+",
+      "Output low level voltage for an FTf I/O pin in (FT I/O with \"f\" option)",
+      "I = 10 mA IO 1.71 V ≤ V ≤ 3.6 V DD",
+      "-",
+      "0.4",
+      "V"
+    ],
+    [
+      "V (3) OLFM+",
+      "Output low level voltage for an FTf I/O pin in (FT I/O with \"f\" option)",
+      "I = 4.5 mA IO 1.08 V ≤ V ≤ 3.6 V DD",
+      "-",
+      "0.4",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. The I current sourced or sunk by the device must always respect the absolute maximum rating specified in Table 22, and IO",
+      "2. TTL and CMOS outputs are compatible with JEDEC standards JESD36 and JESD52.",
+      "3. Specified by design - Not tested in production. 206/322 DS14360 Rev 6"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_71",
+    "is_continued": false,
+    "pages": [
+      206
+    ],
+    "rows_count": 14,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

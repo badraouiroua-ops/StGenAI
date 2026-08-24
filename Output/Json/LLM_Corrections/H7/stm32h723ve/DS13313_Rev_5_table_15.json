@@ -1,0 +1,161 @@
+{
+  "table_id": "table_15",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "tVDD - VDD rise time rate",
+      "row_index": 0,
+      "analyse_visuelle": "L'indice VDD est mal assemblé dans Symbol ('t VDD' -> 'tVDD') et Parameter ('V rise time rate DD' -> 'VDD rise time rate').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t VDD",
+          "nouvelle_valeur": "tVDD",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "V rise time rate DD",
+          "nouvelle_valeur": "VDD rise time rate",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "tVDD - VDD fall time rate",
+      "row_index": 1,
+      "analyse_visuelle": "L'indice VDD est mal assemblé dans Symbol ('t VDD' -> 'tVDD') et Parameter ('V fall time rate DD' -> 'VDD fall time rate').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t VDD",
+          "nouvelle_valeur": "tVDD",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "V fall time rate DD",
+          "nouvelle_valeur": "VDD fall time rate",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "tVDDA - VDDA rise time rate",
+      "row_index": 2,
+      "analyse_visuelle": "L'indice VDDA est mal assemblé dans Symbol ('t VDDA' -> 'tVDDA') et Parameter ('V rise time rate DDA' -> 'VDDA rise time rate').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t VDDA",
+          "nouvelle_valeur": "tVDDA",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "V rise time rate DDA",
+          "nouvelle_valeur": "VDDA rise time rate",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "tVDDA - VDDA fall time rate",
+      "row_index": 3,
+      "analyse_visuelle": "L'indice VDDA est mal assemblé dans Symbol ('t VDDA' -> 'tVDDA') et Parameter ('V fall time rate DDA' -> 'VDDA fall time rate').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t VDDA",
+          "nouvelle_valeur": "tVDDA",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "V fall time rate DDA",
+          "nouvelle_valeur": "VDDA fall time rate",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "tVDDUSB - VDDUSB rise time rate",
+      "row_index": 4,
+      "analyse_visuelle": "L'indice VDDUSB est mal assemblé dans Symbol ('t VDDUSB' -> 'tVDDUSB') et Parameter ('V rise time rate DDUSB' -> 'VDDUSB rise time rate').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t VDDUSB",
+          "nouvelle_valeur": "tVDDUSB",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "V rise time rate DDUSB",
+          "nouvelle_valeur": "VDDUSB rise time rate",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "tVDDUSB - VDDUSB fall time rate",
+      "row_index": 5,
+      "analyse_visuelle": "L'indice VDDUSB est mal assemblé dans Symbol ('t VDDUSB' -> 'tVDDUSB') et Parameter ('V fall time rate DDUSB' -> 'VDDUSB fall time rate').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t VDDUSB",
+          "nouvelle_valeur": "tVDDUSB",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "V fall time rate DDUSB",
+          "nouvelle_valeur": "VDDUSB fall time rate",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "tVCORE(1) - VCORE rise time rate(2)",
+      "row_index": 6,
+      "analyse_visuelle": "L'indice VCORE et la note (1) sont mal assemblés dans Symbol ('t (1) VCORE' -> 'tVCORE(1)') et Parameter ('V rise time rate(2) CORE' -> 'VCORE rise time rate(2)').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (1) VCORE",
+          "nouvelle_valeur": "tVCORE(1)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "V rise time rate(2) CORE",
+          "nouvelle_valeur": "VCORE rise time rate(2)",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "tVCORE(1) - VCORE fall time rate",
+      "row_index": 7,
+      "analyse_visuelle": "L'indice VCORE et la note (1) sont mal assemblés dans Symbol ('t (1) VCORE' -> 'tVCORE(1)') et Parameter ('V fall time rate CORE' -> 'VCORE fall time rate').",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (1) VCORE",
+          "nouvelle_valeur": "tVCORE(1)",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "V fall time rate CORE",
+          "nouvelle_valeur": "VCORE fall time rate",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

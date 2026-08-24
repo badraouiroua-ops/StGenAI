@@ -1,0 +1,89 @@
+{
+  "table_id": "table_153",
+  "caption": "Table 153. Asynchronous non-multiplexed SRAM/PSRAM/NOR read-NWAIT timings",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 250,
+  "merged_pages": [
+    250
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=250",
+  "section": "7.3.17 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(NE)",
+      "FMC_NE low time",
+      "7T +1 fmc_ker_ck",
+      "7T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t w(NOE)",
+      "FMC_NOE low time",
+      "5T –1 fmc_ker_ck",
+      "5T +1 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t w(NWAIT)",
+      "FMC_NWAIT low time",
+      "T – 0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(NWAIT_NE)",
+      "FMC_NWAIT valid before FMC_NEx high",
+      "4T +11 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NE_NWAIT)",
+      "FMC_NEx hold time after FMC_NWAIT invalid",
+      "3T +11.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. N pulse width is equal to 1 AHB cycle. WAIT"
+    ],
+    "_legend": [
+      "timings(1)(2)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_153",
+    "is_continued": false,
+    "pages": [
+      250
+    ],
+    "rows_count": 5,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

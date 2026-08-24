@@ -1,0 +1,89 @@
+{
+  "table_id": "table_113",
+  "caption": "Table 113. VCAP operating conditions",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 211,
+  "merged_pages": [
+    211
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=211",
+  "section": "7.3.2 VCAP external capacitor",
+  "headers": [
+    "Figure",
+    "67. External capacitor C EXT"
+  ],
+  "rows": [
+    [
+      "F",
+      "C"
+    ],
+    [
+      "ESR",
+      "C"
+    ],
+    [
+      "ESR",
+      "R Leak"
+    ],
+    [
+      "ESR",
+      "R Leak MS190"
+    ],
+    [
+      "1. Legend: ESR istheequivalent series re",
+      "sistance."
+    ],
+    [
+      "1. Legend: ESR isthe Table 113.",
+      "VCAP operating conditions(1)"
+    ],
+    [
+      "CEXT Capacitanc",
+      "e of external capacitor 2.2 µF(2 )"
+    ],
+    [
+      "ESR ESR o",
+      "f external capacitor < 100 m Ω"
+    ],
+    [
+      "1. In bypass mode, thetwo 2.2 μF VCAP",
+      "capacitors are not required and should bereplaced bytwo 100 nF"
+    ]
+  ],
+  "extraction_method": "pdfplumber_text",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0385,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 8,
+    "truncated_rows": 18,
+    "bleed_rows_removed": 3,
+    "columns_initial": 8,
+    "columns_merged": 6,
+    "columns_final": 2,
+    "_notes": [
+      "1. Legend: ESR is the equivalent series resistance."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "no_table_obj_for_spans",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_113",
+    "is_continued": false,
+    "pages": [
+      211
+    ],
+    "rows_count": 9,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0385
+  }
+}

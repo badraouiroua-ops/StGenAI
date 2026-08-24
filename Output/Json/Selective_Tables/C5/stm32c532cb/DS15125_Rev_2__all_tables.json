@@ -2894,26 +2894,6 @@
           "EVENTOUT"
         ],
         [
-          "Port BPort A",
-          "PB6",
-          "AF0",
-          "AF1",
-          "AF2",
-          "AF3",
-          "AF4",
-          "AF5",
-          "AF6",
-          "AF7",
-          "AF8",
-          "AF9",
-          "AF10",
-          "AF11",
-          "AF12",
-          "AF13",
-          "AF14",
-          "AF15"
-        ],
-        [
           "Port",
           "Port",
           "SYS",
@@ -5360,6 +5340,42 @@
           "-",
           "445",
           "µs"
+        ],
+        [
+          "DuCyHSE",
+          "OSC_IN duty cycle",
+          "Digital mode (HSEYBYP = 1, HSEEXT = 1)",
+          "45",
+          "-",
+          "55",
+          "%"
+        ],
+        [
+          "VHSE_ext_PP",
+          "OSC_IN peak-to-peak amplitude",
+          "Analog mode (HSEBYP = 1, HSEEXT = 0)",
+          "0.2",
+          "-",
+          "2/3 VDD",
+          "V"
+        ],
+        [
+          "VHSE_ext",
+          "OSC_IN input range",
+          "OSC_IN input range",
+          "0",
+          "-",
+          "VDD",
+          "V"
+        ],
+        [
+          "tr(HSE), tf(HSE)",
+          "OSC_IN rise and fall time",
+          "OSC_IN rise and fall time",
+          "0.05 / fext_ext",
+          "-",
+          "0.3 / fext_ext",
+          "ns"
         ]
       ],
       "notes": [
@@ -5417,6 +5433,42 @@
           "4.8",
           "6.6",
           "µs"
+        ],
+        [
+          "DuCyHSE",
+          "OSC_IN duty cycle",
+          "Digital mode (HSEYBYP = 1, HSEEXT = 1)",
+          "45",
+          "-",
+          "55",
+          "%"
+        ],
+        [
+          "VHSE_ext_PP",
+          "OSC_IN peak-to-peak amplitude",
+          "Analog mode (HSEBYP = 1, HSEEXT = 0)",
+          "0.2",
+          "-",
+          "2/3 VDD",
+          "V"
+        ],
+        [
+          "VHSE_ext",
+          "OSC_IN input range",
+          "OSC_IN input range",
+          "0",
+          "-",
+          "VDD",
+          "V"
+        ],
+        [
+          "tr(HSE), tf(HSE)",
+          "OSC_IN rise and fall time",
+          "OSC_IN rise and fall time",
+          "0.05 / fext_ext",
+          "-",
+          "0.3 / fext_ext",
+          "ns"
         ]
       ],
       "notes": [
@@ -9391,6 +9443,186 @@
           "10.9",
           "-",
           "bits"
+        ],
+        [
+          "IDDA(SCALER)",
+          "Scaler static consumption from VDDA",
+          "BRG_EN=0 (bridge disable)",
+          "BRG_EN=0 (bridge disable)",
+          "-",
+          "0.2",
+          "0.3",
+          "µA"
+        ],
+        [
+          "IDDA(SCALER)",
+          "Scaler static consumption from VDDA",
+          "BRG_EN=1 (bridge enable)",
+          "BRG_EN=1 (bridge enable)",
+          "-",
+          "0.82",
+          "1",
+          "µA"
+        ],
+        [
+          "tSTART_SCALER",
+          "Scaler startup time",
+          "-",
+          "-",
+          "-",
+          "140",
+          "250",
+          "µs"
+        ],
+        [
+          "tSTART",
+          "Comparator startup time to reach propagation delay specification",
+          "High-speed mode",
+          "High-speed mode",
+          "-",
+          "2",
+          "5",
+          "µs"
+        ],
+        [
+          "tSTART",
+          "Comparator startup time to reach propagation delay specification",
+          "Medium mode",
+          "Medium mode",
+          "-",
+          "5",
+          "20",
+          "µs"
+        ],
+        [
+          "tD(2)",
+          "Propagation delay for 200 mV step with 100 mV overdrive",
+          "High-speed mode",
+          "High-speed mode",
+          "-",
+          "50",
+          "80",
+          "ns"
+        ],
+        [
+          "tD(2)",
+          "Propagation delay for 200 mV step with 100 mV overdrive",
+          "Medium mode",
+          "Medium mode",
+          "-",
+          "0.5",
+          "0.9",
+          "µs"
+        ],
+        [
+          "tD(2)",
+          "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+          "High-speed mode",
+          "High-speed mode",
+          "-",
+          "50",
+          "120",
+          "ns"
+        ],
+        [
+          "tD(2)",
+          "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+          "Medium mode",
+          "Medium mode",
+          "-",
+          "0.5",
+          "1.2",
+          "µs"
+        ],
+        [
+          "Voffset",
+          "Comparator offset error",
+          "Full common mode range",
+          "Full common mode range",
+          "-",
+          "-",
+          "±20",
+          "mV"
+        ],
+        [
+          "Vhys",
+          "Comparator hysteresis",
+          "No hysteresis",
+          "No hysteresis",
+          "-",
+          "0",
+          "-",
+          "mV"
+        ],
+        [
+          "Vhys",
+          "Comparator hysteresis",
+          "Low hysteresis",
+          "Low hysteresis",
+          "-",
+          "10",
+          "-",
+          "mV"
+        ],
+        [
+          "Vhys",
+          "Comparator hysteresis",
+          "Medium hysteresis",
+          "Medium hysteresis",
+          "-",
+          "20",
+          "-",
+          "mV"
+        ],
+        [
+          "Vhys",
+          "Comparator hysteresis",
+          "High hysteresis",
+          "High hysteresis",
+          "-",
+          "30",
+          "-",
+          "mV"
+        ],
+        [
+          "IDDA(COMP)",
+          "Comparator consumption from VDDA",
+          "Medium mode",
+          "Static",
+          "-",
+          "5",
+          "9",
+          "µA"
+        ],
+        [
+          "IDDA(COMP)",
+          "Comparator consumption from VDDA",
+          "Medium mode",
+          "With 50 kHz ±100 mV overdrive square signal",
+          "-",
+          "6",
+          "-",
+          "µA"
+        ],
+        [
+          "IDDA(COMP)",
+          "Comparator consumption from VDDA",
+          "High-speed mode",
+          "Static",
+          "-",
+          "70",
+          "110",
+          "µA"
+        ],
+        [
+          "IDDA(COMP)",
+          "Comparator consumption from VDDA",
+          "High-speed mode",
+          "With 50 kHz ±100 mV overdrive square signal",
+          "-",
+          "75",
+          "-",
+          "µA"
         ]
       ],
       "notes": [
@@ -12566,6 +12798,42 @@
       ],
       "rows": [
         [
+          "A",
+          "-",
+          "-",
+          "1.60",
+          "-",
+          "-",
+          "0.0630"
+        ],
+        [
+          "A1(12.)",
+          "0.05",
+          "-",
+          "0.15",
+          "0.0020",
+          "-",
+          "0.0059"
+        ],
+        [
+          "A2",
+          "1.35",
+          "1.40",
+          "1.45",
+          "0.0531",
+          "0.0551",
+          "0.0571"
+        ],
+        [
+          "b(9.)(11.)",
+          "0.17",
+          "0.22",
+          "0.27",
+          "0.0067",
+          "0.0087",
+          "0.0106"
+        ],
+        [
           "b1(11.)",
           "0.17",
           "0.20",
@@ -12573,6 +12841,24 @@
           "0.0067",
           "0.0079",
           "0.0090"
+        ],
+        [
+          "c(11.)",
+          "0.09",
+          "-",
+          "0.20",
+          "0.0035",
+          "-",
+          "0.0079"
+        ],
+        [
+          "c1(11.)",
+          "0.09",
+          "-",
+          "0.16",
+          "0.0035",
+          "-",
+          "0.0063"
         ],
         [
           "D(4.)",
@@ -12620,6 +12906,24 @@
           "0.1970 BSC"
         ],
         [
+          "L",
+          "0.45",
+          "0.60",
+          "0.75",
+          "0.0177",
+          "0.0236",
+          "0.0295"
+        ],
+        [
+          "L1",
+          "1.00 REF",
+          "1.00 REF",
+          "1.00 REF",
+          "0.0394 REF",
+          "0.0394 REF",
+          "0.0394 REF"
+        ],
+        [
           "N(13.)",
           "48",
           "48",
@@ -12663,6 +12967,33 @@
           "10°",
           "12°",
           "14°"
+        ],
+        [
+          "R1",
+          "0.08",
+          "-",
+          "-",
+          "0.0031",
+          "-",
+          "-"
+        ],
+        [
+          "R2",
+          "0.08",
+          "-",
+          "0.20",
+          "0.0031",
+          "-",
+          "0.0079"
+        ],
+        [
+          "S",
+          "0.20",
+          "-",
+          "-",
+          "0.0079",
+          "-",
+          "-"
         ],
         [
           "aaa(1.)(7.)",

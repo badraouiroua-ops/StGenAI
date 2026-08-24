@@ -1,0 +1,136 @@
+{
+  "table_id": "table_37",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "fCSI CSI frequency",
+      "row_index": 0,
+      "analyse_visuelle": "Correction des indices subscript mal placés dans Symbol et Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f CSI",
+          "nouvelle_valeur": "fCSI",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V =3.3 V, T =30 °C DD J",
+          "nouvelle_valeur": "VDD=3.3 V, TJ=30 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "∆TEMP (CSI) 0 to 85 °C",
+      "row_index": 5,
+      "analyse_visuelle": "Correction de l'ordre du symbole et du sous-indice TJ dans Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "∆ (CSI) TEMP",
+          "nouvelle_valeur": "∆TEMP (CSI)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "T = 0 to 85 °C J",
+          "nouvelle_valeur": "TJ = 0 to 85 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "∆TEMP (CSI) -40 to 125 °C",
+      "row_index": 6,
+      "analyse_visuelle": "Correction de l'ordre du symbole et du sous-indice TJ dans Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "∆ (CSI) TEMP",
+          "nouvelle_valeur": "∆TEMP (CSI)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "T = -40 to 125 °C J",
+          "nouvelle_valeur": "TJ = -40 to 125 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "∆VDD (CSI)",
+      "row_index": 7,
+      "analyse_visuelle": "Correction des indices VDD découpés dans Symbol, Parameter et Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "∆ (CSI) VDD",
+          "nouvelle_valeur": "∆VDD (CSI)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "CSI oscillator frequency drift over V DD",
+          "nouvelle_valeur": "CSI oscillator frequency drift over VDD",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 1.62 to 3.6 V DD",
+          "nouvelle_valeur": "VDD = 1.62 to 3.6 V",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tsu(CSI)",
+      "row_index": 8,
+      "analyse_visuelle": "Suppression de l'espace parasite dans le symbole tsu(CSI).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t su(CSI)",
+          "nouvelle_valeur": "tsu(CSI)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tstab(CSI)",
+      "row_index": 9,
+      "analyse_visuelle": "Correction du symbole tstab(CSI) et du texte du paramètre incluant fCSI.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t stab(CSI)",
+          "nouvelle_valeur": "tstab(CSI)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "CSI oscillator stabilization time (to reach ± 3% of f ) CSI",
+          "nouvelle_valeur": "CSI oscillator stabilization time (to reach ± 3% of fCSI)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "IDD(CSI)",
+      "row_index": 10,
+      "analyse_visuelle": "Suppression de l'espace parasite dans IDD(CSI).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(CSI)",
+          "nouvelle_valeur": "IDD(CSI)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,107 @@
+{
+  "table_id": "table_99",
+  "document": "DS13195 Rev 8 - Table 99. Analog temperature sensor characteristics",
+  "rev": "Rev 8",
+  "table_number": "99",
+  "title": "Table 99. Analog temperature sensor characteristics",
+  "page": 155,
+  "section": "6.3.24 Analog temperature sensor characteristics",
+  "section_title": "Analog temperature sensor characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=155",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 99. Analog temperature sensor characteristics — section 6.3.24 Analog temperature sensor characteristics. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "TL(1)",
+        "VSENSE linearity with temperature (from VSENSOR voltage)",
+        "-",
+        "-",
+        "3",
+        "°C"
+      ],
+      [
+        "TL(1)",
+        "VSENSE linearity with temperature (from ADC counter)",
+        "-",
+        "-",
+        "3",
+        "°C"
+      ],
+      [
+        "Avg_Slope(2)",
+        "Average slope (from VSENSOR voltage)",
+        "-",
+        "2",
+        "-",
+        "mV/°C"
+      ],
+      [
+        "Avg_Slope(2)",
+        "Average slope (from ADC counter)",
+        "-",
+        "2",
+        "-",
+        "mV/°C"
+      ],
+      [
+        "V30(3)",
+        "Voltage at 30°C ± 5 °C",
+        "-",
+        "0.62",
+        "-",
+        "V"
+      ],
+      [
+        "tstart_run(1)",
+        "Startup time in Run mode (buffer startup)",
+        "-",
+        "-",
+        "25.2",
+        "µs"
+      ],
+      [
+        "tS_temp(1)",
+        "ADC sampling time when reading the temperature",
+        "9",
+        "-",
+        "-",
+        "µs"
+      ],
+      [
+        "Isens(1)",
+        "Sensor consumption",
+        "-",
+        "0.18",
+        "0.31",
+        "µA"
+      ],
+      [
+        "Isensbuf(1)",
+        "Sensor buffer consumption",
+        "-",
+        "3.8",
+        "6.5",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. Guaranteed by characterization results.",
+      "3. Measured at VDDA = 3.3 V ± 10 mV. The V30 ADC conversion result is stored in the TS_CAL1 byte."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

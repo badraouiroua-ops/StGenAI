@@ -1,0 +1,49 @@
+{
+  "table_id": "table_152",
+  "document": "DS14359 Rev 7 - Table 152. WLCSP101 - recommended PCB design rules",
+  "rev": "Rev 7",
+  "table_number": "152",
+  "title": "Table 152. WLCSP101 - recommended PCB design rules",
+  "page": 312,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=312",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 152. WLCSP101 - recommended PCB design rules — section 7.1 Device marking. Dimension, Recommended values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Recommended values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.35 mm"
+      ],
+      [
+        "Dpad",
+        "0.210 mm"
+      ],
+      [
+        "Dsm",
+        "0.275 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.235 mm"
+      ],
+      [
+        "Stencil thickness",
+        "0.100 mm"
+      ]
+    ],
+    "notes": [
+      "1. Dimensions are expressed in millimeters."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

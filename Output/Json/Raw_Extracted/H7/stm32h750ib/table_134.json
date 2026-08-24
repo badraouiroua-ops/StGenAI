@@ -1,0 +1,106 @@
+{
+  "table_id": "table_134",
+  "caption": "Table 134. LSI oscillator characteristics",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 223,
+  "merged_pages": [
+    223
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=223",
+  "section": "7.3.9 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f LSI",
+      "LSI frequency",
+      "V = 3.3 V, T = 25 °C DD J",
+      "31.4(1)",
+      "32",
+      "32.6(1)",
+      "kHz"
+    ],
+    [
+      "f LSI",
+      "LSI frequency",
+      "T = –40 to 110 °C, V = 1.62 to J DD 3.6 V",
+      "29.76(2)",
+      "-",
+      "33.6(2)",
+      "kHz"
+    ],
+    [
+      "f LSI",
+      "LSI frequency",
+      "T = –40 to 125 °C, V = 1.62 to J DD 3.6 V",
+      "29.4",
+      "-",
+      "33.6",
+      "kHz"
+    ],
+    [
+      "t (3) su(LSI)",
+      "LSI oscillator startup time",
+      "-",
+      "-",
+      "80",
+      "130",
+      "µs"
+    ],
+    [
+      "t (3) stab(LSI)",
+      "LSI oscillator stabilization time (5% of final value)",
+      "-",
+      "-",
+      "120",
+      "170",
+      "µs"
+    ],
+    [
+      "I (3) DD(LSI)",
+      "LSI oscillator power consumption",
+      "-",
+      "-",
+      "130",
+      "280",
+      "nA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design unless otherwise specified.",
+      "2. This value must be limited to the maximum frequency due to the product limitation (480 MHz for VOS0, 400 MHz for VOS1, 300 MHz for VOS2, 200 MHz for VOS3).",
+      "3. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_134",
+    "is_continued": false,
+    "pages": [
+      223
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

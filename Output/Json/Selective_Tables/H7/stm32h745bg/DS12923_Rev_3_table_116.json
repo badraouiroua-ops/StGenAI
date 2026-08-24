@@ -1,0 +1,81 @@
+{
+  "table_id": "table_116",
+  "document": "DS12923 Rev 3 - Table 116. Dynamics characteristics: Ethernet MAC signals for RMII",
+  "rev": "Rev 3",
+  "table_number": "116",
+  "title": "Table 116. Dynamics characteristics: Ethernet MAC signals for RMII",
+  "page": 217,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=217",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "text_helper": "Table 116. Dynamics characteristics: Ethernet MAC signals for RMII — section 6.3.33 Communication interfaces. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t su(RXD)",
+        "Receive data setup time",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(RXD)",
+        "Receive data hold time",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(CRS)",
+        "Carrier sense setup time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(CRS)",
+        "Carrier sense hold time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(TXEN)",
+        "Transmit enable valid delay time",
+        "7",
+        "8",
+        "9.5",
+        "ns"
+      ],
+      [
+        "t d(TXD)",
+        "Transmit data valid delay time",
+        "8",
+        "9",
+        "11",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. Figure 64. Ethernet RMII timing diagram"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

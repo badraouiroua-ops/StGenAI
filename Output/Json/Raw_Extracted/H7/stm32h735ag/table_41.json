@@ -1,0 +1,150 @@
+{
+  "table_id": "table_41",
+  "caption": "Table 41. CSI oscillator characteristics",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 152,
+  "merged_pages": [
+    152
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=152",
+  "section": "6.3.11 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f CSI",
+      "CSI frequency",
+      "V =3.3 V, T =30 °C DD J",
+      "3.96(2)",
+      "4",
+      "4.04(2)",
+      "MHz"
+    ],
+    [
+      "TRIM",
+      "CSI trimming step",
+      "Trimming is not a multiple of 16",
+      "-",
+      "0.40",
+      "0.75",
+      "%"
+    ],
+    [
+      "TRIM",
+      "CSI trimming step",
+      "Trimming is a multiple of 32",
+      "-4.75",
+      "-2.75",
+      "0.75",
+      "%"
+    ],
+    [
+      "TRIM",
+      "CSI trimming step",
+      "Other trimming values not multiple of 16 (excluding multiple of 32)",
+      "-0.43",
+      "0.00",
+      "0.75",
+      "%"
+    ],
+    [
+      "DuCy(CSI)",
+      "Duty cycle",
+      "-",
+      "45",
+      "-",
+      "55",
+      "%"
+    ],
+    [
+      "∆ (CSI) TEMP",
+      "CSI oscillator frequency drift over temperature",
+      "T = 0 to 85 °C J",
+      "-3.7(3)",
+      "-",
+      "4.5(3)",
+      "%"
+    ],
+    [
+      "∆ (CSI) TEMP",
+      "CSI oscillator frequency drift over temperature",
+      "T = -40 to 125 °C J",
+      "-11(3)",
+      "-",
+      "7.5(3)",
+      "%"
+    ],
+    [
+      "∆ (CSI) VDD",
+      "CSI oscillator frequency drift over V DD",
+      "V = 1.62 to 3.6 V DD",
+      "-0.06",
+      "-",
+      "0.06",
+      "%"
+    ],
+    [
+      "t su(CSI)",
+      "CSI oscillator startup time",
+      "-",
+      "-",
+      "1",
+      "2",
+      "µs"
+    ],
+    [
+      "t stab(CSI)",
+      "CSI oscillator stabilization time (to reach ± 3% of f ) CSI",
+      "-",
+      "-",
+      "-",
+      "4",
+      "cycle"
+    ],
+    [
+      "I DD(CSI)",
+      "CSI oscillator power consumption",
+      "-",
+      "-",
+      "23",
+      "30",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. Guaranteed by test in production.",
+      "3. Guaranteed by characterization results. Low-speed internal (LSI) RC oscillator"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_41",
+    "is_continued": false,
+    "pages": [
+      152
+    ],
+    "rows_count": 11,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

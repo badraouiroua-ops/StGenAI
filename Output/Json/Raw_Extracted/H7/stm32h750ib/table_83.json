@@ -1,0 +1,69 @@
+{
+  "table_id": "table_83",
+  "caption": "Table 83. V charging characteristics 166 BAT",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 166,
+  "merged_pages": [
+    166
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=166",
+  "section": "6.3.24 Temperature and V monitoring",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "R BC",
+      "Battery charging resistor",
+      "VBRS in PWR_CR3= 0",
+      "-",
+      "5",
+      "-",
+      "KΩ"
+    ],
+    [
+      "R BC",
+      "Battery charging resistor",
+      "VBRS in PWR_CR3= 1",
+      "-",
+      "1.5",
+      "-",
+      "KΩ"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. 166/335 DS12556 Rev 8",
+      "2. Refer to Table 16: Embedded reference voltage. DS12556 Rev 8 167/335"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_83",
+    "is_continued": false,
+    "pages": [
+      166
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

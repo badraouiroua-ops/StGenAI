@@ -1,0 +1,107 @@
+{
+  "table_id": "table_24",
+  "caption": "Table 24. Current characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 157,
+  "merged_pages": [
+    157
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=157",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbols",
+    "Ratings",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "ΣIV DD",
+      "Total current into sum of all V power lines (source)(1) DD",
+      "620",
+      "mA"
+    ],
+    [
+      "ΣIV SS",
+      "Total current out of sum of all V ground lines (sink)(1) SS",
+      "620",
+      "mA"
+    ],
+    [
+      "IV DD",
+      "Maximum current into each V power pin (source)(1) DD",
+      "100",
+      "mA"
+    ],
+    [
+      "IV SS",
+      "Maximum current out of each V ground pin (sink)(1) SS",
+      "100",
+      "mA"
+    ],
+    [
+      "I IO",
+      "Output current sunk or sourced by any I/O and control pin, except Pxy_C",
+      "20",
+      "mA"
+    ],
+    [
+      "ΣI (PIN)",
+      "Total output current sunk by sum of all I/Os and control pins(2)",
+      "140",
+      "mA"
+    ],
+    [
+      "ΣI (PIN)",
+      "Total output current sourced by sum of all I/Os and control pins(2)",
+      "140",
+      "mA"
+    ],
+    [
+      "I (3)(4) INJ(PIN)",
+      "Injected current on FT_xxx, TT_xx, RST and B pins",
+      "-5/+0",
+      "mA"
+    ],
+    [
+      "ΣI INJ(PIN)",
+      "Total injected current (sum of all I/Os and control pins)(5)",
+      "±25",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. All main power (V , V , V ) and ground (V , V ) pins must always be connected to the DD DDA DD33USB SS SSA",
+      "2. This current consumption must be correctly distributed over all I/Os and control pins. The total output current must not be sunk/sourced between two consecutive power supply pins referring to high pin count",
+      "3. Positive injection is not possible on these I/Os and does not occur for input voltages lower than the specified maximum value.",
+      "4. A positive injection is induced by V >V while a negative injection is induced by V <V . I must IN DD IN SS INJ(PIN)",
+      "5. When several inputs are submitted to a current injection, the maximum ΣI is the absolute sum of the INJ(PIN)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_24",
+    "is_continued": false,
+    "pages": [
+      157
+    ],
+    "rows_count": 9,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

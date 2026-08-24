@@ -1,0 +1,196 @@
+{
+  "table_id": "table_110",
+  "caption": "Table 110. USART (SPI mode) characteristics",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 221,
+  "merged_pages": [
+    221
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=221",
+  "section": "6.3.38 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f CK",
+      "USART clock frequency",
+      "SPI master mode, 1.62 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "17.0",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "USART clock frequency",
+      "SPI slave receiver mode, 1.62 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "45.0",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "USART clock frequency",
+      "SPI slave transmitter mode, 1.62 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "27.0",
+      "MHz"
+    ],
+    [
+      "f CK",
+      "USART clock frequency",
+      "SPI slave transmitter mode, 2.5 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "37.0",
+      "MHz"
+    ],
+    [
+      "t su(NSS)",
+      "NSS setup time",
+      "SPI slave mode",
+      "t +1 ker",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NSS)",
+      "NSS hold time",
+      "SPI slave mode",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t , w(CKH) t w(CKL)",
+      "CK high and low time",
+      "SPI master mode",
+      "1/f /2-2 CK",
+      "1/f /2 CK",
+      "1/f /2+2 CK",
+      "ns"
+    ],
+    [
+      "t su(RX)",
+      "Data input setup time",
+      "SPI master mode",
+      "16",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(RX)",
+      "Data input setup time",
+      "SPI slave mode",
+      "1.0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(RX)",
+      "Data input hold time",
+      "SPI master mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(RX)",
+      "Data input hold time",
+      "SPI slave mode",
+      "2.0",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(TX)",
+      "Data output valid time",
+      "SPI slave mode, , 1.62 V < V < 3.6 V DD",
+      "-",
+      "12.0",
+      "18",
+      "ns"
+    ],
+    [
+      "t v(TX)",
+      "Data output valid time",
+      "SPI slave mode, 2.5 V < V < 3.6 V DD",
+      "-",
+      "12.0",
+      "13.5",
+      "ns"
+    ],
+    [
+      "t v(TX)",
+      "Data output valid time",
+      "SPI master mode",
+      "-",
+      "0.5",
+      "1",
+      "ns"
+    ],
+    [
+      "t h(TX)",
+      "Data output hold time",
+      "SPI slave mode",
+      "9",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(TX)",
+      "Data output hold time",
+      "SPI master mode",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS13315 Rev 5 221/270"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_110",
+    "is_continued": false,
+    "pages": [
+      221
+    ],
+    "rows_count": 16,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

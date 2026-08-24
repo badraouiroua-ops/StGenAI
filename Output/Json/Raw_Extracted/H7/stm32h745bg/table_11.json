@@ -1,0 +1,119 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. Current characteristics",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 101,
+  "merged_pages": [
+    101
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=101",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbols",
+    "Ratings",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "ΣIV DD",
+      "Total current into sum of all V power lines (source)(1) DD",
+      "620",
+      "mA"
+    ],
+    [
+      "ΣIV SS",
+      "Total current out of sum of all V ground lines (sink)(1) SS",
+      "620",
+      "mA"
+    ],
+    [
+      "IV DD",
+      "Maximum current into each V power pin (source)(1) DD",
+      "100",
+      "mA"
+    ],
+    [
+      "IV SS",
+      "Maximum current out of each V ground pin (sink)(1) SS",
+      "100",
+      "mA"
+    ],
+    [
+      "I IO",
+      "Output current sunk by any I/O and control pin, except Px_C",
+      "20",
+      "mA"
+    ],
+    [
+      "I IO",
+      "Output current sunk by Px_C pins",
+      "1",
+      "mA"
+    ],
+    [
+      "ΣI (PIN)",
+      "Total output current sunk by sum of all I/Os and control pins(2)",
+      "140",
+      "mA"
+    ],
+    [
+      "ΣI (PIN)",
+      "Total output current sourced by sum of all I/Os and control pins(2)",
+      "140",
+      "mA"
+    ],
+    [
+      "I (3)(4) INJ(PIN)",
+      "Injected current on FT_xxx, TT_xx, RST and B pins except PA4, PA5",
+      "-5/+0",
+      "mA"
+    ],
+    [
+      "I (3)(4) INJ(PIN)",
+      "Injected current on PA4, PA5",
+      "-0/0",
+      "mA"
+    ],
+    [
+      "ΣI INJ(PIN)",
+      "Total injected current (sum of all I/Os and control pins)(5)",
+      "±25",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. All main power (V , V , V , V , V ) and ground (V , V ) pins must always be DD DDA DD33USB DDSMPS BAT SS SSA",
+      "2. V maximum must always be respected. Refer to Table 58: I/O current injection susceptibility for the IN",
+      "3. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+      "4. To sustain a voltage higher than 4V the internal pull-up/pull-down resistors must be disabled.",
+      "5. When an FT_a pin is used by an analog peripheral such as an ADC, the maximum V is 4 V. IN"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_11",
+    "is_continued": false,
+    "pages": [
+      101
+    ],
+    "rows_count": 11,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

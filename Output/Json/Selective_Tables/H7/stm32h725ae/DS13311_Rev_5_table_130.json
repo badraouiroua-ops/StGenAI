@@ -1,0 +1,49 @@
+{
+  "table_id": "table_130",
+  "document": "DS13311 Rev 5 - Table 130. WLCSP115 recommended PCB design rules",
+  "rev": "Rev 5",
+  "table_number": "130",
+  "title": "Table 130. WLCSP115 recommended PCB design rules",
+  "page": 260,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=260",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 130. WLCSP115 recommended PCB design rules — section 7.1 Device marking. Dimension, Recommended values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Recommended values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.35 mm"
+      ],
+      [
+        "Dpad",
+        "0,225 mm"
+      ],
+      [
+        "Dsm",
+        "0.250 mm typ. (depends on soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.250 mm"
+      ],
+      [
+        "Stencil thickness",
+        "0.080 mm"
+      ]
+    ],
+    "notes": [
+      "1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet qualified and therefore not approved for use in production. ST is not responsible for any consequences"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

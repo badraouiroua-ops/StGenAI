@@ -1,0 +1,121 @@
+{
+  "table_id": "table_92",
+  "caption": "Table 92. LTDC characteristics",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 185,
+  "merged_pages": [
+    185
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=185",
+  "section": "6.3.30 LCD-TFT controller (LTDC) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "2.7 V < V < 3.6 V, DD 20 pF",
+      "-",
+      "150",
+      "MHz"
+    ],
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "2.7 V < V < 3.6 V DD",
+      "-",
+      "133",
+      "MHz"
+    ],
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "1.62 V < V < 3.6 V DD",
+      "-",
+      "90",
+      "MHz"
+    ],
+    [
+      "D CLK",
+      "LTDC clock output duty cycle",
+      "-",
+      "45",
+      "55",
+      "%"
+    ],
+    [
+      "t w(CLKH), t w(CLKL)",
+      "Clock High time, low time",
+      "-",
+      "t /2-0.5 w(CLK)",
+      "t /2+0.5 w(CLK)",
+      "ns"
+    ],
+    [
+      "t v(DATA)",
+      "Data output valid time",
+      "-",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t h(DATA)",
+      "Data output hold time",
+      "-",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(HSYNC), t v(VSYNC), t v(DE)",
+      "HSYNC/VSYNC/DE output valid time",
+      "-",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t h(HSYNC), t , h(VSYNC) t h(DE)",
+      "HSYNC/VSYNC/DE output hold time",
+      "-",
+      "0.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS12110 Rev 11 185/357"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_92",
+    "is_continued": false,
+    "pages": [
+      185
+    ],
+    "rows_count": 9,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "table_id": "table_53",
+  "caption": "Table 53. I/O current injection susceptibility",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 150,
+  "merged_pages": [
+    150
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=150",
+  "section": "6.3.16 I/O current injection characteristics",
+  "headers": [
+    "Symbol",
+    "Description",
+    "Functional susceptibility / Negative injection",
+    "Functional susceptibility / Positive injection",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I INJ",
+      "PA12, PE8",
+      "5",
+      "0",
+      "mA"
+    ],
+    [
+      "I INJ",
+      "PC4, PE12, PF15, PH0",
+      "0",
+      "NA",
+      "mA"
+    ],
+    [
+      "I INJ",
+      "PA0, PA0_C, PA1, PA1_C, PC2, PC2_C, PC3, PC3_C, PA4, PA5, PE7, PG1, PH4, PH5, BOOT0",
+      "0",
+      "0",
+      "mA"
+    ],
+    [
+      "I INJ",
+      "All other I/Os",
+      "5",
+      "NA",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Guaranteed by design.",
+      "3. To use these I/Os in digital input mode, V must respect the following condition: 0.7 V < V + 0.3 V. DD DD DDA",
+      "4. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: I = 10 μA + [number of I/Os where V is applied on the pad] ₓ I .",
+      "5. All FT_xx IO except FT_lu, FT_u and PC3.",
+      "6. V must be less than Max(VDDXXX) + 3.6 V. IN",
+      "7. To sustain a voltage higher than MIN(V , V , V ) +0.3 V, the internal pull-up and pull-down resistors must be DD DDA DD33USB",
+      "8. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10% order)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_53",
+    "is_continued": false,
+    "pages": [
+      150
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

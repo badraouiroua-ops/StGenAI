@@ -1,0 +1,81 @@
+{
+  "table_id": "table_120",
+  "caption": "Table 120. Dynamics characteristics: Ethernet MAC signals for SMI",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 244,
+  "merged_pages": [
+    244
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=244",
+  "section": "6.3.38 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t MDC",
+      "MDC cycle time( 2.5 MHz)",
+      "400",
+      "400",
+      "403",
+      "ns"
+    ],
+    [
+      "T d(MDIO)",
+      "Write data valid time",
+      "0.5",
+      "1.5",
+      "4",
+      "ns"
+    ],
+    [
+      "t su(MDIO)",
+      "Read data setup time",
+      "12.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(MDIO)",
+      "Read data hold time",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. 244/283 DS13311 Rev 5"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_120",
+    "is_continued": false,
+    "pages": [
+      244
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

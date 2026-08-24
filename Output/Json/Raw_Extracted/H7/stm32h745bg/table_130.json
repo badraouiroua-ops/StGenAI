@@ -1,0 +1,53 @@
+{
+  "table_id": "table_130",
+  "caption": "Table 130. Document revision history",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 242,
+  "merged_pages": [
+    242
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=242",
+  "section": "9 Important security notice",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "16-May-2019",
+      "1",
+      "Initial release."
+    ],
+    [
+      "31-Mar-2023",
+      "2",
+      "Added reference to errata sheet ES0392 in Section 1: Introduction. Figure 1: STM32H750xB block diagram: changed APB1 and APB2 maximum frequency to 120 MHZ, and WKUP[5:0] to WKUP[6:1]. Updated Figure 5: STM32H745xI/G bus matrix. Modified Section 3.5.1: Power supply scheme Modified note on Section 3.5.3: Voltage regulator (SMPS step-down converter and LDO) Updated Section 3.24: Digital camera interface (DCMI) (modified supported format) Updated Section 3.27: True random number generator (RNG). Added Full-duplex mode in Section 3.33: Serial peripheral interfaces (SPI)/integrated interchip sound interfaces (I2S). Updated number of microphones that can be supported by the SAI in Section 3.34: Serial audio interfaces (SAI). Table 8: STM32H750xB pin/ball definition: – Removed FDCAN1_RXFD_MODE, FDCAN1_TXFD_MODE, FDCAN2_RXFD_MODE and FDCAN2_TXFD_MODE functions from and all alternate function tables. – Added note to VDD50USB. – Added note to PB12 and PB13. – Change PB1 I/O structure to TT_A. – For TFBGA24+25, extra VDD signals replaced by '-'. Changed pin 48 from NC to VDD in Figure 7: LQFP176 pinout. Updated Figure 13: Power supply scheme. Updated Section 6.2: Absolute maximum ratings introduction to device mission profile. Updated Table 11: Current characteristics Changed f to 100 MHz in Table 13: General operating conditions. CPU2 Replaced Min V by Min V in Table 14: Supply voltage and maximum DD DDLDO frequency configuration. Removed note 1 from Table 33: Typical and maximum current consumption in Stop, LDO regulator ON and Table 35: Typical and maximum current consumption in Sleep mode, LDO regulator ON. Updated section I/O dynamic current consumption and I/O static current consumption. Updated Table 41: High-speed external user clock characteristics. In Table 52: Flash memory programming: removed reference to single bank configuration in title and added t typical and maximum values. ERASE128KB Modified Table 55: EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz Changed I to I in Table 59: I/O static characteristics leak lkg Added reference to AN4899 in Section 6.3.16: I/O port characteristics. Changed capacitance value for speed 10 and t/t, and speed for 11 and t/t/F Table 63: r f r f max Output timing characteristics (HSLV ON)."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_130",
+    "is_continued": false,
+    "pages": [
+      242
+    ],
+    "rows_count": 2,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

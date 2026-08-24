@@ -1,0 +1,93 @@
+{
+  "table_id": "table_71",
+  "caption": "Table 71. Switching characteristics for NAND flash write cycles",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 154,
+  "merged_pages": [
+    154
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=154",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(NWE)",
+      "FMC_NWE low width",
+      "4T – 0.5 fmc_ker_ck",
+      "4T +0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t v(NWE-D)",
+      "FMC_NWE low to FMC_D[15-0] valid",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NWE-D)",
+      "FMC_NWE high to FMC_D[15-0] invalid",
+      "2T +1.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(D-NWE)",
+      "FMC_D[15-0] valid before FMC_NWE high",
+      "5T – 5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(ALE-NWE)",
+      "FMC_ALE valid before FMC_NWE low",
+      "-",
+      "3T +0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t h(NWE-ALE)",
+      "FMC_NWE high to FMC_ALE invalid",
+      "2T – 0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results. 154/236 DS13314 Rev 4",
+      "2. Using PC2_C I/O adds 4.5 ns to this timing. DS13314 Rev 4 155/236"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_71",
+    "is_continued": false,
+    "pages": [
+      154
+    ],
+    "rows_count": 6,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

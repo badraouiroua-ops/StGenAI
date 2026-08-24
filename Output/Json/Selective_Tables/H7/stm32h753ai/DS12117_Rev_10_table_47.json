@@ -1,0 +1,35 @@
+{
+  "table_id": "table_47",
+  "document": "DS12117 Rev 10 - Table 47. Electrical sensitivities",
+  "rev": "Rev 10",
+  "table_number": "47",
+  "title": "Table 47. Electrical sensitivities",
+  "page": 135,
+  "section": "6.3.13 Absolute maximum ratings (electrical sensitivity)",
+  "section_title": "Absolute maximum ratings (electrical sensitivity)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=135",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 47. Electrical sensitivities — section 6.3.13 Absolute maximum ratings (electrical sensitivity). Symbol, Parameter, Conditions, Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Class"
+    ],
+    "rows": [
+      [
+        "LU",
+        "Static latchup class",
+        "T = +25 °C conforming to JESD78 A",
+        "II level A"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

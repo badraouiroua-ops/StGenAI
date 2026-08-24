@@ -1,0 +1,66 @@
+{
+  "table_id": "table_182",
+  "caption": "Table 182. Temperature monitoring characteristics",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 277,
+  "merged_pages": [
+    277
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=277",
+  "section": "7.3.24 Temperature and V monitoring",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "TEMP high",
+      "High temperature monitoring",
+      "-",
+      "117",
+      "-",
+      "°C"
+    ],
+    [
+      "TEMP low",
+      "Low temperature monitoring",
+      "-",
+      "–25",
+      "-",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS12556 Rev 8 277/335",
+      "2. Refer to Table 115: Embedded reference voltage. 278/335 DS12556 Rev 8"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_182",
+    "is_continued": false,
+    "pages": [
+      277
+    ],
+    "rows_count": 2,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

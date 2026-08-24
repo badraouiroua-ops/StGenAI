@@ -1,0 +1,113 @@
+{
+  "features": [
+    [
+      "pdf_name",
+      "stm32h733vg"
+    ],
+    [
+      "family",
+      "H7"
+    ],
+    [
+      "page",
+      1
+    ],
+    [
+      "merged_pages",
+      [
+        1
+      ]
+    ],
+    [
+      "url",
+      "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf"
+    ],
+    [
+      "url_table",
+      "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=1"
+    ],
+    [
+      "text_helper",
+      "pdf_name: stm32h733vg. DS13314 Rev 4 (November 2023). Arm Cortex -M7 32-bit 550 MHz MCU, 1 MB flash, 564 KB RAM, Ethernet, USB, 3x FD-CAN, Graphics, 2x 16-bit ADCs, crypto/hash. family: H7. core: Cortex-M7. freq: 550 MHz. flash: 1024 KB. ram: 4 KB. voltage: 1.62-3.6 V. packages: LQFP100, UFBGA144..."
+    ]
+  ],
+  "features_content": [
+    [
+      "doc_ref",
+      "DS13314"
+    ],
+    [
+      "revision",
+      "Rev 4"
+    ],
+    [
+      "date",
+      "November 2023"
+    ],
+    [
+      "title",
+      "Arm Cortex -M7 32-bit 550 MHz MCU, 1 MB flash, 564 KB RAM, Ethernet, USB, 3x FD-CAN, Graphics, 2x 16-bit ADCs, crypto/hash"
+    ],
+    [
+      "core",
+      "Cortex-M7"
+    ],
+    [
+      "fpu",
+      true
+    ],
+    [
+      "max_frequency_mhz",
+      550
+    ],
+    [
+      "flash_kb",
+      1024
+    ],
+    [
+      "ram_kb",
+      4
+    ],
+    [
+      "voltage_min_v",
+      1.62
+    ],
+    [
+      "voltage_max_v",
+      3.6
+    ],
+    [
+      "operating_temp_c",
+      []
+    ],
+    [
+      "packages",
+      [
+        "LQFP100 (20 x 20 mm)",
+        "UFBGA144 (8 x 8 mm)",
+        "LQFP144 (7 x 7 mm)",
+        "LQFP176",
+        "UFBGA169",
+        "UFBGA176",
+        "UFBGA100",
+        "TFBGA100 (8 x 8 mm)"
+      ]
+    ],
+    [
+      "device_summary",
+      {
+        "headers": [
+          "Part number"
+        ],
+        "rows": [
+          [
+            "STM32H733VG"
+          ],
+          [
+            "STM32H733ZG"
+          ]
+        ]
+      }
+    ]
+  ]
+}

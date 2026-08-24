@@ -1,0 +1,115 @@
+{
+  "table_id": "table_106",
+  "caption": "Table 106. Dynamics characteristics: Ethernet MAC signals for MII",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 202,
+  "merged_pages": [
+    202
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=202",
+  "section": "6.3.33 JTAG/SWD interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t su(RXD)",
+      "Receive data setup time",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(RXD)",
+      "Receive data hold time",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(DV)",
+      "Data valid setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(DV)",
+      "Data valid hold time",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(ER)",
+      "Error setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(ER)",
+      "Error hold time",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(TXEN)",
+      "Transmit enable valid delay time",
+      "4.5",
+      "6.5",
+      "11",
+      "ns"
+    ],
+    [
+      "t d(TXD)",
+      "Transmit data valid delay time",
+      "7",
+      "7.5",
+      "15",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS12110 Rev 11 203/357"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_106",
+    "is_continued": false,
+    "pages": [
+      202
+    ],
+    "rows_count": 8,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

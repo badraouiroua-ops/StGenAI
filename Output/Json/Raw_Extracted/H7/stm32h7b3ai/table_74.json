@@ -1,0 +1,134 @@
+{
+  "table_id": "table_74",
+  "caption": "Table 74. Asynchronous non-multiplexed SRAM/PSRAM/NOR write timings",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 126,
+  "merged_pages": [
+    126
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=126",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min(1)",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tw(NE)",
+      "FMC_NE low time",
+      "3Tfmc_ker_ck - 1",
+      "3Tfmc_ker_ck + 1",
+      "ns"
+    ],
+    [
+      "tv(NWE_NE)",
+      "FMC_NEx low to FMC_NWE low",
+      "Tfmc_ker_ck - 1",
+      "Tfmc_ker_ck",
+      "ns"
+    ],
+    [
+      "tw(NWE)",
+      "FMC_NWE low time",
+      "Tfmc_ker_ck - 0.5",
+      "Tfmc_ker_ck + 0.5",
+      "ns"
+    ],
+    [
+      "th(NE_NWE)",
+      "FMC_NWE high to FMC_NE high hold time",
+      "Tfmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(A_NE)",
+      "FMC_NEx low to FMC_A valid",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "th(A_NWE)",
+      "Address hold time after FMC_NWE high",
+      "Tfmc_ker_ck + 0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(BL_NE)",
+      "FMC_NEx low to FMC_BL valid",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "th(BL_NWE)",
+      "FMC_BL hold time after FMC_NWE high",
+      "Tfmc_ker_ck - 0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(Data_NE)",
+      "Data to FMC_NEx low to Data valid",
+      "-",
+      "Tfmc_ker_ck + 3",
+      "ns"
+    ],
+    [
+      "th(Data_NWE)",
+      "Data hold time after FMC_NWE high",
+      "Tfmc_ker_ck+1",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(NADV_NE)",
+      "FMC_NEx low to FMC_NADV low",
+      "-",
+      "0",
+      "ns"
+    ],
+    [
+      "tw(NADV)",
+      "FMC_NADV low time",
+      "-",
+      "Tfmc_ker_ck + 1",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Mode 2/B, C and D only. In Mode 1, FMC_NADV is not used."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_74",
+    "is_continued": false,
+    "pages": [
+      126
+    ],
+    "rows_count": 12,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

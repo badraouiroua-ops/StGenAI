@@ -1,0 +1,134 @@
+{
+  "table_id": "table_98",
+  "caption": "Table 98. LPSDR SDRAM Write timings",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 241,
+  "merged_pages": [
+    241
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=241",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(SDCLK)",
+      "FMC_SDCLK period",
+      "2T – 0.5 fmc_ker_ck",
+      "2T +0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t ) d(SDCLKL _Data",
+      "Data output valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      ")ataD_ LKLCDS(h t",
+      "Data output hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_Add)",
+      "Address valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL-SDNWE)",
+      "SDNWE valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL-SDNWE)",
+      "SDNWE hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL- SDNE)",
+      "Chip select valid time",
+      "-",
+      "1",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL- SDNE)",
+      "Chip select hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL-SDNRAS)",
+      "SDNRAS valid time",
+      "-",
+      "1",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL-SDNRAS)",
+      "SDNRAS hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL-SDNCAS)",
+      "SDNCAS valid time",
+      "-",
+      "1",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL-SDNCAS)",
+      "SDNCAS hold time",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. At VOS Low, these values are degraded by up to 7%. DS14359 Rev 7 241/325"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_98",
+    "is_continued": false,
+    "pages": [
+      241
+    ],
+    "rows_count": 12,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

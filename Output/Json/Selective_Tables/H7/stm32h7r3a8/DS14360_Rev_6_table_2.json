@@ -1,0 +1,151 @@
+{
+  "table_id": "table_2",
+  "document": "DS14360 Rev 6 - Table 2. Security and graphics IP availability per product line",
+  "rev": "Rev 6",
+  "table_number": "2",
+  "title": "Table 2. Security and graphics IP availability per product line",
+  "page": 16,
+  "section": "2 Description",
+  "section_title": "Description",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 2. Security and graphics IP availability per product line — section 2 Description. IP type, IP name, STM32H7R3 GP, STM32H7R7 GFx, STM32H7S3 GP, +1 autres.",
+  "table_content": {
+    "headers": [
+      "IP type",
+      "IP name",
+      "STM32H7R3 GP",
+      "STM32H7R7 GFx",
+      "STM32H7S3 GP",
+      "STM32H7S7 GFx"
+    ],
+    "rows": [
+      [
+        "Graphics",
+        "Neo-Chrom (GPU2D)",
+        "N",
+        "Y",
+        "N",
+        "Y"
+      ],
+      [
+        "Graphics",
+        "Chrom-Art (DMA2D)",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      [
+        "Graphics",
+        "Chrom-GRC (GFXMMU)",
+        "N",
+        "Y",
+        "N",
+        "Y"
+      ],
+      [
+        "Graphics",
+        "Hardware codec (JPEG)",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      [
+        "Graphics",
+        "LCD-TFT",
+        "N",
+        "Y",
+        "N",
+        "Y"
+      ],
+      [
+        "Graphics",
+        "Parallel display (FMC8/16)",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      [
+        "Security",
+        "Life cycle support (HDP0/1/2)",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      [
+        "Security",
+        "Root of trust (ST-iROT)",
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ],
+      [
+        "Security",
+        "Debug authentication",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      [
+        "Security",
+        "Secure firmware install (SFI)",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      [
+        "Security",
+        "Root secure service (RSS)",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      [
+        "Security",
+        "HASH accelerator and PKA verification",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ],
+      [
+        "Security",
+        "Crypto processor (Crypt, PKA, SAES)",
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ],
+      [
+        "Security",
+        "On-the-fly encryption/decryption (MCE)",
+        "N",
+        "N",
+        "Y",
+        "Y"
+      ],
+      [
+        "Security",
+        "True random number generator (TRNG)",
+        "Y",
+        "Y",
+        "Y",
+        "Y"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

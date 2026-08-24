@@ -1,0 +1,159 @@
+{
+  "table_id": "table_46",
+  "caption": "Table 46. HSI oscillator characteristics",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 141,
+  "merged_pages": [
+    141
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=141",
+  "section": "6.3.10 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f HSI",
+      "HSI frequency",
+      "V =3.3 V, T =30 °C DD J",
+      "63.7(2)",
+      "64",
+      "64.3(2)",
+      "MHz"
+    ],
+    [
+      "TRIM",
+      "HSI user trimming step",
+      "Trimming is not a multiple of 32",
+      "-",
+      "0.24",
+      "0.32",
+      "%"
+    ],
+    [
+      "TRIM",
+      "HSI user trimming step",
+      "Trimming is 128, 256 and 384",
+      "-5.2",
+      "-1.8",
+      "-",
+      "%"
+    ],
+    [
+      "TRIM",
+      "HSI user trimming step",
+      "Trimming is 64, 192, 320 and 448",
+      "-1.4",
+      "-0.8",
+      "-",
+      "%"
+    ],
+    [
+      "TRIM",
+      "HSI user trimming step",
+      "Other trimming are a multiple of 32 (not including multiple of 64 and 128)",
+      "-0.6",
+      "-0.25",
+      "-",
+      "%"
+    ],
+    [
+      "DuCy(HSI)",
+      "Duty Cycle",
+      "-",
+      "45",
+      "-",
+      "55",
+      "%"
+    ],
+    [
+      "Δ VDD (HSI)",
+      "HSI oscillator frequency drift over V (reference is 3.3 V) DD",
+      "V =1.62 to 3.6 V DD",
+      "-0.12",
+      "-",
+      "0.03",
+      "%"
+    ],
+    [
+      "Δ TEMP (HSI)",
+      "HSI oscillator frequency drift over temperature (reference is 64 MHz)",
+      "T =-20 to 105 °C J",
+      "-1(3)",
+      "-",
+      "1(3)",
+      "%"
+    ],
+    [
+      "Δ TEMP (HSI)",
+      "HSI oscillator frequency drift over temperature (reference is 64 MHz)",
+      "T =-40 to T max °C J J",
+      "-2(3)",
+      "-",
+      "1(3)",
+      "%"
+    ],
+    [
+      "t (HSI) su",
+      "HSI oscillator start-up time",
+      "-",
+      "-",
+      "1.4",
+      "2",
+      "µs"
+    ],
+    [
+      "t (HSI) stab",
+      "HSI oscillator stabilization time",
+      "at 1% of target frequency",
+      "-",
+      "4",
+      "8",
+      "µs"
+    ],
+    [
+      "I (HSI) DD",
+      "HSI oscillator power consumption",
+      "-",
+      "-",
+      "300",
+      "400",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. Guaranteed by test in production.",
+      "3. Guaranteed by characterization. 4 MHz low-power internal RC oscillator (CSI)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_46",
+    "is_continued": false,
+    "pages": [
+      141
+    ],
+    "rows_count": 12,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

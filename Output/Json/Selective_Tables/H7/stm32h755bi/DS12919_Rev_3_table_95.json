@@ -1,0 +1,53 @@
+{
+  "table_id": "table_95",
+  "document": "DS12919 Rev 3 - Table 95. V charging characteristics 192 BAT",
+  "rev": "Rev 3",
+  "table_number": "95",
+  "title": "Table 95. V charging characteristics 192 BAT",
+  "page": 192,
+  "section": "6.3.25 Temperature and V monitoring",
+  "section_title": "Temperature and V monitoring",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=192",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "text_helper": "Table 95. V charging characteristics 192 BAT — section 6.3.25 Temperature and V monitoring. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "R BC",
+        "Battery charging resistor",
+        "VBRS in PWR_CR3= 0",
+        "-",
+        "5",
+        "-",
+        "KΩ"
+      ],
+      [
+        "R BC",
+        "Battery charging resistor",
+        "VBRS in PWR_CR3= 1",
+        "-",
+        "1.5",
+        "-",
+        "KΩ"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. 192/246 DS12919 Rev 3",
+      "2. Refer to Table 20: Embedded reference voltage. DS12919 Rev 3 193/246"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

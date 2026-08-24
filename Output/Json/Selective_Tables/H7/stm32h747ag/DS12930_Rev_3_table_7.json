@@ -1,0 +1,137 @@
+{
+  "table_id": "table_7",
+  "document": "DS12930 Rev 3 - Table 7. Legend/abbreviations used in the pinout table",
+  "rev": "Rev 3",
+  "table_number": "7",
+  "title": "Table 7. Legend/abbreviations used in the pinout table",
+  "page": 61,
+  "section": "5 Pinout, pin description and alternate functions",
+  "section_title": "Pinout, pin description and alternate functions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=61",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 7. Legend/abbreviations used in the pinout table — section 5 Pinout, pin description and alternate functions. Name, Name, Abbreviation, Definition.",
+  "table_content": {
+    "headers": [
+      "Name",
+      "Name",
+      "Abbreviation",
+      "Definition"
+    ],
+    "rows": [
+      [
+        "Pin name",
+        "Pin name",
+        "Unless otherwise specified in brackets below the pin name, the pin function during and after reset is the same as the actual pin name",
+        "Unless otherwise specified in brackets below the pin name, the pin function during and after reset is the same as the actual pin name"
+      ],
+      [
+        "Pin type",
+        "Pin type",
+        "S",
+        "Supply pin"
+      ],
+      [
+        "Pin type",
+        "Pin type",
+        "I",
+        "Input only pin"
+      ],
+      [
+        "Pin type",
+        "Pin type",
+        "I/O",
+        "Input / output pin"
+      ],
+      [
+        "Pin type",
+        "Pin type",
+        "ANA",
+        "Analog-only Input"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "FT",
+        "5 V tolerant I/O"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "TT",
+        "3.3 V tolerant I/O"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "B",
+        "Dedicated BOOT0 pin"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "RST",
+        "Bidirectional reset pin with embedded weak pull-up resistor"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "Option for TT and FT I/Os",
+        "Option for TT and FT I/Os"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "_f",
+        "I2C FM+ option"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "_a",
+        "analog option (supplied by V ) DDA"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "_u",
+        "USB option (supplied by V ) DD33USB"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "_h",
+        "High-speed low-voltage I/O"
+      ],
+      [
+        "I/O structure",
+        "I/O structure",
+        "_d",
+        "DSI option (supplied by V ) DDDSI"
+      ],
+      [
+        "Notes",
+        "Notes",
+        "Unless otherwise specified by a note, all I/Os are set as floating inputs during and after reset.",
+        "Unless otherwise specified by a note, all I/Os are set as floating inputs during and after reset."
+      ],
+      [
+        "Pin functions",
+        "Alternate functions",
+        "Functions selected through GPIOx_AFR registers",
+        "Functions selected through GPIOx_AFR registers"
+      ],
+      [
+        "Pin functions",
+        "Additional functions",
+        "Functions directly selected/enabled through peripheral registers",
+        "Functions directly selected/enabled through peripheral registers"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

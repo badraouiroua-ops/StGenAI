@@ -1,0 +1,54 @@
+{
+  "table_id": "table_24",
+  "document": "DS13314 Rev 4 - Table 24. Typical current consumption in Autonomous mode",
+  "rev": "Rev 4",
+  "table_number": "24",
+  "title": "Table 24. Typical current consumption in Autonomous mode",
+  "page": 102,
+  "section": "6.3.7 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=102",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 24. Typical current consumption in Autonomous mode — section 6.3.7 Supply current characteristics. Symbol, Parameter, Conditions, Conditions, f rcc_c_c k (MHz), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "f rcc_c_c k (MHz)",
+      "Typ",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "Supply current in Autonous mode",
+        "Run, D1Stop, D2Stop",
+        "VOS3",
+        "64",
+        "3.6",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Autonous mode",
+        "Run, D1Standby, D2Standby",
+        "VOS3",
+        "64",
+        "2.6",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. CPU_FREQ_BOOST is enabled. 102/236 DS13314 Rev 4",
+      "3. The LSE is in Low-drive mode. I/O system current consumption"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

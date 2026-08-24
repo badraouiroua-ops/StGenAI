@@ -1,0 +1,117 @@
+{
+  "table_id": "table_133",
+  "document": "DS14359 Rev 7 - Table 133. USB OTG_HS DC electrical characteristics",
+  "rev": "Rev 7",
+  "table_number": "133",
+  "title": "Table 133. USB OTG_HS DC electrical characteristics",
+  "page": 282,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=282",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 133. USB OTG_HS DC electrical characteristics — section 6.3.33 Communication interfaces. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DD33USB",
+        "USB transceiver operating voltage",
+        "-",
+        "3.12(2)",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "f HCLK",
+        "f value to guarantee HCLK proper operation of the OTG_HS interface",
+        "-",
+        "30(3)",
+        "-",
+        "-",
+        "MHz"
+      ],
+      [
+        "R PUI",
+        "Embedded USB_DP pull- up value during idle",
+        "-",
+        "900",
+        "1250",
+        "1575",
+        "Ω"
+      ],
+      [
+        "R PUR",
+        "Embedded USB_DP pull- up value during reception",
+        "-",
+        "1425(3)",
+        "2250",
+        "3090(3)",
+        "Ω"
+      ],
+      [
+        "R PD",
+        "Embedded USB_DP and USB_DM pull-down value",
+        "-",
+        "14250",
+        "-",
+        "24800",
+        "Ω"
+      ],
+      [
+        "Z DRV",
+        "Output driver impedance(4)",
+        "Driving high or low",
+        "40.5(3)",
+        "45",
+        "49.5(3)",
+        "Ω"
+      ],
+      [
+        "t lr",
+        "Rise time",
+        "CL < 5 pF",
+        "0.5(3)",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t lf",
+        "Fall time",
+        "CL < 5 pF",
+        "0.5(3)",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t lrfm",
+        "Rise/fall time matching",
+        "-",
+        "80(3)",
+        "-",
+        "125(3)",
+        "%"
+      ]
+    ],
+    "notes": [
+      "2. The USB functionality is ensured down to 3 V but not the full USB electrical characteristics which are degraded in 3.0 to 3.12 V voltage range.",
+      "3. Specified by design. Not tested in production.",
+      "4. No external termination series resistors are required on USB_DP (D+) and USB_DM (D-). The matching impedance is already included in the embedded driver."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

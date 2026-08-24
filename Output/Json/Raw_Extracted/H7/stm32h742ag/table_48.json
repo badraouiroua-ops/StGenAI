@@ -1,0 +1,50 @@
+{
+  "table_id": "table_48",
+  "caption": "Table 48. Electrical sensitivities",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 135,
+  "merged_pages": [
+    135
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=135",
+  "section": "6.3.13 Absolute maximum ratings (electrical sensitivity)",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Class"
+  ],
+  "rows": [
+    [
+      "LU",
+      "Static latchup class",
+      "T = +25 °C conforming to JESD78 A",
+      "II level A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_48",
+    "is_continued": false,
+    "pages": [
+      135
+    ],
+    "rows_count": 1,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

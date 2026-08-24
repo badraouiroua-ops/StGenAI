@@ -1,0 +1,97 @@
+{
+  "table_id": "table_91",
+  "caption": "Table 91. DCMI characteristics",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 184,
+  "merged_pages": [
+    184
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=184",
+  "section": "6.3.29 Camera interface (DCMI) timing specifications",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "-",
+      "Frequency ratio DCMI_PIXCLK/f rcc_c_ck",
+      "-",
+      "0.4",
+      "-"
+    ],
+    [
+      "DCMI_PIXCLK",
+      "Pixel clock input",
+      "-",
+      "80",
+      "MHz"
+    ],
+    [
+      "D Pixel",
+      "Pixel clock input duty cycle",
+      "30",
+      "70",
+      "%"
+    ],
+    [
+      "t su(DATA)",
+      "Data input setup time",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(DATA)",
+      "Data input hold time",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(HSYNC) t su(VSYNC)",
+      "DCMI_HSYNC/DCMI_VSYNC input setup time",
+      "1.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(HSYNC) t h(VSYNC)",
+      "DCMI_HSYNC/DCMI_VSYNC input hold time",
+      "1",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results. Figure 44. DCMI timing diagram"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_91",
+    "is_continued": false,
+    "pages": [
+      184
+    ],
+    "rows_count": 7,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

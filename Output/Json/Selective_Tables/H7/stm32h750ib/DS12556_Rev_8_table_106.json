@@ -1,0 +1,97 @@
+{
+  "table_id": "table_106",
+  "document": "DS12556 Rev 8 - Table 106. Dynamics SWD characteristics",
+  "rev": "Rev 8",
+  "table_number": "106",
+  "title": "Table 106. Dynamics SWD characteristics",
+  "page": 193,
+  "section": "6.3.33 JTAG/SWD interface characteristics",
+  "section_title": "JTAG/SWD interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=193",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 106. Dynamics SWD characteristics — section 6.3.33 JTAG/SWD interface characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F pp",
+        "SWCLK clock frequency",
+        "2.7 V <V < 3.6 V DD",
+        "-",
+        "-",
+        "71",
+        "MHz"
+      ],
+      [
+        "1/t c(SWCLK)",
+        "SWCLK clock frequency",
+        "1.62 V <V < 3.6 V DD",
+        "-",
+        "-",
+        "55.5",
+        "MHz"
+      ],
+      [
+        "t isu(SWDIO)",
+        "SWDIO input setup time",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(SWDIO)",
+        "SWDIO input hold time",
+        "-",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ov (SWDIO)",
+        "SWDIO output valid time",
+        "2.7 V <V < 3.6 V DD",
+        "-",
+        "8.5",
+        "14",
+        "ns"
+      ],
+      [
+        "t ov (SWDIO)",
+        "SWDIO output valid time",
+        "1.62 V <V < 3.6 V DD",
+        "-",
+        "8.5",
+        "18",
+        "ns"
+      ],
+      [
+        "t oh(SWDIO)",
+        "SWDIO output hold time",
+        "-",
+        "8",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS12556 Rev 8 193/335"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

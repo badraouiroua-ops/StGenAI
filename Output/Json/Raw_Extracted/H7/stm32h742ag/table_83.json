@@ -1,0 +1,58 @@
+{
+  "table_id": "table_83",
+  "caption": "Table 83. Temperature sensor calibration values",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 175,
+  "merged_pages": [
+    175
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=175",
+  "section": "6.3.23 Temperature sensor characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Memory address"
+  ],
+  "rows": [
+    [
+      "TS_CAL1",
+      "Temperature sensor raw data acquired value at 30 °C, V = V = 3.3 V DDA REF",
+      "0x1FF1 E820 -0x1FF1 E821"
+    ],
+    [
+      "TS_CAL2",
+      "Temperature sensor raw data acquired value at 110 °C, V = V = 3.3 V DDA REF",
+      "0x1FF1 E840 - 0x1FF1 E841"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. Guaranteed by design.",
+      "2. Guaranteed by characterization.",
+      "3. Measured at V = V = 3.3 V ± 10 mV. The V ADC conversion result is stored in the DDA REF 30"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_83",
+    "is_continued": false,
+    "pages": [
+      175
+    ],
+    "rows_count": 2,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

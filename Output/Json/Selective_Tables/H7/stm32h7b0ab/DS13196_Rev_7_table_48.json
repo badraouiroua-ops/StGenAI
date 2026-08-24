@@ -1,0 +1,135 @@
+{
+  "table_id": "table_48",
+  "document": "DS13196 Rev 7 - Table 48. Low-speed external user clock characteristics",
+  "rev": "Rev 7",
+  "table_number": "48",
+  "title": "Table 48. Low-speed external user clock characteristics",
+  "page": 92,
+  "section": "8 MHz",
+  "section_title": "MHz",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=92",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 48. Low-speed external user clock characteristics — section 8 MHz. Symbol, Parameter, Operating conditions(1), Min(2), Typ(2), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Operating conditions(1)",
+      "Min(2)",
+      "Typ(2)",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F",
+        "Oscillator frequency",
+        "-",
+        "-",
+        "32.768",
+        "-",
+        "kHz"
+      ],
+      [
+        "IDD",
+        "LSE current consumption",
+        "LSEDRV[1:0] = 00, Low drive capability",
+        "-",
+        "290",
+        "-",
+        "nA"
+      ],
+      [
+        "IDD",
+        "LSE current consumption",
+        "LSEDRV[1:0] = 01, Medium Low drive capability",
+        "-",
+        "390",
+        "-",
+        "nA"
+      ],
+      [
+        "IDD",
+        "LSE current consumption",
+        "LSEDRV[1:0] = 10, Medium high drive capability",
+        "-",
+        "550",
+        "-",
+        "nA"
+      ],
+      [
+        "IDD",
+        "LSE current consumption",
+        "LSEDRV[1:0] = 11, High drive capability",
+        "-",
+        "900",
+        "-",
+        "nA"
+      ],
+      [
+        "Gmcritmax",
+        "Maximum critical crystal gm",
+        "LSEDRV[1:0] = 00, Low drive capability",
+        "-",
+        "-",
+        "0.5",
+        "µA/V"
+      ],
+      [
+        "Gmcritmax",
+        "Maximum critical crystal gm",
+        "LSEDRV[1:0] = 01, Medium Low drive capability",
+        "-",
+        "-",
+        "0.75",
+        "µA/V"
+      ],
+      [
+        "Gmcritmax",
+        "Maximum critical crystal gm",
+        "LSEDRV[1:0] = 10,",
+        "-",
+        "-",
+        "1.7",
+        "µA/V"
+      ],
+      [
+        "Gmcritmax",
+        "Maximum critical crystal gm",
+        "Medium high drive capability",
+        "-",
+        "-",
+        "1.7",
+        "µA/V"
+      ],
+      [
+        "Gmcritmax",
+        "Maximum critical crystal gm",
+        "LSEDRV[1:0] = 11, High drive capability",
+        "-",
+        "-",
+        "2.7",
+        "µA/V"
+      ],
+      [
+        "tSU(3)",
+        "Startup time",
+        "VDD is stabilized",
+        "-",
+        "2",
+        "-",
+        "s"
+      ]
+    ],
+    "notes": [
+      "1. R value depends on the crystal characteristics. EXT",
+      "2. Guaranteed by design.",
+      "3. tSU is the startup time measured from the moment it is enabled (by software) to a stabilized 32.768k Hz oscillation is reached. This value is measured for a standard crystal resonator and it can vary significantly with the crystal manufacturer."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

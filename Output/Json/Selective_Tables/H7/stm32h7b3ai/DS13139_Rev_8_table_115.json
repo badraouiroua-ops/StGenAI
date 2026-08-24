@@ -1,0 +1,73 @@
+{
+  "table_id": "table_115",
+  "document": "DS13139 Rev 8 - Table 115. Minimum i2c_ker_ck frequency in all I2C modes",
+  "rev": "Rev 8",
+  "table_number": "115",
+  "title": "Table 115. Minimum i2c_ker_ck frequency in all I2C modes",
+  "page": 168,
+  "section": "6.3.36 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=168",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 115. Minimum i2c_ker_ck frequency in all I2C modes — section 6.3.36 Communication interfaces. Symbol, Parameter, Condition, Condition, Min, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Condition",
+      "Min",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fI2CCLK",
+        "I2CCLK frequency",
+        "Standard-mode",
+        "-",
+        "2",
+        "MHz"
+      ],
+      [
+        "fI2CCLK",
+        "I2CCLK frequency",
+        "Fast-mode",
+        "Analog Filtre ON, DNF=0",
+        "9",
+        "MHz"
+      ],
+      [
+        "fI2CCLK",
+        "I2CCLK frequency",
+        "Fast-mode",
+        "Analog Filtre OFF, DNF=1",
+        "9",
+        "MHz"
+      ],
+      [
+        "fI2CCLK",
+        "I2CCLK frequency",
+        "Fast-mode Plus",
+        "Analog Filtre ON, DNF=0",
+        "19",
+        "MHz"
+      ],
+      [
+        "fI2CCLK",
+        "I2CCLK frequency",
+        "Fast-mode Plus",
+        "Analog Filtre OFF, DNF=1",
+        "16",
+        "MHz"
+      ]
+    ],
+    "notes": [
+      "1. Measurement points are done at 0.5V and with external C = 30 pF. DD L"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

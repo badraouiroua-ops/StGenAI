@@ -1,0 +1,178 @@
+{
+  "table_id": "table_75",
+  "caption": "Table 75. Asynchronous non-multiplexed SRAM/PSRAM/NOR write-NWAIT timings",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 126,
+  "merged_pages": [
+    126,
+    127
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=126",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min(1)",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tw(NE)",
+      "FMC_NE low time",
+      "8Tfmc_ker_ck - 1",
+      "8Tfmc_ker_ck + 1",
+      "ns"
+    ],
+    [
+      "tw(NWE)",
+      "FMC_NWE low time",
+      "6Tfmc_ker_ck - 1",
+      "6Tfmc_ker_ck + 1",
+      "ns"
+    ],
+    [
+      "tsu(NWAIT_NE)",
+      "FMC_NWAIT valid before FMC_NEx high",
+      "5Tfmc_ker_ck + 13",
+      "-",
+      "ns"
+    ],
+    [
+      "th(NE_NWAIT)",
+      "FMC_NEx hold time after FMC_NWAIT invalid",
+      "4Tfmc_ker_ck+ 12",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(NOE_NE)",
+      "FMC_NEx low to FMC_NOE low",
+      "2Tfmc_ker_ck",
+      "2Tfmc_ker_ck + 0.5",
+      "ns"
+    ],
+    [
+      "tw(NOE)",
+      "FMC_NOE low time",
+      "Tfmc_ker_ck - 1",
+      "Tfmc_ker_ck + 1",
+      "ns"
+    ],
+    [
+      "th(NE_NOE)",
+      "FMC_NOE high to FMC_NE high hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(A_NE)",
+      "FMC_NEx low to FMC_A valid",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "tv(NADV_NE)",
+      "FMC_NEx low to FMC_NADV low",
+      "0",
+      "0.5",
+      "ns"
+    ],
+    [
+      "tw(NADV)",
+      "FMC_NADV low time",
+      "Tfmc_ker_ck - 0.5",
+      "Tfmc_ker_ck+1",
+      "ns"
+    ],
+    [
+      "th(AD_NADV)",
+      "FMC_AD(address) valid hold time after FMC_NADV high",
+      "Tfmc_ker_ck + 0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "th(A_NOE)",
+      "Address hold time after FMC_NOE high",
+      "Tfmc_ker_ck - 0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(Data_NE)",
+      "Data to FMC_NEx high setup time",
+      "13",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(Data_NOE)",
+      "Data to FMC_NOE high setup time",
+      "11",
+      "-",
+      "ns"
+    ],
+    [
+      "th(Data_NE)",
+      "Data hold time after FMC_NEx high",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "th(Data_NOE)",
+      "Data hold time after FMC_NOE high",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 5,
+      "cont_cols_raw": 5,
+      "target_cols": 5,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by characterization results. Synchronous waveforms and timings"
+    ],
+    "_legend": [
+      "NWAIT pulse width is equal to 1 AHB cycle."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_75",
+    "is_continued": true,
+    "pages": [
+      126,
+      127
+    ],
+    "rows_count": 16,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

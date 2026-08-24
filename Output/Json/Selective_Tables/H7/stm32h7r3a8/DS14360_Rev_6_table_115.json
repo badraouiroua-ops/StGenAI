@@ -1,0 +1,106 @@
+{
+  "table_id": "table_115",
+  "document": "DS14360 Rev 6 - Table 115. PSSI transmit characteristics",
+  "rev": "Rev 6",
+  "table_number": "115",
+  "title": "Table 115. PSSI transmit characteristics",
+  "page": 258,
+  "section": "6.3.29 Parallel synchronous slave interface (PSSI) characteristics",
+  "section_title": "Parallel synchronous slave interface (PSSI) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=258",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 115. PSSI transmit characteristics — section 6.3.29 Parallel synchronous slave interface (PSSI) characteristics. Symbol, Parameter, Conditions, Min, Max(2), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "-",
+        "Frequency ratio PSSI_PDCK/f HCLK",
+        "-",
+        "-",
+        "0.4",
+        "-"
+      ],
+      [
+        "PSSI_PDCK",
+        "PSSI Clock input",
+        "1.71 V<V <3.6 V DD",
+        "-",
+        "80(3)",
+        "MHz"
+      ],
+      [
+        "D pixel",
+        "PSSI Clock input duty cycle",
+        "-",
+        "30",
+        "70",
+        "%"
+      ],
+      [
+        "t (DATA) ov",
+        "Data output valid time",
+        "1.71 V<V <3.6 V DD",
+        "-",
+        "12.5",
+        "ns"
+      ],
+      [
+        "t (DATA) oh",
+        "Data output hold time",
+        "1.71 V<V <3.6 V DD",
+        "5.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t (DE) ov(",
+        "DE output valid time",
+        "1.71 V<V <3.6 V DD",
+        "-",
+        "12",
+        "ns"
+      ],
+      [
+        "t (DE) oh",
+        "DE output hold time",
+        "1.71 V<V <3.6 V DD",
+        "5.5",
+        "-",
+        "ns"
+      ],
+      [
+        "tsu(RDY)",
+        "RDY input setup time",
+        "1.71 V<V <3.6 V DD",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "th(RDY)",
+        "RDY input hold time",
+        "1.71 V<V <3.6 V DD",
+        "0",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS Low, these values are degraded by up to 7%.",
+      "3. This maximum frequency does not consider receiver setup and hold timings. 258/322 DS14360 Rev 6"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

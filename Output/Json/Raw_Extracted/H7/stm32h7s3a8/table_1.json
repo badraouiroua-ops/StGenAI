@@ -1,0 +1,82 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. Device summary",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 2,
+  "merged_pages": [
+    2
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=2",
+  "section": "General purpose / Overview",
+  "headers": [
+    "Reference",
+    "Part numbers"
+  ],
+  "rows": [
+    [
+      "STM32H7S3x8",
+      "STM32H7S3A8"
+    ],
+    [
+      "STM32H7S3x8",
+      "STM32H7S3I8"
+    ],
+    [
+      "STM32H7S3x8",
+      "STM32H7S3L8"
+    ],
+    [
+      "STM32H7S3x8",
+      "STM32H7S3R8"
+    ],
+    [
+      "STM32H7S3x8",
+      "STM32H7S3V8"
+    ],
+    [
+      "STM32H7S3x8",
+      "STM32H7S3Z8"
+    ],
+    [
+      "STM32H7S7x8",
+      "STM32H7S7A8"
+    ],
+    [
+      "STM32H7S7x8",
+      "STM32H7S7I8"
+    ],
+    [
+      "STM32H7S7x8",
+      "STM32H7S7L8"
+    ],
+    [
+      "STM32H7S7x8",
+      "STM32H7S7Z8"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_1",
+    "is_continued": false,
+    "pages": [
+      2
+    ],
+    "rows_count": 10,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

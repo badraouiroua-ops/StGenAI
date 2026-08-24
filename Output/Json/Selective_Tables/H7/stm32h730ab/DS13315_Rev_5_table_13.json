@@ -1,0 +1,194 @@
+{
+  "table_id": "table_13",
+  "document": "DS13315 Rev 5 - Table 13. Supply voltage and maximum temperature configuration",
+  "rev": "Rev 5",
+  "table_number": "13",
+  "title": "Table 13. Supply voltage and maximum temperature configuration",
+  "page": 108,
+  "section": "6.3.1 General operating conditions",
+  "section_title": "General operating conditions",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=108",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "text_helper": "Table 13. Supply voltage and maximum temperature configuration — section 6.3.1 General operating conditions. Power scale, V source CORE, Max. T (°C)(1) J, Min. V (V) DD, Min. V (V) DDLDO.",
+  "table_content": {
+    "headers": [
+      "Power scale",
+      "V source CORE",
+      "Max. T (°C)(1) J",
+      "Min. V (V) DD",
+      "Min. V (V) DDLDO"
+    ],
+    "rows": [
+      [
+        "VOS0",
+        "SMPS",
+        "105",
+        "2.2",
+        "-"
+      ],
+      [
+        "VOS0",
+        "LDO",
+        "105",
+        "1.7",
+        "1.7"
+      ],
+      [
+        "VOS0",
+        "SMPS supplies LDO",
+        "105",
+        "3(2)",
+        "1.7"
+      ],
+      [
+        "VOS0",
+        "External (Bypass)",
+        "105",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS1",
+        "SMPS",
+        "140",
+        "2.2",
+        "-"
+      ],
+      [
+        "VOS1",
+        "SMPS",
+        "125",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS1",
+        "LDO",
+        "125",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "VOS1",
+        "SMPS supplies LDO",
+        "125",
+        "2.3",
+        "-"
+      ],
+      [
+        "VOS1",
+        "External (Bypass)",
+        "125",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS2",
+        "SMPS",
+        "140",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS2",
+        "LDO",
+        "125",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "VOS2",
+        "SMPS supplies LDO",
+        "125",
+        "2.3",
+        "-"
+      ],
+      [
+        "VOS2",
+        "External (Bypass)",
+        "125",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS3",
+        "SMPS",
+        "140",
+        "1.62",
+        "-"
+      ],
+      [
+        "VOS3",
+        "LDO",
+        "125",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "VOS3",
+        "SMPS supplies LDO",
+        "125",
+        "2.3",
+        "-"
+      ],
+      [
+        "VOS3",
+        "External (Bypass)",
+        "125",
+        "1.62",
+        "-"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "SMPS",
+        "140",
+        "1.62",
+        "-"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "LDO",
+        "125",
+        "2",
+        "2"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "LDO",
+        "105",
+        "1.62",
+        "1.62"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "SMPS supplies LDO",
+        "125",
+        "3(2)",
+        "2"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "SMPS supplies LDO",
+        "105",
+        "2.3",
+        "-"
+      ],
+      [
+        "SVOS4/SVOS5",
+        "External (Bypass)",
+        "125",
+        "1.62",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. 140 °C can be reached only for part numbers in temperature range 3. For part numbers in temperature range 6, this value must be decreased to 125 °C.",
+      "2. The SMPS must be configured to output 2,5 V. 108/270 DS13315 Rev 5"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

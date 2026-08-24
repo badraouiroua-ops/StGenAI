@@ -1,0 +1,51 @@
+{
+  "table_id": "table_7",
+  "document": "DS14360 Rev 6 - Table 7. XSPIM implementation",
+  "rev": "Rev 6",
+  "table_number": "7",
+  "title": "Table 7. XSPIM implementation",
+  "page": 51,
+  "section": "3.19.1 XSPI I/O manager (XSPIM)",
+  "section_title": "XSPI I/O manager (XSPIM)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=51",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 7. XSPIM implementation — section 3.19.1 XSPI I/O manager (XSPIM). XSPIM features, i/f avaibility.",
+  "table_content": {
+    "headers": [
+      "XSPIM features",
+      "i/f avaibility"
+    ],
+    "rows": [
+      [
+        "Supports up to two single/dual/quad interfaces",
+        "Both"
+      ],
+      [
+        "Fully I/O multiplexing capability",
+        "Both"
+      ],
+      [
+        "Supports time-multiplexed mode",
+        "Both"
+      ],
+      [
+        "Supports high-speed interface",
+        "Both"
+      ],
+      [
+        "Chip select selection if XSPI provides dual chip select",
+        "Package dependent"
+      ],
+      [
+        "Supports 16-bit data interface and dual-octal mode",
+        "Only a single i/f, package dependent"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

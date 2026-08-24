@@ -1,0 +1,134 @@
+{
+  "table_id": "table_100",
+  "document": "DS14359 Rev 7 - Table 100. XSPI characteristics in DTR mode (no DQS)",
+  "rev": "Rev 7",
+  "table_number": "100",
+  "title": "Table 100. XSPI characteristics in DTR mode (no DQS)",
+  "page": 244,
+  "section": "6.3.18 XSPI interface characteristics",
+  "section_title": "XSPI interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=244",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 100. XSPI characteristics in DTR mode (no DQS) — section 6.3.18 XSPI interface characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F (CLK)",
+        "XSPI clock frequency",
+        "1.71 V < V < 3.6 V, DD 1.62 V<V <3.6 DDXSPI1/2 V, C = 15 pF LOAD",
+        "-",
+        "-",
+        "135(3)",
+        "MHz"
+      ],
+      [
+        "t w(CLKH)",
+        "XSPI clock high and low time, even division",
+        "PRESCALER[7:0] = n = 0,1,3,5",
+        "t /2 (CLK)",
+        "-",
+        "t /2+1 (CLK)",
+        "ns"
+      ],
+      [
+        "t w(CLKL)",
+        "XSPI clock high and low time, even division",
+        "PRESCALER[7:0] = n = 0,1,3,5",
+        "t /2–1 (CLK)",
+        "-",
+        "t /2 (CLK)",
+        "ns"
+      ],
+      [
+        "t w(CLKH)",
+        "XSPI clock high and low time, odd division",
+        "PRESCALER[7:0] = n = 2,4,6,8",
+        "(n/2)*t / (CLK) (n+1)",
+        "-",
+        "(n/2)*t / (CLK) (n+1)+1",
+        "ns"
+      ],
+      [
+        "t w(CLKL)",
+        "XSPI clock high and low time, odd division",
+        "PRESCALER[7:0] = n = 2,4,6,8",
+        "(n/2+1)*t (CLK) /(n+1) – 1",
+        "-",
+        "(n/2+1)* t /(n+1) (CLK)",
+        "ns"
+      ],
+      [
+        "t sr(IN) t sf(IN)",
+        "Data input setup time",
+        "-",
+        "2.0",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t hr(IN) t hf(IN)",
+        "Data input hold time",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t vr(OUT) t vf(OUT)",
+        "Data output valid time",
+        "-",
+        "-",
+        "t /4+ 0.5 (CLK)",
+        "t /4+1.5 (CLK)",
+        "ns"
+      ],
+      [
+        "t vr(OUT) t vf(OUT)",
+        "Data output valid time",
+        "Prescaler = 0, F <60 MHz (CLK)",
+        "-",
+        "5",
+        "7",
+        "ns"
+      ],
+      [
+        "t hr(OUT) t hf(OUT)",
+        "Data output hold time",
+        "-",
+        "t /4 - 0.5 (CLK)",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t hr(OUT) t hf(OUT)",
+        "Data output hold time",
+        "Prescaler = 0, F <60 MHz (CLK)",
+        "3.5",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS Low, these values are degraded by up to 7%.",
+      "3. Tuning COARSE[4:0] and FINE[6:0] of the XSPI_CALMR register is required to achieve this frequency. 244/325 DS14359 Rev 7"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

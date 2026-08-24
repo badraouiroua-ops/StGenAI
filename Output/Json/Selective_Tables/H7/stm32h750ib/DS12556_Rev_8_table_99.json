@@ -1,0 +1,90 @@
+{
+  "table_id": "table_99",
+  "document": "DS12556 Rev 8 - Table 99. Dynamic characteristics: eMMC characteristics, VDD = 1.71 to 1.9 V",
+  "rev": "Rev 8",
+  "table_number": "99",
+  "title": "Table 99. Dynamic characteristics: eMMC characteristics, VDD = 1.71 to 1.9 V",
+  "page": 187,
+  "section": "6.3.32 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=187",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 99. Dynamic characteristics: eMMC characteristics, VDD = 1.71 to 1.9 V — section 6.3.32 Communications interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "CMD, D inputs (referenced to CK) in SD default mode",
+        "CMD, D inputs (referenced to CK) in SD default mode",
+        "CMD, D inputs (referenced to CK) in SD default mode",
+        "CMD, D inputs (referenced to CK) in SD default mode",
+        "CMD, D inputs (referenced to CK) in SD default mode",
+        "CMD, D inputs (referenced to CK) in SD default mode",
+        "CMD, D inputs (referenced to CK) in SD default mode"
+      ],
+      [
+        "t ISUD",
+        "Input setup time SD",
+        "f =25 MHz PP",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t IHD",
+        "Input hold time SD",
+        "f =25 MHz PP",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "CMD, D outputs (referenced to CK) in SD default mode"
+      ],
+      [
+        "t OVD",
+        "Output valid default time SD",
+        "f =25 MHz PP",
+        "-",
+        "1",
+        "2",
+        "ns"
+      ],
+      [
+        "t OHD",
+        "Output hold default time SD",
+        "f =25 MHz PP",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. C = 20 pF. L",
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. DS12556 Rev 8 187/335"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "table_id": "table_140",
+  "document": "DS13311 Rev 5 - Table 140. Document revision history",
+  "rev": "Rev 5",
+  "table_number": "140",
+  "title": "Table 140. Document revision history",
+  "page": 280,
+  "section": "9 Important security notice",
+  "section_title": "Important security notice",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=280",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 140. Document revision history — section 9 Important security notice. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "10-Jul-2020",
+        "1",
+        "Initial release."
+      ],
+      [
+        "03-Sep-2020",
+        "2",
+        "Distinction made between LQFP100 (STM32H725VGT) and TFBGA100 (STM32H725VGH) packages in Table 2: STM32H725xE/G features and peripheral counts. Renamed Section 3.30 into True random number generator (RNG). Replaced V by V in Section 6: Electrical characteristics. DDIOx DD Updated I in Table 11: Current characteristics and Table 18: Inrush IO current and inrush electric charge characteristics for LDO and SMPS. Removed Table 14: Supply voltage and maximum temperature configuration. Updated Table 28: Typical current consumption in Autonomous mode, Table 31: Typical and maximum current consumption in Standby mode and Table 32: Typical and maximum current consumption in VBAT mode. Added Section 6.3.16: I/O current injection characteristics. Removed reference to PI8 in Table 56: Output voltage characteristics for all I/Os except PC13, PC14 and PC15 and Table 57: Output voltage characteristics for PC13, PC14 and PC15. Added Section : Analog switch between ports Pxy_C and Pxy. Added Figure 87: LQFP176 - Recommended footprint and Table 131: UFBGA169 - Recommended PCB design rules (0.5 mm pitch BGA)."
+      ],
+      [
+        "07-Dec-2021",
+        "3",
+        "Added indication that patents apply to the devices in Section : Features. Added reference to errata sheet in Section 1: Introduction. Table 2: STM32H725xE/G features and peripheral counts: – Changed number of general-purpose 32-bit timers to 4. – For LQFP100, LQFP144 and TFBGA100 packages, replaced 2 Octo- SPI/Quad-SPI interfaces by 1 and remove note. – Changed number of SPI/I2S from 4/4 to 6/4 for UFBGA169, and 6/4 to 4/4 for WLCSP115. In Section 3.7.1: Power supply scheme, changed V power supply DD requirements. In Section 3.34: Universal synchronous/asynchronous receiver transmitter (USART), changed USART communication speed to 17 Mbit/s Updated Figure 4: VFQFPN68 pinout to show exposed pad. Changed F7 signal to VDDLDO in Figure 5: TFBGA100 pinout. Table 8: STM32H725 pin and ball descriptions: – Added Note 1.and Note 2.to the package pin/balls corresponding to Pxy and Pxy_C. – For PA15(JTDI), replaced SPI3_NSS/I2S3_WS alternate function by SPI3_NSS(boot)/I2S3_WS."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

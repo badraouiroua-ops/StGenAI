@@ -1,0 +1,237 @@
+{
+  "table_id": "table_56",
+  "document": "DS13195 Rev 8 - Table 56. PLL characteristics (medium VCO frequency range)",
+  "rev": "Rev 8",
+  "table_number": "56",
+  "title": "Table 56. PLL characteristics (medium VCO frequency range)",
+  "page": 112,
+  "section": "6.3.11 PLL characteristics",
+  "section_title": "PLL characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=112",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 56. PLL characteristics (medium VCO frequency range) — section 6.3.11 PLL characteristics. Symbol, Parameter, Conditions, Conditions, Min(1), +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min(1)",
+      "Typ(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fPLL_IN",
+        "PLL input clock",
+        "-",
+        "-",
+        "1",
+        "-",
+        "2",
+        "MHz"
+      ],
+      [
+        "fPLL_IN",
+        "PLL input clock duty cycle",
+        "-",
+        "-",
+        "10",
+        "-",
+        "90",
+        "%"
+      ],
+      [
+        "fPLL_OUT",
+        "PLL multiplier output clock P, Q, R",
+        "VOS0",
+        "VOS0",
+        "1.17",
+        "-",
+        "210",
+        "MHz"
+      ],
+      [
+        "fPLL_OUT",
+        "PLL multiplier output clock P, Q, R",
+        "VOS1",
+        "VOS1",
+        "1.17",
+        "-",
+        "210",
+        "MHz"
+      ],
+      [
+        "fPLL_OUT",
+        "PLL multiplier output clock P, Q, R",
+        "VOS2",
+        "VOS2",
+        "1.17",
+        "-",
+        "160(2)",
+        "MHz"
+      ],
+      [
+        "fPLL_OUT",
+        "PLL multiplier output clock P, Q, R",
+        "VOS3",
+        "VOS3",
+        "1.17",
+        "-",
+        "88(2)",
+        "MHz"
+      ],
+      [
+        "fVCO_OUT",
+        "PLL VCO output",
+        "-",
+        "-",
+        "150",
+        "-",
+        "420",
+        "MHz"
+      ],
+      [
+        "tLOCK",
+        "PLL lock time",
+        "Normal mode",
+        "Normal mode",
+        "-",
+        "45",
+        "80(3)",
+        "µs"
+      ],
+      [
+        "tLOCK",
+        "PLL lock time",
+        "Sigma-delta mode",
+        "Sigma-delta mode",
+        "forbidden",
+        "forbidden",
+        "forbidden",
+        "µs"
+      ],
+      [
+        "Jitter",
+        "Cycle-to-cycle jitter",
+        "fVCO_OUT = 150 MHz",
+        "-",
+        "-",
+        "60",
+        "-",
+        "±ps"
+      ],
+      [
+        "Jitter",
+        "Cycle-to-cycle jitter",
+        "fVCO_OUT = 200 MHz",
+        "-",
+        "-",
+        "40",
+        "-",
+        "±ps"
+      ],
+      [
+        "Jitter",
+        "Cycle-to-cycle jitter",
+        "fVCO_OUT = 400 MHz",
+        "-",
+        "-",
+        "18",
+        "-",
+        "±ps"
+      ],
+      [
+        "Jitter",
+        "Cycle-to-cycle jitter",
+        "fVCO_OUT = 420 MHz",
+        "-",
+        "-",
+        "15",
+        "-",
+        "±ps"
+      ],
+      [
+        "Jitter",
+        "Period jitter",
+        "fVCO_OUT = 150 MHz",
+        "fPLL_OUT = 50 MHz",
+        "-",
+        "75",
+        "-",
+        "±-ps"
+      ],
+      [
+        "Jitter",
+        "Period jitter",
+        "fVCO_OUT = 400 MHz",
+        "fPLL_OUT = 50 MHz",
+        "-",
+        "25",
+        "-",
+        "±-ps"
+      ],
+      [
+        "Jitter",
+        "Long term jitter",
+        "Normal mode, fVCO_OUT = 400 MHz",
+        "Normal mode, fVCO_OUT = 400 MHz",
+        "-",
+        "±0.2",
+        "-",
+        "%"
+      ],
+      [
+        "IDD(PLL)",
+        "PLL power consumption on VDD",
+        "fVCO_OUT = 420 MHz",
+        "VDD",
+        "-",
+        "275",
+        "360",
+        "µA"
+      ],
+      [
+        "IDD(PLL)",
+        "PLL power consumption on VDD",
+        "fVCO_OUT = 420 MHz",
+        "VCORE",
+        "-",
+        "450",
+        "-",
+        "µA"
+      ],
+      [
+        "IDD(PLL)",
+        "PLL power consumption on VDD",
+        "fVCO_OUT = 150 MHz",
+        "VDD",
+        "-",
+        "160",
+        "240",
+        "µA"
+      ],
+      [
+        "IDD(PLL)",
+        "PLL power consumption on VDD",
+        "fVCO_OUT = 150 MHz",
+        "VCORE",
+        "-",
+        "165",
+        "-",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. This value must be limited to the maximum frequency due to the product limitation.",
+      "3. Guaranteed by characterization results."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

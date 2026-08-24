@@ -1,0 +1,124 @@
+{
+  "table_id": "table_72",
+  "document": "DS12556 Rev 8 - Table 72. QUADSPI characteristics in SDR mode",
+  "rev": "Rev 8",
+  "table_number": "72",
+  "title": "Table 72. QUADSPI characteristics in SDR mode",
+  "page": 154,
+  "section": "6.3.18 Quad-SPI interface characteristics",
+  "section_title": "Quad-SPI interface characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=154",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 72. QUADSPI characteristics in SDR mode — section 6.3.18 Quad-SPI interface characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Fck1/T CK",
+        "QUADSPI clock frequency",
+        "L Fp 02= C DD V 6.3< V ≤ V 7.2",
+        "-",
+        "-",
+        "133",
+        "MHz"
+      ],
+      [
+        "Fck1/T CK",
+        "QUADSPI clock frequency",
+        "1.62 V<V <3.6 V DD C =15 pF L",
+        "-",
+        "-",
+        "100",
+        "MHz"
+      ],
+      [
+        "t w(CKH)",
+        "QUADSPI clock high and low time",
+        "-",
+        "T /2–0.5 CK",
+        "-",
+        "T /2 CK",
+        "ns"
+      ],
+      [
+        "t w(CKL)",
+        "QUADSPI clock high and low time",
+        "-",
+        "T /2 CK",
+        "-",
+        "T /2 + 0.5 CK",
+        "ns"
+      ],
+      [
+        "t s(IN)",
+        "Data input setup time",
+        "2.7 V ≤ V < 3.6 V DD",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t s(IN)",
+        "Data input setup time",
+        "1.62 V ≤ V < 3.6 V DD",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(IN)",
+        "Data input hold time",
+        "2.7 V ≤ V < 3.6 V DD",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(IN)",
+        "Data input hold time",
+        "1.62 V ≤ V < 3.6 V DD",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(OUT)",
+        "Data output valid time",
+        "-",
+        "-",
+        "1.5",
+        "2",
+        "ns"
+      ],
+      [
+        "t h(OUT)",
+        "Data output hold time",
+        "-",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. 154/335 DS12556 Rev 8"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

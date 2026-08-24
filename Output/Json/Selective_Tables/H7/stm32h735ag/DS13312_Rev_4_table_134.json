@@ -1,0 +1,169 @@
+{
+  "table_id": "table_134",
+  "document": "DS13312 Rev 4 - Table 134. UFBGA169 - Mechanical data",
+  "rev": "Rev 4",
+  "table_number": "134",
+  "title": "Table 134. UFBGA169 - Mechanical data",
+  "page": 270,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=270",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 134. UFBGA169 - Mechanical data — section 7.1 Device marking. Symbol, millimeters / Min., millimeters / Typ., millimeters / Max., inches(1) / Min., +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min.",
+      "millimeters / Typ.",
+      "millimeters / Max.",
+      "inches(1) / Min.",
+      "inches(1) / Typ.",
+      "inches(1) / Max."
+    ],
+    "rows": [
+      [
+        "A",
+        "0.460",
+        "0.530",
+        "0.600",
+        "0.0181",
+        "0.0209",
+        "0.0236"
+      ],
+      [
+        "A1",
+        "0.050",
+        "0.080",
+        "0.110",
+        "0.0020",
+        "0.0031",
+        "0.0043"
+      ],
+      [
+        "A2",
+        "0.400",
+        "0.450",
+        "0.500",
+        "0.0157",
+        "0.0177",
+        "0.0197"
+      ],
+      [
+        "A3",
+        "-",
+        "0.130",
+        "-",
+        "-",
+        "0.0051",
+        "-"
+      ],
+      [
+        "A4",
+        "0.270",
+        "0.320",
+        "0.370",
+        "0.0106",
+        "0.0126",
+        "0.0146"
+      ],
+      [
+        "b",
+        "0.230",
+        "0.280",
+        "0.330",
+        "0.0091",
+        "0.0110",
+        "0.0130"
+      ],
+      [
+        "D",
+        "6.950",
+        "7.000",
+        "7.050",
+        "0.2736",
+        "0.2756",
+        "0.2776"
+      ],
+      [
+        "D1",
+        "5.950",
+        "6.000",
+        "6.050",
+        "0.2343",
+        "0.2362",
+        "0.2382"
+      ],
+      [
+        "E",
+        "6.950",
+        "7.000",
+        "7.050",
+        "0.2736",
+        "0.2756",
+        "0.2776"
+      ],
+      [
+        "E1",
+        "5.950",
+        "6.000",
+        "6.050",
+        "0.2343",
+        "0.2362",
+        "0.2382"
+      ],
+      [
+        "e",
+        "-",
+        "0.500",
+        "-",
+        "-",
+        "0.0197",
+        "-"
+      ],
+      [
+        "F",
+        "0.450",
+        "0.500",
+        "0.550",
+        "0.0177",
+        "0.0197",
+        "0.0217"
+      ],
+      [
+        "ddd",
+        "-",
+        "-",
+        "0.100",
+        "-",
+        "-",
+        "0.0039"
+      ],
+      [
+        "eee",
+        "-",
+        "-",
+        "0.150",
+        "-",
+        "-",
+        "0.0059"
+      ],
+      [
+        "fff",
+        "-",
+        "-",
+        "0.050",
+        "-",
+        "-",
+        "0.0020"
+      ]
+    ],
+    "notes": [
+      "1. Drawing is not to scale."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

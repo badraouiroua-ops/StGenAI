@@ -1,0 +1,279 @@
+{
+  "table_id": "table_39",
+  "caption": "Table 39. PLL characteristics (medium VCO frequency range)",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 120,
+  "merged_pages": [
+    120,
+    121
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=120",
+  "section": "6.3.10 PLL characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f PLL_IN",
+      "PLL input clock",
+      "-",
+      "-",
+      "1",
+      "-",
+      "2",
+      "MHz"
+    ],
+    [
+      "f PLL_IN",
+      "PLL input clock duty cycle",
+      "-",
+      "-",
+      "10",
+      "-",
+      "90",
+      "%"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS1",
+      "VOS1",
+      "1.17",
+      "-",
+      "210",
+      "MHz"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS2",
+      "VOS2",
+      "1.17",
+      "-",
+      "210",
+      "MHz"
+    ],
+    [
+      "f PLL_OUT",
+      "PLL multiplier output clock P, Q, R",
+      "VOS3",
+      "VOS3",
+      "1.17",
+      "-",
+      "200",
+      "MHz"
+    ],
+    [
+      "f VCO_OUT",
+      "PLL VCO output",
+      "-",
+      "-",
+      "150",
+      "-",
+      "420",
+      "MHz"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Normal mode",
+      "Normal mode",
+      "-",
+      "60(2)",
+      "100(2)",
+      "µs"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Sigma-delta mode",
+      "Sigma-delta mode",
+      "forbidden",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(3)",
+      "-",
+      "VCO = 150 MHz",
+      "-",
+      "145",
+      "-",
+      "+/- ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(3)",
+      "-",
+      "VCO = 300 MHz",
+      "-",
+      "91",
+      "-",
+      "+/- ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(3)",
+      "-",
+      "VCO = 400 MHz",
+      "-",
+      "64",
+      "-",
+      "+/- ps"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter(3)",
+      "-",
+      "VCO = 420 MHz",
+      "-",
+      "63",
+      "-",
+      "+/- ps"
+    ],
+    [
+      "Jitter",
+      "Period jitter",
+      "f = PLL_OUT 50 MHz",
+      "VCO = 150 MHz",
+      "-",
+      "55",
+      "-",
+      "+/- ps"
+    ],
+    [
+      "Jitter",
+      "Period jitter",
+      "f = PLL_OUT 50 MHz",
+      "VCO = 400 MHz",
+      "-",
+      "30",
+      "-",
+      "+/- ps"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Normal mode",
+      "VCO = 150 MHz",
+      "-",
+      "-",
+      "-",
+      "%"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Normal mode",
+      "VCO = 300 MHz",
+      "-",
+      "-",
+      "-",
+      "%"
+    ],
+    [
+      "Jitter",
+      "Long term jitter",
+      "Normal mode",
+      "VCO = 400 MHz",
+      "-",
+      "+/-0.3",
+      "-",
+      "%"
+    ],
+    [
+      "I(PLL)(2)",
+      "PLL power consumption on V DD",
+      "VCO freq = 420MHz",
+      "VDD",
+      "-",
+      "440",
+      "1150",
+      "µA"
+    ],
+    [
+      "I(PLL)(2)",
+      "PLL power consumption on V DD",
+      "VCO freq = 420MHz",
+      "VCORE",
+      "-",
+      "530",
+      "-",
+      "µA"
+    ],
+    [
+      "I(PLL)(2)",
+      "PLL power consumption on V DD",
+      "VCO freq = 150MHz",
+      "VDD",
+      "-",
+      "180",
+      "500",
+      "µA"
+    ],
+    [
+      "I(PLL)(2)",
+      "PLL power consumption on V DD",
+      "VCO freq = 150MHz",
+      "VCORE",
+      "-",
+      "200",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. This value must be limited to the maximum frequency due to the product limitation (400 MHz for VOS1, 300 MHz for VOS2, 200 MHz for VOS3).",
+      "3. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_39",
+    "is_continued": true,
+    "pages": [
+      120,
+      121
+    ],
+    "rows_count": 21,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

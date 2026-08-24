@@ -1,0 +1,124 @@
+{
+  "table_id": "table_100",
+  "document": "DS12117 Rev 10 - Table 100. Dynamic characteristics: eMMC characteristics, VDD = 1.71 to 1.9 V",
+  "rev": "Rev 10",
+  "table_number": "100",
+  "title": "Table 100. Dynamic characteristics: eMMC characteristics, VDD = 1.71 to 1.9 V",
+  "page": 197,
+  "section": "6.3.32 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=197",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 100. Dynamic characteristics: eMMC characteristics, VDD = 1.71 to 1.9 V — section 6.3.32 Communications interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f PP",
+        "Clock frequency in data transfer mode",
+        "-",
+        "0",
+        "-",
+        "120",
+        "MHz"
+      ],
+      [
+        "t W(CKL)",
+        "Clock low time",
+        "f =50 MHz PP",
+        "9.5",
+        "10.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t W(CKH)",
+        "Clock high time",
+        "f =50 MHz PP",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode",
+        "CMD, D inputs (referenced to CK) in eMMC mode"
+      ],
+      [
+        "t ISU",
+        "Input setup time HS",
+        "f ≥50 MHz PP",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t IH",
+        "Input hold time HS",
+        "f ≥50 MHz PP",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t (3) IDW",
+        "Input valid window (variable window)",
+        "f ≥50 MHz PP",
+        "3.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode",
+        "CMD, D outputs (referenced to CK) in eMMC mode"
+      ],
+      [
+        "t OV",
+        "Output valid time HS",
+        "f ≥50 MHz PP",
+        "-",
+        "5",
+        "7",
+        "ns"
+      ],
+      [
+        "t OH",
+        "Output hold time HS",
+        "f ≥50 MHz PP",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

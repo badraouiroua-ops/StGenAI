@@ -1,0 +1,81 @@
+{
+  "table_id": "table_122",
+  "caption": "Table 122. I3C open-drain measured timing",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 267,
+  "merged_pages": [
+    267,
+    268
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=267",
+  "section": "6.3.33 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "I3C open drain mode",
+    "",
+    "Timing measurements",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t SU_OD",
+      "SDA data setup time during open drain mode",
+      "Controller 1.71 V < V < 3.6 V DD",
+      "3",
+      "-",
+      "16",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 0,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by characterization results. I2C interface characteristics",
+      "2. At VOS Low, these values are degraded by up to 7%. DS14359 Rev 7 269/325",
+      "4. Spikes with widths below t are filtered. AF(min)",
+      "5. Spikes with widths above t are not filtered. AF(max)"
+    ],
+    "_legend": [
+      "(specification) Timing"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:3",
+    "header_depth_forced:1",
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_122",
+    "is_continued": true,
+    "pages": [
+      267,
+      268
+    ],
+    "rows_count": 1,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

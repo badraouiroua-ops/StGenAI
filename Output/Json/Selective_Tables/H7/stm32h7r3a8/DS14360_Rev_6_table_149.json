@@ -1,0 +1,212 @@
+{
+  "table_id": "table_149",
+  "document": "DS14360 Rev 6 - Table 149. WLCSP101 - Mechanical data",
+  "rev": "Rev 6",
+  "table_number": "149",
+  "title": "Table 149. WLCSP101 - Mechanical data",
+  "page": 308,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=308",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 149. WLCSP101 - Mechanical data — section 7.1 Device marking. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(1) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min",
+      "millimeters / Typ",
+      "millimeters / Max",
+      "inches(1) / Min",
+      "inches(1) / Typ",
+      "inches(1) / Max"
+    ],
+    "rows": [
+      [
+        "A(2)",
+        "-",
+        "-",
+        "0.58",
+        "-",
+        "-",
+        "0.0228"
+      ],
+      [
+        "A1",
+        "-",
+        "0.17",
+        "-",
+        "-",
+        "0.0065",
+        "-"
+      ],
+      [
+        "A2",
+        "-",
+        "0.38",
+        "-",
+        "-",
+        "0.0150",
+        "-"
+      ],
+      [
+        "A3(3)",
+        "-",
+        "0.025",
+        "-",
+        "-",
+        "0.0010",
+        "-"
+      ],
+      [
+        "Øb(4)",
+        "0.21",
+        "0.24",
+        "0.27",
+        "0.0083",
+        "0.0094",
+        "0.0106"
+      ],
+      [
+        "D",
+        "3.84",
+        "3.86",
+        "3.88",
+        "0.1512",
+        "0.1519",
+        "0.1527"
+      ],
+      [
+        "E",
+        "3.77",
+        "3.79",
+        "3.81",
+        "0.1482",
+        "0.1490",
+        "0.1498"
+      ],
+      [
+        "e",
+        "-",
+        "0.35",
+        "-",
+        "-",
+        "0.0138",
+        "-"
+      ],
+      [
+        "e1",
+        "-",
+        "3.03",
+        "-",
+        "-",
+        "0.1193",
+        "-"
+      ],
+      [
+        "e2",
+        "-",
+        "3.15",
+        "-",
+        "-",
+        "0.1240",
+        "-"
+      ],
+      [
+        "F(5)",
+        "-",
+        "0.414",
+        "-",
+        "-",
+        "0.0163",
+        "-"
+      ],
+      [
+        "G(5)",
+        "-",
+        "0.320",
+        "-",
+        "-",
+        "0.0125",
+        "-"
+      ],
+      [
+        "N(6)",
+        "101",
+        "101",
+        "101",
+        "101",
+        "101",
+        "101"
+      ],
+      [
+        "Tolerance of form and position",
+        "Tolerance of form and position",
+        "Tolerance of form and position",
+        "Tolerance of form and position",
+        "Tolerance of form and position",
+        "Tolerance of form and position",
+        "Tolerance of form and position"
+      ],
+      [
+        "aaa",
+        "-",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.004"
+      ],
+      [
+        "bbb",
+        "-",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.004"
+      ],
+      [
+        "ccc(7)",
+        "-",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.004"
+      ],
+      [
+        "ddd(8)",
+        "-",
+        "-",
+        "0.05",
+        "-",
+        "-",
+        "0.002"
+      ],
+      [
+        "eee",
+        "-",
+        "-",
+        "0.05",
+        "-",
+        "-",
+        "0.002"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "2. The maximum total package height is calculated by the RSS method (Root Sum Square) using nominal and tolerances values of A1 and A2.",
+      "3. Back side coating. Nominal dimension is rounded to the 3rd decimal place resulting from process capability.",
+      "4. Dimension is measured at the maximum bump diameter parallel to primary datum Z.",
+      "5. Calculated dimensions are rounded to the third decimal place.",
+      "6. N is the total number of terminals.",
+      "7. Bump position designation per JESD 95-1, SPP-010. The tolerance of position that controls the location of the pattern of balls with respect to datums X and Y. For each ball there is a cylindrical tolerance zone ccc perpendicular to datum Z and",
+      "8. The tolerance of position that controls the location of the balls within the matrix with respect to each other. For each ball there is a cylindrical tolerance zone ddd perpendicular to datum Z and located on true position as defined by e. The axis"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "table_id": "table_49",
+  "document": "DS13139 Rev 8 - Table 49. 4-50 MHz HSE oscillator characteristics",
+  "rev": "Rev 8",
+  "table_number": "49",
+  "title": "Table 49. 4-50 MHz HSE oscillator characteristics",
+  "page": 108,
+  "section": "6.3.9 External clock source characteristics",
+  "section_title": "External clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=108",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 49. 4-50 MHz HSE oscillator characteristics — section 6.3.9 External clock source characteristics. Symbol, Parameter, Operating conditions(1), Min(2), Typ(2), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Operating conditions(1)",
+      "Min(2)",
+      "Typ(2)",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F",
+        "Oscillator frequency",
+        "-",
+        "4",
+        "-",
+        "50",
+        "MHz"
+      ],
+      [
+        "RF",
+        "Feedback resistor",
+        "-",
+        "-",
+        "200",
+        "-",
+        "kΩ"
+      ],
+      [
+        "IDD(HSE)",
+        "HSE current consumption",
+        "During startup(3)",
+        "-",
+        "-",
+        "4",
+        "mA"
+      ],
+      [
+        "IDD(HSE)",
+        "HSE current consumption",
+        "VDD=3 V, Rm=30 Ω CL=10 pF at 4 MHz",
+        "-",
+        "0.35",
+        "-",
+        "mA"
+      ],
+      [
+        "IDD(HSE)",
+        "HSE current consumption",
+        "VDD=3 V, Rm=30 Ω CL=10 pF at 8 MHz",
+        "-",
+        "0.40",
+        "-",
+        "mA"
+      ],
+      [
+        "IDD(HSE)",
+        "HSE current consumption",
+        "VDD=3 V, Rm=30 Ω CL=10 pF at 16 MHz",
+        "-",
+        "0.45",
+        "-",
+        "mA"
+      ],
+      [
+        "IDD(HSE)",
+        "HSE current consumption",
+        "VDD=3 V, Rm=30 Ω CL=10 pF at 32 MHz",
+        "-",
+        "0.65",
+        "-",
+        "mA"
+      ],
+      [
+        "IDD(HSE)",
+        "HSE current consumption",
+        "VDD=3 V, Rm=30 Ω CL=10 pF at 48 MHz",
+        "-",
+        "0.95",
+        "-",
+        "mA"
+      ],
+      [
+        "Gmcritmax",
+        "Maximum critical crystal gm",
+        "Startup",
+        "-",
+        "-",
+        "1.5",
+        "mA/V"
+      ],
+      [
+        "tSU(4)",
+        "Start-up time",
+        "VDD is stabilized",
+        "-",
+        "2",
+        "-",
+        "ms"
+      ]
+    ],
+    "notes": [
+      "1. Resonator characteristics given by the crystal/ceramic resonator manufacturer.",
+      "2. Guaranteed by design.",
+      "3. This consumption level occurs during the first 2/3 of the tSU(HSE) startup time. DS13139 - Rev 8 page 108/238",
+      "4. tSU(HSE) is the startup time measured from the moment it is enabled (by software) to a stabilized 8 MHz oscillation is reached. This value is measured for a standard crystal resonator and it can vary significantly with the crystal manufacturer."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "table_id": "table_17",
+  "caption": "Table 17. SMPS step-down converter characteristics for external usage",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 121,
+  "merged_pages": [
+    121,
+    122
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=121",
+  "section": "6.3.3 SMPS step-down converter",
+  "headers": [
+    "Parameters",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V (1) DDSMPS",
+      "V = 1.8 V OUT",
+      "2.3",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V (1) DDSMPS",
+      "V = 2.5 V OUT",
+      "3",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V (2) OUT",
+      "Iout=600 mA",
+      "2.25",
+      "2.5",
+      "2.75",
+      "V"
+    ],
+    [
+      "V (2) OUT",
+      "Iout=600 mA",
+      "1.62",
+      "1.8",
+      "1.98",
+      "V"
+    ],
+    [
+      "I OUT",
+      "internal and external usage",
+      "-",
+      "-",
+      "600",
+      "mA"
+    ],
+    [
+      "I OUT",
+      "External usage only(3)",
+      "-",
+      "-",
+      "600",
+      "mA"
+    ],
+    [
+      "RDS ON",
+      "-",
+      "-",
+      "100",
+      "120",
+      "mΩ"
+    ],
+    [
+      "I DDSMPS_Q",
+      "Quiescent current",
+      "-",
+      "220",
+      "-",
+      "µA"
+    ],
+    [
+      "T SMPS_START",
+      "V = 1.8 V OUT",
+      "-",
+      "270",
+      "405",
+      "µs"
+    ],
+    [
+      "T SMPS_START",
+      "V = 2.5 V OUT",
+      "-",
+      "360",
+      "540",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 6,
+      "cont_cols_raw": 6,
+      "target_cols": 6,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. The switching frequency is 2.4 MHz±10%",
+      "2. Including line transient and load transient.",
+      "3. These characteristics are given for SDEXTHP bit is set in the PWR_CR3 register."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_17",
+    "is_continued": true,
+    "pages": [
+      121,
+      122
+    ],
+    "rows_count": 10,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "table_id": "table_21",
+  "document": "DS13195 Rev 8 - Table 21. Thermal characteristics",
+  "rev": "Rev 8",
+  "table_number": "21",
+  "title": "Table 21. Thermal characteristics",
+  "page": 81,
+  "section": "6.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=81",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 21. Thermal characteristics — section 6.2 Absolute maximum ratings. Symbol, Ratings, Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "TSTG",
+        "Storage temperature range",
+        "-65 to +150",
+        "°C"
+      ],
+      [
+        "TJmax",
+        "Maximum junction temperature",
+        "130(1)",
+        "°C"
+      ]
+    ],
+    "notes": [
+      "1. VIN maximum value must always be respected. Refer to Table 64. I/O current injection susceptibility for the maximum allowed injected current values."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

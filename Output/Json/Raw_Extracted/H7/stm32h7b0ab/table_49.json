@@ -1,0 +1,166 @@
+{
+  "table_id": "table_49",
+  "caption": "Table 49. HSI48 oscillator characteristics",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 93,
+  "merged_pages": [
+    93,
+    94
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=93",
+  "section": "6.3.10 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fHSI48",
+      "HSI48 frequency",
+      "VDD = 3.3 V, TJ = 30 °C",
+      "47.5(1)",
+      "48",
+      "48.5(1)",
+      "MHz"
+    ],
+    [
+      "TRIM(2)",
+      "User trimming step",
+      "-",
+      "-",
+      "0.175",
+      "0.250",
+      "%"
+    ],
+    [
+      "USER TRIM COVERAGE(3)",
+      "User trimming coverage",
+      "± 32 steps",
+      "±4,70",
+      "±5.6",
+      "-",
+      "%"
+    ],
+    [
+      "DuCy(HSI48)(2)",
+      "Duty cycle",
+      "-",
+      "45",
+      "-",
+      "55",
+      "%"
+    ],
+    [
+      "ACCHSI48_REL(3)",
+      "Accuracy of the HSI48 oscillator over temperature (reference is 30 °C)",
+      "TJ = -40 to 130 °C",
+      "-4.5",
+      "-",
+      "4",
+      "%"
+    ],
+    [
+      "ΔVDD(HSI48)(2)",
+      "HSI48 oscillator frequency drift with VDD (reference is 3.3 V)",
+      "VDD = 3 to 3.6 V",
+      "-",
+      "0.025",
+      "0.05",
+      "%"
+    ],
+    [
+      "ΔVDD(HSI48)(2)",
+      "HSI48 oscillator frequency drift with VDD (reference is 3.3 V)",
+      "VDD = 1.62 to 3.6 V",
+      "-",
+      "0.05",
+      "0.1",
+      "%"
+    ],
+    [
+      "tsu(HSI48)(2)",
+      "HSI48 oscillator startup time",
+      "-",
+      "-",
+      "2.1",
+      "4.0",
+      "µs"
+    ],
+    [
+      "IDD(HSI48)(2)",
+      "HSI48 oscillator power consumption",
+      "-",
+      "-",
+      "350",
+      "400",
+      "µA"
+    ],
+    [
+      "NT jitter(2)",
+      "Next transition jitter accumulated jitter on 28 cycles",
+      "-",
+      "-",
+      "± 0.15",
+      "-",
+      "ns"
+    ],
+    [
+      "PT jitter(2)",
+      "Paired transition jitter Accumulated jitter on 56 cycles(6)",
+      "-",
+      "-",
+      "± 0.25",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Refer to the note and caution paragraphs below the table, and to the application note AN2867 “Oscillator design guide for ST microcontrollers.",
+      "2. Guaranteed by design.",
+      "3. tSU is the startup time measured from the moment it is enabled (by software) to a stabilized 32.768k Hz oscillation is reached. This value is measured for a standard crystal resonator and it can vary significantly with the crystal manufacturer.",
+      "6. Jitter measurements are performed without clock sources activated in parallel. 64 MHz high-speed internal RC oscillator (HSI)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_49",
+    "is_continued": true,
+    "pages": [
+      93,
+      94
+    ],
+    "rows_count": 11,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

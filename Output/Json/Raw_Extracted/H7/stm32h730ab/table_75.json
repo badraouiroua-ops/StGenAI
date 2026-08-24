@@ -1,0 +1,120 @@
+{
+  "table_id": "table_75",
+  "caption": "Table 75. SDRAM read timings",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 178,
+  "merged_pages": [
+    178
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=178",
+  "section": "6.3.19 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(SDCLK)",
+      "FMC_SDCLK period",
+      "2T – fmc_ker_ck 0.5",
+      "2T fmc_ker_ck +0.5",
+      "ns"
+    ],
+    [
+      "t su(SDCLKH _Data)",
+      "Data input setup time",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      ")ataD_HKLCDS(h t",
+      "Data input hold time",
+      "1.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_Add)",
+      "Address valid time",
+      "-",
+      "2.0",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL- SDNE)",
+      "Chip select valid time",
+      "-",
+      "1.5(2)",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNE)",
+      "Chip select hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNRAS)",
+      "SDNRAS valid time",
+      "-",
+      "1",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNRAS)",
+      "SDNRAS hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNCAS)",
+      "SDNCAS valid time",
+      "-",
+      "2.0",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNCAS)",
+      "SDNCAS hold time",
+      "0.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. Using PC2_C I/O adds 4.5 ns to this timing. 178/270 DS13315 Rev 5"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_75",
+    "is_continued": false,
+    "pages": [
+      178
+    ],
+    "rows_count": 10,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

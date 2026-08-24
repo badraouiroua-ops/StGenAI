@@ -1,0 +1,55 @@
+{
+  "table_id": "table_147",
+  "document": "DS14359 Rev 7 - Table 147. UFBGA144 - Recommended PCB design rules (0.80 mm pitch BGA)",
+  "rev": "Rev 7",
+  "table_number": "147",
+  "title": "Table 147. UFBGA144 - Recommended PCB design rules (0.80 mm pitch BGA)",
+  "page": 302,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=302",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 147. UFBGA144 - Recommended PCB design rules (0.80 mm pitch BGA) — section 7.1 Device marking. Dimension, Recommended values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Recommended values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.80 mm"
+      ],
+      [
+        "Dpad",
+        "0.400 mm"
+      ],
+      [
+        "Dsm",
+        "0.550 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.400 mm"
+      ],
+      [
+        "Stencil thickness",
+        "Between 0.100 mm and 0.125 mm"
+      ],
+      [
+        "Pad trace width",
+        "0.120 mm"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits. Figure 88. UFBGA144 - Recommended footprint",
+      "2. Primary datum C is defined by the plane established by the contact points of three or more solder balls that support the device when it is placed on top of a planar surface.",
+      "3. The terminal (ball) A1 corner must be identified on the top surface of the package by using a corner chamfer, ink or metallized markings, or other feature of package body or integral heat slug. A distinguish"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

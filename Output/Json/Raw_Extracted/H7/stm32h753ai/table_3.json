@@ -1,0 +1,62 @@
+{
+  "table_id": "table_3",
+  "caption": "Table 3. System vs domain low-power mode",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 30,
+  "merged_pages": [
+    30
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=30",
+  "section": "3.6 Low-power strategy",
+  "headers": [
+    "System power mode",
+    "D1 domain power mode",
+    "D2 domain power mode",
+    "D3 domain power mode"
+  ],
+  "rows": [
+    [
+      "Run",
+      "DRun/DStop/DStandby",
+      "DRun/DStop/DStandby",
+      "DRun"
+    ],
+    [
+      "Stop",
+      "DStop/DStandby",
+      "DStop/DStandby",
+      "DStop"
+    ],
+    [
+      "Standby",
+      "DStandby",
+      "DStandby",
+      "DStandby"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_3",
+    "is_continued": false,
+    "pages": [
+      30
+    ],
+    "rows_count": 3,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

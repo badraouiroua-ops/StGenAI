@@ -1,0 +1,54 @@
+{
+  "table_id": "table_74",
+  "document": "DS12556 Rev 8 - Table 74. Dynamics characteristics: Delay Block characteristics",
+  "rev": "Rev 8",
+  "table_number": "74",
+  "title": "Table 74. Dynamics characteristics: Delay Block characteristics",
+  "page": 156,
+  "section": "6.3.19 Delay block (DLYB) characteristics",
+  "section_title": "Delay block (DLYB) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=156",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 74. Dynamics characteristics: Delay Block characteristics — section 6.3.19 Delay block (DLYB) characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t init",
+        "Initial delay",
+        "-",
+        "1400",
+        "2200",
+        "2400",
+        "ps"
+      ],
+      [
+        "t ∆",
+        "Unit Delay",
+        "-",
+        "35",
+        "40",
+        "45",
+        "ps"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. These values are obtained using the following formula: f = f / t , S ADC CONV",
+      "3. Depending on the package, V can be internally connected to V and V to V . REF+ DDA REF- SSA"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

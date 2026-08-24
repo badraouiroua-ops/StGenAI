@@ -1,0 +1,57 @@
+{
+  "table_id": "table_127",
+  "document": "DS12919 Rev 3 - Table 127. Tolerance of form and position definitions",
+  "rev": "Rev 3",
+  "table_number": "127",
+  "title": "Table 127. Tolerance of form and position definitions",
+  "page": 238,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=238",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "text_helper": "Table 127. Tolerance of form and position definitions — section 7.1 Device marking. Symbol, Definition.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Definition"
+    ],
+    "rows": [
+      [
+        "aaa",
+        "The profile tolerance controls the location and orientation of the sides of the package."
+      ],
+      [
+        "ccc",
+        "The parallelism tolerance controls the orientation of the top surface of the package with respect to the seating plane, datum C."
+      ],
+      [
+        "ddd",
+        "The profile tolerance controls the location of the crowns of the balls with respect to datum C (coplanarity)."
+      ],
+      [
+        "eee",
+        "The tolerance of position that controls the location of the pattern of balls with respect to datum's A and B."
+      ],
+      [
+        "fff",
+        "The tolerance of position that controls the location of the balls within the matrix with respect to each other."
+      ]
+    ],
+    "notes": [
+      "1. Dimensioning and tolerancing schemes conform to ASME Y14.5M-1994.",
+      "2. Values in inches are converted from millimeters and rounded to four decimal digits.",
+      "3. The profile height, A, is the distance from the seating plane to the highest point on the package. It is measured perpendicular to the seating plane.",
+      "4. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "5. TFBGA stands for thin profile fine pitch ball grid array: 1.00 mm < A ≤ 1.20 mm / fine pitch e < 1.00 mm.",
+      "6. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+      "7. BSC stands for basic dimensions. It corresponds to the nominal value and has no tolerance. For tolerances, refer to Table 126.",
+      "8. Primary datum C is defined by the plane established by the contact points of three or more solder balls that support the device when it is placed on top of a planar surface.",
+      "9. The terminal (ball) A1 corner must be identified on the top surface of the package by using a corner chamfer, ink or metallized markings, or other feature of package body or"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

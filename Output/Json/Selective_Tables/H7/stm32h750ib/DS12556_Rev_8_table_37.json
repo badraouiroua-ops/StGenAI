@@ -1,0 +1,80 @@
+{
+  "table_id": "table_37",
+  "document": "DS12556 Rev 8 - Table 37. LSI oscillator characteristics",
+  "rev": "Rev 8",
+  "table_number": "37",
+  "title": "Table 37. LSI oscillator characteristics",
+  "page": 119,
+  "section": "6.3.9 Internal clock source characteristics",
+  "section_title": "Internal clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=119",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 37. LSI oscillator characteristics — section 6.3.9 Internal clock source characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f (1) LSI",
+        "LSI frequency",
+        "V = 3.3 V, T = 25 °C DD J",
+        "31.4",
+        "32",
+        "32.6",
+        "kHz"
+      ],
+      [
+        "f (1) LSI",
+        "LSI frequency",
+        "T = –40 to 105 °C, V = J DD 1.62 to 3.6 V",
+        "29.76",
+        "-",
+        "33.60",
+        "kHz"
+      ],
+      [
+        "t (2) su(LSI)",
+        "LSI oscillator startup time",
+        "-",
+        "-",
+        "80",
+        "130",
+        "µs"
+      ],
+      [
+        "t (2) stab(LSI)",
+        "LSI oscillator stabilization time (5% of final value)",
+        "-",
+        "-",
+        "120",
+        "170",
+        "µs"
+      ],
+      [
+        "I (2) DD(LSI)",
+        "LSI oscillator power consumption",
+        "-",
+        "-",
+        "130",
+        "280",
+        "nA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design unless otherwise specified.",
+      "2. This value must be limited to the maximum frequency due to the product limitation (400 MHz for VOS1, 300 MHz for VOS2, 200 MHz for VOS3)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

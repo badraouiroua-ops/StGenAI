@@ -1,0 +1,43 @@
+{
+  "table_id": "table_145",
+  "document": "DS13195 Rev 8 - Table 145. Document revision history",
+  "rev": "Rev 8",
+  "table_number": "145",
+  "title": "Table 145. Document revision history",
+  "page": 223,
+  "section": "7.11.1 Reference documents",
+  "section_title": "Reference documents",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=223",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 145. Document revision history — section 7.11.1 Reference documents. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "22-Jan-2020",
+        "1",
+        "Initial release."
+      ],
+      [
+        "24-Apr-2020",
+        "2",
+        "Updated Octo-SPI interface in Table 1. STM32H7A3xI/G features and peripheral counts. Updated Figure 2. Power-up/power-down sequence in Section 6.1.6 Power supply scheme. Updated HSLV feature description in Section 3.8 General-purpose input/outputs (GPIOs). Section 5 Pin descriptions: updated Table 6. Legend/abbreviations used in the pinout table; changed SPDIFRX into SPDIFRX1 and updated all SPDIFRX1 pin names. Updated Table 19. Voltage characteristics to add VREF+ in the list of external main supply voltage. Removed clock frequencies from Table 22. General operating conditions and added new Section 6.3.1 . Changed condition for tRSTTEMPO in Table 29. Reset and power control block characteristics. Added IDD50USB in Table 32. USB regulator characteristics. Updated Table 40. Typical current consumption in System Stop mode, added Table 41. Typical current consumption RAM shutoff in Stop mode, added IWDG and changed SPDIFRX into SPDIFRX1 in Table 44. Peripheral current consumption in Run mode. Table 58. Flash memory programming: updated table title, updated tME description and unit. In the whole Section 6.3.18 FMC characteristics, replaced sentence \"the TKERCK is the fmc_ker_ck clock period\" by \"the Tfmc_ker_ck is the kernel clock period\". Section 6.3.19 Octo-SPI interface characteristics: added parameter measurement conditions, updated Table 90. OCTOSPI characteristics in SDR mode and Table 91. OCTOSPI characteristics in DTR mode (with DQS)/Octal and Hyperbus, updated Figure 51. OctoSPI Hyperbus clock, Figure 52. OctoSPI Hyperbus read and Figure 53. OctoSPI Hyperbus write. Updated Figure 57. Power supply and reference decoupling (VREF+ not connected to VDDA), note 1. and note 1.. Section 6.3.30 Digital filter for Sigma-Delta Modulators (DFSDM) characteristics, Section 6.3.31 Camera interface (DCMI) timing specificationsSection 6.3.33 LCD-TFT controller (LTDC) characteristics, Section 6.3.36.2 USART interface characteristics, Section 6.3.36.3 SPI interface characteristics, Section 6.3.36.4 I2S Interface characteristics, Section 6.3.36.5 SAI characteristics, Section 6.3.36.7 SD/SDIO MMC card host interface (SDMMC) characteristics, Section 6.3.36.8 USB OTG_FS characteristics, Section 6.3.36.9 USB OTG_HS characteristics, Section 6.3.36.10 JTAG/SWD interface characteristics: changed VOS level to VOS0 in the parameter measurement conditions."
+      ],
+      [
+        "08-Jul-2020",
+        "3",
+        "Updated note related to ULPI interface availability on packages that do not feature PC2 and PC3 I/Os in Table 1. STM32H7A3xI/G features and peripheral counts. Updated Table 20. Current characteristics, Table 21. Thermal characteristics and Figure 22. Current consumption measurement scheme."
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

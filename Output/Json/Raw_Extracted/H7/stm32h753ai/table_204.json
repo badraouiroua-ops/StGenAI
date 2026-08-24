@@ -1,0 +1,112 @@
+{
+  "table_id": "table_204",
+  "caption": "Table 204. Dynamics characteristics: Ethernet MAC signals for MII",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 314,
+  "merged_pages": [
+    314
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=314",
+  "section": "7.3.32 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t su(RXD)",
+      "Receive data setup time",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(RXD)",
+      "Receive data hold time",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(DV)",
+      "Data valid setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(DV)",
+      "Data valid hold time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(ER)",
+      "Error setup time",
+      "1.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(ER)",
+      "Error hold time",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(TXEN)",
+      "Transmit enable valid delay time",
+      "9",
+      "10",
+      "11",
+      "ns"
+    ],
+    [
+      "t d(TXD)",
+      "Transmit data valid delay time",
+      "8.5",
+      "9.5",
+      "12.5",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_204",
+    "is_continued": false,
+    "pages": [
+      314
+    ],
+    "rows_count": 8,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

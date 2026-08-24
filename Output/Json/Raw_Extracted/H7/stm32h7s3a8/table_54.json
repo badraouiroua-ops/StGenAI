@@ -1,0 +1,114 @@
+{
+  "table_id": "table_54",
+  "caption": "Table 54. High-speed external user clock characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 190,
+  "merged_pages": [
+    190
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=190",
+  "section": "6.3.9 External clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f HSE_ext",
+      "User external clock source frequency",
+      "External digital/ analog clock",
+      "4",
+      "25",
+      "50",
+      "MHz"
+    ],
+    [
+      "V HSEH",
+      "Digital OSC_IN input high-level voltage",
+      "External digital clock",
+      "0.7 V DD",
+      "-",
+      "V DD",
+      "V"
+    ],
+    [
+      "V HSEL",
+      "Digital OSC_IN input low-level voltage",
+      "External digital cwlock",
+      "V SS",
+      "-",
+      "0.3 V DD",
+      "V"
+    ],
+    [
+      "t (2) W(HSE)",
+      "OSC_IN high or low time(2)",
+      "External digital clock",
+      "7",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "V lswHSE (V -V )(3) HSEH HSEL",
+      "Analog low swing OSC_IN peak-to- peak amplitud(3)e",
+      "External Analog Low Swing Clock",
+      "0.2",
+      "-",
+      "2/3 V DD",
+      "V"
+    ],
+    [
+      "DuCyHSE",
+      "Analog low swing OSC_IN duty cycle",
+      "External analog low-swing clock",
+      "45",
+      "50",
+      "55",
+      "%"
+    ],
+    [
+      "t /t rHSE fHSE",
+      "Analog low swing OSC_IN rise and fall time(3)",
+      "External analog low -swing clock 10% to 90%",
+      "0.05 / f HSE_ext",
+      "-",
+      "0.3 / f HSE_ext",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. No specified rise and fall time for a digital input signal but the VHSEH and VHSEL conditions must be fulfilled.",
+      "3. The DC component of the signal must insure that the signal peaks are located between V and V . DD SS"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_54",
+    "is_continued": false,
+    "pages": [
+      190
+    ],
+    "rows_count": 7,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

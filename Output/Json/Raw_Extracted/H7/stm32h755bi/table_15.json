@@ -1,0 +1,91 @@
+{
+  "table_id": "table_15",
+  "caption": "Table 15. VCAP operating conditions",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 106,
+  "merged_pages": [
+    106
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=106",
+  "section": "6.3.2 VCAP external capacitor",
+  "headers": [
+    "Figure 15. External capacitor C EXT",
+    ""
+  ],
+  "rows": [
+    [
+      "C",
+      ""
+    ],
+    [
+      "ESR C",
+      ""
+    ],
+    [
+      "ESR R Leak",
+      ""
+    ],
+    [
+      "ESR R Leak",
+      "MS1904"
+    ],
+    [
+      "1. Legend: ESR isthe equivalent seriesresistance. R Leak",
+      "MS1904"
+    ],
+    [
+      "1. Le Symbolthe equivalent series Parameter Condition",
+      "s"
+    ],
+    [
+      "1. Le CEXT Capacitance of external capacitor 2.2 µF(2)",
+      "s"
+    ],
+    [
+      "1. Le ESR ESR of externalcapacitor < 100 mΩ",
+      "s"
+    ],
+    [
+      "1. Inbypass mode , the two 2.2 μF VCAP capacitorsare not required and should be replaced by t",
+      "wo 100 nF"
+    ]
+  ],
+  "extraction_method": "pdfplumber_text",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.1667,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 8,
+    "truncated_rows": 4,
+    "bleed_rows_removed": 3,
+    "columns_initial": 8,
+    "columns_merged": 6,
+    "columns_final": 2,
+    "footnote_rows_removed": 3,
+    "post_merge_bleed_removed": 1,
+    "_notes": [
+      "2. Only for power-up sequence when the SMPS step-down converter supplies the LDO."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "no_table_obj_for_spans",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_15",
+    "is_continued": false,
+    "pages": [
+      106
+    ],
+    "rows_count": 9,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.1667
+  }
+}

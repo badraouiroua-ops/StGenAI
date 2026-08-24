@@ -1,0 +1,56 @@
+{
+  "table_id": "table_12",
+  "caption": "Table 12. Thermal characteristics",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 106,
+  "merged_pages": [
+    106
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=106",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "T STG",
+      "Storage temperature range",
+      "-65 to +150",
+      "°C"
+    ],
+    [
+      "T J",
+      "Maximum junction temperature",
+      "125",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_12",
+    "is_continued": false,
+    "pages": [
+      106
+    ],
+    "rows_count": 2,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

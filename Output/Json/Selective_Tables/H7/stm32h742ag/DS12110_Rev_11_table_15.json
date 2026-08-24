@@ -1,0 +1,70 @@
+{
+  "table_id": "table_15",
+  "document": "DS12110 Rev 11 - Table 15. VCAP operating conditions",
+  "rev": "Rev 11",
+  "table_number": "15",
+  "title": "Table 15. VCAP operating conditions",
+  "page": 106,
+  "section": "6.3.2 VCAP external capacitor",
+  "section_title": "VCAP external capacitor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=106",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 15. VCAP operating conditions — section 6.3.2 VCAP external capacitor. Figure 17. External capacitor C EXT, .",
+  "table_content": {
+    "headers": [
+      "Figure 17. External capacitor C EXT",
+      ""
+    ],
+    "rows": [
+      [
+        "C",
+        ""
+      ],
+      [
+        "ESR C",
+        ""
+      ],
+      [
+        "ESR R Leak",
+        ""
+      ],
+      [
+        "1. L egend: ESR is the equivalentseries resistance.",
+        ""
+      ],
+      [
+        "1. L egend: ESR is t Table 15. VCAP operatingconditions(1)",
+        ""
+      ],
+      [
+        "1. L Symbol Tab Parameterconditions(1)",
+        "Conditions"
+      ],
+      [
+        "1. L CEXT Capacitance of external capacitor",
+        "2.2 µF(2)"
+      ],
+      [
+        "1. L ESR Cap ESR of external capacitorcitor",
+        "< 1 00 mΩ"
+      ],
+      [
+        "1. W hen bypassingthe voltage regulator, the two 2.2 µF V CAP capacitors are not",
+        "requiredand should"
+      ],
+      [
+        "replaced by two 1 00 nF decoupling capacitors. 2.2 µF V CAP capacitors are not",
+        "requiredand should"
+      ]
+    ],
+    "notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

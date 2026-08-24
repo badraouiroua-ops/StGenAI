@@ -1,0 +1,37 @@
+{
+  "table_id": "table_35",
+  "document": "DS14359 Rev 7 - Table 35. Internal reference voltage calibration values",
+  "rev": "Rev 7",
+  "table_number": "35",
+  "title": "Table 35. Internal reference voltage calibration values",
+  "page": 168,
+  "section": "6.3.6 Embedded reference voltage characteristics",
+  "section_title": "Embedded reference voltage characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=168",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 35. Internal reference voltage calibration values — section 6.3.6 Embedded reference voltage characteristics. Symbol, Parameter, Memory address.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Memory address"
+    ],
+    "rows": [
+      [
+        "V REFIN_CAL",
+        "Raw data acquired at temperature of 30 °C, V = 3.3 V DDA",
+        "0x08FF F810 - 0x08FF F811"
+      ]
+    ],
+    "notes": [
+      "1. The shortest sampling time for the application can be determined by multiple iterations.",
+      "2. Guaranteed by design.",
+      "3. Guaranteed by design. and tested in production at 3.3 V."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "table_id": "table_10",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "ΣIV DD",
+      "row_index": 0,
+      "analyse_visuelle": "Le texte d'indice 'DD' a été rejeté à la fin de la phrase au lieu d'être accolé à 'V' pour former 'VDD'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Total current into sum of all V power lines (source)(1) DD",
+          "nouvelle_valeur": "Total current into sum of all VDD power lines (source)(1)",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "ΣIV SS",
+      "row_index": 1,
+      "analyse_visuelle": "Le texte d'indice 'SS' a été rejeté à la fin de la phrase au lieu d'être accolé à 'V' pour former 'VSS'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Total current out of sum of all V ground lines (sink)(1) SS",
+          "nouvelle_valeur": "Total current out of sum of all VSS ground lines (sink)(1)",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "IV DD",
+      "row_index": 2,
+      "analyse_visuelle": "Le texte d'indice 'DD' a été rejeté à la fin de la phrase au lieu d'être accolé à 'V' pour former 'VDD'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Maximum current into each V power pin (source)(1) DD",
+          "nouvelle_valeur": "Maximum current into each VDD power pin (source)(1)",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "IV SS",
+      "row_index": 3,
+      "analyse_visuelle": "Le texte d'indice 'SS' a été rejeté à la fin de la phrase au lieu d'être accolé à 'V' pour former 'VSS'.",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Maximum current out of each V ground pin (sink)(1) SS",
+          "nouvelle_valeur": "Maximum current out of each VSS ground pin (sink)(1)",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

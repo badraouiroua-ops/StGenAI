@@ -1,0 +1,71 @@
+{
+  "table_id": "table_12",
+  "caption": "Table 12. Thermal characteristics",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 116,
+  "merged_pages": [
+    116
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=116",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Ratings",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "T STG",
+      "Storage temperature range",
+      "Storage temperature range",
+      "-65 to +150",
+      "°C"
+    ],
+    [
+      "T J",
+      "Maximum junction temperature",
+      "Industrial temperature range 6",
+      "125",
+      "°C"
+    ],
+    [
+      "T J",
+      "Maximum junction temperature",
+      "Extended Industrial temperature range 3",
+      "140",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "3. Positive injection is not possible on these I/Os and does not occur for input voltages lower than the specified maximum value.",
+      "4. A positive injection is induced by V >V while a negative injection is induced by V <V . I must IN DD IN SS INJ(PIN)",
+      "5. When several inputs are submitted to a current injection, the maximum ∑I is the absolute sum of the INJ(PIN)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_12",
+    "is_continued": false,
+    "pages": [
+      116
+    ],
+    "rows_count": 3,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

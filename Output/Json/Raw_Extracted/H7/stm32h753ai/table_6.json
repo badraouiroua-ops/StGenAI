@@ -1,0 +1,128 @@
+{
+  "table_id": "table_6",
+  "caption": "Table 6. USART features",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 48,
+  "merged_pages": [
+    48
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=48",
+  "section": "3.32 Universal synchronous/asynchronous receiver transmitter",
+  "headers": [
+    "USART modes/features(1)",
+    "USART1/2/3/6",
+    "UART4/5/7/8"
+  ],
+  "rows": [
+    [
+      "Hardware flow control for modem",
+      "X",
+      "X"
+    ],
+    [
+      "Continuous communication using DMA",
+      "X",
+      "X"
+    ],
+    [
+      "Multiprocessor communication",
+      "X",
+      "X"
+    ],
+    [
+      "Synchronous SPI mode (master/slave)",
+      "X",
+      "-"
+    ],
+    [
+      "Smartcard mode",
+      "X",
+      "-"
+    ],
+    [
+      "Single-wire Half-duplex communication",
+      "X",
+      "X"
+    ],
+    [
+      "IrDA SIR ENDEC block",
+      "X",
+      "X"
+    ],
+    [
+      "LIN mode",
+      "X",
+      "X"
+    ],
+    [
+      "Dual clock domain and wakeup from low power mode",
+      "X",
+      "X"
+    ],
+    [
+      "Receiver timeout interrupt",
+      "X",
+      "X"
+    ],
+    [
+      "Modbus communication",
+      "X",
+      "X"
+    ],
+    [
+      "Auto baud rate detection",
+      "X",
+      "X"
+    ],
+    [
+      "Driver Enable",
+      "X",
+      "X"
+    ],
+    [
+      "USART data length",
+      "7, 8 and 9 bits",
+      "7, 8 and 9 bits"
+    ],
+    [
+      "Tx/Rx FIFO",
+      "X",
+      "X"
+    ],
+    [
+      "Tx/Rx FIFO size",
+      "16",
+      "16"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. X = supported."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_6",
+    "is_continued": false,
+    "pages": [
+      48
+    ],
+    "rows_count": 16,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

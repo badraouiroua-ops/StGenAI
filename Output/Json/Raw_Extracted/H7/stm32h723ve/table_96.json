@@ -1,0 +1,339 @@
+{
+  "table_id": "table_96",
+  "caption": "Table 96. COMP characteristics",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 184,
+  "merged_pages": [
+    184,
+    185
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=184",
+  "section": "6.3.29 Comparator characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DDA",
+      "Analog supply voltage",
+      "-",
+      "-",
+      "1.62",
+      "3.3",
+      "3.6",
+      "V"
+    ],
+    [
+      "V IN",
+      "Comparator input voltage range",
+      "-",
+      "-",
+      "0",
+      "-",
+      "V DDA",
+      "V"
+    ],
+    [
+      "V BG",
+      "Scaler input voltage",
+      "-",
+      "-",
+      "(2)",
+      "(2)",
+      "(2)",
+      "V"
+    ],
+    [
+      "V SC",
+      "Scaler offset voltage",
+      "-",
+      "-",
+      "-",
+      "±5",
+      "±10",
+      "mV"
+    ],
+    [
+      "I DDA(SCALER)",
+      "Scaler static consumption from V DDA",
+      "BRG_EN=0 (bridge disable)",
+      "BRG_EN=0 (bridge disable)",
+      "-",
+      "0.2",
+      "0.3",
+      "µA"
+    ],
+    [
+      "I DDA(SCALER)",
+      "Scaler static consumption from V DDA",
+      "BRG_EN=1 (bridge enable)",
+      "BRG_EN=1 (bridge enable)",
+      "-",
+      "0.8",
+      "1",
+      "µA"
+    ],
+    [
+      "t START_SCALER",
+      "Scaler startup time",
+      "-",
+      "-",
+      "-",
+      "140",
+      "250",
+      "µs"
+    ],
+    [
+      "t START",
+      "Comparator startup time to reach propagation delay specification",
+      "High-speed mode",
+      "High-speed mode",
+      "-",
+      "2",
+      "5",
+      "µs"
+    ],
+    [
+      "t START",
+      "Comparator startup time to reach propagation delay specification",
+      "Medium mode",
+      "Medium mode",
+      "-",
+      "5",
+      "20",
+      "µs"
+    ],
+    [
+      "t START",
+      "Comparator startup time to reach propagation delay specification",
+      "Ultra-low-power mode",
+      "Ultra-low-power mode",
+      "-",
+      "15",
+      "80",
+      "µs"
+    ],
+    [
+      "t (3) D",
+      "Propagation delay for 200 mV step with 100 mV overdrive",
+      "High-speed mode",
+      "High-speed mode",
+      "-",
+      "50",
+      "80",
+      "ns"
+    ],
+    [
+      "t (3) D",
+      "Propagation delay for 200 mV step with 100 mV overdrive",
+      "Medium mode",
+      "Medium mode",
+      "-",
+      "0.5",
+      "0.9",
+      "µs"
+    ],
+    [
+      "t (3) D",
+      "Propagation delay for 200 mV step with 100 mV overdrive",
+      "Ultra-low-power mode",
+      "Ultra-low-power mode",
+      "-",
+      "2.5",
+      "7",
+      "µs"
+    ],
+    [
+      "t (3) D",
+      "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+      "High-speed mode",
+      "High-speed mode",
+      "-",
+      "50",
+      "120",
+      "ns"
+    ],
+    [
+      "t (3) D",
+      "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+      "Medium mode",
+      "Medium mode",
+      "-",
+      "0.5",
+      "1.2",
+      "µs"
+    ],
+    [
+      "t (3) D",
+      "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+      "Ultra-low-power mode",
+      "Ultra-low-power mode",
+      "-",
+      "2.5",
+      "7",
+      "µs"
+    ],
+    [
+      "V offset",
+      "Comparator offset error",
+      "Full common mode range",
+      "Full common mode range",
+      "-",
+      "±5",
+      "±20",
+      "mV"
+    ],
+    [
+      "V hys",
+      "Comparator hysteresis",
+      "No hysteresis",
+      "No hysteresis",
+      "-",
+      "0",
+      "-",
+      "mV"
+    ],
+    [
+      "V hys",
+      "Comparator hysteresis",
+      "Low hysteresis",
+      "Low hysteresis",
+      "4",
+      "10",
+      "22",
+      "mV"
+    ],
+    [
+      "V hys",
+      "Comparator hysteresis",
+      "Medium hysteresis",
+      "Medium hysteresis",
+      "8",
+      "20",
+      "37",
+      "mV"
+    ],
+    [
+      "V hys",
+      "Comparator hysteresis",
+      "High hysteresis",
+      "High hysteresis",
+      "16",
+      "30",
+      "52",
+      "mV"
+    ],
+    [
+      "I (COMP) DDA",
+      "Comparator consumption from V DDA",
+      "Ultra-low- power mode",
+      "Static",
+      "-",
+      "400",
+      "600",
+      "nA"
+    ],
+    [
+      "I (COMP) DDA",
+      "Comparator consumption from V DDA",
+      "Ultra-low- power mode",
+      "With 50 kHz ±100 mV overdrive square signal",
+      "-",
+      "800",
+      "-",
+      "nA"
+    ],
+    [
+      "I (COMP) DDA",
+      "Comparator consumption from V DDA",
+      "Medium mode",
+      "Static",
+      "-",
+      "5",
+      "7",
+      "µA"
+    ],
+    [
+      "I (COMP) DDA",
+      "Comparator consumption from V DDA",
+      "Medium mode",
+      "With 50 kHz ±100 mV overdrive square signal",
+      "-",
+      "6",
+      "-",
+      "µA"
+    ],
+    [
+      "I (COMP) DDA",
+      "Comparator consumption from V DDA",
+      "High-speed mode",
+      "Static",
+      "-",
+      "70",
+      "100",
+      "µA"
+    ],
+    [
+      "I (COMP) DDA",
+      "Comparator consumption from V DDA",
+      "High-speed mode",
+      "With 50 kHz ±100 mV overdrive square signal",
+      "-",
+      "75",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. Refer to Table 17: Embedded reference voltage.",
+      "3. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_96",
+    "is_continued": true,
+    "pages": [
+      184,
+      185
+    ],
+    "rows_count": 27,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

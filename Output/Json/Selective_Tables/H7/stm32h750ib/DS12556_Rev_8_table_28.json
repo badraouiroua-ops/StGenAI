@@ -1,0 +1,61 @@
+{
+  "table_id": "table_28",
+  "document": "DS12556 Rev 8 - Table 28. Peripheral current consumption in Stop, Standby and VBAT mode",
+  "rev": "Rev 8",
+  "table_number": "28",
+  "title": "Table 28. Peripheral current consumption in Stop, Standby and VBAT mode",
+  "page": 111,
+  "section": "6.3.6 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=111",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 28. Peripheral current consumption in Stop, Standby and VBAT mode — section 6.3.6 Supply current characteristics. Symbol, Parameter, Conditions, Typ / 3 V, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Typ / 3 V",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "RTC+LSE low drive",
+        "-",
+        "2.32",
+        "µA"
+      ],
+      [
+        "I DD",
+        "RTC+LSE medium- low drive",
+        "-",
+        "2.4",
+        "µA"
+      ],
+      [
+        "I DD",
+        "RTC+LSE medium- high drive",
+        "-",
+        "2.7",
+        "µA"
+      ],
+      [
+        "I DD",
+        "RTC+LSE High drive",
+        "-",
+        "3",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. 112/335 DS12556 Rev 8"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

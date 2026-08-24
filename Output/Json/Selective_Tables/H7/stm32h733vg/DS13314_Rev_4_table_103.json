@@ -1,0 +1,73 @@
+{
+  "table_id": "table_103",
+  "document": "DS13314 Rev 4 - Table 103. TIMx characteristics",
+  "rev": "Rev 4",
+  "table_number": "103",
+  "title": "Table 103. TIMx characteristics",
+  "page": 196,
+  "section": "6.3.35 Timer characteristics",
+  "section_title": "Timer characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=196",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 103. TIMx characteristics — section 6.3.35 Timer characteristics. Symbol, Parameter, Conditions(3), Min, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions(3)",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t res(TIM)",
+        "Timer resolution time",
+        "AHB/APBx prescaler=1 or 2 or 4, f = TIMxCLK 275 MHz",
+        "1",
+        "-",
+        "t TIMxCLK"
+      ],
+      [
+        "t res(TIM)",
+        "Timer resolution time",
+        "AHB/APBx prescaler>4, f = TIMxCLK 137.5 MHz",
+        "1",
+        "-",
+        "t TIMxCLK"
+      ],
+      [
+        "f EXT",
+        "Timer external clock frequency on CH1 to CH4",
+        "f = 240 MHz TIMxCLK",
+        "0",
+        "f /2 TIMxCLK",
+        "MHz"
+      ],
+      [
+        "Res TIM",
+        "Timer resolution",
+        "f = 240 MHz TIMxCLK",
+        "-",
+        "16/32",
+        "bit"
+      ],
+      [
+        "t MAX_COUNT",
+        "Maximum possible count with 32-bit counter",
+        "-",
+        "-",
+        "65536 × 65536",
+        "t TIMxCLK"
+      ]
+    ],
+    "notes": [
+      "3. The maximum timer frequency on APB1 or APB2 is up to 275 MHz, by setting the TIMPRE bit in the RCC_CFGR register, if APBx prescaler is 1 or 2 or 4, then TIMxCLK = rcc_hclk1, otherwise TIMxCLK = 4x"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

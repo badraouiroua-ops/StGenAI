@@ -1,0 +1,115 @@
+{
+  "table_id": "table_47",
+  "caption": "Table 47. High-speed external user clock characteristics",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 106,
+  "merged_pages": [
+    106
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=106",
+  "section": "6.3.9 External clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Typ(1)",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fHSE_ext",
+      "User external clock source frequency",
+      "External digital/analog clock",
+      "4",
+      "25",
+      "50",
+      "MHz"
+    ],
+    [
+      "VHSEH",
+      "Digital OSC_IN input high- level voltage",
+      "External digital clock",
+      "0.7 VDD",
+      "-",
+      "VDD",
+      "V"
+    ],
+    [
+      "VHSEL",
+      "Digital OSC_IN input low-level voltage",
+      "External digital clock",
+      "VSS",
+      "-",
+      "0.3 VDD",
+      "V"
+    ],
+    [
+      "tW(HSEH)/tW(HSEL)(2)",
+      "Digital OSC_IN input high or low time",
+      "External digital clock",
+      "7",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "VlswHSE (VHSEH-VHSEL)(3)",
+      "Analog low-swing OSC_IN peak-to-peak amplitude",
+      "External analog low- swing clock",
+      "0.2",
+      "-",
+      "2/3 VDD",
+      "V"
+    ],
+    [
+      "DuCyHSE",
+      "Analog low-swing OSC_IN duty cycle",
+      "External analog low- swing clock",
+      "45",
+      "50",
+      "55",
+      "%"
+    ],
+    [
+      "tr(HSE)/tf(HSE)",
+      "Analog low-swing OSC_IN rise and fall times",
+      "External analog low- swing clock, 10% to 90%",
+      "0.05 / fHSE_ext",
+      "-",
+      "0.3 / fHSE_ext",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Measures done at −40 °C in the worst conditions.",
+      "3. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_47",
+    "is_continued": false,
+    "pages": [
+      106
+    ],
+    "rows_count": 7,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

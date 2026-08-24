@@ -1,0 +1,426 @@
+{
+  "table_id": "table_76",
+  "document": "DS12117 Rev 10 - Table 76. ADC characteristics",
+  "rev": "Rev 10",
+  "table_number": "76",
+  "title": "Table 76. ADC characteristics",
+  "page": 166,
+  "section": "6.3.19 Delay block (DLYB) characteristics",
+  "section_title": "Delay block (DLYB) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=166",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 76. ADC characteristics — section 6.3.19 Delay block (DLYB) characteristics. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DDA",
+        "Analog power supply",
+        "-",
+        "-",
+        "1.62",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V REF+",
+        "Positive reference voltage",
+        "V ≥2 V DDA",
+        "V ≥2 V DDA",
+        "2",
+        "-",
+        "V DDA",
+        "V"
+      ],
+      [
+        "V REF+",
+        "Positive reference voltage",
+        "V < 2 V DDA",
+        "V < 2 V DDA",
+        "V DDA",
+        "V DDA",
+        "V DDA",
+        "V"
+      ],
+      [
+        "V REF-",
+        "Negative reference voltage",
+        "-",
+        "-",
+        "V SSA",
+        "V SSA",
+        "V SSA",
+        "V"
+      ],
+      [
+        "f ADC",
+        "ADC clock frequency",
+        "2 V≤V ≤3.3 V DDA",
+        "BOOST = 1",
+        "-",
+        "-",
+        "36",
+        "MHz"
+      ],
+      [
+        "f ADC",
+        "ADC clock frequency",
+        "2 V≤V ≤3.3 V DDA",
+        "BOOST = 0",
+        "-",
+        "-",
+        "20",
+        "MHz"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 1, f = 36 MHz(2) ADC",
+        "16-bit resolution",
+        "16-bit resolution",
+        "-",
+        "-",
+        "3.60(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 1, f = 36 MHz(2) ADC",
+        "14-bit resolution",
+        "14-bit resolution",
+        "-",
+        "-",
+        "4.00(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 1, f = 36 MHz(2) ADC",
+        "12-bit resolution",
+        "12-bit resolution",
+        "-",
+        "-",
+        "4.50(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 1, f = 36 MHz(2) ADC",
+        "10-bit resolution",
+        "10-bit resolution",
+        "-",
+        "-",
+        "5.00(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 1, f = 36 MHz(2) ADC",
+        "8-bit resolution",
+        "8-bit resolution",
+        "-",
+        "-",
+        "6.00(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 0, f = 20 MHz ADC",
+        "16-bit resolution",
+        "16-bit resolution",
+        "-",
+        "-",
+        "2.00(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 0, f = 20 MHz ADC",
+        "14-bit resolution",
+        "14-bit resolution",
+        "-",
+        "-",
+        "2.20(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 0, f = 20 MHz ADC",
+        "12-bit resolution",
+        "12-bit resolution",
+        "-",
+        "-",
+        "2.50(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 0, f = 20 MHz ADC",
+        "10-bit resolution",
+        "10-bit resolution",
+        "-",
+        "-",
+        "2.80(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Fast channels, BOOST = 0, f = 20 MHz ADC",
+        "8-bit resolution",
+        "8-bit resolution",
+        "-",
+        "-",
+        "3.30(2)",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Slow channels, BOOST = 0, f = 10 MHz ADC",
+        "16-bit resolution",
+        "16-bit resolution",
+        "-",
+        "-",
+        "1.00",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Slow channels, BOOST = 0, f = 10 MHz ADC",
+        "14-bit resolution",
+        "14-bit resolution",
+        "-",
+        "-",
+        "1.00",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Slow channels, BOOST = 0, f = 10 MHz ADC",
+        "12-bit resolution",
+        "12-bit resolution",
+        "-",
+        "-",
+        "1.00",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Slow channels, BOOST = 0, f = 10 MHz ADC",
+        "10-bit resolution",
+        "10-bit resolution",
+        "-",
+        "-",
+        "1.00",
+        "MSPS"
+      ],
+      [
+        "f S",
+        "Sampling rate for Slow channels, BOOST = 0, f = 10 MHz ADC",
+        "8-bit resolution",
+        "8-bit resolution",
+        "-",
+        "-",
+        "1.00",
+        "MSPS"
+      ],
+      [
+        "V (3) AIN",
+        "Conversion voltage range",
+        "-",
+        "-",
+        "0",
+        "-",
+        "V REF+",
+        "V"
+      ],
+      [
+        "V CMIV",
+        "Common mode input voltage",
+        "-",
+        "-",
+        "V /2- REF 10%",
+        "V /2 REF",
+        "V /2+ REF 10%",
+        "V"
+      ],
+      [
+        "R AIN",
+        "External input impedance",
+        "-",
+        "-",
+        "-",
+        "-",
+        "50",
+        "kΩ"
+      ],
+      [
+        "C ADC",
+        "Internal sample and hold capacitor",
+        "-",
+        "-",
+        "-",
+        "4",
+        "-",
+        "pF"
+      ],
+      [
+        "t ADCREG_ STUP",
+        "ADC LDO startup time",
+        "-",
+        "-",
+        "-",
+        "5",
+        "10",
+        "µs"
+      ],
+      [
+        "t STAB",
+        "ADC power-up time",
+        "LDO already started",
+        "LDO already started",
+        "1",
+        "1",
+        "1",
+        "conversion cycle"
+      ],
+      [
+        "t CAL",
+        "Offset and linearity calibration time",
+        "-",
+        "-",
+        "165,010",
+        "165,010",
+        "165,010",
+        "1/f ADC"
+      ],
+      [
+        "t OFF_CAL",
+        "Offset calibration time",
+        "-",
+        "-",
+        "1,280",
+        "1,280",
+        "1,280",
+        "1/f ADC"
+      ],
+      [
+        "t LATR",
+        "Trigger conversion latency for regular and injected channels without aborting the conversion",
+        "CKMODE = 00",
+        "CKMODE = 00",
+        "1.5",
+        "2",
+        "2.5",
+        "1/f ADC"
+      ],
+      [
+        "t LATR",
+        "Trigger conversion latency for regular and injected channels without aborting the conversion",
+        "CKMODE = 01",
+        "CKMODE = 01",
+        "-",
+        "-",
+        "2",
+        "1/f ADC"
+      ],
+      [
+        "t LATR",
+        "Trigger conversion latency for regular and injected channels without aborting the conversion",
+        "CKMODE = 10",
+        "CKMODE = 10",
+        "-",
+        "-",
+        "2.25",
+        "1/f ADC"
+      ],
+      [
+        "t LATR",
+        "Trigger conversion latency for regular and injected channels without aborting the conversion",
+        "CKMODE = 11",
+        "CKMODE = 11",
+        "-",
+        "-",
+        "2.125",
+        "1/f ADC"
+      ],
+      [
+        "t LATRINJ",
+        "Trigger conversion latency for regular and injected channels when a regular conversion is aborted",
+        "CKMODE = 00",
+        "CKMODE = 00",
+        "2.5",
+        "3",
+        "3.5",
+        "1/f ADC"
+      ],
+      [
+        "t LATRINJ",
+        "Trigger conversion latency for regular and injected channels when a regular conversion is aborted",
+        "CKMODE = 01",
+        "CKMODE = 01",
+        "-",
+        "-",
+        "3",
+        "1/f ADC"
+      ],
+      [
+        "t LATRINJ",
+        "Trigger conversion latency for regular and injected channels when a regular conversion is aborted",
+        "CKMODE = 10",
+        "CKMODE = 10",
+        "-",
+        "-",
+        "3.25",
+        "1/f ADC"
+      ],
+      [
+        "t LATRINJ",
+        "Trigger conversion latency for regular and injected channels when a regular conversion is aborted",
+        "CKMODE = 11",
+        "CKMODE = 11",
+        "-",
+        "-",
+        "3.125",
+        "1/f ADC"
+      ],
+      [
+        "t S",
+        "Sampling time",
+        "-",
+        "-",
+        "1.5",
+        "-",
+        "810.5",
+        "1/f ADC"
+      ],
+      [
+        "t CONV",
+        "Total conversion time (including sampling time)",
+        "N-bit resolution",
+        "N-bit resolution",
+        "t + 0.5 + N/2 S (9 to 648 cycles in 14-bit mode)",
+        "t + 0.5 + N/2 S (9 to 648 cycles in 14-bit mode)",
+        "t + 0.5 + N/2 S (9 to 648 cycles in 14-bit mode)",
+        "1/f ADC"
+      ]
+    ],
+    "notes": [
+      "2. ADC DC accuracy values are measured after internal calibration.",
+      "3. The above table gives the ADC performance in 16-bit mode."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

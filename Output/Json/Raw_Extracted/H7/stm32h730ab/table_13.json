@@ -1,0 +1,212 @@
+{
+  "table_id": "table_13",
+  "caption": "Table 13. Supply voltage and maximum temperature configuration",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 108,
+  "merged_pages": [
+    108
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=108",
+  "section": "6.3.1 General operating conditions",
+  "headers": [
+    "Power scale",
+    "V source CORE",
+    "Max. T (°C)(1) J",
+    "Min. V (V) DD",
+    "Min. V (V) DDLDO"
+  ],
+  "rows": [
+    [
+      "VOS0",
+      "SMPS",
+      "105",
+      "2.2",
+      "-"
+    ],
+    [
+      "VOS0",
+      "LDO",
+      "105",
+      "1.7",
+      "1.7"
+    ],
+    [
+      "VOS0",
+      "SMPS supplies LDO",
+      "105",
+      "3(2)",
+      "1.7"
+    ],
+    [
+      "VOS0",
+      "External (Bypass)",
+      "105",
+      "1.62",
+      "-"
+    ],
+    [
+      "VOS1",
+      "SMPS",
+      "140",
+      "2.2",
+      "-"
+    ],
+    [
+      "VOS1",
+      "SMPS",
+      "125",
+      "1.62",
+      "-"
+    ],
+    [
+      "VOS1",
+      "LDO",
+      "125",
+      "1.62",
+      "1.62"
+    ],
+    [
+      "VOS1",
+      "SMPS supplies LDO",
+      "125",
+      "2.3",
+      "-"
+    ],
+    [
+      "VOS1",
+      "External (Bypass)",
+      "125",
+      "1.62",
+      "-"
+    ],
+    [
+      "VOS2",
+      "SMPS",
+      "140",
+      "1.62",
+      "-"
+    ],
+    [
+      "VOS2",
+      "LDO",
+      "125",
+      "1.62",
+      "1.62"
+    ],
+    [
+      "VOS2",
+      "SMPS supplies LDO",
+      "125",
+      "2.3",
+      "-"
+    ],
+    [
+      "VOS2",
+      "External (Bypass)",
+      "125",
+      "1.62",
+      "-"
+    ],
+    [
+      "VOS3",
+      "SMPS",
+      "140",
+      "1.62",
+      "-"
+    ],
+    [
+      "VOS3",
+      "LDO",
+      "125",
+      "1.62",
+      "1.62"
+    ],
+    [
+      "VOS3",
+      "SMPS supplies LDO",
+      "125",
+      "2.3",
+      "-"
+    ],
+    [
+      "VOS3",
+      "External (Bypass)",
+      "125",
+      "1.62",
+      "-"
+    ],
+    [
+      "SVOS4/SVOS5",
+      "SMPS",
+      "140",
+      "1.62",
+      "-"
+    ],
+    [
+      "SVOS4/SVOS5",
+      "LDO",
+      "125",
+      "2",
+      "2"
+    ],
+    [
+      "SVOS4/SVOS5",
+      "LDO",
+      "105",
+      "1.62",
+      "1.62"
+    ],
+    [
+      "SVOS4/SVOS5",
+      "SMPS supplies LDO",
+      "125",
+      "3(2)",
+      "2"
+    ],
+    [
+      "SVOS4/SVOS5",
+      "SMPS supplies LDO",
+      "105",
+      "2.3",
+      "-"
+    ],
+    [
+      "SVOS4/SVOS5",
+      "External (Bypass)",
+      "125",
+      "1.62",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. 140 °C can be reached only for part numbers in temperature range 3. For part numbers in temperature range 6, this value must be decreased to 125 °C.",
+      "2. The SMPS must be configured to output 2,5 V. 108/270 DS13315 Rev 5"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_13",
+    "is_continued": false,
+    "pages": [
+      108
+    ],
+    "rows_count": 23,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

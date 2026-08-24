@@ -1,0 +1,122 @@
+{
+  "table_id": "table_86",
+  "caption": "Table 86. SDRAM read timings",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 137,
+  "merged_pages": [
+    137
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=137",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min(1)",
+    "Max(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tw(SDCLK)",
+      "FMC_SDCLK period",
+      "2Tfmc_ker_ck – 1",
+      "2Tfmc_ker_ck +0.5",
+      "ns"
+    ],
+    [
+      "tsu(SDCLKH _Data)",
+      "Data input setup time",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      ")ataD_HKLCDS(ht",
+      "Data input hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_Add)",
+      "Address valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "td(SDCLKL- SDNE)",
+      "Chip select valid time",
+      "-",
+      "2(3)",
+      "ns"
+    ],
+    [
+      "th(SDCLKL_SDNE)",
+      "Chip select hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_SDNRAS)",
+      "SDNRAS valid time",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "th(SDCLKL_SDNRAS)",
+      "SDNRAS hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_SDNCAS)",
+      "SDNCAS valid time",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "th(SDCLKL_SDNCAS)",
+      "SDNCAS hold time",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. Using PC2_C I/O adds 4.5 ns to this timing. DS13195 - Rev 8 page 137/237"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_86",
+    "is_continued": false,
+    "pages": [
+      137
+    ],
+    "rows_count": 10,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

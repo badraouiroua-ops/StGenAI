@@ -1,0 +1,62 @@
+{
+  "table_id": "table_25",
+  "caption": "Table 25. Thermal characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 157,
+  "merged_pages": [
+    157
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=157",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Ratings",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "T STG",
+      "Storage temperature range",
+      "Storage temperature range",
+      "-65 to +150",
+      "°C"
+    ],
+    [
+      "T J",
+      "Maximum junction temperature",
+      "Industrial temperature range 6",
+      "130(1)",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. All main power (V , V , V ) and ground (V , V ) pins must always be connected to the DD DDA DD33USB SS SSA"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_25",
+    "is_continued": false,
+    "pages": [
+      157
+    ],
+    "rows_count": 2,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

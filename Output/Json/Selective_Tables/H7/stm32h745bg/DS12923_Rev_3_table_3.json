@@ -1,0 +1,47 @@
+{
+  "table_id": "table_3",
+  "document": "DS12923 Rev 3 - Table 3. System vs domain low-power mode",
+  "rev": "Rev 3",
+  "table_number": "3",
+  "title": "Table 3. System vs domain low-power mode",
+  "page": 28,
+  "section": "3.6 Low-power strategy",
+  "section_title": "Low-power strategy",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=28",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "text_helper": "Table 3. System vs domain low-power mode — section 3.6 Low-power strategy. System power mode, D1 domain power mode, D2 domain power mode, D3 domain power mode.",
+  "table_content": {
+    "headers": [
+      "System power mode",
+      "D1 domain power mode",
+      "D2 domain power mode",
+      "D3 domain power mode"
+    ],
+    "rows": [
+      [
+        "Run",
+        "DRun/DStop/DStandby",
+        "DRun/DStop/DStandby",
+        "DRun"
+      ],
+      [
+        "Stop",
+        "DStop/DStandby",
+        "DStop/DStandby",
+        "DStop"
+      ],
+      [
+        "Standby",
+        "DStandby",
+        "DStandby",
+        "DStandby"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "table_id": "table_130",
+  "caption": "Table 130. WLCSP115 recommended PCB design rules",
+  "page": 263,
+  "section": "7.1 Device marking",
+  "pdf_type": 1,
+  "extraction_method": "pdfplumber",
+  "bbox": [
+    124.12366666666667,
+    159.414,
+    527.7749933333333,
+    443.10999666666663
+  ],
+  "page_width": 595.22,
+  "page_height": 842,
+  "settings": {
+    "vertical_strategy": "lines",
+    "horizontal_strategy": "lines",
+    "snap_tolerance": 3,
+    "join_tolerance": 3,
+    "edge_min_length": 3,
+    "min_words_vertical": 3,
+    "min_words_horizontal": 1,
+    "intersection_tolerance": 3,
+    "text_tolerance": 3
+  },
+  "caption_y": null,
+  "caption_y_ratio": null,
+  "caption_near_bottom": false,
+  "n_non_empty_raw": 2,
+  "should_try_next": false,
+  "raw_table": [
+    [
+      "Figure 80. WLCSP115 marking example (package top view)"
+    ],
+    [
+      "Ball A1\nidentifier\nProduct\nidentification(1)\nDate code Revision code\nY WW\nMSv53064V3"
+    ]
+  ],
+  "warnings": [
+    "few_data_rows:0",
+    "high_empty_ratio:1.00"
+  ],
+  "heuristics": {
+    "cols_extracted": 1
+  },
+  "nxt_attempt": null,
+  "page_text_first_1000": "Package information STM32H735xG\nThe following figure gives an example of topside marking versus ball A1 position identifier\nlocation.\nThe printed markings may differ depending on the supply chain.\nOther optional marking or inset/upset marks, which depend on supply chain operations, are\nnot indicated below.\nFigure 80. WLCSP115 marking example (package top view)\nBall A1\nidentifier\nProduct\nidentification(1)\nDate code Revision code\nY WW\nMSv53064V3\n1. Parts marked as “ES”, “E” or accompanied by an Engineering Sample notification letter, are not yet\nqualified and therefore not approved for use in production. ST is not responsible for any consequences\nresulting from such use. In no event will ST be liable for the customer using any of these engineering\nsamples in production. ST’s Quality department must be contacted prior to any decision to use these\nengineering samples to run a qualification activity.\n262/286 DS13312 Rev 4",
+  "pdf_path": "C:\\Users\\user\\Desktop\\rag1\\Input\\PDFs\\H7\\stm32h735ag.pdf",
+  "pdf_name": "stm32h735ag",
+  "family": "H7"
+}

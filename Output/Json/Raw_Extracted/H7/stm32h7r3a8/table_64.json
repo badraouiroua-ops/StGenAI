@@ -1,0 +1,79 @@
+{
+  "table_id": "table_64",
+  "caption": "Table 64. PLL1/2/3 SSCG parameter ranges",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 200,
+  "merged_pages": [
+    200
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=200",
+  "section": "6.3.11 PLL characteristics",
+  "headers": [
+    "Parameter",
+    "Min",
+    "Max"
+  ],
+  "rows": [
+    [
+      "md: Modulation depth in center spread mode",
+      "+/-0.25%",
+      "+/-2%"
+    ],
+    [
+      "2*md: Modulation depth in down spread mode",
+      "-4%",
+      "-0.5%"
+    ],
+    [
+      "STEP (RCC_PLLxSSCGR.INCSTEP[14:0])",
+      "2",
+      "2621(1) (STEP*MOD < 215 & |md|<2%)"
+    ],
+    [
+      "MOD (RCC_PLLxSSCGR.MODPER[12:0])",
+      "12.5(2) (BW PLL >5*Fmod)",
+      "200(3)"
+    ],
+    [
+      "STEP*MOD",
+      "-",
+      "215 (32768)"
+    ],
+    [
+      "F in GP mode mod",
+      "20 kHz(4)",
+      "40 kHz"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "1. STEP*MOD < 215 then STEP max =215 / MOD min = 32768 / 12.5 = 2621.",
+      "2. MOD min = F (VCO_GP) min /4*F max = 2 MHz / 4*40 kHz = 12.5. ref mod",
+      "3. MOD max = F (VCO_GP) max /4*F min = 16 MHz / 4*20kHz=200. ref mod",
+      "4. As an example, the 20 kHz min limitation comes from JEDEC DDR specification."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_64",
+    "is_continued": false,
+    "pages": [
+      200
+    ],
+    "rows_count": 6,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

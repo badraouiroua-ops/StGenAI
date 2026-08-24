@@ -1,0 +1,97 @@
+{
+  "table_id": "table_99",
+  "caption": "Table 99. DCMI characteristics",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 191,
+  "merged_pages": [
+    191
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=191",
+  "section": "6.3.32 Camera interface (DCMI) timing specifications",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "-",
+      "Frequency ratio DCMI_PIXCLK/f HCLK",
+      "-",
+      "0.4",
+      "-"
+    ],
+    [
+      "DCMI_PIXCLK",
+      "Pixel Clock input",
+      "-",
+      "110",
+      "MHz"
+    ],
+    [
+      "D pixel",
+      "Pixel Clock input duty cycle",
+      "30",
+      "70",
+      "%"
+    ],
+    [
+      "t DATA) su(",
+      "Data input setup time",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "t (DATA) h",
+      "Data hold time",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(HSYNC), tsu(VSYNC)",
+      "DCMI_HSYNC/ DCMI_VSYNC input setup time",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "th(HSYNC), th(VSYNC)",
+      "DCMI_HSYNC/ DCMI_VSYNC input hold time",
+      "1",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results. Figure 42. DCMI timing diagram"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_99",
+    "is_continued": false,
+    "pages": [
+      191
+    ],
+    "rows_count": 7,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

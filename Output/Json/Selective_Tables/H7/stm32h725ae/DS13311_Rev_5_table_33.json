@@ -1,0 +1,1314 @@
+{
+  "table_id": "table_33",
+  "document": "DS13311 Rev 5 - Table 33. Peripheral current consumption in Run mode",
+  "rev": "Rev 5",
+  "table_number": "33",
+  "title": "Table 33. Peripheral current consumption in Run mode",
+  "page": 137,
+  "section": "6.3.8 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=137",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 33. Peripheral current consumption in Run mode — section 6.3.8 Supply current characteristics. Peripheral, Peripheral, I / VOS0, I / VOS1, I / DD(Typ) / VOS2, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Peripheral",
+      "Peripheral",
+      "I / VOS0",
+      "I / VOS1",
+      "I / DD(Typ) / VOS2",
+      "I / VOS3",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "AHB3",
+        "MDMA",
+        "3.70",
+        "3.10",
+        "2.90",
+        "2.60",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "DMA2D",
+        "2.70",
+        "2.30",
+        "2.10",
+        "1.90",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "Flash memory",
+        "15.20",
+        "14.00",
+        "12.00",
+        "10.90",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "FMC registers",
+        "0.90",
+        "0.90",
+        "0.80",
+        "0.70",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "FMC kernel",
+        "7.00",
+        "6.10",
+        "5.60",
+        "5.40",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "OCTOSPI1 registers",
+        "1.40",
+        "1.30",
+        "0.50",
+        "0.40",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "OCTOSPI1 kernel",
+        "3.10",
+        "1.20",
+        "0.50",
+        "0.20",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "SDMMC1 registers",
+        "8.70",
+        "7.60",
+        "6.90",
+        "6.10",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "SDMMC1 kernel",
+        "2.10",
+        "1.80",
+        "1.40",
+        "1.20",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "OCTOSPI2 registers",
+        "1.40",
+        "1.30",
+        "0.90",
+        "0.60",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "OCTOSPI2 kernel",
+        "2.50",
+        "1.50",
+        "1.40",
+        "0.50",
+        "µA/MHz"
+      ],
+      [
+        "AHB3",
+        "AXI SRAM",
+        "8.50",
+        "7.50",
+        "6.90",
+        "6.00",
+        "µA/MHz"
+      ],
+      [
+        "AHB1",
+        "DMA1",
+        "0.70",
+        "0.60",
+        "0.50",
+        "0.40",
+        "µA/MHz"
+      ],
+      [
+        "AHB1",
+        "DMA2",
+        "1.00",
+        "0.80",
+        "0.70",
+        "0.70",
+        "µA/MHz"
+      ],
+      [
+        "AHB1",
+        "DMAMUX1",
+        "0.10",
+        "0.10",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "AHB1",
+        "ADC1/2 registers",
+        "4.50",
+        "4.00",
+        "3.60",
+        "2.30",
+        "µA/MHz"
+      ],
+      [
+        "AHB1",
+        "ADC1/2 kernel",
+        "0.90",
+        "0.80",
+        "0.60",
+        "0.40",
+        "µA/MHz"
+      ],
+      [
+        "AHB1",
+        "USB1 registers",
+        "20.80",
+        "17.50",
+        "16.50",
+        "14.80",
+        "µA/MHz"
+      ],
+      [
+        "AHB1",
+        "USB1 kernel",
+        "1.20",
+        "0.90",
+        "0.90",
+        "0.90",
+        "µA/MHz"
+      ],
+      [
+        "AHB1",
+        "USB1 ULPI kernel",
+        "31.00",
+        "30.00",
+        "29.50",
+        "27.00",
+        "µA/MHz"
+      ],
+      [
+        "AHB1",
+        "Ethernet",
+        "17.30",
+        "14.40",
+        "13.70",
+        "12.30",
+        "µA/MHz"
+      ],
+      [
+        "AHB2",
+        "DCMI",
+        "4.80",
+        "4.00",
+        "3.80",
+        "3.40",
+        "µA/MHz"
+      ],
+      [
+        "HSEM",
+        "HSEM",
+        "0.60",
+        "0.60",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "RNG1 registers",
+        "RNG1 registers",
+        "1.20",
+        "1.00",
+        "0.90",
+        "0.70",
+        "µA/MHz"
+      ],
+      [
+        "RNG1 kernel",
+        "RNG1 kernel",
+        "15.00",
+        "13.60",
+        "10.00",
+        "9.00",
+        "µA/MHz"
+      ],
+      [
+        "SDMMC2 registers",
+        "SDMMC2 registers",
+        "15.00",
+        "12.20",
+        "11.70",
+        "10.40",
+        "µA/MHz"
+      ],
+      [
+        "SDMMC2 kernel",
+        "SDMMC2 kernel",
+        "2.10",
+        "1.80",
+        "1.40",
+        "1.20",
+        "µA/MHz"
+      ],
+      [
+        "BDMA",
+        "BDMA",
+        "6.50",
+        "5.90",
+        "4.80",
+        "4.30",
+        "µA/MHz"
+      ],
+      [
+        "SRAM1",
+        "SRAM1",
+        "2.40",
+        "2.00",
+        "1.80",
+        "1.60",
+        "µA/MHz"
+      ],
+      [
+        "SRAM2",
+        "SRAM2",
+        "2.70",
+        "2.30",
+        "2.00",
+        "1.80",
+        "µA/MHz"
+      ],
+      [
+        "CORDIC",
+        "CORDIC",
+        "0.80",
+        "0.60",
+        "0.50",
+        "0.50",
+        "µA/MHz"
+      ],
+      [
+        "FMAC",
+        "FMAC",
+        "2.40",
+        "2.10",
+        "1.90",
+        "1.60",
+        "µA/MHz"
+      ],
+      [
+        "AHB4",
+        "GPIOA",
+        "0.10",
+        "0.10",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "GPIOB",
+        "GPIOB",
+        "0.90",
+        "0.80",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "GPIOC",
+        "GPIOC",
+        "0.50",
+        "0.10",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "GPIOD",
+        "GPIOD",
+        "0.90",
+        "0.80",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "GPIOE",
+        "GPIOE",
+        "0.90",
+        "0.80",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "GPIOF",
+        "GPIOF",
+        "0.30",
+        "0.10",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "GPIOG",
+        "GPIOG",
+        "0.90",
+        "0.80",
+        "0.30",
+        "0.20",
+        "µA/MHz"
+      ],
+      [
+        "GPIOH",
+        "GPIOH",
+        "0.10",
+        "0.10",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "GPIOJ",
+        "GPIOJ",
+        "0.90",
+        "0.80",
+        "0.30",
+        "0.20",
+        "µA/MHz"
+      ],
+      [
+        "GPIOK",
+        "GPIOK",
+        "0.80",
+        "0.80",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "HSEM",
+        "HSEM",
+        "0.60",
+        "0.60",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "BDMA",
+        "BDMA",
+        "6.50",
+        "5.90",
+        "4.80",
+        "4.30",
+        "µA/MHz"
+      ],
+      [
+        "CRC",
+        "CRC",
+        "0.90",
+        "0.30",
+        "0.30",
+        "0.30",
+        "µA/MHz"
+      ],
+      [
+        "ADC3 registers",
+        "ADC3 registers",
+        "2.10",
+        "1.40",
+        "1.30",
+        "1.20",
+        "µA/MHz"
+      ],
+      [
+        "ADC3 kernel",
+        "ADC3 kernel",
+        "0.40",
+        "0.30",
+        "0.30",
+        "0.20",
+        "µA/MHz"
+      ],
+      [
+        "Backup SRAM",
+        "Backup SRAM",
+        "1.80",
+        "1.00",
+        "1.00",
+        "0.80",
+        "µA/MHz"
+      ],
+      [
+        "APB3",
+        "LTDC",
+        "9.00",
+        "7.90",
+        "7.70",
+        "6.40",
+        "µA/MHz"
+      ],
+      [
+        "WWDG1",
+        "WWDG1",
+        "0.60",
+        "0.50",
+        "0.50",
+        "0.50",
+        "µA/MHz"
+      ],
+      [
+        "APB1",
+        "TIM2",
+        "4.50",
+        "4.40",
+        "3.30",
+        "3.00",
+        "µA/MHz"
+      ],
+      [
+        "TIM3",
+        "TIM3",
+        "3.80",
+        "3.20",
+        "2.90",
+        "2.70",
+        "µA/MHz"
+      ],
+      [
+        "TIM4",
+        "TIM4",
+        "3.60",
+        "3.10",
+        "2.60",
+        "2.50",
+        "µA/MHz"
+      ],
+      [
+        "TIM5",
+        "TIM5",
+        "4.10",
+        "3.40",
+        "3.10",
+        "2.90",
+        "µA/MHz"
+      ],
+      [
+        "TIM6",
+        "TIM6",
+        "1.50",
+        "1.10",
+        "1.00",
+        "1.00",
+        "µA/MHz"
+      ],
+      [
+        "TIM7",
+        "TIM7",
+        "1.40",
+        "1.10",
+        "0.90",
+        "0.90",
+        "µA/MHz"
+      ],
+      [
+        "TIM12",
+        "TIM12",
+        "2.30",
+        "1.80",
+        "1.60",
+        "1.60",
+        "µA/MHz"
+      ],
+      [
+        "TIM13",
+        "TIM13",
+        "1.90",
+        "1.40",
+        "1.30",
+        "1.20",
+        "µA/MHz"
+      ],
+      [
+        "TIM14",
+        "TIM14",
+        "1.60",
+        "1.20",
+        "1.10",
+        "1.10",
+        "µA/MHz"
+      ],
+      [
+        "TIM23",
+        "TIM23",
+        "4.60",
+        "3.90",
+        "3.60",
+        "3.40",
+        "µA/MHz"
+      ],
+      [
+        "TIM24",
+        "TIM24",
+        "4.40",
+        "3.80",
+        "3.50",
+        "3.30",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM1 registers",
+        "LPTIM1 registers",
+        "3.50",
+        "2.90",
+        "2.70",
+        "2.60",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM1 kernel",
+        "LPTIM1 kernel",
+        "2.60",
+        "2.30",
+        "2.00",
+        "1.80",
+        "µA/MHz"
+      ],
+      [
+        "SPI2 registers",
+        "SPI2 registers",
+        "2.10",
+        "1.60",
+        "0.90",
+        "0.80",
+        "µA/MHz"
+      ],
+      [
+        "SPI2 kernel",
+        "SPI2 kernel",
+        "1.50",
+        "1.20",
+        "1.10",
+        "1.00",
+        "µA/MHz"
+      ],
+      [
+        "SPI3 registers",
+        "SPI3 registers",
+        "2.40",
+        "2.00",
+        "1.90",
+        "1.80",
+        "µA/MHz"
+      ],
+      [
+        "SPDIFRX registers",
+        "SPDIFRX registers",
+        "0.60",
+        "0.50",
+        "0.50",
+        "0.50",
+        "µA/MHz"
+      ],
+      [
+        "SPDIFRX kernel",
+        "SPDIFRX kernel",
+        "3.50",
+        "2.80",
+        "2.40",
+        "2.20",
+        "µA/MHz"
+      ],
+      [
+        "USART2 registers",
+        "USART2 registers",
+        "6.60",
+        "5.70",
+        "5.20",
+        "4.90",
+        "µA/MHz"
+      ],
+      [
+        "USART2 kernel",
+        "USART2 kernel",
+        "4.80",
+        "4.80",
+        "4.60",
+        "3.80",
+        "µA/MHz"
+      ],
+      [
+        "USART3 registers",
+        "USART3 registers",
+        "5.90",
+        "5.40",
+        "4.60",
+        "4.30",
+        "µA/MHz"
+      ],
+      [
+        "USART3 kernel",
+        "USART3 kernel",
+        "4.00",
+        "3.40",
+        "3.00",
+        "2.90",
+        "µA/MHz"
+      ],
+      [
+        "UART4 registers",
+        "UART4 registers",
+        "5.60",
+        "4.80",
+        "3.50",
+        "3.10",
+        "µA/MHz"
+      ],
+      [
+        "UART4 kernel",
+        "UART4 kernel",
+        "3.80",
+        "3.20",
+        "3.00",
+        "2.40",
+        "µA/MHz"
+      ],
+      [
+        "UART5 registers",
+        "UART5 registers",
+        "5.60",
+        "4.60",
+        "4.40",
+        "4.00",
+        "µA/MHz"
+      ],
+      [
+        "UART5 kernel",
+        "UART5 kernel",
+        "3.90",
+        "3.40",
+        "3.30",
+        "3.20",
+        "µA/MHz"
+      ],
+      [
+        "UART7 registers",
+        "UART7 registers",
+        "5.40",
+        "4.60",
+        "4.20",
+        "3.90",
+        "µA/MHz"
+      ],
+      [
+        "UART7 kernel",
+        "UART7 kernel",
+        "3.80",
+        "3.30",
+        "3.00",
+        "3.00",
+        "µA/MHz"
+      ],
+      [
+        "UART8 registers",
+        "UART8 registers",
+        "5.60",
+        "4.10",
+        "3.50",
+        "3.40",
+        "µA/MHz"
+      ],
+      [
+        "UART8 kernel",
+        "UART8 kernel",
+        "3.60",
+        "3.20",
+        "3.20",
+        "3.10",
+        "µA/MHz"
+      ],
+      [
+        "I2C1 registers",
+        "I2C1 registers",
+        "0.90",
+        "0.60",
+        "0.60",
+        "0.50",
+        "µA/MHz"
+      ],
+      [
+        "I2C1 kernel",
+        "I2C1 kernel",
+        "2.30",
+        "2.00",
+        "1.80",
+        "1.60",
+        "µA/MHz"
+      ],
+      [
+        "I2C2 registers",
+        "I2C2 registers",
+        "1.00",
+        "0.70",
+        "0.60",
+        "0.60",
+        "µA/MHz"
+      ],
+      [
+        "APB1",
+        "I2C2 kernel",
+        "2.30",
+        "1.90",
+        "1.70",
+        "1.20",
+        "µA/MHz"
+      ],
+      [
+        "I2C3 registers",
+        "I2C3 registers",
+        "0.90",
+        "0.60",
+        "0.50",
+        "0.50",
+        "µA/MHz"
+      ],
+      [
+        "I2C3 kernel",
+        "I2C3 kernel",
+        "2.30",
+        "2.00",
+        "1.00",
+        "1.00",
+        "µA/MHz"
+      ],
+      [
+        "I2C5 registers",
+        "I2C5 registers",
+        "0.90",
+        "0.60",
+        "0.50",
+        "0.50",
+        "µA/MHz"
+      ],
+      [
+        "I2C5 kernel",
+        "I2C5 kernel",
+        "2.20",
+        "2.10",
+        "1.90",
+        "1.80",
+        "µA/MHz"
+      ],
+      [
+        "CEC registers",
+        "CEC registers",
+        "0.60",
+        "0.30",
+        "0.20",
+        "0.20",
+        "µA/MHz"
+      ],
+      [
+        "CEC kernel",
+        "CEC kernel",
+        "0.10",
+        "0.10",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "DAC1",
+        "DAC1",
+        "1.60",
+        "1.30",
+        "1.10",
+        "1.10",
+        "µA/MHz"
+      ],
+      [
+        "FDCAN1/2/3 registers",
+        "FDCAN1/2/3 registers",
+        "24.10",
+        "20.90",
+        "18.20",
+        "17.40",
+        "µA/MHz"
+      ],
+      [
+        "FDCAN1/2/3 kernel",
+        "FDCAN1/2/3 kernel",
+        "9.90",
+        "9.90",
+        "9.00",
+        "8.00",
+        "µA/MHz"
+      ],
+      [
+        "CRS",
+        "CRS",
+        "4.90",
+        "3.90",
+        "3.50",
+        "3.20",
+        "µA/MHz"
+      ],
+      [
+        "SWPMI registers",
+        "SWPMI registers",
+        "1.10",
+        "0.80",
+        "0.80",
+        "0.80",
+        "µA/MHz"
+      ],
+      [
+        "SWPMI kernel",
+        "SWPMI kernel",
+        "1.50",
+        "1.10",
+        "1.00",
+        "1.00",
+        "µA/MHz"
+      ],
+      [
+        "OPAMP",
+        "OPAMP",
+        "0.50",
+        "0.40",
+        "0.30",
+        "0.20",
+        "µA/MHz"
+      ],
+      [
+        "APB2",
+        "TIM1",
+        "5.30",
+        "4.40",
+        "4.20",
+        "3.80",
+        "µA/MHz"
+      ],
+      [
+        "TIM8",
+        "TIM8",
+        "5.60",
+        "5.40",
+        "5.20",
+        "3.90",
+        "µA/MHz"
+      ],
+      [
+        "USART1 registers",
+        "USART1 registers",
+        "1.80",
+        "1.60",
+        "1.40",
+        "1.10",
+        "µA/MHz"
+      ],
+      [
+        "USART1 kernel",
+        "USART1 kernel",
+        "3.00",
+        "2.90",
+        "2.80",
+        "2.70",
+        "µA/MHz"
+      ],
+      [
+        "USART6 registers",
+        "USART6 registers",
+        "1.90",
+        "1.70",
+        "1.50",
+        "1.20",
+        "µA/MHz"
+      ],
+      [
+        "USART6 kernel",
+        "USART6 kernel",
+        "4.50",
+        "4.00",
+        "3.60",
+        "3.10",
+        "µA/MHz"
+      ],
+      [
+        "UART9 registers",
+        "UART9 registers",
+        "1.70",
+        "1.70",
+        "1.60",
+        "1.10",
+        "µA/MHz"
+      ],
+      [
+        "UART9 kernel",
+        "UART9 kernel",
+        "3.80",
+        "3.30",
+        "2.90",
+        "2.90",
+        "µA/MHz"
+      ],
+      [
+        "USART10 registers",
+        "USART10 registers",
+        "1.80",
+        "1.70",
+        "1.40",
+        "1.10",
+        "µA/MHz"
+      ],
+      [
+        "USART10 kernel",
+        "USART10 kernel",
+        "3.80",
+        "3.30",
+        "2.90",
+        "2.90",
+        "µA/MHz"
+      ],
+      [
+        "SPI1 registers",
+        "SPI1 registers",
+        "1.90",
+        "1.80",
+        "1.40",
+        "1.20",
+        "µA/MHz"
+      ],
+      [
+        "SPI1 kernel",
+        "SPI1 kernel",
+        "1.50",
+        "1.20",
+        "1.10",
+        "1.00",
+        "µA/MHz"
+      ],
+      [
+        "SPI4 registers",
+        "SPI4 registers",
+        "1.80",
+        "1.60",
+        "1.40",
+        "1.10",
+        "µA/MHz"
+      ],
+      [
+        "SPI4 kernel",
+        "SPI4 kernel",
+        "1.50",
+        "1.20",
+        "1.10",
+        "1.00",
+        "µA/MHz"
+      ],
+      [
+        "SPI5 registers",
+        "SPI5 registers",
+        "1.60",
+        "1.60",
+        "1.40",
+        "1.10",
+        "µA/MHz"
+      ],
+      [
+        "SPI5 kernel",
+        "SPI5 kernel",
+        "1.50",
+        "1.20",
+        "1.10",
+        "1.00",
+        "µA/MHz"
+      ],
+      [
+        "TIM15",
+        "TIM15",
+        "2.80",
+        "2.50",
+        "2.30",
+        "1.90",
+        "µA/MHz"
+      ],
+      [
+        "TIM16",
+        "TIM16",
+        "2.00",
+        "1.90",
+        "1.60",
+        "1.30",
+        "µA/MHz"
+      ],
+      [
+        "TIM17",
+        "TIM17",
+        "2.10",
+        "2.00",
+        "1.70",
+        "1.40",
+        "µA/MHz"
+      ],
+      [
+        "SAI1 registers",
+        "SAI1 registers",
+        "1.40",
+        "1.40",
+        "1.20",
+        "0.90",
+        "µA/MHz"
+      ],
+      [
+        "SAI1 kernel",
+        "SAI1 kernel",
+        "0.80",
+        "0.70",
+        "0.70",
+        "0.70",
+        "µA/MHz"
+      ],
+      [
+        "DFSDM1 registers",
+        "DFSDM1 registers",
+        "5.60",
+        "5.40",
+        "5.30",
+        "4.00",
+        "µA/MHz"
+      ],
+      [
+        "DFSDM1 kernel",
+        "DFSDM1 kernel",
+        "0.30",
+        "0.20",
+        "0.20",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "SYSCFG",
+        "SYSCFG",
+        "1.20",
+        "1.10",
+        "1.10",
+        "1.10",
+        "µA/MHz"
+      ],
+      [
+        "APB4",
+        "LPUART1 registers",
+        "1.80",
+        "0.90",
+        "0.80",
+        "0.60",
+        "µA/MHz"
+      ],
+      [
+        "LPUART1 kernel",
+        "LPUART1 kernel",
+        "2.40",
+        "2.30",
+        "2.00",
+        "1.90",
+        "µA/MHz"
+      ],
+      [
+        "SPI6 registers",
+        "SPI6 registers",
+        "2.60",
+        "2.30",
+        "2.10",
+        "1.80",
+        "µA/MHz"
+      ],
+      [
+        "SPI6 kernel",
+        "SPI6 kernel",
+        "1.20",
+        "1.10",
+        "1.00",
+        "0.90",
+        "µA/MHz"
+      ],
+      [
+        "I2C4 registers",
+        "I2C4 registers",
+        "0.70",
+        "0.70",
+        "0.60",
+        "0.40",
+        "µA/MHz"
+      ],
+      [
+        "I2C4 kernel",
+        "I2C4 kernel",
+        "2.00",
+        "1.70",
+        "1.70",
+        "1.40",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM2 registers",
+        "LPTIM2 registers",
+        "1.50",
+        "0.70",
+        "0.50",
+        "0.30",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM2 kernel",
+        "LPTIM2 kernel",
+        "2.50",
+        "2.10",
+        "2.00",
+        "1.90",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM3 registers",
+        "LPTIM3 registers",
+        "2.90",
+        "2.60",
+        "2.30",
+        "1.90",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM3 kernel",
+        "LPTIM3 kernel",
+        "2.40",
+        "2.00",
+        "1.90",
+        "1.70",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM4 registers",
+        "LPTIM4 registers",
+        "2.60",
+        "2.30",
+        "2.10",
+        "1.80",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM4 kernel",
+        "LPTIM4 kernel",
+        "2.10",
+        "1.80",
+        "1.70",
+        "1.60",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM5 registers",
+        "LPTIM5 registers",
+        "2.60",
+        "2.30",
+        "2.00",
+        "1.70",
+        "µA/MHz"
+      ],
+      [
+        "LPTIM5 kernel",
+        "LPTIM5 kernel",
+        "2.10",
+        "1.80",
+        "1.60",
+        "1.50",
+        "µA/MHz"
+      ],
+      [
+        "COMP1/2",
+        "COMP1/2",
+        "0.70",
+        "0.30",
+        "0.20",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "VREF",
+        "VREF",
+        "0.10",
+        "0.10",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "RTC",
+        "RTC",
+        "0.10",
+        "0.10",
+        "0.10",
+        "0.10",
+        "µA/MHz"
+      ],
+      [
+        "WWDG1",
+        "WWDG1",
+        "0.60",
+        "0.50",
+        "0.50",
+        "0.50",
+        "µA/MHz"
+      ],
+      [
+        "SAI4 registers",
+        "SAI4 registers",
+        "2.40",
+        "2.20",
+        "2.10",
+        "1.70",
+        "µA/MHz"
+      ],
+      [
+        "SAI4 kernel",
+        "SAI4 kernel",
+        "0.90",
+        "0.90",
+        "0.90",
+        "0.70",
+        "µA/MHz"
+      ],
+      [
+        "DTS",
+        "DTS",
+        "2.90",
+        "2.60",
+        "2.30",
+        "2.00",
+        "µA/MHz"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The maximum values have been measured at -40 °C, in worst conditions.",
+      "3. The wake-up times are measured from the wake-up event to the point in which the application code reads the first DS13311 Rev 5 143/283"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

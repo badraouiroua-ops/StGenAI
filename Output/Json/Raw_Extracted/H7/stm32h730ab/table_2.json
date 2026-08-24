@@ -1,0 +1,62 @@
+{
+  "table_id": "table_2",
+  "caption": "Table 2. System versus domain low-power mode",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 29,
+  "merged_pages": [
+    29
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=29",
+  "section": "3.9 Low-power strategy",
+  "headers": [
+    "System power mode",
+    "D1 domain power mode",
+    "D2 domain power mode",
+    "D3 domain power mode"
+  ],
+  "rows": [
+    [
+      "Run",
+      "DRun/DStop/DStandby",
+      "DRun/DStop/DStandby",
+      "DRun"
+    ],
+    [
+      "Stop",
+      "DStop/DStandby",
+      "DStop/DStandby",
+      "DStop"
+    ],
+    [
+      "Standby",
+      "DStandby",
+      "DStandby",
+      "DStandby"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_2",
+    "is_continued": false,
+    "pages": [
+      29
+    ],
+    "rows_count": 3,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

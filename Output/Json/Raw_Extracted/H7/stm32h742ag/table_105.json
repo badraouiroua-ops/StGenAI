@@ -1,0 +1,102 @@
+{
+  "table_id": "table_105",
+  "caption": "Table 105. Dynamics characteristics: Ethernet MAC signals for RMII",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 201,
+  "merged_pages": [
+    201
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=201",
+  "section": "6.3.32 Communications interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t su(RXD)",
+      "Receive data setup time",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(RXD)",
+      "Receive data hold time",
+      "3",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(CRS)",
+      "Carrier sense setup time",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t ih(CRS)",
+      "Carrier sense hold time",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(TXEN)",
+      "Transmit enable valid delay time",
+      "4",
+      "4.5",
+      "7",
+      "ns"
+    ],
+    [
+      "t d(TXD)",
+      "Transmit data valid delay time",
+      "7",
+      "7.5",
+      "11.5",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results. Figure 60. Ethernet RMII timing diagram"
+    ],
+    "_legend": [
+      "corresponding timing diagram."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_105",
+    "is_continued": false,
+    "pages": [
+      201
+    ],
+    "rows_count": 6,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

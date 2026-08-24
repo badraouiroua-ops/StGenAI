@@ -1,0 +1,39 @@
+{
+  "table_id": "table_31",
+  "document": "DS13195 Rev 8 - Table 31. Internal reference voltage calibration values",
+  "rev": "Rev 8",
+  "table_number": "31",
+  "title": "Table 31. Internal reference voltage calibration values",
+  "page": 92,
+  "section": "6.3.6 Embedded reference voltage",
+  "section_title": "Embedded reference voltage",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=92",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 31. Internal reference voltage calibration values — section 6.3.6 Embedded reference voltage. Symbol, Parameter, Memory address.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Memory address"
+    ],
+    "rows": [
+      [
+        "VREFIN_CAL",
+        "Raw data acquired at temperature of 30 °C, VDDA = 3.3 V",
+        "08FFF810 - 08FFF812"
+      ]
+    ],
+    "notes": [
+      "1. The inrush current and inrush electric charge on VDDLDO are not present in Bypass mode or when the SMPS supplies VDDCORE.",
+      "2. The maximum value is given for the maximum decoupling capacitor CEXT.",
+      "3. The inrush current and inrush electric charge on VDDSMPS is not present if the external component (L or COUT) is not present, that is if the SMPS is not used.",
+      "4. The maximum value is given for the maximum decoupling capacitor COUT and the minimum VDDSMPS voltage.",
+      "5. The inrush current and inrush electric charge due to the transition from 1.2 V to the final VOUT value (1.8 V or 2.5 V) is not taken into account."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

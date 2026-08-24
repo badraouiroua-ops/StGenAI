@@ -1,0 +1,78 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. Operating mode summary",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 31,
+  "merged_pages": [
+    31
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=31",
+  "section": "3.6 Low-power modes",
+  "headers": [
+    "System",
+    "System oscillator",
+    "System clock",
+    "Peripheral clock",
+    "CPU clock",
+    "Voltage regulator"
+  ],
+  "rows": [
+    [
+      "Run",
+      "ON",
+      "ON",
+      "ON",
+      "ON",
+      "ON (VOS)"
+    ],
+    [
+      "Sleep",
+      "ON",
+      "ON",
+      "ON/OFF",
+      "OFF",
+      "ON (VOS)"
+    ],
+    [
+      "Stop",
+      "ON/OFF",
+      "OFF",
+      "ON/OFF",
+      "OFF",
+      "ON (SVOS)"
+    ],
+    [
+      "Standby",
+      "OFF",
+      "OFF",
+      "OFF",
+      "OFF",
+      "OFF"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      31
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

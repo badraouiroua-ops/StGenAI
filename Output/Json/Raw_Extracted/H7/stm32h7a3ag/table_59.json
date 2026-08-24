@@ -1,0 +1,71 @@
+{
+  "table_id": "table_59",
+  "caption": "Table 59. Flash memory endurance and data retention",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 113,
+  "merged_pages": [
+    113
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=113",
+  "section": "6.3.12 Memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Value / Min(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "NEND",
+      "Endurance",
+      "TJ = –40 to +130 °C",
+      "10",
+      "kcycles"
+    ],
+    [
+      "tRET",
+      "Data retention",
+      "1 kcycle at TA = 85 °C",
+      "30",
+      "Years"
+    ],
+    [
+      "tRET",
+      "-",
+      "10 kcycles at TA = 55 °C",
+      "20",
+      "Years"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_59",
+    "is_continued": false,
+    "pages": [
+      113
+    ],
+    "rows_count": 3,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

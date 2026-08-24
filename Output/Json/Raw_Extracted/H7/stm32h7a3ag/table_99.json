@@ -1,0 +1,125 @@
+{
+  "table_id": "table_99",
+  "caption": "Table 99. Analog temperature sensor characteristics",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 155,
+  "merged_pages": [
+    155
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=155",
+  "section": "6.3.24 Analog temperature sensor characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "TL(1)",
+      "VSENSE linearity with temperature (from VSENSOR voltage)",
+      "-",
+      "-",
+      "3",
+      "°C"
+    ],
+    [
+      "TL(1)",
+      "VSENSE linearity with temperature (from ADC counter)",
+      "-",
+      "-",
+      "3",
+      "°C"
+    ],
+    [
+      "Avg_Slope(2)",
+      "Average slope (from VSENSOR voltage)",
+      "-",
+      "2",
+      "-",
+      "mV/°C"
+    ],
+    [
+      "Avg_Slope(2)",
+      "Average slope (from ADC counter)",
+      "-",
+      "2",
+      "-",
+      "mV/°C"
+    ],
+    [
+      "V30(3)",
+      "Voltage at 30°C ± 5 °C",
+      "-",
+      "0.62",
+      "-",
+      "V"
+    ],
+    [
+      "tstart_run(1)",
+      "Startup time in Run mode (buffer startup)",
+      "-",
+      "-",
+      "25.2",
+      "µs"
+    ],
+    [
+      "tS_temp(1)",
+      "ADC sampling time when reading the temperature",
+      "9",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "Isens(1)",
+      "Sensor consumption",
+      "-",
+      "0.18",
+      "0.31",
+      "µA"
+    ],
+    [
+      "Isensbuf(1)",
+      "Sensor buffer consumption",
+      "-",
+      "3.8",
+      "6.5",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by design.",
+      "2. Guaranteed by characterization results.",
+      "3. Measured at VDDA = 3.3 V ± 10 mV. The V30 ADC conversion result is stored in the TS_CAL1 byte."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_99",
+    "is_continued": false,
+    "pages": [
+      155
+    ],
+    "rows_count": 9,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

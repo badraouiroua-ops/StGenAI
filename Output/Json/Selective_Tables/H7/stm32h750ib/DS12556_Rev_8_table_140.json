@@ -1,0 +1,44 @@
+{
+  "table_id": "table_140",
+  "document": "DS12556 Rev 8 - Table 140. EMS characteristics",
+  "rev": "Rev 8",
+  "table_number": "140",
+  "title": "Table 140. EMS characteristics",
+  "page": 227,
+  "section": "7.3.12 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=227",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 140. EMS characteristics — section 7.3.12 EMC characteristics. Symbol, Parameter, Conditions, Level/ Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Level/ Class"
+    ],
+    "rows": [
+      [
+        "V FESD",
+        "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+        "V = 3.3 V, T = +25 °C, DD A UFBGA240, f = rcc_c_ck 400 MHz, conforms to IEC 61000-4-2",
+        "3B"
+      ],
+      [
+        "V FTB",
+        "Fast transient voltage burst limits to be applied through 100 pF on V and V pins to induce a DD SS functional disturbance",
+        "V = 3.3 V, T = +25 °C, DD A UFBGA240, f = rcc_c_ck 400 MHz, conforms to IEC 61000-4-2",
+        "5A"
+      ]
+    ],
+    "notes": [
+      "1. Refer to AN1709 “EMI radiated test” chapter.",
+      "2. Refer to AN1709 “EMI level classification” chapter. 228/335 DS12556 Rev 8"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

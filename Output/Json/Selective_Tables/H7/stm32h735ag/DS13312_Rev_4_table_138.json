@@ -1,0 +1,53 @@
+{
+  "table_id": "table_138",
+  "document": "DS13312 Rev 4 - Table 138. UFBGA(176+25) - Example of PCB design rules (0.65 mm pitch BGA)",
+  "rev": "Rev 4",
+  "table_number": "138",
+  "title": "Table 138. UFBGA(176+25) - Example of PCB design rules (0.65 mm pitch BGA)",
+  "page": 277,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=277",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 138. UFBGA(176+25) - Example of PCB design rules (0.65 mm pitch BGA) — section 7.1 Device marking. Dimension, Values.",
+  "table_content": {
+    "headers": [
+      "Dimension",
+      "Values"
+    ],
+    "rows": [
+      [
+        "Pitch",
+        "0.65 mm"
+      ],
+      [
+        "Dpad",
+        "0.300 mm"
+      ],
+      [
+        "Dsm",
+        "0.400 mm typ. (depends on the soldermask registration tolerance)"
+      ],
+      [
+        "Stencil opening",
+        "0.300 mm"
+      ],
+      [
+        "Stencil thickness",
+        "Between 0.100 mm and 0.125 mm"
+      ],
+      [
+        "Pad trace width",
+        "0.100 mm"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits. Figure 90. UFBGA(176+25) - Footprint example"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

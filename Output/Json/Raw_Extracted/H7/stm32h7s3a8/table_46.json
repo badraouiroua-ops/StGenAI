@@ -1,0 +1,126 @@
+{
+  "table_id": "table_46",
+  "caption": "Table 46. Typical and maximum current consumption in Run mode, code with data processing running from Octo flash memory, cache OFF",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 178,
+  "merged_pages": [
+    178
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=178",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "frcc_c_ck (MHz)",
+    "Memory frequency( MHz)",
+    "Typ",
+    "Max(3) TJ = 105°C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "400",
+      "200",
+      "9.00",
+      "9.5",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "320",
+      "160",
+      "7.10",
+      "7.7",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "266",
+      "133",
+      "5.80",
+      "6.3",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "200",
+      "100",
+      "4.50",
+      "4.9",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "180",
+      "90",
+      "4.05",
+      "4.5",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "120",
+      "60",
+      "2.70",
+      "3.0",
+      "mA"
+    ],
+    [
+      "IDD_XSPI",
+      "XSPI current in Run mode",
+      "V = DDXSPIx 1.8 V",
+      "60",
+      "30",
+      "1.35",
+      "1.5",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "3. Guaranteed by characterization results."
+    ],
+    "_legend": [
+      "running from Octo flash memory(1), cache OFF(2)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_46",
+    "is_continued": false,
+    "pages": [
+      178
+    ],
+    "rows_count": 7,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

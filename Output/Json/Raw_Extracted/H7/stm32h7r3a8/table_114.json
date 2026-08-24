@@ -1,0 +1,90 @@
+{
+  "table_id": "table_114",
+  "caption": "Table 114. DCMIPP characteristics",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 257,
+  "merged_pages": [
+    257
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=257",
+  "section": "6.3.28 Digital camera interface (DCMIPP) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "DCMIPP_PIXCLK",
+      "Pixel Clock input",
+      "-",
+      "120",
+      "MHz"
+    ],
+    [
+      "D pixel",
+      "Pixel Clock input duty cycle",
+      "30",
+      "70",
+      "%"
+    ],
+    [
+      "t DATA) su(",
+      "Data input setup time",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      "t (DATA) h",
+      "Data hold time",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(HSYNC), tsu(VSYNC)",
+      "DCMI_HSYNC/ DCMI_VSYNC input setup time",
+      "2.5",
+      "-",
+      "ns"
+    ],
+    [
+      "th(HSYNC), th(VSYNC)",
+      "DCMI_HSYNC/ DCMI_VSYNC input hold time",
+      "1",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. At VOS low, these values are degraded by up to 7%."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_114",
+    "is_continued": false,
+    "pages": [
+      257
+    ],
+    "rows_count": 6,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

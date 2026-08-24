@@ -1,0 +1,389 @@
+{
+  "table_id": "table_26",
+  "caption": "Table 26. General operating conditions",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 158,
+  "merged_pages": [
+    158,
+    159
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=158",
+  "section": "6.3.1 General operating conditions",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Operating conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DD",
+      "Standard operating voltage",
+      "HSLV=0",
+      "1.71(1)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DD",
+      "Standard operating voltage",
+      "HSLV=1",
+      "1.71(1)",
+      "-",
+      "2.7",
+      "V"
+    ],
+    [
+      "V DDLDO",
+      "Supply voltage for the internal regulator.",
+      "-",
+      "1.71(1)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V (2) DDSMPS",
+      "Supply voltage for the internal SMPS step- down converter",
+      "-",
+      "1.71(1)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDXSPIx",
+      "Octo and HexaSPI supply",
+      "HSLV=0",
+      "1.62",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDXSPIx",
+      "Octo and HexaSPI supply",
+      "HSLV=1",
+      "1.08",
+      "-",
+      "2.7",
+      "V"
+    ],
+    [
+      "V (2) DD50USB",
+      "USB supply voltage",
+      "USB regulator ON",
+      "4.0",
+      "5.0",
+      "5.5",
+      "V"
+    ],
+    [
+      "V (2) DD50USB",
+      "USB supply voltage",
+      "USB regulator OFF",
+      "V DD33USB",
+      "V DD33USB",
+      "V DD33USB",
+      "V"
+    ],
+    [
+      "V DD33USB",
+      "USB supply voltage",
+      "USB used",
+      "3.0",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DD33USB",
+      "USB supply voltage",
+      "USB not used(3)",
+      "0",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DD33USB",
+      "USB supply voltage",
+      "If any of PM0, PM1, PM2, PM3, PM5, and PM6 are used as GPIOs",
+      "3.0",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog operating voltage",
+      "ADC used",
+      "1.62",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog operating voltage",
+      "VREFBUF used",
+      "2.10",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog operating voltage",
+      "ADC, VREFBUF not used",
+      "0",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V BAT",
+      "Supply voltage for backup domain",
+      "-",
+      "1.2(4)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V IN",
+      "I/O Input voltage",
+      "BOOT0",
+      "-0.3",
+      "-",
+      "9.0",
+      "V"
+    ],
+    [
+      "V IN",
+      "I/O Input voltage",
+      "All IOs except BOOT0",
+      "-0.3",
+      "-",
+      "MIN (V , DD V , DDA V , DD33USB V ) DDXSPIx + 3.6 V < 5.5 V(5)(6)",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Internal regulator ON (LDO or SMPS)(7)",
+      "VOS low",
+      "1.15",
+      "1.21",
+      "1.26",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Internal regulator ON (LDO or SMPS)(7)",
+      "VOS high",
+      "1.15",
+      "1.36",
+      "1.4",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Regulator OFF: external V CORE voltage must be supplied from external regulator on V pins CAP",
+      "VOS low",
+      "1.2",
+      "-",
+      "1.26",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Regulator OFF: external V CORE voltage must be supplied from external regulator on V pins CAP",
+      "VOS high",
+      "1.37",
+      "-",
+      "1.4",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Regulator OFF: external V CORE voltage must be supplied from external regulator on V pins CAP",
+      "SVOS low(8)",
+      "0.7",
+      "0.74",
+      "0.8",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Regulator OFF: external V CORE voltage must be supplied from external regulator on V pins CAP",
+      "SVOS high(8)",
+      "0.95",
+      "1",
+      "1.05",
+      "V"
+    ],
+    [
+      "D VDD",
+      "USB OTG_HS PHY digital supply voltage",
+      "-",
+      "0.95",
+      "-",
+      "1.4",
+      "V"
+    ],
+    [
+      "f CPU",
+      "CPU clock frequency(9)",
+      "VOS low",
+      "-",
+      "-",
+      "400",
+      "MHz"
+    ],
+    [
+      "f CPU",
+      "CPU clock frequency(9)",
+      "VOS high",
+      "-",
+      "-",
+      "600",
+      "MHz"
+    ],
+    [
+      "f ACLK",
+      "AXI clock frequency",
+      "VOS low",
+      "-",
+      "-",
+      "200",
+      "MHz"
+    ],
+    [
+      "f ACLK",
+      "AXI clock frequency",
+      "VOS high",
+      "-",
+      "-",
+      "300",
+      "MHz"
+    ],
+    [
+      "f HCLK",
+      "AHB clock frequency",
+      "VOS low",
+      "-",
+      "-",
+      "200",
+      "MHz"
+    ],
+    [
+      "f HCLK",
+      "AHB clock frequency",
+      "VOS high",
+      "-",
+      "-",
+      "300",
+      "MHz"
+    ],
+    [
+      "F pclk",
+      "APB clock frequency",
+      "VOS low",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "F pclk",
+      "APB clock frequency",
+      "VOS high",
+      "-",
+      "-",
+      "150",
+      "MHz"
+    ],
+    [
+      "T A",
+      "Ambient temperature for temperature range(10)",
+      "Maximum power dissipation",
+      "-40",
+      "-",
+      "85",
+      "°C"
+    ],
+    [
+      "T J",
+      "Junction temperature",
+      "VOS high",
+      "-40",
+      "-",
+      "105",
+      "°C"
+    ],
+    [
+      "T J",
+      "Junction temperature",
+      "VOS low",
+      "-40",
+      "-",
+      "130",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of ±20% is tolerated.",
+      "3. If a fourth VCAP pin is available on the package, it must be connected to the other VCAP pins, but no additional capacitor is required.",
+      "4. V minimum value can be reduced to 0 V if V is present. BAT DD",
+      "5. This formula has to be applied on power supplies related to the IO structure described by the pin definition table. Maximum I/O input voltage is the smallest value between Min (VDD, VDDA, VDD33USB, VDDXSPIx) + 3.6 V < 5.5 V.",
+      "6. For operation with voltage higher than Min (V , V , V , and V ) +0.3 V, the internal Pull-up and Pull- DD DDA DD33USB DDXSPIx",
+      "7. These values are factory trimmed per die.",
+      "8. Values for Regulator ON or OFF.",
+      "9. 600 MHz f frequency can only be reached with ECC disabled. CPU",
+      "10. The device junction temperature must be kept below maximum T indicated in Table 27: Supply voltage and maximum J"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_26",
+    "is_continued": true,
+    "pages": [
+      158,
+      159
+    ],
+    "rows_count": 35,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

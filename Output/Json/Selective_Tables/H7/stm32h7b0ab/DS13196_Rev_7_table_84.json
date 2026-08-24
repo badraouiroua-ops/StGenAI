@@ -1,0 +1,104 @@
+{
+  "table_id": "table_84",
+  "document": "DS13196 Rev 7 - Table 84. SDRAM read timings",
+  "rev": "Rev 7",
+  "table_number": "84",
+  "title": "Table 84. SDRAM read timings",
+  "page": 121,
+  "section": "6.3.18 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=121",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 84. SDRAM read timings — section 6.3.18 FMC characteristics. Symbol, Parameter, Min(1), Max(1)(2), Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min(1)",
+      "Max(1)(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tw(SDCLK)",
+        "FMC_SDCLK period",
+        "2Tfmc_ker_ck – 1",
+        "2Tfmc_ker_ck +0.5",
+        "ns"
+      ],
+      [
+        "tsu(SDCLKH _Data)",
+        "Data input setup time",
+        "3",
+        "-",
+        "ns"
+      ],
+      [
+        ")ataD_HKLCDS(ht",
+        "Data input hold time",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "td(SDCLKL_Add)",
+        "Address valid time",
+        "-",
+        "1.5",
+        "ns"
+      ],
+      [
+        "td(SDCLKL- SDNE)",
+        "Chip select valid time",
+        "-",
+        "2(3)",
+        "ns"
+      ],
+      [
+        "th(SDCLKL_SDNE)",
+        "Chip select hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "td(SDCLKL_SDNRAS)",
+        "SDNRAS valid time",
+        "-",
+        "2",
+        "ns"
+      ],
+      [
+        "th(SDCLKL_SDNRAS)",
+        "SDNRAS hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "td(SDCLKL_SDNCAS)",
+        "SDNCAS valid time",
+        "-",
+        "0.5",
+        "ns"
+      ],
+      [
+        "th(SDCLKL_SDNCAS)",
+        "SDNCAS hold time",
+        "0",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. Using PC2_C I/O adds 4.5 ns to this timing. DS13196 - Rev 7 page 121/205"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

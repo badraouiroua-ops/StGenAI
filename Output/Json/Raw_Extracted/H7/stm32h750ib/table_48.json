@@ -1,0 +1,233 @@
+{
+  "table_id": "table_48",
+  "caption": "Table 48. I/O static characteristics",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 126,
+  "merged_pages": [
+    126,
+    127
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=126",
+  "section": "6.3.15 I/O port characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V IL",
+      "I/O input low level voltage except BOOT0",
+      "1.62 V<V <3.6 V DD",
+      "-",
+      "-",
+      "0.3V (1) DD",
+      "V"
+    ],
+    [
+      "V IL",
+      "I/O input low level voltage except BOOT0",
+      "1.62 V<V <3.6 V DD",
+      "-",
+      "-",
+      "0.4V - DD 0.1(2)",
+      "V"
+    ],
+    [
+      "V IL",
+      "BOOT0 I/O input low level voltage",
+      "1.62 V<V <3.6 V DD",
+      "-",
+      "-",
+      "0.19V + DD 0.1(2)",
+      "V"
+    ],
+    [
+      "V IH",
+      "I/O input high level voltage except BOOT0",
+      "1.62 V<V <3.6 V DD",
+      "0.7V (1) DD",
+      "-",
+      "-",
+      "V"
+    ],
+    [
+      "V IH",
+      "I/O input high level voltage except BOOT0",
+      "1.62 V<V <3.6 V DD",
+      "0.47V + DD 0.25(2)",
+      "-",
+      "-",
+      "V"
+    ],
+    [
+      "V IH",
+      "BOOT0 I/O input high level voltage",
+      "1.62 V<V <3.6 V DD",
+      "0.17V + DD 0.6(2)",
+      "-",
+      "-",
+      "V"
+    ],
+    [
+      "V (2) HYS",
+      "TT_xx, FT_xxx and NRST I/O input hysteresis",
+      "1.62 V< V <3.6 V DD",
+      "-",
+      "250",
+      "-",
+      "mV"
+    ],
+    [
+      "V (2) HYS",
+      "BOOT0 I/O input hysteresis",
+      "1.62 V< V <3.6 V DD",
+      "-",
+      "200",
+      "-",
+      "mV"
+    ],
+    [
+      "I (3) lkg",
+      "FT_xx Input leakage current(2)",
+      "0< V ≤ Max(V )(8) IN DDXXX",
+      "-",
+      "-",
+      "+/-250",
+      "nA"
+    ],
+    [
+      "I (3) lkg",
+      "FT_xx Input leakage current(2)",
+      "Max(V ) < V ≤ 5.5 V DDXXX IN (4)(5)(8)",
+      "-",
+      "-",
+      "1500",
+      "nA"
+    ],
+    [
+      "I (3) lkg",
+      "FT_u IO",
+      "0< V ≤ Max(V )(8) IN DDXXX",
+      "-",
+      "-",
+      "+/- 350",
+      "nA"
+    ],
+    [
+      "I (3) lkg",
+      "FT_u IO",
+      "Max(V ) < V ≤ 5.5 V DDXXX IN (4)(5)(8)",
+      "-",
+      "-",
+      "5000(6)",
+      "nA"
+    ],
+    [
+      "I (3) lkg",
+      "TT_xx Input leakage current",
+      "0< V ≤ Max(V ) (8) IN DDXXX",
+      "-",
+      "-",
+      "+/-250",
+      "nA"
+    ],
+    [
+      "I (3) lkg",
+      "VPP (BOOT0 alternate function)",
+      "0< V ≤ V IN DD",
+      "-",
+      "-",
+      "15",
+      "nA"
+    ],
+    [
+      "I (3) lkg",
+      "VPP (BOOT0 alternate function)",
+      "V < V ≤ 9 V DD IN",
+      "-",
+      "-",
+      "35",
+      "nA"
+    ],
+    [
+      "R PU",
+      "Weak pull-up equivalent resistor(7)",
+      "V =V IN SS",
+      "30",
+      "40",
+      "50",
+      "kΩ"
+    ],
+    [
+      "R PD",
+      "Weak pull-down equivalent resistor(7)",
+      "V =V (8) IN DD",
+      "30",
+      "40",
+      "50",
+      "kΩ"
+    ],
+    [
+      "C IO",
+      "I/O pin capacitance",
+      "-",
+      "-",
+      "5",
+      "-",
+      "pF"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by characterization.",
+      "2. Guaranteed by design.",
+      "3. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: I = 10 μA + [number of I/Os where V is applied on the pad] ₓ I .",
+      "4. All FT_xx IO except FT_lu, FT_u and PC3.",
+      "5. V must be less than Max(VDDXXX) + 3.6 V. IN",
+      "6. To sustain a voltage higher than MIN(V , V , V ) +0.3 V, the internal pull-up and pull-down resistors must be DD DDA DD33USB",
+      "7. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10% order).",
+      "8. Max(VDDXXX) is the maximum value of all the I/O supplies. All I/Os are CMOS and TTL compliant (no software configuration required). Their"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_48",
+    "is_continued": true,
+    "pages": [
+      126,
+      127
+    ],
+    "rows_count": 18,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

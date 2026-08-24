@@ -1,0 +1,137 @@
+{
+  "table_id": "table_106",
+  "document": "DS13196 Rev 7 - Table 106. DFSDM measured timing 1.62-3.6 V",
+  "rev": "Rev 7",
+  "table_number": "106",
+  "title": "Table 106. DFSDM measured timing 1.62-3.6 V",
+  "page": 143,
+  "section": "6.3.30 Digital filter for Sigma-Delta Modulators (DFSDM) characteristics",
+  "section_title": "Digital filter for Sigma-Delta Modulators (DFSDM) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=143",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 106. DFSDM measured timing 1.62-3.6 V — section 6.3.30 Digital filter for Sigma-Delta Modulators (DFSDM) characteristics. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fDFSDMCLK",
+        "DFSDM clock",
+        "1.62 V < VDD < 3.6 V",
+        "1.62 V < VDD < 3.6 V",
+        "-",
+        "-",
+        "(1)",
+        "MHz"
+      ],
+      [
+        "fCKIN (1/ TCKIN)",
+        "Input clock frequency",
+        "SPI mode (SITP[1:0]=0,1), External clock mode (SPICKSEL[1:0]=0),",
+        "SPI mode (SITP[1:0]=0,1), External clock mode (SPICKSEL[1:0]=0),",
+        "-",
+        "-",
+        "20(2)",
+        "MHz"
+      ],
+      [
+        "fCKIN (1/ TCKIN)",
+        "Input clock frequency",
+        "SPI mode (SITP[1:0]=0,1), Internal clock mode (SPICKSEL[1:0]≠0)",
+        "SPI mode (SITP[1:0]=0,1), Internal clock mode (SPICKSEL[1:0]≠0)",
+        "-",
+        "-",
+        "20(2)",
+        "MHz"
+      ],
+      [
+        "fCKOUT",
+        "Output clock frequency",
+        "1.62 < VDD < 3.6 V",
+        "1.62 < VDD < 3.6 V",
+        "-",
+        "-",
+        "20",
+        "MHz"
+      ],
+      [
+        "DuCyCKOUT",
+        "Output clock frequency duty cycle",
+        "1.62 < VDD < 3.6 V",
+        "Even division,CKOUTDIV[7:0] = n, 1, 3, 5, ...",
+        "45",
+        "50",
+        "55",
+        "%"
+      ],
+      [
+        "DuCyCKOUT",
+        "Output clock frequency duty cycle",
+        "1.62 < VDD < 3.6 V",
+        "Odd division,CKOUTDIV[7:0] = n, 2, 4, 6, ...",
+        "(((n/ 2+1)/(n-1))*100)-5",
+        "(((n/2+1)/ (n-1))*100)",
+        "(((n/ 2+1)/(n-1))*100)+5",
+        "%"
+      ],
+      [
+        "twh(CKIN) twl(CKIN)",
+        "Input clock high and low time",
+        "SPI mode (SITP[1:0]=0,1), External clock mode (SPICKSEL[1:0]=0), 1.62 < VDD < 3.6 V",
+        "-",
+        "TCKIN/2 - 0.5",
+        "TCKIN/2",
+        "-",
+        "ns"
+      ],
+      [
+        "tsu",
+        "Data input setup time",
+        "SPI mode (SITP[1:0]=0,1), External clock mode (SPICKSEL[1:0]=0), 1.62 < VDD < 3.6 V",
+        "-",
+        "4",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "th",
+        "Data input hold time",
+        "SPI mode (SITP[1:0]=0,1), External clock mode (SPICKSEL[1:0]=0), 1.62 < VDD < 3.6 V",
+        "-",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "TManchester",
+        "Manchester data period (recovered clock period)",
+        "Manchester mode (SITP[1:0]=2,3), Internal clock mode (SPICKSEL[1:0]¹0), 1.62 < VDD < 3.6 V",
+        "-",
+        "(CKOUTDIV[7:0]+1) x TDFSDMCLK",
+        "-",
+        "(2*CKOUTDIV[7:0]) x TDFSDMCLK(3)",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. The maximum DFSDM kernel clock is specified in Section 6.3.1 .",
+      "2. The internal DFSDMCLK clock must be at least 4 times faster than the external CKIN clock.",
+      "3. The internal DFSDMCLK must be at least 6 times faster than the Manchester data frequency. DS13196 - Rev 7 page 144/205"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

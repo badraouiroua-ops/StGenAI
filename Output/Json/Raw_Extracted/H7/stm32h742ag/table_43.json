@@ -1,0 +1,197 @@
+{
+  "table_id": "table_43",
+  "caption": "Table 43. Flash memory programming",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 132,
+  "merged_pages": [
+    132
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=132",
+  "section": "6.3.11 Memory characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Typ",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t prog",
+      "Word (266 bits) programming time",
+      "Program/erase parallelism x 8",
+      "-",
+      "290",
+      "580(2)",
+      "µs"
+    ],
+    [
+      "t prog",
+      "Word (266 bits) programming time",
+      "Program/erase parallelism x 16",
+      "-",
+      "180",
+      "360",
+      "µs"
+    ],
+    [
+      "t prog",
+      "Word (266 bits) programming time",
+      "Program/erase parallelism x 32",
+      "-",
+      "130",
+      "260",
+      "µs"
+    ],
+    [
+      "t prog",
+      "Word (266 bits) programming time",
+      "Program/erase parallelism x 64",
+      "-",
+      "100",
+      "200",
+      "µs"
+    ],
+    [
+      "t ERASE128KB",
+      "Sector (128 KB) erase time",
+      "Program/erase parallelism x 8",
+      "-",
+      "2",
+      "4",
+      "s"
+    ],
+    [
+      "t ERASE128KB",
+      "Sector (128 KB) erase time",
+      "Program/erase parallelism x 16",
+      "-",
+      "1.8",
+      "3.6",
+      "s"
+    ],
+    [
+      "t ERASE128KB",
+      "Sector (128 KB) erase time",
+      "Program/erase parallelism x 32",
+      "-",
+      "1.1",
+      "2.2",
+      "s"
+    ],
+    [
+      "t ERASE128KB",
+      "Sector (128 KB) erase time",
+      "Program/erase parallelism x 64",
+      "-",
+      "1",
+      "2",
+      "s"
+    ],
+    [
+      "t ME",
+      "Mass erase time",
+      "Program/erase parallelism x 8",
+      "-",
+      "13",
+      "26",
+      "s"
+    ],
+    [
+      "t ME",
+      "Mass erase time",
+      "Program/erase parallelism x 16",
+      "-",
+      "8",
+      "16",
+      "s"
+    ],
+    [
+      "t ME",
+      "Mass erase time",
+      "Program/erase parallelism x 32",
+      "-",
+      "6",
+      "12",
+      "s"
+    ],
+    [
+      "t ME",
+      "Mass erase time",
+      "Program/erase parallelism x 64",
+      "-",
+      "5",
+      "10",
+      "s"
+    ],
+    [
+      "V prog",
+      "Programming voltage",
+      "Program parallelism x 8",
+      "1.62",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V prog",
+      "Programming voltage",
+      "Program parallelism x 16",
+      "1.62",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V prog",
+      "Programming voltage",
+      "Program parallelism x 32",
+      "1.62",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V prog",
+      "Programming voltage",
+      "Program parallelism x 64",
+      "1.8",
+      "-",
+      "3.6",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The maximum programming time is measured after 10K erase operations."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_43",
+    "is_continued": false,
+    "pages": [
+      132
+    ],
+    "rows_count": 16,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

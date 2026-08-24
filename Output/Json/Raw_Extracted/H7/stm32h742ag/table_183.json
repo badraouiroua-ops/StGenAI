@@ -1,0 +1,69 @@
+{
+  "table_id": "table_183",
+  "caption": "Table 183. V charging characteristics 287 BAT",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 287,
+  "merged_pages": [
+    287
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=287",
+  "section": "7.3.24 Temperature and V monitoring",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "R BC",
+      "Battery charging resistor",
+      "VBRS in PWR_CR3= 0",
+      "-",
+      "5",
+      "-",
+      "KΩ"
+    ],
+    [
+      "R BC",
+      "Battery charging resistor",
+      "VBRS in PWR_CR3= 1",
+      "-",
+      "1.5",
+      "-",
+      "KΩ"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS12110 Rev 11 287/357",
+      "2. Refer to Table 117: Embedded reference voltage. 288/357 DS12110 Rev 11"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_183",
+    "is_continued": false,
+    "pages": [
+      287
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

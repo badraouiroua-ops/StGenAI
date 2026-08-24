@@ -1,0 +1,52 @@
+{
+  "table_id": "table_71",
+  "document": "DS14359 Rev 7 - Table 71. I/O current injection susceptibility",
+  "rev": "Rev 7",
+  "table_number": "71",
+  "title": "Table 71. I/O current injection susceptibility",
+  "page": 206,
+  "section": "6.3.14 I/O current injection characteristics",
+  "section_title": "I/O current injection characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=206",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 71. I/O current injection susceptibility — section 6.3.14 I/O current injection characteristics. Symbol, Description, Functional susceptibility / Negative injection, Functional susceptibility / Positive injection, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Description",
+      "Functional susceptibility / Negative injection",
+      "Functional susceptibility / Positive injection",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I INJ",
+        "Injected current on pins: PB2, PC14, PC15, PF15, PM0, PM1, PM5 and PM6",
+        "0",
+        "0",
+        "mA"
+      ],
+      [
+        "-",
+        "Injected current on all other pins",
+        "5",
+        "NA",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization results.",
+      "2. Compliant with CMOS requirements.",
+      "3. Specified by design - Not tested in production.",
+      "4. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: I = 10 μA + [number of I/Os where V is applied on the pad] ₓ I .",
+      "5. V must be less than Max(V ) + 3.6 V. IN DDXXX",
+      "6. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10%).",
+      "7. Max(V ) is the maximum value of all the I/O supplies. DDXXX"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

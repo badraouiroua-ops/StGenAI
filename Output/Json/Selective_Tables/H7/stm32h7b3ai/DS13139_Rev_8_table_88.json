@@ -1,0 +1,118 @@
+{
+  "table_id": "table_88",
+  "document": "DS13139 Rev 8 - Table 88. SDRAM write timings",
+  "rev": "Rev 8",
+  "table_number": "88",
+  "title": "Table 88. SDRAM write timings",
+  "page": 140,
+  "section": "6.3.18 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=140",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 88. SDRAM write timings — section 6.3.18 FMC characteristics. Symbol, Parameter, Min(1), Max(1)(2), Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min(1)",
+      "Max(1)(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tw(SDCLK)",
+        "FMC_SDCLK period",
+        "2Tfmc_ker_ck – 1",
+        "2Tfmc_ker_ck+0.5",
+        "ns"
+      ],
+      [
+        ")ataD_ LKLCDS(dt",
+        "Data output valid time",
+        "-",
+        "2.5",
+        "ns"
+      ],
+      [
+        ")ataD_ LKLCDS(ht",
+        "Data output hold time",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "td(SDCLKL_Add)",
+        "Address valid time",
+        "-",
+        "2",
+        "ns"
+      ],
+      [
+        "td(SDCLKL_SDNWE)",
+        "SDNWE valid time",
+        "-",
+        "2.5",
+        "ns"
+      ],
+      [
+        "th(SDCLKL_SDNWE)",
+        "SDNWE hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "td(SDCLKL_ SDNE)",
+        "Chip select valid time",
+        "-",
+        "2(3)",
+        "ns"
+      ],
+      [
+        "th(SDCLKL-_SDNE)",
+        "Chip select hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "td(SDCLKL_SDNRAS)",
+        "SDNRAS valid time",
+        "-",
+        "1.5",
+        "ns"
+      ],
+      [
+        "th(SDCLKL_SDNRAS)",
+        "SDNRAS hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "td(SDCLKL_SDNCAS)",
+        "SDNCAS valid time",
+        "-",
+        "1.5",
+        "ns"
+      ],
+      [
+        "td(SDCLKL_SDNCAS)",
+        "SDNCAS hold time",
+        "0.5",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. Using PC2_C I/O adds 4.5 ns to this timing."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

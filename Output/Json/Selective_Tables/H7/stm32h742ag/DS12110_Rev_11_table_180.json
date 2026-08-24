@@ -1,0 +1,91 @@
+{
+  "table_id": "table_180",
+  "document": "DS12110 Rev 11 - Table 180. Temperature sensor characteristics",
+  "rev": "Rev 11",
+  "table_number": "180",
+  "title": "Table 180. Temperature sensor characteristics",
+  "page": 286,
+  "section": "7.3.23 Temperature sensor characteristics",
+  "section_title": "Temperature sensor characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=286",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 180. Temperature sensor characteristics — section 7.3.23 Temperature sensor characteristics. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "T (1) L",
+        "V linearity with temperature SENSE",
+        "-",
+        "-",
+        "±3",
+        "°C"
+      ],
+      [
+        "Avg_Slope(2)",
+        "Average slope",
+        "-",
+        "2",
+        "-",
+        "mV/°C"
+      ],
+      [
+        "V (3) 30",
+        "Voltage at 30°C ± 5 °C",
+        "-",
+        "0.62",
+        "-",
+        "V"
+      ],
+      [
+        "t start_run",
+        "Startup time in Run mode (buffer startup)",
+        "-",
+        "-",
+        "25.2",
+        "µs"
+      ],
+      [
+        "t (1) S_temp",
+        "ADC sampling time when reading the temperature",
+        "9",
+        "-",
+        "-",
+        "µs"
+      ],
+      [
+        "I (1) sens",
+        "Sensor consumption",
+        "-",
+        "0.18",
+        "0.31",
+        "µA"
+      ],
+      [
+        "I (1) sensbuf",
+        "Sensor buffer consumption",
+        "-",
+        "3.8",
+        "6.5",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. In degraded mode, the voltage reference buffer cannot accurately maintain the output voltage (V −drop voltage). DDA",
+      "3. To properly control VREFBUF I current during the startup phase and the change of scaling, V voltage should be in INRUSH DDA"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

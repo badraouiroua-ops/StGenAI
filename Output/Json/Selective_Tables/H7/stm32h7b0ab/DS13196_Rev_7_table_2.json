@@ -1,0 +1,43 @@
+{
+  "table_id": "table_2",
+  "document": "DS13196 Rev 7 - Table 2. System vs domain low-power mode",
+  "rev": "Rev 7",
+  "table_number": "2",
+  "title": "Table 2. System vs domain low-power mode",
+  "page": 16,
+  "section": "3.6 Low-power modes",
+  "section_title": "Low-power modes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=16",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 2. System vs domain low-power mode — section 3.6 Low-power modes. System power mode, CD domain power mode, SRD domain power mode.",
+  "table_content": {
+    "headers": [
+      "System power mode",
+      "CD domain power mode",
+      "SRD domain power mode"
+    ],
+    "rows": [
+      [
+        "Run",
+        "DRun/DStop/DStop2",
+        "DRun"
+      ],
+      [
+        "Stop",
+        "DStop/DStop2",
+        "DStop"
+      ],
+      [
+        "Standby",
+        "Standby",
+        "Standby"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

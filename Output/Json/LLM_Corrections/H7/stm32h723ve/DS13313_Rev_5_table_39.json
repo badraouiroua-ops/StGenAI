@@ -1,0 +1,317 @@
+{
+  "table_id": "table_39",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "PLL input clock",
+      "row_index": 0,
+      "analyse_visuelle": "Suppression de l'espace dans l'indice du symbole fPLL_IN.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f PLL_IN",
+          "nouvelle_valeur": "fPLL_IN",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL input clock duty cycle",
+      "row_index": 1,
+      "analyse_visuelle": "Suppression de l'espace dans l'indice du symbole fPLL_IN.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f PLL_IN",
+          "nouvelle_valeur": "fPLL_IN",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL multiplier output clock P (VOS0)",
+      "row_index": 2,
+      "analyse_visuelle": "Suppression des espaces dans l'indice du symbole fPLL_P_OUT.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f PLL_P_OUT",
+          "nouvelle_valeur": "fPLL_P_OUT",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL multiplier output clock P (VOS1)",
+      "row_index": 3,
+      "analyse_visuelle": "Suppression des espaces dans l'indice du symbole fPLL_P_OUT.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f PLL_P_OUT",
+          "nouvelle_valeur": "fPLL_P_OUT",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL multiplier output clock P (VOS2)",
+      "row_index": 4,
+      "analyse_visuelle": "Suppression des espaces dans l'indice du symbole fPLL_P_OUT.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f PLL_P_OUT",
+          "nouvelle_valeur": "fPLL_P_OUT",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL multiplier output clock P (VOS3)",
+      "row_index": 5,
+      "analyse_visuelle": "Suppression des espaces dans l'indice du symbole fPLL_P_OUT.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f PLL_P_OUT",
+          "nouvelle_valeur": "fPLL_P_OUT",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL VCO output",
+      "row_index": 6,
+      "analyse_visuelle": "Suppression de l'espace dans l'indice du symbole fVCO_OUT.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f VCO_OUT",
+          "nouvelle_valeur": "fVCO_OUT",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL lock time (Normal mode)",
+      "row_index": 7,
+      "analyse_visuelle": "Suppression de l'espace dans l'indice du symbole tLOCK.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t LOCK",
+          "nouvelle_valeur": "tLOCK",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL lock time (Sigma-delta mode)",
+      "row_index": 8,
+      "analyse_visuelle": "Suppression de l'espace dans l'indice du symbole tLOCK.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t LOCK",
+          "nouvelle_valeur": "tLOCK",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Cycle-to-cycle jitter (192 MHz)",
+      "row_index": 9,
+      "analyse_visuelle": "Correction de la formule de condition fPLL_OUT = fVCO_OUT/100.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = PLL_OUT f /100 VCO_OUT",
+          "nouvelle_valeur": "fPLL_OUT = fVCO_OUT/100",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Cycle-to-cycle jitter (400 MHz)",
+      "row_index": 10,
+      "analyse_visuelle": "Correction de la formule de condition fPLL_OUT = fVCO_OUT/100.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = PLL_OUT f /100 VCO_OUT",
+          "nouvelle_valeur": "fPLL_OUT = fVCO_OUT/100",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Cycle-to-cycle jitter (560 MHz)",
+      "row_index": 11,
+      "analyse_visuelle": "Correction de la formule de condition fPLL_OUT = fVCO_OUT/100.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = PLL_OUT f /100 VCO_OUT",
+          "nouvelle_valeur": "fPLL_OUT = fVCO_OUT/100",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Cycle-to-cycle jitter (800 MHz)",
+      "row_index": 12,
+      "analyse_visuelle": "Correction de la formule de condition fPLL_OUT = fVCO_OUT/100.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = PLL_OUT f /100 VCO_OUT",
+          "nouvelle_valeur": "fPLL_OUT = fVCO_OUT/100",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Period jitter (192 MHz)",
+      "row_index": 13,
+      "analyse_visuelle": "Correction de la formule de condition fPLL_OUT = fVCO_OUT/100.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = PLL_OUT f /100 VCO_OUT",
+          "nouvelle_valeur": "fPLL_OUT = fVCO_OUT/100",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Period jitter (560 MHz)",
+      "row_index": 14,
+      "analyse_visuelle": "Correction de la formule de condition fPLL_OUT = fVCO_OUT/100.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = PLL_OUT f /100 VCO_OUT",
+          "nouvelle_valeur": "fPLL_OUT = fVCO_OUT/100",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Period jitter (800 MHz)",
+      "row_index": 15,
+      "analyse_visuelle": "Correction de la formule de condition fPLL_OUT = fVCO_OUT/100.",
+      "corrections": [
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = PLL_OUT f /100 VCO_OUT",
+          "nouvelle_valeur": "fPLL_OUT = fVCO_OUT/100",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL power consumption (560 MHz, VDDA)",
+      "row_index": 22,
+      "analyse_visuelle": "Correction du symbole IDD(PLL), de la condition fVCO_OUT = 560 MHz et de VDDA.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(PLL)",
+          "nouvelle_valeur": "IDD(PLL)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = VCO_OUT 560 MHz",
+          "nouvelle_valeur": "fVCO_OUT = 560 MHz",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "V DDA",
+          "nouvelle_valeur": "VDDA",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL power consumption (560 MHz, VCORE)",
+      "row_index": 23,
+      "analyse_visuelle": "Correction du symbole IDD(PLL), de la condition fVCO_OUT = 560 MHz et de VCORE.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(PLL)",
+          "nouvelle_valeur": "IDD(PLL)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = VCO_OUT 560 MHz",
+          "nouvelle_valeur": "fVCO_OUT = 560 MHz",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "V CORE",
+          "nouvelle_valeur": "VCORE",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL power consumption (192 MHz, VDDA)",
+      "row_index": 24,
+      "analyse_visuelle": "Correction du symbole IDD(PLL), de la condition fVCO_OUT = 192 MHz et de VDDA.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(PLL)",
+          "nouvelle_valeur": "IDD(PLL)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = VCO_OUT 192 MHz",
+          "nouvelle_valeur": "fVCO_OUT = 192 MHz",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "V DDA",
+          "nouvelle_valeur": "VDDA",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "PLL power consumption (192 MHz, VCORE)",
+      "row_index": 25,
+      "analyse_visuelle": "Correction du symbole IDD(PLL), de la condition fVCO_OUT = 192 MHz et de VCORE.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I DD(PLL)",
+          "nouvelle_valeur": "IDD(PLL)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "f = VCO_OUT 192 MHz",
+          "nouvelle_valeur": "fVCO_OUT = 192 MHz",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "V CORE",
+          "nouvelle_valeur": "VCORE",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

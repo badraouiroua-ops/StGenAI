@@ -1,0 +1,115 @@
+{
+  "table_id": "table_8",
+  "document": "DS14359 Rev 7 - Table 8. XSPI implementation",
+  "rev": "Rev 7",
+  "table_number": "8",
+  "title": "Table 8. XSPI implementation",
+  "page": 52,
+  "section": "3.19.2 Extended-SPI interface (XSPI)",
+  "section_title": "Extended-SPI interface (XSPI)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=52",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 8. XSPI implementation — section 3.19.2 Extended-SPI interface (XSPI). Feature, XSPI1/2.",
+  "table_content": {
+    "headers": [
+      "Feature",
+      "XSPI1/2"
+    ],
+    "rows": [
+      [
+        "HyperBus standard compliant",
+        "X"
+      ],
+      [
+        "Xccela standard compliant",
+        "X"
+      ],
+      [
+        "tnailpmoc dradnats )C152DSEJ( IPSX",
+        "X"
+      ],
+      [
+        "AMBA® AXI compliant data interface",
+        "X"
+      ],
+      [
+        "Asynchronous AHB clock versus kernel clock",
+        "X"
+      ],
+      [
+        "Functional modes: indirect, automatic status-polling, and memory-mapped",
+        "X"
+      ],
+      [
+        "Dual chip select support (NCS1 and NCS2)",
+        "X"
+      ],
+      [
+        "Read and write support in memory-mapped mode",
+        "X"
+      ],
+      [
+        "Dual-quad configuration",
+        "X"
+      ],
+      [
+        "Dual-octal configuration",
+        "X"
+      ],
+      [
+        "SDR (single-data rate) and DTR (double-transfer rate)",
+        "X"
+      ],
+      [
+        "Data strobe (DS, DQS)",
+        "X"
+      ],
+      [
+        "Fully programmable opcode",
+        "X"
+      ],
+      [
+        "Fully programmable frame format",
+        "X"
+      ],
+      [
+        "Integrated FIFO for reception and transmission",
+        "X"
+      ],
+      [
+        "8, 16, and 32-bit data accesses",
+        "X"
+      ],
+      [
+        "Interrupt on FIFO threshold, timeout, operation complete, and access error",
+        "X"
+      ],
+      [
+        "Compliant with dual-XSPI arbiter (communication regulation)",
+        "X"
+      ],
+      [
+        "Extended CSHT timeout",
+        "X"
+      ],
+      [
+        "Memory-mapped write",
+        "X"
+      ],
+      [
+        "Refresh counter",
+        "X"
+      ],
+      [
+        "High-speed interface",
+        "X"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

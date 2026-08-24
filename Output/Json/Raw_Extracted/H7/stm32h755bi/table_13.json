@@ -1,0 +1,516 @@
+{
+  "table_id": "table_13",
+  "caption": "Table 13. General operating conditions",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 103,
+  "merged_pages": [
+    103,
+    104,
+    105
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=103",
+  "section": "6.3.1 General operating conditions",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Operating conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DD",
+      "Standard operating voltage",
+      "-",
+      "1.62(1)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDLDO",
+      "Supply voltage for the internal regulator",
+      "V ≤ V DDLDO DD",
+      "1.62(1)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDLDO",
+      "Supply voltage for the internal regulator",
+      "V ≤ V DDLDO DD",
+      "1.2(2)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDSMPS",
+      "Supply voltage for the internal SMPS Step-down converter",
+      "V = V DDSMPS DD",
+      "1.62(1)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DD33USB",
+      "Standard operating voltage, USB domain",
+      "USB used",
+      "3.0",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DD33USB",
+      "Standard operating voltage, USB domain",
+      "USB not used",
+      "0",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog operating voltage",
+      "ADC or COMP used",
+      "1.62",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog operating voltage",
+      "DAC used",
+      "1.8",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog operating voltage",
+      "OPAMP used",
+      "2.0",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog operating voltage",
+      "VREFBUF used",
+      "1.8",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog operating voltage",
+      "ADC, DAC, OPAMP, COMP, VREFBUF not used",
+      "0",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V IN",
+      "I/O Input voltage",
+      "TT_xx I/O",
+      "-0.3",
+      "-",
+      "V +0.3 DD",
+      "V"
+    ],
+    [
+      "V IN",
+      "I/O Input voltage",
+      "BOOT0",
+      "0",
+      "-",
+      "9",
+      "V"
+    ],
+    [
+      "V IN",
+      "I/O Input voltage",
+      "All I/O except BOOT0 and TT_xx",
+      "-0.3",
+      "-",
+      "Min(V , V , DD DDA V ) DD33USB +3.6V < 5.5V(3)(4)",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Internal regulator ON (LDO)",
+      "VOS3 (max frequency 200 MHz)",
+      "0.95",
+      "1.0",
+      "1.05",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Internal regulator ON (LDO)",
+      "VOS2 (max frequency 300 MHz)",
+      "1.05",
+      "1.10",
+      "1.15",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Internal regulator ON (LDO)",
+      "VOS1 (max frequency 400 MHz)",
+      "1.15",
+      "1.20",
+      "1.26",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Internal regulator ON (LDO)",
+      "VOS0(5) (max frequency 480 MHz)(6)",
+      "1.26",
+      "1.35",
+      "1.40",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Internal regulator ON (SMPS step- down converter)(7)",
+      "VOS3 (max frequency 200 MHz)",
+      "0.95",
+      "1.0",
+      "1.05",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Internal regulator ON (SMPS step- down converter)(7)",
+      "VOS2 (max frequency 300 MHz)",
+      "1.05",
+      "1.10",
+      "1.15",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Internal regulator ON (SMPS step- down converter)(7)",
+      "VOS1 (max frequency 400 MHz)",
+      "1.15",
+      "1.20",
+      "1.26",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Regulator OFF: external V CORE voltage must be supplied from external regulator on two VCAP pins",
+      "VOS3 (max frequency 200 MHz)",
+      "0.98",
+      "1.03",
+      "1.08",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Regulator OFF: external V CORE voltage must be supplied from external regulator on two VCAP pins",
+      "VOS2 (max frequency 300 MHz)",
+      "1.08",
+      "1.13",
+      "1.17",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Regulator OFF: external V CORE voltage must be supplied from external regulator on two VCAP pins",
+      "VOS1 (max frequency 400 MHz)",
+      "1.17",
+      "1.23",
+      "1.26",
+      "V"
+    ],
+    [
+      "V CORE",
+      "Regulator OFF: external V CORE voltage must be supplied from external regulator on two VCAP pins",
+      "VOS0 (max frequency 480 MHz)",
+      "1.37",
+      "1.38",
+      "1.40",
+      "V"
+    ],
+    [
+      "f CPU1",
+      "Arm® Cortex®-M7 clock frequency",
+      "VOS3",
+      "-",
+      "-",
+      "200",
+      "MHz"
+    ],
+    [
+      "f CPU1",
+      "Arm® Cortex®-M7 clock frequency",
+      "VOS2",
+      "-",
+      "-",
+      "300",
+      "MHz"
+    ],
+    [
+      "f CPU1",
+      "Arm® Cortex®-M7 clock frequency",
+      "VOS1",
+      "-",
+      "-",
+      "400",
+      "MHz"
+    ],
+    [
+      "f CPU1",
+      "Arm® Cortex®-M7 clock frequency",
+      "VOS0",
+      "-",
+      "-",
+      "480",
+      "MHz"
+    ],
+    [
+      "f CPU2",
+      "Arm® Cortex®-M4 clock frequency",
+      "VOS3",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "f CPU2",
+      "Arm® Cortex®-M4 clock frequency",
+      "VOS2",
+      "-",
+      "-",
+      "150",
+      "MHz"
+    ],
+    [
+      "f CPU2",
+      "Arm® Cortex®-M4 clock frequency",
+      "VOS1",
+      "-",
+      "-",
+      "200",
+      "MHz"
+    ],
+    [
+      "f CPU2",
+      "Arm® Cortex®-M4 clock frequency",
+      "VOS0",
+      "-",
+      "-",
+      "240(6)",
+      "MHz"
+    ],
+    [
+      "f ACLK",
+      "AXI clock frequency",
+      "VOS3",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "f ACLK",
+      "AXI clock frequency",
+      "VOS2",
+      "-",
+      "-",
+      "150",
+      "MHz"
+    ],
+    [
+      "f ACLK",
+      "AXI clock frequency",
+      "VOS1",
+      "-",
+      "-",
+      "200",
+      "MHz"
+    ],
+    [
+      "f ACLK",
+      "AXI clock frequency",
+      "VOS0",
+      "-",
+      "-",
+      "240(6)",
+      "MHz"
+    ],
+    [
+      "f HCLK",
+      "AHB clock frequency",
+      "VOS3",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "f HCLK",
+      "AHB clock frequency",
+      "VOS2",
+      "-",
+      "-",
+      "150",
+      "MHz"
+    ],
+    [
+      "f HCLK",
+      "AHB clock frequency",
+      "VOS1",
+      "-",
+      "-",
+      "200",
+      "MHz"
+    ],
+    [
+      "f HCLK",
+      "AHB clock frequency",
+      "VOS0",
+      "-",
+      "-",
+      "240(6)",
+      "MHz"
+    ],
+    [
+      "f PCLK",
+      "APB clock frequency",
+      "VOS3",
+      "-",
+      "-",
+      "50(8)",
+      "MHz"
+    ],
+    [
+      "f PCLK",
+      "APB clock frequency",
+      "VOS2",
+      "-",
+      "-",
+      "75",
+      "MHz"
+    ],
+    [
+      "f PCLK",
+      "APB clock frequency",
+      "VOS1",
+      "-",
+      "-",
+      "100",
+      "MHz"
+    ],
+    [
+      "f PCLK",
+      "APB clock frequency",
+      "VOS0",
+      "-",
+      "-",
+      "120(6)",
+      "MHz"
+    ],
+    [
+      "TA",
+      "Ambient temperature for the suffix 6 version",
+      "Maximum power dissipation",
+      "Maximum power dissipation",
+      "–40",
+      "85",
+      "°C"
+    ],
+    [
+      "TA",
+      "Ambient temperature for the suffix 6 version",
+      "Low-power dissipation(9)",
+      "Low-power dissipation(9)",
+      "–40",
+      "105",
+      "°C"
+    ],
+    [
+      "TA",
+      "Ambient temperature for the suffix 3 version",
+      "Maximum power dissipation",
+      "Maximum power dissipation",
+      "–40",
+      "125",
+      "°C"
+    ],
+    [
+      "TA",
+      "Ambient temperature for the suffix 3 version",
+      "Low-power dissipation(9)",
+      "Low-power dissipation(9)",
+      "–40",
+      "130",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 3
+    },
+    "_notes": [
+      "1. When RESET is released functionality is guaranteed down to V min BOR0",
+      "2. Only for power-up sequence when the SMPS step-down converter is configured to supply the LDO and T = 105 °C. JMax",
+      "3. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+      "4. For operation with voltage higher than Min (V , V , V ) +0.3V, the internal Pull-up and Pull-Down resistors must DD DDA DD33USB",
+      "5. VOS0 is available only when the LDO regulator is ON.",
+      "6. T = 105 °C. JMax",
+      "7. At startup, the external V voltage must remain higher or equal to 1.10 V before disabling the internal regulator (LDO). CORE",
+      "8. Maximum APB clock frequency when at least one peripheral is enabled.",
+      "9. In low-power dissipation state, T can be extended to this range as long as T does not exceed T (see Section 7.7: A J Jmax"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:3",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_13",
+    "is_continued": true,
+    "pages": [
+      103,
+      104,
+      105
+    ],
+    "rows_count": 49,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

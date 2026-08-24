@@ -1,0 +1,95 @@
+{
+  "table_id": "table_26",
+  "document": "DS14360 Rev 6 - Table 26. VCAP operating conditions",
+  "rev": "Rev 6",
+  "table_number": "26",
+  "title": "Table 26. VCAP operating conditions",
+  "page": 157,
+  "section": "6.3.2 VCAP external capacitor",
+  "section_title": "VCAP external capacitor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=157",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 26. VCAP operating conditions — section 6.3.2 VCAP external capacitor. Figure, 25. External capacitor C EXT, .",
+  "table_content": {
+    "headers": [
+      "Figure",
+      "25. External capacitor C EXT",
+      ""
+    ],
+    "rows": [
+      [
+        "Figure",
+        "C",
+        ""
+      ],
+      [
+        "ESR",
+        "",
+        ""
+      ],
+      [
+        "ESR",
+        "R Leak",
+        ""
+      ],
+      [
+        "ESR",
+        "R Leak",
+        "MS19044V2"
+      ],
+      [
+        "1. Legend: ESR is the equivalent series r",
+        "esistance.",
+        ""
+      ],
+      [
+        "T able 26.",
+        "VCAP operating conditions(",
+        "1)"
+      ],
+      [
+        "CEXT Capacitan",
+        "ce of external capacitor",
+        "2.2 µF(2)(3)"
+      ],
+      [
+        "ESR ESR o",
+        "f externalcapacitor",
+        "< 100 mΩ"
+      ],
+      [
+        "1. When bypassing the voltage regulator,",
+        "the three 2. 2 µF V capa CAP citors are",
+        "not required and shouldbe"
+      ],
+      [
+        "replaced by three 100 nF decoupling ca",
+        "pacitors.",
+        ""
+      ],
+      [
+        "2. This value corresponds to C EXT typica",
+        "l value. A variation of ±20% is tolerate",
+        "d."
+      ]
+    ],
+    "notes": [
+      "2. This value corresponds to CEXT typical value. A variation of ±20% is tolerated.",
+      "3. If a fourth VCAP pin is available on the package, it must be connected to the other VCAP pins, but no additional capacitor is required."
+    ],
+    "legend": [
+      "CEXT Capacitance of external capacitor 2.2 µF(2)(3)",
+      "ESR ESR of external capacitor < 100 mΩ",
+      "replaced by three 100 nF decoupling capacitors.",
+      "additional capacitor is required.",
+      "The devices embed a high power efficiency SMPS step-down converter. SMPS",
+      "characteristics for external usage are given in Table 28. The SMPS step-down converter",
+      "requires external components that are fully described in AN5935 “STM32H7R3/7S3 and",
+      "STM32H7R7/7S7 MCU hardware development”. The components used for datasheet"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

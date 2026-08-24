@@ -1,0 +1,41 @@
+{
+  "table_id": "table_100",
+  "document": "DS13195 Rev 8 - Table 100. Analog temperature sensor calibration values",
+  "rev": "Rev 8",
+  "table_number": "100",
+  "title": "Table 100. Analog temperature sensor calibration values",
+  "page": 155,
+  "section": "6.3.24 Analog temperature sensor characteristics",
+  "section_title": "Analog temperature sensor characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=155",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 100. Analog temperature sensor calibration values — section 6.3.24 Analog temperature sensor characteristics. Symbol, Parameter, Memory address.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Memory address"
+    ],
+    "rows": [
+      [
+        "TS_CAL1",
+        "Temperature sensor raw data acquired value at 30 °C, VDDA=3.3 V",
+        "0x08FF F814 - 0x08FF F816"
+      ],
+      [
+        "TS_CAL2",
+        "Temperature sensor raw data acquired value at 130 °C, VDDA=3.3 V",
+        "0x08FF F818 - 0x08FF F81A"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. Guaranteed by characterization results. DS13195 - Rev 8 page 155/237"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

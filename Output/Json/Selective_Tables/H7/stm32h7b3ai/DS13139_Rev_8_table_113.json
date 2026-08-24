@@ -1,0 +1,82 @@
+{
+  "table_id": "table_113",
+  "document": "DS13139 Rev 8 - Table 113. TIMx characteristics",
+  "rev": "Rev 8",
+  "table_number": "113",
+  "title": "Table 113. TIMx characteristics",
+  "page": 168,
+  "section": "6.3.34 Timer characteristics",
+  "section_title": "Timer characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=168",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 113. TIMx characteristics — section 6.3.34 Timer characteristics. Symbol, Parameter, Conditions(1), Min(2), Max(2), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions(1)",
+      "Min(2)",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "tres(TIM)",
+        "Timer resolution time",
+        "AHB/APBx prescaler=1 or 2 or 4, fTIMxCLK = 280 MHz",
+        "1",
+        "-",
+        "tTIMxCLK"
+      ],
+      [
+        "tres(TIM)",
+        "Timer resolution time",
+        "AHB/APBx prescaler>4, fTIMxCLK = 140 MHz",
+        "1",
+        "-",
+        "tTIMxCLK"
+      ],
+      [
+        "fEXT",
+        "Timer external clock frequency on CH1 to CH4",
+        "fTIMxCLK = 280 MHz",
+        "0",
+        "fTIMxCLK/2",
+        "MHz"
+      ],
+      [
+        "ResTIM",
+        "Timer resolution",
+        "fTIMxCLK = 280 MHz",
+        "-",
+        "16/32",
+        "bit"
+      ],
+      [
+        "tMAX_COUNT",
+        "Maximum possible count with 32- bit counter",
+        "-",
+        "-",
+        "65536 × 65536",
+        "tTIMxCLK"
+      ],
+      [
+        "fI2CCLK",
+        "I2CCLK frequency",
+        "Fast-mode Plus",
+        "Analog Filtre OFF, DNF=1",
+        "16",
+        "tTIMxCLK"
+      ]
+    ],
+    "notes": [
+      "1. The maximum timer frequency on APB1 or APB2 is up to 280 MHz, by setting the TIMPRE bit in the RCC_CFGR register. If APBx prescaler is 1 or 2 or 4, then TIMxCLK = rcc_hclk1, otherwise TIMxCLK = 4x Frcc_pclkx_d2.",
+      "2. Guaranteed by design."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

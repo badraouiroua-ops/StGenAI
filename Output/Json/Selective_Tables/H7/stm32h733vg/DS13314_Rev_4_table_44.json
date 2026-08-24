@@ -1,0 +1,170 @@
+{
+  "table_id": "table_44",
+  "document": "DS13314 Rev 4 - Table 44. Flash memory programming",
+  "rev": "Rev 4",
+  "table_number": "44",
+  "title": "Table 44. Flash memory programming",
+  "page": 124,
+  "section": "6.3.12 Memory characteristics",
+  "section_title": "Memory characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=124",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 44. Flash memory programming — section 6.3.12 Memory characteristics. Symbol, Parameter, Conditions, Min(1), Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min(1)",
+      "Typ",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t prog",
+        "Word (266 bits) programming time",
+        "Program/erase parallelism x 8",
+        "-",
+        "290",
+        "580(2)",
+        "µs"
+      ],
+      [
+        "t prog",
+        "Word (266 bits) programming time",
+        "Program/erase parallelism x 16",
+        "-",
+        "180",
+        "360",
+        "µs"
+      ],
+      [
+        "t prog",
+        "Word (266 bits) programming time",
+        "Program/erase parallelism x 32",
+        "-",
+        "130",
+        "260",
+        "µs"
+      ],
+      [
+        "t prog",
+        "Word (266 bits) programming time",
+        "Program/erase parallelism x 64",
+        "-",
+        "100",
+        "200",
+        "µs"
+      ],
+      [
+        "t ERASE",
+        "Sector (128 Kbytes) erase time",
+        "Program/erase parallelism x 8",
+        "-",
+        "2",
+        "4",
+        "s"
+      ],
+      [
+        "t ERASE",
+        "Sector (128 Kbytes) erase time",
+        "Program/erase parallelism x 16",
+        "-",
+        "1.8",
+        "3.6",
+        "s"
+      ],
+      [
+        "t ERASE",
+        "Sector (128 Kbytes) erase time",
+        "Program/erase parallelism x 32",
+        "-",
+        "1.1",
+        "2.2",
+        "s"
+      ],
+      [
+        "t ME",
+        "Mass erase time (1 Mbyte)",
+        "Program/erase parallelism x 8",
+        "-",
+        "13",
+        "26",
+        "s"
+      ],
+      [
+        "t ME",
+        "Mass erase time (1 Mbyte)",
+        "Program/erase parallelism x 16",
+        "-",
+        "8",
+        "16",
+        "s"
+      ],
+      [
+        "t ME",
+        "Mass erase time (1 Mbyte)",
+        "Program/erase parallelism x 32",
+        "-",
+        "6",
+        "12",
+        "s"
+      ],
+      [
+        "t ME",
+        "Mass erase time (1 Mbyte)",
+        "Program/erase parallelism x 64",
+        "-",
+        "5",
+        "10",
+        "s"
+      ],
+      [
+        "V prog",
+        "Programming voltage",
+        "Program parallelism x 8",
+        "1.62",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V prog",
+        "Programming voltage",
+        "Program parallelism x 16",
+        "1.62",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V prog",
+        "Programming voltage",
+        "Program parallelism x 32",
+        "1.62",
+        "-",
+        "3.6",
+        "V"
+      ],
+      [
+        "V prog",
+        "Programming voltage",
+        "Program parallelism x 64",
+        "1.8",
+        "-",
+        "3.6",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The maximum programming time is measured after 10K erase operations."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "table_id": "table_98",
+  "caption": "Table 98. VREFBUF characteristics",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 153,
+  "merged_pages": [
+    153,
+    154
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=153",
+  "section": "6.3.23 Voltage reference buffer characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min(1)",
+    "Typ(1)",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VDDA",
+      "Analog supply voltage",
+      "Normal mode",
+      "VSCALE = 000",
+      "2.8",
+      "3.3",
+      "3.6",
+      "V"
+    ],
+    [
+      "VDDA",
+      "Analog supply voltage",
+      "Normal mode",
+      "VSCALE = 001",
+      "2.4",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "VDDA",
+      "Analog supply voltage",
+      "Normal mode",
+      "VSCALE = 010",
+      "2.1",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "VDDA",
+      "Analog supply voltage",
+      "Normal mode",
+      "VSCALE = 011",
+      "1.8",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "VDDA",
+      "Analog supply voltage",
+      "Degraded mode(2)",
+      "VSCALE = 000",
+      "1.62",
+      "-",
+      "2.80",
+      "V"
+    ],
+    [
+      "VDDA",
+      "Analog supply voltage",
+      "Degraded mode(2)",
+      "VSCALE = 001",
+      "1.62",
+      "-",
+      "2.40",
+      "V"
+    ],
+    [
+      "VDDA",
+      "Analog supply voltage",
+      "Degraded mode(2)",
+      "VSCALE = 010",
+      "1.62",
+      "-",
+      "2.10",
+      "V"
+    ],
+    [
+      "VDDA",
+      "Analog supply voltage",
+      "Degraded mode(2)",
+      "VSCALE = 011",
+      "1.62",
+      "-",
+      "1.80",
+      "V"
+    ],
+    [
+      "VREFBUF_OUT",
+      "Voltage Reference Buffer Output",
+      "Normal mode at 30°C, ILOAD=100 µA",
+      "VSCALE = 000",
+      "2.496(3)",
+      "2.5000",
+      "2.504(3)",
+      "V"
+    ],
+    [
+      "VREFBUF_OUT",
+      "Voltage Reference Buffer Output",
+      "Normal mode at 30°C, ILOAD=100 µA",
+      "VSCALE = 001",
+      "2,0460",
+      "2.0490",
+      "2,0520",
+      "V"
+    ],
+    [
+      "VREFBUF_OUT",
+      "Voltage Reference Buffer Output",
+      "Normal mode at 30°C, ILOAD=100 µA",
+      "VSCALE = 010",
+      "1,8010",
+      "1.8040",
+      "1,8060",
+      "V"
+    ],
+    [
+      "VREFBUF_OUT",
+      "Voltage Reference Buffer Output",
+      "Normal mode at 30°C, ILOAD=100 µA",
+      "VSCALE = 011",
+      "1,4995",
+      "1.5015",
+      "1,5040",
+      "V"
+    ],
+    [
+      "VREFBUF_OUT",
+      "Voltage Reference Buffer Output",
+      "Degraded mode(2)",
+      "VSCALE = 000",
+      "VDDA- 150 mV",
+      "-",
+      "VDDA",
+      "V"
+    ],
+    [
+      "VREFBUF_OUT",
+      "Voltage Reference Buffer Output",
+      "Degraded mode(2)",
+      "VSCALE = 001",
+      "VDDA- 150 mV",
+      "-",
+      "VDDA",
+      "V"
+    ],
+    [
+      "VREFBUF_OUT",
+      "Voltage Reference Buffer Output",
+      "Degraded mode(2)",
+      "VSCALE = 010",
+      "VDDA- 150 mV",
+      "-",
+      "VDDA",
+      "V"
+    ],
+    [
+      "VREFBUF_OUT",
+      "Voltage Reference Buffer Output",
+      "Degraded mode(2)",
+      "VSCALE = 011",
+      "VDDA- 150 mV",
+      "-",
+      "VDDA",
+      "V"
+    ],
+    [
+      "TRIM",
+      "Trim step resolution",
+      "-",
+      "-",
+      "-",
+      "±0.05",
+      "±0.1",
+      "%"
+    ],
+    [
+      "CL",
+      "Load capacitor",
+      "-",
+      "-",
+      "0.5",
+      "1",
+      "1.50",
+      "uF"
+    ],
+    [
+      "esr",
+      "Equivalent Serial Resistor of CL",
+      "-",
+      "-",
+      "-",
+      "-",
+      "2",
+      "Ω"
+    ],
+    [
+      "ILOAD",
+      "Static load current",
+      "-",
+      "-",
+      "-",
+      "-",
+      "4",
+      "mA"
+    ],
+    [
+      "Iline_reg",
+      "Line regulation",
+      "2.8 V ≤ VDDA ≤ 3.6 V",
+      "ILOAD = 500 µA",
+      "-",
+      "200",
+      "-",
+      "ppm/V"
+    ],
+    [
+      "Iline_reg",
+      "Line regulation",
+      "2.8 V ≤ VDDA ≤ 3.6 V",
+      "ILOAD = 4 mA",
+      "-",
+      "100",
+      "-",
+      "ppm/V"
+    ],
+    [
+      "ILOAD_reg",
+      "Load regulation",
+      "500 µA ≤ ILOAD ≤ 4 mA",
+      "Normal Mode",
+      "-",
+      "50",
+      "-",
+      "ppm/ mA"
+    ],
+    [
+      "Tcoeff",
+      "Temperature coefficient",
+      "-40 °C < TJ < +130 °C",
+      "-",
+      "-",
+      "-",
+      "Tcoeff VREFINT + 100",
+      "ppm/ °C"
+    ],
+    [
+      "PSRR",
+      "Power supply rejection",
+      "DC",
+      "-",
+      "-",
+      "60",
+      "-",
+      "dB"
+    ],
+    [
+      "PSRR",
+      "Power supply rejection",
+      "100KHz",
+      "-",
+      "-",
+      "40",
+      "-",
+      "dB"
+    ],
+    [
+      "tSTART",
+      "Startup time",
+      "CL=0.5 µF",
+      "-",
+      "-",
+      "300",
+      "-",
+      "µs"
+    ],
+    [
+      "tSTART",
+      "Startup time",
+      "CL=1 µF",
+      "-",
+      "-",
+      "500",
+      "-",
+      "µs"
+    ],
+    [
+      "tSTART",
+      "Startup time",
+      "CL=1.5 µF",
+      "-",
+      "-",
+      "650",
+      "-",
+      "µs"
+    ],
+    [
+      "IINRUSH",
+      "Control of maximum DC current drive on VREFBUF_OUT during startup phase(4)",
+      "-",
+      "-",
+      "-",
+      "8",
+      "-",
+      "mA"
+    ],
+    [
+      "IDDA(VREFBUF)",
+      "VREFBUF consumption from VDDA",
+      "ILOAD = 0 µA",
+      "-",
+      "-",
+      "15",
+      "25",
+      "µA"
+    ],
+    [
+      "IDDA(VREFBUF)",
+      "VREFBUF consumption from VDDA",
+      "ILOAD = 500 µA",
+      "-",
+      "-",
+      "16",
+      "30",
+      "µA"
+    ],
+    [
+      "IDDA(VREFBUF)",
+      "VREFBUF consumption from VDDA",
+      "ILOAD = 4 mA",
+      "-",
+      "-",
+      "32",
+      "50",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. Difference between two consecutive codes minus 1 LSB.",
+      "3. Difference between the value measured at Code i and the value measured at Code i on a line drawn between Code 0 and last Code 4095.",
+      "4. Difference between the value measured at Code (0x001) and the ideal value."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_98",
+    "is_continued": true,
+    "pages": [
+      153,
+      154
+    ],
+    "rows_count": 33,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

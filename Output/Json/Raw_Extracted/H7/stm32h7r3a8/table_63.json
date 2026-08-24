@@ -1,0 +1,222 @@
+{
+  "table_id": "table_63",
+  "caption": "Table 63. PLL1/2/3 characteristics (low VCO frequency range)",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 199,
+  "merged_pages": [
+    199
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=199",
+  "section": "6.3.11 PLL characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f PLL_IN",
+      "PLL input clock",
+      "-",
+      "-",
+      "1",
+      "-",
+      "2",
+      "MHz"
+    ],
+    [
+      "f PLL_IN",
+      "PLL input clock duty cycle",
+      "-",
+      "-",
+      "10",
+      "-",
+      "90",
+      "%"
+    ],
+    [
+      "f PLL_P_OUT",
+      "PLL multiplier output clock P, Q, R, S, T",
+      "VOS high",
+      "VOS high",
+      "1.17",
+      "-",
+      "210",
+      "MHz"
+    ],
+    [
+      "f PLL_P_OUT",
+      "PLL multiplier output clock P, Q, R, S, T",
+      "VOS low",
+      "VOS low",
+      "1.17",
+      "-",
+      "210",
+      "MHz"
+    ],
+    [
+      "f VCO_OUT",
+      "PLL VCO output",
+      "-",
+      "-",
+      "150",
+      "-",
+      "420",
+      "MHz"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Normal mode",
+      "Normal mode",
+      "-",
+      "60(2)",
+      "100(2)",
+      "µs"
+    ],
+    [
+      "t LOCK",
+      "PLL lock time",
+      "Sigma-delta mode",
+      "Sigma-delta mode",
+      "Forbidden",
+      "Forbidden",
+      "Forbidden",
+      "µs"
+    ],
+    [
+      "Jitter (RMS)",
+      "Cycle-to-cycle jitter multiplier output clock P, Q, R, S, T",
+      "f = 150 MHz VCO_OUT",
+      "f = 150 MHz VCO_OUT",
+      "-",
+      "20",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter (RMS)",
+      "Cycle-to-cycle jitter multiplier output clock P, Q, R, S, T",
+      "f = 420 MHz VCO_OUT",
+      "f = 420 MHz VCO_OUT",
+      "-",
+      "12",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter (RMS)",
+      "Period jitter multiplier output clock P, Q, R, S, T",
+      "f = 150 MHz VCO_OUT",
+      "f = 150 MHz VCO_OUT",
+      "-",
+      "15",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter (RMS)",
+      "Period jitter multiplier output clock P, Q, R, S, T",
+      "f = 420 MHz VCO_OUT",
+      "f = 420 MHz VCO_OUT",
+      "-",
+      "8",
+      "-",
+      "±ps"
+    ],
+    [
+      "Jitter (RMS)",
+      "Long-term jitter multiplier output clock P, Q, R, S, T",
+      "Normal mode (F = 2 MHz) PLL_IN f = 150 MHz VCO_OUT",
+      "Normal mode (F = 2 MHz) PLL_IN f = 150 MHz VCO_OUT",
+      "-",
+      "±0.35",
+      "-",
+      "%(3)"
+    ],
+    [
+      "Jitter (RMS)",
+      "Long-term jitter multiplier output clock P, Q, R, S, T",
+      "Normal mode (F = 2 MHz) PLL_IN f = 420 MHz VCO_OUT",
+      "Normal mode (F = 2 MHz) PLL_IN f = 420 MHz VCO_OUT",
+      "-",
+      "±0.55",
+      "-",
+      "%(3)"
+    ],
+    [
+      "I DD(PLL)",
+      "PLL power consumption",
+      "f = 150 MHz VCO_OUT",
+      "V DD",
+      "-",
+      "200",
+      "290",
+      "µA"
+    ],
+    [
+      "I DD(PLL)",
+      "PLL power consumption",
+      "f = 150 MHz VCO_OUT",
+      "V CORE",
+      "-",
+      "625",
+      "4880",
+      "µA"
+    ],
+    [
+      "I DD(PLL)",
+      "PLL power consumption",
+      "f = 420 MHz VCO_OUT",
+      "V DD",
+      "-",
+      "460",
+      "510",
+      "µA"
+    ],
+    [
+      "I DD(PLL)",
+      "PLL power consumption",
+      "f = 420 MHz VCO_OUT",
+      "V CORE",
+      "-",
+      "1690",
+      "6400",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "2. MOD min = F (VCO_GP) min /4*F max = 2 MHz / 4*40 kHz = 12.5. ref mod",
+      "3. MOD max = F (VCO_GP) max /4*F min = 16 MHz / 4*20kHz=200. ref mod"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_63",
+    "is_continued": false,
+    "pages": [
+      199
+    ],
+    "rows_count": 17,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

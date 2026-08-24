@@ -1,0 +1,151 @@
+{
+  "table_id": "table_28",
+  "caption": "Table 28. Embedded reference voltage",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 75,
+  "merged_pages": [
+    75
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=75",
+  "section": "6.3.6 Embedded reference voltage",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VREFINT(1)",
+      "Internal reference voltages",
+      "-40 °C < TJ < 130 °C",
+      "1.180",
+      "1.216",
+      "1.255",
+      "V"
+    ],
+    [
+      "tS_vrefint(2)(3)",
+      "ADC sampling time when reading the internal reference voltage",
+      "-",
+      "4.3",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "tS_vbat(3)",
+      "VBAT sampling time when reading the internal VBAT reference voltage",
+      "-",
+      "9",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "tstart_vrefint(3)",
+      "Start time of reference voltage buffer when ADC is enable",
+      "-",
+      "-",
+      "-",
+      "4.4",
+      "µs"
+    ],
+    [
+      "Irefbuf(3)",
+      "Reference Buffer consumption for ADC",
+      "VDD = 3.3 V",
+      "9",
+      "13.5",
+      "23",
+      "µA"
+    ],
+    [
+      "ΔVREFINT(3)",
+      "Internal reference voltage spread over the temperature range",
+      "-40 °C < TJ < 130 °C",
+      "-",
+      "5",
+      "15",
+      "mV"
+    ],
+    [
+      "Tcoeff",
+      "Average temperature coefficient",
+      "Average temperature coefficient",
+      "-",
+      "20",
+      "70",
+      "ppm/°C"
+    ],
+    [
+      "VDDcoeff",
+      "Average Voltage coefficient",
+      "3.0 V < VDD < 3.6 V",
+      "-",
+      "10",
+      "1370",
+      "ppm/V"
+    ],
+    [
+      "VREFINT_DIV1",
+      "1/4 reference voltage",
+      "-",
+      "-",
+      "25",
+      "-",
+      "% VREFINT"
+    ],
+    [
+      "VREFINT_DIV2",
+      "1/2 reference voltage",
+      "-",
+      "-",
+      "50",
+      "-",
+      "% VREFINT"
+    ],
+    [
+      "VREFINT_DIV3",
+      "3/4 reference voltage",
+      "-",
+      "-",
+      "75",
+      "-",
+      "% VREFINT"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design.",
+      "2. The shortest sampling time for the application can be determined by multiple iterations.",
+      "3. Guaranteed by design. DS13196 - Rev 7 page 75/205"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_28",
+    "is_continued": false,
+    "pages": [
+      75
+    ],
+    "rows_count": 11,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

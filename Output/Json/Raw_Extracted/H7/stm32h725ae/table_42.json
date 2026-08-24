@@ -1,0 +1,106 @@
+{
+  "table_id": "table_42",
+  "caption": "Table 42. LSI oscillator characteristics",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 150,
+  "merged_pages": [
+    150
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=150",
+  "section": "6.3.11 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f LSI",
+      "LSI frequency",
+      "V = 3.3 V, T = 25 °C DD J",
+      "31.4(1)",
+      "32",
+      "32.6(1)",
+      "kHz"
+    ],
+    [
+      "f LSI",
+      "LSI frequency",
+      "T = –40 to 110 °C, J V = 1.62 to 3.6 V DD",
+      "29.76(2)",
+      "-",
+      "33.6(2)",
+      "kHz"
+    ],
+    [
+      "f LSI",
+      "LSI frequency",
+      "T = –40 to 125 °C, J V = 1.62 to 3.6 V DD",
+      "29.4(2)",
+      "-",
+      "33.6(2)",
+      "kHz"
+    ],
+    [
+      "t (3) su(LSI)",
+      "LSI oscillator startup time",
+      "-",
+      "-",
+      "80",
+      "130",
+      "µs"
+    ],
+    [
+      "t (3) stab(LSI)",
+      "LSI oscillator stabilization time (5% of final value)",
+      "-",
+      "-",
+      "120",
+      "170",
+      "µs"
+    ],
+    [
+      "I (3) DD(LSI)",
+      "LSI oscillator power consumption",
+      "-",
+      "-",
+      "130",
+      "280",
+      "nA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. Guaranteed by test in production.",
+      "3. Guaranteed by characterization results. Low-speed internal (LSI) RC oscillator"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_42",
+    "is_continued": false,
+    "pages": [
+      150
+    ],
+    "rows_count": 6,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

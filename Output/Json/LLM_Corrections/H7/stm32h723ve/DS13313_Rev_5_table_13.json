@@ -1,0 +1,40 @@
+{
+  "table_id": "table_13",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "En-têtes de colonnes",
+      "row_index": null,
+      "analyse_visuelle": "Correction des indices subscrités mal placés lors de l'extraction OCR dans les titres de colonnes (VCORE source, Max. TJ (°C), Min. VDD(V), Min. VDDLDO (V)).",
+      "corrections": [
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "V source CORE",
+          "nouvelle_valeur": "VCORE source",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "Max. T (°C) J",
+          "nouvelle_valeur": "Max. TJ (°C)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 3,
+          "valeur_originale_json": "Min. V (V) DD",
+          "nouvelle_valeur": "Min. VDD(V)",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 4,
+          "valeur_originale_json": "Min. V (V) DDLDO",
+          "nouvelle_valeur": "Min. VDDLDO (V)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

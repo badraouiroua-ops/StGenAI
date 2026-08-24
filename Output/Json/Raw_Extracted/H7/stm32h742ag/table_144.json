@@ -1,0 +1,68 @@
+{
+  "table_id": "table_144",
+  "caption": "Table 144. ESD absolute maximum ratings",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 239,
+  "merged_pages": [
+    239
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=239",
+  "section": "7.3.13 Absolute maximum ratings (electrical sensitivity)",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Conditions",
+    "Packages",
+    "Class",
+    "Maximum value(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V ESD(HBM)",
+      "Electrostatic discharge voltage (human body model)",
+      "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS- 001",
+      "All",
+      "1C",
+      "1000",
+      "V"
+    ],
+    [
+      "V ESD(CDM)",
+      "Electrostatic discharge voltage (charge device model)",
+      "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS- 002",
+      "All",
+      "C1",
+      "250",
+      "V"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization. 240/357 DS12110 Rev 11"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_144",
+    "is_continued": false,
+    "pages": [
+      239
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "table_id": "table_110",
+  "caption": "Table 110. Digital temperature sensor characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 256,
+  "merged_pages": [
+    256
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=256",
+  "section": "6.3.24 Digital temperature sensor characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f (2) DTS",
+      "Output clock frequency",
+      "VDD_CORE = 1.19 V(3)",
+      "500",
+      "750",
+      "1150",
+      "kHz"
+    ],
+    [
+      "T (2) LC",
+      "Temperature linearity coefficient",
+      "VDD_CORE = 1.19 V(3)",
+      "1660",
+      "2100",
+      "2750",
+      "Hz/°C"
+    ],
+    [
+      "T (2) TOTAL_ERROR",
+      "Temperature offset measurement, all VOS",
+      "T =-40°C to J 30°C",
+      "-13",
+      "-",
+      "4",
+      "°C"
+    ],
+    [
+      "T (2) TOTAL_ERROR",
+      "Temperature offset measurement, all VOS",
+      "T =30°C to J 130°C",
+      "-7",
+      "-",
+      "2",
+      "°C"
+    ],
+    [
+      "T VDD_CORE",
+      "Additional error due to supply variation",
+      "-",
+      "-1",
+      "-",
+      "1",
+      "°C"
+    ],
+    [
+      "t TRIM",
+      "Calibration time",
+      "-",
+      "-",
+      "-",
+      "2",
+      "ms"
+    ],
+    [
+      "t WAKE_UP",
+      "Wake-up time from off state until DTS ready bit is set",
+      "-",
+      "-",
+      "67",
+      "116.00",
+      "µs"
+    ],
+    [
+      "I DDCORE_DTS",
+      "DTS consumption on VDD_CORE",
+      "-",
+      "8.5",
+      "30",
+      "70.0",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. Evaluated by characterization - Not tested in production.",
+      "3. The characterization is done at VDD_CORE = 1.19 V for Typ/Min/Max."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_110",
+    "is_continued": false,
+    "pages": [
+      256
+    ],
+    "rows_count": 8,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

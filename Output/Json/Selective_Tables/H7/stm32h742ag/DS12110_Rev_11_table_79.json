@@ -1,0 +1,306 @@
+{
+  "table_id": "table_79",
+  "document": "DS12110 Rev 11 - Table 79. DAC characteristics",
+  "rev": "Rev 11",
+  "table_number": "79",
+  "title": "Table 79. DAC characteristics",
+  "page": 171,
+  "section": "6.3.21 DAC electrical characteristics",
+  "section_title": "DAC electrical characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=171",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 79. DAC characteristics — section 6.3.21 DAC electrical characteristics. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DDA",
+        "Analog supply voltage",
+        "-",
+        "-",
+        "1.8",
+        "3.3",
+        "3.6",
+        "V"
+      ],
+      [
+        "V REF+",
+        "Positive reference voltage",
+        "-",
+        "-",
+        "1.80",
+        "-",
+        "V DDA",
+        "V"
+      ],
+      [
+        "V REF-",
+        "Negative reference voltage",
+        "-",
+        "-",
+        "-",
+        "V SSA",
+        "-",
+        "V"
+      ],
+      [
+        "R L",
+        "Resistive Load",
+        "DAC output buffer ON",
+        "connected to V SSA",
+        "5",
+        "-",
+        "-",
+        "kΩ"
+      ],
+      [
+        "R L",
+        "Resistive Load",
+        "DAC output buffer ON",
+        "connected to V DDA",
+        "25",
+        "-",
+        "-",
+        "kΩ"
+      ],
+      [
+        "R (2) O",
+        "Output Impedance",
+        "DAC output buffer OFF",
+        "DAC output buffer OFF",
+        "10.3",
+        "13",
+        "16",
+        "kΩ"
+      ],
+      [
+        "R BON",
+        "Output impedance sample and hold mode, output buffer ON",
+        "DAC output buffer ON",
+        "V = 2.7 V DD",
+        "-",
+        "-",
+        "1.6",
+        "kΩ"
+      ],
+      [
+        "R BON",
+        "Output impedance sample and hold mode, output buffer ON",
+        "DAC output buffer ON",
+        "V = 2.0 V DD",
+        "-",
+        "-",
+        "2.6",
+        "kΩ"
+      ],
+      [
+        "R BOFF",
+        "Output impedance sample and hold mode, output buffer OFF",
+        "DAC output buffer OFF",
+        "V = 2.7 V DD",
+        "-",
+        "-",
+        "17.8",
+        "kΩ"
+      ],
+      [
+        "R BOFF",
+        "Output impedance sample and hold mode, output buffer OFF",
+        "DAC output buffer OFF",
+        "V = 2.0 V DD",
+        "-",
+        "-",
+        "18.7",
+        "kΩ"
+      ],
+      [
+        "C (2) L",
+        "Capacitive Load",
+        "DAC output buffer OFF",
+        "DAC output buffer OFF",
+        "-",
+        "-",
+        "50",
+        "pF"
+      ],
+      [
+        "C (2) SH",
+        "Capacitive Load",
+        "Sample and Hold mode",
+        "Sample and Hold mode",
+        "-",
+        "0.1",
+        "1",
+        "µF"
+      ],
+      [
+        "V DAC_OUT",
+        "Voltage on DAC_OUT output",
+        "DAC output buffer ON",
+        "DAC output buffer ON",
+        "0.2",
+        "-",
+        "V REF+ -0.2",
+        "V"
+      ],
+      [
+        "V DAC_OUT",
+        "Voltage on DAC_OUT output",
+        "DAC output buffer OFF",
+        "DAC output buffer OFF",
+        "0",
+        "-",
+        "V REF+",
+        "V"
+      ],
+      [
+        "t SETTLING",
+        "Settling time (full scale: for a 12-bit code transition between the lowest and the highest input codes when DAC_OUT reaches the final value of ±0.5LSB, ±1LSB, ±2LSB, ±4LSB, ±8LSB)",
+        "Normal mode, DAC output buffer OFF, ±1LSB C =10 pF L",
+        "Normal mode, DAC output buffer OFF, ±1LSB C =10 pF L",
+        "-",
+        "1.7(2)",
+        "2(2)",
+        "µs"
+      ],
+      [
+        "t (3) WAKEUP",
+        "Wakeup time from off state (setting the Enx bit in the DAC Control register) until the ±1LSB final value",
+        "Normal mode, DAC output buffer ON, C ≤ 50 pF, R = 5 ? L L",
+        "Normal mode, DAC output buffer ON, C ≤ 50 pF, R = 5 ? L L",
+        "-",
+        "5",
+        "7.5",
+        "µs"
+      ],
+      [
+        "V (2) offset",
+        "Middle code offset for 1 trim code step",
+        "V = 3.6 V REF+",
+        "V = 3.6 V REF+",
+        "-",
+        "850",
+        "-",
+        "µV"
+      ],
+      [
+        "V (2) offset",
+        "Middle code offset for 1 trim code step",
+        "V = 1.8 V REF+",
+        "V = 1.8 V REF+",
+        "-",
+        "425",
+        "-",
+        "µV"
+      ],
+      [
+        "I DDA(DAC)",
+        "DAC quiescent consumption from V DDA",
+        "DAC output buffer ON",
+        "No load, middle code (0x800)",
+        "-",
+        "360",
+        "-",
+        "µA"
+      ],
+      [
+        "I DDA(DAC)",
+        "DAC quiescent consumption from V DDA",
+        "DAC output buffer ON",
+        "No load, worst code (0xF1C)",
+        "-",
+        "490",
+        "-",
+        "µA"
+      ],
+      [
+        "I DDA(DAC)",
+        "DAC quiescent consumption from V DDA",
+        "DAC output buffer OFF",
+        "No load, middle/worst code (0x800)",
+        "-",
+        "20",
+        "-",
+        "µA"
+      ],
+      [
+        "I DDA(DAC)",
+        "DAC quiescent consumption from V DDA",
+        "Sample and Hold mode, C =100 nF SH",
+        "Sample and Hold mode, C =100 nF SH",
+        "-",
+        "360*T / ON (T +T ) ON OFF",
+        "-",
+        "µA"
+      ],
+      [
+        "I (DAC) DDV",
+        "DAC consumption from V REF+",
+        "DAC output buffer ON",
+        "No load, middle code (0x800)",
+        "-",
+        "170",
+        "-",
+        "µA"
+      ],
+      [
+        "I (DAC) DDV",
+        "DAC consumption from V REF+",
+        "DAC output buffer ON",
+        "No load, worst code (0xF1C)",
+        "-",
+        "170",
+        "-",
+        "µA"
+      ],
+      [
+        "I (DAC) DDV",
+        "DAC consumption from V REF+",
+        "DAC output buffer OFF",
+        "No load, middle/worst code (0x800)",
+        "-",
+        "160",
+        "-",
+        "µA"
+      ],
+      [
+        "I (DAC) DDV",
+        "DAC consumption from V REF+",
+        "Sample and Hold mode, Buffer ON, C =100 nF (worst code) SH",
+        "Sample and Hold mode, Buffer ON, C =100 nF (worst code) SH",
+        "-",
+        "170*T / ON (T +T ) ON OFF",
+        "-",
+        "µA"
+      ],
+      [
+        "I (DAC) DDV",
+        "DAC consumption from V REF+",
+        "Sample and Hold mode, Buffer OFF, C =100 nF (worst code) SH",
+        "Sample and Hold mode, Buffer OFF, C =100 nF (worst code) SH",
+        "-",
+        "160*T / ON (T +T ) ON OFF",
+        "-",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "2. Guaranteed by design.",
+      "3. In buffered mode, the output can overshoot above the final value for low input code (starting from the minimum value)."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

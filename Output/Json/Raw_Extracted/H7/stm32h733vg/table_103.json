@@ -1,0 +1,89 @@
+{
+  "table_id": "table_103",
+  "caption": "Table 103. TIMx characteristics",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 196,
+  "merged_pages": [
+    196
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=196",
+  "section": "6.3.35 Timer characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions(3)",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t res(TIM)",
+      "Timer resolution time",
+      "AHB/APBx prescaler=1 or 2 or 4, f = TIMxCLK 275 MHz",
+      "1",
+      "-",
+      "t TIMxCLK"
+    ],
+    [
+      "t res(TIM)",
+      "Timer resolution time",
+      "AHB/APBx prescaler>4, f = TIMxCLK 137.5 MHz",
+      "1",
+      "-",
+      "t TIMxCLK"
+    ],
+    [
+      "f EXT",
+      "Timer external clock frequency on CH1 to CH4",
+      "f = 240 MHz TIMxCLK",
+      "0",
+      "f /2 TIMxCLK",
+      "MHz"
+    ],
+    [
+      "Res TIM",
+      "Timer resolution",
+      "f = 240 MHz TIMxCLK",
+      "-",
+      "16/32",
+      "bit"
+    ],
+    [
+      "t MAX_COUNT",
+      "Maximum possible count with 32-bit counter",
+      "-",
+      "-",
+      "65536 × 65536",
+      "t TIMxCLK"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "3. The maximum timer frequency on APB1 or APB2 is up to 275 MHz, by setting the TIMPRE bit in the RCC_CFGR register, if APBx prescaler is 1 or 2 or 4, then TIMxCLK = rcc_hclk1, otherwise TIMxCLK = 4x"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_103",
+    "is_continued": false,
+    "pages": [
+      196
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

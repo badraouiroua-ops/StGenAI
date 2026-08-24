@@ -1,0 +1,195 @@
+{
+  "table_id": "table_125",
+  "document": "DS12931 Rev 5 - Table 125. UFBGA169 - Mechanical data",
+  "rev": "Rev 5",
+  "table_number": "125",
+  "title": "Table 125. UFBGA169 - Mechanical data",
+  "page": 233,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=233",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "text_helper": "Table 125. UFBGA169 - Mechanical data — section 7.1 Device marking. Symbol, millimeters / Min., millimeters / Typ., millimeters / Max., inches(1) / Min., +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min.",
+      "millimeters / Typ.",
+      "millimeters / Max.",
+      "inches(1) / Min.",
+      "inches(1) / Typ.",
+      "inches(1) / Max."
+    ],
+    "rows": [
+      [
+        "A(2)",
+        "-",
+        "-",
+        "0.60",
+        "-",
+        "-",
+        "0.0236"
+      ],
+      [
+        "A1(3)",
+        "0.05",
+        "-",
+        "-",
+        "0.0020",
+        "-",
+        "-"
+      ],
+      [
+        "A2",
+        "-",
+        "0.43",
+        "-",
+        "-",
+        "0.0169",
+        "-"
+      ],
+      [
+        "b(4)",
+        "0.23",
+        "0.28",
+        "0.33",
+        "0.0091",
+        "0.0110",
+        "0.0130"
+      ],
+      [
+        "D(5)",
+        "7.00 BSC",
+        "7.00 BSC",
+        "7.00 BSC",
+        "0.2756 BSC",
+        "0.2756 BSC",
+        "0.2756 BSC"
+      ],
+      [
+        "D1(5)",
+        "6.00 BSC",
+        "6.00 BSC",
+        "6.00 BSC",
+        "0.2362 BSC",
+        "0.2362 BSC",
+        "0.2362 BSC"
+      ],
+      [
+        "E(5)",
+        "7.00 BSC",
+        "7.00 BSC",
+        "7.00 BSC",
+        "0.2756 BSC",
+        "0.2756 BSC",
+        "0.2756 BSC"
+      ],
+      [
+        "E1(5)",
+        "6.00 BSC",
+        "6.00 BSC",
+        "6.00 BSC",
+        "0.2362 BSC",
+        "0.2362 BSC",
+        "0.2362 BSC"
+      ],
+      [
+        "e(5)(6)",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC"
+      ],
+      [
+        "N(7)",
+        "169",
+        "169",
+        "169",
+        "169",
+        "169",
+        "169"
+      ],
+      [
+        "SD(5)(8)",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC"
+      ],
+      [
+        "SE(5)(8)",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.50 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC",
+        "0.0197 BSC"
+      ],
+      [
+        "aaa(9)",
+        "0.15",
+        "0.15",
+        "0.15",
+        "0.0059",
+        "0.0059",
+        "0.0059"
+      ],
+      [
+        "ccc(9)",
+        "0.20",
+        "0.20",
+        "0.20",
+        "0.0079",
+        "0.0079",
+        "0.0079"
+      ],
+      [
+        "ddd(9)",
+        "0.08",
+        "0.08",
+        "0.08",
+        "0.0031",
+        "0.0031",
+        "0.0031"
+      ],
+      [
+        "eee(9)",
+        "0.15",
+        "0.15",
+        "0.15",
+        "0.0059",
+        "0.0059",
+        "0.0059"
+      ],
+      [
+        "fff(9)",
+        "0.05",
+        "0.05",
+        "0.05",
+        "0.0020",
+        "0.0020",
+        "0.0020"
+      ]
+    ],
+    "notes": [
+      "1. Drawing is not to scale.",
+      "2. Primary datum C is defined by the plane established by the contact points of three or more solder balls that support the device when it is placed on top of a planar surface.",
+      "3. The terminal (ball) A1 corner must be identified on the top surface of the package by using a corner chamfer, ink or metallized markings, or other feature of package body or integral heat slug. A distinguish",
+      "4. Dimension b is measured at the maximum diameter of the terminal (ball) in a plane parallel to primary datum C.",
+      "5. BSC stands for BASIC dimensions. It corresponds to the nominal value and has no tolerance. For tolerances refer to form and position table.",
+      "6. e represents the solder ball grid pitch.",
+      "7. N represents the total number of balls on the BGA.",
+      "8. Basic dimensions SD and SE are defined with respect to datums A and B. It defines the position of the centre ball(s) in the outer row or column of a fully populated matrix.",
+      "9. Tolerance of form and position drawing"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "table_id": "table_103",
+  "caption": "Table 103. ADC accuracy",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 250,
+  "merged_pages": [
+    250
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=250",
+  "section": "6.3.20 ADC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "ET",
+      "Total unadjusted error",
+      "Fast and slow channels",
+      "Single ended",
+      "-",
+      "±3.5",
+      "±12",
+      "LSB"
+    ],
+    [
+      "ET",
+      "Total unadjusted error",
+      "Fast and slow channels",
+      "Differential",
+      "-",
+      "±2.5",
+      "±7.5",
+      "LSB"
+    ],
+    [
+      "EO",
+      "Offset error",
+      "-",
+      "Single ended",
+      "-",
+      "±3",
+      "±5.5",
+      "LSB"
+    ],
+    [
+      "EO",
+      "Offset error",
+      "-",
+      "Differential",
+      "-",
+      "±2",
+      "±3.5",
+      "LSB"
+    ],
+    [
+      "EG",
+      "Gain error",
+      "-",
+      "Single ended",
+      "-",
+      "±3.5",
+      "±11",
+      "LSB"
+    ],
+    [
+      "EG",
+      "Gain error",
+      "-",
+      "Differential",
+      "-",
+      "±2.5",
+      "±7",
+      "LSB"
+    ],
+    [
+      "ED",
+      "Differential linearity error",
+      "-",
+      "Single ended",
+      "-",
+      "±0.75",
+      "+2/-1",
+      "LSB"
+    ],
+    [
+      "ED",
+      "Differential linearity error",
+      "-",
+      "Differential",
+      "-",
+      "±0.75",
+      "+2/-1",
+      "LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Fast and slow channels",
+      "Single ended",
+      "-",
+      "±2",
+      "±6.5",
+      "LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Fast and slow channels",
+      "Differential",
+      "-",
+      "±1",
+      "±4",
+      "LSB"
+    ],
+    [
+      "ENOB",
+      "Effective number of bits",
+      "Single ended",
+      "Single ended",
+      "-",
+      "10.8",
+      "-",
+      "bits"
+    ],
+    [
+      "ENOB",
+      "Effective number of bits",
+      "Differential",
+      "Differential",
+      "-",
+      "11.5",
+      "-",
+      "bits"
+    ],
+    [
+      "SINAD",
+      "Signal-to-noise and distortion ratio",
+      "Single ended",
+      "Single ended",
+      "-",
+      "68",
+      "-",
+      "dB"
+    ],
+    [
+      "SINAD",
+      "Signal-to-noise and distortion ratio",
+      "Differential",
+      "Differential",
+      "-",
+      "71",
+      "-",
+      "dB"
+    ],
+    [
+      "SNR",
+      "Signal-to-noise ratio",
+      "Single ended",
+      "Single ended",
+      "-",
+      "70",
+      "-",
+      "dB"
+    ],
+    [
+      "SNR",
+      "Signal-to-noise ratio",
+      "Differential",
+      "Differential",
+      "-",
+      "72",
+      "-",
+      "dB"
+    ],
+    [
+      "THD",
+      "Total harmonic distortion",
+      "Single ended",
+      "Single ended",
+      "-",
+      "-70",
+      "-",
+      "dB"
+    ],
+    [
+      "THD",
+      "Total harmonic distortion",
+      "Differential",
+      "Differential",
+      "-",
+      "-80",
+      "-",
+      "dB"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0069,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "1. Data guaranteed by characterization for BGA packages. The values for LQFP packages might differ.",
+      "2. ADC DC accuracy values are measured after internal calibration in continuous mode. 250/322 DS14360 Rev 6"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_103",
+    "is_continued": false,
+    "pages": [
+      250
+    ],
+    "rows_count": 18,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0069
+  }
+}

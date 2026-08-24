@@ -1,0 +1,376 @@
+{
+  "table_id": "table_102",
+  "caption": "Table 102. Minimum sampling time vs RAIN (12-bit ADC)",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 248,
+  "merged_pages": [
+    248,
+    249
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=248",
+  "section": "6.3.20 ADC characteristics",
+  "headers": [
+    "Resolution",
+    "RAIN (Ω)",
+    "Minimum sampling time (s) / Fast channels(3)",
+    "Minimum sampling time (s) / Slow channels(4)"
+  ],
+  "rows": [
+    [
+      "12 bits",
+      "47",
+      "3.75E-08",
+      "6.12E-08"
+    ],
+    [
+      "12 bits",
+      "68",
+      "3.94E-08",
+      "6.25E-08"
+    ],
+    [
+      "12 bits",
+      "100",
+      "4.36E-08",
+      "6.51E-08"
+    ],
+    [
+      "12 bits",
+      "150",
+      "5.11E-08",
+      "7.00E-08"
+    ],
+    [
+      "12 bits",
+      "220",
+      "6.54E-08",
+      "7.86E-08"
+    ],
+    [
+      "12 bits",
+      "330",
+      "8.80E-08",
+      "9.57E-08"
+    ],
+    [
+      "12 bits",
+      "470",
+      "1.17E-07",
+      "1.23E-07"
+    ],
+    [
+      "12 bits",
+      "680",
+      "1.60E-07",
+      "1.65E-07"
+    ],
+    [
+      "10 bits",
+      "47",
+      "3.19E-08",
+      "5.17E-08"
+    ],
+    [
+      "10 bits",
+      "68",
+      "3.35E-08",
+      "5.28E-08"
+    ],
+    [
+      "10 bits",
+      "100",
+      "3.66E-08",
+      "5.45E-08"
+    ],
+    [
+      "10 bits",
+      "150",
+      "4.35E-08",
+      "5.83E-08"
+    ],
+    [
+      "10 bits",
+      "220",
+      "5.43E-08",
+      "6.50E-08"
+    ],
+    [
+      "10 bits",
+      "330",
+      "7.18E-08",
+      "7.89E-08"
+    ],
+    [
+      "10 bits",
+      "470",
+      "9.46E-08",
+      "1.00E-07"
+    ],
+    [
+      "10 bits",
+      "680",
+      "1.28E-07",
+      "1.33E-07"
+    ],
+    [
+      "10 bits",
+      "1000",
+      "1.81E-07",
+      "1.83E-07"
+    ],
+    [
+      "10 bits",
+      "1500",
+      "2.63E-07",
+      "2.63E-07"
+    ],
+    [
+      "10 bits",
+      "2200",
+      "3.79E-07",
+      "3.76E-07"
+    ],
+    [
+      "10 bits",
+      "3300",
+      "5.57E-07",
+      "5.52E-07"
+    ],
+    [
+      "8 bits",
+      "47",
+      "2.64E-08",
+      "4.17E-08"
+    ],
+    [
+      "8 bits",
+      "68",
+      "2.76E-08",
+      "4.24E-08"
+    ],
+    [
+      "8 bits",
+      "100",
+      "3.02E-08",
+      "4.39E-08"
+    ],
+    [
+      "8 bits",
+      "150",
+      "3.51E-08",
+      "4.66E-08"
+    ],
+    [
+      "8 bits",
+      "220",
+      "4.27E-08",
+      "5.13E-08"
+    ],
+    [
+      "8 bits",
+      "330",
+      "5.52E-08",
+      "6.19E-08"
+    ],
+    [
+      "8 bits",
+      "470",
+      "7.17E-08",
+      "7.72E-08"
+    ],
+    [
+      "8 bits",
+      "680",
+      "9.68E-08",
+      "1.00E-07"
+    ],
+    [
+      "8 bits",
+      "1000",
+      "1.34E-07",
+      "1.37E-07"
+    ],
+    [
+      "8 bits",
+      "1500",
+      "1.93E-07",
+      "1.94E-07"
+    ],
+    [
+      "8 bits",
+      "2200",
+      "2.76E-07",
+      "2.74E-07"
+    ],
+    [
+      "8 bits",
+      "3300",
+      "4.06E-07",
+      "4.01E-07"
+    ],
+    [
+      "8 bits",
+      "4700",
+      "5.73E-07",
+      "5.62E-07"
+    ],
+    [
+      "8 bits",
+      "6800",
+      "8.21E-07",
+      "7.99E-07"
+    ],
+    [
+      "8 bits",
+      "10000",
+      "1.20E-06",
+      "1.17E-06"
+    ],
+    [
+      "8 bits",
+      "15000",
+      "1.79E-06",
+      "1.74E-06"
+    ],
+    [
+      "6 bits",
+      "47",
+      "2.14E-08",
+      "3.16E-08"
+    ],
+    [
+      "6 bits",
+      "68",
+      "2.23E-08",
+      "3.21E-08"
+    ],
+    [
+      "6 bits",
+      "100",
+      "2.40E-08",
+      "3.31E-08"
+    ],
+    [
+      "6 bits",
+      "150",
+      "2.68E-08",
+      "3.52E-08"
+    ],
+    [
+      "6 bits",
+      "220",
+      "3.13E-08",
+      "3.87E-08"
+    ],
+    [
+      "6 bits",
+      "330",
+      "3.89E-08",
+      "4.51E-08"
+    ],
+    [
+      "6 bits",
+      "470",
+      "4.88E-08",
+      "5.39E-08"
+    ],
+    [
+      "6 bits",
+      "680",
+      "6.38E-08",
+      "6.79E-08"
+    ],
+    [
+      "6 bits",
+      "1000",
+      "8.70E-08",
+      "8.97E-08"
+    ],
+    [
+      "6 bits",
+      "1500",
+      "1.23E-07",
+      "1.24E-07"
+    ],
+    [
+      "6 bits",
+      "2200",
+      "1.73E-07",
+      "1.73E-07"
+    ],
+    [
+      "6 bits",
+      "3300",
+      "2.53E-07",
+      "2.49E-07"
+    ],
+    [
+      "6 bits",
+      "4700",
+      "3.53E-07",
+      "3.45E-07"
+    ],
+    [
+      "6 bits",
+      "6800",
+      "5.04E-07",
+      "4.90E-07"
+    ],
+    [
+      "6 bits",
+      "10000",
+      "7.34E-07",
+      "7.11E-07"
+    ],
+    [
+      "6 bits",
+      "15000",
+      "1.09E-06",
+      "1.05E-06"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "continuation": {
+      "base_cols": 4,
+      "cont_cols_raw": 4,
+      "target_cols": 4,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "3. Fast channels correspond to ADCx_INP0 to _INP5, and for ADCx_ INN0 to _INN5.",
+      "4. Slow channels correspond to all ADC inputs except for the Fast channels."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_102",
+    "is_continued": true,
+    "pages": [
+      248,
+      249
+    ],
+    "rows_count": 52,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

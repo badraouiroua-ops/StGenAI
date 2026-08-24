@@ -1,0 +1,84 @@
+{
+  "table_id": "table_10",
+  "document": "DS13312 Rev 4 - Table 10. Voltage characteristics",
+  "rev": "Rev 4",
+  "table_number": "10",
+  "title": "Table 10. Voltage characteristics",
+  "page": 115,
+  "section": "6.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=115",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "text_helper": "Table 10. Voltage characteristics — section 6.2 Absolute maximum ratings. Symbols, Ratings, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbols",
+      "Ratings",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V - V (1) DDX SS",
+        "External main supply voltage (including V , DD V , V , V , V , V ) DDLDO DDSMPS DDA DD33USB BAT",
+        "-0.3",
+        "4.0",
+        "V"
+      ],
+      [
+        "V (2) IN",
+        "Input voltage on FT_xxx pins",
+        "V -0.3 SS",
+        "Min(V , V , DD DDA V , V ) DD33USB BAT +4.0(3)(4)",
+        "V"
+      ],
+      [
+        "V (2) IN",
+        "Input voltage on TT_xx pins",
+        "V -0.3 SS",
+        "4.0",
+        "V"
+      ],
+      [
+        "V (2) IN",
+        "Input voltage on BOOT0 pin",
+        "V SS",
+        "9.0",
+        "V"
+      ],
+      [
+        "V (2) IN",
+        "Input voltage on any other pins",
+        "V -0.3 SS",
+        "4.0",
+        "V"
+      ],
+      [
+        "|∆V | DDX",
+        "Variations between different V power DDX pins of the same domain",
+        "-",
+        "50",
+        "mV"
+      ],
+      [
+        "|V -V | SSx SS",
+        "Variations between all the different ground pins",
+        "-",
+        "50",
+        "mV"
+      ]
+    ],
+    "notes": [
+      "1. All main power (V , V , V , V , V ) and ground (V , V ) pins must always be DD DDA DD33USB DDSMPS BAT SS SSA",
+      "2. V maximum must always be respected. Refer to Table 54: I/O current injection susceptibility for the IN",
+      "3. This formula has to be applied on power supplies related to the IO structure described by the pin definition table.",
+      "4. To sustain a voltage higher than 4 V the internal pull-up/pull-down resistors must be disabled."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

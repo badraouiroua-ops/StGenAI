@@ -1,0 +1,89 @@
+{
+  "table_id": "table_10",
+  "caption": "Table 10. ADF features",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 55,
+  "merged_pages": [
+    55
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=55",
+  "section": "3.25 Audio digital filter (ADF)",
+  "headers": [
+    "Mode or feature",
+    "ADF1"
+  ],
+  "rows": [
+    [
+      "Number of filters (DFLTx) and serial interfaces (SITFx)",
+      "1"
+    ],
+    [
+      "ADF_CKI0 connected to pins",
+      "-"
+    ],
+    [
+      "Sound activity detection (SAD)",
+      "X"
+    ],
+    [
+      "RXFIFO depth (number of 24-bit words)",
+      "4"
+    ],
+    [
+      "ADC connected to ADCITF1",
+      "ADC1"
+    ],
+    [
+      "ADC connected to ADCITF2",
+      "ADC2"
+    ],
+    [
+      "Motor dedicated features (SCD, OLD, OEC, INT, snapshot, break)",
+      "-"
+    ],
+    [
+      "Main path with CIC4, CIC5",
+      "X"
+    ],
+    [
+      "Main path with CIC1,2, 3 or FastSinc",
+      "-"
+    ],
+    [
+      "RSFLT, HPF, SAT, SCALE, DLY, Discard functions",
+      "X"
+    ],
+    [
+      "Autonomous in Stop modes",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. ‘X’ = supported, ‘-’ = not supported."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_10",
+    "is_continued": false,
+    "pages": [
+      55
+    ],
+    "rows_count": 11,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

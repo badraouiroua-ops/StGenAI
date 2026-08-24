@@ -1,0 +1,72 @@
+{
+  "table_id": "table_134",
+  "caption": "Table 134. Document revision history",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 250,
+  "merged_pages": [
+    250,
+    252
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=250",
+  "section": "9 Important security notice",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "16-May-2019",
+      "1",
+      "Initial release."
+    ],
+    [
+      "28-Mar-2023",
+      "2",
+      "Added reference to errata sheet ES0392 in Section 1: Introduction. Figure 1: STM32H750xB block diagram: changed APB1 and APB2 maximum frequency to 120 MHz, and WKUP[5:0] to WKUP[6:1]. Updated Figure 5: STM32H747xI/G bus matrix. Removed note to Section 3.5.3: Voltage regulator (SMPS step-down converter and LDO) Updated Section 3.24: Digital camera interface (DCMI) (modified supported format) Updated Figure 13: Power supply scheme (Backup domain and VDD domain blocks) Swapped 158 and 159 pin positions in Table 8: LQFP176 pinout on page 58 Added Full-duplex mode in Section 3.34: Serial peripheral interfaces (SPI)/integrated interchip sound interfaces (I2S). Updated number of microphones that can be supported by the SAI in Section 3.35: Serial audio interfaces (SAI). Removed FDCAN1_RXFD_MODE, FDCAN1_TXFD_MODE, FDCAN2_RXFD_MODE and FDCAN2_TXFD_MODE functions from Table 8: STM32H750xB pin/ball definition and all alternate function tables. Additional modifications made on Table 8: STM32H750xB pin/ball definition: Added note to VDD50USB. Added note to PB12 and PB13. Change PB1 I/O structure to TT_A. Replaced PI8 WKUP3 additional function by WKUP2 Replaced PC13 WKUP2 additional function by WKUP3 Modified Table 58: EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz Updated Section 6.2: Absolute maximum ratings introduction to device mission profile. Modified text in Section : I/O static current consumption Changed f to 100 MHz in Table 13: General operating conditions. CPU2 Replaced Min V by Min V in Table 14: Supply voltage and DD DDLDO maximum frequency configuration. Removed note 1 from Table 33: Typical and maximum current consumption in Stop, LDO regulator ON and Table 35: Typical and maximum current consumption in Sleep mode, LDO regulator. Updated Table 41: High-speed external user clock characteristics. Updated U min value in Table 51: MIPI D-PHY characteristics on INST page 144 In Table 55: Flash memory programming: removed reference to single bank configuration in title and added t typical and maximum ERASE128KB values. Changed I to I in Table 62: I/O static characteristics leak lkg"
+    ],
+    [
+      "28-Mar-2023",
+      "2 (continued)",
+      "Modified title for footprint figures and PCB design rules tables (examples instead of recommendations) Updated Figure 43: Typical connection diagram when using the ADC with FT/TT pins featuring analog switch function Updated information on pin count in Section 8: Ordering information Added Section 9: Important security notice."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "continuation": {
+      "base_cols": 3,
+      "cont_cols_raw": 3,
+      "target_cols": 3,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    }
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_134",
+    "is_continued": true,
+    "pages": [
+      250,
+      252
+    ],
+    "rows_count": 3,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "table_id": "table_72",
+  "caption": "Table 72. Asynchronous multiplexed PSRAM/NOR write-NWAIT timings",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 160,
+  "merged_pages": [
+    160
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=160",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(NE)",
+      "FMC_NE low time",
+      "9T –1 fmc_ker_ck",
+      "9T fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t w(NWE)",
+      "FMC_NWE low time",
+      "7T –0.5 fmc_ker_ck",
+      "7T +0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t su(NWAIT_NE)",
+      "FMC_NWAIT valid before FMC_NEx high",
+      "5T +11 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(NE_NWAIT)",
+      "FMC_NEx hold time after FMC_NWAIT invalid",
+      "4T +11.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. N pulse width is equal to 1 AHB cycle. WAIT"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_72",
+    "is_continued": false,
+    "pages": [
+      160
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

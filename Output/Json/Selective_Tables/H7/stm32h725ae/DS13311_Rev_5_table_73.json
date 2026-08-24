@@ -1,0 +1,177 @@
+{
+  "table_id": "table_73",
+  "document": "DS13311 Rev 5 - Table 73. Synchronous multiplexed PSRAM write timings",
+  "rev": "Rev 5",
+  "table_number": "73",
+  "title": "Table 73. Synchronous multiplexed PSRAM write timings",
+  "page": 182,
+  "section": "6.3.19 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=182",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 73. Synchronous multiplexed PSRAM write timings — section 6.3.19 FMC characteristics. Symbol, Parameter, Parameter, Min, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(CLK)",
+        "FMC_CLK period, V = 2.7 to 3.6 V DD",
+        "FMC_CLK period, V = 2.7 to 3.6 V DD",
+        "2T –0.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(CLKL-NExL)",
+        "FMC_CLK low to FMC_NEx low (x =0..2)",
+        "FMC_CLK low to FMC_NEx low (x =0..2)",
+        "-",
+        "3",
+        "ns"
+      ],
+      [
+        "t d(CLKH-NExH)",
+        "FMC_CLK high to FMC_NEx high (x = 0…2)",
+        "FMC_CLK high to FMC_NEx high (x = 0…2)",
+        "T +1.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(CLKL-NADVL)",
+        "FMC_CLK low to FMC_NADV low",
+        "1.62 V <V < 3.6 V DD",
+        "-",
+        "5.5",
+        "ns"
+      ],
+      [
+        "t d(CLKL-NADVL)",
+        "FMC_CLK low to FMC_NADV low",
+        "2.7 V <V < 3.6 V DD",
+        "-",
+        "2.0",
+        "ns"
+      ],
+      [
+        "t d(CLKL-NADVH)",
+        "FMC_CLK low to FMC_NADV high",
+        "1.62 V <V < 3.6 V DD",
+        "1",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(CLKL-NADVH)",
+        "FMC_CLK low to FMC_NADV high",
+        "2.7 V <V < 3.6 V DD",
+        "1",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(CLKL-AV)",
+        "FMC_CLK low to FMC_Ax valid (x =16…25)",
+        "FMC_CLK low to FMC_Ax valid (x =16…25)",
+        "-",
+        "3",
+        "ns"
+      ],
+      [
+        "t d(CLKH-AIV)",
+        "FMC_CLK high to FMC_Ax invalid (x =16…25)",
+        "FMC_CLK high to FMC_Ax invalid (x =16…25)",
+        "T fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(CLKL-NWEL)",
+        "FMC_CLK low to FMC_NWE low",
+        "FMC_CLK low to FMC_NWE low",
+        "-",
+        "2.5",
+        "ns"
+      ],
+      [
+        "t (CLKH-NWEH)",
+        "FMC_CLK high to FMC_NWE high",
+        "FMC_CLK high to FMC_NWE high",
+        "T +1 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(CLKL-ADV)",
+        "FMC_CLK low to to FMC_AD[15:0] valid",
+        "FMC_CLK low to to FMC_AD[15:0] valid",
+        "-",
+        "2.5",
+        "ns"
+      ],
+      [
+        "t d(CLKL-ADIV)",
+        "FMC_CLK low to FMC_AD[15:0] invalid",
+        "FMC_CLK low to FMC_AD[15:0] invalid",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(CLKL-DATA)",
+        "FMC_A/D[15:0] valid data after FMC_CLK low",
+        "FMC_A/D[15:0] valid data after FMC_CLK low",
+        "-",
+        "3.5",
+        "ns"
+      ],
+      [
+        "t d(CLKL-NBLL)",
+        "FMC_CLK low to FMC_NBL low",
+        "FMC_CLK low to FMC_NBL low",
+        "-",
+        "2",
+        "ns"
+      ],
+      [
+        "t d(CLKH-NBLH)",
+        "FMC_CLK high to FMC_NBL high",
+        "FMC_CLK high to FMC_NBL high",
+        "T +0.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(NWAIT-CLKH)",
+        "FMC_NWAIT valid before FMC_CLK high",
+        "FMC_NWAIT valid before FMC_CLK high",
+        "3",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(CLKH-NWAIT)",
+        "FMC_NWAIT valid after FMC_CLK high",
+        "FMC_NWAIT valid after FMC_CLK high",
+        "2.5",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. 182/283 DS13311 Rev 5"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

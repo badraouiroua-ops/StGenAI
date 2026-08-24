@@ -1,0 +1,58 @@
+{
+  "table_id": "table_12",
+  "document": "DS14359 Rev 7 - Table 12. MCE implementation",
+  "rev": "Rev 7",
+  "table_number": "12",
+  "title": "Table 12. MCE implementation",
+  "page": 60,
+  "section": "3.35.2 Memory cipher implementation",
+  "section_title": "Memory cipher implementation",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=60",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 12. MCE implementation — section 3.35.2 Memory cipher implementation. MCE features, MCE1, MCE2/3.",
+  "table_content": {
+    "headers": [
+      "MCE features",
+      "MCE1",
+      "MCE2/3"
+    ],
+    "rows": [
+      [
+        "Number of regions",
+        "4",
+        "4"
+      ],
+      [
+        "Cipher engines",
+        "AES x 2",
+        "12 rounds Noekeon x2"
+      ],
+      [
+        "Derive key function",
+        "normal, fast",
+        "normal, fast"
+      ],
+      [
+        "Master key",
+        "2",
+        "2"
+      ],
+      [
+        "Chaining modes (encryption mode)",
+        "block, stream",
+        "block"
+      ],
+      [
+        "Cipher context(s)",
+        "2",
+        "0"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

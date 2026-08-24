@@ -1,0 +1,39 @@
+{
+  "table_id": "table_3",
+  "document": "DS13139 Rev 8 - Table 3. Overview of low-power mode monitoring pins",
+  "rev": "Rev 8",
+  "table_number": "3",
+  "title": "Table 3. Overview of low-power mode monitoring pins",
+  "page": 17,
+  "section": "5 DMA controllers to unload the CPU",
+  "section_title": "DMA controllers to unload the CPU",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 3. Overview of low-power mode monitoring pins — section 5 DMA controllers to unload the CPU. Power state monitoring pins, Description.",
+  "table_content": {
+    "headers": [
+      "Power state monitoring pins",
+      "Description"
+    ],
+    "rows": [
+      [
+        "PWR_CSLEEP",
+        "CPU clock OFF"
+      ],
+      [
+        "PWR_CSTOP",
+        "CPU domain in low-power mode"
+      ],
+      [
+        "PWR_NDSTOP2",
+        "CPU domain retention mode selection"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

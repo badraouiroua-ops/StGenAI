@@ -1,0 +1,149 @@
+{
+  "table_id": "table_105",
+  "caption": "Table 105. LTDC characteristics",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 217,
+  "merged_pages": [
+    217
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=217",
+  "section": "6.3.35 LCD-TFT controller (LTDC) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Parameter",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "2.7<V <3.6 V, 20 pF DD",
+      "2.7<V <3.6 V, 20 pF DD",
+      "-",
+      "150",
+      "MHz"
+    ],
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "2.7<V <3.6 V DD",
+      "2.7<V <3.6 V DD",
+      "-",
+      "133",
+      "MHz"
+    ],
+    [
+      "f CLK",
+      "LTDC clock output frequency",
+      "1.62<V <3.6 V DD",
+      "1.62<V <3.6 V DD",
+      "-",
+      "90/76.5(2)",
+      "MHz"
+    ],
+    [
+      "D CLK",
+      "LTDC clock output duty cycle",
+      "LTDC clock output duty cycle",
+      "LTDC clock output duty cycle",
+      "45",
+      "55",
+      "%"
+    ],
+    [
+      "t w(CLKH), t w(CLKL)",
+      "Clock High time, low time",
+      "Clock High time, low time",
+      "Clock High time, low time",
+      "t //2-0.5 w(CLK)",
+      "t /2+0.5 w(CLK)",
+      "ns"
+    ],
+    [
+      "t v(DATA)",
+      "Data output valid time",
+      "Data output valid time",
+      "2.7<V <3.6 V DD",
+      "-",
+      "2.0",
+      "ns"
+    ],
+    [
+      "t v(DATA)",
+      "Data output valid time",
+      "Data output valid time",
+      "1.62<V <3.6 V DD",
+      "-",
+      "2.5/6.5(2)",
+      "ns"
+    ],
+    [
+      "t h(DATA)",
+      "Data output hold time",
+      "Data output hold time",
+      "Data output hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t v(HSYNC), t v(VSYNC), t v(DE)",
+      "HSYNC/VSYNC/DE output valid time",
+      "HSYNC/VSYNC/DE output valid time",
+      "2.7<V <3.6 V DD",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "t v(HSYNC), t v(VSYNC), t v(DE)",
+      "HSYNC/VSYNC/DE output valid time",
+      "HSYNC/VSYNC/DE output valid time",
+      "1.62<V <3.6 V DD",
+      "-",
+      "2.0",
+      "ns"
+    ],
+    [
+      "t h(HSYNC), t , h(VSYNC) t h(DE)",
+      "HSYNC/VSYNC/DE output hold time",
+      "HSYNC/VSYNC/DE output hold time",
+      "HSYNC/VSYNC/DE output hold time",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. This value is valid when PA[9], PA[10], PA[11], PA[12], PA[15], PB[11], PH[4], PJ[8], PJ[9], PJ[10], PJ[11], PK[0], PK[1] or PK[2] is used."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_105",
+    "is_continued": false,
+    "pages": [
+      217
+    ],
+    "rows_count": 11,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

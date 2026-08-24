@@ -1,0 +1,70 @@
+{
+  "table_id": "table_66",
+  "document": "DS12923 Rev 3 - Table 66. Asynchronous non-multiplexed SRAM/PSRAM/NOR read-NWAIT timings",
+  "rev": "Rev 3",
+  "table_number": "66",
+  "title": "Table 66. Asynchronous non-multiplexed SRAM/PSRAM/NOR read-NWAIT timings",
+  "page": 154,
+  "section": "6.3.18 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=154",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "text_helper": "Table 66. Asynchronous non-multiplexed SRAM/PSRAM/NOR read-NWAIT timings — section 6.3.18 FMC characteristics. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(NE)",
+        "FMC_NE low time",
+        "7T +1 fmc_ker_ck",
+        "7T +1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t w(NOE)",
+        "FMC_NOE low time",
+        "5T –1 fmc_ker_ck",
+        "5T +1 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t w(NWAIT)",
+        "FMC_NWAIT low time",
+        "T – 0.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(NWAIT_NE)",
+        "FMC_NWAIT valid before FMC_NEx high",
+        "4T +11 fmc_ker_ck",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(NE_NWAIT)",
+        "FMC_NEx hold time after FMC_NWAIT invalid",
+        "3T +11.5 fmc_ker_ck",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. N pulse width is equal to 1 AHB cycle. WAIT"
+    ],
+    "legend": [
+      "timings(1)(2)"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

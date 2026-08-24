@@ -1,0 +1,53 @@
+{
+  "table_id": "table_9",
+  "caption": "Table 9. Temperature sensor calibration values",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 53,
+  "merged_pages": [
+    53
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=53",
+  "section": "3.21 Analog temperature sensor",
+  "headers": [
+    "Calibration value name",
+    "Description",
+    "Memory address"
+  ],
+  "rows": [
+    [
+      "TS_CAL1",
+      "Temperature sensor 12-bit raw data acquired by ADC1 at 30 °C (± 5 °C), V = V = 3.3 V (± 10 mV) DDA REF+",
+      "0x08FF F814 - 0x08FF F815"
+    ],
+    [
+      "TS_CAL2",
+      "Temperature sensor 12-bit raw data acquired by ADC1 at 130 °C (± 5 °C), V = V = 3.3 V (± 10 mV) DDA REF+",
+      "0x08FF F818 - 0x08FF F819"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_9",
+    "is_continued": false,
+    "pages": [
+      53
+    ],
+    "rows_count": 2,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

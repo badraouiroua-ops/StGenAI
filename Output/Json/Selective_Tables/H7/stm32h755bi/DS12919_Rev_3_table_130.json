@@ -1,0 +1,38 @@
+{
+  "table_id": "table_130",
+  "document": "DS12919 Rev 3 - Table 130. Document revision history",
+  "rev": "Rev 3",
+  "table_number": "130",
+  "title": "Table 130. Document revision history",
+  "page": 243,
+  "section": "9 Important security notice",
+  "section_title": "Important security notice",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=243",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "text_helper": "Table 130. Document revision history — section 9 Important security notice. Date, Revision, Changes.",
+  "table_content": {
+    "headers": [
+      "Date",
+      "Revision",
+      "Changes"
+    ],
+    "rows": [
+      [
+        "16-May-2019",
+        "1",
+        "Initial release."
+      ],
+      [
+        "02-Feb-2023",
+        "2",
+        "Added reference to errata sheet ES0392 in Section 1: Introduction. Figure 1: STM32H750xB block diagram: changed APB1 and APB2 maximum frequency to 120 MHz, and WKUP[5:0] to WKUP[6:1]. Added note 1 to Table 2: STM32H755xI features and peripheral counts (added information on SDRAM availability) Updated Figure 5: STM32H755xI bus matrix. Modified Section 3.5.1: Power supply scheme Modified note on Section 3.5.3: Voltage regulator (SMPS step-down converter and LDO) Modified note in Section 3.5.3: Voltage regulator (SMPS step-down converter and LDO) Updated Section 3.24: Digital camera interface (DCMI) (modified supported format) Added Full-duplex mode in Section 3.34: Serial peripheral interfaces (SPI)/integrated interchip sound interfaces (I2S). Updated Section 3.27: True random number generator (RNG). Updated number of microphones that can be supported by the SAI in Section 3.35: Serial audio interfaces (SAI). Removed FDCAN1_RXFD_MODE, FDCAN1_TXFD_MODE, FDCAN2_RXFD_MODE and FDCAN2_TXFD_MODE functions from Table 8: STM32H750xB pin/ball definition and all alternate function tables. – Additional modifications made on Table 8: STM32H750xB pin/ball definition: Added note to VDD50USB. – Added note to PB12 and PB13. – Change PB1 I/O structure to TT_A. – Replaced PI8 WKUP3 additional function by WKUP2. – Replaced PC13 WKUP2 additional function by WKUP3. – For TFBGA24+25, extra VDD signals replaced by '-'. Updated Figure 13: Power supply scheme. Updated Section 6.2: Absolute maximum ratings introduction to device mission profile. Updated V max value in Table 13: General operating conditions CORE Changed f to 100 MHz in Table 13: General operating conditions. CPU2 Replaced Min V by Min V in Table 14: Supply voltage and DD DDLDO maximum frequency configuration. Replaced VBOR0 with VBOR0/POR/PDR in Table 19: Reset and power control block characteristics Updated section I/O dynamic current consumption and I/O static current consumption. Updated Table 41: High-speed external user clock characteristics. Removed note 1 from Table 33: Typical and maximum current consumption in Stop, LDO regulator ON and Table 35: Typical and maximum current consumption in Sleep mode, LDO regulator ON. In Table 52: Flash memory programming: removed reference to single bank configuration in title and added t typical and maximum values. ERASE128KB"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

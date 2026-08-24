@@ -1,0 +1,114 @@
+{
+  "table_id": "table_110",
+  "caption": "Table 110. PSSI transmit characteristics",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 163,
+  "merged_pages": [
+    163
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=163",
+  "section": "6.3.32 PSSI interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "-",
+      "Frequency ratio PSSI_PDCK/fHCLK",
+      "-",
+      "0.4",
+      "-"
+    ],
+    [
+      "PSSI_PDCK",
+      "PSSI clock input",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "Dpixel",
+      "PSSI clock input duty cycle",
+      "30",
+      "70",
+      "%"
+    ],
+    [
+      "tdv(DATA)",
+      "Data output valid time",
+      "-",
+      "10",
+      "ns"
+    ],
+    [
+      "tdh(DATA)",
+      "Data output hold time",
+      "5",
+      "-",
+      "ns"
+    ],
+    [
+      "tdv((DE)",
+      "DE output valid time",
+      "-",
+      "14",
+      "ns"
+    ],
+    [
+      "tdh(DE)",
+      "DE output hold time",
+      "6",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(RDY)",
+      "RDY input setup time",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      "th(RDY)",
+      "RDY input hold time",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. At VOS1, these values are degraded by up to 5 %."
+    ],
+    "_legend": [
+      "Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_110",
+    "is_continued": false,
+    "pages": [
+      163
+    ],
+    "rows_count": 9,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

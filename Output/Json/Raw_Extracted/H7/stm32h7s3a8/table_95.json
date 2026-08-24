@@ -1,0 +1,120 @@
+{
+  "table_id": "table_95",
+  "caption": "Table 95. SDRAM read timings",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 239,
+  "merged_pages": [
+    239
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=239",
+  "section": "6.3.17 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(SDCLK)",
+      "FMC_SDCLK period",
+      "2T – 0.5 fmc_ker_ck",
+      "2T +0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t su(SDCLKH _Data)",
+      "Data input setup time",
+      "2.5",
+      "-",
+      "ns"
+    ],
+    [
+      ")ataD_HKLCDS(h t",
+      "Data input hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_Add)",
+      "Address valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL- SDNE)",
+      "Chip select valid time",
+      "-",
+      "1",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNE)",
+      "Chip select hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNRAS)",
+      "SDNRAS valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNRAS)",
+      "SDNRAS hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNCAS)",
+      "SDNCAS valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNCAS)",
+      "SDNCAS hold time",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. At VOS Low, these values are degraded by up to 7%. 240/325 DS14359 Rev 7"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_95",
+    "is_continued": false,
+    "pages": [
+      239
+    ],
+    "rows_count": 10,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

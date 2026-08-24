@@ -1,0 +1,97 @@
+{
+  "table_id": "table_114",
+  "caption": "Table 114. Dynamics characteristics: USB ULPI",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 215,
+  "merged_pages": [
+    215
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=215",
+  "section": "6.3.33 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t SC",
+      "Control in (ULPI_DIR, ULPI_NXT) setup time",
+      "-",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t SC",
+      "Control in (ULPI_DIR, ULPI_NXT) setup time",
+      "-",
+      "4.5(2)",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t HC",
+      "Control in (ULPI_DIR, ULPI_NXT) hold time",
+      "-",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t SD",
+      "Data in setup time",
+      "-",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "t HD",
+      "Data in hold time",
+      "-",
+      "0",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. When using PC2_C/PC3_C."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_114",
+    "is_continued": false,
+    "pages": [
+      215
+    ],
+    "rows_count": 5,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

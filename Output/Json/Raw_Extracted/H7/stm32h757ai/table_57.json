@@ -1,0 +1,60 @@
+{
+  "table_id": "table_57",
+  "caption": "Table 57. EMS characteristics",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 149,
+  "merged_pages": [
+    149
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=149",
+  "section": "6.3.15 EMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Level/ Class"
+  ],
+  "rows": [
+    [
+      "V FESD",
+      "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+      "V = 3.3 V, T = +25 °C, DD A UFBGA240, f = rcc_c_ck 400 MHz, conforms to IEC 61000-4-2",
+      "3B"
+    ],
+    [
+      "V FTB",
+      "Fast transient voltage burst limits to be applied through 100 pF on V and V pins to induce a DD SS functional disturbance",
+      "V = 3.3 V, T = +25 °C, DD A UFBGA240, f = rcc_c_ck 400 MHz, conforms to IEC 61000-4-2",
+      "5A"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. Refer to AN1709 “EMI radiated test” chapter.",
+      "2. Refer to AN1709 “EMI level classification” chapter. 150/254 DS12931 Rev 5"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_57",
+    "is_continued": false,
+    "pages": [
+      149
+    ],
+    "rows_count": 2,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "table_id": "table_111",
+  "caption": "Table 111. Supply voltage and maximum frequency configuration",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 200,
+  "merged_pages": [
+    200
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=200",
+  "section": "7.3.1 General operating conditions",
+  "headers": [
+    "Power scale",
+    "V source CORE",
+    "Max T (°C) J",
+    "Max frequency (MHz)",
+    "Min V (V) DDLDO"
+  ],
+  "rows": [
+    [
+      "VOS0",
+      "LDO",
+      "105",
+      "480",
+      "1.7"
+    ],
+    [
+      "VOS1",
+      "LDO",
+      "125",
+      "400",
+      "1.62"
+    ],
+    [
+      "VOS2",
+      "LDO",
+      "125",
+      "300",
+      "1.62"
+    ],
+    [
+      "VOS3",
+      "LDO",
+      "125",
+      "200",
+      "1.62"
+    ],
+    [
+      "SVOS4",
+      "LDO",
+      "105",
+      "N/A",
+      "1.62"
+    ],
+    [
+      "SVOS5",
+      "LDO",
+      "105",
+      "N/A",
+      "1.62"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "3. For operation with voltage higher than Min (V , V , V ) +0.3V, the internal Pull-up and Pull-Down resistors must DD DDA DD33USB",
+      "4. VOS0 is available only when the LDO regulator is ON.",
+      "5. T = 105 °C. JMax",
+      "6. Maximum APB clock frequency when at least one peripheral is enabled.",
+      "7. In low-power dissipation state, T can be extended to this range as long as T does not exceed T (see Section 8.7: A J Jmax"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_111",
+    "is_continued": false,
+    "pages": [
+      200
+    ],
+    "rows_count": 6,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

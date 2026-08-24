@@ -1,0 +1,122 @@
+{
+  "table_id": "table_87",
+  "caption": "Table 87. LPSDR SDRAM read timings",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 139,
+  "merged_pages": [
+    139
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=139",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min(1)",
+    "Max(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tW(SDCLK)",
+      "FMC_SDCLK period",
+      "2Tfmc_ker_ck – 1",
+      "2Tfmc_ker_ck+0.5",
+      "ns"
+    ],
+    [
+      "tsu(SDCLKH_Data)",
+      "Data input setup time",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      ")ataD_HKLCDS(ht",
+      "Data input hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_Add)",
+      "Address valid time",
+      "-",
+      "3.5",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_SDNE)",
+      "Chip select valid time",
+      "-",
+      "2.5(3)",
+      "ns"
+    ],
+    [
+      "th(SDCLKL_SDNE)",
+      "Chip select hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_SDNRAS",
+      "SDNRAS valid time",
+      "-",
+      "1",
+      "ns"
+    ],
+    [
+      "th(SDCLKL_SDNRAS)",
+      "SDNRAS hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "td(SDCLKL_SDNCAS)",
+      "SDNCAS valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "th(SDCLKL_SDNCAS)",
+      "SDNCAS hold time",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. Using PC2_C I/O adds 16.5 ns to this timing."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_87",
+    "is_continued": false,
+    "pages": [
+      139
+    ],
+    "rows_count": 10,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

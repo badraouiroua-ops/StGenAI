@@ -1,0 +1,134 @@
+{
+  "table_id": "table_78",
+  "caption": "Table 78. SDRAM Write timings",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 188,
+  "merged_pages": [
+    188
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=188",
+  "section": "6.3.19 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(SDCLK)",
+      "FMC_SDCLK period",
+      "2T – 0.5 fmc_ker_ck",
+      "2T +0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t ) d(SDCLKL _Data",
+      "Data output valid time",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      ")ataD_ LKLCDS(h t",
+      "Data output hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_Add)",
+      "Address valid time",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNWE)",
+      "SDNWE valid time",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNWE)",
+      "SDNWE hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_ SDNE)",
+      "Chip select valid time",
+      "-",
+      "1.5(2)",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL-_SDNE)",
+      "Chip select hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNRAS)",
+      "SDNRAS valid time",
+      "-",
+      "1",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNRAS)",
+      "SDNRAS hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNCAS)",
+      "SDNCAS valid time",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNCAS)",
+      "SDNCAS hold time",
+      "0.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. Using PC2_C I/O adds 4.5 ns to this timing."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_78",
+    "is_continued": false,
+    "pages": [
+      188
+    ],
+    "rows_count": 12,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

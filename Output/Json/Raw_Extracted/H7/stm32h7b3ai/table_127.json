@@ -1,0 +1,129 @@
+{
+  "table_id": "table_127",
+  "caption": "Table 127. Dynamics SWD characteristics",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 182,
+  "merged_pages": [
+    182,
+    183
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=182",
+  "section": "6.3.36.10 JTAG/SWD interface characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max(1)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "Fpp",
+      "SWCLK clock frequency",
+      "2.7V <VDD< 3.6 V",
+      "-",
+      "-",
+      "76",
+      "MHz"
+    ],
+    [
+      "1/tc(SWCLK)",
+      "SWCLK clock frequency",
+      "1.62 <VDD< 3.6 V",
+      "-",
+      "-",
+      "55.5",
+      "MHz"
+    ],
+    [
+      "tisu(SWDIO)",
+      "SWDIO input setup time",
+      "-",
+      "2",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tih(SWDIO)",
+      "SWDIO input hold time",
+      "-",
+      "1",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tov(SWDIO)",
+      "SWDIO output valid time",
+      "2.7V <VDD< 3.6 V",
+      "-",
+      "8.5",
+      "13",
+      "ns"
+    ],
+    [
+      "tov(SWDIO)",
+      "SWDIO output valid time",
+      "1.62 <VDD< 3.6 V",
+      "-",
+      "8.5",
+      "18",
+      "ns"
+    ],
+    [
+      "toh(SWDIO)",
+      "SWDIO output hold",
+      "-",
+      "8",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.857,
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. At VOS1, these values are degraded by up to 5 %."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_127",
+    "is_continued": true,
+    "pages": [
+      182,
+      183
+    ],
+    "rows_count": 7,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

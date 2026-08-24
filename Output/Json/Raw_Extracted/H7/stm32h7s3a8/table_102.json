@@ -1,0 +1,65 @@
+{
+  "table_id": "table_102",
+  "caption": "Table 102. Delay block characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 247,
+  "merged_pages": [
+    247
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=247",
+  "section": "6.3.19 Delay block (DLYB) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t init",
+      "Initial delay",
+      "-",
+      "2400",
+      "2500",
+      "3000",
+      "ps"
+    ],
+    [
+      "tΔ",
+      "Unit Delay",
+      "-",
+      "41",
+      "48",
+      "57",
+      "ps"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_102",
+    "is_continued": false,
+    "pages": [
+      247
+    ],
+    "rows_count": 2,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

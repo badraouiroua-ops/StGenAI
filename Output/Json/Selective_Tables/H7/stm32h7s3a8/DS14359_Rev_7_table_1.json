@@ -1,0 +1,67 @@
+{
+  "table_id": "table_1",
+  "document": "DS14359 Rev 7 - Table 1. Device summary",
+  "rev": "Rev 7",
+  "table_number": "1",
+  "title": "Table 1. Device summary",
+  "page": 2,
+  "section": "General purpose / Overview",
+  "section_title": "General purpose / Overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 1. Device summary — section General purpose / Overview. Reference, Part numbers.",
+  "table_content": {
+    "headers": [
+      "Reference",
+      "Part numbers"
+    ],
+    "rows": [
+      [
+        "STM32H7S3x8",
+        "STM32H7S3A8"
+      ],
+      [
+        "STM32H7S3x8",
+        "STM32H7S3I8"
+      ],
+      [
+        "STM32H7S3x8",
+        "STM32H7S3L8"
+      ],
+      [
+        "STM32H7S3x8",
+        "STM32H7S3R8"
+      ],
+      [
+        "STM32H7S3x8",
+        "STM32H7S3V8"
+      ],
+      [
+        "STM32H7S3x8",
+        "STM32H7S3Z8"
+      ],
+      [
+        "STM32H7S7x8",
+        "STM32H7S7A8"
+      ],
+      [
+        "STM32H7S7x8",
+        "STM32H7S7I8"
+      ],
+      [
+        "STM32H7S7x8",
+        "STM32H7S7L8"
+      ],
+      [
+        "STM32H7S7x8",
+        "STM32H7S7Z8"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

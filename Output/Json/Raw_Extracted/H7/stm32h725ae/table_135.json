@@ -1,0 +1,61 @@
+{
+  "table_id": "table_135",
+  "caption": "Table 135. UFBGA169 - Example of PCB design rules (0.5 mm pitch BGA)",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 269,
+  "merged_pages": [
+    269
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=269",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Dimension",
+    "Values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.5 mm"
+    ],
+    [
+      "Dpad",
+      "0.27 mm"
+    ],
+    [
+      "Dsm",
+      "0.35 mm typ. (depends on the soldermask registration tolerance)"
+    ],
+    [
+      "Solder paste",
+      "0.27 mm aperture diameter."
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits. Figure 86. UFBGA169 - Footprint example"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_135",
+    "is_continued": false,
+    "pages": [
+      269
+    ],
+    "rows_count": 4,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

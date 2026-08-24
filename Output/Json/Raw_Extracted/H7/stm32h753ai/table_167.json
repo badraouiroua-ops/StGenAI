@@ -1,0 +1,120 @@
+{
+  "table_id": "table_167",
+  "caption": "Table 167. LPSDR SDRAM read timings",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 267,
+  "merged_pages": [
+    267
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=267",
+  "section": "7.3.17 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t W(SDCLK)",
+      "FMC_SDCLK period",
+      "2T – 1 fmc_ker_ck",
+      "2T +0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t su(SDCLKH_Data)",
+      "Data input setup time",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      ")ataD_HKLCDS(h t",
+      "Data input hold time",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_Add)",
+      "Address valid time",
+      "-",
+      "2.5",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNE)",
+      "Chip select valid time",
+      "-",
+      "2.5",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNE)",
+      "Chip select hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNRAS",
+      "SDNRAS valid time",
+      "-",
+      "0.5",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNRAS)",
+      "SDNRAS hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNCAS)",
+      "SDNCAS valid time",
+      "-",
+      "1.5",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNCAS)",
+      "SDNCAS hold time",
+      "0",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS12117 Rev 10 267/357"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_167",
+    "is_continued": false,
+    "pages": [
+      267
+    ],
+    "rows_count": 10,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

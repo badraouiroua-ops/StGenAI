@@ -1,0 +1,209 @@
+{
+  "table_id": "table_110",
+  "document": "DS13314 Rev 4 - Table 110. SAI characteristics",
+  "rev": "Rev 4",
+  "table_number": "110",
+  "title": "Table 110. SAI characteristics",
+  "page": 205,
+  "section": "6.3.37 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=205",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 110. SAI characteristics — section 6.3.37 Communication interfaces. Symbol, Parameter, Conditions, Min, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f MCK",
+        "SAI Main clock output",
+        "-",
+        "-",
+        "50",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "SAI clock frequency(2)",
+        "Master transmitter, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "45",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "SAI clock frequency(2)",
+        "Master transmitter, 1.62 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "32",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "SAI clock frequency(2)",
+        "Master receiver, 1.62 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "32",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "SAI clock frequency(2)",
+        "Slave transmitter, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "47.5",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "SAI clock frequency(2)",
+        "Slave transmitter, 1.62 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "41.5",
+        "MHz"
+      ],
+      [
+        "f CK",
+        "SAI clock frequency(2)",
+        "Slave receiver, 1.62 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "50",
+        "MHz"
+      ],
+      [
+        "t v(FS)",
+        "F valid time S",
+        "Master mode, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "11",
+        "ns"
+      ],
+      [
+        "t v(FS)",
+        "F valid time S",
+        "Master mode, 1.62 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "15.5",
+        "ns"
+      ],
+      [
+        "t su(FS)",
+        "F setup time S",
+        "Slave mode",
+        "2.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(FS)",
+        "F hold time S",
+        "Master mode",
+        "6",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(FS)",
+        "F hold time S",
+        "Slave mode",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(SD_A_MR)",
+        "Data input setup time",
+        "Master receiver",
+        "3",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(SD_B_SR)",
+        "-",
+        "Slave receiver",
+        "3.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(SD_A_MR)",
+        "Data input hold time",
+        "Master receiver",
+        "3.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(SD_B_SR)",
+        "-",
+        "Slave receiver",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(SD_B_ST)",
+        "Data output valid time",
+        "Slave transmitter (after enable edge), 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "10.5",
+        "ns"
+      ],
+      [
+        "t v(SD_B_ST)",
+        "Data output valid time",
+        "Slave transmitter (after enable edge), 1.62 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "12",
+        "ns"
+      ],
+      [
+        "t h(SD_B_ST)",
+        "Data output hold time",
+        "Slave transmitter (after enable edge)",
+        "6.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(SD_A_MT)",
+        "Data output valid time",
+        "Master transmitter (after enable edge), 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "10.5",
+        "ns"
+      ],
+      [
+        "t v(SD_A_MT)",
+        "Data output valid time",
+        "Master transmitter (after enable edge), 1.62 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "14.5",
+        "ns"
+      ],
+      [
+        "t h(SD_A_MT)",
+        "Data output hold time",
+        "Master transmitter (after enable edge)",
+        "6",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. APB clock frequency must be at least twice SAI clock frequency."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

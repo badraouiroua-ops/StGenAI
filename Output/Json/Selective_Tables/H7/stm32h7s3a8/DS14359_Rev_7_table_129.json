@@ -1,0 +1,65 @@
+{
+  "table_id": "table_129",
+  "document": "DS14359 Rev 7 - Table 129. MDIO slave timing parameters",
+  "rev": "Rev 7",
+  "table_number": "129",
+  "title": "Table 129. MDIO slave timing parameters",
+  "page": 278,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=278",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 129. MDIO slave timing parameters — section 6.3.33 Communication interfaces. Symbol, Parameter, Min, Typ, Max(2), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F MDC",
+        "Management Data Clock",
+        "-",
+        "-",
+        "30",
+        "MHz"
+      ],
+      [
+        "t d(MDIO)",
+        "Management Data Iput/output output valid time",
+        "6",
+        "8.5",
+        "13",
+        "ns"
+      ],
+      [
+        "t su(MDIO)",
+        "Management Data Iput/output setup time",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(MDIO)",
+        "Management Data Iput/output hold time",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS Low, these values are degraded by up to 7%."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

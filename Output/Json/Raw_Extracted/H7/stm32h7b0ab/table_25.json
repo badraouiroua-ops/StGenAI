@@ -1,0 +1,131 @@
+{
+  "table_id": "table_25",
+  "caption": "Table 25. SMPS step-down converter characteristics for external usage",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 70,
+  "merged_pages": [
+    70
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=70",
+  "section": "6.3.3 SMPS step-down converter",
+  "headers": [
+    "Symbol",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "VDDSMPS(1)",
+      "VOUT = 1.8 V",
+      "2.3",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "VDDSMPS(1)",
+      "VOUT = 2.5 V",
+      "3",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "VOUT(2)",
+      "IOUT=600 mA",
+      "2.25",
+      "2.5",
+      "2.75",
+      "V"
+    ],
+    [
+      "VOUT(2)",
+      "IOUT=600 mA",
+      "1.62",
+      "1.8",
+      "1.98",
+      "V"
+    ],
+    [
+      "IOUT",
+      "internal and external usage",
+      "-",
+      "-",
+      "600",
+      "mA"
+    ],
+    [
+      "IOUT",
+      "External usage only(3)",
+      "-",
+      "-",
+      "600",
+      "mA"
+    ],
+    [
+      "RDSON",
+      "-",
+      "-",
+      "100",
+      "120",
+      "mΩ"
+    ],
+    [
+      "IDDSMPS_Q",
+      "Quiescent current",
+      "-",
+      "220",
+      "-",
+      "µA"
+    ],
+    [
+      "TSMPS_START",
+      "VOUT = 1.8 V",
+      "-",
+      "270",
+      "405",
+      "µs"
+    ],
+    [
+      "TSMPS_START",
+      "VOUT = 2.5 V",
+      "-",
+      "360",
+      "540",
+      "µs"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. The switching frequency is 2.4 MHz±10%",
+      "2. Including line transient and load transient.",
+      "3. These characteristics are given for SMPSEXTHP bit is set in the PWR_CR3 register. The SMPS current consumption can be determined using the following formula based on the maximum LDO"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_25",
+    "is_continued": false,
+    "pages": [
+      70
+    ],
+    "rows_count": 10,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

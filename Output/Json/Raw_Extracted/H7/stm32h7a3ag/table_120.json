@@ -1,0 +1,228 @@
+{
+  "table_id": "table_120",
+  "caption": "Table 120. SAI characteristics",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 175,
+  "merged_pages": [
+    175
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=175",
+  "section": "6.3.36.5 SAI characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Max(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fMCK",
+      "SAI Main clock output",
+      "-",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "SAI clock frequency",
+      "Master transmitter, 2.7 ≤ VDD ≤ 3.6 V",
+      "-",
+      "34",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "SAI clock frequency",
+      "Master transmitter, 1.62 ≤ VDD ≤ 3.6 V",
+      "-",
+      "27",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "SAI clock frequency",
+      "Master receiver, 1.6 ≤ VDD ≤ 3.6 V",
+      "-",
+      "27",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "SAI clock frequency",
+      "Slave transmitter, 2.7 ≤ VDD ≤ 3.6 V",
+      "-",
+      "37",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "SAI clock frequency",
+      "Slave transmitter, 1.62 ≤ VDD ≤ 3.6 V",
+      "-",
+      "30",
+      "MHz"
+    ],
+    [
+      "fCK",
+      "SAI clock frequency",
+      "Slave receiver, 1.62 ≤ VDD≤ 3.6 V",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "tv(FS)",
+      "FS valid time",
+      "Master mode,2.7 ≤ VDD ≤ 3.6 V",
+      "-",
+      "14.5",
+      "ns"
+    ],
+    [
+      "tv(FS)",
+      "FS valid time",
+      "Master mode, 1.62 ≤ VDD ≤ 3.6 V",
+      "-",
+      "18.5",
+      "ns"
+    ],
+    [
+      "tsu(FS)",
+      "FS setup time",
+      "Slave mode",
+      "8",
+      "-",
+      "ns"
+    ],
+    [
+      "th(FS)",
+      "FS hold time",
+      "Master mode",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "th(FS)",
+      "FS hold time",
+      "Slave mode",
+      "2",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(SD_A_MR)",
+      "Data input setup time",
+      "Master receiver",
+      "0.5",
+      "-",
+      "ns"
+    ],
+    [
+      "tsu(SD_B_SR)",
+      "Data input setup time",
+      "Slave receiver",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "th(SD_A_MR)",
+      "Data input hold time",
+      "Master receiver",
+      "5.5",
+      "-",
+      "ns"
+    ],
+    [
+      "th(SD_B_SR)",
+      "Data input hold time",
+      "Slave receiver",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(SD_B_ST)",
+      "Data output valid time",
+      "Slave transmitter (after enable edge), 2.7 ≤ VDD ≤ 3.6 V",
+      "-",
+      "13.5",
+      "ns"
+    ],
+    [
+      "tv(SD_B_ST)",
+      "Data output valid time",
+      "Slave transmitter (after enable edge), 1.62 ≤ VDD ≤ 3.6 V",
+      "-",
+      "16.5",
+      "ns"
+    ],
+    [
+      "th(SD_B_ST)",
+      "Data output hold time",
+      "Slave transmitter (after enable edge)",
+      "8",
+      "-",
+      "ns"
+    ],
+    [
+      "tv(SD_A_MT)",
+      "Data output valid time",
+      "Master transmitter (after enable edge), 2.7 ≤ VDD ≤ 3.6 V",
+      "-",
+      "14",
+      "ns"
+    ],
+    [
+      "tv(SD_A_MT)",
+      "Data output valid time",
+      "Master transmitter (after enable edge), 1.62 ≤ VDD ≤ 3.6 V",
+      "-",
+      "18",
+      "ns"
+    ],
+    [
+      "th(SD_A_MT)",
+      "Data output hold time",
+      "Master transmitter (after enable edge)",
+      "7.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_120",
+    "is_continued": false,
+    "pages": [
+      175
+    ],
+    "rows_count": 22,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

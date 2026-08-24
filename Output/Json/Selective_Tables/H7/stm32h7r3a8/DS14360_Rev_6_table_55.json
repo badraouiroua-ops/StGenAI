@@ -1,0 +1,57 @@
+{
+  "table_id": "table_55",
+  "document": "DS14360 Rev 6 - Table 55. Timing for analog LSE input",
+  "rev": "Rev 6",
+  "table_number": "55",
+  "title": "Table 55. Timing for analog LSE input",
+  "page": 191,
+  "section": "6.3.9 External clock source characteristics",
+  "section_title": "External clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=191",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 55. Timing for analog LSE input — section 6.3.9 External clock source characteristics. Parameter, Comment, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "Comment",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Input frequency",
+        "Fundamental frequency",
+        "32.768",
+        "32.768",
+        "32.768",
+        "kHz"
+      ],
+      [
+        "Input peak-to-peak amplitude",
+        "Vpp",
+        "0.3(1)",
+        "-",
+        "V SW",
+        "V"
+      ],
+      [
+        "Absolute input range",
+        "-",
+        "-",
+        "-",
+        "V SW",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

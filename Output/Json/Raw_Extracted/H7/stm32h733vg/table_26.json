@@ -1,0 +1,128 @@
+{
+  "table_id": "table_26",
+  "caption": "Table 26. Typical and maximum current consumption in Stop mode",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 103,
+  "merged_pages": [
+    103
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=103",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Typ",
+    "Max(1) / T = J 25 °C",
+    "Max(1) / T = J 85 °C",
+    "Max(1) / T = J 105 °C",
+    "Max(1) / T = J 125 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD(Stop)",
+      "Supply current in Stop and DStop modes",
+      "Flash memory in low- power mode",
+      "SVOS5",
+      "0.52",
+      "3.7",
+      "26",
+      "44",
+      "72",
+      "mA"
+    ],
+    [
+      "I DD(Stop)",
+      "Supply current in Stop and DStop modes",
+      "Flash memory in low- power mode",
+      "SVOS4",
+      "0.81",
+      "6.1",
+      "39",
+      "64",
+      "110",
+      "mA"
+    ],
+    [
+      "I DD(Stop)",
+      "Supply current in Stop and DStop modes",
+      "Flash memory in low- power mode",
+      "SVOS3",
+      "1.15",
+      "8.6",
+      "51",
+      "82",
+      "130",
+      "mA"
+    ],
+    [
+      "I DD(Stop)",
+      "Supply current in Stop and DStop modes",
+      "Flash memory in normal mode",
+      "SVOS5",
+      "0.535",
+      "3.7",
+      "26",
+      "44",
+      "72",
+      "mA"
+    ],
+    [
+      "I DD(Stop)",
+      "Supply current in Stop and DStop modes",
+      "Flash memory in normal mode",
+      "SVOS4",
+      "0.96",
+      "6.2",
+      "39",
+      "64",
+      "110",
+      "mA"
+    ],
+    [
+      "I DD(Stop)",
+      "Supply current in Stop and DStop modes",
+      "Flash memory in normal mode",
+      "SVOS3",
+      "1.45",
+      "8.8",
+      "51",
+      "83",
+      "130",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 10,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 10,
+    "_notes": [
+      "1. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_26",
+    "is_continued": false,
+    "pages": [
+      103
+    ],
+    "rows_count": 6,
+    "cols_count": 10,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

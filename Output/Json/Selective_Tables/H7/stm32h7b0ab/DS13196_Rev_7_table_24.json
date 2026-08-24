@@ -1,0 +1,77 @@
+{
+  "table_id": "table_24",
+  "document": "DS13196 Rev 7 - Table 24. Characteristics of SMPS step-down converter external components",
+  "rev": "Rev 7",
+  "table_number": "24",
+  "title": "Table 24. Characteristics of SMPS step-down converter external components",
+  "page": 69,
+  "section": "6.3.3 SMPS step-down converter",
+  "section_title": "SMPS step-down converter",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=69",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "text_helper": "Table 24. Characteristics of SMPS step-down converter external components — section 6.3.3 SMPS step-down converter. Symbol, Parameter, Conditions.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions"
+    ],
+    "rows": [
+      [
+        "CIN",
+        "Capacitance of external capacitor on VDDSMPS",
+        "Fµ 7.4"
+      ],
+      [
+        "CIN",
+        "ESR of external capacitor",
+        "100 mΩ"
+      ],
+      [
+        "Cfilt",
+        "Capacitance of external capacitor on VLXSMPS pin",
+        "220 pF"
+      ],
+      [
+        "COUT",
+        "Capacitance of external capacitor on VFBSMPS pin",
+        "10 µF"
+      ],
+      [
+        "COUT",
+        "ESR of external capacitor",
+        "20 mΩ"
+      ],
+      [
+        "L",
+        "Inductance of external Inductor on VLXSMPS pin",
+        "2.2 µH"
+      ],
+      [
+        "-",
+        "Serial DC resistor",
+        "150 mΩ"
+      ],
+      [
+        "ISAT",
+        "DC current at which the inductance drops 30% from its value without current.",
+        "1.7 A"
+      ],
+      [
+        "IRMS",
+        "Average current for a 40 °C rise: rated current for which the temperature of the inductor is raised 40°C by DC current",
+        "1.4 A"
+      ]
+    ],
+    "notes": [
+      "1. The switching frequency is 2.4 MHz±10%",
+      "2. Including line transient and load transient.",
+      "3. These characteristics are given for SMPSEXTHP bit is set in the PWR_CR3 register. The SMPS current consumption can be determined using the following formula based on the maximum LDO"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

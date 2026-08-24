@@ -1,0 +1,66 @@
+{
+  "table_id": "table_12",
+  "caption": "Table 12. Thermal characteristics",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 102,
+  "merged_pages": [
+    102
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=102",
+  "section": "6.2 Absolute maximum ratings",
+  "headers": [
+    "Symbol",
+    "Ratings",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "T STG",
+      "Storage temperature range",
+      "-65 to +150",
+      "°C"
+    ],
+    [
+      "T J",
+      "Maximum junction temperature",
+      "125(1)",
+      "°C"
+    ],
+    [
+      "T J",
+      "Maximum junction temperature",
+      "140(2)",
+      "°C"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 4,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 4,
+    "_notes": [
+      "1. All main power (V , V , V , V , V ) and ground (V , V ) pins must always be DD DDA DD33USB DDSMPS BAT SS SSA",
+      "2. V maximum must always be respected. Refer to Table 58: I/O current injection susceptibility for the IN"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_12",
+    "is_continued": false,
+    "pages": [
+      102
+    ],
+    "rows_count": 3,
+    "cols_count": 4,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

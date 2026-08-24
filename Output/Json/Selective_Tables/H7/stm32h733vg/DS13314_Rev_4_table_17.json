@@ -1,0 +1,135 @@
+{
+  "table_id": "table_17",
+  "document": "DS13314 Rev 4 - Table 17. Embedded reference voltage",
+  "rev": "Rev 4",
+  "table_number": "17",
+  "title": "Table 17. Embedded reference voltage",
+  "page": 96,
+  "section": "6.3.5 Embedded reference voltage characteristics",
+  "section_title": "Embedded reference voltage characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=96",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "text_helper": "Table 17. Embedded reference voltage — section 6.3.5 Embedded reference voltage characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V REFINT",
+        "Internal reference voltages",
+        "-40°C < T < T J Jmax",
+        "1.180",
+        "1.216",
+        "1.255",
+        "V"
+      ],
+      [
+        "t (1)(2) S_vrefint (3)",
+        "ADC sampling time when reading the internal reference voltage",
+        "-",
+        "4.3",
+        "-",
+        "-",
+        "µs"
+      ],
+      [
+        "t (2) S_vbat",
+        "VBAT sampling time when reading the internal VBAT reference voltage",
+        "-",
+        "9",
+        "-",
+        "-",
+        "µs"
+      ],
+      [
+        "t (2) start_vrefint",
+        "Start time of reference voltage buffer when ADC is enable",
+        "-",
+        "-",
+        "-",
+        "4.4",
+        "µs"
+      ],
+      [
+        "I (2) refbuf",
+        "Reference Buffer consumption for ADC",
+        "V = 3.3 V DD",
+        "9",
+        "13.5",
+        "23",
+        "µA"
+      ],
+      [
+        "ΔV (2) REFINT",
+        "Internal reference voltage spread over the temperature range",
+        "-40°C < T < T J Jmax",
+        "-",
+        "5",
+        "15",
+        "mV"
+      ],
+      [
+        "T (2) coeff",
+        "Average temperature coefficient",
+        "Average temperature coefficient",
+        "-",
+        "20",
+        "70",
+        "ppm/°C"
+      ],
+      [
+        "V (2) DDcoeff",
+        "Average Voltage coefficient",
+        "3.0 V < V < 3.6 V DD",
+        "-",
+        "10",
+        "1370",
+        "ppm/V"
+      ],
+      [
+        "V REFINT_DIV1",
+        "1/4 reference voltage",
+        "-",
+        "-",
+        "25",
+        "-",
+        "% V REFINT"
+      ],
+      [
+        "V REFINT_DIV2",
+        "1/2 reference voltage",
+        "-",
+        "-",
+        "50",
+        "-",
+        "% V REFINT"
+      ],
+      [
+        "V REFINT_DIV3",
+        "3/4 reference voltage",
+        "-",
+        "-",
+        "75",
+        "-",
+        "% V REFINT"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design.",
+      "2. Guaranteed by design.",
+      "3. Guaranteed by design. and tested in production at 3.3 V."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "table_id": "table_117",
+  "document": "DS14360 Rev 6 - Table 117. LTDC characteristics",
+  "rev": "Rev 6",
+  "table_number": "117",
+  "title": "Table 117. LTDC characteristics",
+  "page": 261,
+  "section": "6.3.30 LCD-TFT controller (LTDC) characteristics",
+  "section_title": "LCD-TFT controller (LTDC) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=261",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 117. LTDC characteristics — section 6.3.30 LCD-TFT controller (LTDC) characteristics. Symbol, Parameter, Parameter, Min, Max(2), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Parameter",
+      "Min",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f CLK",
+        "LTDC clock output frequency",
+        "1.71<V <3. DD 6 V, 30 pF",
+        "-",
+        "90",
+        "MHz"
+      ],
+      [
+        "D CLK",
+        "LTDC clock output duty cycle",
+        "LTDC clock output duty cycle",
+        "45",
+        "55",
+        "%"
+      ],
+      [
+        "t w(CLKH), t w(CLKL)",
+        "Clock High time, low time",
+        "Clock High time, low time",
+        "t //2-0.5 w(CLK)",
+        "t /2+0.5 w(CLK)",
+        "ns"
+      ],
+      [
+        "t v(DATA)",
+        "Data output valid time",
+        "Data output valid time",
+        "-",
+        "3.5",
+        "ns"
+      ],
+      [
+        "t h(DATA)",
+        "Data output hold time",
+        "Data output hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t v(HSYNC), t v(VSYNC), t v(DE)",
+        "HSYNC/VSYNC/DE output valid time",
+        "HSYNC/VSYNC/DE output valid time",
+        "-",
+        "3.0",
+        "ns"
+      ],
+      [
+        "t h(HSYNC), t , h(VSYNC) t h(DE)",
+        "HSYNC/VSYNC/DE output hold time",
+        "HSYNC/VSYNC/DE output hold time",
+        "0.5",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS Low, these values are degraded by up to 7%. DS14360 Rev 6 261/322"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

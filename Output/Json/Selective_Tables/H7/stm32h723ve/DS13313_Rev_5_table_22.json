@@ -1,0 +1,198 @@
+{
+  "table_id": "table_22",
+  "document": "DS13313 Rev 5 - Table 22. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, cache OFF",
+  "rev": "Rev 5",
+  "table_number": "22",
+  "title": "Table 22. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, cache OFF",
+  "page": 100,
+  "section": "6.3.7 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=100",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "text_helper": "Table 22. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, cache OFF — section 6.3.7 Supply current characteristics. Symbol, Parameter, Conditions, Conditions, f rcc_c_ck (MHz), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "f rcc_c_ck (MHz)",
+      "Typ",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled",
+        "VOS0(2)",
+        "550",
+        "99",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled",
+        "VOS0(2)",
+        "520",
+        "95",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled",
+        "VOS0",
+        "520",
+        "95",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled",
+        "VOS0",
+        "400",
+        "76.5",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled",
+        "VOS1",
+        "400",
+        "66.5",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled",
+        "VOS1",
+        "300",
+        "51.5",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled",
+        "VOS2",
+        "300",
+        "47.5",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled",
+        "VOS2",
+        "280",
+        "43.5",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals disabled",
+        "VOS3",
+        "170",
+        "24.5",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals enabled",
+        "VOS0(2)",
+        "550",
+        "170",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals enabled",
+        "VOS0(2)",
+        "520",
+        "165",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals enabled",
+        "VOS0",
+        "520",
+        "165",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals enabled",
+        "VOS0",
+        "400",
+        "130",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals enabled",
+        "VOS1",
+        "400",
+        "115",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals enabled",
+        "VOS1",
+        "300",
+        "87",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals enabled",
+        "VOS2",
+        "300",
+        "79",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals enabled",
+        "VOS2",
+        "280",
+        "73.5",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Run mode",
+        "All peripherals enabled",
+        "VOS3",
+        "170",
+        "41",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "2. CPU_FREQ_BOOST is enabled. 100/236 DS13313 Rev 5"
+    ],
+    "legend": [
+      "code with data processing running from flash memory, cache OFF(1)"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

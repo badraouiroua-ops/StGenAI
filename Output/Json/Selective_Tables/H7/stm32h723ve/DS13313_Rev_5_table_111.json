@@ -1,0 +1,169 @@
+{
+  "table_id": "table_111",
+  "document": "DS13313 Rev 5 - Table 111. MDIO slave timing parameters",
+  "rev": "Rev 5",
+  "table_number": "111",
+  "title": "Table 111. MDIO slave timing parameters",
+  "page": 206,
+  "section": "6.3.37 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=206",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "text_helper": "Table 111. MDIO slave timing parameters — section 6.3.37 Communication interfaces. Symbol, Parameter, Parameter, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "F MDC",
+        "Management Data Clock",
+        "Management Data Clock",
+        "-",
+        "-",
+        "30",
+        "MHz"
+      ],
+      [
+        "t d(MDIO)",
+        "Management Data Iput/output output valid time",
+        "Management Data Iput/output output valid time",
+        "8",
+        "10",
+        "18",
+        "ns"
+      ],
+      [
+        "t su(MDIO)",
+        "Management Data Iput/output setup time",
+        "Management Data Iput/output setup time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t h(MDIO)",
+        "Management Data Iput/output hold time",
+        "Management Data Iput/output hold time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "f PP",
+        "Clock frequency in data transfer mode",
+        "-",
+        "0",
+        "-",
+        "120",
+        "MHz"
+      ],
+      [
+        "-",
+        "SDIO_CK/fPCLK2 frequency ratio",
+        "-",
+        "-",
+        "-",
+        "8/3",
+        "MHz"
+      ],
+      [
+        "t W(CKL)",
+        "Clock low time",
+        "f =52MHz PP",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t W(CKH)",
+        "Clock high time",
+        "Clock high time",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D inputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ISU",
+        "Input setup time HS",
+        "-",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t IH",
+        "Input hold time HS",
+        "-",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t (3) IDW",
+        "Input valid window (variable window)",
+        "-",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in eMMC legacy/SDR/DDR and SD HS/SDR/DDR mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t OV",
+        "Output valid time HS",
+        "-",
+        "-",
+        "5.5",
+        "6",
+        "ns"
+      ],
+      [
+        "t OH",
+        "Output hold time HS",
+        "-",
+        "4.5",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. T able 113. Dynamics characteristics: eMMC characteristics VDD = 1.71V to 1.9V(1)(2)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "table_id": "table_68",
+  "document": "DS14360 Rev 6 - Table 68. Electrical sensitivities",
+  "rev": "Rev 6",
+  "table_number": "68",
+  "title": "Table 68. Electrical sensitivities",
+  "page": 202,
+  "section": "6.3.13 Absolute maximum ratings (electrical sensitivity)",
+  "section_title": "Absolute maximum ratings (electrical sensitivity)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=202",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 68. Electrical sensitivities — section 6.3.13 Absolute maximum ratings (electrical sensitivity). Symbol, Parameter, Conditions, Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Class"
+    ],
+    "rows": [
+      [
+        "LU",
+        "Static latchup class",
+        "Conforming to JESD78, T = T J JMax",
+        "II level A"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization – not tested in production. Static latchup"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

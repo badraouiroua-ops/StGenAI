@@ -1,0 +1,44 @@
+{
+  "table_id": "table_67",
+  "document": "DS14359 Rev 7 - Table 67. EMS characteristics",
+  "rev": "Rev 7",
+  "table_number": "67",
+  "title": "Table 67. EMS characteristics",
+  "page": 203,
+  "section": "6.3.12 EMC characteristics",
+  "section_title": "EMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=203",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 67. EMS characteristics — section 6.3.12 EMC characteristics. Symbol, Parameter, Conditions, Level/ Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Level/ Class"
+    ],
+    "rows": [
+      [
+        "V FESD",
+        "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+        "V = 3.3 V, T = 25 °C, DD A f = 600 MHz, HCLK BGA225 Hexa package conforming to IEC 61000-4-2",
+        "1B"
+      ],
+      [
+        "V FTB",
+        "Fast transient voltage burst limits to be applied through 100 pF on V and V pins DD SS to induce a functional disturbance",
+        "V = 3.3 V, T = 25 °C, DD A f = 600 MHz, HCLK BGA225 Hexa package conforming to IEC 61000-4-4",
+        "5A"
+      ]
+    ],
+    "notes": [
+      "1. Refer to AN1709 EMI radiated test chapter.",
+      "2. Refer to AN1709 EMI level classification chapter. 204/325 DS14359 Rev 7"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

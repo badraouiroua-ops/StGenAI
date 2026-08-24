@@ -1,0 +1,216 @@
+{
+  "table_id": "table_31",
+  "caption": "Table 31. Typical and maximum current consumption in Run mode, code with data processing running from flash memory, only Arm Cortex-M4 running, ART accelerator ON, LDO regulator ON",
+  "pdf_name": "stm32h755bi",
+  "family": "H7",
+  "page": 117,
+  "merged_pages": [
+    117
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h755bi.pdf#page=117",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "f CPU2 (MHz)",
+    "Typ",
+    "Max(2) / Tj=25 °C",
+    "Max(2) / Tj=85 °C",
+    "Max(2) / Tj=105 °C",
+    "Max(2) / Tj=125 °C",
+    "Max(2) / Tj=140 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS0",
+      "240",
+      "121",
+      "203",
+      "339",
+      "453",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS0",
+      "200",
+      "90",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1",
+      "200",
+      "79",
+      "123",
+      "234",
+      "323",
+      "444",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS1",
+      "150",
+      "61",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS2",
+      "150",
+      "56",
+      "85",
+      "178",
+      "250",
+      "350",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals disabled",
+      "VOS3",
+      "100",
+      "35",
+      "59",
+      "131",
+      "189",
+      "269",
+      "369",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS0",
+      "240",
+      "190",
+      "303",
+      "412",
+      "525",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS0",
+      "200",
+      "146",
+      "-",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS1",
+      "200",
+      "129",
+      "195",
+      "287",
+      "376",
+      "499",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS2",
+      "150",
+      "90",
+      "134",
+      "214",
+      "287",
+      "386",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD",
+      "Supply current in Run mode",
+      "All peripherals enabled",
+      "VOS3",
+      "100",
+      "61",
+      "100",
+      "158",
+      "216",
+      "297",
+      "398",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 12,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 12,
+    "_notes": [
+      "2. Guaranteed by characterization results, unless otherwise specified."
+    ],
+    "_legend": [
+      "running from flash memory, only Arm Cortex-M4 running, ART accelerator ON,",
+      "LDO regulator ON(1)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h755bi",
+    "table_id": "table_31",
+    "is_continued": false,
+    "pages": [
+      117
+    ],
+    "rows_count": 11,
+    "cols_count": 12,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

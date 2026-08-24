@@ -1,0 +1,121 @@
+{
+  "table_id": "table_73",
+  "caption": "Table 73. LPSDR SDRAM read timings",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 155,
+  "merged_pages": [
+    155
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=155",
+  "section": "6.3.18 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t W(SDCLK)",
+      "FMC_SDCLK period",
+      "2T – fmc_ker_ck 0.5",
+      "2T +0.5 fmc_ker_ck",
+      "ns"
+    ],
+    [
+      "t su(SDCLKH_Data)",
+      "Data input setup time",
+      "3",
+      "-",
+      "ns"
+    ],
+    [
+      ")ataD_HKLCDS(h t",
+      "Data input hold time",
+      "2.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_Add)",
+      "Address valid time",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNE)",
+      "Chip select valid time",
+      "-",
+      "1.5(2)(3)",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNE)",
+      "Chip select hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNRAS",
+      "SDNRAS valid time",
+      "-",
+      "1",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNRAS)",
+      "SDNRAS hold time",
+      "0",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(SDCLKL_SDNCAS)",
+      "SDNCAS valid time",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t h(SDCLKL_SDNCAS)",
+      "SDNCAS hold time",
+      "0.5",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. Using PC2 I/O adds 4 ns to this timing.",
+      "3. Using PC2_C I/O adds 16.5 ns to this timing."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_73",
+    "is_continued": false,
+    "pages": [
+      155
+    ],
+    "rows_count": 10,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

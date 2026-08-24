@@ -1,0 +1,50 @@
+{
+  "table_id": "table_99",
+  "document": "DS12931 Rev 5 - Table 99. Temperature monitoring characteristics",
+  "rev": "Rev 5",
+  "table_number": "99",
+  "title": "Table 99. Temperature monitoring characteristics",
+  "page": 199,
+  "section": "6.3.27 Temperature and V monitoring",
+  "section_title": "Temperature and V monitoring",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=199",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "text_helper": "Table 99. Temperature monitoring characteristics — section 6.3.27 Temperature and V monitoring. Symbol, Parameter, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "TEMP high",
+        "High temperature monitoring",
+        "-",
+        "117",
+        "-",
+        "°C"
+      ],
+      [
+        "TEMP low",
+        "Low temperature monitoring",
+        "-",
+        "–25",
+        "-",
+        "°C"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. DS12931 Rev 5 199/254",
+      "2. Refer to Table 20: Embedded reference voltage. 200/254 DS12931 Rev 5"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

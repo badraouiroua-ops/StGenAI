@@ -1,0 +1,145 @@
+{
+  "table_id": "table_123",
+  "caption": "Table 123. Dynamics characteristics: eMMC characteristics VDD=1.71V to 1.9V",
+  "pdf_name": "stm32h7b3ai",
+  "family": "H7",
+  "page": 179,
+  "merged_pages": [
+    179
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=179",
+  "section": "6.3.36.7 SD/SDIO MMC card host interface (SDMMC) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min(1)",
+    "Typ(1)",
+    "Ma(1)(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fPP",
+      "Clock frequency in data transfer mode",
+      "-",
+      "0",
+      "-",
+      "85",
+      "MHz"
+    ],
+    [
+      "tW(CKL)",
+      "Clock low time",
+      "fPP =52 MHz",
+      "8.5",
+      "9.5",
+      "-",
+      "ns"
+    ],
+    [
+      "tW(CKH)",
+      "Clock high time",
+      "fPP =52 MHz",
+      "8.5",
+      "9.5",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D inputs (referenced to CK) in eMMC mode",
+      "CMD, D inputs (referenced to CK) in eMMC mode",
+      "CMD, D inputs (referenced to CK) in eMMC mode",
+      "CMD, D inputs (referenced to CK) in eMMC mode",
+      "CMD, D inputs (referenced to CK) in eMMC mode",
+      "CMD, D inputs (referenced to CK) in eMMC mode",
+      "CMD, D inputs (referenced to CK) in eMMC mode"
+    ],
+    [
+      "tISU",
+      "Input setup time HS",
+      "-",
+      "2.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tIH",
+      "Input hold time HS",
+      "-",
+      "0.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "tIDW(3)",
+      "Input valid window (variable window)",
+      "-",
+      "3.5",
+      "-",
+      "-",
+      "ns"
+    ],
+    [
+      "CMD, D outputs (referenced to CK) in eMMC mode",
+      "CMD, D outputs (referenced to CK) in eMMC mode",
+      "CMD, D outputs (referenced to CK) in eMMC mode",
+      "CMD, D outputs (referenced to CK) in eMMC mode",
+      "CMD, D outputs (referenced to CK) in eMMC mode",
+      "CMD, D outputs (referenced to CK) in eMMC mode",
+      "CMD, D outputs (referenced to CK) in eMMC mode"
+    ],
+    [
+      "tOVD",
+      "Output valid time HS",
+      "-",
+      "-",
+      "6",
+      "6.5",
+      "ns"
+    ],
+    [
+      "tOHD",
+      "Output hold time HS",
+      "-",
+      "5.5",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. At VOS1, these values are degraded by up to 5 %.",
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode."
+    ],
+    "_legend": [
+      "Above 100 MHz, CL = 20 pF."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b3ai",
+    "table_id": "table_123",
+    "is_continued": false,
+    "pages": [
+      179
+    ],
+    "rows_count": 10,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

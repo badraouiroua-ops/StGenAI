@@ -1,0 +1,96 @@
+{
+  "table_id": "table_38",
+  "caption": "Table 38. LSI oscillator characteristics",
+  "pdf_name": "stm32h753ai",
+  "family": "H7",
+  "page": 129,
+  "merged_pages": [
+    129
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=129",
+  "section": "6.3.9 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f (1) LSI",
+      "LSI frequency",
+      "V = 3.3 V, T = 25 °C DD J",
+      "31.4",
+      "32",
+      "32.6",
+      "kHz"
+    ],
+    [
+      "f (1) LSI",
+      "LSI frequency",
+      "T = –40 to 105 °C, V = J DD 1.62 to 3.6 V",
+      "29.76",
+      "-",
+      "33.60",
+      "kHz"
+    ],
+    [
+      "t (2) su(LSI)",
+      "LSI oscillator startup time",
+      "-",
+      "-",
+      "80",
+      "130",
+      "µs"
+    ],
+    [
+      "t (2) stab(LSI)",
+      "LSI oscillator stabilization time (5% of final value)",
+      "-",
+      "-",
+      "120",
+      "170",
+      "µs"
+    ],
+    [
+      "I (2) DD(LSI)",
+      "LSI oscillator power consumption",
+      "-",
+      "-",
+      "130",
+      "280",
+      "nA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by design.",
+      "2. Guaranteed by test in production."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h753ai",
+    "table_id": "table_38",
+    "is_continued": false,
+    "pages": [
+      129
+    ],
+    "rows_count": 5,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

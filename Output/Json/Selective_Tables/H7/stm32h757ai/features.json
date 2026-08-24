@@ -1,0 +1,119 @@
+{
+  "features": [
+    [
+      "pdf_name",
+      "stm32h757ai"
+    ],
+    [
+      "family",
+      "H7"
+    ],
+    [
+      "page",
+      1
+    ],
+    [
+      "merged_pages",
+      [
+        1
+      ]
+    ],
+    [
+      "url",
+      "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf"
+    ],
+    [
+      "url_table",
+      "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=1"
+    ],
+    [
+      "text_helper",
+      "pdf_name: stm32h757ai. DS12931 Rev 5 (January 2026). Dual 32-bit Arm Cortex -M7 up to 480MHz and -M4 MCUs, 2MB. family: H7. core: Cortex-M7. freq: 480 MHz. flash: 2048 KB. ram: 864 KB. voltage: 1.62-3.6 V. packages: TFBGA240, WLCSP156, UFBGA176, UFBGA240, UFBGA169, LQFP176, LQFP208, TFBGA265"
+    ]
+  ],
+  "features_content": [
+    [
+      "doc_ref",
+      "DS12931"
+    ],
+    [
+      "revision",
+      "Rev 5"
+    ],
+    [
+      "date",
+      "January 2026"
+    ],
+    [
+      "title",
+      "Dual 32-bit Arm Cortex -M7 up to 480MHz and -M4 MCUs, 2MB"
+    ],
+    [
+      "core",
+      "Cortex-M7"
+    ],
+    [
+      "fpu",
+      true
+    ],
+    [
+      "max_frequency_mhz",
+      480
+    ],
+    [
+      "flash_kb",
+      2048
+    ],
+    [
+      "ram_kb",
+      864
+    ],
+    [
+      "voltage_min_v",
+      1.62
+    ],
+    [
+      "voltage_max_v",
+      3.6
+    ],
+    [
+      "operating_temp_c",
+      []
+    ],
+    [
+      "packages",
+      [
+        "TFBGA240 (28 x 28 mm)",
+        "WLCSP156 (24 x 24 mm)",
+        "UFBGA176",
+        "UFBGA240",
+        "UFBGA169 (7 x 7 mm)",
+        "LQFP176 (24 x 24 mm)",
+        "LQFP208 (28 x 28 mm)",
+        "TFBGA265"
+      ]
+    ],
+    [
+      "device_summary",
+      {
+        "headers": [
+          "Part number"
+        ],
+        "rows": [
+          [
+            "STM32H757AI"
+          ],
+          [
+            "STM32H757BI"
+          ],
+          [
+            "STM32H757II"
+          ],
+          [
+            "STM32H757ZI"
+          ]
+        ]
+      }
+    ]
+  ]
+}

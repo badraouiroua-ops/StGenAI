@@ -1,0 +1,219 @@
+{
+  "table_id": "table_52",
+  "caption": "Table 52. LSI oscillator characteristics",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 95,
+  "merged_pages": [
+    95,
+    96
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=95",
+  "section": "6.3.10 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fLSI",
+      "fLSI",
+      "LSI frequency",
+      "VDD = 3.3 V, TJ = 25 °C",
+      "31,4(1)",
+      "32",
+      "32,6(1)",
+      "kHz"
+    ],
+    [
+      "fLSI",
+      "fLSI",
+      "LSI frequency",
+      "TJ = –40 to 110 °C, VDD = 1.62 to 3.6 V",
+      "29,76(2)",
+      "-",
+      "33,6(2)",
+      "kHz"
+    ],
+    [
+      "fLSI",
+      "fLSI",
+      "LSI frequency",
+      "TJ = –40 to 130 °C, VDD = 1.62 to 3.6 V",
+      "29,4(2)",
+      "-",
+      "33,6(2)",
+      "kHz"
+    ],
+    [
+      "tsu(LSI)(3)",
+      "tsu(LSI)(3)",
+      "LSI oscillator startup time",
+      "-",
+      "-",
+      "80",
+      "130",
+      "µs"
+    ],
+    [
+      "tstab(LSI)(3)",
+      "tstab(LSI)(3)",
+      "LSI oscillator stabilization time (5% of final value)",
+      "-",
+      "-",
+      "120",
+      "170",
+      "µs"
+    ],
+    [
+      "IDD(LSI)(3)",
+      "IDD(LSI)(3)",
+      "LSI oscillator power consumption",
+      "-",
+      "-",
+      "130",
+      "280",
+      "nA"
+    ],
+    [
+      "Jitter",
+      "Cycle-to-cycle jitter",
+      "fVCO_OUT = 560 MHz",
+      "fVCO_OUT = 560 MHz",
+      "-",
+      "15",
+      "-",
+      "±ps"
+    ],
+    [
+      "Long term jitter",
+      "Long term jitter",
+      "Normal mode (f PLL_IN = 2 MHz), fVCO_OUT = 560 MHz",
+      "Normal mode (f PLL_IN = 2 MHz), fVCO_OUT = 560 MHz",
+      "-",
+      "±0.2",
+      "-",
+      "%"
+    ],
+    [
+      "Long term jitter",
+      "Long term jitter",
+      "Normal mode (f PLL_IN = 16 MHz), fVCO_OUT = 560 MHz",
+      "Normal mode (f PLL_IN = 16 MHz), fVCO_OUT = 560 MHz",
+      "-",
+      "±0.8",
+      "-",
+      "%"
+    ],
+    [
+      "Long term jitter",
+      "Long term jitter",
+      "Sigma-delta mode (f PLL_IN = 2 MHz), fVCO_OUT = 560 MHz",
+      "Sigma-delta mode (f PLL_IN = 2 MHz), fVCO_OUT = 560 MHz",
+      "-",
+      "±0.2",
+      "-",
+      "%"
+    ],
+    [
+      "Long term jitter",
+      "Long term jitter",
+      "Sigma-delta mode (f PLL_IN = 16 MHz), fVCO_OUT = 560 MHz",
+      "Sigma-delta mode (f PLL_IN = 16 MHz), fVCO_OUT = 560 MHz",
+      "-",
+      "±0.8",
+      "-",
+      "%"
+    ],
+    [
+      "IDD(PLL)",
+      "PLL power consumption",
+      "fVCO_OUT = 560 MHz",
+      "VDD",
+      "-",
+      "330",
+      "420",
+      "µA"
+    ],
+    [
+      "IDD(PLL)",
+      "PLL power consumption",
+      "fVCO_OUT = 560 MHz",
+      "VCORE",
+      "-",
+      "630",
+      "-",
+      "µA"
+    ],
+    [
+      "IDD(PLL)",
+      "PLL power consumption",
+      "fVCO_OUT = 128 MHz",
+      "VDD",
+      "-",
+      "155",
+      "230",
+      "µA"
+    ],
+    [
+      "IDD(PLL)",
+      "PLL power consumption",
+      "fVCO_OUT = 128 MHz",
+      "VCORE",
+      "-",
+      "170",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. This value must be limited to the maximum frequency due to the product limitation.",
+      "3. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_52",
+    "is_continued": true,
+    "pages": [
+      95,
+      96
+    ],
+    "rows_count": 15,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

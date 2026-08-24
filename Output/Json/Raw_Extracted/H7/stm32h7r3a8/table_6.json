@@ -1,0 +1,2026 @@
+{
+  "table_id": "table_6",
+  "caption": "Table 6. Peripheral clock distribution summary",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 34,
+  "merged_pages": [
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=34",
+  "section": "3.7 Reset and clock controller (RCC)",
+  "headers": [
+    "Peripherals",
+    "Clock types",
+    "Clock sources",
+    "Kernel clock MUX / Pos.",
+    "Kernel clock MUX / Control field",
+    "Max Kernel clock freq. [MHz] (1)",
+    "Type (2)(3)"
+  ],
+  "rows": [
+    [
+      "ADF",
+      "Kernel",
+      "hclk1",
+      "0(4)",
+      "ADF1SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "ADF",
+      "Kernel",
+      "pll2_p_ck",
+      "1",
+      "ADF1SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "ADF",
+      "Kernel",
+      "pll3_p_ck",
+      "2",
+      "ADF1SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "ADF",
+      "Kernel",
+      "I2S_CKIN",
+      "3",
+      "ADF1SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "ADF",
+      "Kernel",
+      "csi_ker_ck",
+      "4",
+      "ADF1SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "ADF",
+      "Kernel",
+      "hsi_ker_ck",
+      "5",
+      "ADF1SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "ADF",
+      "Bus",
+      "hclk1",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "ADC12",
+      "Kernel",
+      "pll2_p_ck",
+      "0(4)",
+      "ADCSEL",
+      "125",
+      "A"
+    ],
+    [
+      "ADC12",
+      "Kernel",
+      "pll3_r_ck",
+      "1",
+      "ADCSEL",
+      "125",
+      "A"
+    ],
+    [
+      "ADC12",
+      "Kernel",
+      "per_ck",
+      "2",
+      "ADCSEL",
+      "125",
+      "A"
+    ],
+    [
+      "ADC12",
+      "Bus",
+      "hclk1",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "CORDIC",
+      "Bus",
+      "hclk2",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "CRC",
+      "Bus",
+      "hclk4",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "CRS",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "DBG",
+      "Bus",
+      "sys_bus_ck",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "DBG",
+      "kernel",
+      "sys_cpu_ck/3",
+      "-",
+      "-",
+      "F / 3 MAX",
+      "-"
+    ],
+    [
+      "DB_OCSPI1. DB_OCSPI2",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "DB_SDMMC1",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "DB_SDMMC2",
+      "Bus",
+      "hclk2",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "DCMIPP",
+      "Bus",
+      "aclk",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "DCMIPP",
+      "Bus",
+      "pclk5",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "GPDMA1",
+      "Bus",
+      "hclk1",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "HPDMA1",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "HPDMA1",
+      "Bus",
+      "aclk",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "DMA2D",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "DMA2D",
+      "Bus",
+      "aclk",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "ETH1",
+      "Kernel",
+      "ETH_MII_TX_CLK",
+      "-",
+      "-",
+      "25",
+      "A"
+    ],
+    [
+      "ETH1",
+      "Kernel",
+      "ETH_MII_TX_CLK/. ETH_RMII_REF_CL K",
+      "0(4)",
+      "ETH1REFCKSEL",
+      "25",
+      "A"
+    ],
+    [
+      "ETH1",
+      "Kernel",
+      "hse_ker_ck",
+      "1",
+      "ETH1REFCKSEL",
+      "25",
+      "A"
+    ],
+    [
+      "ETH1",
+      "Kernel",
+      "eth_clk_fb",
+      "2",
+      "ETH1REFCKSEL",
+      "25",
+      "A"
+    ],
+    [
+      "ETH1",
+      "Kernel",
+      "hse_ker_ck",
+      "0(4)",
+      "ETH1PHYCKSEL",
+      "50",
+      "A"
+    ],
+    [
+      "ETH1",
+      "Kernel",
+      "pll3_s_ck",
+      "1",
+      "ETH1PHYCKSEL",
+      "50",
+      "A"
+    ],
+    [
+      "ETH1",
+      "Kernel",
+      "clk_ptp_ref_i",
+      "1",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "ETH1",
+      "Bus",
+      "hclk1",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "EXTI",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "FLASH",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "FDCAN",
+      "Kernel",
+      "hse_ker_ck",
+      "0(4)",
+      "FDCANSEL",
+      "125",
+      "A"
+    ],
+    [
+      "FDCAN",
+      "Kernel",
+      "pll1_q_ck",
+      "1",
+      "FDCANSEL",
+      "125",
+      "A"
+    ],
+    [
+      "FDCAN",
+      "Kernel",
+      "pll2_p_ck",
+      "2",
+      "FDCANSEL",
+      "125",
+      "A"
+    ],
+    [
+      "FDCAN",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "FMC",
+      "Kernel",
+      "hclk5",
+      "0(4)",
+      "FMCSEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "FMC",
+      "Kernel",
+      "pll1_q_ck",
+      "1",
+      "FMCSEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "FMC",
+      "Kernel",
+      "pll2_r_ck",
+      "2",
+      "FMCSEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "FMC",
+      "Kernel",
+      "hsi_ker_ck",
+      "3",
+      "FMCSEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "FMC",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "FMC",
+      "Bus",
+      "aclk",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "GPIOA-H. GPIOM-P",
+      "Bus",
+      "hclk4",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "GPU2D",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "GPU2D",
+      "Bus",
+      "aclk",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "GFXMMU",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "GFXMMU",
+      "Bus",
+      "aclk",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "GFXTIM",
+      "Bus",
+      "pclk5",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "HASH",
+      "Bus",
+      "hclk3",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "HDMI-CEC",
+      "Kernel",
+      "lse_ck",
+      "0(4)",
+      "CECSEL",
+      "1",
+      "-"
+    ],
+    [
+      "HDMI-CEC",
+      "Kernel",
+      "lsi_ck",
+      "1",
+      "CECSEL",
+      "1",
+      "-"
+    ],
+    [
+      "HDMI-CEC",
+      "Kernel",
+      "csi_ker_ck/122",
+      "2",
+      "CECSEL",
+      "1",
+      "-"
+    ],
+    [
+      "HDMI-CEC",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "I2C2, I2C3",
+      "Kernel",
+      "pclk1",
+      "0(4)",
+      "I2C23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "I2C2, I2C3",
+      "Kernel",
+      "pll3_r_ck",
+      "1",
+      "I2C23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "I2C2, I2C3",
+      "Kernel",
+      "hsi_ker_ck",
+      "2",
+      "I2C23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "I2C2, I2C3",
+      "Kernel",
+      "csi_ker_ck",
+      "3",
+      "I2C23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "I2C2, I2C3",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "I2C1/I3C1",
+      "Kernel",
+      "pclk1",
+      "0(4)",
+      "I2C1_I3C1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "I2C1/I3C1",
+      "Kernel",
+      "pll3_r_ck",
+      "1",
+      "I2C1_I3C1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "I2C1/I3C1",
+      "Kernel",
+      "hsi_ker_ck",
+      "2",
+      "I2C1_I3C1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "I2C1/I3C1",
+      "Kernel",
+      "csi_ker_ck",
+      "3",
+      "I2C1_I3C1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "I2C1/I3C1",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "XSPIM",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "IWDG",
+      "Kernel",
+      "lsi_ck",
+      "-",
+      "-",
+      "1",
+      "A"
+    ],
+    [
+      "IWDG",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "JPEG",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "LPTIM1",
+      "Kernel",
+      "pclk1",
+      "0(4)",
+      "LPTIM1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM1",
+      "Kernel",
+      "pll2_p_ck",
+      "1",
+      "LPTIM1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM1",
+      "Kernel",
+      "pll3_r_ck",
+      "2",
+      "LPTIM1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM1",
+      "Kernel",
+      "lse_ck",
+      "3",
+      "LPTIM1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM1",
+      "Kernel",
+      "lsi_ck",
+      "4",
+      "LPTIM1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM1",
+      "Kernel",
+      "per_ck",
+      "5",
+      "LPTIM1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM1",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "LPTIM2, LPTIM3",
+      "Kernel",
+      "pclk4",
+      "0(4)",
+      "LPTIM23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM2, LPTIM3",
+      "Kernel",
+      "pll2_p_ck",
+      "1",
+      "LPTIM23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM2, LPTIM3",
+      "Kernel",
+      "pll3_r_ck",
+      "2",
+      "LPTIM23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM2, LPTIM3",
+      "Kernel",
+      "lse_ck",
+      "3",
+      "LPTIM23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM2, LPTIM3",
+      "Kernel",
+      "lsi_ck",
+      "4",
+      "LPTIM23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM2, LPTIM3",
+      "Kernel",
+      "per_ck",
+      "5",
+      "LPTIM23SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM2, LPTIM3",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "LPTIM4, LPTIM5",
+      "Kernel",
+      "pclk4",
+      "0(4)",
+      "LPTIM45SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM4, LPTIM5",
+      "Kernel",
+      "pll2_p_ck",
+      "1",
+      "LPTIM45SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM4, LPTIM5",
+      "Kernel",
+      "pll3_r_ck",
+      "2",
+      "LPTIM45SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM4, LPTIM5",
+      "Kernel",
+      "lse_ck",
+      "3",
+      "LPTIM45SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM4, LPTIM5",
+      "Kernel",
+      "lsi_ck",
+      "4",
+      "LPTIM45SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM4, LPTIM5",
+      "Kernel",
+      "per_ck",
+      "5",
+      "LPTIM45SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPTIM4, LPTIM5",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "LPUART1",
+      "Kernel",
+      "pclk4",
+      "0(4)",
+      "LPUART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPUART1",
+      "Kernel",
+      "pll2_q_ck",
+      "1",
+      "LPUART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPUART1",
+      "Kernel",
+      "pll3_q_ck",
+      "2",
+      "LPUART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPUART1",
+      "Kernel",
+      "hsi_ker_ck",
+      "3",
+      "LPUART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPUART1",
+      "Kernel",
+      "csi_ker_ck",
+      "4",
+      "LPUART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPUART1",
+      "Kernel",
+      "lse_ck",
+      "5",
+      "LPUART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "LPUART1",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "LTDC",
+      "Kernel",
+      "pll3_r_ck",
+      "-",
+      "-",
+      "90",
+      "A"
+    ],
+    [
+      "LTDC",
+      "Bus",
+      "pclk5",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "LTDC",
+      "Bus",
+      "aclk",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "MDIO",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "PKA",
+      "Bus",
+      "hclk3",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "PWR",
+      "Bus",
+      "hclk4",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "PSSI",
+      "Kernel",
+      "pll3_r_ck",
+      "0(4)",
+      "PSSISEL",
+      "100",
+      "-"
+    ],
+    [
+      "PSSI",
+      "Kernel",
+      "per_ck",
+      "1",
+      "PSSISEL",
+      "100",
+      "-"
+    ],
+    [
+      "PSSI",
+      "Bus",
+      "hclk2",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "XSPI1",
+      "Kernel",
+      "hclk5",
+      "0(4)",
+      "XSPI1SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "XSPI1",
+      "Kernel",
+      "pll2_s_ck",
+      "1",
+      "XSPI1SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "XSPI1",
+      "Kernel",
+      "pll2_t_ck",
+      "2",
+      "XSPI1SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "XSPI1",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "XSPI1",
+      "Bus",
+      "aclk",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "XSPI2",
+      "Kernel",
+      "hclk5",
+      "0(4)",
+      "XSPI2SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "XSPI2",
+      "Kernel",
+      "pll2_s_ck",
+      "1",
+      "XSPI2SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "XSPI2",
+      "Kernel",
+      "pll2_t_ck",
+      "2",
+      "XSPI2SEL",
+      "F / 2 MAX",
+      "A"
+    ],
+    [
+      "XSPI2",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "XSPI2",
+      "Bus",
+      "aclk",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "OTGFS",
+      "Kernel",
+      "hsi48_ker_ck",
+      "0(4)",
+      "OTGFSSEL",
+      "50",
+      "A"
+    ],
+    [
+      "OTGFS",
+      "Kernel",
+      "pll3_q_ck",
+      "1",
+      "OTGFSSEL",
+      "50",
+      "A"
+    ],
+    [
+      "OTGFS",
+      "Kernel",
+      "hse_ker_ck",
+      "2",
+      "OTGFSSEL",
+      "50",
+      "A"
+    ],
+    [
+      "OTGFS",
+      "Kernel",
+      "clk48mohci",
+      "3",
+      "OTGFSSEL",
+      "50",
+      "A"
+    ],
+    [
+      "OTGFS",
+      "Bus",
+      "hclk1",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "OTGHS",
+      "Kernel",
+      "phy60m_ck",
+      "-",
+      "-",
+      "60",
+      "A"
+    ],
+    [
+      "OTGHS",
+      "Bus",
+      "hclk1",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "RCC",
+      "Bus",
+      "hclk4",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "RNG",
+      "Kernel",
+      "hsi48_ker_ck",
+      "-",
+      "-",
+      "48",
+      "A"
+    ],
+    [
+      "RNG",
+      "Bus",
+      "hclk3",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "RTC/AWU(5)",
+      "Kernel",
+      "no clock",
+      "0(4)",
+      "RTCSEL",
+      "4",
+      "A"
+    ],
+    [
+      "RTC/AWU(5)",
+      "Kernel",
+      "lse_ck",
+      "1",
+      "RTCSEL",
+      "4",
+      "A"
+    ],
+    [
+      "RTC/AWU(5)",
+      "Kernel",
+      "lsi_ck",
+      "2",
+      "RTCSEL",
+      "4",
+      "A"
+    ],
+    [
+      "RTC/AWU(5)",
+      "Kernel",
+      "hse_ker_ck / (RTCDIV+1)",
+      "3",
+      "RTCSEL",
+      "4",
+      "A"
+    ],
+    [
+      "RTC/AWU(5)",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "SAI1",
+      "Kernel",
+      "pll1_q_ck",
+      "0(4)",
+      "SAI1SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI1",
+      "Kernel",
+      "pll2_p_ck",
+      "1",
+      "SAI1SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI1",
+      "Kernel",
+      "pll3_p_ck",
+      "2",
+      "SAI1SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI1",
+      "Kernel",
+      "I2S_CKIN",
+      "3",
+      "SAI1SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI1",
+      "Kernel",
+      "per_ck",
+      "4",
+      "SAI1SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI1",
+      "Bus",
+      "pclk2",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "SAI2",
+      "Kernel",
+      "pll1_q_ck",
+      "0(4)",
+      "SAI2SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI2",
+      "Kernel",
+      "pll2_p_ck",
+      "1",
+      "SAI2SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI2",
+      "Kernel",
+      "pll3_p_ck",
+      "2",
+      "SAI2SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI2",
+      "Kernel",
+      "I2S_CKIN",
+      "3",
+      "SAI2SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI2",
+      "Kernel",
+      "per_ck",
+      "4",
+      "SAI2SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI2",
+      "Kernel",
+      "spdif_symb_ck",
+      "5",
+      "SAI2SEL",
+      "133",
+      "A"
+    ],
+    [
+      "SAI2",
+      "Bus",
+      "pclk2",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "SBS",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "SDMMC1",
+      "Kernel",
+      "pll2_s_ck",
+      "0(4)",
+      "SDMMC12SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SDMMC1",
+      "Kernel",
+      "pll2_t_ck",
+      "1",
+      "SDMMC12SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SDMMC1",
+      "Bus",
+      "hclk5",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "SDMMC2",
+      "Kernel",
+      "pll2_s_ck",
+      "0(4)",
+      "SDMMC12SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SDMMC2",
+      "Kernel",
+      "pll2_t_ck",
+      "1",
+      "SDMMC12SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SDMMC2",
+      "Bus",
+      "hclk2",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "-"
+    ],
+    [
+      "SPDIFRX",
+      "Kernel",
+      "pll1_q_ck",
+      "0(4)",
+      "SPDIFRXSEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPDIFRX",
+      "Kernel",
+      "pll2_r_ck",
+      "1",
+      "SPDIFRXSEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPDIFRX",
+      "Kernel",
+      "pll3_r_ck",
+      "2",
+      "SPDIFRXSEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPDIFRX",
+      "Kernel",
+      "hsi_ker_ck",
+      "3",
+      "SPDIFRXSEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPDIFRX",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "SPI/I2S6",
+      "Kernel",
+      "pclk4",
+      "0(4)",
+      "SPI6SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S6",
+      "Kernel",
+      "pll2_q_ck",
+      "1",
+      "SPI6SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S6",
+      "Kernel",
+      "pll3_q_ck",
+      "2",
+      "SPI6SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S6",
+      "Kernel",
+      "hsi_ker_ck",
+      "3",
+      "SPI6SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S6",
+      "Kernel",
+      "csi_ker_ck",
+      "4",
+      "SPI6SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S6",
+      "Kernel",
+      "hse_ker_ck",
+      "5",
+      "SPI6SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S6",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "SPI/I2S1",
+      "Kernel",
+      "pll1_q_ck",
+      "0(4)",
+      "SPI1SEL",
+      "130",
+      "A"
+    ],
+    [
+      "SPI/I2S1",
+      "Kernel",
+      "pll2_p_ck",
+      "1",
+      "SPI1SEL",
+      "130",
+      "A"
+    ],
+    [
+      "SPI/I2S1",
+      "Kernel",
+      "pll3_p_ck",
+      "2",
+      "SPI1SEL",
+      "130",
+      "A"
+    ],
+    [
+      "SPI/I2S1",
+      "Kernel",
+      "I2S_CKIN",
+      "3",
+      "SPI1SEL",
+      "130",
+      "A"
+    ],
+    [
+      "SPI/I2S1",
+      "Kernel",
+      "per_ck",
+      "4",
+      "SPI1SEL",
+      "130",
+      "A"
+    ],
+    [
+      "SPI/I2S1",
+      "Bus",
+      "pclk2",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "SPI4, SPI5",
+      "Kernel",
+      "pclk2",
+      "0(4)",
+      "SPI45SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI4, SPI5",
+      "Kernel",
+      "pll2_q_ck",
+      "1",
+      "SPI45SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI4, SPI5",
+      "Kernel",
+      "pll3_q_ck",
+      "2",
+      "SPI45SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI4, SPI5",
+      "Kernel",
+      "hsi_ker_ck",
+      "3",
+      "SPI45SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI4, SPI5",
+      "Kernel",
+      "csi_ker_ck",
+      "4",
+      "SPI45SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI4, SPI5",
+      "Kernel",
+      "hse_ker_ck",
+      "5",
+      "SPI45SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI4, SPI5",
+      "Bus",
+      "pclk2",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "SPI/I2S3, SPI/I2S2",
+      "Kernel",
+      "pll1_q_ck",
+      "0(4)",
+      "SPI23SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S3, SPI/I2S2",
+      "Kernel",
+      "pll2_p_ck",
+      "1",
+      "SPI23SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S3, SPI/I2S2",
+      "Kernel",
+      "pll3_p_ck",
+      "2",
+      "SPI23SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S3, SPI/I2S2",
+      "Kernel",
+      "I2S_CKIN",
+      "3",
+      "SPI23SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S3, SPI/I2S2",
+      "Kernel",
+      "per_ck",
+      "4",
+      "SPI23SEL",
+      "200",
+      "A"
+    ],
+    [
+      "SPI/I2S3, SPI/I2S2",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "TAMPER",
+      "Kernel",
+      "no clock",
+      "0(4)",
+      "RTCSEL",
+      "4",
+      "A"
+    ],
+    [
+      "TAMPER",
+      "Kernel",
+      "lse_ck",
+      "1",
+      "RTCSEL",
+      "4",
+      "A"
+    ],
+    [
+      "TAMPER",
+      "Kernel",
+      "lsi_ck",
+      "2",
+      "RTCSEL",
+      "4",
+      "A"
+    ],
+    [
+      "TAMPER",
+      "Kernel",
+      "hse_ker_ck/ (RTCDIV+1)",
+      "3",
+      "RTCSEL",
+      "4",
+      "A"
+    ],
+    [
+      "TAMPER",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "DTS",
+      "Kernel",
+      "lse_ck",
+      "-",
+      "-",
+      "10",
+      "A"
+    ],
+    [
+      "DTS",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "TIM2, TIM3, TIM4, TIM5, TIM6, TIM7, TIM12, TIM13, TIM14",
+      "Kernel",
+      "timg1_ck",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "S"
+    ],
+    [
+      "TIM2, TIM3, TIM4, TIM5, TIM6, TIM7, TIM12, TIM13, TIM14",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "TIM1, TIM9, TIM15, TIM16, TIM17",
+      "Kernel",
+      "timg2_ck",
+      "-",
+      "-",
+      "F / 2 MAX",
+      "S"
+    ],
+    [
+      "TIM1, TIM9, TIM15, TIM16, TIM17",
+      "Bus",
+      "pclk2",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "USART1",
+      "Kernel",
+      "pclk2",
+      "0(4)",
+      "USART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART1",
+      "Kernel",
+      "pll2_q_ck",
+      "1",
+      "USART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART1",
+      "Kernel",
+      "pll3_q_ck",
+      "2",
+      "USART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART1",
+      "Kernel",
+      "hsi_ker_ck",
+      "3",
+      "USART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART1",
+      "Kernel",
+      "csi_ker_ck",
+      "4",
+      "USART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART1",
+      "Kernel",
+      "lse_ck",
+      "5",
+      "USART1SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART1",
+      "Bus",
+      "pclk2",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "USART2, USART3, UART4, UART5, UART7, UART8",
+      "Kernel",
+      "pclk1",
+      "0(4)",
+      "UART234578SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART2, USART3, UART4, UART5, UART7, UART8",
+      "Kernel",
+      "pll2_q_ck",
+      "1",
+      "UART234578SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART2, USART3, UART4, UART5, UART7, UART8",
+      "Kernel",
+      "pll3_q_ck",
+      "2",
+      "UART234578SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART2, USART3, UART4, UART5, UART7, UART8",
+      "Kernel",
+      "hsi_ker_ck",
+      "3",
+      "UART234578SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART2, USART3, UART4, UART5, UART7, UART8",
+      "Kernel",
+      "csi_ker_ck",
+      "4",
+      "UART234578SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART2, USART3, UART4, UART5, UART7, UART8",
+      "Kernel",
+      "lse_ck",
+      "5",
+      "UART234578SEL",
+      "F / 4 MAX",
+      "A"
+    ],
+    [
+      "USART2, USART3, UART4, UART5, UART7, UART8",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "UCPD",
+      "Kernel",
+      "ucpd_ker_ck",
+      "-",
+      "-",
+      "25",
+      "A"
+    ],
+    [
+      "UCPD",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "USBPHYC",
+      "Kernel",
+      "hse_ker_ck",
+      "0(4)",
+      "USBPHYCSEL",
+      "32",
+      "A"
+    ],
+    [
+      "USBPHYC",
+      "Kernel",
+      "hse_ker_ck / 2",
+      "1",
+      "USBPHYCSEL",
+      "32",
+      "A"
+    ],
+    [
+      "USBPHYC",
+      "Kernel",
+      "pll3_q_ck",
+      "2",
+      "USBPHYCSEL",
+      "32",
+      "A"
+    ],
+    [
+      "VREFBUF",
+      "Bus",
+      "pclk4",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ],
+    [
+      "WWDG1",
+      "Bus",
+      "pclk1",
+      "-",
+      "-",
+      "F / 4 MAX",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 8
+    },
+    "_notes": [
+      "1. F value depends on the device reference and can be found on the datasheet of the product. MAX",
+      "2. 'A' Means that the kernel clock is asynchronous with respect to bus interface clock.",
+      "3. ‘S’ Means that the kernel clock is synchronous with respect to bus interface clock.",
+      "4. Reset value",
+      "5. The RTC switch is in the VSW voltage domain DS14360 Rev 6 41/322"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "multi_page_merged:8",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_6",
+    "is_continued": true,
+    "pages": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "rows_count": 216,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

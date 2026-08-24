@@ -1,0 +1,81 @@
+{
+  "table_id": "table_32",
+  "caption": "Table 32. High-speed external user clock characteristics",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 123,
+  "merged_pages": [
+    123
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=123",
+  "section": "6.3.8 External clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f HSE_ext",
+      "User external clock source frequency",
+      "4",
+      "25",
+      "50",
+      "MHz"
+    ],
+    [
+      "V HSEH",
+      "Digital OSC_IN input high-level voltage",
+      "0.7 V DD",
+      "-",
+      "V DD",
+      "V"
+    ],
+    [
+      "V HSEL",
+      "Digital OSC_IN input low-level voltage",
+      "V SS",
+      "-",
+      "0.3 V DD",
+      "V"
+    ],
+    [
+      "t W(HSE)",
+      "OSC_IN high or low time",
+      "7",
+      "-",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Guaranteed by design. Figure 18. High-speed external clock source AC timing diagram"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_32",
+    "is_continued": false,
+    "pages": [
+      123
+    ],
+    "rows_count": 4,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

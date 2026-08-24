@@ -1,0 +1,290 @@
+{
+  "table_id": "table_85",
+  "caption": "Table 85. 12-bit ADC accuracy",
+  "pdf_name": "stm32h723ve",
+  "family": "H7",
+  "page": 176,
+  "merged_pages": [
+    176
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=176",
+  "section": "6.3.20 Delay block (DLYB) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "ET",
+      "Total unadjusted error",
+      "Direct channel",
+      "Single ended",
+      "-",
+      "3.5",
+      "5",
+      "±LSB"
+    ],
+    [
+      "ET",
+      "Total unadjusted error",
+      "Direct channel",
+      "Differential",
+      "-",
+      "2.5",
+      "3",
+      "±LSB"
+    ],
+    [
+      "ET",
+      "Total unadjusted error",
+      "Fast channel",
+      "Single ended",
+      "-",
+      "3.5",
+      "5",
+      "±LSB"
+    ],
+    [
+      "ET",
+      "Total unadjusted error",
+      "Fast channel",
+      "Differential",
+      "-",
+      "2.5",
+      "3",
+      "±LSB"
+    ],
+    [
+      "ET",
+      "Total unadjusted error",
+      "Slow channel",
+      "Single ended",
+      "-",
+      "3.5",
+      "5",
+      "±LSB"
+    ],
+    [
+      "ET",
+      "Total unadjusted error",
+      "Slow channel",
+      "Differential",
+      "-",
+      "2.5",
+      "3",
+      "±LSB"
+    ],
+    [
+      "EO",
+      "Offset error",
+      "-",
+      "-",
+      "-",
+      "+/-2",
+      "+/-5",
+      "±LSB"
+    ],
+    [
+      "EG",
+      "Gain error",
+      "-",
+      "-",
+      "-",
+      "+/-2",
+      "+/-5",
+      "±LSB"
+    ],
+    [
+      "ED",
+      "Differential linearity error",
+      "Single ended",
+      "Single ended",
+      "-",
+      "+/- 0.75",
+      "+1.5/- 1",
+      "±LSB"
+    ],
+    [
+      "ED",
+      "Differential linearity error",
+      "Differential",
+      "Differential",
+      "-",
+      "+/-0.5",
+      "+1.25 /-1",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Direct channel",
+      "Single ended",
+      "-",
+      "+/-1",
+      "+/-2.5",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Direct channel",
+      "Differential",
+      "-",
+      "+/-1",
+      "+/-2",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Fast channel",
+      "Single ended",
+      "-",
+      "+/-1",
+      "+/-2.5",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Fast channel",
+      "Differential",
+      "-",
+      "+/-1",
+      "+/-2",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Slow channel",
+      "Single ended",
+      "-",
+      "+/-1",
+      "+/-2.5",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Slow channel",
+      "Differential",
+      "-",
+      "+/-1",
+      "+/-2",
+      "±LSB"
+    ],
+    [
+      "ENOB",
+      "Effective number of bits",
+      "Single ended",
+      "Single ended",
+      "-",
+      "11.2",
+      "-",
+      "bits"
+    ],
+    [
+      "ENOB",
+      "Effective number of bits",
+      "Differential",
+      "Differential",
+      "-",
+      "11.5",
+      "-",
+      "bits"
+    ],
+    [
+      "SINAD",
+      "Signal-to- noise and distortion ratio",
+      "Single ended",
+      "Single ended",
+      "-",
+      "68.9",
+      "-",
+      "dB"
+    ],
+    [
+      "SINAD",
+      "Signal-to- noise and distortion ratio",
+      "Differential",
+      "Differential",
+      "-",
+      "71.1",
+      "-",
+      "dB"
+    ],
+    [
+      "SNR",
+      "Signal-to- noise ratio",
+      "Single ended",
+      "Single ended",
+      "-",
+      "69.1",
+      "-",
+      "dB"
+    ],
+    [
+      "SNR",
+      "Signal-to- noise ratio",
+      "Differential",
+      "Differential",
+      "-",
+      "71.4",
+      "-",
+      "dB"
+    ],
+    [
+      "THD",
+      "Total harmonic distortion",
+      "Single ended",
+      "Single ended",
+      "-",
+      "-79.6",
+      "-",
+      "dB"
+    ],
+    [
+      "THD",
+      "Total harmonic distortion",
+      "Differential",
+      "Differential",
+      "-",
+      "-81.8",
+      "-",
+      "dB"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h723ve",
+    "table_id": "table_85",
+    "is_continued": false,
+    "pages": [
+      176
+    ],
+    "rows_count": 24,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

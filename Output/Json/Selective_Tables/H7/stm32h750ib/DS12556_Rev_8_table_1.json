@@ -1,0 +1,415 @@
+{
+  "table_id": "table_1",
+  "document": "DS12556 Rev 8 - Table 1. STM32H750xB features and peripheral counts",
+  "rev": "Rev 8",
+  "table_number": "1",
+  "title": "Table 1. STM32H750xB features and peripheral counts",
+  "page": 18,
+  "section": "2 Description",
+  "section_title": "Description",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=18",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 1. STM32H750xB features and peripheral counts — section 2 Description. Peripherals, Peripherals, STM32H750VB, STM32H750ZB, STM32H750IB, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Peripherals",
+      "Peripherals",
+      "STM32H750VB",
+      "STM32H750ZB",
+      "STM32H750IB",
+      "STM32H750XB"
+    ],
+    "rows": [
+      [
+        "Flash memory in Kbytes",
+        "Flash memory in Kbytes",
+        "128",
+        "128",
+        "128",
+        "128"
+      ],
+      [
+        "SRAM in Kbytes",
+        "SRAM mapped onto AXI bus",
+        "512",
+        "512",
+        "512",
+        "512"
+      ],
+      [
+        "SRAM in Kbytes",
+        "SRAM1 (D2 domain)",
+        "128",
+        "128",
+        "128",
+        "128"
+      ],
+      [
+        "SRAM in Kbytes",
+        "SRAM2 (D2 domain)",
+        "128",
+        "128",
+        "128",
+        "128"
+      ],
+      [
+        "SRAM in Kbytes",
+        "SRAM3 (D2 domain)",
+        "32",
+        "32",
+        "32",
+        "32"
+      ],
+      [
+        "SRAM in Kbytes",
+        "SRAM4 (D3 domain)",
+        "64",
+        "64",
+        "64",
+        "64"
+      ],
+      [
+        "TCM RAM in Kbytes",
+        "ITCM RAM (instruction)",
+        "64",
+        "64",
+        "64",
+        "64"
+      ],
+      [
+        "TCM RAM in Kbytes",
+        "DTCM RAM (data)",
+        "128",
+        "128",
+        "128",
+        "128"
+      ],
+      [
+        "Backup SRAM (Kbytes)",
+        "Backup SRAM (Kbytes)",
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      [
+        "FMC",
+        "FMC",
+        "Yes(1)",
+        "Yes(1)",
+        "Yes(1)",
+        "Yes(1)"
+      ],
+      [
+        "General-purpose input/outputs",
+        "General-purpose input/outputs",
+        "82",
+        "114",
+        "140",
+        "168"
+      ],
+      [
+        "Quad-SPI interface",
+        "Quad-SPI interface",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Ethernet",
+        "Ethernet",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Timers",
+        "High-resolution",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "General-purpose",
+        "General-purpose",
+        "10",
+        "10",
+        "10",
+        "10"
+      ],
+      [
+        "Advanced-control (PWM)",
+        "Advanced-control (PWM)",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "Basic",
+        "Basic",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "Low-power",
+        "Low-power",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      [
+        "Wakeup pins Tamper pins",
+        "Wakeup pins Tamper pins",
+        "4 2",
+        "4 2",
+        "6 3",
+        "6 3"
+      ],
+      [
+        "Random number generator",
+        "Random number generator",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Cryptographic processor",
+        "Cryptographic processor",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Communication interfaces",
+        "SPI / I2S",
+        "6/3(2)",
+        "6/3(2)",
+        "6/3(2)",
+        "6/3(2)"
+      ],
+      [
+        "I2C",
+        "I2C",
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      [
+        "USART/UART/ LPUART",
+        "USART/UART/ LPUART",
+        "4/4 /1",
+        "4/4 /1",
+        "4/4 /1",
+        "4/4 /1"
+      ],
+      [
+        "SAI",
+        "SAI",
+        "4",
+        "4",
+        "4",
+        "4"
+      ],
+      [
+        "SPDIFRX",
+        "SPDIFRX",
+        "4 inputs",
+        "4 inputs",
+        "4 inputs",
+        "4 inputs"
+      ],
+      [
+        "SWPMI",
+        "SWPMI",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "MDIO",
+        "MDIO",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "SDMMC",
+        "SDMMC",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "FDCAN/TT-FDCAN",
+        "FDCAN/TT-FDCAN",
+        "1/1",
+        "1/1",
+        "1/1",
+        "1/1"
+      ],
+      [
+        "USB OTG_FS",
+        "USB OTG_FS",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "USB OTG_HS",
+        "USB OTG_HS",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Camera interface",
+        "Camera interface",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "LCD-TFT",
+        "LCD-TFT",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "JPEG Codec",
+        "JPEG Codec",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Chrom-ART Accelerator (DMA2D)",
+        "Chrom-ART Accelerator (DMA2D)",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "16-bit ADCs Number of Direct channels Number of Fast channels Number of Slow channels",
+        "16-bit ADCs Number of Direct channels Number of Fast channels Number of Slow channels",
+        "3",
+        "",
+        "",
+        ""
+      ],
+      [
+        "16-bit ADCs Number of Direct channels Number of Fast channels Number of Slow channels",
+        "16-bit ADCs Number of Direct channels Number of Fast channels Number of Slow channels",
+        "2 3 11",
+        "2 9 17",
+        "2 9 21",
+        "4 9 23"
+      ],
+      [
+        "12-bit DAC Number of channels",
+        "12-bit DAC Number of channels",
+        "Yes 2",
+        "Yes 2",
+        "Yes 2",
+        "Yes 2"
+      ],
+      [
+        "Comparators",
+        "Comparators",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "Operational amplifiers",
+        "Operational amplifiers",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "DFSDM",
+        "DFSDM",
+        "Yes",
+        "Yes",
+        "Yes",
+        "Yes"
+      ],
+      [
+        "Maximum CPU frequency",
+        "Maximum CPU frequency",
+        "480MHz(3)(4)/400 MHz",
+        "480MHz(3)(4)/400 MHz",
+        "480MHz(3)(4)/400 MHz",
+        "480MHz(3)(4)/400 MHz"
+      ],
+      [
+        "Operating voltage",
+        "Operating voltage",
+        "1.71 to 3.6 V(5)",
+        "1.62 to 3.6 V(6)",
+        "1.62 to 3.6 V(6)",
+        "1.62 to 3.6 V(6)"
+      ],
+      [
+        "Operating temperatures",
+        "Operating temperatures",
+        "Ambient temperatures: –40 up to +85 °C(7)",
+        "Ambient temperatures: –40 up to +85 °C(7)",
+        "Ambient temperatures: –40 up to +85 °C(7)",
+        "Ambient temperatures: –40 up to +85 °C(7)"
+      ],
+      [
+        "Operating temperatures",
+        "Operating temperatures",
+        "Junction temperature: –40 to + 125 °C",
+        "Junction temperature: –40 to + 125 °C",
+        "Junction temperature: –40 to + 125 °C",
+        "Junction temperature: –40 to + 125 °C"
+      ],
+      [
+        "Package",
+        "Package",
+        "LQFP100",
+        "LQFP144",
+        "LQFP176, UFBGA176+25",
+        "TFBGA240+25"
+      ]
+    ],
+    "notes": [
+      "1. SDRAM is not available on LQFP100 package.",
+      "2. The SPI1, SPI2 and SPI3 interfaces give the flexibility to work in an exclusive way in either the SPI mode or the I2S audio mode.",
+      "3. The maximum CPU frequency of 480 MHz can be obtained on devices revision V.",
+      "4. The product junction temperature must be kept within the –40 to +105 °C temperature range.",
+      "5. Since the LQFP100 package does not feature the PDR_ON pin (tied internally to V ), the minimum V value for this DD DD",
+      "6. V /V can drop down to 1.62 V by using an external power supervisor (see Section 3.5.2: Power supply supervisor) and DD DDA",
+      "7. The product junction temperature must be kept within the –40 to +125 °C temperature range. 20/335 DS12556 Rev 8"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

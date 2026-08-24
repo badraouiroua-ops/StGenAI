@@ -1,0 +1,188 @@
+{
+  "table_id": "table_132",
+  "document": "DS13139 Rev 8 - Table 132. WLCSP132 - Mechanical data",
+  "rev": "Rev 8",
+  "table_number": "132",
+  "title": "Table 132. WLCSP132 - Mechanical data",
+  "page": 198,
+  "section": "7 Package information",
+  "section_title": "Package information",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=198",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 132. WLCSP132 - Mechanical data — section 7 Package information. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(1) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min",
+      "millimeters / Typ",
+      "millimeters / Max",
+      "inches(1) / Min",
+      "inches(1) / Typ",
+      "inches(1) / Max"
+    ],
+    "rows": [
+      [
+        "A",
+        "-",
+        "-",
+        "0.58",
+        "-",
+        "-",
+        "0.023"
+      ],
+      [
+        "A1",
+        "-",
+        "0.17",
+        "-",
+        "-",
+        "0.007",
+        "-"
+      ],
+      [
+        "A2",
+        "-",
+        "0.38",
+        "-",
+        "-",
+        "0.015",
+        "-"
+      ],
+      [
+        "A3",
+        "-",
+        "0.025",
+        "-",
+        "-",
+        "0.001",
+        "-"
+      ],
+      [
+        "b",
+        "0.21",
+        "0.24",
+        "0.27",
+        "0.008",
+        "0.009",
+        "0.011"
+      ],
+      [
+        "D",
+        "4.54",
+        "4.57",
+        "4.60",
+        "0.179",
+        "0.180",
+        "0.181"
+      ],
+      [
+        "E",
+        "4.35",
+        "4.37",
+        "4.39",
+        "0.171",
+        "0.172",
+        "0.173"
+      ],
+      [
+        "e",
+        "-",
+        "0.35",
+        "-",
+        "-",
+        "0.014",
+        "-"
+      ],
+      [
+        "e1",
+        "-",
+        "3.85",
+        "-",
+        "-",
+        "0.152",
+        "-"
+      ],
+      [
+        "e2",
+        "-",
+        "3.50",
+        "-",
+        "-",
+        "0.138",
+        "-"
+      ],
+      [
+        "F(2)",
+        "-",
+        "0.360",
+        "-",
+        "-",
+        "0.014",
+        "-"
+      ],
+      [
+        "G(2)",
+        "-",
+        "0.435",
+        "-",
+        "-",
+        "0.017",
+        "-"
+      ],
+      [
+        "aaa",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.004",
+        "-"
+      ],
+      [
+        "bbb",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.004",
+        "-"
+      ],
+      [
+        "ccc",
+        "-",
+        "0.10",
+        "-",
+        "-",
+        "0.004",
+        "-"
+      ],
+      [
+        "ddd",
+        "-",
+        "0.05",
+        "-",
+        "-",
+        "0.002",
+        "-"
+      ],
+      [
+        "eee",
+        "-",
+        "0.05",
+        "-",
+        "-",
+        "0.002",
+        "-"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits.",
+      "2. Calculated dimensions are rounded to the 3rd decimal place"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

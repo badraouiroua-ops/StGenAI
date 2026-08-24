@@ -1,0 +1,56 @@
+{
+  "table_id": "table_191",
+  "caption": "Table 191. I2C analog filter characteristics",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 288,
+  "merged_pages": [
+    288
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=288",
+  "section": "7.3.32 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t AF",
+      "Maximum pulse width of spikes that are suppressed by analog filter",
+      "50(2)",
+      "80(3)",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. Spikes with widths below t are filtered. AF(min)",
+      "3. Spikes with widths above t are not filtered. AF(max)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_191",
+    "is_continued": false,
+    "pages": [
+      288
+    ],
+    "rows_count": 1,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

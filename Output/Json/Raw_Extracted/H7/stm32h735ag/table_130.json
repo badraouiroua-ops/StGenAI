@@ -1,0 +1,46 @@
+{
+  "table_id": "table_130",
+  "caption": "Table 130. WLCSP115 recommended PCB design rules",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 263,
+  "merged_pages": [
+    263
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=263",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Figure 80. WLCSP115 marking example (package top view)"
+  ],
+  "rows": [],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "low",
+  "empty_cell_ratio": 1.0,
+  "col_count": 1,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 1
+  },
+  "structured_json": null,
+  "warnings": [
+    "few_data_rows:0",
+    "high_empty_ratio:1.00"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_130",
+    "is_continued": false,
+    "pages": [
+      263
+    ],
+    "rows_count": 0,
+    "cols_count": 1,
+    "confidence": "low",
+    "empty_cell_ratio": 1.0
+  },
+  "debug": {
+    "crop_path": "Raw_Extracted\\H7\\stm32h735ag\\debug\\table_130.png"
+  }
+}

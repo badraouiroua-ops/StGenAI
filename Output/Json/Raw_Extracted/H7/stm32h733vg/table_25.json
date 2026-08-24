@@ -1,0 +1,175 @@
+{
+  "table_id": "table_25",
+  "caption": "Table 25. Typical and maximum current consumption in Sleep mode",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 102,
+  "merged_pages": [
+    102
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=102",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "f rcc_c_ck (MHz)",
+    "Typ",
+    "Max(1) / T = J 25 °C",
+    "Max(1) / T = J 85 °C",
+    "Max(1) / T = J 105 °C",
+    "Max(1) / T = J 125 °C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD(Sleep)",
+      "Supply current in Sleep mode",
+      "All peripherals disabled",
+      "VOS0 (2)",
+      "550",
+      "36",
+      "-",
+      "-",
+      "-",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(Sleep)",
+      "Supply current in Sleep mode",
+      "All peripherals disabled",
+      "VOS0 (2)",
+      "520",
+      "33.5",
+      "60",
+      "170",
+      "240",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(Sleep)",
+      "Supply current in Sleep mode",
+      "All peripherals disabled",
+      "VOS0",
+      "520",
+      "33.5",
+      "60",
+      "170",
+      "240",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(Sleep)",
+      "Supply current in Sleep mode",
+      "All peripherals disabled",
+      "VOS0",
+      "400",
+      "27",
+      "52",
+      "160",
+      "230",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(Sleep)",
+      "Supply current in Sleep mode",
+      "All peripherals disabled",
+      "VOS1",
+      "400",
+      "22.5",
+      "39",
+      "110",
+      "170",
+      "240",
+      "mA"
+    ],
+    [
+      "I DD(Sleep)",
+      "Supply current in Sleep mode",
+      "All peripherals disabled",
+      "VOS1",
+      "300",
+      "18.5",
+      "34",
+      "110",
+      "160",
+      "240",
+      "mA"
+    ],
+    [
+      "I DD(Sleep)",
+      "Supply current in Sleep mode",
+      "All peripherals disabled",
+      "VOS2",
+      "300",
+      "16.5",
+      "28",
+      "85",
+      "130",
+      "190",
+      "mA"
+    ],
+    [
+      "I DD(Sleep)",
+      "Supply current in Sleep mode",
+      "All peripherals disabled",
+      "VOS2",
+      "170",
+      "9.7",
+      "21",
+      "78",
+      "120",
+      "190",
+      "mA"
+    ],
+    [
+      "I DD(Sleep)",
+      "Supply current in Sleep mode",
+      "All peripherals disabled",
+      "VOS3",
+      "170",
+      "8.5",
+      "17",
+      "61",
+      "96",
+      "150",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 11,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 11,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. CPU_FREQ_BOOST is enabled. 102/236 DS13314 Rev 4"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_25",
+    "is_continued": false,
+    "pages": [
+      102
+    ],
+    "rows_count": 9,
+    "cols_count": 11,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

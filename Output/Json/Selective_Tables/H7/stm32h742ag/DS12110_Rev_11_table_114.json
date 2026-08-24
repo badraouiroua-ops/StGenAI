@@ -1,0 +1,65 @@
+{
+  "table_id": "table_114",
+  "document": "DS12110 Rev 11 - Table 114. VCAP operating conditions",
+  "rev": "Rev 11",
+  "table_number": "114",
+  "title": "Table 114. VCAP operating conditions",
+  "page": 211,
+  "section": "7.3.2 VCAP external capacitor",
+  "section_title": "VCAP external capacitor",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=211",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 114. VCAP operating conditions — section 7.3.2 VCAP external capacitor. Figure, 68. External capacitor C EXT.",
+  "table_content": {
+    "headers": [
+      "Figure",
+      "68. External capacitor C EXT"
+    ],
+    "rows": [
+      [
+        "F",
+        "C"
+      ],
+      [
+        "ESR",
+        "C"
+      ],
+      [
+        "ESR",
+        "R Leak"
+      ],
+      [
+        "ESR",
+        "R Leak MS190"
+      ],
+      [
+        "1. Legend: ESR istheequivalent series re",
+        "sistance."
+      ],
+      [
+        "1. Legend: ESR isthe Table 114.",
+        "VCAP operating conditions(1)"
+      ],
+      [
+        "CEXT Capacitanc",
+        "e of external capacitor 2.2 µF(2 )"
+      ],
+      [
+        "ESR ESR o",
+        "f external capacitor < 100 m Ω"
+      ],
+      [
+        "1. In bypass mode, thetwo 2.2 μF VCAP",
+        "capacitors are not required and should bereplaced bytwo 100 nF"
+      ]
+    ],
+    "notes": [
+      "1. Legend: ESR is the equivalent series resistance."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

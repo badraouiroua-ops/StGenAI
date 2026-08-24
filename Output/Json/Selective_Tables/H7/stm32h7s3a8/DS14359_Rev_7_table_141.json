@@ -1,0 +1,133 @@
+{
+  "table_id": "table_141",
+  "document": "DS14359 Rev 7 - Table 141. VFQFPN68 - Mechanical data",
+  "rev": "Rev 7",
+  "table_number": "141",
+  "title": "Table 141. VFQFPN68 - Mechanical data",
+  "page": 290,
+  "section": "7.1 Device marking",
+  "section_title": "Device marking",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=290",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 141. VFQFPN68 - Mechanical data — section 7.1 Device marking. Symbol, millimeters / Min, millimeters / Typ, millimeters / Max, inches(1) / Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "millimeters / Min",
+      "millimeters / Typ",
+      "millimeters / Max",
+      "inches(1) / Min",
+      "inches(1) / Typ",
+      "inches(1) / Max"
+    ],
+    "rows": [
+      [
+        "A",
+        "0.80",
+        "0.90",
+        "1.00",
+        "0.0315",
+        "0.0354",
+        "0.0394"
+      ],
+      [
+        "A1",
+        "0",
+        "0.02",
+        "0.05",
+        "0",
+        "0.0008",
+        "0.0020"
+      ],
+      [
+        "A3",
+        "-",
+        "0.20",
+        "-",
+        "-",
+        "0.0008",
+        "-"
+      ],
+      [
+        "b",
+        "0.15",
+        "0.20",
+        "0.25",
+        "0.0059",
+        "0.0079",
+        "0.0098"
+      ],
+      [
+        "D",
+        "7.85",
+        "8.00",
+        "8.15",
+        "0.3091",
+        "0.3150",
+        "0.3209"
+      ],
+      [
+        "D2",
+        "6.30",
+        "6.40",
+        "6.50",
+        "0.2480",
+        "0.2520",
+        "0.2559"
+      ],
+      [
+        "E",
+        "7.85",
+        "8.00",
+        "8.15",
+        "0.3091",
+        "0.3150",
+        "0.3209"
+      ],
+      [
+        "E2",
+        "6.30",
+        "6.40",
+        "6.50",
+        "0.2480",
+        "0.2520",
+        "0.2559"
+      ],
+      [
+        "e",
+        "-",
+        "0.40",
+        "-",
+        "-",
+        "0.0157",
+        "-"
+      ],
+      [
+        "L",
+        "0.40",
+        "0.50",
+        "0.60",
+        "0.0157",
+        "0.0197",
+        "0.0236"
+      ],
+      [
+        "ddd",
+        "-",
+        "-",
+        "0.08",
+        "-",
+        "-",
+        "0.0031"
+      ]
+    ],
+    "notes": [
+      "1. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "table_id": "table_22",
+  "caption": "Table 22. Supply voltage and maximum frequency configuration",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 68,
+  "merged_pages": [
+    68
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=68",
+  "section": "6.3.1 General operating conditions",
+  "headers": [
+    "Power scale",
+    "VCORE source",
+    "Max TJ (°C)",
+    "Max frequency (MHz)",
+    "Min VDD (V)"
+  ],
+  "rows": [
+    [
+      "VOS0",
+      "LDO/SMPS",
+      "105",
+      "280",
+      "1.71"
+    ],
+    [
+      "VOS1",
+      "LDO/SMPS",
+      "130",
+      "225",
+      "1.62"
+    ],
+    [
+      "VOS2",
+      "LDO/SMPS",
+      "130",
+      "160",
+      "1.62"
+    ],
+    [
+      "VOS3",
+      "LDO/SMPS",
+      "130",
+      "88",
+      "1.62"
+    ],
+    [
+      "SVOS4",
+      "LDO/SMPS",
+      "130",
+      "N/A",
+      "1.62"
+    ],
+    [
+      "SVOS5",
+      "LDO/SMPS",
+      "130",
+      "N/A",
+      "1.62"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by design.",
+      "2. The maximum kernel clock frequencies can be limited by the maximum peripheral clock frequency (refer each peripheral electrical characteristics)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_22",
+    "is_continued": false,
+    "pages": [
+      68
+    ],
+    "rows_count": 6,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

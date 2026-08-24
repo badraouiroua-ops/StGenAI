@@ -1,0 +1,142 @@
+{
+  "table_id": "table_36",
+  "document": "DS12930 Rev 3 - Table 36. Typical and maximum current consumption in Sleep mode, SMPS regulator",
+  "rev": "Rev 3",
+  "table_number": "36",
+  "title": "Table 36. Typical and maximum current consumption in Sleep mode, SMPS regulator",
+  "page": 124,
+  "section": "6.3.7 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=124",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "text_helper": "Table 36. Typical and maximum current consumption in Sleep mode, SMPS regulator — section 6.3.7 Supply current characteristics. Symbol, Parameter, Conditions, Conditions, f HCLK (MHz), +6 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "f HCLK (MHz)",
+      "Typ",
+      "Max / Tj=25 °C",
+      "Max / Tj=85 °C",
+      "Max / Tj=105 °C",
+      "Max / Tj=125 °C",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD (Sleep)",
+        "Supply current in Sleep mode",
+        "All peripherals disabled",
+        "VOS1",
+        "400",
+        "15.93",
+        "29.69",
+        "79.01",
+        "118.72",
+        "173.80",
+        "mA"
+      ],
+      [
+        "I DD (Sleep)",
+        "Supply current in Sleep mode",
+        "All peripherals disabled",
+        "VOS1",
+        "300",
+        "12.58",
+        "-",
+        "-",
+        "-",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD (Sleep)",
+        "Supply current in Sleep mode",
+        "All peripherals disabled",
+        "VOS2",
+        "300",
+        "10.21",
+        "19.63",
+        "56.46",
+        "82.14",
+        "123.46",
+        "mA"
+      ],
+      [
+        "I DD (Sleep)",
+        "Supply current in Sleep mode",
+        "All peripherals disabled",
+        "VOS2",
+        "200",
+        "7.89",
+        "-",
+        "-",
+        "-",
+        "-",
+        "mA"
+      ],
+      [
+        "I DD (Sleep)",
+        "Supply current in Sleep mode",
+        "All peripherals disabled",
+        "VOS3",
+        "200",
+        "6.50",
+        "12.98",
+        "39.73",
+        "59.35",
+        "87.10",
+        "mA"
+      ],
+      [
+        "I DD (Sleep)",
+        "Supply current in Sleep mode",
+        "All peripherals Enabled",
+        "VOS1",
+        "400",
+        "42.65",
+        "59.62",
+        "110.88",
+        "153.00",
+        "211.65",
+        "mA"
+      ],
+      [
+        "I DD (Sleep)",
+        "Supply current in Sleep mode",
+        "All peripherals Enabled",
+        "VOS2",
+        "300",
+        "27.70",
+        "38.94",
+        "75.26",
+        "102.22",
+        "147.38",
+        "mA"
+      ],
+      [
+        "I DD (Sleep)",
+        "Supply current in Sleep mode",
+        "All peripherals Enabled",
+        "VOS3",
+        "200",
+        "17.95",
+        "26.14",
+        "52.75",
+        "72.95",
+        "104.09",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. The parameters given in the above table for the SMPS regulator are derived by extrapolation from the LDO consumption ."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

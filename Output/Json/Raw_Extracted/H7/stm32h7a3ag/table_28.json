@@ -1,0 +1,241 @@
+{
+  "table_id": "table_28",
+  "caption": "Table 28. Operating conditions at power-up / power-down (regulator ON)",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 90,
+  "merged_pages": [
+    90,
+    91
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=90",
+  "section": "6.3.4 Operating conditions at power-up / power-down",
+  "headers": [
+    "Symbol",
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "tVDD",
+      "tVDD",
+      "VDD rise time rate",
+      "0",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "tVDD",
+      "tVDD",
+      "VDD fall time rate",
+      "10",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "tVDDA",
+      "tVDDA",
+      "VDDA rise time rate",
+      "0",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "tVDDA",
+      "tVDDA",
+      "VDDA fall time rate",
+      "10",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "tVDDUSB",
+      "tVDDUSB",
+      "VDDUSB rise time rate",
+      "0",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "tVDDUSB",
+      "tVDDUSB",
+      "VDDUSB fall time rate",
+      "10",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "VDDMMC",
+      "VDDMMC",
+      "VDDMMC rise time rate",
+      "0",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "VDDMMC",
+      "VDDMMC",
+      "VDDMMC fall time rate",
+      "10",
+      "∞",
+      "µs/V"
+    ],
+    [
+      "Vhyst_BOR_PVD",
+      "Hysteresis voltage of BOR",
+      "Hysteresis in Run mode",
+      "100",
+      "-",
+      "mV"
+    ],
+    [
+      "IDD_BOR_PVD(1)",
+      "BOR and PVD consumption from VDD",
+      "-",
+      "-",
+      "0.630",
+      "µA"
+    ],
+    [
+      "IDD_POR_PDR",
+      "POR and PDR consumption from VDD",
+      "-",
+      "0.8",
+      "-",
+      "1.2"
+    ],
+    [
+      "VAVM_0",
+      "Analog voltage detector for VDDA threshold 0",
+      "Rising edge",
+      "1.71",
+      "1.76",
+      "V"
+    ],
+    [
+      "Falling edge",
+      "Falling edge",
+      "1.56",
+      "1.61",
+      "1.66",
+      "V"
+    ],
+    [
+      "VAVM_1",
+      "Analog voltage detector for VDDA threshold 1",
+      "Rising edge",
+      "2.06",
+      "2.12",
+      "2.19"
+    ],
+    [
+      "Falling edge",
+      "Falling edge",
+      "1.96",
+      "2.02",
+      "2.08",
+      "2.19"
+    ],
+    [
+      "VAVM_2",
+      "Analog voltage detector for VDDA threshold 2",
+      "Rising edge",
+      "2.42",
+      "2.50",
+      "2.58"
+    ],
+    [
+      "Falling edge",
+      "Falling edge",
+      "2.35",
+      "2.42",
+      "2.49",
+      "2.58"
+    ],
+    [
+      "VAVM_3",
+      "Analog voltage detector for VDDA threshold 3",
+      "Rising edge",
+      "2.74",
+      "2.83",
+      "2.91"
+    ],
+    [
+      "Falling edge",
+      "Falling edge",
+      "2.64",
+      "2.72",
+      "2.80",
+      "2.91"
+    ],
+    [
+      "Vhyst_VDDA",
+      "Hysteresis of VDDA voltage detector",
+      "-",
+      "100",
+      "-",
+      "mV"
+    ],
+    [
+      "IDD_PVM",
+      "PVM consumption from VDD(1)",
+      "-",
+      "-",
+      "0.25",
+      "µA"
+    ],
+    [
+      "IDD_VDDA",
+      "Voltage detector consumption on VDDA(1)",
+      "Resistor bridge",
+      "-",
+      "2.5",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "continuation": {
+      "base_cols": 6,
+      "cont_cols_raw": 6,
+      "target_cols": 6,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by design."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_28",
+    "is_continued": true,
+    "pages": [
+      90,
+      91
+    ],
+    "rows_count": 22,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

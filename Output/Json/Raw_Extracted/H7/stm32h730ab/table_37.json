@@ -1,0 +1,143 @@
+{
+  "table_id": "table_37",
+  "caption": "Table 37. Low-speed external user clock characteristics",
+  "pdf_name": "stm32h730ab",
+  "family": "H7",
+  "page": 138,
+  "merged_pages": [
+    138
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=138",
+  "section": "8 MHz",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Operating conditions(2)",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F",
+      "Oscillator frequency",
+      "-",
+      "-",
+      "32.768",
+      "-",
+      "kHz"
+    ],
+    [
+      "I DD",
+      "LSE current consumption",
+      "LSEDRV[1:0] = 00, Low drive capability",
+      "-",
+      "290",
+      "-",
+      "nA"
+    ],
+    [
+      "I DD",
+      "LSE current consumption",
+      "LSEDRV[1:0] = 01, Medium Low drive capability",
+      "-",
+      "390",
+      "-",
+      "nA"
+    ],
+    [
+      "I DD",
+      "LSE current consumption",
+      "LSEDRV[1:0] = 10, Medium high drive capability",
+      "-",
+      "550",
+      "-",
+      "nA"
+    ],
+    [
+      "I DD",
+      "LSE current consumption",
+      "LSEDRV[1:0] = 11, High drive capability",
+      "-",
+      "900",
+      "-",
+      "nA"
+    ],
+    [
+      "Gm critmax",
+      "Maximum critical crystal gm",
+      "LSEDRV[1:0] = 00, Low drive capability",
+      "-",
+      "-",
+      "0.5",
+      "µA/V"
+    ],
+    [
+      "Gm critmax",
+      "Maximum critical crystal gm",
+      "LSEDRV[1:0] = 01, Medium Low drive capability",
+      "-",
+      "-",
+      "0.75",
+      "µA/V"
+    ],
+    [
+      "Gm critmax",
+      "Maximum critical crystal gm",
+      "LSEDRV[1:0] = 10, Medium high drive capability",
+      "-",
+      "-",
+      "1.7",
+      "µA/V"
+    ],
+    [
+      "Gm critmax",
+      "Maximum critical crystal gm",
+      "LSEDRV[1:0] = 11, High drive capability",
+      "-",
+      "-",
+      "2.7",
+      "µA/V"
+    ],
+    [
+      "t (3) SU",
+      "Startup time",
+      "VDD is stabilized",
+      "-",
+      "2",
+      "-",
+      "s"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. Refer to the note and caution paragraphs below the table, and to the application note AN2867 “Oscillator design guide for STM8AF/AL/S, STM32 MCUs and MPUs”.",
+      "3. t is the startup time measured from the moment it is enabled (by software) to a stabilized 32.768k Hz oscillation is SU"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h730ab",
+    "table_id": "table_37",
+    "is_continued": false,
+    "pages": [
+      138
+    ],
+    "rows_count": 10,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

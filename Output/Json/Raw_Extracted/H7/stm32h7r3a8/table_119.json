@@ -1,0 +1,84 @@
+{
+  "table_id": "table_119",
+  "caption": "Table 119. LPTIMx characteristics",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 263,
+  "merged_pages": [
+    263
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=263",
+  "section": "6.3.32 Low-power timer characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t res(TIM)",
+      "Timer resolution time",
+      "1",
+      "-",
+      "t TIMxCLK"
+    ],
+    [
+      "f LPTIMxCLK",
+      "Timer kernel clock",
+      "0",
+      "150",
+      "MHz"
+    ],
+    [
+      "f EXT",
+      "Timer external clock frequency on Input1 and Input2",
+      "0",
+      "f /2 LPTIMxCLK",
+      "MHz"
+    ],
+    [
+      "Res TIM",
+      "Timer resolution",
+      "-",
+      "16",
+      "bit"
+    ],
+    [
+      "t MAX_COUNT",
+      "Maximum possible count",
+      "-",
+      "65536",
+      "t TIMxCLK"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. LPTIMx is used as a general term to refer to the LPTIM1 to LPTIM5 timers.",
+      "2. Guaranteed by design. DS14360 Rev 6 263/322"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_119",
+    "is_continued": false,
+    "pages": [
+      263
+    ],
+    "rows_count": 5,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

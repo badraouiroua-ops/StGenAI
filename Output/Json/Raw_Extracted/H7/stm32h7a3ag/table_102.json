@@ -1,0 +1,329 @@
+{
+  "table_id": "table_102",
+  "caption": "Table 102. V monitoring characteristics 156 BAT",
+  "pdf_name": "stm32h7a3ag",
+  "family": "H7",
+  "page": 156,
+  "merged_pages": [
+    156,
+    157
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=156",
+  "section": "6.3.26 Temperature and V monitoring",
+  "headers": [
+    "Symbol",
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "R",
+      "R",
+      "Resistor bridge for VBAT",
+      "-",
+      "26",
+      "-",
+      "KΩ"
+    ],
+    [
+      "Q",
+      "Q",
+      "Ratio on VBAT measurement",
+      "-",
+      "4",
+      "-",
+      "KΩ"
+    ],
+    [
+      "Er(1)",
+      "Er(1)",
+      "Error on Q",
+      "–10",
+      "-",
+      "+10",
+      "%"
+    ],
+    [
+      "tS_vbat(1)",
+      "tS_vbat(1)",
+      "ADC sampling time when reading VBAT input",
+      "9",
+      "-",
+      "-",
+      "µs"
+    ],
+    [
+      "VBAThigh",
+      "VBAThigh",
+      "High supply monitoring",
+      "-",
+      "3.55",
+      "-",
+      "V"
+    ],
+    [
+      "VBATlow",
+      "VBATlow",
+      "Low supply monitoring",
+      "-",
+      "1.36",
+      "-",
+      "V"
+    ],
+    [
+      "IDDA(SCALER)",
+      "Scaler static consumption from VDDA",
+      "BRG_EN=0 (bridge disable)",
+      "-",
+      "0.2",
+      "0.3",
+      "µA"
+    ],
+    [
+      "IDDA(SCALER)",
+      "Scaler static consumption from VDDA",
+      "BRG_EN=1 (bridge enable)",
+      "-",
+      "0.8",
+      "1",
+      "µA"
+    ],
+    [
+      "tSTART_SCALER",
+      "Scaler startup time",
+      "-",
+      "-",
+      "140",
+      "250",
+      "µs"
+    ],
+    [
+      "tSTART",
+      "Comparator startup time to reach propagation delay specification",
+      "High-speed mode",
+      "-",
+      "2",
+      "5",
+      "µs"
+    ],
+    [
+      "tSTART",
+      "Comparator startup time to reach propagation delay specification",
+      "Medium mode",
+      "-",
+      "5",
+      "20",
+      "µs"
+    ],
+    [
+      "tSTART",
+      "Comparator startup time to reach propagation delay specification",
+      "Ultra-low-power mode",
+      "-",
+      "15",
+      "80",
+      "µs"
+    ],
+    [
+      "tD(3)",
+      "Propagation delay for 200 mV step with 100 mV overdrive",
+      "High-speed mode",
+      "-",
+      "50",
+      "80",
+      "ns"
+    ],
+    [
+      "tD(3)",
+      "Propagation delay for 200 mV step with 100 mV overdrive",
+      "Medium mode",
+      "-",
+      "0.5",
+      "0.9",
+      "µs"
+    ],
+    [
+      "tD(3)",
+      "Propagation delay for 200 mV step with 100 mV overdrive",
+      "Ultra-low-power mode",
+      "-",
+      "2.5",
+      "7",
+      "µs"
+    ],
+    [
+      "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+      "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+      "High-speed mode",
+      "-",
+      "50",
+      "120",
+      "ns"
+    ],
+    [
+      "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+      "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+      "Medium mode",
+      "-",
+      "0.5",
+      "1.2",
+      "µs"
+    ],
+    [
+      "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+      "Propagation delay for step > 200 mV with 100 mV overdrive only on positive inputs",
+      "Ultra-low-power mode",
+      "-",
+      "2.5",
+      "7",
+      "µs"
+    ],
+    [
+      "Voffset",
+      "Comparator offset error",
+      "Full common mode range",
+      "-",
+      "±5",
+      "±20",
+      "mV"
+    ],
+    [
+      "Vhys",
+      "Comparator hysteresis",
+      "No hysteresis",
+      "-",
+      "0",
+      "-",
+      "mV"
+    ],
+    [
+      "Vhys",
+      "Comparator hysteresis",
+      "Low hysteresis",
+      "4",
+      "10",
+      "22",
+      "mV"
+    ],
+    [
+      "Vhys",
+      "Comparator hysteresis",
+      "Medium hysteresis",
+      "8",
+      "20",
+      "37",
+      "mV"
+    ],
+    [
+      "Vhys",
+      "Comparator hysteresis",
+      "High hysteresis",
+      "16",
+      "30",
+      "52",
+      "mV"
+    ],
+    [
+      "IDDA(COMP)",
+      "Comparator consumption from VDDA",
+      "Ultra-low-power mode",
+      "Static",
+      "400",
+      "600",
+      "nA"
+    ],
+    [
+      "IDDA(COMP)",
+      "Comparator consumption from VDDA",
+      "With 50 kHz ±100 mV overdrive square signal",
+      "-",
+      "800",
+      "-",
+      "nA"
+    ],
+    [
+      "Medium mode",
+      "Medium mode",
+      "Static",
+      "-",
+      "5",
+      "7",
+      "µA"
+    ],
+    [
+      "Medium mode",
+      "Medium mode",
+      "With 50 kHz ±100 mV overdrive square signal",
+      "-",
+      "6",
+      "-",
+      "µA"
+    ],
+    [
+      "High-speed mode",
+      "High-speed mode",
+      "Static",
+      "-",
+      "70",
+      "100",
+      "µA"
+    ],
+    [
+      "High-speed mode",
+      "High-speed mode",
+      "With 50 kHz ±100 mV overdrive square signal",
+      "-",
+      "75",
+      "-",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Guaranteed by design.",
+      "3. Guaranteed by characterization results."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7a3ag",
+    "table_id": "table_102",
+    "is_continued": true,
+    "pages": [
+      156,
+      157
+    ],
+    "rows_count": 29,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

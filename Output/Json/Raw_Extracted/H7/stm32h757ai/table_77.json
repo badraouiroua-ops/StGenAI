@@ -1,0 +1,162 @@
+{
+  "table_id": "table_77",
+  "caption": "Table 77. Synchronous multiplexed PSRAM write timings",
+  "pdf_name": "stm32h757ai",
+  "family": "H7",
+  "page": 171,
+  "merged_pages": [
+    171
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=171",
+  "section": "6.3.20 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(CLK)",
+      "FMC_CLK period, V = 2.7 to 3.6 V DD",
+      "2T –1 fmc_ker_ck 1",
+      "-",
+      "Ns"
+    ],
+    [
+      "t d(CLKL-NExL)",
+      "FMC_CLK low to FMC_NEx low (x =0..2)",
+      "-",
+      "1",
+      "Ns"
+    ],
+    [
+      "t d(CLKH-NExH)",
+      "FMC_CLK high to FMC_NEx high (x = 0…2)",
+      "T +0.5 fmc_ker_ck",
+      "-",
+      "Ns"
+    ],
+    [
+      "t d(CLKL-NADVL)",
+      "FMC_CLK low to FMC_NADV low",
+      "-",
+      "1.5",
+      "Ns"
+    ],
+    [
+      "t d(CLKL-NADVH)",
+      "FMC_CLK low to FMC_NADV high",
+      "0",
+      "-",
+      "Ns"
+    ],
+    [
+      "t d(CLKL-AV)",
+      "FMC_CLK low to FMC_Ax valid (x =16…25)",
+      "-",
+      "2",
+      "Ns"
+    ],
+    [
+      "t d(CLKH-AIV)",
+      "FMC_CLK high to FMC_Ax invalid (x =16…25)",
+      "T fmc_ker_ck",
+      "-",
+      "Ns"
+    ],
+    [
+      "t d(CLKL-NWEL)",
+      "FMC_CLK low to FMC_NWE low",
+      "-",
+      "1.5",
+      "Ns"
+    ],
+    [
+      "t (CLKH-NWEH)",
+      "FMC_CLK high to FMC_NWE high",
+      "T +0.5 fmc_ker_ck",
+      "-",
+      "Ns"
+    ],
+    [
+      "t d(CLKL-ADV)",
+      "FMC_CLK low to to FMC_AD[15:0] valid",
+      "-",
+      "2.5",
+      "Ns"
+    ],
+    [
+      "t d(CLKL-ADIV)",
+      "FMC_CLK low to FMC_AD[15:0] invalid",
+      "0",
+      "-",
+      "Ns"
+    ],
+    [
+      "t d(CLKL-DATA)",
+      "FMC_A/D[15:0] valid data after FMC_CLK low",
+      "-",
+      "2.5",
+      "Ns"
+    ],
+    [
+      "t d(CLKL-NBLL)",
+      "FMC_CLK low to FMC_NBL low",
+      "-",
+      "2",
+      "Ns"
+    ],
+    [
+      "t d(CLKH-NBLH)",
+      "FMC_CLK high to FMC_NBL high",
+      "T +0.5 fmc_ker_ck",
+      "-",
+      "Ns"
+    ],
+    [
+      "t su(NWAIT-CLKH)",
+      "FMC_NWAIT valid before FMC_CLK high",
+      "2",
+      "-",
+      "Ns"
+    ],
+    [
+      "t h(CLKH-NWAIT)",
+      "FMC_NWAIT valid after FMC_CLK high",
+      "2",
+      "-",
+      "Ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS12931 Rev 5 171/254"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h757ai",
+    "table_id": "table_77",
+    "is_continued": false,
+    "pages": [
+      171
+    ],
+    "rows_count": 16,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

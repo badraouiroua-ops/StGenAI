@@ -1,0 +1,46 @@
+{
+  "table_id": "table_111",
+  "document": "DS12110 Rev 11 - Table 111. Thermal characteristics",
+  "rev": "Rev 11",
+  "table_number": "111",
+  "title": "Table 111. Thermal characteristics",
+  "page": 208,
+  "section": "7.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=208",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 111. Thermal characteristics — section 7.2 Absolute maximum ratings. Symbol, Ratings, Value, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Ratings",
+      "Value",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "T STG",
+        "Storage temperature range",
+        "-65 to +150",
+        "°C"
+      ],
+      [
+        "T J",
+        "Maximum junction temperature",
+        "125",
+        "°C"
+      ]
+    ],
+    "notes": [
+      "2. This current consumption must be correctly distributed over all I/Os and control pins. The total output current must not be sunk/sourced between two consecutive power supply pins referring to high pin count",
+      "3. Positive injection is not possible on these I/Os and does not occur for input voltages lower than the specified maximum value.",
+      "4. A positive injection is induced by V >V while a negative injection is induced by V <V . I must IN DD IN SS INJ(PIN)",
+      "5. When several inputs are submitted to a current injection, the maximum ∑I is the absolute sum of the INJ(PIN)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

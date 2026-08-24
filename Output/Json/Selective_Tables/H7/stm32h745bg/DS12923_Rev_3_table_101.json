@@ -1,0 +1,81 @@
+{
+  "table_id": "table_101",
+  "document": "DS12923 Rev 3 - Table 101. DCMI characteristics",
+  "rev": "Rev 3",
+  "table_number": "101",
+  "title": "Table 101. DCMI characteristics",
+  "page": 198,
+  "section": "6.3.30 Camera interface (DCMI) timing specifications",
+  "section_title": "Camera interface (DCMI) timing specifications",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=198",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "text_helper": "Table 101. DCMI characteristics — section 6.3.30 Camera interface (DCMI) timing specifications. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "-",
+        "Frequency ratio DCMI_PIXCLK/f HCLK",
+        "-",
+        "0.4",
+        "-"
+      ],
+      [
+        "DCMI_PIXCLK",
+        "Pixel Clock input",
+        "-",
+        "80",
+        "MHz"
+      ],
+      [
+        "D pixel",
+        "Pixel Clock input duty cycle",
+        "30",
+        "70",
+        "%"
+      ],
+      [
+        "t DATA) su(",
+        "Data input setup time",
+        "3",
+        "-",
+        "%"
+      ],
+      [
+        "t (DATA) h",
+        "Data hold time",
+        "1",
+        "-",
+        "%"
+      ],
+      [
+        "tsu(HSYNC), tsu(VSYNC)",
+        "DCMI_HSYNC/ DCMI_VSYNC input setup time",
+        "2",
+        "-",
+        "ns"
+      ],
+      [
+        "th(HSYNC), th(VSYNC)",
+        "DCMI_HSYNC/ DCMI_VSYNC input hold time",
+        "1",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results. Figure 46. DCMI timing diagram"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

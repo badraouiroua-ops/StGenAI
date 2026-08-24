@@ -1,0 +1,55 @@
+{
+  "table_id": "table_121",
+  "document": "DS14360 Rev 6 - Table 121. I3C push-pull measured timing",
+  "rev": "Rev 6",
+  "table_number": "121",
+  "title": "Table 121. I3C push-pull measured timing",
+  "page": 264,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=264",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 121. I3C push-pull measured timing — section 6.3.33 Communication interfaces. Symbol, Parameter, Conditions, I3C open drain mode (specification) (specification) / Min, I3C open drain mode (specification) (specification) / Max, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "I3C open drain mode (specification) (specification) / Min",
+      "I3C open drain mode (specification) (specification) / Max",
+      "Timing measurements",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t SU_OD",
+        "SDA data setup time during open drain mode",
+        "Controller 1.71 V < V < 3.6 V DD",
+        "3",
+        "-",
+        "16",
+        "ns"
+      ],
+      [
+        "t SU_PP",
+        "SDA signal data setup in push-pull mode",
+        "Controller 1.71 V < V < 3.6 V DD",
+        "3",
+        "-",
+        "14.5",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "5. Spikes with widths above t are not filtered. AF(max)"
+    ],
+    "legend": [
+      "SCL low duration in the I3C_TIMINGR0 register. For further details refer to AN5879."
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

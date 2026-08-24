@@ -1,0 +1,141 @@
+{
+  "table_id": "table_89",
+  "caption": "Table 89. Synchronous non-multiplexed NOR/PSRAM read timings",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 228,
+  "merged_pages": [
+    228
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=228",
+  "section": "6.3.17 FMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max(2)",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t w(CLK)",
+      "FMC_CLK period",
+      "2T –0.5 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t (CLKL-NExL)",
+      "FMC_CLK low to FMC_NEx low (x=0..2)",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t d(CLKH-NExH)",
+      "FMC_CLK high to FMC_NEx high (x= 0…2)",
+      "T +1 fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(CLKL-NADVL)",
+      "FMC_CLK low to FMC_NADV low",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t d(CLKL-NADVH)",
+      "FMC_CLK low to FMC_NADV high",
+      "1",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(CLKL-AV)",
+      "FMC_CLK low to FMC_Ax valid (x=16…25)",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t d(CLKH-AIV)",
+      "FMC_CLK high to FMC_Ax invalid (x=16…25)",
+      "T fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t d(CLKL-NOEL)",
+      "FMC_CLK ow to FMC_NOE low",
+      "-",
+      "2",
+      "ns"
+    ],
+    [
+      "t d(CLKH-NOEH)",
+      "FMC_CLK high to FMC_NOE high",
+      "T fmc_ker_ck",
+      "-",
+      "ns"
+    ],
+    [
+      "t su(DV-CLKH)",
+      "FMC_D[15:0] valid data before FMC_CLK high",
+      "2.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(CLKH-DV)",
+      "FMC_D[15:0] valid data after FMC_CLK high",
+      "1.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t (NWAIT-CLKH)",
+      "FMC_NWAIT valid before FMC_CLK high",
+      "2.5",
+      "-",
+      "ns"
+    ],
+    [
+      "t h(CLKH-NWAIT)",
+      "FMC_NWAIT valid after FMC_CLK high",
+      "1",
+      "-",
+      "ns"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. At VOS Low, these values are degraded by up to 7%. 228/325 DS14359 Rev 7"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_89",
+    "is_continued": false,
+    "pages": [
+      228
+    ],
+    "rows_count": 13,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

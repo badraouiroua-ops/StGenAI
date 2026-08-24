@@ -1,0 +1,162 @@
+{
+  "table_id": "table_127",
+  "document": "DS12117 Rev 10 - Table 127. Low-power mode wakeup timings",
+  "rev": "Rev 10",
+  "table_number": "127",
+  "title": "Table 127. Low-power mode wakeup timings",
+  "page": 226,
+  "section": "7.3.7 Wakeup time from low-power modes",
+  "section_title": "Wakeup time from low-power modes",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf#page=226",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h753ai.pdf",
+  "text_helper": "Table 127. Low-power mode wakeup timings — section 7.3.7 Wakeup time from low-power modes. Symbol, Parameter, Conditions, Typ(1), Max(1), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Typ(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t (2) WUSLEEP",
+        "Wakeup from Sleep",
+        "-",
+        "9",
+        "10",
+        "CPU clock cycles"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS3, HSI, flash memory in normal mode",
+        "4.4",
+        "5.6",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS3, HSI, flash memory in low-power mode",
+        "12",
+        "15",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS4, HSI, flash memory in normal mode",
+        "15",
+        "20",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS4, HSI, flash memory in low-power mode",
+        "23",
+        "28",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS5, HSI, flash memory in normal mode",
+        "39",
+        "71",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS5, HSI, flash memory in low-power mode",
+        "39",
+        "47",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS3, CSI, flash memory in normal mode",
+        "30",
+        "37",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS3, CSI, flash memory in low power mode",
+        "36",
+        "50",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS4, CSI, flash memory in normal mode",
+        "38",
+        "48",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS4, CSI, flash memory in low-power mode",
+        "47",
+        "61",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS5, CSI, flash memory in normal mode",
+        "68",
+        "75",
+        "µs"
+      ],
+      [
+        "t (2) WUSTOP",
+        "Wakeup from Stop",
+        "VOS5, CSI, flash memory in low-power mode",
+        "68",
+        "77",
+        "µs"
+      ],
+      [
+        "t WUSTOP_ (2) KERON",
+        "Wakeup from Stop, clock kept running",
+        "VOS3, HSI, flash memory in normal mode",
+        "2.6",
+        "3.4",
+        "µs"
+      ],
+      [
+        "t WUSTOP_ (2) KERON",
+        "Wakeup from Stop, clock kept running",
+        "VOS3, CSI, flash memory in normal mode",
+        "26",
+        "36",
+        "µs"
+      ],
+      [
+        "t (2) WUSTDBY",
+        "Wakeup from Standby mode",
+        "-",
+        "390",
+        "500",
+        "µs"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The wakeup times are measured from the wakeup event to the point in which the application code reads the first instruction. 226/357 DS12117 Rev 10"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

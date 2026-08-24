@@ -1,0 +1,144 @@
+{
+  "table_id": "table_58",
+  "caption": "Table 58. 4-50 MHz HSE oscillator characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 195,
+  "merged_pages": [
+    195
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=195",
+  "section": "6.3.9 External clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Operating conditions(2)",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "F",
+      "Oscillator frequency",
+      "-",
+      "4",
+      "-",
+      "50",
+      "MHz"
+    ],
+    [
+      "R F",
+      "Feedback resistor",
+      "-",
+      "-",
+      "200",
+      "-",
+      "kΩ"
+    ],
+    [
+      "I DD(HSE)",
+      "HSE current consumption",
+      "During startup(3)",
+      "-",
+      "-",
+      "10",
+      "mA"
+    ],
+    [
+      "I DD(HSE)",
+      "HSE current consumption",
+      "V =3 V, Rm=20 Ω DD C =10 pF at 4 MHz L",
+      "-",
+      "0.44",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(HSE)",
+      "HSE current consumption",
+      "V =3 V, Rm=20 Ω DD C =10 pF at 8 MHz L",
+      "-",
+      "0.44",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(HSE)",
+      "HSE current consumption",
+      "V =3 V, Rm=20 Ω DD C =10 pF at 16 MHz L",
+      "-",
+      "0.55",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(HSE)",
+      "HSE current consumption",
+      "V =3 V, Rm=20 Ω DD C =10 pF at 32 MHz L",
+      "-",
+      "0.67",
+      "-",
+      "mA"
+    ],
+    [
+      "I DD(HSE)",
+      "HSE current consumption",
+      "V =3 V, Rm=20 Ω DD C =10 pF at 48 MHz L",
+      "-",
+      "1.17",
+      "-",
+      "mA"
+    ],
+    [
+      "Gm critmax",
+      "Maximum critical crystal gm",
+      "Startup",
+      "-",
+      "-",
+      "1.5",
+      "mA/V"
+    ],
+    [
+      "t (4) SU",
+      "Start-up time",
+      "V is stabilized DD",
+      "-",
+      "2",
+      "-",
+      "ms"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. Resonator characteristics given by the crystal/ceramic resonator manufacturer.",
+      "3. This consumption level occurs during the first 2/3 of the t startup time. SU(HSE)",
+      "4. t is the startup time measured from the moment it is enabled (by software) to a stabilized 8 MHz oscillation is SU(HSE)"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_58",
+    "is_continued": false,
+    "pages": [
+      195
+    ],
+    "rows_count": 10,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

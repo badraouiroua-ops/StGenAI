@@ -1,0 +1,89 @@
+{
+  "table_id": "table_30",
+  "document": "DS14360 Rev 6 - Table 30. Operating conditions at power-up/power-down",
+  "rev": "Rev 6",
+  "table_number": "30",
+  "title": "Table 30. Operating conditions at power-up/power-down",
+  "page": 162,
+  "section": "6.3.4 Operating conditions at power-up / power-down",
+  "section_title": "Operating conditions at power-up / power-down",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=162",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 30. Operating conditions at power-up/power-down — section 6.3.4 Operating conditions at power-up / power-down. Symbol, Parameter, Min, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t VDD",
+        "V rise time rate DD",
+        "0",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDD",
+        "V fall time rate DD",
+        "10",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDDA",
+        "V rise time rate DDA",
+        "0",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDDA",
+        "V fall time rate DDA",
+        "10",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDD33USB",
+        "V rise time rate DD33USB",
+        "0",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t VDD33USB",
+        "VDD33USB fall time rate",
+        "10",
+        "∞",
+        "µs/V"
+      ],
+      [
+        "t (1) VCORE",
+        "V rise time rate(2) CORE",
+        "0",
+        "285",
+        "µs/V"
+      ],
+      [
+        "t (1) VCORE",
+        "V fall time rate CORE",
+        "10",
+        "∞",
+        "µs/V"
+      ]
+    ],
+    "notes": [
+      "1. t should be achieved when V is provided by an external supply voltage (bypass with VCORE CORE",
+      "2. V rising slope must respect the above constraints. There are no constraints on the delay between V CORE DD"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

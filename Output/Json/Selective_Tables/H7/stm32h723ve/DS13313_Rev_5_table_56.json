@@ -1,0 +1,89 @@
+{
+  "table_id": "table_56",
+  "document": "DS13313 Rev 5 - Table 56. Pxy_C and Pxy analog switch characteristics",
+  "rev": "Rev 5",
+  "table_number": "56",
+  "title": "Table 56. Pxy_C and Pxy analog switch characteristics",
+  "page": 134,
+  "section": "6.3.16 I/O port characteristics",
+  "section_title": "I/O port characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=134",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "text_helper": "Table 56. Pxy_C and Pxy analog switch characteristics — section 6.3.16 I/O port characteristics. Parameter, Conditions, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Switch impedance",
+        "Switch control boosted",
+        "Switch control boosted",
+        "-",
+        "-",
+        "315",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "V > 2.7 V DDSWITCH",
+        "-",
+        "-",
+        "315",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "V > 2.4 V DDSWITCH",
+        "-",
+        "-",
+        "335",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "V > 2.0 V DDSWITCH",
+        "-",
+        "-",
+        "390",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "V > 1.8 V DDSWITCH",
+        "-",
+        "-",
+        "445",
+        "Ω"
+      ],
+      [
+        "Switch impedance",
+        "Switch control not boosted",
+        "V > 1.62 V DDSWITCH",
+        "-",
+        "-",
+        "550",
+        "Ω"
+      ]
+    ],
+    "notes": [
+      "1. The pull-up is designed with a true resistance in series with a switchable PMOS. This PMOS contribution to the series resistance must be minimum (~10% order).",
+      "2. Guaranteed by design. 134/236 DS13313 Rev 5"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

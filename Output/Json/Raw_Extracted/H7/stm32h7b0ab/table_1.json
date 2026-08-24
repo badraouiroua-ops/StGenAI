@@ -1,0 +1,723 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. STM32H7B0xB features and peripheral counts",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 7,
+  "merged_pages": [
+    7,
+    8,
+    9
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=7",
+  "section": "2 Description",
+  "headers": [
+    "Peripherals",
+    "Peripherals",
+    "SMPS (1) / STM32H7B0IBK",
+    "SMPS (1) / STM32H7B0ABI",
+    "no-SMPS / STM32H7B0IBT",
+    "no-SMPS / STM32H7B0ZBT",
+    "no-SMPS / STM32H7B0VBT",
+    "no-SMPS / STM32H7B0RBT"
+  ],
+  "rows": [
+    [
+      "Flash memory (Kbytes)",
+      "Flash memory (Kbytes)",
+      "128",
+      "128",
+      "128",
+      "128",
+      "128",
+      "128"
+    ],
+    [
+      "SRAM in Kbytes",
+      "SRAM on AXI",
+      "1024",
+      "1024",
+      "1024",
+      "1024",
+      "1024",
+      "1024"
+    ],
+    [
+      "SRAM in Kbytes",
+      "SRAM on AHB (CD domain)",
+      "128",
+      "128",
+      "128",
+      "128",
+      "128",
+      "128"
+    ],
+    [
+      "SRAM in Kbytes",
+      "SRAM on AHB (SRD domain)",
+      "32",
+      "32",
+      "32",
+      "32",
+      "32",
+      "32"
+    ],
+    [
+      "TCM RAM in Kbytes",
+      "ITCM RAM (instruction)",
+      "64",
+      "64",
+      "64",
+      "64",
+      "64",
+      "64"
+    ],
+    [
+      "TCM RAM in Kbytes",
+      "DTCM RAM (data)",
+      "128",
+      "128",
+      "128",
+      "128",
+      "128",
+      "128"
+    ],
+    [
+      "Backup SRAM (Kbytes)",
+      "Backup SRAM (Kbytes)",
+      "4",
+      "4",
+      "4",
+      "4",
+      "4",
+      "4"
+    ],
+    [
+      "FMC",
+      "Interface",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "FMC",
+      "NOR Flash memory/RAM controller",
+      "x (2)",
+      "x (2)",
+      "x",
+      "x(2)",
+      "-",
+      "-"
+    ],
+    [
+      "FMC",
+      "Multiplexed I/O NOR Flash memory",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x(2)",
+      "-"
+    ],
+    [
+      "FMC",
+      "16-bit NAND Flash memory",
+      "x",
+      "x",
+      "x",
+      "x",
+      "x(2)",
+      "-"
+    ],
+    [
+      "FMC",
+      "SDRAM controller",
+      "x(2)",
+      "x(2)",
+      "x",
+      "x(2)",
+      "-",
+      "-"
+    ],
+    [
+      "Octo-SPI interfaces(3)",
+      "Octo-SPI interfaces(3)",
+      "2(4)",
+      "2(4)",
+      "2",
+      "2(4)",
+      "1 Octo-SPI",
+      "1 Quad-SPI"
+    ],
+    [
+      "Timers",
+      "General-purpose",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    [
+      "Timers",
+      "Advanced-control (PWM)",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Timers",
+      "Basic",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Timers",
+      "Low-power",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3",
+      "3"
+    ],
+    [
+      "Window watchdog / independent watchdog",
+      "Window watchdog / independent watchdog",
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1"
+    ],
+    [
+      "Real-time Clock (RTC)",
+      "Real-time Clock (RTC)",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Tamper pins (5)",
+      "Passive",
+      "2",
+      "2",
+      "3",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Tamper pins (5)",
+      "Active",
+      "1",
+      "1",
+      "2",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Random number generator",
+      "Random number generator",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Cryptographic accelerator",
+      "Cryptographic accelerator",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Hash processor (HASH)",
+      "Hash processor (HASH)",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "On-the-fly decryption",
+      "for external Octo-SPI memory",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2(2)"
+    ],
+    [
+      "Peripherals",
+      "Peripherals",
+      "KBI0B7H23MTS",
+      "IBA0B7H23MTS",
+      "TBI0B7H23MTS",
+      "TBZ0B7H23MTS",
+      "TBV0B7H23MTS",
+      "TBR0B7H23MTS"
+    ],
+    [
+      "Communi-cation interfaces",
+      "SPI/I2S (6)",
+      "6/4",
+      "6/4",
+      "6/4",
+      "6/4",
+      "5/4",
+      "4/4"
+    ],
+    [
+      "I2C",
+      "I2C",
+      "4",
+      "4",
+      "",
+      "",
+      "",
+      "3"
+    ],
+    [
+      "USART/UART /LPUART",
+      "USART/UART /LPUART",
+      "5/5 /1",
+      "5/5 /1",
+      "5/5 /1",
+      "",
+      "5(2)/5 /1",
+      "4(2)/3(2) /1"
+    ],
+    [
+      "SAI/PDM",
+      "SAI/PDM",
+      "2/1",
+      "2/1",
+      "2/1",
+      "",
+      "2(2)/1",
+      "1(2)/-"
+    ],
+    [
+      "SPDIFRX",
+      "SPDIFRX",
+      "4 inputs",
+      "4 inputs",
+      "4 inputs",
+      "",
+      "",
+      ""
+    ],
+    [
+      "SWPMI",
+      "SWPMI",
+      "1",
+      "1",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "MDIOS",
+      "MDIOS",
+      "1",
+      "1",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "SDMMC",
+      "SDMMC",
+      "2",
+      "2",
+      "2",
+      "",
+      "2(7)",
+      ""
+    ],
+    [
+      "FDCAN/TT-CAN",
+      "FDCAN/TT-CAN",
+      "1/1",
+      "1/1",
+      "",
+      "",
+      "",
+      "1/1(2)"
+    ],
+    [
+      "USB OTG_HS ULPI, OTG_FS PHY",
+      "USB OTG_HS ULPI, OTG_FS PHY",
+      "1",
+      "1",
+      "1",
+      "1 (8)",
+      "1 (8)",
+      "1 (9)"
+    ],
+    [
+      "Digital camera interface/PSSI (10)",
+      "Digital camera interface/PSSI (10)",
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1"
+    ],
+    [
+      "LCD-TFT display controller",
+      "LCD-TFT display controller",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "JPEG Codec",
+      "JPEG Codec",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Chrom-ART Accelerator (DMA2D)",
+      "Chrom-ART Accelerator (DMA2D)",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Graphic memory management unit (GFXMMU)",
+      "Graphic memory management unit (GFXMMU)",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "HDMI CEC",
+      "HDMI CEC",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "DFSDM Number of filters for DFSDM1/DFSDM2",
+      "DFSDM Number of filters for DFSDM1/DFSDM2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "DFSDM Number of filters for DFSDM1/DFSDM2",
+      "DFSDM Number of filters for DFSDM1/DFSDM2",
+      "8/1",
+      "8/1",
+      "8/1",
+      "8/1",
+      "8/1",
+      "7/1"
+    ],
+    [
+      "ADCs",
+      "8 to 16 bits",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Number of channels",
+      "Number of channels",
+      "24",
+      "24",
+      "20(11)",
+      "",
+      "16(11)",
+      ""
+    ],
+    [
+      "DACs",
+      "12 bits",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Number of channels",
+      "Number of channels",
+      "3 (1 single channel + 1 dual-channel interfaces)",
+      "3 (1 single channel + 1 dual-channel interfaces)",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Comparators",
+      "Comparators",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "1"
+    ],
+    [
+      "Operational amplifier",
+      "Operational amplifier",
+      "2",
+      "2",
+      "2",
+      "2",
+      "2",
+      "1"
+    ],
+    [
+      "GPIOs",
+      "GPIOs",
+      "128",
+      "121",
+      "138",
+      "112",
+      "80",
+      "49"
+    ],
+    [
+      "Wakeup pins",
+      "Wakeup pins",
+      "4",
+      "4",
+      "6",
+      "4",
+      "4",
+      ""
+    ],
+    [
+      "Peripherals",
+      "Peripherals",
+      "KBI0B7H23MTS",
+      "IBA0B7H23MTS",
+      "TBI0B7H23MTS",
+      "TBZ0B7H23MTS",
+      "TBV0B7H23MTS",
+      "TBR0B7H23MTS"
+    ],
+    [
+      "Maximum CPU frequency (MHz)",
+      "Maximum CPU frequency (MHz)",
+      "280",
+      "280",
+      "280",
+      "280",
+      "280",
+      "280"
+    ],
+    [
+      "SMPS step-down converter",
+      "SMPS step-down converter",
+      "1",
+      "1",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "USB internal regulator",
+      "USB internal regulator",
+      "1",
+      "1",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "USB separate supply pad",
+      "USB separate supply pad",
+      "1",
+      "1",
+      "1",
+      "1",
+      "-",
+      "-"
+    ],
+    [
+      "VDDMMC separate supply pad",
+      "VDDMMC separate supply pad",
+      "1",
+      "1",
+      "1",
+      "1",
+      "-",
+      "-"
+    ],
+    [
+      "VREF+ separate pad and internal buffer",
+      "VREF+ separate pad and internal buffer",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "-"
+    ],
+    [
+      "Operating voltage",
+      "Operating voltage",
+      "1.62 to 3.6 V (12)",
+      "1.62 to 3.6 V (12)",
+      "1.62 to 3.6 V (12)",
+      "1.62 to 3.6 V (12)",
+      "1.62 to 3.6 V (12)",
+      "1.62 to 3.6 V (12)"
+    ],
+    [
+      "Operating temperatures",
+      "Operating temperatures",
+      "Ambient temperature range: -40 to 85 °C",
+      "Ambient temperature range: -40 to 85 °C",
+      "Ambient temperature range: -40 to 85 °C",
+      "Ambient temperature range: -40 to 85 °C",
+      "Ambient temperature range: -40 to 85 °C",
+      "Ambient temperature range: -40 to 85 °C"
+    ],
+    [
+      "Operating temperatures",
+      "Operating temperatures",
+      "Junction temperature range: -40 to 130 °C(13)",
+      "Junction temperature range: -40 to 130 °C(13)",
+      "Junction temperature range: -40 to 130 °C(13)",
+      "Junction temperature range: -40 to 130 °C(13)",
+      "Junction temperature range: -40 to 130 °C(13)",
+      "Junction temperature range: -40 to 130 °C(13)"
+    ],
+    [
+      "Packages",
+      "Packages",
+      "UFBGA176+25",
+      "UFBGA169",
+      "LQFP176",
+      "LQFP144",
+      "LQFP100",
+      "LQFP64"
+    ],
+    [
+      "Bootloader",
+      "Bootloader",
+      "USART, I2C, SPI, USB- DFU, FDCAN",
+      "USART, I2C, SPI, USB-DFU, FDCAN",
+      "USART, I2C, SPI, USB-DFU, FDCAN",
+      "USART, I2C, SPI, USB-DFU",
+      "USART, I2C, SPI, USB-DFU",
+      "USART, I2C, SPI, USB-DFU"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0547,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 3
+    },
+    "_notes": [
+      "1. The devices with SMPS correspond to commercial code STM32H7B0xIxxQ.",
+      "2. For limitations on peripheral features depending on packages, check the available pins/balls in Table 7. STM32H7B0xB pin/ball definition.",
+      "3. To maximize the performance, the I/O high-speed at low-voltage feature (HSLV) must be activated when VDD < 2.7 V. This feature is not available on all I/Os (see",
+      "4. The I/O high-speed at low-voltage feature (HSLV) at VDD < 2.7 V is not available for OCTOSPIM_P2.",
+      "5. A tamper pin can be configured either as passive or active (not both).",
+      "6. SPI1, SPI2, SPI3 and SPI6 interfaces give the flexibility to work in an exclusive way in either SPI mode or I2S audio mode.",
+      "7. Dedicated I/O supply pad (VDDMMC) or external level shifter are not supported.",
+      "8. The ULPI interface is supported. PC2 and PC3 are available on PC2_C and PC3_C, respectively, by closing the internal analog switch (see Table 7. STM32H7B0xB pin/ball definition).",
+      "9. The ULPI interface is not supported.",
+      "10. DCMI and PSSI cannot be used simultaneously since they share the same circuitry.",
+      "11. For limitations on fast pads or channels depending on packages, check to the available pins/balls in Table 7. STM32H7B0xB pin/ball definition.",
+      "12. VDD/VDDA can drop down to 1.62 V by using an external power supervisor (see Section 3.5.2 Power supply supervisor) and connecting PDR_ON pin to VSS. Otherwise the supply voltage must stay above 1.71 V with the embedded power voltage detector enabled.",
+      "13. The junction temperature is limited to 105 °C in VOS0 voltage range. DS13196"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2",
+    "multi_page_merged:3",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_1",
+    "is_continued": true,
+    "pages": [
+      7,
+      8,
+      9
+    ],
+    "rows_count": 64,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0547
+  }
+}

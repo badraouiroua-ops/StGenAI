@@ -1,0 +1,116 @@
+{
+  "table_id": "table_36",
+  "document": "DS12556 Rev 8 - Table 36. CSI oscillator characteristics",
+  "rev": "Rev 8",
+  "table_number": "36",
+  "title": "Table 36. CSI oscillator characteristics",
+  "page": 118,
+  "section": "6.3.9 Internal clock source characteristics",
+  "section_title": "Internal clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=118",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 36. CSI oscillator characteristics — section 6.3.9 Internal clock source characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f CSI",
+        "CSI frequency",
+        "V =3.3 V, T =30 °C DD J",
+        "3.96(2)",
+        "4",
+        "4.04(2)",
+        "MHz"
+      ],
+      [
+        "TRIM",
+        "Trimming step",
+        "-",
+        "-",
+        "0.35",
+        "-",
+        "%"
+      ],
+      [
+        "DuCy(CSI)",
+        "Duty Cycle",
+        "-",
+        "45",
+        "-",
+        "55",
+        "%"
+      ],
+      [
+        "∆ (CSI) TEMP",
+        "CSI oscillator frequency drift over temperature",
+        "T = 0 to 85 °C J",
+        "-",
+        "-3.7(3)",
+        "4.5(3)",
+        "%"
+      ],
+      [
+        "∆ (CSI) TEMP",
+        "CSI oscillator frequency drift over temperature",
+        "T = -40 to 125 °C J",
+        "-",
+        "-11(3)",
+        "7.5(3)",
+        "%"
+      ],
+      [
+        "D (CSI) VDD",
+        "CSI oscillator frequency drift over V DD",
+        "V = 1.62 to 3.6 V DD",
+        "-",
+        "-0.06",
+        "0.06",
+        "%"
+      ],
+      [
+        "t su(CSI)",
+        "CSI oscillator startup time",
+        "-",
+        "-",
+        "1",
+        "2",
+        "µs"
+      ],
+      [
+        "t stab(CSI)",
+        "CSI oscillator stabilization time (to reach ±3% of f ) CSI",
+        "-",
+        "-",
+        "4",
+        "8",
+        "cycle"
+      ],
+      [
+        "I DD(CSI)",
+        "CSI oscillator power consumption",
+        "-",
+        "-",
+        "23",
+        "30",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "2. This value must be limited to the maximum frequency due to the product limitation (400 MHz for VOS1, 300 MHz for VOS2, 200 MHz for VOS3).",
+      "3. Guaranteed by characterization results."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

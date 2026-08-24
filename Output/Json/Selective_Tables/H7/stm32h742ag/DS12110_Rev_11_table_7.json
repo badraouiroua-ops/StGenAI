@@ -1,0 +1,89 @@
+{
+  "table_id": "table_7",
+  "document": "DS12110 Rev 11 - Table 7. Flash memory and SRAM memory mapping for STM32H742xI/G",
+  "rev": "Rev 11",
+  "table_number": "7",
+  "title": "Table 7. Flash memory and SRAM memory mapping for STM32H742xI/G",
+  "page": 54,
+  "section": "3.43 Debug infrastructure",
+  "section_title": "Debug infrastructure",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=54",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 7. Flash memory and SRAM memory mapping for STM32H742xI/G — section 3.43 Debug infrastructure. , Memory, Size in Kbytes, Start address.",
+  "table_content": {
+    "headers": [
+      "",
+      "Memory",
+      "Size in Kbytes",
+      "Start address"
+    ],
+    "rows": [
+      [
+        "RAM area",
+        "Backup SRAM",
+        "4",
+        "0x3880 0000"
+      ],
+      [
+        "RAM area",
+        "SRAM4",
+        "64",
+        "0x3800 0000"
+      ],
+      [
+        "RAM area",
+        "SRAM2",
+        "16",
+        "0x3002 0000"
+      ],
+      [
+        "RAM area",
+        "SRAM1",
+        "32",
+        "0x3000 0000"
+      ],
+      [
+        "RAM area",
+        "AXI-SRAM",
+        "384",
+        "0x2400 0000"
+      ],
+      [
+        "RAM area",
+        "DTCM",
+        "128",
+        "0x2000 0000"
+      ],
+      [
+        "Code area",
+        "System memory 2",
+        "-",
+        "0x1FF4 0000"
+      ],
+      [
+        "Code area",
+        "System memory",
+        "-",
+        "0x1FF0 0000"
+      ],
+      [
+        "Code area",
+        "Flash memory",
+        "2048",
+        "0x0800 0000"
+      ],
+      [
+        "Code area",
+        "ITCM",
+        "64",
+        "0x0000 0000"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

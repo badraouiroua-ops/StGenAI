@@ -1,0 +1,62 @@
+{
+  "table_id": "table_4",
+  "caption": "Table 4. DFSDM implementation",
+  "pdf_name": "stm32h725ae",
+  "family": "H7",
+  "page": 40,
+  "merged_pages": [
+    40
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=40",
+  "section": "3.26 Digital filter for sigma-delta modulators (DFSDM)",
+  "headers": [
+    "DFSDM features",
+    "DFSDM1"
+  ],
+  "rows": [
+    [
+      "Number of filters",
+      "4"
+    ],
+    [
+      "Number of input transceivers/channels",
+      "8"
+    ],
+    [
+      "Internal ADC parallel input",
+      "X"
+    ],
+    [
+      "Number of external triggers",
+      "16"
+    ],
+    [
+      "Regular channel information in identification register",
+      "X"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h725ae",
+    "table_id": "table_4",
+    "is_continued": false,
+    "pages": [
+      40
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

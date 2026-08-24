@@ -1,0 +1,135 @@
+{
+  "table_id": "table_98",
+  "document": "DS13313 Rev 5 - Table 98. DFSDM measured timing",
+  "rev": "Rev 5",
+  "table_number": "98",
+  "title": "Table 98. DFSDM measured timing",
+  "page": 188,
+  "section": "6.3.31 Digital filter for Sigma-Delta Modulators (DFSDM) characteristics",
+  "section_title": "Digital filter for Sigma-Delta Modulators (DFSDM) characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf#page=188",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h723ve.pdf",
+  "text_helper": "Table 98. DFSDM measured timing — section 6.3.31 Digital filter for Sigma-Delta Modulators (DFSDM) characteristics. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f DFSDMCLK",
+        "DFSDM clock",
+        "1.62 < V < 3.6 V DD",
+        "1.62 < V < 3.6 V DD",
+        "-",
+        "-",
+        "(1)",
+        "MHz"
+      ],
+      [
+        "f CKIN (1/T ) CKIN",
+        "Input clock frequency",
+        "SPI mode (SITP[1:0] = 0,1), External clock mode (SPICKSEL[1:0] = 0)",
+        "SPI mode (SITP[1:0] = 0,1), External clock mode (SPICKSEL[1:0] = 0)",
+        "-",
+        "-",
+        "20",
+        "MHz"
+      ],
+      [
+        "f CKIN (1/T ) CKIN",
+        "Input clock frequency",
+        "SPI mode (SITP[1:0] = 0,1), Internal clock mode (SPICKSEL[1:0] # 0)",
+        "SPI mode (SITP[1:0] = 0,1), Internal clock mode (SPICKSEL[1:0] # 0)",
+        "-",
+        "-",
+        "20",
+        "MHz"
+      ],
+      [
+        "f CKOUT",
+        "Output clock frequency",
+        "1.62 < V < 3.6 V DD",
+        "1.62 < V < 3.6 V DD",
+        "-",
+        "-",
+        "20",
+        "MHz"
+      ],
+      [
+        "DuCy CKOUT",
+        "Output clock frequency duty cycle",
+        "1.62 < V DD < 3.6 V",
+        "Even division, CKOUTDIV = n, 1, 3, 5..",
+        "45",
+        "50",
+        "55",
+        "%"
+      ],
+      [
+        "DuCy CKOUT",
+        "Output clock frequency duty cycle",
+        "1.62 < V DD < 3.6 V",
+        "Odd division, CKOUTDIV = n, 2, 4, 6..",
+        "(((n/2+1)/(n+1)) *100)-5",
+        "(((n/2+1)/(n+1)) *100)",
+        "(((n/2+1)/(n+1)) *100)+5",
+        "%"
+      ],
+      [
+        "t wh(CKIN) t wl(CKIN)",
+        "Input clock high and low time",
+        "SPI mode (SITP[1:0] = 0,1), External clock mode (SPICKSEL[1:0] = 0)",
+        "T /2-0.5 CKIN",
+        "T /2 CKIN",
+        "-",
+        "ns",
+        "%"
+      ],
+      [
+        "t su",
+        "Data input setup time",
+        "SPI mode (SITP[1:0] = 0,1), External clock mode (SPICKSEL[1:0] = 0)",
+        "2",
+        "-",
+        "-",
+        "-",
+        "%"
+      ],
+      [
+        "t h",
+        "Data input hold time",
+        "SPI mode (SITP[1:0] = 0,1), External clock mode (SPICKSEL[1:0] = 0)",
+        "1",
+        "-",
+        "-",
+        "-",
+        "%"
+      ],
+      [
+        "T Manchester",
+        "Manchester data period (recovered clock period)",
+        "Manchester mode (SITP[1:0] = 2,3), Internal clock mode (SPICKSEL[1:0] # 0)",
+        "(CKOUTDIV+1) * T DFSDMCLK",
+        "-",
+        "(2*CKOUTDIV) * T DFSDMCLK",
+        "(2*CKOUTDIV) * T DFSDMCLK",
+        "%"
+      ]
+    ],
+    "notes": [
+      "1. The maximum DFSDM kernel clock frequency is specified in the RCC chapter of the reference manual (RM0468). DS13313 Rev 5 189/236"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

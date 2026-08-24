@@ -1,0 +1,57 @@
+{
+  "table_id": "table_57",
+  "document": "DS14359 Rev 7 - Table 57. Timing for analog LSE input",
+  "rev": "Rev 7",
+  "table_number": "57",
+  "title": "Table 57. Timing for analog LSE input",
+  "page": 194,
+  "section": "6.3.9 External clock source characteristics",
+  "section_title": "External clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=194",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 57. Timing for analog LSE input — section 6.3.9 External clock source characteristics. Parameter, Comment, Min, Typ, Max, +1 autres.",
+  "table_content": {
+    "headers": [
+      "Parameter",
+      "Comment",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "Input frequency",
+        "Fundamental frequency",
+        "32.768",
+        "32.768",
+        "32.768",
+        "kHz"
+      ],
+      [
+        "Input peak-to-peak amplitude",
+        "Vpp",
+        "0.3(1)",
+        "-",
+        "V SW",
+        "V"
+      ],
+      [
+        "Absolute input range",
+        "-",
+        "-",
+        "-",
+        "V SW",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. 300 mV is the minimum peak-to-peak amplitude @25°C (0.1V<V < V -0.1V where V is the DC component of the dc DDIO dc"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "table_id": "table_113",
+  "caption": "Table 113. Minimum i2c_ker_ck frequency in all I2C modes",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 151,
+  "merged_pages": [
+    151,
+    152
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=151",
+  "section": "6.3.36 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Condition",
+    "Min",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "fI2CCLK",
+      "I2CCLK frequency",
+      "Standard-mode",
+      "-",
+      "2",
+      "MHz"
+    ],
+    [
+      "fI2CCLK",
+      "I2CCLK frequency",
+      "Fast-mode",
+      "Analog Filtre ON, DNF=0",
+      "9",
+      "MHz"
+    ],
+    [
+      "fI2CCLK",
+      "I2CCLK frequency",
+      "Fast-mode",
+      "Analog Filtre OFF, DNF=1",
+      "9",
+      "MHz"
+    ],
+    [
+      "fI2CCLK",
+      "I2CCLK frequency",
+      "Fast-mode Plus",
+      "Analog Filtre ON, DNF=0",
+      "19",
+      "MHz"
+    ],
+    [
+      "fI2CCLK",
+      "I2CCLK frequency",
+      "Fast-mode Plus",
+      "Analog Filtre OFF, DNF=1",
+      "16",
+      "MHz"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "caption_near_bottom": true,
+    "caption_y_ratio": 0.814,
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 6,
+      "cont_cols_raw": 6,
+      "target_cols": 6,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "1. Measurement points are done at 0.5V and with external C = 30 pF. DD L"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2",
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_113",
+    "is_continued": true,
+    "pages": [
+      151,
+      152
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

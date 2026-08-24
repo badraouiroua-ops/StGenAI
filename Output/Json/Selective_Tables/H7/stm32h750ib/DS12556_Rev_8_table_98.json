@@ -1,0 +1,169 @@
+{
+  "table_id": "table_98",
+  "document": "DS12556 Rev 8 - Table 98. Dynamic characteristics: SD / MMC characteristics, VDD = 2.7 to 3.6 V",
+  "rev": "Rev 8",
+  "table_number": "98",
+  "title": "Table 98. Dynamic characteristics: SD / MMC characteristics, VDD = 2.7 to 3.6 V",
+  "page": 186,
+  "section": "6.3.32 Communications interfaces",
+  "section_title": "Communications interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=186",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "text_helper": "Table 98. Dynamic characteristics: SD / MMC characteristics, VDD = 2.7 to 3.6 V — section 6.3.32 Communications interfaces. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f PP",
+        "Clock frequency in data transfer mode",
+        "-",
+        "0",
+        "-",
+        "125",
+        "MHz"
+      ],
+      [
+        "t W(CKL)",
+        "Clock low time",
+        "f =50 MHz PP",
+        "9.5",
+        "10.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t W(CKH)",
+        "Clock high time",
+        "f =50 MHz PP",
+        "8.5",
+        "9.5",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D inputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D inputs (referenced to CK) in MMC and SD HS/SDR/DDR mode"
+      ],
+      [
+        "t ISU",
+        "Input setup time HS",
+        "f ≥50 MHz PP",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t IH",
+        "Input hold time HS",
+        "f ≥50 MHz PP",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t (3) IDW",
+        "Input valid window (variable window)",
+        "f ≥50 MHz PP",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D outputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D outputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D outputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D outputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D outputs (referenced to CK) in MMC and SD HS/SDR/DDR mode",
+        "CMD, D outputs (referenced to CK) in MMC and SD HS/SDR/DDR mode"
+      ],
+      [
+        "t OV",
+        "Output valid time HS",
+        "f ≥50 MHz PP",
+        "-",
+        "3.5",
+        "5",
+        "ns"
+      ],
+      [
+        "t OH",
+        "Output hold time HS",
+        "f ≥50 MHz PP",
+        "2",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ISUD",
+        "Input setup time SD",
+        "f =25 MHz PP",
+        "3",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t IHD",
+        "Input hold time SD",
+        "Input hold time SD",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "CMD, D outputs (referenced to CK) in SD default mode",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t OVD",
+        "Output valid default time SD",
+        "f =25 MHz PP",
+        "-",
+        "1",
+        "2",
+        "ns"
+      ],
+      [
+        "t OHD",
+        "Output hold default time SD",
+        "Output hold default time SD",
+        "0",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "3. The minimum window of time where the data needs to be stable for proper sampling in tuning mode. Tabl e 99. Dynamic characteristics: eMMC characteristics, V = 1.71 to 1.9 V(1)(2)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

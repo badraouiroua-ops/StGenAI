@@ -1,0 +1,758 @@
+{
+  "table_id": "table_76",
+  "document": "DS14359 Rev 7 - Table 76. Output timing characteristics (HSLV OFF)",
+  "rev": "Rev 7",
+  "table_number": "76",
+  "title": "Table 76. Output timing characteristics (HSLV OFF)",
+  "page": 211,
+  "section": "6.3.15 I/O port characteristics",
+  "section_title": "I/O port characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=211",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "text_helper": "Table 76. Output timing characteristics (HSLV OFF) — section 6.3.15 I/O port characteristics. Speed, Symbol, Parameter, Conditions, Min, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Speed",
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "8",
+        "MHz"
+      ],
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 50 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "5",
+        "MHz"
+      ],
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 40 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "10",
+        "MHz"
+      ],
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 40 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "5",
+        "MHz"
+      ],
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "12",
+        "MHz"
+      ],
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 30 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "5",
+        "MHz"
+      ],
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 20 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "14",
+        "MHz"
+      ],
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 20 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "5",
+        "MHz"
+      ],
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "16",
+        "MHz"
+      ],
+      [
+        "00",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 10 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "5",
+        "MHz"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "18.0",
+        "ns"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 50 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "36.0",
+        "ns"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 40 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "17.0",
+        "ns"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 40 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "34.0",
+        "ns"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "15.5",
+        "ns"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 30 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "32.0",
+        "ns"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 20 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "14.2",
+        "ns"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 20 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "30.0",
+        "ns"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "12.2",
+        "ns"
+      ],
+      [
+        "00",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 10 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "27",
+        "ns"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "40",
+        "MHz"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 50 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "12",
+        "MHz"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 40 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "45",
+        "MHz"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 40 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "14",
+        "MHz"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "50",
+        "MHz"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 30 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "16",
+        "MHz"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 20 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "55",
+        "MHz"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 20 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "18",
+        "MHz"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "60",
+        "MHz"
+      ],
+      [
+        "01",
+        "F (2)(3) max",
+        "Maximum frequency",
+        "C = 10 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "20",
+        "MHz"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "6.2",
+        "ns"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 50 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "11.4",
+        "ns"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 40 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "5.7",
+        "ns"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 40 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "10.5",
+        "ns"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "5.1",
+        "ns"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 30 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "9.5",
+        "ns"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 20 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "4.5",
+        "ns"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 20 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "8.4",
+        "ns"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "3.7",
+        "ns"
+      ],
+      [
+        "01",
+        "t/t(4)(5) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 10 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "7.0",
+        "ns"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "80",
+        "MHz"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 50 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "30",
+        "MHz"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 40 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "90",
+        "MHz"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 40 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "35",
+        "MHz"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "100",
+        "MHz"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 30 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "40",
+        "MHz"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 20 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "110",
+        "MHz"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 20 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "45",
+        "MHz"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "133",
+        "MHz"
+      ],
+      [
+        "10",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 10 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "50",
+        "MHz"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "3.8",
+        "ns"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 50 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "7.5",
+        "ns"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 40 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "3.4",
+        "ns"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 40 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "6.6",
+        "ns"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "2.9",
+        "ns"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 30 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "5.7",
+        "ns"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 20 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "2.5",
+        "ns"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 20 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "4.7",
+        "ns"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "1.9",
+        "ns"
+      ],
+      [
+        "10",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 10 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "3.7",
+        "ns"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "100",
+        "MHz"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 50 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "40",
+        "MHz"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 40 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "120",
+        "MHz"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 40 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "50",
+        "MHz"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "140",
+        "MHz"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 30 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "60",
+        "MHz"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 20 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "166",
+        "MHz"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 20 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "70",
+        "MHz"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "200",
+        "MHz"
+      ],
+      [
+        "11",
+        "F (2)(3)(6) max",
+        "Maximum frequency",
+        "C = 10 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "80",
+        "MHz"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 50 pF, 2.7 V≤ V ≤ 3.6 V DD",
+        "-",
+        "3.3",
+        "ns"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 50 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "6.3",
+        "ns"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 40 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "2.8",
+        "ns"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 40 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "5.5",
+        "ns"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 30 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "2.3",
+        "ns"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 30 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "4.6",
+        "ns"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 20 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "1.9",
+        "ns"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 20 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "3.7",
+        "ns"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 10 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+        "-",
+        "1.4",
+        "ns"
+      ],
+      [
+        "11",
+        "t/t(4)(5)(6) r f",
+        "Output high to low level fall time and output low to high level rise time",
+        "C = 10 pF, 1.71 V ≤ V ≤ 2 V DD",
+        "-",
+        "3",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. The maximum frequency is defined with the conditions (t + t) ≤ 2/3 T, Skew ≤ 1/20 T, and 45% < Duty cycle < 55%. r f",
+      "3. When 2 V < V < 2.7 V the maximum frequency is between values given for V = 1.98 V and V = 2.7 V. DD DD DD",
+      "4. The fall and rise times are defined between 90% and 10% and between 10% and 90% of the output waveform, respectively.",
+      "5. When 2 V<V <2.7 V maximum frequency is between values given for V =1.98 V and V =2.7 V. DD DD DD",
+      "6. When 2 V<V <2.7 V Max T /T is between values given for V =1.98 V and Vdd=2.7 V. DD rise fall DD"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

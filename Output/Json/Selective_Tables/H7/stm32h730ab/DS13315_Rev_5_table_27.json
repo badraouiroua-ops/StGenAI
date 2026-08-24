@@ -1,0 +1,57 @@
+{
+  "table_id": "table_27",
+  "document": "DS13315 Rev 5 - Table 27. Typical current consumption in Autonomous mode",
+  "rev": "Rev 5",
+  "table_number": "27",
+  "title": "Table 27. Typical current consumption in Autonomous mode",
+  "page": 121,
+  "section": "6.3.8 Supply current characteristics",
+  "section_title": "Supply current characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf#page=121",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h730ab.pdf",
+  "text_helper": "Table 27. Typical current consumption in Autonomous mode — section 6.3.8 Supply current characteristics. Symbol, Parameter, Conditions, Conditions, f rcc_c_c k (MHz), +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "f rcc_c_c k (MHz)",
+      "Typ LDO regulator ON",
+      "Typ SMPS ON",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I DD",
+        "Supply current in Autonous mode",
+        "Run, D1Stop, D2Stop",
+        "VOS3",
+        "64",
+        "3.6",
+        "2.2",
+        "mA"
+      ],
+      [
+        "I DD",
+        "Supply current in Autonous mode",
+        "Run, D1Standby, D2Standby",
+        "VOS3",
+        "64",
+        "2.6",
+        "1.6",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. Refer to Section 6.3.3: SMPS step-down converter for the SMPS maximum consumption.",
+      "3. The parameter values given in the above table for the SMPS regulator are extrapolated from the LDO consumption and typical SMPS efficiency factors."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "table_id": "table_100",
+  "caption": "Table 100. Voltage booster for analog switch characteristics",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 199,
+  "merged_pages": [
+    199
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=199",
+  "section": "6.3.28 Voltage booster for analog switch",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DD",
+      "Supply voltage",
+      "-",
+      "1.62",
+      "2.6",
+      "3.6",
+      "V"
+    ],
+    [
+      "t SU(BOOST)",
+      "Booster startup time",
+      "-",
+      "-",
+      "-",
+      "50",
+      "µs"
+    ],
+    [
+      "I DD(BOOST)",
+      "Booster consumption",
+      "1.62 V ≤ V ≤ 2.7 V DD",
+      "-",
+      "-",
+      "125",
+      "µA"
+    ],
+    [
+      "I DD(BOOST)",
+      "Booster consumption",
+      "2.7 V < V < 3.6 V DD",
+      "-",
+      "-",
+      "250",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results. DS12930 Rev 3 199/253",
+      "2. Refer to Table 20: Embedded reference voltage. 200/253 DS12930 Rev 3"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_100",
+    "is_continued": false,
+    "pages": [
+      199
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

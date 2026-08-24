@@ -1,0 +1,62 @@
+{
+  "table_id": "table_132",
+  "caption": "Table 132. TFBGA240+25 - Example of PCB design rules",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 246,
+  "merged_pages": [
+    246
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=246",
+  "section": "7.7 Thermal characteristics",
+  "headers": [
+    "Dimension",
+    "Values"
+  ],
+  "rows": [
+    [
+      "Pitch",
+      "0.8 mm"
+    ],
+    [
+      "Dpad",
+      "0.400 mm"
+    ],
+    [
+      "Dsm",
+      "0.470 mm typical (depends on solder mask registration tolerance)"
+    ],
+    [
+      "Stencil opening",
+      "0.400 mm"
+    ],
+    [
+      "Stencil thickness",
+      "Between 0.100 mm and 0.125 mm"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_132",
+    "is_continued": false,
+    "pages": [
+      246
+    ],
+    "rows_count": 5,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

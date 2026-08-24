@@ -1,0 +1,73 @@
+{
+  "table_id": "table_36",
+  "document": "DS13311 Rev 5 - Table 36. Low-speed external user clock characteristics",
+  "rev": "Rev 5",
+  "table_number": "36",
+  "title": "Table 36. Low-speed external user clock characteristics",
+  "page": 145,
+  "section": "6.3.10 External clock source characteristics",
+  "section_title": "External clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=145",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 36. Low-speed external user clock characteristics — section 6.3.10 External clock source characteristics. Symbol, Parameter, Conditions, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f LSE_ext",
+        "User external clock source frequency",
+        "-",
+        "-",
+        "32.768",
+        "1000",
+        "kHz"
+      ],
+      [
+        "V LSEH",
+        "OSC32_IN input pin high-level voltage",
+        "-",
+        "0.7 V DD",
+        "-",
+        "V DD",
+        "V"
+      ],
+      [
+        "V LSEL",
+        "OSC32_IN input pin low-level voltage",
+        "-",
+        "V SS",
+        "-",
+        "0.3 V DD",
+        "V"
+      ],
+      [
+        "t w(LSEH) t w(LSEL)",
+        "OSC32_IN high or low time",
+        "-",
+        "250",
+        "-",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design. Figure 23. Low-speed external clock source AC timing diagram",
+      "2. Resonator characteristics given by the crystal/ceramic resonator manufacturer.",
+      "3. This consumption level occurs during the first 2/3 of the t startup time. SU(HSE)",
+      "4. t is the startup time measured from the moment it is enabled (by software) to a stabilized 8 MHz SU(HSE)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

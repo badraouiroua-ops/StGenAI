@@ -1,0 +1,67 @@
+{
+  "table_id": "table_49",
+  "document": "DS12110 Rev 11 - Table 49. I/O current injection susceptibility",
+  "rev": "Rev 11",
+  "table_number": "49",
+  "title": "Table 49. I/O current injection susceptibility",
+  "page": 136,
+  "section": "6.3.14 I/O current injection characteristics",
+  "section_title": "I/O current injection characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=136",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "text_helper": "Table 49. I/O current injection susceptibility — section 6.3.14 I/O current injection characteristics. Symbol, Description, Functional susceptibility / Negative injection, Functional susceptibility / Positive injection, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Description",
+      "Functional susceptibility / Negative injection",
+      "Functional susceptibility / Positive injection",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "I INJ",
+        "PA7, PC5, PG1, PB14, PJ7, PA11, PA12, PA13, PA14, PA15, PJ12, PB4",
+        "5",
+        "0",
+        "mA"
+      ],
+      [
+        "I INJ",
+        "PA2, PH2, PH3, PE8, PA6, PA7, PC4, PE7, PE10, PE11",
+        "0",
+        "NA",
+        "mA"
+      ],
+      [
+        "I INJ",
+        "PA0, PA_C, PA1, PA1_C, PC2, PC2_C, PC3, PC3_C, PA4, PA5, PH4, PH5, BOOT0",
+        "0",
+        "0",
+        "mA"
+      ],
+      [
+        "I INJ",
+        "All other I/Os",
+        "5",
+        "NA",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. Compliant with CMOS requirement.",
+      "2. Guaranteed by design.",
+      "3. This parameter represents the pad leakage of the I/O itself. The total product pad leakage is provided by the following formula: I = 10 μA + [number of I/Os where V is applied on the pad] ₓ I .",
+      "4. All FT_xx IO except FT_lu, FT_u and PC3.",
+      "5. V must be less than Max(VDDXXX) + 3.6 V. IN",
+      "6. To sustain a voltage higher than MIN(V , V , V ) +0.3 V, the internal pull-up and pull-down resistors must be DD DDA DD33USB",
+      "7. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10% order).",
+      "8. Max(VDDXXX) is the maximum value of all the I/O supplies. All I/Os are CMOS and TTL compliant (no software configuration required). Their"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

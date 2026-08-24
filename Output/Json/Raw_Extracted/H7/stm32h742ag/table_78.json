@@ -1,0 +1,334 @@
+{
+  "table_id": "table_78",
+  "caption": "Table 78. ADC accuracy",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 168,
+  "merged_pages": [
+    168
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=168",
+  "section": "6.3.19 Delay block (DLYB) characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions(4)",
+    "Conditions(4)",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "ET",
+      "Total unadjusted error",
+      "Single ended",
+      "BOOST = 1",
+      "-",
+      "±6",
+      "-",
+      "±LSB"
+    ],
+    [
+      "ET",
+      "Total unadjusted error",
+      "Single ended",
+      "BOOST = 0",
+      "-",
+      "±8",
+      "-",
+      "±LSB"
+    ],
+    [
+      "ET",
+      "Total unadjusted error",
+      "Differential",
+      "BOOST = 1",
+      "-",
+      "±10",
+      "-",
+      "±LSB"
+    ],
+    [
+      "ET",
+      "Total unadjusted error",
+      "Differential",
+      "BOOST = 0",
+      "-",
+      "±16",
+      "-",
+      "±LSB"
+    ],
+    [
+      "ED",
+      "Differential linearity error",
+      "Single ended",
+      "BOOST = 1",
+      "-",
+      "2",
+      "-",
+      "±LSB"
+    ],
+    [
+      "ED",
+      "Differential linearity error",
+      "Single ended",
+      "BOOST = 0",
+      "-",
+      "1",
+      "-",
+      "±LSB"
+    ],
+    [
+      "ED",
+      "Differential linearity error",
+      "Differential",
+      "BOOST = 1",
+      "-",
+      "8",
+      "-",
+      "±LSB"
+    ],
+    [
+      "ED",
+      "Differential linearity error",
+      "Differential",
+      "BOOST = 0",
+      "-",
+      "2",
+      "-",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Single ended",
+      "BOOST = 1",
+      "-",
+      "±6",
+      "-",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Single ended",
+      "BOOST = 0",
+      "-",
+      "±4",
+      "-",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Differential",
+      "BOOST = 1",
+      "-",
+      "±6",
+      "-",
+      "±LSB"
+    ],
+    [
+      "EL",
+      "Integral linearity error",
+      "Differential",
+      "BOOST = 0",
+      "-",
+      "±4",
+      "-",
+      "±LSB"
+    ],
+    [
+      "ENOB(5)",
+      "Effective number of bits (2 MSPS)",
+      "Single ended",
+      "BOOST = 1",
+      "-",
+      "11.6",
+      "-",
+      "bits"
+    ],
+    [
+      "ENOB(5)",
+      "Effective number of bits (2 MSPS)",
+      "Single ended",
+      "BOOST = 0",
+      "-",
+      "12",
+      "-",
+      "bits"
+    ],
+    [
+      "ENOB(5)",
+      "Effective number of bits (2 MSPS)",
+      "Differential",
+      "BOOST = 1",
+      "-",
+      "13.3",
+      "-",
+      "bits"
+    ],
+    [
+      "ENOB(5)",
+      "Effective number of bits (2 MSPS)",
+      "Differential",
+      "BOOST = 0",
+      "-",
+      "13.5",
+      "-",
+      "bits"
+    ],
+    [
+      "SINAD(5)",
+      "Signal-to- noise and distortion ratio (2 MSPS)",
+      "Single ended",
+      "BOOST = 1",
+      "-",
+      "71.6",
+      "-",
+      "dB"
+    ],
+    [
+      "SINAD(5)",
+      "Signal-to- noise and distortion ratio (2 MSPS)",
+      "Single ended",
+      "BOOST = 0",
+      "-",
+      "74",
+      "-",
+      "dB"
+    ],
+    [
+      "SINAD(5)",
+      "Signal-to- noise and distortion ratio (2 MSPS)",
+      "Differential",
+      "BOOST = 1",
+      "-",
+      "81.83",
+      "-",
+      "dB"
+    ],
+    [
+      "SINAD(5)",
+      "Signal-to- noise and distortion ratio (2 MSPS)",
+      "Differential",
+      "BOOST = 0",
+      "-",
+      "83",
+      "-",
+      "dB"
+    ],
+    [
+      "SNR(5)",
+      "Signal-to- noise ratio (2 MSPS)",
+      "Single ended",
+      "BOOST = 1",
+      "-",
+      "72",
+      "-",
+      "dB"
+    ],
+    [
+      "SNR(5)",
+      "Signal-to- noise ratio (2 MSPS)",
+      "Single ended",
+      "BOOST = 0",
+      "-",
+      "74",
+      "-",
+      "dB"
+    ],
+    [
+      "SNR(5)",
+      "Signal-to- noise ratio (2 MSPS)",
+      "Differential",
+      "BOOST = 1",
+      "-",
+      "82",
+      "-",
+      "dB"
+    ],
+    [
+      "SNR(5)",
+      "Signal-to- noise ratio (2 MSPS)",
+      "Differential",
+      "BOOST = 0",
+      "-",
+      "83",
+      "-",
+      "dB"
+    ],
+    [
+      "THD(5)",
+      "Total harmonic distortion",
+      "Single ended",
+      "BOOST = 1",
+      "-",
+      "-78",
+      "-",
+      "dB"
+    ],
+    [
+      "THD(5)",
+      "Total harmonic distortion",
+      "Single ended",
+      "BOOST = 0",
+      "-",
+      "-80",
+      "-",
+      "dB"
+    ],
+    [
+      "THD(5)",
+      "Total harmonic distortion",
+      "Differential",
+      "BOOST = 1",
+      "-",
+      "-90",
+      "-",
+      "dB"
+    ],
+    [
+      "THD(5)",
+      "Total harmonic distortion",
+      "Differential",
+      "BOOST = 0",
+      "-",
+      "-95",
+      "-",
+      "dB"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "_notes": [
+      "4. ADC clock frequency ≤36 MHz, 2 V ≤ V ≤3.3 V, 1.6 V ≤ V ≤ V , BOOSTEN (for I/O) = 1. DDA REF DDA",
+      "5. ENOB, SINAD, SNR and THD are specified for V = V = 3.3 V. DDA REF"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_78",
+    "is_continued": false,
+    "pages": [
+      168
+    ],
+    "rows_count": 28,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

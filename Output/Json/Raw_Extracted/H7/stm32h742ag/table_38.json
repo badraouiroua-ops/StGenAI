@@ -1,0 +1,146 @@
+{
+  "table_id": "table_38",
+  "caption": "Table 38. CSI oscillator characteristics",
+  "pdf_name": "stm32h742ag",
+  "family": "H7",
+  "page": 128,
+  "merged_pages": [
+    128,
+    129
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h742ag.pdf#page=128",
+  "section": "6.3.9 Internal clock source characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "f CSI",
+      "CSI frequency",
+      "V =3.3 V, T =30 °C DD J",
+      "3.96(2)",
+      "4",
+      "4.04(2)",
+      "MHz"
+    ],
+    [
+      "TRIM",
+      "Trimming step",
+      "-",
+      "-",
+      "0.35",
+      "-",
+      "%"
+    ],
+    [
+      "DuCy(CSI)",
+      "Duty Cycle",
+      "-",
+      "45",
+      "-",
+      "55",
+      "%"
+    ],
+    [
+      "∆ (CSI) TEMP",
+      "CSI oscillator frequency drift over temperature",
+      "T = 0 to 85 °C J",
+      "-",
+      "-3.7(3)",
+      "4.5(3)",
+      "%"
+    ],
+    [
+      "∆ (CSI) TEMP",
+      "CSI oscillator frequency drift over temperature",
+      "T = -40 to 125 °C J",
+      "-",
+      "-11(3)",
+      "7.5(3)",
+      "%"
+    ],
+    [
+      "D (CSI) VDD",
+      "CSI oscillator frequency drift over V DD",
+      "V = 1.62 to 3.6 V DD",
+      "-",
+      "-0.06",
+      "0.06",
+      "%"
+    ],
+    [
+      "t su(CSI)",
+      "CSI oscillator startup time",
+      "-",
+      "-",
+      "1",
+      "2",
+      "µs"
+    ],
+    [
+      "t stab(CSI)",
+      "CSI oscillator stabilization time (to reach ±3% of f ) CSI",
+      "-",
+      "-",
+      "4",
+      "8",
+      "cycle"
+    ],
+    [
+      "I DD(CSI)",
+      "CSI oscillator power consumption",
+      "-",
+      "-",
+      "23",
+      "30",
+      "µA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "continuation": {
+      "base_cols": 7,
+      "cont_cols_raw": 7,
+      "target_cols": 7,
+      "base_has_dup_headers": false,
+      "dup_positions": [],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "_notes": [
+      "2. Guaranteed by design.",
+      "3. Guaranteed by characterization."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h742ag",
+    "table_id": "table_38",
+    "is_continued": true,
+    "pages": [
+      128,
+      129
+    ],
+    "rows_count": 9,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

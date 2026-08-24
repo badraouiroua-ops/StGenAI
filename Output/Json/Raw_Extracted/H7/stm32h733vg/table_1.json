@@ -1,0 +1,604 @@
+{
+  "table_id": "table_1",
+  "caption": "Table 1. STM32H733xG features and peripheral counts",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 17,
+  "merged_pages": [
+    17,
+    18,
+    19
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=17",
+  "section": "2 Description",
+  "headers": [
+    "Peripherals",
+    "Peripherals",
+    "STM32H7 33VGH",
+    "STM32H7 33VGT",
+    "STM32H7 33ZGT",
+    "STM32H7 33ZGI"
+  ],
+  "rows": [
+    [
+      "Flash memory (Kbytes)",
+      "Flash memory (Kbytes)",
+      "1024",
+      "1024",
+      "1024",
+      "1024"
+    ],
+    [
+      "SRAM (Kbytes)",
+      "SRAM mapped onto AXI bus",
+      "128",
+      "128",
+      "128",
+      "128"
+    ],
+    [
+      "SRAM (Kbytes)",
+      "SRAM1 (D2 domain)",
+      "16",
+      "16",
+      "16",
+      "16"
+    ],
+    [
+      "SRAM (Kbytes)",
+      "SRAM2 (D2 domain)",
+      "16",
+      "16",
+      "16",
+      "16"
+    ],
+    [
+      "SRAM (Kbytes)",
+      "SRAM4 (D3 domain)",
+      "16",
+      "16",
+      "16",
+      "16"
+    ],
+    [
+      "RAM shared between ITCM and AXI (Kbytes)",
+      "RAM shared between ITCM and AXI (Kbytes)",
+      "192",
+      "192",
+      "192",
+      "192"
+    ],
+    [
+      "TCM RAM (Kbytes)",
+      "ITCM RAM (instruction)",
+      "64",
+      "64",
+      "64",
+      "64"
+    ],
+    [
+      "TCM RAM (Kbytes)",
+      "DTCM RAM (data)",
+      "128",
+      "128",
+      "128",
+      "128"
+    ],
+    [
+      "Backup SRAM (Kbytes)",
+      "Backup SRAM (Kbytes)",
+      "4",
+      "4",
+      "4",
+      "4"
+    ],
+    [
+      "FMC",
+      "Interface",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "FMC",
+      "NOR flash memory/RAM controller",
+      "-",
+      "-",
+      "yes",
+      "yes"
+    ],
+    [
+      "FMC",
+      "Multiplexed I/O NOR flash memory",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "FMC",
+      "16-bit NAND flash memory",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "FMC",
+      "16-bit SDRAM controller",
+      "-",
+      "-",
+      "yes",
+      "yes"
+    ],
+    [
+      "GPIO",
+      "GPIO",
+      "80",
+      "80",
+      "112",
+      "114"
+    ],
+    [
+      "Octo-SPI interface",
+      "Octo-SPI interface",
+      "1",
+      "1",
+      "2",
+      "2"
+    ],
+    [
+      "OTFDEC",
+      "OTFDEC",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "CORDIC",
+      "CORDIC",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "FMAC",
+      "FMAC",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "Timers",
+      "General purpose 32 bits",
+      "4",
+      "4",
+      "4",
+      "4"
+    ],
+    [
+      "Timers",
+      "General purpose 16 bits",
+      "10",
+      "10",
+      "10",
+      "10"
+    ],
+    [
+      "Timers",
+      "Advanced control (PWM)",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Timers",
+      "Basic",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Timers",
+      "Low-power",
+      "5",
+      "5",
+      "5",
+      "5"
+    ],
+    [
+      "Timers",
+      "RTC",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Timers",
+      "Window watchdog / independent watchdog",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Wakeup pins",
+      "Wakeup pins",
+      "4",
+      "4",
+      "4",
+      "4"
+    ],
+    [
+      "Tamper pins",
+      "Tamper pins",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Random number generator",
+      "Random number generator",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "Cryptographic accelerator",
+      "Cryptographic accelerator",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "Communication interfaces",
+      "SPI / I2S",
+      "5/4",
+      "5/4",
+      "6/4",
+      "6/4"
+    ],
+    [
+      "I2C",
+      "I2C",
+      "5",
+      "5",
+      "5",
+      "5"
+    ],
+    [
+      "USART/UART/ LPUART",
+      "USART/UART/ LPUART",
+      "5/5/1",
+      "5/5/1",
+      "5/5/1",
+      "5/5/1"
+    ],
+    [
+      "SAI/PDM",
+      "SAI/PDM",
+      "2/2(1)",
+      "2/2(1)",
+      "2/2",
+      "2/2"
+    ],
+    [
+      "SPDIFRX",
+      "SPDIFRX",
+      "1",
+      "",
+      "",
+      ""
+    ],
+    [
+      "HDMI-CEC",
+      "HDMI-CEC",
+      "1",
+      "",
+      "",
+      ""
+    ],
+    [
+      "SWPMI",
+      "SWPMI",
+      "1",
+      "",
+      "",
+      ""
+    ],
+    [
+      "MDIO",
+      "MDIO",
+      "/1",
+      "",
+      "",
+      ""
+    ],
+    [
+      "SDMMC",
+      "SDMMC",
+      "2",
+      "",
+      "",
+      ""
+    ],
+    [
+      "FDCAN/TT-FDCAN",
+      "FDCAN/TT-FDCAN",
+      "2/1",
+      "2/1",
+      "2/1",
+      "2/1"
+    ],
+    [
+      "USB [OTG_HS(ULPI)/FS(PHY)]",
+      "USB [OTG_HS(ULPI)/FS(PHY)]",
+      "1 [1/1]",
+      "1 [1/1]",
+      "1 [1/1]",
+      "1 [1/1]"
+    ],
+    [
+      "Ethernet [MII/RMII]",
+      "Ethernet [MII/RMII]",
+      "1 [0/1]",
+      "1 [0/1]",
+      "1 [0/1]",
+      "1 [1/1]"
+    ],
+    [
+      "Camera interface/PSSI",
+      "Camera interface/PSSI",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "LCD-TFT",
+      "LCD-TFT",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "Chrom-ART Accelerator (DMA2D)",
+      "Chrom-ART Accelerator (DMA2D)",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "16-bit ADCs",
+      "Number of ADCs",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Number of direct channelsADC1/ADC2",
+      "Number of direct channelsADC1/ADC2",
+      "2/2",
+      "0",
+      "0",
+      "2/2"
+    ],
+    [
+      "Number of fast channels ADC1/ADC2",
+      "Number of fast channels ADC1/ADC2",
+      "3/2",
+      "3/2",
+      "4/3",
+      "4/3"
+    ],
+    [
+      "Number of slow channels ADC1/ADC2",
+      "Number of slow channels ADC1/ADC2",
+      "9/8",
+      "11/10",
+      "12/11",
+      "12/11"
+    ],
+    [
+      "12-bit ADCs",
+      "Number of ADCs",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    [
+      "Number of direct channels",
+      "Number of direct channels",
+      "2",
+      "2",
+      "2",
+      "2"
+    ],
+    [
+      "Number of fast channels",
+      "Number of fast channels",
+      "6",
+      "2",
+      "6",
+      "6"
+    ],
+    [
+      "Number of slow channels",
+      "Number of slow channels",
+      "9",
+      "0",
+      "4",
+      "9"
+    ],
+    [
+      "12-bit DAC",
+      "Present in IC",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "Number of channels",
+      "Number of channels",
+      "2",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Comparators",
+      "Comparators",
+      "2",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Operational amplifiers",
+      "Operational amplifiers",
+      "2",
+      "",
+      "",
+      ""
+    ],
+    [
+      "DFSDM",
+      "Present in IC",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "Maximum CPU frequency",
+      "Maximum CPU frequency",
+      "550 MHz",
+      "550 MHz",
+      "550 MHz",
+      "550 MHz"
+    ],
+    [
+      "USB separate supply pad",
+      "USB separate supply pad",
+      "yes",
+      "-",
+      "yes",
+      "yes"
+    ],
+    [
+      "USB internal regulator",
+      "USB internal regulator",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "LDO",
+      "LDO",
+      "yes",
+      "yes",
+      "yes",
+      "yes"
+    ],
+    [
+      "SMPS step-down converter",
+      "SMPS step-down converter",
+      "-",
+      "-",
+      "-",
+      "-"
+    ],
+    [
+      "Operating voltage",
+      "Operating voltage",
+      "1.62 to 3.6 V",
+      "1.71 to 3.6 V",
+      "1.62 to 3.6 V",
+      "1.62 to 3.6 V"
+    ],
+    [
+      "Operating temperatures",
+      "Ambient temperature",
+      "-40°C to +85°C",
+      "-40°C to +85°C",
+      "-40°C to +85°C",
+      "-40°C to +85°C"
+    ],
+    [
+      "Junction temperature",
+      "Junction temperature",
+      "-40°C to +125°C",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Package",
+      "Package",
+      "TFBGA100",
+      "LQFP100",
+      "LQFP144",
+      "UFBGA144"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0672,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 6,
+    "continuation": {
+      "base_cols": 6,
+      "cont_cols_raw": 6,
+      "target_cols": 6,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        1
+      ],
+      "b7_detected": false,
+      "b7_expanded": false,
+      "cont_pages": 3
+    },
+    "_notes": [
+      "1. For limitations on peripheral features depending on packages, check the available pins/balls in Table 8: STM32H733 pin alternate functions."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:3",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_1",
+    "is_continued": true,
+    "pages": [
+      17,
+      18,
+      19
+    ],
+    "rows_count": 67,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0672
+  }
+}

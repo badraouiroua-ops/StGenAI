@@ -1,0 +1,108 @@
+{
+  "table_id": "table_44",
+  "caption": "Table 44. Typical and maximum current consumption in Standby mode",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 176,
+  "merged_pages": [
+    176
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=176",
+  "section": "6.3.7 Supply current characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Typ LDO",
+    "Typ SMPS",
+    "Max(1) LDO / T = J 25 °C",
+    "Max(1) LDO / T = J 85 °C",
+    "Max(1) LDO / T = J 105 ° C",
+    "Max(1) LDO / T = J 130 ° C",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "I DD(Stop)",
+      "Stop",
+      "Flash memory in low-power mode",
+      "SVOS high",
+      "1.450",
+      "0.700",
+      "11.0",
+      "66.5",
+      "115.0",
+      "200.0",
+      "mA"
+    ],
+    [
+      "I DD(Stop)",
+      "Stop",
+      "Flash memory in low-power mode",
+      "SVOS low",
+      "0.605",
+      "0.265",
+      "4.3",
+      "32.5",
+      "56.0",
+      "105.0",
+      "mA"
+    ],
+    [
+      "I DD(Stop)",
+      "Stop",
+      "Flash memory in normal mode",
+      "SVOS high",
+      "1.500",
+      "0.705",
+      "11.0",
+      "66.5",
+      "115.0",
+      "200.0",
+      "mA"
+    ],
+    [
+      "I DD(Stop)",
+      "Stop",
+      "Flash memory in normal mode",
+      "SVOS low",
+      "0.605",
+      "0.265",
+      "4.3",
+      "32.5",
+      "56.0",
+      "105.0",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 11,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 11,
+    "_notes": [
+      "1. Guaranteed by characterization results unless otherwise specified. Refer to Section 6.3.3: SMPS step-down converter for the SMPS maximum consumption."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_44",
+    "is_continued": false,
+    "pages": [
+      176
+    ],
+    "rows_count": 4,
+    "cols_count": 11,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

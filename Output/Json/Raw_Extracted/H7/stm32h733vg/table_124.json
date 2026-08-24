@@ -1,0 +1,293 @@
+{
+  "table_id": "table_124",
+  "caption": "Table 124. LQFP144 - Mechanical data",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 225,
+  "merged_pages": [
+    225
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=225",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Symbol",
+    "millimeters / Min",
+    "millimeters / Typ",
+    "millimeters / Max",
+    "inches(14) / Min",
+    "inches(14) / Typ",
+    "inches(14) / Max"
+  ],
+  "rows": [
+    [
+      "A",
+      "-",
+      "-",
+      "1.60",
+      "-",
+      "-",
+      "0.0630"
+    ],
+    [
+      "A1(12)",
+      "0.05",
+      "-",
+      "0.15",
+      "0.0020",
+      "-",
+      "0.0059"
+    ],
+    [
+      "A2",
+      "1.35",
+      "1.40",
+      "1.45",
+      "0.0531",
+      "0.0551",
+      "0.0571"
+    ],
+    [
+      "b(9)(11)",
+      "0.17",
+      "0.22",
+      "0.27",
+      "0.0067",
+      "0.0087",
+      "0.0106"
+    ],
+    [
+      "b1(11)",
+      "0.17",
+      "0.20",
+      "0.23",
+      "0.0067",
+      "0.0079",
+      "0.0090"
+    ],
+    [
+      "c(11)",
+      "0.09",
+      "-",
+      "0.20",
+      "0.0035",
+      "-",
+      "0.0079"
+    ],
+    [
+      "c1(11)",
+      "0.09",
+      "-",
+      "0.16",
+      "0.0035",
+      "-",
+      "0.0063"
+    ],
+    [
+      "D(4)",
+      "22.00 BSC",
+      "22.00 BSC",
+      "22.00 BSC",
+      "0.8661 BSC",
+      "0.8661 BSC",
+      "0.8661 BSC"
+    ],
+    [
+      "D1(2)(5)",
+      "20.00 BSC",
+      "20.00 BSC",
+      "20.00 BSC",
+      "0.7874 BSC",
+      "0.7874 BSC",
+      "0.7874 BSC"
+    ],
+    [
+      "E(4)",
+      "22.00 BSC",
+      "22.00 BSC",
+      "22.00 BSC",
+      "0.8661 BSC",
+      "0.8661 BSC",
+      "0.8661 BSC"
+    ],
+    [
+      "E1(2)(5)",
+      "20.00 BSC",
+      "20.00 BSC",
+      "20.00 BSC",
+      "0.7874 BSC",
+      "0.7874 BSC",
+      "0.7874 BSC"
+    ],
+    [
+      "e",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.50 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC",
+      "0.0197 BSC"
+    ],
+    [
+      "L",
+      "0.45",
+      "0.60",
+      "0.75",
+      "0.0177",
+      "0.0236",
+      "0.0295"
+    ],
+    [
+      "L1",
+      "1.00 REF",
+      "1.00 REF",
+      "1.00 REF",
+      "0.0394 REF",
+      "0.0394 REF",
+      "0.0394 REF"
+    ],
+    [
+      "N(13)",
+      "144",
+      "144",
+      "144",
+      "144",
+      "144",
+      "144"
+    ],
+    [
+      "θ",
+      "0°",
+      "3.5°",
+      "7°",
+      "0°",
+      "3.5°",
+      "7°"
+    ],
+    [
+      "θ1",
+      "0°",
+      "-",
+      "-",
+      "0°",
+      "-",
+      "-"
+    ],
+    [
+      "θ2",
+      "10°",
+      "12°",
+      "14°",
+      "10°",
+      "12°",
+      "14°"
+    ],
+    [
+      "θ3",
+      "10°",
+      "12°",
+      "14°",
+      "10°",
+      "12°",
+      "14°"
+    ],
+    [
+      "R1",
+      "0.08",
+      "-",
+      "-",
+      "0.0031",
+      "-",
+      "-"
+    ],
+    [
+      "R2",
+      "0.08",
+      "-",
+      "0.20",
+      "0.0031",
+      "-",
+      "0.0079"
+    ],
+    [
+      "S",
+      "0.20",
+      "-",
+      "-",
+      "0.0079",
+      "-",
+      "-"
+    ],
+    [
+      "aaa",
+      "0.20",
+      "0.20",
+      "0.20",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "bbb",
+      "0.20",
+      "0.20",
+      "0.20",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "ccc",
+      "0.08",
+      "0.08",
+      "0.08",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ],
+    [
+      "ddd",
+      "0.08",
+      "0.08",
+      "0.08",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. The Top package body size may be smaller than the bottom package size by as much as 0.15 mm.",
+      "4. To be determined at seating datum plane C.",
+      "5. Dimensions D1 and E1 do not include mold flash or protrusions. Allowable mold flash or protrusions is “0.25 mm” per side. D1 and E1 are Maximum plastic body size",
+      "9. Dimension “b” does not include dambar protrusion. Allowable dambar protrusion shall not cause the lead width to exceed the maximum “b” dimension by more than 0.08 mm.",
+      "11. These dimensions apply to the flat section of the lead between 0.10 mm and 0.25 mm from the lead tip.",
+      "12. A1 is defined as the distance from the seating plane to the lowest point on the package body.",
+      "13. “N” is the number of terminal positions for the specified body size.",
+      "14. Values in inches are converted from mm and rounded to 4 decimal digits."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_124",
+    "is_continued": false,
+    "pages": [
+      225
+    ],
+    "rows_count": 26,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

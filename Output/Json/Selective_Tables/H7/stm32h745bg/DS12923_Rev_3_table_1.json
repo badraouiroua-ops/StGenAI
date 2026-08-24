@@ -1,0 +1,59 @@
+{
+  "table_id": "table_1",
+  "document": "DS12923 Rev 3 - Table 1. Device summary",
+  "rev": "Rev 3",
+  "table_number": "1",
+  "title": "Table 1. Device summary",
+  "page": 2,
+  "section": "4 DMA controllers to unload the CPU",
+  "section_title": "DMA controllers to unload the CPU",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "text_helper": "Table 1. Device summary — section 4 DMA controllers to unload the CPU. Reference, Part number.",
+  "table_content": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H745xI",
+        "STM32H745ZI"
+      ],
+      [
+        "STM32H745xI",
+        "STM32H745II"
+      ],
+      [
+        "STM32H745xI",
+        "STM32H745BI"
+      ],
+      [
+        "STM32H745xI",
+        "STM32H745XI"
+      ],
+      [
+        "STM32H745xG",
+        "STM32H745ZG"
+      ],
+      [
+        "STM32H745xG",
+        "STM32H745IG"
+      ],
+      [
+        "STM32H745xG",
+        "STM32H745BG"
+      ],
+      [
+        "STM32H745xG",
+        "STM32H745XG"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

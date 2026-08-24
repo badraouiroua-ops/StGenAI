@@ -1,0 +1,102 @@
+{
+  "table_id": "table_93",
+  "document": "DS14360 Rev 6 - Table 93. SDRAM read timings",
+  "rev": "Rev 6",
+  "table_number": "93",
+  "title": "Table 93. SDRAM read timings",
+  "page": 236,
+  "section": "6.3.17 FMC characteristics",
+  "section_title": "FMC characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=236",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 93. SDRAM read timings — section 6.3.17 FMC characteristics. Symbol, Parameter, Min, Max(2), Unit.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t w(SDCLK)",
+        "FMC_SDCLK period",
+        "2T – 0.5 fmc_ker_ck",
+        "2T +0.5 fmc_ker_ck",
+        "ns"
+      ],
+      [
+        "t su(SDCLKH _Data)",
+        "Data input setup time",
+        "2.5",
+        "-",
+        "ns"
+      ],
+      [
+        ")ataD_HKLCDS(h t",
+        "Data input hold time",
+        "0.5",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL_Add)",
+        "Address valid time",
+        "-",
+        "1.5",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL- SDNE)",
+        "Chip select valid time",
+        "-",
+        "1",
+        "ns"
+      ],
+      [
+        "t h(SDCLKL_SDNE)",
+        "Chip select hold time",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL_SDNRAS)",
+        "SDNRAS valid time",
+        "-",
+        "1.5",
+        "ns"
+      ],
+      [
+        "t h(SDCLKL_SDNRAS)",
+        "SDNRAS hold time",
+        "0",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(SDCLKL_SDNCAS)",
+        "SDNCAS valid time",
+        "-",
+        "1.5",
+        "ns"
+      ],
+      [
+        "t h(SDCLKL_SDNCAS)",
+        "SDNCAS hold time",
+        "0",
+        "-",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS Low, these values are degraded by up to 7%."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

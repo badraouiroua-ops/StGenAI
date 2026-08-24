@@ -1,0 +1,364 @@
+{
+  "table_id": "table_106",
+  "caption": "Table 106. VREFBUF characteristics",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 254,
+  "merged_pages": [
+    254,
+    255
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=254",
+  "section": "6.3.21 Voltage reference buffer characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Conditions",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DDA",
+      "Analog supply voltage",
+      "Normal mode, V = 3.3 V DDA",
+      "VRS = 000",
+      "2.8",
+      "3.3",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog supply voltage",
+      "Normal mode, V = 3.3 V DDA",
+      "VRS = 001",
+      "2.4",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog supply voltage",
+      "Normal mode, V = 3.3 V DDA",
+      "VRS = 010",
+      "2.1",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog supply voltage",
+      "Degraded mode(2)",
+      "VRS = 000",
+      "1.62",
+      "-",
+      "2.80",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog supply voltage",
+      "Degraded mode(2)",
+      "VRS = 001",
+      "1.62",
+      "-",
+      "2.40",
+      "V"
+    ],
+    [
+      "V DDA",
+      "Analog supply voltage",
+      "Degraded mode(2)",
+      "VRS = 010",
+      "1.62",
+      "-",
+      "2.10",
+      "V"
+    ],
+    [
+      "V REFBUF_ OUT",
+      "Voltage reference buffer output, at 30 °C, I = 100 µA load",
+      "Normal mode at 30 °C, I = 100 µA load",
+      "VRS = 000",
+      "2.4980(3)",
+      "2.5000",
+      "2.5035(3)",
+      "V"
+    ],
+    [
+      "V REFBUF_ OUT",
+      "Voltage reference buffer output, at 30 °C, I = 100 µA load",
+      "Normal mode at 30 °C, I = 100 µA load",
+      "VRS = 001",
+      "2.0460",
+      "2.0490",
+      "2.0520",
+      "V"
+    ],
+    [
+      "V REFBUF_ OUT",
+      "Voltage reference buffer output, at 30 °C, I = 100 µA load",
+      "Normal mode at 30 °C, I = 100 µA load",
+      "VRS = 010",
+      "1.8010",
+      "1.8040",
+      "1.8060",
+      "V"
+    ],
+    [
+      "V REFBUF_ OUT",
+      "Voltage reference buffer output, at 30 °C, I = 100 µA load",
+      "Degraded mode(2)",
+      "VRS = 000",
+      "V - DDA 150 mV",
+      "-",
+      "V DDA",
+      "V"
+    ],
+    [
+      "V REFBUF_ OUT",
+      "Voltage reference buffer output, at 30 °C, I = 100 µA load",
+      "Degraded mode(2)",
+      "VRS = 001",
+      "V - DDA 150 mV",
+      "-",
+      "V DDA",
+      "V"
+    ],
+    [
+      "V REFBUF_ OUT",
+      "Voltage reference buffer output, at 30 °C, I = 100 µA load",
+      "Degraded mode(2)",
+      "VRS = 010",
+      "V - DDA 150 mV",
+      "-",
+      "V DDA",
+      "V"
+    ],
+    [
+      "TRIM",
+      "Trim step resolution",
+      "-",
+      "-",
+      "-",
+      "±0.05",
+      "±0.1",
+      "%"
+    ],
+    [
+      "C L",
+      "Load capacitor",
+      "-",
+      "-",
+      "0.5",
+      "1",
+      "1.50",
+      "µF"
+    ],
+    [
+      "esr",
+      "Equivalent Serial Resistor of C L",
+      "-",
+      "-",
+      "-",
+      "-",
+      "2",
+      "Ω"
+    ],
+    [
+      "I LOAD",
+      "Static load current",
+      "-",
+      "-",
+      "-",
+      "-",
+      "4",
+      "mA"
+    ],
+    [
+      "I line_reg",
+      "Line regulation",
+      "2.8 V ≤ V ≤ DDA 3.6 V",
+      "I = 500 µA load",
+      "-",
+      "200",
+      "-",
+      "ppm/V"
+    ],
+    [
+      "I line_reg",
+      "Line regulation",
+      "2.8 V ≤ V ≤ DDA 3.6 V",
+      "I = 4 mA load",
+      "-",
+      "100",
+      "-",
+      "ppm/V"
+    ],
+    [
+      "I load_reg",
+      "Load regulation",
+      "500 µA ≤ I ≤ LOAD 4 mA",
+      "Normal mode",
+      "-",
+      "50",
+      "-",
+      "ppm/ mA"
+    ],
+    [
+      "T coeff",
+      "Temperature coefficient",
+      "-40 °C < T < +130 °C J",
+      "-40 °C < T < +130 °C J",
+      "-",
+      "-",
+      "T coeff V REFINT + 100",
+      "ppm/ °C"
+    ],
+    [
+      "PSRR",
+      "Power supply rejection",
+      "DC",
+      "DC",
+      "-",
+      "60",
+      "-",
+      "dB"
+    ],
+    [
+      "PSRR",
+      "Power supply rejection",
+      "100 KHz",
+      "100 KHz",
+      "-",
+      "40",
+      "-",
+      "dB"
+    ],
+    [
+      "t START",
+      "Start-up time",
+      "C =0.5 µF L",
+      "C =0.5 µF L",
+      "-",
+      "300",
+      "-",
+      "µs"
+    ],
+    [
+      "t START",
+      "Start-up time",
+      "C =1 µF L",
+      "C =1 µF L",
+      "-",
+      "500",
+      "-",
+      "µs"
+    ],
+    [
+      "t START",
+      "Start-up time",
+      "C =1.5 µF L",
+      "C =1.5 µF L",
+      "-",
+      "650",
+      "-",
+      "µs"
+    ],
+    [
+      "I INRUSH",
+      "Control of maximum DC current drive on V during REFBUF_OUT startup phase(4)",
+      "-",
+      "-",
+      "-",
+      "8",
+      "-",
+      "mA"
+    ],
+    [
+      "I DDA (VREFBUF)",
+      "VREFBUF consumption from V DDA",
+      "I = 0 µA LOAD",
+      "-",
+      "15",
+      "25",
+      "µA",
+      "mA"
+    ],
+    [
+      "I DDA (VREFBUF)",
+      "VREFBUF consumption from V DDA",
+      "I = 500 µA LOAD",
+      "-",
+      "16",
+      "30",
+      "µA",
+      "mA"
+    ],
+    [
+      "I DDA (VREFBUF)",
+      "VREFBUF consumption from V DDA",
+      "I = 4 mA LOAD",
+      "-",
+      "32",
+      "50",
+      "µA",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 8,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 8,
+    "continuation": {
+      "base_cols": 8,
+      "cont_cols_raw": 8,
+      "target_cols": 8,
+      "base_has_dup_headers": true,
+      "dup_positions": [
+        3
+      ],
+      "b7_detected": true,
+      "b7_expanded": false,
+      "cont_pages": 2
+    },
+    "spanning_check": {
+      "header_has_dup": false,
+      "category_repeats": 16,
+      "likely_missing_span": true
+    },
+    "_notes": [
+      "2. Evaluated by characterization - Not tested in production.",
+      "3. The characterization is done at VDD_CORE = 1.19 V for Typ/Min/Max.",
+      "4. To properly control VREFBUF IINRUSH current during the startup phase and the change of scaling, V voltage should be DDA"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "multi_page_merged:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_106",
+    "is_continued": true,
+    "pages": [
+      254,
+      255
+    ],
+    "rows_count": 29,
+    "cols_count": 8,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "table_id": "table_63",
+  "document": "DS13195 Rev 8 - Table 63. Electrical sensitivities",
+  "rev": "Rev 8",
+  "table_number": "63",
+  "title": "Table 63. Electrical sensitivities",
+  "page": 115,
+  "section": "6.3.14 Absolute maximum ratings (electrical sensitivity)",
+  "section_title": "Absolute maximum ratings (electrical sensitivity)",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=115",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 63. Electrical sensitivities — section 6.3.14 Absolute maximum ratings (electrical sensitivity). Symbol, Parameter, Conditions, Class.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Class"
+    ],
+    "rows": [
+      [
+        "LU",
+        "Static latchup class",
+        "TJ= +130 °C, conforming to JESD78",
+        "II level A"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by characterization results.",
+      "2. The electrostatic discharge is 2000 V for all pins, except VFBSMPS, for which the test fails at 2000 V and passes at 1600 V. Static latchup"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

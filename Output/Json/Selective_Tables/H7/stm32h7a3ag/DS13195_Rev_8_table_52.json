@@ -1,0 +1,154 @@
+{
+  "table_id": "table_52",
+  "document": "DS13195 Rev 8 - Table 52. HSI oscillator characteristics",
+  "rev": "Rev 8",
+  "table_number": "52",
+  "title": "Table 52. HSI oscillator characteristics",
+  "page": 110,
+  "section": "6.3.10 Internal clock source characteristics",
+  "section_title": "Internal clock source characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf#page=110",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7a3ag.pdf",
+  "text_helper": "Table 52. HSI oscillator characteristics — section 6.3.10 Internal clock source characteristics. Symbol, Parameter, Conditions, Min(1), Typ(1), +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Min(1)",
+      "Typ(1)",
+      "Max(1)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "fHSI",
+        "HSI frequency",
+        "VDD=3.3 V, TJ=30 °C",
+        "63.7(2)",
+        "64",
+        "64.3(2)",
+        "MHz"
+      ],
+      [
+        "TRIM",
+        "HSI user trimming step",
+        "Trimming is not a multiple of 32(3)",
+        "-",
+        "0.24",
+        "0.32",
+        "%"
+      ],
+      [
+        "TRIM",
+        "HSI user trimming step",
+        "Trimming is 128, 256 and 384(3)",
+        "-5.2",
+        "-1.8",
+        "-",
+        "%"
+      ],
+      [
+        "TRIM",
+        "HSI user trimming step",
+        "Trimming is 64, 192, 320 and 448(3)",
+        "-1.4",
+        "-0.8",
+        "-",
+        "%"
+      ],
+      [
+        "TRIM",
+        "HSI user trimming step",
+        "Other trimming are a multiple of 32 (not including multiple of 64 and 128)(3)",
+        "-0.6",
+        "-0.25",
+        "-",
+        "%"
+      ],
+      [
+        "DuCy(HSI)",
+        "Duty Cycle",
+        "-",
+        "45",
+        "-",
+        "55",
+        "%"
+      ],
+      [
+        "ΔVDD (HSI)",
+        "HSI oscillator frequency drift over VDD (reference is 3.3 V)",
+        "VDD=1.62 to 3.6 V",
+        "-0.12",
+        "-",
+        "0.03",
+        "%"
+      ],
+      [
+        "ΔTEMP (HSI)",
+        "HSI oscillator frequency drift over temperature (reference is 64 MHz)",
+        "TJ=-20 to 105 °C",
+        "-1(4)",
+        "-",
+        "1(4)",
+        "%"
+      ],
+      [
+        "ΔTEMP (HSI)",
+        "HSI oscillator frequency drift over temperature (reference is 64 MHz)",
+        "TJ=-40 to TJmax °C",
+        "-2(4)",
+        "-",
+        "1(4)",
+        "%"
+      ],
+      [
+        "tsu(HSI)",
+        "HSI oscillator start-up time",
+        "-",
+        "-",
+        "1.4",
+        "2",
+        "µs"
+      ],
+      [
+        "tstab(HSI)",
+        "HSI oscillator stabilization time",
+        "at 1 % of target frequency",
+        "-",
+        "4",
+        "8",
+        "µs"
+      ],
+      [
+        "tstab(HSI)",
+        "HSI oscillator stabilization time",
+        "at 5 % of target frequency",
+        "-",
+        "-",
+        "4",
+        "µs"
+      ],
+      [
+        "IDD(HSI)",
+        "HSI oscillator power consumption",
+        "-",
+        "-",
+        "300",
+        "400",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "1. Guaranteed by design, unless otherwise specified.",
+      "2. Calibrated during manufacturing tests.",
+      "3. Trimming value of HSICAL[8:0] (refer to RM0455).",
+      "4. Guaranteed by characterization results. 4 MHz low-power internal RC oscillator (CSI)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

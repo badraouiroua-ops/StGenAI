@@ -1,0 +1,98 @@
+{
+  "table_id": "table_126",
+  "caption": "Table 126. TFBGA240+25 - Tolerance of form and position",
+  "pdf_name": "stm32h745bg",
+  "family": "H7",
+  "page": 236,
+  "merged_pages": [
+    236
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h745bg.pdf#page=236",
+  "section": "7.1 Device marking",
+  "headers": [
+    "Symbol",
+    "Millimeters / Min",
+    "Millimeters / Typ",
+    "Millimeters / Max",
+    "Inches(2) / Min",
+    "Inches(2) / Typ",
+    "Inches(2) / Max"
+  ],
+  "rows": [
+    [
+      "aaa(13)",
+      "0.150",
+      "0.150",
+      "0.150",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "ccc(13)",
+      "0.200",
+      "0.200",
+      "0.200",
+      "0.0079",
+      "0.0079",
+      "0.0079"
+    ],
+    [
+      "ddd(13)",
+      "0.100",
+      "0.100",
+      "0.100",
+      "0.0039",
+      "0.0039",
+      "0.0039"
+    ],
+    [
+      "eee(13)",
+      "0.150",
+      "0.150",
+      "0.150",
+      "0.0059",
+      "0.0059",
+      "0.0059"
+    ],
+    [
+      "fff(13)",
+      "0.080",
+      "0.080",
+      "0.080",
+      "0.0031",
+      "0.0031",
+      "0.0031"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "2. Values in inches are converted from millimeters and rounded to four decimal digits.",
+      "13. For the tolerance of form and position definitions, see the following table."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h745bg",
+    "table_id": "table_126",
+    "is_continued": false,
+    "pages": [
+      236
+    ],
+    "rows_count": 5,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,4248 @@
+{
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "tables_checked": 156,
+  "cells_checked": 471,
+  "cells_reversed": 0,
+  "entries": [
+    {
+      "table_id": "table_1_row0",
+      "col": 0,
+      "row": 0,
+      "original": "STM32H7R3x8",
+      "reversed": false,
+      "drift": -6.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_1_row0",
+      "col": 1,
+      "row": 0,
+      "original": "STM32H7R3A8, STM32H7R3I8 STM32H7R3L8, STM32H7R3R8 STM32H7R3V8, STM32H7R3Z8",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Graphics",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_2_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Neo-Chrom (GPU2D)",
+      "reversed": false,
+      "drift": 4.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Flash memory (Kbytes)",
+      "reversed": false,
+      "drift": -2.73,
+      "corrected": null
+    },
+    {
+      "table_id": "table_3_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Flash memory (Kbytes)",
+      "reversed": false,
+      "drift": -2.73,
+      "corrected": null
+    },
+    {
+      "table_id": "table_4_row0",
+      "col": 5,
+      "row": 0,
+      "original": "ON (VOS)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 0,
+      "row": 0,
+      "original": "PWR_CSLEEP (CSLEEP)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_5_row0",
+      "col": 1,
+      "row": 0,
+      "original": "CPU clock OFF",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Kernel",
+      "reversed": false,
+      "drift": -3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 2,
+      "row": 0,
+      "original": "hclk1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 4,
+      "row": 0,
+      "original": "ADF1SEL",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_6_row0",
+      "col": 5,
+      "row": 0,
+      "original": "F / 2 MAX",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_7_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Supports up to two single/dual/quad interfaces",
+      "reversed": false,
+      "drift": -23.53,
+      "corrected": null
+    },
+    {
+      "table_id": "table_8_row0",
+      "col": 0,
+      "row": 0,
+      "original": "HyperBus standard compliant",
+      "reversed": false,
+      "drift": -11.46,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 0,
+      "row": 0,
+      "original": "TS_CAL1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Temperature sensor 12-bit raw data acquired by ADC1 at 30 °C (± 5 °C), V = V = 3.3 V (± 10 mV) DDA REF+",
+      "reversed": false,
+      "drift": 47.76,
+      "corrected": null
+    },
+    {
+      "table_id": "table_9_row0",
+      "col": 2,
+      "row": 0,
+      "original": "0x08FF F814 - 0x08FF F815",
+      "reversed": false,
+      "drift": 4.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_10_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Number of filters (DFLTx) and serial interfaces (SITFx)",
+      "reversed": false,
+      "drift": 6.18,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Advanced- control",
+      "reversed": false,
+      "drift": -8.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 2,
+      "row": 0,
+      "original": "16-bit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Up, Down, Up/down",
+      "reversed": false,
+      "drift": -5.11,
+      "corrected": null
+    },
+    {
+      "table_id": "table_11_row0",
+      "col": 4,
+      "row": 0,
+      "original": "Any integer between 1 and 65536",
+      "reversed": false,
+      "drift": -11.89,
+      "corrected": null
+    },
+    {
+      "table_id": "table_12_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Hardware flow control for modem",
+      "reversed": false,
+      "drift": -15.31,
+      "corrected": null
+    },
+    {
+      "table_id": "table_13_row0",
+      "col": 0,
+      "row": 0,
+      "original": "USART1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Data and CRC size",
+      "reversed": false,
+      "drift": -0.7,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Configurable from 4 to 32- bit",
+      "reversed": false,
+      "drift": -12.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_14_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Configurable from 4 to 16- bit",
+      "reversed": false,
+      "drift": -12.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_15_row0",
+      "col": 0,
+      "row": 0,
+      "original": "I2S, LSB or MSB-justified, PCM/DSP, TDM, AC'97",
+      "reversed": false,
+      "drift": 4.7,
+      "corrected": null
+    },
+    {
+      "table_id": "table_16_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Host mode",
+      "reversed": false,
+      "drift": -4.57,
+      "corrected": null
+    },
+    {
+      "table_id": "table_17_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Host mode",
+      "reversed": false,
+      "drift": -4.57,
+      "corrected": null
+    },
+    {
+      "table_id": "table_18_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Pin name",
+      "reversed": false,
+      "drift": -4.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_18_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Pin name",
+      "reversed": false,
+      "drift": -4.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_18_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Unless otherwise specified in brackets below the pin name, the pin function during and after reset is the same as the actual pin name",
+      "reversed": false,
+      "drift": -65.23,
+      "corrected": null
+    },
+    {
+      "table_id": "table_18_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Unless otherwise specified in brackets below the pin name, the pin function during and after reset is the same as the actual pin name",
+      "reversed": false,
+      "drift": -65.23,
+      "corrected": null
+    },
+    {
+      "table_id": "table_19_row0",
+      "col": 17,
+      "row": 0,
+      "original": "FT_fh",
+      "reversed": false,
+      "drift": -3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_19_row0",
+      "col": 19,
+      "row": 0,
+      "original": "TIM17_CH1, TIM4_CH4, I2C1_SDA/I3C1_SDA, SPI2_NSS/I2S2_WS, PSSI_D7, SDMMC1_CDIR, UART4_TX, FDCAN1_TX, SDMMC2_D5, SDMMC1_D5, DCMIPP_D7, EVENTOUT",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_19_row0",
+      "col": 20,
+      "row": 0,
+      "original": "TAMP_IN2/ TAMP_OUT1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Port A",
+      "reversed": false,
+      "drift": 0.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 3,
+      "row": 0,
+      "original": "TIM2_C H1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 4,
+      "row": 0,
+      "original": "TIM5_C H1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 5,
+      "row": 0,
+      "original": "TIM9_C H1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 6,
+      "row": 0,
+      "original": "TIM15_ BKIN",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 7,
+      "row": 0,
+      "original": "SPI6_N SS/I2S6 _WS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 9,
+      "row": 0,
+      "original": "USART2 _CTS/U SART2_ NSS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 10,
+      "row": 0,
+      "original": "UART4_ TX",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 11,
+      "row": 0,
+      "original": "SDMMC 2_CMD",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 12,
+      "row": 0,
+      "original": "SAI2_S D_B",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 14,
+      "row": 0,
+      "original": "FMC_A D7/FMC _D7",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 15,
+      "row": 0,
+      "original": "LCD_G3",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_20_row0",
+      "col": 17,
+      "row": 0,
+      "original": "EVENT OUT",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_21_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V -V (1) DDX SS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_21_row0",
+      "col": 1,
+      "row": 0,
+      "original": "External main supply voltage (including V (2)(3)(4), V , V , V , DD DDSMPS DDA DD33USB V (2)(3)(4), V V ) DDXSPIx BAT, REF+",
+      "reversed": false,
+      "drift": 62.49,
+      "corrected": null
+    },
+    {
+      "table_id": "table_22_row0",
+      "col": 0,
+      "row": 0,
+      "original": "ΣIV DD",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_22_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Total current into sum of all V power lines (source)(1) DD",
+      "reversed": false,
+      "drift": 10.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_23_row0",
+      "col": 0,
+      "row": 0,
+      "original": "T STG",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_23_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Storage temperature range",
+      "reversed": false,
+      "drift": -12.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_23_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Storage temperature range",
+      "reversed": false,
+      "drift": -12.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_23_row0",
+      "col": 3,
+      "row": 0,
+      "original": "-65 to +150",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_24_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Standard operating voltage",
+      "reversed": false,
+      "drift": -13.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_24_row0",
+      "col": 2,
+      "row": 0,
+      "original": "HSLV=0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_24_row0",
+      "col": 3,
+      "row": 0,
+      "original": "1.71(1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_25_row0",
+      "col": 0,
+      "row": 0,
+      "original": "VOS high",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_26_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Figure",
+      "reversed": false,
+      "drift": -3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_26_row0",
+      "col": 2,
+      "row": 0,
+      "original": "25. Exte",
+      "reversed": false,
+      "drift": -2.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_26_row0",
+      "col": 3,
+      "row": 0,
+      "original": "rnal capacit",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_26_row0",
+      "col": 4,
+      "row": 0,
+      "original": "or C EXT",
+      "reversed": false,
+      "drift": 4.75,
+      "corrected": null
+    },
+    {
+      "table_id": "table_27_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Figure 26. External components for SMPS step-down converter",
+      "reversed": false,
+      "drift": -4.76,
+      "corrected": null
+    },
+    {
+      "table_id": "table_28_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V (1) DDSMPS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_28_row0",
+      "col": 1,
+      "row": 0,
+      "original": "V = 1.8 V OUT",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_29_row0",
+      "col": 0,
+      "row": 0,
+      "original": "I RUSH",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_29_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Inrush current on voltage regulator power-on (POR or wakeup from Standby)",
+      "reversed": false,
+      "drift": 6.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_29_row0",
+      "col": 2,
+      "row": 0,
+      "original": "On V (3) DDLDO",
+      "reversed": false,
+      "drift": 7.29,
+      "corrected": null
+    },
+    {
+      "table_id": "table_29_row0",
+      "col": 6,
+      "row": 0,
+      "original": "96(4)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_30_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t VDD",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_30_row0",
+      "col": 1,
+      "row": 0,
+      "original": "V rise time rate DD",
+      "reversed": false,
+      "drift": 3.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_31_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t (1) RSTTEMPO",
+      "reversed": false,
+      "drift": 9.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_31_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Reset temporization after BOR0 released",
+      "reversed": false,
+      "drift": 1.85,
+      "corrected": null
+    },
+    {
+      "table_id": "table_32_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V REFINT",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_32_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Internal reference voltages",
+      "reversed": false,
+      "drift": -13.54,
+      "corrected": null
+    },
+    {
+      "table_id": "table_32_row0",
+      "col": 2,
+      "row": 0,
+      "original": "-40°C < T < T J Jmax",
+      "reversed": false,
+      "drift": -7.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_32_row0",
+      "col": 4,
+      "row": 0,
+      "original": "1.216",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_32_row0",
+      "col": 5,
+      "row": 0,
+      "original": "1.255",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_33_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V REFIN_CAL",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_33_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Raw data acquired at temperature of 30 °C, V = 3.3 V DDA",
+      "reversed": false,
+      "drift": 24.53,
+      "corrected": null
+    },
+    {
+      "table_id": "table_33_row0",
+      "col": 2,
+      "row": 0,
+      "original": "0x08FF F810 - 0x08FF F811",
+      "reversed": false,
+      "drift": 4.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_34_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Supply current in Run mode",
+      "reversed": false,
+      "drift": -3.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_34_row0",
+      "col": 2,
+      "row": 0,
+      "original": "All peripherals disabled",
+      "reversed": false,
+      "drift": -12.29,
+      "corrected": null
+    },
+    {
+      "table_id": "table_34_row0",
+      "col": 3,
+      "row": 0,
+      "original": "VOS high",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_34_row0",
+      "col": 5,
+      "row": 0,
+      "original": "125.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_34_row0",
+      "col": 7,
+      "row": 0,
+      "original": "135.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_34_row0",
+      "col": 8,
+      "row": 0,
+      "original": "235.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_34_row0",
+      "col": 9,
+      "row": 0,
+      "original": "310.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_35_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Supply current in Run mode",
+      "reversed": false,
+      "drift": -3.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_35_row0",
+      "col": 2,
+      "row": 0,
+      "original": "All peripherals disabled",
+      "reversed": false,
+      "drift": -12.29,
+      "corrected": null
+    },
+    {
+      "table_id": "table_35_row0",
+      "col": 3,
+      "row": 0,
+      "original": "VOS high",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_35_row0",
+      "col": 5,
+      "row": 0,
+      "original": "130.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_35_row0",
+      "col": 7,
+      "row": 0,
+      "original": "140.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_35_row0",
+      "col": 8,
+      "row": 0,
+      "original": "240.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_35_row0",
+      "col": 9,
+      "row": 0,
+      "original": "315.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_36_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Supply current in Run mode",
+      "reversed": false,
+      "drift": -3.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_36_row0",
+      "col": 2,
+      "row": 0,
+      "original": "All peripherals disabled",
+      "reversed": false,
+      "drift": -12.29,
+      "corrected": null
+    },
+    {
+      "table_id": "table_36_row0",
+      "col": 3,
+      "row": 0,
+      "original": "VOS high",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_36_row0",
+      "col": 7,
+      "row": 0,
+      "original": "110.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_36_row0",
+      "col": 8,
+      "row": 0,
+      "original": "210.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_36_row0",
+      "col": 9,
+      "row": 0,
+      "original": "285.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_37_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Supply current in Run mode",
+      "reversed": false,
+      "drift": -3.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_37_row0",
+      "col": 2,
+      "row": 0,
+      "original": "All peripherals disabled",
+      "reversed": false,
+      "drift": -12.29,
+      "corrected": null
+    },
+    {
+      "table_id": "table_37_row0",
+      "col": 3,
+      "row": 0,
+      "original": "VOS high",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_37_row0",
+      "col": 5,
+      "row": 0,
+      "original": "130.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_37_row0",
+      "col": 7,
+      "row": 0,
+      "original": "140.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_37_row0",
+      "col": 8,
+      "row": 0,
+      "original": "235.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_37_row0",
+      "col": 9,
+      "row": 0,
+      "original": "315.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_38_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Supply current in Run mode",
+      "reversed": false,
+      "drift": -3.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_38_row0",
+      "col": 2,
+      "row": 0,
+      "original": "All peripherals disabled",
+      "reversed": false,
+      "drift": -12.29,
+      "corrected": null
+    },
+    {
+      "table_id": "table_38_row0",
+      "col": 3,
+      "row": 0,
+      "original": "VOS high",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_38_row0",
+      "col": 8,
+      "row": 0,
+      "original": "195.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_38_row0",
+      "col": 9,
+      "row": 0,
+      "original": "270.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_39_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Supply current in Run mode",
+      "reversed": false,
+      "drift": -3.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_39_row0",
+      "col": 2,
+      "row": 0,
+      "original": "All peripherals disabled",
+      "reversed": false,
+      "drift": -12.29,
+      "corrected": null
+    },
+    {
+      "table_id": "table_39_row0",
+      "col": 6,
+      "row": 0,
+      "original": "125.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_39_row0",
+      "col": 11,
+      "row": 0,
+      "original": "µA/ Core- Mark",
+      "reversed": false,
+      "drift": -2.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_40_row0",
+      "col": 0,
+      "row": 0,
+      "original": "I DD(Sleep)",
+      "reversed": false,
+      "drift": -5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_40_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Supply current in Sleep mode",
+      "reversed": false,
+      "drift": -4.64,
+      "corrected": null
+    },
+    {
+      "table_id": "table_40_row0",
+      "col": 2,
+      "row": 0,
+      "original": "All peripherals disabed",
+      "reversed": false,
+      "drift": -11.75,
+      "corrected": null
+    },
+    {
+      "table_id": "table_40_row0",
+      "col": 3,
+      "row": 0,
+      "original": "VOS high",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_40_row0",
+      "col": 8,
+      "row": 0,
+      "original": "150.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_40_row0",
+      "col": 9,
+      "row": 0,
+      "original": "225.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_41_row0",
+      "col": 0,
+      "row": 0,
+      "original": "I DD(Stop)",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_41_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Flash memory in low-power mode",
+      "reversed": false,
+      "drift": -14.96,
+      "corrected": null
+    },
+    {
+      "table_id": "table_41_row0",
+      "col": 3,
+      "row": 0,
+      "original": "SVOS high",
+      "reversed": false,
+      "drift": -5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_41_row0",
+      "col": 4,
+      "row": 0,
+      "original": "1.450",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_41_row0",
+      "col": 5,
+      "row": 0,
+      "original": "0.700",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_41_row0",
+      "col": 8,
+      "row": 0,
+      "original": "115.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_41_row0",
+      "col": 9,
+      "row": 0,
+      "original": "200.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_42_row0",
+      "col": 0,
+      "row": 0,
+      "original": "I DD(Stop)",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_42_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Flash memory in low-power mode",
+      "reversed": false,
+      "drift": -14.96,
+      "corrected": null
+    },
+    {
+      "table_id": "table_42_row0",
+      "col": 3,
+      "row": 0,
+      "original": "SVOS high",
+      "reversed": false,
+      "drift": -5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_42_row0",
+      "col": 4,
+      "row": 0,
+      "original": "1.450",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_42_row0",
+      "col": 5,
+      "row": 0,
+      "original": "0.700",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_42_row0",
+      "col": 8,
+      "row": 0,
+      "original": "115.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_42_row0",
+      "col": 9,
+      "row": 0,
+      "original": "200.0",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_43_row0",
+      "col": 0,
+      "row": 0,
+      "original": "I DD (VBAT)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_43_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Supply current in VBAT mode",
+      "reversed": false,
+      "drift": 3.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_43_row0",
+      "col": 4,
+      "row": 0,
+      "original": "0.009",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_43_row0",
+      "col": 5,
+      "row": 0,
+      "original": "0.013",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_43_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.021",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_43_row0",
+      "col": 7,
+      "row": 0,
+      "original": "0.037",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_43_row0",
+      "col": 11,
+      "row": 0,
+      "original": "27.00",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_44_row0",
+      "col": 0,
+      "row": 0,
+      "original": "IDD_XSPI",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_44_row0",
+      "col": 1,
+      "row": 0,
+      "original": "XSPI current in Run mode",
+      "reversed": false,
+      "drift": -9.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_44_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = DDXSPIx 1.8 V",
+      "reversed": false,
+      "drift": -3.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_45_row0",
+      "col": 0,
+      "row": 0,
+      "original": "IDD_XSPI",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_45_row0",
+      "col": 1,
+      "row": 0,
+      "original": "XSPI current in Run mode",
+      "reversed": false,
+      "drift": -9.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_45_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = DDXSPIx 1.8 V",
+      "reversed": false,
+      "drift": -3.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_46_row0",
+      "col": 0,
+      "row": 0,
+      "original": "IDD_XSPI",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_46_row0",
+      "col": 1,
+      "row": 0,
+      "original": "XSPI current in Run mode",
+      "reversed": false,
+      "drift": -9.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_46_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = DDXSPIx 1.8 V",
+      "reversed": false,
+      "drift": -3.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_47_row0",
+      "col": 0,
+      "row": 0,
+      "original": "IDD_XSPI",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_47_row0",
+      "col": 1,
+      "row": 0,
+      "original": "XSPI current in Run mode",
+      "reversed": false,
+      "drift": -9.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_47_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = DDXSPIx 1.8 V",
+      "reversed": false,
+      "drift": -3.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_47_row0",
+      "col": 5,
+      "row": 0,
+      "original": "26.50",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_48_row0",
+      "col": 0,
+      "row": 0,
+      "original": "IDD_XSPI",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_48_row0",
+      "col": 1,
+      "row": 0,
+      "original": "XSPI current in Run mode",
+      "reversed": false,
+      "drift": -9.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_48_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = DDXSPIx 1.8 V",
+      "reversed": false,
+      "drift": -3.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_48_row0",
+      "col": 5,
+      "row": 0,
+      "original": "16.00",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_49_row0",
+      "col": 0,
+      "row": 0,
+      "original": "IDD_XSPI",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_49_row0",
+      "col": 1,
+      "row": 0,
+      "original": "XSPI current in Run mode",
+      "reversed": false,
+      "drift": -9.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_49_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = DDXSPIx 1.8 V",
+      "reversed": false,
+      "drift": -3.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_49_row0",
+      "col": 5,
+      "row": 0,
+      "original": "10.50",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_50_row0",
+      "col": 1,
+      "row": 0,
+      "original": "ADC1/2 registers",
+      "reversed": false,
+      "drift": -10.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_50_row0",
+      "col": 6,
+      "row": 0,
+      "original": "µA/MHz",
+      "reversed": false,
+      "drift": 0.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_51_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t (4) WUSLEEP",
+      "reversed": false,
+      "drift": 9.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_51_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Wakeup from Sleep",
+      "reversed": false,
+      "drift": -2.23,
+      "corrected": null
+    },
+    {
+      "table_id": "table_51_row0",
+      "col": 5,
+      "row": 0,
+      "original": "CPU clock cycles",
+      "reversed": false,
+      "drift": -8.55,
+      "corrected": null
+    },
+    {
+      "table_id": "table_52_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f HSE_ext",
+      "reversed": false,
+      "drift": -2.25,
+      "corrected": null
+    },
+    {
+      "table_id": "table_52_row0",
+      "col": 1,
+      "row": 0,
+      "original": "User external clock source frequency",
+      "reversed": false,
+      "drift": -18.32,
+      "corrected": null
+    },
+    {
+      "table_id": "table_52_row0",
+      "col": 2,
+      "row": 0,
+      "original": "External digital/ analog clock",
+      "reversed": false,
+      "drift": -14.8,
+      "corrected": null
+    },
+    {
+      "table_id": "table_53_row0",
+      "col": 0,
+      "row": 0,
+      "original": "IO power supply",
+      "reversed": false,
+      "drift": -8.05,
+      "corrected": null
+    },
+    {
+      "table_id": "table_53_row0",
+      "col": 1,
+      "row": 0,
+      "original": "V DDIO",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_54_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f LSE_ext",
+      "reversed": false,
+      "drift": -2.25,
+      "corrected": null
+    },
+    {
+      "table_id": "table_54_row0",
+      "col": 1,
+      "row": 0,
+      "original": "User external clock source frequency",
+      "reversed": false,
+      "drift": -18.32,
+      "corrected": null
+    },
+    {
+      "table_id": "table_54_row0",
+      "col": 2,
+      "row": 0,
+      "original": "External digital / analog clock",
+      "reversed": false,
+      "drift": -15.24,
+      "corrected": null
+    },
+    {
+      "table_id": "table_54_row0",
+      "col": 4,
+      "row": 0,
+      "original": "32.768",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_55_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Input frequency",
+      "reversed": false,
+      "drift": -7.69,
+      "corrected": null
+    },
+    {
+      "table_id": "table_55_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Fundamental frequency",
+      "reversed": false,
+      "drift": -10.47,
+      "corrected": null
+    },
+    {
+      "table_id": "table_55_row0",
+      "col": 2,
+      "row": 0,
+      "original": "32.768",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_55_row0",
+      "col": 3,
+      "row": 0,
+      "original": "32.768",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_55_row0",
+      "col": 4,
+      "row": 0,
+      "original": "32.768",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_56_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Oscillator frequency",
+      "reversed": false,
+      "drift": -10.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_57_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Oscillator frequency",
+      "reversed": false,
+      "drift": -10.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_57_row0",
+      "col": 4,
+      "row": 0,
+      "original": "32.768",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_58_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f HSI48",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_58_row0",
+      "col": 1,
+      "row": 0,
+      "original": "HSI48 frequency",
+      "reversed": false,
+      "drift": -9.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_58_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V =3.3 V, DD TJ=30 °C",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_58_row0",
+      "col": 3,
+      "row": 0,
+      "original": "47.5(1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_58_row0",
+      "col": 5,
+      "row": 0,
+      "original": "48.5(1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_59_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f HSI",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_59_row0",
+      "col": 1,
+      "row": 0,
+      "original": "HSI frequency",
+      "reversed": false,
+      "drift": -7.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_59_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V =3.3 V, T =30 °C DD J",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_59_row0",
+      "col": 3,
+      "row": 0,
+      "original": "63.7(2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_59_row0",
+      "col": 5,
+      "row": 0,
+      "original": "64.3(2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_60_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f CSI",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_60_row0",
+      "col": 1,
+      "row": 0,
+      "original": "CSI frequency",
+      "reversed": false,
+      "drift": -7.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_60_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V =3.3 V, T =30 °C DD J",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_60_row0",
+      "col": 3,
+      "row": 0,
+      "original": "3.96(2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_60_row0",
+      "col": 5,
+      "row": 0,
+      "original": "4.04(2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_61_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f LSI",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_61_row0",
+      "col": 1,
+      "row": 0,
+      "original": "LSI frequency",
+      "reversed": false,
+      "drift": -7.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_61_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = 3.3 V, T = 25 °C DD J",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_61_row0",
+      "col": 3,
+      "row": 0,
+      "original": "31.4(1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_61_row0",
+      "col": 5,
+      "row": 0,
+      "original": "32.6(1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_62_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f PLL_IN",
+      "reversed": false,
+      "drift": 4.4,
+      "corrected": null
+    },
+    {
+      "table_id": "table_62_row0",
+      "col": 1,
+      "row": 0,
+      "original": "PLL input clock",
+      "reversed": false,
+      "drift": -8.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_63_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f PLL_IN",
+      "reversed": false,
+      "drift": 4.4,
+      "corrected": null
+    },
+    {
+      "table_id": "table_63_row0",
+      "col": 1,
+      "row": 0,
+      "original": "PLL input clock",
+      "reversed": false,
+      "drift": -8.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_64_row0",
+      "col": 0,
+      "row": 0,
+      "original": "md: Modulation depth in center spread mode",
+      "reversed": false,
+      "drift": -17.41,
+      "corrected": null
+    },
+    {
+      "table_id": "table_64_row0",
+      "col": 1,
+      "row": 0,
+      "original": "+/-0.25%",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_64_row0",
+      "col": 2,
+      "row": 0,
+      "original": "+/-2%",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_65_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V FESD",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_65_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Voltage limits to be applied on any I/O pin to induce a functional disturbance",
+      "reversed": false,
+      "drift": -15.3,
+      "corrected": null
+    },
+    {
+      "table_id": "table_65_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = 3.3 V, T = 25 °C, DD A f = 600 MHz, HCLK BGA225 Hexa package conforming to IEC 61000-4-2",
+      "reversed": false,
+      "drift": -23.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_66_row0",
+      "col": 0,
+      "row": 0,
+      "original": "S EMI",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_66_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Peak level(1)",
+      "reversed": false,
+      "drift": -5.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_66_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = 3.6 V, T = 25 °C, BGA225 DD A package, compliant with IEC61967-2",
+      "reversed": false,
+      "drift": -16.15,
+      "corrected": null
+    },
+    {
+      "table_id": "table_66_row0",
+      "col": 3,
+      "row": 0,
+      "original": "0.1 to 30 MHz",
+      "reversed": false,
+      "drift": 3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_67_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V ESD(HBM)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_67_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Electrostatic discharge voltage (human body model)",
+      "reversed": false,
+      "drift": -23.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_67_row0",
+      "col": 2,
+      "row": 0,
+      "original": "T = +25 °C conforming to A ANSI/ESDA/JEDEC JS-001",
+      "reversed": false,
+      "drift": 14.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_67_row0",
+      "col": 3,
+      "row": 0,
+      "original": "All packages",
+      "reversed": false,
+      "drift": -6.3,
+      "corrected": null
+    },
+    {
+      "table_id": "table_68_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Static latchup class",
+      "reversed": false,
+      "drift": -10.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_68_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Conforming to JESD78, T = T J JMax",
+      "reversed": false,
+      "drift": 9.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_68_row0",
+      "col": 3,
+      "row": 0,
+      "original": "II level A",
+      "reversed": false,
+      "drift": -1.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_69_row0",
+      "col": 0,
+      "row": 0,
+      "original": "I INJ",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_69_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Injected current on pins: PB2, PC14, PC15, PF15, PM0, PM1, PM5 and PM6",
+      "reversed": false,
+      "drift": 25.05,
+      "corrected": null
+    },
+    {
+      "table_id": "table_70_row0",
+      "col": 1,
+      "row": 0,
+      "original": "I/O input low level voltage except BOOT0",
+      "reversed": false,
+      "drift": 5.94,
+      "corrected": null
+    },
+    {
+      "table_id": "table_70_row0",
+      "col": 2,
+      "row": 0,
+      "original": "1.08 V < V < 3.6 V DD",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_70_row0",
+      "col": 5,
+      "row": 0,
+      "original": "0.3 V (2) DDIOx",
+      "reversed": false,
+      "drift": -4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_71_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Output low level voltage",
+      "reversed": false,
+      "drift": -12.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_71_row0",
+      "col": 2,
+      "row": 0,
+      "original": "CMOS port(2) I = 8 mA IO 2.7 V≤ V ≤ 3.6 V DD",
+      "reversed": false,
+      "drift": 11.77,
+      "corrected": null
+    },
+    {
+      "table_id": "table_72_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Output low level voltage",
+      "reversed": false,
+      "drift": -12.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_72_row0",
+      "col": 2,
+      "row": 0,
+      "original": "CMOS port(2) I = 3 mA IO 2.7 V≤ V ≤3.6 V DD",
+      "reversed": false,
+      "drift": 11.54,
+      "corrected": null
+    },
+    {
+      "table_id": "table_73_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Output low level voltage",
+      "reversed": false,
+      "drift": -12.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_73_row0",
+      "col": 2,
+      "row": 0,
+      "original": "CMOS port(2) I = 0.5 mA IO 2.7 V ≤ V ≤ 3.6 V DD",
+      "reversed": false,
+      "drift": 12.91,
+      "corrected": null
+    },
+    {
+      "table_id": "table_74_row0",
+      "col": 1,
+      "row": 0,
+      "original": "F (2)(3) max",
+      "reversed": false,
+      "drift": -10.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_74_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Maximum frequency",
+      "reversed": false,
+      "drift": -8.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_74_row0",
+      "col": 3,
+      "row": 0,
+      "original": "C = 50 pF, 2.7 V ≤ V ≤ 3.6 V DD",
+      "reversed": false,
+      "drift": 11.29,
+      "corrected": null
+    },
+    {
+      "table_id": "table_75_row0",
+      "col": 1,
+      "row": 0,
+      "original": "F (2) max",
+      "reversed": false,
+      "drift": -7.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_75_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Maximum frequency",
+      "reversed": false,
+      "drift": -8.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_75_row0",
+      "col": 3,
+      "row": 0,
+      "original": "C = 50 pF, 1.71 V ≤ V ≤2 V DD",
+      "reversed": false,
+      "drift": 10.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_76_row0",
+      "col": 1,
+      "row": 0,
+      "original": "F (2)(4) max",
+      "reversed": false,
+      "drift": -10.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_76_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Maximum frequency",
+      "reversed": false,
+      "drift": -8.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_76_row0",
+      "col": 3,
+      "row": 0,
+      "original": "C = 50 pF, 1.71 V ≤ V ≤2 V DD",
+      "reversed": false,
+      "drift": 10.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_77_row0",
+      "col": 1,
+      "row": 0,
+      "original": "F (2) max",
+      "reversed": false,
+      "drift": -7.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_77_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Maximum frequency",
+      "reversed": false,
+      "drift": -8.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_77_row0",
+      "col": 3,
+      "row": 0,
+      "original": "C = 50 pF, 1.08 V ≤ V ≤1.32 V DDXSPIx",
+      "reversed": false,
+      "drift": 2.77,
+      "corrected": null
+    },
+    {
+      "table_id": "table_78_row0",
+      "col": 0,
+      "row": 0,
+      "original": "R (2) PU",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_78_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Weak pull-up equivalent resistor(1)",
+      "reversed": false,
+      "drift": -16.59,
+      "corrected": null
+    },
+    {
+      "table_id": "table_78_row0",
+      "col": 2,
+      "row": 0,
+      "original": "V = V IN SS",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_79_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(NE)",
+      "reversed": false,
+      "drift": 3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_79_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NE low time",
+      "reversed": false,
+      "drift": -8.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_79_row0",
+      "col": 2,
+      "row": 0,
+      "original": "3T –1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_79_row0",
+      "col": 3,
+      "row": 0,
+      "original": "3T +1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_80_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(NE)",
+      "reversed": false,
+      "drift": 3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_80_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NE low time",
+      "reversed": false,
+      "drift": -8.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_80_row0",
+      "col": 2,
+      "row": 0,
+      "original": "8T –1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_80_row0",
+      "col": 3,
+      "row": 0,
+      "original": "8T +1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_81_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(NE)",
+      "reversed": false,
+      "drift": 3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_81_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NE low time",
+      "reversed": false,
+      "drift": -8.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_81_row0",
+      "col": 2,
+      "row": 0,
+      "original": "3T –1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_81_row0",
+      "col": 3,
+      "row": 0,
+      "original": "3T + 1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -10.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_82_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(NE)",
+      "reversed": false,
+      "drift": 3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_82_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NE low time",
+      "reversed": false,
+      "drift": -8.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_82_row0",
+      "col": 2,
+      "row": 0,
+      "original": "8T –1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_82_row0",
+      "col": 3,
+      "row": 0,
+      "original": "8T +1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_83_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(NE)",
+      "reversed": false,
+      "drift": 3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_83_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NE low time",
+      "reversed": false,
+      "drift": -8.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_83_row0",
+      "col": 2,
+      "row": 0,
+      "original": "4T –1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_83_row0",
+      "col": 3,
+      "row": 0,
+      "original": "4T +1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_84_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(NE)",
+      "reversed": false,
+      "drift": 3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_84_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NE low time",
+      "reversed": false,
+      "drift": -8.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_84_row0",
+      "col": 2,
+      "row": 0,
+      "original": "9T –1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_84_row0",
+      "col": 3,
+      "row": 0,
+      "original": "9T +1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_85_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(NE)",
+      "reversed": false,
+      "drift": 3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_85_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NE low time",
+      "reversed": false,
+      "drift": -8.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_85_row0",
+      "col": 2,
+      "row": 0,
+      "original": "4T –1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_85_row0",
+      "col": 3,
+      "row": 0,
+      "original": "4T +1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_86_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(NE)",
+      "reversed": false,
+      "drift": 3.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_86_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NE low time",
+      "reversed": false,
+      "drift": -8.17,
+      "corrected": null
+    },
+    {
+      "table_id": "table_86_row0",
+      "col": 2,
+      "row": 0,
+      "original": "9T –1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -9.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_86_row0",
+      "col": 3,
+      "row": 0,
+      "original": "9T + 1 fmc_ker_ck",
+      "reversed": false,
+      "drift": -10.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_87_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(CLK)",
+      "reversed": false,
+      "drift": 4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_87_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_CLK period",
+      "reversed": false,
+      "drift": -7.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_87_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2T –0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_88_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t (CLK)",
+      "reversed": false,
+      "drift": 4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_88_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_CLK period",
+      "reversed": false,
+      "drift": -7.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_88_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2T –0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_89_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(CLK)",
+      "reversed": false,
+      "drift": 4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_89_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_CLK period",
+      "reversed": false,
+      "drift": -7.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_89_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2T –0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_90_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(CLK)",
+      "reversed": false,
+      "drift": 4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_90_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_CLK period, V = 2.7 to 3.6 V DD",
+      "reversed": false,
+      "drift": -0.8,
+      "corrected": null
+    },
+    {
+      "table_id": "table_90_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2T –0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_91_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(N0E)",
+      "reversed": false,
+      "drift": 4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_91_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NOE low width",
+      "reversed": false,
+      "drift": -9.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_91_row0",
+      "col": 2,
+      "row": 0,
+      "original": "4T – 0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -12.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_91_row0",
+      "col": 3,
+      "row": 0,
+      "original": "4T +0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_92_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(NWE)",
+      "reversed": false,
+      "drift": 4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_92_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_NWE low width",
+      "reversed": false,
+      "drift": -9.12,
+      "corrected": null
+    },
+    {
+      "table_id": "table_92_row0",
+      "col": 2,
+      "row": 0,
+      "original": "4T – 0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -12.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_92_row0",
+      "col": 3,
+      "row": 0,
+      "original": "4T +0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_93_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(SDCLK)",
+      "reversed": false,
+      "drift": 5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_93_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_SDCLK period",
+      "reversed": false,
+      "drift": -8.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_93_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2T – 0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -12.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_93_row0",
+      "col": 3,
+      "row": 0,
+      "original": "2T +0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_94_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t W(SDCLK)",
+      "reversed": false,
+      "drift": 5.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_94_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_SDCLK period",
+      "reversed": false,
+      "drift": -8.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_94_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2T – 0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -12.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_94_row0",
+      "col": 3,
+      "row": 0,
+      "original": "2T +0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_95_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(SDCLK)",
+      "reversed": false,
+      "drift": 5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_95_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_SDCLK period",
+      "reversed": false,
+      "drift": -8.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_95_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2T – 0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -12.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_95_row0",
+      "col": 3,
+      "row": 0,
+      "original": "2T +0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_96_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t w(SDCLK)",
+      "reversed": false,
+      "drift": 5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_96_row0",
+      "col": 1,
+      "row": 0,
+      "original": "FMC_SDCLK period",
+      "reversed": false,
+      "drift": -8.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_96_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2T – 0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -12.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_96_row0",
+      "col": 3,
+      "row": 0,
+      "original": "2T +0.5 fmc_ker_ck",
+      "reversed": false,
+      "drift": -11.38,
+      "corrected": null
+    },
+    {
+      "table_id": "table_97_row0",
+      "col": 0,
+      "row": 0,
+      "original": "F (CLK)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_97_row0",
+      "col": 1,
+      "row": 0,
+      "original": "XSPI clock frequency",
+      "reversed": false,
+      "drift": -10.64,
+      "corrected": null
+    },
+    {
+      "table_id": "table_97_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2.7 V < V < 3.6 V, DD 2.7 V<V <3.6 V, DDXSPI1/2 C = 15 pF LOAD",
+      "reversed": false,
+      "drift": -17.95,
+      "corrected": null
+    },
+    {
+      "table_id": "table_97_row0",
+      "col": 5,
+      "row": 0,
+      "original": "180(3)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_98_row0",
+      "col": 0,
+      "row": 0,
+      "original": "F (CLK)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_98_row0",
+      "col": 1,
+      "row": 0,
+      "original": "XSPI clock frequency",
+      "reversed": false,
+      "drift": -10.64,
+      "corrected": null
+    },
+    {
+      "table_id": "table_98_row0",
+      "col": 2,
+      "row": 0,
+      "original": "1.71 V < V < 3.6 V, DD 1.62 V<V <3.6 DDXSPI1/2 V, C = 15 pF LOAD",
+      "reversed": false,
+      "drift": -18.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_98_row0",
+      "col": 5,
+      "row": 0,
+      "original": "135(3)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_99_row0",
+      "col": 0,
+      "row": 0,
+      "original": "F (CLK)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_99_row0",
+      "col": 1,
+      "row": 0,
+      "original": "XSPI clock frequency",
+      "reversed": false,
+      "drift": -10.64,
+      "corrected": null
+    },
+    {
+      "table_id": "table_99_row0",
+      "col": 2,
+      "row": 0,
+      "original": "1.71 V < V < 3.6 V, DD 1.62 V<V <3.6 V, DDXSPI1/2 C = 10 pF LOAD",
+      "reversed": false,
+      "drift": -18.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_100_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t init",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_100_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Initial delay",
+      "reversed": false,
+      "drift": -6.45,
+      "corrected": null
+    },
+    {
+      "table_id": "table_101_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Analog power supply for ADC ON",
+      "reversed": false,
+      "drift": 10.63,
+      "corrected": null
+    },
+    {
+      "table_id": "table_102_row0",
+      "col": 0,
+      "row": 0,
+      "original": "12 bits",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_102_row0",
+      "col": 2,
+      "row": 0,
+      "original": "3.75E-08",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_102_row0",
+      "col": 3,
+      "row": 0,
+      "original": "6.12E-08",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_103_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Total unadjusted error",
+      "reversed": false,
+      "drift": -11.05,
+      "corrected": null
+    },
+    {
+      "table_id": "table_103_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Fast and slow channels",
+      "reversed": false,
+      "drift": -11.44,
+      "corrected": null
+    },
+    {
+      "table_id": "table_103_row0",
+      "col": 3,
+      "row": 0,
+      "original": "Single ended",
+      "reversed": false,
+      "drift": -6.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_104_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V DDA",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_104_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Analog supply voltage",
+      "reversed": false,
+      "drift": -10.61,
+      "corrected": null
+    },
+    {
+      "table_id": "table_104_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Normal mode, V = 3.3 V DDA",
+      "reversed": false,
+      "drift": 12.22,
+      "corrected": null
+    },
+    {
+      "table_id": "table_104_row0",
+      "col": 3,
+      "row": 0,
+      "original": "VRS = 000",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_105_row0",
+      "col": 0,
+      "row": 0,
+      "original": "T (1) L",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_105_row0",
+      "col": 1,
+      "row": 0,
+      "original": "V linearity with temperature (from V voltage) SENSE sensor",
+      "reversed": false,
+      "drift": 12.87,
+      "corrected": null
+    },
+    {
+      "table_id": "table_106_row0",
+      "col": 0,
+      "row": 0,
+      "original": "TS_CAL1",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_106_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Temperature sensor raw data acquired value at 30 °C, V =3.3 V DDA",
+      "reversed": false,
+      "drift": 28.34,
+      "corrected": null
+    },
+    {
+      "table_id": "table_106_row0",
+      "col": 2,
+      "row": 0,
+      "original": "0x08FF F814 - 0x08FF F815",
+      "reversed": false,
+      "drift": 4.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_107_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Supply voltage",
+      "reversed": false,
+      "drift": -7.08,
+      "corrected": null
+    },
+    {
+      "table_id": "table_108_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f (2) DTS",
+      "reversed": false,
+      "drift": 7.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_108_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Output clock frequency",
+      "reversed": false,
+      "drift": -11.21,
+      "corrected": null
+    },
+    {
+      "table_id": "table_108_row0",
+      "col": 2,
+      "row": 0,
+      "original": "VDD_CORE = 1.19 V(3)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_109_row0",
+      "col": 0,
+      "row": 0,
+      "original": "ts_vcore",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_109_row0",
+      "col": 1,
+      "row": 0,
+      "original": "ADC sampling time when reading the VCORE voltage",
+      "reversed": false,
+      "drift": -0.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_110_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Resistor bridge for V BAT",
+      "reversed": false,
+      "drift": 8.55,
+      "corrected": null
+    },
+    {
+      "table_id": "table_111_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Battery charging resistor",
+      "reversed": false,
+      "drift": -12.59,
+      "corrected": null
+    },
+    {
+      "table_id": "table_111_row0",
+      "col": 2,
+      "row": 0,
+      "original": "VBRS in PWR_CR3= 0",
+      "reversed": false,
+      "drift": 0.94,
+      "corrected": null
+    },
+    {
+      "table_id": "table_112_row0",
+      "col": 0,
+      "row": 0,
+      "original": "TEMP high",
+      "reversed": false,
+      "drift": -5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_112_row0",
+      "col": 1,
+      "row": 0,
+      "original": "High temperature monitoring",
+      "reversed": false,
+      "drift": -13.79,
+      "corrected": null
+    },
+    {
+      "table_id": "table_113_row0",
+      "col": 0,
+      "row": 0,
+      "original": "F CCKI",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_113_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Input clock frequency via the ADF_CCK[1:0] pin, in SLAVE_SPI mode",
+      "reversed": false,
+      "drift": 17.53,
+      "corrected": null
+    },
+    {
+      "table_id": "table_113_row0",
+      "col": 2,
+      "row": 0,
+      "original": "1.71<VDD<3.6 V",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_114_row0",
+      "col": 0,
+      "row": 0,
+      "original": "DCMIPP_PIXCLK",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_114_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Pixel Clock input",
+      "reversed": false,
+      "drift": -5.77,
+      "corrected": null
+    },
+    {
+      "table_id": "table_115_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Frequency ratio PSSI_PDCK/f HCLK",
+      "reversed": false,
+      "drift": 12.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_116_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Frequency ratio PSSI_PDCK/f HCLK",
+      "reversed": false,
+      "drift": 12.67,
+      "corrected": null
+    },
+    {
+      "table_id": "table_117_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f CLK",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_117_row0",
+      "col": 1,
+      "row": 0,
+      "original": "LTDC clock output frequency",
+      "reversed": false,
+      "drift": -14.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_117_row0",
+      "col": 2,
+      "row": 0,
+      "original": "1.71<V <3. DD 6 V, 30 pF",
+      "reversed": false,
+      "drift": -8.6,
+      "corrected": null
+    },
+    {
+      "table_id": "table_118_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t res(TIM)",
+      "reversed": false,
+      "drift": 4.75,
+      "corrected": null
+    },
+    {
+      "table_id": "table_118_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Timer resolution time",
+      "reversed": false,
+      "drift": -10.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_118_row0",
+      "col": 2,
+      "row": 0,
+      "original": "AHB/APBx prescaler=1 or 2 or 4, f = TIMxCLK 300 MHz",
+      "reversed": false,
+      "drift": 4.87,
+      "corrected": null
+    },
+    {
+      "table_id": "table_118_row0",
+      "col": 5,
+      "row": 0,
+      "original": "t TIMxCLK",
+      "reversed": false,
+      "drift": 2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_119_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t res(TIM)",
+      "reversed": false,
+      "drift": 4.75,
+      "corrected": null
+    },
+    {
+      "table_id": "table_119_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Timer resolution time",
+      "reversed": false,
+      "drift": -10.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_119_row0",
+      "col": 4,
+      "row": 0,
+      "original": "t TIMxCLK",
+      "reversed": false,
+      "drift": 2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_120_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Symbol",
+      "reversed": false,
+      "drift": -3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_120_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Parameter",
+      "reversed": false,
+      "drift": -4.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_120_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Conditions",
+      "reversed": false,
+      "drift": -5.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_120_row0",
+      "col": 3,
+      "row": 0,
+      "original": "(specification)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_120_row0",
+      "col": 4,
+      "row": 0,
+      "original": "(specification)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_120_row0",
+      "col": 5,
+      "row": 0,
+      "original": "Timing measurements",
+      "reversed": false,
+      "drift": -9.71,
+      "corrected": null
+    },
+    {
+      "table_id": "table_121_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t SU_OD",
+      "reversed": false,
+      "drift": 4.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_121_row0",
+      "col": 1,
+      "row": 0,
+      "original": "SDA data setup time during open drain mode",
+      "reversed": false,
+      "drift": -21.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_121_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Controller 1.71 V < V < 3.6 V DD",
+      "reversed": false,
+      "drift": 15.83,
+      "corrected": null
+    },
+    {
+      "table_id": "table_122_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Maximum pulse width of spikes that are suppressed by analog filter",
+      "reversed": false,
+      "drift": -33.15,
+      "corrected": null
+    },
+    {
+      "table_id": "table_122_row0",
+      "col": 2,
+      "row": 0,
+      "original": "50(4)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_122_row0",
+      "col": 3,
+      "row": 0,
+      "original": "165(5)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_123_row0",
+      "col": 1,
+      "row": 0,
+      "original": "USART clock frequency",
+      "reversed": false,
+      "drift": -11.14,
+      "corrected": null
+    },
+    {
+      "table_id": "table_123_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Master mode, 1.71 V ≤ V ≤ 3.6 V DD",
+      "reversed": false,
+      "drift": 17.06,
+      "corrected": null
+    },
+    {
+      "table_id": "table_124_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f SCK",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_124_row0",
+      "col": 1,
+      "row": 0,
+      "original": "SPI clock frequency",
+      "reversed": false,
+      "drift": -10.14,
+      "corrected": null
+    },
+    {
+      "table_id": "table_124_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Master mode, 1.71 V < V < 3.6 V DD",
+      "reversed": false,
+      "drift": 17.06,
+      "corrected": null
+    },
+    {
+      "table_id": "table_125_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f MCK",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_125_row0",
+      "col": 1,
+      "row": 0,
+      "original": "I2S main clock output",
+      "reversed": false,
+      "drift": -11.13,
+      "corrected": null
+    },
+    {
+      "table_id": "table_126_row0",
+      "col": 0,
+      "row": 0,
+      "original": "f MCK",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_126_row0",
+      "col": 1,
+      "row": 0,
+      "original": "SAI Main clock output",
+      "reversed": false,
+      "drift": -10.96,
+      "corrected": null
+    },
+    {
+      "table_id": "table_127_row0",
+      "col": 0,
+      "row": 0,
+      "original": "F MDC",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_127_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Management Data Clock",
+      "reversed": false,
+      "drift": -0.88,
+      "corrected": null
+    },
+    {
+      "table_id": "table_128_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Clock frequency in data transfer mode",
+      "reversed": false,
+      "drift": -18.48,
+      "corrected": null
+    },
+    {
+      "table_id": "table_128_row0",
+      "col": 5,
+      "row": 0,
+      "original": "120(3)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_129_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Clock frequency in data transfer mode",
+      "reversed": false,
+      "drift": -18.48,
+      "corrected": null
+    },
+    {
+      "table_id": "table_129_row0",
+      "col": 5,
+      "row": 0,
+      "original": "130(3)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_130_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V DD33USB",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_130_row0",
+      "col": 1,
+      "row": 0,
+      "original": "USB transceiver operating voltage",
+      "reversed": false,
+      "drift": -16.85,
+      "corrected": null
+    },
+    {
+      "table_id": "table_130_row0",
+      "col": 3,
+      "row": 0,
+      "original": "3.0(1)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_131_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V DD33USB",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_131_row0",
+      "col": 1,
+      "row": 0,
+      "original": "USB transceiver operating voltage",
+      "reversed": false,
+      "drift": -16.85,
+      "corrected": null
+    },
+    {
+      "table_id": "table_131_row0",
+      "col": 3,
+      "row": 0,
+      "original": "3.12(2)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_132_row0",
+      "col": 0,
+      "row": 0,
+      "original": "I DD(OTG_HS)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_132_row0",
+      "col": 1,
+      "row": 0,
+      "original": "USB (PLL and PHY) current consumption at V (2) DD33USB",
+      "reversed": false,
+      "drift": -2.2,
+      "corrected": null
+    },
+    {
+      "table_id": "table_132_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Full Speed Transmit(3)",
+      "reversed": false,
+      "drift": -4.74,
+      "corrected": null
+    },
+    {
+      "table_id": "table_133_row0",
+      "col": 0,
+      "row": 0,
+      "original": "V DD33USB",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_133_row0",
+      "col": 1,
+      "row": 0,
+      "original": "UCPD operating supply voltage",
+      "reversed": false,
+      "drift": -14.91,
+      "corrected": null
+    },
+    {
+      "table_id": "table_134_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t MDC",
+      "reversed": false,
+      "drift": 3.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_134_row0",
+      "col": 1,
+      "row": 0,
+      "original": "MDC cycle time( 2.5 MHz)",
+      "reversed": false,
+      "drift": -1.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_135_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t su(RXD)",
+      "reversed": false,
+      "drift": 4.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_135_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Receive data setup time",
+      "reversed": false,
+      "drift": -11.37,
+      "corrected": null
+    },
+    {
+      "table_id": "table_136_row0",
+      "col": 0,
+      "row": 0,
+      "original": "t su(RXD)",
+      "reversed": false,
+      "drift": 4.33,
+      "corrected": null
+    },
+    {
+      "table_id": "table_136_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Receive data setup time",
+      "reversed": false,
+      "drift": -11.37,
+      "corrected": null
+    },
+    {
+      "table_id": "table_137_row0",
+      "col": 0,
+      "row": 0,
+      "original": "F TCK",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_137_row0",
+      "col": 1,
+      "row": 0,
+      "original": "T clock frequency CK",
+      "reversed": false,
+      "drift": 3.19,
+      "corrected": null
+    },
+    {
+      "table_id": "table_137_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2.7 V ≤ V ≤ 3.6 V DD",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_138_row0",
+      "col": 0,
+      "row": 0,
+      "original": "F SWCLK",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_138_row0",
+      "col": 1,
+      "row": 0,
+      "original": "SWCLK clock frequency",
+      "reversed": false,
+      "drift": -11.14,
+      "corrected": null
+    },
+    {
+      "table_id": "table_138_row0",
+      "col": 2,
+      "row": 0,
+      "original": "2.7 V ≤ V ≤ 3.6 V DD",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_139_row0",
+      "col": 4,
+      "row": 0,
+      "original": "0.0315",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_139_row0",
+      "col": 5,
+      "row": 0,
+      "original": "0.0354",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_139_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0394",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_140_row0",
+      "col": 5,
+      "row": 0,
+      "original": "0.0590",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_140_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0630",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_141_row0",
+      "col": 3,
+      "row": 0,
+      "original": "1.100",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_141_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0433",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_142_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Pitch",
+      "reversed": false,
+      "drift": -2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_143_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0630",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_144_row0",
+      "col": 1,
+      "row": 0,
+      "original": "0.460",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_144_row0",
+      "col": 2,
+      "row": 0,
+      "original": "0.530",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_144_row0",
+      "col": 3,
+      "row": 0,
+      "original": "0.600",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_144_row0",
+      "col": 4,
+      "row": 0,
+      "original": "0.0181",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_144_row0",
+      "col": 5,
+      "row": 0,
+      "original": "0.0209",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_144_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0236",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_145_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Pitch",
+      "reversed": false,
+      "drift": -2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_145_row0",
+      "col": 1,
+      "row": 0,
+      "original": "0.80 mm",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_146_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0236",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_147_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Pitch",
+      "reversed": false,
+      "drift": -2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_147_row0",
+      "col": 1,
+      "row": 0,
+      "original": "0.5 mm",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_148_row0",
+      "col": 3,
+      "row": 0,
+      "original": "1.600",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_148_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0630",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_149_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0228",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_150_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Pitch",
+      "reversed": false,
+      "drift": -2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_150_row0",
+      "col": 1,
+      "row": 0,
+      "original": "0.35 mm",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_151_row0",
+      "col": 3,
+      "row": 0,
+      "original": "0.600",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_151_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0236",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_152_row0",
+      "col": 3,
+      "row": 0,
+      "original": "0.150",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_152_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0059",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_153_row0",
+      "col": 0,
+      "row": 0,
+      "original": "A(2)(3)",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_153_row0",
+      "col": 6,
+      "row": 0,
+      "original": "0.0472",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_154_row0",
+      "col": 0,
+      "row": 0,
+      "original": "Pitch",
+      "reversed": false,
+      "drift": -2.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_154_row0",
+      "col": 1,
+      "row": 0,
+      "original": "0.8 mm",
+      "reversed": false,
+      "drift": 0.0,
+      "corrected": null
+    },
+    {
+      "table_id": "table_155_row0",
+      "col": 1,
+      "row": 0,
+      "original": "Thermal resistance junction-ambient",
+      "reversed": false,
+      "drift": -17.52,
+      "corrected": null
+    },
+    {
+      "table_id": "table_155_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Thermal resistance junction-ambient VFQFPN68 - 8 x 8 mm / 0.35 mm pitch",
+      "reversed": false,
+      "drift": 4.56,
+      "corrected": null
+    },
+    {
+      "table_id": "table_156_row0",
+      "col": 0,
+      "row": 0,
+      "original": "03-Nov-2023",
+      "reversed": false,
+      "drift": -1.5,
+      "corrected": null
+    },
+    {
+      "table_id": "table_156_row0",
+      "col": 2,
+      "row": 0,
+      "original": "Initial release.",
+      "reversed": false,
+      "drift": -7.54,
+      "corrected": null
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "table_id": "table_44",
+  "caption": "Table 44. EMI characteristics for fHSE = 8 MHz and fCPU = 400 MHz",
+  "pdf_name": "stm32h750ib",
+  "family": "H7",
+  "page": 124,
+  "merged_pages": [
+    124
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf#page=124",
+  "section": "6.3.12 EMC characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Conditions",
+    "Monitored frequency band",
+    "Value",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "S EMI",
+      "Peak (1)",
+      "V = 3.6 V, T = 25 °C, UFBGA240 package, DD A compliant with IEC61967-2",
+      "0.1 MHz to 30 MHz",
+      "6",
+      "dBµV"
+    ],
+    [
+      "S EMI",
+      "Peak (1)",
+      "V = 3.6 V, T = 25 °C, UFBGA240 package, DD A compliant with IEC61967-2",
+      "30 MHz to 130 MHz",
+      "5",
+      "dBµV"
+    ],
+    [
+      "S EMI",
+      "Peak (1)",
+      "V = 3.6 V, T = 25 °C, UFBGA240 package, DD A compliant with IEC61967-2",
+      "130 MHz to 1 GHz",
+      "13",
+      "dBµV"
+    ],
+    [
+      "S EMI",
+      "Peak (1)",
+      "V = 3.6 V, T = 25 °C, UFBGA240 package, DD A compliant with IEC61967-2",
+      "1 GHz to 2 GHz",
+      "7",
+      "dBµV"
+    ],
+    [
+      "S EMI",
+      "Level (2)",
+      "V = 3.6 V, T = 25 °C, UFBGA240 package, DD A compliant with IEC61967-2",
+      "0.1 MHz to 2 GHz",
+      "2.5",
+      "dBµV"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 6,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 6,
+    "_notes": [
+      "1. Refer to AN1709 “EMI radiated test” chapter.",
+      "2. Refer to AN1709 “EMI level classification” chapter. 124/335 DS12556 Rev 8"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "vertical_merge_suspected"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h750ib",
+    "table_id": "table_44",
+    "is_continued": false,
+    "pages": [
+      124
+    ],
+    "rows_count": 5,
+    "cols_count": 6,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

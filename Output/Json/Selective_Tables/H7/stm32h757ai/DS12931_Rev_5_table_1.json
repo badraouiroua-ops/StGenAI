@@ -1,0 +1,49 @@
+{
+  "table_id": "table_1",
+  "document": "DS12931 Rev 5 - Table 1. Device summary",
+  "rev": "Rev 5",
+  "table_number": "1",
+  "title": "Table 1. Device summary",
+  "page": 2,
+  "section": "General purpose / Overview",
+  "section_title": "General purpose / Overview",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf",
+  "text_helper": "Table 1. Device summary — section General purpose / Overview. Reference, Part number.",
+  "table_content": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H757xI",
+        "STM32H757AI"
+      ],
+      [
+        "STM32H757xI",
+        "STM32H757BI"
+      ],
+      [
+        "STM32H757xI",
+        "STM32H757II"
+      ],
+      [
+        "STM32H757xI",
+        "STM32H757XI"
+      ],
+      [
+        "STM32H757xI",
+        "STM32H757ZI"
+      ]
+    ],
+    "notes": [],
+    "legend": [
+      "• 3× ADCs with 16-bit max. resolution (up to 36"
+    ],
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

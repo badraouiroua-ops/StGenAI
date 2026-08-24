@@ -1,0 +1,81 @@
+{
+  "table_id": "table_135",
+  "document": "DS14360 Rev 6 - Table 135. Dynamic characteristics: Ethernet MAC signals for RMII",
+  "rev": "Rev 6",
+  "table_number": "135",
+  "title": "Table 135. Dynamic characteristics: Ethernet MAC signals for RMII",
+  "page": 282,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=282",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 135. Dynamic characteristics: Ethernet MAC signals for RMII — section 6.3.33 Communication interfaces. Symbol, Parameter, Min, Typ, Max(2), +1 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Min",
+      "Typ",
+      "Max(2)",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "t su(RXD)",
+        "Receive data setup time",
+        "2.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(RXD)",
+        "Receive data hold time",
+        "1",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t su(CRS)",
+        "Carrier sense setup time",
+        "1.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t ih(CRS)",
+        "Carrier sense hold time",
+        "0.5",
+        "-",
+        "-",
+        "ns"
+      ],
+      [
+        "t d(TXEN)",
+        "Transmit enable valid delay time",
+        "7",
+        "9.5",
+        "14",
+        "ns"
+      ],
+      [
+        "t d(TXD)",
+        "Transmit data valid delay time",
+        "7",
+        "10.5",
+        "14.5",
+        "ns"
+      ]
+    ],
+    "notes": [
+      "2. At VOS low, these values are degraded by up to 7%."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

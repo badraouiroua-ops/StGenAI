@@ -1,0 +1,63 @@
+{
+  "table_id": "table_156",
+  "caption": "Table 156. Document revision history",
+  "pdf_name": "stm32h7r3a8",
+  "family": "H7",
+  "page": 320,
+  "merged_pages": [
+    320
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=320",
+  "section": "10 Revision history",
+  "headers": [
+    "Date",
+    "Revision",
+    "Changes"
+  ],
+  "rows": [
+    [
+      "03-Nov-2023",
+      "1",
+      "Initial release."
+    ],
+    [
+      "15-Mar-2024",
+      "2",
+      "Corrected maximum CPU frequency in Table 3: STM32H7Rxx8 features and peripheral counts. Added: – Section 3.3.2: Secure access mode – Section 6: Electrical characteristics."
+    ],
+    [
+      "28-Nov-2024",
+      "3",
+      "Updated: – Cover page features – Figure 1: STM32H7Rxx8 block diagram – Table 2: Security and graphics IP availability per product line (replaced TIL by HDP) – Table 3: STM32H7Rxx8 features and peripheral counts: junction maximum temperature, display interface (bits), and SMPS step-down converter – Section 3.5.1: Power supply scheme – Table 19: STM32H7Rxx8 pin and ball descriptions (indicated pins with fm+ capable I/O structure 'FT_fh') – Figure 12: UFBGA176 SMPS GFx pinout – Table 20: STM32H7Rxx8 pin alternate functions (added PG12 to PG15) – Table 24: General operating conditions – Junction maximum temperature in Section 6: Electrical characteristics – Table 41: Typical and maximum current consumption in System Stop mode through Table 49: Typical and maximum current consumption: data write 6.25% toggle on 16-bit memory – Table 62: PLL1/2/3 characteristics (wide VCO frequency range) (title) – Table 63: PLL1/2/3 characteristics (low VCO frequency range) (title and content). – Removed previous document revision Table 66 and Table 67. – Table 99: XSPI characteristics in DTR mode (with DQS)/Hyperbus – Section 7.7: UFBGA169 package information (A0YV) – Section 7.11: TFBGA225 package information (B04V) – Table 155: Package thermal characteristics (typo corrected)"
+    ],
+    [
+      "15-Dec-2025",
+      "4",
+      "Updates: – Core description on cover page. – Table 19: STM32H7Rxx8 pin and ball descriptions. – Introduction text removed in Output buffer timing characteristics (HSLV option disabled). – Table 24: General operating conditions – Table 115: PSSI transmit characteristics. – Table 58: PSSI transmit timing diagram – Table 132: OTG_HS current consumption characteristics – Table 133: UCPD electrical characteristics"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7r3a8",
+    "table_id": "table_156",
+    "is_continued": false,
+    "pages": [
+      320
+    ],
+    "rows_count": 4,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "table_id": "table_11",
+  "caption": "Table 11. Accelerated cryptographic operations",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 58,
+  "merged_pages": [
+    58
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=58",
+  "section": "3.31.1 Crypto engines features",
+  "headers": [
+    "Operations",
+    "Algo- rithm",
+    "Specification",
+    "Key lengths (in bit)",
+    "Modes"
+  ],
+  "rows": [
+    [
+      "Get entropy",
+      "RNG",
+      "NIST SP800-90B(1)",
+      "N/A",
+      "Software and hardware(2) modes running in parallel"
+    ],
+    [
+      "Encryption, decryption",
+      "AES",
+      "FIPS PUB 197 NIST SP800-38A",
+      "128, 256",
+      "ECB, CBC, CTR(3)"
+    ],
+    [
+      "Authenticated encryption or decryption",
+      "AES",
+      "NIST SP800-38C NIST SP800-38D",
+      "128, 256",
+      "GCM, CCM"
+    ],
+    [
+      "Cipher-based message authentication code",
+      "AES",
+      "NIST SP800-38D",
+      "128, 256",
+      "GMAC"
+    ],
+    [
+      "Checksum",
+      "SHA-1",
+      "FIPS PUB 180-4",
+      "N/A",
+      "Digest 160-bit"
+    ],
+    [
+      "Cryptographic hash",
+      "SHA-2",
+      "FIPS PUB 180-4",
+      "-",
+      "SHA-224, SHA-256 SHA2-384, SHA2-512"
+    ],
+    [
+      "Keyed-hashing for message authentication",
+      "HMAC",
+      "FIPS PUB 198-1 IETF RFC 2104",
+      "Short, long (>64 bytes)",
+      "-"
+    ],
+    [
+      "Encryption/decryption key-pair generation(4)",
+      "RSA",
+      "IETF RFC 8017 NIST SP800-56B",
+      "Up to 4160",
+      "RSAES-OAEP"
+    ],
+    [
+      "Signature(4) with hashing Signature verification",
+      "RSA",
+      "IETF RFC 8017 FIPS PUB 186-4",
+      "Up to 4160",
+      "PKCS1-v1_5, PSS"
+    ],
+    [
+      "Signature(4) with hashing Signature verification",
+      "ECDSA",
+      "ANSI X9.62 IETF RFC 7027 FIPS PUB 186-4",
+      "Up to 640",
+      "-"
+    ],
+    [
+      "Key agreement",
+      "ECDH",
+      "ANSI X9.42",
+      "Up to 640",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. Certifiable using STMicroelectronics reviewed documents.",
+      "2. Random numbers distribution to SAES and PKA using a dedicated hardware bus.",
+      "3. ECB and CBC chaining modes protected against side-channel and timing attacks in SAES.",
+      "4. Private key cryptography protected against side-channel and timing attacks. Note: Binary curves, Edwards curves and Curve25519 are not supported by the PKA."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_11",
+    "is_continued": false,
+    "pages": [
+      58
+    ],
+    "rows_count": 11,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

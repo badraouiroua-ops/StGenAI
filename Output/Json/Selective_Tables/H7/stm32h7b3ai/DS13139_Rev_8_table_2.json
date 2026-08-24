@@ -1,0 +1,43 @@
+{
+  "table_id": "table_2",
+  "document": "DS13139 Rev 8 - Table 2. System vs domain low-power mode",
+  "rev": "Rev 8",
+  "table_number": "2",
+  "title": "Table 2. System vs domain low-power mode",
+  "page": 17,
+  "section": "5 DMA controllers to unload the CPU",
+  "section_title": "DMA controllers to unload the CPU",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf#page=17",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7b3ai.pdf",
+  "text_helper": "Table 2. System vs domain low-power mode — section 5 DMA controllers to unload the CPU. System power mode, CD domain power mode, SRD domain power mode.",
+  "table_content": {
+    "headers": [
+      "System power mode",
+      "CD domain power mode",
+      "SRD domain power mode"
+    ],
+    "rows": [
+      [
+        "Run",
+        "DRun/DStop/DStop2",
+        "DRun"
+      ],
+      [
+        "Stop",
+        "DStop/DStop2",
+        "DStop"
+      ],
+      [
+        "Standby",
+        "Standby",
+        "Standby"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

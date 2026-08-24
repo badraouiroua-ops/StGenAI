@@ -1,0 +1,105 @@
+{
+  "table_id": "table_38",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "fLSI 25 °C",
+      "row_index": 0,
+      "analyse_visuelle": "Correction du symbole fLSI et du texte de la condition où les indices DD et J ont été déplacés à la fin par l'OCR.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f LSI",
+          "nouvelle_valeur": "fLSI",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 3.3 V, T = 25 °C DD J",
+          "nouvelle_valeur": "VDD = 3.3 V, TJ = 25 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "fLSI 110 °C",
+      "row_index": 1,
+      "analyse_visuelle": "Correction du symbole fLSI et remise en ordre des indices de température et tension dans Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f LSI",
+          "nouvelle_valeur": "fLSI",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "T = –40 to 110 °C, J V = 1.62 to 3.6 V DD",
+          "nouvelle_valeur": "TJ = –40 to 110 °C, VDD = 1.62 to 3.6 V",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "fLSI 125 °C",
+      "row_index": 2,
+      "analyse_visuelle": "Correction du symbole fLSI et remise en ordre des indices de température et tension dans Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "f LSI",
+          "nouvelle_valeur": "fLSI",
+          "confiance": 98
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "T = –40 to 125 °C, J V = 1.62 to 3.6 V DD",
+          "nouvelle_valeur": "TJ = –40 to 125 °C, VDD = 1.62 to 3.6 V",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tsu(LSI)(3)",
+      "row_index": 3,
+      "analyse_visuelle": "Correction de la notation du symbole tsu(LSI)(3) morcelé par l'OCR.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (3) su(LSI)",
+          "nouvelle_valeur": "tsu(LSI)(3)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tstab(LSI)(3)",
+      "row_index": 4,
+      "analyse_visuelle": "Correction de la notation du symbole tstab(LSI)(3) morcelé par l'OCR.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t (3) stab(LSI)",
+          "nouvelle_valeur": "tstab(LSI)(3)",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "IDD(LSI)(3)",
+      "row_index": 5,
+      "analyse_visuelle": "Correction de la notation du symbole IDD(LSI)(3) morcelé par l'OCR.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "I (3) DD(LSI)",
+          "nouvelle_valeur": "IDD(LSI)(3)",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

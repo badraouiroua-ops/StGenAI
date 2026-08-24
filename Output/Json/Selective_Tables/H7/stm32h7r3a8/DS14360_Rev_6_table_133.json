@@ -1,0 +1,46 @@
+{
+  "table_id": "table_133",
+  "document": "DS14360 Rev 6 - Table 133. UCPD electrical characteristics",
+  "rev": "Rev 6",
+  "table_number": "133",
+  "title": "Table 133. UCPD electrical characteristics",
+  "page": 280,
+  "section": "6.3.33 Communication interfaces",
+  "section_title": "Communication interfaces",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=280",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 133. UCPD electrical characteristics — section 6.3.33 Communication interfaces. Symbol, Parameter, Condition, Min, Typ, +2 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Condition",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "V DD33USB",
+        "UCPD operating supply voltage",
+        "-",
+        "3.0",
+        "3.3",
+        "3.6",
+        "V"
+      ]
+    ],
+    "notes": [
+      "1. Evaluated by characterization. Not tested in production.",
+      "2. Measured on VDD33USB. See Table 131: USB OTG_HS DC electrical characteristics.",
+      "3. Suspend when operating in Device mode with no far-side host termination on DP/DM during measurements.",
+      "4. Measured on DVDD. See Table 24: General operating conditions. UCPD characteristics"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

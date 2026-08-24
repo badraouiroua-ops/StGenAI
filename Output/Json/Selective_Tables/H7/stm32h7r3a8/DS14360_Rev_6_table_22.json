@@ -1,0 +1,89 @@
+{
+  "table_id": "table_22",
+  "document": "DS14360 Rev 6 - Table 22. Current characteristics",
+  "rev": "Rev 6",
+  "table_number": "22",
+  "title": "Table 22. Current characteristics",
+  "page": 154,
+  "section": "6.2 Absolute maximum ratings",
+  "section_title": "Absolute maximum ratings",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf#page=154",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h7r3a8.pdf",
+  "text_helper": "Table 22. Current characteristics — section 6.2 Absolute maximum ratings. Symbols, Ratings, Max, Unit.",
+  "table_content": {
+    "headers": [
+      "Symbols",
+      "Ratings",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "ΣIV DD",
+        "Total current into sum of all V power lines (source)(1) DD",
+        "620",
+        "mA"
+      ],
+      [
+        "ΣIV SS",
+        "Total current out of sum of all V ground lines (sink)(1) SS",
+        "620",
+        "mA"
+      ],
+      [
+        "IV DD",
+        "Maximum current into each V power pin (source)(1) DD",
+        "100",
+        "mA"
+      ],
+      [
+        "IV SS",
+        "Maximum current out of each V ground pin (sink)(1) SS",
+        "100",
+        "mA"
+      ],
+      [
+        "I IO",
+        "Output current sunk or sourced by any I/O and control pin, except Pxy_C",
+        "20",
+        "mA"
+      ],
+      [
+        "ΣI (PIN)",
+        "Total output current sunk by sum of all I/Os and control pins(2)",
+        "140",
+        "mA"
+      ],
+      [
+        "ΣI (PIN)",
+        "Total output current sourced by sum of all I/Os and control pins(2)",
+        "140",
+        "mA"
+      ],
+      [
+        "I (3)(4) INJ(PIN)",
+        "Injected current on FT_xxx, TT_xx, RST and B pins",
+        "-5/+0",
+        "mA"
+      ],
+      [
+        "ΣI INJ(PIN)",
+        "Total injected current (sum of all I/Os and control pins)(5)",
+        "±25",
+        "mA"
+      ]
+    ],
+    "notes": [
+      "1. All main power (V , V , V ) and ground (V , V ) pins must always be connected to the DD DDA DD33USB SS SSA",
+      "2. This current consumption must be correctly distributed over all I/Os and control pins. The total output current must not be sunk/sourced between two consecutive power supply pins referring to high pin count",
+      "3. Positive injection is not possible on these I/Os and does not occur for input voltages lower than the specified maximum value.",
+      "4. A positive injection is induced by V >V while a negative injection is induced by V <V . I must IN DD IN SS INJ(PIN)",
+      "5. When several inputs are submitted to a current injection, the maximum ΣI is the absolute sum of the INJ(PIN)"
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

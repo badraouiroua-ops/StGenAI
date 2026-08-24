@@ -1,0 +1,87 @@
+{
+  "table_id": "table_116",
+  "caption": "Table 116. USB OTG_FS electrical characteristics",
+  "pdf_name": "stm32h747ag",
+  "family": "H7",
+  "page": 223,
+  "merged_pages": [
+    223
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h747ag.pdf#page=223",
+  "section": "6.3.35 Communication interfaces",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Condition",
+    "Min",
+    "Typ",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "V DD33USB",
+      "USB transceiver operating voltage",
+      "-",
+      "3.0(1)",
+      "-",
+      "3.6",
+      "V"
+    ],
+    [
+      "R PUI",
+      "Embedded USB_DP pull-up value during idle",
+      "-",
+      "900",
+      "1250",
+      "1600",
+      "Ω"
+    ],
+    [
+      "R PUR",
+      "Embedded USB_DP pull-up value during reception",
+      "-",
+      "1400",
+      "2300",
+      "3200",
+      "Ω"
+    ],
+    [
+      "Z DRV",
+      "Output driver impedance(2)",
+      "Driver high and low",
+      "28",
+      "36",
+      "44",
+      "Ω"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 7,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 7,
+    "_notes": [
+      "1. Guaranteed by characterization results.",
+      "2. When using PC2_C/PC3_C."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h747ag",
+    "table_id": "table_116",
+    "is_continued": false,
+    "pages": [
+      223
+    ],
+    "rows_count": 4,
+    "cols_count": 7,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

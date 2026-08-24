@@ -1,0 +1,85 @@
+{
+  "table_id": "table_108",
+  "caption": "Table 108. LPTIMx characteristics",
+  "pdf_name": "stm32h735ag",
+  "family": "H7",
+  "page": 230,
+  "merged_pages": [
+    230
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h735ag.pdf#page=230",
+  "section": "6.3.37 Low-power timer characteristics",
+  "headers": [
+    "Symbol",
+    "Parameter",
+    "Min",
+    "Max",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "t res(TIM)",
+      "Timer resolution time",
+      "1",
+      "-",
+      "t TIMxCLK"
+    ],
+    [
+      "f LPTIMxCLK",
+      "Timer kernel clock",
+      "0",
+      "137.5",
+      "MHz"
+    ],
+    [
+      "f EXT",
+      "Timer external clock frequency on Input1 and Input2",
+      "0",
+      "f /2 LPTIMxCLK",
+      "MHz"
+    ],
+    [
+      "Res TIM",
+      "Timer resolution",
+      "-",
+      "16",
+      "bit"
+    ],
+    [
+      "t MAX_COUNT",
+      "Maximum possible count",
+      "-",
+      "65536",
+      "t TIMxCLK"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "1. LPTIMx is used as a general term to refer to the LPTIM1 to LPTIM5 timers.",
+      "2. Guaranteed by design. 230/286 DS13312 Rev 4",
+      "3. The maximum timer frequency on APB1 or APB2 is up to 275 MHz, by setting the TIMPRE bit in the RCC_CFGR register, if APBx prescaler is 1 or 2 or 4, then TIMxCLK = rcc_hclk1, otherwise TIMxCLK = 4x"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h735ag",
+    "table_id": "table_108",
+    "is_continued": false,
+    "pages": [
+      230
+    ],
+    "rows_count": 5,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

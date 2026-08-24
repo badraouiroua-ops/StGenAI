@@ -1,0 +1,76 @@
+{
+  "table_id": "table_62",
+  "caption": "Table 62. I/O current injection susceptibility",
+  "pdf_name": "stm32h7b0ab",
+  "family": "H7",
+  "page": 100,
+  "merged_pages": [
+    100
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7b0ab.pdf#page=100",
+  "section": "6.3.15 I/O current injection characteristics",
+  "headers": [
+    "Symbol",
+    "Description",
+    "Functional susceptibility / Negative injection",
+    "Functional susceptibility / Positive injection",
+    "Unit"
+  ],
+  "rows": [
+    [
+      "IINJ",
+      "PF2, PI12",
+      "0",
+      "NA",
+      "mA"
+    ],
+    [
+      "IINJ",
+      "PG1, PE9, PB0, PA7, PC4, PC5, PE7, PE8, PA4, PA5, PA6, PF2, PI12, PC2_C, PC3_C, PA0_C, PA1_C, BOOT0",
+      "0",
+      "0",
+      "mA"
+    ],
+    [
+      "IINJ",
+      "All other I/Os",
+      "5",
+      "NA",
+      "mA"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 5,
+    "_notes": [
+      "2. Guaranteed by design.",
+      "3. All FT_xx IO except FT_lu and FT_u.",
+      "4. VIN must be less than Max(VDDxxx) + 3.6 V.",
+      "5. Max(VDDxxx) is the maximum value of all the I/O supplies.",
+      "6. To sustain a voltage higher than MIN(VDD, VDDA, VDD33USB) +0.3 V, the internal pull-up and pull-down resistors must be disabled.",
+      "7. The pull-up and pull-down resistors are designed with a true resistance in series with a switchable PMOS/NMOS. This PMOS/NMOS contribution to the series resistance is minimal (~10%)."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "dynamic_header_depth:2"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7b0ab",
+    "table_id": "table_62",
+    "is_continued": false,
+    "pages": [
+      100
+    ],
+    "rows_count": 3,
+    "cols_count": 5,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

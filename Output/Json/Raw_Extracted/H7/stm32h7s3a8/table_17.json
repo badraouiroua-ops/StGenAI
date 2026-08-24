@@ -1,0 +1,66 @@
+{
+  "table_id": "table_17",
+  "caption": "Table 17. STM32H7Sxx8 SAI features",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 70,
+  "merged_pages": [
+    70
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=70",
+  "section": "3.43.2 SAI implementation",
+  "headers": [
+    "SAI features",
+    "SAI1",
+    "SAI2"
+  ],
+  "rows": [
+    [
+      "I2S, LSB or MSB-justified, PCM/DSP, TDM, AC'97",
+      "X",
+      "X"
+    ],
+    [
+      "FIFO size",
+      "8 words",
+      "8 words"
+    ],
+    [
+      "SPDIF",
+      "X",
+      "X"
+    ],
+    [
+      "PDM",
+      "X(2)",
+      "-"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 3,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 3,
+    "_notes": [
+      "2. Only signals D[3:1], and CK[2:1] are available."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_17",
+    "is_continued": false,
+    "pages": [
+      70
+    ],
+    "rows_count": 4,
+    "cols_count": 3,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

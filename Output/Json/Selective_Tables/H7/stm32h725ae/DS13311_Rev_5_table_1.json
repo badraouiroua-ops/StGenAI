@@ -1,0 +1,67 @@
+{
+  "table_id": "table_1",
+  "document": "DS13311 Rev 5 - Table 1. Device summary",
+  "rev": "Rev 5",
+  "table_number": "1",
+  "title": "Table 1. Device summary",
+  "page": 2,
+  "section": "4 Kbytes of backup SRAM (available in the",
+  "section_title": "Kbytes of backup SRAM (available in the",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=2",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 1. Device summary — section 4 Kbytes of backup SRAM (available in the. Reference, Part number.",
+  "table_content": {
+    "headers": [
+      "Reference",
+      "Part number"
+    ],
+    "rows": [
+      [
+        "STM32H725xE",
+        "STM32H725ZE"
+      ],
+      [
+        "STM32H725xE",
+        "STM32H725VE"
+      ],
+      [
+        "STM32H725xE",
+        "STM32H725RE"
+      ],
+      [
+        "STM32H725xE",
+        "STM32H725IE"
+      ],
+      [
+        "STM32H725xE",
+        "STM32H725AE"
+      ],
+      [
+        "STM32H725xG",
+        "STM32H725ZG"
+      ],
+      [
+        "STM32H725xG",
+        "STM32H725VG"
+      ],
+      [
+        "STM32H725xG",
+        "STM32H725RG"
+      ],
+      [
+        "STM32H725xG",
+        "STM32H725IG"
+      ],
+      [
+        "STM32H725xG",
+        "STM32H725AG"
+      ]
+    ],
+    "notes": [],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}

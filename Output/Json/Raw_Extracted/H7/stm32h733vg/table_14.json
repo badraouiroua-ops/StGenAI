@@ -1,0 +1,89 @@
+{
+  "table_id": "table_14",
+  "caption": "Table 14. VCAP operating conditions",
+  "pdf_name": "stm32h733vg",
+  "family": "H7",
+  "page": 93,
+  "merged_pages": [
+    93
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h733vg.pdf#page=93",
+  "section": "6.3.2 VCAP external capacitor",
+  "headers": [
+    "Figure 12.",
+    "External capacitor C E",
+    "XT",
+    "",
+    ""
+  ],
+  "rows": [
+    [
+      "Figure 12.",
+      "C",
+      "XT",
+      "",
+      ""
+    ],
+    [
+      "ESR",
+      "C",
+      "XT",
+      "",
+      ""
+    ],
+    [
+      "ESR",
+      "R L eak",
+      "XT",
+      "",
+      ""
+    ],
+    [
+      "ESR",
+      "R L eak",
+      "XT",
+      "",
+      "MS 19044V2"
+    ]
+  ],
+  "extraction_method": "pdfplumber_text",
+  "extraction_confidence": "medium",
+  "empty_cell_ratio": 0.35,
+  "col_count": 5,
+  "status": null,
+  "has_empty_cells": true,
+  "heuristics": {
+    "cols_extracted": 11,
+    "bleed_rows_removed": 3,
+    "columns_initial": 11,
+    "columns_merged": 6,
+    "columns_final": 5,
+    "footnote_rows_removed": 10,
+    "_notes": [
+      "1. Legend: ESR is the equivalent series resistance.",
+      "2. This value corresponds to CEXT typical value. A variation of +/-20% is tolerated.",
+      "3. If a third VCAP pin is available on the package, it must be connected to the other VCAP pins but no additional capacitor is required."
+    ]
+  },
+  "structured_json": null,
+  "warnings": [
+    "no_table_obj_for_spans",
+    "has_empty_cells"
+  ],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h733vg",
+    "table_id": "table_14",
+    "is_continued": false,
+    "pages": [
+      93
+    ],
+    "rows_count": 4,
+    "cols_count": 5,
+    "confidence": "medium",
+    "empty_cell_ratio": 0.35
+  },
+  "debug": {
+    "crop_path": "Raw_Extracted\\H7\\stm32h733vg\\debug\\table_14.png"
+  }
+}

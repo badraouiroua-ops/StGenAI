@@ -1,0 +1,55 @@
+{
+  "table_id": "table_29",
+  "caption": "Table 29. Characteristics of SMPS step-down converter external components",
+  "pdf_name": "stm32h7s3a8",
+  "family": "H7",
+  "page": 161,
+  "merged_pages": [
+    161
+  ],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf",
+  "url_table": "https://www.st.com/resource/en/datasheet/stm32h7s3a8.pdf#page=161",
+  "section": "6.3.3 SMPS step-down converter",
+  "headers": [
+    "STM32H7Sxx8 Electrical cha",
+    ""
+  ],
+  "rows": [
+    [
+      "VDD VDDSMPS VDD VDDSMPS Cin L VLXSMPS Cin L VLXSMPS VFBSMPS Cfilt S M PS VFBSMPS Cfilt S M PS ( ON ) VDD_extern ( ON ) Cout1 VSSSMPS 2xCout1 VSSSMPS VCAP VCAP VDDLDO VVCCOORREE VDDLDO Voltage Vdd Voltage Cout2 VSS re ( g O u F la F t ) or Cout2 VSS reg (O ul N a ) tor Direct SMPS supply External SMPS supply, LDO supply",
+      "VVCCOORREE MSv55526V3"
+    ]
+  ],
+  "extraction_method": "pdfplumber",
+  "extraction_confidence": "high",
+  "empty_cell_ratio": 0.0,
+  "col_count": 2,
+  "status": null,
+  "has_empty_cells": false,
+  "heuristics": {
+    "cols_extracted": 2,
+    "_notes": [
+      "1. The typical values are given for V = V = 3.3 V and for typical decoupling capacitor values of C and C . DDLDO DDSMPS EXT OUT",
+      "2. The product consumption (on V ) is not taken into account in the inrush current and inrush electric charges. DDCORE",
+      "3. The inrush current and inrush electric charge on V are not present in Bypass mode or when the SMPS supplies the DDLDO",
+      "4. The maximum value is given for the maximum decoupling capacitor C . EXT",
+      "5. The inrush current and inrush electric charges on V are not present if the external component (L or C ) is not DDSMPS OUT",
+      "6. The maximum value is given for the maximum decoupling capacitor C and the minimum V voltage. OUT DDSMPS",
+      "7. The inrush current due to transition from 1.2 V to the final V OUT"
+    ]
+  },
+  "structured_json": null,
+  "warnings": [],
+  "datasheet_metaData": {
+    "pdf_name": "stm32h7s3a8",
+    "table_id": "table_29",
+    "is_continued": false,
+    "pages": [
+      161
+    ],
+    "rows_count": 1,
+    "cols_count": 2,
+    "confidence": "high",
+    "empty_cell_ratio": 0.0
+  }
+}

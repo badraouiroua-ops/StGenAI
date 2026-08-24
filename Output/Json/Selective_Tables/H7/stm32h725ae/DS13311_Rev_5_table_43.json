@@ -1,0 +1,297 @@
+{
+  "table_id": "table_43",
+  "document": "DS13311 Rev 5 - Table 43. PLL1 characteristics (wide VCO frequency range)",
+  "rev": "Rev 5",
+  "table_number": "43",
+  "title": "Table 43. PLL1 characteristics (wide VCO frequency range)",
+  "page": 151,
+  "section": "6.3.12 PLL characteristics",
+  "section_title": "PLL characteristics",
+  "semantic_type": "",
+  "tags": [],
+  "url": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf#page=151",
+  "url_pdf": "https://www.st.com/resource/en/datasheet/stm32h725ae.pdf",
+  "text_helper": "Table 43. PLL1 characteristics (wide VCO frequency range) — section 6.3.12 PLL characteristics. Symbol, Parameter, Conditions, Conditions, Min, +3 autres.",
+  "table_content": {
+    "headers": [
+      "Symbol",
+      "Parameter",
+      "Conditions",
+      "Conditions",
+      "Min",
+      "Typ",
+      "Max",
+      "Unit"
+    ],
+    "rows": [
+      [
+        "f PLL_IN",
+        "PLL input clock",
+        "-",
+        "-",
+        "2",
+        "-",
+        "16",
+        "MHz"
+      ],
+      [
+        "f PLL_IN",
+        "PLL input clock duty cycle",
+        "-",
+        "-",
+        "10",
+        "-",
+        "90",
+        "%"
+      ],
+      [
+        "f PLL_P_OUT",
+        "PLL multiplier output clock P",
+        "VOS0",
+        "VOS0",
+        "1.5",
+        "-",
+        "550(2)",
+        "MHz"
+      ],
+      [
+        "f PLL_P_OUT",
+        "PLL multiplier output clock P",
+        "VOS1",
+        "VOS1",
+        "1.5",
+        "-",
+        "400(2)",
+        "MHz"
+      ],
+      [
+        "f PLL_P_OUT",
+        "PLL multiplier output clock P",
+        "VOS2",
+        "VOS2",
+        "1.5",
+        "-",
+        "300(2)",
+        "MHz"
+      ],
+      [
+        "f PLL_P_OUT",
+        "PLL multiplier output clock P",
+        "VOS3",
+        "VOS3",
+        "1.5",
+        "-",
+        "170(2)",
+        "MHz"
+      ],
+      [
+        "f VCO_OUT",
+        "PLL VCO output",
+        "-",
+        "-",
+        "192",
+        "-",
+        "836(3)",
+        "MHz"
+      ],
+      [
+        "t LOCK",
+        "PLL lock time",
+        "Normal mode",
+        "Normal mode",
+        "15",
+        "50",
+        "150(3)",
+        "µs"
+      ],
+      [
+        "t LOCK",
+        "PLL lock time",
+        "Sigma-delta mode (CKIN ≥ 8 MHz)",
+        "Sigma-delta mode (CKIN ≥ 8 MHz)",
+        "25",
+        "65",
+        "170",
+        "µs"
+      ],
+      [
+        "Jitter",
+        "Cycle-to-cycle jitter(4)",
+        "f = PLL_OUT f /100 VCO_OUT",
+        "f VCO_OUT = 192 MHz",
+        "-",
+        "51",
+        "-",
+        "ps"
+      ],
+      [
+        "Jitter",
+        "Cycle-to-cycle jitter(4)",
+        "f = PLL_OUT f /100 VCO_OUT",
+        "f VCO_OUT = 400 MHz",
+        "-",
+        "19",
+        "-",
+        "ps"
+      ],
+      [
+        "Jitter",
+        "Cycle-to-cycle jitter(4)",
+        "f = PLL_OUT f /100 VCO_OUT",
+        "f VCO_OUT = 560 MHz",
+        "-",
+        "10",
+        "-",
+        "ps"
+      ],
+      [
+        "Jitter",
+        "Cycle-to-cycle jitter(4)",
+        "f = PLL_OUT f /100 VCO_OUT",
+        "f VCO_OUT = 800 MHz",
+        "-",
+        "9",
+        "-",
+        "ps"
+      ],
+      [
+        "Jitter",
+        "Period jitter",
+        "f = PLL_OUT f /100 VCO_OUT",
+        "f VCO_OUT = 192 MHz",
+        "-",
+        "38",
+        "-",
+        "ps"
+      ],
+      [
+        "Jitter",
+        "Period jitter",
+        "f = PLL_OUT f /100 VCO_OUT",
+        "f VCO_OUT = 560 MHz",
+        "-",
+        "8",
+        "-",
+        "ps"
+      ],
+      [
+        "Jitter",
+        "Period jitter",
+        "f = PLL_OUT f /100 VCO_OUT",
+        "f VCO_OUT = 800 MHz",
+        "-",
+        "7",
+        "-",
+        "ps"
+      ],
+      [
+        "Jitter",
+        "Long term jitter",
+        "Normal mode (CKIN = 2 MHz)",
+        "f VCO_OUT = 192 MHz",
+        "-",
+        "0.15",
+        "-",
+        "%"
+      ],
+      [
+        "Jitter",
+        "Long term jitter",
+        "Normal mode (CKIN = 2 MHz)",
+        "f VCO_OUT = 400 MHz",
+        "-",
+        "0.14",
+        "-",
+        "%"
+      ],
+      [
+        "Jitter",
+        "Long term jitter",
+        "Normal mode (CKIN = 2 MHz)",
+        "f VCO_OUT = 832 MHz",
+        "-",
+        "0.16",
+        "-",
+        "%"
+      ],
+      [
+        "Jitter",
+        "Long term jitter",
+        "Sigma-delta mode (CKIN = 16 MHz)",
+        "f VCO_OUT = 192 MHz",
+        "-",
+        "0.17",
+        "-",
+        "%"
+      ],
+      [
+        "Jitter",
+        "Long term jitter",
+        "Sigma-delta mode (CKIN = 16 MHz)",
+        "f VCO_OUT = 500 MHz",
+        "-",
+        "0.08",
+        "-",
+        "%"
+      ],
+      [
+        "Jitter",
+        "Long term jitter",
+        "Sigma-delta mode (CKIN = 16 MHz)",
+        "f VCO_OUT = 836 MHz",
+        "-",
+        "0.06",
+        "-",
+        "%"
+      ],
+      [
+        "I DD(PLL)",
+        "PLL power consumption",
+        "f = VCO_OUT 560 MHz",
+        "V DDA",
+        "530",
+        "557",
+        "670",
+        "µA"
+      ],
+      [
+        "I DD(PLL)",
+        "PLL power consumption",
+        "f = VCO_OUT 560 MHz",
+        "V CORE",
+        "1190",
+        "1285",
+        "6300",
+        "µA"
+      ],
+      [
+        "I DD(PLL)",
+        "PLL power consumption",
+        "f = VCO_OUT 192 MHz",
+        "V DDA",
+        "260",
+        "286",
+        "513",
+        "µA"
+      ],
+      [
+        "I DD(PLL)",
+        "PLL power consumption",
+        "f = VCO_OUT 192 MHz",
+        "V CORE",
+        "309",
+        "377",
+        "5700",
+        "µA"
+      ]
+    ],
+    "notes": [
+      "2. This value must be limited to the maximum frequency due to the product limitation.",
+      "3. Guaranteed by characterization results.",
+      "4. Integer mode only."
+    ],
+    "legend": "",
+    "semantic_type": "",
+    "semantic": {}
+  }
+}
