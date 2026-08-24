@@ -1,0 +1,104 @@
+{
+  "table_id": "table_47",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "Peak level(1) 0.1 to 30 MHz",
+      "row_index": 0,
+      "analyse_visuelle": "Dans la colonne Conditions, les indices DD et A ont été mal fusionnés en milieu/fin de ligne. Le texte exact est 'VDD = 3.6 V, TA = 25 °C, LQFP176 package, compliant with IEC61967-2'. De plus, SEMI est le symbole.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "S EMI",
+          "nouvelle_valeur": "SEMI",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 3.6 V, T = 25 °C, LQFP176 package, DD A compliant with IEC61967-2",
+          "nouvelle_valeur": "VDD = 3.6 V, TA = 25 °C, LQFP176 package, compliant with IEC61967-2",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Peak level(1) 30 to 130 MHz",
+      "row_index": 1,
+      "analyse_visuelle": "Correction de SEMI et du texte de la colonne Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "S EMI",
+          "nouvelle_valeur": "SEMI",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 3.6 V, T = 25 °C, LQFP176 package, DD A compliant with IEC61967-2",
+          "nouvelle_valeur": "VDD = 3.6 V, TA = 25 °C, LQFP176 package, compliant with IEC61967-2",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Peak level(1) 130 MHz to 1 GHz",
+      "row_index": 2,
+      "analyse_visuelle": "Correction de SEMI et du texte de la colonne Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "S EMI",
+          "nouvelle_valeur": "SEMI",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 3.6 V, T = 25 °C, LQFP176 package, DD A compliant with IEC61967-2",
+          "nouvelle_valeur": "VDD = 3.6 V, TA = 25 °C, LQFP176 package, compliant with IEC61967-2",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Peak level(1) 1 GHz to 2 GHz",
+      "row_index": 3,
+      "analyse_visuelle": "Correction de SEMI et du texte de la colonne Conditions.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "S EMI",
+          "nouvelle_valeur": "SEMI",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 3.6 V, T = 25 °C, LQFP176 package, DD A compliant with IEC61967-2",
+          "nouvelle_valeur": "VDD = 3.6 V, TA = 25 °C, LQFP176 package, compliant with IEC61967-2",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "Level(2) 0.1 MHz to 2 GHz",
+      "row_index": 4,
+      "analyse_visuelle": "Correction de SEMI, du texte de la colonne Conditions et de l'unité qui est un tiret '-' sur cette ligne (Level classification) et non 'dBµV'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "S EMI",
+          "nouvelle_valeur": "SEMI",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 3.6 V, T = 25 °C, LQFP176 package, DD A compliant with IEC61967-2",
+          "nouvelle_valeur": "VDD = 3.6 V, TA = 25 °C, LQFP176 package, compliant with IEC61967-2",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

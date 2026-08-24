@@ -1,0 +1,66 @@
+{
+  "table_id": "table_45",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "NEND Endurance",
+      "row_index": 0,
+      "analyse_visuelle": "L'indice 'J' dans 'TJ' a été mal positionné en fin de texte par l'OCR ('T = –40 to +125 °C J' au lieu de 'TJ = –40 to +125 °C'). Le symbole est 'NEND'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "N END",
+          "nouvelle_valeur": "NEND",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "T = –40 to +125 °C J",
+          "nouvelle_valeur": "TJ = –40 to +125 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tRET Data retention (1 kcycle)",
+      "row_index": 1,
+      "analyse_visuelle": "L'indice 'A' dans 'TA' a été rejeté à la fin de la cellule. Le symbole est 'tRET'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t RET",
+          "nouvelle_valeur": "tRET",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "1 kcycle at T = 85 °C A",
+          "nouvelle_valeur": "1 kcycle at TA = 85 °C",
+          "confiance": 98
+        }
+      ]
+    },
+    {
+      "ligne": "tRET Data retention (10 kcycles)",
+      "row_index": 2,
+      "analyse_visuelle": "L'indice 'A' dans 'TA' a été rejeté à la fin de la cellule. Le symbole est 'tRET'.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "t RET",
+          "nouvelle_valeur": "tRET",
+          "confiance": 95
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "10 kcycles at T = 55 °C A",
+          "nouvelle_valeur": "10 kcycles at TA = 55 °C",
+          "confiance": 98
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

@@ -1,0 +1,10 @@
+{
+  "table_id": "table_48",
+  "status": "MANUAL_REVIEW_NEEDED",
+  "logs": [
+    "BOUCLIER-4: Annulation car au moins une correction avait une confiance < 80%."
+  ],
+  "erreurs_corrigees": [],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}

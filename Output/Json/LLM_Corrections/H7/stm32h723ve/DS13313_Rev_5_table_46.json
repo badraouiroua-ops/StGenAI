@@ -1,0 +1,53 @@
+{
+  "table_id": "table_46",
+  "status": "ERRORS_FOUND",
+  "logs": [],
+  "erreurs_corrigees": [
+    {
+      "ligne": "VFESD",
+      "row_index": 0,
+      "analyse_visuelle": "Correction des espaces et indices mal extraits dans le symbole (VFESD) et les conditions (VDD et TA).",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V FESD",
+          "nouvelle_valeur": "VFESD",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 3.3 V, T = 25 °C, DD A LQFP176, conforming to IEC 61000-4-2",
+          "nouvelle_valeur": "VDD = 3.3 V, TA = 25 °C, LQFP176, conforming to IEC 61000-4-2",
+          "confiance": 100
+        }
+      ]
+    },
+    {
+      "ligne": "VFTB",
+      "row_index": 1,
+      "analyse_visuelle": "Correction des indices VDD, VSS, TA et du symbole VFTB mal reconstruits lors de l'extraction OCR.",
+      "corrections": [
+        {
+          "colonne_index": 0,
+          "valeur_originale_json": "V FTB",
+          "nouvelle_valeur": "VFTB",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 1,
+          "valeur_originale_json": "Fast transient voltage burst limits to be applied through 100 pF on V and V pins to induce a DD SS functional disturbance",
+          "nouvelle_valeur": "Fast transient voltage burst limits to be applied through 100 pF on VDD and VSS pins to induce a functional disturbance",
+          "confiance": 100
+        },
+        {
+          "colonne_index": 2,
+          "valeur_originale_json": "V = 3.3 V, T = 25 °C, DD A LQFP176, conforming to IEC 61000-4-4",
+          "nouvelle_valeur": "VDD = 3.3 V, TA = 25 °C, LQFP176, conforming to IEC 61000-4-4",
+          "confiance": 100
+        }
+      ]
+    }
+  ],
+  "lignes_manquantes_ajoutees": [],
+  "lignes_en_trop_supprimees": []
+}
